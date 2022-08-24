@@ -1,4 +1,4 @@
-# DBindex
+# CTGindex
 Collection os commonly used resources for complex trait genetics.
 
 1. Databases
