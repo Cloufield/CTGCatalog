@@ -5,14 +5,14 @@
 - FULL NAME: Annotate Variation
 - DESCRIPTION: ANNOVAR is an efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others).
 - URL : https://annovar.openbioinformatics.org/en/latest/
-- CITATION:Wang K, Li M, Hakonarson H. ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data Nucleic Acids Research, 38:e164, 2010
+- CITATION: Wang K, Li M, Hakonarson H. ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data Nucleic Acids Research, 38:e164, 2010
 
 ## VEP
-- SHORT NAME: 
-- FULL NAME: 
-- DESCRIPTION: 
-- URL : 
-- CITATION:
+- SHORT NAME: VEP
+- FULL NAME: Ensembl Variant Effect Predictor
+- DESCRIPTION: The Ensembl Variant Effect Predictor is a powerful toolset for the analysis, annotation, and prioritization of genomic variants in coding and non-coding regions. It provides access to an extensive collection of genomic annotation, with a variety of interfaces to suit different requirements, and simple options for configuring and extending analysis. It is open source, free to use, and supports full reproducibility of results. The Ensembl Variant Effect Predictor can simplify and accelerate variant interpretation in a wide range of study designs.
+- URL : https://asia.ensembl.org/info/docs/tools/vep/index.html
+- CITATION: McLaren, W., Gil, L., Hunt, S.E. et al. The Ensembl Variant Effect Predictor. Genome Biol 17, 122 (2016). https://doi.org/10.1186/s13059-016-0974-4
 
 ### loftee
 - SHORT NAME: LOFTEE
