@@ -24,3 +24,10 @@ Currently assesses variants that are:
   - Frameshift variants
 - URL : https://github.com/konradjk/loftee
 - CITATION: Karczewski, K.J., Francioli, L.C., Tiao, G. et al. The mutational constraint spectrum quantified from variation in 141,456 humans. Nature 581, 434–443 (2020). https://doi.org/10.1038/s41586-020-2308-7
+
+## SnpEff
+- SHORT NAME: SnpEff
+- FULL NAME: SNP effect
+- DESCRIPTION: Genetic variant annotation and functional effect prediction toolbox. It annotates and predicts the effects of genetic variants on genes and proteins (such as amino acid changes).
+- URL:http://pcingola.github.io/SnpEff/
+- CITATION: A program for annotating and predicting the effects of single nucleotide polymorphisms, SnpEff: SNPs in the genome of Drosophila melanogaster strain w1118; iso-2; iso-3.", Cingolani P, Platts A, Wang le L, Coon M, Nguyen T, Wang L, Land SJ, Lu X, Ruden DM. Fly (Austin). 2012 Apr-Jun;6(2):80-92. PMID: 22728672
