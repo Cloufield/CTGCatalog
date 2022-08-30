@@ -1,6 +1,6 @@
 # CTGindex
 Collection os commonly used resources for complex trait genetics.
 
-1. Databases
-2. Sumstats
-3. Tools
+1. Databases : a collection of commonly used databases
+2. Sumstats : a collection of publically available gwas summary statistics
+3. Tools : a collection of commonly used tools
