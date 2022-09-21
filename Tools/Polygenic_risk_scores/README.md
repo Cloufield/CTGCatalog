@@ -48,3 +48,35 @@
 - URL : 
 - CITATION: 
 
+# PRS-CSx
+- SHORT NAME: PRS-CSx
+- FULL NAME: 
+- DESCRIPTION: 
+- URL : 
+- CITATION: 
+
+# Multi-PGS
+- SHORT NAME: Multi-PGS
+- LAUNCH YEAR: 2022
+- FULL NAME: 
+- DESCRIPTION: 
+- URL : 
+- CITATION: https://www.medrxiv.org/content/10.1101/2022.09.14.22279940v1
+
+# wMT-SBLUP
+- SHORT NAME: wMT-SBLUP
+- LAUNCH YEAR: 2018
+- FULL NAME: 
+- DESCRIPTION: 
+- URL : 
+- CITATION: Maier, R.M., Zhu, Z., Lee, S.H. et al. Improving genetic prediction by leveraging genetic correlations among human diseases and traits. Nat Commun 9, 989 (2018). https://doi.org/10.1038/s41467-017-02769-6
+
+# pgsc_calc
+- SHORT NAME: pgsc_calc
+- LAUNCH YEAR: 2022
+- FULL NAME: 
+- DESCRIPTION: 
+- URL : https://github.com/PGScatalog/pgsc_calc
+- CITATION: 
+
+
