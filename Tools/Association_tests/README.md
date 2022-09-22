@@ -30,3 +30,8 @@
 # Multi-trait genome-wide association
 ## MTAG
 ## Genomic SEM
+
+
+# sQTL
+## THISTLE (testing for heterogeneity between isoform-eQTL effects) is a transcript-based splicing QTL (sQTL) mapping method that uses either individual-level genotype and RNA-seq data or summary-level isoform-eQTL data.
+## sQTLseekeR
