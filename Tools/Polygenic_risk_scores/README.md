@@ -98,6 +98,7 @@
 - DESCRIPTION: The PGS Catalog is an open database of published polygenic scores (PGS). Each PGS in the Catalog is consistently annotated with relevant metadata; including scoring files (variants, effect alleles/weights), annotations of how the PGS was developed and applied, and evaluations of their predictive performance.
 - URL : https://www.pgscatalog.org/
 - CITATION: Lambert, S. A., Gil, L., Jupp, S., Ritchie, S. C., Xu, Y., Buniello, A., ... & Inouye, M. (2021). The Polygenic Score Catalog as an open database for reproducibility and systematic evaluation. Nature Genetics, 53(4), 420-425.
+- KEY WORDS: PGS database
 
 ## pgsc_calc
 - SHORT NAME: pgsc_calc
@@ -106,6 +107,7 @@
 - DESCRIPTION: pgsc_calc is a bioinformatics best-practice analysis pipeline for calculating polygenic [risk] scores on samples with imputed genotypes using existing scoring files from the Polygenic Score (PGS) Catalog and/or user-defined PGS/PRS.
 - URL : https://github.com/PGScatalog/pgsc_calc
 - CITATION: https://github.com/PGScatalog/pgsc_calc
+- KEY WORDS: PRS calculation pipeline
 
 ## VIPRS
 - SHORT NAME: VIPRS
