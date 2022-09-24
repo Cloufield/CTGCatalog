@@ -11,6 +11,8 @@
 - wMT-SBLUP
 - pgsc_calc
 - VIPRS
+- MegaPRS
+- SBayesS
 
 ## PRS Tutorial
 - SHORT NAME: PRS Tutorial
