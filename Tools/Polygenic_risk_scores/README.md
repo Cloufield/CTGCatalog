@@ -57,7 +57,7 @@
 
 # Multi-PGS
 - SHORT NAME: Multi-PGS
-- LAUNCH YEAR: 2022
+- YEAR: 2022
 - FULL NAME: 
 - DESCRIPTION: 
 - URL : 
@@ -65,7 +65,7 @@
 
 # wMT-SBLUP
 - SHORT NAME: wMT-SBLUP
-- LAUNCH YEAR: 2018
+- YEAR: 2018
 - FULL NAME: 
 - DESCRIPTION: 
 - URL : 
@@ -73,10 +73,18 @@
 
 # pgsc_calc
 - SHORT NAME: pgsc_calc
-- LAUNCH YEAR: 2022
+- YEAR: 2022
 - FULL NAME: 
 - DESCRIPTION: 
 - URL : https://github.com/PGScatalog/pgsc_calc
 - CITATION: 
 
+# VIPRS
+- SHORT NAME: VIPRS
+- FULL NAME: Variational inference of polygenic risk scores
+- YEAR: 2022
+- DESCRIPTION: viprs is a python package that implements scripts and utilities for running variational inference algorithms on genome-wide association study (GWAS) data for the purposes polygenic risk estimation.
+- URL : https://github.com/shz9/viprs
+- CITATION: Zabad, S., Gravel, S., & Li, Y. (2022). Fast and Accurate Bayesian Polygenic Risk Modeling with Variational Inference. bioRxiv.
+- KEY WORD:  Variational Inference
 
