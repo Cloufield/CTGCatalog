@@ -12,6 +12,12 @@
 - pgsc_calc
 - VIPRS
 
+## PRS Tutorial
+- SHORT NAME: PRS Tutorial
+- FULL NAME: PRS Tutorial
+- DESCRIPTION: This tutorial provides a step-by-step guide to performing basic polygenic risk score (PRS) analyses and accompanies our PRS Guide paper. The aim of this tutorial is to provide a simple introduction of PRS analyses to those new to PRS, while equipping existing users with a better understanding of the processes and implementation "underneath the hood" of popular PRS software.
+- URL : https://choishingwan.github.io/PRS-Tutorial/
+- CITATION: Choi, S. W., Mak, T. S. H., & O’Reilly, P. F. (2020). Tutorial: a guide to performing polygenic risk score analyses. Nature protocols, 15(9), 2759-2772.
 
 ## PLINK2
 - SHORT NAME: PLINK2 
@@ -34,17 +40,20 @@
 - DESCRIPTION: A new feature of PRSice is the ability to perform set base/pathway based analysis. This new feature is called PRSet.
 - URL : https://www.prsice.info/quick_start_prset/
 - CITATION: Choi SW, Garcia-Gonzalez J, Ruan Y, et al. The power of pathway-based polygenic risk scores. Research Square; 2021. DOI: 10.21203/rs.3.rs-643696/v1.
+- KEY WORDS: pathway-based
 
 ## LDpred2
 - SHORT NAME: LDpred2
-- FULL NAME: 
-- DESCRIPTION: 
-- URL : 
-- CITATION: 
+- FULL NAME: LDpred2
+- DESCRIPTION: LDpred-2 is one of the dedicated PRS programs which is an R package that uses a Bayesian approach to polygenic risk scoring.
+- URL : https://privefl.github.io/bigsnpr/articles/LDpred2.html
+- CITATION: Privé, F., Arbel, J., & Vilhjálmsson, B. J. (2020). LDpred2: better, faster, stronger. Bioinformatics, 36(22-23), 5424-5431.
+- KEY WORDS: Bayesian
 
 ## PRS-CS
 - SHORT NAME: PRS-CS
 - FULL NAME: PRS-CS
+- YEAR: 2019
 - DESCRIPTION: PRS-CS is a Python based command line tool that infers posterior SNP effect sizes under continuous shrinkage (CS) priors using GWAS summary statistics and an external LD reference panel.
 - URL : https://github.com/getian107/PRScs
 - CITATION: Ge, T., Chen, CY., Ni, Y. et al. Polygenic prediction via Bayesian regression and continuous shrinkage priors. Nat Commun 10, 1776 (2019). https://doi.org/10.1038/s41467-019-09718-5
@@ -52,10 +61,12 @@
 
 ## lassosum
 - SHORT NAME: lassosum
-- FULL NAME: 
-- DESCRIPTION: 
-- URL : 
-- CITATION: 
+- FULL NAME: lassosum
+- YEAR: 2017
+- DESCRIPTION: lassosum is a method for computing LASSO/Elastic Net estimates of a linear regression problem given summary statistics from GWAS and Genome-wide meta-analyses, accounting for Linkage Disequilibrium (LD), via a reference panel.
+- URL : https://github.com/tshmak/lassosum
+- CITATION: Mak, T. S. H., Porsch, R. M., Choi, S. W., Zhou, X., & Sham, P. C. (2017). Polygenic scores via penalized regression on summary statistics. Genetic epidemiology, 41(6), 469-480.
+- KEY WORDS: penalized regression
 
 ## PRS-CSx
 - SHORT NAME: PRS-CSx
@@ -104,4 +115,5 @@
 - URL : https://github.com/shz9/viprs
 - CITATION: Zabad, S., Gravel, S., & Li, Y. (2022). Fast and Accurate Bayesian Polygenic Risk Modeling with Variational Inference. bioRxiv.
 - KEY WORDS:  Variational Inference (VI)
+
 
