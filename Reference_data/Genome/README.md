@@ -29,9 +29,18 @@
 - DESCRIPTION:(Homo_sapiens_assembly19.fasta, MD5sum: 886ba1559393f75872c1cf459eb57f2d)
 - CHROMOSOMES: 1...22,X,Y,MT
 
-## b37  - humanG1Kv37 (human_g1k_v37.fasta, MD5sum: 0ce84c872fc0072a885926823dcd0338) 
+
+## humanG1Kv37 
+- FILE NAME: human_g1k_v37.fasta, MD5sum: 0ce84c872fc0072a885926823dcd0338
+- SOURCE: the 1000 Genomes Project Phase I and III, Broad Institute
+- URL : 
+- CONTENTS: 1...22,X,Y,MT, unlocalized sequences (GL000191.1 ...),  unplaced sequences(GL000211.1 ...)
+- DESCRIPTION: no haplotype sequence or EBV
+- DESCRIPTION URL: https://www.internationalgenome.org/category/assembly
+
+## b37
+- FILE NAME: Homo_sapiens_assembly19.fasta
 - SOURCE: the 1000 Genomes Project Phase I and III, Broad Institute
 - URL : https://data.broadinstitute.org/snowman/hg19/
-- CONTENTS: 1...22,X,Y,MT, unlocalized sequences,  unplaced sequences, 
-- DESCRIPTION:(Homo_sapiens_assembly19.fasta, MD5sum: 886ba1559393f75872c1cf459eb57f2d), no haplotype sequence or EBV
-- DESCRIPTION URL:https://www.internationalgenome.org/category/assembly
+- CONTENTS: 1...22,X,Y,MT, unlocalized sequences (GL000191.1 ...),  unplaced sequences(GL000211.1 ...) , NC_007605
+- DESCRIPTION URL:
