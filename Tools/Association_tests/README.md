@@ -11,10 +11,8 @@
   - regenie
   - SAIGE-gene / SAIGE-GENE+
   - SKAT-O
-- Multi-trait genome-wide association
-  - MTAG
-  - Genomic SEM
-  
+
+---
 # Single variant association tests
 ## PLINK / PLINK2
 ## EMAX
@@ -23,15 +21,20 @@
 ## REGENIE
 ## SAIGE
 ## Bolt-lMM
+---
 # Gene-based analysis (rare variant)
 ## regenie
 ## SAIGE-gene / SAIGE-GENE+
 ## SKAT-O
-# Multi-trait genome-wide association
-## MTAG
-## Genomic SEM
 
+---
 
+# eQTL
+## MatrixEQTL 
+## FastQTL 
+## TReCASE 
+## RASQUAL
+---
 # sQTL
 ## THISTLE 
 - SHORT NAME: THISTLE
