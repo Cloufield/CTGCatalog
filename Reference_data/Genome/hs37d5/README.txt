@@ -82,4 +82,5 @@
 >GL000194.1 dna:supercontig supercontig::GL000194.1:1:191469:1
 >GL000225.1 dna:supercontig supercontig::GL000225.1:1:211173:1
 >GL000192.1 dna:supercontig supercontig::GL000192.1:1:547496:1
->NC_007605 NC_007605.1 "EBV type 1"
+>NC_007605
+>hs37d5
