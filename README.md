@@ -1,4 +1,4 @@
-# CTGindex
+# CTGCatalog
 A collection of commonly used resources for complex trait genetics.
 
 1. Databases : a collection of commonly used databases
