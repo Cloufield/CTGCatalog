@@ -1,6 +1,13 @@
-# eQTL
+# QTL
+## QTLbase
+- URL: http://www.mulinlab.org/qtlbase
+- CITATION: Zheng, Z., Huang, D., Wang, J., Zhao, K., Zhou, Y., Guo, Z., ... & Li, M. J. (2020). QTLbase: an integrative resource for quantitative trait loci across multiple human molecular phenotypes. Nucleic acids research, 48(D1), D983-D991.
 
-## GTEx
+------------------------------------------------------------------
+# Transcriptional regulation
+## eQTL - gene expression 
+
+### GTEx
 - URL : https://gtexportal.org/home/datasets
 
 ### v9 Long Read RNASeq data from 88 GTEx tissue and cell line samples
@@ -9,23 +16,35 @@
 ### v8 Single-Tissue e/sQTL Data
 - CITATION: GTEx Consortium. (2020). The GTEx Consortium atlas of genetic regulatory effects across human tissues. Science, 369(6509), 1318-1330. 
 
-## eQTLGen Consortium
+### eQTLGen Consortium
 - URL : https://www.eqtlgen.org/
 - CITATION: Võsa, U., Claringbould, A., Westra, H. J., Bonder, M. J., Deelen, P., Zeng, B., ... & Franke, L. (2021). Large-scale cis-and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression. Nature genetics, 53(9), 1300-1310.
 
-## PsychENCODE consortium
+### PsychENCODE consortium
 - URL : https://www.nimhgenetics.org/resources/psychencode
 - CITATION: Akbarian, S., Liu, C., Knowles, J. et al. The PsychENCODE project. Nat Neurosci 18, 1707–1712 (2015). https://doi.org/10.1038/nn.4156
 
-# sQTL
-## GTEx
+## sQTL - alternative splicing
+### GTEx
 ### v8 Single-Tissue e/sQTL Data
 - CITATION: GTEx Consortium. (2020). The GTEx Consortium atlas of genetic regulatory effects across human tissues. Science, 369(6509), 1318-1330. 
 
-## BrainMeta sQTL & eQTL portal
+### BrainMeta sQTL & eQTL portal
 - DESCRIPTION: We developed a method, THISTLE, which uses individual-level genotype and RNA-seq data or summary-level isoform-eQTL data for splicing QTL (sQTL) mapping (Qi et al. 2022). We applied THISTLE, in combination with a complementary sQTL mapping strategy, for sQTL mapping using RNA-seq data of 2,865 brain cortex samples from 2,443 unrelated individuals of European ancestry with genome-wide SNP data. We also applied QTLtools for eQTL mapping using the same dataset. See “Tutorial” for the instructions to use this online portal. See “BESD files” for details to download the full sQTL or eQTL summary statistics in SMR binary (BESD) format.
 - URL :https://yanglab.westlake.edu.cn/data/brainmeta/cis_sqtl/
-
-# pQTL
-
-
+------------------------------------------------------------------
+# Post-transcriptional regulation
+## reQTL - RNA editing
+## cerQTL - competing endogenous RNA expression
+------------------------------------------------------------------
+# Translational regulation
+## pQTL - protein expression
+## riboQTL - ribosome occupancy 
+------------------------------------------------------------------
+# Post-translational regulation
+## metaQTL - cell metabolism
+------------------------------------------------------------------
+# Epigenetic regulation
+## mQTL - DNA methylation
+## caQTL - chromatin accessibility
+## hQTL - histone modification
