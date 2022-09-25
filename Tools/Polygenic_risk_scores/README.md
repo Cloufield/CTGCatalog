@@ -13,6 +13,8 @@
 - VIPRS
 - MegaPRS
 - SBayesS
+- ExPRSweb
+- Cancer PRSweb
 
 ## PRS Tutorial
 - SHORT NAME: PRS Tutorial
@@ -120,4 +122,21 @@
 - CITATION: Zabad, S., Gravel, S., & Li, Y. (2022). Fast and Accurate Bayesian Polygenic Risk Modeling with Variational Inference. bioRxiv.
 - KEY WORDS:  Variational Inference (VI)
 
+## ExPRSweb
+- SHORT NAME: ExPRSweb
+- FULL NAME: exposure polygenic risk scores (ExPRSs)
+- YEAR: 2022
+- DESCRIPTION: Integrating published and freely available genome-wide association studies (GWAS) summary statistics from multiple sources (published GWAS, the NHGRI-EBI GWAS Catalog, FinnGen- or UKB-based GWAS), we created an online repository for exposure polygenic risk scores (ExPRS) for health-related exposure traits. Our framework condenses these summary statistics into ExPRS using linkage disequilibrium pruning and p-value thresholding (P&T) or penalized, genome-wide effect size weighting. We evaluate them in the cohort of the Michigan Genomics Initiative (MGI), a longitudinal biorepository effort at Michigan Medicine, and in the population-based UK Biobank Study (UKB). For each ExPRS construct, measures on performance, accuracy, and discrimination are provided. Beyond the ExPRS evaluation in MGI and UKB, the ExPRSweb platform features construct downloads, evaluation in the top percentiles, and phenome-wide ExPRS association studies (ExPRS-PheWAS) for a subset of ExPRS that are predictive for the corresponding exposure.
+- URL : https://exprsweb.sph.umich.edu:8443/
+- CITATION: Ma, Y., Patil, S., Zhou, X., Mukherjee, B., & Fritsche, L. G. (2022). ExPRSweb-An Online Repository with Polygenic Risk Scores for Common Health-related Exposures. medRxiv.
+- KEY WORDS: exposure PRS
+
+## Cancer PRSweb
+- SHORT NAME: Cancer PRSweb
+- FULL NAME: Cancer PRSweb
+- YEAR: 2020
+- DESCRIPTION: Our framework condenses these summary statistics into PRS using linkage disequilibrium pruning and p-value thresholding (fixed or data-adaptively optimized thresholds) or penalized, genome-wide effect size weighting. We evaluate them in the cancer-enriched cohort of the Michigan Genomics Initiative (MGI), a longitudinal biorepository effort at Michigan Medicine, and in the population-based UK Biobank Study (UKB). For each PRS construct, measures on performance, calibration, and discrimination are provided. Beyond the cancer PRS evaluation in MGI and UKB, the PRSweb platform features construct downloads, risk evaluation in the top percentiles, and phenome-wide PRS association studies (PRS-PheWAS) for a subset of PRS that are predictive for the primary cancer.
+- URL : https://prsweb.sph.umich.edu:8443/
+- CITATION: Fritsche, L. G., Patil, S., Beesley, L. J., VandeHaar, P., Salvatore, M., Ma, Y., ... & Mukherjee, B. (2020). Cancer PRSweb: an online repository with polygenic risk scores for major cancer traits and their evaluation in two independent biobanks. The American Journal of Human Genetics, 107(5), 815-836.
+- KEY WORDS: Cancer PRS
 
