@@ -1,0 +1,25 @@
+>chr1 CP068277.2 Homo sapiens isolate CHM13 chromosome 1
+>chr2 CP068276.2 Homo sapiens isolate CHM13 chromosome 2
+>chr3 CP068275.2 Homo sapiens isolate CHM13 chromosome 3
+>chr4 CP068274.2 Homo sapiens isolate CHM13 chromosome 4
+>chr5 CP068273.2 Homo sapiens isolate CHM13 chromosome 5
+>chr6 CP068272.2 Homo sapiens isolate CHM13 chromosome 6
+>chr7 CP068271.2 Homo sapiens isolate CHM13 chromosome 7
+>chr8 CP068270.2 Homo sapiens isolate CHM13 chromosome 8
+>chr9 CP068269.2 Homo sapiens isolate CHM13 chromosome 9
+>chr10 CP068268.2 Homo sapiens isolate CHM13 chromosome 10
+>chr11 CP068267.2 Homo sapiens isolate CHM13 chromosome 11
+>chr12 CP068266.2 Homo sapiens isolate CHM13 chromosome 12
+>chr13 CP068265.2 Homo sapiens isolate CHM13 chromosome 13
+>chr14 CP068264.2 Homo sapiens isolate CHM13 chromosome 14
+>chr15 CP068263.2 Homo sapiens isolate CHM13 chromosome 15
+>chr16 CP068262.2 Homo sapiens isolate CHM13 chromosome 16
+>chr17 CP068261.2 Homo sapiens isolate CHM13 chromosome 17
+>chr18 CP068260.2 Homo sapiens isolate CHM13 chromosome 18
+>chr19 CP068259.2 Homo sapiens isolate CHM13 chromosome 19
+>chr20 CP068258.2 Homo sapiens isolate CHM13 chromosome 20
+>chr21 CP068257.2 Homo sapiens isolate CHM13 chromosome 21
+>chr22 CP068256.2 Homo sapiens isolate CHM13 chromosome 22
+>chrX CP068255.2 Homo sapiens isolate CHM13 chromosome X
+>chrY CP086569.2 Homo sapiens isolate NA24385 chromosome Y
+>chrM CP068254.1 Homo sapiens isolate CHM13 mitochondrion, complete genome
