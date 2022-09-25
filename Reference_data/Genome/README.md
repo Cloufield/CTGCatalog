@@ -11,6 +11,7 @@
 
 ## CHM13
 - URL: https://github.com/marbl/CHM13
+- CONTENTS: chr1-22(CHM13),chrX(CHM13),chrY(NA24385),chrM(CHM13)
 - CITATION : Nurk, S., Koren, S., Rhie, A., Rautiainen, M., Bzikadze, A. V., Mikheenko, A., ... & Phillippy, A. M. (2022). The complete sequence of a human genome. Science, 376(6588), 44-53.
 
 ## GRCh39 (indefinitely postponed)
