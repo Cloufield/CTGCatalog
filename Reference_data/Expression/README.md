@@ -29,6 +29,11 @@
 - DESCRIPTION: Gene Expression database of Normal and Tumor tissues 2 (GENT2) 
 - CITATION: Park, Seung-Jin, et al. "GENT2: an updated gene expression database for normal and tumor tissues." BMC medical genomics 12.5 (2019): 1-8.
 
+# GEN
+- FULL NAME: Gene Expression Nebulas
+- URL: https://ngdc.cncb.ac.cn/gen/
+- DESCRIPTION: Gene Expression Nebulas (GEN) is a data portal of transcriptomic profiles under various conditions derived entirely from bulk and single-cell RNA-Seq data analysis in multiple species.
+- CITATION:Zhang, Yuansheng, et al. "Gene Expression Nebulas (GEN): a comprehensive data portal integrating transcriptomic profiles across multiple species at both bulk and single-cell levels." Nucleic Acids Research 50.D1 (2022): D1016-D1024.
 
 # The Human PRotein Atlas
 - URL : https://www.proteinatlas.org/
