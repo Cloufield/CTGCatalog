@@ -28,3 +28,9 @@
 - URL: http://gent2.appex.kr/gent2/
 - DESCRIPTION: Gene Expression database of Normal and Tumor tissues 2 (GENT2) 
 - CITATION: Park, Seung-Jin, et al. "GENT2: an updated gene expression database for normal and tumor tissues." BMC medical genomics 12.5 (2019): 1-8.
+
+
+# The Human PRotein Atlas
+- URL : https://www.proteinatlas.org/
+- DESCRIPTION: The Human Protein Atlas is a Swedish-based program initiated in 2003 with the aim to map all the human proteins in cells, tissues, and organs using an integration of various omics technologies, including antibody-based imaging, mass spectrometry-based proteomics, transcriptomics, and systems biology. All the data in the knowledge resource is open access to allow scientists both in academia and industry to freely access the data for exploration of the human proteome.
+- CITATION: Uhlén, Mathias, et al. "Proteomics. Tissue-based map of the human proteome." Science (New York, NY) 347.6220 (2015): 1260419-1260419.
