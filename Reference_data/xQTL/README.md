@@ -46,5 +46,6 @@
 ------------------------------------------------------------------
 # Epigenetic regulation
 ## mQTL - DNA methylation
+### iMETHYL
 ## caQTL - chromatin accessibility
 ## hQTL - histone modification
