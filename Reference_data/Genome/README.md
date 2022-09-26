@@ -47,7 +47,7 @@
 ## humanG1Kv37 
 - FILE NAME: human_g1k_v37.fasta
 - SOURCE: the 1000 Genomes Project Phase I and III, Broad Institute
-- URL : 
+- URL : http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/
 - CONTENTS: 1...22,X,Y,MT, unlocalized sequences (GL000191.1 ...),  unplaced sequences(GL000211.1 ...)
 - DESCRIPTION: no haplotype sequence or EBV
 - DESCRIPTION URL: https://www.internationalgenome.org/category/assembly
