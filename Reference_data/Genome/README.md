@@ -8,6 +8,10 @@
 - hs37d5
 - humanG1Kv37
 - b37
+- HUMAN PANGENOME REFERENCE CONSORTIUM
+- 1000 Genome Project  30X high coverage (hg38)
+- 1000 Genome Project  Phase 3 (hg19)
+ 
 
 ## CHM13
 - URL: https://github.com/marbl/CHM13
@@ -58,3 +62,16 @@
 - URL : https://data.broadinstitute.org/snowman/hg19/
 - CONTENTS: 1...22,X,Y,MT, unlocalized sequences (GL000191.1 ...),  unplaced sequences(GL000211.1 ...) , NC_007605
 - DESCRIPTION URL:
+
+## HUMAN PANGENOME REFERENCE CONSORTIUM
+- URL:https://humanpangenome.org/data-and-resources/
+- URL:https://github.com/human-pangenomics/hpp_pangenome_resources
+- CITATION: Liao, W. W., Asri, M., Ebler, J., Doerr, D., Haukness, M., Hickey, G., ... & Human Pangenome Reference Consortium. (2022). A draft human pangenome reference. bioRxiv.
+
+## 1000 Genome Project - 30X high coverage
+- URL: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/1000G_2504_high_coverage/working/20220422_3202_phased_SNV_INDEL_SV/
+- CITATION:Byrska-Bishop, M., Evani, U. S., Zhao, X., Basile, A. O., Abel, H. J., Regier, A. A., ... & Zody, M. C. (2022). High-coverage whole-genome sequencing of the expanded 1000 Genomes Project cohort including 602 trios. Cell, 185(18), 3426-3440.
+
+## 1000 Genome Project - Phase 3
+- URL: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
+- CITATION:1000 Genomes Project Consortium. (2015). A global reference for human genetic variation. Nature, 526(7571), 68.
