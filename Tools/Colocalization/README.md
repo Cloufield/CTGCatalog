@@ -15,3 +15,9 @@
 - YEAR: 2021
 - URL:https://github.com/cnfoley/hyprcoloc
 - CITATION: Foley, C. N., Staley, J. R., Breen, P. G., Sun, B. B., Kirk, P. D., Burgess, S., & Howson, J. M. (2021). A fast and efficient colocalization algorithm for identifying shared genetic risk factors across multiple traits. Nature communications, 12(1), 1-18.
+
+# CAVIAR
+# eCAVIAR
+- FULL NAME: eQTL and GWAS Causal Variant Identification in Associated Regions
+- URL : https://github.com/fhormoz/caviar
+- CITATION:Hormozdiari, F., Van De Bunt, M., Segre, A. V., Li, X., Joo, J. W. J., Bilow, M., ... & Eskin, E. (2016). Colocalization of GWAS and eQTL signals detects target genes. The American Journal of Human Genetics, 99(6), 1245-1260.
