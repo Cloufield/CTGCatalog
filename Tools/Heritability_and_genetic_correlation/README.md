@@ -1,6 +1,6 @@
 # Contents
 - Heritability
-- Local Heritability
+- Local Heritability/ Local genetic correlation
 - Genetic correlation
 
 # Heritabilty
@@ -24,6 +24,7 @@
 - CITATION :(Bivariate GREML) Lee, Sang Hong, et al. "Estimation of pleiotropy between complex diseases using single-nucleotide polymorphism-derived genomic relationships and restricted maximum likelihood." Bioinformatics 28.19 (2012): 2540-2542.
 - CITATION :(GREML-LDMS) Yang, Jian, et al. "Genetic variance estimation with imputed variants finds negligible missing heritability for human height and body mass index." Nature genetics 47.10 (2015): 1114-1120.
 
+# Local Heritability/ Local genetic correlation
 ## LAVA
 - DESCRIPTION:LAVA is a tool to conduct genome-wide, local genetic correlation analysis on multiple traits, using GWAS summary statistics as input.
 - URL: https://ctg.cncr.nl/software/lava
@@ -38,14 +39,23 @@
 - CITATION:  Shi, Huwenbo, Gleb Kichaev, and Bogdan Pasaniuc. "Contrasting the genetic architecture of 30 complex traits from summary association data." The American Journal of Human Genetics 99.1 (2016): 139-153.
 - CITATION: Shi, Huwenbo, et al. "Local genetic correlation gives insights into the shared genetic architecture of complex traits." The American Journal of Human Genetics 101.5 (2017): 737-751.
 
-## SUPERGNOVA
-- SHORT NAME:
-- FULL NAME:
-- YEAR:
-- DESCRIPTION:
-- URL:
-- CITATION :
+## GNOVA
+- SHORT NAME:GNOVA
+- FULL NAME:GeNetic cOVariance Analyzer
+- YEAR:2017
+- DESCRIPTION:A principled framework to estimate annotation-stratified genetic covariance using GWAS summary statistics.
+- URL:https://github.com/xtonyjiang/GNOVA
+- CITATION :Lu, Qiongshi, et al. "A powerful approach to estimating annotation-stratified genetic covariance via GWAS summary statistics." The American Journal of Human Genetics 101.6 (2017): 939-964.
 
+## SUPERGNOVA
+- SHORT NAME:SUPERGNOVA
+- FULL NAME:SUPER GeNetic cOVariance Analyzer
+- YEAR:2021
+- DESCRIPTION:SUPERGNOVA (SUPER GeNetic cOVariance Analyzer) is a statistical framework to perform local genetic covariance analysis. 
+- URL:https://github.com/qlu-lab/SUPERGNOVA
+- CITATION :Zhang, Yiliang, et al. "SUPERGNOVA: local genetic correlation analysis reveals heterogeneous etiologic sharing of complex traits." Genome biology 22.1 (2021): 1-30.
+
+# Genetic correlation
 ## cross-trait LDSC
 - SHORT NAME: cross-trait LDSC
 - FULL NAME:cross-trait LD Score Regression
