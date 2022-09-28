@@ -25,6 +25,7 @@
 - DESCRIPTION:
 - URL :http://locuszoom.org/
 - CITATION:Pruim, Randall J., et al. "LocusZoom: regional visualization of genome-wide association scan results." Bioinformatics 26.18 (2010): 2336-2337.
+![image](https://user-images.githubusercontent.com/40289485/192724289-88583aa5-6b43-45d0-8bb9-abcde0e29ae0.png)
 
 
 ## haploview
