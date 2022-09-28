@@ -16,6 +16,8 @@
 - CITATION:  Shi, Huwenbo, Gleb Kichaev, and Bogdan Pasaniuc. "Contrasting the genetic architecture of 30 complex traits from summary association data." The American Journal of Human Genetics 99.1 (2016): 139-153.
 - CITATION: Shi, Huwenbo, et al. "Local genetic correlation gives insights into the shared genetic architecture of complex traits." The American Journal of Human Genetics 101.5 (2017): 737-751.
 
+# SUPERGNOVA
+
 # cross-trait LDSC
 
 
