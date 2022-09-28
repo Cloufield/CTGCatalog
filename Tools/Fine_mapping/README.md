@@ -51,7 +51,7 @@
 - YEAR: 
 - DESCRIPTION: 
 - URL : 
-- CITATION: 
+- CITATION: LaPierre, N., Taraszka, K., Huang, H., He, R., Hormozdiari, F., & Eskin, E. (2021). Identifying causal variants by fine mapping across multiple studies. PLoS genetics, 17(9), e1009733.
 - KEY WORDS: 
 
 
