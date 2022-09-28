@@ -7,46 +7,53 @@
 - Geography of Genetic Variants Browser - popgen
 - karyoploteR 
 - ChromoMap
+- pheweb
 - corrplot
 - metafor
-- pheweb
 
 
 ## gwaslab
-- SHORT NAME:
-- FULL NAME:
-- YEAR:
-- DESCRIPTION:
-- URL :
-- CITATION:
-- KEY WORDS:
+- SHORT NAME:gwaslab
+- FULL NAME:gwaslab
+- YEAR:2022
+- URL :https://github.com/Cloufield/gwaslab
 
 ## locuszoom
-- SHORT NAME:
-- FULL NAME:
-- YEAR:
+- SHORT NAME:locuszoom
+- FULL NAME:locuszoom
+- YEAR:2010
 - DESCRIPTION:
-- URL :
-- CITATION:
-- KEY WORDS:
+- URL :http://locuszoom.org/
+- CITATION:Pruim, Randall J., et al. "LocusZoom: regional visualization of genome-wide association scan results." Bioinformatics 26.18 (2010): 2336-2337.
+
 
 ## haploview
-- SHORT NAME:
-- FULL NAME:
-- YEAR:
-- DESCRIPTION:
-- URL :
-- CITATION:
-- KEY WORDS:
+- SHORT NAME:haploview
+- FULL NAME:haploview
+- YEAR:2005
+- DESCRIPTION:Haploview is designed to simplify and expedite the process of haplotype analysis by providing a common interface to several tasks relating to such analyses. 
+- URL :https://www.broadinstitute.org/haploview/haploview
+- CITATION: Barrett, Jeffrey C., et al. "Haploview: analysis and visualization of LD and haplotype maps." Bioinformatics 21.2 (2005): 263-265.
+- KEY WORDS: LD, haplotype
+![image](https://user-images.githubusercontent.com/40289485/192722583-3a6a6288-0785-4476-a860-fe54ad570d45.png)
+
+## karyoploteR
+- SHORT NAME:karyoploteR
+- FULL NAME:karyoploteR
+- YEAR:2017
+- DESCRIPTION:karyoploteR is an R package to create karyoplots, that is, representations of whole genomes with arbitrary data plotted on them. It is inspired by the R base graphics system and does not depend on other graphics packages. The aim of karyoploteR is to offer the user an easy way to plot data along the genome to get broad genome-wide view to facilitate the identification of genome wide relations and distributions.
+- URL :https://bernatgel.github.io/karyoploter_tutorial/
+- CITATION:Gel, Bernat, and Eduard Serra. "karyoploteR: an R/Bioconductor package to plot customizable genomes displaying arbitrary data." Bioinformatics 33.19 (2017): 3088-3090.
+- ![image](https://user-images.githubusercontent.com/40289485/192723172-0882f203-cf12-4931-ae05-051c3667f4dd.png)
+
 
 ## ChromoMap
-- SHORT NAME:
-- FULL NAME:
-- YEAR:
-- DESCRIPTION:
-- URL :
-- CITATION:
-- KEY WORDS:
+- SHORT NAME:chromoMap 
+- FULL NAME:chromoMap 
+- YEAR:2022
+- DESCRIPTION:an R package for interactive visualization of multi-omics data and annotation of chromosomes
+- URL :https://lakshay-anand.github.io/chromoMap/index.html
+- CITATION:Anand, Lakshay, and Carlos M. Rodriguez Lopez. "ChromoMap: an R package for interactive visualization of multi-omics data and annotation of chromosomes." BMC bioinformatics 23.1 (2022): 1-9.
 
 ## LDlink
 - SHORT NAME:LDlink 
