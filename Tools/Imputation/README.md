@@ -1,17 +1,25 @@
-# Phasing
-## eagle
-## 
+# Contents
+- Phasing Tool
+- Imputation Tool
+- Imputation Panel
+- Imputation Server
 
-# Imputation
-## minimac4
-## impute
-##
+## Phasing
+### eagle2
+### 
 
-# Imputation Server
-## TOPMED
-## Michigan
+## Imputation
+### minimac4
+### impute
+###
 
-# Imputation panel
-## 1000 Genome
-## HRC
-## TOPMED
+## Imputation panel
+### 1000 Genome
+### HRC
+### TOPMED
+
+## Imputation Server
+### TOPMED
+### Michigan
+
+
