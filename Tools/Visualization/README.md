@@ -5,6 +5,10 @@
 - gwas diversity monitor
 - haploview
 - Geography of Genetic Variants Browser - popgen
+- karyoploteR 
+- ChromoMap
+- corrplot
+- metafor
 
 
 ## gwaslab
