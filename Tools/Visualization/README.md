@@ -9,6 +9,7 @@
 - ChromoMap
 - corrplot
 - metafor
+- pheweb
 
 
 ## gwaslab
@@ -83,6 +84,14 @@
 - CITATION:
 - KEY WORDS:
 
+## pheweb
+- SHORT NAME:
+- FULL NAME:
+- YEAR:
+- DESCRIPTION:
+- URL :https://github.com/statgen/pheweb
+- CITATION:
+- KEY WORDS:
 
 ##Template
 - SHORT NAME:
