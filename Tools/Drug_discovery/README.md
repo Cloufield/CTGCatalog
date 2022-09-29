@@ -5,6 +5,7 @@
 - Drug Targetor
 - Trans-Phar
 - PS4DR
+- Pharmagenic_enrichment_score
 
 ## DRUG TARGETOR
 - FULL NAME:DRUG TARGETOR
