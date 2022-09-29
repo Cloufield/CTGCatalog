@@ -1,5 +1,6 @@
 # Contents
 - FUSION
+- S-PrediXcan
 
 ## FUSION
 - FULL NAME: Functional Summary-based Imputation
