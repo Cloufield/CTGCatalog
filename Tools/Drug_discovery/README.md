@@ -32,6 +32,14 @@
 - CITATION: Ghoussaini, M., Mountjoy, E., Carmona, M., Peat, G., Schmidt, E. M., Hercules, A., ... & Dunham, I. (2021). Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics. Nucleic acids research, 49(D1), D1311-D1320.
 - CITATION:Mountjoy, E., Schmidt, E. M., Carmona, M., Schwartzentruber, J., Peat, G., Miranda, A., ... & Ghoussaini, M. (2021). An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci. Nature Genetics, 53(11), 1527-1533.
 
+## Priority index
+- FULL NAME:Priority index
+- SHORT NAME:Priority index
+- YEAR: 2019
+- DESCRIPTION: A Comprehensive Resource for Genetic Targets in Immune-Mediated Disease
+- URL: http://pi.well.ox.ac.uk:3010/
+- CITATION:Fang, H., De Wolf, H., Knezevic, B., Burnham, K. L., Osgood, J., Sanniti, A., ... & Knight, J. C. (2019). A genetics-led approach defines the drug target landscape of 30 immune-related traits. Nature genetics, 51(7), 1082-1091.
+
 ## Trans-Phar
 - FULL NAME:integration of Transcriptome-wide association study and Pharmacological database
 - SHORT NAME:Trans-Phar 
