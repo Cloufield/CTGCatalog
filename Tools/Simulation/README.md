@@ -4,6 +4,7 @@
 - GCTA
 - HAPGEN 
 - simGWAS
+- sim1000G
 
 ## G2P
 - SHORT NAME:
@@ -36,6 +37,14 @@
 - CITATION:Fortune, Mary D., and Chris Wallace. "simGWAS: a fast method for simulation of large scale case–control GWAS summary statistics." Bioinformatics 35.11 (2019): 1901-1906.
 
 ## HAPGEN
+- SHORT NAME:
+- FULL NAME:
+- YEAR:
+- DESCRIPTION:
+- CITATION:
+- URL: 
+
+## sim1000G
 - SHORT NAME:
 - FULL NAME:
 - YEAR:
