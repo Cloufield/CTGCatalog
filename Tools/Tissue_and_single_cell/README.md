@@ -32,6 +32,7 @@
 # sc-linker
 - SHORT NAME: sc-linker
 - FULL NAME: sc-linker
+- URL:https://karthikj89-scgenetics-wwwscgwas-ktmead.streamlitapp.com/ 
 - URL:https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker/
 - YEAR : 2022
 - DESCRIPTION: a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease
