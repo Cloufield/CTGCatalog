@@ -8,7 +8,21 @@ Complex Trait Genetics Catalog : A collection of commonly used resources for ana
 - Sumstats :  
   - publically available gwas summary statistics.
   - including sumstats from established databases, major biobanks, and disease consortiums.
-- Tools
-  - commonly used tools for Complex Trait Genetics.
-  - including tools for data processing, association tests, post-GWAS analysis and so on.
+- Tools: commonly used tools for Complex Trait Genetics.
+  - Annotation
+  - Association_tests
+  - Colocalization
+  - Data_processing
+  - Drug_discovery
+  - Fine_mapping
+  - Functional_genomics
+  - Gene_set_pathway_analysis
+  - Heritability_and_genetic_correlation
+  - Imputation
+  - Mendelian_randomization
+  - Meta_and_Multi_triat
+  - Polygenic_risk_scores
+  - Simulation
+  - Tissue_and_single_cell
+  - Visualization
 
