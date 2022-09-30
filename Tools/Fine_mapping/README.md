@@ -1,6 +1,7 @@
 # Contents
 - FINEMAP
 - SUSIE
+- SparsePro
 - CAVIAR
 - CAVIARBF
 - MsCAVIAR 
@@ -23,6 +24,14 @@
 - DESCRIPTION: The susieR package implements a simple new way to perform variable selection in multiple regression (y = Xb + e). The methods implemented here are particularly well-suited to settings where some of the X variables are highly correlated, and the true effects are highly sparse (e.g. <20 non-zero effects in the vector b). One example of this is genetic fine-mapping applications, and this application was a major motivation for developing these methods.
 - URL : https://stephenslab.github.io/susieR/index.html
 - CITATION: Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine mapping. Journal of the Royal Statistical Society, Series B 82, 1273–1300. https://doi.org/10.1111/rssb.12388
+
+## SparsePro
+- SHORT NAME: SparsePro
+- FULL NAME: SparsePro
+- YEAR: 2021
+- DESCRIPTION: SparsePro is a command line tool for efficiently conducting genome-wide fine-mapping. Our method has two key features: First, by creating a sparse low-dimensional projection of the high-dimensional genotype, we enable a linear search of causal variants instead of an exponential search of causal configurations in most existing methods; Second, we adopt a probabilistic framework with a highly efficient variational expectation-maximization algorithm to integrate statistical associations and functional priors.
+- URL : https://github.com/zhwm/SparsePro
+- CITATION: Zhang, W., Najafabadi, H. S., & Li, Y. (2021). SparsePro: an efficient genome-wide fine-mapping method integrating summary statistics and functional annotations. bioRxiv.
 
 ## CAVIAR
 - SHORT NAME: CAVIAR
