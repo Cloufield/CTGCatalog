@@ -38,3 +38,13 @@
 - DESCRIPTION: a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease
 - CITATION: Yu, F., Cato, L.D., Weng, C. et al. Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol (2022). https://doi.org/10.1038/s41587-022-01341-y
 - KEY WORD: GWAS, scRNA-seq
+
+# EPIC
+- SHORT NAME: EPIC
+- FULL NAME: cEll tyPe enrIChment
+- URL: https://github.com/rujinwang/EPIC
+- YEAR : 2022
+- DESCRIPTION: Inferring relevant tissues and cell types for complex traits in genome-wide association studies
+- CITATION: Wang, R., Lin, D. Y., & Jiang, Y. (2022). EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS genetics, 18(6), e1010251.
+- KEY WORD: GWAS, scRNA-seq
+
