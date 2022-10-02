@@ -49,3 +49,4 @@
 - CITATION: Sanderson, E., Glymour, M. M., Holmes, M. V., Kang, H., Morrison, J., Munafò, M. R., ... & Davey Smith, G. (2022). Mendelian randomization. Nature Reviews Methods Primers, 2(1), 1-21.
 - CITATION: Minelli, C., Del Greco M, F., van der Plaat, D. A., Bowden, J., Sheehan, N. A., & Thompson, J. (2021). The use of two-sample methods for Mendelian randomization analyses on single large datasets. International journal of epidemiology, 50(5), 1651-1659.
 - CITATION: Zheng, J., Baird, D., Borges, M. C., Bowden, J., Hemani, G., Haycock, P., ... & Smith, G. D. (2017). Recent developments in Mendelian randomization studies. Current epidemiology reports, 4(4), 330-345.
+- CITATION: Lawlor, D. A. (2016). Commentary: Two-sample Mendelian randomization: opportunities and challenges. International journal of epidemiology, 45(3), 908.
