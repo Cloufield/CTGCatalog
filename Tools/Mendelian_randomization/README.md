@@ -41,6 +41,7 @@
 - CITATION:Bowden, J., Davey Smith, G., & Burgess, S. (2015). Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression. International journal of epidemiology, 44(2), 512-525.
 - CITATION:Davey Smith, G., & Ebrahim, S. (2003). ‘Mendelian randomization’: can genetic epidemiology contribute to understanding environmental determinants of disease?. International journal of epidemiology, 32(1), 1-22.
 - CITATION: Hemani, G., Tilling, K., & Davey Smith, G. (2017). Orienting the causal relationship between imprecisely measured traits using GWAS summary data. PLoS genetics, 13(11), e1007081.
+- CITATION: Howe, L. J., Tudball, M., Davey Smith, G., & Davies, N. M. (2022). Interpreting Mendelian-randomization estimates of the effects of categorical exposures such as disease status and educational attainment. International journal of epidemiology, 51(3), 948-957.
  
 ## Reviews&Tutorials
 - CITATION: Benn, M., & Nordestgaard, B. G. (2018). From genome-wide association studies to Mendelian randomization: novel opportunities for understanding cardiovascular disease causality, pathogenesis, prevention, and treatment. Cardiovascular research, 114(9), 1192-1208.
