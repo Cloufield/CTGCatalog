@@ -48,3 +48,5 @@
 - CITATION: Wang, R., Lin, D. Y., & Jiang, Y. (2022). EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS genetics, 18(6), e1010251.
 - KEY WORD: GWAS, scRNA-seq
 
+## CoCoNet 
+## RolyPoly
