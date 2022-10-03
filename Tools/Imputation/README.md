@@ -16,6 +16,22 @@
 - CITATION:(EAGLE1) Loh, Po-Ru, Pier Francesco Palamara, and Alkes L. Price. "Fast and accurate long-range phasing in a UK Biobank cohort." Nature genetics 48.7 (2016): 811-816.
 - CITATION:(EAGLE2) Loh, Po-Ru, et al. "Reference-based phasing using the Haplotype Reference Consortium panel." Nature genetics 48.11 (2016): 1443-1448.
 
+### SHAPEIT
+- URL:https://odelaneau.github.io/shapeit4/
+- URL: https://jmarchini.org/shapeit3/
+- URL:https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
+- CITATION:(SHAPEIT4) Delaneau, Olivier, et al. "Accurate, scalable and integrative haplotype estimation." Nature communications 10.1 (2019): 1-10.
+- CITATION:(SHAPEIT3) O'Connell, Jared, et al. "Haplotype estimation for biobank-scale data sets." Nature genetics 48.7 (2016): 817-820.
+- CITATION:(SHAPEIT2) Delaneau, Olivier, Jean-Francois Zagury, and Jonathan Marchini. "Improved whole-chromosome phasing for disease and population genetic studies." Nature methods 10.1 (2013): 5-6.
+- CITATION:(SHAPEIT1) Delaneau, Olivier, Jonathan Marchini, and Jean-François Zagury. "A linear complexity phasing method for thousands of genomes." Nature methods 9.2 (2012): 179-181.
+
+### IMPUTE
+- URL: https://jmarchini.org/software/
+- CITATION: (IMPUTE) Marchini, Jonathan, et al. "A new multipoint method for genome-wide association studies by imputation of genotypes." Nature genetics 39.7 (2007): 906-913.
+- CITATION: (IMPUTE2) Howie, Bryan N., Peter Donnelly, and Jonathan Marchini. "A flexible and accurate genotype imputation method for the next generation of genome-wide association studies." PLoS genetics 5.6 (2009): e1000529.
+- CITATION: (IMPUTE4) Bycroft, Clare, et al. "The UK Biobank resource with deep phenotyping and genomic data." Nature 562.7726 (2018): 203-209.
+- CITATION: (IMPUTE5) Rubinacci, Simone, Olivier Delaneau, and Jonathan Marchini. "Genotype imputation using the positional burrows wheeler transform." PLoS genetics 16.11 (2020): e1009049.
+
 ### MACH / minimach
 - URL: http://csg.sph.umich.edu/abecasis/MaCH/index.html
 - URL: https://genome.sph.umich.edu/wiki/Minimac
@@ -26,10 +42,6 @@
 - CITATION: (pre-phasing, minimac) Howie, Bryan, et al. "Fast and accurate genotype imputation in genome-wide association studies through pre-phasing." Nature genetics 44.8 (2012): 955-959.
 - CITATION: (minimac2) Fuchsberger, Christian, Gonçalo R. Abecasis, and David A. Hinds. "minimac2: faster genotype imputation." Bioinformatics 31.5 (2015): 782-784.
 - CITATION: (minimac3) Das, Sayantan, et al. "Next-generation genotype imputation service and methods." Nature genetics 48.10 (2016): 1284-1287.
-### IMPUTE2
-- CITATION: (IMPUTE) Marchini, Jonathan, et al. "A new multipoint method for genome-wide association studies by imputation of genotypes." Nature genetics 39.7 (2007): 906-913.
-- CITATION: (IMPUTE2) Howie, Bryan N., Peter Donnelly, and Jonathan Marchini. "A flexible and accurate genotype imputation method for the next generation of genome-wide association studies." PLoS genetics 5.6 (2009): e1000529.
-- CITATION: (IMPUTE4) Bycroft, Clare, et al. "The UK Biobank resource with deep phenotyping and genomic data." Nature 562.7726 (2018): 203-209.
 
 ### fastPHASE
 - URL: http://scheet.org/software.html
