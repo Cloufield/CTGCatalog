@@ -12,6 +12,11 @@
 - CITATION: Apweiler, R., Bairoch, A., Wu, C. H., Barker, W. C., Boeckmann, B., Ferro, S., ... & Yeh, L. S. L. (2004). UniProt: the universal protein knowledgebase. Nucleic acids research, 32(suppl_1), D115-D119.
 - CITATION: Boutet, E., Lieberherr, D., Tognolli, M., Schneider, M., & Bairoch, A. (2007). Uniprotkb/swiss-prot. In Plant bioinformatics (pp. 89-112). Humana Press. 
 
+### THE HUMAN PROTEIN ATLAS
+- URL: https://www.proteinatlas.org/
+- CITATION: Uhlén, M., Fagerberg, L., Hallström, B. M., Lindskog, C., Oksvold, P., Mardinoglu, A., ... & Pontén, F. (2015). Proteomics. Tissue-based map of the human proteome. Science (New York, NY), 347(6220), 1260419-1260419.
+<img width="900" alt="image" src="https://user-images.githubusercontent.com/40289485/193522785-af942794-dd75-4889-a6d1-e1f0d2e1bea0.png">
+
 
 ## Protein Biomarker
 ### Olink
