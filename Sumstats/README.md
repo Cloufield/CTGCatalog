@@ -8,14 +8,14 @@
 4. Consortiums 各类疾病研究组织的数据
 
 
-# 公共数据库：
+# From Databases 公共数据库：
 目前收录最全的GWAS数据库，但只收录了已发表GWAS的数据，而且会有几个月到半年左右的延迟，使用时应该注意：
 
 GWAS catalog: https://www.ebi.ac.uk/gwas/
 
 OpenGWAS: https://gwas.mrcieu.ac.uk/
 
-# 各大Biobank的公开数据：
+# From Biobanks 各大Biobank的公开数据：
 规模较大的Biobank或Cohort会定期公开GWAS sumstats，这类数据有些未被收录在GWAS catalog中，一些gwas检验方法的作者也会使用其方法进行Biobank级别的GWAS分析，这类数据的表型覆盖较广：
 
 ## 欧美：
@@ -61,12 +61,12 @@ KoreanChip: https://www.koreanchip.org/downloads
 
 KoGES Pheweb: https://koges.leelabsg.org/
 
-## 全球范围Biobank的Meta分析：
+## From Global Biobank 全球范围Biobank的Meta分析：
 近期Global Biobank项目也公开了一批全球范围biobank的常见复杂疾病meta分析
 
 Global Biobank :http://results.globalbiobankmeta.org/
 
-# 单独的研究发表的数据
+# From Individual Studies 单独的研究发表的数据
 直接在google上搜索研究论文，从Data availability里的url顺藤摸瓜找到数据，此类数据散落在各个学校，研究机构等等自家的网站上，没有好的办法，只有自己搜索。GWAS catalog 经常会出现收录不及时而漏掉很多最新数据。
 
 例如：
@@ -77,7 +77,7 @@ https://cnsgenomics.com/content/data
 
 https://ctg.cncr.nl/software/summary_statistics
 
-# 各类疾病研究组织的数据
+# From Disease Consortiums 各类疾病研究组织的数据
 这类数据通常为meta分析后的sumstats，例如：
 
 DIAGRAM：http://www.diagram-consortium.org/downloads.html
