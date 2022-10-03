@@ -3,7 +3,7 @@
 ### Uniprot 
 - URL: https://www.uniprot.org/
 <img width="1436" alt="image" src="https://user-images.githubusercontent.com/40289485/193519879-bb1810ba-b2d1-418c-8588-67f9d026f161.png">
-
+- CIATTION: "UniProt: the universal protein knowledgebase in 2021." Nucleic acids research 49, no. D1 (2021): D480-D489.
 - CITATION: UniProt Consortium. (2019). UniProt: a worldwide hub of protein knowledge. Nucleic acids research, 47(D1), D506-D515.
 - CITATION: UniProt Consortium. (2015). UniProt: a hub for protein information. Nucleic acids research, 43(D1), D204-D212.
 - CITATION: "UniProt: the universal protein knowledgebase." Nucleic acids research 45, no. D1 (2017): D158-D169.
