@@ -27,3 +27,4 @@
 - CITATION: Hunter, D. J. (2005). Gene–environment interactions in human diseases. Nature reviews genetics, 6(4), 287-298.
 - CITATION: Manuck, S. B., & McCaffery, J. M. (2014). Gene-environment interaction. Annual review of psychology, 65(1), 41-70.
 - CITATION: Zhang, X., & Belsky, J. (2022). Three phases of Gene× Environment interaction research: Theoretical assumptions underlying gene selection. Development and Psychopathology, 34(1), 295-306.
+- CITATION: Boyce, W. T., Sokolowski, M. B., & Robinson, G. E. (2020). Genes and environments, development and time. Proceedings of the National Academy of Sciences, 117(38), 23235-23241.
