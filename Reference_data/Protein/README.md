@@ -17,3 +17,20 @@
 - CITATION: Uhlén, M., Fagerberg, L., Hallström, B. M., Lindskog, C., Oksvold, P., Mardinoglu, A., ... & Pontén, F. (2015). Proteomics. Tissue-based map of the human proteome. Science (New York, NY), 347(6220), 1260419-1260419.
 <img width="900" alt="image" src="https://user-images.githubusercontent.com/40289485/193522785-af942794-dd75-4889-a6d1-e1f0d2e1bea0.png">
 
+## Human Proteome Map (HPM)
+- URL: http://www.humanproteomemap.org/
+- DESCRIPTION:The Human Proteome Map (HPM) portal is an interactive resource to the scientific community by integrating the massive peptide sequencing result from the draft map of the human proteome project. The project was based on LC-MS/MS by utilizing of high resolution and high accuracy Fourier transform mass spectrometry. All mass spectrometry data including precursors and HCD-derived fragments were acquired on the Orbitrap mass analyzers in the high-high mode. Currently, the HPM contains direct evidence of translation of a number of protein products derived from over 17,000 human genes covering >84% of the annotated protein-coding genes in humans based on >290,000 non-redundant peptide identifications of multiple organs/tissues and cell types from individuals with clinically defined healthy tissues. This includes 17 adult tissues, 6 primary hematopoietic cells and 7 fetal tissues. The HPM portal provides an interactive web resource by reorganizing the label-free quantitative proteomic data set in a simple graphical view. In addition, the portal provides selected reaction monitoring (SRM) information for all peptides identified.
+- CITATION:Kim, M. S., Pinto, S. M., Getnet, D., Nirujogi, R. S., Manda, S. S., Chaerkady, R., ... & Pandey, A. (2014). A draft map of the human proteome. Nature, 509(7502), 575-581.
+![image](https://user-images.githubusercontent.com/40289485/193718006-8549a09f-3011-4098-8dc6-ce6ba117c8a9.png)
+
+## PeptideAtlas 
+- URL: http://www.peptideatlas.org/
+- DESCRIPTION:PeptideAtlas is a multi-organism, publicly accessible compendium of peptides identified in a large set of tandem mass spectrometry proteomics experiments.
+- CITATION:Desiere, F., Deutsch, E. W., King, N. L., Nesvizhskii, A. I., Mallick, P., Eng, J., ... & Aebersold, R. (2006). The peptideatlas project. Nucleic acids research, 34(suppl_1), D655-D658.
+![image](https://user-images.githubusercontent.com/40289485/193718054-73e343b9-6950-4e43-b0dc-bbc1272f7eee.png)
+
+## ProteomicsDB
+- URL: https://www.proteomicsdb.org/
+- DESCRIPTION:ProteomicsDB is a multi-omics and multi-organism resource for life science research. It covers e.g. proteomics, transcriptomics, and phenomics data for e.g. human, mouse, arabidopsis and rice. Different visualization are available allowing e.g. a protein- and drug-centric interrogation as well as combined analysis via our analytics section.
+- CITATION:Samaras, P., Schmidt, T., Frejno, M., Gessulat, S., Reinecke, M., Jarzab, A., ... & Wilhelm, M. (2020). ProteomicsDB: a multi-omics and multi-organism resource for life science research. Nucleic acids research, 48(D1), D1153-D1163.
+![image](https://user-images.githubusercontent.com/40289485/193718101-5738ba87-3e83-44dc-ada5-6f5a99059f6a.png)
