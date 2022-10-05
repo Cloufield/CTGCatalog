@@ -26,4 +26,5 @@ Complex Trait Genetics Catalog : A collection of commonly used resources for ana
   - Visualization
 
 For more Complex Trait Genomics contents, please check https://gwaslab.com/
+
 Contact : gwaslab@gmail.com
