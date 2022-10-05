@@ -118,9 +118,13 @@
 - CITATION:Wu, Michael C., et al. "Rare-variant association testing for sequencing data with the sequence kernel association test." The American Journal of Human Genetics 89.1 (2011): 82-93.
 - KEY WORDS: 
 
+
 ## SKAT-O
 - FULLNAME: sequence kernel association test - optimal test
 - SHORTNAME: SKAT-O
 - URL:https://www.hsph.harvard.edu/skat/
 - DESCRIPTION: estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power.
 - CITATION: Lee, Seunggeun, Michael C. Wu, and Xihong Lin. "Optimal tests for rare variant effects in sequencing association studies." Biostatistics 13.4 (2012): 762-775.
+
+## Reviews:
+- CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
