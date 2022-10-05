@@ -2,17 +2,20 @@
 - Single variant association tests
   - PLINK
   - PLINK2
-  - EMAX
+  - EMMAX
   - GEMMA
   - fastGWA
+  - fastGWA-GLMM
   - REGENIE
   - SAIGE
   - Bolt-lMM
 - Gene-based analysis (rare variant)
-  - regenie
+  - REGENIE
   - SAIGE-GENE
   - SAIGE-GENE+
+  - SKAT
   - SKAT-O
+  - STAAR
 
 ---
 # Single variant association tests
@@ -34,37 +37,43 @@
 - SHORTNAME:EMMAX
 - URL: https://genome.sph.umich.edu/wiki/EMMAX
 - DESCRIPTION: EMMAX is a statistical test for large scale human or model organism association mapping accounting for the sample structure. In addition to the computational efficiency obtained by EMMA algorithm, EMMAX takes advantage of the fact that each loci explains only a small fraction of complex traits, which allows us to avoid repetitive variance component estimation procedure, resulting in a significant amount of increase in computational time of association mapping using mixed model.
-- CITATION:  Korte, Arthur, et al. "A mixed-model approach for genome-wide association studies of correlated traits in structured populations." Nature genetics 44.9 (2012): 1066-1071.
+- CITATION:
 
 ## GEMMA
-- FULLNAME:
-- SHORTNAME:
-- URL: 
-- CITATION: 
+- FULLNAME: genome-wide efficient mixed-model association 
+- SHORTNAME: GEMMA
+- DESCRIPTION: GEMMA is the software implementing the Genome-wide Efficient Mixed Model Association algorithm for a standard linear mixed model and some of its close relatives for genome-wide association studies (GWAS). It fits a standard linear mixed model (LMM) to account for population stratification and sample structure for single marker association tests. It fits a Bayesian sparse linear mixed model (BSLMM) using Markov chain Monte Carlo (MCMC) for estimating the proportion of variance in phenotypes explained (PVE) by typed genotypes (i.e. chip heritability), predicting phenotypes, and identifying associated markers by jointly modeling all markers while controlling for population structure. It is computationally efficient for large scale GWAS and uses freely available open-source numerical libraries.
+- URL: http://stephenslab.uchicago.edu/software.html#gemma
+- CITATION: Zhou, Xiang, and Matthew Stephens. "Genome-wide efficient mixed-model analysis for association studies." Nature genetics 44.7 (2012): 821-824.
+
+## BOLT-lMM
+- FULLNAME:BOLT-lMM
+- SHORTNAME: BOLT-lMM
+- DESCRIPTION: The BOLT-LMM software package currently consists of two main algorithms, the BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis (i.e., partitioning of SNP-heritability and estimation of genetic correlations).
+- URL: https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html
+- CITATION: Loh, Po-Ru, et al. "Efficient Bayesian mixed-model analysis increases association power in large cohorts." Nature genetics 47.3 (2015): 284-290.
+-KEY WORDS: non-infinitesimal model,  mixture of two Gaussian distributions 
 
 ## SAIGE
-- FULLNAME:
-- SHORTNAME:
-- URL: 
-- CITATION: 
+- FULLNAME:Scalable and Accurate Implementation of GEneralized mixed model
+- SHORTNAME: SAIGE
+- URL: https://github.com/weizhouUMICH/SAIGE
+- DESCRIPTION: SAIGE is an R package with Scalable and Accurate Implementation of Generalized mixed model (Chen, H. et al. 2016). It accounts for sample relatedness and is feasible for genetic association tests in large cohorts and biobanks (N > 400,000). SAIGE performs single-variant association tests for binary traits and quantitative taits. For binary traits, SAIGE uses the saddlepoint approximation (SPA)(mhof, J. P. , 1961; Kuonen, D. 1999; Dey, R. et.al 2017) to account for case-control imbalance.
+- CITATION: Zhou, Wei, et al. "Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies." Nature genetics 50.9 (2018): 1335-1341.
+-KEY WORDS:case-control imbalance, saddlepoint approximation (SPA)
 
-## Bolt-lMM
-- FULLNAME:
-- SHORTNAME:
-- URL: 
-- CITATION: 
+## fastGWA
+- FULLNAME: fastGWA
+- SHORTNAME:fastGWA
+- URL: https://yanglab.westlake.edu.cn/software/gcta/#fastGWA
+- CITATION: Jiang, Longda, et al. "A resource-efficient tool for mixed model association analysis of large-scale data." Nature genetics 51.12 (2019): 1749-1755.
+-KEY WORDS:  grid-search-based REML algorithm
 
-## fastGWA-lmm
-- FULLNAME:
-- SHORTNAME:
-- URL: 
-- CITATION: 
-
-## fastGWA-glmm
-- FULLNAME:
-- SHORTNAME:
-- URL: 
-- CITATION: 
+## fastGWA-GLMM
+- FULLNAME: fastGWA-GLMM
+- SHORTNAME: fastGWA-GLMM
+- URL: https://yanglab.westlake.edu.cn/software/gcta/#fastGWA
+- CITATION: Jiang, Longda, et al. "A generalized linear mixed model association tool for biobank-scale data." Nature genetics 53.11 (2021): 1616-1621.
 
 ## REGENIE
 - FULLNAME:REGENIE
