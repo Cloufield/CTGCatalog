@@ -42,12 +42,11 @@
 - KEY WORDS: whole genome regression
 
 ## SAIGE-GENE /  SAIGE-GENE+
-- FULLNAME:
-- SHORTNAME:
-- URL:
-- DESCRIPTION:
-- CITATION:
-- KEY WORDS:
+- FULLNAME: SAIGE-GENE / SAIGE-GENE+
+- SHORTNAME: SAIGE-GENE / SAIGE-GENE+
+- URL: https://github.com/saigegit/SAIGE
+- CITATION: Zhou, Wei, et al. "SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests." Nature Genetics (2022): 1-4.
+- CITATION: Zhou, Wei, et al. "Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts." Nature genetics 52.6 (2020): 634-639.
 
 ## STAAR
 - FULLNAME: variant-set test for association using annotation information
@@ -58,4 +57,17 @@
 - KEY WORDS: functional annotations
 
 
-## SKAT / SKAT-O
+## SKAT
+- FULLNAME: sequence kernel association test
+- SHORTNAME: SKAT
+- URL:  https://www.hsph.harvard.edu/skat/
+- DESCRIPTION: SKAT is a SNP-set (e.g., a gene or a region) level test for association between a set of rare (or common) variants and dichotomous or quantitative phenotypes, SKAT aggregates individual score test statistics of SNPs in a SNP set  and efficiently computes SNP-set level p-values, e.g. a gene or a region level p-value, while adjusting for covariates, such as principal components to account for population stratification. SKAT also allows for power/sample size calculations for designing for sequence association studies.
+- CITATION:Wu, Michael C., et al. "Rare-variant association testing for sequencing data with the sequence kernel association test." The American Journal of Human Genetics 89.1 (2011): 82-93.
+- KEY WORDS: 
+
+## SKAT-O
+- FULLNAME: sequence kernel association test - optimal test
+- SHORTNAME: SKAT-O
+- URL:https://www.hsph.harvard.edu/skat/
+- DESCRIPTION: estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power.
+- CITATION: Lee, Seunggeun, Michael C. Wu, and Xihong Lin. "Optimal tests for rare variant effects in sequencing association studies." Biostatistics 13.4 (2012): 762-775.
