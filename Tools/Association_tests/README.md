@@ -17,10 +17,55 @@
 ---
 # Single variant association tests
 ## PLINK  
+- FULLNAME: PLINK
+- SHORTNAME: PLINK
+- DESCRIPTION: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses. PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. The focus of PLINK is purely on analysis of genotype/phenotype data, so there is no support for steps prior to this (e.g. study design and planning, generating genotype or CNV calls from raw data). Through integration with gPLINK and Haploview, there is some support for the subsequent visualization, annotation and storage of results.
+- URL: https://www.cog-genomics.org/plink/
+- CITATION: Purcell, Shaun, et al. "PLINK: a tool set for whole-genome association and population-based linkage analyses." The American journal of human genetics 81.3 (2007): 559-575.
+
 ## PLINK2
-## EMAX
+- FULLNAME:PLINK2
+- SHORTNAME:PLINK2
+- URL: https://www.cog-genomics.org/plink/2.0/
+- CITATION: Chang, Christopher C., et al. "Second-generation PLINK: rising to the challenge of larger and richer datasets." Gigascience 4.1 (2015): s13742-015.
+
+## EMMAX
+- FULLNAME:efficient mixed-model association eXpedited
+- SHORTNAME:EMMAX
+- URL: https://genome.sph.umich.edu/wiki/EMMAX
+- DESCRIPTION: EMMAX is a statistical test for large scale human or model organism association mapping accounting for the sample structure. In addition to the computational efficiency obtained by EMMA algorithm, EMMAX takes advantage of the fact that each loci explains only a small fraction of complex traits, which allows us to avoid repetitive variance component estimation procedure, resulting in a significant amount of increase in computational time of association mapping using mixed model.
+- CITATION:  Korte, Arthur, et al. "A mixed-model approach for genome-wide association studies of correlated traits in structured populations." Nature genetics 44.9 (2012): 1066-1071.
+
 ## GEMMA
-## fastGWA
+- FULLNAME:
+- SHORTNAME:
+- URL: 
+- CITATION: 
+
+## SAIGE
+- FULLNAME:
+- SHORTNAME:
+- URL: 
+- CITATION: 
+
+## Bolt-lMM
+- FULLNAME:
+- SHORTNAME:
+- URL: 
+- CITATION: 
+
+## fastGWA-lmm
+- FULLNAME:
+- SHORTNAME:
+- URL: 
+- CITATION: 
+
+## fastGWA-glmm
+- FULLNAME:
+- SHORTNAME:
+- URL: 
+- CITATION: 
+
 ## REGENIE
 - FULLNAME:REGENIE
 - SHORTNAME:REGENIE
@@ -28,8 +73,7 @@
 - DESCRIPTION:regenie is a C++ program for whole genome regression modelling of large genome-wide association studies. It is developed and supported by a team of scientists at the Regeneron Genetics Center.
 - CITATION: Mbatchou, Joelle, et al. "Computationally efficient whole-genome regression for quantitative and binary traits." Nature genetics 53.7 (2021): 1097-1103.
 - KEY WORDS: whole genome regression
-## SAIGE
-## Bolt-lMM
+
 ---
 
 # Gene-based analysis (rare variant)
@@ -44,7 +88,7 @@
 ## SAIGE-GENE /  SAIGE-GENE+
 - FULLNAME: SAIGE-GENE / SAIGE-GENE+
 - SHORTNAME: SAIGE-GENE / SAIGE-GENE+
-- URL: https://github.com/saigegit/SAIGE
+- URL: https://github.com/weizhouUMICH/SAIGE
 - CITATION: Zhou, Wei, et al. "SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests." Nature Genetics (2022): 1-4.
 - CITATION: Zhou, Wei, et al. "Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts." Nature genetics 52.6 (2020): 634-639.
 
