@@ -1,0 +1,1 @@
+- CITATION: Elmentaite, Rasa, et al. "Single-cell atlases: shared and tissue-specific cell types across human organs." Nature Reviews Genetics (2022): 1-16.
