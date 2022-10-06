@@ -17,6 +17,7 @@
 - The Malaysian Cohort (TMC)
 - Michigan Genomics Initiative
 - National Biobank of Korea
+- Nigerian 100K Genome Project
 - Penn Medicine Biobank
 - Qatar Biobank
 - QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
@@ -83,49 +84,49 @@
 
 # ASIA
 ## China Kadoorie Biobank (CKB)
-- SAMPLE SIZE: 500k
+- SAMPLE SIZE: ~500k
 - LOCATION: China
 - URL:https://www.ckbiobank.org/
 - DESCRIPTION:The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.
 - CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
 
 ## Taiwan Biobank (TWB)
-- SAMPLE SIZE:150k
+- SAMPLE SIZE: ~150k
 - LOCATION: China, Taiwan
 - URL:https://www.twbiobank.org.tw/
 - DESCRIPTION:The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70 recruited from across Taiwan beginning in 2012. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples.
 - CITATION:Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... & Lin, Y. F. (2021). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. medRxiv.
 
 ## BioBank Japan (BBJ)
-- SAMPLE SIZE: 20k
+- SAMPLE SIZE: ~20k
 - LOCATION: Japan
 - URL:https://biobankjp.org/
 - DESCRIPTION:In 2003, BioBank Japan (BBJ) started developing one of the world’s largest disease biobanks, creating a foundation for research aimed at achieving medical care tailored to the individual traits of each patient. From a total of 260,000 patients representing 440,000 cases of 51 primarily multifactorial (common) diseases, BBJ has collected DNA, serum, medical records (clinical information), etc. with their consent. No less than 5,800 items of screened information are available for research, including the patients’ survival information, with 95% of the patients tracked over an average of 10 years. In addition to large-scale genomic analyses, omics analyses including whole genome sequencing and metabolome/proteome analyses have been performed on the DNA, serum and other biological samples collected, producing significant research findings. The genomic information acquired through the analyses continues to be used as data. The biological samples and data are widely distributed and used by researchers.
 - CITATION:Nagai, A., Hirata, M., Kamatani, Y., Muto, K., Matsuda, K., Kiyohara, Y., ... & Kubo, M. (2017). Overview of the BioBank Japan Project: study design and profile. Journal of epidemiology, 27(Supplement_III), S2-S8.
 
 ## Tohoku Medical Megabank (TMM)
-- SAMPLE SIZE: 157k
+- SAMPLE SIZE: ~157k
 - LOCATION: Japan
 - URL: https://www.megabank.tohoku.ac.jp/english/
 - DESCRIPTION:Tohoku University Tohoku Medical Megabank Organization was founded to establish an advanced medical system to foster the reconstruction from the Great East Japan Earthquake. The organization has been developing a biobank that combines medical and genome information during the process of rebuilding the community medical system and supporting health and welfare in the Tohoku area. The information from the brand-new biobank will create a new medical system, and, based on the findings of its analysis, the organization aims to attract more medical practitioners from all over the country to the area, promote industry-academic partnerships, create employment in related fields, and restore the medical system in Tohoku.
 - CITATION:Kuriyama, S., Yaegashi, N., Nagami, F., Arai, T., Kawaguchi, Y., Osumi, N., ... & Tohoku Medical Megabank Project Study Group. (2016). The Tohoku medical megabank project: design and mission. Journal of epidemiology, 26(9), 493-511.
 
 ## National Biobank of Korea
-- SAMPLE SIZE: 80K
+- SAMPLE SIZE: ~80K
 - LOCATION: Korea
 - URL:https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html
 - DESCRIPTION:The NBK is the national control center for the collection, management, and utilization of human bioresources in Korea. And NBK manages KBN, it contributes to the development of policies related to human bioresources, standardization of human bioresource management, and advancement of domestic biobanks through developing and providing support for human bioresource technologies. For guaranteeing the fairness in bioresource distribution and development of an efficient distribution system, the NBK also serves as the human bioresource supply hub that supports national healthcare and medical R&D.
 - CITATION:Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184.
  
 ## Qatar Biobank
-- SAMPLE SIZE: 80K
+- SAMPLE SIZE: ~80K
 - LOCATION: Qatar
 - URL : https://www.qatarbiobank.org.qa/
 - DESCRIPTION: Qatar Biobank, a center within Qatar Foundation, was created in collaboration with Hamad Medical Corporation and the Ministry of Public Health to enable local scientists to conduct medical research on prevalent health issues in Qatar.
 - CITATION:Al Kuwari, H., Al Thani, A., Al Marri, A., Al Kaabi, A., Abderrahim, H., Afifi, N., ... & Elliott, P. (2015). The Qatar Biobank: background and methods. BMC public health, 15(1), 1-9.
 
 ## The Malaysian Cohort (TMC)
-- Cohort Size: 100k
+- Cohort Size: ~100k
 - LOCATION: Malaysia
 - URL:https://www.ukm.my/mycohort/ms/
 - DESCRIPTION:The Malaysian Cohort study was initiated in 2005 by the Malaysian government. The top-down approach to this population-based cohort study ensured the allocation of sufficient funding for the project which aimed to recruit 100 000 individuals aged 35–70 years. Participants were recruited from rural and urban areas as well as from various socioeconomic groups. The main objectives of the study were to identify risk factors, to study gene-environment interaction and to discover biomarkers for the early detection of cancers and other diseases. 
@@ -133,68 +134,77 @@
  
 # AFRICA
 ## Uganda Genome Resource
-- SAMPLE SIZE: 6k
+- SAMPLE SIZE: ~6k
 - URL:https://ega-archive.org/studies/EGAS00001000545
 - DESCRIPTION:Genomic studies in African populations provide unique opportunities to understand disease aetiology, human genetic diversity and population history in a regional and a global context. To leverage the relative benefits of different strategies, we undertook a combined approach of genotyping and whole-genome sequencing (WGS) in a population-based study of 6,400 individuals from a geographically defined rural community in South-West Uganda. We present data from 4,778 individuals with genotypes for ~2.2 million SNPs from the Uganda GWAS resource (UGWAS), and sequence data on up to 1,978 individuals spanning 41.5M SNPs and 4.5M indels (UG2G); 343 individuals overlap between the two datasets. We highlight the value of the largest sequence panel from Africa to date as a global resource for variant discovery, imputation and understanding the mutational spectrum and its clinical relevance in African populations. Alongside phenotype data, we provide a rich new genomic resource for researchers in Africa and globally
 - CITATION:Gurdasani, D., Carstensen, T., Fatumo, S., Chen, G., Franklin, C. S., Prado-Martinez, J., ... & Sandhu, M. S. (2019). Uganda genome resource enables insights into population history and genomic discovery in Africa. Cell, 179(4), 984-1002.
 
+## Nigerian 100K Genome Project (coming soon)
+- CITATION:Fatumo, S., Yakubu, A., Oyedele, O., Popoola, J., Attipoe, D. A., Eze-Echesi, G., ... & Ene-Obong, A. (2022). Promoting the genomic revolution in Africa through the Nigerian 100K Genome Project. Nature Genetics, 54(5), 531-536.
 
 # AMERICA
 ## Michigan Genomics Initiative
-- SAMPLE SIZE: 55k
+- SAMPLE SIZE: ~55k
+- LOCATION: U.S.
 - URL:https://precisionhealth.umich.edu/our-research/michigangenomics/
 - DESCRIPTION:The Michigan Genomics Initiative (MGI) is a collaborative research effort among physicians, researchers, and patients at the University of Michigan (U-M) with the goal of combining patient electronic health record (EHR) data with corresponding genetic data to gain novel biomedical insights. There are currently ~84K consented participants through the MGI and partner studies and the addition of ~10K new participants per year is anticipated. Currently, all MGI participants with available genetic data have received care at the University of Michigan Health System. 
 - CITATION:Zawistowski, M., Fritsche, L. G., Pandit, A., Vanderwerff, B., Patil, S., Scmidt, E. M., ... & Zoellner, S. (2021). The Michigan Genomics Initiative: a biobank linking genotypes and electronic clinical records in Michigan Medicine patients. medRxiv.
 
 ## Penn Medicine Biobank
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~40k
+- LOCATION: U.S.
+- URL:https://pmbb.med.upenn.edu/
+- DESCRIPTION:The Penn Medicine BioBank (PMBB) is a research program created to study the causes and treatments of many diseases. Any Penn Medicine patient (age 18 and up) can sign up. The PMBB is a collection of biological samples, such as blood or tissue, that are donated by patient volunteers. These samples are then connected to clinical information, such as diseases or lab measures. These data are then used by researchers to discover new ways to detect, treat, and maybe even prevent or cure disease. Some of these studies may be about how genes affect health and disease. Other studies look at how genes affect response to medicines.
+ 
 ## UCLA Precision Health Biobank
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~27k
+- LOCATION: U.S.
+- URL:https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank
+- DESCRIPTION:The UCLA ATLAS Precision Health Biobank, under the supervision of the Translational Pathology Core Laboratory (TCPL), collects biological samples from patients who have consented to participate in the UCLA ATLAS Community Health Initiative. As a collaborator with UCLA ATLAS Community Health Initiative, the UCLA ATLAS Precision Health Biobank manages the collection and distribution of biological samples by removing the personally identifiable information.
+- CITATION:Johnson, R. D., Ding, Y., Bhattacharya, A., Chiu, A., Lajonchere, C., Geschwind, D. H., & Pasaniuc, B. (2022). The UCLA ATLAS Community Health Initiative: promoting precision health research in a diverse biobank. medRxiv.
+
 ## BioMe
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~32k
+- LOCATION: U.S.
+- URL:https://icahn.mssm.edu/research/ipm/programs/biome-biobank
+- DESCRIPTION:The Institute for Personalized Medicine at the Icahn School of Medicine at Mount Sinai is leading the movement toward diagnosis and classification of disease according to the patient’s molecular profile. This approach accommodates differences at all possible levels of exposure (genome, environment, and lifestyle) and at all stages of the process, from prevention to post-treatment follow-up. At the center of this effort is BioMe, an electronic medical record-linked biobank that enables researchers to rapidly and efficiently conduct genetic, epidemiologic, molecular, and genomic studies on large collections of research specimens linked with medical information.
+
 ## BioVU
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~120k
+- LOCATION: U.S.
+- URL:https://www.vumc.org/dbmi/biovu
+- DESCRIPTION:Planning for BioVU began in mid-2004 and the first samples were collected in February 2007. Prior to collecting DNA samples, all aspects of the BioVU project were extensively tested. BioVU now accrues 500-1000 samples per week, totaling more than 275,000 DNA samples as of January 2022. Vanderbilt clinic patients may sign the BioVU Consent Form if they wish to donate their excess blood samples, or not sign the form if they do not wish to participate.
+- CITATION:Roden, D. M., Pulley, J. M., Basford, M. A., Bernard, G. R., Clayton, E. W., Balser, J. R., & Masys, D. R. (2008). Development of a large‐scale de‐identified DNA biobank to enable personalized medicine. Clinical Pharmacology & Therapeutics, 84(3), 362-369.
+
 ## Biobank of the Americas
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
-## Penn Medicine Biobank
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~20k
+- LOCATION: U.S.
+- URL:https://bbofa.org/
+- URL: https://www.galatea.bio/#main-biobank
+- DESCRIPTION: Biobank consented samples with associated clinical data from diverse populations from throughout the United States and Latin America via healthcare and biopharma partnerships.
+
 ## Colorado Center for Personalized Medicine
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~34k
+- LOCATION: U.S.
+- URL:https://medschool.cuanschutz.edu/cobiobank
+- DESCRIPTION:Established in 2014 as a partnership between UCHealth and University of Colorado Anschutz Medical Campus, the Colorado Center for Personalized Medicine (CCPM) brings together multiple disciplines and institutions to uncover advancements in genomics that can improve diagnosis and treatment of disease, and identify more tailored approaches to population health management.To facilitate discoveries in personalized medicine, CCPM has created a Biobank that aims to be one of the largest academic medicine biospecimen repositories in the mountain and midwest regions of the U.S. The CCPM Biobank is able to link biospecimens and genotype information with patient health information from electronic medical records in an enterprise data warehouse (Health Data Compass) to support a broad range of research, operational, and clinical quality improvement agendas. 
+
 ## CanPath - Ontario Health Study
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~7.3k
+- LOCATION: Canada
+- URL:https://canpath.ca/cohort/ontario-health-study/
+- DESCRIPTION:The Ontario Health Study (OHS) is a resource for investigating the ways in which lifestyle, the environment and genetics affect people’s health. It is one of the regional cohorts that collectively form the Canadian Partnership for Tomorrow’s Health (CanPath)—a pan-Canadian cohort with >330 000 participants. The linking of Canada’s rich collection of administrative health data with the cohort’s data represents a powerful means to disseminate high-quality, timely data.
+- CITATION:Kirsh, V. A., Skead, K., McDonald, K., Kreiger, N., Little, J., Menard, K., ... & Awadalla, P. (2022). Cohort Profile: The Ontario Health Study (OHS). International Journal of Epidemiology.
+
 ## Massachusetts General Brigham Biobank
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~26K
+- LOCATION: U.S.
+- URL:https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank
+- DESCRIPTION: The Mass General Brigham Biobank is a large research program designed to help researchers understand how people’s health is affected by their genes, lifestyle, and environment. By participating in the Mass General Brigham Biobank, you can help us better understand, treat, and even prevent the diseases that might affect your health and the health of future generations. 
+- CITATION: Boutin, N. T., Schecter, S. B., Perez, E. F., Tchamitchian, N. S., Cerretani, X. R., Gainer, V. S., ... & Smoller, J. W. (2022). The Evolution of a Large Biobank at Mass General Brigham. Journal of Personalized Medicine, 12(8), 1323.
+- CITATION:Castro, V. M., Gainer, V., Wattanasin, N., Benoit, B., Cagan, A., Ghosh, B., ... & Murphy, S. N. (2022). The Mass General Brigham Biobank Portal: an i2b2-based data repository linking disparate and high-dimensional patient data to support multimodal analytics. Journal of the American Medical Informatics Association, 29(4), 643-651.
 
 # OCIENIA
 ## QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: ~17k
+- URL:https://genepi.qimr.edu.au/
