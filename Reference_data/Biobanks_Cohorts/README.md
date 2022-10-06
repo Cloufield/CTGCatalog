@@ -83,68 +83,69 @@
 
 # ASIA
 ## China Kadoorie Biobank (CKB)
-- Cohort Size: 500k
+- SAMPLE SIZE: 500k
 - LOCATION: China
 - URL:https://www.ckbiobank.org/
 - DESCRIPTION:The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.
 - CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
 
 ## Taiwan Biobank (TWB)
-- Cohort Size: 150k
+- SAMPLE SIZE:150k
 - LOCATION: China, Taiwan
 - URL:https://www.twbiobank.org.tw/
 - DESCRIPTION:The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70 recruited from across Taiwan beginning in 2012. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples.
 - CITATION:Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... & Lin, Y. F. (2021). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. medRxiv.
 
 ## BioBank Japan (BBJ)
-- Cohort Size: 
+- SAMPLE SIZE: 20k
 - LOCATION: Japan
-- URL:
-- DESCRIPTION:
-- CITATION:
+- URL:https://biobankjp.org/
+- DESCRIPTION:In 2003, BioBank Japan (BBJ) started developing one of the world’s largest disease biobanks, creating a foundation for research aimed at achieving medical care tailored to the individual traits of each patient. From a total of 260,000 patients representing 440,000 cases of 51 primarily multifactorial (common) diseases, BBJ has collected DNA, serum, medical records (clinical information), etc. with their consent. No less than 5,800 items of screened information are available for research, including the patients’ survival information, with 95% of the patients tracked over an average of 10 years. In addition to large-scale genomic analyses, omics analyses including whole genome sequencing and metabolome/proteome analyses have been performed on the DNA, serum and other biological samples collected, producing significant research findings. The genomic information acquired through the analyses continues to be used as data. The biological samples and data are widely distributed and used by researchers.
+- CITATION:Nagai, A., Hirata, M., Kamatani, Y., Muto, K., Matsuda, K., Kiyohara, Y., ... & Kubo, M. (2017). Overview of the BioBank Japan Project: study design and profile. Journal of epidemiology, 27(Supplement_III), S2-S8.
 
 ## Tohoku Medical Megabank (TMM)
-- Cohort Size: 
+- SAMPLE SIZE: 157k
 - LOCATION: Japan
-- URL:
-- DESCRIPTION:
-- CITATION:
+- URL: https://www.megabank.tohoku.ac.jp/english/
+- DESCRIPTION:Tohoku University Tohoku Medical Megabank Organization was founded to establish an advanced medical system to foster the reconstruction from the Great East Japan Earthquake. The organization has been developing a biobank that combines medical and genome information during the process of rebuilding the community medical system and supporting health and welfare in the Tohoku area. The information from the brand-new biobank will create a new medical system, and, based on the findings of its analysis, the organization aims to attract more medical practitioners from all over the country to the area, promote industry-academic partnerships, create employment in related fields, and restore the medical system in Tohoku.
+- CITATION:Kuriyama, S., Yaegashi, N., Nagami, F., Arai, T., Kawaguchi, Y., Osumi, N., ... & Tohoku Medical Megabank Project Study Group. (2016). The Tohoku medical megabank project: design and mission. Journal of epidemiology, 26(9), 493-511.
 
 ## National Biobank of Korea
-- Cohort Size: 
+- SAMPLE SIZE: 80K
 - LOCATION: Korea
-- URL:
-- DESCRIPTION:
-- CITATION:
+- URL:https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html
+- DESCRIPTION:The NBK is the national control center for the collection, management, and utilization of human bioresources in Korea. And NBK manages KBN, it contributes to the development of policies related to human bioresources, standardization of human bioresource management, and advancement of domestic biobanks through developing and providing support for human bioresource technologies. For guaranteeing the fairness in bioresource distribution and development of an efficient distribution system, the NBK also serves as the human bioresource supply hub that supports national healthcare and medical R&D.
+- CITATION:Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184.
  
 ## Qatar Biobank
-- Cohort Size: 
-- LOCATION: Biobank
+- SAMPLE SIZE: 80K
+- LOCATION: Qatar
 - URL : https://www.qatarbiobank.org.qa/
-- DESCRIPTION:
-- CITATION:
+- DESCRIPTION: Qatar Biobank, a center within Qatar Foundation, was created in collaboration with Hamad Medical Corporation and the Ministry of Public Health to enable local scientists to conduct medical research on prevalent health issues in Qatar.
+- CITATION:Al Kuwari, H., Al Thani, A., Al Marri, A., Al Kaabi, A., Abderrahim, H., Afifi, N., ... & Elliott, P. (2015). The Qatar Biobank: background and methods. BMC public health, 15(1), 1-9.
 
 ## The Malaysian Cohort (TMC)
-- Cohort Size: 
+- Cohort Size: 100k
 - LOCATION: Malaysia
-- URL:
-- DESCRIPTION:
-- CITATION:
+- URL:https://www.ukm.my/mycohort/ms/
+- DESCRIPTION:The Malaysian Cohort study was initiated in 2005 by the Malaysian government. The top-down approach to this population-based cohort study ensured the allocation of sufficient funding for the project which aimed to recruit 100 000 individuals aged 35–70 years. Participants were recruited from rural and urban areas as well as from various socioeconomic groups. The main objectives of the study were to identify risk factors, to study gene-environment interaction and to discover biomarkers for the early detection of cancers and other diseases. 
+- CITATION:Jamal, R., Syed Zakaria, S. Z., Kamaruddin, M. A., Abd Jalal, N., Ismail, N., Mohd Kamil, N., ... & Malaysian Cohort Study Group. (2015). Cohort profile: The Malaysian Cohort (TMC) project: a prospective study of non-communicable diseases in a multi-ethnic population. International journal of epidemiology, 44(2), 423-431.
  
 # AFRICA
 ## Uganda Genome Resource
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: 6k
+- URL:https://ega-archive.org/studies/EGAS00001000545
+- DESCRIPTION:Genomic studies in African populations provide unique opportunities to understand disease aetiology, human genetic diversity and population history in a regional and a global context. To leverage the relative benefits of different strategies, we undertook a combined approach of genotyping and whole-genome sequencing (WGS) in a population-based study of 6,400 individuals from a geographically defined rural community in South-West Uganda. We present data from 4,778 individuals with genotypes for ~2.2 million SNPs from the Uganda GWAS resource (UGWAS), and sequence data on up to 1,978 individuals spanning 41.5M SNPs and 4.5M indels (UG2G); 343 individuals overlap between the two datasets. We highlight the value of the largest sequence panel from Africa to date as a global resource for variant discovery, imputation and understanding the mutational spectrum and its clinical relevance in African populations. Alongside phenotype data, we provide a rich new genomic resource for researchers in Africa and globally
+- CITATION:Gurdasani, D., Carstensen, T., Fatumo, S., Chen, G., Franklin, C. S., Prado-Martinez, J., ... & Sandhu, M. S. (2019). Uganda genome resource enables insights into population history and genomic discovery in Africa. Cell, 179(4), 984-1002.
 
 
 # AMERICA
 ## Michigan Genomics Initiative
-- SAMPLE SIZE: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- SAMPLE SIZE: 55k
+- URL:https://precisionhealth.umich.edu/our-research/michigangenomics/
+- DESCRIPTION:The Michigan Genomics Initiative (MGI) is a collaborative research effort among physicians, researchers, and patients at the University of Michigan (U-M) with the goal of combining patient electronic health record (EHR) data with corresponding genetic data to gain novel biomedical insights. There are currently ~84K consented participants through the MGI and partner studies and the addition of ~10K new participants per year is anticipated. Currently, all MGI participants with available genetic data have received care at the University of Michigan Health System. 
+- CITATION:Zawistowski, M., Fritsche, L. G., Pandit, A., Vanderwerff, B., Patil, S., Scmidt, E. M., ... & Zoellner, S. (2021). The Michigan Genomics Initiative: a biobank linking genotypes and electronic clinical records in Michigan Medicine patients. medRxiv.
+
 ## Penn Medicine Biobank
 - SAMPLE SIZE: 
 - URL:
