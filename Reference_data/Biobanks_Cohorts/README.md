@@ -158,7 +158,7 @@
 ## Nigerian 100K Genome Project (coming soon)
 - CITATION:Fatumo, S., Yakubu, A., Oyedele, O., Popoola, J., Attipoe, D. A., Eze-Echesi, G., ... & Ene-Obong, A. (2022). Promoting the genomic revolution in Africa through the Nigerian 100K Genome Project. Nature Genetics, 54(5), 531-536.
 
-# AMERICA
+# NORTH AMERICA
 ## Michigan Genomics Initiative
 - SAMPLE SIZE: ~55k
 - LOCATION: U.S.
