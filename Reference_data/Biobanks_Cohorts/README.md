@@ -1,5 +1,6 @@
 # Contents : Biobanks and Cohorts
 - Biobank of the Americas
+- Biobank Graz
 - Biobank Japan
 - BioMe
 - BioVU
@@ -12,10 +13,12 @@
 - Generation Scotland
 - Genes & Health
 - HUNT
+- IARC Biobank
 - Lifelines
 - Massachusetts General Brigham Biobank
 - The Malaysian Cohort (TMC)
 - Michigan Genomics Initiative
+- Million Veteran Program (MVP)
 - National Biobank of Korea
 - Nigerian 100K Genome Project
 - Penn Medicine Biobank
@@ -81,6 +84,19 @@
 - LOCATION: Iceland
 - URL:https://www.decode.com/
 - DESCRIPTION:deCODE leads the world in the discovery of genetic risk factors for common diseases. Our gene discovery engine is driven by our unique approach and resources, including detailed genetic and medical information on some 500,000 individuals from around the globe taking part in our discovery work and proprietary statistical algorithms and informatics tools for gathering, analyzing, visualizing and storing large amounts of data.
+
+## The International Agency for Research on Cancer (IARC) Biobank (IBB)
+- SAMPLE SIZE: ~560k
+- LOCATION: France
+- URL: https://ibb.iarc.fr/
+- DESCRIPTION: The IARC BioBank (IBB) is one of the largest, most varied and richest International collections of samples in the world. The Biobank is publicly funded, (approximately 60% of its budget is provided by IARC Participating States through the regular budget and the remainder is from research grants) and hosts over 50 different studies, led or coordinated by IARC scientists. The IBB contains both population-based collections from research projects focusing on gene-environment interactions (as in the European Prospective Investigation into Cancer and Nutrition (EPIC) study) and disease-based collections which focus on biomarkers (as in the International Head and Neck Cancer Epidemiology (INHANCE)). Study designs include case-series, prevalence studies, case-control and cohort studies, etc. The IBB contains 5.1 million biological samples from 562,000 individuals. 4 million of the samples are from the EPIC study (over 370,000 individuals) and about one million samples from other collections (close to 200,000 individuals). Most of the samples are body fluids, including plasma, serum and urine as well as extracted DNA samples.
+
+## Biobank Graz
+- SAMPLE SIZE: ~1200k
+- LOCATION: Austria
+- URL:https://biobank.medunigraz.at/en/?link=http%3A%2F%2F169.254.169.254%2Flatest%2Fmeta-data%2F&cHash=3b3a94b34935e2b8509a838b4a34b0eb
+- DESCRIPTION: Biobank Graz is one of the largest and most well-known clinical biobanks in the world. Around 20 million individual specimens of body fluids and human tissue are stored here. Biobank Graz allows access to these specimens and associated data for scientific research purposes. The common goal is to develop approaches to diagnosing and treating disease. 
+- CITATION: Huppertz, B., Bayer, M., Macheiner, T., & Sargsyan, K. (2016). Biobank Graz: the hub for innovative biomedical research. Open journal of bioresources, 3(1).
 
 # ASIA
 ## China Kadoorie Biobank (CKB)
@@ -203,6 +219,13 @@
 - DESCRIPTION: The Mass General Brigham Biobank is a large research program designed to help researchers understand how people’s health is affected by their genes, lifestyle, and environment. By participating in the Mass General Brigham Biobank, you can help us better understand, treat, and even prevent the diseases that might affect your health and the health of future generations. 
 - CITATION: Boutin, N. T., Schecter, S. B., Perez, E. F., Tchamitchian, N. S., Cerretani, X. R., Gainer, V. S., ... & Smoller, J. W. (2022). The Evolution of a Large Biobank at Mass General Brigham. Journal of Personalized Medicine, 12(8), 1323.
 - CITATION:Castro, V. M., Gainer, V., Wattanasin, N., Benoit, B., Cagan, A., Ghosh, B., ... & Murphy, S. N. (2022). The Mass General Brigham Biobank Portal: an i2b2-based data repository linking disparate and high-dimensional patient data to support multimodal analytics. Journal of the American Medical Informatics Association, 29(4), 643-651.
+
+## Million Veteran Program (MVP)
+- SAMPLE SIZE: ~900k
+- LOCATION: U.S.
+- URL:https://www.mvp.va.gov/pwa/
+- DESCRIPTION: The Million Veteran Program (MVP) is a national research program to learn how genes, lifestyle, and military exposures affect health and illness. Since launching in 2011, over 900,000 Veteran partners have joined one of the world's largest programs on genetics and health.
+- CITATION:Gaziano, J. M., Concato, J., Brophy, M., Fiore, L., Pyarajan, S., Breeling, J., ... & O'Leary, T. J. (2016). Million Veteran Program: A mega-biobank to study genetic influences on health and disease. Journal of clinical epidemiology, 70, 214-223.
 
 # OCIENIA
 ## QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
