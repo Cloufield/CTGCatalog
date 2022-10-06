@@ -4,6 +4,7 @@
 ## Protein Biomarker
 ### Olink
 - URL: https://www.olink.com/products-services/explore/
+- CITATION: Assarsson, E., Lundberg, M., Holmquist, G., Björkesten, J., Bucht Thorsen, S., Ekman, D., ... & Fredriksson, S. (2014). Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability. PloS one, 9(4), e95192.
 - CITATION:Wik, L., Nordberg, N., Broberg, J., Björkesten, J., Assarsson, E., Henriksson, S., ... & Lundberg, M. (2021). Proximity extension assay in combination with next-generation sequencing for high-throughput proteome-wide analysis. Molecular & Cellular Proteomics, 20.
 <img width="905" alt="Screen Shot 2022-10-03 at 15 53 03" src="https://user-images.githubusercontent.com/40289485/193517284-11727301-31f3-452a-a51c-4edd34ade231.png">
 
