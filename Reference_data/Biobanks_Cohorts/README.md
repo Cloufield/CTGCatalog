@@ -14,6 +14,7 @@
 - HUNT
 - Lifelines
 - Massachusetts General Brigham Biobank
+- The Malaysian Cohort (TMC)
 - Michigan Genomics Initiative
 - National Biobank of Korea
 - Penn Medicine Biobank
@@ -69,53 +70,67 @@
 - CITATION: Smith, B. H., Campbell, A., Linksted, P., Fitzpatrick, B., Jackson, C., Kerr, S. M., ... & Morris, A. D. (2013). Cohort Profile: Generation Scotland: Scottish Family Health Study (GS: SFHS). The study, its participants and their potential for genetic research on health and illness. International journal of epidemiology, 42(3), 689-700.
 
 ## East London Genes & Health
-- SAMPLE SIZE: 100k
+- SAMPLE SIZE: ~100k
 - URL: https://www.genesandhealth.org/
 - DESCRIPTION: Genes & Health is a huge long-term study of 100,000 people of Bangladeshi and Pakistani origin. We will link genes with health records, to study disease and treatments. Some volunteers may be invited for further studies. We are inviting volunteers to take part in two regions of the UK: East London (East London Genes & Health) and Bradford (Bradford Genes & Health).
 - CITATION: Finer, S., Martin, H. C., Khan, A., Hunt, K. A., MacLaughlin, B., Ahmed, Z., ... & van Heel, D. A. (2020). Cohort Profile: East London Genes & Health (ELGH), a community-based population genomics and health study in British Bangladeshi and British Pakistani people. International journal of epidemiology, 49(1), 20-21i.
 
 ## deCODE Genetics
-- SAMPLE SIZE: 250k
+- SAMPLE SIZE: ~250k
 - LOCATION: Iceland
 - URL:https://www.decode.com/
 - DESCRIPTION:deCODE leads the world in the discovery of genetic risk factors for common diseases. Our gene discovery engine is driven by our unique approach and resources, including detailed genetic and medical information on some 500,000 individuals from around the globe taking part in our discovery work and proprietary statistical algorithms and informatics tools for gathering, analyzing, visualizing and storing large amounts of data.
 
 # ASIA
 ## China Kadoorie Biobank (CKB)
-- Cohort Size: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- Cohort Size: 500k
+- LOCATION: China
+- URL:https://www.ckbiobank.org/
+- DESCRIPTION:The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.
+- CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
 
 ## Taiwan Biobank (TWB)
-- Cohort Size: 
-- URL:
-- DESCRIPTION:
-- CITATION:
+- Cohort Size: 150k
+- LOCATION: China, Taiwan
+- URL:https://www.twbiobank.org.tw/
+- DESCRIPTION:The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70 recruited from across Taiwan beginning in 2012. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples.
+- CITATION:Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... & Lin, Y. F. (2021). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. medRxiv.
 
 ## BioBank Japan (BBJ)
 - Cohort Size: 
+- LOCATION: Japan
 - URL:
 - DESCRIPTION:
 - CITATION:
 
 ## Tohoku Medical Megabank (TMM)
 - Cohort Size: 
+- LOCATION: Japan
 - URL:
 - DESCRIPTION:
 - CITATION:
 
 ## National Biobank of Korea
 - Cohort Size: 
+- LOCATION: Korea
 - URL:
 - DESCRIPTION:
 - CITATION:
  
 ## Qatar Biobank
+- Cohort Size: 
+- LOCATION: Biobank
 - URL : https://www.qatarbiobank.org.qa/
+- DESCRIPTION:
+- CITATION:
 
-
-
+## The Malaysian Cohort (TMC)
+- Cohort Size: 
+- LOCATION: Malaysia
+- URL:
+- DESCRIPTION:
+- CITATION:
+ 
 # AFRICA
 ## Uganda Genome Resource
 - SAMPLE SIZE: 
