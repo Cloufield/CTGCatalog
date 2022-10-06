@@ -10,10 +10,12 @@
 - deCODE Genetics
 - Estonian Biobank
 - FinnGen
+- Fenland Study
 - Generation Scotland
 - Genes & Health
 - HUNT
 - IARC Biobank
+- INTERVAL Study
 - Lifelines
 - Massachusetts General Brigham Biobank
 - The Malaysian Cohort (TMC)
@@ -97,6 +99,20 @@
 - URL:https://biobank.medunigraz.at/en/?link=http%3A%2F%2F169.254.169.254%2Flatest%2Fmeta-data%2F&cHash=3b3a94b34935e2b8509a838b4a34b0eb
 - DESCRIPTION: Biobank Graz is one of the largest and most well-known clinical biobanks in the world. Around 20 million individual specimens of body fluids and human tissue are stored here. Biobank Graz allows access to these specimens and associated data for scientific research purposes. The common goal is to develop approaches to diagnosing and treating disease. 
 - CITATION: Huppertz, B., Bayer, M., Macheiner, T., & Sargsyan, K. (2016). Biobank Graz: the hub for innovative biomedical research. Open journal of bioresources, 3(1).
+
+## INTERVAL Study
+- SAMPLE SIZE: ~50k
+- LOCATION: U.K.
+- URL:https://www.intervalstudy.org.uk/
+- DESCRIPTION:Between June 2012 and June 2014, the INTERVAL study recruited about 25,000 men and about 25,000 women at NHS Blood and Transplant (NSHBT) blood donation centres across England. During the study participants are asked to give blood either at usual donation intervals or more frequently. Men donate every 12, 10 or 8 weeks and women every 16, 14 or 12 weeks.
+- CITATION:Moore, C., Bolton, T., Walker, M., Kaptoge, S., Allen, D., Daynes, M., ... & Thompson, S. G. (2016). Recruitment and representativeness of blood donors in the INTERVAL randomised trial assessing varying inter-donation intervals. Trials, 17(1), 1-12.
+
+## Fenland Study
+- SAMPLE SIZE: ~12k
+- LOCATION: U.K.
+- URL:https://www.mrc-epid.cam.ac.uk/research/studies/fenland/
+- DESCRIPTION:The Fenland Study investigates the interaction between environmental and genetic factors in determining obesity, type 2 diabetes, and related metabolic disorders. These conditions are a considerable public health concern, but their causes and factors that predict who will be affected by them are not completely understood. What makes the Fenland Study unique is the level of detail it collects about the health and lifestyle of participants, and the objective measurement techniques used in the screening. The first phase of the Fenland Study is now complete, and we are now inviting participants who attended an initial Fenland Study visit between 2005 and 2015 to return for a second visit in Phase 2.
+- CITATION: MRC Epidemiology Unit, University of Cambridge. Fenland Study. [Internet]. Cambridge (UK): MRC Epidemiology Unit; 2017; [cited 2017 July 8]. Available from: http://www.mrc-epid.cam.ac.uk/research/studies/fenland/.
 
 # ASIA
 ## China Kadoorie Biobank (CKB)
