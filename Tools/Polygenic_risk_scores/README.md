@@ -15,6 +15,8 @@
 - SBayesS
 - ExPRSweb
 - Cancer PRSweb
+- PRS atlas
+- metabolites PRS atlas
 
 ## PRS Tutorial
 - SHORT NAME: PRS Tutorial
@@ -139,6 +141,20 @@
 - URL : https://prsweb.sph.umich.edu:8443/
 - CITATION: Fritsche, L. G., Patil, S., Beesley, L. J., VandeHaar, P., Salvatore, M., Ma, Y., ... & Mukherjee, B. (2020). Cancer PRSweb: an online repository with polygenic risk scores for major cancer traits and their evaluation in two independent biobanks. The American Journal of Human Genetics, 107(5), 815-836.
 - KEY WORDS: Cancer PRS
+
+## PRS atlas  
+- SHORT NAME: PRS atlas
+- FULL NAME: PRS atlas
+- DESCRIPTION: This web application can be used to query findings from an analysis of 162 polygenic risk scores and 551 complex traits using data from the UK Biobank study1. Traits were selected based on the heritability analysis conducted by the Neale Lab2 (P<0.05). We encourage users of this resource to conduct follow-up analyses of associations to robustly identify causal relationships between complex traits.
+- URL : http://mrcieu.mrsoftware.org/PRS_atlas/
+- CITATION: Richardson, T. G., Harrison, S., Hemani, G., & Smith, G. D. (2019). An atlas of polygenic risk score associations to highlight putative causal relationships across the human phenome. Elife, 8, e43657.
+
+## metabolites PRS atlas
+- SHORT NAME: metabolites PRS atlas
+- FULL NAME: metabolites PRS atlas
+- DESCRIPTION: This web application can be used to query findings from a systematic analysis of 129 polygenic risk scores and 249 circulating metabolits using high-throughput nuclear magnetic resonance data from the UK Biobank study1,2. We encourage users of this resource to conduct follow-up analyses of associations to investigate potential causal and non-causal metabolic biomarkers. Age-stratified results can be used to investigate how potential sources of collider bias (e.g. statin therapy) may influence findings in the full sample
+- URL : http://mrcieu.mrsoftware.org/metabolites_PRS_atlas/
+- CITATION:Fang, S., Holmes, M. V., Gaunt, T. R., Smith, G. D., & Richardson, T. G. (2022). Constructing an atlas of associations between polygenic scores from across the human phenome and circulating metabolic biomarkers. eLife.
 
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
