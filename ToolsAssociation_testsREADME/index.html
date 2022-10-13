@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="HE Yunye">
+    
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    
+    <title>Association_tests - CTGCatalog</title>
+    
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.min.css">
+    <link href='//rsms.me/inter/inter.css' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="../css/base.min.css" rel="stylesheet">
+    <link href="../css/cinder.min.css" rel="stylesheet">
+
+    
+        
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/github.min.css">
+        
+    
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+        <![endif]-->
+
+    
+
+     
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            
+              <a class="navbar-brand" href="..">CTGCatalog</a>
+            
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tools <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../ToolsREADME/">Tools</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsVisualizationREADME/">Visualization</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsPolygenic_risk_scoresREADME/">Polygenic_risk_scores</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Association_tests</a>
+    <ul class="dropdown-menu">
+        
+            
+<li class="active">
+    <a href="./">Association_tests</a>
+</li>
+
+        
+            
+<li >
+    <a href="../ToolsAssociation_testsTWASREADME/">TWAS</a>
+</li>
+
+        
+            
+<li >
+    <a href="../ToolsAssociation_testssQTLREADME/">sQTL</a>
+</li>
+
+        
+            
+<li >
+    <a href="../ToolsAssociation_testseQTLREADME/">eQTL</a>
+</li>
+
+        
+            
+<li >
+    <a href="../ToolsAssociation_testsRWASREADME/">RWAS</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../ToolsColocalizationREADME/">Colocalization</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsSimulationREADME/">Simulation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsData_processingREADME/">Data_processing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsAnnotationREADME/">Annotation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsFine_mappingREADME/">Fine_mapping</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsGene_set_pathway_analysisREADME/">Gene_set_pathway_analysis</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsTissue_and_single_cellREADME/">Tissue_and_single_cell</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsImputationREADME/">Imputation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsHeritability_and_genetic_correlationREADME/">Heritability_and_genetic_correlation</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsDrug_repurposingREADME/">Drug_repurposing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsFunctional_genomicsREADME/">Functional_genomics</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsProteomicsREADME/">Proteomics</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsGxE_interactionsREADME/">GxE_interactions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsMendelian_randomizationREADME/">Mendelian_randomization</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ToolsMeta_and_Multi_triatREADME/">Meta_and_Multi_triat</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../SumstatsREADME/">Sumstats</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Reference_data <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../Reference_dataREADME/">Reference_data</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataBiobanks_CohortsREADME/">Biobanks_Cohorts</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataProteinREADME/">Protein</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Gene</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../Reference_dataGeneREADME/">Gene</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGeneNCBI_refSeqREADME/">NCBI_refSeq</a>
+</li>
+
+        
+            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">UCSC_refGene</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../Reference_dataGeneUCSC_refGeneREADME/">UCSC_refGene</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGeneUCSC_refGeneucsc_genesREADME/">ucsc_genes</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGeneHGNCREADME/">HGNC</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGeneknownGenesREADME/">knownGenes</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGeneEnsemblREADME/">Ensembl</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGeneGENCODEREADME/">GENCODE</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataPhenotypeREADME/">Phenotype</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataVariantREADME/">Variant</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataEpigenomicsREADME/">Epigenomics</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataExpressionREADME/">Expression</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Genome</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../Reference_dataGenomeREADME/">Genome</a>
+</li>
+
+        
+            
+<li >
+    <a href="../Reference_dataGenomehg38README/">hg38</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../Reference_dataxQTLREADME/">xQTL</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programming <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../ProgrammingREADME/">Programming</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ProgrammingPythonREADME/">Python</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ProgrammingCondaREADME/">Conda</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ProgrammingWorkflow_PipelineREADME/">Workflow_Pipeline</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ProgrammingRREADME/">R</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ProgrammingContainerREADME/">Container</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../ProgrammingLinuxREADME/">Linux</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">NGS <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../NGSREADME/">NGS</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSsnRNAREADME/">snRNA</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSlong_readREADME/">long_read</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSWGSREADME/">WGS</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSTCR_BCRREADME/">TCR_BCR</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSATACREADME/">ATAC</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSChIPREADME/">ChIP</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSCAGEREADME/">CAGE</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSx-CREADME/">x-C</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSWGBS_RRBSREADME/">WGBS_RRBS</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSspatial_transcriptomicsREADME/">spatial_transcriptomics</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSscRNAREADME/">scRNA</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSWESREADME/">WES</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSDNaseREADME/">DNase</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSNOMeREADME/">NOMe</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../NGSRNAREADME/">RNA</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fas fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../ToolsPolygenic_risk_scoresREADME/">
+                            <i class="fas fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../ToolsAssociation_testsTWASREADME/">
+                            Next <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Cloufield/CTGCatalog/"><i class="fab fa-github"></i> GitHub</a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#contents">Contents</a></li>
+        <li class="first-level "><a href="#single-variant-association-tests">Single variant association tests</a></li>
+            <li class="second-level"><a href="#plink">PLINK</a></li>
+                
+            <li class="second-level"><a href="#plink2">PLINK2</a></li>
+                
+            <li class="second-level"><a href="#emmax">EMMAX</a></li>
+                
+            <li class="second-level"><a href="#gemma">GEMMA</a></li>
+                
+            <li class="second-level"><a href="#bolt-lmm">BOLT-lMM</a></li>
+                
+            <li class="second-level"><a href="#saige">SAIGE</a></li>
+                
+            <li class="second-level"><a href="#fastgwa">fastGWA</a></li>
+                
+            <li class="second-level"><a href="#fastgwa-glmm">fastGWA-GLMM</a></li>
+                
+            <li class="second-level"><a href="#regenie">REGENIE</a></li>
+                
+        <li class="first-level "><a href="#gene-based-analysis-rare-variant">Gene-based analysis (rare variant)</a></li>
+            <li class="second-level"><a href="#regenie_1">REGENIE</a></li>
+                
+            <li class="second-level"><a href="#saige-gene-saige-gene">SAIGE-GENE /  SAIGE-GENE+</a></li>
+                
+            <li class="second-level"><a href="#staar">STAAR</a></li>
+                
+            <li class="second-level"><a href="#skat">SKAT</a></li>
+                
+            <li class="second-level"><a href="#skat-o">SKAT-O</a></li>
+                
+            <li class="second-level"><a href="#reviews">Reviews:</a></li>
+                
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h1 id="contents">Contents</h1>
+<ul>
+<li>Single variant association tests</li>
+<li>PLINK</li>
+<li>PLINK2</li>
+<li>EMMAX</li>
+<li>GEMMA</li>
+<li>fastGWA</li>
+<li>fastGWA-GLMM</li>
+<li>REGENIE</li>
+<li>SAIGE</li>
+<li>Bolt-lMM</li>
+<li>Gene-based analysis (rare variant)</li>
+<li>REGENIE</li>
+<li>SAIGE-GENE</li>
+<li>SAIGE-GENE+</li>
+<li>SKAT</li>
+<li>SKAT-O</li>
+<li>STAAR</li>
+</ul>
+<hr />
+<h1 id="single-variant-association-tests">Single variant association tests</h1>
+<h2 id="plink">PLINK</h2>
+<ul>
+<li>FULLNAME: PLINK</li>
+<li>SHORTNAME: PLINK</li>
+<li>DESCRIPTION: A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses. PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. The focus of PLINK is purely on analysis of genotype/phenotype data, so there is no support for steps prior to this (e.g. study design and planning, generating genotype or CNV calls from raw data). Through integration with gPLINK and Haploview, there is some support for the subsequent visualization, annotation and storage of results.</li>
+<li>URL: https://www.cog-genomics.org/plink/</li>
+<li>CITATION: Purcell, Shaun, et al. "PLINK: a tool set for whole-genome association and population-based linkage analyses." The American journal of human genetics 81.3 (2007): 559-575.</li>
+</ul>
+<h2 id="plink2">PLINK2</h2>
+<ul>
+<li>FULLNAME:PLINK2</li>
+<li>SHORTNAME:PLINK2</li>
+<li>URL: https://www.cog-genomics.org/plink/2.0/</li>
+<li>CITATION: Chang, Christopher C., et al. "Second-generation PLINK: rising to the challenge of larger and richer datasets." Gigascience 4.1 (2015): s13742-015.</li>
+</ul>
+<h2 id="emmax">EMMAX</h2>
+<ul>
+<li>FULLNAME:efficient mixed-model association eXpedited</li>
+<li>SHORTNAME:EMMAX</li>
+<li>URL: https://genome.sph.umich.edu/wiki/EMMAX</li>
+<li>DESCRIPTION: EMMAX is a statistical test for large scale human or model organism association mapping accounting for the sample structure. In addition to the computational efficiency obtained by EMMA algorithm, EMMAX takes advantage of the fact that each loci explains only a small fraction of complex traits, which allows us to avoid repetitive variance component estimation procedure, resulting in a significant amount of increase in computational time of association mapping using mixed model.</li>
+<li>CITATION:</li>
+</ul>
+<h2 id="gemma">GEMMA</h2>
+<ul>
+<li>FULLNAME: genome-wide efficient mixed-model association </li>
+<li>SHORTNAME: GEMMA</li>
+<li>DESCRIPTION: GEMMA is the software implementing the Genome-wide Efficient Mixed Model Association algorithm for a standard linear mixed model and some of its close relatives for genome-wide association studies (GWAS). It fits a standard linear mixed model (LMM) to account for population stratification and sample structure for single marker association tests. It fits a Bayesian sparse linear mixed model (BSLMM) using Markov chain Monte Carlo (MCMC) for estimating the proportion of variance in phenotypes explained (PVE) by typed genotypes (i.e. chip heritability), predicting phenotypes, and identifying associated markers by jointly modeling all markers while controlling for population structure. It is computationally efficient for large scale GWAS and uses freely available open-source numerical libraries.</li>
+<li>URL: http://stephenslab.uchicago.edu/software.html#gemma</li>
+<li>CITATION: Zhou, Xiang, and Matthew Stephens. "Genome-wide efficient mixed-model analysis for association studies." Nature genetics 44.7 (2012): 821-824.</li>
+</ul>
+<h2 id="bolt-lmm">BOLT-lMM</h2>
+<ul>
+<li>FULLNAME:BOLT-lMM</li>
+<li>SHORTNAME: BOLT-lMM</li>
+<li>DESCRIPTION: The BOLT-LMM software package currently consists of two main algorithms, the BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis (i.e., partitioning of SNP-heritability and estimation of genetic correlations).</li>
+<li>URL: https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html</li>
+<li>CITATION: Loh, Po-Ru, et al. "Efficient Bayesian mixed-model analysis increases association power in large cohorts." Nature genetics 47.3 (2015): 284-290.
+-KEY WORDS: non-infinitesimal model,  mixture of two Gaussian distributions </li>
+</ul>
+<h2 id="saige">SAIGE</h2>
+<ul>
+<li>FULLNAME:Scalable and Accurate Implementation of GEneralized mixed model</li>
+<li>SHORTNAME: SAIGE</li>
+<li>URL: https://github.com/weizhouUMICH/SAIGE</li>
+<li>DESCRIPTION: SAIGE is an R package with Scalable and Accurate Implementation of Generalized mixed model (Chen, H. et al. 2016). It accounts for sample relatedness and is feasible for genetic association tests in large cohorts and biobanks (N &gt; 400,000). SAIGE performs single-variant association tests for binary traits and quantitative taits. For binary traits, SAIGE uses the saddlepoint approximation (SPA)(mhof, J. P. , 1961; Kuonen, D. 1999; Dey, R. et.al 2017) to account for case-control imbalance.</li>
+<li>CITATION: Zhou, Wei, et al. "Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies." Nature genetics 50.9 (2018): 1335-1341.
+-KEY WORDS:case-control imbalance, saddlepoint approximation (SPA)</li>
+</ul>
+<h2 id="fastgwa">fastGWA</h2>
+<ul>
+<li>FULLNAME: fastGWA</li>
+<li>SHORTNAME:fastGWA</li>
+<li>URL: https://yanglab.westlake.edu.cn/software/gcta/#fastGWA</li>
+<li>CITATION: Jiang, Longda, et al. "A resource-efficient tool for mixed model association analysis of large-scale data." Nature genetics 51.12 (2019): 1749-1755.
+-KEY WORDS:  grid-search-based REML algorithm</li>
+</ul>
+<h2 id="fastgwa-glmm">fastGWA-GLMM</h2>
+<ul>
+<li>FULLNAME: fastGWA-GLMM</li>
+<li>SHORTNAME: fastGWA-GLMM</li>
+<li>URL: https://yanglab.westlake.edu.cn/software/gcta/#fastGWA</li>
+<li>CITATION: Jiang, Longda, et al. "A generalized linear mixed model association tool for biobank-scale data." Nature genetics 53.11 (2021): 1616-1621.</li>
+</ul>
+<h2 id="regenie">REGENIE</h2>
+<ul>
+<li>FULLNAME:REGENIE</li>
+<li>SHORTNAME:REGENIE</li>
+<li>URL: https://github.com/rgcgithub/regenie</li>
+<li>DESCRIPTION:regenie is a C++ program for whole genome regression modelling of large genome-wide association studies. It is developed and supported by a team of scientists at the Regeneron Genetics Center.</li>
+<li>CITATION: Mbatchou, Joelle, et al. "Computationally efficient whole-genome regression for quantitative and binary traits." Nature genetics 53.7 (2021): 1097-1103.</li>
+<li>KEY WORDS: whole genome regression</li>
+</ul>
+<hr />
+<h1 id="gene-based-analysis-rare-variant">Gene-based analysis (rare variant)</h1>
+<h2 id="regenie_1">REGENIE</h2>
+<ul>
+<li>FULLNAME:REGENIE</li>
+<li>SHORTNAME:REGENIE</li>
+<li>URL: https://github.com/rgcgithub/regenie</li>
+<li>DESCRIPTION:regenie is a C++ program for whole genome regression modelling of large genome-wide association studies. It is developed and supported by a team of scientists at the Regeneron Genetics Center.</li>
+<li>CITATION: Mbatchou, Joelle, et al. "Computationally efficient whole-genome regression for quantitative and binary traits." Nature genetics 53.7 (2021): 1097-1103.</li>
+<li>KEY WORDS: whole genome regression</li>
+</ul>
+<h2 id="saige-gene-saige-gene">SAIGE-GENE /  SAIGE-GENE+</h2>
+<ul>
+<li>FULLNAME: SAIGE-GENE / SAIGE-GENE+</li>
+<li>SHORTNAME: SAIGE-GENE / SAIGE-GENE+</li>
+<li>URL: https://github.com/weizhouUMICH/SAIGE</li>
+<li>CITATION: Zhou, Wei, et al. "SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests." Nature Genetics (2022): 1-4.</li>
+<li>CITATION: Zhou, Wei, et al. "Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts." Nature genetics 52.6 (2020): 634-639.</li>
+</ul>
+<h2 id="staar">STAAR</h2>
+<ul>
+<li>FULLNAME: variant-set test for association using annotation information</li>
+<li>SHORTNAME: STAAR</li>
+<li>URL: https://github.com/xihaoli/STAAR</li>
+<li>DESCRIPTION: STAAR is an R package for performing variant-Set Test for Association using Annotation infoRmation (STAAR) procedure in whole-genome sequencing (WGS) studies. STAAR is a general framework that incorporates both qualitative functional categories and quantitative complementary functional annotations using an omnibus multi-dimensional weighting scheme. STAAR accounts for population structure and relatedness, and is scalable for analyzing large WGS studies of continuous and dichotomous traits.</li>
+<li>CITATION: Li, Xihao, et al. "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale." Nature genetics 52.9 (2020): 969-983.</li>
+<li>KEY WORDS: functional annotations</li>
+</ul>
+<h2 id="skat">SKAT</h2>
+<ul>
+<li>FULLNAME: sequence kernel association test</li>
+<li>SHORTNAME: SKAT</li>
+<li>URL:  https://www.hsph.harvard.edu/skat/</li>
+<li>DESCRIPTION: SKAT is a SNP-set (e.g., a gene or a region) level test for association between a set of rare (or common) variants and dichotomous or quantitative phenotypes, SKAT aggregates individual score test statistics of SNPs in a SNP set  and efficiently computes SNP-set level p-values, e.g. a gene or a region level p-value, while adjusting for covariates, such as principal components to account for population stratification. SKAT also allows for power/sample size calculations for designing for sequence association studies.</li>
+<li>CITATION:Wu, Michael C., et al. "Rare-variant association testing for sequencing data with the sequence kernel association test." The American Journal of Human Genetics 89.1 (2011): 82-93.</li>
+<li>KEY WORDS: </li>
+</ul>
+<h2 id="skat-o">SKAT-O</h2>
+<ul>
+<li>FULLNAME: sequence kernel association test - optimal test</li>
+<li>SHORTNAME: SKAT-O</li>
+<li>URL:https://www.hsph.harvard.edu/skat/</li>
+<li>DESCRIPTION: estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power.</li>
+<li>CITATION: Lee, Seunggeun, Michael C. Wu, and Xihong Lin. "Optimal tests for rare variant effects in sequencing association studies." Biostatistics 13.4 (2012): 762-775.</li>
+</ul>
+<h2 id="reviews">Reviews:</h2>
+<ul>
+<li>CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.</li>
+</ul></div>
+        
+        
+    </div>
+
+    
+      <footer class="col-md-12 text-center">
+          
+          
+            <hr>
+            <p>
+            <small>CTGCatalog is licensed under the MIT license</small><br>
+            
+            <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</small>
+            </p>
+          
+
+          
+          
+      </footer>
+    
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+        
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    <script>var base_url = ".."</script>
+    
+    <script src="../js/base.js"></script>
+    <script src="../search/main.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span aria-hidden="true">&times;</span>
+                    <span class="sr-only">Close</span>
+                </button>
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+    </body>
+
+</html>
