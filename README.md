@@ -2,6 +2,7 @@
 # CTGCatalog
 
 **Complex Trait Genetics Catalog** : A collection of commonly used resources for analysis in complex trait genetics, including reference data, publicly sumstats and commonly used tools. All entries in this repo are manually curated.
+![image](https://user-images.githubusercontent.com/40289485/195635069-2cd54fe1-6b67-4ab0-b27c-dbe525d23376.png)
 
 ## Reference_data
 * commonly used reference data.
