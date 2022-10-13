@@ -1,11 +1,25 @@
+# CTG Tools
+Commonly used tools for Complex Trait Genetics.
+
 # Categories
-- Data processing
-- Association tests
-- Heritability and Genetic correlation
-- Polygenic risk scores
-- Pathway / Gene-set enrichment analysis
-- Medelian randomization
-- Meta-analysis
+* Annotation
+* Association_tests
+* Colocalization
+* Data_processing
+* Drug_repurposing
+* Fine_mapping
+* Functional_genomics
+* Gene_set_pathway_analysis
+* GxE_interactions
+* Heritability_and_genetic_correlation
+* Imputation
+* Mendelian_randomization
+* Meta_and_Multi_triat
+* Polygenic_risk_scores
+* Proteomics
+* Simulation
+* Tissue_and_single_cell
+* Visualization
 
 ## Template
 - SHORT NAME: 
