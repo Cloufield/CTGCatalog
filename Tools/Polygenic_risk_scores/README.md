@@ -3,6 +3,7 @@
 - PRSice-2
 - PRSet
 - LDpred2
+- LDpred2-auto
 - PRS-CS
 - lassosum
 - PRS-CSx
@@ -55,6 +56,13 @@
 - URL : https://privefl.github.io/bigsnpr/articles/LDpred2.html
 - CITATION: Privé, F., Arbel, J., & Vilhjálmsson, B. J. (2020). LDpred2: better, faster, stronger. Bioinformatics, 36(22-23), 5424-5431.
 - KEY WORDS: Bayesian
+
+## LDpred2-auto
+- SHORT NAME: LDpred2-auto
+- FULL NAME: LDpred2-auto
+- DESCRIPTION: LDpred2 is a widely used Bayesian method for building polygenic scores (PGS). LDpred2-auto can infer the two parameters from the LDpred model, h^2 and p, so that it does not require an additional validation dataset to choose best-performing parameters. Here, we present a new version of LDpred2-auto, which adds a third parameter alpha to its model for modeling negative selection. Additional changes are also made to provide better sampling of these parameters. 
+- URL : https://privefl.github.io/bigsnpr/articles/LDpred2.html
+- CITATION: Inferring disease architecture and predictive ability with LDpred2-auto Florian Privé, Clara Albiñana, Bogdan Pasaniuc, Bjarni J. Vilhjálmsson bioRxiv 2022.10.10.511629; doi: https://doi.org/10.1101/2022.10.10.511629
 
 ## PRS-CS
 - SHORT NAME: PRS-CS
