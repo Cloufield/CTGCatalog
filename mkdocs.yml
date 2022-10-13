@@ -1,0 +1,85 @@
+site_name: CTGCatalog
+site_author: HE Yunye
+repo_name: 'GitHub'
+repo_url: https://github.com/Cloufield/CTGCatalog/
+edit_uri: ""
+copyright: "CTGCatalog is licensed under the MIT license"
+theme:
+  name: null
+  custom_dir: 'cinder'
+  color_theme:  github"
+nav: 
+    - Home : index.md
+    - Tools:
+      - Tools: ToolsREADME.md
+      - Visualization: ToolsVisualizationREADME.md
+      - Polygenic_risk_scores: ToolsPolygenic_risk_scoresREADME.md
+      - Association_tests:
+        - Association_tests: ToolsAssociation_testsREADME.md
+        - TWAS: ToolsAssociation_testsTWASREADME.md
+        - sQTL: ToolsAssociation_testssQTLREADME.md
+        - eQTL: ToolsAssociation_testseQTLREADME.md
+        - RWAS: ToolsAssociation_testsRWASREADME.md
+      - Colocalization: ToolsColocalizationREADME.md
+      - Simulation: ToolsSimulationREADME.md
+      - Data_processing: ToolsData_processingREADME.md
+      - Annotation: ToolsAnnotationREADME.md
+      - Fine_mapping: ToolsFine_mappingREADME.md
+      - Gene_set_pathway_analysis: ToolsGene_set_pathway_analysisREADME.md
+      - Tissue_and_single_cell: ToolsTissue_and_single_cellREADME.md
+      - Imputation: ToolsImputationREADME.md
+      - Heritability_and_genetic_correlation: ToolsHeritability_and_genetic_correlationREADME.md
+      - Drug_repurposing: ToolsDrug_repurposingREADME.md
+      - Functional_genomics: ToolsFunctional_genomicsREADME.md
+      - Proteomics: ToolsProteomicsREADME.md
+      - GxE_interactions: ToolsGxE_interactionsREADME.md
+      - Mendelian_randomization: ToolsMendelian_randomizationREADME.md
+      - Meta_and_Multi_triat: ToolsMeta_and_Multi_triatREADME.md
+    - Sumstats: SumstatsREADME.md
+    - Reference_data:
+      - Reference_data: Reference_dataREADME.md
+      - Biobanks_Cohorts: Reference_dataBiobanks_CohortsREADME.md
+      - Protein: Reference_dataProteinREADME.md
+      - Gene:
+        - Gene: Reference_dataGeneREADME.md
+        - NCBI_refSeq: Reference_dataGeneNCBI_refSeqREADME.md
+        - UCSC_refGene:
+          - UCSC_refGene: Reference_dataGeneUCSC_refGeneREADME.md
+          - ucsc_genes: Reference_dataGeneUCSC_refGeneucsc_genesREADME.md
+        - HGNC: Reference_dataGeneHGNCREADME.md
+        - knownGenes: Reference_dataGeneknownGenesREADME.md
+        - Ensembl: Reference_dataGeneEnsemblREADME.md
+        - GENCODE: Reference_dataGeneGENCODEREADME.md
+      - Phenotype: Reference_dataPhenotypeREADME.md
+      - Variant: Reference_dataVariantREADME.md
+      - Epigenomics: Reference_dataEpigenomicsREADME.md
+      - Expression: Reference_dataExpressionREADME.md
+      - Genome:
+        - Genome: Reference_dataGenomeREADME.md
+        - hg38: Reference_dataGenomehg38README.md
+      - xQTL: Reference_dataxQTLREADME.md
+    - Programming:
+      - Programming: ProgrammingREADME.md
+      - Python: ProgrammingPythonREADME.md
+      - Conda: ProgrammingCondaREADME.md
+      - Workflow_Pipeline: ProgrammingWorkflow_PipelineREADME.md
+      - R: ProgrammingRREADME.md
+      - Container: ProgrammingContainerREADME.md
+      - Linux: ProgrammingLinuxREADME.md
+    - NGS:
+      - NGS: NGSREADME.md
+      - snRNA: NGSsnRNAREADME.md
+      - long_read: NGSlong_readREADME.md
+      - WGS: NGSWGSREADME.md
+      - TCR_BCR: NGSTCR_BCRREADME.md
+      - ATAC: NGSATACREADME.md
+      - ChIP: NGSChIPREADME.md
+      - CAGE: NGSCAGEREADME.md
+      - x-C: NGSx-CREADME.md
+      - WGBS_RRBS: NGSWGBS_RRBSREADME.md
+      - spatial_transcriptomics: NGSspatial_transcriptomicsREADME.md
+      - scRNA: NGSscRNAREADME.md
+      - WES: NGSWESREADME.md
+      - DNase: NGSDNaseREADME.md
+      - NOMe: NGSNOMeREADME.md
+      - RNA: NGSRNAREADME.md
