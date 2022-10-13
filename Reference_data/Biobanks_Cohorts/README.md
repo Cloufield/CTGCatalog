@@ -62,11 +62,13 @@
 - CITATION: Scholtens, S., Smidt, N., Swertz, M. A., Bakker, S. J., Dotinga, A., Vonk, J. M., ... & Stolk, R. P. (2015). Cohort Profile: LifeLines, a three-generation cohort study and biobank. International journal of epidemiology, 44(4), 1172-1180.
 
 ## HUNT
-- SAMPLE SIZE: ~88k
+- TOTAL SAMPLE SIZE: ~229k
+- GENOTYPING SAMPLE SIZE: ~88k
 - LOCATION: Norway
 - URL: https://www.ntnu.edu/hunt/hunt-biobank
 - DESCRIPTION:HUNT Biobank is an established and modern research biobank with high-technology equipment for storage, analysis, sample handling and delivery of samples. Our samples satisfy high quality standards and are stored in accordance with the Data Inspectorates laws and regulations. HUNT Biobank engages in sample handling from The Nord-Trøndelag Health Study (HUNT), Cohort of Norway (CONOR), and can receive samples from other researchers and research projects for storage, analysis and processing of DNA. We do not store samples from private individuals.
-- CITATION: Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2021). The HUNT Study: a population-based cohort for genetic research. medRxiv.
+- CITATION: Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2021). The HUNT Study: a population-based cohort for genetic research. medRxiv. 
+- CITATION: https://www.cell.com/cell-genomics/fulltext/S2666-979X(22)00142-2
 
 ## Generation Scotland
 - SAMPLE SIZE: ~24k
@@ -128,6 +130,9 @@
 - URL:https://www.twbiobank.org.tw/
 - DESCRIPTION:The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70 recruited from across Taiwan beginning in 2012. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples.
 - CITATION:Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... & Lin, Y. F. (2021). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. medRxiv.
+- CITATION: https://www.cell.com/cell-genomics/fulltext/S2666-979X(22)00146-X#sectitle0025
+- CIATTION: Wei, C. Y., Yang, J. H., Yeh, E. C., Tsai, M. F., Kao, H. J., Lo, C. Z., ... & Kwok, P. Y. (2021). Genetic profiles of 103,106 individuals in the Taiwan Biobank provide insights into the health and history of Han Chinese. NPJ genomic medicine, 6(1), 1-10.
+- DATA: https://taiwanview.twbiobank.org.tw/data_appl (application required)
 
 ## BioBank Japan (BBJ)
 - SAMPLE SIZE: ~20k
@@ -149,6 +154,8 @@
 - URL:https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html
 - DESCRIPTION:The NBK is the national control center for the collection, management, and utilization of human bioresources in Korea. And NBK manages KBN, it contributes to the development of policies related to human bioresources, standardization of human bioresource management, and advancement of domestic biobanks through developing and providing support for human bioresource technologies. For guaranteeing the fairness in bioresource distribution and development of an efficient distribution system, the NBK also serves as the human bioresource supply hub that supports national healthcare and medical R&D.
 - CITATION:Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184.
+- CITATION: Nam, K., Kim, J., & Lee, S. (2022). Genome-wide study on 72,298 individuals in Korean biobank data for 76 traits. Cell Genomics, 100189.
+- PUBLIC DATA: https://koges.leelabsg.org/ , https://zenodo.org/record/7042518
  
 ## Qatar Biobank
 - SAMPLE SIZE: ~80K
