@@ -30,7 +30,7 @@
 * Visualization
 
 # About
-For more Complex Trait Genomics contents, please check https://gwaslab.com/
+For more Complex Trait Genomics contents, please check [https://gwaslab.com/](https://gwaslab.com/)
 
 Contact : gwaslab@gmail.com
 
