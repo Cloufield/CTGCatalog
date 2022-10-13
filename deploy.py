@@ -21,7 +21,7 @@ for dirname in ["Tools","Sumstats","Reference_data","Programming","NGS"]:
         currentfolder=root.strip(".|/").split("/")[-1]
         for name in files:
             file = os.path.join(root,name)
-            filerename = ("".join(file.strip(".|/").split("/")))
+            filerename = ("_".join(file.strip(".|/").split("/")))
             if len(dirs)>0:
                 part2+=" "*2*len(file.strip(".|/").split("/"))+"- " + root.strip(".|/").split("/")[-1] +":"
                 part2+="\n"
