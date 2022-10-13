@@ -18,6 +18,7 @@
 - YEAR:2022
 - URL :https://github.com/Cloufield/gwaslab
 
+<img src="https://camo.githubusercontent.com/419d6e8c317f611aff3934ef2aebb1c1e41d09a3731771ec41322c9bba5d00af/68747470733a2f2f636c6f756669656c642e6769746875622e696f2f677761736c61622f696d616765732f696e6465785f6c6f676f2e6a7067" width="500">
 ## locuszoom
 - SHORT NAME:locuszoom
 - FULL NAME:locuszoom
