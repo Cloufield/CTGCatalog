@@ -1,7 +1,7 @@
 
 # CTGCatalog
 
-Complex Trait Genetics Catalog : A collection of commonly used resources for analysis in complex trait genetics, including reference data, publicly sumstats and commonly used tools. All entries in this repo are manually curated.
+**Complex Trait Genetics Catalog** : A collection of commonly used resources for analysis in complex trait genetics, including reference data, publicly sumstats and commonly used tools. All entries in this repo are manually curated.
 
 ## Reference_data
 * commonly used reference data.
@@ -29,6 +29,7 @@ Complex Trait Genetics Catalog : A collection of commonly used resources for ana
 * Tissue_and_single_cell
 * Visualization
 
+# About
 For more Complex Trait Genomics contents, please check https://gwaslab.com/
 
 Contact : gwaslab@gmail.com
