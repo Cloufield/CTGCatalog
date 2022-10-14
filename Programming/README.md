@@ -1,7 +1,2 @@
-
-
-## Pipelines
-### nextflow
-- URL: https://www.nextflow.io/index.html
-### nf-core
-- URL: https://nf-co.re/
+# Programming
+Tools I frequently use for CTG analysis.
