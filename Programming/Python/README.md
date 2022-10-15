@@ -26,7 +26,7 @@
 - URL:[https://www.tensorflow.org/](https://www.tensorflow.org/)
 
 ## Keras
--URL: [https://keras.io/](https://keras.io/)
+- URL: [https://keras.io/](https://keras.io/)
 
 ## scikit-learn
 - URL:[https://scikit-learn.org/](https://scikit-learn.org/)
