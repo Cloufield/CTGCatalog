@@ -19,6 +19,7 @@ for dirname in ["Tools","Sumstats","Reference_data","Programming","NGS"]:
     for root, dirs, files in os.walk("./"+dirname):
         #print(root)
         currentfolder=root.strip(".|/").split("/")[-1]
+        files = files.sort()
         for name in files:
             file = os.path.join(root,name)
             filerename = ("_".join(file.strip(".|/").split("/")))
