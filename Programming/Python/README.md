@@ -1,8 +1,9 @@
 
-# pip package packing
+# pip 
+## package packing
 - URL: [https://packaging.python.org/en/latest/tutorials/packaging-projects/](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
 
-# Useful Packages
+# Selected Packages
 ## Scipy / Numpy / Pandas
 - URL:[https://scipy.org/](https://scipy.org/)
 - URL:[https://numpy.org/](https://numpy.org/)
