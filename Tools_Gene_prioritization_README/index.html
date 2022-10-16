@@ -11,7 +11,7 @@
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Tissue_and_single_cell - CTGCatalog</title>
+    <title>Gene_prioritization - CTGCatalog</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -155,8 +155,8 @@
 
                         
                             
-<li >
-    <a href="../Tools_Gene_prioritization_README/">Gene_prioritization</a>
+<li class="active">
+    <a href="./">Gene_prioritization</a>
 </li>
 
                         
@@ -215,8 +215,8 @@
 
                         
                             
-<li class="active">
-    <a href="./">Tissue_and_single_cell</a>
+<li >
+    <a href="../Tools_Tissue_and_single_cell_README/">Tissue_and_single_cell</a>
 </li>
 
                         
@@ -551,12 +551,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../Tools_Simulation_README/">
+                        <a rel="prev" href="../Tools_Fine_mapping_README/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../Tools_Visualization_README/">
+                        <a rel="next" href="../Tools_Gene_set_pathway_analysis_README/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -573,78 +573,50 @@
         
         <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="first-level active"><a href="#magma">MAGMA</a></li>
-        <li class="first-level "><a href="#ldsc-seg">LDSC-SEG</a></li>
-        <li class="first-level "><a href="#scdrs">scDRS</a></li>
-        <li class="first-level "><a href="#scavenge">SCAVENGE</a></li>
-        <li class="first-level "><a href="#sc-linker">sc-linker</a></li>
-        <li class="first-level "><a href="#epic">EPIC</a></li>
-            <li class="second-level"><a href="#coconet">CoCoNet</a></li>
-                
-            <li class="second-level"><a href="#rolypoly">RolyPoly</a></li>
-                
+        <li class="first-level active"><a href="#pops">PoPs</a></li>
+        <li class="first-level "><a href="#depict">DEPICT</a></li>
+        <li class="first-level "><a href="#cs2g">cS2G</a></li>
+        <li class="first-level "><a href="#open-targets">Open Targets:</a></li>
+        <li class="first-level "><a href="#reviews">Reviews</a></li>
     </ul>
 </div></div>
         <div class="col-md-9" role="main">
 
-<h1 id="magma">MAGMA</h1>
+<h2 id="pops">PoPs</h2>
 <ul>
-<li>SHORT NAME: MAGMA</li>
-<li>FULL NAME: Multi-marker Analysis of GenoMic Annotation</li>
-<li>YEAR : 2015</li>
-<li>URL: https://ctg.cncr.nl/software/magma</li>
-<li>CITATION: de Leeuw, C. A., Mooij, J. M., Heskes, T., &amp; Posthuma, D. (2015). MAGMA: generalized gene-set analysis of GWAS data. PLoS computational biology, 11(4), e1004219.</li>
+<li>SHORT NAME: PoPs</li>
+<li>FULLNAME: gene-level Polygenic Priority Score (PoPS)</li>
+<li>DESCRIPTION:PoPS is a gene prioritization method that leverages genome-wide signal from GWAS summary statistics and incorporates data from an extensive set of public bulk and single-cell expression datasets, curated biological pathways, and predicted protein-protein interactions.</li>
+<li>URL: <a href="https://github.com/FinucaneLab/pops">https://github.com/FinucaneLab/pops</a></li>
+<li>CITATION:Weeks, E. M., Ulirsch, J. C., Cheng, N. Y., Trippe, B. L., Fine, R. S., Miao, J., ... &amp; Finucane, H. K. (2020). Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. medRxiv.</li>
 </ul>
-<h1 id="ldsc-seg">LDSC-SEG</h1>
+<h2 id="depict">DEPICT</h2>
 <ul>
-<li>SHORT NAME:LDSC-SEG</li>
-<li>FULL NAME: LD score regression applied to specifically expressed genes</li>
-<li>YEAR : 2018</li>
-<li>URL: https://github.com/bulik/ldsc</li>
-<li>CITATION:Finucane, H. K., Reshef, Y. A., Anttila, V., Slowikowski, K., Gusev, A., Byrnes, A., ... &amp; Price, A. L. (2018). Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types. Nature genetics, 50(4), 621-629.</li>
-<li>KEY WORD: LDSC, tissue, cell type</li>
+<li>SHORT NAME:DEPICT</li>
+<li>FULLNAME:  Data-driven Expression Prioritized Integration for Complex Traits </li>
+<li>DESCRIPTION: an integrative tool that employs predicted gene functions to systematically prioritize the most likely causal genes at associated loci, highlight enriched pathways and identify tissues/cell types where genes from associated loci are highly expressed. DEPICT is not limited to genes with established functions and prioritizes relevant gene sets for many phenotypes.</li>
+<li>URL: <a href="https://github.com/perslab/depict">https://github.com/perslab/depict</a></li>
+<li>CITATION:Pers, T. H., Karjalainen, J. M., Chan, Y., Westra, H. J., Wood, A. R., Yang, J., ... &amp; Franke, L. (2015). Biological interpretation of genome-wide association studies using predicted gene functions. Nature communications, 6(1), 1-9.</li>
+<li>KEY WORDS: co-regulation of gene expression</li>
 </ul>
-<h1 id="scdrs">scDRS</h1>
+<h2 id="cs2g">cS2G</h2>
 <ul>
-<li>SHORT NAME:scDRS</li>
-<li>FULL NAME: single-cell Disease Relevance Score </li>
-<li>YEAR : 2022</li>
-<li>URL: https://github.com/martinjzhang/scDRS</li>
-<li>CITATION:Zhang, M.J., Hou, K., Dey, K.K. et al. Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data. Nat Genet (2022). https://doi.org/10.1038/s41588-022-01167-z</li>
-<li>KEY WORD: GWAS, scRNA-seq</li>
+<li>SHORT NAME:cS2G</li>
+<li>FULLNAME:optimal combined S2G strategy</li>
+<li>DESCRIPTION:heritability-based framework for evaluating and combining different S2G strategies to optimize their informativeness for common disease risk</li>
+<li>URL: <a href="https://alkesgroup.broadinstitute.org/cS2G/code">https://alkesgroup.broadinstitute.org/cS2G/code</a></li>
+<li>CITATION:Lettre, G. (2022). One step closer to linking GWAS SNPs with the right genes. Nature Genetics, 1-2.</li>
 </ul>
-<h1 id="scavenge">SCAVENGE</h1>
+<h2 id="open-targets">Open Targets:</h2>
 <ul>
-<li>SHORT NAME:SCAVENGE</li>
-<li>FULL NAME: Single Cell Analysis of Variant Enrichment through Network propagation of GEnomic data</li>
-<li>URL: https://github.com/sankaranlab/SCAVENGE</li>
-<li>YEAR : 2022</li>
-<li>CITATION: Yu, F., Cato, L.D., Weng, C. et al. Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol (2022). https://doi.org/10.1038/s41587-022-01341-y</li>
-<li>KEY WORD: GWAS, scATAC-seq, network propagation</li>
+<li>DESCRIPTION: Open Targets is an innovative, large-scale, multi-year, public-private partnership that uses human genetics and genomics data for systematic drug target identification and prioritisation.</li>
+<li>CITATION: Koscielny, G., An, P., Carvalho-Silva, D., Cham, J.A., Fumis, L., Gasparyan, R., Hasan, S., Karamanis, N., Maguire, M., Papa, E. and Pierleoni, A., 2017. Open Targets: a platform for therapeutic target identification and validation. Nucleic acids research, 45(D1), pp.D985-D994.</li>
+<li>URL: https://www.opentargets.org/</li>
 </ul>
-<h1 id="sc-linker">sc-linker</h1>
+<h2 id="reviews">Reviews</h2>
 <ul>
-<li>SHORT NAME: sc-linker</li>
-<li>FULL NAME: sc-linker</li>
-<li>URL:https://karthikj89-scgenetics-wwwscgwas-ktmead.streamlitapp.com/ </li>
-<li>URL:https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker/</li>
-<li>YEAR : 2022</li>
-<li>DESCRIPTION: a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease</li>
-<li>CITATION: Yu, F., Cato, L.D., Weng, C. et al. Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol (2022). https://doi.org/10.1038/s41587-022-01341-y</li>
-<li>KEY WORD: GWAS, scRNA-seq</li>
-</ul>
-<h1 id="epic">EPIC</h1>
-<ul>
-<li>SHORT NAME: EPIC</li>
-<li>FULL NAME: cEll tyPe enrIChment</li>
-<li>URL: https://github.com/rujinwang/EPIC</li>
-<li>YEAR : 2022</li>
-<li>DESCRIPTION: Inferring relevant tissues and cell types for complex traits in genome-wide association studies</li>
-<li>CITATION: Wang, R., Lin, D. Y., &amp; Jiang, Y. (2022). EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS genetics, 18(6), e1010251.</li>
-<li>KEY WORD: GWAS, scRNA-seq</li>
-</ul>
-<h2 id="coconet">CoCoNet</h2>
-<h2 id="rolypoly">RolyPoly</h2></div>
+<li>CITATION: Lappalainen, T., &amp; MacArthur, D. G. (2021). From variant to function in human disease genetics. Science, 373(6562), 1464-1468.</li>
+</ul></div>
         
         
     </div>
