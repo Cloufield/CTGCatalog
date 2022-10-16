@@ -64,11 +64,11 @@
 ## HUNT
 - TOTAL SAMPLE SIZE: ~229k
 - GENOTYPING SAMPLE SIZE: ~88k
+- STUDY TYPE: population-based prospective Norwegian cohort
 - LOCATION: Norway
 - URL: https://www.ntnu.edu/hunt/hunt-biobank
 - DESCRIPTION:HUNT Biobank is an established and modern research biobank with high-technology equipment for storage, analysis, sample handling and delivery of samples. Our samples satisfy high quality standards and are stored in accordance with the Data Inspectorates laws and regulations. HUNT Biobank engages in sample handling from The Nord-Trøndelag Health Study (HUNT), Cohort of Norway (CONOR), and can receive samples from other researchers and research projects for storage, analysis and processing of DNA. We do not store samples from private individuals.
-- CITATION: Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2021). The HUNT Study: a population-based cohort for genetic research. medRxiv. 
-- CITATION: https://www.cell.com/cell-genomics/fulltext/S2666-979X(22)00142-2
+- CITATION: Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2022). The HUNT Study: a population-based cohort for genetic research. Cell Genomics, 2(10), 100193.
 
 ## Generation Scotland
 - SAMPLE SIZE: ~24k
@@ -149,10 +149,13 @@
 - CITATION:Kuriyama, S., Yaegashi, N., Nagami, F., Arai, T., Kawaguchi, Y., Osumi, N., ... & Tohoku Medical Megabank Project Study Group. (2016). The Tohoku medical megabank project: design and mission. Journal of epidemiology, 26(9), 493-511.
 
 ## National Biobank of Korea
-- SAMPLE SIZE: ~80K
+- TOTAL SAMPLE SIZE: ~210K
+- GENOTYPED SAMPLE SIZE: ~72K
+- STUDY TYPE:  KoGES, prospective cohort 
 - LOCATION: Korea
 - URL:https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html
 - DESCRIPTION:The NBK is the national control center for the collection, management, and utilization of human bioresources in Korea. And NBK manages KBN, it contributes to the development of policies related to human bioresources, standardization of human bioresource management, and advancement of domestic biobanks through developing and providing support for human bioresource technologies. For guaranteeing the fairness in bioresource distribution and development of an efficient distribution system, the NBK also serves as the human bioresource supply hub that supports national healthcare and medical R&D.
+- DESCRIPTION: KoGES, part of the National Biobank of Korea, is a prospective cohort study with a comprehensive range of phenotypic measures and biological samples, such as DNA, serum, plasma, and urine, collected on approximately 210,000 individuals. KoGES includes the community-based Ansan and Ansung study, the urban community-based health examinee study, and the rural community-based cardiovascular disease association study. 
 - CITATION:Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184.
 - CITATION: Nam, K., Kim, J., & Lee, S. (2022). Genome-wide study on 72,298 individuals in Korean biobank data for 76 traits. Cell Genomics, 100189.
 - PUBLIC DATA: https://koges.leelabsg.org/ , https://zenodo.org/record/7042518
