@@ -13,6 +13,7 @@
 - pgsc_calc
 - VIPRS
 - MegaPRS
+- BayesS
 - BayesR
 - SBayesR
 - SBayesS
