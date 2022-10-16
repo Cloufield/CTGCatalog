@@ -13,6 +13,8 @@
 - pgsc_calc
 - VIPRS
 - MegaPRS
+- BayesR
+- SBayesR
 - SBayesS
 - SBayesRC
 - ExPRSweb
@@ -74,6 +76,15 @@
 - CITATION: Ge, T., Chen, CY., Ni, Y. et al. Polygenic prediction via Bayesian regression and continuous shrinkage priors. Nat Commun 10, 1776 (2019). https://doi.org/10.1038/s41467-019-09718-5
 - KEY WORDS: continuous shrinkage (CS) prior
 
+## PRS-CSx
+- SHORT NAME: PRS-CSx
+- FULL NAME: PRS-CSx
+- YEAR: 2022
+- DESCRIPTION: PRS-CSx is a Python based command line tool that integrates GWAS summary statistics and external LD reference panels from multiple populations to improve cross-population polygenic prediction. Posterior SNP effect sizes are inferred under coupled continuous shrinkage (CS) priors across populations. 
+- URL : https://github.com/getian107/PRScsx
+- CITATION: Ruan, Y., Lin, YF., Feng, YC.A. et al. Improving polygenic prediction in ancestrally diverse populations. Nat Genet 54, 573–580 (2022). https://doi.org/10.1038/s41588-022-01054-7
+- KEY WORDS: continuous shrinkage (CS) prior,  cross-population
+
 ## lassosum
 - SHORT NAME: lassosum
 - FULL NAME: lassosum
@@ -83,14 +94,36 @@
 - CITATION: Mak, T. S. H., Porsch, R. M., Choi, S. W., Zhou, X., & Sham, P. C. (2017). Polygenic scores via penalized regression on summary statistics. Genetic epidemiology, 41(6), 469-480.
 - KEY WORDS: penalized regression
 
-## PRS-CSx
-- SHORT NAME: PRS-CSx
-- FULL NAME: PRS-CSx
-- YEAR: 2022
-- DESCRIPTION: PRS-CSx is a Python based command line tool that integrates GWAS summary statistics and external LD reference panels from multiple populations to improve cross-population polygenic prediction. Posterior SNP effect sizes are inferred under coupled continuous shrinkage (CS) priors across populations. 
-- URL : https://github.com/getian107/PRScsx
-- CITATION: Ruan, Y., Lin, YF., Feng, YC.A. et al. Improving polygenic prediction in ancestrally diverse populations. Nat Genet 54, 573–580 (2022). https://doi.org/10.1038/s41588-022-01054-7
-- KEY WORDS: continuous shrinkage (CS) prior,  cross-population
+## BayesR
+- SHORT NAME: BayesR
+- FULL NAME: BayesR
+- YEAR: 2015
+- DESCRIPTION: Bayesian mixture model to dissect genetic variation for disease in human populations and to construct more powerful risk predictors
+- URL:[https://cnsgenomics.com/software/gctb/#Overview](https://cnsgenomics.com/software/gctb/#Overview)
+- CITATION:Moser, G., Lee, S. H., Hayes, B. J., Goddard, M. E., Wray, N. R., & Visscher, P. M. (2015). Simultaneous discovery, estimation and prediction analysis of complex traits using a Bayesian mixture model. PLoS genetics, 11(4), e1004969.
+
+## BayesS
+- SHORT NAME: BayesS
+- FULL NAME: BayesS
+- YEAR: 2018
+- URL:[https://cnsgenomics.com/software/gctb/#Overview](https://cnsgenomics.com/software/gctb/#Overview)
+- CITATION:Zeng, J., De Vlaming, R., Wu, Y., Robinson, M. R., Lloyd-Jones, L. R., Yengo, L., ... & Yang, J. (2018). Signatures of negative selection in the genetic architecture of human complex traits. Nature genetics, 50(5), 746-753.
+
+## SBayesR
+- SHORT NAME: SBayesR
+- FULL NAME: SBayesR
+- YEAR: 2019
+- DESCRIPTION: extend a powerful individual-level data Bayesian multiple regression model (BayesR) to one that utilises summary statistics from genome-wide association studies, SBayesR.
+- URL:[https://cnsgenomics.com/software/gctb/#Overview](https://cnsgenomics.com/software/gctb/#Overview)
+- CITATION:Lloyd-Jones, L. R., Zeng, J., Sidorenko, J., Yengo, L., Moser, G., Kemper, K. E., ... & Visscher, P. M. (2019). Improved polygenic prediction by Bayesian multiple regression on summary statistics. Nature communications, 10(1), 1-11.
+
+## SBayesS
+- SHORT NAME: SBayesS
+- FULL NAME: SBayesS
+- YEAR: 2021
+- DESCRIPTION: estimate multiple genetic architecture parameters including selection signature using only GWAS summary statistics
+- URL:[https://cnsgenomics.com/software/gctb/#Overview](https://cnsgenomics.com/software/gctb/#Overview)
+- CITATION:Zeng, J., Xue, A., Jiang, L., Lloyd-Jones, L. R., Wu, Y., Wang, H., ... & Yang, J. (2021). Widespread signatures of natural selection across human complex traits and functional genomic categories. Nature communications, 12(1), 1-12.
 
 ## SBayesRC
 - SHORT NAME: SBayesRC
