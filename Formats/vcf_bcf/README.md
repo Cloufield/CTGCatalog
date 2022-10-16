@@ -11,6 +11,7 @@
 - DOCUMENTS URL: [https://samtools.github.io/hts-specs/BCFv2_qref.pdf](https://samtools.github.io/hts-specs/BCFv2_qref.pdf)
 
 ## gVCF
+- DESCRIPTION: [https://github.com/broadinstitute/gatk-docs/blob/master/gatk3-faqs/What_is_a_GVCF_and_how_is_it_different_from_a_'regular'_VCF%3F.md](https://github.com/broadinstitute/gatk-docs/blob/master/gatk3-faqs/What_is_a_GVCF_and_how_is_it_different_from_a_'regular'_VCF%3F.md)
 - DOCUMENTS URL: [https://gatk.broadinstitute.org/hc/en-us/articles/360035531812-GVCF-Genomic-Variant-Call-Format](https://gatk.broadinstitute.org/hc/en-us/articles/360035531812-GVCF-Genomic-Variant-Call-Format)
 ## tabix
 - URL: [http://www.htslib.org/doc/tabix.html](http://www.htslib.org/doc/tabix.html)
