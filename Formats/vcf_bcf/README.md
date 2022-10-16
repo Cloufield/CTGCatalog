@@ -9,3 +9,7 @@
 - DOCUMENTS URL:[https://samtools.github.io/hts-specs/VCFv4.4.draft.pdf](https://samtools.github.io/hts-specs/VCFv4.4.draft.pdf)
 ## BCF
 - DOCUMENTS URL: [https://samtools.github.io/hts-specs/BCFv2_qref.pdf](https://samtools.github.io/hts-specs/BCFv2_qref.pdf)
+
+## tabix
+- URL: [http://www.htslib.org/doc/tabix.html](http://www.htslib.org/doc/tabix.html)
+- DOCUMENTS URL: [https://samtools.github.io/hts-specs/tabix.pdf](https://samtools.github.io/hts-specs/tabix.pdf)
