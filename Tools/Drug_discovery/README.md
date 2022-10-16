@@ -6,7 +6,7 @@
 - Trans-Phar
 - PS4DR
 - Pharmagenic_enrichment_score
-
+- Reviews&Key_papers
 ## DRUG TARGETOR
 - FULL NAME:DRUG TARGETOR
 - SHORT NAME:DRUG TARGETOR
@@ -64,3 +64,9 @@
 - YEAR: 2020
 - DESCRIPTION: a framework to quantify an individual’s common variant enrichment in clinically actionable systems responsive to existing drugs.
 - CITATION: Reay, W. R., Atkins, J. R., Carr, V. J., Green, M. J., & Cairns, M. J. (2020). Pharmacological enrichment of polygenic risk for precision medicine in complex disorders. Scientific reports, 10(1), 1-12.
+
+## Reviews&Key_papers
+### A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis
+- YEAR: 2022
+- DESCRIPTION: a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI)
+- CITATION: Namba, S., Konuma, T., Wu, K. H., Zhou, W., Okada, Y., & Global Biobank Meta-analysis Initiative. (2022). A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis. Cell Genomics, 2(10), 100190.
