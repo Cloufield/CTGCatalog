@@ -1,21 +1,25 @@
 # Contents
 - Single variant association tests
-  - PLINK
-  - PLINK2
-  - EMMAX
-  - GEMMA
-  - fastGWA
-  - fastGWA-GLMM
-  - REGENIE
-  - SAIGE
-  - Bolt-lMM
+    - PLINK
+    - PLINK2
+    - EMMAX
+    - GEMMA
+    - fastGWA
+    - fastGWA-GLMM
+    - REGENIE
+    - SAIGE
+    - Bolt-lMM
 - Gene-based analysis (rare variant)
-  - REGENIE
-  - SAIGE-GENE
-  - SAIGE-GENE+
-  - SKAT
-  - SKAT-O
-  - STAAR
+    - REGENIE
+    - SAIGE-GENE
+    - SAIGE-GENE+
+    - SKAT
+    - SKAT-O
+    - STAAR
+- Other tests
+    - GWAX
+    - CC-GWAS
+    - LT-FH
 
 ---
 # Single variant association tests
@@ -126,5 +130,26 @@
 - DESCRIPTION: estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power.
 - CITATION: Lee, Seunggeun, Michael C. Wu, and Xihong Lin. "Optimal tests for rare variant effects in sequencing association studies." Biostatistics 13.4 (2012): 762-775.
 
-## Reviews:
+# Other
+## GWAX
+- FULLNAME: genome-wide association by proxy
+- SHORTNAME: GWAX
+- DESCRIPTION:  In randomly ascertained cohorts, replacing cases with their first-degree relatives enables studies of diseases that are absent (or nearly absent) in the cohort.
+- CITATION: Liu, J. Z., Erlich, Y., & Pickrell, J. K. (2017). Case–control association mapping by proxy using family history of disease. Nature genetics, 49(3), 325-331.
+
+## LT-FH
+- FULLNAME: liability threshold model, conditional on case–control status and family history
+- SHORTNAME: LT-FH
+- URL:https://alkesgroup.broadinstitute.org/UKBB/LTFH/
+- DESCRIPTION: an association method based on posterior mean genetic liabilities under a liability threshold model, conditional on case-control status and family history (LT-FH)
+- CITATION:Liu, J. Z., Erlich, Y., & Pickrell, J. K. (2017). Case–control association mapping by proxy using family history of disease. Nature genetics, 49(3), 325-331.
+
+## CC-GWAS 
+- FULLNAME: case–case genome-wide association study
+- SHORTNAME: CC-GWAS 
+- URL:https://github.com/wouterpeyrot/CCGWAS
+- DESCRIPTION: The CCGWAS R package provides a tool for case-case association testing of two different disorders based on their respective case-control GWAS results
+- CITATION: Peyrot, W. J., & Price, A. L. (2021). Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS. Nature genetics, 53(4), 445-454.
+
+# Reviews
 - CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
