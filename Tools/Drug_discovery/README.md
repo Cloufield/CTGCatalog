@@ -47,6 +47,7 @@
 - DESCRIPTION: This software achieves in silico screening of chemical compounds, which have inverse effects in expression profiles compared with genetically regulated gene expression of common diseases, from large-scale pharmacological database (Connectivity Map [CMap] L1000 library).
 - URL: https://github.com/konumat/Trans-Phar
 - CITATION: Konuma, T., Ogawa, K., & Okada, Y. (2021). Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates. Human Molecular Genetics, 30(3-4), 294-304.
+- Hypothesis: "Compounds, which have inverse effects in gene expression profiles when compared with GREx from common diseases, could be detected as potential drug candidates that are effective for disease treatment"
 
 ## PS4DR
 - FULL NAME:Pathway Signatures for Drug Repositioning
