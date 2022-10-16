@@ -125,7 +125,10 @@
 - CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
 
 ## Taiwan Biobank (TWB)
-- SAMPLE SIZE: ~150k
+- TOTAL SAMPLE SIZE: ~150k
+- GENOTYPED SAMPLE SIZE: ~150k
+- STUDY TYPE: prospective study of >150,000 individuals aged 20–70 in Taiwan
+- ANCESTRY:  Taiwanese individuals of predominantly Han Chinese descent (>99%)
 - LOCATION: China, Taiwan
 - URL:https://www.twbiobank.org.tw/
 - DESCRIPTION:The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70 recruited from across Taiwan beginning in 2012. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples.
