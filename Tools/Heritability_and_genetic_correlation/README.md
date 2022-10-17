@@ -1,7 +1,16 @@
 # Contents
 - Heritability
+    - LDSC
+    - GCTA - GREML
+    - HDL
 - Local Heritability/ Local genetic correlation
+    - LAVA
+    - HESS
+    - GNOVA
+    - SUPERGNOVA
 - Genetic correlation
+    - cross-trait LDSC
+    - popcorn
 
 # Heritabilty
 ## LDSC
@@ -23,6 +32,14 @@
 - CITATION :(partition the genetic variance into individual chromosomes and genomic segments) Yang, Jian, et al. "Genome partitioning of genetic variation for complex traits using common SNPs." Nature genetics 43.6 (2011): 519-525.
 - CITATION :(Bivariate GREML) Lee, Sang Hong, et al. "Estimation of pleiotropy between complex diseases using single-nucleotide polymorphism-derived genomic relationships and restricted maximum likelihood." Bioinformatics 28.19 (2012): 2540-2542.
 - CITATION :(GREML-LDMS) Yang, Jian, et al. "Genetic variance estimation with imputed variants finds negligible missing heritability for human height and body mass index." Nature genetics 47.10 (2015): 1114-1120.
+
+## HDL
+- SHORT NAME:HDL
+- FULL NAME:High-Definition Likelihood
+- YEAR:2020
+- DESCRIPTION:High-Definition Likelihood (HDL) is a likelihood-based method for estimating genetic correlation using GWAS summary statistics. Compared to LD Score regression (LDSC), It reduces the variance of a genetic correlation estimate by about 60%.
+- URL:https://github.com/zhenin/HDL/
+- CITATION :Ning, Z., Pawitan, Y., & Shen, X. (2020). High-definition likelihood inference of genetic correlations across human complex traits. Nature genetics, 52(8), 859-864.
 
 # Local Heritability/ Local genetic correlation
 ## LAVA
