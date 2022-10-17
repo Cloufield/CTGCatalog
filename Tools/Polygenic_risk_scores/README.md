@@ -18,6 +18,7 @@
 - SBayesR
 - SBayesS
 - SBayesRC
+- TL-PRS
 - ExPRSweb
 - Cancer PRSweb
 - PRS atlas
