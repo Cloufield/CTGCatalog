@@ -133,6 +133,14 @@
 - DESCRIPTION: SBayesRC integrates GWAS summary statistics with functional genomic annotations to improve polygenic prediction of complex traits.
 - CITATION: Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. Zhili Zheng, Shouye Liu, Julia Sidorenko, Loic Yengo, Patrick Turley, Alireza Ani, Rujia Wang, Ilja M Nolte, Harold Snieder, Lifelines Cohort Study, Jian Yang, Naomi R. Wray, Michael E Goddard, Peter M Visscher, Jian Zeng bioRxiv 2022.10.12.510418; doi: https://doi.org/10.1101/2022.10.12.510418
 
+## TL-PRS
+- SHORT NAME: TL-PRS
+- FULL NAME: transfer learning PRS
+- YEAR: 2022
+- URL: https://github.com/ZhangchenZhao/TLPRS
+- DESCRIPTION: This R package helps users to construct multi-ethnic polygenic risk score (PRS) using transfer learning. It can help predict PRS of minor ancestry using summary statistics from exsiting resources, such as UK Biobank.
+- CITATION: Zhao, Z., Fritsche, L. G., Smith, J. A., Mukherjee, B., & Lee, S. (2022). The Construction of Multi-ethnic Polygenic Risk Score using Transfer Learning. medRxiv.
+
 ## Multi-PGS
 - SHORT NAME: Multi-PGS
 - YEAR: 2022
