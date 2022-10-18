@@ -1,24 +1,21 @@
-# Contents 目录
-* Databases 公共数据库
-* Biobanks and cohorts 各大Biobank与Cohort
-    * Europeans 欧美
-    * East Asians 东亚
+# Contents 
+* Databases 
+* Biobanks and cohorts 
+    * Europeans 
+    * East Asians 
     * Global Biobank 
-* Researches 单独的研究发表的数据
-* Consortiums 各类疾病研究组织的数据
+* Individual studies
+* Consortiums 
 
 
-# From Databases 公共数据库：
-
-目前收录最全的GWAS数据库，但只收录了已发表GWAS的数据，而且会有几个月到半年左右的延迟，使用时应该注意：
+# From Databases ：
 
 * GWAS catalog: https://www.ebi.ac.uk/gwas/
 * OpenGWAS: https://gwas.mrcieu.ac.uk/
 
-# From Biobanks 各大Biobank的公开数据：
-规模较大的Biobank或Cohort会定期公开GWAS sumstats，这类数据有些未被收录在GWAS catalog中，一些gwas检验方法的作者也会使用其方法进行Biobank级别的GWAS分析，这类数据的表型覆盖较广：
+# From Biobanks ：
 
-## Europe and America 欧美：
+## Europe and America ：
 * Finngen 4 : https://r4.finngen.fi/about
 * Finngen 5 : https://r5.finngen.fi/about
 * Finngen 6 : https://r6.finngen.fi/about
@@ -36,7 +33,7 @@
 * FinMetSeq: https://pheweb.sph.umich.edu/FinMetSeq/
 * Generation Scotland: https://datashare.ed.ac.uk/handle/10283/844
 
-## East Asia 东亚：
+## East Asia ：
 
 * Biobank Japan - JENGER: http://jenger.riken.jp/result
 * Biobank Japan - Phewebjp: https://pheweb.jp/
@@ -44,22 +41,22 @@
 * KoreanChip: https://www.koreanchip.org/downloads
 * KoGES Pheweb: https://koges.leelabsg.org/
 
-## From Global Biobank 全球范围Biobank的Meta分析：
-近期Global Biobank项目也公开了一批全球范围biobank的常见复杂疾病meta分析
+## From Global Biobank ：
 * Global Biobank :http://results.globalbiobankmeta.org/
 
-# From Individual Studies 单独的研究发表的数据
-直接在google上搜索研究论文，从Data availability里的url顺藤摸瓜找到数据，此类数据散落在各个学校，研究机构等等自家的网站上，没有好的办法，只有自己搜索。GWAS catalog 经常会出现收录不及时而漏掉很多最新数据。
+# From Individual Studies 
 
-例如：
+Check the data availability and urls in the paper.
+
+For example：
 
 Program in Complex Trait Genomics, IMB, The University of Queensland.
 
 * https://cnsgenomics.com/content/data
 * https://ctg.cncr.nl/software/summary_statistics
 
-# From Disease Consortiums 各类疾病研究组织的数据
-这类数据通常为meta分析后的sumstats，例如：
+# From Disease Consortiums 
+These data are often derived from large-scale meta-analyses.
 
 * DIAGRAM：http://www.diagram-consortium.org/downloads.html
 * Megastroke: https://www.megastroke.org/index.html
