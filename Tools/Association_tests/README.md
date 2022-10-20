@@ -87,6 +87,14 @@
 - CITATION: Mbatchou, Joelle, et al. "Computationally efficient whole-genome regression for quantitative and binary traits." Nature genetics 53.7 (2021): 1097-1103.
 - KEY WORDS: whole genome regression
 
+## POLMM
+- FULLNAME:proportional odds logistic mixed model (POLMM)
+- SHORTNAME:POLMM
+- URL: https://github.com/WenjianBI/POLMM
+- DESCRIPTION: Proportional Odds Logistic Mixed Model (POLMM) for ordinal categorical data analysis
+- CITATION: Bi, W., Zhou, W., Dey, R., Mukherjee, B., Sampson, J. N., & Lee, S. (2021). Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes. The American Journal of Human Genetics, 108(5), 825-839.
+- KEY WORDS: ordinal categorical phenotypes
+
 ---
 
 # Gene-based analysis (rare variant)
