@@ -9,6 +9,7 @@
     - REGENIE
     - SAIGE
     - Bolt-lMM
+    - POLMM
 - Gene-based analysis (rare variant)
     - REGENIE
     - SAIGE-GENE
