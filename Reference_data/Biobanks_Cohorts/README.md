@@ -21,6 +21,7 @@
 - INTERVAL Study
 - Lifelines
 - Massachusetts General Brigham Biobank
+- Mexico City Prospective Study (MCPS)
 - The Malaysian Cohort (TMC)
 - Michigan Genomics Initiative
 - Million Veteran Program (MVP)
@@ -310,6 +311,13 @@
 - URL:https://www.mvp.va.gov/pwa/
 - DESCRIPTION: The Million Veteran Program (MVP) is a national research program to learn how genes, lifestyle, and military exposures affect health and illness. Since launching in 2011, over 900,000 Veteran partners have joined one of the world's largest programs on genetics and health.
 - CITATION:Gaziano, J. M., Concato, J., Brophy, M., Fiore, L., Pyarajan, S., Breeling, J., ... & O'Leary, T. J. (2016). Million Veteran Program: A mega-biobank to study genetic influences on health and disease. Journal of clinical epidemiology, 70, 214-223.
+
+## Mexico City Prospective Study
+- SAMPLE SIZE: 150,000 middle-aged adults (including 100,000 women and 50,000 men)
+- LOCATION: Mexico
+- URL: https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico
+- DESCRIPTION: Between 1998 and 2004, CTSU, in collaboration with the Mexican Ministry of Health, established a study in Mexico City, in which over 150,000 middle-aged adults (including 100,000 women and 50,000 men) provided information about their lifestyle and disease history, had physical measurements recorded (including weight, waist and hip circumference, blood pressure) and had a blood sample taken.
+- CITATION: Ziyatdinov, A., Torres, J., Alegre-Diaz, J., Backman, J., Mbatchou, J., Turner, M., ... & Tapia-Conyer, R. (2022). Genotyping, sequencing and analysis of 140,000 adults from the Mexico City Prospective Study. bioRxiv.
 
 # OCIENIA
 ## QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
