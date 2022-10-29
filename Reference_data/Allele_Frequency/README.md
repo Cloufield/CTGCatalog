@@ -16,6 +16,7 @@
 
 ## PGG.SNV
 - URL: https://www.pggsnv.org/index.html
+- CITATION: Zhang, C., Gao, Y., Ning, Z., Lu, Y., Zhang, X., Liu, J., ... & Xu, S. (2019). PGG. SNV: understanding the evolutionary and medical implications of human single nucleotide variations in diverse populations. Genome biology, 20(1), 1-16.
 
 ## CMDB
 - URL: http://cmdb.bgi.com/
