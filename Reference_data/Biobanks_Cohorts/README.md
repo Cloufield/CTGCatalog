@@ -6,6 +6,8 @@
 - BioVU
 - CanPath - Ontario Health Study
 - China Kadoorie Biobank
+- Chinese Millionome Database
+- The China Metabolic Analytics Project (ChinaMAP)
 - Colorado Center for Personalized Medicine
 - deCODE Genetics
 - Estonian Biobank
@@ -14,6 +16,7 @@
 - Generation Scotland
 - Genes & Health
 - HUNT
+- Han Chinese Genome Initiative
 - IARC Biobank
 - INTERVAL Study
 - Lifelines
@@ -22,6 +25,7 @@
 - Michigan Genomics Initiative
 - Million Veteran Program (MVP)
 - National Biobank of Korea
+- NyuWa genome resource
 - Nigerian 100K Genome Project
 - Penn Medicine Biobank
 - Qatar Biobank
@@ -124,6 +128,34 @@
 - URL:https://www.ckbiobank.org/
 - DESCRIPTION:The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.
 - CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
+
+## Han Chinese Genome Initiative (the Han100K Project, PGG.Han)
+- SAMPLE SIZE: 114 783
+- LOCATION: China
+- URL:https://www.hanchinesegenomes.org/
+- DESCRIPTION:a reference panel of 114 783 Han Chinese individuals (the Han100K), with whole-genome deep-sequenced or high-density genome-wide single-nucleotide variants (SNVs) genotyped or imputed.
+- CITATION:Gao, Y., Zhang, C., Yuan, L., Ling, Y., Wang, X., Liu, C., ... & Xu, S. (2020). PGG. Han: the Han Chinese genome database and analysis platform. Nucleic acids research, 48(D1), D971-D976.
+
+## The China Metabolic Analytics Project (ChinaMAP)
+- SAMPLE SIZE: 10,588 deep whole genome sequencing (WGS)
+- LOCATION: China
+- URL:http://www.mbiobank.com/
+- DESCRIPTION:The ChinaMAP is based on three large-scale cohorts: The China Noncommunicable Disease Surveillance 2010, a nationally representative study with 150,000 participants; the Risk Evaluation of cAncers in Chinese diabeTic Individuals: a lONgitudinal (REACTION) study with 250,000 participants15 and the Community-based Cardiovascular Risk During Urbanization in Shanghai with 50,000 participants.
+- CITATION:Cao, Y., Li, L., Xu, M., Feng, Z., Sun, X., Lu, J., ... & Wang, W. (2020). The ChinaMAP analytics of deep whole genome sequences in 10,588 individuals. Cell research, 30(9), 717-731.
+
+## Chinese Millionome Database
+- SAMPLE SIZE: 141 431
+- LOCATION: China
+- URL:https://db.cngb.org/cmdb/
+- DESCRIPTION:the largest and the most representative Chinese genome variation database to date. The CMDB database contains 9.04 million single nucleotide variants (SNVs) and the allele frequency information from low-coverage (0.06×–0.1×) WGS data of 141 431 unrelated healthy Chinese individuals.
+- CITATION:Li, Z., Jiang, X., Fang, M., Bai, Y., Liu, S., Huang, S., & Jin, X. (2022). CMDB: the comprehensive population genome variation database of China. Nucleic Acids Research.
+
+## NyuWa genome resource
+- SAMPLE SIZE: 2,999
+- LOCATION:China
+- URL: http://bigdata.ibp.ac.cn/NyuWa/
+- DESCRIPTION:NyuWa, or NüWa, is the mother goddess who was the creator of the human population in Chinese mythology. Here we presented the NyuWa genome resource based on high depth (median 26X) WGS of 2,999 Chinese individuals from 23 out of 34 administrative divisions in China. NyuWa Genome Resource present in this website mainly contains two parts as NyuWa Chinese Population Variant Database and NyuWa reference panel server.
+- CITATION:Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.
 
 ## Taiwan Biobank (TWB)
 - TOTAL SAMPLE SIZE: ~150k
@@ -268,3 +300,10 @@
 ## QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
 - SAMPLE SIZE: ~17k
 - URL:https://genepi.qimr.edu.au/
+
+## template
+- SAMPLE SIZE:
+- LOCATION:
+- URL:
+- DESCRIPTION:
+- CITATION:
