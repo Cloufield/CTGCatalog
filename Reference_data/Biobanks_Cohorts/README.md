@@ -30,6 +30,7 @@
 - UCLA Precision Health Biobank
 - Uganda Genome Resource
 - UK Biobank
+- Westlake BioBank for Chinese (WBBC)
 
 ---
 # EUROPE
@@ -162,7 +163,14 @@
 - CITATION:Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184.
 - CITATION: Nam, K., Kim, J., & Lee, S. (2022). Genome-wide study on 72,298 individuals in Korean biobank data for 76 traits. Cell Genomics, 100189.
 - PUBLIC DATA: https://koges.leelabsg.org/ , https://zenodo.org/record/7042518
- 
+
+## Westlake BioBank for Chinese (WBBC)
+- SAMPLE SIZE:14,726 (pilot)
+- LOCATION: China
+- URL: https://wbbc.westlake.edu.cn/
+- DESCRIPTION:The Westlake BioBank for Chinese (WBBC) cohort is a population-based prospective study with its major purpose to better understand the effect of genetic and environmental factors on growth and development from youngster to elderly. The dataset comprises a wide range of demographics and anthropometric measures, serological tests, physical activity, sleep quality, age at menarche and bone mineral density. WBBC is designed as a prospective cohort study and will recruit at least 100,000 Chinese samples. The pilot project of WBBC has recruited a total of 14,726 participants (4,751 males and 9,975 females) and the baseline survey was carried out from 2017 to 2019.
+- CITATION:Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
+
 ## Qatar Biobank
 - SAMPLE SIZE: ~80K
 - LOCATION: Qatar
