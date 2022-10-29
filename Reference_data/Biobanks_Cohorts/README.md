@@ -7,7 +7,7 @@
 - CanPath - Ontario Health Study
 - China Kadoorie Biobank
 - Chinese Millionome Database
-- The China Metabolic Analytics Project (ChinaMAP)
+- China Metabolic Analytics Project (ChinaMAP)
 - Colorado Center for Personalized Medicine
 - deCODE Genetics
 - Estonian Biobank
@@ -162,9 +162,9 @@
 
 ## NyuWa genome resource
 - SAMPLE SIZE: ~2,999 WGS
-- LOCATION:China
+- LOCATION: China
 - URL: [http://bigdata.ibp.ac.cn/NyuWa/](http://bigdata.ibp.ac.cn/NyuWa/)
-- DESCRIPTION:NyuWa, or NüWa, is the mother goddess who was the creator of the human population in Chinese mythology. Here we presented the NyuWa genome resource based on high depth (median 26X) WGS of 2,999 Chinese individuals from 23 out of 34 administrative divisions in China. NyuWa Genome Resource present in this website mainly contains two parts as NyuWa Chinese Population Variant Database and NyuWa reference panel server.
+- DESCRIPTION: NyuWa, or NüWa, is the mother goddess who was the creator of the human population in Chinese mythology. Here we presented the NyuWa genome resource based on high depth (median 26X) WGS of 2,999 Chinese individuals from 23 out of 34 administrative divisions in China. NyuWa Genome Resource present in this website mainly contains two parts as NyuWa Chinese Population Variant Database and NyuWa reference panel server.
 - CITATION:Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.
 
 ## Taiwan Biobank (TWB)
