@@ -125,14 +125,14 @@
 ## China Kadoorie Biobank (CKB)
 - SAMPLE SIZE: ~500k
 - LOCATION: China
-- URL:https://www.ckbiobank.org/
+- URL:[https://www.ckbiobank.org/](https://www.ckbiobank.org/)
 - DESCRIPTION:The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.
 - CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
 
 ## Westlake BioBank for Chinese (WBBC)
 - SAMPLE SIZE:14,726 (pilot)
 - LOCATION: China
-- URL: https://wbbc.westlake.edu.cn/
+- URL: [https://wbbc.westlake.edu.cn/](https://wbbc.westlake.edu.cn/)
 - DESCRIPTION:The Westlake BioBank for Chinese (WBBC) cohort is a population-based prospective study with its major purpose to better understand the effect of genetic and environmental factors on growth and development from youngster to elderly. The dataset comprises a wide range of demographics and anthropometric measures, serological tests, physical activity, sleep quality, age at menarche and bone mineral density. WBBC is designed as a prospective cohort study and will recruit at least 100,000 Chinese samples. The pilot project of WBBC has recruited a total of 14,726 participants (4,751 males and 9,975 females) and the baseline survey was carried out from 2017 to 2019.
 - CITATION:Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
 - CITATION: Zhu, X. W., Liu, K. Q., Wang, P. Y., Liu, J. Q., Chen, J. Y., Xu, X. J., ... & Zheng, H. F. (2021). Cohort profile: the Westlake BioBank for Chinese (WBBC) pilot project. BMJ open, 11(6), e045564.
@@ -140,28 +140,29 @@
 ## Han Chinese Genome Initiative (the Han100K Project, PGG.Han)
 - SAMPLE SIZE: 114 783
 - LOCATION: China
-- URL:https://www.hanchinesegenomes.org/
+- URL:[https://www.hanchinesegenomes.org/](https://www.hanchinesegenomes.org/)
+- URl:[https://www.pggsnv.org/](https://www.pggsnv.org/)
 - DESCRIPTION:a reference panel of 114 783 Han Chinese individuals (the Han100K), with whole-genome deep-sequenced or high-density genome-wide single-nucleotide variants (SNVs) genotyped or imputed.
 - CITATION:Gao, Y., Zhang, C., Yuan, L., Ling, Y., Wang, X., Liu, C., ... & Xu, S. (2020). PGG. Han: the Han Chinese genome database and analysis platform. Nucleic acids research, 48(D1), D971-D976.
 
 ## The China Metabolic Analytics Project (ChinaMAP)
 - SAMPLE SIZE: 10,588 deep whole genome sequencing (WGS)
 - LOCATION: China
-- URL:http://www.mbiobank.com/
+- URL:[http://www.mbiobank.com/](http://www.mbiobank.com/)
 - DESCRIPTION:The ChinaMAP is based on three large-scale cohorts: The China Noncommunicable Disease Surveillance 2010, a nationally representative study with 150,000 participants; the Risk Evaluation of cAncers in Chinese diabeTic Individuals: a lONgitudinal (REACTION) study with 250,000 participants15 and the Community-based Cardiovascular Risk During Urbanization in Shanghai with 50,000 participants.
 - CITATION:Cao, Y., Li, L., Xu, M., Feng, Z., Sun, X., Lu, J., ... & Wang, W. (2020). The ChinaMAP analytics of deep whole genome sequences in 10,588 individuals. Cell research, 30(9), 717-731.
 
 ## Chinese Millionome Database
 - SAMPLE SIZE: 141 431
 - LOCATION: China
-- URL:https://db.cngb.org/cmdb/
+- URL:[https://db.cngb.org/cmdb/](https://db.cngb.org/cmdb/)
 - DESCRIPTION:the largest and the most representative Chinese genome variation database to date. The CMDB database contains 9.04 million single nucleotide variants (SNVs) and the allele frequency information from low-coverage (0.06×–0.1×) WGS data of 141 431 unrelated healthy Chinese individuals.
 - CITATION:Li, Z., Jiang, X., Fang, M., Bai, Y., Liu, S., Huang, S., & Jin, X. (2022). CMDB: the comprehensive population genome variation database of China. Nucleic Acids Research.
 
 ## NyuWa genome resource
 - SAMPLE SIZE: 2,999
 - LOCATION:China
-- URL: http://bigdata.ibp.ac.cn/NyuWa/
+- URL: [http://bigdata.ibp.ac.cn/NyuWa/](http://bigdata.ibp.ac.cn/NyuWa/)
 - DESCRIPTION:NyuWa, or NüWa, is the mother goddess who was the creator of the human population in Chinese mythology. Here we presented the NyuWa genome resource based on high depth (median 26X) WGS of 2,999 Chinese individuals from 23 out of 34 administrative divisions in China. NyuWa Genome Resource present in this website mainly contains two parts as NyuWa Chinese Population Variant Database and NyuWa reference panel server.
 - CITATION:Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.
 
