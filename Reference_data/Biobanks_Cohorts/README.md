@@ -129,6 +129,14 @@
 - DESCRIPTION:The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.
 - CITATION:Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.
 
+## Westlake BioBank for Chinese (WBBC)
+- SAMPLE SIZE:14,726 (pilot)
+- LOCATION: China
+- URL: https://wbbc.westlake.edu.cn/
+- DESCRIPTION:The Westlake BioBank for Chinese (WBBC) cohort is a population-based prospective study with its major purpose to better understand the effect of genetic and environmental factors on growth and development from youngster to elderly. The dataset comprises a wide range of demographics and anthropometric measures, serological tests, physical activity, sleep quality, age at menarche and bone mineral density. WBBC is designed as a prospective cohort study and will recruit at least 100,000 Chinese samples. The pilot project of WBBC has recruited a total of 14,726 participants (4,751 males and 9,975 females) and the baseline survey was carried out from 2017 to 2019.
+- CITATION:Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
+- CITATION: Zhu, X. W., Liu, K. Q., Wang, P. Y., Liu, J. Q., Chen, J. Y., Xu, X. J., ... & Zheng, H. F. (2021). Cohort profile: the Westlake BioBank for Chinese (WBBC) pilot project. BMJ open, 11(6), e045564.
+
 ## Han Chinese Genome Initiative (the Han100K Project, PGG.Han)
 - SAMPLE SIZE: 114 783
 - LOCATION: China
@@ -195,13 +203,6 @@
 - CITATION:Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184.
 - CITATION: Nam, K., Kim, J., & Lee, S. (2022). Genome-wide study on 72,298 individuals in Korean biobank data for 76 traits. Cell Genomics, 100189.
 - PUBLIC DATA: https://koges.leelabsg.org/ , https://zenodo.org/record/7042518
-
-## Westlake BioBank for Chinese (WBBC)
-- SAMPLE SIZE:14,726 (pilot)
-- LOCATION: China
-- URL: https://wbbc.westlake.edu.cn/
-- DESCRIPTION:The Westlake BioBank for Chinese (WBBC) cohort is a population-based prospective study with its major purpose to better understand the effect of genetic and environmental factors on growth and development from youngster to elderly. The dataset comprises a wide range of demographics and anthropometric measures, serological tests, physical activity, sleep quality, age at menarche and bone mineral density. WBBC is designed as a prospective cohort study and will recruit at least 100,000 Chinese samples. The pilot project of WBBC has recruited a total of 14,726 participants (4,751 males and 9,975 females) and the baseline survey was carried out from 2017 to 2019.
-- CITATION:Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
 
 ## Qatar Biobank
 - SAMPLE SIZE: ~80K
