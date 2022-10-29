@@ -16,3 +16,6 @@
 
 ## PGG.SNV
 - URL: https://www.pggsnv.org/index.html
+
+## CMDB
+- URL: http://cmdb.bgi.com/
