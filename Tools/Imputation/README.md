@@ -58,11 +58,20 @@
 ## Imputation Server
 ### TOPMED
 - URL: https://imputation.biodatacatalyst.nhlbi.nih.gov/#!
+- CITATION:Taliun, D., Harris, D. N., Kessler, M. D., Carlson, J., Szpiech, Z. A., Torres, R., ... & Stilp, A. M. (2021). Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program. Nature, 590(7845), 290-299.
 
 ### Michigan
 - URL :https://imputationserver.sph.umich.edu/index.html#!
 - URL: https://imputationserver.readthedocs.io/en/latest/
 - CITATION: Das, Sayantan, et al. "Next-generation genotype imputation service and methods." Nature genetics 48.10 (2016): 1284-1287.
+
+### NyuWa 
+- URL: http://bigdata.ibp.ac.cn/refpanel/getstarted.php
+- CITATION:Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.
+
+### Westlake
+- URL: https://imputationserver.westlake.edu.cn/
+- CITATION: Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
 
 ## Reviews
 - CITATION: Marchini, Jonathan, and Bryan Howie. "Genotype imputation for genome-wide association studies." Nature Reviews Genetics 11.7 (2010): 499-511.
