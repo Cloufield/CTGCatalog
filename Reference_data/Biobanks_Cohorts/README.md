@@ -19,6 +19,7 @@
 - Han Chinese Genome Initiative
 - IARC Biobank
 - INTERVAL Study
+- IndiGenomes
 - Lifelines
 - Massachusetts General Brigham Biobank
 - Mexico City Prospective Study (MCPS)
@@ -232,6 +233,13 @@
 - URL:https://www.ukm.my/mycohort/ms/
 - DESCRIPTION:The Malaysian Cohort study was initiated in 2005 by the Malaysian government. The top-down approach to this population-based cohort study ensured the allocation of sufficient funding for the project which aimed to recruit 100 000 individuals aged 35–70 years. Participants were recruited from rural and urban areas as well as from various socioeconomic groups. The main objectives of the study were to identify risk factors, to study gene-environment interaction and to discover biomarkers for the early detection of cancers and other diseases. 
 - CITATION:Jamal, R., Syed Zakaria, S. Z., Kamaruddin, M. A., Abd Jalal, N., Ismail, N., Mohd Kamil, N., ... & Malaysian Cohort Study Group. (2015). Cohort profile: The Malaysian Cohort (TMC) project: a prospective study of non-communicable diseases in a multi-ethnic population. International journal of epidemiology, 44(2), 423-431.
+ 
+## IndiGenomes
+- Cohort Size: ~1000 Indian genomes
+- LOCATION: India
+- URL: http://clingen.igib.res.in/indigen/
+- DESCRIPTION: The IndiGenomes resource encompasses the genomic data from over 1000 whole genome sequences sequenced from across India as part of the IndiGen programme and represents diverse geographies and ethnicities. The resource provides access to over 55 million genetic variants comprising of single nucleotide variants and indels. The variants are systematically annotated according to the recent Genome Reference Consortium Human Build 38 (GRCh38). Clinically relevant annotations as well as allele frequencies from global populations have also been integrated.
+- CITATION: Jain, A., Bhoyar, R. C., Pandhare, K., Mishra, A., Sharma, D., Imran, M., ... & Sivasubbu, S. (2021). IndiGenomes: a comprehensive resource of genetic variants from over 1000 Indian genomes. Nucleic acids research, 49(D1), D1225-D1232.
  
 # AFRICA
 ## Uganda Genome Resource
