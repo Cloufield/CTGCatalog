@@ -17,6 +17,10 @@
 - CITATION: Candia, J., Cheung, F., Kotliarov, Y., Fantoni, G., Sellers, B., Griesman, T., ... & Biancotto, A. (2017). Assessment of variability in the SOMAscan assay. Scientific reports, 7(1), 1-13.
 
 
+## Comparison
 
+-CITATION: Katz, D. H., Robbins, J. M., Deng, S., Tahir, U. A., Bick, A. G., Pampana, A., ... & Gerszten, R. E. (2022). Proteomic profiling platforms head to head: Leveraging genetics and clinical traits to compare aptamer-and antibody-based methods. Science advances, 8(33), eabm5164.
+-CITATION: Raffield, L. M., Dang, H., Pratte, K. A., Jacobson, S., Gillenwater, L. A., Ampleford, E., ... & NHLBI Trans‐Omics for Precision Medicine (TOPMed) Consortium. (2020). Comparison of proteomic assessment methods in multiple cohort studies. Proteomics, 20(12), 1900278.
+-CITATION: Pietzner, M., Wheeler, E., Carrasco-Zanini, J., Kerrison, N. D., Oerton, E., Koprulu, M., ... & Langenberg, C. (2021). Synergistic insights into human health from aptamer-and antibody-based proteomic profiling. Nature communications, 12(1), 1-13.
 
 
