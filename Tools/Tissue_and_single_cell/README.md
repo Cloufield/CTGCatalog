@@ -55,5 +55,13 @@
 - CITATION: Wang, R., Lin, D. Y., & Jiang, Y. (2022). EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS genetics, 18(6), e1010251.
 - KEY WORD: GWAS, scRNA-seq
 
+# TCSC 
+- SHORT NAME: TCSC 
+- FULL NAME: Tissue co-regulation score regression
+- URL: https://github.com/TiffanyAmariuta/TCSC/
+- YEAR : 2022
+- DESCRIPTION: TCSC is a statistical genetics method to identify causal tissues in diseases and complex traits. We leverage TWAS and GWAS summary statistics while explicitly modeling the genetic co-regulation of genes across tissues.
+- KEY WORD: Amariuta, Tiffany, Katie Siewert-Rocks, and Alkes L. Price. "Modeling tissue co-regulation to estimate tissue-specific contributions to disease." bioRxiv (2022).
+
 ## CoCoNet 
 ## RolyPoly
