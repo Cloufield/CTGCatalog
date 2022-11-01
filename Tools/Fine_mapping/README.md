@@ -7,6 +7,7 @@
 - MsCAVIAR 
 - PAINTOR 
 - MR-MEGA
+- RFR/SuSiE-inf/FINEMAP-inf
 
 ## FINEMAP
 - SHORT NAME: FINEMAP
@@ -79,3 +80,12 @@
 - URL : [https://genomics.ut.ee/en/tools](https://genomics.ut.ee/en/tools)
 - CITATION: Mägi, R., Horikoshi, M., Sofer, T., Mahajan, A., Kitajima, H., Franceschini, N., ... & Morris, A. P. (2017). Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution. Human molecular genetics, 26(18), 3639-3650.
 - KEY WORDS: Multi-AncEstry
+
+# RFR/SuSiE-inf/FINEMAP-inf
+- SHORT NAME: RFR
+- FULL NAME: Replication Failure Rate 
+- YEAR: 2022
+- DESCRIPTION: Replication Failure Rate (RFR), a metric to assess the consistency of fine-mapping results based on downsampling a large cohort. SuSiE-inf
+and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinitesimal effects in addition to a small number of larger causal effects of interest. 
+- URL : [https://github.com/FinucaneLab/fine-mapping-inf](https://github.com/FinucaneLab/fine-mapping-inf)
+- CITATION:Cui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M., ... & Finucane, H. K. (2022). Improving fine-mapping by modeling infinitesimal effects. bioRxiv.
