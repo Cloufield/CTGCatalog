@@ -49,5 +49,5 @@
 
 ## CNVxplorer
 - URL:http://cnvxplorer.com/
-- DESCRIPTION:a web server suited for the functional assessment of CNVs in a clinical diagnostic setting.
-- CITATION:Requena, Francisco, et al. "CNVxplorer: a web tool to assist clinical interpretation of CNVs in rare disease patients." Nucleic Acids Research 49.W1 (2021): W93-W103.
+- DESCRIPTION: A web server suited for the functional assessment of CNVs in a clinical diagnostic setting.
+- CITATION: Requena, Francisco, et al. "CNVxplorer: a web tool to assist clinical interpretation of CNVs in rare disease patients." Nucleic Acids Research 49.W1 (2021): W93-W103.
