@@ -12,6 +12,8 @@ theme:
   name: null
   custom_dir: 'cinder'
   color_theme:  github"
+extra_css:
+  - "stylesheets/extra.css"
 '''
 shutil.copyfile("./README.md", "./docs/index.md")
 part2="nav: \n    - Home : index.md\n"
