@@ -23,6 +23,8 @@
 - Cancer PRSweb
 - PRS atlas
 - metabolites PRS atlas
+- PUMA-CUBS
+- Reviews&Tutorial
 
 ## PRS Tutorial
 - SHORT NAME: PRS Tutorial
@@ -214,6 +216,14 @@
 - DESCRIPTION: This web application can be used to query findings from a systematic analysis of 129 polygenic risk scores and 249 circulating metabolits using high-throughput nuclear magnetic resonance data from the UK Biobank study1,2. We encourage users of this resource to conduct follow-up analyses of associations to investigate potential causal and non-causal metabolic biomarkers. Age-stratified results can be used to investigate how potential sources of collider bias (e.g. statin therapy) may influence findings in the full sample
 - URL : http://mrcieu.mrsoftware.org/metabolites_PRS_atlas/
 - CITATION:Fang, S., Holmes, M. V., Gaunt, T. R., Smith, G. D., & Richardson, T. G. (2022). Constructing an atlas of associations between polygenic scores from across the human phenome and circulating metabolic biomarkers. eLife.
+
+## PUMA-CUBS
+- SHORT NAME:PUMA-CUBS
+- FULL NAME:PUMA-CUBS
+- DESCRIPTION:an ensemble learning strategy named PUMACUBS to combine multiple PRS models into an ensemble score without requiring external data
+for model fitting.
+- URL :https://github.com/qlu-lab/PUMAS
+- CITATION:Zhao, Zijie, et al. "Optimizing and benchmarking polygenic risk scores with GWAS summary statistics." bioRxiv (2022).
 
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
