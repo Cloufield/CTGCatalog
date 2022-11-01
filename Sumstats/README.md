@@ -26,6 +26,7 @@
 * UKB fastgwa: https://yanglab.westlake.edu.cn/resources/ukb_fastgwa/imp/
 * UKB TOPMed: https://pheweb.org/UKB-TOPMed/
 * UKB gene-based: https://genebass.org/
+* UKB exome: https://azphewas.com/
 * Pan-UKB : https://pan.ukbb.broadinstitute.org/
 * MGI 1 : https://pheweb.org/MGI-freeze1/
 * MGI 2 : https://pheweb.org/MGI-freeze2/
