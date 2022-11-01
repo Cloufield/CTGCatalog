@@ -6,6 +6,7 @@
 - ClinVar
 - OMIM
 - TogoVar
+- CNVxplorer 
 
 ## dbSNP
 - URL: [https://www.ncbi.nlm.nih.gov/snp/](https://www.ncbi.nlm.nih.gov/snp/)
@@ -45,3 +46,8 @@
 ## HGSV 
 - DESCRIPTIOON: The Human Genome Structural Variation Consortium
 - URL: [https://www.internationalgenome.org/human-genome-structural-variation-consortium/](https://www.internationalgenome.org/human-genome-structural-variation-consortium/)
+
+## CNVxplorer
+- URL:http://cnvxplorer.com/
+- DESCRIPTION:a web server suited for the functional assessment of CNVs in a clinical diagnostic setting.
+- CITATION:Requena, Francisco, et al. "CNVxplorer: a web tool to assist clinical interpretation of CNVs in rare disease patients." Nucleic Acids Research 49.W1 (2021): W93-W103.
