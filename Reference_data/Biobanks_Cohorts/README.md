@@ -1,4 +1,5 @@
 # Contents : Biobanks and Cohorts
+- All of Us
 - Biobank of the Americas
 - Biobank Graz
 - Biobank Japan
@@ -252,6 +253,15 @@
 - CITATION:Fatumo, S., Yakubu, A., Oyedele, O., Popoola, J., Attipoe, D. A., Eze-Echesi, G., ... & Ene-Obong, A. (2022). Promoting the genomic revolution in Africa through the Nigerian 100K Genome Project. Nature Genetics, 54(5), 531-536.
 
 # NORTH AMERICA
+
+## All of Us (AoU)
+- SAMPLE SIZE: 358,705
+- LOCATION: US
+- URL：[https://allofus.nih.gov/](https://allofus.nih.gov/)
+- URL: [https://www.researchallofus.org/register/](https://www.researchallofus.org/register/)
+- DESCRIPTION: The All of Us Research Program is a historic effort to collect and study data from one million or more people living in the United States. The goal of the program is better health for all of us. The program began national enrollment in 2018 and is expected to last at least 10 years.
+- CITATION: https://www.medrxiv.org/content/10.1101/2022.10.26.22281570v1
+
 ## Michigan Genomics Initiative
 - SAMPLE SIZE: ~55k
 - LOCATION: U.S.
