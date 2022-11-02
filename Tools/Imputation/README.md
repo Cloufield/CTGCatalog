@@ -2,6 +2,11 @@
 - Phasing & Imputation Tool
 - Imputation Panel
 - Imputation Server
+    - Michigan
+    - TOPMed
+    - Sanger
+    - Nyuwa
+    - Westlake
 
 ## Phasing & Imputation
 ### BEAGLE
@@ -72,6 +77,10 @@
 ### Westlake
 - URL: [https://imputationserver.westlake.edu.cn/](https://imputationserver.westlake.edu.cn/)
 - CITATION: Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
+
+### Sanger
+- URL: [https://imputation.sanger.ac.uk/](https://imputation.sanger.ac.uk/)
+- CITATION: "A reference panel of 64,976 haplotypes for genotype imputation." Nature genetics 48, no. 10 (2016): 1279-1283.
 
 ## Reviews
 - CITATION: Marchini, Jonathan, and Bryan Howie. "Genotype imputation for genome-wide association studies." Nature Reviews Genetics 11.7 (2010): 499-511.
