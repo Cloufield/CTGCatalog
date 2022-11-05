@@ -11,7 +11,7 @@
 - HUMAN PANGENOME REFERENCE CONSORTIUM
 - 1000 Genome Project  30X high coverage (hg38)
 - 1000 Genome Project  Phase 3 (hg19)
- 
+- HAPMAP3
 
 ## CHM13
 - URL: https://github.com/marbl/CHM13
@@ -75,3 +75,9 @@
 ## 1000 Genome Project - Phase 3
 - URL: http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502/
 - CITATION:1000 Genomes Project Consortium. (2015). A global reference for human genetic variation. Nature, 526(7571), 68.
+
+## HAPMAP3
+- URL:[https://www.broadinstitute.org/medical-and-population-genetics/hapmap-3](https://www.broadinstitute.org/medical-and-population-genetics/hapmap-3)
+- URL:[https://www.sanger.ac.uk/resources/downloads/human/hapmap3.html](https://www.sanger.ac.uk/resources/downloads/human/hapmap3.html)
+- URL:[https://www.hgsc.bcm.edu/search/google/projects%20human#gsc.tab=0&gsc.q=projects%20human&gsc.sort=](https://www.hgsc.bcm.edu/search/google/projects%20human#gsc.tab=0&gsc.q=projects%20human&gsc.sort=)
+- CITATION: International HapMap Consortium. (2007). A second generation human haplotype map of over 3.1 million SNPs. Nature, 449(7164), 851.
