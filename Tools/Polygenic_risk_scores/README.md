@@ -56,6 +56,13 @@
 - CITATION: Choi SW, Garcia-Gonzalez J, Ruan Y, et al. The power of pathway-based polygenic risk scores. Research Square; 2021. DOI: 10.21203/rs.3.rs-643696/v1.
 - KEY WORDS: pathway-based
 
+## LDpred
+- SHORT NAME: LDpred
+- FULL NAME: LDpred
+- DESCRIPTION: LDpred is a Python based software package that adjusts GWAS summary statistics for the effects of linkage disequilibrium (LD).
+- URL : [https://github.com/bvilhjal/ldpred](https://github.com/bvilhjal/ldpred)
+- CITATION: Vilhjálmsson, B. J., Yang, J., Finucane, H. K., Gusev, A., Lindström, S., Ripke, S., ... & Marsal, S. (2015). Modeling linkage disequilibrium increases accuracy of polygenic risk scores. The american journal of human genetics, 97(4), 576-592.
+
 ## LDpred2
 - SHORT NAME: LDpred2
 - FULL NAME: LDpred2
@@ -70,6 +77,14 @@
 - DESCRIPTION: LDpred2 is a widely used Bayesian method for building polygenic scores (PGS). LDpred2-auto can infer the two parameters from the LDpred model, h^2 and p, so that it does not require an additional validation dataset to choose best-performing parameters. Here, we present a new version of LDpred2-auto, which adds a third parameter alpha to its model for modeling negative selection. Additional changes are also made to provide better sampling of these parameters. 
 - URL : https://privefl.github.io/bigsnpr/articles/LDpred2.html
 - CITATION: Inferring disease architecture and predictive ability with LDpred2-auto Florian Privé, Clara Albiñana, Bogdan Pasaniuc, Bjarni J. Vilhjálmsson bioRxiv 2022.10.10.511629; doi: https://doi.org/10.1101/2022.10.10.511629
+
+## LDpred-funct
+- SHORT NAME: LDpred-funct
+- FULL NAME: LDpred-funct
+- DESCRIPTION: LDpred-funct is a method for polygenic prediction that leverages trait-specific functional priors to increase prediction accuracy.
+- URL : [https://github.com/carlaml/LDpred-funct](https://github.com/carlaml/LDpred-funct)
+- CITATION: Márquez-Luna, C., Gazal, S., Loh, P. R., Kim, S. S., Furlotte, N., Auton, A., & Price, A. L. (2021). Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets. Nature Communications, 12(1), 1-11.
+- KEY WORDS: Bayesian
 
 ## PRS-CS
 - SHORT NAME: PRS-CS
