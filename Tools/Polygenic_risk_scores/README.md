@@ -2,11 +2,13 @@
 - PLINK2
 - PRSice-2
 - PRSet
+- LDpred
 - LDpred2
+- LDpred-funct
 - LDpred2-auto
 - PRS-CS
-- lassosum
 - PRS-CSx
+- lassosum
 - Multi-PGS
 - PGSCatalog
 - wMT-SBLUP
