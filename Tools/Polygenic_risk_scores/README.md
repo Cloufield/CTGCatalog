@@ -64,6 +64,7 @@
 - DESCRIPTION: LDpred is a Python based software package that adjusts GWAS summary statistics for the effects of linkage disequilibrium (LD).
 - URL : [https://github.com/bvilhjal/ldpred](https://github.com/bvilhjal/ldpred)
 - CITATION: Vilhjálmsson, B. J., Yang, J., Finucane, H. K., Gusev, A., Lindström, S., Ripke, S., ... & Marsal, S. (2015). Modeling linkage disequilibrium increases accuracy of polygenic risk scores. The american journal of human genetics, 97(4), 576-592.
+- KEY WORDS: Bayesian, Gaussian infinitesimal prior, python
 
 ## LDpred2
 - SHORT NAME: LDpred2
@@ -71,7 +72,7 @@
 - DESCRIPTION: LDpred-2 is one of the dedicated PRS programs which is an R package that uses a Bayesian approach to polygenic risk scoring.
 - URL : https://privefl.github.io/bigsnpr/articles/LDpred2.html
 - CITATION: Privé, F., Arbel, J., & Vilhjálmsson, B. J. (2020). LDpred2: better, faster, stronger. Bioinformatics, 36(22-23), 5424-5431.
-- KEY WORDS: Bayesian
+- KEY WORDS: Bayesian, R, LDpred2-grid (LDpred2), LDpred2-auto, LDpred2-sparse
 
 ## LDpred2-auto
 - SHORT NAME: LDpred2-auto
@@ -79,6 +80,7 @@
 - DESCRIPTION: LDpred2 is a widely used Bayesian method for building polygenic scores (PGS). LDpred2-auto can infer the two parameters from the LDpred model, h^2 and p, so that it does not require an additional validation dataset to choose best-performing parameters. Here, we present a new version of LDpred2-auto, which adds a third parameter alpha to its model for modeling negative selection. Additional changes are also made to provide better sampling of these parameters. 
 - URL : https://privefl.github.io/bigsnpr/articles/LDpred2.html
 - CITATION: Inferring disease architecture and predictive ability with LDpred2-auto Florian Privé, Clara Albiñana, Bogdan Pasaniuc, Bjarni J. Vilhjálmsson bioRxiv 2022.10.10.511629; doi: https://doi.org/10.1101/2022.10.10.511629
+- KEY WORDS: Bayesian, new LDpred2-auto, α (relationship between MAF and beta)
 
 ## LDpred-funct
 - SHORT NAME: LDpred-funct
@@ -86,7 +88,7 @@
 - DESCRIPTION: LDpred-funct is a method for polygenic prediction that leverages trait-specific functional priors to increase prediction accuracy.
 - URL : [https://github.com/carlaml/LDpred-funct](https://github.com/carlaml/LDpred-funct)
 - CITATION: Márquez-Luna, C., Gazal, S., Loh, P. R., Kim, S. S., Furlotte, N., Auton, A., & Price, A. L. (2021). Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets. Nature Communications, 12(1), 1-11.
-- KEY WORDS: Bayesian
+- KEY WORDS: Bayesian, functional priors
 
 ## PRS-CS
 - SHORT NAME: PRS-CS
