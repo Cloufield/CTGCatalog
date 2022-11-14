@@ -35,7 +35,7 @@
 - SHORT NAME:  MultiXcan
 - YEAR: 2018
 - DESRIPTION: an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure.
-- URL : 2019
+- URL :  [https://github.com/hakyimlab/MetaXcan](https://github.com/hakyimlab/MetaXcan)
 - CITATION: Barbeira, A. N., Pividori, M., Zheng, J., Wheeler, H. E., Nicolae, D. L., & Im, H. K. (2019). Integrating predicted transcriptome from multiple tissues improves association detection. PLoS genetics, 15(1), e1007889.
 
 ## webTWAS
