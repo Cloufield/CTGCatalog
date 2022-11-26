@@ -1,6 +1,16 @@
 # Contents
 - Phasing & Imputation Tool
+    - BEAGLE
+    - Eagle
+    - SHAPEIT
+    - IMPUTE
+    - Mach/minimac
+    - fastPHASE
+    - GLIMPSE
 - Imputation Panel
+    - 1KG
+    - TOPMED
+    - HRC
 - Imputation Server
     - Michigan
     - TOPMed
