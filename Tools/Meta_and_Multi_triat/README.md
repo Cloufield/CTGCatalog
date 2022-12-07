@@ -3,6 +3,7 @@
 - MANTRA
 - MR-MEGA
 - GWAMA
+- mvGWAMA
 - MTAG
 - Genomic-SEM
 
@@ -37,6 +38,15 @@
 - DESCRIPTION: Software tool for meta analysis of whole genome association data
 - URL : https://genomics.ut.ee/en/tools
 - CITATION: Mägi, R., & Morris, A. P. (2010). GWAMA: software for genome-wide association meta-analysis. BMC bioinformatics, 11(1), 1-6.
+
+
+## mvGWAMA 
+- SHORT NAME:  mvGWAMA 
+- FULL NAME:  Multivariate Genome-Wide Association Meta-Analysis
+- YEAR: 2019
+- DESCRIPTION: mvGWAMA is a python script to perform a GWAS meta-analysis when there are sample overlap.
+- URL : https://github.com/Kyoko-wtnb/mvGWAMA
+- CITATION: Jansen, Iris E., et al. "Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer’s disease risk." Nature genetics 51.3 (2019): 404-413.
 
 ## MTAG
 - SHORT NAME: MTAG
