@@ -26,6 +26,7 @@
 - PRS atlas
 - metabolites PRS atlas
 - PUMA-CUBS
+- MiXeR
 - SDPRX
 - Reviews&Tutorial
 
@@ -244,6 +245,14 @@
 for model fitting.
 - URL :https://github.com/qlu-lab/PUMAS
 - CITATION:Zhao, Zijie, et al. "Optimizing and benchmarking polygenic risk scores with GWAS summary statistics." bioRxiv (2022).
+
+## MiXeR
+- SHORT NAME: MiXeR
+- FULL NAME: MiXeR
+- DESCRIPTION: Causal Mixture Model for GWAS summary statistics
+- URL :https://github.com/precimed/mixer
+- CITATION: （univariate） Holland, Dominic, et al. "Beyond SNP heritability: Polygenicity and discoverability of phenotypes estimated with a univariate Gaussian mixture model." PLoS Genetics 16.5 (2020): e1008612.
+- CITATION：（cross-trait analysis）Frei, Oleksandr, et al. "Bivariate causal mixture model quantifies polygenic overlap between complex traits beyond genetic correlation." Nature communications 10.1 (2019): 1-11.
 
 ## SDPRX
 - SHORT NAME: SDPRX
