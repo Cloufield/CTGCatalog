@@ -26,6 +26,7 @@
 - PRS atlas
 - metabolites PRS atlas
 - PUMA-CUBS
+- SDPRX
 - Reviews&Tutorial
 
 ## PRS Tutorial
@@ -243,6 +244,13 @@
 for model fitting.
 - URL :https://github.com/qlu-lab/PUMAS
 - CITATION:Zhao, Zijie, et al. "Optimizing and benchmarking polygenic risk scores with GWAS summary statistics." bioRxiv (2022).
+
+## SDPRX
+- SHORT NAME: SDPRX
+- FULL NAME: SDPRX
+- DESCRIPTION: SDPRX is a statistical method for cross-population prediction of complex traits. It integrates GWAS summary statistics and LD matrices from two populations (EUR and non-EUR) to compuate polygenic risk scores.
+- URL : https://github.com/eldronzhou/SDPRX
+- CITATION:Zhou, Geyu, Tianqi Chen, and Hongyu Zhao. "SDPRX: A statistical method for cross-population prediction of complex traits." The American Journal of Human Genetics (2022).
 
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
