@@ -20,6 +20,10 @@
 - URL : https://www.eqtlgen.org/
 - CITATION: Võsa, U., Claringbould, A., Westra, H. J., Bonder, M. J., Deelen, P., Zeng, B., ... & Franke, L. (2021). Large-scale cis-and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression. Nature genetics, 53(9), 1300-1310.
 
+### sc-eQTLGen 
+- URL: [https://eqtlgen.org/sc/](https://eqtlgen.org/sc/)
+- CITATION: van der Wijst, Monique GP, et al. "Science Forum: The single-cell eQTLGen consortium." elife 9 (2020): e52155.
+
 ### PsychENCODE consortium
 - URL : https://www.nimhgenetics.org/resources/psychencode
 - CITATION: Akbarian, S., Liu, C., Knowles, J. et al. The PsychENCODE project. Nat Neurosci 18, 1707–1712 (2015). https://doi.org/10.1038/nn.4156
