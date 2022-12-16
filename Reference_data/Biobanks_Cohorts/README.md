@@ -33,6 +33,7 @@
 - Penn Medicine Biobank
 - Qatar Biobank
 - QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
+- SG10K_Health
 - Taiwan Biobank
 - UCLA Precision Health Biobank
 - Uganda Genome Resource
@@ -195,6 +196,13 @@
 - CIATTION: Wei, C. Y., Yang, J. H., Yeh, E. C., Tsai, M. F., Kao, H. J., Lo, C. Z., ... & Kwok, P. Y. (2021). Genetic profiles of 103,106 individuals in the Taiwan Biobank provide insights into the health and history of Han Chinese. NPJ genomic medicine, 6(1), 1-10.
 - DATA: https://taiwanview.twbiobank.org.tw/data_appl (application required)
 
+## SG10K_Health
+- SAMPLE SIZE: 10K WGS
+- LOCATION: Singapore
+- URL:[https://www.npm.sg/collaborate/partners/sg10k/](https://www.npm.sg/collaborate/partners/sg10k/)
+- DESCRIPTION:SG10K_Health is the headline project of the Singapore National Precision Medicine programme (NPM Phase I). Comprising 10,000 whole-genome sequences from healthy Chinese, Indian, and Malay consented volunteers. SG10K_Health involved a research collaboration across multiple institutions in Singapore, enabling the country to develop the necessary infrastructure and deep capabilities to process, store, and analyse genetic data at the population scale in a safe, secure, and rapid manner. SG10K_Health provides near complete assessment of common genetic variants in Singapore’s three major ethnic groups, which can be used by clinicians to better manage Asian patients with genetic disease and as a control data set to compare against disease studies. Work is ongoing to link the SG10K_Health genomic data to research traits (e.g., height, weight, blood pressure) and clinical records.
+- CITATION: Chan, Sock Hoai, et al. "Analysis of clinically relevant variants from ancestrally diverse Asian genomes." Nature communications 13.1 (2022): 1-15.
+
 ## BioBank Japan (BBJ)
 - SAMPLE SIZE: ~20k
 - LOCATION: Japan
@@ -241,7 +249,7 @@
 - URL: http://clingen.igib.res.in/indigen/
 - DESCRIPTION: The IndiGenomes resource encompasses the genomic data from over 1000 whole genome sequences sequenced from across India as part of the IndiGen programme and represents diverse geographies and ethnicities. The resource provides access to over 55 million genetic variants comprising of single nucleotide variants and indels. The variants are systematically annotated according to the recent Genome Reference Consortium Human Build 38 (GRCh38). Clinically relevant annotations as well as allele frequencies from global populations have also been integrated.
 - CITATION: Jain, A., Bhoyar, R. C., Pandhare, K., Mishra, A., Sharma, D., Imran, M., ... & Sivasubbu, S. (2021). IndiGenomes: a comprehensive resource of genetic variants from over 1000 Indian genomes. Nucleic acids research, 49(D1), D1225-D1232.
- 
+
 # AFRICA
 ## Uganda Genome Resource
 - SAMPLE SIZE: ~6k
