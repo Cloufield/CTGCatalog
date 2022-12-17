@@ -28,6 +28,7 @@
 - Michigan Genomics Initiative
 - Million Veteran Program (MVP)
 - National Biobank of Korea
+- National Center Biobank Network
 - NyuWa genome resource
 - Nigerian 100K Genome Project
 - Penn Medicine Biobank
@@ -216,6 +217,13 @@
 - URL: https://www.megabank.tohoku.ac.jp/english/
 - DESCRIPTION:Tohoku University Tohoku Medical Megabank Organization was founded to establish an advanced medical system to foster the reconstruction from the Great East Japan Earthquake. The organization has been developing a biobank that combines medical and genome information during the process of rebuilding the community medical system and supporting health and welfare in the Tohoku area. The information from the brand-new biobank will create a new medical system, and, based on the findings of its analysis, the organization aims to attract more medical practitioners from all over the country to the area, promote industry-academic partnerships, create employment in related fields, and restore the medical system in Tohoku.
 - CITATION:Kuriyama, S., Yaegashi, N., Nagami, F., Arai, T., Kawaguchi, Y., Osumi, N., ... & Tohoku Medical Megabank Project Study Group. (2016). The Tohoku medical megabank project: design and mission. Journal of epidemiology, 26(9), 493-511.
+
+## National Center Biobank Network
+- SAMPLE SIZE: ~130k for 6 biobanks
+- LOCATION: Japan
+- DESCRIPTION: Six National Centers in Japan conduct specialized medical research under the coordination of the National Center Biobank Network (NCBN) and develop therapeutics to improve and protect national health. They actively collaborate to establish a shared biobank and are developing a structure to facilitate industry-academia-government cooperation regarding bioresources through broad joint research. NCBN strives to promote the success of the National Centers and to create bright future for health and human life.
+- URL: [https://ncbiobank.org/en/home.php](https://ncbiobank.org/en/home.php)
+- CITATION: Omae, Yosuke, Yu-ichi Goto, and Katsushi Tokunaga. "National Center Biobank Network." Human Genome Variation 9.1 (2022): 1-6.
 
 ## National Biobank of Korea
 - TOTAL SAMPLE SIZE: ~210K
