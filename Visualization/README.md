@@ -98,6 +98,10 @@
 - CITATION:Gagliano Taliun, Sarah A., et al. "Exploring and visualizing large-scale genetic associations by using PheWeb." Nature Genetics 52.6 (2020): 550-552.
 <img src="https://user-images.githubusercontent.com/40289485/192709403-e195ff26-6765-4ce1-85c6-58c64bb274d5.png" width="500">
 
+## CMplot
+- URL: https://github.com/YinLiLin/CMplot
+- CITATION: Yin, L., Zhang, H., Tang, Z., Xu, J., Yin, D., Zhang, Z., ... & Liu, X. (2021). rMVP: a memory-efficient, visualization-enhanced, and parallel-accelerated tool for genome-wide association study. Genomics, proteomics & bioinformatics, 19(4), 619-628.
+
 ##Template
 - SHORT NAME:
 - FULL NAME:
