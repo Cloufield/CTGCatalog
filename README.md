@@ -24,6 +24,7 @@
 * [Gene_set_pathway_analysis](https://cloufield.github.io/CTGCatalog/Tools_Gene_set_pathway_analysis_README/)
 * [GxE_interactions](https://cloufield.github.io/CTGCatalog/Tools_GxE_interactions_README/)
 * [Heritability_and_genetic_correlation](https://cloufield.github.io/CTGCatalog/Tools_Heritability_and_genetic_correlation_README/)
+* [HLA]()
 * [Imputation](https://cloufield.github.io/CTGCatalog/Tools_Imputation_README/)
 * [Mendelian_randomization](https://cloufield.github.io/CTGCatalog/Tools_Mendelian_randomization_README/)
 * [Meta_and_Multi_triat](https://cloufield.github.io/CTGCatalog/Tools_Meta_and_Multi_triat_README/)
@@ -33,8 +34,15 @@
 * [Tissue_and_single_cell](https://cloufield.github.io/CTGCatalog/Tools_Tissue_and_single_cell_README/)
 
 ## Population Genetics Tools
+* [Admixture]()
+* [Phylogenetic tree]()
 
 ## Visualization tools
+* [Heatmap]()
+* [Correlation]()
+* [Venn Diagram]()
+* [Variant on protein]()
+
 
 --------
 
