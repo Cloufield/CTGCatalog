@@ -2,7 +2,6 @@
 # CTGCatalog
 
 **[Complex Trait Genetics Catalog](https://cloufield.github.io/CTGCatalog/)** : A collection of commonly used resources for analysis in complex trait genetics, including reference data, publicly sumstats and commonly used tools. All entries in this repo are manually curated.
-![image](https://user-images.githubusercontent.com/40289485/195635069-2cd54fe1-6b67-4ab0-b27c-dbe525d23376.png)
 
 ## Reference_data
 * [Reference genomes](https://cloufield.github.io/CTGCatalog/Reference_data_Genome_README/)
@@ -14,7 +13,7 @@
 * [publically available gwas summary statistics](https://cloufield.github.io/CTGCatalog/Sumstats_README/)
 * Including sumstats from established databases, major biobanks, and disease consortiums.
 
-## Analysis Tools
+## Complex Trait Genomics Tools
 * [Annotation](https://cloufield.github.io/CTGCatalog/Tools_Annotation_README/)
 * [Association_tests](https://cloufield.github.io/CTGCatalog/Tools_Association_tests_README/)
 * [Colocalization](https://cloufield.github.io/CTGCatalog/Tools_Colocalization_README/)
@@ -33,8 +32,23 @@
 * [Simulation](https://cloufield.github.io/CTGCatalog/Tools_Simulation_README/)
 * [Tissue_and_single_cell](https://cloufield.github.io/CTGCatalog/Tools_Tissue_and_single_cell_README/)
 
+## Population Genetics Tools
+
 ## Visualization tools
 
+--------
+
+# Template
+```
+## Template
+- SHORT NAME: 
+- FULL NAME: 
+- YEAR: 
+- DESCRIPTION: 
+- URL : 
+- CITATION: 
+- KEY WORDS: 
+```
 # About
 For more Complex Trait Genomics contents, please check [https://gwaslab.com/](https://gwaslab.com/)
 
