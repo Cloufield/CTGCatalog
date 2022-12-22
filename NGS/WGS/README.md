@@ -18,6 +18,9 @@
 ## samtools
 - URL : http://www.htslib.org/
 
+## samclip
+- URL: https://github.com/tseemann/samclip
+
 ## bedtools
 - URL: https://bedtools.readthedocs.io/en/latest/index.html
 
