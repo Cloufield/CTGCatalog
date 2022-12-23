@@ -47,3 +47,11 @@
 ## scikit-allel
 - DESCRIPTION: This package provides utilities for exploratory analysis of large scale genetic variation data. It is based on numpy, scipy and other general-purpose Python scientific libraries.
 - URL:[https://scikit-allel.readthedocs.io/en/stable/](https://scikit-allel.readthedocs.io/en/stable/)
+
+## BioNumPy
+- SHORT NAME: BioNumPy
+- FULL NAME: BioNumPy
+- YEAR: 2022
+- DESCRIPTION: BioNumPy is a Python library for easy and efficient representation and analysis of biological data. Since BioNumPy builds on the interface of NumPy, people already used to NumPy or array programming should find BioNumPy very easy to get started with.
+- URL :  [https://bionumpy.github.io/bionumpy/](https://bionumpy.github.io/bionumpy/)
+- CITATION: https://www.biorxiv.org/content/10.1101/2022.12.21.521373v1
