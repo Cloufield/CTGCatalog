@@ -8,6 +8,8 @@
 - PAINTOR 
 - MR-MEGA
 - RFR/SuSiE-inf/FINEMAP-inf
+- JAM
+- mJAM
 
 ## FINEMAP
 - SHORT NAME: FINEMAP
@@ -89,3 +91,19 @@
 and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinitesimal effects in addition to a small number of larger causal effects of interest. 
 - URL : [https://github.com/FinucaneLab/fine-mapping-inf](https://github.com/FinucaneLab/fine-mapping-inf)
 - CITATION:Cui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M., ... & Finucane, H. K. (2022). Improving fine-mapping by modeling infinitesimal effects. bioRxiv.
+
+# JAM
+- SHORT NAME: JAM
+- FULL NAME:  joint analysis of marginal summary statistics
+- YEAR: 2016
+- DESCRIPTION: Bayesian variable selection under a range of likelihoods, including linear regression for continuous outcomes, logistic regression for binary outcomes, Weibull regression for survival outcomes binary and survial outcomes, and the "JAM" model for summary genetic association data.
+- URL : https://github.com/pjnewcombe/R2BGLiMS
+- CITATION: Newcombe, Paul J., David V. Conti, and Sylvia Richardson. "JAM: a scalable Bayesian framework for joint analysis of marginal SNP effects." Genetic epidemiology 40.3 (2016): 188-201.
+
+# mJAM
+- SHORT NAME: mJAM
+- FULL NAME: multi-population JAM
+- YEAR: 2022
+- URL : https://github.com/USCbiostats/hJAM/R
+- CITATION: https://www.biorxiv.org/content/10.1101/2022.12.22.521659v1?rss=1
+- KEY WORDS: multi-population
