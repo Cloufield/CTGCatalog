@@ -20,13 +20,14 @@
 - CITATION: Benner, C., Spencer, C. C., Havulinna, A. S., Salomaa, V., Ripatti, S., & Pirinen, M. (2016). FINEMAP: efficient variable selection using summary data from genome-wide association studies. Bioinformatics, 32(10), 1493-1501.
 - KEY WORDS: Shotgun Stochastic Search (SSS)
 
-## SUSIE
-- SHORT NAME: SUSIE
-- FULL NAME: sum of single effects
+## SUSIE / SUSIE-RSS
+- SHORT NAME: SUSIE / SUSIE-RSS
+- FULL NAME: sum of single effects / regression with summary statistics
 - YEAR: 2020
 - DESCRIPTION: The susieR package implements a simple new way to perform variable selection in multiple regression (y = Xb + e). The methods implemented here are particularly well-suited to settings where some of the X variables are highly correlated, and the true effects are highly sparse (e.g. <20 non-zero effects in the vector b). One example of this is genetic fine-mapping applications, and this application was a major motivation for developing these methods.
 - URL : [https://stephenslab.github.io/susieR/index.html](https://stephenslab.github.io/susieR/index.html)
-- CITATION: Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine mapping. Journal of the Royal Statistical Society, Series B 82, 1273–1300. https://doi.org/10.1111/rssb.12388
+- CITATION : Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine mapping. Journal of the Royal Statistical Society, Series B 82, 1273–1300. https://doi.org/10.1111/rssb.12388
+- CITATION : Zou, Yuxin, et al. "Fine-mapping from summary data with the “Sum of Single Effects” model." PLoS Genetics 18.7 (2022): e1010299.
 
 ## SparsePro
 - SHORT NAME: SparsePro
