@@ -84,7 +84,7 @@
 - CITATION: Mägi, R., Horikoshi, M., Sofer, T., Mahajan, A., Kitajima, H., Franceschini, N., ... & Morris, A. P. (2017). Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution. Human molecular genetics, 26(18), 3639-3650.
 - KEY WORDS: Multi-AncEstry
 
-# RFR/SuSiE-inf/FINEMAP-inf
+## RFR/SuSiE-inf/FINEMAP-inf
 - SHORT NAME: RFR
 - FULL NAME: Replication Failure Rate 
 - YEAR: 2022
@@ -93,7 +93,7 @@ and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinit
 - URL : [https://github.com/FinucaneLab/fine-mapping-inf](https://github.com/FinucaneLab/fine-mapping-inf)
 - CITATION:Cui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M., ... & Finucane, H. K. (2022). Improving fine-mapping by modeling infinitesimal effects. bioRxiv.
 
-# JAM
+## JAM
 - SHORT NAME: JAM
 - FULL NAME:  joint analysis of marginal summary statistics
 - YEAR: 2016
@@ -101,7 +101,7 @@ and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinit
 - URL : https://github.com/pjnewcombe/R2BGLiMS
 - CITATION: Newcombe, Paul J., David V. Conti, and Sylvia Richardson. "JAM: a scalable Bayesian framework for joint analysis of marginal SNP effects." Genetic epidemiology 40.3 (2016): 188-201.
 
-# mJAM
+## mJAM
 - SHORT NAME: mJAM
 - FULL NAME: multi-population JAM
 - YEAR: 2022
