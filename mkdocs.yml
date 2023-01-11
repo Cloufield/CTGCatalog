@@ -14,7 +14,24 @@ theme:
   palette:
     primary: indigo
     accent: indigo
+extra_css:
+  - "stylesheets/extra.css"
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
 
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+plugins:
+  - mkdocs-jupyter
 nav: 
     - Home : index.md
     - Tools:
@@ -36,6 +53,7 @@ nav:
       - Gene_set_pathway_analysis: Tools_Gene_set_pathway_analysis_README.md
       - Tissue_and_single_cell: Tools_Tissue_and_single_cell_README.md
       - Imputation: Tools_Imputation_README.md
+      - HLA: Tools_HLA_README.md
       - Heritability_and_genetic_correlation: Tools_Heritability_and_genetic_correlation_README.md
       - Proteomics: Tools_Proteomics_README.md
       - GxE_interactions: Tools_GxE_interactions_README.md
@@ -70,23 +88,4 @@ nav:
       - Venn_diagram: Visualization_Venn_diagram_README.md
       - Workflow: Visualization_Workflow_README.md
       - Variants_on_protein: Visualization_Variants_on_protein_README.md
-
-markdown_extensions:
-  - toc:
-      toc_depth: 3
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.arithmatex:
-      generic: true
-
-extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-
-extra_css:
-  - stylesheets/extra.css
-
-plugins:
-  - mkdocs-jupyter
+      - Heatmap: Visualization_Heatmap_README.md
