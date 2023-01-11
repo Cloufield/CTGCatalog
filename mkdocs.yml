@@ -5,81 +5,88 @@ repo_url: https://github.com/Cloufield/CTGCatalog/
 edit_uri: ""
 copyright: "CTGCatalog is licensed under the MIT license"
 theme:
-  name: null
-  custom_dir: 'cinder'
-  color_theme:  github"
+  name: material
+  features:
+    - navigation.tabs
+  font:
+    code: Roboto Mono
+    text: Roboto
+  palette:
+    primary: indigo
+    accent: indigo
+
 nav: 
     - Home : index.md
     - Tools:
-      - Tools: ToolsREADME.md
-      - Visualization: ToolsVisualizationREADME.md
-      - Polygenic_risk_scores: ToolsPolygenic_risk_scoresREADME.md
+      - Tools: Tools_README.md
+      - Drug_discovery: Tools_Drug_discovery_README.md
+      - Gene_prioritization: Tools_Gene_prioritization_README.md
+      - Polygenic_risk_scores: Tools_Polygenic_risk_scores_README.md
       - Association_tests:
-        - Association_tests: ToolsAssociation_testsREADME.md
-        - TWAS: ToolsAssociation_testsTWASREADME.md
-        - sQTL: ToolsAssociation_testssQTLREADME.md
-        - eQTL: ToolsAssociation_testseQTLREADME.md
-        - RWAS: ToolsAssociation_testsRWASREADME.md
-      - Colocalization: ToolsColocalizationREADME.md
-      - Simulation: ToolsSimulationREADME.md
-      - Data_processing: ToolsData_processingREADME.md
-      - Annotation: ToolsAnnotationREADME.md
-      - Fine_mapping: ToolsFine_mappingREADME.md
-      - Gene_set_pathway_analysis: ToolsGene_set_pathway_analysisREADME.md
-      - Tissue_and_single_cell: ToolsTissue_and_single_cellREADME.md
-      - Imputation: ToolsImputationREADME.md
-      - Heritability_and_genetic_correlation: ToolsHeritability_and_genetic_correlationREADME.md
-      - Drug_repurposing: ToolsDrug_repurposingREADME.md
-      - Functional_genomics: ToolsFunctional_genomicsREADME.md
-      - Proteomics: ToolsProteomicsREADME.md
-      - GxE_interactions: ToolsGxE_interactionsREADME.md
-      - Mendelian_randomization: ToolsMendelian_randomizationREADME.md
-      - Meta_and_Multi_triat: ToolsMeta_and_Multi_triatREADME.md
-    - Sumstats: SumstatsREADME.md
+        - Association_tests: Tools_Association_tests_README.md
+        - TWAS: Tools_Association_tests_TWAS_README.md
+        - sQTL: Tools_Association_tests_sQTL_README.md
+        - eQTL: Tools_Association_tests_eQTL_README.md
+        - RWAS: Tools_Association_tests_RWAS_README.md
+      - Colocalization: Tools_Colocalization_README.md
+      - Simulation: Tools_Simulation_README.md
+      - Data_processing: Tools_Data_processing_README.md
+      - Annotation: Tools_Annotation_README.md
+      - Fine_mapping: Tools_Fine_mapping_README.md
+      - Gene_set_pathway_analysis: Tools_Gene_set_pathway_analysis_README.md
+      - Tissue_and_single_cell: Tools_Tissue_and_single_cell_README.md
+      - Imputation: Tools_Imputation_README.md
+      - Heritability_and_genetic_correlation: Tools_Heritability_and_genetic_correlation_README.md
+      - Proteomics: Tools_Proteomics_README.md
+      - GxE_interactions: Tools_GxE_interactions_README.md
+      - Mendelian_randomization: Tools_Mendelian_randomization_README.md
+      - Meta_and_Multi_triat: Tools_Meta_and_Multi_triat_README.md
+    - Sumstats: Sumstats_README.md
     - Reference_data:
-      - Reference_data: Reference_dataREADME.md
-      - Biobanks_Cohorts: Reference_dataBiobanks_CohortsREADME.md
-      - Protein: Reference_dataProteinREADME.md
+      - Reference_data: Reference_data_README.md
+      - Biobanks_Cohorts: Reference_data_Biobanks_Cohorts_README.md
+      - Protein: Reference_data_Protein_README.md
       - Gene:
-        - Gene: Reference_dataGeneREADME.md
-        - NCBI_refSeq: Reference_dataGeneNCBI_refSeqREADME.md
+        - Gene: Reference_data_Gene_README.md
+        - NCBI_refSeq: Reference_data_Gene_NCBI_refSeq_README.md
         - UCSC_refGene:
-          - UCSC_refGene: Reference_dataGeneUCSC_refGeneREADME.md
-          - ucsc_genes: Reference_dataGeneUCSC_refGeneucsc_genesREADME.md
-        - HGNC: Reference_dataGeneHGNCREADME.md
-        - knownGenes: Reference_dataGeneknownGenesREADME.md
-        - Ensembl: Reference_dataGeneEnsemblREADME.md
-        - GENCODE: Reference_dataGeneGENCODEREADME.md
-      - Phenotype: Reference_dataPhenotypeREADME.md
-      - Variant: Reference_dataVariantREADME.md
-      - Epigenomics: Reference_dataEpigenomicsREADME.md
-      - Expression: Reference_dataExpressionREADME.md
+          - UCSC_refGene: Reference_data_Gene_UCSC_refGene_README.md
+          - ucsc_genes: Reference_data_Gene_UCSC_refGene_ucsc_genes_README.md
+        - HGNC: Reference_data_Gene_HGNC_README.md
+        - knownGenes: Reference_data_Gene_knownGenes_README.md
+        - Ensembl: Reference_data_Gene_Ensembl_README.md
+        - GENCODE: Reference_data_Gene_GENCODE_README.md
+      - Phenotype: Reference_data_Phenotype_README.md
+      - Variant: Reference_data_Variant_README.md
+      - Epigenomics: Reference_data_Epigenomics_README.md
+      - Expression: Reference_data_Expression_README.md
       - Genome:
-        - Genome: Reference_dataGenomeREADME.md
-        - hg38: Reference_dataGenomehg38README.md
-      - xQTL: Reference_dataxQTLREADME.md
-    - Programming:
-      - Programming: ProgrammingREADME.md
-      - Python: ProgrammingPythonREADME.md
-      - Conda: ProgrammingCondaREADME.md
-      - Workflow_Pipeline: ProgrammingWorkflow_PipelineREADME.md
-      - R: ProgrammingRREADME.md
-      - Container: ProgrammingContainerREADME.md
-      - Linux: ProgrammingLinuxREADME.md
-    - NGS:
-      - NGS: NGSREADME.md
-      - snRNA: NGSsnRNAREADME.md
-      - long_read: NGSlong_readREADME.md
-      - WGS: NGSWGSREADME.md
-      - TCR_BCR: NGSTCR_BCRREADME.md
-      - ATAC: NGSATACREADME.md
-      - ChIP: NGSChIPREADME.md
-      - CAGE: NGSCAGEREADME.md
-      - x-C: NGSx-CREADME.md
-      - WGBS_RRBS: NGSWGBS_RRBSREADME.md
-      - spatial_transcriptomics: NGSspatial_transcriptomicsREADME.md
-      - scRNA: NGSscRNAREADME.md
-      - WES: NGSWESREADME.md
-      - DNase: NGSDNaseREADME.md
-      - NOMe: NGSNOMeREADME.md
-      - RNA: NGSRNAREADME.md
+        - Genome: Reference_data_Genome_README.md
+        - hg38: Reference_data_Genome_hg38_README.md
+      - xQTL: Reference_data_xQTL_README.md
+      - Allele_Frequency: Reference_data_Allele_Frequency_README.md
+    - Visualization:
+      - Visualization: Visualization_README.md
+      - Venn_diagram: Visualization_Venn_diagram_README.md
+      - Workflow: Visualization_Workflow_README.md
+      - Variants_on_protein: Visualization_Variants_on_protein_README.md
+
+markdown_extensions:
+  - toc:
+      toc_depth: 3
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - mkdocs-jupyter
