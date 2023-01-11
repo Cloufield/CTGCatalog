@@ -29,6 +29,15 @@
 - CITATION : Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine mapping. Journal of the Royal Statistical Society, Series B 82, 1273–1300. https://doi.org/10.1111/rssb.12388
 - CITATION : Zou, Yuxin, et al. "Fine-mapping from summary data with the “Sum of Single Effects” model." PLoS Genetics 18.7 (2022): e1010299.
 
+## SUSIEx
+- SHORT NAME:SUSIEx
+- FULL NAME:SUSIEx
+- YEAR:2023
+- DESCRIPTION: SuSiEx is a Python based command line tool that performs cross-ethnic fine-mapping using GWAS summary statistics and LD reference panels. The method is built on the Sum of Single Effects (SuSiE) model.
+- URL : https://github.com/getian107/SuSiEx
+- CITATION : https://www.medrxiv.org/content/10.1101/2023.01.07.23284293v2
+- KEW WORD: cross-ancestry fine-mapping
+
 ## SparsePro
 - SHORT NAME: SparsePro
 - FULL NAME: SparsePro
