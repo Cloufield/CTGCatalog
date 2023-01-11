@@ -1,18 +1,20 @@
-# ICD code - v9
+# Phenotype
+
+## ICD code - v9
 - SHORT NAME: ICD code
 - FULL NAME:
 - DESCRIPTION:
 - URL:
 - CITATION:
 
-# ICD code - v10
+## ICD code - v10
 - SHORT NAME: ICD code
 - FULL NAME:
 - DESCRIPTION:
 - URL:
 - CITATION:
 
-# Phecode
+## Phecode
 - SHORT NAME: Phecode
 - FULL NAME: Phecode
 - DESCRIPTION: Phecodes represent one strategy for defining phenotypes for research using EHR data. They are a high-throughput phenotyping tool based on ICD (International Classification of Diseases) codes that can be used to rapidly define the case/control status of thousands of clinically meaningful diseases and conditions.
@@ -22,23 +24,10 @@
   - Wu P, Gifford A, Meng X, Li X, Campbell H, Varley T, Zhao J, Carroll R, Bastarache L, Denny JC, Theodoratou E, Wei W Mapping ICD-10 and ICD-10-CM Codes to Phecodes: Workflow Development and Initial Evaluation JMIR Med Inform 2019;7(4):e14325 doi: 10.2196/14325
   - Bastarache, L. (2021). Using Phecodes for research with the electronic health record: from PheWAS to PheRS. Annual Review of Biomedical Data Science, 4, 1-19.
 
-# ATC
+## ATC
 - SHORT NAME: ATC code
 - FULL NAME: Anatomical Therapeutic Chemical code
 - DESCRIPTION:
 - URL:
 - CITATION:
 
-# 
-- SHORT NAME: 
-- FULL NAME:
-- DESCRIPTION:
-- URL:
-- CITATION:
-
-# 
-- SHORT NAME: 
-- FULL NAME:
-- DESCRIPTION:
-- URL:
-- CITATION:
