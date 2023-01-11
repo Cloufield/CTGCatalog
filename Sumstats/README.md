@@ -9,14 +9,14 @@
 * [Consortiums](#from-disease-consortiums) 
 
 
-# From Databases
+## From Databases
 
 * GWAS catalog: https://www.ebi.ac.uk/gwas/
 * OpenGWAS: https://gwas.mrcieu.ac.uk/
 
-# From Biobanks or Cohorts
+## From Biobanks or Cohorts
 
-## Europe and America
+### Europe and America
 
 * Finngen 4 : https://r4.finngen.fi/about
 * Finngen 5 : https://r5.finngen.fi/about
@@ -36,7 +36,7 @@
 * FinMetSeq: https://pheweb.sph.umich.edu/FinMetSeq/
 * Generation Scotland: https://datashare.ed.ac.uk/handle/10283/844
 
-## East Asia
+### East Asia
 
 * Biobank Japan - JENGER: http://jenger.riken.jp/result
 * Biobank Japan - Phewebjp: https://pheweb.jp/
@@ -44,10 +44,10 @@
 * KoreanChip: https://www.koreanchip.org/downloads
 * KoGES Pheweb: https://koges.leelabsg.org/
 
-## From Global Biobank
+### From Global Biobank
 * Global Biobank :http://results.globalbiobankmeta.org/
 
-# From Individual Studies 
+## From Individual Studies 
 
 Check the data availability and urls in the paper.
 
@@ -56,7 +56,7 @@ For example, Program in Complex Trait Genomics, IMB, The University of Queenslan
 * https://cnsgenomics.com/content/data
 * https://ctg.cncr.nl/software/summary_statistics
 
-# From Disease Consortiums 
+## From Disease Consortiums 
 These data are often derived from large-scale meta-analyses.
 
 * DIAGRAM：http://www.diagram-consortium.org/downloads.html
