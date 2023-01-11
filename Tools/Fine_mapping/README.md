@@ -1,6 +1,7 @@
 # Contents
 - FINEMAP
-- SUSIE
+- SUSIE / SUSIE-RSS
+- SUSIEx
 - SparsePro
 - CAVIAR
 - CAVIARBF
