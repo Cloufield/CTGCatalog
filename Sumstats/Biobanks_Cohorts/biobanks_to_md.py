@@ -1,6 +1,6 @@
 import pandas as pd
 import re
-df = pd.read_excel("~/biobanks.xlsx",dtype="string")
+df = pd.read_excel("./biobanks.xlsx",dtype="string")
 df["Name"]= "[" + df["BIOBANK&COHORT"] + "](" + '#' +  df["BIOBANK&COHORT"].str.lower().str.replace(" ","-").str.replace("[-]+","-").str.replace("[^a-zA-Z0-9\-_]","").str.strip() +")"  
 df["Link"]= "[Here](" +  df["URL"] +")"  
 with open("./README.md","w") as file:
