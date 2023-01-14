@@ -1,4 +1,6 @@
 
+
+
 ## Proteome PheWAS browser
 
 - URL: http://www.epigraphdb.org/pqtl
@@ -15,3 +17,8 @@
 - URL : [http://www.metabolomix.com/a-table-of-all-published-gwas-with-proteomics/](http://www.metabolomix.com/a-table-of-all-published-gwas-with-proteomics/)
 - CITATION: Suhre, K., Arnold, M., Bhagwat, A. M., Cotton, R. J., Engelke, R., Raffler, J., ... & Graumann, J. (2017). Connecting genetic risk to disease end points through the human blood plasma proteome. Nature communications, 8(1), 1-14.
 - CITATION: Suhre, K., McCarthy, M. I., & Schwenk, J. M. (2021). Genetics meets proteomics: perspectives for large population-based studies. Nature Reviews Genetics, 22(1), 19-37.
+
+## pGWAS server
+- URL: https://metabolomics.helmholtz-muenchen.de/pgwas/
+- DESCRIPTION: In our study, we performed a genome-wide association study with protein levels (pGWAS). Using a highly multiplexed, aptamer-based, affinity proteomics platform (SOMAscan™), we quantified levels of 1,124 proteins in blood plasma samples from 1,000 German individuals (KORA cohort) and 338 Arab or Asian individuals (QMDiab cohort). We identified 539 independent, genome-wide significant SNP-to-protein associations, which can be investigated using this webserver.
+- CITATION: Suhre, K., Arnold, M., Bhagwat, A. M., Cotton, R. J., Engelke, R., Raffler, J., ... & Graumann, J. (2017). Connecting genetic risk to disease end points through the human blood plasma proteome. Nature communications, 8(1), 1-14.
