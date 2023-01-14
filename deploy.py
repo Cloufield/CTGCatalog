@@ -39,7 +39,7 @@ plugins:
 '''
 shutil.copyfile("./README.md", "./docs/index.md")
 part2="nav: \n    - Home : index.md\n"
-for dirname in ["Tools","Sumstats","Reference_data","Visualization"]: #"Programming","NGS",
+for dirname in ["Tools","Sumstats","Reference_data","Visualization","Population_Genetics"]: #"Programming","NGS",
     for root, dirs, files in os.walk("./"+dirname):
         #print(root)
 	
