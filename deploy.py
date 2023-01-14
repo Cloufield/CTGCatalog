@@ -8,22 +8,27 @@ repo_name: 'GitHub'
 repo_url: https://github.com/Cloufield/CTGCatalog/
 edit_uri: ""
 copyright: "CTGCatalog is licensed under the MIT license"
+
 theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.top
   font:
     code: Roboto Mono
     text: Roboto
   palette:
     primary: indigo
     accent: indigo
+
 extra_css:
   - "stylesheets/extra.css"
+
 markdown_extensions:
   - toc:
       toc_depth: 3
   - admonition
+  - tables
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
@@ -33,6 +38,8 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 
 plugins:
   - mkdocs-jupyter
