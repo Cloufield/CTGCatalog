@@ -14,6 +14,13 @@
 - DESCRIPTION : In order to discover quantitative trait loci (QTLs), multi-dimensional genomic datasets combining DNA-seq and ChiP-/RNA-seq require methods that rapidly correlate tens of thousands of molecular phenotypes with millions of genetic variants while appropriately controlling for multiple testing. FastQTL implements a popular cis-QTL mapping strategy in a user- and cluster-friendly tool. FastQTL also proposes an efficient permutation procedure to control for multiple testing.
 - CITATION: Ongen, Halit, et al. "Fast and efficient QTL mapper for thousands of molecular phenotypes." Bioinformatics 32.10 (2016): 1479-1485.
 
+## tensorQTL
+- SHORT NAME : tensorQTL
+- FULL NAME : tensorQTL
+- URL: https://github.com/broadinstitute/tensorqtl
+- DESCRIPTION : tensorQTL is a GPU-enabled QTL mapper, achieving ~200-300 fold faster cis- and trans-QTL mapping compared to CPU-based implementations.
+- CITATION: Taylor-Weiner, A., Aguet, F., Haradhvala, N. J., Gosai, S., Anand, S., Kim, J., ... & Getz, G. (2019). Scaling computational genomics to millions of individuals with GPUs. Genome biology, 20(1), 1-5.
+
 ## TReCASE 
 - SHORT NAME : TReCASE (asSeq)
 - FULL NAME : Total Read Count and Allele-Specific Expression
