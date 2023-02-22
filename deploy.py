@@ -22,6 +22,8 @@ theme:
     accent: blue
   logo: 
     assets/logo.png
+  favicon: 
+    images/favicon.png
 
 extra_css:
   - "stylesheets/extra.css"
