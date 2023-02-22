@@ -18,8 +18,10 @@ theme:
     code: Roboto Mono
     text: Roboto
   palette:
-    primary: indigo
-    accent: indigo
+    primary: blue
+    accent: blue
+  logo: 
+    assets/logo.png
 
 extra_css:
   - "stylesheets/extra.css"
