@@ -1,5 +1,10 @@
 
-
+## OmicsPred portal (INTERVAL study)
+- URL: https://www.omicspred.org/ 
+- URL: https://www.omicspred.org/Scores/Olink/INTERVAL
+- URL: https://www.omicspred.org/Scores/Somalogic/INTERVAL
+- DESCRIPTION: OMICSPRED is a resource for predicting multi-omics data (proteomics, metabolomics, transcriptomics etc.) directly from genotypes. To do this, we use extensive multi-omics data to train genetic scores using machine learning. Here, you can explore and download the genetic scores for a wide range of biomolecular traits in human blood as well as the summary statistics of their associations with key traits and diseases in the UK Biobank.
+- CITATION: Xu, Y., Ritchie, S. C., Liang, Y., Timmers, P. R., Pietzner, M., Lannelongue, L., ... & Inouye, M. (2023). An atlas of genetic scores to predict multi-omic traits. Nature, 1-9.
 
 ## Proteome PheWAS browser
 
