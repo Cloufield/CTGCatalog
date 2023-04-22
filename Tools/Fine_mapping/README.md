@@ -2,6 +2,7 @@
 - FINEMAP
 - SUSIE / SUSIE-RSS
 - SUSIEx
+- mvSuSiE 
 - SparsePro
 - CAVIAR
 - CAVIARBF
@@ -30,7 +31,7 @@
 - CITATION : Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine mapping. Journal of the Royal Statistical Society, Series B 82, 1273–1300. https://doi.org/10.1111/rssb.12388
 - CITATION : Zou, Yuxin, et al. "Fine-mapping from summary data with the “Sum of Single Effects” model." PLoS Genetics 18.7 (2022): e1010299.
 
-## SUSIEx
+## SUSIEx 
 - SHORT NAME:SUSIEx
 - FULL NAME:SUSIEx
 - YEAR:2023
@@ -38,6 +39,15 @@
 - URL : https://github.com/getian107/SuSiEx
 - CITATION : https://www.medrxiv.org/content/10.1101/2023.01.07.23284293v2
 - KEW WORD: cross-ancestry fine-mapping
+
+## mvSuSiE 
+- SHORT NAME:mvSuSiE
+- FULL NAME:mvSuSiE
+- YEAR:2023
+- DESCRIPTION: Implements a multivariate generalization of the "Sum of Single Effects" (SuSiE) model for variable selection in multivariate linear regression.
+- URL : https://github.com/stephenslab/mvsusieR
+- CITATION : Zou, Y., Carbonetto, P., Xie, D., Wang, G., & Stephens, M. (2023). Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model. bioRxiv, 2023-04.
+- KEW WORD: multi-trait fine-mapping
 
 ## SparsePro
 - SHORT NAME: SparsePro
