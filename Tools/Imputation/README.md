@@ -11,6 +11,7 @@
     - 1KG
     - TOPMED
     - HRC
+    - RESHAPE
 - Imputation Server
     - Michigan
     - TOPMed
@@ -78,6 +79,13 @@
 - CITATION: the Haplotype Reference Consortium. "A reference panel of 64,976 haplotypes for genotype imputation". Nature genetics, 2016, 48(10): 1279-1283.
 ### TOPMED
 - CITATION: Taliun, Daniel, et al. "Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program." Nature 590.7845 (2021): 290-299.
+
+### RESHAPE
+- SHORT NAME : RESHAPE
+- FULL NAME : REcombine and Share HAPlotypEs
+- URL : [https://github.com/TheoCavinato/RESHAPE](https://github.com/TheoCavinato/RESHAPE)
+- DESCRIPTION: RESHAPE removes sample-level genetic information from a reference panel to create a synthetic reference panel. By providing it with a genetic map and the VCF/BCF of a reference panel, RESHAPE outputs a VCF/BCF of the same size where each haplotypes corresponds to a mosaic of the original haplotypes of the reference panel.
+- CITATION: Cavinato, T., Rubinacci, S., Malaspinas, A. S., & Delaneau, O. (2023). A resampling-based approach to share reference panels. bioRxiv, 2023-04.
 
 ## Imputation Server
 ### TOPMED
