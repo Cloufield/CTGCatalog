@@ -35,6 +35,7 @@
 - URL:[https://odelaneau.github.io/shapeit4/](https://odelaneau.github.io/shapeit4/)
 - URL:[https://jmarchini.org/shapeit3/](https://jmarchini.org/shapeit3/)
 - URL:[https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html)
+- CITATION:(SHAPEIT5) Hofmeister, R. J., Ribeiro, D. M., Rubinacci, S., & Delaneau, O. (2022). Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank. bioRxiv, 2022-10.
 - CITATION:(SHAPEIT4) Delaneau, Olivier, et al. "Accurate, scalable and integrative haplotype estimation." Nature communications 10.1 (2019): 1-10.
 - CITATION:(SHAPEIT3) O'Connell, Jared, et al. "Haplotype estimation for biobank-scale data sets." Nature genetics 48.7 (2016): 817-820.
 - CITATION:(SHAPEIT2) Delaneau, Olivier, Jean-Francois Zagury, and Jonathan Marchini. "Improved whole-chromosome phasing for disease and population genetic studies." Nature methods 10.1 (2013): 5-6.
