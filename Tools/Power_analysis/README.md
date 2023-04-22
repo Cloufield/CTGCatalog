@@ -18,3 +18,9 @@
 - URL: https://csg.sph.umich.edu/abecasis/gas_power_calculator/
 - CITATION: Johnson, J. L., & Abecasis, G. R. (2017). GAS Power Calculator: web-based power calculator for genetic association studies. BioRxiv, 164343.
 - YEAR: 2017
+
+## mRnd
+- SHORT NAME: mRnd
+- FULL NAME: Power calculations for Mendelian Randomization
+- URL: https://shiny.cnsgenomics.com/mRnd/
+- CITATION: Brion, M. J. A., Shakhbazov, K., & Visscher, P. M. (2013). Calculating statistical power in Mendelian randomization studies. International journal of epidemiology, 42(5), 1497-1501.
