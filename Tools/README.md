@@ -16,8 +16,10 @@ Commonly used tools for Complex Trait Genetics.
 * [Meta_and_Multi_triat](https://cloufield.github.io/CTGCatalog/Tools_Meta_and_Multi_triat_README/)
 * [Polygenic_risk_scores](https://cloufield.github.io/CTGCatalog/Tools_Polygenic_risk_scores_README/)
 * [Proteomics](https://cloufield.github.io/CTGCatalog/Tools_Proteomics_README/)
+* [Power_analysis](https://catalog.gwaslab.com/Tools_Power_analysis_README/)
 * [Simulation](https://cloufield.github.io/CTGCatalog/Tools_Simulation_README/)
 * [Tissue_and_single_cell](https://cloufield.github.io/CTGCatalog/Tools_Tissue_and_single_cell_README/)
+* [Winners_curse](https://catalog.gwaslab.com/Tools_Winners_curse_README/)
 
 ## Template
 - SHORT NAME: 
