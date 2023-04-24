@@ -11,6 +11,7 @@
 - Genetic correlation
     - cross-trait LDSC
     - popcorn
+    - S-LDXR
 
 # Heritabilty
 ## LDSC
@@ -88,3 +89,13 @@
 - DESCRIPTION:Popcorn is a program for estimaing the correlation of causal variant effect. This is the python3 version of Popcorn and still under development sizes across populations in GWAS.
 - URL:https://github.com/brielin/Popcorn
 - CITATION :Brown, Brielin C., et al. "Transethnic genetic-correlation estimates from summary statistics." The American Journal of Human Genetics 99.1 (2016): 76-88.
+
+## S-LDXR
+- SHORT NAME: S-LDXR
+- FULL NAME: S-LDXR
+- YEAR: 2021
+- DESCRIPTION: S-LDXR is a software for estimating enrichment of stratified squared trans-ethnic genetic correlation across genomic annotations from GWAS summary statistics data.
+- CITATION: Shi, H., Gazal, S., Kanai, M., Koch, E. M., Schoech, A. P., Siewert, K. M., ... & Price, A. L. (2021). Population-specific causal disease effect sizes in functionally important regions impacted by selection. Nature communications, 12(1), 1098.
+- URL: https://huwenboshi.github.io/s-ldxr/
+- KEYWORDS: trans-ethnic, stratified, functional categories
+
