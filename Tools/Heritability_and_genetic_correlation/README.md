@@ -13,7 +13,7 @@
     - popcorn
     - S-LDXR
 
-# Heritabilty
+# Heritability
 ## LDSC
 - SHORT NAME:LDSC
 - FULL NAME:LD Score Regression
