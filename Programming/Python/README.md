@@ -55,3 +55,6 @@
 - DESCRIPTION: BioNumPy is a Python library for easy and efficient representation and analysis of biological data. Since BioNumPy builds on the interface of NumPy, people already used to NumPy or array programming should find BioNumPy very easy to get started with.
 - URL :  [https://bionumpy.github.io/bionumpy/](https://bionumpy.github.io/bionumpy/)
 - CITATION: https://www.biorxiv.org/content/10.1101/2022.12.21.521373v1
+
+## statannotations
+- URL: https://github.com/trevismd/statannotations
