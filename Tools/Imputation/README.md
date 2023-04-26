@@ -18,6 +18,7 @@
     - Sanger
     - Nyuwa
     - Westlake
+    - CNGB Imputation Service
 
 ## Phasing & Imputation
 ### BEAGLE
@@ -104,6 +105,10 @@
 ### Westlake
 - URL: [https://imputationserver.westlake.edu.cn/](https://imputationserver.westlake.edu.cn/)
 - CITATION: Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
+
+### CNGB Imputation Service
+- URL: [https://db.cngb.org/imputation/](https://db.cngb.org/imputation/)
+- CITATION: Yu, C., Lan, X., Tao, Y., Guo, Y., Sun, D., Qian, P., ... & Li, L. (2022). A High-resolution Haplotype-resolved Reference Panel Constructed from the China Kadoorie Biobank Study. medRxiv, 2022-12.
 
 ### Sanger
 - URL: [https://imputation.sanger.ac.uk/](https://imputation.sanger.ac.uk/)
