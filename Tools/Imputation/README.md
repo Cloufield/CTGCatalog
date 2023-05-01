@@ -74,12 +74,18 @@
 
 
 ## Imputation panel
-### 1000 Genome
+### 1000 Genomes
 - CITATION: 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 ### HRC
 - CITATION: the Haplotype Reference Consortium. "A reference panel of 64,976 haplotypes for genotype imputation". Nature genetics, 2016, 48(10): 1279-1283.
 ### TOPMED
 - CITATION: Taliun, Daniel, et al. "Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program." Nature 590.7845 (2021): 290-299.
+
+### HGDP+1kGP
+- SHORT NAME: HGDP+1kGP
+- FULL NAME:Human Genome Diversity Project + 1000 Genomes project
+- URL: https://gnomad.broadinstitute.org/news/2020-10-gnomad-v3-1-new-content-methods-annotations-and-data-availability/#the-gnomad-hgdp-and-1000-genomes-callset
+- CITATION: Koenig, Z., Yohannes, M. T., Nkambule, L. L., Goodrich, J. K., Kim, H. A., Zhao, X., ... & Martin, A. R. (2023). A harmonized public resource of deeply sequenced diverse human genomes. bioRxiv, 2023-01.
 
 ### RESHAPE
 - SHORT NAME : RESHAPE
