@@ -51,3 +51,11 @@
 - DESCRIPTION:a user-friendly genetic variant simulator in R for unrelated individuals and family-based designs
 - CITATION:Dimitromanolakis, Apostolos, et al. "sim1000G: a user-friendly genetic variant simulator in R for unrelated individuals and family-based designs." BMC bioinformatics 20.1 (2019): 1-9.
 - URL: https://github.com/adimitromanolakis/sim1000G
+
+## twas_sim
+- SHORT NAME:twas_sim
+- FULL NAME:twas_sim
+- YEAR:2023
+- DESCRIPTION: A python software leveraging real genotype data to simulate a complex trait as a function of latent expression, fit eQTL weights in independent data, and perform GWAS/TWAS on the complex trait.
+- URL: https://github.com/mancusolab/twas_sim
+- CITATION:Wang, X., Lu, Z., Bhattacharya, A., Pasaniuc, B., & Mancuso, N. (2023). twas_sim, a Python-based tool for simulation and power analysis of transcriptome-wide association analysis. Bioinformatics, btad288.
