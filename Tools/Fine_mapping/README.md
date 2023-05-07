@@ -6,7 +6,8 @@
 - SparsePro
 - CAVIAR
 - CAVIARBF
-- MsCAVIAR 
+- MsCAVIAR
+- CAFEH 
 - PAINTOR 
 - MR-MEGA
 - RFR/SuSiE-inf/FINEMAP-inf
@@ -84,6 +85,16 @@
 - URL : [https://github.com/nlapier2/MsCAVIAR](https://github.com/nlapier2/MsCAVIAR)
 - CITATION: LaPierre, N., Taraszka, K., Huang, H., He, R., Hormozdiari, F., & Eskin, E. (2021). Identifying causal variants by fine mapping across multiple studies. PLoS genetics, 17(9), e1009733.
 - KEY WORDS: multi-study finemapping
+
+## CAFEH
+- SHORT NAME: CAFEH
+- FULL NAME: colocalization and fine-mapping in the presence of allelic heterogeneity
+- YEAR: 2022
+- DESCRIPTION: CAFEH is a method that performs finemapping and colocalization jointly over multiple phenotypes. CAFEH can be run with 10s of phenotypes and 1000s of variants in a few minutes.
+- URL : [https://github.com/karltayeb/cafeh](https://github.com/karltayeb/cafeh)
+- CITATION: Arvanitis, M., Tayeb, K., Strober, B. J., & Battle, A. (2022). Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity. The American Journal of Human Genetics, 109(2), 223-239.
+- KEY WORDS: multi-trait, finemapping, colocalization
+
 
 
 ## PAINTOR
