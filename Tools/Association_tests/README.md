@@ -22,6 +22,7 @@
     - CC-GWAS
     - LT-FH
     - SiblingGWAS
+    - snipar
 
 ---
 # Single variant association tests
@@ -165,9 +166,18 @@
 - FULL NAME: Within-sibship genome-wide association analyses
 - SHORT NAME: SiblingGWAS
 - URL: https://github.com/LaurenceHowe/SiblingGWAS
+- YEAR: 2022
 - DESCRIPTION: Scripts for running GWAS using siblings to estimate Within-Family (WF) and Between-Family (BF) effects of genetic variants on continuous traits. Allows the inclusion of more than two siblings from one family.
 - CITATION: Howe, L. J., Nivard, M. G., Morris, T. T., Hansen, A. F., Rasheed, H., Cho, Y., ... & Davies, N. M. (2022). Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects. Nature genetics, 54(5), 581-592.
 
+## snipar
+- FULLNAME: single nucleotide imputation of parents
+- SHORTNAME: snipar
+- DESCRIPTION: snipar (single nucleotide imputation of parents) is a Python package for inferring identity-by-descent (IBD) segments shared between siblings, imputing missing parental genotypes, and for performing family based genome-wide association and polygenic score analyses using observed and/or imputed parental genotypes.
+- YEAR: 2022
+- URL: https://github.com/AlexTISYoung/snipar
+- CITATION: Young, A. I., Nehzati, S. M., Benonisdottir, S., Okbay, A., Jayashankar, H., Lee, C., ... & Kong, A. (2022). Mendelian imputation of parental genotypes improves estimates of direct genetic effects. Nature genetics, 54(6), 897-905.
+- CITATION: Guan, J., Nehzati, S. M., Benjamin, D. J., & Young, A. I. (2022). Novel estimators for family-based genome-wide association studies increase power and robustness. bioRxiv, 2022-10.
 
 # Reviews
 - CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
