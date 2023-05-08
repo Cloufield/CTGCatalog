@@ -21,6 +21,7 @@
     - GWAX
     - CC-GWAS
     - LT-FH
+    - SiblingGWAS
 
 ---
 # Single variant association tests
@@ -159,6 +160,14 @@
 - URL:https://github.com/wouterpeyrot/CCGWAS
 - DESCRIPTION: The CCGWAS R package provides a tool for case-case association testing of two different disorders based on their respective case-control GWAS results
 - CITATION: Peyrot, W. J., & Price, A. L. (2021). Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS. Nature genetics, 53(4), 445-454.
+
+## SiblingGWAS
+- FULL NAME: Within-sibship genome-wide association analyses
+- SHORT NAME: SiblingGWAS
+- URL: https://github.com/LaurenceHowe/SiblingGWAS
+- DESCRIPTION: Scripts for running GWAS using siblings to estimate Within-Family (WF) and Between-Family (BF) effects of genetic variants on continuous traits. Allows the inclusion of more than two siblings from one family.
+- CITATION: Howe, L. J., Nivard, M. G., Morris, T. T., Hansen, A. F., Rasheed, H., Cho, Y., ... & Davies, N. M. (2022). Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects. Nature genetics, 54(5), 581-592.
+
 
 # Reviews
 - CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
