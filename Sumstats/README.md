@@ -39,9 +39,10 @@
 
 ### East Asia
 
-* Biobank Japan - JENGER: http://jenger.riken.jp/result
-* Biobank Japan - Phewebjp: https://pheweb.jp/
-* ToMMo – JMorp：https://jmorp.megabank.tohoku.ac.jp/202109/gwas/
+* Biobank Japan (BBJ) - JENGER: http://jenger.riken.jp/result
+* Biobank Japan (BBJ) - Phewebjp: https://pheweb.jp/
+* China Kadoorie Biobank (CKB): https://pheweb.ckbiobank.org/
+* Tohoku Medical Megabank (TMM) JMorp：https://jmorp.megabank.tohoku.ac.jp/202109/gwas/
 * KoreanChip: https://www.koreanchip.org/downloads
 * KoGES Pheweb: https://koges.leelabsg.org/
 
@@ -50,7 +51,7 @@
 
 ## From Individual Studies 
 
-Check the data availability and urls in the paper.
+Check the data availability and URLs in the paper.
 
 For example, Program in Complex Trait Genomics, IMB, The University of Queensland.
 
