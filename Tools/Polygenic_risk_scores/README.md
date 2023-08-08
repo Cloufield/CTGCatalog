@@ -173,6 +173,7 @@
 - DESCRIPTION: a framework to generate enriched PGS from a wealth of publicly available genome-wide association studies, combining thousands of studies focused on many different phenotypes, into a multi-PGS
 - URL : https://github.com/ClaraAlbi/paper_multiPGS
 - CITATION: https://www.medrxiv.org/content/10.1101/2022.09.14.22279940v1
+- CITATION: Albiñana, C., Zhu, Z., Schork, A. J., Ingason, A., Aschard, H., Brikell, I., ... & Vilhjálmsson, B. J. (2023). Multi-PGS enhances polygenic prediction by combining 937 polygenic scores. Nature Communications, 14(1), 4702.
 
 ## wMT-SBLUP
 - SHORT NAME: wMT-SBLUP
@@ -187,7 +188,7 @@
 - DESCRIPTION: The PGS Catalog is an open database of published polygenic scores (PGS). Each PGS in the Catalog is consistently annotated with relevant metadata; including scoring files (variants, effect alleles/weights), annotations of how the PGS was developed and applied, and evaluations of their predictive performance.
 - URL : https://www.pgscatalog.org/
 - CITATION: Lambert, S. A., Gil, L., Jupp, S., Ritchie, S. C., Xu, Y., Buniello, A., ... & Inouye, M. (2021). The Polygenic Score Catalog as an open database for reproducibility and systematic evaluation. Nature Genetics, 53(4), 420-425.
-- KEY WORDS: PGS database
+- KEYWORDS: PGS database
 
 ## pgsc_calc
 - SHORT NAME: pgsc_calc
@@ -196,7 +197,7 @@
 - DESCRIPTION: pgsc_calc is a bioinformatics best-practice analysis pipeline for calculating polygenic [risk] scores on samples with imputed genotypes using existing scoring files from the Polygenic Score (PGS) Catalog and/or user-defined PGS/PRS.
 - URL : https://github.com/PGScatalog/pgsc_calc
 - CITATION: https://github.com/PGScatalog/pgsc_calc
-- KEY WORDS: PRS calculation pipeline
+- KEYWORDS: PRS calculation pipeline
 
 ## VIPRS
 - SHORT NAME: VIPRS
@@ -205,7 +206,7 @@
 - DESCRIPTION: viprs is a python package that implements scripts and utilities for running variational inference algorithms on genome-wide association study (GWAS) data for the purposes polygenic risk estimation.
 - URL : https://github.com/shz9/viprs
 - CITATION: Zabad, S., Gravel, S., & Li, Y. (2022). Fast and Accurate Bayesian Polygenic Risk Modeling with Variational Inference. bioRxiv.
-- KEY WORDS:  Variational Inference (VI)
+- KEYWORDS:  Variational Inference (VI)
 
 ## ExPRSweb
 - SHORT NAME: ExPRSweb
