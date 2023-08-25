@@ -266,6 +266,7 @@ for model fitting.
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
 - CITATION: Wang, Y., Tsuo, K., Kanai, M., Neale, B. M., & Martin, A. R. (2022). Challenges and Opportunities for Developing More Generalizable Polygenic Risk Scores. Annual Review of Biomedical Data Science, 5.
+- CITATION: Kachuri, L., Chatterjee, N., Hirbo, J. et al. Principles and methods for transferring polygenic risk scores across global populations. Nat Rev Genet (2023).
 
 ## Benchmarks
 - CITATION: Wang, C., Zhang, J., Zhou, X., & Zhang, L. (2022). A comprehensive investigation of statistical and machine learning approaches for predicting complex human diseases on genomic variants. bioRxiv.
