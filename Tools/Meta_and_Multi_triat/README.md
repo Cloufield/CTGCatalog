@@ -10,7 +10,8 @@
 - MetaSKAT
 - SMMAT
 - MetaSTAAR
-
+- FactorGO
+  
 ## METAL 
 - SHORT NAME: METAL
 - FULL NAME: METAL
@@ -103,3 +104,12 @@
 - DESCRIPTION: MetaSTAAR is an R package for performing Meta-analysis of variant-Set Test for Association using Annotation infoRmation (MetaSTAAR) procedure in whole-genome sequencing (WGS) studies. MetaSTAAR enables functionally-informed rare variant meta-analysis of large WGS studies using an efficient, sparse matrix approach for storing summary statistic, while protecting data privacy of study participants and avoiding sharing subject-level data. MetaSTAAR accounts for relatedness and population structure of continuous and dichotomous traits, and boosts the power of rare variant meta-analysis by incorporating multiple variant functional annotations.
 - URL : https://github.com/xihaoli/MetaSTAAR
 - CITATION: Li, X., Quick, C., Zhou, H. et al. Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies. Nat Genet (2022). https://doi.org/10.1038/s41588-022-01225-6
+
+## FactorGO
+- SHORT NAME: FactorGO
+- FULL NAME: Factor analysis model in Genetic assOciation
+- YEAR: 2023
+- DESCRIPTION: FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics.
+- CITATION: Zhang, Z., Jung, J., Kim, A., Suboc, N., Gazal, S., & Mancuso, N. (2023). A scalable variational approach to characterize pleiotropic components across thousands of human diseases and complex traits using GWAS summary statistics. medRxiv, 2023-03.
+- URL: https://github.com/mancusolab/FactorGo
+- KEYWORDS: pleiotropy, factor analysis
