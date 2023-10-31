@@ -26,7 +26,8 @@
     - CC-GWAS
 - GWAS of longitudinal trajectories
     - TrajGWAS
-- PGS-adjusted GWAS
+- PGS-adjusted tests
+    - PGS-adjusted RVATs
     - PGS-adjusted GWAS
 
 ---
@@ -196,6 +197,14 @@
 - Keywords: biomarker trajectories, mean, within-subject (WS) variability, linear mixed effect model, within-subject variance estimation by robust regression (WiSER) method
 
 # PGS-adjusted GWAS
+
+## PGS-adjusted RVATs
+- FULLNAME: PGS-adjusted rare variant association tests
+- SHORTNAME: PGS-adjusted RVATs
+- DESCRIPTION: adjusting for common variant polygenic scores improves yield in gene-based rare variant association tests
+- YEAR: 2023
+- CITATION: Jurgens, S. J., Pirruccello, J. P., Choi, S. H., Morrill, V. N., Chaffin, M., Lubitz, S. A., ... & Ellinor, P. T. (2023). Adjusting for common variant polygenic scores improves yield in rare variant association analyses. Nature Genetics, 55(4), 544-548.
+- Keywords: PGS, Rare variants
 
 ## PGS-adjusted GWAS
 - FULLNAME: PGS-adjusted GWAS
