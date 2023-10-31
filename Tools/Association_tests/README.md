@@ -25,7 +25,8 @@
     - snipar
 - GWAS of longitudinal trajectories
     - TrajGWAS
-   
+- PGS-adjusted GWAS
+    - PGS-adjusted GWAS
 
 ---
 # Single variant association tests
@@ -192,6 +193,15 @@
 - CITATION: Ko, S., German, C. A., Jensen, A., Shen, J., Wang, A., Mehrotra, D. V., ... & Zhou, J. J. (2022). GWAS of longitudinal trajectories at biobank scale. The American Journal of Human Genetics, 109(3), 433-445.
 - Keywords: biomarker trajectories, mean, within-subject (WS) variability, linear mixed effect model, within-subject variance estimation by robust regression (WiSER) method
 
+# PGS-adjusted GWAS
+
+## PGS-adjusted GWAS
+- FULLNAME: PGS-adjusted GWAS
+- SHORTNAME: PGS-adjusted GWAS
+- DESCRIPTION: adjustment of GWAS analyses for polygenic scores (PGSs) increases the statistical power for discovery across all ancestries
+- YEAR: 2023
+- CITATION: Campos, A. I., Namba, S., Lin, S. C., Nam, K., Sidorenko, J., Wang, H., ... & Yengo, L. (2023). Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores. Nature Genetics, 1-8.
+- Keywords: LOCO-PGSs, two-stage meta-analysis strategy
 
 # Reviews
 - CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
