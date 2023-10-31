@@ -17,12 +17,15 @@
     - SKAT
     - SKAT-O
     - STAAR
-- Other tests
+- GWAS using family history
     - GWAX
     - CC-GWAS
     - LT-FH
     - SiblingGWAS
     - snipar
+- GWAS of longitudinal trajectories
+    - TrajGWAS
+   
 
 ---
 # Single variant association tests
@@ -141,7 +144,7 @@
 - DESCRIPTION: estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power.
 - CITATION: Lee, Seunggeun, Michael C. Wu, and Xihong Lin. "Optimal tests for rare variant effects in sequencing association studies." Biostatistics 13.4 (2012): 762-775.
 
-# Other
+# GWAS using family history
 ## GWAX
 - FULLNAME: genome-wide association by proxy
 - SHORTNAME: GWAX
@@ -178,6 +181,17 @@
 - URL: https://github.com/AlexTISYoung/snipar
 - CITATION: Young, A. I., Nehzati, S. M., Benonisdottir, S., Okbay, A., Jayashankar, H., Lee, C., ... & Kong, A. (2022). Mendelian imputation of parental genotypes improves estimates of direct genetic effects. Nature genetics, 54(6), 897-905.
 - CITATION: Guan, J., Nehzati, S. M., Benjamin, D. J., & Young, A. I. (2022). Novel estimators for family-based genome-wide association studies increase power and robustness. bioRxiv, 2022-10.
+
+# GWAS of longitudinal trajectories
+## TrajGWAS
+- FULLNAME: GWAS of longitudinal trajectories
+- SHORTNAME: TrajGWAS
+- DESCRIPTION: TrajGWAS.jl is a Julia package for performing genome-wide association studies (GWAS) for continuous longitudinal phenotypes using a modified linear mixed effects model. It builds upon the within-subject variance estimation by robust regression (WiSER) method and can be used to identify variants associated with changes in the mean and within-subject variability of the longitduinal trait.
+- YEAR: 2022
+- URL: https://github.com/OpenMendel/TrajGWAS.jl
+- CITATION: Ko, S., German, C. A., Jensen, A., Shen, J., Wang, A., Mehrotra, D. V., ... & Zhou, J. J. (2022). GWAS of longitudinal trajectories at biobank scale. The American Journal of Human Genetics, 109(3), 433-445.
+- Keywords: biomarker trajectories, mean, within-subject (WS) variability, linear mixed effect model, within-subject variance estimation by robust regression (WiSER) method
+
 
 # Reviews
 - CITAION:Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
