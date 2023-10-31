@@ -23,6 +23,8 @@
 * Finngen 6 (January 24 2022): https://r6.finngen.fi/about
 * Finngen 7 (June 1 2022): https://r7.finngen.fi/about
 * Finngen 8 (Dec 1 2022):https://r8.finngen.fi/about
+* Finngen 9 (May 11 2023):https://r9.finngen.fi/about
+* FinnGen-UKBB meta-analysis: https://public-metaresults-fg-ukbb.finngen.fi
 * UKB : https://pheweb.org/UKB-Neale/
 * UKB saige: https://pheweb.org/UKB-SAIGE/
 * UKB fastgwa-glmm: https://yanglab.westlake.edu.cn/resources/ukb_fastgwa/imp_binary/
