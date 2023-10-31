@@ -19,10 +19,11 @@
     - STAAR
 - GWAS using family history
     - GWAX
-    - CC-GWAS
     - LT-FH
     - SiblingGWAS
     - snipar
+- Case-case GWAS
+    - CC-GWAS
 - GWAS of longitudinal trajectories
     - TrajGWAS
 - PGS-adjusted GWAS
@@ -159,13 +160,6 @@
 - DESCRIPTION: an association method based on posterior mean genetic liabilities under a liability threshold model, conditional on case-control status and family history (LT-FH)
 - CITATION:Liu, J. Z., Erlich, Y., & Pickrell, J. K. (2017). Case–control association mapping by proxy using family history of disease. Nature genetics, 49(3), 325-331.
 
-## CC-GWAS 
-- FULLNAME: case–case genome-wide association study
-- SHORTNAME: CC-GWAS 
-- URL:https://github.com/wouterpeyrot/CCGWAS
-- DESCRIPTION: The CCGWAS R package provides a tool for case-case association testing of two different disorders based on their respective case-control GWAS results
-- CITATION: Peyrot, W. J., & Price, A. L. (2021). Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS. Nature genetics, 53(4), 445-454.
-
 ## SiblingGWAS
 - FULL NAME: Within-sibship genome-wide association analyses
 - SHORT NAME: SiblingGWAS
@@ -182,6 +176,14 @@
 - URL: https://github.com/AlexTISYoung/snipar
 - CITATION: Young, A. I., Nehzati, S. M., Benonisdottir, S., Okbay, A., Jayashankar, H., Lee, C., ... & Kong, A. (2022). Mendelian imputation of parental genotypes improves estimates of direct genetic effects. Nature genetics, 54(6), 897-905.
 - CITATION: Guan, J., Nehzati, S. M., Benjamin, D. J., & Young, A. I. (2022). Novel estimators for family-based genome-wide association studies increase power and robustness. bioRxiv, 2022-10.
+# Case-case GWAS
+
+## CC-GWAS 
+- FULLNAME: case–case genome-wide association study
+- SHORTNAME: CC-GWAS 
+- URL:https://github.com/wouterpeyrot/CCGWAS
+- DESCRIPTION: The CCGWAS R package provides a tool for case-case association testing of two different disorders based on their respective case-control GWAS results
+- CITATION: Peyrot, W. J., & Price, A. L. (2021). Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS. Nature genetics, 53(4), 445-454.
 
 # GWAS of longitudinal trajectories
 ## TrajGWAS
