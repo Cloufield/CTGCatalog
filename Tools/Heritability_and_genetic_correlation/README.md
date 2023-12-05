@@ -8,6 +8,7 @@
     - HESS
     - GNOVA
     - SUPERGNOVA
+    - HEELS
 - Genetic correlation
     - cross-trait LDSC
     - popcorn
@@ -72,6 +73,14 @@
 - DESCRIPTION:SUPERGNOVA (SUPER GeNetic cOVariance Analyzer) is a statistical framework to perform local genetic covariance analysis. 
 - URL:https://github.com/qlu-lab/SUPERGNOVA
 - CITATION :Zhang, Yiliang, et al. "SUPERGNOVA: local genetic correlation analysis reveals heterogeneous etiologic sharing of complex traits." Genome biology 22.1 (2021): 1-30.
+
+## HEELS
+- SHORT NAME:HEELS
+- FULL NAME: Heritability Estimation with high Efficiency using LD and association Summary Statistics
+- YEAR:2023
+- DESCRIPTION:HEELS is a Python-based command line tool that produce accurate and precise local heritability estimates using summary-level statistics (marginal association test statistics along with the empirical (in-sample) LD statistics).
+- URL: [https://github.com/huilisabrina/HEELS](https://github.com/huilisabrina/HEELS)
+- CITATION :Li, H., Mazumder, R., & Lin, X. (2023). Accurate and efficient estimation of local heritability using summary statistics and the linkage disequilibrium matrix. Nature Communications, 14(1), 7954.
 
 # Genetic correlation
 ## cross-trait LDSC
