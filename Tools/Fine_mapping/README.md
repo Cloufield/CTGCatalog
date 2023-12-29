@@ -119,10 +119,10 @@
 - SHORT NAME: RFR
 - FULL NAME: Replication Failure Rate 
 - YEAR: 2022
-- DESCRIPTION: Replication Failure Rate (RFR), a metric to assess the consistency of fine-mapping results based on downsampling a large cohort. SuSiE-inf
-and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinitesimal effects in addition to a small number of larger causal effects of interest. 
+- DESCRIPTION: Replication Failure Rate (RFR), a metric to assess the consistency of fine-mapping results based on downsampling a large cohort. SuSiE-inf and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinitesimal effects in addition to a small number of larger causal effects of interest. 
 - URL : [https://github.com/FinucaneLab/fine-mapping-inf](https://github.com/FinucaneLab/fine-mapping-inf)
 - CITATION:Cui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M., ... & Finucane, H. K. (2022). Improving fine-mapping by modeling infinitesimal effects. bioRxiv.
+- CITATION: Cui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M. J., ... & Finucane, H. K. (2023). Improving fine-mapping by modeling infinitesimal effects. Nature Genetics, 1-8.
 
 ## JAM
 - SHORT NAME: JAM

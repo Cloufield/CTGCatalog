@@ -1,6 +1,10 @@
 # Contents
-- HLA-TAPAS
 
+- HLA-TAPAS
+- HKARIMNT
+
+## HLA imputation
+- [See Imputation](https://catalog.gwaslab.com/Tools_Imputation_README/)
 
 ## HLA-TAPAS
 - SHORT NAME: HLA-TAPAS

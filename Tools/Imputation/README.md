@@ -7,6 +7,13 @@
     - Mach/minimac
     - fastPHASE
     - GLIMPSE
+- Imputation of structural variants
+    - 1KG SV imputation panel (long-read sequencing)
+- Imputation of HLA
+    - SNP2HLA
+    - DEEP*HLA
+    - CookHLA
+    - HIBAG
 - Imputation Panel
     - 1KG
     - TOPMED
@@ -37,6 +44,7 @@
 - URL:[https://odelaneau.github.io/shapeit4/](https://odelaneau.github.io/shapeit4/)
 - URL:[https://jmarchini.org/shapeit3/](https://jmarchini.org/shapeit3/)
 - URL:[https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html](https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html)
+- CITATION:(SHAPEIT5) Hofmeister, R. J., Ribeiro, D. M., Rubinacci, S., & Delaneau, O. (2023). Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank. Nature Genetics, 55(7), 1243-1249.
 - CITATION:(SHAPEIT5) Hofmeister, R. J., Ribeiro, D. M., Rubinacci, S., & Delaneau, O. (2022). Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank. bioRxiv, 2022-10.
 - CITATION:(SHAPEIT4) Delaneau, Olivier, et al. "Accurate, scalable and integrative haplotype estimation." Nature communications 10.1 (2019): 1-10.
 - CITATION:(SHAPEIT3) O'Connell, Jared, et al. "Haplotype estimation for biobank-scale data sets." Nature genetics 48.7 (2016): 817-820.
@@ -72,6 +80,35 @@
 -DESCRIPTION: GLIMPSE is a phasing and imputation method for large-scale low-coverage sequencing studies.
 -CITATION: Rubinacci, S., Ribeiro, D. M., Hofmeister, R. J., & Delaneau, O. (2021). Efficient phasing and imputation of low-coverage sequencing data using large reference panels. Nature Genetics, 53(1), 120-126.
 
+
+## Imputation of structural variants
+### 1KG SV imputation panel (long-read sequencing)
+- CITATION: Noyvert, B., Erzurumluoglu, A. M., Drichel, D., Omland, S., Andlauer, T. F., Mueller, S., ... & Ding, Z. (2023). Imputation of structural variants using a multi-ancestry long-read sequencing panel enables identification of disease associations. medRxiv, 2023-12.
+
+## Imputation of HLA
+
+### SNP2HLA
+
+- URL: http://software.broadinstitute.org/mpg/snp2hla/
+- CITATION:Jia, X., Han, B., Onengut-Gumuscu, S., Chen, W. M., Concannon, P. J., Rich, S. S., ... & de Bakker, P. I. (2013). Imputing amino acid polymorphisms in human leukocyte antigens. PloS one, 8(6), e64683.
+
+### DEEP*HLA
+
+- URL: https://github.com/tatsuhikonaito/DEEP-HLA
+- CITATION: Naito, T., Suzuki, K., Hirata, J., Kamatani, Y., Matsuda, K., Toda, T., & Okada, Y. (2021). A deep learning method for HLA imputation and trans-ethnic MHC fine-mapping of type 1 diabetes. Nature communications, 12(1), 1639.
+
+### CookHLA
+
+- URL: https://github.com/WansonChoi/CookHLA
+- CITATION: Cook, S., Choi, W., Lim, H., Luo, Y., Kim, K., Jia, X., ... & Han, B. (2021). Accurate imputation of human leukocyte antigens with CookHLA. Nature Communications, 12(1), 1264.
+
+### HIBAG
+
+- URL: https://github.com/zhengxwen/HIBAG
+- CITATION: Zheng, X., Shen, J., Cox, C., Wakefield, J. C., Ehm, M. G., Nelson, M. R., & Weir, B. S. (2014). HIBAG—HLA genotype imputation with attribute bagging. The pharmacogenomics journal, 14(2), 192-200.
+
+### review
+- CITATION: 
 
 ## Imputation panel
 ### 1000 Genomes
