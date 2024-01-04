@@ -28,6 +28,7 @@
 - PUMA-CUBS
 - MiXeR
 - SDPRX
+- PRStuning 
 - Reviews&Tutorial
 - Benchmarks
 
@@ -262,6 +263,12 @@ for model fitting.
 - DESCRIPTION: SDPRX is a statistical method for cross-population prediction of complex traits. It integrates GWAS summary statistics and LD matrices from two populations (EUR and non-EUR) to compuate polygenic risk scores.
 - URL : https://github.com/eldronzhou/SDPRX
 - CITATION:Zhou, Geyu, Tianqi Chen, and Hongyu Zhao. "SDPRX: A statistical method for cross-population prediction of complex traits." The American Journal of Human Genetics (2022).
+
+## PRStuning 
+- SHORT NAME: PRStuning
+- FULL NAME: PRStuning
+- DESCRIPTION: Estimate Testing AUC for Binary Phenotype Using GWAS Summary Statistics from the Training Data
+- CITATION: Jiang, W., Chen, L., Girgenti, M. J., & Zhao, H. (2023). Tuning Parameters for Polygenic Risk Score Methods Using GWAS Summary Statistics from Training Data. Research Square.
 
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
