@@ -66,6 +66,7 @@
 - DESCRIPTION: SparsePro is a command line tool for efficiently conducting genome-wide fine-mapping. Our method has two key features: First, by creating a sparse low-dimensional projection of the high-dimensional genotype, we enable a linear search of causal variants instead of an exponential search of causal configurations in most existing methods; Second, we adopt a probabilistic framework with a highly efficient variational expectation-maximization algorithm to integrate statistical associations and functional priors.
 - URL : [https://github.com/zhwm/SparsePro](https://github.com/zhwm/SparsePro)
 - CITATION: Zhang, W., Najafabadi, H. S., & Li, Y. (2021). SparsePro: an efficient genome-wide fine-mapping method integrating summary statistics and functional annotations. bioRxiv.
+- CITATION: Zhang, W., Najafabadi, H., & Li, Y. (2023). SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations. PLoS genetics, 19(12), e1011104.
 
 ## CAVIAR
 - SHORT NAME: CAVIAR
