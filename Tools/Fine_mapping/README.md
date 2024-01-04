@@ -2,7 +2,8 @@
 - FINEMAP
 - SUSIE / SUSIE-RSS
 - SUSIEx
-- mvSuSiE 
+- mvSuSiE
+- MESuSiE
 - SparsePro
 - CAVIAR
 - CAVIARBF
@@ -47,8 +48,16 @@
 - YEAR:2023
 - DESCRIPTION: Implements a multivariate generalization of the "Sum of Single Effects" (SuSiE) model for variable selection in multivariate linear regression.
 - URL : https://github.com/stephenslab/mvsusieR
-- CITATION : Zou, Y., Carbonetto, P., Xie, D., Wang, G., & Stephens, M. (2023). Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model. bioRxiv, 2023-04.
+- CITATION: Zou, Y., Carbonetto, P., Xie, D., Wang, G., & Stephens, M. (2023). Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model. bioRxiv, 2023-04.
 - KEW WORD: multi-trait fine-mapping
+
+## MESuSiE
+- SHORT NAME: MESuSiE
+- FULL NAME:  multi-ancestry sum of the single effects model
+- YEAR:2024
+- DESCRIPTION: MESuSiE relies on GWAS summary statistics from multiple ancestries, properly accounts for the LD structure of the local genomic region in multiple ancestries, and explicitly models both shared and ancestry-specific causal signals to accommodate causal effect size similarity as well as heterogeneity across ancestries. MESuSiE outputs posterior inclusion probability of variant being shared or ancestry-specific causal variants. 
+- URL: https://github.com/borangao/MESuSiE
+- CITATION: Gao, B., Zhou, X. MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies. Nat Genet (2024). https://doi.org/10.1038/s41588-023-01604-7
 
 ## SparsePro
 - SHORT NAME: SparsePro
