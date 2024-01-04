@@ -19,6 +19,7 @@
     - TOPMED
     - HRC
     - RESHAPE
+    - SEAD
 - Imputation Server
     - Michigan
     - TOPMed
@@ -111,6 +112,7 @@
 - CITATION: 
 
 ## Imputation panel
+
 ### 1000 Genomes
 - CITATION: 1000 Genomes Project Consortium. "A global reference for human genetic variation." Nature 526.7571 (2015): 68.
 ### HRC
@@ -131,6 +133,10 @@
 - DESCRIPTION: RESHAPE removes sample-level genetic information from a reference panel to create a synthetic reference panel. By providing it with a genetic map and the VCF/BCF of a reference panel, RESHAPE outputs a VCF/BCF of the same size where each haplotypes corresponds to a mosaic of the original haplotypes of the reference panel.
 - CITATION: Cavinato, T., Rubinacci, S., Malaspinas, A. S., & Delaneau, O. (2023). A resampling-based approach to share reference panels. bioRxiv, 2023-04.
 
+### South and East Asian Reference Database (SEAD) reference panel
+- URL: [https://imputationserver.westlake.edu.cn/](https://imputationserver.westlake.edu.cn/)
+- CITATION: Yang, M. Y., Zhong, J. D., Li, X., Bai, W. Y., Yuan, C. D., Qiu, M. C., ... & Zheng, H. F. (2023). SEAD: an augmented reference panel with 22,134 haplotypes boosts the rare variants imputation and GWAS analysis in Asian population. medRxiv, 2023-12.
+
 ## Imputation Server
 ### TOPMED
 - URL: [https://imputation.biodatacatalyst.nhlbi.nih.gov/#!](https://imputation.biodatacatalyst.nhlbi.nih.gov/#!)
@@ -143,12 +149,12 @@
 
 ### NyuWa 
 - URL: [http://bigdata.ibp.ac.cn/refpanel/getstarted.php](http://bigdata.ibp.ac.cn/refpanel/getstarted.php)
-- CITATION:Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.
+- CITATION: Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.
 
 ### Westlake
 - URL: [https://imputationserver.westlake.edu.cn/](https://imputationserver.westlake.edu.cn/)
 - CITATION: Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.
-
+  
 ### CNGB Imputation Service
 - URL: [https://db.cngb.org/imputation/](https://db.cngb.org/imputation/)
 - CITATION: Yu, C., Lan, X., Tao, Y., Guo, Y., Sun, D., Qian, P., ... & Li, L. (2022). A High-resolution Haplotype-resolved Reference Panel Constructed from the China Kadoorie Biobank Study. medRxiv, 2022-12.
