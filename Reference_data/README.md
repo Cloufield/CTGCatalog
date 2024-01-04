@@ -4,12 +4,6 @@
 
 [Reference genomes](https://cloufield.github.io/CTGCatalog/Reference_data_Genome_README/)
 
-## Biobanks and cohorts
-
-This section contains major cohorts and biobanks worldwide.
-
-[Biobanks and cohorts](https://cloufield.github.io/CTGCatalog/Reference_data_Biobanks_Cohorts_README/)
-
 ## Allele Frequency reference data
 
 [Allele Frequency reference](https://cloufield.github.io/CTGCatalog/Reference_data_Allele_Frequency_README/)
