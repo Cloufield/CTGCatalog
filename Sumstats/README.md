@@ -47,6 +47,7 @@
 * Tohoku Medical Megabank (TMM) JMorp：https://jmorp.megabank.tohoku.ac.jp/202109/gwas/
 * KoreanChip: https://www.koreanchip.org/downloads
 * KoGES Pheweb: https://koges.leelabsg.org/
+* Taiwan BioBank Pheweb: https://taiwanview.twbiobank.org.tw/pheweb.php
 
 ### From Global Biobank
 * Global Biobank :http://results.globalbiobankmeta.org/
