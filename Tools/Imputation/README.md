@@ -75,11 +75,11 @@
 - CITATION:Scheet, Paul, and Matthew Stephens. "A fast and flexible statistical model for large-scale population genotype data: applications to inferring missing genotypes and haplotypic phase." The American Journal of Human Genetics 78.4 (2006): 629-644.
 
 ### GLIMPSE
--FULL NAME: Genotype Likelihoods IMputation and PhaSing mEthod
--SHORT NAME:  GLIMPSE
--URL:[https://odelaneau.github.io/GLIMPSE/](https://odelaneau.github.io/GLIMPSE/)
--DESCRIPTION: GLIMPSE is a phasing and imputation method for large-scale low-coverage sequencing studies.
--CITATION: Rubinacci, S., Ribeiro, D. M., Hofmeister, R. J., & Delaneau, O. (2021). Efficient phasing and imputation of low-coverage sequencing data using large reference panels. Nature Genetics, 53(1), 120-126.
+- FULL NAME: Genotype Likelihoods IMputation and PhaSing mEthod
+- SHORT NAME:  GLIMPSE
+- URL:[https://odelaneau.github.io/GLIMPSE/](https://odelaneau.github.io/GLIMPSE/)
+- DESCRIPTION: GLIMPSE is a phasing and imputation method for large-scale low-coverage sequencing studies.
+- CITATION: Rubinacci, S., Ribeiro, D. M., Hofmeister, R. J., & Delaneau, O. (2021). Efficient phasing and imputation of low-coverage sequencing data using large reference panels. Nature Genetics, 53(1), 120-126.
 
 
 ## Imputation of structural variants
