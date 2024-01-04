@@ -5,7 +5,7 @@
 
 ## Reference_data
 * [Reference genomes](https://cloufield.github.io/CTGCatalog/Reference_data_Genome_README/)
-* [Biobanks and cohorts](https://cloufield.github.io/CTGCatalog/Reference_data_Biobanks_Cohorts_README/)
+* [Biobanks and cohorts](https://catalog.gwaslab.com/Sumstats_Biobanks_Cohorts_README/)
 * [Allele Frequency reference data](https://cloufield.github.io/CTGCatalog/Reference_data_Allele_Frequency_README/)
 * Databases for Complex Trait Genetics.
 
@@ -24,7 +24,7 @@
 * [Gene_set_pathway_analysis](https://cloufield.github.io/CTGCatalog/Tools_Gene_set_pathway_analysis_README/)
 * [GxE_interactions](https://cloufield.github.io/CTGCatalog/Tools_GxE_interactions_README/)
 * [Heritability_and_genetic_correlation](https://cloufield.github.io/CTGCatalog/Tools_Heritability_and_genetic_correlation_README/)
-* [HLA]()
+* [HLA](https://catalog.gwaslab.com/Tools_HLA_README/)
 * [Imputation](https://cloufield.github.io/CTGCatalog/Tools_Imputation_README/)
 * [Mendelian_randomization](https://cloufield.github.io/CTGCatalog/Tools_Mendelian_randomization_README/)
 * [Meta_and_Multi_triat](https://cloufield.github.io/CTGCatalog/Tools_Meta_and_Multi_triat_README/)
@@ -34,14 +34,14 @@
 * [Tissue_and_single_cell](https://cloufield.github.io/CTGCatalog/Tools_Tissue_and_single_cell_README/)
 
 ## Population Genetics Tools
-* [Admixture]()
-* [Phylogenetic tree]()
+* [Admixture](https://catalog.gwaslab.com/Population_Genetics_Admixture_README/)
+* [Phylogenetic tree](https://catalog.gwaslab.com/Population_Genetics_Phylogenetic_tree_README/)
 
 ## Visualization tools
-* [Heatmap]()
-* [Correlation]()
-* [Venn Diagram]()
-* [Variant on protein]()
+* [Visualization](https://catalog.gwaslab.com/Visualization_README/)
+* [Heatmap](https://catalog.gwaslab.com/Visualization_Heatmap_README/)
+* [Venn Diagram](https://catalog.gwaslab.com/Visualization_Venn_diagram_README/)
+* [Variant on protein](https://catalog.gwaslab.com/Visualization_Variants_on_protein_README/)
 
 
 --------

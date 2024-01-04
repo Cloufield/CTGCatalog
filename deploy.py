@@ -26,7 +26,7 @@ theme:
     assets/logo.png
 
 extra_css:
-  - "stylesheets/extra.css"
+  - stylesheets/extra.css
 
 markdown_extensions:
   - toc:
