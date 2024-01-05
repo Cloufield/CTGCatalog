@@ -28,7 +28,8 @@
 - PUMA-CUBS
 - MiXeR
 - SDPRX
-- PRStuning 
+- PRStuning
+- BridgePRS
 - Reviews&Tutorial
 - Benchmarks
 
@@ -267,9 +268,17 @@ for model fitting.
 ## PRStuning 
 - SHORT NAME: PRStuning
 - FULL NAME: PRStuning
-- DESCRIPTION: Estimate Testing AUC for Binary Phenotype Using GWAS Summary Statistics from the Training Data
+- DESCRIPTION: Estimate Testing AUC for Binary Phenotype Using GWAS Summary Statistics from the Training Data 
 - CITATION: Jiang, W., Chen, L., Girgenti, M. J., & Zhao, H. (2023). Tuning Parameters for Polygenic Risk Score Methods Using GWAS Summary Statistics from Training Data. Research Square.
 
+## BridgePRS
+- SHORT NAME: BridgePRS
+- FULL NAME: BridgePRS
+- DESCRIPTION: BridgePRS is a Bayesian-ridge (Bridge) approach, which "bridges" the PRS between two populations of different ancestry, developed to tackle the "PRS Portability Problem". The PRS Portability Problem causes lower accuracy PRS in underrepresented populations due to the biased sampling in GWAS data collection.
+- YEAR: 2023
+- URL: https://www.bridgeprs.net/
+- CITATION: Hoggart, C. J., Choi, S. W., García-González, J., Souaiaia, T., Preuss, M., & O’Reilly, P. F. (2023). BridgePRS leverages shared genetic effects across ancestries to increase polygenic risk score portability. Nature Genetics, 1-7.
+- 
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
 - CITATION: Wang, Y., Tsuo, K., Kanai, M., Neale, B. M., & Martin, A. R. (2022). Challenges and Opportunities for Developing More Generalizable Polygenic Risk Scores. Annual Review of Biomedical Data Science, 5.
