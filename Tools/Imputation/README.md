@@ -80,7 +80,7 @@
 - URL:[https://odelaneau.github.io/GLIMPSE/](https://odelaneau.github.io/GLIMPSE/)
 - DESCRIPTION: GLIMPSE is a phasing and imputation method for large-scale low-coverage sequencing studies.
 - CITATION: Rubinacci, S., Ribeiro, D. M., Hofmeister, R. J., & Delaneau, O. (2021). Efficient phasing and imputation of low-coverage sequencing data using large reference panels. Nature Genetics, 53(1), 120-126.
-
+- CITATION: (using GLIMPSE for ancient DNA) Sousa da Mota, B., Rubinacci, S., Cruz Dávalos, D. I., G. Amorim, C. E., Sikora, M., Johannsen, N. N., ... & Delaneau, O. (2023). Imputation of ancient human genomes. Nature Communications, 14(1), 3660.
 
 ## Imputation of structural variants
 ### 1KG SV imputation panel (long-read sequencing)
