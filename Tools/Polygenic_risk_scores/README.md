@@ -30,6 +30,7 @@
 - SDPRX
 - PRStuning
 - BridgePRS
+- PROSPER
 - Reviews&Tutorial
 - Benchmarks
 
@@ -278,7 +279,15 @@ for model fitting.
 - YEAR: 2023
 - URL: https://www.bridgeprs.net/
 - CITATION: Hoggart, C. J., Choi, S. W., García-González, J., Souaiaia, T., Preuss, M., & O’Reilly, P. F. (2023). BridgePRS leverages shared genetic effects across ancestries to increase polygenic risk score portability. Nature Genetics, 1-7.
-- 
+
+## PROSPER
+- SHORT NAME: PROSPER
+- FULL NAME: Polygenic Risk scOres based on enSemble of PEnalized Regression models
+- DESCRIPTION: PROSPER is a new multi-ancestry PRS method with penalized regression followed by ensemble learning. This software is a command line tool based on R programming language. Large-scale benchmarking study shows that PROSPER could be the leading method to reduce the disparity of PRS performance across ancestry groups
+- YEAR:2023
+- URL: https://github.com/Jingning-Zhang/PROSPER
+- CITATION: Zhang, J., Zhan, J., Jin, J., Ma, C., Zhao, R., O’Connell, J., ... & 23andMe Research Team. (2023). An ensemble penalized regression method for multi-ancestry polygenic risk prediction. BioRxiv.
+    
 ## Reviews&Tutorial
 - CITATION: Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206
 - CITATION: Wang, Y., Tsuo, K., Kanai, M., Neale, B. M., & Martin, A. R. (2022). Challenges and Opportunities for Developing More Generalizable Polygenic Risk Scores. Annual Review of Biomedical Data Science, 5.
