@@ -1,3 +1,14 @@
+## Contents
+- MAGMA
+- LDSC-SEG
+- scDRS
+- SCAVENGE
+- scGWAS
+- SCENT
+- SCARlink
+- EPIC
+- TCSC
+
 # MAGMA
 - SHORT NAME: MAGMA
 - FULL NAME: Multi-marker Analysis of GenoMic Annotation
@@ -45,6 +56,30 @@
 - URL:[https://github.com/bsml320/scGWAS](https://github.com/bsml320/scGWAS)
 - DESCRIPTION:scGWAS leverages scRNA-seq data to identify the genetically mediated associations between traits and cell types.
 - CITATION: Jia, P., Hu, R., Yan, F., Dai, Y., & Zhao, Z. (2022). scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies. Genome biology, 23(1), 1-24.
+
+# SCENT
+- SHORT NAME:SCENT
+- FULL NAME: single-cell enhancer target gene mapping
+- URL: [https://github.com/immunogenomics/SCENT](https://github.com/immunogenomics/SCENT)
+- YEAR : 2024
+- CITATION: Sakaue, S., Weinand, K., Isaac, S., Dey, K. K., Jagadeesh, K., Kanai, M., ... & Raychaudhuri, S. (2024). Tissue-specific enhancer–gene maps from multimodal single-cell data identify causal disease alleles. Nature Genetics, 1-12.
+- KEY WORD: Possion regression, scATAC-seq, scRNA-seq
+
+# SCARlink
+- SHORT NAME:SCARlink
+- FULL NAME: single-cell ATAC + RNA linking
+- URL: [https://github.com/snehamitra/SCARlink/](https://github.com/snehamitra/SCARlink/)
+- YEAR : 2024
+- CITATION: Mitra, S., Malik, R., Wong, W., Rahman, A., Hartemink, A. J., Pritykin, Y., ... & Leslie, C. S. (2024). Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis. Nature Genetics, 1-10.
+- KEY WORD: Possion regression, scATAC-seq, scRNA-seq, tile-level accessibility
+
+# SCAVENGE
+- SHORT NAME:SCAVENGE
+- FULL NAME: Single Cell Analysis of Variant Enrichment through Network propagation of GEnomic data
+- URL: [https://github.com/sankaranlab/SCAVENGE](https://github.com/sankaranlab/SCAVENGE)
+- YEAR : 2022
+- CITATION: Yu, F., Cato, L.D., Weng, C. et al. Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol (2022). https://doi.org/10.1038/s41587-022-01341-y
+- KEY WORD: GWAS, scATAC-seq, network propagation
 
 # EPIC
 - SHORT NAME: EPIC
