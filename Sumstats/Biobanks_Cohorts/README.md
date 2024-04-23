@@ -28,6 +28,10 @@
 | [BioBank Japan (BBJ)](#biobank-japan-bbj)                                                                                                                                                                                                      | ASIA        | Japan          | ~200k         | [Here](https://biobankjp.org/)                                                                                                             |
 | [National Center Biobank Network](#national-center-biobank-network)                                                                                                                                                                            | ASIA        | Japan          | ~130k         | [Here](https://ncbiobank.org/en/home.php)                                                                                                  |
 | [Tohoku Medical Megabank (TMM)](#tohoku-medical-megabank-tmm)                                                                                                                                                                                  | ASIA        | Japan          | ~157k         | [Here](https://www.megabank.tohoku.ac.jp/english/)                                                                                         |
+| [The Nagahama Study](#the-nagahama-study)                                                                                                                                                                                                      | ASIA        | Japan          | ~10K          | [Here](https://zeroji-cohort.com/english/)                                                                                                 |
+| [The Hisayama Study](#the-hisayama-study)                                                                                                                                                                                                      | ASIA        | Japan          | ~8K           | [Here](https://www.hisayama.med.kyushu-u.ac.jp/en/)                                                                                        |
+| [National Center Biobank Network (NCBN)](#national-center-biobank-network-ncbn)                                                                                                                                                                | ASIA        | Japan          | ~120K         | [Here](https://ncbiobank.org/en/home.php)                                                                                                  |
+| [The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD)](#the-japan-prospective-studies-collaboration-for-aging-and-dementia-jpsc-ad)                                                                                    | ASIA        | Japan          | ~11K          | [Here](https://www.eph.med.kyushu-u.ac.jp/jpsc/en/)                                                                                        |
 | [National Biobank of Korea](#national-biobank-of-korea)                                                                                                                                                                                        | ASIA        | Korea          | ~210K         | [Here](https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html)                                                                           |
 | [The Malaysian Cohort (TMC)](#the-malaysian-cohort-tmc)                                                                                                                                                                                        | ASIA        | Malaysia       | ~100k         | [Here](https://www.ukm.my/mycohort/ms/)                                                                                                    |
 | [The STROMICS genome study](#the-stromics-genome-study)                                                                                                                                                                                        | ASIA        | China          | ~10k          | [Here](http://www.stromics.org.cn/)                                                                                                        |
@@ -48,6 +52,7 @@
 | [East London Genes & Health](#east-london-genes--health)                                                                                                                                                                                       | EUROPE      | UK             | ~100k         | [Here](https://www.genesandhealth.org/)                                                                                                    |
 | [QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)](#qimr-berghofer-qimr-biobank-qskin-and-genepi)                                                                                                                                              | OCIENIA     | Australia      | ~17k          | [Here](https://genepi.qimr.edu.au/)                                                                                                        |
 | [The Canadian Longitudinal Study on Aging (CLSA)](#the-canadian-longitudinal-study-on-aging-clsa)                                                                                                                                              | AMERICA     | Canada         | ~50k          | [Here](https://www.clsa-elcv.ca/)                                                                                                          |
+| [CARTaGENE biobank](#cartagene-biobank)                                                                                                                                                                                                        | AMERICA     | Canada         | ~30K          | [Here](https://cartagene.qc.ca/en/)                                                                                                        |
 
 ## AFRICA
 
@@ -128,6 +133,21 @@
  - DESCRIPTION : Biobank consented samples with associated clinical data from diverse populations from throughout the United States and Latin America via healthcare and biopharma partnerships. 
  - Name : [Biobank of the Americas](#biobank-of-the-americas) 
  - Link : [Here](https://www.galatea.bio/#main-biobank) 
+ 
+
+### CARTaGENE biobank
+
+- BIOBANK&COHORT : CARTaGENE biobank 
+ - CONTINENT : AMERICA 
+ - LOCATION : Canada 
+ - SAMPLE SIZE : ~30K 
+ - GENOTYPED SAMPLE SIZE : ~30K 
+ - CITATION : Awadalla, P., Boileau, C., Payette, Y., Idaghdour, Y., Goulet, J. P., Knoppers, B., ... & Laberge, C. (2013). Cohort profile of the CARTaGENE study: Quebec’s population-based biobank for public health and personalized genomics. International journal of epidemiology, 42(5), 1285-1299. 
+ - URL : https://cartagene.qc.ca/en/ 
+ - DESCRIPTION : CARTaGENE is a public research platform of the CHU Sainte-Justine aiming to accelerate health research. CARTaGENE is made up of both biological samples and data on the health and lifestyle of 43,000 Quebec men and women between the ages of 40 and 69 at recruitment. 
+ - DATA : https://cartagene.qc.ca/en/researchers.html 
+ - Name : [CARTaGENE biobank](#cartagene-biobank) 
+ - Link : [Here](https://cartagene.qc.ca/en/) 
  
 
 ### CanPath - Ontario Health Study
@@ -348,6 +368,20 @@
  - Link : [Here](https://ncbiobank.org/en/home.php) 
  
 
+### National Center Biobank Network (NCBN)
+
+- BIOBANK&COHORT : National Center Biobank Network (NCBN) 
+ - CONTINENT : ASIA 
+ - LOCATION : Japan 
+ - SAMPLE SIZE : ~120K 
+ - GENOTYPED SAMPLE SIZE : ~10K 
+ - CITATION : Omae, Y., Goto, Y. I., & Tokunaga, K. (2022). National center biobank network. Human Genome Variation, 9(1), 38. 
+ - URL : https://ncbiobank.org/en/home.php 
+ - DESCRIPTION : The National Center Biobank Network (NCBN) is a biobank project operated by six National Centers for Biomedical Research and Innovation (NCs) in a networked and federated organizational form, while respecting their individual disease specialties toward the "new medical care". 
+ - Name : [National Center Biobank Network (NCBN)](#national-center-biobank-network-ncbn) 
+ - Link : [Here](https://ncbiobank.org/en/home.php) 
+ 
+
 ### NyuWa genome resource
 
 - BIOBANK&COHORT : NyuWa genome resource 
@@ -418,17 +452,59 @@
  - Link : [Here](http://www.mbiobank.com/) 
  
 
+### The Hisayama Study
+
+- BIOBANK&COHORT : The Hisayama Study 
+ - CONTINENT : ASIA 
+ - LOCATION : Japan 
+ - SAMPLE SIZE : ~8K 
+ - GENOTYPED SAMPLE SIZE : ~8K 
+ - CITATION : Ninomiya, T. (2018). Japanese legacy cohort studies: the Hisayama Study. Journal of epidemiology, 28(11), 444-451. 
+ - URL : https://www.hisayama.med.kyushu-u.ac.jp/en/ 
+ - DESCRIPTION : The Hisayama Study is a population-based prospective cohort study that has been conducted in the town of Hisayama, Japan since 1961. 
+ - Name : [The Hisayama Study](#the-hisayama-study) 
+ - Link : [Here](https://www.hisayama.med.kyushu-u.ac.jp/en/) 
+ 
+
+### The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD)
+
+- BIOBANK&COHORT : The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD) 
+ - CONTINENT : ASIA 
+ - LOCATION : Japan 
+ - SAMPLE SIZE : ~11K 
+ - CITATION : JPSFC-AD Study Group. (2020). Study design and baseline characteristics of a population-based prospective cohort study of dementia in Japan: the Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD). Environmental health and preventive medicine, 25(1), 64. 
+ - URL : https://www.eph.med.kyushu-u.ac.jp/jpsc/en/ 
+ - DESCRIPTION : Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD） study is a collaborative prospective cohort study of approximately 10,000 elderly people from 8 newly-established community-based dementia cohort studies in Japan, in which the data is prospectively collected by using the pre-specified standardized protocol. The purpose of this study is to evaluate quantitatively environmental and genomic risk factors for dementia in Japanese and to establish effective preventive strategies for dementia, in order to realize healthy aging society. 
+ - Name : [The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD)](#the-japan-prospective-studies-collaboration-for-aging-and-dementia-jpsc-ad) 
+ - Link : [Here](https://www.eph.med.kyushu-u.ac.jp/jpsc/en/) 
+ 
+
 ### The Malaysian Cohort (TMC)
 
 - BIOBANK&COHORT : The Malaysian Cohort (TMC) 
  - CONTINENT : ASIA 
  - LOCATION : Malaysia 
  - SAMPLE SIZE : ~100k 
+ - STUDY TYPE : community-dwelling individuals aged 65 years or older at 8 sites of Japan 
  - CITATION : Jamal, R., Syed Zakaria, S. Z., Kamaruddin, M. A., Abd Jalal, N., Ismail, N., Mohd Kamil, N., ... & Malaysian Cohort Study Group. (2015). Cohort profile: The Malaysian Cohort (TMC) project: a prospective study of non-communicable diseases in a multi-ethnic population. International journal of epidemiology, 44(2), 423-431. 
  - URL : https://www.ukm.my/mycohort/ms/ 
  - DESCRIPTION : Qatar Biobank, a center within Qatar Foundation, was created in collaboration with Hamad Medical Corporation and the Ministry of Public Health to enable local scientists to conduct medical research on prevalent health issues in Qatar. 
  - Name : [The Malaysian Cohort (TMC)](#the-malaysian-cohort-tmc) 
  - Link : [Here](https://www.ukm.my/mycohort/ms/) 
+ 
+
+### The Nagahama Study
+
+- BIOBANK&COHORT : The Nagahama Study 
+ - CONTINENT : ASIA 
+ - LOCATION : Japan 
+ - SAMPLE SIZE : ~10K 
+ - GENOTYPED SAMPLE SIZE : ~10K 
+ - CITATION : Setoh, K., & Matsuda, F. (2022). Cohort profile: the Nagahama prospective genome cohort for comprehensive human bioscience (The Nagahama Study). Socio-Life Science and the COVID-19 Outbreak: Public Health and Public Policy, 127-143. 
+ - URL : https://zeroji-cohort.com/english/ 
+ - DESCRIPTION : The Nagahama Primary Prevention Cohort Project is a joint project based on an agreement between Kyoto University Graduate School of Medicine and Nagahama City, Shiga Prefecture, with the cooperation of approximately 10,000 Nagahama residents. In addition, the project conducts follow-up surveys on morbidity and mortality, special tests and surveys on sleep, brain imaging, memory, motor function, skin condition, socioeconomic status, etc., during health checkups and periodic surveys conducted every five years after that. Furthermore, we have completed a multi-omics analysis focusing on genome analysis of approximately 9,000 people (including whole genome sequencing of roughly 2,500 people), comprehensive metabolite analysis of 3-time points, and comprehensive protein analysis of 2,000 people (as of August 2021), and based on these rich and diverse data, we have been searching for health risk Based on these abundant and varied data, we aim to search for health risk factors and elucidate their interactions. 
+ - Name : [The Nagahama Study](#the-nagahama-study) 
+ - Link : [Here](https://zeroji-cohort.com/english/) 
  
 
 ### The STROMICS genome study
