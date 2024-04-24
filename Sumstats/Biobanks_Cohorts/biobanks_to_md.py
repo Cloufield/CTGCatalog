@@ -2,10 +2,19 @@ import pandas as pd
 import re
 df = pd.read_excel("./biobanks.xlsx",dtype="string")
 df["Name"]= "[" + df["BIOBANK&COHORT"] + "](" + '#' +  df["BIOBANK&COHORT"].str.lower().str.replace(" ","-").str.replace("[-]+","-").str.replace("[^a-zA-Z0-9\-_]","").str.strip() +")"  
-df["Link"]= "[Here](" +  df["URL"] +")"  
+df["Link"]= "[Here](" +  df["URL"] +")" 
+
+
+
 with open("./README.md","w") as file:
-    file.write("# Biobanks & Cohorts\n\n## Summary Table\n\n")
-    
+    file.write("# Biobanks & Cohorts\n\n")
+
+with open("./README.md","a") as file:
+    file.write("This is an effort to collect the information on major biobanks or cohorts with genomic data around the world.\n\n")
+
+with open("./README.md","a") as file:
+    file.write("## Summary Table\n\n")
+
 df.loc[:,["Name","CONTINENT","LOCATION","SAMPLE SIZE","Link"]].to_markdown("./README.md",index=None, mode="a")
 
 with open("./README.md","a") as file:
