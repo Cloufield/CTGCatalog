@@ -159,7 +159,9 @@
 - FULL NAME: SBayesRC
 - YEAR: 2022
 - DESCRIPTION: SBayesRC integrates GWAS summary statistics with functional genomic annotations to improve polygenic prediction of complex traits.
-- CITATION: Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. Zhili Zheng, Shouye Liu, Julia Sidorenko, Loic Yengo, Patrick Turley, Alireza Ani, Rujia Wang, Ilja M Nolte, Harold Snieder, Lifelines Cohort Study, Jian Yang, Naomi R. Wray, Michael E Goddard, Peter M Visscher, Jian Zeng bioRxiv 2022.10.12.510418; doi: https://doi.org/10.1101/2022.10.12.510418
+- CITATION: Zheng, Z., Liu, S., Sidorenko, J., Yengo, L., Turley, P., Ani, A., ... & Zeng, J. (2022). Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. bioRxiv, 2022-10.
+- CITATION: Zheng, Z., Liu, S., Sidorenko, J. et al. Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. Nat Genet (2024). https://doi.org/10.1038/s41588-024-01704-y
+- KEYWORDs: functional genomic annotation, whole-genome variants,  cross-ancestry
 
 ## TL-PRS
 - SHORT NAME: TL-PRS
