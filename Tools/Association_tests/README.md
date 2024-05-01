@@ -221,7 +221,7 @@
 - YEAR: 2023
 - CITATION: Jurgens, S. J., Pirruccello, J. P., Choi, S. H., Morrill, V. N., Chaffin, M., Lubitz, S. A., ... & Ellinor, P. T. (2023). Adjusting for common variant polygenic scores improves yield in rare variant association analyses. Nature Genetics, 55(4), 544-548.
 - KEYWORDS: PGS, Rare variants
-- CATEGORY: GWAS of longitudinal trajectories
+- CATEGORY: PGS-adjusted GWAS
 
 ## PGS-adjusted GWAS
 - FULL NAME: PGS-adjusted GWAS
@@ -230,7 +230,7 @@
 - YEAR: 2023
 - CITATION: Campos, A. I., Namba, S., Lin, S. C., Nam, K., Sidorenko, J., Wang, H., ... & Yengo, L. (2023). Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores. Nature Genetics, 1-8.
 - KEYWORDS: LOCO-PGSs, two-stage meta-analysis strategy
-- CATEGORY: GWAS of longitudinal trajectories
+- CATEGORY: PGS-adjusted GWAS
 
 ## Review-Povysil
 - CITATION: Povysil, Gundula, et al. "Rare-variant collapsing analyses for complex traits: guidelines and applications." Nature Reviews Genetics 20.12 (2019): 747-759.
