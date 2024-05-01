@@ -4,103 +4,126 @@ This is an effort to collect the information on major biobanks or cohorts with g
 
 ## Summary Table
 
-| Name                                                                                                                                                                                                                                                  | CONTINENT   | LOCATION       | SAMPLE SIZE   | Link                                                                                                                                       |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------|:---------------|:--------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
-| [Non-Communicable Diseases Genetic Heritage Study (NCD-GHS; Nigerian 100K Genome Project)](#non-communicable-diseases-genetic-heritage-study-(ncd-ghs;-nigerian-100k-genome-project))                                                                 | AFRICA      | Nigeria        | ~100k         | [Here](https://allofus.nih.gov/ , https://www.researchallofus.org/register/)                                                               |
-| [Uganda Genome Resource (MedicalResearchCouncil (MRC)/UgandaVirusResearchInstitute (UVRI) and LSHTM Uganda Research Unit)](#uganda-genome-resource-(medicalresearchcouncil-(mrc)/ugandavirusresearchinstitute-(uvri)-and-lshtm-uganda-research-unit)) | AFRICA      | Uganda         | ~6k           | [Here](https://www. lshtm.ac.uk/research/units/mrc-uganda)                                                                                 |
-| [CanPath - Ontario Health Study](#canpath---ontario-health-study)                                                                                                                                                                                     | AMERICA     | Canada         | ~7k           | [Here](https://canpath.ca/cohort/ontario-health-study/)                                                                                    |
-| [Mexico City Prospective Study](#mexico-city-prospective-study)                                                                                                                                                                                       | AMERICA     | Mexico         | ~150k         | [Here](https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico)                                  |
-| [All of Us (AoU)](#all-of-us-(aou))                                                                                                                                                                                                                   | AMERICA     | U.S.           | ~358k         | [Here](https://precisionhealth.umich.edu/our-research/michigangenomics/)                                                                   |
-| [Biobank of the Americas](#biobank-of-the-americas)                                                                                                                                                                                                   | AMERICA     | U.S.           | ~20k          | [Here](https://www.galatea.bio/#main-biobank)                                                                                              |
-| [BioMe](#biome)                                                                                                                                                                                                                                       | AMERICA     | U.S.           | ~32k          | [Here](https://www.vumc.org/dbmi/biovu)                                                                                                    |
-| [BioVU](#biovu)                                                                                                                                                                                                                                       | AMERICA     | U.S.           | ~120k         | [Here](https://bbofa.org/)                                                                                                                 |
-| [Colorado Center for Personalized Medicine](#colorado-center-for-personalized-medicine)                                                                                                                                                               | AMERICA     | U.S.           | ~34k          | [Here](https://medschool.cuanschutz.edu/cobiobank)                                                                                         |
-| [Massachusetts General Brigham Biobank](#massachusetts-general-brigham-biobank)                                                                                                                                                                       | AMERICA     | U.S.           | ~26K          | [Here](https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank)                                      |
-| [Michigan Genomics Initiative](#michigan-genomics-initiative)                                                                                                                                                                                         | AMERICA     | U.S.           | ~55k          | [Here](https://pmbb.med.upenn.edu/)                                                                                                        |
-| [Million Veteran Program (MVP)](#million-veteran-program-(mvp))                                                                                                                                                                                       | AMERICA     | U.S.           | ~900k         | [Here](https://www.mvp.va.gov/pwa/)                                                                                                        |
-| [Penn Medicine Biobank](#penn-medicine-biobank)                                                                                                                                                                                                       | AMERICA     | U.S.           | ~40k          | [Here](https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank)    |
-| [UCLA Precision Health Biobank](#ucla-precision-health-biobank)                                                                                                                                                                                       | AMERICA     | U.S.           | ~27k          | [Here](https://icahn.mssm.edu/research/ipm/programs/biome-biobank)                                                                         |
-| [Chinese Millionome Database (CMDB)](#chinese-millionome-database-(cmdb))                                                                                                                                                                             | ASIA        | China          | ~141k         | [Here](https://db.cngb.org/cmdb/)                                                                                                          |
-| [Han Chinese Genome Initiative (the Han100K Project, PGG.Han)](#han-chinese-genome-initiative-(the-han100k-project,-pgg.han))                                                                                                                         | ASIA        | China          | ~114k         | [Here](https://www.hanchinesegenomes.org/)                                                                                                 |
-| [NyuWa genome resource](#nyuwa-genome-resource)                                                                                                                                                                                                       | ASIA        | China          | ~3k           | [Here](http://bigdata.ibp.ac.cn/NyuWa/)                                                                                                    |
-| [The China Metabolic Analytics Project (ChinaMAP)](#the-china-metabolic-analytics-project-(chinamap))                                                                                                                                                 | ASIA        | China          | ~10k          | [Here](http://www.mbiobank.com/)                                                                                                           |
-| [Westlake BioBank for Chinese (WBBC)](#westlake-biobank-for-chinese-(wbbc))                                                                                                                                                                           | ASIA        | China          | ~14k          | [Here](https://wbbc.westlake.edu.cn/)                                                                                                      |
-| [Taiwan Biobank (TWB)](#taiwan-biobank-(twb))                                                                                                                                                                                                         | ASIA        | China, Taiwan  | ~150k         | [Here](https://www.twbiobank.org.tw/)                                                                                                      |
-| [IndiGenomes](#indigenomes)                                                                                                                                                                                                                           | ASIA        | India          | ~10k          | [Here](http://clingen.igib.res.in/indigen/)                                                                                                |
-| [BioBank Japan (BBJ)](#biobank-japan-(bbj))                                                                                                                                                                                                           | ASIA        | Japan          | ~270k         | [Here](https://biobankjp.org/)                                                                                                             |
-| [National Center Biobank Network](#national-center-biobank-network)                                                                                                                                                                                   | ASIA        | Japan          | ~130k         | [Here](https://ncbiobank.org/en/home.php)                                                                                                  |
-| [Tohoku Medical Megabank (TMM)](#tohoku-medical-megabank-(tmm))                                                                                                                                                                                       | ASIA        | Japan          | ~157k         | [Here](https://www.megabank.tohoku.ac.jp/english/)                                                                                         |
-| [The Nagahama Study](#the-nagahama-study)                                                                                                                                                                                                             | ASIA        | Japan          | ~10K          | [Here](https://zeroji-cohort.com/english/)                                                                                                 |
-| [The Hisayama Study](#the-hisayama-study)                                                                                                                                                                                                             | ASIA        | Japan          | ~8K           | [Here](https://www.hisayama.med.kyushu-u.ac.jp/en/)                                                                                        |
-| [National Center Biobank Network (NCBN)](#national-center-biobank-network-(ncbn))                                                                                                                                                                     | ASIA        | Japan          | ~120K         | [Here](https://ncbiobank.org/en/home.php)                                                                                                  |
-| [The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD)](#the-japan-prospective-studies-collaboration-for-aging-and-dementia-(jpsc-ad))                                                                                         | ASIA        | Japan          | ~11K          | [Here](https://www.eph.med.kyushu-u.ac.jp/jpsc/en/)                                                                                        |
-| [National Biobank of Korea](#national-biobank-of-korea)                                                                                                                                                                                               | ASIA        | Korea          | ~210K         | [Here](https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html)                                                                           |
-| [The Malaysian Cohort (TMC)](#the-malaysian-cohort-(tmc))                                                                                                                                                                                             | ASIA        | Malaysia       | ~100k         | [Here](https://www.ukm.my/mycohort/ms/)                                                                                                    |
-| [The STROMICS genome study](#the-stromics-genome-study)                                                                                                                                                                                               | ASIA        | China          | ~10k          | [Here](http://www.stromics.org.cn/)                                                                                                        |
-| [Qatar Biobank](#qatar-biobank)                                                                                                                                                                                                                       | ASIA        | Qatar          | ~80K          | [Here](: https://www.qatarbiobank.org.qa/)                                                                                                 |
-| [SG10K_Health](#sg10k_health)                                                                                                                                                                                                                         | ASIA        | Singapore      | ~10k          | [Here](https://www.npm.sg/collaborate/partners/sg10k/)                                                                                     |
-| [China Kadoorie Biobank (CKB)](#china-kadoorie-biobank-(ckb))                                                                                                                                                                                         | ASIA        | U.K. and China | ~512k         | [Here](https://www.ckbiobank.org/)                                                                                                         |
-| [Biobank Graz](#biobank-graz)                                                                                                                                                                                                                         | EUROPE      | Austria        | ~1200k        | [Here](https://biobank.medunigraz.at/en/?link=http%3A%2F%2F169.254.169.254%2Flatest%2Fmeta-data%2F&cHash=3b3a94b34935e2b8509a838b4a34b0eb) |
-| [Estonian Biobank](#estonian-biobank)                                                                                                                                                                                                                 | EUROPE      | Estonia        | ~200k         | [Here](https://genomics.ut.ee/en/content/estonian-biobank)                                                                                 |
-| [FinnGen](#finngen)                                                                                                                                                                                                                                   | EUROPE      | Finland        | ~343k         | [Here](https://www.finngen.fi/en)                                                                                                          |
-| [The International Agency for Research on Cancer (IARC) Biobank (IBB)](#the-international-agency-for-research-on-cancer-(iarc)-biobank-(ibb))                                                                                                         | EUROPE      | France         | ~560k         | [Here](https://ibb.iarc.fr/)                                                                                                               |
-| [deCODE Genetics](#decode-genetics)                                                                                                                                                                                                                   | EUROPE      | Iceland        | ~250k         | [Here](https://www.decode.com/)                                                                                                            |
-| [Lifelines](#lifelines)                                                                                                                                                                                                                               | EUROPE      | Netherlands    | ~167k         | [Here](https://www.lifelines.nl/researcher)                                                                                                |
-| [HUNT](#hunt)                                                                                                                                                                                                                                         | EUROPE      | Norway         | ~229k         | [Here](https://www.ntnu.edu/hunt/hunt-biobank)                                                                                             |
-| [Generation Scotland](#generation-scotland)                                                                                                                                                                                                           | EUROPE      | Scotland       | ~24k          | [Here](https://www.ed.ac.uk/generation-scotland)                                                                                           |
-| [Fenland Study](#fenland-study)                                                                                                                                                                                                                       | EUROPE      | U.K.           | ~12k          | [Here](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)                                                                           |
-| [INTERVAL Study](#interval-study)                                                                                                                                                                                                                     | EUROPE      | U.K.           | ~50k          | [Here](https://www.intervalstudy.org.uk/)                                                                                                  |
-| [UK Biobank (UKB)](#uk-biobank-(ukb))                                                                                                                                                                                                                 | EUROPE      | U.K.           | ~500k         | [Here](https://www.ukbiobank.ac.uk/)                                                                                                       |
-| [East London Genes & Health](#east-london-genes-&-health)                                                                                                                                                                                             | EUROPE      | UK             | ~100k         | [Here](https://www.genesandhealth.org/)                                                                                                    |
-| [QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)](#qimr-berghofer---qimr-biobank-(qskin-and-genepi))                                                                                                                                                 | OCIENIA     | Australia      | ~17k          | [Here](https://genepi.qimr.edu.au/)                                                                                                        |
-| [The Canadian Longitudinal Study on Aging (CLSA)](#the-canadian-longitudinal-study-on-aging-(clsa))                                                                                                                                                   | AMERICA     | Canada         | ~50k          | [Here](https://www.clsa-elcv.ca/)                                                                                                          |
-| [CARTaGENE biobank](#cartagene-biobank)                                                                                                                                                                                                               | AMERICA     | Canada         | ~30K          | [Here](https://cartagene.qc.ca/en/)                                                                                                        |
-| [Born in Guangzhou Cohort Study (BIGCS)](#born-in-guangzhou-cohort-study-(bigcs))                                                                                                                                                                     | ASIA        | China          | ~50K          | [Here](http://www.bigcs.com.cn/en_index.html)                                                                                              |
-| [Taizhou Imaging Study (TIS)](#taizhou-imaging-study-(tis))                                                                                                                                                                                           | ASIA        | China          | ~1K           | [Here](https://www.fdtzihs.org.cn/dljs)                                                                                                    |
+| Name                                                                                                                                      | CONTINENT   | LOCATION       | SAMPLE SIZE   | Link                                                                                                                                       |
+|:------------------------------------------------------------------------------------------------------------------------------------------|:------------|:---------------|:--------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
+| [Nigerian 100K Genome Project](#nigerian-100k-genome-project)                                                                             | AFRICA      | Nigeria        | ~100k         | [Here](https://allofus.nih.gov/ , https://www.researchallofus.org/register/)                                                               |
+| [Uganda Genome Resource ](#uganda-genome-resource-)                                                                                       | AFRICA      | Uganda         | ~6k           | [Here](https://www. lshtm.ac.uk/research/units/mrc-uganda)                                                                                 |
+| [All of Us](#all-of-us)                                                                                                                   | AMERICA     | U.S.           | ~413k         | [Here](https://precisionhealth.umich.edu/our-research/michigangenomics/)                                                                   |
+| [Biobank of the Americas](#biobank-of-the-americas)                                                                                       | AMERICA     | U.S.           | ~20k          | [Here](https://www.galatea.bio/#main-biobank)                                                                                              |
+| [BioMe](#biome)                                                                                                                           | AMERICA     | U.S.           | ~32k          | [Here](https://www.vumc.org/dbmi/biovu)                                                                                                    |
+| [BioVU](#biovu)                                                                                                                           | AMERICA     | U.S.           | ~120k         | [Here](https://bbofa.org/)                                                                                                                 |
+| [CanPath - Ontario Health Study](#canpath---ontario-health-study)                                                                         | AMERICA     | Canada         | ~7k           | [Here](https://canpath.ca/cohort/ontario-health-study/)                                                                                    |
+| [CARTaGENE biobank](#cartagene-biobank)                                                                                                   | AMERICA     | Canada         | ~30K          | [Here](https://cartagene.qc.ca/en/)                                                                                                        |
+| [Colorado Center for Personalized Medicine](#colorado-center-for-personalized-medicine)                                                   | AMERICA     | U.S.           | ~34k          | [Here](https://medschool.cuanschutz.edu/cobiobank)                                                                                         |
+| [Massachusetts General Brigham Biobank](#massachusetts-general-brigham-biobank)                                                           | AMERICA     | U.S.           | ~26K          | [Here](https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank)                                      |
+| [Mexico City Prospective Study](#mexico-city-prospective-study)                                                                           | AMERICA     | Mexico         | ~150k         | [Here](https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico)                                  |
+| [Michigan Genomics Initiative](#michigan-genomics-initiative)                                                                             | AMERICA     | U.S.           | ~55k          | [Here](https://pmbb.med.upenn.edu/)                                                                                                        |
+| [Million Veteran Program](#million-veteran-program)                                                                                       | AMERICA     | U.S.           | ~900k         | [Here](https://www.mvp.va.gov/pwa/)                                                                                                        |
+| [Penn Medicine Biobank](#penn-medicine-biobank)                                                                                           | AMERICA     | U.S.           | ~40k          | [Here](https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank)    |
+| [The Canadian Longitudinal Study on Aging ](#the-canadian-longitudinal-study-on-aging-)                                                   | AMERICA     | Canada         | ~50k          | [Here](https://www.clsa-elcv.ca/)                                                                                                          |
+| [UCLA Precision Health Biobank](#ucla-precision-health-biobank)                                                                           | AMERICA     | U.S.           | ~27k          | [Here](https://icahn.mssm.edu/research/ipm/programs/biome-biobank)                                                                         |
+| [BioBank Japan](#biobank-japan)                                                                                                           | ASIA        | Japan          | ~270k         | [Here](https://biobankjp.org/)                                                                                                             |
+| [Born in Guangzhou Cohort Study](#born-in-guangzhou-cohort-study)                                                                         | ASIA        | China          | ~50K          | [Here](http://www.bigcs.com.cn/en_index.html)                                                                                              |
+| [China Kadoorie Biobank](#china-kadoorie-biobank)                                                                                         | ASIA        | U.K. and China | ~512k         | [Here](https://www.ckbiobank.org/)                                                                                                         |
+| [Chinese Millionome Database](#chinese-millionome-database)                                                                               | ASIA        | China          | ~141k         | [Here](https://db.cngb.org/cmdb/)                                                                                                          |
+| [Han Chinese Genome Initiative Phase 1 the Han100K Project](#han-chinese-genome-initiative-phase-1-the-han100k-project)                   | ASIA        | China          | ~114k         | [Here](https://www.hanchinesegenomes.org/)                                                                                                 |
+| [IndiGenomes](#indigenomes)                                                                                                               | ASIA        | India          | ~10k          | [Here](http://clingen.igib.res.in/indigen/)                                                                                                |
+| [Korean Genome Project Phase 1](#korean-genome-project-phase-1)                                                                           | ASIA        | Korea          | ~1K           | [Here](http://koreangenome.org/Main_Page)                                                                                                  |
+| [Korean Genome Project Phase 2](#korean-genome-project-phase-2)                                                                           | ASIA        | Korea          | ~4K           | [Here](http://koreangenome.org/Korea4K_Genomes)                                                                                            |
+| [National Biobank of Korea](#national-biobank-of-korea)                                                                                   | ASIA        | Korea          | ~210K         | [Here](https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html)                                                                           |
+| [National Center Biobank Network](#national-center-biobank-network)                                                                       | ASIA        | Japan          | ~120K         | [Here](https://ncbiobank.org/en/home.php)                                                                                                  |
+| [NyuWa genome resource](#nyuwa-genome-resource)                                                                                           | ASIA        | China          | ~3k           | [Here](http://bigdata.ibp.ac.cn/NyuWa/)                                                                                                    |
+| [Qatar Biobank](#qatar-biobank)                                                                                                           | ASIA        | Qatar          | ~80K          | [Here](: https://www.qatarbiobank.org.qa/)                                                                                                 |
+| [Qatar Genome Program](#qatar-genome-program)                                                                                             | ASIA        | Qatar          | ~6K           | [Here](https://www.qatargenome.org.qa/)                                                                                                    |
+| [SG10K_Health](#sg10k_health)                                                                                                             | ASIA        | Singapore      | ~10k          | [Here](https://npm.a-star.edu.sg/)                                                                                                         |
+| [Taiwan Biobank](#taiwan-biobank)                                                                                                         | ASIA        | China, Taiwan  | ~150k         | [Here](https://www.twbiobank.org.tw/)                                                                                                      |
+| [Taizhou Imaging Study](#taizhou-imaging-study)                                                                                           | ASIA        | China          | ~1K           | [Here](https://www.fdtzihs.org.cn/dljs)                                                                                                    |
+| [The China Metabolic Analytics Project](#the-china-metabolic-analytics-project)                                                           | ASIA        | China          | ~10k          | [Here](http://www.mbiobank.com/)                                                                                                           |
+| [The Hisayama Study](#the-hisayama-study)                                                                                                 | ASIA        | Japan          | ~8K           | [Here](https://www.hisayama.med.kyushu-u.ac.jp/en/)                                                                                        |
+| [The Japan Prospective Studies Collaboration for Aging and Dementia](#the-japan-prospective-studies-collaboration-for-aging-and-dementia) | ASIA        | Japan          | ~11K          | [Here](https://www.eph.med.kyushu-u.ac.jp/jpsc/en/)                                                                                        |
+| [The Malaysian Cohort](#the-malaysian-cohort)                                                                                             | ASIA        | Malaysia       | ~100k         | [Here](https://www.ukm.my/mycohort/ms/)                                                                                                    |
+| [The Nagahama Study](#the-nagahama-study)                                                                                                 | ASIA        | Japan          | ~10K          | [Here](https://zeroji-cohort.com/english/)                                                                                                 |
+| [The STROMICS genome study](#the-stromics-genome-study)                                                                                   | ASIA        | China          | ~10k          | [Here](http://www.stromics.org.cn/)                                                                                                        |
+| [Tohoku Medical Megabank](#tohoku-medical-megabank)                                                                                       | ASIA        | Japan          | ~157k         | [Here](https://www.megabank.tohoku.ac.jp/english/)                                                                                         |
+| [Westlake BioBank for Chinese](#westlake-biobank-for-chinese)                                                                             | ASIA        | China          | ~14k          | [Here](https://wbbc.westlake.edu.cn/)                                                                                                      |
+| [Biobank Graz](#biobank-graz)                                                                                                             | EUROPE      | Austria        | ~1200k        | [Here](https://biobank.medunigraz.at/en/?link=http%3A%2F%2F169.254.169.254%2Flatest%2Fmeta-data%2F&cHash=3b3a94b34935e2b8509a838b4a34b0eb) |
+| [deCODE Genetics](#decode-genetics)                                                                                                       | EUROPE      | Iceland        | ~250k         | [Here](https://www.decode.com/)                                                                                                            |
+| [East London Genes & Health](#east-london-genes-&-health)                                                                                 | EUROPE      | U.K.           | ~100k         | [Here](https://www.genesandhealth.org/)                                                                                                    |
+| [Estonian Biobank](#estonian-biobank)                                                                                                     | EUROPE      | Estonia        | ~200k         | [Here](https://genomics.ut.ee/en/content/estonian-biobank)                                                                                 |
+| [Fenland Study](#fenland-study)                                                                                                           | EUROPE      | U.K.           | ~12k          | [Here](https://www.mrc-epid.cam.ac.uk/research/studies/fenland/)                                                                           |
+| [FinnGen](#finngen)                                                                                                                       | EUROPE      | Finland        | ~500k         | [Here](https://www.finngen.fi/en)                                                                                                          |
+| [Generation Scotland](#generation-scotland)                                                                                               | EUROPE      | Scotland       | ~24k          | [Here](https://www.ed.ac.uk/generation-scotland)                                                                                           |
+| [INTERVAL Study](#interval-study)                                                                                                         | EUROPE      | U.K.           | ~50k          | [Here](https://www.intervalstudy.org.uk/)                                                                                                  |
+| [Lifelines](#lifelines)                                                                                                                   | EUROPE      | Netherlands    | ~167k         | [Here](https://www.lifelines.nl/researcher)                                                                                                |
+| [The International Agency for Research on Cancer (IARC) Biobank](#the-international-agency-for-research-on-cancer-(iarc)-biobank)         | EUROPE      | France         | ~560k         | [Here](https://ibb.iarc.fr/)                                                                                                               |
+| [The Trøndelag Health Study ](#the-trøndelag-health-study-)                                                                               | EUROPE      | Norway         | ~229k         | [Here](https://www.ntnu.edu/hunt/hunt-biobank)                                                                                             |
+| [UK Biobank](#uk-biobank)                                                                                                                 | EUROPE      | U.K.           | ~500k         | [Here](https://www.ukbiobank.ac.uk/)                                                                                                       |
+| [QIMR Berghofer - QIMR Biobank ](#qimr-berghofer---qimr-biobank-)                                                                         | OCIENIA     | Australia      | ~17k          | [Here](https://genepi.qimr.edu.au/)                                                                                                        |
+| [The Egypt Genome Project](#the-egypt-genome-project)                                                                                     | AFRICA      | Egypt          | ~100K         | [Here](https://egp.sci.eg/)                                                                                                                |
 
 ## AFRICA
 
-### Non-Communicable Diseases Genetic Heritage Study (NCD-GHS; Nigerian 100K Genome Project)
+### Nigerian 100K Genome Project
 
-- BIOBANK&COHORT : Non-Communicable Diseases Genetic Heritage Study (NCD-GHS; Nigerian 100K Genome Project) 
+- BIOBANK&COHORT : Nigerian 100K Genome Project 
  - CONTINENT : AFRICA 
  - LOCATION : Nigeria 
+ - ANCESTRY : AFR 
  - SAMPLE SIZE : ~100k 
+ - WGS/WES : ~1K 
+ - NOTE : First phase: Non-Communicable Diseases Genetic Heritage Study (NCD-GHS) 
  - CITATION : Fatumo, S., Yakubu, A., Oyedele, O., Popoola, J., Attipoe, D. A., Eze-Echesi, G., ... & Ene-Obong, A. (2022). Promoting the genomic revolution in Africa through the Nigerian 100K Genome Project. Nature Genetics, 54(5), 531-536. 
  - CITATION : Joshi, E., Biddanda, A., Popoola, J., Yakubu, A., Osakwe, O., Attipoe, D., ... & Salako, B. (2023). Whole-genome sequencing across 449 samples spanning 47 ethnolinguistic groups provides insights into genetic diversity in Nigeria. Cell genomics, 3(9). 
  - URL : https://allofus.nih.gov/ , https://www.researchallofus.org/register/ 
  - DESCRIPTION : Genomic studies in African populations provide unique opportunities to understand disease aetiology, human genetic diversity and population history in a regional and a global context. To leverage the relative benefits of different strategies, we undertook a combined approach of genotyping and whole-genome sequencing (WGS) in a population-based study of 6,400 individuals from a geographically defined rural community in South-West Uganda. We present data from 4,778 individuals with genotypes for ~2.2 million SNPs from the Uganda GWAS resource (UGWAS), and sequence data on up to 1,978 individuals spanning 41.5M SNPs and 4.5M indels (UG2G); 343 individuals overlap between the two datasets. We highlight the value of the largest sequence panel from Africa to date as a global resource for variant discovery, imputation and understanding the mutational spectrum and its clinical relevance in African populations. Alongside phenotype data, we provide a rich new genomic resource for researchers in Africa and globally 
- - Name : [Non-Communicable Diseases Genetic Heritage Study (NCD-GHS; Nigerian 100K Genome Project)](#non-communicable-diseases-genetic-heritage-study-(ncd-ghs;-nigerian-100k-genome-project)) 
+ - Name : [Nigerian 100K Genome Project](#nigerian-100k-genome-project) 
  - Link : [Here](https://allofus.nih.gov/ , https://www.researchallofus.org/register/) 
  
 
-### Uganda Genome Resource (MedicalResearchCouncil (MRC)/UgandaVirusResearchInstitute (UVRI) and LSHTM Uganda Research Unit)
+### The Egypt Genome Project
 
-- BIOBANK&COHORT : Uganda Genome Resource (MedicalResearchCouncil (MRC)/UgandaVirusResearchInstitute (UVRI) and LSHTM Uganda Research Unit) 
+- BIOBANK&COHORT : The Egypt Genome Project 
+ - CONTINENT : AFRICA 
+ - LOCATION : Egypt 
+ - SAMPLE SIZE : ~100K 
+ - CITATION : Elmonem, M.A., Soliman, N.A., Moustafa, A. et al. The Egypt Genome Project. Nat Genet (2024). https://doi.org/10.1038/s41588-024-01739-1 
+ - URL : https://egp.sci.eg/ 
+ - Name : [The Egypt Genome Project](#the-egypt-genome-project) 
+ - Link : [Here](https://egp.sci.eg/) 
+ 
+
+### Uganda Genome Resource 
+
+- BIOBANK&COHORT : Uganda Genome Resource 
+ - ABBREVIATION : UGR 
  - CONTINENT : AFRICA 
  - LOCATION : Uganda 
+ - ANCESTRY : AFR 
  - SAMPLE SIZE : ~6k 
+ - NOTE : (MedicalResearchCouncil (MRC)/UgandaVirusResearchInstitute (UVRI) and LSHTM Uganda Research Unit) 
  - CITATION : Gurdasani, D., Carstensen, T., Fatumo, S., Chen, G., Franklin, C. S., Prado-Martinez, J., ... & Sandhu, M. S. (2019). Uganda genome resource enables insights into population history and genomic discovery in Africa. Cell, 179(4), 984-1002. 
  - URL : https://www. lshtm.ac.uk/research/units/mrc-uganda 
  - DESCRIPTION : The IndiGenomes resource encompasses the genomic data from over 1000 whole genome sequences sequenced from across India as part of the IndiGen programme and represents diverse geographies and ethnicities. The resource provides access to over 55 million genetic variants comprising of single nucleotide variants and indels. The variants are systematically annotated according to the recent Genome Reference Consortium Human Build 38 (GRCh38). Clinically relevant annotations as well as allele frequencies from global populations have also been integrated. 
- - Name : [Uganda Genome Resource (MedicalResearchCouncil (MRC)/UgandaVirusResearchInstitute (UVRI) and LSHTM Uganda Research Unit)](#uganda-genome-resource-(medicalresearchcouncil-(mrc)/ugandavirusresearchinstitute-(uvri)-and-lshtm-uganda-research-unit)) 
+ - Name : [Uganda Genome Resource ](#uganda-genome-resource-) 
  - Link : [Here](https://www. lshtm.ac.uk/research/units/mrc-uganda) 
  
 
 ## AMERICA
 
-### All of Us (AoU)
+### All of Us
 
-- BIOBANK&COHORT : All of Us (AoU) 
+- BIOBANK&COHORT : All of Us 
+ - ABBREVIATION : AoU 
  - CONTINENT : AMERICA 
  - LOCATION : U.S. 
- - SAMPLE SIZE : ~358k 
+ - ANCESTRY : EUR, AFR, AMR, EAS, SAS, WAS 
+ - SAMPLE SIZE : ~413k 
  - WGS/WES : ~245K 
  - CITATION : Investigators, A. U. R. P. (2019). The “All of Us” research program. New England Journal of Medicine, 381(7), 668-676. 
  - CITATION : Bick, A. G., Metcalf, G. A., Mayo, K. R., Lichtenstein, L., Rura, S., Carroll, R. J., ... & Denny, J. C. (2024). Genomic data in the All of Us research program. Nature. 
  - URL : https://precisionhealth.umich.edu/our-research/michigangenomics/ 
  - DESCRIPTION : The All of Us Research Program is a historic effort to collect and study data from one million or more people living in the United States. The goal of the program is better health for all of us. The program began national enrollment in 2018 and is expected to last at least 10 years. 
- - Name : [All of Us (AoU)](#all-of-us-(aou)) 
+ - Name : [All of Us](#all-of-us) 
  - Link : [Here](https://precisionhealth.umich.edu/our-research/michigangenomics/) 
  
 
@@ -223,9 +246,10 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - Link : [Here](https://pmbb.med.upenn.edu/) 
  
 
-### Million Veteran Program (MVP)
+### Million Veteran Program
 
-- BIOBANK&COHORT : Million Veteran Program (MVP) 
+- BIOBANK&COHORT : Million Veteran Program 
+ - ABBREVIATION : MVP 
  - CONTINENT : AMERICA 
  - LOCATION : U.S. 
  - SAMPLE SIZE : ~900k 
@@ -233,7 +257,7 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - CITATION : Hunter-Zinck, H., Shi, Y., Li, M., Gorman, B. R., Ji, S. G., Sun, N., ... & Pyarajan, S. (2020). Genotyping array design and data quality control in the Million Veteran Program. The American Journal of Human Genetics, 106(4), 535-548. 
  - URL : https://www.mvp.va.gov/pwa/ 
  - DESCRIPTION : The Million Veteran Program (MVP) is a national research program to learn how genes, lifestyle, and military exposures affect health and illness. Since launching in 2011, over 900,000 Veteran partners have joined one of the world's largest programs on genetics and health. 
- - Name : [Million Veteran Program (MVP)](#million-veteran-program-(mvp)) 
+ - Name : [Million Veteran Program](#million-veteran-program) 
  - Link : [Here](https://www.mvp.va.gov/pwa/) 
  
 
@@ -249,16 +273,17 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - Link : [Here](https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank) 
  
 
-### The Canadian Longitudinal Study on Aging (CLSA)
+### The Canadian Longitudinal Study on Aging 
 
-- BIOBANK&COHORT : The Canadian Longitudinal Study on Aging (CLSA) 
+- BIOBANK&COHORT : The Canadian Longitudinal Study on Aging 
+ - ABBREVIATION : CLSA 
  - CONTINENT : AMERICA 
  - LOCATION : Canada 
  - SAMPLE SIZE : ~50k 
  - CITATION : Raina, P. S., Wolfson, C., Kirkland, S. A., Griffith, L. E., Oremus, M., Patterson, C., ... & Brazil, K. (2009). The Canadian longitudinal study on aging (CLSA). Canadian Journal on Aging/La Revue canadienne du vieillissement, 28(3), 221-229. 
  - URL : https://www.clsa-elcv.ca/ 
  - DESCRIPTION : The Canadian Longitudinal Study on Aging (CLSA) is a large, national, long-term study that will follow approximately 50,000 individuals who are between the ages of 45 and 85 when recruited, for at least 20 years. The CLSA will collect information on the changing biological, medical, psychological, social, lifestyle and economic aspects of people’s lives. These factors will be studied to understand how, individually and in combination, they have an impact in both maintaining health and in the development of disease and disability as people age. 
- - Name : [The Canadian Longitudinal Study on Aging (CLSA)](#the-canadian-longitudinal-study-on-aging-(clsa)) 
+ - Name : [The Canadian Longitudinal Study on Aging ](#the-canadian-longitudinal-study-on-aging-) 
  - Link : [Here](https://www.clsa-elcv.ca/) 
  
 
@@ -277,11 +302,13 @@ This is an effort to collect the information on major biobanks or cohorts with g
 
 ## ASIA
 
-### BioBank Japan (BBJ)
+### BioBank Japan
 
-- BIOBANK&COHORT : BioBank Japan (BBJ) 
+- BIOBANK&COHORT : BioBank Japan 
+ - ABBREVIATION : BBJ 
  - CONTINENT : ASIA 
  - LOCATION : Japan 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~270k 
  - Array : ~270K 
  - WGS/WES : ~14K 
@@ -289,15 +316,17 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - CITATION : Nagai, A., Hirata, M., Kamatani, Y., Muto, K., Matsuda, K., Kiyohara, Y., ... & Kubo, M. (2017). Overview of the BioBank Japan Project: study design and profile. Journal of epidemiology, 27(Supplement_III), S2-S8. 
  - URL : https://biobankjp.org/ 
  - DESCRIPTION : In 2003, BioBank Japan (BBJ) started developing one of the world’s largest disease biobanks, creating a foundation for research aimed at achieving medical care tailored to the individual traits of each patient. From a total of 260,000 patients representing 440,000 cases of 51 primarily multifactorial (common) diseases, BBJ has collected DNA, serum, medical records (clinical information), etc. with their consent. No less than 5,800 items of screened information are available for research, including the patients’ survival information, with 95% of the patients tracked over an average of 10 years. In addition to large-scale genomic analyses, omics analyses including whole genome sequencing and metabolome/proteome analyses have been performed on the DNA, serum and other biological samples collected, producing significant research findings. The genomic information acquired through the analyses continues to be used as data. The biological samples and data are widely distributed and used by researchers. 
- - Name : [BioBank Japan (BBJ)](#biobank-japan-(bbj)) 
+ - Name : [BioBank Japan](#biobank-japan) 
  - Link : [Here](https://biobankjp.org/) 
  
 
-### Born in Guangzhou Cohort Study (BIGCS)
+### Born in Guangzhou Cohort Study
 
-- BIOBANK&COHORT : Born in Guangzhou Cohort Study (BIGCS) 
+- BIOBANK&COHORT : Born in Guangzhou Cohort Study 
+ - ABBREVIATION : BIGCS 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~50K 
  - WGS/WES : ~4K 
  - STUDY TYPE : trio or duo 
@@ -305,51 +334,59 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - CITATION : Huang, S., Liu, S., Huang, M., He, J. R., Wang, C., Wang, T., ... & Qiu, X. (2024). The Born in Guangzhou Cohort Study enables generational genetic discoveries. Nature, 626(7999), 565-573. 
  - URL : http://www.bigcs.com.cn/en_index.html 
  - DESCRIPTION : The Born in Guangzhou Cohort Study (BIGCS) is a large-scale prospective observational study investigating the role of social, biological and environmental influences on pregnancy and child health and development in an urban setting in southern China. 
- - Name : [Born in Guangzhou Cohort Study (BIGCS)](#born-in-guangzhou-cohort-study-(bigcs)) 
+ - Name : [Born in Guangzhou Cohort Study](#born-in-guangzhou-cohort-study) 
  - Link : [Here](http://www.bigcs.com.cn/en_index.html) 
  
 
-### China Kadoorie Biobank (CKB)
+### China Kadoorie Biobank
 
-- BIOBANK&COHORT : China Kadoorie Biobank (CKB) 
+- BIOBANK&COHORT : China Kadoorie Biobank 
+ - ABBREVIATION : CKB 
  - CONTINENT : ASIA 
  - LOCATION : U.K. and China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~512k 
  - NOTE : University of Oxford, BJMU, Peking Union Medical College 
  - CITATION : Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666. 
  - CITATION : Walters, R. G., Millwood, I. Y., Lin, K., Valle, D. S., McDonnell, P., Hacker, A., ... & Chen, Z. (2023). Genotyping and population characteristics of the China Kadoorie Biobank. Cell Genomics, 3(8). 
  - URL : https://www.ckbiobank.org/ 
  - DESCRIPTION : The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide. 
- - Name : [China Kadoorie Biobank (CKB)](#china-kadoorie-biobank-(ckb)) 
+ - Name : [China Kadoorie Biobank](#china-kadoorie-biobank) 
  - Link : [Here](https://www.ckbiobank.org/) 
  
 
-### Chinese Millionome Database (CMDB)
+### Chinese Millionome Database
 
-- BIOBANK&COHORT : Chinese Millionome Database (CMDB) 
+- BIOBANK&COHORT : Chinese Millionome Database 
+ - ABBREVIATION : CMDB 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~141k 
  - NOTE : Chinese Academy of Sciences (CAS) and German Max Planck Society (MPG) partner institute for computational biology 
  - CITATION : Li, Z., Jiang, X., Fang, M., Bai, Y., Liu, S., Huang, S., & Jin, X. (2022). CMDB: the comprehensive population genome variation database of China. Nucleic Acids Research. 
  - CITATION : Liu, S., Huang, S., Chen, F., Zhao, L., Yuan, Y., Francis, S. S., ... & Xu, X. (2018). Genomic analyses from non-invasive prenatal testing reveal genetic associations, patterns of viral infections, and Chinese population history. Cell, 175(2), 347-359. 
  - URL : https://db.cngb.org/cmdb/ 
  - DESCRIPTION : the largest and the most representative Chinese genome variation database to date. The CMDB database contains 9.04 million single nucleotide variants (SNVs) and the allele frequency information from low-coverage (0.06×–0.1×) WGS data of 141 431 unrelated healthy Chinese individuals. 
- - Name : [Chinese Millionome Database (CMDB)](#chinese-millionome-database-(cmdb)) 
+ - Name : [Chinese Millionome Database](#chinese-millionome-database) 
  - Link : [Here](https://db.cngb.org/cmdb/) 
  
 
-### Han Chinese Genome Initiative (the Han100K Project, PGG.Han)
+### Han Chinese Genome Initiative Phase 1 the Han100K Project
 
-- BIOBANK&COHORT : Han Chinese Genome Initiative (the Han100K Project, PGG.Han) 
+- BIOBANK&COHORT : Han Chinese Genome Initiative Phase 1 the Han100K Project 
+ - ABBREVIATION : Han100K 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~114k 
- - NOTE : ShanghaiTech University; University of Chinese Academy of Sciences 
+ - WGS/WES : ~114k 
+ - NOTE : PGG.Han
+ShanghaiTech University; University of Chinese Academy of Sciences 
  - CITATION : Gao, Y., Zhang, C., Yuan, L., Ling, Y., Wang, X., Liu, C., ... & Xu, S. (2020). PGG. Han: the Han Chinese genome database and analysis platform. Nucleic acids research, 48(D1), D971-D976. 
  - URL : https://www.hanchinesegenomes.org/ 
  - DESCRIPTION : a reference panel of 114 783 Han Chinese individuals (the Han100K), with whole-genome deep-sequenced or high-density genome-wide single-nucleotide variants (SNVs) genotyped or imputed. 
- - Name : [Han Chinese Genome Initiative (the Han100K Project, PGG.Han)](#han-chinese-genome-initiative-(the-han100k-project,-pgg.han)) 
+ - Name : [Han Chinese Genome Initiative Phase 1 the Han100K Project](#han-chinese-genome-initiative-phase-1-the-han100k-project) 
  - Link : [Here](https://www.hanchinesegenomes.org/) 
  
 
@@ -358,6 +395,7 @@ This is an effort to collect the information on major biobanks or cohorts with g
 - BIOBANK&COHORT : IndiGenomes 
  - CONTINENT : ASIA 
  - LOCATION : India 
+ - ANCESTRY : SAS 
  - SAMPLE SIZE : ~10k 
  - CITATION : Jain, A., Bhoyar, R. C., Pandhare, K., Mishra, A., Sharma, D., Imran, M., ... & Sivasubbu, S. (2021). IndiGenomes: a comprehensive resource of genetic variants from over 1000 Indian genomes. Nucleic acids research, 49(D1), D1225-D1232. 
  - URL : http://clingen.igib.res.in/indigen/ 
@@ -366,11 +404,45 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - Link : [Here](http://clingen.igib.res.in/indigen/) 
  
 
+### Korean Genome Project Phase 1
+
+- BIOBANK&COHORT : Korean Genome Project Phase 1 
+ - ABBREVIATION : KGP Korea1K 
+ - CONTINENT : ASIA 
+ - LOCATION : Korea 
+ - ANCESTRY : EAS 
+ - SAMPLE SIZE : ~1K 
+ - WGS/WES : ~1K 
+ - CITATION : Jeon, S., Bhak, Y., Choi, Y., Jeon, Y., Kim, S., Jang, J., ... & Bhak, J. (2020). Korean Genome Project: 1094 Korean personal genomes with clinical information. Science advances, 6(22), eaaz7835. 
+ - URL : http://koreangenome.org/Main_Page 
+ - Name : [Korean Genome Project Phase 1](#korean-genome-project-phase-1) 
+ - Link : [Here](http://koreangenome.org/Main_Page) 
+ 
+
+### Korean Genome Project Phase 2
+
+- BIOBANK&COHORT : Korean Genome Project Phase 2 
+ - ABBREVIATION : KGP Korea4K 
+ - CONTINENT : ASIA 
+ - LOCATION : Korea 
+ - ANCESTRY : EAS 
+ - SAMPLE SIZE : ~4K 
+ - WGS/WES : ~4K 
+ - NOTE : Second phase of Korean Genome Project 
+ - CITATION : Jeon, S., Choi, H., Jeon, Y., Choi, W. H., Choi, H., An, K., ... & Bhak, J. (2024). Korea4K: whole genome sequences of 4,157 Koreans with 107 phenotypes derived from extensive health check-ups. GigaScience, 13, giae014. 
+ - URL : http://koreangenome.org/Korea4K_Genomes 
+ - DESCRIPTION : Korea4K is the second phase data release of the Korean Genome Project (KGP). 
+ - Name : [Korean Genome Project Phase 2](#korean-genome-project-phase-2) 
+ - Link : [Here](http://koreangenome.org/Korea4K_Genomes) 
+ 
+
 ### National Biobank of Korea
 
 - BIOBANK&COHORT : National Biobank of Korea 
+ - ABBREVIATION : NBK 
  - CONTINENT : ASIA 
  - LOCATION : Korea 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~210K 
  - DATA ACCESS : https://koges.leelabsg.org/ , https://zenodo.org/record/7042518 
  - CITATION : Cho, S. Y., Hong, E. J., Nam, J. M., Han, B., Chu, C., & Park, O. (2012). Opening of the national biobank of Korea as the infrastructure of future biomedical science in Korea. Osong public health and research perspectives, 3(3), 177-184. 
@@ -384,26 +456,16 @@ This is an effort to collect the information on major biobanks or cohorts with g
 ### National Center Biobank Network
 
 - BIOBANK&COHORT : National Center Biobank Network 
+ - ABBREVIATION : NCBN 
  - CONTINENT : ASIA 
  - LOCATION : Japan 
- - SAMPLE SIZE : ~130k 
+ - ANCESTRY : EAS 
+ - SAMPLE SIZE : ~120K 
+ - WGS/WES : ~10K 
  - CITATION : Omae, Yosuke, Yu-ichi Goto, and Katsushi Tokunaga. "National Center Biobank Network." Human Genome Variation 9.1 (2022): 1-6. 
  - URL : https://ncbiobank.org/en/home.php 
  - DESCRIPTION : Six National Centers in Japan conduct specialized medical research under the coordination of the National Center Biobank Network (NCBN) and develop therapeutics to improve and protect national health. They actively collaborate to establish a shared biobank and are developing a structure to facilitate industry-academia-government cooperation regarding bioresources through broad joint research. NCBN strives to promote the success of the National Centers and to create bright future for health and human life. 
  - Name : [National Center Biobank Network](#national-center-biobank-network) 
- - Link : [Here](https://ncbiobank.org/en/home.php) 
- 
-
-### National Center Biobank Network (NCBN)
-
-- BIOBANK&COHORT : National Center Biobank Network (NCBN) 
- - CONTINENT : ASIA 
- - LOCATION : Japan 
- - SAMPLE SIZE : ~120K 
- - CITATION : Omae, Y., Goto, Y. I., & Tokunaga, K. (2022). National center biobank network. Human Genome Variation, 9(1), 38. 
- - URL : https://ncbiobank.org/en/home.php 
- - DESCRIPTION : The National Center Biobank Network (NCBN) is a biobank project operated by six National Centers for Biomedical Research and Innovation (NCs) in a networked and federated organizational form, while respecting their individual disease specialties toward the "new medical care". 
- - Name : [National Center Biobank Network (NCBN)](#national-center-biobank-network-(ncbn)) 
  - Link : [Here](https://ncbiobank.org/en/home.php) 
  
 
@@ -412,6 +474,7 @@ This is an effort to collect the information on major biobanks or cohorts with g
 - BIOBANK&COHORT : NyuWa genome resource 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~3k 
  - WGS/WES : ~3K 
  - NOTE : Health Institute of Biophysics, Chinese Academy of Sciences 
@@ -435,39 +498,63 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - Link : [Here](: https://www.qatarbiobank.org.qa/) 
  
 
+### Qatar Genome Program
+
+- BIOBANK&COHORT : Qatar Genome Program 
+ - ABBREVIATION : QGP 
+ - CONTINENT : ASIA 
+ - LOCATION : Qatar 
+ - SAMPLE SIZE : ~6K 
+ - Array : ~6K 
+ - NOTE : Part of Qatar Biobank 
+ - CITATION : RAZALI, Rozaimi Mohamad, et al. Thousands of Qatari genomes inform human migration history and improve imputation of Arab haplotypes. Nature Communications, 2021, 12.1: 5929. 
+ - URL : https://www.qatargenome.org.qa/ 
+ - Name : [Qatar Genome Program](#qatar-genome-program) 
+ - Link : [Here](https://www.qatargenome.org.qa/) 
+ 
+
 ### SG10K_Health
 
 - BIOBANK&COHORT : SG10K_Health 
+ - ABBREVIATION : SG10K 
  - CONTINENT : ASIA 
  - LOCATION : Singapore 
+ - ANCESTRY : EAS, SAS, SEA 
  - SAMPLE SIZE : ~10k 
+ - NOTE : the headline project of the Singapore National Precision Medicine programme (NPM Phase I) 
  - CITATION : Chan, Sock Hoai, et al. "Analysis of clinically relevant variants from ancestrally diverse Asian genomes." Nature communications 13.1 (2022): 1-15. 
- - URL : https://www.npm.sg/collaborate/partners/sg10k/ 
+ - URL : https://npm.a-star.edu.sg/ 
  - DESCRIPTION : SG10K_Health is the headline project of the Singapore National Precision Medicine programme (NPM Phase I). Comprising 10,000 whole-genome sequences from healthy Chinese, Indian, and Malay consented volunteers. SG10K_Health involved a research collaboration across multiple institutions in Singapore, enabling the country to develop the necessary infrastructure and deep capabilities to process, store, and analyse genetic data at the population scale in a safe, secure, and rapid manner. SG10K_Health provides near complete assessment of common genetic variants in Singapore’s three major ethnic groups, which can be used by clinicians to better manage Asian patients with genetic disease and as a control data set to compare against disease studies. Work is ongoing to link the SG10K_Health genomic data to research traits (e.g., height, weight, blood pressure) and clinical records. 
  - Name : [SG10K_Health](#sg10k_health) 
- - Link : [Here](https://www.npm.sg/collaborate/partners/sg10k/) 
+ - Link : [Here](https://npm.a-star.edu.sg/) 
  
 
-### Taiwan Biobank (TWB)
+### Taiwan Biobank
 
-- BIOBANK&COHORT : Taiwan Biobank (TWB) 
+- BIOBANK&COHORT : Taiwan Biobank 
+ - ABBREVIATION : TWB 
  - CONTINENT : ASIA 
  - LOCATION : China, Taiwan 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~150k 
+ - Array : ~109K 
+ - WGS/WES : ~2K 
  - DATA ACCESS : https://taiwanview.twbiobank.org.tw/data_appl (application required) 
  - CITATION : Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... & Lin, Y. F. (2021). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. medRxiv. 
  - CITATION : Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... & Lin, Y. F. (2022). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. Cell Genomics, 100197. 
  - URL : https://www.twbiobank.org.tw/ 
  - DESCRIPTION : The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70 recruited from across Taiwan beginning in 2012. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples. 
- - Name : [Taiwan Biobank (TWB)](#taiwan-biobank-(twb)) 
+ - Name : [Taiwan Biobank](#taiwan-biobank) 
  - Link : [Here](https://www.twbiobank.org.tw/) 
  
 
-### Taizhou Imaging Study (TIS)
+### Taizhou Imaging Study
 
-- BIOBANK&COHORT : Taizhou Imaging Study (TIS) 
+- BIOBANK&COHORT : Taizhou Imaging Study 
+ - ABBREVIATION : TIS 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~1K 
  - Array : ~1K 
  - Metabolome : ~1K 
@@ -475,21 +562,23 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - Imaging : ~1K 
  - CITATION : Jiang, Y., Cui, M., Tian, W., Zhu, S., Chen, J., Suo, C., ... & Taizhou Imaging Study Group. (2021). Lifestyle, multi‐omics features, and preclinical dementia among Chinese: the Taizhou Imaging Study. Alzheimer's & Dementia, 17(1), 18-28. 
  - URL : https://www.fdtzihs.org.cn/dljs 
- - Name : [Taizhou Imaging Study (TIS)](#taizhou-imaging-study-(tis)) 
+ - Name : [Taizhou Imaging Study](#taizhou-imaging-study) 
  - Link : [Here](https://www.fdtzihs.org.cn/dljs) 
  
 
-### The China Metabolic Analytics Project (ChinaMAP)
+### The China Metabolic Analytics Project
 
-- BIOBANK&COHORT : The China Metabolic Analytics Project (ChinaMAP) 
+- BIOBANK&COHORT : The China Metabolic Analytics Project 
+ - ABBREVIATION : ChinaMAP 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~10k 
  - NOTE : Shanghai Jiao Tong University 
  - CITATION : Cao, Y., Li, L., Xu, M., Feng, Z., Sun, X., Lu, J., ... & Wang, W. (2020). The ChinaMAP analytics of deep whole genome sequences in 10,588 individuals. Cell research, 30(9), 717-731. 
  - URL : http://www.mbiobank.com/ 
  - DESCRIPTION : The ChinaMAP is based on three large-scale cohorts: The China Noncommunicable Disease Surveillance 2010, a nationally representative study with 150,000 participants; the Risk Evaluation of cAncers in Chinese diabeTic Individuals: a lONgitudinal (REACTION) study with 250,000 participants15 and the Community-based Cardiovascular Risk During Urbanization in Shanghai with 50,000 participants. 
- - Name : [The China Metabolic Analytics Project (ChinaMAP)](#the-china-metabolic-analytics-project-(chinamap)) 
+ - Name : [The China Metabolic Analytics Project](#the-china-metabolic-analytics-project) 
  - Link : [Here](http://www.mbiobank.com/) 
  
 
@@ -498,6 +587,7 @@ This is an effort to collect the information on major biobanks or cohorts with g
 - BIOBANK&COHORT : The Hisayama Study 
  - CONTINENT : ASIA 
  - LOCATION : Japan 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~8K 
  - CITATION : Ninomiya, T. (2018). Japanese legacy cohort studies: the Hisayama Study. Journal of epidemiology, 28(11), 444-451. 
  - URL : https://www.hisayama.med.kyushu-u.ac.jp/en/ 
@@ -506,22 +596,25 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - Link : [Here](https://www.hisayama.med.kyushu-u.ac.jp/en/) 
  
 
-### The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD)
+### The Japan Prospective Studies Collaboration for Aging and Dementia
 
-- BIOBANK&COHORT : The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD) 
+- BIOBANK&COHORT : The Japan Prospective Studies Collaboration for Aging and Dementia 
+ - ABBREVIATION : JPSC-AD 
  - CONTINENT : ASIA 
  - LOCATION : Japan 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~11K 
  - CITATION : JPSFC-AD Study Group. (2020). Study design and baseline characteristics of a population-based prospective cohort study of dementia in Japan: the Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD). Environmental health and preventive medicine, 25(1), 64. 
  - URL : https://www.eph.med.kyushu-u.ac.jp/jpsc/en/ 
  - DESCRIPTION : Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD） study is a collaborative prospective cohort study of approximately 10,000 elderly people from 8 newly-established community-based dementia cohort studies in Japan, in which the data is prospectively collected by using the pre-specified standardized protocol. The purpose of this study is to evaluate quantitatively environmental and genomic risk factors for dementia in Japanese and to establish effective preventive strategies for dementia, in order to realize healthy aging society. 
- - Name : [The Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD)](#the-japan-prospective-studies-collaboration-for-aging-and-dementia-(jpsc-ad)) 
+ - Name : [The Japan Prospective Studies Collaboration for Aging and Dementia](#the-japan-prospective-studies-collaboration-for-aging-and-dementia) 
  - Link : [Here](https://www.eph.med.kyushu-u.ac.jp/jpsc/en/) 
  
 
-### The Malaysian Cohort (TMC)
+### The Malaysian Cohort
 
-- BIOBANK&COHORT : The Malaysian Cohort (TMC) 
+- BIOBANK&COHORT : The Malaysian Cohort 
+ - ABBREVIATION : TMC 
  - CONTINENT : ASIA 
  - LOCATION : Malaysia 
  - SAMPLE SIZE : ~100k 
@@ -529,7 +622,7 @@ This is an effort to collect the information on major biobanks or cohorts with g
  - CITATION : Jamal, R., Syed Zakaria, S. Z., Kamaruddin, M. A., Abd Jalal, N., Ismail, N., Mohd Kamil, N., ... & Malaysian Cohort Study Group. (2015). Cohort profile: The Malaysian Cohort (TMC) project: a prospective study of non-communicable diseases in a multi-ethnic population. International journal of epidemiology, 44(2), 423-431. 
  - URL : https://www.ukm.my/mycohort/ms/ 
  - DESCRIPTION : Qatar Biobank, a center within Qatar Foundation, was created in collaboration with Hamad Medical Corporation and the Ministry of Public Health to enable local scientists to conduct medical research on prevalent health issues in Qatar. 
- - Name : [The Malaysian Cohort (TMC)](#the-malaysian-cohort-(tmc)) 
+ - Name : [The Malaysian Cohort](#the-malaysian-cohort) 
  - Link : [Here](https://www.ukm.my/mycohort/ms/) 
  
 
@@ -538,6 +631,7 @@ This is an effort to collect the information on major biobanks or cohorts with g
 - BIOBANK&COHORT : The Nagahama Study 
  - CONTINENT : ASIA 
  - LOCATION : Japan 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~10K 
  - Array : ~9K 
  - WGS/WES : ~2K 
@@ -553,8 +647,10 @@ This is an effort to collect the information on major biobanks or cohorts with g
 ### The STROMICS genome study
 
 - BIOBANK&COHORT : The STROMICS genome study 
+ - ABBREVIATION : STROMICS 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~10k 
  - Array : ~10K 
  - STUDY TYPE : prospective registry for patients presented to hospitals with acute ischaemic cerebrovascular events with long-term follow-up 
@@ -567,11 +663,13 @@ Relying on the China National Clinical Research Center for Neurological Diseases
  - Link : [Here](http://www.stromics.org.cn/) 
  
 
-### Tohoku Medical Megabank (TMM)
+### Tohoku Medical Megabank
 
-- BIOBANK&COHORT : Tohoku Medical Megabank (TMM) 
+- BIOBANK&COHORT : Tohoku Medical Megabank 
+ - ABBREVIATION : TMM 
  - CONTINENT : ASIA 
  - LOCATION : Japan 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~157k 
  - WGS/WES : ~69K 
  - Imaging : ~12K Brain MRI 
@@ -579,15 +677,17 @@ Relying on the China National Clinical Research Center for Neurological Diseases
  - CITATION : Kuriyama, S., Yaegashi, N., Nagami, F., Arai, T., Kawaguchi, Y., Osumi, N., ... & Tohoku Medical Megabank Project Study Group. (2016). The Tohoku medical megabank project: design and mission. Journal of epidemiology, 26(9), 493-511. 
  - URL : https://www.megabank.tohoku.ac.jp/english/ 
  - DESCRIPTION : Tohoku University Tohoku Medical Megabank Organization was founded to establish an advanced medical system to foster the reconstruction from the Great East Japan Earthquake. The organization has been developing a biobank that combines medical and genome information during the process of rebuilding the community medical system and supporting health and welfare in the Tohoku area. The information from the brand-new biobank will create a new medical system, and, based on the findings of its analysis, the organization aims to attract more medical practitioners from all over the country to the area, promote industry-academic partnerships, create employment in related fields, and restore the medical system in Tohoku. 
- - Name : [Tohoku Medical Megabank (TMM)](#tohoku-medical-megabank-(tmm)) 
+ - Name : [Tohoku Medical Megabank](#tohoku-medical-megabank) 
  - Link : [Here](https://www.megabank.tohoku.ac.jp/english/) 
  
 
-### Westlake BioBank for Chinese (WBBC)
+### Westlake BioBank for Chinese
 
-- BIOBANK&COHORT : Westlake BioBank for Chinese (WBBC) 
+- BIOBANK&COHORT : Westlake BioBank for Chinese 
+ - ABBREVIATION : WBBC 
  - CONTINENT : ASIA 
  - LOCATION : China 
+ - ANCESTRY : EAS 
  - SAMPLE SIZE : ~14k 
  - Array : ~6K 
  - WGS/WES : ~4K 
@@ -596,7 +696,7 @@ Relying on the China National Clinical Research Center for Neurological Diseases
  - CITATION : Zhu, X. W., Liu, K. Q., Wang, P. Y., Liu, J. Q., Chen, J. Y., Xu, X. J., ... & Zheng, H. F. (2021). Cohort profile: the Westlake BioBank for Chinese (WBBC) pilot project. BMJ open, 11(6), e045564. 
  - URL : https://wbbc.westlake.edu.cn/ 
  - DESCRIPTION : The Westlake BioBank for Chinese (WBBC) cohort is a population-based prospective study with its major purpose to better understand the effect of genetic and environmental factors on growth and development from youngster to elderly. The dataset comprises a wide range of demographics and anthropometric measures, serological tests, physical activity, sleep quality, age at menarche and bone mineral density. WBBC is designed as a prospective cohort study and will recruit at least 100,000 Chinese samples. The pilot project of WBBC has recruited a total of 14,726 participants (4,751 males and 9,975 females) and the baseline survey was carried out from 2017 to 2019. 
- - Name : [Westlake BioBank for Chinese (WBBC)](#westlake-biobank-for-chinese-(wbbc)) 
+ - Name : [Westlake BioBank for Chinese](#westlake-biobank-for-chinese) 
  - Link : [Here](https://wbbc.westlake.edu.cn/) 
  
 
@@ -619,7 +719,7 @@ Relying on the China National Clinical Research Center for Neurological Diseases
 
 - BIOBANK&COHORT : East London Genes & Health 
  - CONTINENT : EUROPE 
- - LOCATION : UK 
+ - LOCATION : U.K. 
  - SAMPLE SIZE : ~100k 
  - CITATION : Finer, S., Martin, H. C., Khan, A., Hunt, K. A., MacLaughlin, B., Ahmed, Z., ... & van Heel, D. A. (2020). Cohort Profile: East London Genes & Health (ELGH), a community-based population genomics and health study in British Bangladeshi and British Pakistani people. International journal of epidemiology, 49(1), 20-21i. 
  - URL : https://www.genesandhealth.org/ 
@@ -633,6 +733,7 @@ Relying on the China National Clinical Research Center for Neurological Diseases
 - BIOBANK&COHORT : Estonian Biobank 
  - CONTINENT : EUROPE 
  - LOCATION : Estonia 
+ - ANCESTRY : EUR 
  - SAMPLE SIZE : ~200k 
  - CITATION : Leitsalu, L., Haller, T., Esko, T., Tammesoo, M. L., Alavere, H., Snieder, H., ... & Metspalu, A. (2015). Cohort profile: Estonian biobank of the Estonian genome center, university of Tartu. International journal of epidemiology, 44(4), 1137-1147. 
  - URL : https://genomics.ut.ee/en/content/estonian-biobank 
@@ -659,7 +760,8 @@ Relying on the China National Clinical Research Center for Neurological Diseases
 - BIOBANK&COHORT : FinnGen 
  - CONTINENT : EUROPE 
  - LOCATION : Finland 
- - SAMPLE SIZE : ~343k 
+ - ANCESTRY : EUR 
+ - SAMPLE SIZE : ~500k 
  - CITATION : Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K., ... & Nelis, M. (2022). FinnGen: Unique genetic insights from combining isolated population and national health register data. medRxiv. 
  - URL : https://www.finngen.fi/en 
  - DESCRIPTION : FinnGen study launched in Finland in the autumn of 2017 is a unique study that combines genome information with digital health care data. The FinnGen study is an unprecedented global research project representing one of the largest studies of this type. Project aims to improve human health through genetic research, and ultimately identify new therapeutic targets and diagnostics for treating numerous diseases. The collaborative nature of the project is exceptional compare to many ongoing studies, and all the partners are working closely together to ensure appropriate transparency, data security and ownership. 
@@ -678,20 +780,6 @@ Relying on the China National Clinical Research Center for Neurological Diseases
  - DESCRIPTION : Generation Scotland is a research study looking at the health and well-being of volunteers and their families. Generation Scotland combines responses to questionnaires of health and well-being from birth through life. We combine this with NHS health records and innovative laboratory science to understand health trajectories. We work closely with researchers and our volunteers to create a rich evidence base for understanding health. Through this rigorous, ethical and safe approach to research, we seek to enable meaningful change in public health. 
  - Name : [Generation Scotland](#generation-scotland) 
  - Link : [Here](https://www.ed.ac.uk/generation-scotland) 
- 
-
-### HUNT
-
-- BIOBANK&COHORT : HUNT 
- - CONTINENT : EUROPE 
- - LOCATION : Norway 
- - SAMPLE SIZE : ~229k 
- - STUDY TYPE : population-based prospective Norwegian cohort 
- - CITATION : Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2022). The HUNT Study: a population-based cohort for genetic research. Cell Genomics, 2(10), 100193. 
- - URL : https://www.ntnu.edu/hunt/hunt-biobank 
- - DESCRIPTION : HUNT Biobank is an established and modern research biobank with high-technology equipment for storage, analysis, sample handling and delivery of samples. Our samples satisfy high quality standards and are stored in accordance with the Data Inspectorates laws and regulations. HUNT Biobank engages in sample handling from The Nord-Trøndelag Health Study (HUNT), Cohort of Norway (CONOR), and can receive samples from other researchers and research projects for storage, analysis and processing of DNA. We do not store samples from private individuals. 
- - Name : [HUNT](#hunt) 
- - Link : [Here](https://www.ntnu.edu/hunt/hunt-biobank) 
  
 
 ### INTERVAL Study
@@ -720,24 +808,44 @@ Relying on the China National Clinical Research Center for Neurological Diseases
  - Link : [Here](https://www.lifelines.nl/researcher) 
  
 
-### The International Agency for Research on Cancer (IARC) Biobank (IBB)
+### The International Agency for Research on Cancer (IARC) Biobank
 
-- BIOBANK&COHORT : The International Agency for Research on Cancer (IARC) Biobank (IBB) 
+- BIOBANK&COHORT : The International Agency for Research on Cancer (IARC) Biobank 
+ - ABBREVIATION : IARC 
  - CONTINENT : EUROPE 
  - LOCATION : France 
  - SAMPLE SIZE : ~560k 
  - CITATION : Mendy, M., Caboux, E., Wild, C. P., & IARC Biobank Steering Committee Members. (2019). Centralization of the IARC biobank: combining multiple sample collections into a common platform. Biopreservation and Biobanking, 17(5), 433-443. 
  - URL : https://ibb.iarc.fr/ 
  - DESCRIPTION : The IARC BioBank (IBB) is one of the largest, most varied and richest International collections of samples in the world. The Biobank is publicly funded, (approximately 60% of its budget is provided by IARC Participating States through the regular budget and the remainder is from research grants) and hosts over 50 different studies, led or coordinated by IARC scientists. The IBB contains both population-based collections from research projects focusing on gene-environment interactions (as in the European Prospective Investigation into Cancer and Nutrition (EPIC) study) and disease-based collections which focus on biomarkers (as in the International Head and Neck Cancer Epidemiology (INHANCE)). Study designs include case-series, prevalence studies, case-control and cohort studies, etc. The IBB contains 5.1 million biological samples from 562,000 individuals. 4 million of the samples are from the EPIC study (over 370,000 individuals) and about one million samples from other collections (close to 200,000 individuals). Most of the samples are body fluids, including plasma, serum and urine as well as extracted DNA samples. 
- - Name : [The International Agency for Research on Cancer (IARC) Biobank (IBB)](#the-international-agency-for-research-on-cancer-(iarc)-biobank-(ibb)) 
+ - Name : [The International Agency for Research on Cancer (IARC) Biobank](#the-international-agency-for-research-on-cancer-(iarc)-biobank) 
  - Link : [Here](https://ibb.iarc.fr/) 
  
 
-### UK Biobank (UKB)
+### The Trøndelag Health Study 
 
-- BIOBANK&COHORT : UK Biobank (UKB) 
+- BIOBANK&COHORT : The Trøndelag Health Study 
+ - ABBREVIATION : HUNT 
+ - CONTINENT : EUROPE 
+ - LOCATION : Norway 
+ - SAMPLE SIZE : ~229k 
+ - Array : ~88K 
+ - WGS/WES : ~2K 
+ - STUDY TYPE : population-based prospective Norwegian cohort 
+ - CITATION : Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2022). The HUNT Study: a population-based cohort for genetic research. Cell Genomics, 2(10), 100193. 
+ - URL : https://www.ntnu.edu/hunt/hunt-biobank 
+ - DESCRIPTION : HUNT Biobank is an established and modern research biobank with high-technology equipment for storage, analysis, sample handling and delivery of samples. Our samples satisfy high quality standards and are stored in accordance with the Data Inspectorates laws and regulations. HUNT Biobank engages in sample handling from The Nord-Trøndelag Health Study (HUNT), Cohort of Norway (CONOR), and can receive samples from other researchers and research projects for storage, analysis and processing of DNA. We do not store samples from private individuals. 
+ - Name : [The Trøndelag Health Study ](#the-trøndelag-health-study-) 
+ - Link : [Here](https://www.ntnu.edu/hunt/hunt-biobank) 
+ 
+
+### UK Biobank
+
+- BIOBANK&COHORT : UK Biobank 
+ - ABBREVIATION : UKB 
  - CONTINENT : EUROPE 
  - LOCATION : U.K. 
+ - ANCESTRY : EUR 
  - SAMPLE SIZE : ~500k 
  - Array : ~500K 
  - WGS/WES : ~500k 
@@ -747,7 +855,7 @@ Relying on the China National Clinical Research Center for Neurological Diseases
  - CITATION : Bycroft, C., Freeman, C., Petkova, D., Band, G., Elliott, L. T., Sharp, K., ... & Marchini, J. (2018). The UK Biobank resource with deep phenotyping and genomic data. Nature, 562(7726), 203-209. 
  - URL : https://www.ukbiobank.ac.uk/ 
  - DESCRIPTION : UK Biobank is a large-scale biomedical database and research resource, containing in-depth genetic and health information from half a million UK participants. The database is regularly augmented with additional data and is globally accessible to approved researchers undertaking vital research into the most common and life-threatening diseases. It is a major contributor to the advancement of modern medicine and treatment and has enabled several scientific discoveries that improve human health. 
- - Name : [UK Biobank (UKB)](#uk-biobank-(ukb)) 
+ - Name : [UK Biobank](#uk-biobank) 
  - Link : [Here](https://www.ukbiobank.ac.uk/) 
  
 
@@ -765,13 +873,15 @@ Relying on the China National Clinical Research Center for Neurological Diseases
 
 ## OCIENIA
 
-### QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)
+### QIMR Berghofer - QIMR Biobank 
 
-- BIOBANK&COHORT : QIMR Berghofer - QIMR Biobank (QSkin and GenEpi) 
+- BIOBANK&COHORT : QIMR Berghofer - QIMR Biobank 
+ - ABBREVIATION : QSkin and GenEpi 
  - CONTINENT : OCIENIA 
  - LOCATION : Australia 
  - SAMPLE SIZE : ~17k 
  - URL : https://genepi.qimr.edu.au/ 
- - Name : [QIMR Berghofer - QIMR Biobank (QSkin and GenEpi)](#qimr-berghofer---qimr-biobank-(qskin-and-genepi)) 
+ - DESCRIPTION : EGYPT CENTER FOR RESEARCH AND REGENERATIVE MEDICINE (ECRRM) IS ONE OF THE RESEARCH UNITS ASSOCIATED WITH THE MINISTRY OF DEFENSE. IT WAS ESTABLISHED BY A PRESIDENTIAL DECREE IN 2017 AND HAS A LEGAL ENTITY AFFILIATED WITH THE MINISTRY OF DEFENSE. THE CENTER WILL INITIATE THE EGYPTIAN GENOME REFERENCE PROJECT, UPON THE PRESIDENT AUTHORIZATION, IN COLLABORATION WITH THE ACADEMY OF SCIENTIFIC RESEARCH AND TECHNOLOGY AND THE MINISTRY OF HIGHER EDUCATION, TO HELP IN THE OVERALL ENHANCEMENT OF THE GENERAL HEALTH CARE IN EGYPT. 
+ - Name : [QIMR Berghofer - QIMR Biobank ](#qimr-berghofer---qimr-biobank-) 
  - Link : [Here](https://genepi.qimr.edu.au/) 
  
