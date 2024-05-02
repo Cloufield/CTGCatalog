@@ -7,9 +7,8 @@
 - bgenix
 - GCTA
 - mungesumstats
-- gwaslab
+- GWASLab
 
----
 ## PLINK1.9
 - SHORT NAME: PLINK1.9
 - FULL NAME: PLINK1.9
@@ -25,7 +24,6 @@
 - DESCRIPTION: The second-generation versions of PLINK will offer dramatic improvements in performance and compatibility. For the first time, users without access to high-end computing resources can perform several essential analyses of the feature-rich and very large genetic datasets coming into use.
 - URL : https://www.cog-genomics.org/plink/2.0/
 - CITATION: Chang, Christopher C., et al. "Second-generation PLINK: rising to the challenge of larger and richer datasets." Gigascience 4.1 (2015): s13742-015.
-- KEY WORDS: 
 
 ## QCTOOL v2
 - SHORT NAME: QCTOOL
@@ -39,7 +37,7 @@
 - DESCRIPTION: Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data.
 - URL : https://hail.is/
 - CITATION: Hail Team. Hail 0.2.13-81ab564db2b4. https://github.com/hail-is/hail/releases/tag/0.2.13.
----
+
 ## LDSC - ld score calculation
 - SHORT NAME:LDSC
 - FULL NAME:LD Score Regression
@@ -62,7 +60,8 @@
 - DESCRIPTION: LDstore is a computationally efficient program for estimating and storing Linkage Disequilibrium (SNP correlations). It combines some of the best features from RAREMETALWORKER and PLINK by implementing parallel processing using OPENMP and storing of the SNP correlations with information about the SNPs in the same binary file for fast lookups. LDstore is therefore the ideal tool for sharing SNP correlations in large-scale meta-analyses of genome-wide association studies and for on-the-fly computing/querying within web portals.
 - URL : http://www.christianbenner.com/#
 - CITATION: Benner, C. et al. Prospects of fine-papping trait-associated genomic regions by using summary statistics from genome-wide association studies. Am. J. Hum. Genet. (2017).
----
+
+
 ## MungeSumstats
 - SHORT NAME: MungeSumstats
 - FULL NAME: MungeSumstats
@@ -71,9 +70,10 @@
 - URL : https://github.com/neurogenomics/MungeSumstats
 - CITATION: Murphy, Alan E., Brian M. Schilder, and Nathan G. Skene. "MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics." Bioinformatics 37.23 (2021): 4593-4596.
 
-## gwaslab
-- SHORT NAME: gwaslab
-- FULL NAME: gwaslab
+## GWASLab
+- SHORT NAME: GWASLab
+- FULL NAME: GWASLab
 - YEAR: 2022
 - DESCRIPTION: a python package for handling GWAS sumstats.
 - URL : https://github.com/Cloufield/gwaslab
+- CITATION: GWASLab preprint: He, Y., Koido, M., Shimmori, Y., Kamatani, Y. (2023). GWASLab: a Python package for processing and visualizing GWAS summary statistics. Preprint at Jxiv, 2023-5. https://doi.org/10.51094/jxiv.370

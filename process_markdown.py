@@ -18,13 +18,28 @@ def overwrite_markdown(filename, df_combined):
     df_combined = df_combined.rename(columns={"TABLE_NAME":"NAME"})
     df_combined["CITATION"] = df_combined["CITATION"].str.replace('\n','<br><br>')
     
-    df_combined.sort_values(by="NAME").loc[:,["NAME","CITATION"]].to_markdown(filename,index=None, mode="a")
+    table_columns = ["NAME","CITATION"]
+    sort_cols = ["NAME"]
+    if "CATEGORY" in df_combined.columns:
+        table_columns.insert(1,"CATEGORY")
+        sort_cols.insert(0,"CATEGORY")
+
+    df_combined.sort_values(by=sort_cols).loc[:,table_columns].to_markdown(filename,index=None, mode="a")
     
     df_combined["CITATION"] = df_combined["CITATION"].str.replace('<br><br>','\n')
     df_combined = df_combined.drop(columns=["NAME"])
     df_combined = df_combined.rename(columns={"_NAME":"NAME"})
     
 
+    with open(filename,"a") as file:
+        if "CATEGORY" in df_combined.columns:
+            print_two_level(filename, df_combined)
+        else:
+            print_one_level(filename, df_combined)
+
+        print("Overwriting {}...".format(filename))
+
+def print_one_level(filename, df_combined):
     with open(filename,"a") as file:
         for index, row in df_combined.sort_values(by=["NAME"]).iterrows():
             file.write("\n")
@@ -37,12 +52,37 @@ def overwrite_markdown(filename, df_combined):
                         for record in row[item].strip().split("\n"):
                             file.write("- {} : {} \n ".format(item.strip(), record.strip()))
                     else:
-                        file.write("- {} : {} \n ".format(item.strip(), row[item].strip()))
-    print("Overwriting {}...".format(filename))
+                        file.write("- {} : {} \n ".format(item.strip(), row[item].strip()))    
+
+def print_two_level(filename, df_combined):
+    with open(filename,"a") as file:
+        for category in df_combined["CATEGORY"].sort_values().unique():
+            file.write("\n")
+            file.write("\n")
+            file.write("## {}\n".format(category))
+            file.write("\n")
+            
+            for index, row in df_combined.loc[df_combined["CATEGORY"]==category,:].sort_values(by=["CATEGORY","NAME"]).iterrows():
+                file.write("\n")
+                file.write("\n")
+                file.write("### {}\n".format(row["NAME"]))
+                file.write("\n")
+                for item in df_combined.columns:
+                    if not pd.isna(row[item]):
+                        if "\n" in item:
+                            for record in row[item].strip().split("\n"):
+                                file.write("- {} : {} \n ".format(item.strip(), record.strip()))
+                        else:
+                            file.write("- {} : {} \n ".format(item.strip(), row[item].strip()))   
 
 
-
-files = ["./docs/Tools_Polygenic_risk_scores_README.md", "./docs/Tools_Fine_mapping_README.md"]
+files = ["./docs/Tools_Polygenic_risk_scores_README.md", 
+         "./docs/Tools_Fine_mapping_README.md",
+         "./docs/Tools_Association_tests_README.md",
+         "./docs/Tools_Colocalization_README.md",
+         "./docs/Tools_Data_processing_README.md",
+         "./docs/Tools_Annotation_README.md",
+         "./docs/Tools_Gene_prioritization_README.md"]
 
 for filename in files:
     if "README.md" in filename: 
