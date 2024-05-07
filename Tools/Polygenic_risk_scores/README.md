@@ -282,6 +282,15 @@
 - URL: https://github.com/Jingning-Zhang/PROSPER
 - CITATION: Zhang, J., Zhan, J., Jin, J., Ma, C., Zhao, R., O’Connell, J., ... & 23andMe Research Team. (2023). An ensemble penalized regression method for multi-ancestry polygenic risk prediction. BioRxiv.
 
+## shaPRS
+- SHORT NAME: shaPRS
+- FULL NAME: shaPRS
+- YEAR: 2024
+- URL : https://github.com/mkelcb/shaprs
+- DESCRIPTION: Leveraging shared genetic effects across traits and ancestries improves accuracy of polygenic scores
+- CITATION : Kelemen, M., Vigorito, E., Fachal, L., Anderson, C. A., & Wallace, C. (2021). ShaPRS: leveraging shared genetic effects across traits or ancestries improves accuracy of polygenic scores. The American Journal of Human Genetics.
+- KEYWORDS: cross-ancestry, genetic correlation
+
 ## Tutorial-Choi
 - SHORT NAME: PRS Tutorial
 - FULL NAME: PRS Tutorial
