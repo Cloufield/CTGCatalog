@@ -82,7 +82,9 @@ files = ["./docs/Tools_Polygenic_risk_scores_README.md",
          "./docs/Tools_Colocalization_README.md",
          "./docs/Tools_Data_processing_README.md",
          "./docs/Tools_Annotation_README.md",
-         "./docs/Tools_Gene_prioritization_README.md"]
+         "./docs/Tools_Gene_prioritization_README.md",
+         "./docs/Tools_HLA_README.md",
+         "./docs/Tools_Imputation_README.md"]
 
 for filename in files:
     if "README.md" in filename: 

@@ -51,7 +51,8 @@ plugins:
 shutil.copyfile("./README.md", "./docs/index.md")
 part2="nav: \n    - Home : index.md\n"
 for dirname in ["Tools","Sumstats","Reference_data","Visualization","Population_Genetics"]: #"Programming","NGS",
-    for root, dirs, files in os.walk("./"+dirname):
+    for root, dirs, files in sorted(os.walk("./"+dirname)):
+        # level1-folder, level2-folder, file 
         #print(root)
 	
 	## get current directory
