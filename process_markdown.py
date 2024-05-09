@@ -76,15 +76,21 @@ def print_two_level(filename, df_combined):
                             file.write("- {} : {} \n ".format(item.strip(), row[item].strip()))   
 
 
-files = ["./docs/Tools_Polygenic_risk_scores_README.md", 
-         "./docs/Tools_Fine_mapping_README.md",
+files = ["./docs/Tools_Annotation_README.md",
          "./docs/Tools_Association_tests_README.md",
+         "./docs/Tools_Association_tests_RWAS_README.md",
+         "./docs/Tools_Association_tests_TWAS_README.md",
+         "./docs/Tools_Association_tests_eQTL_README.md",
+         "./docs/Tools_Association_tests_sQTL_README.md",
          "./docs/Tools_Colocalization_README.md",
          "./docs/Tools_Data_processing_README.md",
-         "./docs/Tools_Annotation_README.md",
+         "./docs/Tools_Drug_discovery_README",
          "./docs/Tools_Gene_prioritization_README.md",
          "./docs/Tools_HLA_README.md",
-         "./docs/Tools_Imputation_README.md"]
+         "./docs/Tools_Heritability_and_genetic_correlation_README.md",
+         "./docs/Tools_Imputation_README.md",
+         "./docs/Tools_Polygenic_risk_scores_README.md", 
+         "./docs/Tools_Fine_mapping_README.md",]
 
 for filename in files:
     if "README.md" in filename: 

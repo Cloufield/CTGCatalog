@@ -1,4 +1,4 @@
-# sQTL
+
 ## THISTLE 
 - SHORT NAME: THISTLE
 - FULL NAME:testing for heterogeneity between isoform-eQTL effects

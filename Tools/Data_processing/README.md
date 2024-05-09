@@ -38,7 +38,7 @@
 - URL : https://hail.is/
 - CITATION: Hail Team. Hail 0.2.13-81ab564db2b4. https://github.com/hail-is/hail/releases/tag/0.2.13.
 
-## LDSC - ld score calculation
+## LDSC
 - SHORT NAME:LDSC
 - FULL NAME:LD Score Regression
 - YEAR:2015
@@ -46,7 +46,7 @@
 - URL:https://github.com/bulik/ldsc
 - CITATION :Bulik-Sullivan, Brendan K., et al. "LD Score regression distinguishes confounding from polygenicity in genome-wide association studies." Nature genetics 47.3 (2015): 291-295.
 
-## GCTA - ld matrix
+## GCTA
 - SHORT NAME: GCTA
 - FULL NAME:Genome-wide complex trait analysis (GCTA)
 - YEAR:2010

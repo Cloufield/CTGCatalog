@@ -59,7 +59,6 @@
 - URL: [https://github.com/ps4dr/ps4dr](https://github.com/ps4dr/ps4dr)
 - CITATION: Emon, M. A., Domingo-Fernández, D., Hoyt, C. T., & Hofmann-Apitius, M. (2020). PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures. BMC bioinformatics, 21(1), 1-21.
 
-
 ## PES
 - FULL NAME:Pharmagenic_enrichment_score
 - SHORT NAME: PES
@@ -67,9 +66,7 @@
 - DESCRIPTION: a framework to quantify an individual’s common variant enrichment in clinically actionable systems responsive to existing drugs.
 - CITATION: Reay, W. R., Atkins, J. R., Carr, V. J., Green, M. J., & Cairns, M. J. (2020). Pharmacological enrichment of polygenic risk for precision medicine in complex disorders. Scientific reports, 10(1), 1-12.
 
-## Reviews&Key_papers
-
-- A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis
+## Guideline-Namba
 - YEAR: 2022
 - DESCRIPTION: a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI)
 - CITATION: Namba, S., Konuma, T., Wu, K. H., Zhou, W., Okada, Y., & Global Biobank Meta-analysis Initiative. (2022). A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis. Cell Genomics, 2(10), 100190.

@@ -1,5 +1,4 @@
 
-# eQTL
 ## MatrixEQTL 
 - SHORT NAME : Matrix eQTL
 - FULL NAME : Matrix eQTL
@@ -29,7 +28,6 @@
 - CITATION: Sun, Wei. "A statistical framework for eQTL mapping using RNA‐seq data." Biometrics 68.1 (2012): 1-11.
 
 ## RASQUAL
-Fine-mapping cellular QTLs with RASQUAL and ATAC-seq
 - SHORT NAME : RASQUAL
 - FULL NAME :Robust Allele Specific QUAntitation and quality controL
 - URL: https://github.com/natsuhiko/rasqual
