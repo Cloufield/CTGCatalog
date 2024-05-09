@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#eqtl" class="md-skip">
+        <a href="#summary-table" class="md-skip">
           Skip to content
         </a>
       
@@ -518,8 +518,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -548,8 +546,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -558,9 +554,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#matrixeqtl" class="md-nav__link">
+  <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      MatrixEQTL
+      Summary Table
     </span>
   </a>
   
@@ -576,9 +572,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tensorqtl" class="md-nav__link">
+  <a href="#matrixeqtl" class="md-nav__link">
     <span class="md-ellipsis">
-      tensorQTL
+      MatrixEQTL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rasqual" class="md-nav__link">
+    <span class="md-ellipsis">
+      RASQUAL
     </span>
   </a>
   
@@ -594,9 +599,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rasqual" class="md-nav__link">
+  <a href="#tensorqtl" class="md-nav__link">
     <span class="md-ellipsis">
-      RASQUAL
+      tensorQTL
     </span>
   </a>
   
@@ -2100,8 +2105,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2110,9 +2113,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#matrixeqtl" class="md-nav__link">
+  <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      MatrixEQTL
+      Summary Table
     </span>
   </a>
   
@@ -2128,9 +2131,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tensorqtl" class="md-nav__link">
+  <a href="#matrixeqtl" class="md-nav__link">
     <span class="md-ellipsis">
-      tensorQTL
+      MatrixEQTL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rasqual" class="md-nav__link">
+    <span class="md-ellipsis">
+      RASQUAL
     </span>
   </a>
   
@@ -2146,9 +2158,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rasqual" class="md-nav__link">
+  <a href="#tensorqtl" class="md-nav__link">
     <span class="md-ellipsis">
-      RASQUAL
+      tensorQTL
     </span>
   </a>
   
@@ -2169,46 +2181,84 @@
                   
 
 
-<h1 id="eqtl">eQTL</h1>
-<h2 id="matrixeqtl">MatrixEQTL</h2>
-<ul>
-<li>SHORT NAME : Matrix eQTL</li>
-<li>FULL NAME : Matrix eQTL</li>
-<li>URL: http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/</li>
-<li>DESCRIPTION : Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix eQTL can test for association between genotype and gene expression using linear regression with either additive or ANOVA genotype effects. The models can include covariates to account for factors as population stratification, gender, and clinical variables. It also supports models with heteroscedastic and/or correlated errors, false discovery rate estimation and separate treatment of local (cis) and distant (trans) eQTLs.</li>
-<li>CITATION: Shabalin, Andrey A. "Matrix eQTL: ultra fast eQTL analysis via large matrix operations." Bioinformatics 28.10 (2012): 1353-1358.</li>
-</ul>
+  <h1>eQTL</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CITATION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#fastqtl">FastQTL</a></td>
+<td style="text-align: left;">Ongen, Halit, et al. "Fast and efficient QTL mapper for thousands of molecular phenotypes." Bioinformatics 32.10 (2016): 1479-1485.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#matrixeqtl">MatrixEQTL</a></td>
+<td style="text-align: left;">Shabalin, Andrey A. "Matrix eQTL: ultra fast eQTL analysis via large matrix operations." Bioinformatics 28.10 (2012): 1353-1358.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#rasqual">RASQUAL</a></td>
+<td style="text-align: left;">Kumasaka, Natsuhiko, Andrew J. Knights, and Daniel J. Gaffney. "Fine-mapping cellular QTLs with RASQUAL and ATAC-seq." Nature genetics 48.2 (2016): 206-213.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#trecase">TReCASE</a></td>
+<td style="text-align: left;">Sun, Wei. "A statistical framework for eQTL mapping using RNA‐seq data." Biometrics 68.1 (2012): 1-11.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#tensorqtl">tensorQTL</a></td>
+<td style="text-align: left;">Taylor-Weiner, A., Aguet, F., Haradhvala, N. J., Gosai, S., Anand, S., Kim, J., ... &amp; Getz, G. (2019). Scaling computational genomics to millions of individuals with GPUs. Genome biology, 20(1), 1-5.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="fastqtl">FastQTL</h2>
 <ul>
-<li>SHORT NAME : FastQTL</li>
-<li>FULL NAME : FastQTL</li>
-<li>URL: https://github.com/francois-a/fastqtl</li>
-<li>DESCRIPTION : In order to discover quantitative trait loci (QTLs), multi-dimensional genomic datasets combining DNA-seq and ChiP-/RNA-seq require methods that rapidly correlate tens of thousands of molecular phenotypes with millions of genetic variants while appropriately controlling for multiple testing. FastQTL implements a popular cis-QTL mapping strategy in a user- and cluster-friendly tool. FastQTL also proposes an efficient permutation procedure to control for multiple testing.</li>
-<li>CITATION: Ongen, Halit, et al. "Fast and efficient QTL mapper for thousands of molecular phenotypes." Bioinformatics 32.10 (2016): 1479-1485.</li>
+<li>NAME : FastQTL </li>
+<li>SHORT NAME : FastQTL </li>
+<li>FULL NAME : FastQTL </li>
+<li>URL : https://github.com/francois-a/fastqtl </li>
+<li>DESCRIPTION : In order to discover quantitative trait loci (QTLs), multi-dimensional genomic datasets combining DNA-seq and ChiP-/RNA-seq require methods that rapidly correlate tens of thousands of molecular phenotypes with millions of genetic variants while appropriately controlling for multiple testing. FastQTL implements a popular cis-QTL mapping strategy in a user- and cluster-friendly tool. FastQTL also proposes an efficient permutation procedure to control for multiple testing. </li>
+<li>CITATION : Ongen, Halit, et al. "Fast and efficient QTL mapper for thousands of molecular phenotypes." Bioinformatics 32.10 (2016): 1479-1485. </li>
 </ul>
-<h2 id="tensorqtl">tensorQTL</h2>
+<h2 id="matrixeqtl">MatrixEQTL</h2>
 <ul>
-<li>SHORT NAME : tensorQTL</li>
-<li>FULL NAME : tensorQTL</li>
-<li>URL: https://github.com/broadinstitute/tensorqtl</li>
-<li>DESCRIPTION : tensorQTL is a GPU-enabled QTL mapper, achieving ~200-300 fold faster cis- and trans-QTL mapping compared to CPU-based implementations.</li>
-<li>CITATION: Taylor-Weiner, A., Aguet, F., Haradhvala, N. J., Gosai, S., Anand, S., Kim, J., ... &amp; Getz, G. (2019). Scaling computational genomics to millions of individuals with GPUs. Genome biology, 20(1), 1-5.</li>
+<li>NAME : MatrixEQTL </li>
+<li>SHORT NAME : Matrix eQTL </li>
+<li>FULL NAME : Matrix eQTL </li>
+<li>URL : http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/ </li>
+<li>DESCRIPTION : Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix eQTL can test for association between genotype and gene expression using linear regression with either additive or ANOVA genotype effects. The models can include covariates to account for factors as population stratification, gender, and clinical variables. It also supports models with heteroscedastic and/or correlated errors, false discovery rate estimation and separate treatment of local (cis) and distant (trans) eQTLs. </li>
+<li>CITATION : Shabalin, Andrey A. "Matrix eQTL: ultra fast eQTL analysis via large matrix operations." Bioinformatics 28.10 (2012): 1353-1358. </li>
+</ul>
+<h2 id="rasqual">RASQUAL</h2>
+<ul>
+<li>NAME : RASQUAL </li>
+<li>SHORT NAME : RASQUAL </li>
+<li>FULL NAME : Robust Allele Specific QUAntitation and quality controL </li>
+<li>URL : https://github.com/natsuhiko/rasqual </li>
+<li>DESCRIPTION : RASQUAL (Robust Allele Specific QUAntification and quality controL) maps QTLs for sequenced based cellular traits by combining population and allele-specific signals. </li>
+<li>CITATION : Kumasaka, Natsuhiko, Andrew J. Knights, and Daniel J. Gaffney. "Fine-mapping cellular QTLs with RASQUAL and ATAC-seq." Nature genetics 48.2 (2016): 206-213. </li>
 </ul>
 <h2 id="trecase">TReCASE</h2>
 <ul>
-<li>SHORT NAME : TReCASE (asSeq)</li>
-<li>FULL NAME : Total Read Count and Allele-Specific Expression</li>
-<li>URL: http://www.bios.unc.edu/~wsun/software.htm</li>
-<li>DESCRIPTION : A Statistical Framework for eQTL Mapping Using RNA-seq Data.</li>
-<li>CITATION: Sun, Wei. "A statistical framework for eQTL mapping using RNA‐seq data." Biometrics 68.1 (2012): 1-11.</li>
+<li>NAME : TReCASE </li>
+<li>SHORT NAME : TReCASE (asSeq) </li>
+<li>FULL NAME : Total Read Count and Allele-Specific Expression </li>
+<li>URL : http://www.bios.unc.edu/~wsun/software.htm </li>
+<li>DESCRIPTION : A Statistical Framework for eQTL Mapping Using RNA-seq Data. </li>
+<li>CITATION : Sun, Wei. "A statistical framework for eQTL mapping using RNA‐seq data." Biometrics 68.1 (2012): 1-11. </li>
 </ul>
-<h2 id="rasqual">RASQUAL</h2>
-<p>Fine-mapping cellular QTLs with RASQUAL and ATAC-seq
-- SHORT NAME : RASQUAL
-- FULL NAME :Robust Allele Specific QUAntitation and quality controL
-- URL: https://github.com/natsuhiko/rasqual
-- DESCRIPTION : RASQUAL (Robust Allele Specific QUAntification and quality controL) maps QTLs for sequenced based cellular traits by combining population and allele-specific signals.
-- CITATION: Kumasaka, Natsuhiko, Andrew J. Knights, and Daniel J. Gaffney. "Fine-mapping cellular QTLs with RASQUAL and ATAC-seq." Nature genetics 48.2 (2016): 206-213.</p>
+<h2 id="tensorqtl">tensorQTL</h2>
+<ul>
+<li>NAME : tensorQTL </li>
+<li>SHORT NAME : tensorQTL </li>
+<li>FULL NAME : tensorQTL </li>
+<li>URL : https://github.com/broadinstitute/tensorqtl </li>
+<li>DESCRIPTION : tensorQTL is a GPU-enabled QTL mapper, achieving ~200-300 fold faster cis- and trans-QTL mapping compared to CPU-based implementations. </li>
+<li>CITATION : Taylor-Weiner, A., Aguet, F., Haradhvala, N. J., Gosai, S., Anand, S., Kim, J., ... &amp; Getz, G. (2019). Scaling computational genomics to millions of individuals with GPUs. Genome biology, 20(1), 1-5. </li>
+</ul>
 
 
 
