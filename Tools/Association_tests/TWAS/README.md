@@ -6,6 +6,7 @@
 - webTWAS
 - TWAShub
 - cTWAS
+- PTWAS
 
 ## FUSION
 - FULL NAME: Functional Summary-based Imputation
@@ -56,10 +57,18 @@
 - CITATION: Mancuso, Nicholas, et al. "Integrating gene expression with summary association statistics to identify genes associated with 30 complex traits." The American Journal of Human Genetics 100.3 (2017): 473-487.
 
 ## cTWAS
-- FULL NAME: cTWAS
-- SHORT NAME:causal-TWAS
+- FULL NAME:causal-TWAS
+- SHORT NAME: cTWAS
 - YEAR: 2024
 - DESCRIPTION: Expression Quantitative Trait Loci (eQTLs) have often been used to nominate candidate genes from Genome-wide association studies (GWAS). However, commonly used methods are susceptible to false positives largely due to Linkage Disequilibrium of eQTLs with causal variants acting on the phenotype directly. Our method, causal-TWAS (cTWAS), addressed this challenge by borrowing ideas from statistical fine-mapping. It is a generalization of Transcriptome-wide association studies (TWAS), but when analyzing any gene, it adjusts for other nearby genes and all nearby genetic variants.
 - URL: https://xinhe-lab.github.io/ctwas/
 - CITATION: Zhao, S., Crouse, W., Qian, S., Luo, K., Stephens, M., & He, X. (2024). Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits. Nature Genetics, 1-12.
 - KEYWORDS: TWAS, fine-mapping
+
+## PTWAS
+- FULL NAME: probabilistic TWAS
+- SHORT NAME: PTWAS
+- YEAR: 2020
+- URL: https://github.com/xqwen/ptwas
+- CITATION: Zhang, Y., Quick, C., Yu, K., Barbeira, A., GTEx Consortium, Luca, F., ... & Wen, X. (2020). PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis. Genome biology, 21, 1-26.
+- KEYWORDS: TWAS, instrumental variables
