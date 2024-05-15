@@ -52,6 +52,15 @@
 - CITATION : https://www.medrxiv.org/content/10.1101/2023.01.07.23284293v2
 - KEYWORDS: cross-ancestry, fine-mapping
 
+## MultiSuSiE  
+- SHORT NAME:MultiSuSiE 
+- FULL NAME: MultiSuSiE
+- YEAR:2024
+- DESCRIPTION: MultiSuSiE is a multi-ancestry extension of the Sum of Single Effects model (Wang et al. 2020 J. R. Statist. Soc. B, Zou et al. 2022 PLoS Genet.) implemented in Python.
+- URL : https://github.com/jordanero/MultiSuSiE
+- CITATION : Rossen, J. et al. MultiSuSiE improves multi-ancestry fine-mapping in All of Us whole-genome sequencing data. medRxiv 2024.05.13.24307291 (2024) doi:10.1101/2024.05.13.24307291
+- KEYWORDS: cross-ancestry, fine-mapping
+
 ## mvSuSiE 
 - SHORT NAME:mvSuSiE
 - FULL NAME:mvSuSiE

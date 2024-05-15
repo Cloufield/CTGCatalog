@@ -15,7 +15,7 @@ with open("./README.md","a") as file:
 with open("./README.md","a") as file:
     file.write("## Summary Table\n\n")
 
-df.loc[:,["Name","CONTINENT","LOCATION","SAMPLE SIZE","Link"]].to_markdown("./README.md",index=None, mode="a")
+df.loc[:,["Name","CONTINENT","SAMPLE SIZE","Link"]].to_markdown("./README.md",index=None, mode="a")
 
 with open("./README.md","a") as file:
     for continent in df["CONTINENT"].sort_values().unique():
