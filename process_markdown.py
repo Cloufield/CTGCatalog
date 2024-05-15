@@ -90,7 +90,7 @@ files = ["./docs/Tools_Annotation_README.md",
          "./docs/Tools_Heritability_and_genetic_correlation_README.md",
          "./docs/Tools_Imputation_README.md",
          "./docs/Tools_Polygenic_risk_scores_README.md", 
-         "./docs/Tools_Fine_mapping_README.md","Tools_Dimension_reduction_README.md"]
+         "./docs/Tools_Fine_mapping_README.md","./docs/Tools_Dimension_reduction_README.md"]
 
 for filename in files:
     if "README.md" in filename: 
