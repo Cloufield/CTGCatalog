@@ -31,3 +31,11 @@
 - URL: https://lvdmaaten.github.io/tsne/
 - CITATION: Van der Maaten, L., & Hinton, G. (2008). Visualizing data using t-SNE. Journal of machine learning research, 9(11).
 - KEYWORDS: t-SNE
+
+## PLINK-MDS
+- SHORT NAME: MDS
+- FULL NAME:  multidimensional scaling 
+- YEAR: 2007
+- URL: https://www.cog-genomics.org/plink/1.9/strat
+- CITATION: Purcell, S., Neale, B., Todd-Brown, K., Thomas, L., Ferreira, M. A., Bender, D., ... & Sham, P. C. (2007). PLINK: a tool set for whole-genome association and population-based linkage analyses. The American journal of human genetics, 81(3), 559-575.
+- KEYWORDS: MDS
