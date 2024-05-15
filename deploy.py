@@ -14,6 +14,9 @@ theme:
   features:
     - navigation.tabs
     - navigation.top
+    - search.highlight
+    - search.suggest
+    - search.share
   font:
     code: Roboto Mono
     text: Roboto
@@ -46,6 +49,7 @@ extra_javascript:
   - javascripts/tablesort.js
 
 plugins:
+  - search
   - mkdocs-jupyter
 '''
 shutil.copyfile("./README.md", "./docs/index.md")
