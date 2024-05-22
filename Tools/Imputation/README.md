@@ -100,6 +100,27 @@
 - CATEGORY: Imputation panel
 - CITATION: Taliun, Daniel, et al. "Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program." Nature 590.7845 (2021): 290-299.
 
+## NARD
+- CATEGORY: Imputation panel
+- FULL NAME: Northeast Asian Reference Database
+- SHORT NAME: NARD
+- URL: https://nard.macrogen.com/
+- CITATION: Yoo, S. K., Kim, C. U., Kim, H. L., Kim, S., Shin, J. Y., Kim, N., ... & Seo, J. S. (2019). NARD: whole-genome reference panel of 1779 Northeast Asians improves imputation accuracy of rare and low-frequency variants. Genome medicine, 11, 1-10.
+
+## NARD2
+- FULL NAME: Northeast Asian Reference Database 2
+- SHORT NAME: NARD2
+- CATEGORY: Imputation panel
+- URL: https://nard.macrogen.com/
+- CITATION: Choi, J., Kim, S., Kim, J., Son, H. Y., Yoo, S. K., Kim, C. U., ... & Im, S. W. (2023). A whole-genome reference panel of 14,393 individuals for East Asian populations accelerates discovery of rare functional variants. Science Advances, 9(32), eadg6319.
+
+## 1KG+7K
+- FULL NAME: 1KG+7K
+- SHORT NAME: 1KG+7K
+- CATEGORY: Imputation panel
+- CITATION: Terao, C., Flanagan, J., Tomizuka, K., Liu, X., Ortega-Reyes, D., Matoba, N., ... & Horikoshi, M. (2023). Population-specific reference panel improves imputation quality and enhances locus discovery and fine-mapping.
+- KEYWORDS : Japanese population-specific reference panel
+
 ## HGDP+1kGP
 - CATEGORY: Imputation panel
 - SHORT NAME: HGDP+1kGP

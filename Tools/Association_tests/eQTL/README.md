@@ -33,3 +33,11 @@
 - URL: https://github.com/natsuhiko/rasqual
 - DESCRIPTION : RASQUAL (Robust Allele Specific QUAntification and quality controL) maps QTLs for sequenced based cellular traits by combining population and allele-specific signals.
 - CITATION: Kumasaka, Natsuhiko, Andrew J. Knights, and Daniel J. Gaffney. "Fine-mapping cellular QTLs with RASQUAL and ATAC-seq." Nature genetics 48.2 (2016): 206-213.
+
+## SAIGE-QTL
+- SHORT NAME : SAIGE-QTL
+- FULL NAME : SAIGE-QTL
+- URL: https://github.com/weizhou0/qtl
+- DESCRIPTION : SAIGE-QTL is a robust and scalable tool that can directly map eQTLs using single-cell profiles without needing aggregation at the pseudobulk level.
+- CITATION: Zhou, W., Cuomo, A., Xue, A., Kanai, M., Chau, G., Krishna, C., ... & Neale, B. M. (2024). Efficient and accurate mixed model association tool for single-cell eQTL analysis. medRxiv, 2024-05.
+- KEYWORDS: single -cell eQTL, rare variant, set-based test, trans-eQTL, SPA
