@@ -291,6 +291,16 @@
 - CITATION : Kelemen, M., Vigorito, E., Fachal, L., Anderson, C. A., & Wallace, C. (2021). ShaPRS: leveraging shared genetic effects across traits or ancestries improves accuracy of polygenic scores. The American Journal of Human Genetics.
 - KEYWORDS: cross-ancestry, genetic correlation
 
+
+## GenoBoost
+- SHORT NAME: GenoBoost
+- FULL NAME: GenoBoost
+- YEAR: 2024
+- URL : https://github.com/rickyota/genoboost
+- DESCRIPTION: GenoBoost is a polygenic score method to capture additive and non-additive genetic inheritance effects.
+- CITATION : Ohta, R., Tanigawa, Y., Suzuki, Y., Kellis, M., & Morishita, S. (2024). A polygenic score method boosted by non-additive models. Nature Communications, 15(1), 1-13.
+- KEYWORDS: additive effects, non-additive effects, statistical boosting
+
 ## Tutorial-Choi
 - SHORT NAME: PRS Tutorial
 - FULL NAME: PRS Tutorial
