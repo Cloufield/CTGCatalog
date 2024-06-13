@@ -71,5 +71,5 @@ These data are often derived from large-scale meta-analyses.
 * GIANT (Genetic Investigation of ANthropometric Traits)：https://portals.broadinstitute.org/collaboration/giant/index.php/Main_Page
 * GLGC (Global Lipids Genetics Consortium):  http://csg.sph.umich.edu/willer/public/glgc-lipids2021/
 * PGC (Psychiatric Genomics Consortium): https://www.med.unc.edu/pgc/download-results/
-
+* Cardiovascular Disease Knowledge Portal : https://cvd.hugeamp.org/
 ...
