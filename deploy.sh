@@ -1,5 +1,6 @@
 #!/bin/bash
-git pull
+#git pull
+
 python ./deploy.py
 python process_markdown.py
 #mkdocs serve
