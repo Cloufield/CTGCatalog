@@ -146,7 +146,13 @@ files = [   "./docs/Tools_Annotation_README.md",
             "./docs/Tools_Tissue_and_single_cell_README.md",
             "./docs/Tools_Winners_curse_README.md",
             "./docs/Population_Genetics_Admixture_README.md",
-            "./docs/Population_Genetics_Selection_README.md"]
+            "./docs/Population_Genetics_Selection_README.md",
+            "./docs/Visualization_Chromosome_README.md",
+            "./docs/Visualization_Forest_plot_README.md",
+            "./docs/Visualization_GWAS_README.md",
+            "./docs/Visualization_Heatmap_README.md",
+            "./docs/Visualization_LD_README.md",
+            "./docs/Visualization_Variants_on_protein_README.md"]
 
 
 pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string"})
@@ -155,6 +161,10 @@ pop = pop0
 
 pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Tools",dtype={"PMID":"string"})
 pop0["FIELD"] = "Tools"
+pop = pd.concat([pop,pop0])
+
+pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Visualization",dtype={"PMID":"string"})
+pop0["FIELD"] = "Visualization"
 pop = pd.concat([pop,pop0])
 
 import sys 
@@ -167,6 +177,6 @@ pop_pmid
 
 for filename in files:
     if "README.md" in filename:
-            file =  filename.replace("_README.md","").replace("./docs/Tools_","").replace("./docs/Population_","")
+            file =  filename.replace("_README.md","").replace("./docs/Tools_","").replace("./docs/Population_","").replace("./docs/Visualization_","")
             df_combined = pop_pmid.loc[pop_pmid["FILE"]==file,:]
             overwrite_markdown(filename, df_combined)
