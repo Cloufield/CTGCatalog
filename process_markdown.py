@@ -47,7 +47,7 @@ def overwrite_markdown(filename, df_combined, output_items):
         df_combined = format_data_sumstats(df_combined)
     
     #shortcuts to main text
-    df_combined["NAME_FOR_LINK"] = df_combined["NAME"].str.replace('[^A-Za-z0-9\s]+',"",regex=True).str.replace('\s+','-',regex=True).str.replace('-+','-',regex=True).str.lower()
+    df_combined["NAME_FOR_LINK"] = df_combined["NAME"].str.replace('[^A-Za-z0-9\s]+',"-",regex=True).str.replace('\s+','-',regex=True).str.replace('[-]+','-',regex=True).str.lower()
     df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+ df_combined["NAME_FOR_LINK"] + ")"
     
     df_combined = df_combined.rename(columns={"NAME":"_NAME"})
