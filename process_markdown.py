@@ -10,16 +10,30 @@ def format_string(series):
             string.append(str(i))
     return " ; ".join(string)
     
-def format_data(df_combined):
+def format_data(df_combined_in):
+    df_combined = df_combined_in.copy()
+
     df_combined.loc[df_combined["CITATION"].isna(),"CITATION"] = df_combined.loc[df_combined["CITATION"].isna(),"MANUAL_CITATION"]
     
     df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
     
     df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
+
+    is_journal_info_empty = df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].isna().all(axis=1)
     
-    df_combined["NAME"] = df_combined["NAME"].str.replace(" ","-").str.replace(".","-")
+    df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
+
+    df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
     
     df_combined["PUBMED_LINK"] = "["+ df_combined["PMID"] + "](" + "https://pubmed.ncbi.nlm.nih.gov/" +  df_combined["PMID"] + ")"
+
+    df_combined["URL"] = "["+ df_combined["URL"] + "](" + df_combined["URL"] + ")"
+
+    return df_combined
+
+def format_data_sumstats(df_combined):
+    is_not_na = ~df_combined["RELATED_BIOBANK"].isna()
+    df_combined.loc[is_not_na, "RELATED_BIOBANK"] = "["+ df_combined.loc[is_not_na, "RELATED_BIOBANK"]  + "](" + "./Sumstats_Biobanks_Cohorts_README.md#" + df_combined.loc[is_not_na, "RELATED_BIOBANK"].str.replace('\s+',"-",regex=True).str.lower() + ")"
     return df_combined
 
 def overwrite_markdown(filename, df_combined):
@@ -27,18 +41,23 @@ def overwrite_markdown(filename, df_combined):
         file.write("## Summary Table\n\n")
     
     df_combined = format_data(df_combined)
+    if filename=="./docs/Sumstats_README.md":
+        df_combined = format_data_sumstats(df_combined)
+    
     #shortcuts to main text
-    df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+df_combined["NAME"].str.replace("\s+","-").str.lower() + ")"
+    df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+df_combined["NAME"].str.replace('[^A-Za-z0-9\s]+',"",regex=True).str.replace('\s+','-',regex=True).str.lower() + ")"
     
     df_combined = df_combined.rename(columns={"NAME":"_NAME"})
     df_combined = df_combined.rename(columns={"TABLE_NAME":"NAME"})
     
     df_combined["CITATION"] = df_combined["CITATION"].str.replace('\n','<br><br>')
     
-    
-
-    table_columns = ["NAME","CITATION","YEAR"]
+    if filename=="./docs/Sumstats_README.md":
+        table_columns = ["NAME","MAIN_ANCESTRY"]
+    else:
+        table_columns = ["NAME","CITATION","YEAR"]
     sort_cols = ["NAME"]
+
     if "CATEGORY" in df_combined.columns:
         if not df_combined["CATEGORY"].isna().all():
             table_columns.insert(1,"CATEGORY")
@@ -66,7 +85,7 @@ def print_one_level(filename, df_combined):
     output_items = ['NAME', 'PUBMED_LINK', 
        'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
        'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
-       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI']
+       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI',"RELATED_BIOBANK","MAIN_ANCESTRY"]
     with open(filename,"a") as file:
         for index, row in df_combined.sort_values(by=["NAME"]).iterrows():
             file.write("\n")
@@ -86,7 +105,8 @@ def print_two_level(filename, df_combined):
     output_items = ['NAME', 'PUBMED_LINK', 
        'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
        'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
-       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI']
+       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI',"RELATED_BIOBANK","MAIN_ANCESTRY"]
+    
     with open(filename,"a") as file:
         for category in df_combined["CATEGORY"].sort_values().unique():
             file.write("\n")
@@ -152,7 +172,8 @@ files = [   "./docs/Tools_Annotation_README.md",
             "./docs/Visualization_GWAS_README.md",
             "./docs/Visualization_Heatmap_README.md",
             "./docs/Visualization_LD_README.md",
-            "./docs/Visualization_Variants_on_protein_README.md"]
+            "./docs/Visualization_Variants_on_protein_README.md",
+            "./docs/Sumstats_README.md"]
 
 
 pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string"})
@@ -167,6 +188,10 @@ pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Visualization",dtype={"PMID":
 pop0["FIELD"] = "Visualization"
 pop = pd.concat([pop,pop0])
 
+pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Sumstats",dtype={"PMID":"string"})
+pop0["FIELD"] = "Sumstats"
+pop = pd.concat([pop,pop0])
+
 import sys 
 sys.path.insert(0,"/home/yunye/work/github_projects/citationAPI/src")
 import citebiomed as cb
@@ -177,6 +202,6 @@ pop_pmid
 
 for filename in files:
     if "README.md" in filename:
-            file =  filename.replace("_README.md","").replace("./docs/Tools_","").replace("./docs/Population_","").replace("./docs/Visualization_","")
+            file =  filename.replace("_README.md","").replace("./docs/Tools_","").replace("./docs/Population_","").replace("./docs/Visualization_","").replace("./docs/","")
             df_combined = pop_pmid.loc[pop_pmid["FILE"]==file,:]
             overwrite_markdown(filename, df_combined)
