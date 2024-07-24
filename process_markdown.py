@@ -11,23 +11,23 @@ def format_string(series):
     return " ; ".join(string)
     
 def format_data(df_combined_in):
+
     df_combined = df_combined_in.copy()
+    df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
 
     df_combined.loc[df_combined["CITATION"].isna(),"CITATION"] = df_combined.loc[df_combined["CITATION"].isna(),"MANUAL_CITATION"]
     
     df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
     
     df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
-
     is_journal_info_empty = df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].isna().all(axis=1)
-    
     df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
-
-    df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
     
-    df_combined["PUBMED_LINK"] = "["+ df_combined["PMID"] + "](" + "https://pubmed.ncbi.nlm.nih.gov/" +  df_combined["PMID"] + ")"
+    is_pubmedid = ~df_combined["PMID"].isna()
+    df_combined.loc[is_pubmedid, "PUBMED_LINK"] = "["+ df_combined.loc[is_pubmedid, "PMID"] + "](" + "https://pubmed.ncbi.nlm.nih.gov/" +  df_combined.loc[is_pubmedid, "PMID"] + ")"
 
-    df_combined["URL"] = "["+ df_combined["URL"] + "](" + df_combined["URL"] + ")"
+    is_url = ~df_combined["URL"].isna()
+    df_combined.loc[is_url,"URL"] = "["+ df_combined.loc[is_url, "URL"] + "](" + df_combined.loc[is_url, "URL"] + ")"
 
     return df_combined
 
@@ -36,24 +36,30 @@ def format_data_sumstats(df_combined):
     df_combined.loc[is_not_na, "RELATED_BIOBANK"] = "["+ df_combined.loc[is_not_na, "RELATED_BIOBANK"]  + "](" + "./Sumstats_Biobanks_Cohorts_README.md#" + df_combined.loc[is_not_na, "RELATED_BIOBANK"].str.replace('\s+',"-",regex=True).str.lower() + ")"
     return df_combined
 
-def overwrite_markdown(filename, df_combined):
+def overwrite_markdown(filename, df_combined, output_items):
     with open(filename,"w") as file:
         file.write("## Summary Table\n\n")
     
+    #general format
     df_combined = format_data(df_combined)
-    if filename=="./docs/Sumstats_README.md":
+    #topic specific format
+    if filename=="./docs/Sumstats_README.md" or filename=="./docs/Sumstats_GWAS_with_proteomics_README.md":
         df_combined = format_data_sumstats(df_combined)
     
     #shortcuts to main text
-    df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+df_combined["NAME"].str.replace('[^A-Za-z0-9\s]+-',"",regex=True).str.replace('\s+','-',regex=True).str.lower() + ")"
+    df_combined["NAME_FOR_LINK"] = df_combined["NAME"].str.replace('[^A-Za-z0-9\s]+',"",regex=True).str.replace('\s+','-',regex=True).str.replace('-+','-',regex=True).str.lower()
+    df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+ df_combined["NAME_FOR_LINK"] + ")"
     
     df_combined = df_combined.rename(columns={"NAME":"_NAME"})
     df_combined = df_combined.rename(columns={"TABLE_NAME":"NAME"})
     
     df_combined["CITATION"] = df_combined["CITATION"].str.replace('\n','<br><br>')
     
+    ## topic-specifc table
     if filename=="./docs/Sumstats_README.md":
         table_columns = ["NAME","MAIN_ANCESTRY"]
+    elif filename=="./docs/Sumstats_GWAS_with_proteomics_README.md":
+        table_columns = ["NAME","PLATFORM","YEAR","TITLE"]
     else:
         table_columns = ["NAME","CITATION","YEAR"]
     sort_cols = ["NAME"]
@@ -64,7 +70,8 @@ def overwrite_markdown(filename, df_combined):
             sort_cols.insert(0,"CATEGORY")
             df_combined["CATEGORY"] = df_combined["CATEGORY"].fillna("MISC")
 
-    df_combined.sort_values(by=sort_cols).loc[:,table_columns].to_markdown(filename,index=None, mode="a")
+    to_output = df_combined.sort_values(by=sort_cols).loc[:,table_columns].fillna("NA")
+    to_output.to_markdown(filename, index=None, mode="a")
 
     df_combined = df_combined.drop(columns=["NAME"])
     df_combined = df_combined.rename(columns={"_NAME":"NAME"})
@@ -73,15 +80,15 @@ def overwrite_markdown(filename, df_combined):
     with open(filename,"a") as file:
         if "CATEGORY" in df_combined.columns:
             if not df_combined["CATEGORY"].isna().all():
-                print_two_level(filename, df_combined)
+                print_two_level(filename, df_combined, output_items)
             else:
-                print_one_level(filename, df_combined)
+                print_one_level(filename, df_combined, output_items)
         else:
             print_one_level(filename, df_combined)
 
         print("Overwriting {}...".format(filename))
 
-def print_one_level(filename, df_combined):
+def print_one_level(filename, df_combined, output_items):
     output_items = ['NAME', 'PUBMED_LINK', 
        'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
        'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
@@ -101,11 +108,8 @@ def print_one_level(filename, df_combined):
                         else:
                             file.write("- **{}** : {} \n ".format(item.strip(), row[item].strip()))
 
-def print_two_level(filename, df_combined):
-    output_items = ['NAME', 'PUBMED_LINK', 
-       'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
-       'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
-       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI',"RELATED_BIOBANK","MAIN_ANCESTRY"]
+def print_two_level(filename, df_combined, output_items):
+
     
     with open(filename,"a") as file:
         for category in df_combined["CATEGORY"].sort_values().unique():
@@ -173,35 +177,87 @@ files = [   "./docs/Tools_Annotation_README.md",
             "./docs/Visualization_Heatmap_README.md",
             "./docs/Visualization_LD_README.md",
             "./docs/Visualization_Variants_on_protein_README.md",
+            "./docs/Sumstats_GWAS_with_proteomics_README.md",
             "./docs/Sumstats_README.md"]
 
 
-pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string"})
-pop0["FIELD"] = "Population_Genetics"
-pop = pop0
+output_items = ['NAME', 'PUBMED_LINK', 
+       'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
+       'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
+       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI',"RELATED_BIOBANK","MAIN_ANCESTRY"]
 
-pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Tools",dtype={"PMID":"string"})
-pop0["FIELD"] = "Tools"
-pop = pd.concat([pop,pop0])
+tempfile= "formatted_main_table.xlsx"
+if not os.path.isfile(tempfile):
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string"})
+    pop0["FIELD"] = "Population_Genetics"
+    pop = pop0
 
-pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Visualization",dtype={"PMID":"string"})
-pop0["FIELD"] = "Visualization"
-pop = pd.concat([pop,pop0])
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Tools",dtype={"PMID":"string"})
+    pop0["FIELD"] = "Tools"
+    pop = pd.concat([pop,pop0])
 
-pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Sumstats",dtype={"PMID":"string"})
-pop0["FIELD"] = "Sumstats"
-pop = pd.concat([pop,pop0])
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Visualization",dtype={"PMID":"string"})
+    pop0["FIELD"] = "Visualization"
+    pop = pd.concat([pop,pop0])
 
-import sys 
-sys.path.insert(0,"/home/yunye/work/github_projects/citationAPI/src")
-import citebiomed as cb
-query = cb.efetch_from_pubmed( list(pop["PMID"].dropna()) ,email="yunyehe.ctg@gmail.com")
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Sumstats",dtype={"PMID":"string"})
+    pop0["FIELD"] = "Sumstats"
+    pop = pd.concat([pop,pop0])
 
-pop_pmid = pd.merge(pop,query,on="PMID",how="left")
-pop_pmid
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Proteomics",dtype={"PMID":"string"})
+    pop0["FIELD"] = "Proteomics"
+    pop = pd.concat([pop,pop0])
+
+    import sys 
+    sys.path.insert(0,"/home/yunye/work/github_projects/citationAPI/src")
+    import citebiomed as cb
+    query = cb.efetch_from_pubmed( list(pop["PMID"].dropna()) ,email="yunyehe.ctg@gmail.com")
+    pop_pmid = pd.merge(pop,query,on="PMID",how="left")
+    pop_pmid.to_excel(tempfile,index=None)
+else:
+    pop_pmid = pd.read_excel(tempfile,dtype="string")
 
 for filename in files:
     if "README.md" in filename:
-            file =  filename.replace("_README.md","").replace("./docs/Tools_","").replace("./docs/Population_","").replace("./docs/Visualization_","").replace("./docs/","")
+            file = str(filename)
+            for i in ["_README.md","./docs/Tools_","./docs/Population_","./docs/Visualization_","./docs/Sumstats_", "./docs/"]:
+                file =  file.replace(i,"")
             df_combined = pop_pmid.loc[pop_pmid["FILE"]==file,:]
-            overwrite_markdown(filename, df_combined)
+            overwrite_markdown(filename, df_combined, output_items)
+
+#######################################################################################################################################################################################################
+
+biobank_md_path = "./docs/Sumstats_Biobanks_Cohorts_README.md"
+
+df = pd.read_excel("CTGCatalog.xlsx",sheet_name="Biobanks",dtype="string")
+df["NAME_FOR_TABLE"] = df["BIOBANK&COHORT"].str.strip().str.lower().str.replace('\s+','-',regex=True).str.replace('[^a-zA-Z0-9-]+','',regex=True).str.replace('[-]+','-',regex=True)
+df["Name"]= "[" + df["BIOBANK&COHORT"] + "](" + '#' + df["NAME_FOR_TABLE"]  +")"
+df["Link"]= "[Here](" +  df["URL"] +")"
+
+with open(biobank_md_path,"w") as file:
+    file.write("# Biobanks & Cohorts\n\n")
+
+with open(biobank_md_path,"a") as file:
+    file.write("This is an effort to collect the information on major biobanks or cohorts with genomic data around the world.\n\n")
+
+with open(biobank_md_path,"a") as file:
+    file.write("## Summary Table\n\n")
+
+df.loc[:,["Name","CONTINENT","SAMPLE SIZE","Link"]].to_markdown(biobank_md_path,index=None, mode="a")
+
+with open(biobank_md_path,"a") as file:
+    for continent in df["CONTINENT"].sort_values().unique():
+        file.write("\n")
+        file.write("\n")
+        file.write("## {}".format(continent))
+        for index, row in df.loc[df["CONTINENT"]==continent,:].sort_values(by=["BIOBANK&COHORT"]).iterrows():
+            file.write("\n")
+            file.write("\n")
+            file.write("### {}\n\n".format(row["BIOBANK&COHORT"]))
+            for item in df.columns:
+                if not pd.isna(row[item]):
+                    if item == "CITATION":
+                        for cite in row[item].strip().split("\n"):
+                            file.write("- {} : {} \n ".format(item.strip(), cite.strip()))
+                    else:
+                        file.write("- {} : {} \n ".format(item.strip(), row[item].strip()))
