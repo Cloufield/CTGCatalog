@@ -5,7 +5,7 @@ import pandas as pd
 
 #######################################################################################################################################################################################################
 shutil.copyfile("./README.md", "./docs/index.md")
-
+source = sys.argv[1] if len(sys.argv)>1 else None
 
 biobank_md_path = "./docs/Sumstats_Biobanks_Cohorts_README.md"
 
@@ -56,7 +56,7 @@ with open("./docs/index.md","a") as homepage:
     single_line = "- {} : {}\n".format("[Biobanks/Cohorts](Sumstats_Biobanks_Cohorts_README.md)", len(df))
     homepage.write(single_line)
     
-    for sheet in ["Sumstats","Proteomics"]:
+    for sheet in ["Sumstats","Proteomics","Imaging"]:
         df = pd.read_excel("CTGCatalog.xlsx",sheet_name=sheet,dtype={"PMID":"string"})
         type_dir = df.groupby("TYPE")["NAME"].count()
         string_list=[]
@@ -64,7 +64,7 @@ with open("./docs/index.md","a") as homepage:
             type_string = "{} - {}".format(key,value)
             string_list.append(type_string)
         type_line = " , ".join(string_list)
-        key = "[{}]({}_README.md)".format(sheet, sheet)
+        key = "[{}]({}_{}_README.md)".format(sheet, sheet,sheet)
         single_line = "- {} : {}\n".format(key, type_line)
         homepage.write(single_line)
 
@@ -140,10 +140,11 @@ def format_level(series):
 
 part2="nav: \n    - Home : index.md\n"
 part2+='''    - Sumstats:
-      - Sumstats: Sumstats_README.md
+      - Sumstats: Sumstats_Sumstats_README.md
       - Biobanks_Cohorts: Sumstats_Biobanks_Cohorts_README.md
       - Metabolomics: Metabolomics_Metabolomics_README.md
-      - Proteomics: Proteomics_Proteomics_README.md\n'''
+      - Proteomics: Proteomics_Proteomics_README.md
+      - Imaging: Imaging_Imaging_README.md\n'''
 
 for dirname in ["Tools","Visualization","Population_Genetics" ]: 
     main_file = "./docs/"+dirname+"_README.md"
@@ -260,12 +261,13 @@ def format_data(df_combined_in):
     df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
 
     df_combined.loc[df_combined["CITATION"].isna(),"CITATION"] = df_combined.loc[df_combined["CITATION"].isna(),"MANUAL_CITATION"]
-    
-    df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
-    
-    df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
-    is_journal_info_empty = df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].isna().all(axis=1)
-    df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
+    try:
+        df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
+        df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
+        is_journal_info_empty = df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].isna().all(axis=1)
+        df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
+    except:
+        pass
     
     is_pubmedid = ~df_combined["PMID"].isna()
     df_combined.loc[is_pubmedid, "PUBMED_LINK"] = "["+ df_combined.loc[is_pubmedid, "PMID"] + "](" + "https://pubmed.ncbi.nlm.nih.gov/" +  df_combined.loc[is_pubmedid, "PMID"] + ")"
@@ -376,6 +378,58 @@ def print_two_level(filename, df_combined, output_items):
                             else:
                                 file.write("- **{}** : {} \n ".format(item.strip(), row[item].strip()))
 
+
+def cite(x):
+    pmid = x["PMID"]
+    try:
+        authors_list = x["Authors"].split(",")
+        if len(authors_list) < 5:
+            authors_string =  ", ".join( [ author  for author in authors_list])
+        else:
+             authors_string = ", ".join( authors_list[0:4] + ["...&"]  + [authors_list[-1]] )
+    
+        authors = authors_string
+    except:
+        authors=""
+    try:
+        title = x["TITLE"]
+    except:
+        title=""
+    try:
+        journal = x["ISO"]
+    except:
+        journal=""
+    try:
+        page = x["PAGE"]
+    except:
+        page=""
+    if x["DOI"] is not None:
+        doi = "doi:{}.".format(x["DOI"])
+    else:
+        doi=""
+    try:
+        year =  x["YEAR"]
+    except:
+        year = ""
+    try:
+        volume = x["VOLUME"]
+    except:
+        volume = ""
+    try:
+        issue = "({})".format(x["ISSUE"])
+    except:
+        issue = ""
+    citation = "{authors}. ({year}) {title} {journal}, {volume} {issue} {page}. {doi} PMID {pmid}".format(authors=authors,
+                                                                                                               year=year,
+                                                                                                               title=title,
+                                                                                                               journal=journal,
+                                                                                                               volume=volume,
+                                                                                                               issue=issue,
+                                                                                                               page=page,
+                                                                                                               doi=doi,
+                                                                                                               pmid=pmid)
+    return citation
+
 output_items = ['NAME', 'PUBMED_LINK', 
        'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
        'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
@@ -383,6 +437,7 @@ output_items = ['NAME', 'PUBMED_LINK',
 
 tempfile= "formatted_main_table.xlsx"
 if not os.path.isfile(tempfile):
+    
     pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string"})
     pop0["FIELD"] = "Population_Genetics"
     pop = pop0
@@ -396,7 +451,7 @@ if not os.path.isfile(tempfile):
     pop = pd.concat([pop,pop0])
 
     pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Sumstats",dtype={"PMID":"string"})
-    pop0["FIELD"] = ""
+    pop0["FIELD"] = "Sumstats"
     pop = pd.concat([pop,pop0])
 
     pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Proteomics",dtype={"PMID":"string"})
@@ -407,14 +462,39 @@ if not os.path.isfile(tempfile):
     pop0["FIELD"] = "Metabolomics"
     pop = pd.concat([pop,pop0])
 
-    import sys 
-    sys.path.insert(0,"/home/yunye/work/github_projects/citationAPI/src")
-    import citebiomed as cb
-    print("Matching PMID from PUBMED....")
-    query = cb.efetch_from_pubmed( list(pop["PMID"].dropna()) ,email="yunyehe.ctg@gmail.com")
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Imaging",dtype={"PMID":"string"})
+    pop0["FIELD"] = "Imaging"
+    pop = pd.concat([pop,pop0])
 
-    pop_pmid = pd.merge(pop,query,on="PMID",how="left")
-    pop_pmid.to_excel(tempfile,index=None)
+    if source == "pubmed":
+        import sys 
+        sys.path.insert(0,"/home/yunye/work/github_projects/citationAPI/src")
+        import citebiomed as cb
+        print("Matching PMID from PUBMED....")
+        query = cb.efetch_from_pubmed( list(pop["PMID"].dropna()) ,email="yunyehe.ctg@gmail.com")
+        pop_pmid = pd.merge(pop,query,on="PMID",how="left")
+        pop_pmid.to_excel(tempfile,index=None)
+    
+    else:
+        ref = pd.read_csv("References.csv",sep=",",dtype="string")
+        ref = ref.dropna(subset="PMID").drop_duplicates(subset="PMID")
+        ref = ref.rename(columns={
+            "Title":"TITLE",
+            "Journal":"ISO",
+            "Full journal":"JOURNAL",
+            "Publication year":"YEAR",
+            "Volume":"VOLUME",
+            "Pages":"PAGE",
+            "Issue":"ISSUE",
+            "Copyright":"COPYRIGHT",
+            "Abstract":"ABSTRACT",
+        })
+
+        ref["FIRST_AUTHOR"] = ref["Authors"].str.split(",").str[0]
+        ref["CITATION"] = ref.fillna("").apply(lambda x: cite(x),axis=1)
+        pop_pmid = pd.merge(pop,ref,on="PMID",how="left")
+        pop_pmid.loc[~pop_pmid["PMID"].isin(ref["PMID"]),"PMID"].dropna().drop_duplicates().to_csv("not_in_lib.pmidlist",index=None,header=None)
+
 else:
     pop_pmid = pd.read_excel(tempfile,dtype="string")
 
@@ -435,6 +515,7 @@ print(pop_pmid["PATH"].unique())
 
 for path in pop_pmid["PATH"].unique():
     df_combined = pop_pmid.loc[pop_pmid["PATH"]==path,:]
+    print(path, len(df_combined))
     overwrite_markdown(path, df_combined, output_items)
 
 
