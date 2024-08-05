@@ -254,15 +254,48 @@ def format_string(series):
         if i is not None:
             string.append(str(i))
     return " ; ".join(string)
-    
+
+def add_prefix_suffix_to_name(series):
+
+    name = series["NAME"]
+    prefix_i = series["ADD_PREFIX"]
+    suffix_i = series["ADD_SUFFIX"]
+    first_author_i = series["USE_FIRST_AUTHOR"]
+    prefix = series["TYPE"]
+    suffix= series["PMID"]
+    first_author = series["FIRST_AUTHOR"] 
+
+    name_string = "{}".format(name)
+
+    if first_author_i == "1" :
+            if len(first_author)>0:
+                name_string = "{}".format(first_author)
+    if prefix_i == "1" :
+            if len(prefix) >0:
+                name_string = "{}-{}".format(prefix, name_string)
+    if suffix_i == "1":
+            if len(suffix) >0:
+                name_string = "{}-{}".format(name_string, suffix)
+                
+    return name_string
+
 def format_data(df_combined_in):
 
     df_combined = df_combined_in.copy()
     df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
 
     df_combined.loc[df_combined["CITATION"].isna(),"CITATION"] = df_combined.loc[df_combined["CITATION"].isna(),"MANUAL_CITATION"]
+    
+    #try:
+    if "ADD_PREFIX" in df_combined.columns and "ADD_SUFFIX" in df_combined.columns and "USE_FIRST_AUTHOR" in df_combined.columns: 
+        df_combined[["ADD_PREFIX","ADD_SUFFIX","USE_FIRST_AUTHOR"]] = df_combined[["ADD_PREFIX","ADD_SUFFIX","USE_FIRST_AUTHOR"]].fillna("0")
+        df_combined["NAME"] = df_combined[["NAME","ADD_PREFIX","ADD_SUFFIX","USE_FIRST_AUTHOR","TYPE","PMID","FIRST_AUTHOR"]].fillna("").apply(lambda x: add_prefix_suffix_to_name(x), axis=1 )
+        #print("fixing names -----------------------------------------------")
+    #except:
+    #    pass
+
     try:
-        df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
+        #df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
         df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
         is_journal_info_empty = df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].isna().all(axis=1)
         df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
@@ -293,7 +326,7 @@ def overwrite_markdown(filename, df_combined, output_items):
         df_combined = format_data_sumstats(df_combined)
     
     #shortcuts to main text
-    df_combined["NAME_FOR_LINK"] = df_combined["NAME"].str.replace('[^A-Za-z0-9\s]+',"-",regex=True).str.replace('\s+','-',regex=True).str.replace('[-]+','-',regex=True).str.lower()
+    df_combined["NAME_FOR_LINK"] = df_combined["NAME"].str.strip().str.lower().str.replace('\s+','-',regex=True).str.replace('[^a-zA-Z0-9-]+','',regex=True).str.replace('[-]+','-',regex=True)
     df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+ df_combined["NAME_FOR_LINK"] + ")"
     
     df_combined = df_combined.rename(columns={"NAME":"_NAME"})
@@ -332,7 +365,7 @@ def overwrite_markdown(filename, df_combined, output_items):
         else:
             print_one_level(filename, df_combined)
 
-        print("Overwriting {}...".format(filename))
+        #print("Overwriting {}...".format(filename))
 
 def print_one_level(filename, df_combined, output_items):
     output_items = ['NAME', 'PUBMED_LINK', 
@@ -437,32 +470,32 @@ output_items = ['NAME', 'PUBMED_LINK',
 
 tempfile= "formatted_main_table.xlsx"
 if not os.path.isfile(tempfile):
-    
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string"})
+    print("Loading data from main excel tables...")
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Population_Genetics",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Population_Genetics"
     pop = pop0
 
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Tools",dtype={"PMID":"string"})
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Tools",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Tools"
     pop = pd.concat([pop,pop0])
 
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Visualization",dtype={"PMID":"string"})
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Visualization",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Visualization"
     pop = pd.concat([pop,pop0])
 
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Sumstats",dtype={"PMID":"string"})
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Sumstats",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Sumstats"
     pop = pd.concat([pop,pop0])
 
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Proteomics",dtype={"PMID":"string"})
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Proteomics",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Proteomics"
     pop = pd.concat([pop,pop0])
 
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Metabolomics",dtype={"PMID":"string"})
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Metabolomics",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Metabolomics"
     pop = pd.concat([pop,pop0])
 
-    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Imaging",dtype={"PMID":"string"})
+    pop0 = pd.read_excel("CTGCatalog.xlsx",sheet_name="Imaging",dtype={"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"})
     pop0["FIELD"] = "Imaging"
     pop = pd.concat([pop,pop0])
 
@@ -491,10 +524,11 @@ if not os.path.isfile(tempfile):
         })
 
         ref["FIRST_AUTHOR"] = ref["Authors"].str.split(",").str[0]
+        
         ref["CITATION"] = ref.fillna("").apply(lambda x: cite(x),axis=1)
         pop_pmid = pd.merge(pop,ref,on="PMID",how="left")
         pop_pmid.loc[~pop_pmid["PMID"].isin(ref["PMID"]),"PMID"].dropna().drop_duplicates().to_csv("not_in_lib.pmidlist",index=None,header=None)
-
+        
 else:
     pop_pmid = pd.read_excel(tempfile,dtype="string")
 
