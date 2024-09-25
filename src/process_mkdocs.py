@@ -147,7 +147,7 @@ def write_mkdcos(part1=part1, part2=part2):
     part2+= single_line
     ############################################
 
-    for dirname in ["Genome"]: 
+    for dirname in ["Genome","Variant"]: 
         raw_dir = pd.read_excel("../CTGCatalog_reference.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         folder_cols =[]
         

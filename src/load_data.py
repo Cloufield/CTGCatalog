@@ -93,10 +93,15 @@ def load_ref():
     dtype = {"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"}
     path = "../CTGCatalog_reference.xlsx"
     if not os.path.isfile(tempfile):
+        xl = pd.ExcelFile(path)
         print("Loading data from main excel tables...")
-        pop0 = pd.read_excel(path ,sheet_name="Genome",dtype=dtype)
-        pop0["FIELD"] = "Genome"
-        pop = pop0
+        for index, sheet_name in enumerate(xl.sheet_names):
+            pop0 = pd.read_excel(path ,sheet_name=sheet_name,dtype=dtype)
+            pop0["FIELD"] = sheet_name
+            if index==0:
+                pop = pop0
+            else:
+                pop = pd.concat([pop,pop0])
 
         if source == "pubmed":
             import sys 
