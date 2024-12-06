@@ -1,0 +1,1968 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+      
+        <link rel="prev" href="../Tools_Association_tests_RWAS_README/">
+      
+      
+        <link rel="next" href="../Tools_Association_tests_eQTL_README/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.6">
+    
+    
+      
+        <title>TWAS - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TWAS
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats_Sumstats_README/" class="md-tabs__link">
+          
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools_README/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Visualization_README/" class="md-tabs__link">
+          
+  
+  Visualization
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics_README/" class="md-tabs__link">
+          
+  
+  Population_Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sumstats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Sumstats_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Biobanks_Cohorts_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biobanks_Cohorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Metabolomics_Metabolomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metabolomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Proteomics_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Imaging_Imaging_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Annotation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Association_tests
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_RWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      FUSION
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multixcan" class="md-nav__link">
+    <span class="md-ellipsis">
+      MultiXcan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ptwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      PTWAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predixcan" class="md-nav__link">
+    <span class="md-ellipsis">
+      PrediXcan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s-predixcan" class="md-nav__link">
+    <span class="md-ellipsis">
+      S-PrediXcan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#twas-hub" class="md-nav__link">
+    <span class="md-ellipsis">
+      TWAS hub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ctwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      cTWAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webtwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      webTWAS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_eQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    eQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_sQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Colocalization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocalization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Data_processing_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Dimension_reduction_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dimension_reduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Drug_discovery_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drug_discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Fine_mapping_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_prioritization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_prioritization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_set_pathway_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_set_pathway_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_GxE_interactions_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GxE_interactions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_HLA_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HLA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Heritability_and_genetic_correlation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heritability_and_genetic_correlation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Imputation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imputation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mendelian_randomization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mendelian_randomization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Meta_and_Multi_triat_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meta_and_Multi_triat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Polygenic_risk_scores_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polygenic_risk_scores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Power_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Simulation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Tissue_and_single_cell_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Winners_curse_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Winners_curse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Chromosome_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromosome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Forest_plot_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest_plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_GWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Heatmap_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_LD_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Variants_on_protein_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variants_on_protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Population_Genetics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Admixture_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admixture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Genealogy_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genealogy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Phylogenetic_tree_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenetic_tree
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Selection_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      FUSION
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multixcan" class="md-nav__link">
+    <span class="md-ellipsis">
+      MultiXcan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ptwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      PTWAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#predixcan" class="md-nav__link">
+    <span class="md-ellipsis">
+      PrediXcan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#s-predixcan" class="md-nav__link">
+    <span class="md-ellipsis">
+      S-PrediXcan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#twas-hub" class="md-nav__link">
+    <span class="md-ellipsis">
+      TWAS hub
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ctwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      cTWAS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#webtwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      webTWAS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>TWAS</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CITATION</th>
+<th style="text-align: right;">YEAR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#fusion">FUSION</a></td>
+<td style="text-align: left;">Gusev A, Ko A, Shi H, Bhatia G, ...&amp;, Pasaniuc B. (2016) Integrative approaches for large-scale transcriptome-wide association studies Nat. Genet., 48 (3) 245-252. doi:10.1038/ng.3506. PMID 26854917</td>
+<td style="text-align: right;">2016</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#multixcan">MultiXcan</a></td>
+<td style="text-align: left;">Barbeira AN, Pividori M, Zheng J, Wheeler HE, ...&amp;, Im HK. (2019) Integrating predicted transcriptome from multiple tissues improves association detection PLoS Genet., 15 (1) e1007889. doi:10.1371/journal.pgen.1007889. PMID 30668570</td>
+<td style="text-align: right;">2019</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ptwas">PTWAS</a></td>
+<td style="text-align: left;">Zhang Y, Quick C, Yu K, Barbeira A, ...&amp;, Wen X. (2020) PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis Genome Biol., 21 (1) 232. doi:10.1186/s13059-020-02026-y. PMID 32912253</td>
+<td style="text-align: right;">2020</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#predixcan">PrediXcan</a></td>
+<td style="text-align: left;">Gamazon ER, Wheeler HE, Shah KP, Mozaffari SV, ...&amp;, Im HK. (2015) A gene-based association method for mapping traits using reference transcriptome data Nat. Genet., 47 (9) 1091-1098. doi:10.1038/ng.3367. PMID 26258848</td>
+<td style="text-align: right;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#s-predixcan">S-PrediXcan</a></td>
+<td style="text-align: left;">Barbeira AN, Dickinson SP, Bonazzola R, Zheng J, ...&amp;, Im HK. (2018) Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics Nat. Commun., 9 (1) 1825. doi:10.1038/s41467-018-03621-1. PMID 29739930</td>
+<td style="text-align: right;">2018</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#twas-hub">TWAS hub</a></td>
+<td style="text-align: left;">Mancuso N, Shi H, Goddard P, Kichaev G, ...&amp;, Pasaniuc B. (2017) Integrating gene expression with summary association statistics to identify genes associated with 30 complex traits Am. J. Hum. Genet., 100 (3) 473-487. doi:10.1016/j.ajhg.2017.01.031. PMID 28238358</td>
+<td style="text-align: right;">2017</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ctwas">cTWAS</a></td>
+<td style="text-align: left;">Zhao S, Crouse W, Qian S, Luo K, ...&amp;, He X. (2024) Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits Nat. Genet., 56 (2) 336-347. doi:10.1038/s41588-023-01648-9. PMID 38279041</td>
+<td style="text-align: right;">2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#webtwas">webTWAS</a></td>
+<td style="text-align: left;">Cao C, Wang J, Kwok D, Cui F, ...&amp;, Zou Q. (2022) webTWAS: a resource for disease candidate susceptibility genes identified by transcriptome-wide association study Nucleic Acids Res., 50 (D1) D1123-D1130. doi:10.1093/nar/gkab957. PMID 34669946</td>
+<td style="text-align: right;">2022</td>
+</tr>
+</tbody>
+</table>
+<h2 id="fusion">FUSION</h2>
+<ul>
+<li><strong>NAME</strong> : FUSION </li>
+<li><strong>SHORT NAME</strong> : FUSION </li>
+<li><strong>FULL NAME</strong> : Functional Summary-based Imputation </li>
+<li><strong>DESCRIPTION</strong> : FUSION is a suite of tools for performing transcriptome-wide and regulome-wide association studies (TWAS and RWAS). FUSION builds predictive models of the genetic component of a functional/molecular phenotype and predicts and tests that component for association with disease using GWAS summary statistics. The goal is to identify associations between a GWAS phenotype and a functional phenotype that was only measured in reference data. We provide precomputed predictive models from multiple studies to facilitate this analysis. </li>
+<li><strong>URL</strong> : <a href="http://gusevlab.org/projects/fusion/">http://gusevlab.org/projects/fusion/</a> </li>
+<li><strong>TITLE</strong> : Integrative approaches for large-scale transcriptome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1038/ng.3506 </li>
+<li><strong>ABSTRACT</strong> : Many genetic variants influence complex traits by modulating gene expression, thus altering the abundance of one or multiple proteins. Here we introduce a powerful strategy that integrates gene expression measurements with summary association statistics from large-scale genome-wide association studies (GWAS) to identify genes whose cis-regulated expression is associated with complex traits. We leverage expression imputation from genetic data to perform a transcriptome-wide association study (TWAS) to identify significant expression-trait associations. We applied our approaches to expression data from blood and adipose tissue measured in ∼ 3,000 individuals overall. We imputed gene expression into GWAS data from over 900,000 phenotype measurements to identify 69 new genes significantly associated with obesity-related traits (BMI, lipids and height). Many of these genes are associated with relevant phenotypes in the Hybrid Mouse Diversity Panel. Our results showcase the power of integrating genotype, gene expression and phenotype to gain insights into the genetic basis of complex traits. </li>
+<li><strong>CITATION</strong> : Gusev A, Ko A, Shi H, Bhatia G, ...&amp;, Pasaniuc B. (2016) Integrative approaches for large-scale transcriptome-wide association studies Nat. Genet., 48 (3) 245-252. doi:10.1038/ng.3506. PMID 26854917 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2016 ; 48 ; 3 ; 245-252 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/26854917">26854917</a> </li>
+</ul>
+<h2 id="multixcan">MultiXcan</h2>
+<ul>
+<li><strong>NAME</strong> : MultiXcan </li>
+<li><strong>SHORT NAME</strong> : MultiXcan </li>
+<li><strong>FULL NAME</strong> : MultiXcan </li>
+<li><strong>DESCRIPTION</strong> : an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure. </li>
+<li><strong>URL</strong> : <a href="https://github.com/hakyimlab/MetaXcan">https://github.com/hakyimlab/MetaXcan</a> </li>
+<li><strong>TITLE</strong> : Integrating predicted transcriptome from multiple tissues improves association detection </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1007889 </li>
+<li><strong>ABSTRACT</strong> : Integration of genome-wide association studies (GWAS) and expression quantitative trait loci (eQTL) studies is needed to improve our understanding of the biological mechanisms underlying GWAS hits, and our ability to identify therapeutic targets. Gene-level association methods such as PrediXcan can prioritize candidate targets. However, limited eQTL sample sizes and absence of relevant developmental and disease context restrict our ability to detect associations. Here we propose an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure. We apply our method to simulated and real traits from the UK Biobank and show that, in realistic settings, we can detect a larger set of significantly associated genes than using each panel separately. To improve applicability, we developed a summary result-based extension called S-MultiXcan, which we show yields highly concordant results with the individual level version when LD is well matched. Our multivariate model-based approach allowed us to use the individual level results as a gold standard to calibrate and develop a robust implementation of the summary-based extension. Results from our analysis as well as software and necessary resources to apply our method are publicly available. </li>
+<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : Barbeira AN, Pividori M, Zheng J, Wheeler HE, ...&amp;, Im HK. (2019) Integrating predicted transcriptome from multiple tissues improves association detection PLoS Genet., 15 (1) e1007889. doi:10.1371/journal.pgen.1007889. PMID 30668570 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2019 ; 15 ; 1 ; e1007889 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/30668570">30668570</a> </li>
+</ul>
+<h2 id="ptwas">PTWAS</h2>
+<ul>
+<li><strong>NAME</strong> : PTWAS </li>
+<li><strong>SHORT NAME</strong> : PTWAS </li>
+<li><strong>FULL NAME</strong> : probabilistic TWAS </li>
+<li><strong>URL</strong> : <a href="https://github.com/xqwen/ptwas">https://github.com/xqwen/ptwas</a> </li>
+<li><strong>KEYWORDS</strong> : TWAS, instrumental variables </li>
+<li><strong>TITLE</strong> : PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis </li>
+<li><strong>DOI</strong> : 10.1186/s13059-020-02026-y </li>
+<li><strong>ABSTRACT</strong> : We propose a new computational framework, probabilistic transcriptome-wide association study (PTWAS), to investigate causal relationships between gene expressions and complex traits. PTWAS applies the established principles from instrumental variables analysis and takes advantage of probabilistic eQTL annotations to delineate and tackle the unique challenges arising in TWAS. PTWAS not only confers higher power than the existing methods but also provides novel functionalities to evaluate the causal assumptions and estimate tissue- or cell-type-specific gene-to-trait effects. We illustrate the power of PTWAS by analyzing the eQTL data across 49 tissues from GTEx (v8) and GWAS summary statistics from 114 complex traits. </li>
+<li><strong>CITATION</strong> : Zhang Y, Quick C, Yu K, Barbeira A, ...&amp;, Wen X. (2020) PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis Genome Biol., 21 (1) 232. doi:10.1186/s13059-020-02026-y. PMID 32912253 </li>
+<li><strong>JOURNAL_INFO</strong> : Genome biology ; Genome Biol. ; 2020 ; 21 ; 1 ; 232 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32912253">32912253</a> </li>
+</ul>
+<h2 id="predixcan">PrediXcan</h2>
+<ul>
+<li><strong>NAME</strong> : PrediXcan </li>
+<li><strong>SHORT NAME</strong> : PrediXcan </li>
+<li><strong>FULL NAME</strong> : PrediXcan </li>
+<li><strong>DESCRIPTION</strong> : PrediXcan is a gene-based association test that prioritizes genes that are likely to be causal for the phenotype. </li>
+<li><strong>URL</strong> : <a href="https://github.com/hakyimlab/PrediXcan">https://github.com/hakyimlab/PrediXcan</a> </li>
+<li><strong>TITLE</strong> : A gene-based association method for mapping traits using reference transcriptome data </li>
+<li><strong>DOI</strong> : 10.1038/ng.3367 </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association studies (GWAS) have identified thousands of variants robustly associated with complex traits. However, the biological mechanisms underlying these associations are, in general, not well understood. We propose a gene-based association method called PrediXcan that directly tests the molecular mechanisms through which genetic variation affects phenotype. The approach estimates the component of gene expression determined by an individual's genetic profile and correlates 'imputed' gene expression with the phenotype under investigation to identify genes involved in the etiology of the phenotype. Genetically regulated gene expression is estimated using whole-genome tissue-dependent prediction models trained with reference transcriptome data sets. PrediXcan enjoys the benefits of gene-based approaches such as reduced multiple-testing burden and a principled approach to the design of follow-up experiments. Our results demonstrate that PrediXcan can detect known and new genes associated with disease traits and provide insights into the mechanism of these associations. </li>
+<li><strong>CITATION</strong> : Gamazon ER, Wheeler HE, Shah KP, Mozaffari SV, ...&amp;, Im HK. (2015) A gene-based association method for mapping traits using reference transcriptome data Nat. Genet., 47 (9) 1091-1098. doi:10.1038/ng.3367. PMID 26258848 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2015 ; 47 ; 9 ; 1091-1098 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/26258848">26258848</a> </li>
+</ul>
+<h2 id="s-predixcan">S-PrediXcan</h2>
+<ul>
+<li><strong>NAME</strong> : S-PrediXcan </li>
+<li><strong>SHORT NAME</strong> : S-PrediXcan </li>
+<li><strong>FULL NAME</strong> : S-PrediXcan </li>
+<li><strong>DESCRIPTION</strong> : a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan) </li>
+<li><strong>URL</strong> : <a href="https://github.com/hakyimlab/MetaXcan">https://github.com/hakyimlab/MetaXcan</a> </li>
+<li><strong>TITLE</strong> : Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics </li>
+<li><strong>DOI</strong> : 10.1038/s41467-018-03621-1 </li>
+<li><strong>ABSTRACT</strong> : Scalable, integrative methods to understand mechanisms that link genetic variants with phenotypes are needed. Here we derive a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan) and show its accuracy and general robustness to misspecified reference sets. We apply this framework to 44 GTEx tissues and 100+ phenotypes from GWAS and meta-analysis studies, creating a growing public catalog of associations that seeks to capture the effects of gene expression variation on human phenotypes. Replication in an independent cohort is shown. Most of the associations are tissue specific, suggesting context specificity of the trait etiology. Colocalized significant associations in unexpected tissues underscore the need for an agnostic scanning of multiple contexts to improve our ability to detect causal regulatory mechanisms. Monogenic disease genes are enriched among significant associations for related traits, suggesting that smaller alterations of these genes may cause a spectrum of milder phenotypes. </li>
+<li><strong>CITATION</strong> : Barbeira AN, Dickinson SP, Bonazzola R, Zheng J, ...&amp;, Im HK. (2018) Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics Nat. Commun., 9 (1) 1825. doi:10.1038/s41467-018-03621-1. PMID 29739930 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature communications ; Nat. Commun. ; 2018 ; 9 ; 1 ; 1825 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/29739930">29739930</a> </li>
+</ul>
+<h2 id="twas-hub">TWAS hub</h2>
+<ul>
+<li><strong>NAME</strong> : TWAS hub </li>
+<li><strong>SHORT NAME</strong> : TWAS hub </li>
+<li><strong>FULL NAME</strong> : TWAS hub </li>
+<li><strong>DESCRIPTION</strong> : TWAS hub is an interactive browser of results from integrative analyses of GWAS and functional data for hundreds of traits and &gt;100k expression models. The aim is facilitate the investigation of individual TWAS associations; pleiotropic disease/trait associations for a given gene of interest; predicted gene associations for a given disease/trait of interest with detailed per-locus statistics; and pleiotropic relationships between traits based on shared associated genes. </li>
+<li><strong>URL</strong> : <a href="http://twas-hub.org">http://twas-hub.org</a> </li>
+<li><strong>TITLE</strong> : Integrating gene expression with summary association statistics to identify genes associated with 30 complex traits </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2017.01.031 </li>
+<li><strong>ABSTRACT</strong> : Although genome-wide association studies (GWASs) have identified thousands of risk loci for many complex traits and diseases, the causal variants and genes at these loci remain largely unknown. Here, we introduce a method for estimating the local genetic correlation between gene expression and a complex trait and utilize it to estimate the genetic correlation due to predicted expression between pairs of traits. We integrated gene expression measurements from 45 expression panels with summary GWAS data to perform 30 multi-tissue transcriptome-wide association studies (TWASs). We identified 1,196 genes whose expression is associated with these traits; of these, 168 reside more than 0.5 Mb away from any previously reported GWAS significant variant. We then used our approach to find 43 pairs of traits with significant genetic correlation at the level of predicted expression; of these, eight were not found through genetic correlation at the SNP level. Finally, we used bi-directional regression to find evidence that BMI causally influences triglyceride levels and that triglyceride levels causally influence low-density lipoprotein. Together, our results provide insight into the role of gene expression in the susceptibility of complex traits and diseases. </li>
+<li><strong>COPYRIGHT</strong> : http://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Mancuso N, Shi H, Goddard P, Kichaev G, ...&amp;, Pasaniuc B. (2017) Integrating gene expression with summary association statistics to identify genes associated with 30 complex traits Am. J. Hum. Genet., 100 (3) 473-487. doi:10.1016/j.ajhg.2017.01.031. PMID 28238358 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2017 ; 100 ; 3 ; 473-487 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/28238358">28238358</a> </li>
+</ul>
+<h2 id="ctwas">cTWAS</h2>
+<ul>
+<li><strong>NAME</strong> : cTWAS </li>
+<li><strong>SHORT NAME</strong> : cTWAS </li>
+<li><strong>FULL NAME</strong> : causal-TWAS </li>
+<li><strong>DESCRIPTION</strong> : Expression Quantitative Trait Loci (eQTLs) have often been used to nominate candidate genes from Genome-wide association studies (GWAS). However, commonly used methods are susceptible to false positives largely due to Linkage Disequilibrium of eQTLs with causal variants acting on the phenotype directly. Our method, causal-TWAS (cTWAS), addressed this challenge by borrowing ideas from statistical fine-mapping. It is a generalization of Transcriptome-wide association studies (TWAS), but when analyzing any gene, it adjusts for other nearby genes and all nearby genetic variants. </li>
+<li><strong>URL</strong> : <a href="https://xinhe-lab.github.io/ctwas/">https://xinhe-lab.github.io/ctwas/</a> </li>
+<li><strong>KEYWORDS</strong> : TWAS, fine-mapping </li>
+<li><strong>TITLE</strong> : Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits </li>
+<li><strong>DOI</strong> : 10.1038/s41588-023-01648-9 </li>
+<li><strong>ABSTRACT</strong> : Many methods have been developed to leverage expression quantitative trait loci (eQTL) data to nominate candidate genes from genome-wide association studies. These methods, including colocalization, transcriptome-wide association studies (TWAS) and Mendelian randomization-based methods; however, all suffer from a key problem-when assessing the role of a gene in a trait using its eQTLs, nearby variants and genetic components of other genes' expression may be correlated with these eQTLs and have direct effects on the trait, acting as potential confounders. Our extensive simulations showed that existing methods fail to account for these 'genetic confounders', resulting in severe inflation of false positives. Our new method, causal-TWAS (cTWAS), borrows ideas from statistical fine-mapping and allows us to adjust all genetic confounders. cTWAS showed calibrated false discovery rates in simulations, and its application on several common traits discovered new candidate genes. In conclusion, cTWAS provides a robust statistical framework for gene discovery. </li>
+<li><strong>CITATION</strong> : Zhao S, Crouse W, Qian S, Luo K, ...&amp;, He X. (2024) Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits Nat. Genet., 56 (2) 336-347. doi:10.1038/s41588-023-01648-9. PMID 38279041 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; 56 ; 2 ; 336-347 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38279041">38279041</a> </li>
+</ul>
+<h2 id="webtwas">webTWAS</h2>
+<ul>
+<li><strong>NAME</strong> : webTWAS </li>
+<li><strong>SHORT NAME</strong> : webTWAS </li>
+<li><strong>FULL NAME</strong> : webTWAS </li>
+<li><strong>DESCRIPTION</strong> : a resource for disease candidate susceptibility genes identified by transcriptome-wide association study </li>
+<li><strong>URL</strong> : <a href="http://www.webtwas.net/#/">http://www.webtwas.net/#/</a> </li>
+<li><strong>TITLE</strong> : webTWAS: a resource for disease candidate susceptibility genes identified by transcriptome-wide association study </li>
+<li><strong>DOI</strong> : 10.1093/nar/gkab957 </li>
+<li><strong>ABSTRACT</strong> : The development of transcriptome-wide association studies (TWAS) has enabled researchers to better identify and interpret causal genes in many diseases. However, there are currently no resources providing a comprehensive listing of gene-disease associations discovered by TWAS from published GWAS summary statistics. TWAS analyses are also difficult to conduct due to the complexity of TWAS software pipelines. To address these issues, we introduce a new resource called webTWAS, which integrates a database of the most comprehensive disease GWAS datasets currently available with credible sets of potential causal genes identified by multiple TWAS software packages. Specifically, a total of 235 064 gene-diseases associations for a wide range of human diseases are prioritized from 1298 high-quality downloadable European GWAS summary statistics. Associations are calculated with seven different statistical models based on three popular and representative TWAS software packages. Users can explore associations at the gene or disease level, and easily search for related studies or diseases using the MeSH disease tree. Since the effects of diseases are highly tissue-specific, webTWAS applies tissue-specific enrichment analysis to identify significant tissues. A user-friendly web server is also available to run custom TWAS analyses on user-provided GWAS summary statistics data. webTWAS is freely available at http://www.webtwas.net. </li>
+<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : Cao C, Wang J, Kwok D, Cui F, ...&amp;, Zou Q. (2022) webTWAS: a resource for disease candidate susceptibility genes identified by transcriptome-wide association study Nucleic Acids Res., 50 (D1) D1123-D1130. doi:10.1093/nar/gkab957. PMID 34669946 </li>
+<li><strong>JOURNAL_INFO</strong> : Nucleic acids research ; Nucleic Acids Res. ; 2022 ; 50 ; D1 ; D1123-D1130 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34669946">34669946</a> </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

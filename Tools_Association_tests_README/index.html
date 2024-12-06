@@ -1,0 +1,2980 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+      
+        <link rel="prev" href="../Tools_Annotation_README/">
+      
+      
+        <link rel="next" href="../Tools_Association_tests_RWAS_README/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.6">
+    
+    
+      
+        <title>Association_tests - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Association_tests
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats_Sumstats_README/" class="md-tabs__link">
+          
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools_README/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Visualization_README/" class="md-tabs__link">
+          
+  
+  Visualization
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics_README/" class="md-tabs__link">
+          
+  
+  Population_Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sumstats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Sumstats_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Biobanks_Cohorts_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biobanks_Cohorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Metabolomics_Metabolomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metabolomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Proteomics_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Imaging_Imaging_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Annotation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Association_tests
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#case-case-gwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case-case GWAS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Case-case GWAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cc-gwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CC-GWAS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gwas-of-longitudinal-trajectories" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWAS of longitudinal trajectories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GWAS of longitudinal trajectories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trajgwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      TrajGWAS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gwas-using-family-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWAS using family history
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GWAS using family history">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gwax" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWAX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lt-fh" class="md-nav__link">
+    <span class="md-ellipsis">
+      LT-FH
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#siblinggwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      SiblingGWAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snipar" class="md-nav__link">
+    <span class="md-ellipsis">
+      snipar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gene-based-analysis-rare-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gene-based analysis (rare variant)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gene-based analysis (rare variant)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regenie" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGENIE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saige-gene" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAIGE-GENE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saige-gene_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAIGE-GENE+
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skat" class="md-nav__link">
+    <span class="md-ellipsis">
+      SKAT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skat-o" class="md-nav__link">
+    <span class="md-ellipsis">
+      SKAT-O
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staar" class="md-nav__link">
+    <span class="md-ellipsis">
+      STAAR
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gene-based-analysis-sumstats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gene-based analysis (sumstats)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gene-based analysis (sumstats)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ldak-gbat" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAK-GBAT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pgs-adjusted-gwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      PGS-adjusted GWAS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PGS-adjusted GWAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pgs-adjusted-gwas_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      PGS-adjusted GWAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pgs-adjusted-rvats" class="md-nav__link">
+    <span class="md-ellipsis">
+      PGS-adjusted RVATs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Review">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#review-povysil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review-Povysil
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-variant-association-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single variant association tests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Single variant association tests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bolt-lmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      BOLT-lMM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emmax" class="md-nav__link">
+    <span class="md-ellipsis">
+      EMMAX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gemma" class="md-nav__link">
+    <span class="md-ellipsis">
+      GEMMA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ldak-kvik" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAK-KVIK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plink" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plink2" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      POLMM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qrgwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      QRGWAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regenie_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGENIE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saige" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAIGE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fastgwa" class="md-nav__link">
+    <span class="md-ellipsis">
+      fastGWA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fastgwa-glmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      fastGWA-GLMM
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_RWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_TWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_eQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    eQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_sQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Colocalization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocalization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Data_processing_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Dimension_reduction_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dimension_reduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Drug_discovery_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drug_discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Fine_mapping_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_prioritization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_prioritization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_set_pathway_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_set_pathway_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_GxE_interactions_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GxE_interactions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_HLA_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HLA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Heritability_and_genetic_correlation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heritability_and_genetic_correlation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Imputation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imputation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mendelian_randomization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mendelian_randomization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Meta_and_Multi_triat_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meta_and_Multi_triat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Polygenic_risk_scores_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polygenic_risk_scores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Power_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Simulation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Tissue_and_single_cell_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Winners_curse_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Winners_curse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Chromosome_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromosome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Forest_plot_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest_plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_GWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Heatmap_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_LD_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Variants_on_protein_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variants_on_protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Population_Genetics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Admixture_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admixture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Genealogy_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genealogy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Phylogenetic_tree_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenetic_tree
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Selection_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#case-case-gwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Case-case GWAS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Case-case GWAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#cc-gwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      CC-GWAS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gwas-of-longitudinal-trajectories" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWAS of longitudinal trajectories
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GWAS of longitudinal trajectories">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#trajgwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      TrajGWAS
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gwas-using-family-history" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWAS using family history
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="GWAS using family history">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gwax" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWAX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lt-fh" class="md-nav__link">
+    <span class="md-ellipsis">
+      LT-FH
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#siblinggwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      SiblingGWAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snipar" class="md-nav__link">
+    <span class="md-ellipsis">
+      snipar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gene-based-analysis-rare-variant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gene-based analysis (rare variant)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gene-based analysis (rare variant)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#regenie" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGENIE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saige-gene" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAIGE-GENE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saige-gene_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAIGE-GENE+
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skat" class="md-nav__link">
+    <span class="md-ellipsis">
+      SKAT
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#skat-o" class="md-nav__link">
+    <span class="md-ellipsis">
+      SKAT-O
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#staar" class="md-nav__link">
+    <span class="md-ellipsis">
+      STAAR
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gene-based-analysis-sumstats" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gene-based analysis (sumstats)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Gene-based analysis (sumstats)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ldak-gbat" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAK-GBAT
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pgs-adjusted-gwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      PGS-adjusted GWAS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PGS-adjusted GWAS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pgs-adjusted-gwas_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      PGS-adjusted GWAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pgs-adjusted-rvats" class="md-nav__link">
+    <span class="md-ellipsis">
+      PGS-adjusted RVATs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Review">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#review-povysil" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review-Povysil
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#single-variant-association-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Single variant association tests
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Single variant association tests">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#bolt-lmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      BOLT-lMM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#emmax" class="md-nav__link">
+    <span class="md-ellipsis">
+      EMMAX
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gemma" class="md-nav__link">
+    <span class="md-ellipsis">
+      GEMMA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ldak-kvik" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDAK-KVIK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plink" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plink2" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK2
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#polmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      POLMM
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#qrgwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      QRGWAS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regenie_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGENIE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#saige" class="md-nav__link">
+    <span class="md-ellipsis">
+      SAIGE
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fastgwa" class="md-nav__link">
+    <span class="md-ellipsis">
+      fastGWA
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#fastgwa-glmm" class="md-nav__link">
+    <span class="md-ellipsis">
+      fastGWA-GLMM
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Association_tests</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CATEGORY</th>
+<th style="text-align: left;">CITATION</th>
+<th style="text-align: left;">YEAR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#cc-gwas">CC-GWAS</a></td>
+<td style="text-align: left;">Case-case GWAS</td>
+<td style="text-align: left;">Peyrot WJ, Price AL. (2021) Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS Nat. Genet., 53 (4) 445-454. doi:10.1038/s41588-021-00787-1. PMID 33686288</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#trajgwas">TrajGWAS</a></td>
+<td style="text-align: left;">GWAS of longitudinal trajectories</td>
+<td style="text-align: left;">Ko S, German CA, Jensen A, Shen J, ...&amp;, Zhou JJ. (2022) GWAS of longitudinal trajectories at biobank scale Am. J. Hum. Genet., 109 (3) 433-445. doi:10.1016/j.ajhg.2022.01.018. PMID 35196515</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#gwax">GWAX</a></td>
+<td style="text-align: left;">GWAS using family history</td>
+<td style="text-align: left;">Liu JZ, Erlich Y, Pickrell JK. (2017) Case-control association mapping by proxy using family history of disease Nat. Genet., 49 (3) 325-331. doi:10.1038/ng.3766. PMID 28092683</td>
+<td style="text-align: left;">2017</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#lt-fh">LT-FH</a></td>
+<td style="text-align: left;">GWAS using family history</td>
+<td style="text-align: left;">Hujoel MLA, Gazal S, Loh PR, Patterson N, ...&amp;, Price AL. (2020) Liability threshold modeling of case-control status and family history of disease increases association power Nat. Genet., 52 (5) 541-547. doi:10.1038/s41588-020-0613-6. PMID 32313248</td>
+<td style="text-align: left;">2020</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#siblinggwas">SiblingGWAS</a></td>
+<td style="text-align: left;">GWAS using family history</td>
+<td style="text-align: left;">Howe LJ, Nivard MG, Morris TT, Hansen AF, ...&amp;, Davies NM. (2022) Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects Nat. Genet., 54 (5) 581-592. doi:10.1038/s41588-022-01062-7. PMID 35534559</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#snipar">snipar</a></td>
+<td style="text-align: left;">GWAS using family history</td>
+<td style="text-align: left;">Young AI, Nehzati SM, Benonisdottir S, Okbay A, ...&amp;, Kong A. (2022) Mendelian imputation of parental genotypes improves estimates of direct genetic effects Nat. Genet., 54 (6) 897-905. doi:10.1038/s41588-022-01085-0. PMID 35681053</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#regenie">REGENIE</a></td>
+<td style="text-align: left;">Gene-based analysis (rare variant)</td>
+<td style="text-align: left;">Mbatchou J, Barnard L, Backman J, Marcketta A, ...&amp;, Marchini J. (2021) Computationally efficient whole-genome regression for quantitative and binary traits Nat. Genet., 53 (7) 1097-1103. doi:10.1038/s41588-021-00870-7. PMID 34017140</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#saige-gene">SAIGE-GENE+</a></td>
+<td style="text-align: left;">Gene-based analysis (rare variant)</td>
+<td style="text-align: left;">Zhou W, Bi W, Zhao Z, Dey KK, ...&amp;, Lee S. (2022) SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests Nat. Genet., 54 (10) 1466-1469. doi:10.1038/s41588-022-01178-w. PMID 36138231</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#saige-gene">SAIGE-GENE</a></td>
+<td style="text-align: left;">Gene-based analysis (rare variant)</td>
+<td style="text-align: left;">Zhou W, Zhao Z, Nielsen JB, Fritsche LG, ...&amp;, Lee S. (2020) Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts Nat. Genet., 52 (6) 634-639. doi:10.1038/s41588-020-0621-6. PMID 32424355</td>
+<td style="text-align: left;">2020</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#skat-o">SKAT-O</a></td>
+<td style="text-align: left;">Gene-based analysis (rare variant)</td>
+<td style="text-align: left;">Lee S, Wu MC, Lin X. (2012) Optimal tests for rare variant effects in sequencing association studies Biostatistics, 13 (4) 762-775. doi:10.1093/biostatistics/kxs014. PMID 22699862</td>
+<td style="text-align: left;">2012</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#skat">SKAT</a></td>
+<td style="text-align: left;">Gene-based analysis (rare variant)</td>
+<td style="text-align: left;">Wu MC, Lee S, Cai T, Li Y, ...&amp;, Lin X. (2011) Rare-variant association testing for sequencing data with the sequence kernel association test Am. J. Hum. Genet., 89 (1) 82-93. doi:10.1016/j.ajhg.2011.05.029. PMID 21737059</td>
+<td style="text-align: left;">2011</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#staar">STAAR</a></td>
+<td style="text-align: left;">Gene-based analysis (rare variant)</td>
+<td style="text-align: left;">Li X, Li Z, Zhou H, Gaynor SM, ...&amp;, Lin X. (2020) Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale Nat. Genet., 52 (9) 969-983. doi:10.1038/s41588-020-0676-4. PMID 32839606</td>
+<td style="text-align: left;">2020</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ldak-gbat">LDAK-GBAT</a></td>
+<td style="text-align: left;">Gene-based analysis (sumstats)</td>
+<td style="text-align: left;">Berrandou TE, Balding D, Speed D. (2023) LDAK-GBAT: Fast and powerful gene-based association testing using summary statistics Am. J. Hum. Genet., 110 (1) 23-29. doi:10.1016/j.ajhg.2022.11.010. PMID 36480927</td>
+<td style="text-align: left;">2023</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#pgs-adjusted-gwas">PGS-adjusted GWAS</a></td>
+<td style="text-align: left;">PGS-adjusted GWAS</td>
+<td style="text-align: left;">Campos AI, Namba S, Lin SC, Nam K, ...&amp;, Yengo L. (2023) Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores Nat. Genet., 55 (10) 1769-1776. doi:10.1038/s41588-023-01500-0. PMID 37723263</td>
+<td style="text-align: left;">2023</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#pgs-adjusted-rvats">PGS-adjusted RVATs</a></td>
+<td style="text-align: left;">PGS-adjusted GWAS</td>
+<td style="text-align: left;">Jurgens SJ, Pirruccello JP, Choi SH, Morrill VN, ...&amp;, Ellinor PT. (2023) Adjusting for common variant polygenic scores improves yield in rare variant association analyses Nat. Genet.,  () . doi:10.1038/s41588-023-01342-w. PMID 36959364</td>
+<td style="text-align: left;">2023</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#review-povysil">Review-Povysil</a></td>
+<td style="text-align: left;">Review</td>
+<td style="text-align: left;">Povysil G, Petrovski S, Hostyk J, Aggarwal V, ...&amp;, Goldstein DB. (2019) Rare-variant collapsing analyses for complex traits: guidelines and applications Nat. Rev. Genet., 20 (12) 747-759. doi:10.1038/s41576-019-0177-4. PMID 31605095</td>
+<td style="text-align: left;">2019</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#bolt-lmm">BOLT-lMM</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Loh PR, Tucker G, Bulik-Sullivan BK, Vilhjálmsson BJ, ...&amp;, Price AL. (2015) Efficient Bayesian mixed-model analysis increases association power in large cohorts Nat. Genet., 47 (3) 284-290. doi:10.1038/ng.3190. PMID 25642633</td>
+<td style="text-align: left;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#emmax">EMMAX</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Kang HM, Sul JH, Service,  Susan K., ...&amp;, Eskin E. (2010) Variance component model to account for sample structure in genome-wide association studies Nat. Genet., 42 (4) 348-354. doi:10.1038/ng.548. PMID 20208533</td>
+<td style="text-align: left;">2010</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#gemma">GEMMA</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Zhou X, Stephens M. (2012) Genome-wide efficient mixed-model analysis for association studies Nat. Genet., 44 (7) 821-824. doi:10.1038/ng.2310. PMID 22706312</td>
+<td style="text-align: left;">2012</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ldak-kvik">LDAK-KVIK</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Hof, J. P. &amp; Speed, D. LDAK-KVIK performs fast and powerful mixed-model association analysis of quantitative and binary phenotypes. bioRxiv 2024.07.25.24311005 (2024) doi:10.1101/2024.07.25.24311005.<br><br></td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#plink2">PLINK2</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Chang CC, Chow CC, Tellier LC, Vattikuti S, ...&amp;, Lee JJ. (2015) Second-generation PLINK: rising to the challenge of larger and richer datasets Gigascience, 4 (1) 7. doi:10.1186/s13742-015-0047-8. PMID 25722852</td>
+<td style="text-align: left;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#plink">PLINK</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Purcell S, Neale B, Todd-Brown K, Thomas L, ...&amp;, Sham PC. (2007) PLINK: a tool set for whole-genome association and population-based linkage analyses Am. J. Hum. Genet., 81 (3) 559-575. doi:10.1086/519795. PMID 17701901</td>
+<td style="text-align: left;">2007</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#polmm">POLMM</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Bi W, Zhou W, Dey R, Mukherjee B, ...&amp;, Lee S. (2021) Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes Am. J. Hum. Genet., 108 (5) 825-839. doi:10.1016/j.ajhg.2021.03.019. PMID 33836139</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#qrgwas">QRGWAS</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Wang C, Wang T, Kiryluk K, Wei Y, ...&amp;, Ionita-Laza I. (2024) Genome-wide discovery for biomarkers using quantile regression at biobank scale Nat. Commun., 15 (1) 6460. doi:10.1038/s41467-024-50726-x. PMID 39085219</td>
+<td style="text-align: left;">2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#regenie">REGENIE</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Mbatchou J, Barnard L, Backman J, Marcketta A, ...&amp;, Marchini J. (2021) Computationally efficient whole-genome regression for quantitative and binary traits Nat. Genet., 53 (7) 1097-1103. doi:10.1038/s41588-021-00870-7. PMID 34017140</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#saige">SAIGE</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Zhou W, Nielsen JB, Fritsche LG, Dey R, ...&amp;, Lee S. (2018) Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies Nat. Genet., 50 (9) 1335-1341. doi:10.1038/s41588-018-0184-y. PMID 30104761</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#fastgwa-glmm">fastGWA-GLMM</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Jiang L, Zheng Z, Fang H, Yang J. (2021) A generalized linear mixed model association tool for biobank-scale data Nat. Genet., 53 (11) 1616-1621. doi:10.1038/s41588-021-00954-4. PMID 34737426</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#fastgwa">fastGWA</a></td>
+<td style="text-align: left;">Single variant association tests</td>
+<td style="text-align: left;">Jiang L, Zheng Z, Qi T, Kemper KE, ...&amp;, Yang J. (2019) A resource-efficient tool for mixed model association analysis of large-scale data Nat. Genet., 51 (12) 1749-1755. doi:10.1038/s41588-019-0530-8. PMID 31768069</td>
+<td style="text-align: left;">2019</td>
+</tr>
+</tbody>
+</table>
+<h2 id="case-case-gwas">Case-case GWAS</h2>
+<h3 id="cc-gwas">CC-GWAS</h3>
+<ul>
+<li><strong>NAME</strong> : CC-GWAS </li>
+<li><strong>SHORT NAME</strong> : CC-GWAS </li>
+<li><strong>FULL NAME</strong> : case–case genome-wide association study </li>
+<li><strong>DESCRIPTION</strong> : The CCGWAS R package provides a tool for case-case association testing of two different disorders based on their respective case-control GWAS results </li>
+<li><strong>URL</strong> : <a href="https://github.com/wouterpeyrot/CCGWAS">https://github.com/wouterpeyrot/CCGWAS</a> </li>
+<li><strong>TITLE</strong> : Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS </li>
+<li><strong>DOI</strong> : 10.1038/s41588-021-00787-1 </li>
+<li><strong>ABSTRACT</strong> : Psychiatric disorders are highly genetically correlated, but little research has been conducted on the genetic differences between disorders. We developed a new method (case-case genome-wide association study; CC-GWAS) to test for differences in allele frequency between cases of two disorders using summary statistics from the respective case-control GWAS, transcending current methods that require individual-level data. Simulations and analytical computations confirm that CC-GWAS is well powered with effective control of type I error. We applied CC-GWAS to publicly available summary statistics for schizophrenia, bipolar disorder, major depressive disorder and five other psychiatric disorders. CC-GWAS identified 196 independent case-case loci, including 72 CC-GWAS-specific loci that were not significant at the genome-wide level in the input case-control summary statistics; two of the CC-GWAS-specific loci implicate the genes KLF6 and KLF16 (from the Krüppel-like family of transcription factors), which have been linked to neurite outgrowth and axon regeneration. CC-GWAS loci replicated convincingly in applications to datasets with independent replication data. </li>
+<li><strong>COPYRIGHT</strong> : https://www.springernature.com/gp/researchers/text-and-data-mining </li>
+<li><strong>CITATION</strong> : Peyrot WJ, Price AL. (2021) Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS Nat. Genet., 53 (4) 445-454. doi:10.1038/s41588-021-00787-1. PMID 33686288 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2021 ; 53 ; 4 ; 445-454 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/33686288">33686288</a> </li>
+</ul>
+<h2 id="gwas-of-longitudinal-trajectories">GWAS of longitudinal trajectories</h2>
+<h3 id="trajgwas">TrajGWAS</h3>
+<ul>
+<li><strong>NAME</strong> : TrajGWAS </li>
+<li><strong>SHORT NAME</strong> : TrajGWAS </li>
+<li><strong>FULL NAME</strong> : GWAS of longitudinal trajectories </li>
+<li><strong>DESCRIPTION</strong> : TrajGWAS.jl is a Julia package for performing genome-wide association studies (GWAS) for continuous longitudinal phenotypes using a modified linear mixed effects model. It builds upon the within-subject variance estimation by robust regression (WiSER) method and can be used to identify variants associated with changes in the mean and within-subject variability of the longitduinal trait. </li>
+<li><strong>URL</strong> : <a href="https://github.com/OpenMendel/TrajGWAS.jl">https://github.com/OpenMendel/TrajGWAS.jl</a> </li>
+<li><strong>KEYWORDS</strong> : biomarker trajectories, mean, within-subject (WS) variability, linear mixed effect model, within-subject variance estimation by robust regression (WiSER) method </li>
+<li><strong>TITLE</strong> : GWAS of longitudinal trajectories at biobank scale </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2022.01.018 </li>
+<li><strong>ABSTRACT</strong> : Biobanks linked to massive, longitudinal electronic health record (EHR) data make numerous new genetic research questions feasible. One among these is the study of biomarker trajectories. For example, high blood pressure measurements over visits strongly predict stroke onset, and consistently high fasting glucose and Hb1Ac levels define diabetes. Recent research reveals that not only the mean level of biomarker trajectories but also their fluctuations, or within-subject (WS) variability, are risk factors for many diseases. Glycemic variation, for instance, is recently considered an important clinical metric in diabetes management. It is crucial to identify the genetic factors that shift the mean or alter the WS variability of a biomarker trajectory. Compared to traditional cross-sectional studies, trajectory analysis utilizes more data points and captures a complete picture of the impact of time-varying factors, including medication history and lifestyle. Currently, there are no efficient tools for genome-wide association studies (GWASs) of biomarker trajectories at the biobank scale, even for just mean effects. We propose TrajGWAS, a linear mixed effect model-based method for testing genetic effects that shift the mean or alter the WS variability of a biomarker trajectory. It is scalable to biobank data with 100,000 to 1,000,000 individuals and many longitudinal measurements and robust to distributional assumptions. Simulation studies corroborate that TrajGWAS controls the type I error rate and is powerful. Analysis of eleven biomarkers measured longitudinally and extracted from UK Biobank primary care data for more than 150,000 participants with 1,800,000 observations reveals loci that significantly alter the mean or WS variability. </li>
+<li><strong>COPYRIGHT</strong> : http://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Ko S, German CA, Jensen A, Shen J, ...&amp;, Zhou JJ. (2022) GWAS of longitudinal trajectories at biobank scale Am. J. Hum. Genet., 109 (3) 433-445. doi:10.1016/j.ajhg.2022.01.018. PMID 35196515 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2022 ; 109 ; 3 ; 433-445 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35196515">35196515</a> </li>
+</ul>
+<h2 id="gwas-using-family-history">GWAS using family history</h2>
+<h3 id="gwax">GWAX</h3>
+<ul>
+<li><strong>NAME</strong> : GWAX </li>
+<li><strong>SHORT NAME</strong> : GWAX </li>
+<li><strong>FULL NAME</strong> : genome-wide association by proxy </li>
+<li><strong>DESCRIPTION</strong> : In randomly ascertained cohorts, replacing cases with their first-degree relatives enables studies of diseases that are absent (or nearly absent) in the cohort. </li>
+<li><strong>TITLE</strong> : Case-control association mapping by proxy using family history of disease </li>
+<li><strong>DOI</strong> : 10.1038/ng.3766 </li>
+<li><strong>ABSTRACT</strong> : Collecting cases for case-control genetic association studies can be time-consuming and expensive. In some situations (such as studies of late-onset or rapidly lethal diseases), it may be more practical to identify family members of cases. In randomly ascertained cohorts, replacing cases with their first-degree relatives enables studies of diseases that are absent (or nearly absent) in the cohort. We refer to this approach as genome-wide association study by proxy (GWAX) and apply it to 12 common diseases in 116,196 individuals from the UK Biobank. Meta-analysis with published genome-wide association study summary statistics replicated established risk loci and yielded four newly associated loci for Alzheimer's disease, eight for coronary artery disease and five for type 2 diabetes. In addition to informing disease biology, our results demonstrate the utility of association mapping without directly observing cases. We anticipate that GWAX will prove useful in future genetic studies of complex traits in large population cohorts. </li>
+<li><strong>CITATION</strong> : Liu JZ, Erlich Y, Pickrell JK. (2017) Case-control association mapping by proxy using family history of disease Nat. Genet., 49 (3) 325-331. doi:10.1038/ng.3766. PMID 28092683 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2017 ; 49 ; 3 ; 325-331 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/28092683">28092683</a> </li>
+</ul>
+<h3 id="lt-fh">LT-FH</h3>
+<ul>
+<li><strong>NAME</strong> : LT-FH </li>
+<li><strong>SHORT NAME</strong> : LT-FH </li>
+<li><strong>FULL NAME</strong> : liability threshold model, conditional on case–control status and family history </li>
+<li><strong>DESCRIPTION</strong> : an association method based on posterior mean genetic liabilities under a liability threshold model, conditional on case-control status and family history (LT-FH) </li>
+<li><strong>URL</strong> : <a href="https://alkesgroup.broadinstitute.org/UKBB/LTFH/">https://alkesgroup.broadinstitute.org/UKBB/LTFH/</a> </li>
+<li><strong>TITLE</strong> : Liability threshold modeling of case-control status and family history of disease increases association power </li>
+<li><strong>DOI</strong> : 10.1038/s41588-020-0613-6 </li>
+<li><strong>ABSTRACT</strong> : Family history of disease can provide valuable information in case-control association studies, but it is currently unclear how to best combine case-control status and family history of disease. We developed an association method based on posterior mean genetic liabilities under a liability threshold model, conditional on case-control status and family history (LT-FH). Analyzing 12 diseases from the UK Biobank (average N = 350,000) we compared LT-FH to genome-wide association without using family history (GWAS) and a previous proxy-based method incorporating family history (GWAX). LT-FH was 63% (standard error (s.e.) 6%) more powerful than GWAS and 36% (s.e. 4%) more powerful than the trait-specific maximum of GWAS and GWAX, based on the number of independent genome-wide-significant loci across all diseases (for example, 690 loci for LT-FH versus 423 for GWAS); relative improvements were similar when applying BOLT-LMM to GWAS, GWAX and LT-FH phenotypes. Thus, LT-FH greatly increases association power when family history of disease is available. </li>
+<li><strong>CITATION</strong> : Hujoel MLA, Gazal S, Loh PR, Patterson N, ...&amp;, Price AL. (2020) Liability threshold modeling of case-control status and family history of disease increases association power Nat. Genet., 52 (5) 541-547. doi:10.1038/s41588-020-0613-6. PMID 32313248 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2020 ; 52 ; 5 ; 541-547 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32313248">32313248</a> </li>
+</ul>
+<h3 id="siblinggwas">SiblingGWAS</h3>
+<ul>
+<li><strong>NAME</strong> : SiblingGWAS </li>
+<li><strong>SHORT NAME</strong> : SiblingGWAS </li>
+<li><strong>FULL NAME</strong> : Within-sibship genome-wide association analyses </li>
+<li><strong>DESCRIPTION</strong> : Scripts for running GWAS using siblings to estimate Within-Family (WF) and Between-Family (BF) effects of genetic variants on continuous traits. Allows the inclusion of more than two siblings from one family. </li>
+<li><strong>URL</strong> : <a href="https://github.com/LaurenceHowe/SiblingGWAS">https://github.com/LaurenceHowe/SiblingGWAS</a> </li>
+<li><strong>TITLE</strong> : Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects </li>
+<li><strong>DOI</strong> : 10.1038/s41588-022-01062-7 </li>
+<li><strong>ABSTRACT</strong> : Estimates from genome-wide association studies (GWAS) of unrelated individuals capture effects of inherited variation (direct effects), demography (population stratification, assortative mating) and relatives (indirect genetic effects). Family-based GWAS designs can control for demographic and indirect genetic effects, but large-scale family datasets have been lacking. We combined data from 178,086 siblings from 19 cohorts to generate population (between-family) and within-sibship (within-family) GWAS estimates for 25 phenotypes. Within-sibship GWAS estimates were smaller than population estimates for height, educational attainment, age at first birth, number of children, cognitive ability, depressive symptoms and smoking. Some differences were observed in downstream SNP heritability, genetic correlations and Mendelian randomization analyses. For example, the within-sibship genetic correlation between educational attainment and body mass index attenuated towards zero. In contrast, analyses of most molecular phenotypes (for example, low-density lipoprotein-cholesterol) were generally consistent. We also found within-sibship evidence of polygenic adaptation on taller height. Here, we illustrate the importance of family-based GWAS data for phenotypes influenced by demographic and indirect genetic effects. </li>
+<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by/4.0 </li>
+<li><strong>CITATION</strong> : Howe LJ, Nivard MG, Morris TT, Hansen AF, ...&amp;, Davies NM. (2022) Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects Nat. Genet., 54 (5) 581-592. doi:10.1038/s41588-022-01062-7. PMID 35534559 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 5 ; 581-592 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35534559">35534559</a> </li>
+</ul>
+<h3 id="snipar">snipar</h3>
+<ul>
+<li><strong>NAME</strong> : snipar </li>
+<li><strong>SHORT NAME</strong> : snipar </li>
+<li><strong>FULL NAME</strong> : single nucleotide imputation of parents </li>
+<li><strong>DESCRIPTION</strong> : snipar (single nucleotide imputation of parents) is a Python package for inferring identity-by-descent (IBD) segments shared between siblings, imputing missing parental genotypes, and for performing family based genome-wide association and polygenic score analyses using observed and/or imputed parental genotypes. </li>
+<li><strong>URL</strong> : <a href="https://github.com/AlexTISYoung/snipar">https://github.com/AlexTISYoung/snipar</a> </li>
+<li><strong>TITLE</strong> : Mendelian imputation of parental genotypes improves estimates of direct genetic effects </li>
+<li><strong>DOI</strong> : 10.1038/s41588-022-01085-0 </li>
+<li><strong>ABSTRACT</strong> : Effects estimated by genome-wide association studies (GWASs) include effects of alleles in an individual on that individual (direct genetic effects), indirect genetic effects (for example, effects of alleles in parents on offspring through the environment) and bias from confounding. Within-family genetic variation is random, enabling unbiased estimation of direct genetic effects when parents are genotyped. However, parental genotypes are often missing. We introduce a method that imputes missing parental genotypes and estimates direct genetic effects. Our method, implemented in the software package snipar (single-nucleotide imputation of parents), gives more precise estimates of direct genetic effects than existing approaches. Using 39,614 individuals from the UK Biobank with at least one genotyped sibling/parent, we estimate the correlation between direct genetic effects and effects from standard GWASs for nine phenotypes, including educational attainment (r = 0.739, standard error (s.e.) = 0.086) and cognitive ability (r = 0.490, s.e. = 0.086). Our results demonstrate substantial confounding bias in standard GWASs for some phenotypes. </li>
+<li><strong>CITATION</strong> : Young AI, Nehzati SM, Benonisdottir S, Okbay A, ...&amp;, Kong A. (2022) Mendelian imputation of parental genotypes improves estimates of direct genetic effects Nat. Genet., 54 (6) 897-905. doi:10.1038/s41588-022-01085-0. PMID 35681053 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 6 ; 897-905 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35681053">35681053</a> </li>
+</ul>
+<h2 id="gene-based-analysis-rare-variant">Gene-based analysis (rare variant)</h2>
+<h3 id="regenie">REGENIE</h3>
+<ul>
+<li><strong>NAME</strong> : REGENIE </li>
+<li><strong>SHORT NAME</strong> : REGENIE </li>
+<li><strong>FULL NAME</strong> : REGENIE </li>
+<li><strong>DESCRIPTION</strong> : regenie is a C++ program for whole genome regression modelling of large genome-wide association studies. It is developed and supported by a team of scientists at the Regeneron Genetics Center. </li>
+<li><strong>URL</strong> : <a href="https://github.com/rgcgithub/regenie">https://github.com/rgcgithub/regenie</a> </li>
+<li><strong>KEYWORDS</strong> : whole genome regression </li>
+<li><strong>TITLE</strong> : Computationally efficient whole-genome regression for quantitative and binary traits </li>
+<li><strong>DOI</strong> : 10.1038/s41588-021-00870-7 </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association analysis of cohorts with thousands of phenotypes is computationally expensive, particularly when accounting for sample relatedness or population structure. Here we present a novel machine-learning method called REGENIE for fitting a whole-genome regression model for quantitative and binary phenotypes that is substantially faster than alternatives in multi-trait analyses while maintaining statistical efficiency. The method naturally accommodates parallel analysis of multiple phenotypes and requires only local segments of the genotype matrix to be loaded in memory, in contrast to existing alternatives, which must load genome-wide matrices into memory. This results in substantial savings in compute time and memory usage. We introduce a fast, approximate Firth logistic regression test for unbalanced case-control phenotypes. The method is ideally suited to take advantage of distributed computing frameworks. We demonstrate the accuracy and computational benefits of this approach using the UK Biobank dataset with up to 407,746 individuals. </li>
+<li><strong>CITATION</strong> : Mbatchou J, Barnard L, Backman J, Marcketta A, ...&amp;, Marchini J. (2021) Computationally efficient whole-genome regression for quantitative and binary traits Nat. Genet., 53 (7) 1097-1103. doi:10.1038/s41588-021-00870-7. PMID 34017140 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2021 ; 53 ; 7 ; 1097-1103 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34017140">34017140</a> </li>
+</ul>
+<h3 id="saige-gene">SAIGE-GENE</h3>
+<ul>
+<li><strong>NAME</strong> : SAIGE-GENE </li>
+<li><strong>SHORT NAME</strong> : SAIGE-GENE </li>
+<li><strong>FULL NAME</strong> : SAIGE-GENE </li>
+<li><strong>URL</strong> : <a href="https://github.com/weizhouUMICH/SAIGE">https://github.com/weizhouUMICH/SAIGE</a> </li>
+<li><strong>TITLE</strong> : Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts </li>
+<li><strong>DOI</strong> : 10.1038/s41588-020-0621-6 </li>
+<li><strong>ABSTRACT</strong> : With very large sample sizes, biobanks provide an exciting opportunity to identify genetic components of complex traits. To analyze rare variants, region-based multiple-variant aggregate tests are commonly used to increase power for association tests. However, because of the substantial computational cost, existing region-based tests cannot analyze hundreds of thousands of samples while accounting for confounders such as population stratification and sample relatedness. Here we propose a scalable generalized mixed-model region-based association test, SAIGE-GENE, that is applicable to exome-wide and genome-wide region-based analysis for hundreds of thousands of samples and can account for unbalanced case-control ratios for binary traits. Through extensive simulation studies and analysis of the HUNT study with 69,716 Norwegian samples and the UK Biobank data with 408,910 White British samples, we show that SAIGE-GENE can efficiently analyze large-sample data (N &gt; 400,000) with type I error rates well controlled. </li>
+<li><strong>CITATION</strong> : Zhou W, Zhao Z, Nielsen JB, Fritsche LG, ...&amp;, Lee S. (2020) Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts Nat. Genet., 52 (6) 634-639. doi:10.1038/s41588-020-0621-6. PMID 32424355 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2020 ; 52 ; 6 ; 634-639 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32424355">32424355</a> </li>
+</ul>
+<h3 id="saige-gene_1">SAIGE-GENE+</h3>
+<ul>
+<li><strong>NAME</strong> : SAIGE-GENE+ </li>
+<li><strong>SHORT NAME</strong> : SAIGE-GENE+ </li>
+<li><strong>FULL NAME</strong> : SAIGE-GENE+ </li>
+<li><strong>URL</strong> : <a href="https://github.com/weizhouUMICH/SAIGE">https://github.com/weizhouUMICH/SAIGE</a> </li>
+<li><strong>TITLE</strong> : SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests </li>
+<li><strong>DOI</strong> : 10.1038/s41588-022-01178-w </li>
+<li><strong>ABSTRACT</strong> : Several biobanks, including UK Biobank (UKBB), are generating large-scale sequencing data. An existing method, SAIGE-GENE, performs well when testing variants with minor allele frequency (MAF) ≤ 1%, but inflation is observed in variance component set-based tests when restricting to variants with MAF ≤ 0.1% or 0.01%. Here, we propose SAIGE-GENE+ with greatly improved type I error control and computational efficiency to facilitate rare variant tests in large-scale data. We further show that incorporating multiple MAF cutoffs and functional annotations can improve power and thus uncover new gene-phenotype associations. In the analysis of UKBB whole exome sequencing data for 30 quantitative and 141 binary traits, SAIGE-GENE+ identified 551 gene-phenotype associations. </li>
+<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by/4.0 </li>
+<li><strong>CITATION</strong> : Zhou W, Bi W, Zhao Z, Dey KK, ...&amp;, Lee S. (2022) SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests Nat. Genet., 54 (10) 1466-1469. doi:10.1038/s41588-022-01178-w. PMID 36138231 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 10 ; 1466-1469 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36138231">36138231</a> </li>
+</ul>
+<h3 id="skat">SKAT</h3>
+<ul>
+<li><strong>NAME</strong> : SKAT </li>
+<li><strong>SHORT NAME</strong> : SKAT </li>
+<li><strong>FULL NAME</strong> : sequence kernel association test </li>
+<li><strong>DESCRIPTION</strong> : SKAT is a SNP-set (e.g., a gene or a region) level test for association between a set of rare (or common) variants and dichotomous or quantitative phenotypes, SKAT aggregates individual score test statistics of SNPs in a SNP set  and efficiently computes SNP-set level p-values, e.g. a gene or a region level p-value, while adjusting for covariates, such as principal components to account for population stratification. SKAT also allows for power/sample size calculations for designing for sequence association studies. </li>
+<li><strong>URL</strong> : <a href="https://www.hsph.harvard.edu/skat/">https://www.hsph.harvard.edu/skat/</a> </li>
+<li><strong>TITLE</strong> : Rare-variant association testing for sequencing data with the sequence kernel association test </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2011.05.029 </li>
+<li><strong>ABSTRACT</strong> : Sequencing studies are increasingly being conducted to identify rare variants associated with complex traits. The limited power of classical single-marker association analysis for rare variants poses a central challenge in such studies. We propose the sequence kernel association test (SKAT), a supervised, flexible, computationally efficient regression method to test for association between genetic variants (common and rare) in a region and a continuous or dichotomous trait while easily adjusting for covariates. As a score-based variance-component test, SKAT can quickly calculate p values analytically by fitting the null model containing only the covariates, and so can easily be applied to genome-wide data. Using SKAT to analyze a genome-wide sequencing study of 1000 individuals, by segmenting the whole genome into 30 kb regions, requires only 7 hr on a laptop. Through analysis of simulated data across a wide range of practical scenarios and triglyceride data from the Dallas Heart Study, we show that SKAT can substantially outperform several alternative rare-variant association tests. We also provide analytic power and sample-size calculations to help design candidate-gene, whole-exome, and whole-genome sequence association studies. </li>
+<li><strong>COPYRIGHT</strong> : https://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Wu MC, Lee S, Cai T, Li Y, ...&amp;, Lin X. (2011) Rare-variant association testing for sequencing data with the sequence kernel association test Am. J. Hum. Genet., 89 (1) 82-93. doi:10.1016/j.ajhg.2011.05.029. PMID 21737059 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2011 ; 89 ; 1 ; 82-93 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/21737059">21737059</a> </li>
+</ul>
+<h3 id="skat-o">SKAT-O</h3>
+<ul>
+<li><strong>NAME</strong> : SKAT-O </li>
+<li><strong>SHORT NAME</strong> : SKAT-O </li>
+<li><strong>FULL NAME</strong> : sequence kernel association test - optimal test </li>
+<li><strong>DESCRIPTION</strong> : estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power. </li>
+<li><strong>URL</strong> : <a href="https://www.hsph.harvard.edu/skat/">https://www.hsph.harvard.edu/skat/</a> </li>
+<li><strong>TITLE</strong> : Optimal tests for rare variant effects in sequencing association studies </li>
+<li><strong>DOI</strong> : 10.1093/biostatistics/kxs014 </li>
+<li><strong>ABSTRACT</strong> : With development of massively parallel sequencing technologies, there is a substantial need for developing powerful rare variant association tests. Common approaches include burden and non-burden tests. Burden tests assume all rare variants in the target region have effects on the phenotype in the same direction and of similar magnitude. The recently proposed sequence kernel association test (SKAT) (Wu, M. C., and others, 2011. Rare-variant association testing for sequencing data with the SKAT. The American Journal of Human Genetics 89, 82-93], an extension of the C-alpha test (Neale, B. M., and others, 2011. Testing for an unusual distribution of rare variants. PLoS Genetics 7, 161-165], provides a robust test that is particularly powerful in the presence of protective and deleterious variants and null variants, but is less powerful than burden tests when a large number of variants in a region are causal and in the same direction. As the underlying biological mechanisms are unknown in practice and vary from one gene to another across the genome, it is of substantial practical interest to develop a test that is optimal for both scenarios. In this paper, we propose a class of tests that include burden tests and SKAT as special cases, and derive an optimal test within this class that maximizes power. We show that this optimal test outperforms burden tests and SKAT in a wide range of scenarios. The results are illustrated using simulation studies and triglyceride data from the Dallas Heart Study. In addition, we have derived sample size/power calculation formula for SKAT with a new family of kernels to facilitate designing new sequence association studies. </li>
+<li><strong>CITATION</strong> : Lee S, Wu MC, Lin X. (2012) Optimal tests for rare variant effects in sequencing association studies Biostatistics, 13 (4) 762-775. doi:10.1093/biostatistics/kxs014. PMID 22699862 </li>
+<li><strong>JOURNAL_INFO</strong> : Biostatistics (Oxford, England) ; Biostatistics ; 2012 ; 13 ; 4 ; 762-775 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/22699862">22699862</a> </li>
+</ul>
+<h3 id="staar">STAAR</h3>
+<ul>
+<li><strong>NAME</strong> : STAAR </li>
+<li><strong>SHORT NAME</strong> : STAAR </li>
+<li><strong>FULL NAME</strong> : variant-set test for association using annotation information </li>
+<li><strong>DESCRIPTION</strong> : STAAR is an R package for performing variant-Set Test for Association using Annotation infoRmation (STAAR) procedure in whole-genome sequencing (WGS) studies. STAAR is a general framework that incorporates both qualitative functional categories and quantitative complementary functional annotations using an omnibus multi-dimensional weighting scheme. STAAR accounts for population structure and relatedness, and is scalable for analyzing large WGS studies of continuous and dichotomous traits. </li>
+<li><strong>URL</strong> : <a href="https://github.com/xihaoli/STAAR">https://github.com/xihaoli/STAAR</a> </li>
+<li><strong>KEYWORDS</strong> : functional annotations </li>
+<li><strong>TITLE</strong> : Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale </li>
+<li><strong>DOI</strong> : 10.1038/s41588-020-0676-4 </li>
+<li><strong>ABSTRACT</strong> : Large-scale whole-genome sequencing studies have enabled the analysis of rare variants (RVs) associated with complex phenotypes. Commonly used RV association tests have limited scope to leverage variant functions. We propose STAAR (variant-set test for association using annotation information), a scalable and powerful RV association test method that effectively incorporates both variant categories and multiple complementary annotations using a dynamic weighting scheme. For the latter, we introduce 'annotation principal components', multidimensional summaries of in silico variant annotations. STAAR accounts for population structure and relatedness and is scalable for analyzing very large cohort and biobank whole-genome sequencing studies of continuous and dichotomous traits. We applied STAAR to identify RVs associated with four lipid traits in 12,316 discovery and 17,822 replication samples from the Trans-Omics for Precision Medicine Program. We discovered and replicated new RV associations, including disruptive missense RVs of NPC1L1 and an intergenic region near APOC1P1 associated with low-density lipoprotein cholesterol. </li>
+<li><strong>CITATION</strong> : Li X, Li Z, Zhou H, Gaynor SM, ...&amp;, Lin X. (2020) Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale Nat. Genet., 52 (9) 969-983. doi:10.1038/s41588-020-0676-4. PMID 32839606 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2020 ; 52 ; 9 ; 969-983 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32839606">32839606</a> </li>
+</ul>
+<h2 id="gene-based-analysis-sumstats">Gene-based analysis (sumstats)</h2>
+<h3 id="ldak-gbat">LDAK-GBAT</h3>
+<ul>
+<li><strong>NAME</strong> : LDAK-GBAT </li>
+<li><strong>SHORT NAME</strong> : LDAK-GBAT </li>
+<li><strong>FULL NAME</strong> : LDAK gene-based association testing </li>
+<li><strong>URL</strong> : <a href="http://www.ldak.org/">http://www.ldak.org/</a> </li>
+<li><strong>TITLE</strong> : LDAK-GBAT: Fast and powerful gene-based association testing using summary statistics </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2022.11.010 </li>
+<li><strong>ABSTRACT</strong> : We present LDAK-GBAT, a tool for gene-based association testing using summary statistics from genome-wide association studies that is computationally efficient, produces well-calibrated p values, and is significantly more powerful than existing tools. LDAK-GBAT takes approximately 30 min to analyze imputed data (2.9M common, genic SNPs), requiring less than 10 Gb memory. It shows good control of type 1 error given an appropriate reference panel. Across 109 phenotypes (82 from the UK Biobank, 18 from the Million Veteran Program, and nine from the Psychiatric Genetics Consortium), LDAK-GBAT finds on average 19% (SE: 1%) more significant genes than the existing tool sumFREGAT-ACAT, with even greater gains in comparison with MAGMA, GCTA-fastBAT, sumFREGAT-SKAT-O, and sumFREGAT-PCA. </li>
+<li><strong>COPYRIGHT</strong> : http://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Berrandou TE, Balding D, Speed D. (2023) LDAK-GBAT: Fast and powerful gene-based association testing using summary statistics Am. J. Hum. Genet., 110 (1) 23-29. doi:10.1016/j.ajhg.2022.11.010. PMID 36480927 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2023 ; 110 ; 1 ; 23-29 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36480927">36480927</a> </li>
+</ul>
+<h2 id="pgs-adjusted-gwas">PGS-adjusted GWAS</h2>
+<h3 id="pgs-adjusted-gwas_1">PGS-adjusted GWAS</h3>
+<ul>
+<li><strong>NAME</strong> : PGS-adjusted GWAS </li>
+<li><strong>SHORT NAME</strong> : PGS-adjusted GWAS </li>
+<li><strong>FULL NAME</strong> : PGS-adjusted GWAS </li>
+<li><strong>DESCRIPTION</strong> : adjustment of GWAS analyses for polygenic scores (PGSs) increases the statistical power for discovery across all ancestries </li>
+<li><strong>KEYWORDS</strong> : LOCO-PGSs, two-stage meta-analysis strategy </li>
+<li><strong>TITLE</strong> : Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores </li>
+<li><strong>DOI</strong> : 10.1038/s41588-023-01500-0 </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association studies (GWASs) have been mostly conducted in populations of European ancestry, which currently limits the transferability of their findings to other populations. Here, we show, through theory, simulations and applications to real data, that adjustment of GWAS analyses for polygenic scores (PGSs) increases the statistical power for discovery across all ancestries. We applied this method to analyze seven traits available in three large biobanks with participants of East Asian ancestry (n = 340,000 in total) and report 139 additional associations across traits. We also present a two-stage meta-analysis strategy whereby, in contributing cohorts, a PGS-adjusted GWAS is rerun using PGSs derived from a first round of a standard meta-analysis. On average, across traits, this approach yields a 1.26-fold increase in the number of detected associations (range 1.07- to 1.76-fold increase). Altogether, our study demonstrates the value of using PGSs to increase the power of GWASs in underrepresented populations and promotes such an analytical strategy for future GWAS meta-analyses. </li>
+<li><strong>CITATION</strong> : Campos AI, Namba S, Lin SC, Nam K, ...&amp;, Yengo L. (2023) Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores Nat. Genet., 55 (10) 1769-1776. doi:10.1038/s41588-023-01500-0. PMID 37723263 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2023 ; 55 ; 10 ; 1769-1776 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/37723263">37723263</a> </li>
+</ul>
+<h3 id="pgs-adjusted-rvats">PGS-adjusted RVATs</h3>
+<ul>
+<li><strong>NAME</strong> : PGS-adjusted RVATs </li>
+<li><strong>SHORT NAME</strong> : PGS-adjusted RVATs </li>
+<li><strong>FULL NAME</strong> : PGS-adjusted rare variant association tests </li>
+<li><strong>DESCRIPTION</strong> : adjusting for common variant polygenic scores improves yield in gene-based rare variant association tests </li>
+<li><strong>KEYWORDS</strong> : PGS, Rare variants </li>
+<li><strong>TITLE</strong> : Adjusting for common variant polygenic scores improves yield in rare variant association analyses </li>
+<li><strong>DOI</strong> : 10.1038/s41588-023-01342-w </li>
+<li><strong>ABSTRACT</strong> : With the emergence of large-scale sequencing data, methods for improving power in rare variant association tests are needed. Here we show that adjusting for common variant polygenic scores improves yield in gene-based rare variant association tests across 65 quantitative traits in the UK Biobank (up to 20% increase at α = 2.6 × 10-6), without marked increases in false-positive rates or genomic inflation. Benefits were seen for various models, with the largest improvements seen for efficient sparse mixed-effects models. Our results illustrate how polygenic score adjustment can efficiently improve power in rare variant association discovery. </li>
+<li><strong>CITATION</strong> : Jurgens SJ, Pirruccello JP, Choi SH, Morrill VN, ...&amp;, Ellinor PT. (2023) Adjusting for common variant polygenic scores improves yield in rare variant association analyses Nat. Genet.,  () . doi:10.1038/s41588-023-01342-w. PMID 36959364 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2023 ; <NA> ; <NA> ; <NA> </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36959364">36959364</a> </li>
+</ul>
+<h2 id="review">Review</h2>
+<h3 id="review-povysil">Review-Povysil</h3>
+<ul>
+<li><strong>NAME</strong> : Review-Povysil </li>
+<li><strong>TITLE</strong> : Rare-variant collapsing analyses for complex traits: guidelines and applications </li>
+<li><strong>DOI</strong> : 10.1038/s41576-019-0177-4 </li>
+<li><strong>ABSTRACT</strong> : The first phase of genome-wide association studies (GWAS) assessed the role of common variation in human disease. Advances optimizing and economizing high-throughput sequencing have enabled a second phase of association studies that assess the contribution of rare variation to complex disease in all protein-coding genes. Unlike the early microarray-based studies, sequencing-based studies catalogue the full range of genetic variation, including the evolutionarily youngest forms. Although the experience with common variants helped establish relevant standards for genome-wide studies, the analysis of rare variation introduces several challenges that require novel analysis approaches. </li>
+<li><strong>CITATION</strong> : Povysil G, Petrovski S, Hostyk J, Aggarwal V, ...&amp;, Goldstein DB. (2019) Rare-variant collapsing analyses for complex traits: guidelines and applications Nat. Rev. Genet., 20 (12) 747-759. doi:10.1038/s41576-019-0177-4. PMID 31605095 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature reviews. Genetics ; Nat. Rev. Genet. ; 2019 ; 20 ; 12 ; 747-759 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/31605095">31605095</a> </li>
+</ul>
+<h2 id="single-variant-association-tests">Single variant association tests</h2>
+<h3 id="bolt-lmm">BOLT-lMM</h3>
+<ul>
+<li><strong>NAME</strong> : BOLT-lMM </li>
+<li><strong>SHORT NAME</strong> : BOLT-lMM </li>
+<li><strong>FULL NAME</strong> : BOLT-lMM </li>
+<li><strong>DESCRIPTION</strong> : The BOLT-LMM software package currently consists of two main algorithms, the BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis (i.e., partitioning of SNP-heritability and estimation of genetic correlations). </li>
+<li><strong>URL</strong> : <a href="https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html">https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html</a> </li>
+<li><strong>KEYWORDS</strong> : non-infinitesimal model,  mixture of two Gaussian distributions </li>
+<li><strong>TITLE</strong> : Efficient Bayesian mixed-model analysis increases association power in large cohorts </li>
+<li><strong>DOI</strong> : 10.1038/ng.3190 </li>
+<li><strong>ABSTRACT</strong> : Linear mixed models are a powerful statistical tool for identifying genetic associations and avoiding confounding. However, existing methods are computationally intractable in large cohorts and may not optimize power. All existing methods require time cost O(MN(2)) (where N is the number of samples and M is the number of SNPs) and implicitly assume an infinitesimal genetic architecture in which effect sizes are normally distributed, which can limit power. Here we present a far more efficient mixed-model association method, BOLT-LMM, which requires only a small number of O(MN) time iterations and increases power by modeling more realistic, non-infinitesimal genetic architectures via a Bayesian mixture prior on marker effect sizes. We applied BOLT-LMM to 9 quantitative traits in 23,294 samples from the Women's Genome Health Study (WGHS) and observed significant increases in power, consistent with simulations. Theory and simulations show that the boost in power increases with cohort size, making BOLT-LMM appealing for genome-wide association studies in large cohorts. </li>
+<li><strong>CITATION</strong> : Loh PR, Tucker G, Bulik-Sullivan BK, Vilhjálmsson BJ, ...&amp;, Price AL. (2015) Efficient Bayesian mixed-model analysis increases association power in large cohorts Nat. Genet., 47 (3) 284-290. doi:10.1038/ng.3190. PMID 25642633 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2015 ; 47 ; 3 ; 284-290 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25642633">25642633</a> </li>
+</ul>
+<h3 id="emmax">EMMAX</h3>
+<ul>
+<li><strong>NAME</strong> : EMMAX </li>
+<li><strong>SHORT NAME</strong> : EMMAX </li>
+<li><strong>FULL NAME</strong> : efficient mixed-model association eXpedited </li>
+<li><strong>DESCRIPTION</strong> : EMMAX is a statistical test for large scale human or model organism association mapping accounting for the sample structure. In addition to the computational efficiency obtained by EMMA algorithm, EMMAX takes advantage of the fact that each loci explains only a small fraction of complex traits, which allows us to avoid repetitive variance component estimation procedure, resulting in a significant amount of increase in computational time of association mapping using mixed model. </li>
+<li><strong>URL</strong> : <a href="https://genome.sph.umich.edu/wiki/EMMAX">https://genome.sph.umich.edu/wiki/EMMAX</a> </li>
+<li><strong>TITLE</strong> : Variance component model to account for sample structure in genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1038/ng.548 </li>
+<li><strong>ABSTRACT</strong> : Although genome-wide association studies (GWASs) have identified numerous loci associated with complex traits, imprecise modeling of the genetic relatedness within study samples may cause substantial inflation of test statistics and possibly spurious associations. Variance component approaches, such as efficient mixed-model association (EMMA), can correct for a wide range of sample structures by explicitly accounting for pairwise relatedness between individuals, using high-density markers to model the phenotype distribution; but such approaches are computationally impractical. We report here a variance component approach implemented in publicly available software, EMMA eXpedited (EMMAX), that reduces the computational time for analyzing large GWAS data sets from years to hours. We apply this method to two human GWAS data sets, performing association analysis for ten quantitative traits from the Northern Finland Birth Cohort and seven common diseases from the Wellcome Trust Case Control Consortium. We find that EMMAX outperforms both principal component analysis and genomic control in correcting for sample structure. </li>
+<li><strong>CITATION</strong> : Kang HM, Sul JH, Service,  Susan K., ...&amp;, Eskin E. (2010) Variance component model to account for sample structure in genome-wide association studies Nat. Genet., 42 (4) 348-354. doi:10.1038/ng.548. PMID 20208533 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2010 ; 42 ; 4 ; 348-354 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/20208533">20208533</a> </li>
+</ul>
+<h3 id="gemma">GEMMA</h3>
+<ul>
+<li><strong>NAME</strong> : GEMMA </li>
+<li><strong>SHORT NAME</strong> : GEMMA </li>
+<li><strong>FULL NAME</strong> : genome-wide efficient mixed-model association </li>
+<li><strong>DESCRIPTION</strong> : GEMMA is the software implementing the Genome-wide Efficient Mixed Model Association algorithm for a standard linear mixed model and some of its close relatives for genome-wide association studies (GWAS). It fits a standard linear mixed model (LMM) to account for population stratification and sample structure for single marker association tests. It fits a Bayesian sparse linear mixed model (BSLMM) using Markov chain Monte Carlo (MCMC) for estimating the proportion of variance in phenotypes explained (PVE) by typed genotypes (i.e. chip heritability), predicting phenotypes, and identifying associated markers by jointly modeling all markers while controlling for population structure. It is computationally efficient for large scale GWAS and uses freely available open-source numerical libraries. </li>
+<li><strong>URL</strong> : <a href="http://stephenslab.uchicago.edu/software.html#gemma">http://stephenslab.uchicago.edu/software.html#gemma</a> </li>
+<li><strong>TITLE</strong> : Genome-wide efficient mixed-model analysis for association studies </li>
+<li><strong>DOI</strong> : 10.1038/ng.2310 </li>
+<li><strong>ABSTRACT</strong> : Linear mixed models have attracted considerable attention recently as a powerful and effective tool for accounting for population stratification and relatedness in genetic association tests. However, existing methods for exact computation of standard test statistics are computationally impractical for even moderate-sized genome-wide association studies. To address this issue, several approximate methods have been proposed. Here, we present an efficient exact method, which we refer to as genome-wide efficient mixed-model association (GEMMA), that makes approximations unnecessary in many contexts. This method is approximately n times faster than the widely used exact method known as efficient mixed-model association (EMMA), where n is the sample size, making exact genome-wide association analysis computationally practical for large numbers of individuals. </li>
+<li><strong>CITATION</strong> : Zhou X, Stephens M. (2012) Genome-wide efficient mixed-model analysis for association studies Nat. Genet., 44 (7) 821-824. doi:10.1038/ng.2310. PMID 22706312 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2012 ; 44 ; 7 ; 821-824 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/22706312">22706312</a> </li>
+</ul>
+<h3 id="ldak-kvik">LDAK-KVIK</h3>
+<ul>
+<li><strong>NAME</strong> : LDAK-KVIK </li>
+<li><strong>SHORT NAME</strong> : LDAK-KVIK </li>
+<li><strong>URL</strong> : <a href="http://www.ldak.org/">http://www.ldak.org/</a> </li>
+<li><strong>CITATION</strong> : Hof, J. P. &amp; Speed, D. LDAK-KVIK performs fast and powerful mixed-model association analysis of quantitative and binary phenotypes. bioRxiv 2024.07.25.24311005 (2024) doi:10.1101/2024.07.25.24311005.<br><br> </li>
+</ul>
+<h3 id="plink">PLINK</h3>
+<ul>
+<li><strong>NAME</strong> : PLINK </li>
+<li><strong>SHORT NAME</strong> : PLINK </li>
+<li><strong>FULL NAME</strong> : PLINK </li>
+<li><strong>DESCRIPTION</strong> : A Tool Set for Whole-Genome Association and Population-Based Linkage Analyses. PLINK is a free, open-source whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner. The focus of PLINK is purely on analysis of genotype/phenotype data, so there is no support for steps prior to this (e.g. study design and planning, generating genotype or CNV calls from raw data). Through integration with gPLINK and Haploview, there is some support for the subsequent visualization, annotation and storage of results. </li>
+<li><strong>URL</strong> : <a href="https://www.cog-genomics.org/plink/">https://www.cog-genomics.org/plink/</a> </li>
+<li><strong>TITLE</strong> : PLINK: a tool set for whole-genome association and population-based linkage analyses </li>
+<li><strong>DOI</strong> : 10.1086/519795 </li>
+<li><strong>ABSTRACT</strong> : Whole-genome association studies (WGAS) bring new computational, as well as analytic, challenges to researchers. Many existing genetic-analysis tools are not designed to handle such large data sets in a convenient manner and do not necessarily exploit the new opportunities that whole-genome data bring. To address these issues, we developed PLINK, an open-source C/C++ WGAS tool set. With PLINK, large data sets comprising hundreds of thousands of markers genotyped for thousands of individuals can be rapidly manipulated and analyzed in their entirety. As well as providing tools to make the basic analytic steps computationally efficient, PLINK also supports some novel approaches to whole-genome data that take advantage of whole-genome coverage. We introduce PLINK and describe the five main domains of function: data management, summary statistics, population stratification, association analysis, and identity-by-descent estimation. In particular, we focus on the estimation and use of identity-by-state and identity-by-descent information in the context of population-based whole-genome studies. This information can be used to detect and correct for population stratification and to identify extended chromosomal segments that are shared identical by descent between very distantly related individuals. Analysis of the patterns of segmental sharing has the potential to map disease loci that contain multiple rare variants in a population-based linkage analysis. </li>
+<li><strong>COPYRIGHT</strong> : https://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Purcell S, Neale B, Todd-Brown K, Thomas L, ...&amp;, Sham PC. (2007) PLINK: a tool set for whole-genome association and population-based linkage analyses Am. J. Hum. Genet., 81 (3) 559-575. doi:10.1086/519795. PMID 17701901 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2007 ; 81 ; 3 ; 559-575 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/17701901">17701901</a> </li>
+</ul>
+<h3 id="plink2">PLINK2</h3>
+<ul>
+<li><strong>NAME</strong> : PLINK2 </li>
+<li><strong>SHORT NAME</strong> : PLINK2 </li>
+<li><strong>FULL NAME</strong> : PLINK2 </li>
+<li><strong>URL</strong> : <a href="https://www.cog-genomics.org/plink/2.0/">https://www.cog-genomics.org/plink/2.0/</a> </li>
+<li><strong>TITLE</strong> : Second-generation PLINK: rising to the challenge of larger and richer datasets </li>
+<li><strong>DOI</strong> : 10.1186/s13742-015-0047-8 </li>
+<li><strong>ABSTRACT</strong> : BACKGROUND: PLINK 1 is a widely used open-source C/C++ toolset for genome-wide association studies (GWAS) and research in population genetics. However, the steady accumulation of data from imputation and whole-genome sequencing studies has exposed a strong need for faster and scalable implementations of key functions, such as logistic regression, linkage disequilibrium estimation, and genomic distance evaluation. In addition, GWAS and population-genetic data now frequently contain genotype likelihoods, phase information, and/or multiallelic variants, none of which can be represented by PLINK 1's primary data format. FINDINGS: To address these issues, we are developing a second-generation codebase for PLINK. The first major release from this codebase, PLINK 1.9, introduces extensive use of bit-level parallelism, [Formula: see text]-time/constant-space Hardy-Weinberg equilibrium and Fisher's exact tests, and many other algorithmic improvements. In combination, these changes accelerate most operations by 1-4 orders of magnitude, and allow the program to handle datasets too large to fit in RAM. We have also developed an extension to the data format which adds low-overhead support for genotype likelihoods, phase, multiallelic variants, and reference vs. alternate alleles, which is the basis of our planned second release (PLINK 2.0). CONCLUSIONS: The second-generation versions of PLINK will offer dramatic improvements in performance and compatibility. For the first time, users without access to high-end computing resources can perform several essential analyses of the feature-rich and very large genetic datasets coming into use. </li>
+<li><strong>CITATION</strong> : Chang CC, Chow CC, Tellier LC, Vattikuti S, ...&amp;, Lee JJ. (2015) Second-generation PLINK: rising to the challenge of larger and richer datasets Gigascience, 4 (1) 7. doi:10.1186/s13742-015-0047-8. PMID 25722852 </li>
+<li><strong>JOURNAL_INFO</strong> : GigaScience ; Gigascience ; 2015 ; 4 ; 1 ; 7 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25722852">25722852</a> </li>
+</ul>
+<h3 id="polmm">POLMM</h3>
+<ul>
+<li><strong>NAME</strong> : POLMM </li>
+<li><strong>SHORT NAME</strong> : POLMM </li>
+<li><strong>FULL NAME</strong> : proportional odds logistic mixed model (POLMM) </li>
+<li><strong>DESCRIPTION</strong> : Proportional Odds Logistic Mixed Model (POLMM) for ordinal categorical data analysis </li>
+<li><strong>URL</strong> : <a href="https://github.com/WenjianBI/POLMM">https://github.com/WenjianBI/POLMM</a> </li>
+<li><strong>KEYWORDS</strong> : ordinal categorical phenotypes </li>
+<li><strong>TITLE</strong> : Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2021.03.019 </li>
+<li><strong>ABSTRACT</strong> : In genome-wide association studies, ordinal categorical phenotypes are widely used to measure human behaviors, satisfaction, and preferences. However, because of the lack of analysis tools, methods designed for binary or quantitative traits are commonly used inappropriately to analyze categorical phenotypes. To accurately model the dependence of an ordinal categorical phenotype on covariates, we propose an efficient mixed model association test, proportional odds logistic mixed model (POLMM). POLMM is computationally efficient to analyze large datasets with hundreds of thousands of samples, can control type I error rates at a stringent significance level regardless of the phenotypic distribution, and is more powerful than alternative methods. In contrast, the standard linear mixed model approaches cannot control type I error rates for rare variants when the phenotypic distribution is unbalanced, although they performed well when testing common variants. We applied POLMM to 258 ordinal categorical phenotypes on array genotypes and imputed samples from 408,961 individuals in UK Biobank. In total, we identified 5,885 genome-wide significant variants, of which, 424 variants (7.2%) are rare variants with MAF &lt; 0.01. </li>
+<li><strong>COPYRIGHT</strong> : http://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Bi W, Zhou W, Dey R, Mukherjee B, ...&amp;, Lee S. (2021) Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes Am. J. Hum. Genet., 108 (5) 825-839. doi:10.1016/j.ajhg.2021.03.019. PMID 33836139 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2021 ; 108 ; 5 ; 825-839 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/33836139">33836139</a> </li>
+</ul>
+<h3 id="qrgwas">QRGWAS</h3>
+<ul>
+<li><strong>NAME</strong> : QRGWAS </li>
+<li><strong>SHORT NAME</strong> : QRGWAS </li>
+<li><strong>FULL NAME</strong> : Quantile regression GWAS </li>
+<li><strong>URL</strong> : <a href="https://github.com/Iuliana-Ionita-Laza/QRGWAS">https://github.com/Iuliana-Ionita-Laza/QRGWAS</a> </li>
+<li><strong>TITLE</strong> : Genome-wide discovery for biomarkers using quantile regression at biobank scale </li>
+<li><strong>DOI</strong> : 10.1038/s41467-024-50726-x </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association studies (GWAS) for biomarkers important for clinical phenotypes can lead to clinically relevant discoveries. Conventional GWAS for quantitative traits are based on simplified regression models modeling the conditional mean of a phenotype as a linear function of genotype. We draw attention here to an alternative, lesser known approach, namely quantile regression that naturally extends linear regression to the analysis of the entire conditional distribution of a phenotype of interest. Quantile regression can be applied efficiently at biobank scale, while having some unique advantages such as (1) identifying variants with heterogeneous effects across quantiles of the phenotype distribution; (2) accommodating a wide range of phenotype distributions including non-normal distributions, with invariance of results to trait transformations; and (3) providing more detailed information about genotype-phenotype associations even for those associations identified by conventional GWAS. We show in simulations that quantile regression is powerful across both homogeneous and various heterogeneous models. Applications to 39 quantitative traits in the UK Biobank demonstrate that quantile regression can be a helpful complement to linear regression in GWAS and can identify variants with larger effects on high-risk subgroups of individuals but with lower or no contribution overall. </li>
+<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by-nc-nd/4.0 </li>
+<li><strong>CITATION</strong> : Wang C, Wang T, Kiryluk K, Wei Y, ...&amp;, Ionita-Laza I. (2024) Genome-wide discovery for biomarkers using quantile regression at biobank scale Nat. Commun., 15 (1) 6460. doi:10.1038/s41467-024-50726-x. PMID 39085219 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature communications ; Nat. Commun. ; 2024 ; 15 ; 1 ; 6460 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/39085219">39085219</a> </li>
+</ul>
+<h3 id="regenie_1">REGENIE</h3>
+<ul>
+<li><strong>NAME</strong> : REGENIE </li>
+<li><strong>SHORT NAME</strong> : REGENIE </li>
+<li><strong>FULL NAME</strong> : REGENIE </li>
+<li><strong>DESCRIPTION</strong> : regenie is a C++ program for whole genome regression modelling of large genome-wide association studies. It is developed and supported by a team of scientists at the Regeneron Genetics Center. </li>
+<li><strong>URL</strong> : <a href="https://github.com/rgcgithub/regenie">https://github.com/rgcgithub/regenie</a> </li>
+<li><strong>KEYWORDS</strong> : whole genome regression </li>
+<li><strong>TITLE</strong> : Computationally efficient whole-genome regression for quantitative and binary traits </li>
+<li><strong>DOI</strong> : 10.1038/s41588-021-00870-7 </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association analysis of cohorts with thousands of phenotypes is computationally expensive, particularly when accounting for sample relatedness or population structure. Here we present a novel machine-learning method called REGENIE for fitting a whole-genome regression model for quantitative and binary phenotypes that is substantially faster than alternatives in multi-trait analyses while maintaining statistical efficiency. The method naturally accommodates parallel analysis of multiple phenotypes and requires only local segments of the genotype matrix to be loaded in memory, in contrast to existing alternatives, which must load genome-wide matrices into memory. This results in substantial savings in compute time and memory usage. We introduce a fast, approximate Firth logistic regression test for unbalanced case-control phenotypes. The method is ideally suited to take advantage of distributed computing frameworks. We demonstrate the accuracy and computational benefits of this approach using the UK Biobank dataset with up to 407,746 individuals. </li>
+<li><strong>CITATION</strong> : Mbatchou J, Barnard L, Backman J, Marcketta A, ...&amp;, Marchini J. (2021) Computationally efficient whole-genome regression for quantitative and binary traits Nat. Genet., 53 (7) 1097-1103. doi:10.1038/s41588-021-00870-7. PMID 34017140 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2021 ; 53 ; 7 ; 1097-1103 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34017140">34017140</a> </li>
+</ul>
+<h3 id="saige">SAIGE</h3>
+<ul>
+<li><strong>NAME</strong> : SAIGE </li>
+<li><strong>SHORT NAME</strong> : SAIGE </li>
+<li><strong>FULL NAME</strong> : Scalable and Accurate Implementation of GEneralized mixed model </li>
+<li><strong>DESCRIPTION</strong> : SAIGE is an R package with Scalable and Accurate Implementation of Generalized mixed model (Chen, H. et al. 2016). It accounts for sample relatedness and is feasible for genetic association tests in large cohorts and biobanks (N &gt; 400,000). SAIGE performs single-variant association tests for binary traits and quantitative taits. For binary traits, SAIGE uses the saddlepoint approximation (SPA)(mhof, J. P. , 1961; Kuonen, D. 1999; Dey, R. et.al 2017) to account for case-control imbalance. </li>
+<li><strong>URL</strong> : <a href="https://github.com/weizhouUMICH/SAIGE">https://github.com/weizhouUMICH/SAIGE</a> </li>
+<li><strong>KEYWORDS</strong> : case-control imbalance, saddlepoint approximation (SPA) </li>
+<li><strong>TITLE</strong> : Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies </li>
+<li><strong>DOI</strong> : 10.1038/s41588-018-0184-y </li>
+<li><strong>ABSTRACT</strong> : In genome-wide association studies (GWAS) for thousands of phenotypes in large biobanks, most binary traits have substantially fewer cases than controls. Both of the widely used approaches, the linear mixed model and the recently proposed logistic mixed model, perform poorly; they produce large type I error rates when used to analyze unbalanced case-control phenotypes. Here we propose a scalable and accurate generalized mixed model association test that uses the saddlepoint approximation to calibrate the distribution of score test statistics. This method, SAIGE (Scalable and Accurate Implementation of GEneralized mixed model), provides accurate P values even when case-control ratios are extremely unbalanced. SAIGE uses state-of-art optimization strategies to reduce computational costs; hence, it is applicable to GWAS for thousands of phenotypes by large biobanks. Through the analysis of UK Biobank data of 408,961 samples from white British participants with European ancestry for &gt; 1,400 binary phenotypes, we show that SAIGE can efficiently analyze large sample data, controlling for unbalanced case-control ratios and sample relatedness. </li>
+<li><strong>CITATION</strong> : Zhou W, Nielsen JB, Fritsche LG, Dey R, ...&amp;, Lee S. (2018) Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies Nat. Genet., 50 (9) 1335-1341. doi:10.1038/s41588-018-0184-y. PMID 30104761 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2018 ; 50 ; 9 ; 1335-1341 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/30104761">30104761</a> </li>
+</ul>
+<h3 id="fastgwa">fastGWA</h3>
+<ul>
+<li><strong>NAME</strong> : fastGWA </li>
+<li><strong>SHORT NAME</strong> : fastGWA </li>
+<li><strong>FULL NAME</strong> : fastGWA </li>
+<li><strong>URL</strong> : <a href="https://yanglab.westlake.edu.cn/software/gcta/#fastGWA">https://yanglab.westlake.edu.cn/software/gcta/#fastGWA</a> </li>
+<li><strong>KEYWORDS</strong> : grid-search-based REML algorithm </li>
+<li><strong>TITLE</strong> : A resource-efficient tool for mixed model association analysis of large-scale data </li>
+<li><strong>DOI</strong> : 10.1038/s41588-019-0530-8 </li>
+<li><strong>ABSTRACT</strong> : The genome-wide association study (GWAS) has been widely used as an experimental design to detect associations between genetic variants and a phenotype. Two major confounding factors, population stratification and relatedness, could potentially lead to inflated GWAS test statistics and hence to spurious associations. Mixed linear model (MLM)-based approaches can be used to account for sample structure. However, genome-wide association (GWA) analyses in biobank samples such as the UK Biobank (UKB) often exceed the capability of most existing MLM-based tools especially if the number of traits is large. Here, we develop an MLM-based tool (fastGWA) that controls for population stratification by principal components and for relatedness by a sparse genetic relationship matrix for GWA analyses of biobank-scale data. We demonstrate by extensive simulations that fastGWA is reliable, robust and highly resource-efficient. We then apply fastGWA to 2,173 traits on array-genotyped and imputed samples from 456,422 individuals and to 2,048 traits on whole-exome-sequenced samples from 46,191 individuals in the UKB. </li>
+<li><strong>CITATION</strong> : Jiang L, Zheng Z, Qi T, Kemper KE, ...&amp;, Yang J. (2019) A resource-efficient tool for mixed model association analysis of large-scale data Nat. Genet., 51 (12) 1749-1755. doi:10.1038/s41588-019-0530-8. PMID 31768069 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2019 ; 51 ; 12 ; 1749-1755 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/31768069">31768069</a> </li>
+</ul>
+<h3 id="fastgwa-glmm">fastGWA-GLMM</h3>
+<ul>
+<li><strong>NAME</strong> : fastGWA-GLMM </li>
+<li><strong>SHORT NAME</strong> : fastGWA-GLMM </li>
+<li><strong>FULL NAME</strong> : fastGWA-GLMM </li>
+<li><strong>URL</strong> : <a href="https://yanglab.westlake.edu.cn/software/gcta/#fastGWA">https://yanglab.westlake.edu.cn/software/gcta/#fastGWA</a> </li>
+<li><strong>TITLE</strong> : A generalized linear mixed model association tool for biobank-scale data </li>
+<li><strong>DOI</strong> : 10.1038/s41588-021-00954-4 </li>
+<li><strong>ABSTRACT</strong> : Compared with linear mixed model-based genome-wide association (GWA) methods, generalized linear mixed model (GLMM)-based methods have better statistical properties when applied to binary traits but are computationally much slower. In the present study, leveraging efficient sparse matrix-based algorithms, we developed a GLMM-based GWA tool, fastGWA-GLMM, that is severalfold to orders of magnitude faster than the state-of-the-art tools when applied to the UK Biobank (UKB) data and scalable to cohorts with millions of individuals. We show by simulation that the fastGWA-GLMM test statistics of both common and rare variants are well calibrated under the null, even for traits with extreme case-control ratios. We applied fastGWA-GLMM to the UKB data of 456,348 individuals, 11,842,647 variants and 2,989 binary traits (full summary statistics available at http://fastgwa.info/ukbimpbin ), and identified 259 rare variants associated with 75 traits, demonstrating the use of imputed genotype data in a large cohort to discover rare variants for binary complex traits. </li>
+<li><strong>COPYRIGHT</strong> : https://www.springernature.com/gp/researchers/text-and-data-mining </li>
+<li><strong>CITATION</strong> : Jiang L, Zheng Z, Fang H, Yang J. (2021) A generalized linear mixed model association tool for biobank-scale data Nat. Genet., 53 (11) 1616-1621. doi:10.1038/s41588-021-00954-4. PMID 34737426 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2021 ; 53 ; 11 ; 1616-1621 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34737426">34737426</a> </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

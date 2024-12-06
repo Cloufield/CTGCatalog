@@ -1,0 +1,2149 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+      
+        <link rel="prev" href="../Tools_Simulation_README/">
+      
+      
+        <link rel="next" href="../Tools_Winners_curse_README/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.6">
+    
+    
+      
+        <title>Tissue_and_single_cell - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tissue_and_single_cell
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats_Sumstats_README/" class="md-tabs__link">
+          
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools_README/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Visualization_README/" class="md-tabs__link">
+          
+  
+  Visualization
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics_README/" class="md-tabs__link">
+          
+  
+  Population_Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sumstats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Sumstats_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Biobanks_Cohorts_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biobanks_Cohorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Metabolomics_Metabolomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metabolomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Proteomics_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Imaging_Imaging_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Annotation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Association_tests
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_RWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_TWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_eQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    eQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_sQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Colocalization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocalization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Data_processing_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Dimension_reduction_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dimension_reduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Drug_discovery_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drug_discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Fine_mapping_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_prioritization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_prioritization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_set_pathway_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_set_pathway_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_GxE_interactions_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GxE_interactions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_HLA_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HLA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Heritability_and_genetic_correlation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heritability_and_genetic_correlation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Imputation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imputation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mendelian_randomization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mendelian_randomization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Meta_and_Multi_triat_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meta_and_Multi_triat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Polygenic_risk_scores_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polygenic_risk_scores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Power_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Simulation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coconet" class="md-nav__link">
+    <span class="md-ellipsis">
+      CoCoNet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epic" class="md-nav__link">
+    <span class="md-ellipsis">
+      EPIC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldsc-seg" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDSC-SEG
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magma" class="md-nav__link">
+    <span class="md-ellipsis">
+      MAGMA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rolypoly" class="md-nav__link">
+    <span class="md-ellipsis">
+      RolyPoly
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scarlink" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCARlink
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scavenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCAVENGE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scent" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCENT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tcsc" class="md-nav__link">
+    <span class="md-ellipsis">
+      TCSC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pgboost" class="md-nav__link">
+    <span class="md-ellipsis">
+      pgBoost
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sc-linker" class="md-nav__link">
+    <span class="md-ellipsis">
+      sc-linker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scdrs" class="md-nav__link">
+    <span class="md-ellipsis">
+      scDRS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scgwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      scGWAS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Winners_curse_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Winners_curse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Chromosome_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromosome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Forest_plot_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest_plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_GWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Heatmap_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_LD_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Variants_on_protein_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variants_on_protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Population_Genetics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Admixture_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admixture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Genealogy_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genealogy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Phylogenetic_tree_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenetic_tree
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Selection_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coconet" class="md-nav__link">
+    <span class="md-ellipsis">
+      CoCoNet
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#epic" class="md-nav__link">
+    <span class="md-ellipsis">
+      EPIC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldsc-seg" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDSC-SEG
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#magma" class="md-nav__link">
+    <span class="md-ellipsis">
+      MAGMA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rolypoly" class="md-nav__link">
+    <span class="md-ellipsis">
+      RolyPoly
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scarlink" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCARlink
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scavenge" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCAVENGE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scent" class="md-nav__link">
+    <span class="md-ellipsis">
+      SCENT
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tcsc" class="md-nav__link">
+    <span class="md-ellipsis">
+      TCSC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pgboost" class="md-nav__link">
+    <span class="md-ellipsis">
+      pgBoost
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sc-linker" class="md-nav__link">
+    <span class="md-ellipsis">
+      sc-linker
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scdrs" class="md-nav__link">
+    <span class="md-ellipsis">
+      scDRS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scgwas" class="md-nav__link">
+    <span class="md-ellipsis">
+      scGWAS
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Tissue_and_single_cell</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CITATION</th>
+<th style="text-align: left;">YEAR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#coconet">CoCoNet</a></td>
+<td style="text-align: left;">Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies PLoS Genet., 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941</td>
+<td style="text-align: left;">2020</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#epic">EPIC</a></td>
+<td style="text-align: left;">Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing PLoS Genet., 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ldsc-seg">LDSC-SEG</a></td>
+<td style="text-align: left;">Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&amp;, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types Nat. Genet., 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380</td>
+<td style="text-align: left;">2018</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#magma">MAGMA</a></td>
+<td style="text-align: left;">de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data PLoS Comput. Biol., 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710</td>
+<td style="text-align: left;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#rolypoly">RolyPoly</a></td>
+<td style="text-align: left;">Calderon D, Bhaskar A, Knowles DA, Golan D, ...&amp;, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression Am. J. Hum. Genet., 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824</td>
+<td style="text-align: left;">2017</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#scarlink">SCARlink</a></td>
+<td style="text-align: left;">Mitra S, Malik R, Wong W, Rahman A, ...&amp;, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis Nat. Genet.,  () . doi:10.1038/s41588-024-01689-8. PMID 38514783</td>
+<td style="text-align: left;">2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#scavenge">SCAVENGE</a></td>
+<td style="text-align: left;">Yu F, Cato LD, Weng C, Liggett LA, ...&amp;, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation Nat. Biotechnol., 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#scent">SCENT</a></td>
+<td style="text-align: left;">Sakaue S, Weinand K, Isaac S, Dey KK, ...&amp;, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles Nat. Genet., 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305</td>
+<td style="text-align: left;">2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#tcsc">TCSC</a></td>
+<td style="text-align: left;">Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease Nat. Genet., 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597</td>
+<td style="text-align: left;">2023</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#pgboost">pgBoost</a></td>
+<td style="text-align: left;">Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05.</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#sc-linker">sc-linker</a></td>
+<td style="text-align: left;">Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&amp;, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics Nat. Genet., 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#scdrs">scDRS</a></td>
+<td style="text-align: left;">Zhang MJ, Hou K, Dey KK, Sakaue S, ...&amp;, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data Nat. Genet., 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#scgwas">scGWAS</a></td>
+<td style="text-align: left;">Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies Genome Biol., 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801</td>
+<td style="text-align: left;">2022</td>
+</tr>
+</tbody>
+</table>
+<h2 id="coconet">CoCoNet</h2>
+<ul>
+<li><strong>NAME</strong> : CoCoNet </li>
+<li><strong>SHORT NAME</strong> : CoCoNet </li>
+<li><strong>FULL NAME</strong> : CoCoNet </li>
+<li><strong>DESCRIPTION</strong> : CoCoNet is a composite likelihood-based covariance regression network model for identifying trait-relevant tissues or cell types. </li>
+<li><strong>URL</strong> : <a href="https://xiangzhou.github.io/software/">https://xiangzhou.github.io/software/</a> </li>
+<li><strong>KEYWORDS</strong> : composite likelihood-based inference algorithm </li>
+<li><strong>TITLE</strong> : Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1008734 </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association studies (GWASs) have identified many SNPs associated with various common diseases. Understanding the biological functions of these identified SNP associations requires identifying disease/trait relevant tissues or cell types. Here, we develop a network method, CoCoNet, to facilitate the identification of trait-relevant tissues or cell types. Different from existing approaches, CoCoNet incorporates tissue-specific gene co-expression networks constructed from either bulk or single cell RNA sequencing (RNAseq) studies with GWAS data for trait-tissue inference. In particular, CoCoNet relies on a covariance regression network model to express gene-level effect measurements for the given GWAS trait as a function of the tissue-specific co-expression adjacency matrix. With a composite likelihood-based inference algorithm, CoCoNet is scalable to tens of thousands of genes. We validate the performance of CoCoNet through extensive simulations. We apply CoCoNet for an in-depth analysis of four neurological disorders and four autoimmune diseases, where we integrate the corresponding GWASs with bulk RNAseq data from 38 tissues and single cell RNAseq data from 10 cell types. In the real data applications, we show how CoCoNet can help identify specific glial cell types relevant for neurological disorders and identify disease-targeted colon tissues as relevant for autoimmune diseases. </li>
+<li><strong>CITATION</strong> : Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies PLoS Genet., 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2020 ; 16 ; 4 ; e1008734 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32310941">32310941</a> </li>
+</ul>
+<h2 id="epic">EPIC</h2>
+<ul>
+<li><strong>NAME</strong> : EPIC </li>
+<li><strong>SHORT NAME</strong> : EPIC </li>
+<li><strong>FULL NAME</strong> : cEll tyPe enrIChment </li>
+<li><strong>DESCRIPTION</strong> : Inferring relevant tissues and cell types for complex traits in genome-wide association studies </li>
+<li><strong>URL</strong> : <a href="https://github.com/rujinwang/EPIC">https://github.com/rujinwang/EPIC</a> </li>
+<li><strong>KEYWORDS</strong> : GWAS, scRNA-seq </li>
+<li><strong>TITLE</strong> : EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1010251 </li>
+<li><strong>ABSTRACT</strong> : More than a decade of genome-wide association studies (GWASs) have identified genetic risk variants that are significantly associated with complex traits. Emerging evidence suggests that the function of trait-associated variants likely acts in a tissue- or cell-type-specific fashion. Yet, it remains challenging to prioritize trait-relevant tissues or cell types to elucidate disease etiology. Here, we present EPIC (cEll tyPe enrIChment), a statistical framework that relates large-scale GWAS summary statistics to cell-type-specific gene expression measurements from single-cell RNA sequencing (scRNA-seq). We derive powerful gene-level test statistics for common and rare variants, separately and jointly, and adopt generalized least squares to prioritize trait-relevant cell types while accounting for the correlation structures both within and between genes. Using enrichment of loci associated with four lipid traits in the liver and enrichment of loci associated with three neurological disorders in the brain as ground truths, we show that EPIC outperforms existing methods. We apply our framework to multiple scRNA-seq datasets from different platforms and identify cell types underlying type 2 diabetes and schizophrenia. The enrichment is replicated using independent GWAS and scRNA-seq datasets and further validated using PubMed search and existing bulk case-control testing results. </li>
+<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing PLoS Genet., 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2022 ; 18 ; 6 ; e1010251 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35709291">35709291</a> </li>
+</ul>
+<h2 id="ldsc-seg">LDSC-SEG</h2>
+<ul>
+<li><strong>NAME</strong> : LDSC-SEG </li>
+<li><strong>SHORT NAME</strong> : LDSC-SEG </li>
+<li><strong>FULL NAME</strong> : LD score regression applied to specifically expressed genes </li>
+<li><strong>URL</strong> : <a href="https://github.com/bulik/ldsc">https://github.com/bulik/ldsc</a> </li>
+<li><strong>KEYWORDS</strong> : LDSC, tissue, cell type </li>
+<li><strong>TITLE</strong> : Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types </li>
+<li><strong>DOI</strong> : 10.1038/s41588-018-0081-4 </li>
+<li><strong>ABSTRACT</strong> : We introduce an approach to identify disease-relevant tissues and cell types by analyzing gene expression data together with genome-wide association study (GWAS) summary statistics. Our approach uses stratified linkage disequilibrium (LD) score regression to test whether disease heritability is enriched in regions surrounding genes with the highest specific expression in a given tissue. We applied our approach to gene expression data from several sources together with GWAS summary statistics for 48 diseases and traits (average N = 169,331) and found significant tissue-specific enrichments (false discovery rate (FDR) &lt; 5%) for 34 traits. In our analysis of multiple tissues, we detected a broad range of enrichments that recapitulated known biology. In our brain-specific analysis, significant enrichments included an enrichment of inhibitory over excitatory neurons for bipolar disorder, and excitatory over inhibitory neurons for schizophrenia and body mass index. Our results demonstrate that our polygenic approach is a powerful way to leverage gene expression data for interpreting GWAS signals. </li>
+<li><strong>CITATION</strong> : Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&amp;, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types Nat. Genet., 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2018 ; 50 ; 4 ; 621-629 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/29632380">29632380</a> </li>
+</ul>
+<h2 id="magma">MAGMA</h2>
+<ul>
+<li><strong>NAME</strong> : MAGMA </li>
+<li><strong>SHORT NAME</strong> : MAGMA </li>
+<li><strong>FULL NAME</strong> : Multi-marker Analysis of GenoMic Annotation </li>
+<li><strong>URL</strong> : <a href="https://ctg.cncr.nl/software/magma">https://ctg.cncr.nl/software/magma</a> </li>
+<li><strong>TITLE</strong> : MAGMA: generalized gene-set analysis of GWAS data </li>
+<li><strong>DOI</strong> : 10.1371/journal.pcbi.1004219 </li>
+<li><strong>ABSTRACT</strong> : By aggregating data for complex traits in a biologically meaningful way, gene and gene-set analysis constitute a valuable addition to single-marker analysis. However, although various methods for gene and gene-set analysis currently exist, they generally suffer from a number of issues. Statistical power for most methods is strongly affected by linkage disequilibrium between markers, multi-marker associations are often hard to detect, and the reliance on permutation to compute p-values tends to make the analysis computationally very expensive. To address these issues we have developed MAGMA, a novel tool for gene and gene-set analysis. The gene analysis is based on a multiple regression model, to provide better statistical performance. The gene-set analysis is built as a separate layer around the gene analysis for additional flexibility. This gene-set analysis also uses a regression structure to allow generalization to analysis of continuous properties of genes and simultaneous analysis of multiple gene sets and other gene properties. Simulations and an analysis of Crohn's Disease data are used to evaluate the performance of MAGMA and to compare it to a number of other gene and gene-set analysis tools. The results show that MAGMA has significantly more power than other tools for both the gene and the gene-set analysis, identifying more genes and gene sets associated with Crohn's Disease while maintaining a correct type 1 error rate. Moreover, the MAGMA analysis of the Crohn's Disease data was found to be considerably faster as well. </li>
+<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data PLoS Comput. Biol., 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS computational biology ; PLoS Comput. Biol. ; 2015 ; 11 ; 4 ; e1004219 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25885710">25885710</a> </li>
+</ul>
+<h2 id="rolypoly">RolyPoly</h2>
+<ul>
+<li><strong>NAME</strong> : RolyPoly </li>
+<li><strong>SHORT NAME</strong> : RolyPoly </li>
+<li><strong>FULL NAME</strong> : RolyPoly </li>
+<li><strong>DESCRIPTION</strong> : RolyPoly is a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data. </li>
+<li><strong>URL</strong> : <a href="https://github.com/dcalderon/rolypoly">https://github.com/dcalderon/rolypoly</a> </li>
+<li><strong>TITLE</strong> : Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2017.09.009 </li>
+<li><strong>ABSTRACT</strong> : Previous studies have prioritized trait-relevant cell types by looking for an enrichment of genome-wide association study (GWAS) signal within functional regions. However, these studies are limited in cell resolution by the lack of functional annotations from difficult-to-characterize or rare cell populations. Measurement of single-cell gene expression has become a popular method for characterizing novel cell types, and yet limited work has linked single-cell RNA sequencing (RNA-seq) to phenotypes of interest. To address this deficiency, we present RolyPoly, a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data. RolyPoly is designed to use expression data from either bulk tissue or single-cell RNA-seq. In this study, we demonstrated RolyPoly's accuracy through simulation and validated previously known tissue-trait associations. We discovered a significant association between microglia and late-onset Alzheimer disease and an association between schizophrenia and oligodendrocytes and replicating fetal cortical cells. Additionally, RolyPoly computes a trait-relevance score for each gene to reflect the importance of expression specific to a cell type. We found that differentially expressed genes in the prefrontal cortex of individuals with Alzheimer disease were significantly enriched with genes ranked highly by RolyPoly gene scores. Overall, our method represents a powerful framework for understanding the effect of common variants on cell types contributing to complex traits. </li>
+<li><strong>CITATION</strong> : Calderon D, Bhaskar A, Knowles DA, Golan D, ...&amp;, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression Am. J. Hum. Genet., 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824 </li>
+<li><strong>JOURNAL_INFO</strong> : American journal of human genetics ; Am. J. Hum. Genet. ; 2017 ; 101 ; 5 ; 686-699 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/29106824">29106824</a> </li>
+</ul>
+<h2 id="scarlink">SCARlink</h2>
+<ul>
+<li><strong>NAME</strong> : SCARlink </li>
+<li><strong>SHORT NAME</strong> : SCARlink </li>
+<li><strong>FULL NAME</strong> : single-cell ATAC + RNA linking </li>
+<li><strong>URL</strong> : <a href="https://github.com/snehamitra/SCARlink/">https://github.com/snehamitra/SCARlink/</a> </li>
+<li><strong>KEYWORDS</strong> : Possion regression, scATAC-seq, scRNA-seq, tile-level accessibility </li>
+<li><strong>TITLE</strong> : Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis </li>
+<li><strong>DOI</strong> : 10.1038/s41588-024-01689-8 </li>
+<li><strong>ABSTRACT</strong> : We present a gene-level regulatory model, single-cell ATAC + RNA linking (SCARlink), which predicts single-cell gene expression and links enhancers to target genes using multi-ome (scRNA-seq and scATAC-seq co-assay) sequencing data. The approach uses regularized Poisson regression on tile-level accessibility data to jointly model all regulatory effects at a gene locus, avoiding the limitations of pairwise gene-peak correlations and dependence on peak calling. SCARlink outperformed existing gene scoring methods for imputing gene expression from chromatin accessibility across high-coverage multi-ome datasets while giving comparable to improved performance on low-coverage datasets. Shapley value analysis on trained models identified cell-type-specific gene enhancers that are validated by promoter capture Hi-C and are 11× to 15× and 5× to 12× enriched in fine-mapped eQTLs and fine-mapped genome-wide association study (GWAS) variants, respectively. We further show that SCARlink-predicted and observed gene expression vectors provide a robust way to compute a chromatin potential vector field to enable developmental trajectory analysis. </li>
+<li><strong>CITATION</strong> : Mitra S, Malik R, Wong W, Rahman A, ...&amp;, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis Nat. Genet.,  () . doi:10.1038/s41588-024-01689-8. PMID 38514783 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; <NA> ; <NA> ; <NA> </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38514783">38514783</a> </li>
+</ul>
+<h2 id="scavenge">SCAVENGE</h2>
+<ul>
+<li><strong>NAME</strong> : SCAVENGE </li>
+<li><strong>SHORT NAME</strong> : SCAVENGE </li>
+<li><strong>FULL NAME</strong> : Single Cell Analysis of Variant Enrichment through Network propagation of GEnomic data </li>
+<li><strong>URL</strong> : <a href="https://github.com/sankaranlab/SCAVENGE">https://github.com/sankaranlab/SCAVENGE</a> </li>
+<li><strong>KEYWORDS</strong> : GWAS, scATAC-seq, network propagation </li>
+<li><strong>TITLE</strong> : Variant to function mapping at single-cell resolution through network propagation </li>
+<li><strong>DOI</strong> : 10.1038/s41587-022-01341-y </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association studies in combination with single-cell genomic atlases can provide insights into the mechanisms of disease-causal genetic variation. However, identification of disease-relevant or trait-relevant cell types, states and trajectories is often hampered by sparsity and noise, particularly in the analysis of single-cell epigenomic data. To overcome these challenges, we present SCAVENGE, a computational algorithm that uses network propagation to map causal variants to their relevant cellular context at single-cell resolution. We demonstrate how SCAVENGE can help identify key biological mechanisms underlying human genetic variation, applying the method to blood traits at distinct stages of human hematopoiesis, to monocyte subsets that increase the risk for severe Coronavirus Disease 2019 (COVID-19) and to intermediate lymphocyte developmental states that predispose to acute leukemia. Our approach not only provides a framework for enabling variant-to-function insights at single-cell resolution but also suggests a more general strategy for maximizing the inferences that can be made using single-cell genomic data. </li>
+<li><strong>CITATION</strong> : Yu F, Cato LD, Weng C, Liggett LA, ...&amp;, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation Nat. Biotechnol., 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature biotechnology ; Nat. Biotechnol. ; 2022 ; 40 ; 11 ; 1644-1653 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35668323">35668323</a> </li>
+</ul>
+<h2 id="scent">SCENT</h2>
+<ul>
+<li><strong>NAME</strong> : SCENT </li>
+<li><strong>SHORT NAME</strong> : SCENT </li>
+<li><strong>FULL NAME</strong> : single-cell enhancer target gene mapping </li>
+<li><strong>URL</strong> : <a href="https://github.com/immunogenomics/SCENT">https://github.com/immunogenomics/SCENT</a> </li>
+<li><strong>KEYWORDS</strong> : Possion regression, scATAC-seq, scRNA-seq </li>
+<li><strong>TITLE</strong> : Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles </li>
+<li><strong>DOI</strong> : 10.1038/s41588-024-01682-1 </li>
+<li><strong>ABSTRACT</strong> : Translating genome-wide association study (GWAS) loci into causal variants and genes requires accurate cell-type-specific enhancer-gene maps from disease-relevant tissues. Building enhancer-gene maps is essential but challenging with current experimental methods in primary human tissues. Here we developed a nonparametric statistical method, SCENT (single-cell enhancer target gene mapping), that models association between enhancer chromatin accessibility and gene expression in single-cell or nucleus multimodal RNA sequencing and ATAC sequencing data. We applied SCENT to 9 multimodal datasets including &gt;120,000 single cells or nuclei and created 23 cell-type-specific enhancer-gene maps. These maps were highly enriched for causal variants in expression quantitative loci and GWAS for 1,143 diseases and traits. We identified likely causal genes for both common and rare diseases and linked somatic mutation hotspots to target genes. We demonstrate that application of SCENT to multimodal data from disease-relevant human tissue enables the scalable construction of accurate cell-type-specific enhancer-gene maps, essential for defining noncoding variant function. </li>
+<li><strong>CITATION</strong> : Sakaue S, Weinand K, Isaac S, Dey KK, ...&amp;, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles Nat. Genet., 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; 56 ; 4 ; 615-626 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38594305">38594305</a> </li>
+</ul>
+<h2 id="tcsc">TCSC</h2>
+<ul>
+<li><strong>NAME</strong> : TCSC </li>
+<li><strong>SHORT NAME</strong> : TCSC </li>
+<li><strong>FULL NAME</strong> : Tissue co-regulation score regression </li>
+<li><strong>DESCRIPTION</strong> : TCSC is a statistical genetics method to identify causal tissues in diseases and complex traits. We leverage TWAS and GWAS summary statistics while explicitly modeling the genetic co-regulation of genes across tissues. </li>
+<li><strong>URL</strong> : <a href="https://github.com/TiffanyAmariuta/TCSC/">https://github.com/TiffanyAmariuta/TCSC/</a> </li>
+<li><strong>TITLE</strong> : Modeling tissue co-regulation estimates tissue-specific contributions to disease </li>
+<li><strong>DOI</strong> : 10.1038/s41588-023-01474-z </li>
+<li><strong>ABSTRACT</strong> : Integrative analyses of genome-wide association studies and gene expression data have implicated many disease-critical tissues. However, co-regulation of genetic effects on gene expression across tissues impedes distinguishing biologically causal tissues from tagging tissues. In the present study, we introduce tissue co-regulation score regression (TCSC), which disentangles causal tissues from tagging tissues by regressing gene-disease association statistics (from transcriptome-wide association studies) on tissue co-regulation scores, reflecting correlations of predicted gene expression across genes and tissues. We applied TCSC to 78 diseases/traits (average n = 302,000) and gene expression prediction models for 48 GTEx tissues. TCSC identified 21 causal tissue-trait pairs at a 5% false discovery rate (FDR), including well-established findings, biologically plausible new findings (for example, aorta artery and glaucoma) and increased specificity of known tissue-trait associations (for example, subcutaneous adipose, but not visceral adipose, and high-density lipoprotein). TCSC also identified 17 causal tissue-trait covariance pairs at 5% FDR. In conclusion, TCSC is a precise method for distinguishing causal tissues from tagging tissues. </li>
+<li><strong>CITATION</strong> : Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease Nat. Genet., 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2023 ; 55 ; 9 ; 1503-1511 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/37580597">37580597</a> </li>
+</ul>
+<h2 id="pgboost">pgBoost</h2>
+<ul>
+<li><strong>NAME</strong> : pgBoost </li>
+<li><strong>SHORT NAME</strong> : pgBoost </li>
+<li><strong>FULL NAME</strong> : pgBoost </li>
+<li><strong>DESCRIPTION</strong> : pgBoost is an integrative modeling framework that trains a non-linear combination of existing linking strategies (including genomic distance) on fine-mapped eQTL data to assign a probabilistic score to each candidate SNP-gene link. </li>
+<li><strong>URL</strong> : <a href="https://github.com/elizabethdorans/pgBoost">https://github.com/elizabethdorans/pgBoost</a> </li>
+<li><strong>KEYWORDS</strong> : eQTL-informed gradient boosting </li>
+<li><strong>PREPRINT_DOI</strong> : 10.1101/2024.05.24.24307813 </li>
+<li><strong>SERVER</strong> : medrxiv </li>
+<li><strong>CITATION</strong> : Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05. </li>
+</ul>
+<h2 id="sc-linker">sc-linker</h2>
+<ul>
+<li><strong>NAME</strong> : sc-linker </li>
+<li><strong>SHORT NAME</strong> : sc-linker </li>
+<li><strong>FULL NAME</strong> : sc-linker </li>
+<li><strong>DESCRIPTION</strong> : a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease </li>
+<li><strong>URL</strong> : <a href="https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker">https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker</a> </li>
+<li><strong>KEYWORDS</strong> : GWAS, scRNA-seq </li>
+<li><strong>TITLE</strong> : Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics </li>
+<li><strong>DOI</strong> : 10.1038/s41588-022-01187-9 </li>
+<li><strong>ABSTRACT</strong> : Genome-wide association studies provide a powerful means of identifying loci and genes contributing to disease, but in many cases, the related cell types/states through which genes confer disease risk remain unknown. Deciphering such relationships is important for identifying pathogenic processes and developing therapeutics. In the present study, we introduce sc-linker, a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease. The inferred disease enrichments recapitulated known biology and highlighted notable cell-disease relationships, including γ-aminobutyric acid-ergic neurons in major depressive disorder, a disease-dependent M-cell program in ulcerative colitis and a disease-specific complement cascade process in multiple sclerosis. In autoimmune disease, both healthy and disease-dependent immune cell-type programs were associated, whereas only disease-dependent epithelial cell programs were prominent, suggesting a role in disease response rather than initiation. Our framework provides a powerful approach for identifying the cell types and cellular processes by which genetic variants influence disease. </li>
+<li><strong>CITATION</strong> : Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&amp;, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics Nat. Genet., 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 10 ; 1479-1492 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36175791">36175791</a> </li>
+</ul>
+<h2 id="scdrs">scDRS</h2>
+<ul>
+<li><strong>NAME</strong> : scDRS </li>
+<li><strong>SHORT NAME</strong> : scDRS </li>
+<li><strong>FULL NAME</strong> : single-cell Disease Relevance Score </li>
+<li><strong>URL</strong> : <a href="https://github.com/martinjzhang/scDRS">https://github.com/martinjzhang/scDRS</a> </li>
+<li><strong>KEYWORDS</strong> : GWAS, scRNA-seq </li>
+<li><strong>TITLE</strong> : Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data </li>
+<li><strong>DOI</strong> : 10.1038/s41588-022-01167-z </li>
+<li><strong>ABSTRACT</strong> : Single-cell RNA sequencing (scRNA-seq) provides unique insights into the pathology and cellular origin of disease. We introduce single-cell disease relevance score (scDRS), an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types. scDRS identifies cells exhibiting excess expression across disease-associated genes implicated by genome-wide association studies (GWASs). We applied scDRS to 74 diseases/traits and 1.3 million single-cell gene-expression profiles across 31 tissues/organs. Cell-type-level results broadly recapitulated known cell-type-disease associations. Individual-cell-level results identified subpopulations of disease-associated cells not captured by existing cell-type labels, including T cell subpopulations associated with inflammatory bowel disease, partially characterized by their effector-like states; neuron subpopulations associated with schizophrenia, partially characterized by their spatial locations; and hepatocyte subpopulations associated with triglyceride levels, partially characterized by their higher ploidy levels. Genes whose expression was correlated with the scDRS score across cells (reflecting coexpression with GWAS disease-associated genes) were strongly enriched for gold-standard drug target and Mendelian disease genes. </li>
+<li><strong>CITATION</strong> : Zhang MJ, Hou K, Dey KK, Sakaue S, ...&amp;, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data Nat. Genet., 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 10 ; 1572-1580 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36050550">36050550</a> </li>
+</ul>
+<h2 id="scgwas">scGWAS</h2>
+<ul>
+<li><strong>NAME</strong> : scGWAS </li>
+<li><strong>SHORT NAME</strong> : scGWAS </li>
+<li><strong>FULL NAME</strong> : scRNA-seq assisted GWAS analysis </li>
+<li><strong>DESCRIPTION</strong> : scGWAS leverages scRNA-seq data to identify the genetically mediated associations between traits and cell types. </li>
+<li><strong>URL</strong> : <a href="https://github.com/bsml320/scGWAS">https://github.com/bsml320/scGWAS</a> </li>
+<li><strong>TITLE</strong> : scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1186/s13059-022-02785-w </li>
+<li><strong>ABSTRACT</strong> : BACKGROUND: The rapid accumulation of single-cell RNA sequencing (scRNA-seq) data presents unique opportunities to decode the genetically mediated cell-type specificity in complex diseases. Here, we develop a new method, scGWAS, which effectively leverages scRNA-seq data to achieve two goals: (1) to infer the cell types in which the disease-associated genes manifest and (2) to construct cellular modules which imply disease-specific activation of different processes. RESULTS: scGWAS only utilizes the average gene expression for each cell type followed by virtual search processes to construct the null distributions of module scores, making it scalable to large scRNA-seq datasets. We demonstrated scGWAS in 40 genome-wide association studies (GWAS) datasets (average sample size N ≈ 154,000) using 18 scRNA-seq datasets from nine major human/mouse tissues (totaling 1.08 million cells) and identified 2533 trait and cell-type associations, each with significant modules for further investigation. The module genes were validated using disease or clinically annotated references from ClinVar, OMIM, and pLI variants. CONCLUSIONS: We showed that the trait-cell type associations identified by scGWAS, while generally constrained to trait-tissue associations, could recapitulate many well-studied relationships and also reveal novel relationships, providing insights into the unsolved trait-tissue associations. Moreover, in each specific cell type, the associations with different traits were often mediated by different sets of risk genes, implying disease-specific activation of driving processes. In summary, scGWAS is a powerful tool for exploring the genetic basis of complex diseases at the cell type level using single-cell expression data. </li>
+<li><strong>CITATION</strong> : Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies Genome Biol., 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801 </li>
+<li><strong>JOURNAL_INFO</strong> : Genome biology ; Genome Biol. ; 2022 ; 23 ; 1 ; 220 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36253801">36253801</a> </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

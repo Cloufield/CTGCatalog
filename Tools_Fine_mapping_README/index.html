@@ -1,0 +1,2292 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+      
+        <link rel="prev" href="../Tools_Drug_discovery_README/">
+      
+      
+        <link rel="next" href="../Tools_Gene_prioritization_README/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.6">
+    
+    
+      
+        <title>Fine_mapping - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Fine_mapping
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats_Sumstats_README/" class="md-tabs__link">
+          
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools_README/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Visualization_README/" class="md-tabs__link">
+          
+  
+  Visualization
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics_README/" class="md-tabs__link">
+          
+  
+  Population_Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sumstats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Sumstats_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Biobanks_Cohorts_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biobanks_Cohorts
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Metabolomics_Metabolomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metabolomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Proteomics_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Imaging_Imaging_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Annotation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Association_tests
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_RWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_TWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_eQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    eQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_sQTL_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Colocalization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocalization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Data_processing_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Dimension_reduction_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dimension_reduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Drug_discovery_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drug_discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cafeh" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAFEH
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caviar" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAVIAR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caviarbf" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAVIARBF
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      FINEMAP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jam" class="md-nav__link">
+    <span class="md-ellipsis">
+      JAM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mesusie" class="md-nav__link">
+    <span class="md-ellipsis">
+      MESuSiE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mr-mega" class="md-nav__link">
+    <span class="md-ellipsis">
+      MR-MEGA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mscaviar" class="md-nav__link">
+    <span class="md-ellipsis">
+      MsCAVIAR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multisusie" class="md-nav__link">
+    <span class="md-ellipsis">
+      MultiSuSiE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paintor" class="md-nav__link">
+    <span class="md-ellipsis">
+      PAINTOR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rfr-susie-inf-finemap-inf" class="md-nav__link">
+    <span class="md-ellipsis">
+      RFR SuSiE-inf FINEMAP-inf
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#susie" class="md-nav__link">
+    <span class="md-ellipsis">
+      SUSIE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#susie-rss" class="md-nav__link">
+    <span class="md-ellipsis">
+      SUSIE-RSS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#susiex" class="md-nav__link">
+    <span class="md-ellipsis">
+      SUSIEx
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sparsepro" class="md-nav__link">
+    <span class="md-ellipsis">
+      SparsePro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mjam" class="md-nav__link">
+    <span class="md-ellipsis">
+      mJAM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mvsusie" class="md-nav__link">
+    <span class="md-ellipsis">
+      mvSuSiE
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_prioritization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_prioritization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_set_pathway_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_set_pathway_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_GxE_interactions_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GxE_interactions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_HLA_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HLA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Heritability_and_genetic_correlation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heritability_and_genetic_correlation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Imputation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imputation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mendelian_randomization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mendelian_randomization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Meta_and_Multi_triat_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meta_and_Multi_triat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Polygenic_risk_scores_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polygenic_risk_scores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Power_analysis_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Proteomics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Simulation_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Tissue_and_single_cell_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Winners_curse_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Winners_curse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Chromosome_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromosome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Forest_plot_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest_plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_GWAS_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Heatmap_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_LD_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Variants_on_protein_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variants_on_protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Population_Genetics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Population_Genetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Admixture_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admixture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Genealogy_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genealogy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Phylogenetic_tree_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenetic_tree
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Population_Genetics_Selection_README/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cafeh" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAFEH
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caviar" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAVIAR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#caviarbf" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAVIARBF
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#finemap" class="md-nav__link">
+    <span class="md-ellipsis">
+      FINEMAP
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jam" class="md-nav__link">
+    <span class="md-ellipsis">
+      JAM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mesusie" class="md-nav__link">
+    <span class="md-ellipsis">
+      MESuSiE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mr-mega" class="md-nav__link">
+    <span class="md-ellipsis">
+      MR-MEGA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mscaviar" class="md-nav__link">
+    <span class="md-ellipsis">
+      MsCAVIAR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multisusie" class="md-nav__link">
+    <span class="md-ellipsis">
+      MultiSuSiE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#paintor" class="md-nav__link">
+    <span class="md-ellipsis">
+      PAINTOR
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rfr-susie-inf-finemap-inf" class="md-nav__link">
+    <span class="md-ellipsis">
+      RFR SuSiE-inf FINEMAP-inf
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#susie" class="md-nav__link">
+    <span class="md-ellipsis">
+      SUSIE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#susie-rss" class="md-nav__link">
+    <span class="md-ellipsis">
+      SUSIE-RSS
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#susiex" class="md-nav__link">
+    <span class="md-ellipsis">
+      SUSIEx
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sparsepro" class="md-nav__link">
+    <span class="md-ellipsis">
+      SparsePro
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mjam" class="md-nav__link">
+    <span class="md-ellipsis">
+      mJAM
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mvsusie" class="md-nav__link">
+    <span class="md-ellipsis">
+      mvSuSiE
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Fine_mapping</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CITATION</th>
+<th style="text-align: left;">YEAR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#cafeh">CAFEH</a></td>
+<td style="text-align: left;">Arvanitis M, Tayeb K, Strober BJ, Battle A. (2022) Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity Am. J. Hum. Genet., 109 (2) 223-239. doi:10.1016/j.ajhg.2022.01.002. PMID 35085493</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#caviarbf">CAVIARBF</a></td>
+<td style="text-align: left;">Chen W, Larrabee BR, Ovsyannikova IG, Kennedy RB, ...&amp;, Schaid DJ. (2015) Fine mapping causal variants with an approximate Bayesian method using marginal test statistics Genetics, 200 (3) 719-736. doi:10.1534/genetics.115.176107. PMID 25948564</td>
+<td style="text-align: left;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#caviar">CAVIAR</a></td>
+<td style="text-align: left;">Hormozdiari F, Kostem E, Kang EY, Pasaniuc B, ...&amp;, Eskin E. (2014) Identifying causal variants at loci with multiple signals of association Genetics, 198 (2) 497-508. doi:10.1534/genetics.114.167908. PMID 25104515</td>
+<td style="text-align: left;">2014</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#finemap">FINEMAP</a></td>
+<td style="text-align: left;">Benner C, Spencer CC, Havulinna AS, Salomaa V, ...&amp;, Pirinen M. (2016) FINEMAP: efficient variable selection using summary data from genome-wide association studies Bioinformatics, 32 (10) 1493-1501. doi:10.1093/bioinformatics/btw018. PMID 26773131</td>
+<td style="text-align: left;">2016</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#jam">JAM</a></td>
+<td style="text-align: left;">Newcombe PJ, Conti DV, Richardson S. (2016) JAM: A Scalable Bayesian Framework for Joint Analysis of Marginal SNP Effects Genet. Epidemiol., 40 (3) 188-201. doi:10.1002/gepi.21953. PMID 27027514</td>
+<td style="text-align: left;">2016</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#mesusie">MESuSiE</a></td>
+<td style="text-align: left;">Gao B, Zhou X. (2024) MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies Nat. Genet., 56 (1) 170-179. doi:10.1038/s41588-023-01604-7. PMID 38168930</td>
+<td style="text-align: left;">2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#mr-mega">MR-MEGA</a></td>
+<td style="text-align: left;">Mägi R, Horikoshi M, Sofer T, Mahajan A, ...&amp;, Morris AP. (2017) Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution Hum. Mol. Genet., 26 (18) 3639-3650. doi:10.1093/hmg/ddx280. PMID 28911207</td>
+<td style="text-align: left;">2017</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#mscaviar">MsCAVIAR</a></td>
+<td style="text-align: left;">LaPierre N, Taraszka K, Huang H, He R, ...&amp;, Eskin E. (2021) Identifying causal variants by fine mapping across multiple studies PLoS Genet., 17 (9) e1009733. doi:10.1371/journal.pgen.1009733. PMID 34543273</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#multisusie">MultiSuSiE</a></td>
+<td style="text-align: left;">Rossen, J. et al. MultiSuSiE improves multi-ancestry fine-mapping in All of Us whole-genome sequencing data. medRxiv 2024.05.13.24307291 (2024) doi:10.1101/2024.05.13.24307291</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#paintor">PAINTOR</a></td>
+<td style="text-align: left;">Kichaev G, Yang WY, Lindstrom S, Hormozdiari F, ...&amp;, Pasaniuc B. (2014) Integrating functional data to prioritize causal variants in statistical fine-mapping studies PLoS Genet., 10 (10) e1004722. doi:10.1371/journal.pgen.1004722. PMID 25357204</td>
+<td style="text-align: left;">2014</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#rfr-susie-inf-finemap-inf">RFR SuSiE-inf FINEMAP-inf</a></td>
+<td style="text-align: left;">Cui R, Elzur RA, Kanai M, Ulirsch JC, ...&amp;, Finucane HK. (2024) Improving fine-mapping by modeling infinitesimal effects Nat. Genet., 56 (1) 162-169. doi:10.1038/s41588-023-01597-3. PMID 38036779</td>
+<td style="text-align: left;">2024</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#susie-rss">SUSIE-RSS</a></td>
+<td style="text-align: left;">Zou Y, Carbonetto P, Wang G, Stephens M. (2022) Fine-mapping from summary data with the "Sum of Single Effects" model PLoS Genet., 18 (7) e1010299. doi:10.1371/journal.pgen.1010299. PMID 35853082</td>
+<td style="text-align: left;">2022</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#susie">SUSIE</a></td>
+<td style="text-align: left;">Wang G, Sarkar A, Carbonetto P, Stephens M. (2020) A simple new approach to variable selection in regression, with application to genetic fine mapping J. R. Stat. Soc. Series B Stat. Methodol., 82 (5) 1273-1300. doi:10.1111/rssb.12388. PMID 37220626</td>
+<td style="text-align: left;">2020</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#susiex">SUSIEx</a></td>
+<td style="text-align: left;">Yuan, K., Longchamps, R. J., Pardiñas, A. F., Yu, M., Chen, T. T., Lin, S. C., ... &amp; Schizophrenia Workgroup of Psychiatric Genomics Consortium. (2023). Fine-mapping across diverse ancestries drives the discovery of putative causal variants underlying human complex traits and diseases. medRxiv.</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#sparsepro">SparsePro</a></td>
+<td style="text-align: left;">Zhang W, Najafabadi H, Li Y. (2023) SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations PLoS Genet., 19 (12) e1011104. doi:10.1371/journal.pgen.1011104. PMID 38153934</td>
+<td style="text-align: left;">2023</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#mjam">mJAM</a></td>
+<td style="text-align: left;">Shen, J., Jiang, L., Wang, K., Wang, A., Chen, F., Newcombe, P. J., ... &amp; Conti, D. V. (2022). Fine-mapping and credible set construction using a multi-population joint analysis of marginal summary statistics from genome-wide association studies. bioRxiv, 2022-12.</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#mvsusie">mvSuSiE</a></td>
+<td style="text-align: left;">Zou, Y., Carbonetto, P., Xie, D., Wang, G., &amp; Stephens, M. (2023). Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model. bioRxiv, 2023-04.</td>
+<td style="text-align: left;">NA</td>
+</tr>
+</tbody>
+</table>
+<h2 id="cafeh">CAFEH</h2>
+<ul>
+<li><strong>NAME</strong> : CAFEH </li>
+<li><strong>SHORT NAME</strong> : CAFEH </li>
+<li><strong>FULL NAME</strong> : colocalization and fine-mapping in the presence of allelic heterogeneity </li>
+<li><strong>DESCRIPTION</strong> : CAFEH is a method that performs finemapping and colocalization jointly over multiple phenotypes. CAFEH can be run with 10s of phenotypes and 1000s of variants in a few minutes. </li>
+<li><strong>URL</strong> : <a href="https://github.com/karltayeb/cafeh">https://github.com/karltayeb/cafeh</a> </li>
+<li><strong>KEYWORDS</strong> : multi-trait, finemapping, colocalization </li>
+<li><strong>TITLE</strong> : Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2022.01.002 </li>
+<li><strong>ABSTRACT</strong> : Uncovering the functional impact of genetic variation on gene expression is important in understanding tissue biology and the pathogenesis of complex traits. Despite large efforts to map expression quantitative trait loci (eQTLs) across many human tissues, our ability to translate those findings to understanding human disease has been incomplete, and the majority of disease loci are not explained by association with expression of a target gene. Cell-type specificity and the presence of multiple independent causal variants for many eQTLs are potential confounders contributing to the apparent discrepancy with disease loci. In this study, we investigate the tissue specificity of genetic effects on gene expression and the overlap with disease loci while considering the presence of multiple causal variants within and across tissues. We find evidence of pervasive tissue specificity of eQTLs, often masked by linkage disequilibrium that misleads traditional meta-analytic approaches. We propose CAFEH (colocalization and fine-mapping in the presence of allelic heterogeneity), a Bayesian method that integrates genetic association data across multiple traits, incorporating linkage disequilibrium to identify causal variants. CAFEH outperforms previous approaches in colocalization and fine-mapping. Using CAFEH, we show that genes with highly tissue-specific genetic effects are under greater selection, enriched in differentiation and developmental processes, and more likely to be involved in human disease. Last, we demonstrate that CAFEH can efficiently leverage the widespread allelic heterogeneity in genetic regulation of gene expression to prioritize the target tissue in genome-wide association complex trait loci, thereby improving our ability to interpret complex trait genetics. </li>
+<li><strong>CITATION</strong> : Arvanitis M, Tayeb K, Strober BJ, Battle A. (2022) Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity Am. J. Hum. Genet., 109 (2) 223-239. doi:10.1016/j.ajhg.2022.01.002. PMID 35085493 </li>
+<li><strong>JOURNAL_INFO</strong> : American journal of human genetics ; Am. J. Hum. Genet. ; 2022 ; 109 ; 2 ; 223-239 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35085493">35085493</a> </li>
+</ul>
+<h2 id="caviar">CAVIAR</h2>
+<ul>
+<li><strong>NAME</strong> : CAVIAR </li>
+<li><strong>SHORT NAME</strong> : CAVIAR </li>
+<li><strong>FULL NAME</strong> : causal variants identification in associated regions </li>
+<li><strong>DESCRIPTION</strong> : a statistical framework that quantifies the probability of each variant to be causal while allowing an arbitrary number of causal variants. </li>
+<li><strong>URL</strong> : <a href="http://genetics.cs.ucla.edu/caviar/">http://genetics.cs.ucla.edu/caviar/</a> </li>
+<li><strong>TITLE</strong> : Identifying causal variants at loci with multiple signals of association </li>
+<li><strong>DOI</strong> : 10.1534/genetics.114.167908 </li>
+<li><strong>ABSTRACT</strong> : Although genome-wide association studies have successfully identified thousands of risk loci for complex traits, only a handful of the biologically causal variants, responsible for association at these loci, have been successfully identified. Current statistical methods for identifying causal variants at risk loci either use the strength of the association signal in an iterative conditioning framework or estimate probabilities for variants to be causal. A main drawback of existing methods is that they rely on the simplifying assumption of a single causal variant at each risk locus, which is typically invalid at many risk loci. In this work, we propose a new statistical framework that allows for the possibility of an arbitrary number of causal variants when estimating the posterior probability of a variant being causal. A direct benefit of our approach is that we predict a set of variants for each locus that under reasonable assumptions will contain all of the true causal variants with a high confidence level (e.g., 95%) even when the locus contains multiple causal variants. We use simulations to show that our approach provides 20-50% improvement in our ability to identify the causal variants compared to the existing methods at loci harboring multiple causal variants. We validate our approach using empirical data from an expression QTL study of CHI3L2 to identify new causal variants that affect gene expression at this locus. CAVIAR is publicly available online at http://genetics.cs.ucla.edu/caviar/. </li>
+<li><strong>COPYRIGHT</strong> : https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model </li>
+<li><strong>CITATION</strong> : Hormozdiari F, Kostem E, Kang EY, Pasaniuc B, ...&amp;, Eskin E. (2014) Identifying causal variants at loci with multiple signals of association Genetics, 198 (2) 497-508. doi:10.1534/genetics.114.167908. PMID 25104515 </li>
+<li><strong>JOURNAL_INFO</strong> : Genetics ; Genetics ; 2014 ; 198 ; 2 ; 497-508 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25104515">25104515</a> </li>
+</ul>
+<h2 id="caviarbf">CAVIARBF</h2>
+<ul>
+<li><strong>NAME</strong> : CAVIARBF </li>
+<li><strong>SHORT NAME</strong> : CAVIARBF </li>
+<li><strong>FULL NAME</strong> : CAVIAR Bayes factor </li>
+<li><strong>DESCRIPTION</strong> : a fine-mapping method using marginal test statistics in the Bayesian framework </li>
+<li><strong>URL</strong> : <a href="https://bitbucket.org/Wenan/caviarbf/src/master/">https://bitbucket.org/Wenan/caviarbf/src/master/</a> </li>
+<li><strong>KEYWORDS</strong> : Bayes factor </li>
+<li><strong>TITLE</strong> : Fine mapping causal variants with an approximate Bayesian method using marginal test statistics </li>
+<li><strong>DOI</strong> : 10.1534/genetics.115.176107 </li>
+<li><strong>ABSTRACT</strong> : Two recently developed fine-mapping methods, CAVIAR and PAINTOR, demonstrate better performance over other fine-mapping methods. They also have the advantage of using only the marginal test statistics and the correlation among SNPs. Both methods leverage the fact that the marginal test statistics asymptotically follow a multivariate normal distribution and are likelihood based. However, their relationship with Bayesian fine mapping, such as BIMBAM, is not clear. In this study, we first show that CAVIAR and BIMBAM are actually approximately equivalent to each other. This leads to a fine-mapping method using marginal test statistics in the Bayesian framework, which we call CAVIAR Bayes factor (CAVIARBF). Another advantage of the Bayesian framework is that it can answer both association and fine-mapping questions. We also used simulations to compare CAVIARBF with other methods under different numbers of causal variants. The results showed that both CAVIARBF and BIMBAM have better performance than PAINTOR and other methods. Compared to BIMBAM, CAVIARBF has the advantage of using only marginal test statistics and takes about one-quarter to one-fifth of the running time. We applied different methods on two independent cohorts of the same phenotype. Results showed that CAVIARBF, BIMBAM, and PAINTOR selected the same top 3 SNPs; however, CAVIARBF and BIMBAM had better consistency in selecting the top 10 ranked SNPs between the two cohorts. Software is available at https://bitbucket.org/Wenan/caviarbf. </li>
+<li><strong>COPYRIGHT</strong> : https://academic.oup.com/journals/pages/open_access/funder_policies/chorus/standard_publication_model </li>
+<li><strong>CITATION</strong> : Chen W, Larrabee BR, Ovsyannikova IG, Kennedy RB, ...&amp;, Schaid DJ. (2015) Fine mapping causal variants with an approximate Bayesian method using marginal test statistics Genetics, 200 (3) 719-736. doi:10.1534/genetics.115.176107. PMID 25948564 </li>
+<li><strong>JOURNAL_INFO</strong> : Genetics ; Genetics ; 2015 ; 200 ; 3 ; 719-736 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25948564">25948564</a> </li>
+</ul>
+<h2 id="finemap">FINEMAP</h2>
+<ul>
+<li><strong>NAME</strong> : FINEMAP </li>
+<li><strong>SHORT NAME</strong> : FINEMAP </li>
+<li><strong>FULL NAME</strong> : FINEMAP </li>
+<li><strong>DESCRIPTION</strong> : FINEMAP is a program for 1.identifying causal SNPs, 2. estimating effect sizes of causal SNPs, 3 estimating the heritability contribution of causal SNPs </li>
+<li><strong>URL</strong> : <a href="http://www.christianbenner.com/">http://www.christianbenner.com/</a> </li>
+<li><strong>KEYWORDS</strong> : Shotgun Stochastic Search (SSS) </li>
+<li><strong>TITLE</strong> : FINEMAP: efficient variable selection using summary data from genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1093/bioinformatics/btw018 </li>
+<li><strong>ABSTRACT</strong> : MOTIVATION: The goal of fine-mapping in genomic regions associated with complex diseases and traits is to identify causal variants that point to molecular mechanisms behind the associations. Recent fine-mapping methods using summary data from genome-wide association studies rely on exhaustive search through all possible causal configurations, which is computationally expensive. RESULTS: We introduce FINEMAP, a software package to efficiently explore a set of the most important causal configurations of the region via a shotgun stochastic search algorithm. We show that FINEMAP produces accurate results in a fraction of processing time of existing approaches and is therefore a promising tool for analyzing growing amounts of data produced in genome-wide association studies and emerging sequencing projects. AVAILABILITY AND IMPLEMENTATION: FINEMAP v1.0 is freely available for Mac OS X and Linux at http://www.christianbenner.com CONTACT: : christian.benner@helsinki.fi or matti.pirinen@helsinki.fi. </li>
+<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by-nc/4.0/ </li>
+<li><strong>CITATION</strong> : Benner C, Spencer CC, Havulinna AS, Salomaa V, ...&amp;, Pirinen M. (2016) FINEMAP: efficient variable selection using summary data from genome-wide association studies Bioinformatics, 32 (10) 1493-1501. doi:10.1093/bioinformatics/btw018. PMID 26773131 </li>
+<li><strong>JOURNAL_INFO</strong> : Bioinformatics (Oxford, England) ; Bioinformatics ; 2016 ; 32 ; 10 ; 1493-1501 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/26773131">26773131</a> </li>
+</ul>
+<h2 id="jam">JAM</h2>
+<ul>
+<li><strong>NAME</strong> : JAM </li>
+<li><strong>SHORT NAME</strong> : JAM </li>
+<li><strong>FULL NAME</strong> : joint analysis of marginal summary statistics </li>
+<li><strong>DESCRIPTION</strong> : Bayesian variable selection under a range of likelihoods, including linear regression for continuous outcomes, logistic regression for binary outcomes, Weibull regression for survival outcomes binary and survial outcomes, and the "JAM" model for summary genetic association data. </li>
+<li><strong>URL</strong> : <a href="https://github.com/pjnewcombe/R2BGLiMS">https://github.com/pjnewcombe/R2BGLiMS</a> </li>
+<li><strong>TITLE</strong> : JAM: A Scalable Bayesian Framework for Joint Analysis of Marginal SNP Effects </li>
+<li><strong>DOI</strong> : 10.1002/gepi.21953 </li>
+<li><strong>ABSTRACT</strong> : Recently, large scale genome-wide association study (GWAS) meta-analyses have boosted the number of known signals for some traits into the tens and hundreds. Typically, however, variants are only analysed one-at-a-time. This complicates the ability of fine-mapping to identify a small set of SNPs for further functional follow-up. We describe a new and scalable algorithm, joint analysis of marginal summary statistics (JAM), for the re-analysis of published marginal summary stactistics under joint multi-SNP models. The correlation is accounted for according to estimates from a reference dataset, and models and SNPs that best explain the complete joint pattern of marginal effects are highlighted via an integrated Bayesian penalized regression framework. We provide both enumerated and Reversible Jump MCMC implementations of JAM and present some comparisons of performance. In a series of realistic simulation studies, JAM demonstrated identical performance to various alternatives designed for single region settings. In multi-region settings, where the only multivariate alternative involves stepwise selection, JAM offered greater power and specificity. We also present an application to real published results from MAGIC (meta-analysis of glucose and insulin related traits consortium) - a GWAS meta-analysis of more than 15,000 people. We re-analysed several genomic regions that produced multiple significant signals with glucose levels 2 hr after oral stimulation. Through joint multivariate modelling, JAM was able to formally rule out many SNPs, and for one gene, ADCY5, suggests that an additional SNP, which transpired to be more biologically plausible, should be followed up with equal priority to the reported index. </li>
+<li><strong>CITATION</strong> : Newcombe PJ, Conti DV, Richardson S. (2016) JAM: A Scalable Bayesian Framework for Joint Analysis of Marginal SNP Effects Genet. Epidemiol., 40 (3) 188-201. doi:10.1002/gepi.21953. PMID 27027514 </li>
+<li><strong>JOURNAL_INFO</strong> : Genetic epidemiology ; Genet. Epidemiol. ; 2016 ; 40 ; 3 ; 188-201 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/27027514">27027514</a> </li>
+</ul>
+<h2 id="mesusie">MESuSiE</h2>
+<ul>
+<li><strong>NAME</strong> : MESuSiE </li>
+<li><strong>SHORT NAME</strong> : MESuSiE </li>
+<li><strong>FULL NAME</strong> : multi-ancestry sum of the single effects model </li>
+<li><strong>DESCRIPTION</strong> : MESuSiE relies on GWAS summary statistics from multiple ancestries, properly accounts for the LD structure of the local genomic region in multiple ancestries, and explicitly models both shared and ancestry-specific causal signals to accommodate causal effect size similarity as well as heterogeneity across ancestries. MESuSiE outputs posterior inclusion probability of variant being shared or ancestry-specific causal variants. </li>
+<li><strong>URL</strong> : <a href="https://github.com/borangao/MESuSiE">https://github.com/borangao/MESuSiE</a> </li>
+<li><strong>KEYWORDS</strong> : multi-trait, fine-mapping </li>
+<li><strong>TITLE</strong> : MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1038/s41588-023-01604-7 </li>
+<li><strong>ABSTRACT</strong> : Fine-mapping in genome-wide association studies attempts to identify causal SNPs from a set of candidate SNPs in a local genomic region of interest and is commonly performed in one genetic ancestry at a time. Here, we present multi-ancestry sum of the single effects model (MESuSiE), a probabilistic multi-ancestry fine-mapping method, to improve the accuracy and resolution of fine-mapping by leveraging association information across ancestries. MESuSiE uses summary statistics as input, accounts for the diverse linkage disequilibrium pattern observed in different ancestries, explicitly models both shared and ancestry-specific causal SNPs, and relies on a variational inference algorithm for scalable computation. We evaluated the performance of MESuSiE through comprehensive simulations and multi-ancestry fine-mapping of four lipid traits with both European and African samples. In the real data, MESuSiE improves fine-mapping resolution by 19.0% to 72.0% compared to existing approaches, is an order of magnitude faster, and captures and categorizes shared and ancestry-specific causal signals with enhanced functional enrichment. </li>
+<li><strong>CITATION</strong> : Gao B, Zhou X. (2024) MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies Nat. Genet., 56 (1) 170-179. doi:10.1038/s41588-023-01604-7. PMID 38168930 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; 56 ; 1 ; 170-179 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38168930">38168930</a> </li>
+</ul>
+<h2 id="mr-mega">MR-MEGA</h2>
+<ul>
+<li><strong>NAME</strong> : MR-MEGA </li>
+<li><strong>SHORT NAME</strong> : MR-MEGA </li>
+<li><strong>FULL NAME</strong> : Meta-Regression of Multi-AncEstry Genetic Association </li>
+<li><strong>DESCRIPTION</strong> : MR-MEGA (Meta-Regression of Multi-AncEstry Genetic Association) is a tool to detect and fine-map complex trait association signals via multi-ancestry meta-regression.  This approach uses genome-wide metrics of diversity between populations to derive axes of genetic variation via multi-dimensional scaling [Purcell 2007].  Allelic effects of a variant across GWAS, weighted by their corresponding standard errors, can then be modelled in a linear regression framework, including the axes of genetic variation as covariates.  The flexibility of this model enables partitioning of the heterogeneity into components due to ancestry and residual variation, which would be expected to improve fine-mapping resolution. </li>
+<li><strong>URL</strong> : <a href="https://genomics.ut.ee/en/tools">https://genomics.ut.ee/en/tools</a> </li>
+<li><strong>KEYWORDS</strong> : Multi-AncEstry </li>
+<li><strong>TITLE</strong> : Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution </li>
+<li><strong>DOI</strong> : 10.1093/hmg/ddx280 </li>
+<li><strong>ABSTRACT</strong> : Trans-ethnic meta-analysis of genome-wide association studies (GWAS) across diverse populations can increase power to detect complex trait loci when the underlying causal variants are shared between ancestry groups. However, heterogeneity in allelic effects between GWAS at these loci can occur that is correlated with ancestry. Here, a novel approach is presented to detect SNP association and quantify the extent of heterogeneity in allelic effects that is correlated with ancestry. We employ trans-ethnic meta-regression to model allelic effects as a function of axes of genetic variation, derived from a matrix of mean pairwise allele frequency differences between GWAS, and implemented in the MR-MEGA software. Through detailed simulations, we demonstrate increased power to detect association for MR-MEGA over fixed- and random-effects meta-analysis across a range of scenarios of heterogeneity in allelic effects between ethnic groups. We also demonstrate improved fine-mapping resolution, in loci containing a single causal variant, compared to these meta-analysis approaches and PAINTOR, and equivalent performance to MANTRA at reduced computational cost. Application of MR-MEGA to trans-ethnic GWAS of kidney function in 71,461 individuals indicates stronger signals of association than fixed-effects meta-analysis when heterogeneity in allelic effects is correlated with ancestry. Application of MR-MEGA to fine-mapping four type 2 diabetes susceptibility loci in 22,086 cases and 42,539 controls highlights: (i) strong evidence for heterogeneity in allelic effects that is correlated with ancestry only at the index SNP for the association signal at the CDKAL1 locus; and (ii) 99% credible sets with six or fewer variants for five distinct association signals. </li>
+<li><strong>CITATION</strong> : Mägi R, Horikoshi M, Sofer T, Mahajan A, ...&amp;, Morris AP. (2017) Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution Hum. Mol. Genet., 26 (18) 3639-3650. doi:10.1093/hmg/ddx280. PMID 28911207 </li>
+<li><strong>JOURNAL_INFO</strong> : Human molecular genetics ; Hum. Mol. Genet. ; 2017 ; 26 ; 18 ; 3639-3650 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/28911207">28911207</a> </li>
+</ul>
+<h2 id="mscaviar">MsCAVIAR</h2>
+<ul>
+<li><strong>NAME</strong> : MsCAVIAR </li>
+<li><strong>SHORT NAME</strong> : MsCAVIAR </li>
+<li><strong>FULL NAME</strong> : multiple study causal variants identification in associated regions </li>
+<li><strong>DESCRIPTION</strong> : MsCAVIAR is a method for fine-mapping (identifying causal variants among GWAS associated variants) by leveraging information from multiple studies. One important application area is trans-ethnic fine mapping. </li>
+<li><strong>URL</strong> : <a href="https://github.com/nlapier2/MsCAVIAR">https://github.com/nlapier2/MsCAVIAR</a> </li>
+<li><strong>KEYWORDS</strong> : multi-study finemapping </li>
+<li><strong>TITLE</strong> : Identifying causal variants by fine mapping across multiple studies </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1009733 </li>
+<li><strong>ABSTRACT</strong> : Increasingly large Genome-Wide Association Studies (GWAS) have yielded numerous variants associated with many complex traits, motivating the development of "fine mapping" methods to identify which of the associated variants are causal. Additionally, GWAS of the same trait for different populations are increasingly available, raising the possibility of refining fine mapping results further by leveraging different linkage disequilibrium (LD) structures across studies. Here, we introduce multiple study causal variants identification in associated regions (MsCAVIAR), a method that extends the popular CAVIAR fine mapping framework to a multiple study setting using a random effects model. MsCAVIAR only requires summary statistics and LD as input, accounts for uncertainty in association statistics using a multivariate normal model, allows for multiple causal variants at a locus, and explicitly models the possibility of different SNP effect sizes in different populations. We demonstrate the efficacy of MsCAVIAR in both a simulation study and a trans-ethnic, trans-biobank fine mapping analysis of High Density Lipoprotein (HDL). </li>
+<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : LaPierre N, Taraszka K, Huang H, He R, ...&amp;, Eskin E. (2021) Identifying causal variants by fine mapping across multiple studies PLoS Genet., 17 (9) e1009733. doi:10.1371/journal.pgen.1009733. PMID 34543273 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2021 ; 17 ; 9 ; e1009733 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34543273">34543273</a> </li>
+</ul>
+<h2 id="multisusie">MultiSuSiE</h2>
+<ul>
+<li><strong>NAME</strong> : MultiSuSiE </li>
+<li><strong>SHORT NAME</strong> : MultiSuSiE </li>
+<li><strong>FULL NAME</strong> : MultiSuSiE </li>
+<li><strong>DESCRIPTION</strong> : MultiSuSiE is a multi-ancestry extension of the Sum of Single Effects model (Wang et al. 2020 J. R. Statist. Soc. B, Zou et al. 2022 PLoS Genet.) implemented in Python. </li>
+<li><strong>URL</strong> : <a href="https://github.com/jordanero/MultiSuSiE">https://github.com/jordanero/MultiSuSiE</a> </li>
+<li><strong>KEYWORDS</strong> : cross-ancestry, fine-mapping </li>
+<li><strong>CITATION</strong> : Rossen, J. et al. MultiSuSiE improves multi-ancestry fine-mapping in All of Us whole-genome sequencing data. medRxiv 2024.05.13.24307291 (2024) doi:10.1101/2024.05.13.24307291 </li>
+</ul>
+<h2 id="paintor">PAINTOR</h2>
+<ul>
+<li><strong>NAME</strong> : PAINTOR </li>
+<li><strong>SHORT NAME</strong> : PAINTOR </li>
+<li><strong>FULL NAME</strong> : Probabilistic Annotation INtegraTOR </li>
+<li><strong>DESCRIPTION</strong> : Finding causal variants that underlie known risk loci is one of the main post-GWAS challenges. Here we present PAINTOR (Probabilistic Annotation INtegraTOR), a probabilistic framework that integrates association strength with genomic functional annotation data to improve accuracy in selecting plausible causal variants for functional validation. The main output of PAINTOR are probabilities for every variant to be causal that can be used for prioritization in functional assays to establish biological causality. </li>
+<li><strong>URL</strong> : <a href="https://bogdan.dgsom.ucla.edu/pages/paintor/">https://bogdan.dgsom.ucla.edu/pages/paintor/</a> </li>
+<li><strong>KEYWORDS</strong> : Empirical Bayes prior </li>
+<li><strong>TITLE</strong> : Integrating functional data to prioritize causal variants in statistical fine-mapping studies </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1004722 </li>
+<li><strong>ABSTRACT</strong> : Standard statistical approaches for prioritization of variants for functional testing in fine-mapping studies either use marginal association statistics or estimate posterior probabilities for variants to be causal under simplifying assumptions. Here, we present a probabilistic framework that integrates association strength with functional genomic annotation data to improve accuracy in selecting plausible causal variants for functional validation. A key feature of our approach is that it empirically estimates the contribution of each functional annotation to the trait of interest directly from summary association statistics while allowing for multiple causal variants at any risk locus. We devise efficient algorithms that estimate the parameters of our model across all risk loci to further increase performance. Using simulations starting from the 1000 Genomes data, we find that our framework consistently outperforms the current state-of-the-art fine-mapping methods, reducing the number of variants that need to be selected to capture 90% of the causal variants from an average of 13.3 to 10.4 SNPs per locus (as compared to the next-best performing strategy). Furthermore, we introduce a cost-to-benefit optimization framework for determining the number of variants to be followed up in functional assays and assess its performance using real and simulation data. We validate our findings using a large scale meta-analysis of four blood lipids traits and find that the relative probability for causality is increased for variants in exons and transcription start sites and decreased in repressed genomic regions at the risk loci of these traits. Using these highly predictive, trait-specific functional annotations, we estimate causality probabilities across all traits and variants, reducing the size of the 90% confidence set from an average of 17.5 to 13.5 variants per locus in this data. </li>
+<li><strong>CITATION</strong> : Kichaev G, Yang WY, Lindstrom S, Hormozdiari F, ...&amp;, Pasaniuc B. (2014) Integrating functional data to prioritize causal variants in statistical fine-mapping studies PLoS Genet., 10 (10) e1004722. doi:10.1371/journal.pgen.1004722. PMID 25357204 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2014 ; 10 ; 10 ; e1004722 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25357204">25357204</a> </li>
+</ul>
+<h2 id="rfr-susie-inf-finemap-inf">RFR SuSiE-inf FINEMAP-inf</h2>
+<ul>
+<li><strong>NAME</strong> : RFR SuSiE-inf FINEMAP-inf </li>
+<li><strong>SHORT NAME</strong> : RFR </li>
+<li><strong>FULL NAME</strong> : Replication Failure Rate </li>
+<li><strong>DESCRIPTION</strong> : Replication Failure Rate (RFR), a metric to assess the consistency of fine-mapping results based on downsampling a large cohort. SuSiE-inf and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinitesimal effects in addition to a small number of larger causal effects of interest. </li>
+<li><strong>URL</strong> : <a href="https://github.com/FinucaneLab/fine-mapping-inf">https://github.com/FinucaneLab/fine-mapping-inf</a> </li>
+<li><strong>TITLE</strong> : Improving fine-mapping by modeling infinitesimal effects </li>
+<li><strong>DOI</strong> : 10.1038/s41588-023-01597-3 </li>
+<li><strong>ABSTRACT</strong> : Fine-mapping aims to identify causal genetic variants for phenotypes. Bayesian fine-mapping algorithms (for example, SuSiE, FINEMAP, ABF and COJO-ABF) are widely used, but assessing posterior probability calibration remains challenging in real data, where model misspecification probably exists, and true causal variants are unknown. We introduce replication failure rate (RFR), a metric to assess fine-mapping consistency by downsampling. SuSiE, FINEMAP and COJO-ABF show high RFR, indicating potential overconfidence in their output. Simulations reveal that nonsparse genetic architecture can lead to miscalibration, while imputation noise, nonuniform distribution of causal variants and quality control filters have minimal impact. Here we present SuSiE-inf and FINEMAP-inf, fine-mapping methods modeling infinitesimal effects alongside fewer larger causal effects. Our methods show improved calibration, RFR and functional enrichment, competitive recall and computational efficiency. Notably, using our methods' posterior effect sizes substantially increases polygenic risk score accuracy over SuSiE and FINEMAP. Our work improves causal variant identification for complex traits, a fundamental goal of human genetics. </li>
+<li><strong>CITATION</strong> : Cui R, Elzur RA, Kanai M, Ulirsch JC, ...&amp;, Finucane HK. (2024) Improving fine-mapping by modeling infinitesimal effects Nat. Genet., 56 (1) 162-169. doi:10.1038/s41588-023-01597-3. PMID 38036779 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; 56 ; 1 ; 162-169 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38036779">38036779</a> </li>
+</ul>
+<h2 id="susie">SUSIE</h2>
+<ul>
+<li><strong>NAME</strong> : SUSIE </li>
+<li><strong>SHORT NAME</strong> : SUSIE </li>
+<li><strong>FULL NAME</strong> : sum of single effects </li>
+<li><strong>DESCRIPTION</strong> : The susieR package implements a simple new way to perform variable selection in multiple regression (y = Xb + e). The methods implemented here are particularly well-suited to settings where some of the X variables are highly correlated, and the true effects are highly sparse (e.g. &lt;20 non-zero effects in the vector b). One example of this is genetic fine-mapping applications, and this application was a major motivation for developing these methods. </li>
+<li><strong>URL</strong> : <a href="https://stephenslab.github.io/susieR/index.html">https://stephenslab.github.io/susieR/index.html</a> </li>
+<li><strong>KEYWORDS</strong> : fine-mapping, sum of single-effects (SuSiE) regression, iterative Bayesian stepwise selection (IBSS) </li>
+<li><strong>TITLE</strong> : A simple new approach to variable selection in regression, with application to genetic fine mapping </li>
+<li><strong>DOI</strong> : 10.1111/rssb.12388 </li>
+<li><strong>ABSTRACT</strong> : We introduce a simple new approach to variable selection in linear regression, with a particular focus on quantifying uncertainty in which variables should be selected. The approach is based on a new model - the "Sum of Single Effects" (SuSiE) model - which comes from writing the sparse vector of regression coefficients as a sum of "single-effect" vectors, each with one non-zero element. We also introduce a corresponding new fitting procedure - Iterative Bayesian Stepwise Selection (IBSS) - which is a Bayesian analogue of stepwise selection methods. IBSS shares the computational simplicity and speed of traditional stepwise methods, but instead of selecting a single variable at each step, IBSS computes a distribution on variables that captures uncertainty in which variable to select. We provide a formal justification of this intuitive algorithm by showing that it optimizes a variational approximation to the posterior distribution under the SuSiE model. Further, this approximate posterior distribution naturally yields convenient novel summaries of uncertainty in variable selection, providing a Credible Set of variables for each selection. Our methods are particularly well-suited to settings where variables are highly correlated and detectable effects are sparse, both of which are characteristics of genetic fine-mapping applications. We demonstrate through numerical experiments that our methods outperform existing methods for this task, and illustrate their application to fine-mapping genetic variants influencing alternative splicing in human cell-lines. We also discuss the potential and challenges for applying these methods to generic variable selection problems. </li>
+<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : Wang G, Sarkar A, Carbonetto P, Stephens M. (2020) A simple new approach to variable selection in regression, with application to genetic fine mapping J. R. Stat. Soc. Series B Stat. Methodol., 82 (5) 1273-1300. doi:10.1111/rssb.12388. PMID 37220626 </li>
+<li><strong>JOURNAL_INFO</strong> : Journal of the Royal Statistical Society. Series B, Statistical methodology ; J. R. Stat. Soc. Series B Stat. Methodol. ; 2020 ; 82 ; 5 ; 1273-1300 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/37220626">37220626</a> </li>
+</ul>
+<h2 id="susie-rss">SUSIE-RSS</h2>
+<ul>
+<li><strong>NAME</strong> : SUSIE-RSS </li>
+<li><strong>SHORT NAME</strong> : SUSIE-RSS </li>
+<li><strong>FULL NAME</strong> : sum of single effects regression with summary statistics </li>
+<li><strong>DESCRIPTION</strong> : The susieR package implements a simple new way to perform variable selection in multiple regression (y = Xb + e). The methods implemented here are particularly well-suited to settings where some of the X variables are highly correlated, and the true effects are highly sparse (e.g. &lt;20 non-zero effects in the vector b). One example of this is genetic fine-mapping applications, and this application was a major motivation for developing these methods. </li>
+<li><strong>URL</strong> : <a href="https://stephenslab.github.io/susieR/index.html">https://stephenslab.github.io/susieR/index.html</a> </li>
+<li><strong>KEYWORDS</strong> : fine-mapping, summary statistics </li>
+<li><strong>TITLE</strong> : Fine-mapping from summary data with the "Sum of Single Effects" model </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1010299 </li>
+<li><strong>ABSTRACT</strong> : In recent work, Wang et al introduced the "Sum of Single Effects" (SuSiE) model, and showed that it provides a simple and efficient approach to fine-mapping genetic variants from individual-level data. Here we present new methods for fitting the SuSiE model to summary data, for example to single-SNP z-scores from an association study and linkage disequilibrium (LD) values estimated from a suitable reference panel. To develop these new methods, we first describe a simple, generic strategy for extending any individual-level data method to deal with summary data. The key idea is to replace the usual regression likelihood with an analogous likelihood based on summary data. We show that existing fine-mapping methods such as FINEMAP and CAVIAR also (implicitly) use this strategy, but in different ways, and so this provides a common framework for understanding different methods for fine-mapping. We investigate other common practical issues in fine-mapping with summary data, including problems caused by inconsistencies between the z-scores and LD estimates, and we develop diagnostics to identify these inconsistencies. We also present a new refinement procedure that improves model fits in some data sets, and hence improves overall reliability of the SuSiE fine-mapping results. Detailed evaluations of fine-mapping methods in a range of simulated data sets show that SuSiE applied to summary data is competitive, in both speed and accuracy, with the best available fine-mapping methods for summary data. </li>
+<li><strong>CITATION</strong> : Zou Y, Carbonetto P, Wang G, Stephens M. (2022) Fine-mapping from summary data with the "Sum of Single Effects" model PLoS Genet., 18 (7) e1010299. doi:10.1371/journal.pgen.1010299. PMID 35853082 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2022 ; 18 ; 7 ; e1010299 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35853082">35853082</a> </li>
+</ul>
+<h2 id="susiex">SUSIEx</h2>
+<ul>
+<li><strong>NAME</strong> : SUSIEx </li>
+<li><strong>SHORT NAME</strong> : SUSIEx </li>
+<li><strong>FULL NAME</strong> : SUSIEx </li>
+<li><strong>DESCRIPTION</strong> : SuSiEx is a Python based command line tool that performs cross-ethnic fine-mapping using GWAS summary statistics and LD reference panels. The method is built on the Sum of Single Effects (SuSiE) model. </li>
+<li><strong>URL</strong> : <a href="https://github.com/getian107/SuSiEx">https://github.com/getian107/SuSiEx</a> </li>
+<li><strong>KEYWORDS</strong> : cross-ancestry, fine-mapping </li>
+<li><strong>CITATION</strong> : Yuan, K., Longchamps, R. J., Pardiñas, A. F., Yu, M., Chen, T. T., Lin, S. C., ... &amp; Schizophrenia Workgroup of Psychiatric Genomics Consortium. (2023). Fine-mapping across diverse ancestries drives the discovery of putative causal variants underlying human complex traits and diseases. medRxiv. </li>
+</ul>
+<h2 id="sparsepro">SparsePro</h2>
+<ul>
+<li><strong>NAME</strong> : SparsePro </li>
+<li><strong>SHORT NAME</strong> : SparsePro </li>
+<li><strong>FULL NAME</strong> : SparsePro </li>
+<li><strong>DESCRIPTION</strong> : SparsePro is a command line tool for efficiently conducting genome-wide fine-mapping. Our method has two key features: First, by creating a sparse low-dimensional projection of the high-dimensional genotype, we enable a linear search of causal variants instead of an exponential search of causal configurations in most existing methods; Second, we adopt a probabilistic framework with a highly efficient variational expectation-maximization algorithm to integrate statistical associations and functional priors. </li>
+<li><strong>URL</strong> : <a href="https://github.com/zhwm/SparsePro">https://github.com/zhwm/SparsePro</a> </li>
+<li><strong>TITLE</strong> : SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations </li>
+<li><strong>DOI</strong> : 10.1371/journal.pgen.1011104 </li>
+<li><strong>ABSTRACT</strong> : Identifying causal variants from genome-wide association studies (GWAS) is challenging due to widespread linkage disequilibrium (LD) and the possible existence of multiple causal variants in the same genomic locus. Functional annotations of the genome may help to prioritize variants that are biologically relevant and thus improve fine-mapping of GWAS results. Classical fine-mapping methods conducting an exhaustive search of variant-level causal configurations have a high computational cost, especially when the underlying genetic architecture and LD patterns are complex. SuSiE provided an iterative Bayesian stepwise selection algorithm for efficient fine-mapping. In this work, we build connections between SuSiE and a paired mean field variational inference algorithm through the implementation of a sparse projection, and propose effective strategies for estimating hyperparameters and summarizing posterior probabilities. Moreover, we incorporate functional annotations into fine-mapping by jointly estimating enrichment weights to derive functionally-informed priors. We evaluate the performance of SparsePro through extensive simulations using resources from the UK Biobank. Compared to state-of-the-art methods, SparsePro achieved improved power for fine-mapping with reduced computation time. We demonstrate the utility of SparsePro through fine-mapping of five functional biomarkers of clinically relevant phenotypes. In summary, we have developed an efficient fine-mapping method for integrating summary statistics and functional annotations. Our method can have wide utility in understanding the genetics of complex traits and increasing the yield of functional follow-up studies of GWAS. SparsePro software is available on GitHub at https://github.com/zhwm/SparsePro. </li>
+<li><strong>CITATION</strong> : Zhang W, Najafabadi H, Li Y. (2023) SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations PLoS Genet., 19 (12) e1011104. doi:10.1371/journal.pgen.1011104. PMID 38153934 </li>
+<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2023 ; 19 ; 12 ; e1011104 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38153934">38153934</a> </li>
+</ul>
+<h2 id="mjam">mJAM</h2>
+<ul>
+<li><strong>NAME</strong> : mJAM </li>
+<li><strong>SHORT NAME</strong> : mJAM </li>
+<li><strong>FULL NAME</strong> : multi-population JAM </li>
+<li><strong>URL</strong> : <a href="https://github.com/USCbiostats/hJAM/R">https://github.com/USCbiostats/hJAM/R</a> </li>
+<li><strong>KEYWORDS</strong> : multi-population </li>
+<li><strong>CITATION</strong> : Shen, J., Jiang, L., Wang, K., Wang, A., Chen, F., Newcombe, P. J., ... &amp; Conti, D. V. (2022). Fine-mapping and credible set construction using a multi-population joint analysis of marginal summary statistics from genome-wide association studies. bioRxiv, 2022-12. </li>
+</ul>
+<h2 id="mvsusie">mvSuSiE</h2>
+<ul>
+<li><strong>NAME</strong> : mvSuSiE </li>
+<li><strong>SHORT NAME</strong> : mvSuSiE </li>
+<li><strong>FULL NAME</strong> : mvSuSiE </li>
+<li><strong>DESCRIPTION</strong> : Implements a multivariate generalization of the "Sum of Single Effects" (SuSiE) model for variable selection in multivariate linear regression. </li>
+<li><strong>URL</strong> : <a href="https://github.com/stephenslab/mvsusieR">https://github.com/stephenslab/mvsusieR</a> </li>
+<li><strong>KEYWORDS</strong> : multi-trait, fine-mapping </li>
+<li><strong>CITATION</strong> : Zou, Y., Carbonetto, P., Xie, D., Wang, G., &amp; Stephens, M. (2023). Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model. bioRxiv, 2023-04. </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1c3ead8.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
