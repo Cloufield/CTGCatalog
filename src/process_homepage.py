@@ -36,7 +36,8 @@ def write_homepage():
     for dirname in ["Sumstats","Proteomics","Imaging"]: 
         raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         combined_df = pd.concat([combined_df, raw_dir],ignore_index=True)
-
+    
+    combined_df["CATEGORY"] = combined_df["CATEGORY"].fillna("MISC")
     counts = combined_df[["FOLDER_1","NAME","CATEGORY"]].groupby(["FOLDER_1","CATEGORY"]).count().reset_index()
     counts = counts.rename(columns={"FOLDER_1":"Field","NAME":"Count","CATEGORY":"Category"})
 
@@ -58,7 +59,8 @@ def write_homepage():
         # top page
         main_file = "../docs/"+dirname+"_README.md"
         shutil.copyfile("../"+dirname+"/README.md", main_file)
-
+    
+    combined_df["CATEGORY"] = combined_df["CATEGORY"].fillna("MISC")
     counts = combined_df[["FOLDER_1","NAME","CATEGORY"]].groupby(["FOLDER_1","CATEGORY"]).count().reset_index()
     counts = counts.rename(columns={"FOLDER_1":"Field","NAME":"Count","CATEGORY":"Category"})
 
