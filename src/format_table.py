@@ -4,7 +4,10 @@ import shutil
 import pandas as pd
 
 def format_data(df_combined_in):
+
     df_combined = df_combined_in.copy()
+    
+    # fix name
     df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
 
     #try:
@@ -15,6 +18,7 @@ def format_data(df_combined_in):
     #except:
     #    pass
 
+    # fix JOURNAL_INFO
     try:
         #df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
         df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
@@ -22,13 +26,15 @@ def format_data(df_combined_in):
         df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
     except:
         pass
-    
+
+    # fix PUBMED_LINK
     is_pubmedid = ~df_combined["PMID"].isna()
     df_combined.loc[is_pubmedid, "PUBMED_LINK"] = "["+ df_combined.loc[is_pubmedid, "PMID"] + "](" + "https://pubmed.ncbi.nlm.nih.gov/" +  df_combined.loc[is_pubmedid, "PMID"] + ")"
-
+    
+    # fix URL
+    # multiple urls
     is_url = ~df_combined["URL"].isna()
     df_combined.loc[is_url,"URL"]  = df_combined.loc[is_url,"URL"].apply(lambda x:fix_url(x))
-    #df_combined.loc[is_url,"URL"] = "["+ df_combined.loc[is_url, "URL"] + "](" + df_combined.loc[is_url, "URL"] + ")"
 
     return df_combined
 

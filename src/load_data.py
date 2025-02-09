@@ -18,33 +18,11 @@ def load_table_and_ref():
     path = "../CTGCatalog.xlsx"
     if not os.path.isfile(tempfile):
         print("Loading data from main excel tables...")
-        pop0 = pd.read_excel(path ,sheet_name="Population_Genetics",dtype=dtype)
-        pop0["FIELD"] = "Population_Genetics"
-        pop = pop0
-
-        pop0 = pd.read_excel(path,sheet_name="Tools",dtype=dtype)
-        pop0["FIELD"] = "Tools"
-        pop = pd.concat([pop,pop0])
-
-        pop0 = pd.read_excel(path,sheet_name="Visualization",dtype=dtype)
-        pop0["FIELD"] = "Visualization"
-        pop = pd.concat([pop,pop0])
-
-        pop0 = pd.read_excel(path,sheet_name="Sumstats",dtype=dtype)
-        pop0["FIELD"] = "Sumstats"
-        pop = pd.concat([pop,pop0])
-
-        pop0 = pd.read_excel(path,sheet_name="Proteomics",dtype=dtype)
-        pop0["FIELD"] = "Proteomics"
-        pop = pd.concat([pop,pop0])
-
-        pop0 = pd.read_excel(path,sheet_name="Metabolomics",dtype=dtype)
-        pop0["FIELD"] = "Metabolomics"
-        pop = pd.concat([pop,pop0])
-
-        pop0 = pd.read_excel(path,sheet_name="Imaging",dtype=dtype)
-        pop0["FIELD"] = "Imaging"
-        pop = pd.concat([pop,pop0])
+        pop=pd.DataFrame()
+        for sheet in ["Population_Genetics","Tools","Visualization","Sumstats","Proteomics","Metabolomics","Imaging"]:
+            pop0 = pd.read_excel(path ,sheet_name=sheet,dtype=dtype)
+            pop0["FIELD"] = sheet
+            pop = pd.concat([pop,pop0],ignore_index=True)
 
         if source == "pubmed":
             import sys 
@@ -89,7 +67,7 @@ def load_table_and_ref():
 
 def load_ref():
     source = "csv"
-    tempfile= "../formatted_main_table.xlsx"
+    tempfile= "../formatted_reference_table.xlsx"
     dtype = {"PMID":"string","ADD_PREFIX":"string","ADD_SUFFIX":"string","USE_FIRST_AUTHOR":"string"}
     path = "../CTGCatalog_reference.xlsx"
     if not os.path.isfile(tempfile):
