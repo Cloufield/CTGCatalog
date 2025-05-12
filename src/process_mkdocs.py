@@ -86,13 +86,14 @@ def write_mkdcos(part1=part1, part2=part2):
     for dirname in ["Tools","Visualization","Population_Genetics" ]: 
         raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         folder_cols =[]
-        
+
+
         # "FOLDER1" "FOLDER2" "FOLDER3" ... 
         for col in raw_dir.columns:
             if "FOLDER" in col:
                 folder_cols.append(col)
         
-        raw_dir.loc[:, folder_cols ] = raw_dir.loc[:, folder_cols ].fillna("")
+        raw_dir.loc[:, folder_cols ] = raw_dir.loc[:, folder_cols].fillna("")
         raw_dir["TYPE"] = raw_dir["TYPE"].fillna("MISC")
         
         # create PATH using all folder_cols
@@ -111,6 +112,33 @@ def write_mkdcos(part1=part1, part2=part2):
                 level_count = path_df.groupby(folder_cols[index])["PATH"].count()
                 level_root_dic[folder_cols[index]]+=list(level_count[level_count>1].index.values)      
         
+        # write page for each category
+        main_file = "../docs/"+dirname+"_README.md"
+        shutil.copyfile("../"+dirname+"/README.md", main_file)
+        with open(main_file,"a") as file:
+            file.write("\n\n")
+            file.write("## {} - {} \n".format("Contents",dirname))
+            file.write("\n")
+
+            for index, row in path_df.iterrows():
+
+                type_dir = raw_dir.loc[raw_dir["PATH"]==row["PATH"],:].groupby("TYPE")["NAME"].count()
+                string_list=[]
+                for key,value in type_dir.items():
+                    type_string = "{} - {}".format(key,value)
+                    string_list.append(type_string)
+                type_line = " , ".join(string_list)
+
+                spaces = " " * 2 * (row["LEVEL"]-1)
+                col = "FOLDER_{}".format(row["LEVEL"]-1)
+                string = row[col]
+                link_string = "{}_{}_README.md".format(dirname, row["PATH"])
+                
+                key = "[{}]({})".format(string, link_string)
+                single_line = "{}- {} : {}\n".format( spaces ,key, type_line)
+                file.write(single_line)
+
+
         #tab############################################
         spaces = " " * 2 * (1+ 1)
         key = dirname
@@ -180,7 +208,7 @@ def write_mkdcos(part1=part1, part2=part2):
             for index, row in path_df.iterrows():
 
                 spaces = " " * 2 * (1+ row["LEVEL"])
-                col = "FOLDER_{}".format(row["LEVEL"]-1)
+                col = "FOLDER_{}".format( row["LEVEL"]-1 )
                 key = row[col]
                 value = "{}_{}_README.md".format(dirname, row["PATH"])
                 if row["PATH"] in level_root_dic[col]:
