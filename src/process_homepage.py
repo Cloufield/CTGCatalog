@@ -53,7 +53,7 @@ def write_homepage():
         file.write("\n\n")
     ###########################################################################################################################################################################################################################
     combined_df = pd.DataFrame()
-    for dirname in ["Tools","Visualization","Population_Genetics" ]: 
+    for dirname in ["Tools","Visualization","Population_Genetics","Single_Cell" ]: 
         raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         combined_df = pd.concat([combined_df, raw_dir],ignore_index=True)
         # top page

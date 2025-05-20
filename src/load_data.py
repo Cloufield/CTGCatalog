@@ -19,7 +19,7 @@ def load_table_and_ref():
     if not os.path.isfile(tempfile):
         print("Loading data from main excel tables...")
         pop=pd.DataFrame()
-        for sheet in ["Population_Genetics","Tools","Visualization","Sumstats","Proteomics","Metabolomics","Imaging"]:
+        for sheet in ["Population_Genetics","Tools","Visualization","Sumstats","Proteomics","Metabolomics","Imaging","Single_Cell"]:
             pop0 = pd.read_excel(path ,sheet_name=sheet,dtype=dtype)
             pop0["FIELD"] = sheet
             pop = pd.concat([pop,pop0],ignore_index=True)

@@ -83,7 +83,7 @@ def write_mkdcos(part1=part1, part2=part2):
         return level
     ##################################################################################################################################################################################################################
 
-    for dirname in ["Tools","Visualization","Population_Genetics" ]: 
+    for dirname in ["Tools","Visualization","Population_Genetics","Single_Cell" ]: 
         raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         folder_cols =[]
 
