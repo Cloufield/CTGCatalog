@@ -82,4 +82,3 @@ def write_homepage():
         file.write("\n## About\n")
         file.write("\nFor more Complex Trait Genomics contents, please check [https://gwaslab.com/](https://gwaslab.com/)\n")
         file.write("\nContact : gwaslab@gmail.com\n")
-        file.write("\n[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fcloufield.github.io%2FCTGCatalog%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Daily%2FTotal+views&edge_flat=false)](https://hits.seeyoufarm.com)\n")

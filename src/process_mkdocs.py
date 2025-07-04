@@ -175,7 +175,7 @@ def write_mkdcos(part1=part1, part2=part2):
     part2+= single_line
     ############################################
 
-    for dirname in ["Phenotype","Genome","Gene","Variant","Protein","Annotation"]: 
+    for dirname in ["Phenotype","Genome","Gene","Variant","Protein","Annotation","Cell","Spatial"]: 
         raw_dir = pd.read_excel("../CTGCatalog_reference.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         if len(raw_dir)>0:
             folder_cols =[]
