@@ -1,0 +1,2585 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+      
+        <link rel="prev" href="../Tools_Colocalization/">
+      
+      
+        <link rel="next" href="../Tools_Dimension_reduction/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Data_processing - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Data_processing
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Biobanks/" class="md-tabs__link">
+          
+  
+  Biobanks
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../References/" class="md-tabs__link">
+          
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Single_Cell/" class="md-tabs__link">
+          
+  
+  Single_Cell
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats/" class="md-tabs__link">
+          
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Visualization/" class="md-tabs__link">
+          
+  
+  Visualization
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Biobanks
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Biobanks
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biobanks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_AFRICA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AFRICA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_AMERICA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AMERICA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_ASIA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ASIA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_EUROPE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EUROPE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_OCIENIA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OCIENIA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            References
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Epigenetics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Epigenetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Gene/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Genome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_LD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Phenotype/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phenotype
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Protein/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Variant/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variant
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_scRNA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    scRNA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Single_Cell
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Single_Cell
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Single_Cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Annotation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Framework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Harmonization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Harmonization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Network/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_QC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Trajectory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trajectory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Sumstats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_General/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Imaging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metabolomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Proteomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Admixture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admixture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Annotation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Association_tests
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_RWAS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_TWAS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_eQTL/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    eQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_sQTL/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Colocalization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocalization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gcta" class="md-nav__link">
+    <span class="md-ellipsis">
+      GCTA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gwaslab" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWASLab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hail
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldsc" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDSC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldstore2" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDSTORE2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mungesumstats" class="md-nav__link">
+    <span class="md-ellipsis">
+      MungeSumstats
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plink19" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK1.9
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plink2" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qctool-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      QCTOOL v2
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Dimension_reduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dimension_reduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Drug_discovery/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drug_discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Fine_mapping/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Functional_prediction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Functional_prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_prioritization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_prioritization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_set_pathway_analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_set_pathway_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Genealogy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genealogy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_GxE_interactions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GxE_interactions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_HLA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HLA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Heritability_and_genetic_correlation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heritability_and_genetic_correlation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Imputation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imputation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mendelian_randomization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mendelian_randomization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Meta_and_Multi_triat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meta_and_Multi_triat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Phylogenetic_tree/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenetic_tree
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Polygenic_risk_scores/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polygenic_risk_scores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Power_analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Proteomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Selection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Simulation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Tissue_and_single_cell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Winners_curse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Winners_curse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Chromosome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromosome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Forest_plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest_plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_GWAS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_LD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Variants_on_protein/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variants_on_protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gcta" class="md-nav__link">
+    <span class="md-ellipsis">
+      GCTA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gwaslab" class="md-nav__link">
+    <span class="md-ellipsis">
+      GWASLab
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Hail
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldsc" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDSC
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ldstore2" class="md-nav__link">
+    <span class="md-ellipsis">
+      LDSTORE2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mungesumstats" class="md-nav__link">
+    <span class="md-ellipsis">
+      MungeSumstats
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plink19" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK1.9
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#plink2" class="md-nav__link">
+    <span class="md-ellipsis">
+      PLINK2
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#qctool-v2" class="md-nav__link">
+    <span class="md-ellipsis">
+      QCTOOL v2
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Data_processing</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CITATION</th>
+<th style="text-align: left;">YEAR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#gcta">GCTA</a></td>
+<td style="text-align: left;">Yang J, Lee SH, Goddard ME, Visscher PM. (2011) GCTA: a tool for genome-wide complex trait analysis Am. J. Hum. Genet., 88 (1) 76-82. doi:10.1016/j.ajhg.2010.11.011. PMID 21167468</td>
+<td style="text-align: left;">2011</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#gwaslab">GWASLab</a></td>
+<td style="text-align: left;">GWASLab preprint: He, Y., Koido, M., Shimmori, Y., Kamatani, Y. (2023). GWASLab: a Python package for processing and visualizing GWAS summary statistics. Preprint at Jxiv, 2023-5. https://doi.org/10.51094/jxiv.370</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#hail">Hail</a></td>
+<td style="text-align: left;">Hail Team. Hail 0.2.13-81ab564db2b4. https://github.com/hail-is/hail/releases/tag/0.2.13.</td>
+<td style="text-align: left;">NA</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ldsc">LDSC</a></td>
+<td style="text-align: left;">Bulik-Sullivan B, Loh PR, Finucane HK, Ripke S, ...&amp;, O'Donovan MC. (2015) LD Score regression distinguishes confounding from polygenicity in genome-wide association studies Nat. Genet., 47 (3) 291-295. doi:10.1038/ng.3211. PMID 25642630</td>
+<td style="text-align: left;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#ldstore2">LDSTORE2</a></td>
+<td style="text-align: left;">Benner C, Havulinna AS, Järvelin MR, Salomaa V, ...&amp;, Pirinen M. (2017) Prospects of fine-mapping trait-associated genomic regions by using summary statistics from genome-wide association studies Am. J. Hum. Genet., 101 (4) 539-551. doi:10.1016/j.ajhg.2017.08.012. PMID 28942963</td>
+<td style="text-align: left;">2017</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#mungesumstats">MungeSumstats</a></td>
+<td style="text-align: left;">Murphy AE, Schilder BM, Skene NG. (2021) MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics Bioinformatics, 37 (23) 4593-4596. doi:10.1093/bioinformatics/btab665. PMID 34601555</td>
+<td style="text-align: left;">2021</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#plink19">PLINK1.9</a></td>
+<td style="text-align: left;">Purcell S, Neale B, Todd-Brown K, Thomas L, ...&amp;, Sham PC. (2007) PLINK: a tool set for whole-genome association and population-based linkage analyses Am. J. Hum. Genet., 81 (3) 559-575. doi:10.1086/519795. PMID 17701901</td>
+<td style="text-align: left;">2007</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#plink2">PLINK2</a></td>
+<td style="text-align: left;">Chang CC, Chow CC, Tellier LC, Vattikuti S, ...&amp;, Lee JJ. (2015) Second-generation PLINK: rising to the challenge of larger and richer datasets Gigascience, 4 (1) 7. doi:10.1186/s13742-015-0047-8. PMID 25722852</td>
+<td style="text-align: left;">2015</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#qctool-v2">QCTOOL v2</a></td>
+<td style="text-align: left;">Wigginton JE, Cutler DJ, Abecasis GR. (2005) A note on exact tests of Hardy-Weinberg equilibrium Am. J. Hum. Genet., 76 (5) 887-893. doi:10.1086/429864. PMID 15789306</td>
+<td style="text-align: left;">2005</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gcta">GCTA</h2>
+<ul>
+<li><strong>NAME</strong> : GCTA </li>
+<li><strong>SHORT NAME</strong> : GCTA </li>
+<li><strong>FULL NAME</strong> : Genome-wide complex trait analysis (GCTA) </li>
+<li><strong>DESCRIPTION</strong> : GCTA-GREML analysis:GCTA can simulate a GWAS based on real genotype data. </li>
+<li><strong>URL</strong> : <a href="https://yanglab.westlake.edu.cn/software/gcta/">https://yanglab.westlake.edu.cn/software/gcta/</a> </li>
+<li><strong>TITLE</strong> : GCTA: a tool for genome-wide complex trait analysis </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2010.11.011 </li>
+<li><strong>ABSTRACT</strong> : For most human complex diseases and traits, SNPs identified by genome-wide association studies (GWAS) explain only a small fraction of the heritability. Here we report a user-friendly software tool called genome-wide complex trait analysis (GCTA), which was developed based on a method we recently developed to address the "missing heritability" problem. GCTA estimates the variance explained by all the SNPs on a chromosome or on the whole genome for a complex trait rather than testing the association of any particular SNP to the trait. We introduce GCTA's five main functions: data management, estimation of the genetic relationships from SNPs, mixed linear model analysis of variance explained by the SNPs, estimation of the linkage disequilibrium structure, and GWAS simulation. We focus on the function of estimating the variance explained by all the SNPs on the X chromosome and testing the hypotheses of dosage compensation. The GCTA software is a versatile tool to estimate and partition complex trait variation with large GWAS data sets. </li>
+<li><strong>CITATION</strong> : Yang J, Lee SH, Goddard ME, Visscher PM. (2011) GCTA: a tool for genome-wide complex trait analysis Am. J. Hum. Genet., 88 (1) 76-82. doi:10.1016/j.ajhg.2010.11.011. PMID 21167468 </li>
+<li><strong>JOURNAL_INFO</strong> : American journal of human genetics ; Am. J. Hum. Genet. ; 2011 ; 88 ; 1 ; 76-82 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/21167468">21167468</a> </li>
+</ul>
+<h2 id="gwaslab">GWASLab</h2>
+<ul>
+<li><strong>NAME</strong> : GWASLab </li>
+<li><strong>SHORT NAME</strong> : GWASLab </li>
+<li><strong>FULL NAME</strong> : GWASLab </li>
+<li><strong>DESCRIPTION</strong> : a python package for handling GWAS sumstats. </li>
+<li><strong>URL</strong> : <a href="https://github.com/Cloufield/gwaslab">https://github.com/Cloufield/gwaslab</a> </li>
+<li><strong>PREPRINT_DOI</strong> : 10.51094/jxiv.370 </li>
+<li><strong>CITATION</strong> : GWASLab preprint: He, Y., Koido, M., Shimmori, Y., Kamatani, Y. (2023). GWASLab: a Python package for processing and visualizing GWAS summary statistics. Preprint at Jxiv, 2023-5. https://doi.org/10.51094/jxiv.370 </li>
+</ul>
+<h2 id="hail">Hail</h2>
+<ul>
+<li><strong>NAME</strong> : Hail </li>
+<li><strong>SHORT NAME</strong> : Hail </li>
+<li><strong>FULL NAME</strong> : Hail </li>
+<li><strong>DESCRIPTION</strong> : Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data. </li>
+<li><strong>URL</strong> : <a href="https://hail.is/">https://hail.is/</a> </li>
+<li><strong>CITATION</strong> : Hail Team. Hail 0.2.13-81ab564db2b4. https://github.com/hail-is/hail/releases/tag/0.2.13. </li>
+</ul>
+<h2 id="ldsc">LDSC</h2>
+<ul>
+<li><strong>NAME</strong> : LDSC </li>
+<li><strong>SHORT NAME</strong> : LDSC </li>
+<li><strong>FULL NAME</strong> : LD Score Regression </li>
+<li><strong>DESCRIPTION</strong> : ldsc is a command line tool for estimating heritability and genetic correlation from GWAS summary statistics. ldsc also computes LD Scores. </li>
+<li><strong>URL</strong> : <a href="https://github.com/bulik/ldsc">https://github.com/bulik/ldsc</a> </li>
+<li><strong>TITLE</strong> : LD Score regression distinguishes confounding from polygenicity in genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1038/ng.3211 </li>
+<li><strong>ABSTRACT</strong> : Both polygenicity (many small genetic effects) and confounding biases, such as cryptic relatedness and population stratification, can yield an inflated distribution of test statistics in genome-wide association studies (GWAS). However, current methods cannot distinguish between inflation from a true polygenic signal and bias. We have developed an approach, LD Score regression, that quantifies the contribution of each by examining the relationship between test statistics and linkage disequilibrium (LD). The LD Score regression intercept can be used to estimate a more powerful and accurate correction factor than genomic control. We find strong evidence that polygenicity accounts for the majority of the inflation in test statistics in many GWAS of large sample size. </li>
+<li><strong>CITATION</strong> : Bulik-Sullivan B, Loh PR, Finucane HK, Ripke S, ...&amp;, O'Donovan MC. (2015) LD Score regression distinguishes confounding from polygenicity in genome-wide association studies Nat. Genet., 47 (3) 291-295. doi:10.1038/ng.3211. PMID 25642630 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2015 ; 47 ; 3 ; 291-295 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25642630">25642630</a> </li>
+</ul>
+<h2 id="ldstore2">LDSTORE2</h2>
+<ul>
+<li><strong>NAME</strong> : LDSTORE2 </li>
+<li><strong>SHORT NAME</strong> : LDSTORE2 </li>
+<li><strong>FULL NAME</strong> : LDSTORE2 </li>
+<li><strong>DESCRIPTION</strong> : LDstore is a computationally efficient program for estimating and storing Linkage Disequilibrium (SNP correlations). It combines some of the best features from RAREMETALWORKER and PLINK by implementing parallel processing using OPENMP and storing of the SNP correlations with information about the SNPs in the same binary file for fast lookups. LDstore is therefore the ideal tool for sharing SNP correlations in large-scale meta-analyses of genome-wide association studies and for on-the-fly computing/querying within web portals. </li>
+<li><strong>URL</strong> : <a href="http://www.christianbenner.com/#">http://www.christianbenner.com/#</a> </li>
+<li><strong>TITLE</strong> : Prospects of fine-mapping trait-associated genomic regions by using summary statistics from genome-wide association studies </li>
+<li><strong>DOI</strong> : 10.1016/j.ajhg.2017.08.012 </li>
+<li><strong>ABSTRACT</strong> : During the past few years, various novel statistical methods have been developed for fine-mapping with the use of summary statistics from genome-wide association studies (GWASs). Although these approaches require information about the linkage disequilibrium (LD) between variants, there has not been a comprehensive evaluation of how estimation of the LD structure from reference genotype panels performs in comparison with that from the original individual-level GWAS data. Using population genotype data from Finland and the UK Biobank, we show here that a reference panel of 1,000 individuals from the target population is adequate for a GWAS cohort of up to 10,000 individuals, whereas smaller panels, such as those from the 1000 Genomes Project, should be avoided. We also show, both theoretically and empirically, that the size of the reference panel needs to scale with the GWAS sample size; this has important consequences for the application of these methods in ongoing GWAS meta-analyses and large biobank studies. We conclude by providing software tools and by recommending practices for sharing LD information to more efficiently exploit summary statistics in genetics research. </li>
+<li><strong>CITATION</strong> : Benner C, Havulinna AS, Järvelin MR, Salomaa V, ...&amp;, Pirinen M. (2017) Prospects of fine-mapping trait-associated genomic regions by using summary statistics from genome-wide association studies Am. J. Hum. Genet., 101 (4) 539-551. doi:10.1016/j.ajhg.2017.08.012. PMID 28942963 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2017 ; 101 ; 4 ; 539-551 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/28942963">28942963</a> </li>
+</ul>
+<h2 id="mungesumstats">MungeSumstats</h2>
+<ul>
+<li><strong>NAME</strong> : MungeSumstats </li>
+<li><strong>SHORT NAME</strong> : MungeSumstats </li>
+<li><strong>FULL NAME</strong> : MungeSumstats </li>
+<li><strong>DESCRIPTION</strong> : a Bioconductor package for the standardization and quality control of many GWAS summary statistics </li>
+<li><strong>URL</strong> : <a href="https://github.com/neurogenomics/MungeSumstats">https://github.com/neurogenomics/MungeSumstats</a> </li>
+<li><strong>TITLE</strong> : MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics </li>
+<li><strong>DOI</strong> : 10.1093/bioinformatics/btab665 </li>
+<li><strong>ABSTRACT</strong> : MOTIVATION: Genome-wide association studies (GWAS) summary statistics have popularized and accelerated genetic research. However, a lack of standardization of the file formats used has proven problematic when running secondary analysis tools or performing meta-analysis studies. RESULTS: To address this issue, we have developed MungeSumstats, a Bioconductor R package for the standardization and quality control of GWAS summary statistics. MungeSumstats can handle the most common summary statistic formats, including variant call format (VCF) producing a reformatted, standardized, tabular summary statistic file, VCF or R native data object. AVAILABILITY AND IMPLEMENTATION: MungeSumstats is available on Bioconductor (v 3.13) and can also be found on Github at: https://neurogenomics.github.io/MungeSumstats. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online. </li>
+<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by/4.0/ </li>
+<li><strong>CITATION</strong> : Murphy AE, Schilder BM, Skene NG. (2021) MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics Bioinformatics, 37 (23) 4593-4596. doi:10.1093/bioinformatics/btab665. PMID 34601555 </li>
+<li><strong>JOURNAL_INFO</strong> : Bioinformatics (Oxford, England) ; Bioinformatics ; 2021 ; 37 ; 23 ; 4593-4596 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34601555">34601555</a> </li>
+</ul>
+<h2 id="plink19">PLINK1.9</h2>
+<ul>
+<li><strong>NAME</strong> : PLINK1.9 </li>
+<li><strong>SHORT NAME</strong> : PLINK1.9 </li>
+<li><strong>FULL NAME</strong> : PLINK1.9 </li>
+<li><strong>DESCRIPTION</strong> : PLINK: a tool set for whole-genome association and population-based linkage analyses. This is a comprehensive update to Shaun Purcell's PLINK command-line program, developed by Christopher Chang with support from the NIH-NIDDK's Laboratory of Biological Modeling, the Purcell Lab, and others. </li>
+<li><strong>URL</strong> : <a href="https://www.cog-genomics.org/plink/1.9/">https://www.cog-genomics.org/plink/1.9/</a> </li>
+<li><strong>TITLE</strong> : PLINK: a tool set for whole-genome association and population-based linkage analyses </li>
+<li><strong>DOI</strong> : 10.1086/519795 </li>
+<li><strong>ABSTRACT</strong> : Whole-genome association studies (WGAS) bring new computational, as well as analytic, challenges to researchers. Many existing genetic-analysis tools are not designed to handle such large data sets in a convenient manner and do not necessarily exploit the new opportunities that whole-genome data bring. To address these issues, we developed PLINK, an open-source C/C++ WGAS tool set. With PLINK, large data sets comprising hundreds of thousands of markers genotyped for thousands of individuals can be rapidly manipulated and analyzed in their entirety. As well as providing tools to make the basic analytic steps computationally efficient, PLINK also supports some novel approaches to whole-genome data that take advantage of whole-genome coverage. We introduce PLINK and describe the five main domains of function: data management, summary statistics, population stratification, association analysis, and identity-by-descent estimation. In particular, we focus on the estimation and use of identity-by-state and identity-by-descent information in the context of population-based whole-genome studies. This information can be used to detect and correct for population stratification and to identify extended chromosomal segments that are shared identical by descent between very distantly related individuals. Analysis of the patterns of segmental sharing has the potential to map disease loci that contain multiple rare variants in a population-based linkage analysis. </li>
+<li><strong>COPYRIGHT</strong> : https://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Purcell S, Neale B, Todd-Brown K, Thomas L, ...&amp;, Sham PC. (2007) PLINK: a tool set for whole-genome association and population-based linkage analyses Am. J. Hum. Genet., 81 (3) 559-575. doi:10.1086/519795. PMID 17701901 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2007 ; 81 ; 3 ; 559-575 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/17701901">17701901</a> </li>
+</ul>
+<h2 id="plink2">PLINK2</h2>
+<ul>
+<li><strong>NAME</strong> : PLINK2 </li>
+<li><strong>SHORT NAME</strong> : PLINK2 </li>
+<li><strong>FULL NAME</strong> : PLINK2 </li>
+<li><strong>DESCRIPTION</strong> : The second-generation versions of PLINK will offer dramatic improvements in performance and compatibility. For the first time, users without access to high-end computing resources can perform several essential analyses of the feature-rich and very large genetic datasets coming into use. </li>
+<li><strong>URL</strong> : <a href="https://www.cog-genomics.org/plink/2.0/">https://www.cog-genomics.org/plink/2.0/</a> </li>
+<li><strong>TITLE</strong> : Second-generation PLINK: rising to the challenge of larger and richer datasets </li>
+<li><strong>DOI</strong> : 10.1186/s13742-015-0047-8 </li>
+<li><strong>ABSTRACT</strong> : BACKGROUND: PLINK 1 is a widely used open-source C/C++ toolset for genome-wide association studies (GWAS) and research in population genetics. However, the steady accumulation of data from imputation and whole-genome sequencing studies has exposed a strong need for faster and scalable implementations of key functions, such as logistic regression, linkage disequilibrium estimation, and genomic distance evaluation. In addition, GWAS and population-genetic data now frequently contain genotype likelihoods, phase information, and/or multiallelic variants, none of which can be represented by PLINK 1's primary data format. FINDINGS: To address these issues, we are developing a second-generation codebase for PLINK. The first major release from this codebase, PLINK 1.9, introduces extensive use of bit-level parallelism, [Formula: see text]-time/constant-space Hardy-Weinberg equilibrium and Fisher's exact tests, and many other algorithmic improvements. In combination, these changes accelerate most operations by 1-4 orders of magnitude, and allow the program to handle datasets too large to fit in RAM. We have also developed an extension to the data format which adds low-overhead support for genotype likelihoods, phase, multiallelic variants, and reference vs. alternate alleles, which is the basis of our planned second release (PLINK 2.0). CONCLUSIONS: The second-generation versions of PLINK will offer dramatic improvements in performance and compatibility. For the first time, users without access to high-end computing resources can perform several essential analyses of the feature-rich and very large genetic datasets coming into use. </li>
+<li><strong>CITATION</strong> : Chang CC, Chow CC, Tellier LC, Vattikuti S, ...&amp;, Lee JJ. (2015) Second-generation PLINK: rising to the challenge of larger and richer datasets Gigascience, 4 (1) 7. doi:10.1186/s13742-015-0047-8. PMID 25722852 </li>
+<li><strong>JOURNAL_INFO</strong> : GigaScience ; Gigascience ; 2015 ; 4 ; 1 ; 7 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25722852">25722852</a> </li>
+</ul>
+<h2 id="qctool-v2">QCTOOL v2</h2>
+<ul>
+<li><strong>NAME</strong> : QCTOOL v2 </li>
+<li><strong>SHORT NAME</strong> : QCTOOL </li>
+<li><strong>FULL NAME</strong> : QCTOOL </li>
+<li><strong>DESCRIPTION</strong> : QCTOOL is a command-line utility program for manipulation and quality control of gwas datasets and other genome-wide data. </li>
+<li><strong>URL</strong> : <a href="https://www.well.ox.ac.uk/~gav/qctool_v2/index.html">https://www.well.ox.ac.uk/~gav/qctool_v2/index.html</a> </li>
+<li><strong>TITLE</strong> : A note on exact tests of Hardy-Weinberg equilibrium </li>
+<li><strong>DOI</strong> : 10.1086/429864 </li>
+<li><strong>ABSTRACT</strong> : Deviations from Hardy-Weinberg equilibrium (HWE) can indicate inbreeding, population stratification, and even problems in genotyping. In samples of affected individuals, these deviations can also provide evidence for association. Tests of HWE are commonly performed using a simple chi2 goodness-of-fit test. We show that this chi2 test can have inflated type I error rates, even in relatively large samples (e.g., samples of 1,000 individuals that include approximately 100 copies of the minor allele). On the basis of previous work, we describe exact tests of HWE together with efficient computational methods for their implementation. Our methods adequately control type I error in large and small samples and are computationally efficient. They have been implemented in freely available code that will be useful for quality assessment of genotype data and for the detection of genetic association or population stratification in very large data sets. </li>
+<li><strong>COPYRIGHT</strong> : https://www.elsevier.com/open-access/userlicense/1.0/ </li>
+<li><strong>CITATION</strong> : Wigginton JE, Cutler DJ, Abecasis GR. (2005) A note on exact tests of Hardy-Weinberg equilibrium Am. J. Hum. Genet., 76 (5) 887-893. doi:10.1086/429864. PMID 15789306 </li>
+<li><strong>JOURNAL_INFO</strong> : The American Journal of Human Genetics ; Am. J. Hum. Genet. ; 2005 ; 76 ; 5 ; 887-893 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/15789306">15789306</a> </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

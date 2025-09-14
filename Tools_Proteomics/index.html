@@ -1,0 +1,2640 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+      
+        <link rel="prev" href="../Tools_Power_analysis/">
+      
+      
+        <link rel="next" href="../Tools_Selection/">
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.2">
+    
+    
+      
+        <title>Proteomics - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.50c56a3b.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Proteomics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Biobanks/" class="md-tabs__link">
+          
+  
+  Biobanks
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../References/" class="md-tabs__link">
+          
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Single_Cell/" class="md-tabs__link">
+          
+  
+  Single_Cell
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats/" class="md-tabs__link">
+          
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools/" class="md-tabs__link">
+          
+  
+  Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Visualization/" class="md-tabs__link">
+          
+  
+  Visualization
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Biobanks
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Biobanks
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Biobanks
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_AFRICA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AFRICA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_AMERICA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    AMERICA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_ASIA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ASIA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_EUROPE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    EUROPE
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Biobanks_OCIENIA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    OCIENIA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            References
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Epigenetics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Epigenetics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Gene/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Genome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_LD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Phenotype/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phenotype
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Protein/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_Variant/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variant
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../References_scRNA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    scRNA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Single_Cell
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Single_Cell
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Single_Cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Annotation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Framework/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Framework
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Harmonization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Harmonization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Network/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Network
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_QC/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    QC
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Single_Cell_Trajectory/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Trajectory
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            Sumstats
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_General/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    General
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Imaging/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imaging
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Metabolomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Proteomics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Tools
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tools
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Admixture/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Admixture
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Annotation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            Association_tests
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Association_tests
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_RWAS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_TWAS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    TWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_eQTL/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    eQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Association_tests_sQTL/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    sQTL
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Colocalization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Colocalization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Data_processing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data_processing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Dimension_reduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Dimension_reduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Drug_discovery/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Drug_discovery
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Fine_mapping/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Fine_mapping
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Functional_prediction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Functional_prediction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_prioritization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_prioritization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Gene_set_pathway_analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gene_set_pathway_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Genealogy/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Genealogy
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_GxE_interactions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GxE_interactions
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_HLA/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    HLA
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Heritability_and_genetic_correlation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heritability_and_genetic_correlation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Imputation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imputation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mendelian_randomization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mendelian_randomization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Meta_and_Multi_triat/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Meta_and_Multi_triat
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Phylogenetic_tree/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Phylogenetic_tree
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Polygenic_risk_scores/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Polygenic_risk_scores
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Power_analysis/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Power_analysis
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Proteomics
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    <span class="md-ellipsis">
+      MISC
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MISC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#olink" class="md-nav__link">
+    <span class="md-ellipsis">
+      Olink
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#olink_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Olink
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somamer" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOMAmer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somamer_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOMAmer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somamer_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOMAmer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Review">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviews
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Selection/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Selection
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Simulation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Simulation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Tissue_and_single_cell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Tissue_and_single_cell
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Winners_curse/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Winners_curse
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Visualization
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Visualization
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Chromosome/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Chromosome
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Forest_plot/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Forest_plot
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_GWAS/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    GWAS
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Heatmap/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Heatmap
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_LD/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Visualization_Variants_on_protein/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Variants_on_protein
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary Table
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    <span class="md-ellipsis">
+      MISC
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="MISC">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#comparison_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Comparison
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#olink" class="md-nav__link">
+    <span class="md-ellipsis">
+      Olink
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#olink_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Olink
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somamer" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOMAmer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somamer_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOMAmer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#somamer_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      SOMAmer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review" class="md-nav__link">
+    <span class="md-ellipsis">
+      Review
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Review">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#reviews" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reviews
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Proteomics</h1>
+
+<h2 id="summary-table">Summary Table</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">NAME</th>
+<th style="text-align: left;">CATEGORY</th>
+<th style="text-align: left;">PLATFORM</th>
+<th style="text-align: right;">YEAR</th>
+<th style="text-align: left;">TITLE</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><a href="#comparison">Comparison</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2022</td>
+<td style="text-align: left;">Proteomic profiling platforms head to head: Leveraging genetics and clinical traits to compare aptamer- and antibody-based methods</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#comparison">Comparison</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2020</td>
+<td style="text-align: left;">Comparison of proteomic assessment methods in multiple cohort studies</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#comparison">Comparison</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">Synergistic insights into human health from aptamer- and antibody-based proteomic profiling</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#olink">Olink</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2014</td>
+<td style="text-align: left;">Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#olink">Olink</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">Proximity Extension Assay in Combination with Next-Generation Sequencing for High-throughput Proteome-wide Analysis</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#somamer">SOMAmer</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2010</td>
+<td style="text-align: left;">Aptamer-based multiplexed proteomic technology for biomarker discovery</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#somamer">SOMAmer</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2014</td>
+<td style="text-align: left;">Nucleic Acid Ligands With Protein-like Side Chains: Modified Aptamers and Their Use as Diagnostic and Therapeutic Agents</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#somamer">SOMAmer</a></td>
+<td style="text-align: left;">MISC</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2017</td>
+<td style="text-align: left;">Assessment of Variability in the SOMAscan Assay</td>
+</tr>
+<tr>
+<td style="text-align: left;"><a href="#reviews">Reviews</a></td>
+<td style="text-align: left;">Review</td>
+<td style="text-align: left;">NA</td>
+<td style="text-align: right;">2021</td>
+<td style="text-align: left;">Genetics meets proteomics: perspectives for large population-based studies</td>
+</tr>
+</tbody>
+</table>
+<h2 id="misc">MISC</h2>
+<h3 id="comparison">Comparison</h3>
+<ul>
+<li><strong>NAME</strong> : Comparison </li>
+<li><strong>TITLE</strong> : Proteomic profiling platforms head to head: Leveraging genetics and clinical traits to compare aptamer- and antibody-based methods </li>
+<li><strong>DOI</strong> : 10.1126/sciadv.abm5164 </li>
+<li><strong>ABSTRACT</strong> : High-throughput proteomic profiling using antibody or aptamer-based affinity reagents is used increasingly in human studies. However, direct analyses to address the relative strengths and weaknesses of these platforms are lacking. We assessed findings from the SomaScan1.3K (N = 1301 reagents), the SomaScan5K platform (N = 4979 reagents), and the Olink Explore (N = 1472 reagents) profiling techniques in 568 adults from the Jackson Heart Study and 219 participants in the HERITAGE Family Study across four performance domains: precision, accuracy, analytic breadth, and phenotypic associations leveraging detailed clinical phenotyping and genetic data. Across these studies, we show evidence supporting more reliable protein target specificity and a higher number of phenotypic associations for the Olink platform, while the Soma platforms benefit from greater measurement precision and analytic breadth across the proteome. </li>
+<li><strong>CITATION</strong> : Katz DH, Robbins JM, Deng S, Tahir UA, ...&amp;, Gerszten RE. (2022) Proteomic profiling platforms head to head: Leveraging genetics and clinical traits to compare aptamer- and antibody-based methods Sci Adv, 8 (33) eabm5164. doi:10.1126/sciadv.abm5164. PMID 35984888 </li>
+<li><strong>JOURNAL_INFO</strong> : Science advances ; Sci Adv ; 2022 ; 8 ; 33 ; eabm5164 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35984888">35984888</a> </li>
+</ul>
+<h3 id="comparison_1">Comparison</h3>
+<ul>
+<li><strong>NAME</strong> : Comparison </li>
+<li><strong>TITLE</strong> : Comparison of proteomic assessment methods in multiple cohort studies </li>
+<li><strong>DOI</strong> : 10.1002/pmic.201900278 </li>
+<li><strong>ABSTRACT</strong> : Novel proteomics platforms, such as the aptamer-based SOMAscan platform, can quantify large numbers of proteins efficiently and cost-effectively and are rapidly growing in popularity. However, comparisons to conventional immunoassays remain underexplored, leaving investigators unsure when cross-assay comparisons are appropriate. The correlation of results from immunoassays with relative protein quantification is explored by SOMAscan. For 63 proteins assessed in two chronic obstructive pulmonary disease (COPD) cohorts, subpopulations and intermediate outcome measures in COPD Study (SPIROMICS), and COPDGene, using myriad rules based medicine multiplex immunoassays and SOMAscan, Spearman correlation coefficients range from -0.13 to 0.97, with a median correlation coefficient of ≈0.5 and consistent results across cohorts. A similar range is observed for immunoassays in the population-based Multi-Ethnic Study of Atherosclerosis and for other assays in COPDGene and SPIROMICS. Comparisons of relative quantification from the antibody-based Olink platform and SOMAscan in a small cohort of myocardial infarction patients also show a wide correlation range. Finally, cis pQTL data, mass spectrometry aptamer confirmation, and other publicly available data are integrated to assess relationships with observed correlations. Correlation between proteomics assays shows a wide range and should be carefully considered when comparing and meta-analyzing proteomics data across assays and studies. </li>
+<li><strong>COPYRIGHT</strong> : http://onlinelibrary.wiley.com/termsAndConditions#vor </li>
+<li><strong>CITATION</strong> : Raffield LM, Dang H, Pratte KA, Jacobson S, ...&amp;, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium. (2020) Comparison of proteomic assessment methods in multiple cohort studies Proteomics, 20 (12) e1900278. doi:10.1002/pmic.201900278. PMID 32386347 </li>
+<li><strong>JOURNAL_INFO</strong> : Proteomics ; Proteomics ; 2020 ; 20 ; 12 ; e1900278 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32386347">32386347</a> </li>
+</ul>
+<h3 id="comparison_2">Comparison</h3>
+<ul>
+<li><strong>NAME</strong> : Comparison </li>
+<li><strong>TITLE</strong> : Synergistic insights into human health from aptamer- and antibody-based proteomic profiling </li>
+<li><strong>DOI</strong> : 10.1038/s41467-021-27164-0 </li>
+<li><strong>ABSTRACT</strong> : Affinity-based proteomics has enabled scalable quantification of thousands of protein targets in blood enhancing biomarker discovery, understanding of disease mechanisms, and genetic evaluation of drug targets in humans through protein quantitative trait loci (pQTLs). Here, we integrate two partly complementary techniques-the aptamer-based SomaScan® v4 assay and the antibody-based Olink assays-to systematically assess phenotypic consequences of hundreds of pQTLs discovered for 871 protein targets across both platforms. We create a genetically anchored cross-platform proteome-phenome network comprising 547 protein-phenotype connections, 36.3% of which were only seen with one of the two platforms suggesting that both techniques capture distinct aspects of protein biology. We further highlight discordance of genetically predicted effect directions between assays, such as for PILRA and Alzheimer's disease. Our results showcase the synergistic nature of these technologies to better understand and identify disease mechanisms and provide a benchmark for future cross-platform discoveries. </li>
+<li><strong>CITATION</strong> : Pietzner M, Wheeler E, Carrasco-Zanini J, Kerrison ND, ...&amp;, Langenberg C. (2021) Synergistic insights into human health from aptamer- and antibody-based proteomic profiling Nat. Commun., 12 (1) 6822. doi:10.1038/s41467-021-27164-0. PMID 34819519 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature communications ; Nat. Commun. ; 2021 ; 12 ; 1 ; 6822 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34819519">34819519</a> </li>
+</ul>
+<h3 id="olink">Olink</h3>
+<ul>
+<li><strong>NAME</strong> : Olink </li>
+<li><strong>URL</strong> : <a href="https://www.olink.com/products-services/explore/">https://www.olink.com/products-services/explore/</a> </li>
+<li><strong>TITLE</strong> : Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability </li>
+<li><strong>DOI</strong> : 10.1371/journal.pone.0095192 </li>
+<li><strong>ABSTRACT</strong> : Medical research is developing an ever greater need for comprehensive high-quality data generation to realize the promises of personalized health care based on molecular biomarkers. The nucleic acid proximity-based methods proximity ligation and proximity extension assays have, with their dual reporters, shown potential to relieve the shortcomings of antibodies and their inherent cross-reactivity in multiplex protein quantification applications. The aim of the present study was to develop a robust 96-plex immunoassay based on the proximity extension assay (PEA) for improved high throughput detection of protein biomarkers. This was enabled by: (1) a modified design leading to a reduced number of pipetting steps compared to the existing PEA protocol, as well as improved intra-assay precision; (2) a new enzymatic system that uses a hyper-thermostabile enzyme, Pwo, for uniting the two probes allowing for room temperature addition of all reagents and improved the sensitivity; (3) introduction of an inter-plate control and a new normalization procedure leading to improved inter-assay precision (reproducibility). The multiplex proximity extension assay was found to perform well in complex samples, such as serum and plasma, and also in xenografted mice and resuspended dried blood spots, consuming only 1 µL sample per test. All-in-all, the development of the current multiplex technique is a step toward robust high throughput protein marker discovery and research. </li>
+<li><strong>CITATION</strong> : Assarsson E, Lundberg M, Holmquist G, Björkesten J, ...&amp;, Fredriksson S. (2014) Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability PLoS One, 9 (4) e95192. doi:10.1371/journal.pone.0095192. PMID 24755770 </li>
+<li><strong>JOURNAL_INFO</strong> : PloS one ; PLoS One ; 2014 ; 9 ; 4 ; e95192 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/24755770">24755770</a> </li>
+</ul>
+<h3 id="olink_1">Olink</h3>
+<ul>
+<li><strong>NAME</strong> : Olink </li>
+<li><strong>TITLE</strong> : Proximity Extension Assay in Combination with Next-Generation Sequencing for High-throughput Proteome-wide Analysis </li>
+<li><strong>DOI</strong> : 10.1016/j.mcpro.2021.100168 </li>
+<li><strong>ABSTRACT</strong> : Understanding the dynamics of the human proteome is crucial for developing biomarkers to be used as measurable indicators for disease severity and progression, patient stratification, and drug development. The Proximity Extension Assay (PEA) is a technology that translates protein information into actionable knowledge by linking protein-specific antibodies to DNA-encoded tags. In this report we demonstrate how we have combined the unique PEA technology with an innovative and automated sample preparation and high-throughput sequencing readout enabling parallel measurement of nearly 1500 proteins in 96 samples generating close to 150,000 data points per run. This advancement will have a major impact on the discovery of new biomarkers for disease prediction and prognosis and contribute to the development of the rapidly evolving fields of wellness monitoring and precision medicine. </li>
+<li><strong>CITATION</strong> : Wik L, Nordberg N, Broberg J, Björkesten J, ...&amp;, Lundberg M. (2021) Proximity Extension Assay in Combination with Next-Generation Sequencing for High-throughput Proteome-wide Analysis Mol. Cell. Proteomics, 20 () 100168. doi:10.1016/j.mcpro.2021.100168. PMID 34715355 </li>
+<li><strong>JOURNAL_INFO</strong> : Molecular &amp; cellular proteomics: MCP ; Mol. Cell. Proteomics ; 2021 ; 20 ; <NA> ; 100168 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34715355">34715355</a> </li>
+</ul>
+<h3 id="somamer">SOMAmer</h3>
+<ul>
+<li><strong>NAME</strong> : SOMAmer </li>
+<li><strong>URL</strong> : <a href="https://somalogic.com/somascan-platform/">https://somalogic.com/somascan-platform/</a> </li>
+<li><strong>TITLE</strong> : Aptamer-based multiplexed proteomic technology for biomarker discovery </li>
+<li><strong>DOI</strong> : 10.1371/journal.pone.0015004 </li>
+<li><strong>ABSTRACT</strong> : BACKGROUND: The interrogation of proteomes ("proteomics") in a highly multiplexed and efficient manner remains a coveted and challenging goal in biology and medicine. METHODOLOGY/PRINCIPAL FINDINGS: We present a new aptamer-based proteomic technology for biomarker discovery capable of simultaneously measuring thousands of proteins from small sample volumes (15 µL of serum or plasma). Our current assay measures 813 proteins with low limits of detection (1 pM median), 7 logs of overall dynamic range (~100 fM-1 µM), and 5% median coefficient of variation. This technology is enabled by a new generation of aptamers that contain chemically modified nucleotides, which greatly expand the physicochemical diversity of the large randomized nucleic acid libraries from which the aptamers are selected. Proteins in complex matrices such as plasma are measured with a process that transforms a signature of protein concentrations into a corresponding signature of DNA aptamer concentrations, which is quantified on a DNA microarray. Our assay takes advantage of the dual nature of aptamers as both folded protein-binding entities with defined shapes and unique nucleotide sequences recognizable by specific hybridization probes. To demonstrate the utility of our proteomics biomarker discovery technology, we applied it to a clinical study of chronic kidney disease (CKD). We identified two well known CKD biomarkers as well as an additional 58 potential CKD biomarkers. These results demonstrate the potential utility of our technology to rapidly discover unique protein signatures characteristic of various disease states. CONCLUSIONS/SIGNIFICANCE: We describe a versatile and powerful tool that allows large-scale comparison of proteome profiles among discrete populations. This unbiased and highly multiplexed search engine will enable the discovery of novel biomarkers in a manner that is unencumbered by our incomplete knowledge of biology, thereby helping to advance the next generation of evidence-based medicine. </li>
+<li><strong>CITATION</strong> : Gold L, Ayers D, Bertino J, Bock C, ...&amp;, Zichi D. (2010) Aptamer-based multiplexed proteomic technology for biomarker discovery PLoS One, 5 (12) e15004. doi:10.1371/journal.pone.0015004. PMID 21165148 </li>
+<li><strong>JOURNAL_INFO</strong> : PloS one ; PLoS One ; 2010 ; 5 ; 12 ; e15004 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/21165148">21165148</a> </li>
+</ul>
+<h3 id="somamer_1">SOMAmer</h3>
+<ul>
+<li><strong>NAME</strong> : SOMAmer </li>
+<li><strong>TITLE</strong> : Nucleic Acid Ligands With Protein-like Side Chains: Modified Aptamers and Their Use as Diagnostic and Therapeutic Agents </li>
+<li><strong>DOI</strong> : 10.1038/mtna.2014.49 </li>
+<li><strong>ABSTRACT</strong> : Limited chemical diversity of nucleic acid libraries has long been suspected to be a major constraining factor in the overall success of SELEX (Systematic Evolution of Ligands by EXponential enrichment). Despite this constraint, SELEX has enjoyed considerable success over the past quarter of a century as a result of the enormous size of starting libraries and conformational richness of nucleic acids. With judicious introduction of functional groups absent in natural nucleic acids, the "diversity gap" between nucleic acid-based ligands and protein-based ligands can be substantially bridged, to generate a new class of ligands that represent the best of both worlds. We have explored the effect of various functional groups at the 5-position of uracil and found that hydrophobic aromatic side chains have the most profound influence on the success rate of SELEX and allow the identification of ligands with very low dissociation rate constants (named Slow Off-rate Modified Aptamers or SOMAmers). Such modified nucleotides create unique intramolecular motifs and make direct contacts with proteins. Importantly, SOMAmers engage their protein targets with surfaces that have significantly more hydrophobic character compared with conventional aptamers, thereby increasing the range of epitopes that are available for binding. These improvements have enabled us to build a collection of SOMAmers to over 3,000 human proteins encompassing major families such as growth factors, cytokines, enzymes, hormones, and receptors, with additional SOMAmers aimed at pathogen and rodent proteins. Such a large and growing collection of exquisite affinity reagents expands the scope of possible applications in diagnostics and therapeutics. </li>
+<li><strong>CITATION</strong> : Rohloff JC, Gelinas AD, Jarvis TC, Ochsner UA, ...&amp;, Janjic N. (2014) Nucleic Acid Ligands With Protein-like Side Chains: Modified Aptamers and Their Use as Diagnostic and Therapeutic Agents Mol. Ther. Nucleic Acids, 3 (10) e201. doi:10.1038/mtna.2014.49. PMID 25291143 </li>
+<li><strong>JOURNAL_INFO</strong> : Molecular therapy. Nucleic acids ; Mol. Ther. Nucleic Acids ; 2014 ; 3 ; 10 ; e201 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25291143">25291143</a> </li>
+</ul>
+<h3 id="somamer_2">SOMAmer</h3>
+<ul>
+<li><strong>NAME</strong> : SOMAmer </li>
+<li><strong>TITLE</strong> : Assessment of Variability in the SOMAscan Assay </li>
+<li><strong>DOI</strong> : 10.1038/s41598-017-14755-5 </li>
+<li><strong>ABSTRACT</strong> : SOMAscan is an aptamer-based proteomics assay capable of measuring 1,305 human protein analytes in serum, plasma, and other biological matrices with high sensitivity and specificity. In this work, we present a comprehensive meta-analysis of performance based on multiple serum and plasma runs using the current 1.3 k assay, as well as the previous 1.1 k version. We discuss normalization procedures and examine different strategies to minimize intra- and interplate nuisance effects. We implement a meta-analysis based on calibrator samples to characterize the coefficient of variation and signal-over-background intensity of each protein analyte. By incorporating coefficient of variation estimates into a theoretical model of statistical variability, we also provide a framework to enable rigorous statistical tests of significance in intervention studies and clinical trials, as well as quality control within and across laboratories. Furthermore, we investigate the stability of healthy subject baselines and determine the set of analytes that exhibit biologically stable baselines after technical variability is factored in. This work is accompanied by an interactive web-based tool, an initiative with the potential to become the cornerstone of a regularly updated, high quality repository with data sharing, reproducibility, and reusability as ultimate goals. </li>
+<li><strong>CITATION</strong> : Candia J, Cheung F, Kotliarov Y, Fantoni G, ...&amp;, Biancotto A. (2017) Assessment of Variability in the SOMAscan Assay Sci. Rep., 7 (1) 14248. doi:10.1038/s41598-017-14755-5. PMID 29079756 </li>
+<li><strong>JOURNAL_INFO</strong> : Scientific reports ; Sci. Rep. ; 2017 ; 7 ; 1 ; 14248 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/29079756">29079756</a> </li>
+</ul>
+<h2 id="review">Review</h2>
+<h3 id="reviews">Reviews</h3>
+<ul>
+<li><strong>NAME</strong> : Reviews </li>
+<li><strong>TITLE</strong> : Genetics meets proteomics: perspectives for large population-based studies </li>
+<li><strong>DOI</strong> : 10.1038/s41576-020-0268-2 </li>
+<li><strong>ABSTRACT</strong> : Proteomic analysis of cells, tissues and body fluids has generated valuable insights into the complex processes influencing human biology. Proteins represent intermediate phenotypes for disease and provide insight into how genetic and non-genetic risk factors are mechanistically linked to clinical outcomes. Associations between protein levels and DNA sequence variants that colocalize with risk alleles for common diseases can expose disease-associated pathways, revealing novel drug targets and translational biomarkers. However, genome-wide, population-scale analyses of proteomic data are only now emerging. Here, we review current findings from studies of the plasma proteome and discuss their potential for advancing biomedical translation through the interpretation of genome-wide association analyses. We highlight the challenges faced by currently available technologies and provide perspectives relevant to their future application in large-scale biobank studies. </li>
+<li><strong>CITATION</strong> : Suhre K, McCarthy MI, Schwenk JM. (2021) Genetics meets proteomics: perspectives for large population-based studies Nat. Rev. Genet., 22 (1) 19-37. doi:10.1038/s41576-020-0268-2. PMID 32860016 </li>
+<li><strong>JOURNAL_INFO</strong> : Nature reviews. Genetics ; Nat. Rev. Genet. ; 2021 ; 22 ; 1 ; 19-37 </li>
+<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32860016">32860016</a> </li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
