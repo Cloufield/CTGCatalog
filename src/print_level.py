@@ -4,10 +4,6 @@ import shutil
 import pandas as pd
 
 def print_one_level(filename, df_combined, output_items):
-    output_items = ['NAME', 'PUBMED_LINK', 
-       'SHORT NAME', 'FULL NAME', 'DESCRIPTION', 'URL', 
-       'KEYWORDS', 'USE', 'PREPRINT_DOI', 'SERVER',"JOURNAL_INFO", 'TITLE', 'CITATION',
-       'MESH_MAJOR', 'MESH_MINOR', 'ABSTRACT', 'COPYRIGHT', 'DOI',"RELATED_BIOBANK","MAIN_ANCESTRY"]
     with open(filename,"a") as file:
         for index, row in df_combined.sort_values(by=["NAME"]).iterrows():
             file.write("\n")

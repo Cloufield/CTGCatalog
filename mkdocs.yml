@@ -4,22 +4,34 @@ repo_name: 'GitHub'
 repo_url: https://github.com/Cloufield/CTGCatalog/
 edit_uri: ""
 copyright: "CTGCatalog is licensed under the MIT license"
+
 theme:
   name: material
   features:
-    - navigation.tabs
+      - navigation.tabs
+      - navigation.top
+      - search.highlight
+      - search.suggest
+      - search.share
   font:
-    code: Roboto Mono
-    text: Roboto
+      code: Roboto Mono
+      text: Roboto
   palette:
-    primary: indigo
-    accent: indigo
+      primary: blue
+      accent: blue
+  logo:
+      assets/logo.png
+  favicon:
+      assets/logo.png
+
 extra_css:
-  - "stylesheets/extra.css"
+  - stylesheets/extra.css
+
 markdown_extensions:
   - toc:
       toc_depth: 3
   - admonition
+  - tables
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.arithmatex:
@@ -29,63 +41,84 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
 
 plugins:
+  - search
   - mkdocs-jupyter
+
 nav: 
     - Home : index.md
-    - Tools:
-      - Tools: Tools_README.md
-      - Drug_discovery: Tools_Drug_discovery_README.md
-      - Gene_prioritization: Tools_Gene_prioritization_README.md
-      - Polygenic_risk_scores: Tools_Polygenic_risk_scores_README.md
+    - Biobanks: 
+      - Biobanks: Biobanks.md 
+      - AFRICA: Biobanks_AFRICA.md
+      - AMERICA: Biobanks_AMERICA.md
+      - ASIA: Biobanks_ASIA.md
+      - EUROPE: Biobanks_EUROPE.md
+      - OCIENIA: Biobanks_OCIENIA.md
+    - References: 
+      - References: References.md 
+      - Epigenetics: References_Epigenetics.md
+      - Gene: References_Gene.md
+      - Genome: References_Genome.md
+      - LD: References_LD.md
+      - Phenotype: References_Phenotype.md
+      - Protein: References_Protein.md
+      - Variant: References_Variant.md
+      - scRNA: References_scRNA.md
+    - Single_Cell: 
+      - Single_Cell: Single_Cell.md 
+      - Annotation: Single_Cell_Annotation.md
+      - Framework: Single_Cell_Framework.md
+      - Harmonization: Single_Cell_Harmonization.md
+      - Network: Single_Cell_Network.md
+      - QC: Single_Cell_QC.md
+      - Trajectory: Single_Cell_Trajectory.md
+    - Sumstats: 
+      - Sumstats: Sumstats.md 
+      - General: Sumstats_General.md
+      - Imaging: Sumstats_Imaging.md
+      - Metabolomics: Sumstats_Metabolomics.md
+      - Proteomics: Sumstats_Proteomics.md
+    - Tools: 
+      - Tools: Tools.md 
+      - Admixture: Tools_Admixture.md
+      - Annotation: Tools_Annotation.md
       - Association_tests:
-        - Association_tests: Tools_Association_tests_README.md
-        - TWAS: Tools_Association_tests_TWAS_README.md
-        - sQTL: Tools_Association_tests_sQTL_README.md
-        - eQTL: Tools_Association_tests_eQTL_README.md
-        - RWAS: Tools_Association_tests_RWAS_README.md
-      - Colocalization: Tools_Colocalization_README.md
-      - Simulation: Tools_Simulation_README.md
-      - Data_processing: Tools_Data_processing_README.md
-      - Annotation: Tools_Annotation_README.md
-      - Fine_mapping: Tools_Fine_mapping_README.md
-      - Gene_set_pathway_analysis: Tools_Gene_set_pathway_analysis_README.md
-      - Tissue_and_single_cell: Tools_Tissue_and_single_cell_README.md
-      - Imputation: Tools_Imputation_README.md
-      - HLA: Tools_HLA_README.md
-      - Heritability_and_genetic_correlation: Tools_Heritability_and_genetic_correlation_README.md
-      - Proteomics: Tools_Proteomics_README.md
-      - GxE_interactions: Tools_GxE_interactions_README.md
-      - Mendelian_randomization: Tools_Mendelian_randomization_README.md
-      - Meta_and_Multi_triat: Tools_Meta_and_Multi_triat_README.md
-    - Sumstats: Sumstats_README.md
-    - Reference_data:
-      - Reference_data: Reference_data_README.md
-      - Biobanks_Cohorts: Reference_data_Biobanks_Cohorts_README.md
-      - Protein: Reference_data_Protein_README.md
-      - Gene:
-        - Gene: Reference_data_Gene_README.md
-        - NCBI_refSeq: Reference_data_Gene_NCBI_refSeq_README.md
-        - UCSC_refGene:
-          - UCSC_refGene: Reference_data_Gene_UCSC_refGene_README.md
-          - ucsc_genes: Reference_data_Gene_UCSC_refGene_ucsc_genes_README.md
-        - HGNC: Reference_data_Gene_HGNC_README.md
-        - knownGenes: Reference_data_Gene_knownGenes_README.md
-        - Ensembl: Reference_data_Gene_Ensembl_README.md
-        - GENCODE: Reference_data_Gene_GENCODE_README.md
-      - Phenotype: Reference_data_Phenotype_README.md
-      - Variant: Reference_data_Variant_README.md
-      - Epigenomics: Reference_data_Epigenomics_README.md
-      - Expression: Reference_data_Expression_README.md
-      - Genome:
-        - Genome: Reference_data_Genome_README.md
-        - hg38: Reference_data_Genome_hg38_README.md
-      - xQTL: Reference_data_xQTL_README.md
-      - Allele_Frequency: Reference_data_Allele_Frequency_README.md
-    - Visualization:
-      - Visualization: Visualization_README.md
-      - Venn_diagram: Visualization_Venn_diagram_README.md
-      - Workflow: Visualization_Workflow_README.md
-      - Variants_on_protein: Visualization_Variants_on_protein_README.md
-      - Heatmap: Visualization_Heatmap_README.md
+        - Association_tests: Tools_Association_tests.md
+        - RWAS: Tools_Association_tests_RWAS.md
+        - TWAS: Tools_Association_tests_TWAS.md
+        - eQTL: Tools_Association_tests_eQTL.md
+        - sQTL: Tools_Association_tests_sQTL.md
+      - Colocalization: Tools_Colocalization.md
+      - Data_processing: Tools_Data_processing.md
+      - Dimension_reduction: Tools_Dimension_reduction.md
+      - Drug_discovery: Tools_Drug_discovery.md
+      - Fine_mapping: Tools_Fine_mapping.md
+      - Functional_prediction: Tools_Functional_prediction.md
+      - Gene_prioritization: Tools_Gene_prioritization.md
+      - Gene_set_pathway_analysis: Tools_Gene_set_pathway_analysis.md
+      - Genealogy: Tools_Genealogy.md
+      - GxE_interactions: Tools_GxE_interactions.md
+      - HLA: Tools_HLA.md
+      - Heritability_and_genetic_correlation: Tools_Heritability_and_genetic_correlation.md
+      - Imputation: Tools_Imputation.md
+      - Mendelian_randomization: Tools_Mendelian_randomization.md
+      - Meta_and_Multi_triat: Tools_Meta_and_Multi_triat.md
+      - Phylogenetic_tree: Tools_Phylogenetic_tree.md
+      - Polygenic_risk_scores: Tools_Polygenic_risk_scores.md
+      - Power_analysis: Tools_Power_analysis.md
+      - Proteomics: Tools_Proteomics.md
+      - Selection: Tools_Selection.md
+      - Simulation: Tools_Simulation.md
+      - Tissue_and_single_cell: Tools_Tissue_and_single_cell.md
+      - Winners_curse: Tools_Winners_curse.md
+    - Visualization: 
+      - Visualization: Visualization.md 
+      - Chromosome: Visualization_Chromosome.md
+      - Forest_plot: Visualization_Forest_plot.md
+      - GWAS: Visualization_GWAS.md
+      - Heatmap: Visualization_Heatmap.md
+      - LD: Visualization_LD.md
+      - Variants_on_protein: Visualization_Variants_on_protein.md
