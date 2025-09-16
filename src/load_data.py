@@ -12,7 +12,7 @@ def load_table_and_ref():
     
     paths = ["../CTGCatalog.xlsx","../CTGCatalog_reference.xlsx"] 
     sheets=[
-        ["Population_Genetics","Biobanks","Tools","Visualization","Sumstats","Proteomics","Metabolomics","Imaging","Single_Cell"],
+        ["Biobanks","Tools","Sumstats","Proteomics","Metabolomics","Imaging","Single_Cell"],
         ["Genome","Gene","Variant","Phenotype","Annotation","Epigenetics","Transcriptome","LD","Cell","Protein"]
     ]
 
@@ -59,7 +59,8 @@ def load_table_and_ref():
         pop_pmid = pd.read_excel(tempfile,dtype="string")
     
     for i in ["SECTION","TOPIC","SUBTOPIC"]:
-        pop_pmid[i] = pop_pmid[i].str.replace("\s+","_",regex=True)
+        pop_pmid[i] = pop_pmid[i].str.replace("\\s+","_",regex=True)
+        pop_pmid[i] = pop_pmid[i].str.replace("-","_",regex=True)
 
     return pop_pmid
 

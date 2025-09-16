@@ -98,6 +98,7 @@ def write_mkdcos(part1=part1, part2=part2):
     table = table.sort_values(by=["SECTION","TOPIC","SUBTOPIC"])
 
     for dirname in table["SECTION"].dropna().unique():    
+        
         if dirname=="":
             continue
 
@@ -141,13 +142,16 @@ def write_mkdcos(part1=part1, part2=part2):
             file.write("\n")
 
             # add lines for topic and subtopics counts
+            added_topic = []
             for index, row in path_df.iterrows():
+                
                 type_dir = raw_dir.loc[raw_dir["PATH"]==row["PATH"],:].groupby("TYPE")["NAME"].count()
                 string_list=[]
                 for key,value in type_dir.items():
                     type_string = "{} - {}".format(key,value)
                     string_list.append(type_string)
                 type_line = " , ".join(string_list)
+
                 spaces = " " * 2 * (row["LEVEL"]-2)
                 if row["LEVEL"]==3:
                     col = "TOPIC"
@@ -156,6 +160,13 @@ def write_mkdcos(part1=part1, part2=part2):
                 string = row[col]
                 link_string = "{}.md".format(row["PATH"])
                 
+                if row["SUBTOPIC"]!="" and row["TOPIC"] in level_root_dic["TOPIC"] and row["TOPIC"] not in added_topic:
+                    added_topic.append(row["TOPIC"] )
+                    single_line = "{}- {} :\n".format( " " * 2 * (row["LEVEL"]-3) ,row["TOPIC"], type_line)
+                    file.write(single_line)
+                else:
+                    added_topic.append(row["TOPIC"] )
+
                 key = "[{}]({})".format(string, link_string)
                 single_line = "{}- {} : {}\n".format( spaces ,key, type_line)
                 file.write(single_line)
@@ -172,31 +183,49 @@ def write_mkdcos(part1=part1, part2=part2):
         spaces = " " * 2 * (1 + 2)
         single_line = "{}- {}: {} \n".format( spaces ,key, value)
         part2+= single_line
-  
-        for index, row in path_df.iterrows():
 
-            spaces = " " * 2 * (1+ row["LEVEL"]-1)
+        #################################################################################################
+        added_topic = []
+        for index, row in path_df.iterrows():
             
+            spaces = " " * 2 * (1+ row["LEVEL"]-1)
             if row["LEVEL"]==3:
                 col = "TOPIC"
             if row["LEVEL"]==4:
                 col="SUBTOPIC"
-
             key = row[col]
 
             value = "{}.md".format(row["PATH"])
             
+
             # if it is a subtopic
-            if row["TOPIC"] in level_root_dic[col]:
-                # topic line
+            #if row["TOPIC"] in level_root_dic[col]:
+            if row["SUBTOPIC"] =="" and row["TOPIC"] in level_root_dic["TOPIC"]:
+                ## subtopic line within topic
+                added_topic.append(row["TOPIC"] )
                 single_line = "{}- {}:\n".format(spaces ,key)
                 part2+= single_line
-                # subtopic line within topic
                 spaces = " " * 2 * (1+ row["LEVEL"])
                 single_line = "{}- {}: {}\n".format(spaces ,key, value)
                 part2+= single_line
+
+            elif row["SUBTOPIC"]!="" and row["TOPIC"] in level_root_dic["TOPIC"] and row["TOPIC"] not in added_topic:
+                added_topic.append(row["TOPIC"] )
+                # topic line
+                col = "TOPIC"
+                spaces = " " * 2 * (1+ row["LEVEL"]-2)
+                single_line = "{}- {}:\n".format(spaces ,row["TOPIC"])
+                part2+= single_line
+
+                #spaces = " " * 2 * (1+ row["LEVEL"]-1)
+                #single_line = "{}- {}: {}\n".format(spaces ,row["TOPIC"], "{}.md".format(row["PATH"]).replace("_"+row["SUBTOPIC"],""))
+                #part2+= single_line
+
+                spaces = " " * 2 * (1+ row["LEVEL"]-1)
+                single_line = "{}- {}: {}\n".format(spaces ,key, value)
+                part2+= single_line
             else:
-                # if it is not a subtopic
+            # if it is not a subtopic
                 single_line = "{}- {}: {}\n".format( spaces ,key, value)
                 part2+= single_line
 
