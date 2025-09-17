@@ -123,9 +123,9 @@ def write_mkdcos(part1=part1, part2=part2):
         level_root_dic ={col:list() for col in folder_cols}
 
    
-        level_count = path_df.groupby("TOPIC")["PATH"].count()
+        level_count = path_df.loc[path_df["LEVEL"]==4,:].groupby("TOPIC")["PATH"].count()
         # add topics in this dic
-        level_root_dic["TOPIC"]+=list(level_count[level_count>1].index.values)
+        level_root_dic["TOPIC"]+=list(level_count[level_count>=1].index.values)
 
         # write page for each category
         main_file = "../docs/"+dirname+".md"

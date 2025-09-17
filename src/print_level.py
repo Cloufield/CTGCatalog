@@ -17,7 +17,7 @@ def print_one_level(filename, df_combined, output_items):
                             for record in row[item].strip().split("\n"):
                                 file.write("- **{}** : {} \n ".format(item.strip(), record.strip()))
                         else:
-                            file.write("- **{}** : {} \n ".format(item.strip(), row[item].strip()))
+                            file.write("- **{}** : {} \n ".format(item.strip(), str(row[item]).strip()))
 
 def print_two_level(filename, df_combined, output_items):
     with open(filename,"a") as file:
