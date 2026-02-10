@@ -12,7 +12,7 @@ def load_table_and_ref():
     
     paths = ["../CTGCatalog.xlsx","../CTGCatalog_reference.xlsx"] 
     sheets=[
-        ["Biobanks","Tools","Sumstats","Proteomics","Metabolomics","Imaging","Single_Cell"],
+        ["Biobanks","Tools","Sumstats","Proteomics","Metabolomics","Transcriptomics","Epigenetics","SV","Imaging","Single_Cell"],
         ["Genome","Gene","Variant","Phenotype","Annotation","Epigenetics","Transcriptome","LD","Cell","Protein"]
     ]
 

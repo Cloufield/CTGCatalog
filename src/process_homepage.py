@@ -33,7 +33,7 @@ def write_homepage():
 #
     ############################################################################################################################################################################################################################        
     combined_df = pd.DataFrame()
-    for dirname in ["Sumstats","Proteomics","Imaging"]: 
+    for dirname in ["Sumstats","Proteomics","Transcriptomics","Epigenetics","SV","Imaging"]: 
         raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
         combined_df = pd.concat([combined_df, raw_dir],ignore_index=True)
     
