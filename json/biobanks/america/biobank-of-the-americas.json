@@ -1,0 +1,14 @@
+{
+  "NAME": "Biobank of the Americas",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~20k",
+  "URL": "https://www.galatea.bio/#main-biobank",
+  "DESCRIPTION": " Biobank consented samples with associated clinical data from diverse populations from throughout the United States and Latin America via healthcare and biopharma partnerships.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR,EUR",
+  "PARTICIPANTS": "US and Latin American clinical / biopharma-linked participants"
+}

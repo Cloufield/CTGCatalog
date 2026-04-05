@@ -1,0 +1,29 @@
+{
+  "NAME": "EPIC",
+  "PMID": 35709291,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "EPIC",
+  "FULL NAME": "cEll tyPe enrIChment",
+  "KEYWORDS": "GWAS, scRNA-seq",
+  "URL": "https://github.com/rujinwang/EPIC",
+  "DESCRIPTION": "Inferring relevant tissues and cell types for complex traits in genome-wide association studies",
+  "MANUAL_CITATION": "Wang, R., Lin, D. Y., & Jiang, Y. (2022). EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS genetics, 18(6), e1010251.",
+  "TITLE": "EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2022",
+  "VOLUME": "18",
+  "ISSUE": "6",
+  "PAGE": "e1010251",
+  "Authors": "Wang R,Lin DY,Jiang Y",
+  "ABSTRACT": "More than a decade of genome-wide association studies (GWASs) have identified genetic risk variants that are significantly associated with complex traits. Emerging evidence suggests that the function of trait-associated variants likely acts in a tissue- or cell-type-specific fashion. Yet, it remains challenging to prioritize trait-relevant tissues or cell types to elucidate disease etiology. Here, we present EPIC (cEll tyPe enrIChment), a statistical framework that relates large-scale GWAS summary statistics to cell-type-specific gene expression measurements from single-cell RNA sequencing (scRNA-seq). We derive powerful gene-level test statistics for common and rare variants, separately and jointly, and adopt generalized least squares to prioritize trait-relevant cell types while accounting for the correlation structures both within and between genes. Using enrichment of loci associated with four lipid traits in the liver and enrichment of loci associated with three neurological disorders in the brain as ground truths, we show that EPIC outperforms existing methods. We apply our framework to multiple scRNA-seq datasets from different platforms and identify cell types underlying type 2 diabetes and schizophrenia. The enrichment is replicated using independent GWAS and scRNA-seq datasets and further validated using PubMed search and existing bulk case-control testing results.",
+  "DOI": "10.1371/journal.pgen.1010251",
+  "PMC ID": "PMC9242467",
+  "CITATION": "Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS Genet, 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291",
+  "FIRST_AUTHOR": "Wang R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

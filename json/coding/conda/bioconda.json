@@ -1,0 +1,11 @@
+{
+  "NAME": "Bioconda",
+  "SECTION": "Coding",
+  "TOPIC": "Conda",
+  "TYPE": "Resource",
+  "URL": "https://bioconda.github.io/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Conda channel for bioinformatics software."
+}

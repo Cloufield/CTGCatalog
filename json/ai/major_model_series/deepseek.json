@@ -1,0 +1,13 @@
+{
+  "NAME": "DeepSeek",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "DeepSeek",
+  "URL": "https://www.deepseek.com",
+  "DESCRIPTION": "DeepSeek’s R1 / V3 and related open-weights and API models focused on reasoning, coding, and efficiency.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

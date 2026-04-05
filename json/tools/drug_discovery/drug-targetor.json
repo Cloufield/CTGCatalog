@@ -1,0 +1,27 @@
+{
+  "NAME": "DRUG TARGETOR",
+  "PMID": 30517594,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "DRUG TARGETOR",
+  "FULL NAME": "DRUG TARGETOR",
+  "URL": "https://drugtargetor.com/index_v1.21.html",
+  "DESCRIPTION": "This website harnesses results from genome-wide association studies (GWAS), and drug bioactivity data, to prioritize drugs and targets for a given phenotype. Drug Targetor networks are constructed using genetically scored drugs and genes, connected by the type of drug-target or drug-gene interaction",
+  "TITLE": "Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2019",
+  "VOLUME": "35",
+  "ISSUE": "14",
+  "PAGE": "2515-2517",
+  "Authors": "Gaspar HA,Hübel C,Breen G",
+  "ABSTRACT": "SUMMARY: Results from hundreds of genome-wide association studies (GWAS) are now freely available and offer a catalogue of the association between phenotypes across medicine with variants in the genome. With the aim of using this data to better understand therapeutic mechanisms, we have developed Drug Targetor, a web interface that allows the generation and exploration of drug-target networks of hundreds of phenotypes using GWAS data. Drug Targetor networks consist of drug and target nodes ordered by genetic association and connected by drug-target or drug-gene relationship. We show that Drug Targetor can help prioritize drugs, targets and drug-target interactions for a specific phenotype based on genetic evidence. AVAILABILITY AND IMPLEMENTATION: Drug Targetor v1.21 is a web application freely available online at drugtargetor.com and under MIT licence. The source code can be found at https://github.com/hagax8/drugtargetor. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/bty982",
+  "PMC ID": "PMC6612852",
+  "CITATION": "Gaspar HA, Hübel C, Breen G. (2019) Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes. Bioinformatics, 35 (14) 2515-2517. doi:10.1093/bioinformatics/bty982. PMID 30517594",
+  "FIRST_AUTHOR": "Gaspar HA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

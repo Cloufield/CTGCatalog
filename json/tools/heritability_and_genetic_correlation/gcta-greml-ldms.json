@@ -1,0 +1,29 @@
+{
+  "NAME": "GCTA-GREML-LDMS",
+  "PMID": 26323059,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "GCTA-GREML-LDMS",
+  "FULL NAME": "GCTA-GREML-LDMS",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#GREML",
+  "DESCRIPTION": "(GREML-LDMS) ",
+  "MANUAL_CITATION": "Yang, Jian, et al. \"Genetic variance estimation with imputed variants finds negligible missing heritability for human height and body mass index.\" Nature genetics 47.10 (2015): 1114-1120.",
+  "TITLE": "Genetic variance estimation with imputed variants finds negligible missing heritability for human height and body mass index.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2015",
+  "VOLUME": "47",
+  "ISSUE": "10",
+  "PAGE": "1114-20",
+  "Authors": "Yang J,Bakshi A,Zhu Z,Hemani G,Vinkhuyzen AA,Lee SH,Robinson MR,Perry JR,Nolte IM,van Vliet-Ostaptchouk JV,Snieder H,LifeLines Cohort Study,Esko T,Milani L,Mägi R,Metspalu A,Hamsten A,Magnusson PK,Pedersen NL,Ingelsson E,Soranzo N,Keller MC,Wray NR,Goddard ME,Visscher PM",
+  "ABSTRACT": "We propose a method (GREML-LDMS) to estimate heritability for human complex traits in unrelated individuals using whole-genome sequencing data. We demonstrate using simulations based on whole-genome sequencing data that ∼97% and ∼68% of variation at common and rare variants, respectively, can be captured by imputation. Using the GREML-LDMS method, we estimate from 44,126 unrelated individuals that all ∼17 million imputed variants explain 56% (standard error (s.e.) = 2.3%) of variance for height and 27% (s.e. = 2.5%) of variance for body mass index (BMI), and we find evidence that height- and BMI-associated variants have been under natural selection. Considering the imperfect tagging of imputation and potential overestimation of heritability from previous family-based studies, heritability is likely to be 60-70% for height and 30-40% for BMI. Therefore, the missing heritability is small for both traits. For further discovery of genes associated with complex traits, a study design with SNP arrays followed by imputation is more cost-effective than whole-genome sequencing at current prices.",
+  "DOI": "10.1038/ng.3390",
+  "PMC ID": "PMC4589513",
+  "CITATION": "Yang J, Bakshi A, Zhu Z, Hemani G, ...&, Visscher PM. (2015) Genetic variance estimation with imputed variants finds negligible missing heritability for human height and body mass index. Nat Genet, 47 (10) 1114-20. doi:10.1038/ng.3390. PMID 26323059",
+  "FIRST_AUTHOR": "Yang J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

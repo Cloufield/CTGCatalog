@@ -1,0 +1,28 @@
+{
+  "NAME": "GWFM",
+  "PMID": 41912930,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWFM",
+  "FULL NAME": "Genome-wide fine-mapping with functional annotations",
+  "KEYWORDS": "fine-mapping, functional annotation, credible sets, trans-ancestry",
+  "URL": "https://github.com/jianzeng/GCTB https://www.nature.com/articles/s41588-026-02549-3",
+  "DESCRIPTION": "Genome-wide fine-mapping (GWFM) with functional annotations models the global genetic architecture rather than isolated loci; compared with region-specific approaches it improves error control, power, resolution, precision, replication, and cross-ancestry phenotype prediction. Distributed as part of the GCTB software suite.",
+  "TITLE": "Genome-wide fine-mapping improves identification of causal variants.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Wu Y,Zheng Z,Thibaut L,Lin T,Feng Q,Cheng H,Yengo L,Goddard ME,Wray NR,Visscher PM,Zeng J",
+  "ABSTRACT": "Fine-mapping refines genotype-phenotype association signals to identify causal variants underlying complex traits. However, current methods typically focus on individual genomic loci and do not account for the global genetic architecture. Here we demonstrate the advantages of performing genome-wide fine-mapping (GWFM) with functional annotations and develop methods to facilitate GWFM. In simulations and real data analyses, GWFM outperforms current methods across several metrics, including error control, mapping power, resolution, precision, replication rate and trans-ancestry phenotype prediction. Across 48 complex traits, we identify credible sets that collectively explain 18% of the SNP-based heritability ( h SNP 2  )  on average, with 30% credible sets located outside genome-wide significant loci. Leveraging the genetic architecture estimated from GWFM, we predict that fine-mapping over 50% of  h SNP 2   would require an average of 2 million samples. Finally, as proof-of-principle, we highlight a known causal variant at FTO influencing body mass index and identify new missense causal variants influencing schizophrenia and Crohn's disease risk.",
+  "DOI": "10.1038/s41588-026-02549-3",
+  "PMC ID": "",
+  "CITATION": "Wu Y, Zheng Z, Thibaut L, Lin T, ...&, Zeng J. (2026) Genome-wide fine-mapping improves identification of causal variants. Nat Genet,  () . doi:10.1038/s41588-026-02549-3. PMID 41912930",
+  "FIRST_AUTHOR": "Wu Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

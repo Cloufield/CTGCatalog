@@ -1,0 +1,29 @@
+{
+  "NAME": "UNEECON ",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "UNEECON ",
+  "PMID": 32667917,
+  "SECTION": "References",
+  "MANUAL_CITATION": "Huang, Y.-F. Unified inference of missense variant effects and gene constraints in the human genome. PLoS Genet. 16, e1008922 (2020).",
+  "TOPIC": "Function",
+  "URL": "https://github.com/yifei-lab/UNEECON",
+  "DESCRIPTION": "UNEECON is a statistical method for inferring deleterious mutations and constrained genes in human and potentially other species.",
+  "MANUAL_YEAR": 2020,
+  "SHORT NAME": "UNEECON",
+  "TITLE": "Unified inference of missense variant effects and gene constraints in the human genome.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "7",
+  "PAGE": "e1008922",
+  "Authors": "Huang YF",
+  "ABSTRACT": "A challenge in medical genomics is to identify variants and genes associated with severe genetic disorders. Based on the premise that severe, early-onset disorders often result in a reduction of evolutionary fitness, several statistical methods have been developed to predict pathogenic variants or constrained genes based on the signatures of negative selection in human populations. However, we currently lack a statistical framework to jointly predict deleterious variants and constrained genes from both variant-level features and gene-level selective constraints. Here we present such a unified approach, UNEECON, based on deep learning and population genetics. UNEECON treats the contributions of variant-level features and gene-level constraints as a variant-level fixed effect and a gene-level random effect, respectively. The sum of the fixed and random effects is then combined with an evolutionary model to infer the strength of negative selection at both variant and gene levels. Compared with previously published methods, UNEECON shows improved performance in predicting missense variants and protein-coding genes associated with autosomal dominant disorders, and feature importance analysis suggests that both gene-level selective constraints and variant-level predictors are important for accurate variant prioritization. Furthermore, based on UNEECON, we observe a low correlation between gene-level intolerance to missense mutations and that to loss-of-function mutations, which can be partially explained by the prevalence of disordered protein regions that are highly tolerant to missense mutations. Finally, we show that genes intolerant to both missense and loss-of-function mutations play key roles in the central nervous system and the autism spectrum disorders. Overall, UNEECON is a promising framework for both variant and gene prioritization.",
+  "DOI": "10.1371/journal.pgen.1008922",
+  "PMC ID": "PMC7384676",
+  "CITATION": "Huang YF. (2020) Unified inference of missense variant effects and gene constraints in the human genome. PLoS Genet, 16 (7) e1008922. doi:10.1371/journal.pgen.1008922. PMID 32667917",
+  "FIRST_AUTHOR": "Huang YF",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

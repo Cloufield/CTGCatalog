@@ -1,0 +1,36 @@
+{
+  "NAME": "TGVIS",
+  "PMID": 40603866,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "TGVIS",
+  "FULL NAME": "Tissue-Gene pairs, direct causal Variants, and Infinitesimal effects selector",
+  "KEYWORDS": "multivariate TWAS, infinitesimal model, causal gene-tissue, eQTL, sQTL",
+  "URL": "https://github.com/harryyiheyang/TGVIS https://doi.org/10.1038/s41467-025-61423-8",
+  "DESCRIPTION": "Multivariate TWAS approach that prioritizes causal gene–tissue pairs and candidate causal variants from GWAS summary data while explicitly controlling for genome-wide infinitesimal (polygenic) effects that can otherwise inflate false gene discoveries.",
+  "TAGS": [
+    "TWAS",
+    "Gene prioritization",
+    "Fine mapping",
+    "Tool",
+    "Summary statistics"
+  ],
+  "TITLE": "Uncovering causal gene-tissue pairs and variants through a multivariate TWAS controlling for infinitesimal effects.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "6098",
+  "Authors": "Yang Y,Lorincz-Comi N,Zhu X",
+  "ABSTRACT": "Transcriptome-wide association studies (TWAS) are commonly used to prioritize causal genes underlying associations found in genome-wide association studies (GWAS) and have been extended to identify causal genes through multivariate TWAS methods. However, recent studies have shown that widespread infinitesimal effects due to polygenicity can impair the performance of these methods. In this report, we introduce a multivariate TWAS method named tissue-gene pairs, direct causal variants, and infinitesimal effects selector (TGVIS) to identify tissue-specific causal genes and direct causal variants while accounting for infinitesimal effects. In simulations, TGVIS maintains an accurate prioritization of causal gene-tissue pairs and variants and demonstrates comparable or superior power to existing approaches, regardless of the presence of infinitesimal effects. In the real data analysis of GWAS summary data of 45 cardiometabolic traits and expression/splicing quantitative trait loci from 31 tissues, TGVIS is able to improve causal gene prioritization and identifies novel genes that were missed by conventional TWAS.",
+  "DOI": "10.1038/s41467-025-61423-8",
+  "PMC ID": "PMC12223092",
+  "CITATION": "Yang Y, Lorincz-Comi N, Zhu X. (2025) Uncovering causal gene-tissue pairs and variants through a multivariate TWAS controlling for infinitesimal effects. Nat Commun, 16 (1) 6098. doi:10.1038/s41467-025-61423-8. PMID 40603866",
+  "FIRST_AUTHOR": "Yang Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

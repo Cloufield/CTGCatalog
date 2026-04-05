@@ -1,0 +1,36 @@
+{
+  "NAME": "COWAS",
+  "PMID": 41381446,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "",
+  "TYPE": "Tools",
+  "SHORT NAME": "COWAS",
+  "FULL NAME": "Co-expression-wide association study",
+  "KEYWORDS": "TWAS, PWAS, co-expression, gene-gene interaction, GWAS summary statistics",
+  "URL": "https://github.com/mykmal/cowas https://doi.org/10.1038/s41467-025-66039-6",
+  "DESCRIPTION": "Co-expression-wide association study (COWAS) extends TWAS/PWAS by testing pairs of genes or proteins whose genetically regulated co-expression or interaction is associated with a trait; includes implemented R software and trained imputation weights for summary-statistic follow-up.",
+  "TAGS": [
+    "TWAS",
+    "Functional genomics",
+    "Gene prioritization",
+    "Tool",
+    "Summary statistics"
+  ],
+  "TITLE": "Co-expression-wide association studies link genetically regulated interactions with complex traits.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "11061",
+  "Authors": "Malakhov MM,Pan W",
+  "ABSTRACT": "Transcriptome- and proteome-wide association studies (TWAS/PWAS) have proven successful in prioritizing genes and proteins whose genetically regulated expression modulates disease risk, but they ignore potential co-expression and interaction effects. To address this limitation, we introduce the co-expression-wide association study (COWAS) method, which can identify pairs of genes or proteins whose genetically regulated co-expression is associated with complex traits. COWAS first trains models to predict expression and co-expression from genetic variation, and then tests for association between imputed co-expression and the trait of interest while also accounting for direct effects from each exposure. We applied our method to plasma proteomic concentrations from the UK Biobank, identifying dozens of interacting protein pairs associated with cholesterol levels, Alzheimer's disease, and Parkinson's disease. Notably, our results demonstrate that co-expression between proteins may affect complex traits even if neither protein is detected to influence the trait when considered on its own. We also show how COWAS can help to disentangle direct and interaction effects, providing a richer picture of the molecular networks that mediate genetic effects on disease outcomes.",
+  "DOI": "10.1038/s41467-025-66039-6",
+  "PMC ID": "PMC12698763",
+  "CITATION": "Malakhov MM, Pan W. (2025) Co-expression-wide association studies link genetically regulated interactions with complex traits. Nat Commun, 16 (1) 11061. doi:10.1038/s41467-025-66039-6. PMID 41381446",
+  "FIRST_AUTHOR": "Malakhov MM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

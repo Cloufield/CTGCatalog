@@ -1,0 +1,15 @@
+{
+  "NAME": "CNCR CTGLAB",
+  "URL": "https://cncr.nl/research/summary_statistics/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Institution",
+  "TYPE": "Institution",
+  "DESCRIPTION": "Downloadable GWAS summary statistics from the CNCR complex-trait genomics group (Netherlands).",
+  "MANUAL_CITATION": "Center for Neurobehavioral Genetics (CNCR), Netherlands Institute for Neuroscience — CTG lab GWAS summary statistics.",
+  "MANUAL_YEAR": 2023,
+  "MAIN_ANCESTRY": "EUR",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

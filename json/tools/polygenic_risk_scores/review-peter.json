@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Peter",
+  "PMID": 34554790,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Peter M. Visscher,Loic Yengo,Nancy J. Cox,Naomi R. Wray,Discovery and implications of polygenicity of common diseases, Science, 373, 6562, (1468-1473), (2021). /doi/10.1126/science.abi8206",
+  "TITLE": "Discovery and implications of polygenicity of common diseases.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2021",
+  "VOLUME": "373",
+  "ISSUE": "6562",
+  "PAGE": "1468-1473",
+  "Authors": "Visscher PM,Yengo L,Cox NJ,Wray NR",
+  "ABSTRACT": "The sequencing of the human genome has allowed the study of the genetic architecture of common diseases: the number of genomic variants that contribute to risk of disease and their joint frequency and effect size distribution. Common diseases are polygenic, with many loci contributing to phenotype, and the cumulative burden of risk alleles determines individual risk in conjunction with environmental factors. Most risk loci occur in noncoding regions of the genome regulating cell- and context-specific gene expression. Although the effect sizes of most risk alleles are small, their cumulative effects in individuals, quantified as a polygenic (risk) score, can identify people at increased risk of disease, thereby facilitating prevention or early intervention.",
+  "DOI": "10.1126/science.abi8206",
+  "PMC ID": "PMC9945947",
+  "CITATION": "Visscher PM, Yengo L, Cox NJ, Wray NR. (2021) Discovery and implications of polygenicity of common diseases. Science, 373 (6562) 1468-1473. doi:10.1126/science.abi8206. PMID 34554790",
+  "FIRST_AUTHOR": "Visscher PM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

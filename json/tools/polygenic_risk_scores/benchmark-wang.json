@@ -1,0 +1,25 @@
+{
+  "NAME": "Benchmark-Wang",
+  "PMID": 36585786,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Benchmark",
+  "TYPE": "Benchmark",
+  "MANUAL_CITATION": "Wang, C., Zhang, J., Zhou, X., & Zhang, L. (2022). A comprehensive investigation of statistical and machine learning approaches for predicting complex human diseases on genomic variants. bioRxiv.",
+  "TITLE": "A comprehensive investigation of statistical and machine learning approaches for predicting complex human diseases on genomic variants.",
+  "ISO": "Brief Bioinform",
+  "JOURNAL": "Briefings in bioinformatics",
+  "YEAR": "2023",
+  "VOLUME": "24",
+  "ISSUE": "1",
+  "PAGE": "",
+  "Authors": "Wang C,Zhang J,Veldsman WP,Zhou X,Zhang L",
+  "ABSTRACT": "Quantifying an individual's risk for common diseases is an important goal of precision health. The polygenic risk score (PRS), which aggregates multiple risk alleles of candidate diseases, has emerged as a standard approach for identifying high-risk individuals. Although several studies have been performed to benchmark the PRS calculation tools and assess their potential to guide future clinical applications, some issues remain to be further investigated, such as lacking (i) various simulated data with different genetic effects; (ii) evaluation of machine learning models and (iii) evaluation on multiple ancestries studies. In this study, we systematically validated and compared 13 statistical methods, 5 machine learning models and 2 ensemble models using simulated data with additive and genetic interaction models, 22 common diseases with internal training sets, 4 common diseases with external summary statistics and 3 common diseases for trans-ancestry studies in UK Biobank. The statistical methods were better in simulated data from additive models and machine learning models have edges for data that include genetic interactions. Ensemble models are generally the best choice by integrating various statistical methods. LDpred2 outperformed the other standalone tools, whereas PRS-CS, lassosum and DBSLMM showed comparable performance. We also identified that disease heritability strongly affected the predictive performance of all methods. Both the number and effect sizes of risk SNPs are important; and sample size strongly influences the performance of all methods. For the trans-ancestry studies, we found that the performance of most methods became worse when training and testing sets were from different populations.",
+  "DOI": "10.1093/bib/bbac552",
+  "PMC ID": "",
+  "CITATION": "Wang C, Zhang J, Veldsman WP, Zhou X, ...&, Zhang L. (2023) A comprehensive investigation of statistical and machine learning approaches for predicting complex human diseases on genomic variants. Brief Bioinform, 24 (1) . doi:10.1093/bib/bbac552. PMID 36585786",
+  "FIRST_AUTHOR": "Wang C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

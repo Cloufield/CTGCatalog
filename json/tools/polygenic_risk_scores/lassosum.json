@@ -1,0 +1,30 @@
+{
+  "NAME": "lassosum",
+  "PMID": 28480976,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "lassosum",
+  "FULL NAME": "lassosum",
+  "KEYWORDS": "penalized regression",
+  "URL": "https://github.com/tshmak/lassosum",
+  "DESCRIPTION": "lassosum is a method for computing LASSO/Elastic Net estimates of a linear regression problem given summary statistics from GWAS and Genome-wide meta-analyses, accounting for Linkage Disequilibrium (LD), via a reference panel.",
+  "MANUAL_CITATION": "Mak, T. S. H., Porsch, R. M., Choi, S. W., Zhou, X., & Sham, P. C. (2017). Polygenic scores via penalized regression on summary statistics. Genetic epidemiology, 41(6), 469-480.",
+  "TITLE": "Polygenic scores via penalized regression on summary statistics.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2017",
+  "VOLUME": "41",
+  "ISSUE": "6",
+  "PAGE": "469-480",
+  "Authors": "Mak TSH,Porsch RM,Choi SW,Zhou X,Sham PC",
+  "ABSTRACT": "Polygenic scores (PGS) summarize the genetic contribution of a person's genotype to a disease or phenotype. They can be used to group participants into different risk categories for diseases, and are also used as covariates in epidemiological analyses. A number of possible ways of calculating PGS have been proposed, and recently there is much interest in methods that incorporate information available in published summary statistics. As there is no inherent information on linkage disequilibrium (LD) in summary statistics, a pertinent question is how we can use LD information available elsewhere to supplement such analyses. To answer this question, we propose a method for constructing PGS using summary statistics and a reference panel in a penalized regression framework, which we call lassosum. We also propose a general method for choosing the value of the tuning parameter in the absence of validation data. In our simulations, we showed that pseudovalidation often resulted in prediction accuracy that is comparable to using a dataset with validation phenotype and was clearly superior to the conservative option of setting the tuning parameter of lassosum to its lowest value. We also showed that lassosum achieved better prediction accuracy than simple clumping and P-value thresholding in almost all scenarios. It was also substantially faster and more accurate than the recently proposed LDpred.",
+  "DOI": "10.1002/gepi.22050",
+  "PMC ID": "",
+  "CITATION": "Mak TSH, Porsch RM, Choi SW, Zhou X, ...&, Sham PC. (2017) Polygenic scores via penalized regression on summary statistics. Genet Epidemiol, 41 (6) 469-480. doi:10.1002/gepi.22050. PMID 28480976",
+  "FIRST_AUTHOR": "Mak TSH",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "Sun BB",
+  "ADD_SUFFIX": 1,
+  "PMID": 36241887,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "T1-weighted MRI: Regional sulcal morphology(450 sulcal parameters)",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 40169,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Sun, B. B. et al. Genetic map of regional sulcal morphology in the human brain from UK biobank data. Nat. Commun. 13, 6071 (2022).",
+  "MANUAL_YEAR": 2022,
+  "TITLE": "Genetic map of regional sulcal morphology in the human brain from UK biobank data.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2022",
+  "VOLUME": "13",
+  "ISSUE": "1",
+  "PAGE": "6071",
+  "Authors": "Sun BB,Loomis SJ,Pizzagalli F,Shatokhina N,Painter JN,Foley CN,Biogen Biobank Team,Jensen ME,McLaren DG,Chintapalli SS,Zhu AH,Dixon D,Islam T,Ba Gari I,Runz H,Medland SE,Thompson PM,Jahanshad N,Whelan CD",
+  "ABSTRACT": "Genetic associations with macroscopic brain structure can provide insights into brain function and disease. However, specific associations with measures of local brain folding are largely under-explored. Here, we conducted large-scale genome- and exome-wide associations of regional cortical sulcal measures derived from magnetic resonance imaging scans of 40,169 individuals in UK Biobank. We discovered 388 regional brain folding associations across 77 genetic loci, with genes in associated loci enriched for expression in the cerebral cortex, neuronal development processes, and differential regulation during early brain development. We integrated brain eQTLs to refine genes for various loci, implicated several genes involved in neurodevelopmental disorders, and highlighted global genetic correlations with neuropsychiatric phenotypes. We provide an interactive 3D visualisation of our summary associations, emphasising added resolution of regional analyses. Our results offer new insights into the genetic architecture of brain folding and provide a resource for future studies of sulcal morphology in health and disease.",
+  "DOI": "10.1038/s41467-022-33829-1",
+  "PMC ID": "PMC9568560",
+  "CITATION": "Sun BB, Loomis SJ, Pizzagalli F, Shatokhina N, ...&, Whelan CD. (2022) Genetic map of regional sulcal morphology in the human brain from UK biobank data. Nat Commun, 13 (1) 6071. doi:10.1038/s41467-022-33829-1. PMID 36241887",
+  "FIRST_AUTHOR": "Sun BB",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

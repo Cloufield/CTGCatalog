@@ -1,0 +1,19 @@
+{
+  "NAME": "Nature computational science",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Comput Sci",
+  "JOURNAL": "Nature computational science",
+  "URL": "https://www.nature.com/natcomputsci",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Tools": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "MultiSTAAR",
+    "RESHAPE"
+  ]
+}

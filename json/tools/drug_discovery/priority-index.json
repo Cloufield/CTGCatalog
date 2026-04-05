@@ -1,0 +1,27 @@
+{
+  "NAME": "Priority index",
+  "PMID": 31253980,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "Priority index",
+  "FULL NAME": "Priority index",
+  "URL": "http://pi.well.ox.ac.uk:3010/",
+  "DESCRIPTION": "A Comprehensive Resource for Genetic Targets in Immune-Mediated Disease",
+  "TITLE": "A genetics-led approach defines the drug target landscape of 30 immune-related traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2019",
+  "VOLUME": "51",
+  "ISSUE": "7",
+  "PAGE": "1082-1091",
+  "Authors": "Fang H,ULTRA-DD Consortium,De Wolf H,Knezevic B,Burnham KL,Osgood J,Sanniti A,Lledó Lara A,Kasela S,De Cesco S,Wegner JK,Handunnetthi L,McCann FE,Chen L,Sekine T,Brennan PE,Marsden BD,Damerell D,O'Callaghan CA,Bountra C,Bowness P,Sundström Y,Milani L,Berg L,Göhlmann HW,Peeters PJ,Fairfax BP,Sundström M,Knight JC",
+  "ABSTRACT": "Most candidate drugs currently fail later-stage clinical trials, largely due to poor prediction of efficacy on early target selection1. Drug targets with genetic support are more likely to be therapeutically valid2,3, but the translational use of genome-scale data such as from genome-wide association studies for drug target discovery in complex diseases remains challenging4-6. Here, we show that integration of functional genomic and immune-related annotations, together with knowledge of network connectivity, maximizes the informativeness of genetics for target validation, defining the target prioritization landscape for 30 immune traits at the gene and pathway level. We demonstrate how our genetics-led drug target prioritization approach (the priority index) successfully identifies current therapeutics, predicts activity in high-throughput cellular screens (including L1000, CRISPR, mutagenesis and patient-derived cell assays), enables prioritization of under-explored targets and allows for determination of target-level trait relationships. The priority index is an open-access, scalable system accelerating early-stage drug target selection for immune-mediated disease.",
+  "DOI": "10.1038/s41588-019-0456-1",
+  "PMC ID": "PMC7124888",
+  "CITATION": "Fang H, ULTRA-DD Consortium, De Wolf H, Knezevic B, ...&, Knight JC. (2019) A genetics-led approach defines the drug target landscape of 30 immune-related traits. Nat Genet, 51 (7) 1082-1091. doi:10.1038/s41588-019-0456-1. PMID 31253980",
+  "FIRST_AUTHOR": "Fang H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

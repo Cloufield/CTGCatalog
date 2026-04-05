@@ -1,0 +1,29 @@
+{
+  "NAME": "snipar-unified estimator",
+  "PMID": 40065166,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS using family history",
+  "TYPE": "Tools",
+  "SHORT NAME": "snipar",
+  "FULL NAME": "single nucleotide imputation of parents",
+  "MANUAL_YEAR": 2025,
+  "URL": "https://github.com/AlexTISYoung/snipar",
+  "MANUAL_CITATION": "Guan, J. et al. Family-based genome-wide association study designs for increased power and robustness. Nat. Genet. 1–9 (2025).\n",
+  "TITLE": "Family-based genome-wide association study designs for increased power and robustness.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "4",
+  "PAGE": "1044-1052",
+  "Authors": "Guan J,Tan T,Nehzati SM,Bennett M,Turley P,Benjamin DJ,Young AS",
+  "ABSTRACT": "Family-based genome-wide association studies (FGWASs) use random, within-family genetic variation to remove confounding from estimates of direct genetic effects (DGEs). Here we introduce a 'unified estimator' that includes individuals without genotyped relatives, unifying standard and FGWAS while increasing power for DGE estimation. We also introduce a 'robust estimator' that is not biased in structured and/or admixed populations. In an analysis of 19 phenotypes in the UK Biobank, the unified estimator in the White British subsample and the robust estimator (applied without ancestry restrictions) increased the effective sample size for DGEs by 46.9% to 106.5% and 10.3% to 21.0%, respectively, compared to using genetic differences between siblings. Polygenic predictors derived from the unified estimator demonstrated superior out-of-sample prediction ability compared to other family-based methods. We implemented the methods in the software package snipar in an efficient linear mixed model that accounts for sample relatedness and sibling shared environment.",
+  "DOI": "10.1038/s41588-025-02118-0",
+  "PMC ID": "PMC11985344",
+  "CITATION": "Guan J, Tan T, Nehzati SM, Bennett M, ...&, Young AS. (2025) Family-based genome-wide association study designs for increased power and robustness. Nat Genet, 57 (4) 1044-1052. doi:10.1038/s41588-025-02118-0. PMID 40065166",
+  "FIRST_AUTHOR": "Guan J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

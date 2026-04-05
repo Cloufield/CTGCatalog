@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 29164242,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Emdin, C. A., Khera, A. V., & Kathiresan, S. (2017). Mendelian randomization. Jama, 318(19), 1925-1926.",
+  "TITLE": "Mendelian Randomization.",
+  "ISO": "JAMA",
+  "JOURNAL": "JAMA",
+  "YEAR": "2017",
+  "VOLUME": "318",
+  "ISSUE": "19",
+  "PAGE": "1925-1926",
+  "Authors": "Emdin CA,Khera AV,Kathiresan S",
+  "ABSTRACT": "",
+  "DOI": "10.1001/jama.2017.17219",
+  "PMC ID": "",
+  "CITATION": "Emdin CA, Khera AV, Kathiresan S. (2017) Mendelian Randomization. JAMA, 318 (19) 1925-1926. doi:10.1001/jama.2017.17219. PMID 29164242",
+  "FIRST_AUTHOR": "Emdin CA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

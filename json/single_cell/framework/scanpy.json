@@ -1,0 +1,26 @@
+{
+  "NAME": "Scanpy",
+  "SECTION": "Single_Cell",
+  "PMID": 29409532,
+  "TOPIC": "Framework",
+  "CATEGORY": "Comprehensive",
+  "MANUAL_YEAR": 2018,
+  "URL": "https://scanpy.readthedocs.io/en/stable/tutorials/index.html",
+  "MANUAL_CITATION": "\nWolf, F. A., Angerer, P. & Theis, F. J. SCANPY: large-scale single-cell gene expression data analysis. Genome Biol. 19, 15 (2018).\n",
+  "TITLE": "SCANPY: large-scale single-cell gene expression data analysis.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2018",
+  "VOLUME": "19",
+  "ISSUE": "1",
+  "PAGE": "15",
+  "Authors": "Wolf FA,Angerer P,Theis FJ",
+  "ABSTRACT": "SCANPY is a scalable toolkit for analyzing single-cell gene expression data. It includes methods for preprocessing, visualization, clustering, pseudotime and trajectory inference, differential expression testing, and simulation of gene regulatory networks. Its Python-based implementation efficiently deals with data sets of more than one million cells ( https://github.com/theislab/Scanpy ). Along with SCANPY, we present ANNDATA, a generic class for handling annotated data matrices ( https://github.com/theislab/anndata ).",
+  "DOI": "10.1186/s13059-017-1382-0",
+  "PMC ID": "PMC5802054",
+  "CITATION": "Wolf FA, Angerer P, Theis FJ. (2018) SCANPY: large-scale single-cell gene expression data analysis. Genome Biol, 19 (1) 15. doi:10.1186/s13059-017-1382-0. PMID 29409532",
+  "FIRST_AUTHOR": "Wolf FA",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

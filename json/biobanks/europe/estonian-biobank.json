@@ -1,0 +1,15 @@
+{
+  "NAME": "Estonian Biobank",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~200k",
+  "MANUAL_CITATION": "Leitsalu, L., Haller, T., Esko, T., Tammesoo, M. L., Alavere, H., Snieder, H., ... & Metspalu, A. (2015). Cohort profile: Estonian biobank of the Estonian genome center, university of Tartu. International journal of epidemiology, 44(4), 1137-1147.",
+  "URL": "https://genomics.ut.ee/en/content/estonian-biobank",
+  "DESCRIPTION": "The Estonian Biobank has established a population-based biobank of Estonia with a current cohort size of more than 200,000 individuals (genotyped with genome-wide arrays), reflecting the age, sex and geographical distribution of the adult Estonian population. Considering the fact that about 20% of Estonia's adult population has joined the programme, it is indeed a database that is very important for the development of medical science both domestically and internationally.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Estonian adults (national biobank)"
+}

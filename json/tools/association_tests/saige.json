@@ -1,0 +1,30 @@
+{
+  "NAME": "SAIGE",
+  "PMID": 30104761,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "SAIGE",
+  "FULL NAME": "Scalable and Accurate Implementation of GEneralized mixed model",
+  "KEYWORDS": "case-control imbalance, saddlepoint approximation (SPA)",
+  "URL": "https://github.com/weizhouUMICH/SAIGE",
+  "DESCRIPTION": "SAIGE is an R package with Scalable and Accurate Implementation of Generalized mixed model (Chen, H. et al. 2016). It accounts for sample relatedness and is feasible for genetic association tests in large cohorts and biobanks (N > 400,000). SAIGE performs single-variant association tests for binary traits and quantitative taits. For binary traits, SAIGE uses the saddlepoint approximation (SPA)(mhof, J. P. , 1961; Kuonen, D. 1999; Dey, R. et.al 2017) to account for case-control imbalance.",
+  "MANUAL_CITATION": "Zhou, Wei, et al. \"Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies.\" Nature genetics 50.9 (2018): 1335-1341.",
+  "TITLE": "Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "9",
+  "PAGE": "1335-1341",
+  "Authors": "Zhou W,Nielsen JB,Fritsche LG,Dey R,Gabrielsen ME,Wolford BN,LeFaive J,VandeHaar P,Gagliano SA,Gifford A,Bastarache LA,Wei WQ,Denny JC,Lin M,Hveem K,Kang HM,Abecasis GR,Willer CJ,Lee S",
+  "ABSTRACT": "In genome-wide association studies (GWAS) for thousands of phenotypes in large biobanks, most binary traits have substantially fewer cases than controls. Both of the widely used approaches, the linear mixed model and the recently proposed logistic mixed model, perform poorly; they produce large type I error rates when used to analyze unbalanced case-control phenotypes. Here we propose a scalable and accurate generalized mixed model association test that uses the saddlepoint approximation to calibrate the distribution of score test statistics. This method, SAIGE (Scalable and Accurate Implementation of GEneralized mixed model), provides accurate P values even when case-control ratios are extremely unbalanced. SAIGE uses state-of-art optimization strategies to reduce computational costs; hence, it is applicable to GWAS for thousands of phenotypes by large biobanks. Through the analysis of UK Biobank data of 408,961 samples from white British participants with European ancestry for > 1,400 binary phenotypes, we show that SAIGE can efficiently analyze large sample data, controlling for unbalanced case-control ratios and sample relatedness.",
+  "DOI": "10.1038/s41588-018-0184-y",
+  "PMC ID": "PMC6119127",
+  "CITATION": "Zhou W, Nielsen JB, Fritsche LG, Dey R, ...&, Lee S. (2018) Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies. Nat Genet, 50 (9) 1335-1341. doi:10.1038/s41588-018-0184-y. PMID 30104761",
+  "FIRST_AUTHOR": "Zhou W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

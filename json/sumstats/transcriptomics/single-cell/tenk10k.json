@@ -1,0 +1,26 @@
+{
+  "NAME": "TenK10k",
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "DESCRIPTION": "Phase 1: matched WGS and scRNA-seq in ~1.9k individuals; common and rare variant sc-eQTLs in 28 immune cell types (SAIGE-QTL).",
+  "URL": "https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2",
+  "MANUAL_YEAR": 2025,
+  "MANUAL_CITATION": "\nCuomo, A. S. E. et al. Impact of rare and common genetic variation on cell type-specific gene expression in human blood. medRxiv 2025.03.20.25324352 (2025). doi:10.1101/2025.03.20.25324352.\n",
+  "TITLE": "Impact of rare and common genetic variation on cell type-specific gene expression in human blood.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv : the preprint server for health sciences",
+  "YEAR": "2025",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Cuomo ASE,Spenceley E,Tanudisastro HA,Bowen B,Henry A,Huang HL,Xue A,Zhou W,Welland MJ,Bryen SJ,Dong OA,Lee AR,Pullin JM,Wing K,Tang O,Gray MP,Franklin M,Harper M,Silk M,Bobowik K,Stuckey A,Marshall J,Bakiris V,Uren C,Madala BS,Miniter A,Bartie C,Neavin DR,Qiao Z,Ben-David E,Chen L,Farh KKH,Grieve SM,Nguyen T,Wallace C,Piscionere J,Siggs OM,Nicholas H,de Lange KM,Hewitt AW,Figtree GA,MacArthur DG,Powell JE",
+  "ABSTRACT": "Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases. Single cell-resolved measures of RNA levels and single-cell expression quantitative trait loci (sc-eQTLs) have revealed genetic regulation that drives sub-tissue cell states and types across diverse human tissues. Here, we describe the first phase of TenK10K, the largest-to-date dataset of matched whole-genome sequencing (WGS) and single-cell RNA-sequencing (scRNA-seq). We leverage scRNA-seq data from over 5 million cells across 28 immune cell types, and matched WGS, from 1,925 individuals, which provides power to detect associations between rare and low-frequency genetic variants that have largely been uncharacterised in their impact on cell-specific gene expression. We map the effects of both common and rare variants in a cell type-specific manner using a recently introduced method that increases power by modelling single cells directly rather than relying on aggregated ‘pseudobulk’ counts. We identify putative common regulatory variants for 83% of all 21,404 genes tested and cumulative rare variant signals for 47% of genes. We explore how genetic effects vary across cell type and state spectra, develop a framework to determine the degree to which sc-eQTLs are cell type-specific, and show that about half of the effects are observed only in one or a few cell types. By integrating our results with functional annotations and disease information, we also further characterise the likely molecular modes of action for many disease-variant associations. Finally, we explore the effects that genetic variants have on gene expression across continuous cell states and functions, and effects that vary cell state abundance directly.",
+  "DOI": "10.1101/2025.03.20.25324352",
+  "PMC ID": "",
+  "CITATION": "Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, ...&, Powell JE. (2025) Impact of rare and common genetic variation on cell type-specific gene expression in human blood. medRxiv,  () . doi:10.1101/2025.03.20.25324352",
+  "FIRST_AUTHOR": "Cuomo ASE",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

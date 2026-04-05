@@ -1,0 +1,29 @@
+{
+  "NAME": "FastQTL",
+  "PMID": 26708335,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "FastQTL",
+  "FULL NAME": "FastQTL",
+  "URL": "https://github.com/francois-a/fastqtl",
+  "DESCRIPTION": "In order to discover quantitative trait loci (QTLs), multi-dimensional genomic datasets combining DNA-seq and ChiP-/RNA-seq require methods that rapidly correlate tens of thousands of molecular phenotypes with millions of genetic variants while appropriately controlling for multiple testing. FastQTL implements a popular cis-QTL mapping strategy in a user- and cluster-friendly tool. FastQTL also proposes an efficient permutation procedure to control for multiple testing.",
+  "MANUAL_CITATION": "Ongen, Halit, et al. \"Fast and efficient QTL mapper for thousands of molecular phenotypes.\" Bioinformatics 32.10 (2016): 1479-1485.",
+  "TITLE": "Fast and efficient QTL mapper for thousands of molecular phenotypes.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2016",
+  "VOLUME": "32",
+  "ISSUE": "10",
+  "PAGE": "1479-85",
+  "Authors": "Ongen H,Buil A,Brown AA,Dermitzakis ET,Delaneau O",
+  "ABSTRACT": "MOTIVATION: In order to discover quantitative trait loci, multi-dimensional genomic datasets combining DNA-seq and ChiP-/RNA-seq require methods that rapidly correlate tens of thousands of molecular phenotypes with millions of genetic variants while appropriately controlling for multiple testing. RESULTS: We have developed FastQTL, a method that implements a popular cis-QTL mapping strategy in a user- and cluster-friendly tool. FastQTL also proposes an efficient permutation procedure to control for multiple testing. The outcome of permutations is modeled using beta distributions trained from a few permutations and from which adjusted P-values can be estimated at any level of significance with little computational cost. The Geuvadis & GTEx pilot datasets can be now easily analyzed an order of magnitude faster than previous approaches. AVAILABILITY AND IMPLEMENTATION: Source code, binaries and comprehensive documentation of FastQTL are freely available to download at http://fastqtl.sourceforge.net/ CONTACT: emmanouil.dermitzakis@unige.ch or olivier.delaneau@unige.ch SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btv722",
+  "PMC ID": "PMC4866519",
+  "CITATION": "Ongen H, Buil A, Brown AA, Dermitzakis ET, ...&, Delaneau O. (2016) Fast and efficient QTL mapper for thousands of molecular phenotypes. Bioinformatics, 32 (10) 1479-85. doi:10.1093/bioinformatics/btv722. PMID 26708335",
+  "FIRST_AUTHOR": "Ongen H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

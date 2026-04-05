@@ -1,0 +1,31 @@
+{
+  "NAME": "PrediXcan",
+  "PMID": 26258848,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "PrediXcan",
+  "FULL NAME": "PrediXcan",
+  "MANUAL_YEAR": 2015,
+  "URL": "https://github.com/hakyimlab/PrediXcan",
+  "DESCRIPTION": "(deprecated) PrediXcan is a gene-based association test that prioritizes genes that are likely to be causal for the phenotype.",
+  "MANUAL_CITATION": "Gamazon, E. R., Wheeler, H. E., Shah, K. P., Mozaffari, S. V., Aquino-Michaels, K., Carroll, R. J., ... & Im, H. K. (2015). A gene-based association method for mapping traits using reference transcriptome data. Nature genetics, 47(9), 1091-1098.",
+  "DATA_REQUIRED": "individual-level genotype + phenotype data",
+  "TITLE": "A gene-based association method for mapping traits using reference transcriptome data.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2015",
+  "VOLUME": "47",
+  "ISSUE": "9",
+  "PAGE": "1091-8",
+  "Authors": "Gamazon ER,Wheeler HE,Shah KP,Mozaffari SV,Aquino-Michaels K,Carroll RJ,Eyler AE,Denny JC,GTEx Consortium,Nicolae DL,Cox NJ,Im HK",
+  "ABSTRACT": "Genome-wide association studies (GWAS) have identified thousands of variants robustly associated with complex traits. However, the biological mechanisms underlying these associations are, in general, not well understood. We propose a gene-based association method called PrediXcan that directly tests the molecular mechanisms through which genetic variation affects phenotype. The approach estimates the component of gene expression determined by an individual's genetic profile and correlates 'imputed' gene expression with the phenotype under investigation to identify genes involved in the etiology of the phenotype. Genetically regulated gene expression is estimated using whole-genome tissue-dependent prediction models trained with reference transcriptome data sets. PrediXcan enjoys the benefits of gene-based approaches such as reduced multiple-testing burden and a principled approach to the design of follow-up experiments. Our results demonstrate that PrediXcan can detect known and new genes associated with disease traits and provide insights into the mechanism of these associations.",
+  "DOI": "10.1038/ng.3367",
+  "PMC ID": "PMC4552594",
+  "CITATION": "Gamazon ER, Wheeler HE, Shah KP, Mozaffari SV, ...&, Im HK. (2015) A gene-based association method for mapping traits using reference transcriptome data. Nat Genet, 47 (9) 1091-8. doi:10.1038/ng.3367. PMID 26258848",
+  "FIRST_AUTHOR": "Gamazon ER",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

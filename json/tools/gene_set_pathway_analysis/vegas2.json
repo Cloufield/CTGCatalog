@@ -1,0 +1,28 @@
+{
+  "NAME": "VEGAS2",
+  "PMID": 25518859,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_set_pathway_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "VEGAS2",
+  "FULL NAME": "Versatile Gene-based Association Study - 2 version 2",
+  "URL": "https://vegas2.qimrberghofer.edu.au/",
+  "DESCRIPTION": "This is the VEGAS2 web platform. Here, user can perfome the gene-based and pathway-based analyses on GWAS summary data using VEGAS and VEGAS2Pathway approaches respectively. It is publically available for non-commercial use.",
+  "MANUAL_CITATION": "Mishra, Aniket, and Stuart Macgregor. \"VEGAS2: software for more flexible gene-based testing.\" Twin Research and Human Genetics 18.1 (2015): 86-91.",
+  "TITLE": "VEGAS2: Software for More Flexible Gene-Based Testing.",
+  "ISO": "Twin Res Hum Genet",
+  "JOURNAL": "Twin research and human genetics : the official journal of the International Society for Twin Studies",
+  "YEAR": "2015",
+  "VOLUME": "18",
+  "ISSUE": "1",
+  "PAGE": "86-91",
+  "Authors": "Mishra A,Macgregor S",
+  "ABSTRACT": "Gene-based tests such as versatile gene-based association study (VEGAS) are commonly used following per-single nucleotide polymorphism (SNP) GWAS (genome-wide association studies) analysis. Two limitations of VEGAS were that the HapMap2 reference set was used to model the correlation between SNPs and only autosomal genes were considered. HapMap2 has now been superseded by the 1,000 Genomes reference set, and whereas early GWASs frequently ignored the X chromosome, it is now commonly included. Here we have developed VEGAS2, an extension that uses 1,000 Genomes data to model SNP correlations across the autosomes and chromosome X. VEGAS2 allows greater flexibility when defining gene boundaries. VEGAS2 offers both a user-friendly, web-based front end and a command line Linux version. The online version of VEGAS2 can be accessed through https://vegas2.qimrberghofer.edu.au/. The command line version can be downloaded from https://vegas2.qimrberghofer.edu.au/zVEGAS2offline.tgz. The command line version is developed in Perl, R and shell scripting languages; source code is available for further development.",
+  "DOI": "10.1017/thg.2014.79",
+  "PMC ID": "",
+  "CITATION": "Mishra A, Macgregor S. (2015) VEGAS2: Software for More Flexible Gene-Based Testing. Twin Res Hum Genet, 18 (1) 86-91. doi:10.1017/thg.2014.79. PMID 25518859",
+  "FIRST_AUTHOR": "Mishra A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "NAME": "Arbores ",
+  "PMID": 30602937,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "Arbores ",
+  "DESCRIPTION": "Heine, K., Beskos, A., Jasra, A., Balding, D. & De Iorio, M. Bridging trees for posterior inference on ancestral recombination graphs. Proc. Math. Phys. Eng. Sci. 474, 20180568 (2018).",
+  "TITLE": "Bridging trees for posterior inference on ancestral recombination graphs.",
+  "ISO": "Proc Math Phys Eng Sci",
+  "JOURNAL": "Proceedings. Mathematical, physical, and engineering sciences",
+  "YEAR": "2018",
+  "VOLUME": "474",
+  "ISSUE": "2220",
+  "PAGE": "20180568",
+  "Authors": "Heine K,Beskos A,Jasra A,Balding D,De Iorio M",
+  "ABSTRACT": "We present a new Markov chain Monte Carlo algorithm, implemented in the software Arbores, for inferring the history of a sample of DNA sequences. Our principal innovation is a bridging procedure, previously applied only for simple stochastic processes, in which the local computations within a bridge can proceed independently of the rest of the DNA sequence, facilitating large-scale parallelization.",
+  "DOI": "10.1098/rspa.2018.0568",
+  "PMC ID": "PMC6304023",
+  "CITATION": "Heine K, Beskos A, Jasra A, Balding D, ...&, De Iorio M. (2018) Bridging trees for posterior inference on ancestral recombination graphs. Proc Math Phys Eng Sci, 474 (2220) 20180568. doi:10.1098/rspa.2018.0568. PMID 30602937",
+  "FIRST_AUTHOR": "Heine K",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

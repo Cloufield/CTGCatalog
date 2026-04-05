@@ -1,0 +1,16 @@
+{
+  "NAME": "Westlake gut bacteria GWAS",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EAS",
+  "SAMPLE_SIZE": 7935,
+  "DESCRIPTION": "Genome-wide association analyses for human gut bacteria in Han Chinese (n = 7,935) from the Westlake Chinese Multi-omics GWAS Catalog.",
+  "URL": "https://omics.lab.westlake.edu.cn/data/bacteria/phenotypes https://omics.lab.westlake.edu.cn/collect.html",
+  "CITATION": "Laboratory of Precision Nutrition and Computational Medicine, Westlake University. Gut bacteria GWAS summary statistics, Han Chinese (n = 7,935). Westlake Chinese Multi-omics GWAS Catalog. https://omics.lab.westlake.edu.cn/data.html (accessed 2026).",
+  "METAGENOME": "Gut bacteria",
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

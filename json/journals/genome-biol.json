@@ -1,0 +1,24 @@
+{
+  "NAME": "Genome biology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "URL": "https://genomebiology.biomedcentral.com/",
+  "ENTRY_COUNT": 8,
+  "CITED_BY_SECTION": {
+    "Tools": 5,
+    "References": 1,
+    "Single_Cell": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "DAVID",
+    "Giotto",
+    "Scanpy",
+    "VEP",
+    "tensorQTL"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "NAME": "Proceedings of the National Academy of Sciences of the United States of America",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Proc Natl Acad Sci U S A",
+  "JOURNAL": "Proceedings of the National Academy of Sciences of the United States of America",
+  "URL": "https://www.pnas.org/",
+  "ENTRY_COUNT": 4,
+  "CITED_BY_SECTION": {
+    "Tools": 3,
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Johansson",
+    "Review",
+    "ALL-Sum",
+    "GMRM"
+  ]
+}

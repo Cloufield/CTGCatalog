@@ -1,0 +1,30 @@
+{
+  "NAME": "GATE",
+  "PMID": 36114182,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Genome-wide survival association analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "GATE",
+  "FULL NAME": "Genetic Analysis of Time-to-Event phenotypes",
+  "KEYWORDS": "censored time-to-event (TTE) phenotypes",
+  "URL": "https://github.com/weizhou0/GATE",
+  "DESCRIPTION": "GATE (Genetic Analysis of Time-to-Event phenotypes) is an R package with Scalable and accurate genome-wide association analysis of censored survival data in large scale biobanks using frailty models.\n\nGATE performs single-variant association tests for time-to-event endpoints. GATE uses uses the saddlepoint approximation (SPA)(mhof, J. P. , 1961; Kuonen, D. 1999; Dey, R. et.al 2017) to account for heavy censoring rates.",
+  "MANUAL_CITATION": "\nDey, R. et al. Efficient and accurate frailty model approach for genome-wide survival association analysis in large-scale biobanks. Nat. Commun. 13, 5437 (2022).\n  \n",
+  "TITLE": "Efficient and accurate frailty model approach for genome-wide survival association analysis in large-scale biobanks.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2022",
+  "VOLUME": "13",
+  "ISSUE": "1",
+  "PAGE": "5437",
+  "Authors": "Dey R,Zhou W,Kiiskinen T,Havulinna A,Elliott A,Karjalainen J,Kurki M,Qin A,FinnGen,Lee S,Palotie A,Neale B,Daly M,Lin X",
+  "ABSTRACT": "With decades of electronic health records linked to genetic data, large biobanks provide unprecedented opportunities for systematically understanding the genetics of the natural history of complex diseases. Genome-wide survival association analysis can identify genetic variants associated with ages of onset, disease progression and lifespan. We propose an efficient and accurate frailty model approach for genome-wide survival association analysis of censored time-to-event (TTE) phenotypes by accounting for both population structure and relatedness. Our method utilizes state-of-the-art optimization strategies to reduce the computational cost. The saddlepoint approximation is used to allow for analysis of heavily censored phenotypes (>90%) and low frequency variants (down to minor allele count 20). We demonstrate the performance of our method through extensive simulation studies and analysis of five TTE phenotypes, including lifespan, with heavy censoring rates (90.9% to 99.8%) on ~400,000 UK Biobank participants with white British ancestry and ~180,000 individuals in FinnGen. We further analyzed 871 TTE phenotypes in the UK Biobank and presented the genome-wide scale phenome-wide association results with the PheWeb browser.",
+  "DOI": "10.1038/s41467-022-32885-x",
+  "PMC ID": "PMC9481565",
+  "CITATION": "Dey R, Zhou W, Kiiskinen T, Havulinna A, ...&, Lin X. (2022) Efficient and accurate frailty model approach for genome-wide survival association analysis in large-scale biobanks. Nat Commun, 13 (1) 5437. doi:10.1038/s41467-022-32885-x. PMID 36114182",
+  "FIRST_AUTHOR": "Dey R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

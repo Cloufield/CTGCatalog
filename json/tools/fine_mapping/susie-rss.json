@@ -1,0 +1,29 @@
+{
+  "NAME": "SUSIE-RSS",
+  "PMID": 35853082,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "SUSIE-RSS",
+  "FULL NAME": "sum of single effects regression with summary statistics",
+  "KEYWORDS": "fine-mapping, summary statistics",
+  "URL": "https://stephenslab.github.io/susieR/index.html",
+  "DESCRIPTION": "The susieR package implements a simple new way to perform variable selection in multiple regression (y = Xb + e). The methods implemented here are particularly well-suited to settings where some of the X variables are highly correlated, and the true effects are highly sparse (e.g. <20 non-zero effects in the vector b). One example of this is genetic fine-mapping applications, and this application was a major motivation for developing these methods.",
+  "MANUAL_CITATION": "Zou, Yuxin, et al. \"Fine-mapping from summary data with the “Sum of Single Effects” model.\" PLoS Genetics 18.7 (2022): e1010299.",
+  "TITLE": "Fine-mapping from summary data with the \"Sum of Single Effects\" model.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2022",
+  "VOLUME": "18",
+  "ISSUE": "7",
+  "PAGE": "e1010299",
+  "Authors": "Zou Y,Carbonetto P,Wang G,Stephens M",
+  "ABSTRACT": "In recent work, Wang et al introduced the \"Sum of Single Effects\" (SuSiE) model, and showed that it provides a simple and efficient approach to fine-mapping genetic variants from individual-level data. Here we present new methods for fitting the SuSiE model to summary data, for example to single-SNP z-scores from an association study and linkage disequilibrium (LD) values estimated from a suitable reference panel. To develop these new methods, we first describe a simple, generic strategy for extending any individual-level data method to deal with summary data. The key idea is to replace the usual regression likelihood with an analogous likelihood based on summary data. We show that existing fine-mapping methods such as FINEMAP and CAVIAR also (implicitly) use this strategy, but in different ways, and so this provides a common framework for understanding different methods for fine-mapping. We investigate other common practical issues in fine-mapping with summary data, including problems caused by inconsistencies between the z-scores and LD estimates, and we develop diagnostics to identify these inconsistencies. We also present a new refinement procedure that improves model fits in some data sets, and hence improves overall reliability of the SuSiE fine-mapping results. Detailed evaluations of fine-mapping methods in a range of simulated data sets show that SuSiE applied to summary data is competitive, in both speed and accuracy, with the best available fine-mapping methods for summary data.",
+  "DOI": "10.1371/journal.pgen.1010299",
+  "PMC ID": "PMC9337707",
+  "CITATION": "Zou Y, Carbonetto P, Wang G, Stephens M. (2022) Fine-mapping from summary data with the \"Sum of Single Effects\" model. PLoS Genet, 18 (7) e1010299. doi:10.1371/journal.pgen.1010299. PMID 35853082",
+  "FIRST_AUTHOR": "Zou Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

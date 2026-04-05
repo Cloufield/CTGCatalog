@@ -1,0 +1,26 @@
+{
+  "NAME": "ARGinfer ",
+  "PMID": 35263345,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "ARGinfer ",
+  "DESCRIPTION": "Mahmoudi, A., Koskela, J., Kelleher, J., Chan, Y.-B. & Balding, D. Bayesian inference of ancestral recombination graphs. PLoS Comput. Biol. 18, e1009960 (2022).\n  ",
+  "TITLE": "Bayesian inference of ancestral recombination graphs.",
+  "ISO": "PLoS Comput Biol",
+  "JOURNAL": "PLoS computational biology",
+  "YEAR": "2022",
+  "VOLUME": "18",
+  "ISSUE": "3",
+  "PAGE": "e1009960",
+  "Authors": "Mahmoudi A,Koskela J,Kelleher J,Chan YB,Balding D",
+  "ABSTRACT": "We present a novel algorithm, implemented in the software ARGinfer, for probabilistic inference of the Ancestral Recombination Graph under the Coalescent with Recombination. Our Markov Chain Monte Carlo algorithm takes advantage of the Succinct Tree Sequence data structure that has allowed great advances in simulation and point estimation, but not yet probabilistic inference. Unlike previous methods, which employ the Sequentially Markov Coalescent approximation, ARGinfer uses the Coalescent with Recombination, allowing more accurate inference of key evolutionary parameters. We show using simulations that ARGinfer can accurately estimate many properties of the evolutionary history of the sample, including the topology and branch lengths of the genealogical tree at each sequence site, and the times and locations of mutation and recombination events. ARGinfer approximates posterior probability distributions for these and other quantities, providing interpretable assessments of uncertainty that we show to be well calibrated. ARGinfer is currently limited to tens of DNA sequences of several hundreds of kilobases, but has scope for further computational improvements to increase its applicability.",
+  "DOI": "10.1371/journal.pcbi.1009960",
+  "PMC ID": "PMC8936483",
+  "CITATION": "Mahmoudi A, Koskela J, Kelleher J, Chan YB, ...&, Balding D. (2022) Bayesian inference of ancestral recombination graphs. PLoS Comput Biol, 18 (3) e1009960. doi:10.1371/journal.pcbi.1009960. PMID 35263345",
+  "FIRST_AUTHOR": "Mahmoudi A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

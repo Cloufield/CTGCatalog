@@ -1,0 +1,30 @@
+{
+  "NAME": "GCTA-GREML-Bivariate",
+  "PMID": 22843982,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "GREML",
+  "FULL NAME": "Genome-wide complex trait analysis (GCTA) Genome-based restricted maximum likelihood (GREML)",
+  "KEYWORDS": "bivariate",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#GREML",
+  "DESCRIPTION": "(Bivariate GREML)",
+  "MANUAL_CITATION": " Lee, Sang Hong, et al. \"Estimation of pleiotropy between complex diseases using single-nucleotide polymorphism-derived genomic relationships and restricted maximum likelihood.\" Bioinformatics 28.19 (2012): 2540-2542.",
+  "TITLE": "Estimation of pleiotropy between complex diseases using single-nucleotide polymorphism-derived genomic relationships and restricted maximum likelihood.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2012",
+  "VOLUME": "28",
+  "ISSUE": "19",
+  "PAGE": "2540-2",
+  "Authors": "Lee SH,Yang J,Goddard ME,Visscher PM,Wray NR",
+  "ABSTRACT": "SUMMARY: Genetic correlations are the genome-wide aggregate effects of causal variants affecting multiple traits. Traditionally, genetic correlations between complex traits are estimated from pedigree studies, but such estimates can be confounded by shared environmental factors. Moreover, for diseases, low prevalence rates imply that even if the true genetic correlation between disorders was high, co-aggregation of disorders in families might not occur or could not be distinguished from chance. We have developed and implemented statistical methods based on linear mixed models to obtain unbiased estimates of the genetic correlation between pairs of quantitative traits or pairs of binary traits of complex diseases using population-based case-control studies with genome-wide single-nucleotide polymorphism data. The method is validated in a simulation study and applied to estimate genetic correlation between various diseases from Wellcome Trust Case Control Consortium data in a series of bivariate analyses. We estimate a significant positive genetic correlation between risk of Type 2 diabetes and hypertension of ~0.31 (SE 0.14, P = 0.024). AVAILABILITY: Our methods, appropriate for both quantitative and binary traits, are implemented in the freely available software GCTA (http://www.complextraitgenomics.com/software/gcta/reml_bivar.html). CONTACT: hong.lee@uq.edu.au SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/bts474",
+  "PMC ID": "PMC3463125",
+  "CITATION": "Lee SH, Yang J, Goddard ME, Visscher PM, ...&, Wray NR. (2012) Estimation of pleiotropy between complex diseases using single-nucleotide polymorphism-derived genomic relationships and restricted maximum likelihood. Bioinformatics, 28 (19) 2540-2. doi:10.1093/bioinformatics/bts474. PMID 22843982",
+  "FIRST_AUTHOR": "Lee SH",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

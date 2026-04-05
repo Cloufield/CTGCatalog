@@ -1,0 +1,30 @@
+{
+  "NAME": "FactorGO",
+  "PMID": 37879338,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "FactorGO",
+  "FULL NAME": "Factor analysis model in Genetic assOciation",
+  "KEYWORDS": "pleiotropy, factor analysis",
+  "URL": "https://github.com/mancusolab/FactorGo",
+  "DESCRIPTION": "FactorGo is a scalable variational factor analysis model that learns pleiotropic factors using GWAS summary statistics.",
+  "MANUAL_CITATION": "Zhang, Z., Jung, J., Kim, A., Suboc, N., Gazal, S., & Mancuso, N. (2023). A scalable variational approach to characterize pleiotropic components across thousands of human diseases and complex traits using GWAS summary statistics. medRxiv, 2023-03.",
+  "TITLE": "A scalable approach to characterize pleiotropy across thousands of human diseases and complex traits using GWAS summary statistics.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2023",
+  "VOLUME": "110",
+  "ISSUE": "11",
+  "PAGE": "1863-1874",
+  "Authors": "Zhang Z,Jung J,Kim A,Suboc N,Gazal S,Mancuso N",
+  "ABSTRACT": "Genome-wide association studies (GWASs) across thousands of traits have revealed the pervasive pleiotropy of trait-associated genetic variants. While methods have been proposed to characterize pleiotropic components across groups of phenotypes, scaling these approaches to ultra-large-scale biobanks has been challenging. Here, we propose FactorGo, a scalable variational factor analysis model to identify and characterize pleiotropic components using biobank GWAS summary data. In extensive simulations, we observe that FactorGo outperforms the state-of-the-art (model-free) approach tSVD in capturing latent pleiotropic factors across phenotypes while maintaining a similar computational cost. We apply FactorGo to estimate 100 latent pleiotropic factors from GWAS summary data of 2,483 phenotypes measured in European-ancestry Pan-UK BioBank individuals (N = 420,531). Next, we find that factors from FactorGo are more enriched with relevant tissue-specific annotations than those identified by tSVD (p = 2.58E-10) and validate our approach by recapitulating brain-specific enrichment for BMI and the height-related connection between reproductive system and muscular-skeletal growth. Finally, our analyses suggest shared etiologies between rheumatoid arthritis and periodontal condition in addition to alkaline phosphatase as a candidate prognostic biomarker for prostate cancer. Overall, FactorGo improves our biological understanding of shared etiologies across thousands of GWASs.",
+  "DOI": "10.1016/j.ajhg.2023.09.015",
+  "PMC ID": "PMC10645558",
+  "CITATION": "Zhang Z, Jung J, Kim A, Suboc N, ...&, Mancuso N. (2023) A scalable approach to characterize pleiotropy across thousands of human diseases and complex traits using GWAS summary statistics. Am J Hum Genet, 110 (11) 1863-1874. doi:10.1016/j.ajhg.2023.09.015. PMID 37879338",
+  "FIRST_AUTHOR": "Zhang Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

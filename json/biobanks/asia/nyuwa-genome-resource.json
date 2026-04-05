@@ -1,0 +1,16 @@
+{
+  "NAME": "NyuWa genome resource",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~3k",
+  "NOTE": "Health Institute of Biophysics, Chinese Academy of Sciences",
+  "MANUAL_CITATION": "Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.",
+  "URL": "http://bigdata.ibp.ac.cn/NyuWa/",
+  "DESCRIPTION": " NyuWa, or NüWa, is the mother goddess who was the creator of the human population in Chinese mythology. Here we presented the NyuWa genome resource based on high depth (median 26X) WGS of 2,999 Chinese individuals from 23 out of 34 administrative divisions in China. NyuWa Genome Resource present in this website mainly contains two parts as NyuWa Chinese Population Variant Database and NyuWa reference panel server.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Han Chinese individuals (NyuWa reference genomes)"
+}

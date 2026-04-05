@@ -1,0 +1,29 @@
+{
+  "NAME": "SUSIE",
+  "PMID": 37220626,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "SUSIE",
+  "FULL NAME": "sum of single effects",
+  "KEYWORDS": "fine-mapping, sum of single-effects (SuSiE) regression, iterative Bayesian stepwise selection (IBSS)",
+  "URL": "https://stephenslab.github.io/susieR/index.html",
+  "DESCRIPTION": "The susieR package implements a simple new way to perform variable selection in multiple regression (y = Xb + e). The methods implemented here are particularly well-suited to settings where some of the X variables are highly correlated, and the true effects are highly sparse (e.g. <20 non-zero effects in the vector b). One example of this is genetic fine-mapping applications, and this application was a major motivation for developing these methods.",
+  "MANUAL_CITATION": "Wang, G., Sarkar, A., Carbonetto, P. & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine mapping. Journal of the Royal Statistical Society, Series B 82, 1273–1300. https://doi.org/10.1111/rssb.12388",
+  "TITLE": "A simple new approach to variable selection in regression, with application to genetic fine mapping.",
+  "ISO": "J R Stat Soc Series B Stat Methodol",
+  "JOURNAL": "Journal of the Royal Statistical Society. Series B, Statistical methodology",
+  "YEAR": "2020",
+  "VOLUME": "82",
+  "ISSUE": "5",
+  "PAGE": "1273-1300",
+  "Authors": "Wang G,Sarkar A,Carbonetto P,Stephens M",
+  "ABSTRACT": "We introduce a simple new approach to variable selection in linear regression, with a particular focus on quantifying uncertainty in which variables should be selected. The approach is based on a new model - the \"Sum of Single Effects\" (SuSiE) model - which comes from writing the sparse vector of regression coefficients as a sum of \"single-effect\" vectors, each with one non-zero element. We also introduce a corresponding new fitting procedure - Iterative Bayesian Stepwise Selection (IBSS) - which is a Bayesian analogue of stepwise selection methods. IBSS shares the computational simplicity and speed of traditional stepwise methods, but instead of selecting a single variable at each step, IBSS computes a distribution on variables that captures uncertainty in which variable to select. We provide a formal justification of this intuitive algorithm by showing that it optimizes a variational approximation to the posterior distribution under the SuSiE model. Further, this approximate posterior distribution naturally yields convenient novel summaries of uncertainty in variable selection, providing a Credible Set of variables for each selection. Our methods are particularly well-suited to settings where variables are highly correlated and detectable effects are sparse, both of which are characteristics of genetic fine-mapping applications. We demonstrate through numerical experiments that our methods outperform existing methods for this task, and illustrate their application to fine-mapping genetic variants influencing alternative splicing in human cell-lines. We also discuss the potential and challenges for applying these methods to generic variable selection problems.",
+  "DOI": "10.1111/rssb.12388",
+  "PMC ID": "PMC10201948",
+  "CITATION": "Wang G, Sarkar A, Carbonetto P, Stephens M. (2020) A simple new approach to variable selection in regression, with application to genetic fine mapping. J R Stat Soc Series B Stat Methodol, 82 (5) 1273-1300. doi:10.1111/rssb.12388. PMID 37220626",
+  "FIRST_AUTHOR": "Wang G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

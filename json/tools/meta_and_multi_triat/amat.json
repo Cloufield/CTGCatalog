@@ -1,0 +1,28 @@
+{
+  "NAME": "aMAT",
+  "PMID": 32540950,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "aMAT",
+  "FULL NAME": "adaptive multi-trait association test",
+  "MANUAL_YEAR": 2020,
+  "MANUAL_CITATION": "Wu, C. Multi-trait genome-wide analyses of the brain imaging phenotypes in UK Biobank. Genetics 215, 947–958 (2020).",
+  "TITLE": "Multi-trait Genome-Wide Analyses of the Brain Imaging Phenotypes in UK Biobank.",
+  "ISO": "Genetics",
+  "JOURNAL": "Genetics",
+  "YEAR": "2020",
+  "VOLUME": "215",
+  "ISSUE": "4",
+  "PAGE": "947-958",
+  "Authors": "Wu C",
+  "ABSTRACT": "Many genetic variants identified in genome-wide association studies (GWAS) are associated with multiple, sometimes seemingly unrelated, traits. This motivates multi-trait association analyses, which have successfully identified novel associated loci for many complex diseases. While appealing, most existing methods focus on analyzing a relatively small number of traits, and may yield inflated Type 1 error rates when a large number of traits need to be analyzed jointly. As deep phenotyping data are becoming rapidly available, we develop a novel method, referred to as aMAT (adaptive multi-trait association test), for multi-trait analysis of any number of traits. We applied aMAT to GWAS summary statistics for a set of 58 volumetric imaging derived phenotypes from the UK Biobank. aMAT had a genomic inflation factor of 1.04, indicating the Type 1 error rate was well controlled. More important, aMAT identified 24 distinct risk loci, 13 of which were ignored by standard GWAS. In comparison, the competing methods either had a suspicious genomic inflation factor or identified much fewer risk loci. Finally, four additional sets of traits have been analyzed and provided similar conclusions.",
+  "DOI": "10.1534/genetics.120.303242",
+  "PMC ID": "PMC7404235",
+  "CITATION": "Wu C. (2020) Multi-trait Genome-Wide Analyses of the Brain Imaging Phenotypes in UK Biobank. Genetics, 215 (4) 947-958. doi:10.1534/genetics.120.303242. PMID 32540950",
+  "FIRST_AUTHOR": "Wu C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

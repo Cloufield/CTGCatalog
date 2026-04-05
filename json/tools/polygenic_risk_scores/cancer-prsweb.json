@@ -1,0 +1,30 @@
+{
+  "NAME": "Cancer PRSweb",
+  "PMID": 32991828,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "SHORT NAME": "Cancer PRSweb",
+  "FULL NAME": "Cancer PRSweb",
+  "KEYWORDS": "Cancer PRS",
+  "URL": "https://prsweb.sph.umich.edu:8443/",
+  "DESCRIPTION": "Our framework condenses these summary statistics into PRS using linkage disequilibrium pruning and p-value thresholding (fixed or data-adaptively optimized thresholds) or penalized, genome-wide effect size weighting. We evaluate them in the cancer-enriched cohort of the Michigan Genomics Initiative (MGI), a longitudinal biorepository effort at Michigan Medicine, and in the population-based UK Biobank Study (UKB). For each PRS construct, measures on performance, calibration, and discrimination are provided. Beyond the cancer PRS evaluation in MGI and UKB, the PRSweb platform features construct downloads, risk evaluation in the top percentiles, and phenome-wide PRS association studies (PRS-PheWAS) for a subset of PRS that are predictive for the primary cancer.",
+  "MANUAL_CITATION": "Fritsche, L. G., Patil, S., Beesley, L. J., VandeHaar, P., Salvatore, M., Ma, Y., ... & Mukherjee, B. (2020). Cancer PRSweb: an online repository with polygenic risk scores for major cancer traits and their evaluation in two independent biobanks. The American Journal of Human Genetics, 107(5), 815-836.",
+  "TITLE": "Cancer PRSweb: An Online Repository with Polygenic Risk Scores for Major Cancer Traits and Their Evaluation in Two Independent Biobanks.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2020",
+  "VOLUME": "107",
+  "ISSUE": "5",
+  "PAGE": "815-836",
+  "Authors": "Fritsche LG,Patil S,Beesley LJ,VandeHaar P,Salvatore M,Ma Y,Peng RB,Taliun D,Zhou X,Mukherjee B",
+  "ABSTRACT": "To facilitate scientific collaboration on polygenic risk scores (PRSs) research, we created an extensive PRS online repository for 35 common cancer traits integrating freely available genome-wide association studies (GWASs) summary statistics from three sources: published GWASs, the NHGRI-EBI GWAS Catalog, and UK Biobank-based GWASs. Our framework condenses these summary statistics into PRSs using various approaches such as linkage disequilibrium pruning/p value thresholding (fixed or data-adaptively optimized thresholds) and penalized, genome-wide effect size weighting. We evaluated the PRSs in two biobanks: the Michigan Genomics Initiative (MGI), a longitudinal biorepository effort at Michigan Medicine, and the population-based UK Biobank (UKB). For each PRS construct, we provide measures on predictive performance and discrimination. Besides PRS evaluation, the Cancer-PRSweb platform features construct downloads and phenome-wide PRS association study results (PRS-PheWAS) for predictive PRSs. We expect this integrated platform to accelerate PRS-related cancer research.",
+  "DOI": "10.1016/j.ajhg.2020.08.025",
+  "PMC ID": "PMC7675001",
+  "CITATION": "Fritsche LG, Patil S, Beesley LJ, VandeHaar P, ...&, Mukherjee B. (2020) Cancer PRSweb: An Online Repository with Polygenic Risk Scores for Major Cancer Traits and Their Evaluation in Two Independent Biobanks. Am J Hum Genet, 107 (5) 815-836. doi:10.1016/j.ajhg.2020.08.025. PMID 32991828",
+  "FIRST_AUTHOR": "Fritsche LG",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

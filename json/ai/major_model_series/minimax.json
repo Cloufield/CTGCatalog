@@ -1,0 +1,13 @@
+{
+  "NAME": "MiniMax",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "MiniMax",
+  "URL": "https://www.minimax.io",
+  "DESCRIPTION": "MiniMax’s text, voice, and video model ecosystem for chat, APIs, and creative / agent applications.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "NAME": "pgsc_calc",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Pipeline",
+  "TYPE": "Tools",
+  "SHORT NAME": "pgsc_calc",
+  "FULL NAME": "The Polygenic Score Catalog Calculator",
+  "KEYWORDS": "PRS calculation pipeline",
+  "URL": "https://github.com/PGScatalog/pgsc_calc",
+  "DESCRIPTION": "pgsc_calc is a bioinformatics best-practice analysis pipeline for calculating polygenic [risk] scores on samples with imputed genotypes using existing scoring files from the Polygenic Score (PGS) Catalog and/or user-defined PGS/PRS.",
+  "MANUAL_CITATION": "Lambert, Wingfield et al. (2024) The Polygenic Score Catalog: new functionality and tools to enable FAIR research. medRxiv. doi:10.1101/2024.05.29.24307783.",
+  "CITATION": "Lambert, Wingfield et al. (2024) The Polygenic Score Catalog: new functionality and tools to enable FAIR research. medRxiv. doi:10.1101/2024.05.29.24307783.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

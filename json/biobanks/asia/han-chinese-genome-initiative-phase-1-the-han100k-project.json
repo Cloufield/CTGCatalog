@@ -1,0 +1,17 @@
+{
+  "NAME": "Han Chinese Genome Initiative Phase 1 the Han100K Project",
+  "SHORT NAME": "Han100K",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~114k",
+  "NOTE": "PGG.Han\nShanghaiTech University; University of Chinese Academy of Sciences",
+  "MANUAL_CITATION": "Gao, Y., Zhang, C., Yuan, L., Ling, Y., Wang, X., Liu, C., ... & Xu, S. (2020). PGG. Han: the Han Chinese genome database and analysis platform. Nucleic acids research, 48(D1), D971-D976.",
+  "URL": "https://www.hanchinesegenomes.org/",
+  "DESCRIPTION": "a reference panel of 114 783 Han Chinese individuals (the Han100K), with whole-genome deep-sequenced or high-density genome-wide single-nucleotide variants (SNVs) genotyped or imputed.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Han Chinese adults (reference genomes)"
+}

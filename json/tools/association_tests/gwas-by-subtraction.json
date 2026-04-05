@@ -1,0 +1,28 @@
+{
+  "NAME": "GWAS-by-Subtraction",
+  "PMID": 33414549,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Other",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWAS-by-Subtraction",
+  "FULL NAME": "GWAS-by-Subtraction",
+  "URL": "https://github.com/GenomicSEM/GenomicSEM",
+  "MANUAL_CITATION": "Demange, P. , Malanchini, M., Biroli P., Cox, S., Grotzinger, A. D., Mallard, T., Tucker-Drob E. M., Abdellaoui A., Arseneault, L., Caspi, A., Corcoran, D., Domingue B., Mitchell C., van Bergen E., Boomsma D. I., Harris K. M. Ip H. F., Moffitt, T. E., Poulton, R., Prinz, J., Karen Sugden, K., Wertz J., Williams, B., de Zeeuw E. L., Belsky D. W., Harden K. P., & Nivard M. G. (2021). Investigating the genetic architecture of non-cognitive skills using GWAS-by-subtraction. Nature Genetics, 53, 35-44.",
+  "TITLE": "Investigating the genetic architecture of noncognitive skills using GWAS-by-subtraction.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "1",
+  "PAGE": "35-44",
+  "Authors": "Demange PA,Malanchini M,Mallard TT,Biroli P,Cox SR,Grotzinger AD,Tucker-Drob EM,Abdellaoui A,Arseneault L,van Bergen E,Boomsma DI,Caspi A,Corcoran DL,Domingue BW,Harris KM,Ip HF,Mitchell C,Moffitt TE,Poulton R,Prinz JA,Sugden K,Wertz J,Williams BS,de Zeeuw EL,Belsky DW,Harden KP,Nivard MG",
+  "ABSTRACT": "Little is known about the genetic architecture of traits affecting educational attainment other than cognitive ability. We used genomic structural equation modeling and prior genome-wide association studies (GWASs) of educational attainment (n = 1,131,881) and cognitive test performance (n = 257,841) to estimate SNP associations with educational attainment variation that is independent of cognitive ability. We identified 157 genome-wide-significant loci and a polygenic architecture accounting for 57% of genetic variance in educational attainment. Noncognitive genetics were enriched in the same brain tissues and cell types as cognitive performance, but showed different associations with gray-matter brain volumes. Noncognitive genetics were further distinguished by associations with personality traits, less risky behavior and increased risk for certain psychiatric disorders. For socioeconomic success and longevity, noncognitive and cognitive-performance genetics demonstrated associations of similar magnitude. By conducting a GWAS of a phenotype that was not directly measured, we offer a view of genetic architecture of noncognitive skills influencing educational success.",
+  "DOI": "10.1038/s41588-020-00754-2",
+  "PMC ID": "PMC7116735",
+  "CITATION": "Demange PA, Malanchini M, Mallard TT, Biroli P, ...&, Nivard MG. (2021) Investigating the genetic architecture of noncognitive skills using GWAS-by-subtraction. Nat Genet, 53 (1) 35-44. doi:10.1038/s41588-020-00754-2. PMID 33414549",
+  "FIRST_AUTHOR": "Demange PA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

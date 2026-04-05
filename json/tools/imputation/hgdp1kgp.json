@@ -1,0 +1,28 @@
+{
+  "NAME": "HGDP+1kGP",
+  "PMID": 38749656,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "HGDP+1kGP",
+  "FULL NAME": "Human Genome Diversity Project + 1000 Genomes project",
+  "URL": "https://gnomad.broadinstitute.org/news/2020-10-gnomad-v3-1-new-content-methods-annotations-and-data-availability/#the-gnomad-hgdp-and-1000-genomes-callset",
+  "MANUAL_CITATION": "Koenig, Z., Yohannes, M. T., Nkambule, L. L., Goodrich, J. K., Kim, H. A., Zhao, X., ... & Martin, A. R. (2023). A harmonized public resource of deeply sequenced diverse human genomes. bioRxiv, 2023-01.",
+  "TITLE": "A harmonized public resource of deeply sequenced diverse human genomes.",
+  "ISO": "Genome Res",
+  "JOURNAL": "Genome research",
+  "YEAR": "2024",
+  "VOLUME": "34",
+  "ISSUE": "5",
+  "PAGE": "796-809",
+  "Authors": "Koenig Z,Yohannes MT,Nkambule LL,Zhao X,Goodrich JK,Kim HA,Wilson MW,Tiao G,Hao SP,Sahakian N,Chao KR,Walker MA,Lyu Y,gnomAD Project Consortium,Rehm HL,Neale BM,Talkowski ME,Daly MJ,Brand H,Karczewski KJ,Atkinson EG,Martin AR",
+  "ABSTRACT": "Underrepresented populations are often excluded from genomic studies owing in part to a lack of resources supporting their analyses. The 1000 Genomes Project (1kGP) and Human Genome Diversity Project (HGDP), which have recently been sequenced to high coverage, are valuable genomic resources because of the global diversity they capture and their open data sharing policies. Here, we harmonized a high-quality set of 4094 whole genomes from 80 populations in the HGDP and 1kGP with data from the Genome Aggregation Database (gnomAD) and identified over 153 million high-quality SNVs, indels, and SVs. We performed a detailed ancestry analysis of this cohort, characterizing population structure and patterns of admixture across populations, analyzing site frequency spectra, and measuring variant counts at global and subcontinental levels. We also show substantial added value from this data set compared with the prior versions of the component resources, typically combined via liftOver and variant intersection; for example, we catalog millions of new genetic variants, mostly rare, compared with previous releases. In addition to unrestricted individual-level public release, we provide detailed tutorials for conducting many of the most common quality-control steps and analyses with these data in a scalable cloud-computing environment and publicly release this new phased joint callset for use as a haplotype resource in phasing and imputation pipelines. This jointly called reference panel will serve as a key resource to support research of diverse ancestry populations.",
+  "DOI": "10.1101/gr.278378.123",
+  "PMC ID": "PMC11216312",
+  "CITATION": "Koenig Z, Yohannes MT, Nkambule LL, Zhao X, ...&, Martin AR. (2024) A harmonized public resource of deeply sequenced diverse human genomes. Genome Res, 34 (5) 796-809. doi:10.1101/gr.278378.123. PMID 38749656",
+  "FIRST_AUTHOR": "Koenig Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

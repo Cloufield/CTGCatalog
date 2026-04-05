@@ -1,0 +1,29 @@
+{
+  "NAME": "UKB exome",
+  "PMID": 34375979,
+  "URL": "https://azphewas.com/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "Datasets",
+  "MANUAL_CITATION": "\nWang, Q. et al. Rare variant contribution to human disease in 281,104 UK Biobank exomes. Nature 597, 527–532 (2021).\n  \n",
+  "TITLE": "Rare variant contribution to human disease in 281,104 UK Biobank exomes.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2021",
+  "VOLUME": "597",
+  "ISSUE": "7877",
+  "PAGE": "527-532",
+  "Authors": "Wang Q,Dhindsa RS,Carss K,Harper AR,Nag A,Tachmazidou I,Vitsios D,Deevi SVV,Mackay A,Muthas D,Hühn M,Monkley S,Olsson H,AstraZeneca Genomics Initiative,Wasilewski S,Smith KR,March R,Platt A,Haefliger C,Petrovski S",
+  "ABSTRACT": "Genome-wide association studies have uncovered thousands of common variants associated with human disease, but the contribution of rare variants to common disease remains relatively unexplored. The UK Biobank contains detailed phenotypic data linked to medical records for approximately 500,000 participants, offering an unprecedented opportunity to evaluate the effect of rare variation on a broad collection of traits1,2. Here we study the relationships between rare protein-coding variants and 17,361 binary and 1,419 quantitative phenotypes using exome sequencing data from 269,171 UK Biobank participants of European ancestry. Gene-based collapsing analyses revealed 1,703 statistically significant gene-phenotype associations for binary traits, with a median odds ratio of 12.4. Furthermore, 83% of these associations were undetectable via single-variant association tests, emphasizing the power of gene-based collapsing analysis in the setting of high allelic heterogeneity. Gene-phenotype associations were also significantly enriched for loss-of-function-mediated traits and approved drug targets. Finally, we performed ancestry-specific and pan-ancestry collapsing analyses using exome sequencing data from 11,933 UK Biobank participants of African, East Asian or South Asian ancestry. Our results highlight a significant contribution of rare variants to common disease. Summary statistics are publicly available through an interactive portal ( http://azphewas.com/ ).",
+  "DOI": "10.1038/s41586-021-03855-y",
+  "PMC ID": "PMC8458098",
+  "CITATION": "Wang Q, Dhindsa RS, Carss K, Harper AR, ...&, Petrovski S. (2021) Rare variant contribution to human disease in 281,104 UK Biobank exomes. Nature, 597 (7877) 527-532. doi:10.1038/s41586-021-03855-y. PMID 34375979",
+  "FIRST_AUTHOR": "Wang Q",
+  "DESCRIPTION": "UK Biobank exome sequence-based GWAS summary statistics (gene- and variant-level association resource).",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

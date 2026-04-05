@@ -1,0 +1,28 @@
+{
+  "NAME": "cS2G",
+  "PMID": 35668300,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_prioritization",
+  "TYPE": "Tools",
+  "SHORT NAME": "cS2G",
+  "FULL NAME": "optimal combined S2G strategy",
+  "URL": "https://alkesgroup.broadinstitute.org/cS2G/code",
+  "DESCRIPTION": "heritability-based framework for evaluating and combining different S2G strategies to optimize their informativeness for common disease risk",
+  "MANUAL_CITATION": "Gazal, S., Weissbrod, O., Hormozdiari, F., Dey, K. K., Nasser, J., Jagadeesh, K. A., ... & Price, A. L. (2022). Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity. Nature Genetics, 54(6), 827-836.",
+  "TITLE": "Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "6",
+  "PAGE": "827-836",
+  "Authors": "Gazal S,Weissbrod O,Hormozdiari F,Dey KK,Nasser J,Jagadeesh KA,Weiner DJ,Shi H,Fulco CP,O'Connor LJ,Pasaniuc B,Engreitz JM,Price AL",
+  "ABSTRACT": "Disease-associated single-nucleotide polymorphisms (SNPs) generally do not implicate target genes, as most disease SNPs are regulatory. Many SNP-to-gene (S2G) linking strategies have been developed to link regulatory SNPs to the genes that they regulate in cis. Here, we developed a heritability-based framework for evaluating and combining different S2G strategies to optimize their informativeness for common disease risk. Our optimal combined S2G strategy (cS2G) included seven constituent S2G strategies and achieved a precision of 0.75 and a recall of 0.33, more than doubling the recall of any individual strategy. We applied cS2G to fine-mapping results for 49 UK Biobank diseases/traits to predict 5,095 causal SNP-gene-disease triplets (with S2G-derived functional interpretation) with high confidence. We further applied cS2G to provide an empirical assessment of disease omnigenicity; we determined that the top 1% of genes explained roughly half of the SNP heritability linked to all genes and that gene-level architectures vary with variant allele frequency.",
+  "DOI": "10.1038/s41588-022-01087-y",
+  "PMC ID": "PMC9894581",
+  "CITATION": "Gazal S, Weissbrod O, Hormozdiari F, Dey KK, ...&, Price AL. (2022) Combining SNP-to-gene linking strategies to identify disease genes and assess disease omnigenicity. Nat Genet, 54 (6) 827-836. doi:10.1038/s41588-022-01087-y. PMID 35668300",
+  "FIRST_AUTHOR": "Gazal S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

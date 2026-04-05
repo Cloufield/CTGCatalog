@@ -1,0 +1,27 @@
+{
+  "NAME": "Trans-Phar",
+  "PMID": 33577681,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "Trans-Phar",
+  "FULL NAME": "integration of Transcriptome-wide association study and Pharmacological database",
+  "URL": "https://github.com/konumat/Trans-Phar",
+  "DESCRIPTION": "This software achieves in silico screening of chemical compounds, which have inverse effects in expression profiles compared with genetically regulated gene expression of common diseases, from large-scale pharmacological database (Connectivity Map [CMap] L1000 library).",
+  "TITLE": "Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates.",
+  "ISO": "Hum Mol Genet",
+  "JOURNAL": "Human molecular genetics",
+  "YEAR": "2021",
+  "VOLUME": "30",
+  "ISSUE": "3-4",
+  "PAGE": "294-304",
+  "Authors": "Konuma T,Ogawa K,Okada Y",
+  "ABSTRACT": "Approaches toward new therapeutics using disease genomics, such as genome-wide association study (GWAS), are anticipated. Here, we developed Trans-Phar [integration of transcriptome-wide association study (TWAS) and pharmacological database], achieving in silico screening of compounds from a large-scale pharmacological database (L1000 Connectivity Map), which have inverse expression profiles compared with tissue-specific genetically regulated gene expression. Firstly we confirmed the statistical robustness by the application of the null GWAS data and enrichment in the true-positive drug-disease relationships by the application of UK-Biobank GWAS summary statistics in broad disease categories, then we applied the GWAS summary statistics of large-scale European meta-analysis (17 traits; naverage = 201 849) and the hospitalized COVID-19 (n = 900 687), which has urgent need for drug development. We detected potential therapeutic compounds as well as anisomycin in schizophrenia (false discovery rate (FDR)-q = 0.056) and verapamil in hospitalized COVID-19 (FDR-q = 0.068) as top-associated compounds. This approach could be effective in disease genomics-driven drug development.",
+  "DOI": "10.1093/hmg/ddab049",
+  "PMC ID": "PMC7928862",
+  "CITATION": "Konuma T, Ogawa K, Okada Y. (2021) Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates. Hum Mol Genet, 30 (3-4) 294-304. doi:10.1093/hmg/ddab049. PMID 33577681",
+  "FIRST_AUTHOR": "Konuma T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

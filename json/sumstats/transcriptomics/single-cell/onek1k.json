@@ -1,0 +1,26 @@
+{
+  "NAME": "OneK1k",
+  "PMID": 35389779,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "URL": "https://onek1k.org/",
+  "MANUAL_YEAR": 2022,
+  "MANUAL_CITATION": "Yazar, S., Alquicira-Hernandez, J., Wing, K., Senabouth, A., Gordon, M. G., Andersen, S., ... & Powell, J. E. (2022). Single-cell eQTL mapping identifies cell type–specific genetic control of autoimmune disease. Science, 376(6589), eabf3041.",
+  "TITLE": "Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2022",
+  "VOLUME": "376",
+  "ISSUE": "6589",
+  "PAGE": "eabf3041",
+  "Authors": "Yazar S,Alquicira-Hernandez J,Wing K,Senabouth A,Gordon MG,Andersen S,Lu Q,Rowson A,Taylor TRP,Clarke L,Maccora K,Chen C,Cook AL,Ye CJ,Fairfax KA,Hewitt AW,Powell JE",
+  "ABSTRACT": "The human immune system displays substantial variation between individuals, leading to differences in susceptibility to autoimmune disease. We present single-cell RNA sequencing (scRNA-seq) data from 1,267,758 peripheral blood mononuclear cells from 982 healthy human subjects. For 14 cell types, we identified 26,597 independent cis-expression quantitative trait loci (eQTLs) and 990 trans-eQTLs, with most showing cell type-specific effects on gene expression. We subsequently show how eQTLs have dynamic allelic effects in B cells that are transitioning from naïve to memory states and demonstrate how commonly segregating alleles lead to interindividual variation in immune function. Finally, using a Mendelian randomization approach, we identify the causal route by which 305 risk loci contribute to autoimmune disease at the cellular level. This work brings together genetic epidemiology with scRNA-seq to uncover drivers of interindividual variation in the immune system.",
+  "DOI": "10.1126/science.abf3041",
+  "PMC ID": "",
+  "CITATION": "Yazar S, Alquicira-Hernandez J, Wing K, Senabouth A, ...&, Powell JE. (2022) Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease. Science, 376 (6589) eabf3041. doi:10.1126/science.abf3041. PMID 35389779",
+  "FIRST_AUTHOR": "Yazar S",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

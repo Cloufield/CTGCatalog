@@ -1,0 +1,25 @@
+{
+  "NAME": "Review",
+  "PMID": 8936580,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Ottman, R. (1996). Gene–environment interaction: definitions and study design. Preventive medicine, 25(6), 764-770.\n",
+  "TITLE": "Gene-environment interaction: definitions and study designs.",
+  "ISO": "Prev Med",
+  "JOURNAL": "Preventive medicine",
+  "YEAR": "1996",
+  "VOLUME": "25",
+  "ISSUE": "6",
+  "PAGE": "764-70",
+  "Authors": "Ottman R",
+  "ABSTRACT": "Study of gene-environment interaction is important for improving accuracy and precision in the assessment of both genetic and environmental influences. This overview presents a simple definition of gene-environment interaction and suggests study designs for detecting it. Gene-environment interaction is defined as \"a different effect of an environmental exposure on disease risk in persons with different genotypes,\" or, alternatively, \"a different effect of a genotype on disease risk in persons with different environmental exposures.\" Under this strictly statistical definition, the presence or absence of interaction depends upon the scale of measurement (additive or multiplicative). The decision of which scale is appropriate will be governed by many factors, including the main objective of an investigation (discovery of etiology, public health prediction, etc.) and the hypothesized pathophysiologic model. Five biologically plausible models are described for the relations between genotypes and environmental exposures, in terms of their effects on disease risk. Each of these models leads to a different set of predictions about disease risk in individuals classified by presence or absence of a high-risk genotype and environmental exposure. Classification according to the exposure is relatively easy, using conventional epidemiologic methods. Classification according to the high-risk genotype is more difficult, but several alternative strategies are suggested.",
+  "DOI": "10.1006/pmed.1996.0117",
+  "PMC ID": "PMC2823480",
+  "CITATION": "Ottman R. (1996) Gene-environment interaction: definitions and study designs. Prev Med, 25 (6) 764-70. doi:10.1006/pmed.1996.0117. PMID 8936580",
+  "FIRST_AUTHOR": "Ottman R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

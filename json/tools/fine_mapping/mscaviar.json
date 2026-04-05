@@ -1,0 +1,29 @@
+{
+  "NAME": "MsCAVIAR",
+  "PMID": 34543273,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "MsCAVIAR",
+  "FULL NAME": "multiple study causal variants identification in associated regions",
+  "KEYWORDS": "multi-study finemapping",
+  "URL": "https://github.com/nlapier2/MsCAVIAR",
+  "DESCRIPTION": "MsCAVIAR is a method for fine-mapping (identifying causal variants among GWAS associated variants) by leveraging information from multiple studies. One important application area is trans-ethnic fine mapping.",
+  "MANUAL_CITATION": "LaPierre, N., Taraszka, K., Huang, H., He, R., Hormozdiari, F., & Eskin, E. (2021). Identifying causal variants by fine mapping across multiple studies. PLoS genetics, 17(9), e1009733.",
+  "TITLE": "Identifying causal variants by fine mapping across multiple studies.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2021",
+  "VOLUME": "17",
+  "ISSUE": "9",
+  "PAGE": "e1009733",
+  "Authors": "LaPierre N,Taraszka K,Huang H,He R,Hormozdiari F,Eskin E",
+  "ABSTRACT": "Increasingly large Genome-Wide Association Studies (GWAS) have yielded numerous variants associated with many complex traits, motivating the development of \"fine mapping\" methods to identify which of the associated variants are causal. Additionally, GWAS of the same trait for different populations are increasingly available, raising the possibility of refining fine mapping results further by leveraging different linkage disequilibrium (LD) structures across studies. Here, we introduce multiple study causal variants identification in associated regions (MsCAVIAR), a method that extends the popular CAVIAR fine mapping framework to a multiple study setting using a random effects model. MsCAVIAR only requires summary statistics and LD as input, accounts for uncertainty in association statistics using a multivariate normal model, allows for multiple causal variants at a locus, and explicitly models the possibility of different SNP effect sizes in different populations. We demonstrate the efficacy of MsCAVIAR in both a simulation study and a trans-ethnic, trans-biobank fine mapping analysis of High Density Lipoprotein (HDL).",
+  "DOI": "10.1371/journal.pgen.1009733",
+  "PMC ID": "PMC8491908",
+  "CITATION": "LaPierre N, Taraszka K, Huang H, He R, ...&, Eskin E. (2021) Identifying causal variants by fine mapping across multiple studies. PLoS Genet, 17 (9) e1009733. doi:10.1371/journal.pgen.1009733. PMID 34543273",
+  "FIRST_AUTHOR": "LaPierre N",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

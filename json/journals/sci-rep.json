@@ -1,0 +1,20 @@
+{
+  "NAME": "Scientific reports",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Sci Rep",
+  "JOURNAL": "Scientific reports",
+  "URL": "http://www.nature.com/srep/index.html",
+  "ENTRY_COUNT": 3,
+  "CITED_BY_SECTION": {
+    "Tools": 3
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "PES",
+    "Porter",
+    "SOMAmer"
+  ]
+}

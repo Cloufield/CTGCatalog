@@ -1,0 +1,30 @@
+{
+  "NAME": "SCENT",
+  "PMID": 38594305,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "SCENT",
+  "FULL NAME": "single-cell enhancer target gene mapping",
+  "KEYWORDS": "Possion regression, scATAC-seq, scRNA-seq",
+  "URL": "https://github.com/immunogenomics/SCENT",
+  "DESCRIPTION": "SCENT uses single-cell multimodal data (e.g., 10X Multiome RNA/ATAC) and links ATAC-seq peaks (putative enhancers) to their target genes by modeling association between chromatin accessibility and gene expression across individual single cells.",
+  "MANUAL_CITATION": "Sakaue, S., Weinand, K., Isaac, S., Dey, K. K., Jagadeesh, K., Kanai, M., ... & Raychaudhuri, S. (2024). Tissue-specific enhancer–gene maps from multimodal single-cell data identify causal disease alleles. Nature Genetics, 1-12.",
+  "ARROW_SUMMARY": "Extract chromatin accessibility (ATAC-seq) & gene expression (RNA-seq) from single cells → Group cells by type → For each gene, define candidate enhancers within 1 Mb → Use distance-weighted non-parametric regression to model enhancer–gene associations → Assess significance via permutation testing → Build enhancer–gene links per cell type",
+  "TITLE": "Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "4",
+  "PAGE": "615-626",
+  "Authors": "Sakaue S,Weinand K,Isaac S,Dey KK,Jagadeesh K,Kanai M,Watts GFM,Zhu Z,Accelerating Medicines Partnership® RA/SLE Program and Network,Brenner MB,McDavid A,Donlin LT,Wei K,Price AL,Raychaudhuri S",
+  "ABSTRACT": "Translating genome-wide association study (GWAS) loci into causal variants and genes requires accurate cell-type-specific enhancer-gene maps from disease-relevant tissues. Building enhancer-gene maps is essential but challenging with current experimental methods in primary human tissues. Here we developed a nonparametric statistical method, SCENT (single-cell enhancer target gene mapping), that models association between enhancer chromatin accessibility and gene expression in single-cell or nucleus multimodal RNA sequencing and ATAC sequencing data. We applied SCENT to 9 multimodal datasets including >120,000 single cells or nuclei and created 23 cell-type-specific enhancer-gene maps. These maps were highly enriched for causal variants in expression quantitative loci and GWAS for 1,143 diseases and traits. We identified likely causal genes for both common and rare diseases and linked somatic mutation hotspots to target genes. We demonstrate that application of SCENT to multimodal data from disease-relevant human tissue enables the scalable construction of accurate cell-type-specific enhancer-gene maps, essential for defining noncoding variant function.",
+  "DOI": "10.1038/s41588-024-01682-1",
+  "PMC ID": "PMC11456345",
+  "CITATION": "Sakaue S, Weinand K, Isaac S, Dey KK, ...&, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles. Nat Genet, 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305",
+  "FIRST_AUTHOR": "Sakaue S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

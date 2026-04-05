@@ -1,0 +1,28 @@
+{
+  "NAME": "MACH / minimach pre-phasing",
+  "PMID": 22820512,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "MACH / minimach pre-phasing",
+  "URL": "https://genome.sph.umich.edu/wiki/Minimac",
+  "DESCRIPTION": "(pre-phasing, minimac)",
+  "MANUAL_CITATION": " Howie, Bryan, et al. \"Fast and accurate genotype imputation in genome-wide association studies through pre-phasing.\" Nature genetics 44.8 (2012): 955-959.",
+  "TITLE": "Fast and accurate genotype imputation in genome-wide association studies through pre-phasing.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2012",
+  "VOLUME": "44",
+  "ISSUE": "8",
+  "PAGE": "955-9",
+  "Authors": "Howie B,Fuchsberger C,Stephens M,Marchini J,Abecasis GR",
+  "ABSTRACT": "The 1000 Genomes Project and disease-specific sequencing efforts are producing large collections of haplotypes that can be used as reference panels for genotype imputation in genome-wide association studies (GWAS). However, imputing from large reference panels with existing methods imposes a high computational burden. We introduce a strategy called 'pre-phasing' that maintains the accuracy of leading methods while reducing computational costs. We first statistically estimate the haplotypes for each individual within the GWAS sample (pre-phasing) and then impute missing genotypes into these estimated haplotypes. This reduces the computational cost because (i) the GWAS samples must be phased only once, whereas standard methods would implicitly repeat phasing with each reference panel update, and (ii) it is much faster to match a phased GWAS haplotype to one reference haplotype than to match two unphased GWAS genotypes to a pair of reference haplotypes. We implemented our approach in the MaCH and IMPUTE2 frameworks, and we tested it on data sets from the Wellcome Trust Case Control Consortium 2 (WTCCC2), the Genetic Association Information Network (GAIN), the Women's Health Initiative (WHI) and the 1000 Genomes Project. This strategy will be particularly valuable for repeated imputation as reference panels evolve.",
+  "DOI": "10.1038/ng.2354",
+  "PMC ID": "PMC3696580",
+  "CITATION": "Howie B, Fuchsberger C, Stephens M, Marchini J, ...&, Abecasis GR. (2012) Fast and accurate genotype imputation in genome-wide association studies through pre-phasing. Nat Genet, 44 (8) 955-9. doi:10.1038/ng.2354. PMID 22820512",
+  "FIRST_AUTHOR": "Howie B",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

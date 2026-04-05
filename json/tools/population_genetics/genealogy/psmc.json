@@ -1,0 +1,28 @@
+{
+  "NAME": "PSMC",
+  "PMID": 21753753,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "PSMC",
+  "USE": "This software package infers population size history from a diploid sequence\nusing the Pairwise Sequentially Markovian Coalescent (PSMC) model.",
+  "URL": "https://github.com/lh3/psmc",
+  "DESCRIPTION": "Li, H. & Durbin, R. Inference of human population history from individual whole-genome sequences. Nature 475, 493–496 (2011).",
+  "TITLE": "Inference of human population history from individual whole-genome sequences.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2011",
+  "VOLUME": "475",
+  "ISSUE": "7357",
+  "PAGE": "493-6",
+  "Authors": "Li H,Durbin R",
+  "ABSTRACT": "The history of human population size is important for understanding human evolution. Various studies have found evidence for a founder event (bottleneck) in East Asian and European populations, associated with the human dispersal out-of-Africa event around 60 thousand years (kyr) ago. However, these studies have had to assume simplified demographic models with few parameters, and they do not provide a precise date for the start and stop times of the bottleneck. Here, with fewer assumptions on population size changes, we present a more detailed history of human population sizes between approximately ten thousand and a million years ago, using the pairwise sequentially Markovian coalescent model applied to the complete diploid genome sequences of a Chinese male (YH), a Korean male (SJK), three European individuals (J. C. Venter, NA12891 and NA12878 (ref. 9)) and two Yoruba males (NA18507 (ref. 10) and NA19239). We infer that European and Chinese populations had very similar population-size histories before 10-20 kyr ago. Both populations experienced a severe bottleneck 10-60 kyr ago, whereas African populations experienced a milder bottleneck from which they recovered earlier. All three populations have an elevated effective population size between 60 and 250 kyr ago, possibly due to population substructure. We also infer that the differentiation of genetically modern humans may have started as early as 100-120 kyr ago, but considerable genetic exchanges may still have occurred until 20-40 kyr ago.",
+  "DOI": "10.1038/nature10231",
+  "PMC ID": "PMC3154645",
+  "CITATION": "Li H, Durbin R. (2011) Inference of human population history from individual whole-genome sequences. Nature, 475 (7357) 493-6. doi:10.1038/nature10231. PMID 21753753",
+  "FIRST_AUTHOR": "Li H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

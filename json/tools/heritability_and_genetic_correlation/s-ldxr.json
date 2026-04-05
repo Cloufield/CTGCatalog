@@ -1,0 +1,30 @@
+{
+  "NAME": "S-LDXR",
+  "PMID": 33597505,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "S-LDXR",
+  "FULL NAME": "S-LDXR",
+  "KEYWORDS": "trans-ethnic, stratified, functional categories",
+  "URL": "https://huwenboshi.github.io/s-ldxr/",
+  "DESCRIPTION": "S-LDXR is a software for estimating enrichment of stratified squared trans-ethnic genetic correlation across genomic annotations from GWAS summary statistics data.",
+  "MANUAL_CITATION": "Shi, H., Gazal, S., Kanai, M., Koch, E. M., Schoech, A. P., Siewert, K. M., ... & Price, A. L. (2021). Population-specific causal disease effect sizes in functionally important regions impacted by selection. Nature communications, 12(1), 1098.",
+  "TITLE": "Population-specific causal disease effect sizes in functionally important regions impacted by selection.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "1098",
+  "Authors": "Shi H,Gazal S,Kanai M,Koch EM,Schoech AP,Siewert KM,Kim SS,Luo Y,Amariuta T,Huang H,Okada Y,Raychaudhuri S,Sunyaev SR,Price AL",
+  "ABSTRACT": "Many diseases exhibit population-specific causal effect sizes with trans-ethnic genetic correlations significantly less than 1, limiting trans-ethnic polygenic risk prediction. We develop a new method, S-LDXR, for stratifying squared trans-ethnic genetic correlation across genomic annotations, and apply S-LDXR to genome-wide summary statistics for 31 diseases and complex traits in East Asians (average N = 90K) and Europeans (average N = 267K) with an average trans-ethnic genetic correlation of 0.85. We determine that squared trans-ethnic genetic correlation is 0.82× (s.e. 0.01) depleted in the top quintile of background selection statistic, implying more population-specific causal effect sizes. Accordingly, causal effect sizes are more population-specific in functionally important regions, including conserved and regulatory regions. In regions surrounding specifically expressed genes, causal effect sizes are most population-specific for skin and immune genes, and least population-specific for brain genes. Our results could potentially be explained by stronger gene-environment interaction at loci impacted by selection, particularly positive selection.",
+  "DOI": "10.1038/s41467-021-21286-1",
+  "PMC ID": "PMC7889654",
+  "CITATION": "Shi H, Gazal S, Kanai M, Koch EM, ...&, Price AL. (2021) Population-specific causal disease effect sizes in functionally important regions impacted by selection. Nat Commun, 12 (1) 1098. doi:10.1038/s41467-021-21286-1. PMID 33597505",
+  "FIRST_AUTHOR": "Shi H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "LDSC",
+  "PMID": 25642630,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDSC",
+  "FULL NAME": "LD Score Regression",
+  "URL": "https://github.com/bulik/ldsc",
+  "DESCRIPTION": "ldsc is a command line tool for estimating heritability and genetic correlation from GWAS summary statistics. ldsc also computes LD Scores.",
+  "MANUAL_CITATION": "Bulik-Sullivan, Brendan K., et al. \"LD Score regression distinguishes confounding from polygenicity in genome-wide association studies.\" Nature genetics 47.3 (2015): 291-295.",
+  "TITLE": "LD Score regression distinguishes confounding from polygenicity in genome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2015",
+  "VOLUME": "47",
+  "ISSUE": "3",
+  "PAGE": "291-5",
+  "Authors": "Bulik-Sullivan BK,Loh PR,Finucane HK,Ripke S,Yang J,Schizophrenia Working Group of the Psychiatric Genomics Consortium,Patterson N,Daly MJ,Price AL,Neale BM",
+  "ABSTRACT": "Both polygenicity (many small genetic effects) and confounding biases, such as cryptic relatedness and population stratification, can yield an inflated distribution of test statistics in genome-wide association studies (GWAS). However, current methods cannot distinguish between inflation from a true polygenic signal and bias. We have developed an approach, LD Score regression, that quantifies the contribution of each by examining the relationship between test statistics and linkage disequilibrium (LD). The LD Score regression intercept can be used to estimate a more powerful and accurate correction factor than genomic control. We find strong evidence that polygenicity accounts for the majority of the inflation in test statistics in many GWAS of large sample size.",
+  "DOI": "10.1038/ng.3211",
+  "PMC ID": "PMC4495769",
+  "CITATION": "Bulik-Sullivan BK, Loh PR, Finucane HK, Ripke S, ...&, Neale BM. (2015) LD Score regression distinguishes confounding from polygenicity in genome-wide association studies. Nat Genet, 47 (3) 291-5. doi:10.1038/ng.3211. PMID 25642630",
+  "FIRST_AUTHOR": "Bulik-Sullivan BK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

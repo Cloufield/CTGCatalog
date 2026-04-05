@@ -1,0 +1,33 @@
+{
+  "NAME": "ESM-2",
+  "CATEGORY": "Evolutionary and Generative Protein Models",
+  "SOURCE": "ESM-2",
+  "PMID": 36927031,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nLin, Z. et al. Evolutionary-scale prediction of atomic-level protein structure with a language model. Science 379, 1123–1130 (2023).\n  \n",
+  "TOPIC": "Function",
+  "URL": "https://esmatlas.com/",
+  "TYPE": "Model",
+  "DESCRIPTION": "Large-scale protein language model enabling structure/function prediction.",
+  "MANUAL_YEAR": 2023,
+  "SHORT NAME": "ESM-2",
+  "FULL NAME": "Evolutionary Scale Modeling v2",
+  "KEYWORDS": "transformer, LLM, structure, sequence",
+  "USE": "embeddings, structure prediction",
+  "TITLE": "Evolutionary-scale prediction of atomic-level protein structure with a language model.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2023",
+  "VOLUME": "379",
+  "ISSUE": "6637",
+  "PAGE": "1123-1130",
+  "Authors": "Lin Z,Akin H,Rao R,Hie B,Zhu Z,Lu W,Smetanin N,Verkuil R,Kabeli O,Shmueli Y,Dos Santos Costa A,Fazel-Zarandi M,Sercu T,Candido S,Rives A",
+  "ABSTRACT": "Recent advances in machine learning have leveraged evolutionary information in multiple sequence alignments to predict protein structure. We demonstrate direct inference of full atomic-level protein structure from primary sequence using a large language model. As language models of protein sequences are scaled up to 15 billion parameters, an atomic-resolution picture of protein structure emerges in the learned representations. This results in an order-of-magnitude acceleration of high-resolution structure prediction, which enables large-scale structural characterization of metagenomic proteins. We apply this capability to construct the ESM Metagenomic Atlas by predicting structures for >617 million metagenomic protein sequences, including >225 million that are predicted with high confidence, which gives a view into the vast breadth and diversity of natural proteins.",
+  "DOI": "10.1126/science.ade2574",
+  "PMC ID": "",
+  "CITATION": "Lin Z, Akin H, Rao R, Hie B, ...&, Rives A. (2023) Evolutionary-scale prediction of atomic-level protein structure with a language model. Science, 379 (6637) 1123-1130. doi:10.1126/science.ade2574. PMID 36927031",
+  "FIRST_AUTHOR": "Lin Z",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

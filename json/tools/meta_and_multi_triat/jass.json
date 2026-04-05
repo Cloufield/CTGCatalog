@@ -1,0 +1,29 @@
+{
+  "NAME": "JASS",
+  "PMID": 32002517,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "JASS",
+  "FULL NAME": "Joint Analysis of Summary Statistics",
+  "MANUAL_YEAR": 2020,
+  "URL": "https://gitlab.pasteur.fr/statistical-genetics/jass",
+  "DESCRIPTION": "JASS is a python package that handles the computation of the joint statistics over sets of selected GWAS results, and the interactive exploration of the results through a web interface. The generation of joint statistics over a set of selected studies, and the generation of static plots to display the results, is easily performed using the command line interface. These functionalities can also be accessed through a web application embedded in the python package, which also enables the exploration of the results through a dynamic Javascript interface. The JASS analysis module handles the data processing, going from the import of the data up to the computation of the joint statistics and the generation of the various static plots to illustrate the results. However, we also briefly describe in the next section the pre-processing of raw GWAS data which can be performed through a companion script provided on behalf of the JASS package.",
+  "TITLE": "JASS: command line and web interface for the joint analysis of GWAS results.",
+  "ISO": "NAR Genom Bioinform",
+  "JOURNAL": "NAR genomics and bioinformatics",
+  "YEAR": "2020",
+  "VOLUME": "2",
+  "ISSUE": "1",
+  "PAGE": "lqaa003",
+  "Authors": "Julienne H,Lechat P,Guillemot V,Lasry C,Yao C,Araud R,Laville V,Vilhjalmsson B,Ménager H,Aschard H",
+  "ABSTRACT": "Genome-wide association study (GWAS) has been the driving force for identifying association between genetic variants and human phenotypes. Thousands of GWAS summary statistics covering a broad range of human traits and diseases are now publicly available. These GWAS have proven their utility for a range of secondary analyses, including in particular the joint analysis of multiple phenotypes to identify new associated genetic variants. However, although several methods have been proposed, there are very few large-scale applications published so far because of challenges in implementing these methods on real data. Here, we present JASS (Joint Analysis of Summary Statistics), a polyvalent Python package that addresses this need. Our package incorporates recently developed joint tests such as the omnibus approach and various weighted sum of Z-score tests while solving all practical and computational barriers for large-scale multivariate analysis of GWAS summary statistics. This includes data cleaning and harmonization tools, an efficient algorithm for fast derivation of joint statistics, an optimized data management process and a web interface for exploration purposes. Both benchmark analyses and real data applications demonstrated the robustness and strong potential of JASS for the detection of new associated genetic variants. Our package is freely available at https://gitlab.pasteur.fr/statistical-genetics/jass.",
+  "DOI": "10.1093/nargab/lqaa003",
+  "PMC ID": "PMC6978790",
+  "CITATION": "Julienne H, Lechat P, Guillemot V, Lasry C, ...&, Aschard H. (2020) JASS: command line and web interface for the joint analysis of GWAS results. NAR Genom Bioinform, 2 (1) lqaa003. doi:10.1093/nargab/lqaa003. PMID 32002517",
+  "FIRST_AUTHOR": "Julienne H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

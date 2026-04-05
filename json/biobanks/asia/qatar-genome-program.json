@@ -1,0 +1,17 @@
+{
+  "NAME": "Qatar Genome Program",
+  "SHORT NAME": "QGP",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~6K",
+  "NOTE": "Part of Qatar Biobank",
+  "MANUAL_CITATION": "RAZALI, Rozaimi Mohamad, et al. Thousands of Qatari genomes inform human migration history and improve imputation of Arab haplotypes. Nature Communications, 2021, 12.1: 5929.",
+  "DESCRIPTION": "National sequencing initiative profiling thousands of Qatari genomes (linked with Qatar Biobank) to study migration history and improve imputation and analysis of Arab haplotypes.",
+  "URL": "https://www.qatargenome.org.qa/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "Middle Eastern (Qatari Arab)",
+  "PARTICIPANTS": "Qatari individuals (national sequencing; linked with Qatar Biobank)"
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "ProteinBERT",
+  "CATEGORY": "Evolutionary and Generative Protein Models",
+  "SOURCE": "ProteinBERT",
+  "PMID": 35020807,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nBrandes, N., Ofer, D., Peleg, Y., Rappoport, N. & Linial, M. ProteinBERT: a universal deep-learning model of protein sequence and function. Bioinformatics 38, 2102–2110 (2022).\n",
+  "TOPIC": "Function",
+  "TITLE": "ProteinBERT: a universal deep-learning model of protein sequence and function.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2022",
+  "VOLUME": "38",
+  "ISSUE": "8",
+  "PAGE": "2102-2110",
+  "Authors": "Brandes N,Ofer D,Peleg Y,Rappoport N,Linial M",
+  "ABSTRACT": "SUMMARY: Self-supervised deep language modeling has shown unprecedented success across natural language tasks, and has recently been repurposed to biological sequences. However, existing models and pretraining methods are designed and optimized for text analysis. We introduce ProteinBERT, a deep language model specifically designed for proteins. Our pretraining scheme combines language modeling with a novel task of Gene Ontology (GO) annotation prediction. We introduce novel architectural elements that make the model highly efficient and flexible to long sequences. The architecture of ProteinBERT consists of both local and global representations, allowing end-to-end processing of these types of inputs and outputs. ProteinBERT obtains near state-of-the-art performance, and sometimes exceeds it, on multiple benchmarks covering diverse protein properties (including protein structure, post-translational modifications and biophysical attributes), despite using a far smaller and faster model than competing deep-learning methods. Overall, ProteinBERT provides an efficient framework for rapidly training protein predictors, even with limited labeled data. AVAILABILITY AND IMPLEMENTATION: Code and pretrained model weights are available at https://github.com/nadavbra/protein_bert. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btac020",
+  "PMC ID": "PMC9386727",
+  "CITATION": "Brandes N, Ofer D, Peleg Y, Rappoport N, ...&, Linial M. (2022) ProteinBERT: a universal deep-learning model of protein sequence and function. Bioinformatics, 38 (8) 2102-2110. doi:10.1093/bioinformatics/btac020. PMID 35020807",
+  "FIRST_AUTHOR": "Brandes N",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

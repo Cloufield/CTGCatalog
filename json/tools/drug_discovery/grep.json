@@ -1,0 +1,27 @@
+{
+  "NAME": "GREP",
+  "PMID": 30859178,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "GREP",
+  "FULL NAME": "Genome for REPositioning drugs",
+  "URL": "https://github.com/saorisakaue/GREP",
+  "DESCRIPTION": " GREP can quantify an enrichment of the user-defined set of genes in the target of clinical indication categories and capture potentially repositionable drugs targeting the gene set. Both can be run in a few seconds!",
+  "TITLE": "GREP: genome for REPositioning drugs.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2019",
+  "VOLUME": "35",
+  "ISSUE": "19",
+  "PAGE": "3821-3823",
+  "Authors": "Sakaue S,Okada Y",
+  "ABSTRACT": "SUMMARY: Making use of accumulated genetic knowledge for clinical practice is our next goal in human genetics. Here we introduce GREP (Genome for REPositioning drugs), a standalone python software to quantify an enrichment of the user-defined set of genes in the target of clinical indication categories and to capture potentially repositionable drugs targeting the gene set. We show that genes identified by the large-scale genome-wide association studies were robustly enriched in the approved drugs to treat the trait of interest. This enrichment analysis was also highly applicable to other sets of biological genes such as those identified by gene expression studies and genes somatically mutated in cancers. This software should accelerate investigators to reposition drugs to other indications with the guidance of known genomics. AVAILABILITY AND IMPLEMENTATION: GREP is available at https://github.com/saorisakaue/GREP as a python source code. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btz166",
+  "PMC ID": "PMC6761931",
+  "CITATION": "Sakaue S, Okada Y. (2019) GREP: genome for REPositioning drugs. Bioinformatics, 35 (19) 3821-3823. doi:10.1093/bioinformatics/btz166. PMID 30859178",
+  "FIRST_AUTHOR": "Sakaue S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

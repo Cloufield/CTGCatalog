@@ -1,0 +1,29 @@
+{
+  "NAME": "SBayesS",
+  "PMID": 33608517,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Polygenicity",
+  "TYPE": "Tools",
+  "SHORT NAME": "SBayesS",
+  "FULL NAME": "SBayesS",
+  "URL": "https://cnsgenomics.com/software/gctb/#Overview",
+  "DESCRIPTION": "estimate multiple genetic architecture parameters including selection signature using only GWAS summary statistics",
+  "MANUAL_CITATION": "Zeng, J., Xue, A., Jiang, L., Lloyd-Jones, L. R., Wu, Y., Wang, H., ... & Yang, J. (2021). Widespread signatures of natural selection across human complex traits and functional genomic categories. Nature communications, 12(1), 1-12.",
+  "TITLE": "Widespread signatures of natural selection across human complex traits and functional genomic categories.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "1164",
+  "Authors": "Zeng J,Xue A,Jiang L,Lloyd-Jones LR,Wu Y,Wang H,Zheng Z,Yengo L,Kemper KE,Goddard ME,Wray NR,Visscher PM,Yang J",
+  "ABSTRACT": "Understanding how natural selection has shaped genetic architecture of complex traits is of importance in medical and evolutionary genetics. Bayesian methods have been developed using individual-level GWAS data to estimate multiple genetic architecture parameters including selection signature. Here, we present a method (SBayesS) that only requires GWAS summary statistics. We analyse data for 155 complex traits (n = 27k-547k) and project the estimates onto those obtained from evolutionary simulations. We estimate that, on average across traits, about 1% of human genome sequence are mutational targets with a mean selection coefficient of ~0.001. Common diseases, on average, show a smaller number of mutational targets and have been under stronger selection, compared to other traits. SBayesS analyses incorporating functional annotations reveal that selection signatures vary across genomic regions, among which coding regions have the strongest selection signature and are enriched for both the number of associated variants and the magnitude of effect sizes.",
+  "DOI": "10.1038/s41467-021-21446-3",
+  "PMC ID": "PMC7896067",
+  "CITATION": "Zeng J, Xue A, Jiang L, Lloyd-Jones LR, ...&, Yang J. (2021) Widespread signatures of natural selection across human complex traits and functional genomic categories. Nat Commun, 12 (1) 1164. doi:10.1038/s41467-021-21446-3. PMID 33608517",
+  "FIRST_AUTHOR": "Zeng J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

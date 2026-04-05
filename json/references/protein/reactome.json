@@ -1,0 +1,28 @@
+{
+  "NAME": "Reactome",
+  "PMID": 37941124,
+  "LAST_CHECK": 2025,
+  "SECTION": "References",
+  "TOPIC": "Protein",
+  "CATEGORY": "Pathway",
+  "KEYWORDS": "Pathway",
+  "MANUAL_CITATION": "Milacic, M. et al. The reactome pathway knowledgebase 2024. Nucleic Acids Res. 52, D672–D678 (2024).\n  ",
+  "URL": "https://reactome.org/",
+  "DESCRIPTION": "REACTOME is an open-source, open access, manually curated and peer-reviewed pathway database. Our goal is to provide intuitive bioinformatics tools for the visualization, interpretation and analysis of pathway knowledge to support basic and clinical research, genome analysis, modeling, systems biology and education. Founded in 2003, the Reactome project is led by Lincoln Stein of OICR, Peter D’Eustachio of NYU Langone Health, Henning Hermjakob of EMBL-EBI, and Guanming Wu of OHSU.",
+  "TITLE": "The Reactome Pathway Knowledgebase 2024.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2024",
+  "VOLUME": "52",
+  "ISSUE": "D1",
+  "PAGE": "D672-D678",
+  "Authors": "Milacic M,Beavers D,Conley P,Gong C,Gillespie M,Griss J,Haw R,Jassal B,Matthews L,May B,Petryszak R,Ragueneau E,Rothfels K,Sevilla C,Shamovsky V,Stephan R,Tiwari K,Varusai T,Weiser J,Wright A,Wu G,Stein L,Hermjakob H,D'Eustachio P",
+  "ABSTRACT": "The Reactome Knowledgebase (https://reactome.org), an Elixir and GCBR core biological data resource, provides manually curated molecular details of a broad range of normal and disease-related biological processes. Processes are annotated as an ordered network of molecular transformations in a single consistent data model. Reactome thus functions both as a digital archive of manually curated human biological processes and as a tool for discovering functional relationships in data such as gene expression profiles or somatic mutation catalogs from tumor cells. Here we review progress towards annotation of the entire human proteome, targeted annotation of disease-causing genetic variants of proteins and of small-molecule drugs in a pathway context, and towards supporting explicit annotation of cell- and tissue-specific pathways. Finally, we briefly discuss issues involved in making Reactome more fully interoperable with other related resources such as the Gene Ontology and maintaining the resulting community resource network.",
+  "DOI": "10.1093/nar/gkad1025",
+  "PMC ID": "PMC10767911",
+  "CITATION": "Milacic M, Beavers D, Conley P, Gong C, ...&, D'Eustachio P. (2024) The Reactome Pathway Knowledgebase 2024. Nucleic Acids Res, 52 (D1) D672-D678. doi:10.1093/nar/gkad1025. PMID 37941124",
+  "FIRST_AUTHOR": "Milacic M",
+  "_meta": {
+    "source_sheet": "Protein"
+  }
+}

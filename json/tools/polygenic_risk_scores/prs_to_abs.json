@@ -1,0 +1,30 @@
+{
+  "NAME": "PRS_to_Abs",
+  "PMID": 34983942,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRS_to_Abs",
+  "FULL NAME": "PRS_to_Abs",
+  "MANUAL_YEAR": 2022,
+  "URL": "https://opain.github.io/GenoPred/PRS_to_Abs_tool.html",
+  "DESCRIPTION": "Converting Polygenic Score to Absolute Scale",
+  "MANUAL_CITATION": "\nPain, O., Gillett, A. C., Austin, J. C., Folkersen, L. & Lewis, C. M. A tool for translating polygenic scores onto the absolute scale using summary statistics. Eur. J. Hum. Genet. 30, 339–348 (2022).\n  ",
+  "TITLE": "A tool for translating polygenic scores onto the absolute scale using summary statistics.",
+  "ISO": "Eur J Hum Genet",
+  "JOURNAL": "European journal of human genetics : EJHG",
+  "YEAR": "2022",
+  "VOLUME": "30",
+  "ISSUE": "3",
+  "PAGE": "339-348",
+  "Authors": "Pain O,Gillett AC,Austin JC,Folkersen L,Lewis CM",
+  "ABSTRACT": "There is growing interest in the clinical application of polygenic scores as their predictive utility increases for a range of health-related phenotypes. However, providing polygenic score predictions on the absolute scale is an important step for their safe interpretation. We have developed a method to convert polygenic scores to the absolute scale for binary and normally distributed phenotypes. This method uses summary statistics, requiring only the area-under-the-ROC curve (AUC) or variance explained (R2) by the polygenic score, and the prevalence of binary phenotypes, or mean and standard deviation of normally distributed phenotypes. Polygenic scores are converted using normal distribution theory. We also evaluate methods for estimating polygenic score AUC/R2 from genome-wide association study (GWAS) summary statistics alone. We validate the absolute risk conversion and AUC/R2 estimation using data for eight binary and three continuous phenotypes in the UK Biobank sample. When the AUC/R2 of the polygenic score is known, the observed and estimated absolute values were highly concordant. Estimates of AUC/R2 from the lassosum pseudovalidation method were most similar to the observed AUC/R2 values, though estimated values deviated substantially from the observed for autoimmune disorders. This study enables accurate interpretation of polygenic scores using only summary statistics, providing a useful tool for educational and clinical purposes. Furthermore, we have created interactive webtools implementing the conversion to the absolute ( https://opain.github.io/GenoPred/PRS_to_Abs_tool.html ). Several further barriers must be addressed before clinical implementation of polygenic scores, such as ensuring target individuals are well represented by the GWAS sample.",
+  "DOI": "10.1038/s41431-021-01028-z",
+  "PMC ID": "PMC8904577",
+  "CITATION": "Pain O, Gillett AC, Austin JC, Folkersen L, ...&, Lewis CM. (2022) A tool for translating polygenic scores onto the absolute scale using summary statistics. Eur J Hum Genet, 30 (3) 339-348. doi:10.1038/s41431-021-01028-z. PMID 34983942",
+  "FIRST_AUTHOR": "Pain O",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

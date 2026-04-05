@@ -1,0 +1,28 @@
+{
+  "NAME": "GPLEMMA",
+  "PMID": 33367483,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "GPLEMMA",
+  "FULL NAME": "Gaussian Prior Linear Environment Mixed Model Analysis",
+  "URL": "https://github.com/mkerin/LEMMA",
+  "DESCRIPTION": "GPLEMMA (Gaussian Prior Linear Environment Mixed Model Analysis) non-linear randomized Haseman-Elston regression method for flexible modeling of gene-environment interactions in large datasets such as the UK Biobank.",
+  "MANUAL_CITATION": "Kerin, M., & Marchini, J. (2020). A non-linear regression method for estimation of gene–environment heritability. Bioinformatics, 36(24), 5632-5639.",
+  "TITLE": "A non-linear regression method for estimation of gene-environment heritability.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2021",
+  "VOLUME": "36",
+  "ISSUE": "24",
+  "PAGE": "5632-5639",
+  "Authors": "Kerin M,Marchini J",
+  "ABSTRACT": "MOTIVATION: Gene-environment (GxE) interactions are one of the least studied aspects of the genetic architecture of human traits and diseases. The environment of an individual is inherently high dimensional, evolves through time and can be expensive and time consuming to measure. The UK Biobank study, with all 500 000 participants having undergone an extensive baseline questionnaire, represents a unique opportunity to assess GxE heritability for many traits and diseases in a well powered setting. RESULTS: We have developed a randomized Haseman-Elston non-linear regression method applicable when many environmental variables have been measured on each individual. The method (GPLEMMA) simultaneously estimates a linear environmental score (ES) and its GxE heritability. We compare the method via simulation to a whole-genome regression approach (LEMMA) for estimating GxE heritability. We show that GPLEMMA is more computationally efficient than LEMMA on large datasets, and produces results highly correlated with those from LEMMA when applied to simulated data and real data from the UK Biobank. AVAILABILITY AND IMPLEMENTATION: Software implementing the GPLEMMA method is available from https://jmarchini.org/gplemma/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btaa1079",
+  "PMC ID": "PMC8023682",
+  "CITATION": "Kerin M, Marchini J. (2021) A non-linear regression method for estimation of gene-environment heritability. Bioinformatics, 36 (24) 5632-5639. doi:10.1093/bioinformatics/btaa1079. PMID 33367483",
+  "FIRST_AUTHOR": "Kerin M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

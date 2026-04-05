@@ -1,0 +1,15 @@
+{
+  "NAME": "FinMetSeq",
+  "URL": "https://pheweb.sph.umich.edu/FinMetSeq/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Finnish metabolic sequencing cohort GWAS results (FinMetSeq) on the Michigan PheWeb.",
+  "MANUAL_CITATION": "FinMetSeq — Finnish blood metabolic trait GWAS (WGS/WES); summary statistics via University of Michigan PheWeb.",
+  "MANUAL_YEAR": 2022,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

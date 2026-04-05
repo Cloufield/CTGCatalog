@@ -1,0 +1,27 @@
+{
+  "NAME": "MSMC",
+  "PMID": 24952747,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "MSMC",
+  "URL": "https://github.com/stschiff/msmc",
+  "DESCRIPTION": "\nSchiffels, S. & Durbin, R. Inferring human population size and separation history from multiple genome sequences. Nat. Genet. 46, 919–925 (2014).\n  \n",
+  "TITLE": "Inferring human population size and separation history from multiple genome sequences.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2014",
+  "VOLUME": "46",
+  "ISSUE": "8",
+  "PAGE": "919-25",
+  "Authors": "Schiffels S,Durbin R",
+  "ABSTRACT": "The availability of complete human genome sequences from populations across the world has given rise to new population genetic inference methods that explicitly model ancestral relationships under recombination and mutation. So far, application of these methods to evolutionary history more recent than 20,000-30,000 years ago and to population separations has been limited. Here we present a new method that overcomes these shortcomings. The multiple sequentially Markovian coalescent (MSMC) analyzes the observed pattern of mutations in multiple individuals, focusing on the first coalescence between any two individuals. Results from applying MSMC to genome sequences from nine populations across the world suggest that the genetic separation of non-African ancestors from African Yoruban ancestors started long before 50,000 years ago and give information about human population history as recent as 2,000 years ago, including the bottleneck in the peopling of the Americas and separations within Africa, East Asia and Europe.",
+  "DOI": "10.1038/ng.3015",
+  "PMC ID": "PMC4116295",
+  "CITATION": "Schiffels S, Durbin R. (2014) Inferring human population size and separation history from multiple genome sequences. Nat Genet, 46 (8) 919-25. doi:10.1038/ng.3015. PMID 24952747",
+  "FIRST_AUTHOR": "Schiffels S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

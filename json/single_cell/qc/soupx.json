@@ -1,0 +1,26 @@
+{
+  "NAME": "SoupX",
+  "SECTION": "Single_Cell",
+  "PMID": 33367645,
+  "TOPIC": "QC",
+  "CATEGORY": "QC",
+  "MANUAL_YEAR": 2020,
+  "URL": "https://github.com/constantAmateur/SoupX",
+  "MANUAL_CITATION": "\nYoung, M. D. & Behjati, S. SoupX removes ambient RNA contamination from droplet-based single-cell RNA sequencing data. Gigascience 9, (2020).\n  \n",
+  "TITLE": "SoupX removes ambient RNA contamination from droplet-based single-cell RNA sequencing data.",
+  "ISO": "Gigascience",
+  "JOURNAL": "GigaScience",
+  "YEAR": "2020",
+  "VOLUME": "9",
+  "ISSUE": "12",
+  "PAGE": "",
+  "Authors": "Young MD,Behjati S",
+  "ABSTRACT": "BACKGROUND: Droplet-based single-cell RNA sequence analyses assume that all acquired RNAs are endogenous to cells. However, any cell-free RNAs contained within the input solution are also captured by these assays. This sequencing of cell-free RNA constitutes a background contamination that confounds the biological interpretation of single-cell transcriptomic data. RESULTS: We demonstrate that contamination from this \"soup\" of cell-free RNAs is ubiquitous, with experiment-specific variations in composition and magnitude. We present a method, SoupX, for quantifying the extent of the contamination and estimating \"background-corrected\" cell expression profiles that seamlessly integrate with existing downstream analysis tools. Applying this method to several datasets using multiple droplet sequencing technologies, we demonstrate that its application improves biological interpretation of otherwise misleading data, as well as improving quality control metrics. CONCLUSIONS: We present SoupX, a tool for removing ambient RNA contamination from droplet-based single-cell RNA sequencing experiments. This tool has broad applicability, and its application can improve the biological utility of existing and future datasets.",
+  "DOI": "10.1093/gigascience/giaa151",
+  "PMC ID": "PMC7763177",
+  "CITATION": "Young MD, Behjati S. (2020) SoupX removes ambient RNA contamination from droplet-based single-cell RNA sequencing data. Gigascience, 9 (12) . doi:10.1093/gigascience/giaa151. PMID 33367645",
+  "FIRST_AUTHOR": "Young MD",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

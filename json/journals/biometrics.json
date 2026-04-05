@@ -1,0 +1,18 @@
+{
+  "NAME": "Biometrics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Biometrics",
+  "JOURNAL": "Biometrics",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1111/(ISSN)1541-0420",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "TReCASE"
+  ]
+}

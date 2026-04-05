@@ -1,0 +1,11 @@
+{
+  "NAME": "CODELF",
+  "SECTION": "Coding",
+  "TOPIC": "General",
+  "TYPE": "Resource",
+  "URL": "https://unbug.github.io/codelf/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Variable-name search from real open-source projects."
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "MANTRA",
+  "PMID": 22125221,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Meta-analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "MANTRA",
+  "FULL NAME": "Meta-ANalysis of Transethnic Association studies",
+  "KEYWORDS": "cross-population",
+  "MANUAL_CITATION": "Morris, A. P. (2011). Transethnic meta‐analysis of genomewide association studies. Genetic epidemiology, 35(8), 809-822.",
+  "TITLE": "Transethnic meta-analysis of genomewide association studies.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2011",
+  "VOLUME": "35",
+  "ISSUE": "8",
+  "PAGE": "809-22",
+  "Authors": "Morris AP",
+  "ABSTRACT": "The detection of loci contributing effects to complex human traits, and their subsequent fine-mapping for the location of causal variants, remains a considerable challenge for the genetics research community. Meta-analyses of genomewide association studies, primarily ascertained from European-descent populations, have made considerable advances in our understanding of complex trait genetics, although much of their heritability is still unexplained. With the increasing availability of genomewide association data from diverse populations, transethnic meta-analysis may offer an exciting opportunity to increase the power to detect novel complex trait loci and to improve the resolution of fine-mapping of causal variants by leveraging differences in local linkage disequilibrium structure between ethnic groups. However, we might also expect there to be substantial genetic heterogeneity between diverse populations, both in terms of the spectrum of causal variants and their allelic effects, which cannot easily be accommodated through traditional approaches to meta-analysis. In order to address this challenge, I propose novel transethnic meta-analysis methodology that takes account of the expected similarity in allelic effects between the most closely related populations, while allowing for heterogeneity between more diverse ethnic groups. This approach yields substantial improvements in performance, compared to fixed-effects meta-analysis, both in terms of power to detect association, and localization of the causal variant, over a range of models of heterogeneity between ethnic groups. Furthermore, when the similarity in allelic effects between populations is well captured by their relatedness, this approach has increased power and mapping resolution over random-effects meta-analysis.",
+  "DOI": "10.1002/gepi.20630",
+  "PMC ID": "PMC3460225",
+  "CITATION": "Morris AP. (2011) Transethnic meta-analysis of genomewide association studies. Genet Epidemiol, 35 (8) 809-22. doi:10.1002/gepi.20630. PMID 22125221",
+  "FIRST_AUTHOR": "Morris AP",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

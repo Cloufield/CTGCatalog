@@ -1,0 +1,28 @@
+{
+  "NAME": "mvSuSiE",
+  "PMID": 41634413,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "mvSuSiE",
+  "FULL NAME": "mvSuSiE",
+  "KEYWORDS": "multi-trait, fine-mapping",
+  "URL": "https://github.com/stephenslab/mvsusieR",
+  "DESCRIPTION": "mvSuSiE extends the Sum of Single Effects (SuSiE) model to joint fine-mapping of multiple traits, improving power and resolution relative to separate single-trait analyses while remaining computationally practical.",
+  "TITLE": "Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "58",
+  "ISSUE": "2",
+  "PAGE": "454-462",
+  "Authors": "Zou Y,Carbonetto P,Xie D,Wang G,Stephens M",
+  "ABSTRACT": "We introduce mvSuSiE, a multitrait fine-mapping method, to identify putative causal variants from genetic association data (individual-level or summary). mvSuSiE learns patterns of shared genetic effects from data, and exploits these patterns to improve power to identify causal single nucleotide polymorphisms (SNPs). Comparisons on simulated data show that mvSuSiE is competitive in speed, power and precision with existing multitrait methods, and uniformly improves over single-trait fine-mapping (Sum of Single Effects) performed separately for each trait. We applied mvSuSiE to jointly fine-map 16 blood cell traits using data from the UK Biobank. By jointly analyzing traits and modeling heterogeneous effect-sharing patterns, we identified a substantially larger number of causal SNPs (>3,000) than single-trait fine-mapping and achieved narrower credible sets. mvSuSiE also more comprehensively characterized how genetic variants affect blood cell traits; 68% of causal SNPs showed significant effects across more than one blood cell type.",
+  "DOI": "10.1038/s41588-025-02486-7",
+  "PMC ID": "PMC12900646",
+  "CITATION": "Zou Y, Carbonetto P, Xie D, Wang G, ...&, Stephens M. (2026) Fast and flexible joint fine-mapping of multiple traits via the Sum of Single Effects model. Nat Genet, 58 (2) 454-462. doi:10.1038/s41588-025-02486-7. PMID 41634413",
+  "FIRST_AUTHOR": "Zou Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

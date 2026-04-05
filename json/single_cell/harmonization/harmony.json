@@ -1,0 +1,27 @@
+{
+  "NAME": "Harmony",
+  "SECTION": "Single_Cell",
+  "PMID": 31740819,
+  "TOPIC": "Harmonization",
+  "CATEGORY": "Harmonization",
+  "MANUAL_YEAR": 2019,
+  "URL": "https://github.com/immunogenomics/harmony",
+  "DESCRIPTION": "Fast, sensitive and accurate integration of single-cell data with Harmony",
+  "MANUAL_CITATION": "\nKorsunsky, I. et al. Fast, sensitive and accurate integration of single-cell data with Harmony. Nat. Methods 16, 1289–1296 (2019).\n  \n",
+  "TITLE": "Fast, sensitive and accurate integration of single-cell data with Harmony.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2019",
+  "VOLUME": "16",
+  "ISSUE": "12",
+  "PAGE": "1289-1296",
+  "Authors": "Korsunsky I,Millard N,Fan J,Slowikowski K,Zhang F,Wei K,Baglaenko Y,Brenner M,Loh PR,Raychaudhuri S",
+  "ABSTRACT": "The emerging diversity of single-cell RNA-seq datasets allows for the full transcriptional characterization of cell types across a wide variety of biological and clinical conditions. However, it is challenging to analyze them together, particularly when datasets are assayed with different technologies, because biological and technical differences are interspersed. We present Harmony (https://github.com/immunogenomics/harmony), an algorithm that projects cells into a shared embedding in which cells group by cell type rather than dataset-specific conditions. Harmony simultaneously accounts for multiple experimental and biological factors. In six analyses, we demonstrate the superior performance of Harmony to previously published algorithms while requiring fewer computational resources. Harmony enables the integration of ~106 cells on a personal computer. We apply Harmony to peripheral blood mononuclear cells from datasets with large experimental differences, five studies of pancreatic islet cells, mouse embryogenesis datasets and the integration of scRNA-seq with spatial transcriptomics data.",
+  "DOI": "10.1038/s41592-019-0619-0",
+  "PMC ID": "PMC6884693",
+  "CITATION": "Korsunsky I, Millard N, Fan J, Slowikowski K, ...&, Raychaudhuri S. (2019) Fast, sensitive and accurate integration of single-cell data with Harmony. Nat Methods, 16 (12) 1289-1296. doi:10.1038/s41592-019-0619-0. PMID 31740819",
+  "FIRST_AUTHOR": "Korsunsky I",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

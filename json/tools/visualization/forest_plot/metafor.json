@@ -1,0 +1,14 @@
+{
+  "NAME": "metafor",
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Forest_plot",
+  "TYPE": "Tools",
+  "SHORT NAME": "metafor",
+  "FULL NAME": "metafor",
+  "URL": "https://wviechtb.github.io/metafor/",
+  "MANUAL_CITATION": "Viechtbauer, W. (2010). Conducting meta-analyses in R with the metafor package. Journal of statistical software, 36(3), 1-48.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

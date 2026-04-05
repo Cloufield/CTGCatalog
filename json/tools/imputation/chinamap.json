@@ -1,0 +1,28 @@
+{
+  "NAME": "ChinaMAP",
+  "PMID": 34489580,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation server",
+  "TYPE": "Imputation server",
+  "SHORT NAME": "ChinaMAP",
+  "FULL NAME": "China Metabolic Analytics Project",
+  "URL": "http://www.mbiobank.com/",
+  "MANUAL_CITATION": "\nLi, L. et al. The ChinaMAP reference panel for the accurate genotype imputation in Chinese populations. Cell Res. 31, 1308–1310 (2021).\n  ",
+  "TITLE": "The ChinaMAP reference panel for the accurate genotype imputation in Chinese populations.",
+  "ISO": "Cell Res",
+  "JOURNAL": "Cell research",
+  "YEAR": "2021",
+  "VOLUME": "31",
+  "ISSUE": "12",
+  "PAGE": "1308-1310",
+  "Authors": "Li L,Huang P,Sun X,Wang S,Xu M,Liu S,Feng Z,Zhang Q,Wang X,Zheng X,Dai M,Bi Y,Ning G,Cao Y,Wang W",
+  "ABSTRACT": "",
+  "DOI": "10.1038/s41422-021-00564-z",
+  "PMC ID": "PMC8648815",
+  "CITATION": "Li L, Huang P, Sun X, Wang S, ...&, Wang W. (2021) The ChinaMAP reference panel for the accurate genotype imputation in Chinese populations. Cell Res, 31 (12) 1308-1310. doi:10.1038/s41422-021-00564-z. PMID 34489580",
+  "FIRST_AUTHOR": "Li L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

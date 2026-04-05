@@ -1,0 +1,26 @@
+{
+  "NAME": "HUGO Gene Nomenclature Committee",
+  "PMID": 32747822,
+  "SECTION": "References",
+  "TOPIC": "Gene",
+  "SHORT NAME": "HGNC ",
+  "FULL NAME": "Human Genome Organisation Gene Nomenclature Committee",
+  "MANUAL_CITATION": "Bruford, E. A. et al. Guidelines for human gene nomenclature. Nat. Genet. 52, 754–758 (2020).\n  ",
+  "URL": "https://www.genenames.org/",
+  "TITLE": "Guidelines for human gene nomenclature.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "8",
+  "PAGE": "754-758",
+  "Authors": "Bruford EA,Braschi B,Denny P,Jones TEM,Seal RL,Tweedie S",
+  "ABSTRACT": "Standardized gene naming is crucial for effective communication about genes, and as genomics becomes increasingly important in healthcare, the need for a consistent language for human genes becomes ever more vital. Here we present the current HUGO Gene Nomenclature Committee (HGNC) guidelines for naming not only protein-coding but also RNA genes and pseudogenes, and outline the changes in approach and ethos that have resulted from the discoveries of the last few decades.",
+  "DOI": "10.1038/s41588-020-0669-3",
+  "PMC ID": "PMC7494048",
+  "CITATION": "Bruford EA, Braschi B, Denny P, Jones TEM, ...&, Tweedie S. (2020) Guidelines for human gene nomenclature. Nat Genet, 52 (8) 754-758. doi:10.1038/s41588-020-0669-3. PMID 32747822",
+  "FIRST_AUTHOR": "Bruford EA",
+  "_meta": {
+    "source_sheet": "Gene"
+  }
+}

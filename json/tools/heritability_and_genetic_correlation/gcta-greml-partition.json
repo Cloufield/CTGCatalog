@@ -1,0 +1,29 @@
+{
+  "NAME": "GCTA-GREML-Partition",
+  "PMID": 21552263,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "GREML",
+  "FULL NAME": "Genome-wide complex trait analysis (GCTA) Genome-based restricted maximum likelihood (GREML)",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#GREML",
+  "DESCRIPTION": "(partition the genetic variance into individual chromosomes and genomic segments)",
+  "MANUAL_CITATION": " Yang, Jian, et al. \"Genome partitioning of genetic variation for complex traits using common SNPs.\" Nature genetics 43.6 (2011): 519-525.",
+  "TITLE": "Genome partitioning of genetic variation for complex traits using common SNPs.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2011",
+  "VOLUME": "43",
+  "ISSUE": "6",
+  "PAGE": "519-25",
+  "Authors": "Yang J,Manolio TA,Pasquale LR,Boerwinkle E,Caporaso N,Cunningham JM,de Andrade M,Feenstra B,Feingold E,Hayes MG,Hill WG,Landi MT,Alonso A,Lettre G,Lin P,Ling H,Lowe W,Mathias RA,Melbye M,Pugh E,Cornelis MC,Weir BS,Goddard ME,Visscher PM",
+  "ABSTRACT": "We estimate and partition genetic variation for height, body mass index (BMI), von Willebrand factor and QT interval (QTi) using 586,898 SNPs genotyped on 11,586 unrelated individuals. We estimate that ∼45%, ∼17%, ∼25% and ∼21% of the variance in height, BMI, von Willebrand factor and QTi, respectively, can be explained by all autosomal SNPs and a further ∼0.5-1% can be explained by X chromosome SNPs. We show that the variance explained by each chromosome is proportional to its length, and that SNPs in or near genes explain more variation than SNPs between genes. We propose a new approach to estimate variation due to cryptic relatedness and population stratification. Our results provide further evidence that a substantial proportion of heritability is captured by common SNPs, that height, BMI and QTi are highly polygenic traits, and that the additive variation explained by a part of the genome is approximately proportional to the total length of DNA contained within genes therein.",
+  "DOI": "10.1038/ng.823",
+  "PMC ID": "PMC4295936",
+  "CITATION": "Yang J, Manolio TA, Pasquale LR, Boerwinkle E, ...&, Visscher PM. (2011) Genome partitioning of genetic variation for complex traits using common SNPs. Nat Genet, 43 (6) 519-25. doi:10.1038/ng.823. PMID 21552263",
+  "FIRST_AUTHOR": "Yang J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "Carland",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 37550624,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "PEA/OLINK",
+  "MANUAL_YEAR": 2023,
+  "MANUAL_CITATION": "\nCarland, C. et al. Proteomic analysis of 92 circulating proteins and their effects in cardiometabolic diseases. Clin. Proteomics 20, 31 (2023).\n  ",
+  "TITLE": "Proteomic analysis of 92 circulating proteins and their effects in cardiometabolic diseases.",
+  "ISO": "Clin Proteomics",
+  "JOURNAL": "Clinical proteomics",
+  "YEAR": "2023",
+  "VOLUME": "20",
+  "ISSUE": "1",
+  "PAGE": "31",
+  "Authors": "Carland C,Png G,Malarstig A,Kho PF,Gustafsson S,Michaelsson K,Lind L,Tsafantakis E,Karaleftheri M,Dedoussis G,Ramisch A,Macdonald-Dunlop E,Klaric L,Joshi PK,Chen Y,Björck HM,Eriksson P,Carrasco-Zanini J,Wheeler E,Suhre K,Gilly A,Zeggini E,Viñuela A,Dermitzakis ET,Wilson JF,Langenberg C,Thareja G,Halama A,Schmidt F,SCALLOP Consortium,Zanetti D,Assimes T",
+  "ABSTRACT": "BACKGROUND: Human plasma contains a wide variety of circulating proteins. These proteins can be important clinical biomarkers in disease and also possible drug targets. Large scale genomics studies of circulating proteins can identify genetic variants that lead to relative protein abundance. METHODS: We conducted a meta-analysis on genome-wide association studies of autosomal chromosomes in 22,997 individuals of primarily European ancestry across 12 cohorts to identify protein quantitative trait loci (pQTL) for 92 cardiometabolic associated plasma proteins. RESULTS: We identified 503 (337 cis and 166 trans) conditionally independent pQTLs, including several novel variants not reported in the literature. We conducted a sex-stratified analysis and found that 118 (23.5%) of pQTLs demonstrated heterogeneity between sexes. The direction of effect was preserved but there were differences in effect size and significance. Additionally, we annotate trans-pQTLs with nearest genes and report plausible biological relationships. Using Mendelian randomization, we identified causal associations for 18 proteins across 19 phenotypes, of which 10 have additional genetic colocalization evidence. We highlight proteins associated with a constellation of cardiometabolic traits including angiopoietin-related protein 7 (ANGPTL7) and Semaphorin 3F (SEMA3F). CONCLUSION: Through large-scale analysis of protein quantitative trait loci, we provide a comprehensive overview of common variants associated with plasma proteins. We highlight possible biological relationships which may serve as a basis for further investigation into possible causal roles in cardiometabolic diseases.",
+  "DOI": "10.1186/s12014-023-09421-0",
+  "PMC ID": "PMC10405520",
+  "CITATION": "Carland C, Png G, Malarstig A, Kho PF, ...&, Assimes T. (2023) Proteomic analysis of 92 circulating proteins and their effects in cardiometabolic diseases. Clin Proteomics, 20 (1) 31. doi:10.1186/s12014-023-09421-0. PMID 37550624",
+  "FIRST_AUTHOR": "Carland C",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

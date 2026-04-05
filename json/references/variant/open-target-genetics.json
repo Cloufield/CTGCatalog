@@ -1,0 +1,12 @@
+{
+  "NAME": "Open Target Genetics",
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "Open Target Genetics",
+  "URL": "https://genetics.opentargets.org/",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

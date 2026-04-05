@@ -1,0 +1,27 @@
+{
+  "NAME": "Katz",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 34814699,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Whole Genome Sequence Analysis of the Plasma Proteome in Black Adults Provides Novel Insights Into Cardiovascular Disease.",
+  "ISO": "Circulation",
+  "JOURNAL": "Circulation",
+  "YEAR": "2022",
+  "VOLUME": "145",
+  "ISSUE": "5",
+  "PAGE": "357-370",
+  "Authors": "Katz DH,Tahir UA,Bick AG,Pampana A,Ngo D,Benson MD,Yu Z,Robbins JM,Chen ZZ,Cruz DE,Deng S,Farrell L,Sinha S,Schmaier AA,Shen D,Gao Y,Hall ME,Correa A,Tracy RP,Durda P,Taylor KD,Liu Y,Johnson WC,Guo X,Yao J,Ida Chen YD,Manichaikul AW,Jain D,Bouchard C,Sarzynski MA,Rich SS,Rotter JI,Wang TJ,Wilson JG,Natarajan P,Gerszten RE,National Heart, Lung, and Blood Institute TOPMed (Trans-Omics for Precision Medicine) Consortium†",
+  "ABSTRACT": "BACKGROUND: Plasma proteins are critical mediators of cardiovascular processes and are the targets of many drugs. Previous efforts to characterize the genetic architecture of the plasma proteome have been limited by a focus on individuals of European descent and leveraged genotyping arrays and imputation. Here we describe whole genome sequence analysis of the plasma proteome in individuals with greater African ancestry, increasing our power to identify novel genetic determinants. METHODS: Proteomic profiling of 1301 proteins was performed in 1852 Black adults from the Jackson Heart Study using aptamer-based proteomics (SomaScan). Whole genome sequencing association analysis was ascertained for all variants with minor allele count ≥5. Results were validated using an alternative, antibody-based, proteomic platform (Olink) as well as replicated in the Multi-Ethnic Study of Atherosclerosis and the HERITAGE Family Study (Health, Risk Factors, Exercise Training and Genetics). RESULTS: We identify 569 genetic associations between 479 proteins and 438 unique genetic regions at a Bonferroni-adjusted significance level of 3.8×10-11. These associations include 114 novel locus-protein relationships and an additional 217 novel sentinel variant-protein relationships. Novel cardiovascular findings include new protein associations at the APOE gene locus including ZAP70 (sentinel single nucleotide polymorphism [SNP] rs7412-T, β=0.61±0.05, P=3.27×10-30) and MMP-3 (β=-0.60±0.05, P=1.67×10-32), as well as a completely novel pleiotropic locus at the HPX gene, associated with 9 proteins. Further, the associations suggest new mechanisms of genetically mediated cardiovascular disease linked to African ancestry; we identify a novel association between variants linked to APOL1-associated chronic kidney and heart disease and the protein CKAP2 (rs73885319-G, β=0.34±0.04, P=1.34×10-17) as well as an association between ATTR amyloidosis and RBP4 levels in community-dwelling individuals without heart failure. CONCLUSIONS: Taken together, these results provide evidence for the functional importance of variants in non-European populations, and suggest new biological mechanisms for ancestry-specific determinants of lipids, coagulation, and myocardial function.",
+  "DOI": "10.1161/CIRCULATIONAHA.121.055117",
+  "PMC ID": "PMC9158509",
+  "CITATION": "Katz DH, Tahir UA, Bick AG, Pampana A, ...&,  and Blood Institute TOPMed (Trans-Omics for Precision Medicine) Consortium†. (2022) Whole Genome Sequence Analysis of the Plasma Proteome in Black Adults Provides Novel Insights Into Cardiovascular Disease. Circulation, 145 (5) 357-370. doi:10.1161/CIRCULATIONAHA.121.055117. PMID 34814699",
+  "FIRST_AUTHOR": "Katz DH",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "Gene Ontology",
+  "CATEGORY": "Pathway and Gene Ontology Enrichment",
+  "SOURCE": "Gene Ontology",
+  "PMID": 10802651,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nAshburner, M. et al. Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat. Genet. 25, 25–29 (2000).\n  \n",
+  "TOPIC": "Function",
+  "URL": "http://geneontology.org/",
+  "TYPE": "Ontology",
+  "DESCRIPTION": "Controlled vocabulary for gene function classification.",
+  "MANUAL_YEAR": 2021,
+  "SHORT NAME": "GO",
+  "FULL NAME": "Gene Ontology",
+  "KEYWORDS": "GO terms, pathways",
+  "USE": "enrichment analysis",
+  "TITLE": "Gene ontology: tool for the unification of biology. The Gene Ontology Consortium.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2000",
+  "VOLUME": "25",
+  "ISSUE": "1",
+  "PAGE": "25-9",
+  "Authors": "Ashburner M,Ball CA,Blake JA,Botstein D,Butler H,Cherry JM,Davis AP,Dolinski K,Dwight SS,Eppig JT,Harris MA,Hill DP,Issel-Tarver L,Kasarskis A,Lewis S,Matese JC,Richardson JE,Ringwald M,Rubin GM,Sherlock G",
+  "ABSTRACT": "Genomic sequencing has made it clear that a large fraction of the genes specifying the core biological functions are shared by all eukaryotes. Knowledge of the biological role of such shared proteins in one organism can often be transferred to other organisms. The goal of the Gene Ontology Consortium is to produce a dynamic, controlled vocabulary that can be applied to all eukaryotes even as knowledge of gene and protein roles in cells is accumulating and changing. To this end, three independent ontologies accessible on the World-Wide Web (http://www.geneontology.org) are being constructed: biological process, molecular function and cellular component.",
+  "DOI": "10.1038/75556",
+  "PMC ID": "PMC3037419",
+  "CITATION": "Ashburner M, Ball CA, Blake JA, Botstein D, ...&, Sherlock G. (2000) Gene ontology: tool for the unification of biology. The Gene Ontology Consortium. Nat Genet, 25 (1) 25-9. doi:10.1038/75556. PMID 10802651",
+  "FIRST_AUTHOR": "Ashburner M",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

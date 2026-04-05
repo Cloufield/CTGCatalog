@@ -1,0 +1,29 @@
+{
+  "NAME": "HESS",
+  "PMID": 27346688,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Local heritability/genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "HESS",
+  "FULL NAME": "Heritability Estimation from Summary Statistics",
+  "URL": "https://huwenboshi.github.io/hess/",
+  "DESCRIPTION": "HESS (Heritability Estimation from Summary Statistics) is a software package for estimating and visualizing local SNP-heritability and genetic covariance (correlation) from GWAS summary association data.",
+  "MANUAL_CITATION": "Shi, Huwenbo, Gleb Kichaev, and Bogdan Pasaniuc. \"Contrasting the genetic architecture of 30 complex traits from summary association data.\" The American Journal of Human Genetics 99.1 (2016): 139-153.\nShi, Huwenbo, et al. \"Local genetic correlation gives insights into the shared genetic architecture of complex traits.\" The American Journal of Human Genetics 101.5 (2017): 737-751.",
+  "TITLE": "Contrasting the Genetic Architecture of 30 Complex Traits from Summary Association Data.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2016",
+  "VOLUME": "99",
+  "ISSUE": "1",
+  "PAGE": "139-53",
+  "Authors": "Shi H,Kichaev G,Pasaniuc B",
+  "ABSTRACT": "Variance-component methods that estimate the aggregate contribution of large sets of variants to the heritability of complex traits have yielded important insights into the genetic architecture of common diseases. Here, we introduce methods that estimate the total trait variance explained by the typed variants at a single locus in the genome (local SNP heritability) from genome-wide association study (GWAS) summary data while accounting for linkage disequilibrium among variants. We applied our estimator to ultra-large-scale GWAS summary data of 30 common traits and diseases to gain insights into their local genetic architecture. First, we found that common SNPs have a high contribution to the heritability of all studied traits. Second, we identified traits for which the majority of the SNP heritability can be confined to a small percentage of the genome. Third, we identified GWAS risk loci where the entire locus explains significantly more variance in the trait than the GWAS reported variants. Finally, we identified loci that explain a significant amount of heritability across multiple traits.",
+  "DOI": "10.1016/j.ajhg.2016.05.013",
+  "PMC ID": "PMC5005444",
+  "CITATION": "Shi H, Kichaev G, Pasaniuc B. (2016) Contrasting the Genetic Architecture of 30 Complex Traits from Summary Association Data. Am J Hum Genet, 99 (1) 139-53. doi:10.1016/j.ajhg.2016.05.013. PMID 27346688",
+  "FIRST_AUTHOR": "Shi H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

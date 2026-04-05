@@ -1,0 +1,11 @@
+{
+  "NAME": "nf-core",
+  "SECTION": "Coding",
+  "TOPIC": "Workflow",
+  "TYPE": "Resource",
+  "URL": "https://nf-co.re/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Community Nextflow pipelines."
+}

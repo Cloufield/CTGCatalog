@@ -1,0 +1,16 @@
+{
+  "NAME": "UKB Neale",
+  "URL": "https://pheweb.org/UKB-Neale/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Neale lab UK Biobank GWAS summary statistics (round-2 style phenome-wide results via PheWeb).",
+  "MANUAL_CITATION": "Neale Lab UK Biobank GWAS — genome-wide association summary statistics for UK Biobank phenotypes (Neale lab / PheWeb UKB-Neale).",
+  "MANUAL_YEAR": 2018,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "NAME": "Nature",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "URL": "http://www.nature.com/nature",
+  "ENTRY_COUNT": 41,
+  "CITED_BY_SECTION": {
+    "Tools": 9,
+    "Sumstats": 21,
+    "References": 11
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "ROADMAP 2015",
+    "AlphaFold 2",
+    "AlphaFold 3",
+    "AlphaFold",
+    "EVE"
+  ]
+}

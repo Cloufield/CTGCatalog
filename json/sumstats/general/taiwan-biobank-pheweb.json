@@ -1,0 +1,28 @@
+{
+  "NAME": "Taiwan BioBank Pheweb",
+  "URL": "https://taiwanview.twbiobank.org.tw/pheweb.php",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "taiwan biobank",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Taiwan Biobank PheWeb — GWAS summary statistics for Taiwanese participants.",
+  "PMID": 29149267,
+  "TITLE": "Taiwan Biobank: making cross-database convergence possible in the Big Data era.",
+  "ISO": "Gigascience",
+  "JOURNAL": "GigaScience",
+  "YEAR": "2018",
+  "VOLUME": "7",
+  "ISSUE": "1",
+  "PAGE": "1-4",
+  "Authors": "Lin JC,Fan CT,Liao CC,Chen YS",
+  "ABSTRACT": "The Taiwan Biobank (TWB) is a biomedical research database of biopsy data from 200 000 participants. Access to this database has been granted to research communities taking part in the development of precision medicines; however, this has raised issues surrounding TWB's access to electronic medical records (EMRs). The Personal Data Protection Act of Taiwan restricts access to EMRs for purposes not covered by patients' original consent. This commentary explores possible legal solutions to help ensure that the access TWB has to EMR abides with legal obligations, and with governance frameworks associated with ethical, legal, and social implications. We suggest utilizing \"hash function\" algorithms to create nonretrospective, anonymized data for the purpose of cross-transmission and/or linkage with EMR.",
+  "DOI": "10.1093/gigascience/gix110",
+  "PMC ID": "PMC5774504",
+  "CITATION": "Lin JC, Fan CT, Liao CC, Chen YS. (2018) Taiwan Biobank: making cross-database convergence possible in the Big Data era. Gigascience, 7 (1) 1-4. doi:10.1093/gigascience/gix110. PMID 29149267",
+  "FIRST_AUTHOR": "Lin JC",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

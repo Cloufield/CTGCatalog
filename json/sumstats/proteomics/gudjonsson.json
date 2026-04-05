@@ -1,0 +1,27 @@
+{
+  "NAME": "Gudjonsson",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 35078996,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "A genome-wide association study of serum proteins reveals shared loci with common diseases.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2022",
+  "VOLUME": "13",
+  "ISSUE": "1",
+  "PAGE": "480",
+  "Authors": "Gudjonsson A,Gudmundsdottir V,Axelsson GT,Gudmundsson EF,Jonsson BG,Launer LJ,Lamb JR,Jennings LL,Aspelund T,Emilsson V,Gudnason V",
+  "ABSTRACT": "With the growing number of genetic association studies, the genotype-phenotype atlas has become increasingly more complex, yet the functional consequences of most disease associated alleles is not understood. The measurement of protein level variation in solid tissues and biofluids integrated with genetic variants offers a path to deeper functional insights. Here we present a large-scale proteogenomic study in 5,368 individuals, revealing 4,035 independent associations between genetic variants and 2,091 serum proteins, of which 36% are previously unreported. The majority of both cis- and trans-acting genetic signals are unique for a single protein, although our results also highlight numerous highly pleiotropic genetic effects on protein levels and demonstrate that a protein's genetic association profile reflects certain characteristics of the protein, including its location in protein networks, tissue specificity and intolerance to loss of function mutations. Integrating protein measurements with deep phenotyping of the cohort, we observe substantial enrichment of phenotype associations for serum proteins regulated by established GWAS loci, and offer new insights into the interplay between genetics, serum protein levels and complex disease.",
+  "DOI": "10.1038/s41467-021-27850-z",
+  "PMC ID": "PMC8789779",
+  "CITATION": "Gudjonsson A, Gudmundsdottir V, Axelsson GT, Gudmundsson EF, ...&, Gudnason V. (2022) A genome-wide association study of serum proteins reveals shared loci with common diseases. Nat Commun, 13 (1) 480. doi:10.1038/s41467-021-27850-z. PMID 35078996",
+  "FIRST_AUTHOR": "Gudjonsson A",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

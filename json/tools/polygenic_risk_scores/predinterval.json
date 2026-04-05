@@ -1,0 +1,28 @@
+{
+  "NAME": "PredInterval",
+  "PMID": 41083720,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "TYPE": "Tools",
+  "SHORT NAME": "PredInterval",
+  "FULL NAME": "PredInterval",
+  "KEYWORDS": "polygenic score, prediction interval, uncertainty, calibration, summary statistics",
+  "URL": "https://github.com/xuchang0201/PredInterval",
+  "DESCRIPTION": "PredInterval constructs statistically calibrated prediction intervals for phenotypes predicted from polygenic scores, compatible with arbitrary PGS methods and supporting individual-level data or GWAS summary statistics plus a small calibration sample.",
+  "TITLE": "Statistical construction of calibrated prediction intervals for polygenic score-based phenotype prediction.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "11",
+  "PAGE": "2891-2900",
+  "Authors": "Xu C,Ganesh SK,Zhou X",
+  "ABSTRACT": "Accurately quantifying uncertainty in predicted phenotypes from polygenic score (PGS)-based applications is essential for reliable clinical interpretation of PGS, supporting effective disease risk assessment and informed decision-making. Here, we present PredInterval, a nonparametric method for constructing well-calibrated prediction intervals. PredInterval is compatible with any PGS method, takes either individual-level data or summary statistics as input and relies on information from quantiles of phenotypic residuals through cross-validation to achieve well-calibrated coverage of true phenotypic values across diverse genetic architectures. We apply PredInterval to analyze 17 traits in real-data applications, where PredInterval not only represents the sole method achieving well-calibrated prediction coverage across traits, but it also offers a principled approach to identify high-risk individuals using prediction intervals, leading to an average improvement of identification rates by 8.7-830.4% compared with existing approaches. Overall, PredInterval represents a robust and versatile tool for enhancing the clinical utility of PGS.",
+  "DOI": "10.1038/s41588-025-02360-6",
+  "PMC ID": "PMC12597821",
+  "CITATION": "Xu C, Ganesh SK, Zhou X. (2025) Statistical construction of calibrated prediction intervals for polygenic score-based phenotype prediction. Nat Genet, 57 (11) 2891-2900. doi:10.1038/s41588-025-02360-6. PMID 41083720",
+  "FIRST_AUTHOR": "Xu C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

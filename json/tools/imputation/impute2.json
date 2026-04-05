@@ -1,0 +1,26 @@
+{
+  "NAME": "IMPUTE2",
+  "PMID": 19543373,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "IMPUTE2",
+  "MANUAL_CITATION": "Howie, Bryan N., Peter Donnelly, and Jonathan Marchini. \"A flexible and accurate genotype imputation method for the next generation of genome-wide association studies.\" PLoS genetics 5.6 (2009): e1000529.",
+  "TITLE": "A flexible and accurate genotype imputation method for the next generation of genome-wide association studies.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2009",
+  "VOLUME": "5",
+  "ISSUE": "6",
+  "PAGE": "e1000529",
+  "Authors": "Howie BN,Donnelly P,Marchini J",
+  "ABSTRACT": "Genotype imputation methods are now being widely used in the analysis of genome-wide association studies. Most imputation analyses to date have used the HapMap as a reference dataset, but new reference panels (such as controls genotyped on multiple SNP chips and densely typed samples from the 1,000 Genomes Project) will soon allow a broader range of SNPs to be imputed with higher accuracy, thereby increasing power. We describe a genotype imputation method (IMPUTE version 2) that is designed to address the challenges presented by these new datasets. The main innovation of our approach is a flexible modelling framework that increases accuracy and combines information across multiple reference panels while remaining computationally feasible. We find that IMPUTE v2 attains higher accuracy than other methods when the HapMap provides the sole reference panel, but that the size of the panel constrains the improvements that can be made. We also find that imputation accuracy can be greatly enhanced by expanding the reference panel to contain thousands of chromosomes and that IMPUTE v2 outperforms other methods in this setting at both rare and common SNPs, with overall error rates that are 15%-20% lower than those of the closest competing method. One particularly challenging aspect of next-generation association studies is to integrate information across multiple reference panels genotyped on different sets of SNPs; we show that our approach to this problem has practical advantages over other suggested solutions.",
+  "DOI": "10.1371/journal.pgen.1000529",
+  "PMC ID": "PMC2689936",
+  "CITATION": "Howie BN, Donnelly P, Marchini J. (2009) A flexible and accurate genotype imputation method for the next generation of genome-wide association studies. PLoS Genet, 5 (6) e1000529. doi:10.1371/journal.pgen.1000529. PMID 19543373",
+  "FIRST_AUTHOR": "Howie BN",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

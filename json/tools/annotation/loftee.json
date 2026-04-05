@@ -1,0 +1,28 @@
+{
+  "NAME": "loftee",
+  "PMID": 32461654,
+  "SECTION": "Tools",
+  "TOPIC": "Annotation",
+  "TYPE": "Tools",
+  "SHORT NAME": "LOFTEE",
+  "FULL NAME": "Loss-Of-Function Transcript Effect Estimator",
+  "URL": "https://github.com/konradjk/loftee",
+  "DESCRIPTION": "A VEP plugin to identify LoF (loss-of-function) variation. Currently assesses variants that are stop-gained, splice site disrupting and Frameshift variants.",
+  "MANUAL_CITATION": "Karczewski, K.J., Francioli, L.C., Tiao, G. et al. The mutational constraint spectrum quantified from variation in 141,456 humans. Nature 581, 434–443 (2020). https://doi.org/10.1038/s41586-020-2308-7",
+  "TITLE": "The mutational constraint spectrum quantified from variation in 141,456 humans.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2020",
+  "VOLUME": "581",
+  "ISSUE": "7809",
+  "PAGE": "434-443",
+  "Authors": "Karczewski KJ,Francioli LC,Tiao G,Cummings BB,Alföldi J,Wang Q,Collins RL,Laricchia KM,Ganna A,Birnbaum DP,Gauthier LD,Brand H,Solomonson M,Watts NA,Rhodes D,Singer-Berk M,England EM,Seaby EG,Kosmicki JA,Walters RK,Tashman K,Farjoun Y,Banks E,Poterba T,Wang A,Seed C,Whiffin N,Chong JX,Samocha KE,Pierce-Hoffman E,Zappala Z,O'Donnell-Luria AH,Minikel EV,Weisburd B,Lek M,Ware JS,Vittal C,Armean IM,Bergelson L,Cibulskis K,Connolly KM,Covarrubias M,Donnelly S,Ferriera S,Gabriel S,Gentry J,Gupta N,Jeandet T,Kaplan D,Llanwarne C,Munshi R,Novod S,Petrillo N,Roazen D,Ruano-Rubio V,Saltzman A,Schleicher M,Soto J,Tibbetts K,Tolonen C,Wade G,Talkowski ME,Genome Aggregation Database Consortium,Neale BM,Daly MJ,MacArthur DG",
+  "ABSTRACT": "Genetic variants that inactivate protein-coding genes are a powerful source of information about the phenotypic consequences of gene disruption: genes that are crucial for the function of an organism will be depleted of such variants in natural populations, whereas non-essential genes will tolerate their accumulation. However, predicted loss-of-function variants are enriched for annotation errors, and tend to be found at extremely low frequencies, so their analysis requires careful variant annotation and very large sample sizes1. Here we describe the aggregation of 125,748 exomes and 15,708 genomes from human sequencing studies into the Genome Aggregation Database (gnomAD). We identify 443,769 high-confidence predicted loss-of-function variants in this cohort after filtering for artefacts caused by sequencing and annotation errors. Using an improved model of human mutation rates, we classify human protein-coding genes along a spectrum that represents tolerance to inactivation, validate this classification using data from model organisms and engineered human cells, and show that it can be used to improve the power of gene discovery for both common and rare diseases.",
+  "DOI": "10.1038/s41586-020-2308-7",
+  "PMC ID": "PMC7334197",
+  "CITATION": "Karczewski KJ, Francioli LC, Tiao G, Cummings BB, ...&, MacArthur DG. (2020) The mutational constraint spectrum quantified from variation in 141,456 humans. Nature, 581 (7809) 434-443. doi:10.1038/s41586-020-2308-7. PMID 32461654",
+  "FIRST_AUTHOR": "Karczewski KJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

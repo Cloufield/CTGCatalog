@@ -1,0 +1,33 @@
+{
+  "NAME": "M-CAP",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "M-CAP",
+  "PMID": 27776117,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nJagadeesh, K. A. et al. M-CAP eliminates a majority of variants of uncertain significance in clinical exomes at high sensitivity. Nat. Genet. 48, 1581–1586 (2016).\n  \n",
+  "TOPIC": "Function",
+  "URL": "https://bejerano.stanford.edu/mcap/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Rare missense pathogenicity classifier for clinical interpretation.",
+  "MANUAL_YEAR": 2016,
+  "SHORT NAME": "M-CAP",
+  "FULL NAME": "Mendelian Clinically Applicable Pathogenicity",
+  "KEYWORDS": "missense, clinical",
+  "USE": "clinical scoring",
+  "TITLE": "M-CAP eliminates a majority of variants of uncertain significance in clinical exomes at high sensitivity.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "12",
+  "PAGE": "1581-1586",
+  "Authors": "Jagadeesh KA,Wenger AM,Berger MJ,Guturu H,Stenson PD,Cooper DN,Bernstein JA,Bejerano G",
+  "ABSTRACT": "Variant pathogenicity classifiers such as SIFT, PolyPhen-2, CADD, and MetaLR assist in interpretation of the hundreds of rare, missense variants in the typical patient genome by deprioritizing some variants as likely benign. These widely used methods misclassify 26 to 38% of known pathogenic mutations, which could lead to missed diagnoses if the classifiers are trusted as definitive in a clinical setting. We developed M-CAP, a clinical pathogenicity classifier that outperforms existing methods at all thresholds and correctly dismisses 60% of rare, missense variants of uncertain significance in a typical genome at 95% sensitivity.",
+  "DOI": "10.1038/ng.3703",
+  "PMC ID": "",
+  "CITATION": "Jagadeesh KA, Wenger AM, Berger MJ, Guturu H, ...&, Bejerano G. (2016) M-CAP eliminates a majority of variants of uncertain significance in clinical exomes at high sensitivity. Nat Genet, 48 (12) 1581-1586. doi:10.1038/ng.3703. PMID 27776117",
+  "FIRST_AUTHOR": "Jagadeesh KA",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "MENTR",
+  "PMID": 36411359,
+  "SECTION": "Tools",
+  "TOPIC": "Functional_prediction",
+  "TYPE": "Tools",
+  "SHORT NAME": "MENTR",
+  "FULL NAME": "mutation effect prediction on ncRNA transcription",
+  "URL": "https://github.com/koido/MENTR",
+  "DESCRIPTION": "A machine-learning model (MENTR) that reliably links genome sequence and ncRNA expression at the cell type level",
+  "MANUAL_CITATION": "\nKoido, M. et al. Prediction of the cell-type-specific transcription of non-coding RNAs from genome sequences via machine learning. Nat. Biomed. Eng. 7, 830–844 (2023).\n  \n",
+  "TITLE": "Prediction of the cell-type-specific transcription of non-coding RNAs from genome sequences via machine learning.",
+  "ISO": "Nat Biomed Eng",
+  "JOURNAL": "Nature biomedical engineering",
+  "YEAR": "2023",
+  "VOLUME": "7",
+  "ISSUE": "6",
+  "PAGE": "830-844",
+  "Authors": "Koido M,Hon CC,Koyama S,Kawaji H,Murakawa Y,Ishigaki K,Ito K,Sese J,Parrish NF,Kamatani Y,Carninci P,Terao C",
+  "ABSTRACT": "Gene transcription is regulated through complex mechanisms involving non-coding RNAs (ncRNAs). As the transcription of ncRNAs, especially of enhancer RNAs, is often low and cell type specific, how the levels of RNA transcription depend on genotype remains largely unexplored. Here we report the development and utility of a machine-learning model (MENTR) that reliably links genome sequence and ncRNA expression at the cell type level. Effects on ncRNA transcription predicted by the model were concordant with estimates from published studies in a cell-type-dependent manner, regardless of allele frequency and genetic linkage. Among 41,223 variants from genome-wide association studies, the model identified 7,775 enhancer RNAs and 3,548 long ncRNAs causally associated with complex traits across 348 major human primary cells and tissues, such as rare variants plausibly altering the transcription of enhancer RNAs to influence the risks of Crohn's disease and asthma. The model may aid the discovery of causal variants and the generation of testable hypotheses for biological mechanisms driving complex traits.",
+  "DOI": "10.1038/s41551-022-00961-8",
+  "PMC ID": "",
+  "CITATION": "Koido M, Hon CC, Koyama S, Kawaji H, ...&, Terao C. (2023) Prediction of the cell-type-specific transcription of non-coding RNAs from genome sequences via machine learning. Nat Biomed Eng, 7 (6) 830-844. doi:10.1038/s41551-022-00961-8. PMID 36411359",
+  "FIRST_AUTHOR": "Koido M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

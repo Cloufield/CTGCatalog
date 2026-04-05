@@ -1,0 +1,28 @@
+{
+  "NAME": "Xu Z",
+  "ADD_SUFFIX": 1,
+  "PMID": 28736311,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "Method",
+  "PLATFORM": "Brain MRI",
+  "TYPE": "Method",
+  "MANUAL_CITATION": "Xu, Z., Wu, C., Pan, W. & Alzheimer’s Disease Neuroimaging Initiative. Imaging-wide association study: Integrating imaging endophenotypes in GWAS. Neuroimage 159, 159–169 (2017).",
+  "MANUAL_YEAR": 2017,
+  "TITLE": "Imaging-wide association study: Integrating imaging endophenotypes in GWAS.",
+  "ISO": "Neuroimage",
+  "JOURNAL": "NeuroImage",
+  "YEAR": "2017",
+  "VOLUME": "159",
+  "ISSUE": "",
+  "PAGE": "159-169",
+  "Authors": "Xu Z,Wu C,Pan W,Alzheimer's Disease Neuroimaging Initiative",
+  "ABSTRACT": "A new and powerful approach, called imaging-wide association study (IWAS), is proposed to integrate imaging endophenotypes with GWAS to boost statistical power and enhance biological interpretation for GWAS discoveries. IWAS extends the promising transcriptome-wide association study (TWAS) from using gene expression endophenotypes to using imaging and other endophenotypes with a much wider range of possible applications. As illustration, we use gray-matter volumes of several brain regions of interest (ROIs) drawn from the ADNI-1 structural MRI data as imaging endophenotypes, which are then applied to the individual-level GWAS data of ADNI-GO/2 and a large meta-analyzed GWAS summary statistics dataset (based on about 74,000 individuals), uncovering some novel genes significantly associated with Alzheimer's disease (AD). We also compare the performance of IWAS with TWAS, showing much larger numbers of significant AD-associated genes discovered by IWAS, presumably due to the stronger link between brain atrophy and AD than that between gene expression of normal individuals and the risk for AD. The proposed IWAS is general and can be applied to other imaging endophenotypes, and GWAS individual-level or summary association data.",
+  "DOI": "10.1016/j.neuroimage.2017.07.036",
+  "PMC ID": "PMC5671364",
+  "CITATION": "Xu Z, Wu C, Pan W, Alzheimer's Disease Neuroimaging Initiative. (2017) Imaging-wide association study: Integrating imaging endophenotypes in GWAS. Neuroimage, 159 () 159-169. doi:10.1016/j.neuroimage.2017.07.036. PMID 28736311",
+  "FIRST_AUTHOR": "Xu Z",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

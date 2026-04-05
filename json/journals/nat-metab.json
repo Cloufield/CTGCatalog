@@ -1,0 +1,19 @@
+{
+  "NAME": "Nature metabolism",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Metab",
+  "JOURNAL": "Nature metabolism",
+  "URL": "https://www.nature.com/natmetab/",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Sumstats": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Folkersen",
+    "Koprulu"
+  ]
+}

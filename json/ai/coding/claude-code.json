@@ -1,0 +1,13 @@
+{
+  "NAME": "Claude Code",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "CLI",
+  "COMPANY": "Anthropic",
+  "URL": "https://www.anthropic.com/claude-code",
+  "DESCRIPTION": "Anthropic’s terminal-based coding agent for large-scale refactors, test runs, and repo navigation using Claude models.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

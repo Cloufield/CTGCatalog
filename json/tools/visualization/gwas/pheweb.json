@@ -1,0 +1,28 @@
+{
+  "NAME": "pheweb",
+  "PMID": 32504056,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "pheweb",
+  "FULL NAME": "pheweb",
+  "URL": "https://github.com/statgen/pheweb",
+  "MANUAL_CITATION": "Gagliano Taliun, Sarah A., et al. \"Exploring and visualizing large-scale genetic associations by using PheWeb.\" Nature Genetics 52.6 (2020): 550-552.",
+  "TITLE": "Exploring and visualizing large-scale genetic associations by using PheWeb.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "6",
+  "PAGE": "550-552",
+  "Authors": "Gagliano Taliun SA,VandeHaar P,Boughton AP,Welch RP,Taliun D,Schmidt EM,Zhou W,Nielsen JB,Willer CJ,Lee S,Fritsche LG,Boehnke M,Abecasis GR",
+  "ABSTRACT": "",
+  "DOI": "10.1038/s41588-020-0622-5",
+  "PMC ID": "PMC7754083",
+  "CITATION": "Gagliano Taliun SA, VandeHaar P, Boughton AP, Welch RP, ...&, Abecasis GR. (2020) Exploring and visualizing large-scale genetic associations by using PheWeb. Nat Genet, 52 (6) 550-552. doi:10.1038/s41588-020-0622-5. PMID 32504056",
+  "FIRST_AUTHOR": "Gagliano Taliun SA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

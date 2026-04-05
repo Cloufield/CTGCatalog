@@ -1,0 +1,28 @@
+{
+  "NAME": "PsychENCODE Phase I",
+  "PMID": 30545857,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Project",
+  "CATEGORY": "Brain",
+  "DESCRIPTION": "Phase I of the project was published on Dec 14, 2018 in a collection of 11 papers in Science, Science Translational Medicine, and Science Advances. ",
+  "URL": "https://www.psychencode.org/home",
+  "MANUAL_YEAR": 2018,
+  "MANUAL_CITATION": "\nWang, D. et al. Comprehensive functional genomic resource and integrative model for the human brain. Science 362, eaat8464 (2018).\n  \n",
+  "TITLE": "Comprehensive functional genomic resource and integrative model for the human brain.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2018",
+  "VOLUME": "362",
+  "ISSUE": "6420",
+  "PAGE": "",
+  "Authors": "Wang D,Liu S,Warrell J,Won H,Shi X,Navarro FCP,Clarke D,Gu M,Emani P,Yang YT,Xu M,Gandal MJ,Lou S,Zhang J,Park JJ,Yan C,Rhie SK,Manakongtreecheep K,Zhou H,Nathan A,Peters M,Mattei E,Fitzgerald D,Brunetti T,Moore J,Jiang Y,Girdhar K,Hoffman GE,Kalayci S,Gümüş ZH,Crawford GE,PsychENCODE Consortium,Roussos P,Akbarian S,Jaffe AE,White KP,Weng Z,Sestan N,Geschwind DH,Knowles JA,Gerstein MB",
+  "ABSTRACT": "Despite progress in defining genetic risk for psychiatric disorders, their molecular mechanisms remain elusive. Addressing this, the PsychENCODE Consortium has generated a comprehensive online resource for the adult brain across 1866 individuals. The PsychENCODE resource contains ~79,000 brain-active enhancers, sets of Hi-C linkages, and topologically associating domains; single-cell expression profiles for many cell types; expression quantitative-trait loci (QTLs); and further QTLs associated with chromatin, splicing, and cell-type proportions. Integration shows that varying cell-type proportions largely account for the cross-population variation in expression (with >88% reconstruction accuracy). It also allows building of a gene regulatory network, linking genome-wide association study variants to genes (e.g., 321 for schizophrenia). We embed this network into an interpretable deep-learning model, which improves disease prediction by ~6-fold versus polygenic risk scores and identifies key genes and pathways in psychiatric disorders.",
+  "DOI": "10.1126/science.aat8464",
+  "PMC ID": "PMC6413328",
+  "CITATION": "Wang D, Liu S, Warrell J, Won H, ...&, Gerstein MB. (2018) Comprehensive functional genomic resource and integrative model for the human brain. Science, 362 (6420) . doi:10.1126/science.aat8464. PMID 30545857",
+  "FIRST_AUTHOR": "Wang D",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

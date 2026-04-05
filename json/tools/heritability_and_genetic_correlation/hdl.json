@@ -1,0 +1,29 @@
+{
+  "NAME": "HDL",
+  "PMID": 32601477,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "HDL",
+  "FULL NAME": "High-Definition Likelihood",
+  "URL": "https://github.com/zhenin/HDL/",
+  "DESCRIPTION": "High-Definition Likelihood (HDL) is a likelihood-based method for estimating genetic correlation using GWAS summary statistics. Compared to LD Score regression (LDSC), It reduces the variance of a genetic correlation estimate by about 60%.",
+  "MANUAL_CITATION": "Ning, Z., Pawitan, Y., & Shen, X. (2020). High-definition likelihood inference of genetic correlations across human complex traits. Nature genetics, 52(8), 859-864.",
+  "TITLE": "High-definition likelihood inference of genetic correlations across human complex traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "8",
+  "PAGE": "859-864",
+  "Authors": "Ning Z,Pawitan Y,Shen X",
+  "ABSTRACT": "Genetic correlation is a central parameter for understanding shared genetic architecture between complex traits. By using summary statistics from genome-wide association studies (GWAS), linkage disequilibrium score regression (LDSC) was developed for unbiased estimation of genetic correlations. Although easy to use, LDSC only partially utilizes LD information. By fully accounting for LD across the genome, we develop a high-definition likelihood (HDL) method to improve precision in genetic correlation estimation. Compared to LDSC, HDL reduces the variance of genetic correlation estimates by about 60%, equivalent to a 2.5-fold increase in sample size. We apply HDL and LDSC to estimate 435 genetic correlations among 30 behavioral and disease-related phenotypes measured in the UK Biobank (UKBB). In addition to 154 significant genetic correlations observed for both methods, HDL identified another 57 significant genetic correlations, compared to only another 2 significant genetic correlations identified by LDSC. HDL brings more power to genomic analyses and better reveals the underlying connections across human complex traits.",
+  "DOI": "10.1038/s41588-020-0653-y",
+  "PMC ID": "",
+  "CITATION": "Ning Z, Pawitan Y, Shen X. (2020) High-definition likelihood inference of genetic correlations across human complex traits. Nat Genet, 52 (8) 859-864. doi:10.1038/s41588-020-0653-y. PMID 32601477",
+  "FIRST_AUTHOR": "Ning Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

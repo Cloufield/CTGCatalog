@@ -1,0 +1,17 @@
+# Dev / CI: catalog → Markdown (src/main.py) + CSS minify + Zensical/MkDocs site build.
+# GitHub Pages workflow installs only this file (see .github/workflows/github-pages.yml).
+
+# src/main.py pipeline (load_data, process_md, tag_pages, process_mkdocs, …)
+pandas>=2.0.0
+PyYAML>=6.0
+
+# Schema check in src/validate_catalog.py
+jsonschema>=4.17.0
+
+# scripts/minify_extra_css.py
+rcssmin>=1.1.0
+
+# Static site: zensical build / zensical serve (reads repo-root mkdocs.yml; Material theme
+# and plugins like meta/tags/search/mkdocs-jupyter are provided by Zensical — no separate
+# mkdocs-material / mkdocs-jupyter pip install required).
+zensical

@@ -1,0 +1,28 @@
+{
+  "NAME": "EMMAX",
+  "PMID": 20208533,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "EMMAX",
+  "FULL NAME": "efficient mixed-model association eXpedited",
+  "URL": "https://genome.sph.umich.edu/wiki/EMMAX",
+  "DESCRIPTION": "EMMAX is a statistical test for large scale human or model organism association mapping accounting for the sample structure. In addition to the computational efficiency obtained by EMMA algorithm, EMMAX takes advantage of the fact that each loci explains only a small fraction of complex traits, which allows us to avoid repetitive variance component estimation procedure, resulting in a significant amount of increase in computational time of association mapping using mixed model.",
+  "TITLE": "Variance component model to account for sample structure in genome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2010",
+  "VOLUME": "42",
+  "ISSUE": "4",
+  "PAGE": "348-54",
+  "Authors": "Kang HM,Sul JH,Service SK,Zaitlen NA,Kong SY,Freimer NB,Sabatti C,Eskin E",
+  "ABSTRACT": "Although genome-wide association studies (GWASs) have identified numerous loci associated with complex traits, imprecise modeling of the genetic relatedness within study samples may cause substantial inflation of test statistics and possibly spurious associations. Variance component approaches, such as efficient mixed-model association (EMMA), can correct for a wide range of sample structures by explicitly accounting for pairwise relatedness between individuals, using high-density markers to model the phenotype distribution; but such approaches are computationally impractical. We report here a variance component approach implemented in publicly available software, EMMA eXpedited (EMMAX), that reduces the computational time for analyzing large GWAS data sets from years to hours. We apply this method to two human GWAS data sets, performing association analysis for ten quantitative traits from the Northern Finland Birth Cohort and seven common diseases from the Wellcome Trust Case Control Consortium. We find that EMMAX outperforms both principal component analysis and genomic control in correcting for sample structure.",
+  "DOI": "10.1038/ng.548",
+  "PMC ID": "PMC3092069",
+  "CITATION": "Kang HM, Sul JH, Service SK, Zaitlen NA, ...&, Eskin E. (2010) Variance component model to account for sample structure in genome-wide association studies. Nat Genet, 42 (4) 348-54. doi:10.1038/ng.548. PMID 20208533",
+  "FIRST_AUTHOR": "Kang HM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

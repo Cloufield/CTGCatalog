@@ -1,0 +1,30 @@
+{
+  "NAME": "lassosum2 ",
+  "PMID": 36105883,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "lassosum2 ",
+  "FULL NAME": "lassosum2 ",
+  "MANUAL_YEAR": 2022,
+  "URL": "https://privefl.github.io/bigsnpr/articles/LDpred2.html#lassosum2-grid-of-models",
+  "DESCRIPTION": "lassosum2 is a re-implementation of the lassosum model that now uses the exact same input parameters as LDpred2 (corr and df_beta). It should be fast to run. It can be run next to LDpred2 and the best model can be chosen using the validation set. Note that parameter ‘s’ from lassosum has been replaced by a new parameter ‘delta’ in lassosum2, in order to better reflect that the lassosum model also uses L2-regularization (therefore, elastic-net regularization).",
+  "MANUAL_CITATION": "\nPrivé, F., Arbel, J., Aschard, H. & Vilhjálmsson, B. J. Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores. HGG Adv 3, 100136 (2022).\n  ",
+  "TITLE": "Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores.",
+  "ISO": "HGG Adv",
+  "JOURNAL": "HGG advances",
+  "YEAR": "2022",
+  "VOLUME": "3",
+  "ISSUE": "4",
+  "PAGE": "100136",
+  "Authors": "Privé F,Arbel J,Aschard H,Vilhjálmsson BJ",
+  "ABSTRACT": "Publicly available genome-wide association studies (GWAS) summary statistics exhibit uneven quality, which can impact the validity of follow-up analyses. First, we present an overview of possible misspecifications that come with GWAS summary statistics. Then, in both simulations and real-data analyses, we show that additional information such as imputation INFO scores, allele frequencies, and per-variant sample sizes in GWAS summary statistics can be used to detect possible issues and correct for misspecifications in the GWAS summary statistics. One important motivation for us is to improve the predictive performance of polygenic scores built from these summary statistics. Unfortunately, owing to the lack of reporting standards for GWAS summary statistics, this additional information is not systematically reported. We also show that using well-matched linkage disequilibrium (LD) references can improve model fit and translate into more accurate prediction. Finally, we discuss how to make polygenic score methods such as lassosum and LDpred2 more robust to these misspecifications to improve their predictive power.",
+  "DOI": "10.1016/j.xhgg.2022.100136",
+  "PMC ID": "PMC9465343",
+  "CITATION": "Privé F, Arbel J, Aschard H, Vilhjálmsson BJ. (2022) Identifying and correcting for misspecifications in GWAS summary statistics and polygenic scores. HGG Adv, 3 (4) 100136. doi:10.1016/j.xhgg.2022.100136. PMID 36105883",
+  "FIRST_AUTHOR": "Privé F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

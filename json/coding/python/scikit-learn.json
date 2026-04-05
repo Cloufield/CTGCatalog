@@ -1,0 +1,11 @@
+{
+  "NAME": "scikit-learn",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://scikit-learn.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Machine learning in Python."
+}

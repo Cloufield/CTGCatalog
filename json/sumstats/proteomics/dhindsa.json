@@ -1,0 +1,29 @@
+{
+  "NAME": "Dhindsa",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 37794183,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "PEA/OLINK",
+  "TITLE": "Rare variant associations with plasma protein levels in the UK Biobank.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2023",
+  "VOLUME": "622",
+  "ISSUE": "7982",
+  "PAGE": "339-347",
+  "Authors": "Dhindsa RS,Burren OS,Sun BB,Prins BP,Matelska D,Wheeler E,Mitchell J,Oerton E,Hristova VA,Smith KR,Carss K,Wasilewski S,Harper AR,Paul DS,Fabre MA,Runz H,Viollet C,Challis B,Platt A,AstraZeneca Genomics Initiative,Vitsios D,Ashley EA,Whelan CD,Pangalos MN,Wang Q,Petrovski S",
+  "ABSTRACT": "Integrating human genomics and proteomics can help elucidate disease mechanisms, identify clinical biomarkers and discover drug targets1-4. Because previous proteogenomic studies have focused on common variation via genome-wide association studies, the contribution of rare variants to the plasma proteome remains largely unknown. Here we identify associations between rare protein-coding variants and 2,923 plasma protein abundances measured in 49,736 UK Biobank individuals. Our variant-level exome-wide association study identified 5,433 rare genotype-protein associations, of which 81% were undetected in a previous genome-wide association study of the same cohort5. We then looked at aggregate signals using gene-level collapsing analysis, which revealed 1,962 gene-protein associations. Of the 691 gene-level signals from protein-truncating variants, 99.4% were associated with decreased protein levels. STAB1 and STAB2, encoding scavenger receptors involved in plasma protein clearance, emerged as pleiotropic loci, with 77 and 41 protein associations, respectively. We demonstrate the utility of our publicly accessible resource through several applications. These include detailing an allelic series in NLRC4, identifying potential biomarkers for a fatty liver disease-associated variant in HSD17B13 and bolstering phenome-wide association studies by integrating protein quantitative trait loci with protein-truncating variants in collapsing analyses. Finally, we uncover distinct proteomic consequences of clonal haematopoiesis (CH), including an association between TET2-CH and increased FLT3 levels. Our results highlight a considerable role for rare variation in plasma protein abundance and the value of proteogenomics in therapeutic discovery.",
+  "DOI": "10.1038/s41586-023-06547-x",
+  "PMC ID": "PMC10567546",
+  "CITATION": "Dhindsa RS, Burren OS, Sun BB, Prins BP, ...&, Petrovski S. (2023) Rare variant associations with plasma protein levels in the UK Biobank. Nature, 622 (7982) 339-347. doi:10.1038/s41586-023-06547-x. PMID 37794183",
+  "FIRST_AUTHOR": "Dhindsa RS",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

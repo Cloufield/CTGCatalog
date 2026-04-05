@@ -1,0 +1,29 @@
+{
+  "NAME": "UpSetPlot",
+  "PMID": 26356912,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "UpSet_plots",
+  "TYPE": "Tools",
+  "SHORT NAME": "UpSetPlot",
+  "FULL NAME": "UpSetPlot",
+  "URL": "https://github.com/jnothman/UpSetPlot",
+  "DESCRIPTION": "This is another Python implementation of UpSet plots by Lex et al. [Lex2014]. UpSet plots are used to visualise set overlaps; like Venn diagrams but more readable.",
+  "MANUAL_CITATION": "\nLex, A., Gehlenborg, N., Strobelt, H., Vuillemot, R. & Pfister, H. UpSet: Visualization of intersecting sets. IEEE Trans. Vis. Comput. Graph. 20, 1983–1992 (2014).\n  \n",
+  "TITLE": "UpSet: Visualization of Intersecting Sets.",
+  "ISO": "IEEE Trans Vis Comput Graph",
+  "JOURNAL": "IEEE transactions on visualization and computer graphics",
+  "YEAR": "2014",
+  "VOLUME": "20",
+  "ISSUE": "12",
+  "PAGE": "1983-92",
+  "Authors": "Lex A,Gehlenborg N,Strobelt H,Vuillemot R,Pfister H",
+  "ABSTRACT": "Understanding relationships between sets is an important analysis task that has received widespread attention in the visualization community. The major challenge in this context is the combinatorial explosion of the number of set intersections if the number of sets exceeds a trivial threshold. In this paper we introduce UpSet, a novel visualization technique for the quantitative analysis of sets, their intersections, and aggregates of intersections. UpSet is focused on creating task-driven aggregates, communicating the size and properties of aggregates and intersections, and a duality between the visualization of the elements in a dataset and their set membership. UpSet visualizes set intersections in a matrix layout and introduces aggregates based on groupings and queries. The matrix layout enables the effective representation of associated data, such as the number of elements in the aggregates and intersections, as well as additional summary statistics derived from subset or element attributes. Sorting according to various measures enables a task-driven analysis of relevant intersections and aggregates. The elements represented in the sets and their associated attributes are visualized in a separate view. Queries based on containment in specific intersections, aggregates or driven by attribute filters are propagated between both views. We also introduce several advanced visual encodings and interaction methods to overcome the problems of varying scales and to address scalability. UpSet is web-based and open source. We demonstrate its general utility in multiple use cases from various domains.",
+  "DOI": "10.1109/TVCG.2014.2346248",
+  "PMC ID": "PMC4720993",
+  "CITATION": "Lex A, Gehlenborg N, Strobelt H, Vuillemot R, ...&, Pfister H. (2014) UpSet: Visualization of Intersecting Sets. IEEE Trans Vis Comput Graph, 20 (12) 1983-92. doi:10.1109/TVCG.2014.2346248. PMID 26356912",
+  "FIRST_AUTHOR": "Lex A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "NAME": "ENCODE 2004",
+  "PMID": 15499007,
+  "SECTION": "References",
+  "TOPIC": "Functional",
+  "CATEGORY": "ENCODE",
+  "MANUAL_CITATION": "Feingold, E. A., Good, P. J., Guyer, M. S., Kamholz, S., Liefer, L., Wetterstrand, K., ... & Young, A. C. (2004). The ENCODE (ENCyclopedia of DNA elements) project. Science, 306(5696), 636-640.",
+  "TITLE": "The ENCODE (ENCyclopedia Of DNA Elements) Project.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2004",
+  "VOLUME": "306",
+  "ISSUE": "5696",
+  "PAGE": "636-40",
+  "Authors": "ENCODE Project Consortium",
+  "ABSTRACT": "The ENCyclopedia Of DNA Elements (ENCODE) Project aims to identify all functional elements in the human genome sequence. The pilot phase of the Project is focused on a specified 30 megabases (approximately 1%) of the human genome sequence and is organized as an international consortium of computational and laboratory-based scientists working to develop and apply high-throughput approaches for detecting all sequence elements that confer biological function. The results of this pilot phase will guide future efforts to analyze the entire human genome.",
+  "DOI": "10.1126/science.1105136",
+  "PMC ID": "",
+  "CITATION": "ENCODE Project Consortium. (2004) The ENCODE (ENCyclopedia Of DNA Elements) Project. Science, 306 (5696) 636-40. doi:10.1126/science.1105136. PMID 15499007",
+  "FIRST_AUTHOR": "ENCODE Project Consortium",
+  "_meta": {
+    "source_sheet": "Regulatory elements"
+  }
+}

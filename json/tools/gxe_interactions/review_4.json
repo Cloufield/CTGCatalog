@@ -1,0 +1,25 @@
+{
+  "NAME": "Review",
+  "PMID": 32880244,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Zhang, X., & Belsky, J. (2022). Three phases of Gene× Environment interaction research: Theoretical assumptions underlying gene selection. Development and Psychopathology, 34(1), 295-306.",
+  "TITLE": "Three phases of Gene × Environment interaction research: Theoretical assumptions underlying gene selection.",
+  "ISO": "Dev Psychopathol",
+  "JOURNAL": "Development and psychopathology",
+  "YEAR": "2022",
+  "VOLUME": "34",
+  "ISSUE": "1",
+  "PAGE": "295-306",
+  "Authors": "Zhang X,Belsky J",
+  "ABSTRACT": "Some Gene × Environment interaction (G×E) research has focused upon single candidate genes, whereas other related work has targeted multiple genes (e.g., polygenic scores). Each approach has informed efforts to identify individuals who are either especially vulnerable to the negative effects of contextual adversity (diathesis stress) or especially susceptible to both positive and negative contextual conditions (differential susceptibility). A critical step in all such molecular G×E research is the selection of genetic variants thought to moderate environmental influences, a subject that has not received a great deal of attention in critiques of G×E research (beyond the observation of small effects of individual genes). Here we conceptually distinguish three phases of G×E work based on the selection of genes presumed to moderate environmental effects and the theoretical basis of such decisions: (a) single candidate genes, (b) composited (multiple) candidate genes, and (c) GWAS-derived polygenic scores. This illustrative, not exhaustive, review makes it clear that implicit or explicit theoretical assumptions inform gene selection in ways that have not been clearly articulated or fully appreciated.",
+  "DOI": "10.1017/S0954579420000966",
+  "PMC ID": "",
+  "CITATION": "Zhang X, Belsky J. (2022) Three phases of Gene × Environment interaction research: Theoretical assumptions underlying gene selection. Dev Psychopathol, 34 (1) 295-306. doi:10.1017/S0954579420000966. PMID 32880244",
+  "FIRST_AUTHOR": "Zhang X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

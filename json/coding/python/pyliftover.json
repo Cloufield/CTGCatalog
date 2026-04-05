@@ -1,0 +1,11 @@
+{
+  "NAME": "pyliftover",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://github.com/konstantint/pyliftover",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Genomic coordinate liftover."
+}

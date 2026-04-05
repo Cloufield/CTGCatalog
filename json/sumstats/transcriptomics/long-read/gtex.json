@@ -1,0 +1,26 @@
+{
+  "NAME": "GTEx",
+  "PMID": 35922509,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Long-read",
+  "DESCRIPTION": "V9 long-read RNA-seq data",
+  "MANUAL_YEAR": 2022,
+  "MANUAL_CITATION": "\nGlinos, D. A. et al. Transcriptome variation in human tissues revealed by long-read sequencing. Nature 608, 353–359 (2022).\n",
+  "TITLE": "Transcriptome variation in human tissues revealed by long-read sequencing.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2022",
+  "VOLUME": "608",
+  "ISSUE": "7922",
+  "PAGE": "353-359",
+  "Authors": "Glinos DA,Garborcauskas G,Hoffman P,Ehsan N,Jiang L,Gokden A,Dai X,Aguet F,Brown KL,Garimella K,Bowers T,Costello M,Ardlie K,Jian R,Tucker NR,Ellinor PT,Harrington ED,Tang H,Snyder M,Juul S,Mohammadi P,MacArthur DG,Lappalainen T,Cummings BB",
+  "ABSTRACT": "Regulation of transcript structure generates transcript diversity and plays an important role in human disease1-7. The advent of long-read sequencing technologies offers the opportunity to study the role of genetic variation in transcript structure8-16. In this Article, we present a large human long-read RNA-seq dataset using the Oxford Nanopore Technologies platform from 88 samples from Genotype-Tissue Expression (GTEx) tissues and cell lines, complementing the GTEx resource. We identified just over 70,000 novel transcripts for annotated genes, and validated the protein expression of 10% of novel transcripts. We developed a new computational package, LORALS, to analyse the genetic effects of rare and common variants on the transcriptome by allele-specific analysis of long reads. We characterized allele-specific expression and transcript structure events, providing new insights into the specific transcript alterations caused by common and rare genetic variants and highlighting the resolution gained from long-read data. We were able to perturb the transcript structure upon knockdown of PTBP1, an RNA binding protein that mediates splicing, thereby finding genetic regulatory effects that are modified by the cellular environment. Finally, we used this dataset to enhance variant interpretation and study rare variants leading to aberrant splicing patterns.",
+  "DOI": "10.1038/s41586-022-05035-y",
+  "PMC ID": "PMC10337767",
+  "CITATION": "Glinos DA, Garborcauskas G, Hoffman P, Ehsan N, ...&, Cummings BB. (2022) Transcriptome variation in human tissues revealed by long-read sequencing. Nature, 608 (7922) 353-359. doi:10.1038/s41586-022-05035-y. PMID 35922509",
+  "FIRST_AUTHOR": "Glinos DA",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

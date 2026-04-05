@@ -1,0 +1,19 @@
+{
+  "NAME": "Nature protocols",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Protoc",
+  "JOURNAL": "Nature protocols",
+  "URL": "https://www.nature.com/nprot/",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Tools": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Sakaue",
+    "Tutorial-Choi"
+  ]
+}

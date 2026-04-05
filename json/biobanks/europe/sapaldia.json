@@ -1,0 +1,16 @@
+{
+  "NAME": "SAPALDIA",
+  "SHORT NAME": "SAPALDIA",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~10k",
+  "DESCRIPTION": "Swiss Cohort Study on Air Pollution and Lung and Heart Diseases in Adults; longitudinal respiratory and cardiovascular phenotypes with genetic data for population and environmental health GWAS.",
+  "MANUAL_CITATION": "Martin, B. W., Ackermann-Liebrich, U., Leuenberger, P., Künzli, N., Stutz, E. Z., Keller, R., ... & SAPALDIA Team (1997). SAPALDIA: methods and participation in the Swiss Cohort Study on Air Pollution and Lung and Heart Diseases in Adults. Sozial- und Präventivmedizin, 42(2), 67-84.",
+  "URL": "https://www.sapaldia.ch/en/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Swiss adults (respiratory population cohort)"
+}

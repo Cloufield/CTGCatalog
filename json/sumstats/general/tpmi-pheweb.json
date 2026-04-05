@@ -1,0 +1,28 @@
+{
+  "NAME": "TPMI PheWeb",
+  "PMID": 41092961,
+  "URL": "https://pheweb.ibms.sinica.edu.tw/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "Taiwan Precision Medicine Initiative",
+  "TYPE": "Datasets",
+  "TITLE": "The Taiwan Precision Medicine Initiative provides a cohort for large-scale studies.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2025",
+  "VOLUME": "648",
+  "ISSUE": "8092",
+  "PAGE": "117-127",
+  "Authors": "Yang HC,Kwok PY,Li LH,Liu YM,Jong YJ,Lee KY,Wang DW,Tsai MF,Yang JH,Chen CH,Yeh EC,Wei CY,Fann CS,Huang YT,Chen CW,Lee YJ,Chu SK,Ho CH,Yang CS,Lee YL,Chen HH,Hou MC,Chiou JF,Yang SF,Wang CH,Huang CY,Chiu KM,Chen M,Chiang FT,Lee SL,Chen SS,Yao WJ,Chien CC,Lin SY,Chang FP,Ho HL,Yeh YC,Tseng WC,Lin MH,Chang HT,Tseng LM,Liang WY,Chen PC,Hang JF,Lin SC,Chan YJ,Kuo YJ,Wang LC,Pan CC,Hsieh YC,Chen YM,Hsiao TH,Lin CH,Chen YJ,Chen IC,Mao CL,Chang SJ,Chang YL,Liao YJ,Lai CH,Lee WJ,Tung H,Yen TT,Yen HC,Shih CM,Chou TY,Liou TH,Chiang CY,Cherng YG,Chen CH,Chiu CH,Tseng SH,Lin EP,Chen YJ,Chuang HP,Chen TC,Huang WT,Sin J,Liu IL,Chen YC,Chao KK,Wu YM,Yu PP,Chang LP,Yen KY,Chang LC,Sheen YJ,Chen YT,Kan K,Tsai HL,Wang YK,Hou MF,Yang YH,Kuo CH,Wu WJ,Huang JF,Chong IW,Tsai JR,Lin CY,Yu MC,Lee TH,Tsai MH,Ou YC,Chen PY,Hu TH,Shyu YC,Cheng CK,Fang YJ,Hsieh SC,Chen CH,Chen CC,Li KJ,Lin CH,Chiu HY,Wu CC,Chen CY,Chu SJ,Liu FC,Yang FC,Chang HA,Chen WL,Yang SS,Sung YF,Wang TF,Lin SZ,Wu YW,Wu CS,Jiang JY,Ma GC,Chang TY,Hwang JJ,Kao KJ,Hung CF,Chiu TF,Chen PY,Tsui K,Wu MS,Pang ST,Chen SA,Chen WM,Chen CH,Sheu WH,Wu JY",
+  "ABSTRACT": "Han Chinese people comprise nearly 20% of the global population but remain under-represented in genetic studies1,2, so there is an urgent need for large-scale cohorts to advance precision medicine. Here we present the Taiwan Precision Medicine Initiative (TPMI), established by Academia Sinica in collaboration with 16 major medical centres around Taiwan, which has recruited 565,390 participants who consent to provide DNA samples for genetic profiling and grant access to their electronic medical records (EMRs) for research. EMR access is both retrospective and prospective, allowing longitudinal studies. Genetic profiling is done with population-optimized arrays of single-nucleotide polymorphisms for people of Han Chinese ancestry, which enable genome-wide association3,4, phenome-wide association5,6 and polygenic risk score7,8 studies to be performed to evaluate common disease risk and pharmacogenetic response. Participants also agreed to be re-contacted for future research and receive personalized genetic risk profiles with health management recommendations. The TPMI has established the TPMI Data Access Platform, a central database and analysis platform that both safeguards the security of the data and facilitates academic research. As a large cohort of individuals with non-European ancestry that merges genetic profiles with EMR data and enables longitudinal follow-up, TPMI provides a unique resource that could be used to validate genetic risk prediction models, perform clinical trials of risk-based health management and inform health policies. Ultimately, the TPMI cohort will contribute to global genetic research and serve as a model for population-based precision medicine.",
+  "DOI": "10.1038/s41586-025-09680-x",
+  "PMC ID": "PMC12675286",
+  "CITATION": "Yang HC, Kwok PY, Li LH, Liu YM, ...&, Wu JY. (2025) The Taiwan Precision Medicine Initiative provides a cohort for large-scale studies. Nature, 648 (8092) 117-127. doi:10.1038/s41586-025-09680-x. PMID 41092961",
+  "FIRST_AUTHOR": "Yang HC",
+  "DESCRIPTION": "Taiwan Precision Medicine Initiative PheWeb — cohort GWAS summary statistics.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Ferkingstad",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 34857953,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Large-scale integration of the plasma proteome with genetics and disease.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "12",
+  "PAGE": "1712-1721",
+  "Authors": "Ferkingstad E,Sulem P,Atlason BA,Sveinbjornsson G,Magnusson MI,Styrmisdottir EL,Gunnarsdottir K,Helgason A,Oddsson A,Halldorsson BV,Jensson BO,Zink F,Halldorsson GH,Masson G,Arnadottir GA,Katrinardottir H,Juliusson K,Magnusson MK,Magnusson OT,Fridriksdottir R,Saevarsdottir S,Gudjonsson SA,Stacey SN,Rognvaldsson S,Eiriksdottir T,Olafsdottir TA,Steinthorsdottir V,Tragante V,Ulfarsson MO,Stefansson H,Jonsdottir I,Holm H,Rafnar T,Melsted P,Saemundsdottir J,Norddahl GL,Lund SH,Gudbjartsson DF,Thorsteinsdottir U,Stefansson K",
+  "ABSTRACT": "The plasma proteome can help bridge the gap between the genome and diseases. Here we describe genome-wide association studies (GWASs) of plasma protein levels measured with 4,907 aptamers in 35,559 Icelanders. We found 18,084 associations between sequence variants and levels of proteins in plasma (protein quantitative trait loci; pQTL), of which 19% were with rare variants (minor allele frequency (MAF) < 1%). We tested plasma protein levels for association with 373 diseases and other traits and identified 257,490 associations. We integrated pQTL and genetic associations with diseases and other traits and found that 12% of 45,334 lead associations in the GWAS Catalog are with variants in high linkage disequilibrium with pQTL. We identified 938 genes encoding potential drug targets with variants that influence levels of possible biomarkers. Combining proteomics, genomics and transcriptomics, we provide a valuable resource that can be used to improve understanding of disease pathogenesis and to assist with drug discovery and development.",
+  "DOI": "10.1038/s41588-021-00978-w",
+  "PMC ID": "",
+  "CITATION": "Ferkingstad E, Sulem P, Atlason BA, Sveinbjornsson G, ...&, Stefansson K. (2021) Large-scale integration of the plasma proteome with genetics and disease. Nat Genet, 53 (12) 1712-1721. doi:10.1038/s41588-021-00978-w. PMID 34857953",
+  "FIRST_AUTHOR": "Ferkingstad E",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

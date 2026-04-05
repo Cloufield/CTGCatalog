@@ -1,0 +1,12 @@
+{
+  "NAME": "Ensembl",
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "Ensembl",
+  "URL": "https://asia.ensembl.org/index.html",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

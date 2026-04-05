@@ -1,0 +1,26 @@
+{
+  "NAME": "Squidpy",
+  "SECTION": "Single_Cell",
+  "PMID": 35102346,
+  "TOPIC": "Framework",
+  "CATEGORY": "Spatial",
+  "MANUAL_YEAR": 2022,
+  "URL": "https://squidpy.readthedocs.io/en/stable/index.html#",
+  "MANUAL_CITATION": "Palla, G., Spitzer, H., Klein, M., Fischer, D., Schaar, A. C., Kuemmerle, L. B., ... & Theis, F. J. (2022). Squidpy: a scalable framework for spatial omics analysis. Nature methods, 19(2), 171-178.",
+  "TITLE": "Squidpy: a scalable framework for spatial omics analysis.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2022",
+  "VOLUME": "19",
+  "ISSUE": "2",
+  "PAGE": "171-178",
+  "Authors": "Palla G,Spitzer H,Klein M,Fischer D,Schaar AC,Kuemmerle LB,Rybakov S,Ibarra IL,Holmberg O,Virshup I,Lotfollahi M,Richter S,Theis FJ",
+  "ABSTRACT": "Spatial omics data are advancing the study of tissue organization and cellular communication at an unprecedented scale. Flexible tools are required to store, integrate and visualize the large diversity of spatial omics data. Here, we present Squidpy, a Python framework that brings together tools from omics and image analysis to enable scalable description of spatial molecular data, such as transcriptome or multivariate proteins. Squidpy provides efficient infrastructure and numerous analysis methods that allow to efficiently store, manipulate and interactively visualize spatial omics data. Squidpy is extensible and can be interfaced with a variety of already existing libraries for the scalable analysis of spatial omics data.",
+  "DOI": "10.1038/s41592-021-01358-2",
+  "PMC ID": "PMC8828470",
+  "CITATION": "Palla G, Spitzer H, Klein M, Fischer D, ...&, Theis FJ. (2022) Squidpy: a scalable framework for spatial omics analysis. Nat Methods, 19 (2) 171-178. doi:10.1038/s41592-021-01358-2. PMID 35102346",
+  "FIRST_AUTHOR": "Palla G",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

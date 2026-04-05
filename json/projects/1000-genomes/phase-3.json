@@ -1,0 +1,13 @@
+{
+  "NAME": "Phase 3",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "STAGE_ORDER": 3,
+  "STAGE_PERIOD": "2012–2015",
+  "TAGS": ["1000 Genomes", "Reference"],
+  "DESCRIPTION": "~2,504 individuals across 26 populations; GRCh37/38 VCF releases became the standard allele-frequency, LD, and imputation backbone for GWAS and SV pipelines.",
+  "URL": "https://www.internationalgenome.org/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

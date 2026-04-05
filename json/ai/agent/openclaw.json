@@ -1,0 +1,13 @@
+{
+  "NAME": "OpenClaw",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "COMPANY": "Open source",
+  "URL": "https://openclaws.io",
+  "DESCRIPTION": "Open-source, local-first autonomous AI assistant: file/shell access, browser automation, skills/plugins, and optional chat-app bridges; model-agnostic (e.g. Claude, OpenAI, local/Ollama) with your own API keys.",
+  "TAGS": ["AI", "Agent"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

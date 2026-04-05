@@ -1,0 +1,19 @@
+{
+  "NAME": "ICD-11",
+  "SECTION": "References",
+  "TOPIC": "Phenotype",
+  "CATEGORY": "Disease classification",
+  "TYPE": "Classification",
+  "SHORT NAME": "ICD-11",
+  "FULL NAME": "International Classification of Diseases 11th Revision",
+  "KEYWORDS": "ICD-11; clinical coding; MMS; mortality; morbidity",
+  "DESCRIPTION": "WHO's successor to ICD-10 for mortality and morbidity statistics (ICD-11 for MMS), with a digital-first structure, updated clinical detail, and tooling for implementation in health systems and research.",
+  "MANUAL_CITATION": "World Health Organization. International Classification of Diseases, 11th Revision (ICD-11).",
+  "CITATION": "World Health Organization. International Classification of Diseases for Mortality and Morbidity Statistics, 11th Revision (ICD-11). Geneva: WHO.",
+  "YEAR": "2019",
+  "URL": "https://icd.who.int/en",
+  "TAGS": ["Phenotypes"],
+  "_meta": {
+    "source_sheet": "Phenotype"
+  }
+}

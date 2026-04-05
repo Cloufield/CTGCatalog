@@ -1,0 +1,15 @@
+{
+  "NAME": "IndiGenomes",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~10k",
+  "MANUAL_CITATION": " Jain, A., Bhoyar, R. C., Pandhare, K., Mishra, A., Sharma, D., Imran, M., ... & Sivasubbu, S. (2021). IndiGenomes: a comprehensive resource of genetic variants from over 1000 Indian genomes. Nucleic acids research, 49(D1), D1225-D1232.",
+  "URL": "http://clingen.igib.res.in/indigen/",
+  "DESCRIPTION": "IndiGenomes is a curated resource of genetic variants from 1000+ whole genomes from across India, supporting South Asian reference genomics and downstream association and functional studies.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "SAS",
+  "PARTICIPANTS": "Indian subcontinent individuals (genome resource)"
+}

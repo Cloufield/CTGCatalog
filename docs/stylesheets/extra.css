@@ -1,85 +1,1456 @@
-img{
-max-width:700px;
-height: auto;
+/*
+ * Modern surfaces: cool page tint, white / ink elevated cards, indigo accent rails
+ * (not flat grey). Works with Material default or custom palettes.
+ */
+
+:root {
+  /* Fallback if `data-md-color-scheme` is missing; overridden in palette blocks below. */
+  --catalog-nav-active-fg: #0f172a;
+  --catalog-radius-sm: 0.5rem;
+  --catalog-radius-md: 0.625rem;
+  --catalog-radius-lg: 1rem;
+  --catalog-accent: #2563eb;
+  --catalog-accent-soft: rgba(37, 99, 235, 0.1);
+  --catalog-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --catalog-shadow-md: 0 4px 20px rgba(37, 99, 235, 0.1), 0 2px 6px rgba(15, 23, 42, 0.06);
+  /* light */
+  --catalog-page-bg: #f1f4fb;
+  --catalog-elevated: #ffffff;
+  --catalog-elevated-border: rgba(37, 99, 235, 0.14);
+  --catalog-divider: rgba(37, 99, 235, 0.11);
+  --catalog-table-header: #e8efff;
+  --catalog-border: var(--catalog-divider);
+  --catalog-zebra: rgba(37, 99, 235, 0.04);
+  --catalog-count-bar-bg: color-mix(in srgb, var(--catalog-accent) 34%, transparent);
+  /* Journals page: stacked bar segments by catalog SECTION */
+  --catalog-journal-sec-tools: #1d4ed8;
+  --catalog-journal-sec-sumstats: #6d28d9;
+  --catalog-journal-sec-references: #0d9488;
+  --catalog-journal-sec-single_cell: #c2410c;
+  --catalog-journal-sec-biobanks: #15803d;
+  --catalog-journal-sec-projects: #a21caf;
+  --catalog-journal-sec-journals: #4f46e5;
+  --catalog-journal-sec-coding: #b45309;
+  --catalog-journal-sec-misc: #64748b;
+  --catalog-journal-sec-unknown: #94a3b8;
+  /* Section hubs / AI / Pop gen — match journal hue family, distinct from neighbors */
+  --catalog-section-accent-ai: #6d28d9;
+  --catalog-section-accent-population_genetics: #0369a1;
 }
 
+[data-md-color-scheme="slate"] {
+  --catalog-nav-active-fg: var(--md-default-fg-color);
+  --catalog-accent: #7c9eff;
+  --catalog-accent-soft: rgba(124, 158, 255, 0.14);
+  --catalog-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.45);
+  --catalog-shadow-md: 0 8px 28px rgba(0, 0, 0, 0.55);
+  --catalog-page-bg: #0b0d12;
+  --catalog-elevated: #12161f;
+  --catalog-elevated-border: rgba(124, 140, 255, 0.22);
+  --catalog-divider: rgba(124, 140, 255, 0.16);
+  --catalog-table-header: rgba(99, 102, 241, 0.18);
+  --catalog-border: var(--catalog-divider);
+  --catalog-zebra: rgba(124, 158, 255, 0.06);
+  --catalog-count-bar-bg: color-mix(in srgb, var(--catalog-accent) 42%, transparent);
+  --catalog-journal-sec-tools: #60a5fa;
+  --catalog-journal-sec-sumstats: #a78bfa;
+  --catalog-journal-sec-references: #2dd4bf;
+  --catalog-journal-sec-single_cell: #fb923c;
+  --catalog-journal-sec-biobanks: #4ade80;
+  --catalog-journal-sec-projects: #e879f9;
+  --catalog-journal-sec-journals: #818cf8;
+  --catalog-journal-sec-coding: #fbbf24;
+  --catalog-journal-sec-misc: #94a3b8;
+  --catalog-journal-sec-unknown: #cbd5e1;
+  --catalog-section-accent-ai: #a78bfa;
+  --catalog-section-accent-population_genetics: #38bdf8;
+  --md-default-bg-color: var(--catalog-page-bg);
+  --md-typeset-table-color: rgba(124, 140, 255, 0.14);
+  --md-footer-bg-color: #0f1219;
+  --md-footer-fg-color: #94a3b8;
+}
+
+/* Page canvas (light) */
+[data-md-color-scheme="default"] {
+  --catalog-nav-active-fg: #0f172a;
+  --md-default-bg-color: var(--catalog-page-bg);
+  --md-typeset-table-color: rgba(37, 99, 235, 0.12);
+  --md-footer-bg-color: #e4e9f4;
+  --md-footer-fg-color: #64748b;
+}
+
+/*
+ * Primary sidebar hidden (home: nav+toc; Catalog statistics: nav only): grow article into
+ * the former left-nav column inside the same ~61rem main row.
+ */
+body:has(.md-main__inner .md-sidebar--primary[hidden]) .md-content {
+  flex-grow: 1;
+  max-width: 100%;
+  min-width: 0;
+}
+
+/*
+ * Per-section accent:
+ * - Page: front matter class catalog-section-<Section> on md-content__inner article.
+ * - Entry cards (incl. tag pages): data-catalog-section="<Section>" on .catalog-entry-card.
+ */
+article.md-content__inner.catalog-section-Biobanks,
+.catalog-entry-card[data-catalog-section="Biobanks"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-biobanks);
+}
+
+article.md-content__inner.catalog-section-Sumstats,
+.catalog-entry-card[data-catalog-section="Sumstats"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-sumstats);
+}
+
+article.md-content__inner.catalog-section-Tools,
+.catalog-entry-card[data-catalog-section="Tools"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-tools);
+}
+
+article.md-content__inner.catalog-section-References,
+.catalog-entry-card[data-catalog-section="References"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-references);
+}
+
+article.md-content__inner.catalog-section-Single_Cell,
+.catalog-entry-card[data-catalog-section="Single_Cell"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-single_cell);
+}
+
+article.md-content__inner.catalog-section-Projects,
+.catalog-entry-card[data-catalog-section="Projects"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-projects);
+}
+
+article.md-content__inner.catalog-section-Journals,
+.catalog-entry-card[data-catalog-section="Journals"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-journals);
+}
+
+article.md-content__inner.catalog-section-AI,
+.catalog-entry-card[data-catalog-section="AI"] {
+  --catalog-section-header-accent: var(--catalog-section-accent-ai);
+}
+
+article.md-content__inner.catalog-section-Coding,
+.catalog-entry-card[data-catalog-section="Coding"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-coding);
+}
+
+article.md-content__inner.catalog-section-Population_Genetics,
+.catalog-entry-card[data-catalog-section="Population_Genetics"] {
+  --catalog-section-header-accent: var(--catalog-section-accent-population_genetics);
+}
+
+/* Short intro under Material page titles (section hubs + per-topic listing pages). */
+.md-typeset .catalog-nav-lead {
+  font-size: 0.92em;
+  line-height: 1.55;
+  color: var(--md-default-fg-color--lighter);
+  margin: 0 0 1.25rem;
+  padding: 0.65rem 0.9rem;
+  border-left: 3px solid var(--catalog-section-header-accent, var(--catalog-accent));
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 16%,
+    var(--catalog-page-bg)
+  );
+  border-radius: 0 var(--catalog-radius-sm) var(--catalog-radius-sm) 0;
+}
+
+/*
+ * Document title (Material h1): same “accent rail” shape as .catalog-nav-lead —
+ * 3px left stripe, flat left edge, rounded right, fill mixed into page canvas.
+ * Section pages: --catalog-section-header-accent on article. Tag pages: fallback --catalog-accent.
+ */
+.md-typeset.md-content__inner[class*="catalog-section-"] > h1:first-child,
+.md-typeset.md-content__inner.catalog-tags-hub > h1:first-child,
+.md-typeset.md-content__inner.catalog-tag-page > h1:first-child {
+  padding: 0.65rem 0.9rem;
+  margin-bottom: 0.75rem;
+  border: none;
+  border-left: 3px solid var(--catalog-section-header-accent, var(--catalog-accent));
+  border-radius: 0 var(--catalog-radius-sm) var(--catalog-radius-sm) 0;
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 16%,
+    var(--catalog-page-bg)
+  );
+  box-shadow: none;
+}
+
+/*
+ * One continuous rail when the intro lead sits directly under the page title
+ * (e.g. Projects hub, topic listings, Biobanks hub — map is below the lead).
+ */
+.md-typeset.md-content__inner[class*="catalog-section-"] > h1:first-child:has(+ .catalog-nav-lead),
+.md-typeset.md-content__inner.catalog-tags-hub > h1:first-child:has(+ .catalog-nav-lead),
+.md-typeset.md-content__inner.catalog-tag-page > h1:first-child:has(+ .catalog-nav-lead) {
+  margin-bottom: 0;
+  padding-bottom: 0.45rem;
+  border-radius: 0 var(--catalog-radius-sm) 0 0;
+}
+
+.md-typeset.md-content__inner[class*="catalog-section-"] > h1:first-child + .catalog-nav-lead,
+.md-typeset.md-content__inner.catalog-tags-hub > h1:first-child + .catalog-nav-lead,
+.md-typeset.md-content__inner.catalog-tag-page > h1:first-child + .catalog-nav-lead {
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  padding-top: 0.45rem;
+  border-radius: 0 0 var(--catalog-radius-sm) 0;
+}
+
+.md-typeset .catalog-nav-lead p {
+  margin: 0;
+}
+
+/*
+ * Tag chips (Material tags plugin): same fill recipe as section h1 / .catalog-nav-lead.
+ * Article sets --catalog-section-header-accent; sidebar is outside article, so section tint
+ * for sidebar tags is driven via --catalog-sidebar-tag-accent on body (see :has rules below).
+ */
+article.md-content__inner[class*="catalog-section-"] .md-tags .md-tag,
+article.md-content__inner[class*="catalog-section-"] .md-tags a.md-tag,
+.md-typeset.md-content__inner.catalog-tags-hub .md-tags .md-tag,
+.md-typeset.md-content__inner.catalog-tags-hub .md-tags a.md-tag,
+.md-typeset.md-content__inner.catalog-tag-page .md-tags .md-tag,
+.md-typeset.md-content__inner.catalog-tag-page .md-tags a.md-tag {
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 16%,
+    var(--catalog-page-bg)
+  );
+  color: var(--md-default-fg-color);
+  border-color: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 32%,
+    transparent
+  );
+}
+
+body:has(article.md-content__inner.catalog-section-Biobanks) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-biobanks);
+}
+
+body:has(article.md-content__inner.catalog-section-Sumstats) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-sumstats);
+}
+
+body:has(article.md-content__inner.catalog-section-Tools) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-tools);
+}
+
+body:has(article.md-content__inner.catalog-section-References) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-references);
+}
+
+body:has(article.md-content__inner.catalog-section-Single_Cell) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-single_cell);
+}
+
+body:has(article.md-content__inner.catalog-section-Projects) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-projects);
+}
+
+body:has(article.md-content__inner.catalog-section-Journals) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-journals);
+}
+
+body:has(article.md-content__inner.catalog-section-AI) {
+  --catalog-sidebar-tag-accent: var(--catalog-section-accent-ai);
+}
+
+body:has(article.md-content__inner.catalog-section-Coding) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-coding);
+}
+
+body:has(article.md-content__inner.catalog-section-Population_Genetics) {
+  --catalog-sidebar-tag-accent: var(--catalog-section-accent-population_genetics);
+}
+
+body:has(article.md-content__inner[class*="catalog-section-"]) .md-sidebar .md-tag,
+body:has(article.md-content__inner[class*="catalog-section-"]) .md-sidebar a.md-tag {
+  background: color-mix(
+    in srgb,
+    var(--catalog-sidebar-tag-accent) 16%,
+    var(--catalog-page-bg)
+  );
+  color: var(--md-default-fg-color);
+  border-color: color-mix(in srgb, var(--catalog-sidebar-tag-accent) 32%, transparent);
+}
+
+body:has(article.md-content__inner.catalog-tags-hub) .md-sidebar .md-tag,
+body:has(article.md-content__inner.catalog-tags-hub) .md-sidebar a.md-tag,
+body:has(article.md-content__inner.catalog-tag-page) .md-sidebar .md-tag,
+body:has(article.md-content__inner.catalog-tag-page) .md-sidebar a.md-tag {
+  background: color-mix(in srgb, var(--catalog-accent) 16%, var(--catalog-page-bg));
+  color: var(--md-default-fg-color);
+  border-color: color-mix(in srgb, var(--catalog-accent) 32%, transparent);
+}
+
+/*
+ * Primary sidebar active row: Material uses --md-accent-fg-color--transparent (theme blue).
+ * Use the same 16% accent / page-bg mix as the section h1 and .catalog-nav-lead.
+ */
+body:has(article.md-content__inner[class*="catalog-section-"]) .md-nav--primary .md-nav__item .md-nav__link--active {
+  /* !important beats Material’s .md-nav--primary … { background: var(--md-accent-fg-color--transparent) } */
+  background: color-mix(
+    in srgb,
+    var(--catalog-sidebar-tag-accent) 16%,
+    var(--catalog-page-bg)
+  ) !important;
+  color: var(--catalog-nav-active-fg) !important;
+}
+
+body:has(article.md-content__inner.catalog-tags-hub) .md-nav--primary .md-nav__item .md-nav__link--active,
+body:has(article.md-content__inner.catalog-tag-page) .md-nav--primary .md-nav__item .md-nav__link--active {
+  background: color-mix(in srgb, var(--catalog-accent) 16%, var(--catalog-page-bg)) !important;
+  color: var(--catalog-nav-active-fg) !important;
+}
+
+/* “On this page” TOC lives under primary when tabs + integrated layout; keep active row in sync. */
+body:has(article.md-content__inner[class*="catalog-section-"]) .md-nav--primary .md-nav--secondary .md-nav__link--active {
+  background: color-mix(
+    in srgb,
+    var(--catalog-sidebar-tag-accent) 16%,
+    var(--catalog-page-bg)
+  ) !important;
+  color: var(--catalog-nav-active-fg) !important;
+}
+
+body:has(article.md-content__inner.catalog-tags-hub) .md-nav--primary .md-nav--secondary .md-nav__link--active,
+body:has(article.md-content__inner.catalog-tag-page) .md-nav--primary .md-nav--secondary .md-nav__link--active {
+  background: color-mix(in srgb, var(--catalog-accent) 16%, var(--catalog-page-bg)) !important;
+  color: var(--catalog-nav-active-fg) !important;
+}
+
+/* Sidebar active row: `code` inside links keeps Material’s link color unless reset. */
+body:has(article.md-content__inner[class*="catalog-section-"]) .md-nav--primary .md-nav__link--active code,
+body:has(article.md-content__inner.catalog-tags-hub) .md-nav--primary .md-nav__link--active code,
+body:has(article.md-content__inner.catalog-tag-page) .md-nav--primary .md-nav__link--active code {
+  color: var(--catalog-nav-active-fg) !important;
+}
+
+/* Catalog statistics page: count column bar (fills from the right, length ∝ count). */
+.md-typeset table.catalog-stats-table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  font-size: clamp(0.65rem, 0.45vw + 0.6rem, 0.78rem);
+  border-spacing: 0;
+  border-collapse: collapse;
+  margin: 0.5em 0 1em;
+}
+
+.md-typeset table.catalog-stats-table thead th {
+  font-weight: 600;
+  background-color: var(--catalog-table-header);
+  box-shadow: 0 1px 0 var(--md-typeset-table-color);
+  padding: 0.45em 0.5em;
+  text-align: left;
+  border-top: 1px solid var(--md-typeset-table-color);
+  vertical-align: bottom;
+}
+
+/*
+ * Match page title / nav-lead rail (section pages). Article is .md-typeset — no nested .md-typeset,
+ * so selectors must not use ".md-typeset .catalog-summary-table" (that would never match).
+ */
+article.md-content__inner[class*="catalog-section-"] table.catalog-stats-table thead th {
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent) 16%,
+    var(--catalog-page-bg)
+  );
+}
+
+.md-typeset table.catalog-stats-table tbody tr:nth-child(even) {
+  background-color: var(--catalog-zebra);
+}
+
+.md-typeset table.catalog-stats-table td,
+.md-typeset table.catalog-stats-table th {
+  border-top: 1px solid var(--md-typeset-table-color);
+  padding: 0.45em 0.5em;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.md-typeset table.catalog-stats-table thead th:last-child {
+  text-align: right;
+}
+
+.md-typeset table.catalog-stats-table td.catalog-stats-count {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  width: 7.5rem;
+  background: linear-gradient(
+    to left,
+    var(--catalog-count-bar-bg) var(--catalog-count-pct, 0%),
+    transparent var(--catalog-count-pct, 0%)
+  );
+}
+
+/* ----- Journals page: legend + count column (same bar geometry as catalog-stats-count) ----- */
+.md-typeset .catalog-journals-legend {
+  margin: 0.15rem 0 1.1rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--catalog-radius-md);
+  border: 1px solid var(--catalog-elevated-border);
+  background-color: var(--catalog-elevated);
+  box-shadow: var(--catalog-shadow-sm);
+}
+
+.md-typeset .catalog-journals-legend-title {
+  margin: 0 0 0.45rem;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+
+.md-typeset .catalog-journals-legend-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 0.85rem;
+  align-items: center;
+}
+
+.md-typeset .catalog-journals-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.68rem;
+  color: var(--md-typeset-color);
+}
+
+.md-typeset .catalog-journals-swatch {
+  display: inline-block;
+  width: 0.72rem;
+  height: 0.72rem;
+  border-radius: 2px;
+  flex-shrink: 0;
+  border: 1px solid color-mix(in srgb, var(--catalog-elevated-border) 70%, transparent);
+}
+
+.md-typeset .catalog-journals-swatch[data-section] {
+  background-color: var(--catalog-journal-sec-unknown);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="Tools"] {
+  background-color: var(--catalog-journal-sec-tools);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="Sumstats"] {
+  background-color: var(--catalog-journal-sec-sumstats);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="References"] {
+  background-color: var(--catalog-journal-sec-references);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="Single_Cell"] {
+  background-color: var(--catalog-journal-sec-single_cell);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="Biobanks"] {
+  background-color: var(--catalog-journal-sec-biobanks);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="Projects"] {
+  background-color: var(--catalog-journal-sec-projects);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="Journals"] {
+  background-color: var(--catalog-journal-sec-journals);
+}
+
+.md-typeset .catalog-journals-swatch[data-section="MISC"] {
+  background-color: var(--catalog-journal-sec-misc);
+}
+
+.md-typeset table.catalog-journals-table td.catalog-stats-count {
+  font-weight: 500;
+}
+
+.md-typeset table.catalog-journals-table td.catalog-journals-name a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.md-typeset table.catalog-journals-table td.catalog-journals-name a:hover {
+  text-decoration: underline;
+}
+
+/* Frosted header reads on tinted page */
+[data-md-color-scheme="default"] .md-header,
+[data-md-color-scheme="default"] .md-tabs {
+  --md-primary-bg-color: rgba(255, 255, 255, 0.78);
+}
+
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs {
+  --md-primary-bg-color: rgba(18, 22, 31, 0.88);
+}
+
+/* Frosted header / tabs */
+.md-header {
+  backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  border-bottom: none;
+  box-shadow: none;
+}
+
+.md-tabs {
+  backdrop-filter: saturate(180%) blur(18px);
+  -webkit-backdrop-filter: saturate(180%) blur(18px);
+  border-bottom: 1px solid var(--catalog-border);
+  background-color: color-mix(in srgb, var(--md-primary-bg-color) 92%, transparent);
+}
+
+/* Tab labels: section tint fills the whole tab cell (link stretches to li). */
+.md-tabs .md-tabs__list {
+  align-items: stretch;
+}
+
+.md-tabs .md-tabs__item {
+  display: flex;
+  align-items: stretch;
+}
+
+/* Home tab uses `href=""`; same accent as default below (explicit for clarity). */
+.md-tabs .md-tabs__link[href=""] {
+  --catalog-tab-accent: var(--catalog-journal-sec-misc);
+}
+
+.md-tabs .md-tabs__link {
+  --catalog-tab-accent: var(--catalog-journal-sec-misc);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 auto;
+  align-self: stretch;
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0.55rem 0.75rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+  transition: background-color 0.15s ease, color 0.15s ease;
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-tab-accent) 22%,
+    transparent
+  );
+}
+
+.md-tabs .md-tabs__link:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-tab-accent) 34%,
+    transparent
+  );
+}
+
+.md-tabs .md-tabs__item--active .md-tabs__link {
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-tab-accent) 48%,
+    transparent
+  );
+}
+
+.md-tabs .md-tabs__item--active .md-tabs__link:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-tab-accent) 52%,
+    transparent
+  );
+}
+
+.md-tabs .md-tabs__link[href$="Biobanks/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-biobanks);
+}
+
+.md-tabs .md-tabs__link[href$="Sumstats/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-sumstats);
+}
+
+.md-tabs .md-tabs__link[href$="Tools/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-tools);
+}
+
+.md-tabs .md-tabs__link[href$="Coding/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-coding);
+}
+
+.md-tabs .md-tabs__link[href$="Population_Genetics/"] {
+  --catalog-tab-accent: var(--catalog-section-accent-population_genetics);
+}
+
+.md-tabs .md-tabs__link[href$="References/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-references);
+}
+
+.md-tabs .md-tabs__link[href$="Single_Cell/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-single_cell);
+}
+
+.md-tabs .md-tabs__link[href$="Projects/"] {
+  --catalog-tab-accent: var(--catalog-journal-sec-projects);
+}
+
+.md-tabs .md-tabs__link[href$="AI/"] {
+  --catalog-tab-accent: var(--catalog-section-accent-ai);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-tabs .md-tabs__link {
+    transition: none;
+  }
+}
+
+/* Content surface */
+.md-content {
+  border-radius: var(--catalog-radius-lg);
+}
+
+.md-content__inner {
+  margin: 0.5rem 0 2rem;
+}
+
+.md-main__inner {
+  margin-top: 0.75rem;
+}
+
+/* Typography: smaller base for dense catalog pages */
 .md-typeset {
-    font-size: .7rem;
-    line-height: 1.3;
-}
-
-.md-typeset__table {
-   min-width: 100%;
-   margin-bottom: 0.2em;
-   padding: 0 0.8rem;
-}
-
-.md-typeset table:not([class]) td {
-    border-top: 0.05rem solid var(--md-typeset-table-color);
-    padding: 0.3em 0.4em;
-    vertical-align: top;
+  font-size: 0.8125rem;
+  line-height: 1.48;
+  letter-spacing: -0.01em;
+  font-feature-settings: "kern" 1, "liga" 1;
 }
 
 .md-typeset h1 {
-    font-size: 1.6em;
-    line-height: 1.3;
-    margin: 0 0 0.5em;
+  font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: -0.024em;
+  line-height: 1.15;
+  margin: 0 0 0.65em;
 }
 
 .md-typeset h2 {
-    font-size: 1.5em;
-    line-height: 1.3;
-    margin: 1.2em 0 0.4em;
+  font-size: 1.12rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 1.5em 0 0.45em;
 }
 
 .md-typeset h3 {
-    font-size: 1.25em;
-    font-weight: 400;
-    letter-spacing: -.01em;
-    line-height: 1.2;
-    margin: 1.2em 0 0.4em;
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: -0.016em;
+  line-height: 1.25;
+  margin: 1.25em 0 0.4em;
 }
 
 .md-typeset p {
-    margin-block-start: 0.7em;
-    margin-block-end: 0.7em;
+  margin-block-start: 0.65em;
+  margin-block-end: 0.65em;
+  color: var(--md-default-fg-color);
 }
 
 .md-typeset ul li {
-    margin-left: 1em;
-    margin-bottom: 0.4em;
+  margin-left: 0.25em;
+  margin-bottom: 0.35em;
 }
 
-.md-typeset p > code {
-    color: #E33D70;
+/* Homepage hero: same surface as card tiles; inner copy is plain paragraphs only. */
+.md-typeset .catalog-home-hero {
+  margin: 0 0 1.5rem;
+  padding: 1.15rem 1.35rem;
+  border-radius: var(--catalog-radius-lg);
+  border: 1px solid var(--catalog-elevated-border);
+  background-color: var(--catalog-elevated);
+  box-shadow: var(--catalog-shadow-sm);
+}
+
+.md-typeset .catalog-home-hero p {
+  margin: 0.65em 0 0;
+}
+
+.md-typeset .catalog-home-hero p:first-child {
+  margin-top: 0;
+}
+
+/*
+ * Homepage card deck: hook for spacing (hero is Markdown; avoids fragile sibling selectors if theme wraps nodes).
+ */
+.md-typeset .catalog-home-cards {
+  margin-top: 1.15rem;
+}
+
+/* Homepage cards: whole tile is one link (padding on anchor, not li). */
+.md-typeset .catalog-home-cards a.catalog-home-card-link,
+.md-typeset .catalog-home-cards div.catalog-home-card-link--static {
+  display: block;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 1.15rem 1.35rem;
+  color: inherit;
+  text-decoration: none;
+  border-radius: var(--catalog-radius-lg);
+}
+
+.md-typeset .catalog-home-cards div.catalog-home-card-link--static {
+  cursor: default;
+}
+
+.md-typeset .catalog-home-cards a.catalog-home-card-link:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset .catalog-home-cards a.catalog-home-card-link:focus-visible {
+  outline: 2px solid var(--catalog-accent);
+  outline-offset: 2px;
+}
+
+.md-typeset .catalog-home-cards div.catalog-home-card-link--static a {
+  color: var(--md-typeset-a-color);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.md-typeset .catalog-home-cards div.catalog-home-card-link--static a:hover {
+  text-decoration: none;
+  color: color-mix(in srgb, var(--md-typeset-a-color) 88%, var(--md-default-fg-color));
+}
+
+/* Card grid: floating tiles */
+.md-typeset .grid.cards > ul {
+  gap: 1rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: var(--catalog-radius-lg);
+  border: 1px solid var(--catalog-elevated-border);
+  background-color: var(--catalog-elevated);
+  box-shadow: var(--catalog-shadow-sm);
+  padding: 1.15rem 1.35rem;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+/* Wins over `.grid.cards > ul > li` padding (extra class on the same card deck wrapper). */
+.md-typeset .grid.cards.catalog-home-cards > ul > li {
+  padding: 0;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--catalog-shadow-md);
+  border-color: color-mix(in srgb, var(--catalog-accent) 42%, var(--catalog-elevated-border));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .grid.cards > ul > li {
+    transition: none;
   }
 
-.md-typeset li > code {
-    color: #E33D70;
+  .md-typeset .grid.cards > ul > li:hover {
+    transform: none;
   }
-
-.md-typeset td > code {
-    color: #E33D70;
 }
 
-.md-typeset th > code {
-    color: #E33D70;
+.md-typeset .grid.cards > ul > li hr {
+  margin: 0.85em 0;
+  border: none;
+  border-top: 1px solid var(--catalog-border);
 }
 
-.md-typeset h2 > code {
-    color: #E33D70;
+.catalog-card-icon {
+  display: inline-block;
+  font-size: 1.65rem;
+  line-height: 1;
+  margin-right: 0.35rem;
+  vertical-align: -0.2em;
 }
 
-.md-typeset h3 > code {
-    color: #E33D70;
+/* Tables: fill page width, wrap cells — no horizontal scrollbar */
+.md-typeset .md-typeset__scrollwrap {
+  overflow-x: visible !important;
 }
 
-.md-typeset h4 > code {
-    color: #E33D70;
+.md-typeset__table {
+  min-width: 0;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 0.75em;
+  padding: 1rem 1.1rem;
+  overflow-x: visible !important;
+  border-radius: var(--catalog-radius-md);
+  border: 1px solid var(--catalog-elevated-border);
+  background-color: var(--catalog-elevated);
+  box-shadow: var(--catalog-shadow-sm);
 }
 
 .md-typeset table:not([class]) {
-    display: table;
-    font-size: px2rem(11px);
-    border-spacing:  px2em(1px);
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  font-size: clamp(0.65rem, 0.45vw + 0.6rem, 0.78rem);
+  letter-spacing: -0.01em;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.md-typeset table:not([class]) thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-weight: 600;
+  background-color: var(--catalog-table-header);
+  box-shadow: 0 1px 0 var(--md-typeset-table-color);
+}
+
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background-color: var(--catalog-zebra);
+}
+
+.md-typeset table:not([class]) th,
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--md-typeset-table-color);
+  padding: 0.45em 0.5em;
+  vertical-align: top;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+img {
+  max-width: 700px;
+  height: auto;
+  border-radius: var(--catalog-radius-md);
+}
+
+/* Inline code: soft fill, not loud pink */
+.md-typeset p > code,
+.md-typeset li > code,
+.md-typeset td > code,
+.md-typeset th > code,
+.md-typeset h2 > code,
+.md-typeset h3 > code,
+.md-typeset h4 > code {
+  color: var(--md-typeset-color);
+  background-color: var(--catalog-accent-soft);
+  border-radius: 0.35em;
+  padding: 0.08em 0.35em;
+  font-size: 0.88em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset p > code,
+[data-md-color-scheme="slate"] .md-typeset li > code,
+[data-md-color-scheme="slate"] .md-typeset td > code,
+[data-md-color-scheme="slate"] .md-typeset th > code,
+[data-md-color-scheme="slate"] .md-typeset h2 > code,
+[data-md-color-scheme="slate"] .md-typeset h3 > code,
+[data-md-color-scheme="slate"] .md-typeset h4 > code {
+  background-color: rgba(100, 181, 255, 0.12);
+}
+
+/* ----- Per-entry cards (generated catalog markdown HTML) ----- */
+.catalog-entry-card {
+  --catalog-entry-card-bg: var(--catalog-elevated);
+  --catalog-entry-card-border: var(--catalog-elevated-border);
+  --catalog-entry-card-divider: var(--catalog-divider);
+  margin: 0.75rem 0;
+  padding: 0.65rem 0.85rem 0.75rem;
+  border-radius: var(--catalog-radius-md);
+  border: 1px solid var(--catalog-entry-card-border);
+  background-color: var(--catalog-entry-card-bg);
+  box-shadow: var(--catalog-shadow-sm);
+}
+
+.catalog-entry-card__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.45rem 0.75rem;
+  margin: -0.65rem -0.85rem 0.6rem;
+  padding: 0.72rem 0.85rem 0.52rem;
+  border-bottom: 1px solid var(--catalog-entry-card-divider);
+  border-radius: calc(var(--catalog-radius-md) - 1px) calc(var(--catalog-radius-md) - 1px) 0 0;
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 8%,
+    var(--catalog-entry-card-bg)
+  );
+}
+
+[data-md-color-scheme="slate"] .catalog-entry-card__header {
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 14%,
+    var(--catalog-entry-card-bg)
+  );
+}
+
+.md-typeset .catalog-entry-card__title {
+  margin: 0;
+  padding: 0;
+  border: none;
+  flex: 1 1 12rem;
+  min-width: 0;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+  font-size: clamp(1.14rem, 0.65vw + 1.02rem, 1.4rem);
+  color: var(--md-default-fg-color);
+}
+
+.md-typeset .catalog-entry-card__title-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.md-typeset .catalog-entry-card__title-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.md-typeset h3.catalog-entry-card__title {
+  font-size: clamp(1.06rem, 0.5vw + 0.96rem, 1.22rem);
+}
+
+.catalog-entry-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 0 1 auto;
+  max-width: 100%;
+}
+
+.catalog-badge {
+  display: inline-block;
+  padding: 0.12em 0.45em;
+  border-radius: 999px;
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  line-height: 1.35;
+  color: color-mix(in srgb, var(--catalog-accent) 92%, var(--md-default-fg-color));
+  background: var(--catalog-accent-soft);
+  border: 1px solid color-mix(in srgb, var(--catalog-accent) 35%, var(--catalog-elevated-border));
+}
+
+a.catalog-badge.catalog-badge--link {
+  text-decoration: none;
+  color: inherit;
+  transition: background-color 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+}
+
+a.catalog-badge.catalog-badge--link:hover {
+  background: color-mix(in srgb, var(--catalog-accent-soft) 65%, var(--catalog-accent) 35%);
+  border-color: color-mix(in srgb, var(--catalog-accent) 48%, var(--catalog-elevated-border));
+}
+
+.md-typeset .catalog-entry-card__title-abbr {
+  font-weight: 600;
+  font-size: 0.88em;
+  color: var(--md-default-fg-color--light);
+  letter-spacing: 0.01em;
+}
+
+.catalog-entry-card__fields {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.catalog-entry-card__section {
+  margin: 0;
+}
+
+.catalog-entry-card__section + .catalog-entry-card__section {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--catalog-entry-card-divider);
+}
+
+.catalog-entry-card__field-name {
+  font-size: 0.58rem;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+  margin-bottom: 0.1rem;
+}
+
+.catalog-entry-card__value {
+  font-size: 0.78rem;
+  line-height: 1.36;
+  color: var(--md-typeset-color);
+}
+
+.catalog-entry-card__value a {
+  color: var(--md-typeset-a-color);
+  text-decoration: none;
+}
+
+.catalog-entry-card__value a:hover {
+  text-decoration: underline;
+}
+
+/* Long bibliographic lines: match denser type like collapsible abstract */
+.catalog-entry-card__section--citation .catalog-entry-card__field-name {
+  font-size: 0.52rem;
+}
+
+.catalog-entry-card__section--citation .catalog-entry-card__value {
+  font-size: 0.68rem;
+  line-height: 1.34;
+}
+
+/* ABSTRACT / DESCRIPTION: ~few lines + fade; expand via checkbox (no JS) */
+.catalog-entry-card__section--collapsible {
+  margin-top: 0;
+}
+
+.catalog-collapsible-toggle {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.catalog-entry-card__collapsible-clipped {
+  position: relative;
+  max-height: 4.5em;
+  overflow: hidden;
+  line-height: 1.38;
+  font-size: 0.8em;
+  color: var(--md-default-fg-color--light);
+}
+
+.catalog-entry-card__collapsible-clipped::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2em;
+  pointer-events: none;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--catalog-entry-card-bg) 92%
+  );
+}
+
+.catalog-collapsible-toggle:checked + .catalog-entry-card__collapsible-clipped {
+  max-height: none;
+  color: var(--md-typeset-color);
+}
+
+.catalog-collapsible-toggle:checked + .catalog-entry-card__collapsible-clipped::after {
+  display: none;
+}
+
+.catalog-collapsible-label {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 0.68rem;
+  font-weight: 500;
+  color: var(--md-typeset-a-color);
+  cursor: pointer;
+  user-select: none;
+}
+
+.catalog-collapsible-label:hover {
+  text-decoration: underline;
+}
+
+.catalog-collapsible-less {
+  display: none;
+}
+
+.catalog-collapsible-toggle:checked ~ .catalog-collapsible-label .catalog-collapsible-more {
+  display: none;
+}
+
+.catalog-collapsible-toggle:checked ~ .catalog-collapsible-label .catalog-collapsible-less {
+  display: inline;
+}
+
+/*
+ * Section hub pages (Contents - References, Tools, …): grid of cards per top-level list item.
+ * process_mkdocs wraps the list in .catalog-section-contents (requires md_in_html).
+ */
+.md-typeset .catalog-section-contents > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+  gap: 0.85rem;
+  margin: 1rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.md-typeset .catalog-section-contents > ul > li {
+  margin: 0;
+  padding: 0.85rem 1rem;
+  background: var(--catalog-elevated);
+  border: 1px solid var(--catalog-elevated-border);
+  border-radius: var(--catalog-radius-md);
+  box-shadow: var(--catalog-shadow-sm);
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.md-typeset .catalog-section-contents > ul > li:hover {
+  border-color: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 45%,
+    var(--catalog-elevated-border)
+  );
+  box-shadow: var(--catalog-shadow-md);
+}
+
+.md-typeset .catalog-section-contents ul ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+  margin: 0.65rem 0 0;
+  padding: 0 0 0 0.6rem;
+  list-style: none;
+  border-left: 2px solid
+    color-mix(
+      in srgb,
+      var(--catalog-section-header-accent, var(--catalog-accent)) 40%,
+      transparent
+    );
+}
+
+.md-typeset .catalog-section-contents ul ul li {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.md-typeset .catalog-section-contents ul ul li:hover {
+  border: none;
+  box-shadow: none;
+}
+
+.md-typeset .catalog-section-contents > ul > li > p {
+  margin: 0;
+}
+
+.md-typeset .catalog-section-contents > ul > li > p + ul {
+  margin-top: 0.5rem;
+}
+
+/* Section hub “Contents - …” cards: links without underline (e.g. Epigenetics → topic page). */
+.md-typeset .catalog-section-contents a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .catalog-section-contents a:hover {
+  text-decoration: none;
+  color: color-mix(in srgb, var(--md-typeset-a-color) 88%, var(--md-default-fg-color));
+}
+
+/* Same treatment for links inside the tinted intro rail on section / topic listing pages. */
+.md-typeset .catalog-nav-lead a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.md-typeset .catalog-nav-lead a:hover {
+  text-decoration: none;
+  color: color-mix(in srgb, var(--md-typeset-a-color) 88%, var(--md-default-fg-color));
+}
+
+/*
+ * Summary table — last in file so it wins over generic .md-typeset__table / table rules.
+ * Material injects .md-typeset__scrollwrap > .md-typeset__table around tables, which breaks h2+table.
+ * process_md wraps the markdown table in .catalog-summary-table (see md_in_html).
+ */
+.md-typeset h2#summary-table {
+  margin-bottom: 0.45rem;
+}
+
+.md-typeset .catalog-summary-table {
+  margin: 0.25rem 0 1.15rem;
+}
+
+/* Remove theme “card” chrome on wrappers so only our table surface shows (stops flash / override). */
+.md-typeset .catalog-summary-table .md-typeset__scrollwrap,
+.md-typeset .catalog-summary-table .md-typeset__table {
+  margin: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  overflow: visible !important;
+  min-width: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.md-typeset .catalog-summary-table table {
+  width: 100% !important;
+  max-width: 100% !important;
+  table-layout: fixed !important;
+  font-size: 0.72rem !important;
+  line-height: 1.34 !important;
+  letter-spacing: -0.01em !important;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+  margin: 0 !important;
+  background-color: var(--catalog-elevated) !important;
+  border: 1px solid var(--catalog-elevated-border) !important;
+  border-radius: var(--catalog-radius-md) !important;
+  box-shadow: var(--catalog-shadow-sm) !important;
+  overflow: hidden !important;
+}
+
+.md-typeset .catalog-summary-table thead th {
+  position: static !important;
+  box-shadow: none !important;
+  background-color: var(--catalog-table-header) !important;
+  color: var(--md-default-fg-color) !important;
+  font-weight: 600 !important;
+  font-size: 0.6rem !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
+  padding: 0.45em 0.55em !important;
+  border-bottom: 1px solid var(--catalog-divider) !important;
+  vertical-align: bottom !important;
+  cursor: pointer !important;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.md-typeset .catalog-summary-table thead th:hover {
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-table-header) 70%,
+    var(--catalog-accent) 30%
+  ) !important;
+  color: var(--md-default-fg-color) !important;
+}
+
+article.md-content__inner[class*="catalog-section-"] .catalog-summary-table thead th {
+  background-color: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent) 16%,
+    var(--catalog-page-bg)
+  ) !important;
+}
+
+article.md-content__inner[class*="catalog-section-"] .catalog-summary-table thead th:hover {
+  background-color: color-mix(
+    in srgb,
+    color-mix(in srgb, var(--catalog-section-header-accent) 16%, var(--catalog-page-bg)) 72%,
+    var(--catalog-section-header-accent) 28%
+  ) !important;
+  color: var(--md-default-fg-color) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .md-typeset .catalog-summary-table thead th {
+    transition: none;
+  }
+}
+
+.md-typeset .catalog-summary-table tbody tr:nth-child(even) {
+  background-color: var(--catalog-zebra) !important;
+}
+
+.md-typeset .catalog-summary-table th,
+.md-typeset .catalog-summary-table td {
+  border-top: none !important;
+  border-bottom: 1px solid var(--catalog-divider) !important;
+  padding: 0.38em 0.5em !important;
+  vertical-align: top !important;
+  word-break: break-word !important;
+  overflow-wrap: anywhere !important;
+}
+
+.md-typeset .catalog-summary-table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+.md-typeset .catalog-summary-table td:first-child,
+.md-typeset .catalog-summary-table th:first-child {
+  width: 17% !important;
+  min-width: 6.25rem !important;
+}
+
+/* Long “Main citation” cells: show ~half (~3 lines); full string in native tooltip (title). */
+.md-typeset .catalog-summary-table td.catalog-summary-citation-cell {
+  max-width: 52% !important;
+  min-width: 0 !important;
+}
+
+.md-typeset .catalog-summary-table .catalog-summary-citation-clip {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  line-height: 1.34;
+  cursor: help;
+}
+
+.md-typeset .catalog-summary-table a {
+  color: var(--md-typeset-a-color) !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}
+
+.md-typeset .catalog-summary-table a:hover {
+  text-decoration: underline !important;
+}
+
+/* Biobanks hub: interactive continent map (see src/templates/biobanks_world_map.html) */
+.biobanks-world-map {
+  margin: 0 0 1.25rem;
+}
+
+.biobanks-world-map-hint {
+  margin: 0 0 0.65rem;
+  color: var(--md-default-fg-color--lighter, #64748b);
+  font-size: 0.9rem;
+}
+
+.biobanks-world-map-note {
+  margin: 0 0 0.85rem;
+  color: var(--md-default-fg-color--lighter, #64748b);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  max-width: 52rem;
+}
+
+.biobanks-world-map-frame {
+  border-radius: var(--catalog-radius-lg, 1rem);
+  border: 1px solid var(--catalog-elevated-border, rgba(37, 99, 235, 0.14));
+  background: var(--catalog-elevated, #fff);
+  box-shadow: var(--catalog-shadow-sm, 0 1px 2px rgba(15, 23, 42, 0.05));
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+.biobanks-world-map-frame svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: min(420px, 70vh);
+}
+
+.biobanks-world-map-ocean {
+  fill: #b8c9f0;
+}
+
+[data-md-color-scheme="slate"] .biobanks-world-map-ocean {
+  fill: #243047;
+}
+
+.biobanks-world-map-hit {
+  cursor: pointer;
+  outline: none;
+}
+
+.biobanks-world-map-land {
+  stroke: rgba(15, 23, 42, 0.22);
+  stroke-width: 0.35;
+  transition: fill 0.15s ease, filter 0.15s ease, stroke 0.15s ease;
+}
+
+[data-md-color-scheme="slate"] .biobanks-world-map-land {
+  stroke: rgba(226, 232, 240, 0.2);
+}
+
+.biobanks-world-map-america {
+  fill: #34a853;
+}
+
+.biobanks-world-map-africa {
+  fill: #ea8600;
+}
+
+.biobanks-world-map-europe {
+  fill: #1a73e8;
+}
+
+.biobanks-world-map-asia {
+  fill: #d93025;
+}
+
+.biobanks-world-map-oceania {
+  fill: #9333ea;
+}
+
+.biobanks-world-map-hit:hover .biobanks-world-map-land,
+.biobanks-world-map-hit:focus-visible .biobanks-world-map-land {
+  filter: brightness(1.08) saturate(1.05);
+  stroke: rgba(15, 23, 42, 0.45);
+}
+
+[data-md-color-scheme="slate"] .biobanks-world-map-hit:hover .biobanks-world-map-land,
+[data-md-color-scheme="slate"] .biobanks-world-map-hit:focus-visible .biobanks-world-map-land {
+  stroke: rgba(248, 250, 252, 0.45);
+}
+
+.biobanks-world-map-hit:focus-visible {
+  outline: 2px solid var(--catalog-accent, #2563eb);
+  outline-offset: 2px;
+  border-radius: 0.35rem;
+}
+
+.biobanks-world-map-label {
+  font-size: 15px;
+  font-weight: 700;
+  paint-order: stroke fill;
+  stroke: var(--catalog-elevated, #fff);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+[data-md-color-scheme="slate"] .biobanks-world-map-label {
+  stroke: #12161f;
+}
+
+.biobanks-world-map-credit {
+  margin: 0.5rem 0 0;
+  font-size: 0.72rem;
+  color: var(--md-default-fg-color--lighter, #64748b);
+}
+
+.biobanks-world-map-credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }

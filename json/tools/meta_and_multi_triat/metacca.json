@@ -1,0 +1,30 @@
+{
+  "NAME": "metaCCA",
+  "PMID": 27153689,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "metaCCA",
+  "FULL NAME": "meta canonical\ncorrelation analysis",
+  "MANUAL_YEAR": 2016,
+  "URL": "https://github.com/aalto-ics-kepaco/metaCCA-matlab",
+  "DESCRIPTION": "metaCCA performs multivariate analysis of a single or multiple GWAS based on univariate regression coefficients. It allows multivariate representation of both phenotype and genotype. metaCCA extends the statistical technique of canonical correlation analysis to the setting where original individual-level records are not available, and employs a covariance shrinkage algorithm to achieve robustness.",
+  "MANUAL_CITATION": "\nCichonska, A. et al. metaCCA: summary statistics-based multivariate meta-analysis of genome-wide association studies using canonical correlation analysis. Bioinformatics 32, 1981–1989 (2016).\n  ",
+  "TITLE": "metaCCA: summary statistics-based multivariate meta-analysis of genome-wide association studies using canonical correlation analysis.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2016",
+  "VOLUME": "32",
+  "ISSUE": "13",
+  "PAGE": "1981-9",
+  "Authors": "Cichonska A,Rousu J,Marttinen P,Kangas AJ,Soininen P,Lehtimäki T,Raitakari OT,Järvelin MR,Salomaa V,Ala-Korpela M,Ripatti S,Pirinen M",
+  "ABSTRACT": "MOTIVATION: A dominant approach to genetic association studies is to perform univariate tests between genotype-phenotype pairs. However, analyzing related traits together increases statistical power, and certain complex associations become detectable only when several variants are tested jointly. Currently, modest sample sizes of individual cohorts, and restricted availability of individual-level genotype-phenotype data across the cohorts limit conducting multivariate tests. RESULTS: We introduce metaCCA, a computational framework for summary statistics-based analysis of a single or multiple studies that allows multivariate representation of both genotype and phenotype. It extends the statistical technique of canonical correlation analysis to the setting where original individual-level records are not available, and employs a covariance shrinkage algorithm to achieve robustness.Multivariate meta-analysis of two Finnish studies of nuclear magnetic resonance metabolomics by metaCCA, using standard univariate output from the program SNPTEST, shows an excellent agreement with the pooled individual-level analysis of original data. Motivated by strong multivariate signals in the lipid genes tested, we envision that multivariate association testing using metaCCA has a great potential to provide novel insights from already published summary statistics from high-throughput phenotyping technologies. AVAILABILITY AND IMPLEMENTATION: Code is available at https://github.com/aalto-ics-kepaco CONTACTS: anna.cichonska@helsinki.fi or matti.pirinen@helsinki.fi SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btw052",
+  "PMC ID": "PMC4920109",
+  "CITATION": "Cichonska A, Rousu J, Marttinen P, Kangas AJ, ...&, Pirinen M. (2016) metaCCA: summary statistics-based multivariate meta-analysis of genome-wide association studies using canonical correlation analysis. Bioinformatics, 32 (13) 1981-9. doi:10.1093/bioinformatics/btw052. PMID 27153689",
+  "FIRST_AUTHOR": "Cichonska A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

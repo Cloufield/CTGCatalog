@@ -1,0 +1,33 @@
+{
+  "NAME": "PrimateAI-3D",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "PrimateAI-3D",
+  "PMID": 37262156,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nGao, H. et al. The landscape of tolerated genetic variation in humans and primates. Science 380, eabn8153 (2023).\n  \n",
+  "TOPIC": "Function",
+  "URL": "https://www.broadinstitute.org",
+  "TYPE": "Model",
+  "DESCRIPTION": "DL model trained on primate variation + 3D structure.",
+  "MANUAL_YEAR": 2022,
+  "SHORT NAME": "PrimateAI-3D",
+  "FULL NAME": "PrimateAI-3D",
+  "KEYWORDS": "deep learning, primate, missense",
+  "USE": "clinical variant scoring",
+  "TITLE": "The landscape of tolerated genetic variation in humans and primates.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2023",
+  "VOLUME": "380",
+  "ISSUE": "6648",
+  "PAGE": "eabn8153",
+  "Authors": "Gao H,Hamp T,Ede J,Schraiber JG,McRae J,Singer-Berk M,Yang Y,Dietrich ASD,Fiziev PP,Kuderna LFK,Sundaram L,Wu Y,Adhikari A,Field Y,Chen C,Batzoglou S,Aguet F,Lemire G,Reimers R,Balick D,Janiak MC,Kuhlwilm M,Orkin JD,Manu S,Valenzuela A,Bergman J,Rousselle M,Silva FE,Agueda L,Blanc J,Gut M,de Vries D,Goodhead I,Harris RA,Raveendran M,Jensen A,Chuma IS,Horvath JE,Hvilsom C,Juan D,Frandsen P,de Melo FR,Bertuol F,Byrne H,Sampaio I,Farias I,do Amaral JV,Messias M,da Silva MNF,Trivedi M,Rossi R,Hrbek T,Andriaholinirina N,Rabarivola CJ,Zaramody A,Jolly CJ,Phillips-Conroy J,Wilkerson G,Abee C,Simmons JH,Fernandez-Duque E,Kanthaswamy S,Shiferaw F,Wu D,Zhou L,Shao Y,Zhang G,Keyyu JD,Knauf S,Le MD,Lizano E,Merker S,Navarro A,Bataillon T,Nadler T,Khor CC,Lee J,Tan P,Lim WK,Kitchener AC,Zinner D,Gut I,Melin A,Guschanski K,Schierup MH,Beck RMD,Umapathy G,Roos C,Boubli JP,Lek M,Sunyaev S,O'Donnell-Luria A,Rehm HL,Xu J,Rogers J,Marques-Bonet T,Farh KK",
+  "ABSTRACT": "Personalized genome sequencing has revealed millions of genetic differences between individuals, but our understanding of their clinical relevance remains largely incomplete. To systematically decipher the effects of human genetic variants, we obtained whole-genome sequencing data for 809 individuals from 233 primate species and identified 4.3 million common protein-altering variants with orthologs in humans. We show that these variants can be inferred to have nondeleterious effects in humans based on their presence at high allele frequencies in other primate populations. We use this resource to classify 6% of all possible human protein-altering variants as likely benign and impute the pathogenicity of the remaining 94% of variants with deep learning, achieving state-of-the-art accuracy for diagnosing pathogenic variants in patients with genetic diseases.",
+  "DOI": "10.1126/science.abn8197",
+  "PMC ID": "PMC10713091",
+  "CITATION": "Gao H, Hamp T, Ede J, Schraiber JG, ...&, Farh KK. (2023) The landscape of tolerated genetic variation in humans and primates. Science, 380 (6648) eabn8153. doi:10.1126/science.abn8197. PMID 37262156",
+  "FIRST_AUTHOR": "Gao H",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

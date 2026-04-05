@@ -1,0 +1,18 @@
+{
+  "NAME": "Current epidemiology reports",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Curr Epidemiol Rep",
+  "JOURNAL": "Current epidemiology reports",
+  "URL": "https://link.springer.com/journal/40471",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Reviews&Tutorials"
+  ]
+}

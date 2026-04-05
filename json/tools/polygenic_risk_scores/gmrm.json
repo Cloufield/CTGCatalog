@@ -1,0 +1,30 @@
+{
+  "NAME": "GMRM",
+  "PMID": 35905320,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "GMRM",
+  "FULL NAME": "Bayesian grouped mixture of regressions model",
+  "MANUAL_YEAR": 2022,
+  "URL": "https://github.com/medical-genomics-group/gmrm",
+  "DESCRIPTION": "gmrm is hybrid-parallel software for a Bayesian grouped mixture of regressions model for genome-wide association studies (GWAS). It is written in C++ using extensive optimisations and code vectorisation. It relies on plink's .bed format. It can handle multiple traits simultaneously.",
+  "MANUAL_CITATION": "\nOrliac, E. J. et al. Improving GWAS discovery and genomic prediction accuracy in biobank data. Proc. Natl. Acad. Sci. U. S. A. 119, e2121279119 (2022).\n  ",
+  "TITLE": "Improving GWAS discovery and genomic prediction accuracy in biobank data.",
+  "ISO": "Proc Natl Acad Sci U S A",
+  "JOURNAL": "Proceedings of the National Academy of Sciences of the United States of America",
+  "YEAR": "2022",
+  "VOLUME": "119",
+  "ISSUE": "31",
+  "PAGE": "e2121279119",
+  "Authors": "Orliac EJ,Trejo Banos D,Ojavee SE,Läll K,Mägi R,Visscher PM,Robinson MR",
+  "ABSTRACT": "Genetically informed, deep-phenotyped biobanks are an important research resource and it is imperative that the most powerful, versatile, and efficient analysis approaches are used. Here, we apply our recently developed Bayesian grouped mixture of regressions model (GMRM) in the UK and Estonian Biobanks and obtain the highest genomic prediction accuracy reported to date across 21 heritable traits. When compared to other approaches, GMRM accuracy was greater than annotation prediction models run in the LDAK or LDPred-funct software by 15% (SE 7%) and 14% (SE 2%), respectively, and was 18% (SE 3%) greater than a baseline BayesR model without single-nucleotide polymorphism (SNP) markers grouped into minor allele frequency-linkage disequilibrium (MAF-LD) annotation categories. For height, the prediction accuracy R2 was 47% in a UK Biobank holdout sample, which was 76% of the estimated [Formula: see text]. We then extend our GMRM prediction model to provide mixed-linear model association (MLMA) SNP marker estimates for genome-wide association (GWAS) discovery, which increased the independent loci detected to 16,162 in unrelated UK Biobank individuals, compared to 10,550 from BoltLMM and 10,095 from Regenie, a 62 and 65% increase, respectively. The average [Formula: see text] value of the leading markers increased by 15.24 (SE 0.41) for every 1% increase in prediction accuracy gained over a baseline BayesR model across the traits. Thus, we show that modeling genetic associations accounting for MAF and LD differences among SNP markers, and incorporating prior knowledge of genomic function, is important for both genomic prediction and discovery in large-scale individual-level studies.",
+  "DOI": "10.1073/pnas.2121279119",
+  "PMC ID": "PMC9351350",
+  "CITATION": "Orliac EJ, Trejo Banos D, Ojavee SE, Läll K, ...&, Robinson MR. (2022) Improving GWAS discovery and genomic prediction accuracy in biobank data. Proc Natl Acad Sci U S A, 119 (31) e2121279119. doi:10.1073/pnas.2121279119. PMID 35905320",
+  "FIRST_AUTHOR": "Orliac EJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

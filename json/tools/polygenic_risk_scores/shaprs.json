@@ -1,0 +1,30 @@
+{
+  "NAME": "shaPRS",
+  "PMID": 38703768,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "shaPRS",
+  "FULL NAME": "shaPRS",
+  "KEYWORDS": "cross-ancestry, genetic correlation",
+  "URL": "https://github.com/mkelcb/shaprs",
+  "DESCRIPTION": "Leveraging shared genetic effects across traits and ancestries improves accuracy of polygenic scores",
+  "MANUAL_CITATION": "Kelemen, M., Vigorito, E., Fachal, L., Anderson, C. A., & Wallace, C. (2021). ShaPRS: leveraging shared genetic effects across traits or ancestries improves accuracy of polygenic scores. The American Journal of Human Genetics.",
+  "TITLE": "shaPRS: Leveraging shared genetic effects across traits or ancestries improves accuracy of polygenic scores.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2024",
+  "VOLUME": "111",
+  "ISSUE": "6",
+  "PAGE": "1006-1017",
+  "Authors": "Kelemen M,Vigorito E,Fachal L,Anderson CA,Wallace C",
+  "ABSTRACT": "We present shaPRS, a method that leverages widespread pleiotropy between traits or shared genetic effects across ancestries, to improve the accuracy of polygenic scores. The method uses genome-wide summary statistics from two diseases or ancestries to improve the genetic effect estimate and standard error at SNPs where there is homogeneity of effect between the two datasets. When there is significant evidence of heterogeneity, the genetic effect from the disease or population closest to the target population is maintained. We show via simulation and a series of real-world examples that shaPRS substantially enhances the accuracy of polygenic risk scores (PRSs) for complex diseases and greatly improves PRS performance across ancestries. shaPRS is a PRS pre-processing method that is agnostic to the actual PRS generation method, and as a result, it can be integrated into existing PRS generation pipelines and continue to be applied as more performant PRS methods are developed over time.",
+  "DOI": "10.1016/j.ajhg.2024.04.009",
+  "PMC ID": "PMC11179256",
+  "CITATION": "Kelemen M, Vigorito E, Fachal L, Anderson CA, ...&, Wallace C. (2024) shaPRS: Leveraging shared genetic effects across traits or ancestries improves accuracy of polygenic scores. Am J Hum Genet, 111 (6) 1006-1017. doi:10.1016/j.ajhg.2024.04.009. PMID 38703768",
+  "FIRST_AUTHOR": "Kelemen M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

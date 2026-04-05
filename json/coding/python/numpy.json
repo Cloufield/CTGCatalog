@@ -1,0 +1,11 @@
+{
+  "NAME": "NumPy",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://numpy.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Numerical arrays and routines."
+}

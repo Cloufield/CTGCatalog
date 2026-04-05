@@ -1,0 +1,27 @@
+{
+  "NAME": "MANE PheWeb",
+  "PMID": 39389017,
+  "URL": "https://db.cngb.org/MANE.PheWeb/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "TYPE": "Datasets",
+  "TITLE": "Genetic analyses of 104 phenotypes in 20,900 Chinese pregnant women reveal pregnancy-specific discoveries.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2024",
+  "VOLUME": "4",
+  "ISSUE": "10",
+  "PAGE": "100633",
+  "Authors": "Xiao H,Li L,Yang M,Zhang X,Zhou J,Zeng J,Zhou Y,Lan X,Liu J,Lin Y,Zhong Y,Zhang X,Wang L,Cao Z,Liu P,Mei H,Cai M,Cai X,Tao Y,Zhu Y,Yu C,Hu L,Wang Y,Huang Y,Su F,Gao Y,Zhou R,Xu X,Yang H,Wang J,Zhu H,Zhou A,Jin X",
+  "ABSTRACT": "Monitoring biochemical phenotypes during pregnancy is vital for maternal and fetal health, allowing early detection and management of pregnancy-related conditions to ensure safety for both. Here, we conducted a genetic analysis of 104 pregnancy phenotypes in 20,900 Chinese women. The genome-wide association study (GWAS) identified a total of 410 trait-locus associations, with 71.71% reported previously. Among the 116 novel hits for 45 phenotypes, 83 were successfully replicated. Among them, 31 were defined as potentially pregnancy-specific associations, including creatine and HELLPAR and neutrophils and ESR1, with subsequent analysis revealing enrichments in estrogen-related pathways and female reproductive tissues. The partitioning heritability underscored the significant roles of fetal blood, embryoid bodies, and female reproductive organs in pregnancy hematology and birth outcomes. Pathway analysis confirmed the intricate interplay of hormone and immune regulation, metabolism, and cell cycle during pregnancy. This study contributes to the understanding of genetic influences on pregnancy phenotypes and their implications for maternal health.",
+  "DOI": "10.1016/j.xgen.2024.100633",
+  "PMC ID": "PMC11602630",
+  "CITATION": "Xiao H, Li L, Yang M, Zhang X, ...&, Jin X. (2024) Genetic analyses of 104 phenotypes in 20,900 Chinese pregnant women reveal pregnancy-specific discoveries. Cell Genom, 4 (10) 100633. doi:10.1016/j.xgen.2024.100633. PMID 39389017",
+  "FIRST_AUTHOR": "Xiao H",
+  "DESCRIPTION": "MANE PheWeb — Chinese maternal cohort GWAS summary statistics browser.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

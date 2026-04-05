@@ -1,0 +1,29 @@
+{
+  "NAME": "Quickdraws ",
+  "PMID": 39789286,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "Quickdraws ",
+  "FULL NAME": "Quickdraws ",
+  "URL": "https://palamaralab.github.io/software/quickdraws/manual/",
+  "DESCRIPTION": "Quickdraws is a scalable method to perform genome-wide association studies (GWAS) for quantitative and binary traits. To run GWAS using Quickdraws, you will need three main input files: bed (and bgen) files with model-building and testing genetic variants, phenotype files, and covariate files. For certain analyses, you may also need a list of model SNPs and a file describing close genetic relatives",
+  "MANUAL_CITATION": "Loya, H., Kalantzis, G., Cooper, F., & Palamara, P. F. (2025). A scalable variational inference approach for increased mixed-model association power. Nature Genetics, 1-8.",
+  "TITLE": "A scalable variational inference approach for increased mixed-model association power.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "2",
+  "PAGE": "461-468",
+  "Authors": "Loya H,Kalantzis G,Cooper F,Palamara PF",
+  "ABSTRACT": "The rapid growth of modern biobanks is creating new opportunities for large-scale genome-wide association studies (GWASs) and the analysis of complex traits. However, performing GWASs on millions of samples often leads to trade-offs between computational efficiency and statistical power, reducing the benefits of large-scale data collection efforts. We developed Quickdraws, a method that increases association power in quantitative and binary traits without sacrificing computational efficiency, leveraging a spike-and-slab prior on variant effects, stochastic variational inference and graphics processing unit acceleration. We applied Quickdraws to 79 quantitative and 50 binary traits in 405,088 UK Biobank samples, identifying 4.97% and 3.25% more associations than REGENIE and 22.71% and 7.07% more than FastGWA. Quickdraws had costs comparable to REGENIE, FastGWA and SAIGE on the UK Biobank Research Analysis Platform service, while being substantially faster than BOLT-LMM. These results highlight the promise of leveraging machine learning techniques for scalable GWASs without sacrificing power or robustness.",
+  "DOI": "10.1038/s41588-024-02044-7",
+  "PMC ID": "PMC11821521",
+  "CITATION": "Loya H, Kalantzis G, Cooper F, Palamara PF. (2025) A scalable variational inference approach for increased mixed-model association power. Nat Genet, 57 (2) 461-468. doi:10.1038/s41588-024-02044-7. PMID 39789286",
+  "FIRST_AUTHOR": "Loya H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

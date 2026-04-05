@@ -1,0 +1,27 @@
+{
+  "NAME": "PS4DR",
+  "PMID": 32503412,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "PS4DR",
+  "FULL NAME": "Pathway Signatures for Drug Repositioning",
+  "URL": "https://github.com/ps4dr/ps4dr",
+  "DESCRIPTION": "This package comprises a modular workflow designed to identify drug repositioning candidates using multi-omics data sets. A schematic figure of the workflow is presented below. The R scripts necessary to run the MSDRP pipeline are located in the R directory.",
+  "TITLE": "PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures.",
+  "ISO": "BMC Bioinformatics",
+  "JOURNAL": "BMC bioinformatics",
+  "YEAR": "2020",
+  "VOLUME": "21",
+  "ISSUE": "1",
+  "PAGE": "231",
+  "Authors": "Emon MA,Domingo-Fernández D,Hoyt CT,Hofmann-Apitius M",
+  "ABSTRACT": "BACKGROUND: During the last decade, there has been a surge towards computational drug repositioning owing to constantly increasing -omics data in the biomedical research field. While numerous existing methods focus on the integration of heterogeneous data to propose candidate drugs, it is still challenging to substantiate their results with mechanistic insights of these candidate drugs. Therefore, there is a need for more innovative and efficient methods which can enable better integration of data and knowledge for drug repositioning. RESULTS: Here, we present a customizable workflow (PS4DR) which not only integrates high-throughput data such as genome-wide association study (GWAS) data and gene expression signatures from disease and drug perturbations but also takes pathway knowledge into consideration to predict drug candidates for repositioning. We have collected and integrated publicly available GWAS data and gene expression signatures for several diseases and hundreds of FDA-approved drugs or those under clinical trial in this study. Additionally, different pathway databases were used for mechanistic knowledge integration in the workflow. Using this systematic consolidation of data and knowledge, the workflow computes pathway signatures that assist in the prediction of new indications for approved and investigational drugs. CONCLUSION: We showcase PS4DR with applications demonstrating how this tool can be used for repositioning and identifying new drugs as well as proposing drugs that can simulate disease dysregulations. We were able to validate our workflow by demonstrating its capability to predict FDA-approved drugs for their known indications for several diseases. Further, PS4DR returned many potential drug candidates for repositioning that were backed up by epidemiological evidence extracted from scientific literature. Source code is freely available at https://github.com/ps4dr/ps4dr.",
+  "DOI": "10.1186/s12859-020-03568-5",
+  "PMC ID": "PMC7275349",
+  "CITATION": "Emon MA, Domingo-Fernández D, Hoyt CT, Hofmann-Apitius M. (2020) PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures. BMC Bioinformatics, 21 (1) 231. doi:10.1186/s12859-020-03568-5. PMID 32503412",
+  "FIRST_AUTHOR": "Emon MA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Suhre",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 28240269,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Connecting genetic risk to disease end points through the human blood plasma proteome.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2017",
+  "VOLUME": "8",
+  "ISSUE": "",
+  "PAGE": "14357",
+  "Authors": "Suhre K,Arnold M,Bhagwat AM,Cotton RJ,Engelke R,Raffler J,Sarwath H,Thareja G,Wahl A,DeLisle RK,Gold L,Pezer M,Lauc G,El-Din Selim MA,Mook-Kanamori DO,Al-Dous EK,Mohamoud YA,Malek J,Strauch K,Grallert H,Peters A,Kastenmüller G,Gieger C,Graumann J",
+  "ABSTRACT": "Genome-wide association studies (GWAS) with intermediate phenotypes, like changes in metabolite and protein levels, provide functional evidence to map disease associations and translate them into clinical applications. However, although hundreds of genetic variants have been associated with complex disorders, the underlying molecular pathways often remain elusive. Associations with intermediate traits are key in establishing functional links between GWAS-identified risk-variants and disease end points. Here we describe a GWAS using a highly multiplexed aptamer-based affinity proteomics platform. We quantify 539 associations between protein levels and gene variants (pQTLs) in a German cohort and replicate over half of them in an Arab and Asian cohort. Fifty-five of the replicated pQTLs are located in trans. Our associations overlap with 57 genetic risk loci for 42 unique disease end points. We integrate this information into a genome-proteome network and provide an interactive web-tool for interrogations. Our results provide a basis for novel approaches to pharmaceutical and diagnostic applications.",
+  "DOI": "10.1038/ncomms14357",
+  "PMC ID": "PMC5333359",
+  "CITATION": "Suhre K, Arnold M, Bhagwat AM, Cotton RJ, ...&, Graumann J. (2017) Connecting genetic risk to disease end points through the human blood plasma proteome. Nat Commun, 8 () 14357. doi:10.1038/ncomms14357. PMID 28240269",
+  "FIRST_AUTHOR": "Suhre K",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

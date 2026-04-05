@@ -1,0 +1,29 @@
+{
+  "NAME": "MatrixEQTL",
+  "PMID": 22492648,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "Matrix eQTL",
+  "FULL NAME": "Matrix eQTL",
+  "URL": "http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/",
+  "DESCRIPTION": "Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix eQTL can test for association between genotype and gene expression using linear regression with either additive or ANOVA genotype effects. The models can include covariates to account for factors as population stratification, gender, and clinical variables. It also supports models with heteroscedastic and/or correlated errors, false discovery rate estimation and separate treatment of local (cis) and distant (trans) eQTLs.",
+  "MANUAL_CITATION": "Shabalin, Andrey A. \"Matrix eQTL: ultra fast eQTL analysis via large matrix operations.\" Bioinformatics 28.10 (2012): 1353-1358.",
+  "TITLE": "Matrix eQTL: ultra fast eQTL analysis via large matrix operations.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2012",
+  "VOLUME": "28",
+  "ISSUE": "10",
+  "PAGE": "1353-8",
+  "Authors": "Shabalin AA",
+  "ABSTRACT": "MOTIVATION: Expression quantitative trait loci (eQTL) analysis links variations in gene expression levels to genotypes. For modern datasets, eQTL analysis is a computationally intensive task as it involves testing for association of billions of transcript-SNP (single-nucleotide polymorphism) pair. The heavy computational burden makes eQTL analysis less popular and sometimes forces analysts to restrict their attention to just a small subset of transcript-SNP pairs. As more transcripts and SNPs get interrogated over a growing number of samples, the demand for faster tools for eQTL analysis grows stronger. RESULTS: We have developed a new software for computationally efficient eQTL analysis called Matrix eQTL. In tests on large datasets, it was 2-3 orders of magnitude faster than existing popular tools for QTL/eQTL analysis, while finding the same eQTLs. The fast performance is achieved by special preprocessing and expressing the most computationally intensive part of the algorithm in terms of large matrix operations. Matrix eQTL supports additive linear and ANOVA models with covariates, including models with correlated and heteroskedastic errors. The issue of multiple testing is addressed by calculating false discovery rate; this can be done separately for cis- and trans-eQTLs.",
+  "DOI": "10.1093/bioinformatics/bts163",
+  "PMC ID": "PMC3348564",
+  "CITATION": "Shabalin AA. (2012) Matrix eQTL: ultra fast eQTL analysis via large matrix operations. Bioinformatics, 28 (10) 1353-8. doi:10.1093/bioinformatics/bts163. PMID 22492648",
+  "FIRST_AUTHOR": "Shabalin AA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

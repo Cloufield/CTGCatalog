@@ -1,0 +1,29 @@
+{
+  "NAME": "Two-sample MR",
+  "PMID": 29846171,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Tools",
+  "TYPE": "Tools",
+  "SHORT NAME": "Two-sample MR",
+  "FULL NAME": "Two-sample MR",
+  "URL": "https://mrcieu.github.io/TwoSampleMR/articles/introduction.html",
+  "DESCRIPTION": "Two sample Mendelian randomisation (2SMR) is a method to estimate the causal effect of an exposure on an outcome using only summary statistics from genome wide association studies (GWAS). Though conceptually straightforward, there are a number of steps that are required to perform the analysis properly, and they can be cumbersome",
+  "MANUAL_CITATION": "Hemani, G., Zheng, J., Elsworth, B., Wade, K. H., Haberland, V., Baird, D., ... & Haycock, P. C. (2018). The MR-Base platform supports systematic causal inference across the human phenome. elife, 7.",
+  "TITLE": "The MR-Base platform supports systematic causal inference across the human phenome.",
+  "ISO": "Elife",
+  "JOURNAL": "eLife",
+  "YEAR": "2018",
+  "VOLUME": "7",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Hemani G,Zheng J,Elsworth B,Wade KH,Haberland V,Baird D,Laurin C,Burgess S,Bowden J,Langdon R,Tan VY,Yarmolinsky J,Shihab HA,Timpson NJ,Evans DM,Relton C,Martin RM,Davey Smith G,Gaunt TR,Haycock PC",
+  "ABSTRACT": "Results from genome-wide association studies (GWAS) can be used to infer causal relationships between phenotypes, using a strategy known as 2-sample Mendelian randomization (2SMR) and bypassing the need for individual-level data. However, 2SMR methods are evolving rapidly and GWAS results are often insufficiently curated, undermining efficient implementation of the approach. We therefore developed MR-Base (<ext-link ext-link-type=\"uri\" xlink:href=\"http://www.mrbase.org\">http://www.mrbase.org</ext-link>): a platform that integrates a curated database of complete GWAS results (no restrictions according to statistical significance) with an application programming interface, web app and R packages that automate 2SMR. The software includes several sensitivity analyses for assessing the impact of horizontal pleiotropy and other violations of assumptions. The database currently comprises 11 billion single nucleotide polymorphism-trait associations from 1673 GWAS and is updated on a regular basis. Integrating data with software ensures more rigorous application of hypothesis-driven analyses and allows millions of potential causal relationships to be efficiently evaluated in phenome-wide association studies.",
+  "DOI": "10.7554/eLife.34408",
+  "PMC ID": "PMC5976434",
+  "CITATION": "Hemani G, Zheng J, Elsworth B, Wade KH, ...&, Haycock PC. (2018) The MR-Base platform supports systematic causal inference across the human phenome. Elife, 7 () . doi:10.7554/eLife.34408. PMID 29846171",
+  "FIRST_AUTHOR": "Hemani G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

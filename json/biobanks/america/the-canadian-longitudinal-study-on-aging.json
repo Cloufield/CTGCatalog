@@ -1,0 +1,16 @@
+{
+  "NAME": "The Canadian Longitudinal Study on Aging",
+  "SHORT NAME": "CLSA",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~50k",
+  "MANUAL_CITATION": "Raina, P. S., Wolfson, C., Kirkland, S. A., Griffith, L. E., Oremus, M., Patterson, C., ... & Brazil, K. (2009). The Canadian longitudinal study on aging (CLSA). Canadian Journal on Aging/La Revue canadienne du vieillissement, 28(3), 221-229.",
+  "URL": "https://www.clsa-elcv.ca/",
+  "DESCRIPTION": "The Canadian Longitudinal Study on Aging (CLSA) is a large, national, long-term study that will follow approximately 50,000 individuals who are between the ages of 45 and 85 when recruited, for at least 20 years. The CLSA will collect information on the changing biological, medical, psychological, social, lifestyle and economic aspects of people’s lives. These factors will be studied to understand how, individually and in combination, they have an impact in both maintaining health and in the development of disease and disability as people age.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR,EUR",
+  "PARTICIPANTS": "Canadian adults (national aging cohort)"
+}

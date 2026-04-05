@@ -1,0 +1,28 @@
+{
+  "NAME": "LDSTORE2",
+  "PMID": 28942963,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDSTORE2",
+  "FULL NAME": "LDSTORE2",
+  "URL": "http://www.christianbenner.com/#",
+  "DESCRIPTION": "LDstore is a computationally efficient program for estimating and storing Linkage Disequilibrium (SNP correlations). It combines some of the best features from RAREMETALWORKER and PLINK by implementing parallel processing using OPENMP and storing of the SNP correlations with information about the SNPs in the same binary file for fast lookups. LDstore is therefore the ideal tool for sharing SNP correlations in large-scale meta-analyses of genome-wide association studies and for on-the-fly computing/querying within web portals.",
+  "MANUAL_CITATION": "Benner, C. et al. Prospects of fine-papping trait-associated genomic regions by using summary statistics from genome-wide association studies. Am. J. Hum. Genet. (2017).",
+  "TITLE": "Prospects of Fine-Mapping Trait-Associated Genomic Regions by Using Summary Statistics from Genome-wide Association Studies.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2017",
+  "VOLUME": "101",
+  "ISSUE": "4",
+  "PAGE": "539-551",
+  "Authors": "Benner C,Havulinna AS,Järvelin MR,Salomaa V,Ripatti S,Pirinen M",
+  "ABSTRACT": "During the past few years, various novel statistical methods have been developed for fine-mapping with the use of summary statistics from genome-wide association studies (GWASs). Although these approaches require information about the linkage disequilibrium (LD) between variants, there has not been a comprehensive evaluation of how estimation of the LD structure from reference genotype panels performs in comparison with that from the original individual-level GWAS data. Using population genotype data from Finland and the UK Biobank, we show here that a reference panel of 1,000 individuals from the target population is adequate for a GWAS cohort of up to 10,000 individuals, whereas smaller panels, such as those from the 1000 Genomes Project, should be avoided. We also show, both theoretically and empirically, that the size of the reference panel needs to scale with the GWAS sample size; this has important consequences for the application of these methods in ongoing GWAS meta-analyses and large biobank studies. We conclude by providing software tools and by recommending practices for sharing LD information to more efficiently exploit summary statistics in genetics research.",
+  "DOI": "10.1016/j.ajhg.2017.08.012",
+  "PMC ID": "PMC5630179",
+  "CITATION": "Benner C, Havulinna AS, Järvelin MR, Salomaa V, ...&, Pirinen M. (2017) Prospects of Fine-Mapping Trait-Associated Genomic Regions by Using Summary Statistics from Genome-wide Association Studies. Am J Hum Genet, 101 (4) 539-551. doi:10.1016/j.ajhg.2017.08.012. PMID 28942963",
+  "FIRST_AUTHOR": "Benner C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

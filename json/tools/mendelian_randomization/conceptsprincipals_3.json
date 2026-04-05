@@ -1,0 +1,25 @@
+{
+  "NAME": "Concepts&Principals",
+  "PMID": 12689998,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Concepts&Principals",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Davey Smith, G., & Ebrahim, S. (2003). ‘Mendelian randomization’: can genetic epidemiology contribute to understanding environmental determinants of disease?. International journal of epidemiology, 32(1), 1-22.",
+  "TITLE": "'Mendelian randomization': can genetic epidemiology contribute to understanding environmental determinants of disease?",
+  "ISO": "Int J Epidemiol",
+  "JOURNAL": "International journal of epidemiology",
+  "YEAR": "2003",
+  "VOLUME": "32",
+  "ISSUE": "1",
+  "PAGE": "1-22",
+  "Authors": "Smith GD,Ebrahim S",
+  "ABSTRACT": "Associations between modifiable exposures and disease seen in observational epidemiology are sometimes confounded and thus misleading, despite our best efforts to improve the design and analysis of studies. Mendelian randomization-the random assortment of genes from parents to offspring that occurs during gamete formation and conception-provides one method for assessing the causal nature of some environmental exposures. The association between a disease and a polymorphism that mimics the biological link between a proposed exposure and disease is not generally susceptible to the reverse causation or confounding that may distort interpretations of conventional observational studies. Several examples where the phenotypic effects of polymorphisms are well documented provide encouraging evidence of the explanatory power of Mendelian randomization and are described. The limitations of the approach include confounding by polymorphisms in linkage disequilibrium with the polymorphism under study, that polymorphisms may have several phenotypic effects associated with disease, the lack of suitable polymorphisms for studying modifiable exposures of interest, and canalization-the buffering of the effects of genetic variation during development. Nevertheless, Mendelian randomization provides new opportunities to test causality and demonstrates how investment in the human genome project may contribute to understanding and preventing the adverse effects on human health of modifiable exposures.",
+  "DOI": "10.1093/ije/dyg070",
+  "PMC ID": "",
+  "CITATION": "Smith GD, Ebrahim S. (2003) 'Mendelian randomization': can genetic epidemiology contribute to understanding environmental determinants of disease? Int J Epidemiol, 32 (1) 1-22. doi:10.1093/ije/dyg070. PMID 12689998",
+  "FIRST_AUTHOR": "Smith GD",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

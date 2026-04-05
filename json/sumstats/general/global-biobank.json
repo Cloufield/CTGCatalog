@@ -1,0 +1,28 @@
+{
+  "NAME": "Global Biobank",
+  "PMID": 36777996,
+  "URL": "http://results.globalbiobankmeta.org/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "ALL",
+  "TYPE": "Datasets",
+  "MANUAL_CITATION": "Zhou, W., Kanai, M., Wu, K. H. H., Rasheed, H., Tsuo, K., Hirbo, J. B., ... & Willer, C. J. (2022). Global Biobank Meta-analysis Initiative: Powering genetic discovery across human disease. Cell Genomics, 2(10).",
+  "TITLE": "Global Biobank Meta-analysis Initiative: Powering genetic discovery across human disease.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2022",
+  "VOLUME": "2",
+  "ISSUE": "10",
+  "PAGE": "100192",
+  "Authors": "Zhou W,Kanai M,Wu KH,Rasheed H,Tsuo K,Hirbo JB,Wang Y,Bhattacharya A,Zhao H,Namba S,Surakka I,Wolford BN,Lo Faro V,Lopera-Maya EA,Läll K,Favé MJ,Partanen JJ,Chapman SB,Karjalainen J,Kurki M,Maasha M,Brumpton BM,Chavan S,Chen TT,Daya M,Ding Y,Feng YA,Guare LA,Gignoux CR,Graham SE,Hornsby WE,Ingold N,Ismail SI,Johnson R,Laisk T,Lin K,Lv J,Millwood IY,Moreno-Grau S,Nam K,Palta P,Pandit A,Preuss MH,Saad C,Setia-Verma S,Thorsteinsdottir U,Uzunovic J,Verma A,Zawistowski M,Zhong X,Afifi N,Al-Dabhani KM,Al Thani A,Bradford Y,Campbell A,Crooks K,de Bock GH,Damrauer SM,Douville NJ,Finer S,Fritsche LG,Fthenou E,Gonzalez-Arroyo G,Griffiths CJ,Guo Y,Hunt KA,Ioannidis A,Jansonius NM,Konuma T,Lee MTM,Lopez-Pineda A,Matsuda Y,Marioni RE,Moatamed B,Nava-Aguilar MA,Numakura K,Patil S,Rafaels N,Richmond A,Rojas-Muñoz A,Shortt JA,Straub P,Tao R,Vanderwerff B,Vernekar M,Veturi Y,Barnes KC,Boezen M,Chen Z,Chen CY,Cho J,Smith GD,Finucane HK,Franke L,Gamazon ER,Ganna A,Gaunt TR,Ge T,Huang H,Huffman J,Katsanis N,Koskela JT,Lajonchere C,Law MH,Li L,Lindgren CM,Loos RJF,MacGregor S,Matsuda K,Olsen CM,Porteous DJ,Shavit JA,Snieder H,Takano T,Trembath RC,Vonk JM,Whiteman DC,Wicks SJ,Wijmenga C,Wright J,Zheng J,Zhou X,Awadalla P,Boehnke M,Bustamante CD,Cox NJ,Fatumo S,Geschwind DH,Hayward C,Hveem K,Kenny EE,Lee S,Lin YF,Mbarek H,Mägi R,Martin HC,Medland SE,Okada Y,Palotie AV,Pasaniuc B,Rader DJ,Ritchie MD,Sanna S,Smoller JW,Stefansson K,van Heel DA,Walters RG,Zöllner S,Biobank of the Americas,Biobank Japan Project,BioMe,BioVU,CanPath - Ontario Health Study,China Kadoorie Biobank Collaborative Group,Colorado Center for Personalized Medicine,deCODE Genetics,Estonian Biobank,FinnGen,Generation Scotland,Genes & Health Research Team,LifeLines,Mass General Brigham Biobank,Michigan Genomics Initiative,National Biobank of Korea,Penn Medicine BioBank,Qatar Biobank,QSkin Sun and Health Study,Taiwan Biobank,HUNT Study,UCLA ATLAS Community Health Initiative,Uganda Genome Resource,UK Biobank,Martin AR,Willer CJ,Daly MJ,Neale BM",
+  "ABSTRACT": "Biobanks facilitate genome-wide association studies (GWASs), which have mapped genomic loci across a range of human diseases and traits. However, most biobanks are primarily composed of individuals of European ancestry. We introduce the Global Biobank Meta-analysis Initiative (GBMI)-a collaborative network of 23 biobanks from 4 continents representing more than 2.2 million consented individuals with genetic data linked to electronic health records. GBMI meta-analyzes summary statistics from GWASs generated using harmonized genotypes and phenotypes from member biobanks for 14 exemplar diseases and endpoints. This strategy validates that GWASs conducted in diverse biobanks can be integrated despite heterogeneity in case definitions, recruitment strategies, and baseline characteristics. This collaborative effort improves GWAS power for diseases, benefits understudied diseases, and improves risk prediction while also enabling the nomination of disease genes and drug candidates by incorporating gene and protein expression data and providing insight into the underlying biology of human diseases and traits.",
+  "DOI": "10.1016/j.xgen.2022.100192",
+  "PMC ID": "PMC9903716",
+  "CITATION": "Zhou W, Kanai M, Wu KH, Rasheed H, ...&, Neale BM. (2022) Global Biobank Meta-analysis Initiative: Powering genetic discovery across human disease. Cell Genom, 2 (10) 100192. doi:10.1016/j.xgen.2022.100192. PMID 36777996",
+  "FIRST_AUTHOR": "Zhou W",
+  "DESCRIPTION": "Global Biobank Meta-analysis Initiative (GBMI) harmonized GWAS across many biobanks.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

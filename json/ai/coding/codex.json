@@ -1,0 +1,13 @@
+{
+  "NAME": "Codex",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "CLI",
+  "COMPANY": "OpenAI",
+  "URL": "https://openai.com/codex",
+  "DESCRIPTION": "OpenAI’s cloud and local coding agent (CLI and integrations) for building, reviewing, and shipping code with GPT-based models.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

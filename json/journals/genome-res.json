@@ -1,0 +1,21 @@
+{
+  "NAME": "Genome research",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Genome Res",
+  "JOURNAL": "Genome research",
+  "URL": "https://genome.cshlp.org",
+  "ENTRY_COUNT": 4,
+  "CITED_BY_SECTION": {
+    "Tools": 4
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "HGDP+1kGP",
+    "MultiBLUP",
+    "ADMIXTURE",
+    "f"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "NAME": "SARGE ",
+  "PMID": 34272242,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "SARGE ",
+  "DESCRIPTION": "Schaefer, N. K., Shapiro, B. & Green, R. E. An ancestral recombination graph of human, Neanderthal, and Denisovan genomes. Sci. Adv. 7, eabc0776 (2021).\n  ",
+  "TITLE": "An ancestral recombination graph of human, Neanderthal, and Denisovan genomes.",
+  "ISO": "Sci Adv",
+  "JOURNAL": "Science advances",
+  "YEAR": "2021",
+  "VOLUME": "7",
+  "ISSUE": "29",
+  "PAGE": "",
+  "Authors": "Schaefer NK,Shapiro B,Green RE",
+  "ABSTRACT": "Many humans carry genes from Neanderthals, a legacy of past admixture. Existing methods detect this archaic hominin ancestry within human genomes using patterns of linkage disequilibrium or direct comparison to Neanderthal genomes. Each of these methods is limited in sensitivity and scalability. We describe a new ancestral recombination graph inference algorithm that scales to large genome-wide datasets and demonstrate its accuracy on real and simulated data. We then generate a genome-wide ancestral recombination graph including human and archaic hominin genomes. From this, we generate a map within human genomes of archaic ancestry and of genomic regions not shared with archaic hominins either by admixture or incomplete lineage sorting. We find that only 1.5 to 7% of the modern human genome is uniquely human. We also find evidence of multiple bursts of adaptive changes specific to modern humans within the past 600,000 years involving genes related to brain development and function.",
+  "DOI": "10.1126/sciadv.abc0776",
+  "PMC ID": "PMC8284891",
+  "CITATION": "Schaefer NK, Shapiro B, Green RE. (2021) An ancestral recombination graph of human, Neanderthal, and Denisovan genomes. Sci Adv, 7 (29) . doi:10.1126/sciadv.abc0776. PMID 34272242",
+  "FIRST_AUTHOR": "Schaefer NK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

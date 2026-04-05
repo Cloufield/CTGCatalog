@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 29226067,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Zheng, J., Baird, D., Borges, M. C., Bowden, J., Hemani, G., Haycock, P., ... & Smith, G. D. (2017). Recent developments in Mendelian randomization studies. Current epidemiology reports, 4(4), 330-345.",
+  "TITLE": "Recent Developments in Mendelian Randomization Studies.",
+  "ISO": "Curr Epidemiol Rep",
+  "JOURNAL": "Current epidemiology reports",
+  "YEAR": "2017",
+  "VOLUME": "4",
+  "ISSUE": "4",
+  "PAGE": "330-345",
+  "Authors": "Zheng J,Baird D,Borges MC,Bowden J,Hemani G,Haycock P,Evans DM,Smith GD",
+  "ABSTRACT": "PURPOSE OF REVIEW: Mendelian randomization (MR) is a strategy for evaluating causality in observational epidemiological studies. MR exploits the fact that genotypes are not generally susceptible to reverse causation and confounding, due to their fixed nature and Mendel's First and Second Laws of Inheritance. MR has the potential to provide information on causality in many situations where randomized controlled trials are not possible, but the results of MR studies must be interpreted carefully to avoid drawing erroneous conclusions. RECENT FINDINGS: In this review, we outline the principles behind MR, as well as assumptions and limitations of the method. Extensions to the basic approach are discussed, including two-sample MR, bidirectional MR, two-step MR, multivariable MR, and factorial MR. We also consider some new applications and recent developments in the methodology, including its ability to inform drug development, automation of the method using tools such as MR-Base, and phenome-wide and hypothesis-free MR. SUMMARY: In conjunction with the growing availability of large-scale genomic databases, higher level of automation and increased robustness of the methods, MR promises to be a valuable strategy to examine causality in complex biological/omics networks, inform drug development and prioritize intervention targets for disease prevention in the future.",
+  "DOI": "10.1007/s40471-017-0128-6",
+  "PMC ID": "PMC5711966",
+  "CITATION": "Zheng J, Baird D, Borges MC, Bowden J, ...&, Smith GD. (2017) Recent Developments in Mendelian Randomization Studies. Curr Epidemiol Rep, 4 (4) 330-345. doi:10.1007/s40471-017-0128-6. PMID 29226067",
+  "FIRST_AUTHOR": "Zheng J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

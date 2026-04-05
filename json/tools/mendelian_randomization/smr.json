@@ -1,0 +1,30 @@
+{
+  "NAME": "SMR",
+  "PMID": 27019110,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Tools",
+  "TYPE": "Tools",
+  "SHORT NAME": "SMR",
+  "FULL NAME": "Summary-data-based Mendelian Randomization",
+  "KEYWORDS": "pleiotropy or causality, xQTL, eQTL, MR, HEIDI, linkage",
+  "URL": "https://yanglab.westlake.edu.cn/software/smr/#Overview",
+  "DESCRIPTION": "The SMR software tool was originally developed to implement the SMR & HEIDI methods to test for pleiotropic association between the expression level of a gene and a complex trait of interest using summary-level data from GWAS and expression quantitative trait loci (eQTL) studies (Zhu et al. 2016 Nature Genetics). The SMR & HEIDI methodology can be interpreted as an analysis to test if the effect size of a SNP on the phenotype is mediated by gene expression. This tool can therefore be used to prioritize genes underlying GWAS hits for follow-up functional studies. The methods are applicable to all kinds of molecular QTL (xQTL) data, including DNA methylation QTL (mQTL) and protein abundance QTL (pQTL).",
+  "MANUAL_CITATION": "Zhu, Z., Zhang, F., Hu, H. et al. Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. Nat Genet 48, 481–487 (2016). https://doi.org/10.1038/ng.3538",
+  "TITLE": "Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "5",
+  "PAGE": "481-7",
+  "Authors": "Zhu Z,Zhang F,Hu H,Bakshi A,Robinson MR,Powell JE,Montgomery GW,Goddard ME,Wray NR,Visscher PM,Yang J",
+  "ABSTRACT": "Genome-wide association studies (GWAS) have identified thousands of genetic variants associated with human complex traits. However, the genes or functional DNA elements through which these variants exert their effects on the traits are often unknown. We propose a method (called SMR) that integrates summary-level data from GWAS with data from expression quantitative trait locus (eQTL) studies to identify genes whose expression levels are associated with a complex trait because of pleiotropy. We apply the method to five human complex traits using GWAS data on up to 339,224 individuals and eQTL data on 5,311 individuals, and we prioritize 126 genes (for example, TRAF1 and ANKRD55 for rheumatoid arthritis and SNX19 and NMRAL1 for schizophrenia), of which 25 genes are new candidates; 77 genes are not the nearest annotated gene to the top associated GWAS SNP. These genes provide important leads to design future functional studies to understand the mechanism whereby DNA variation leads to complex trait variation.",
+  "DOI": "10.1038/ng.3538",
+  "PMC ID": "",
+  "CITATION": "Zhu Z, Zhang F, Hu H, Bakshi A, ...&, Yang J. (2016) Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. Nat Genet, 48 (5) 481-7. doi:10.1038/ng.3538. PMID 27019110",
+  "FIRST_AUTHOR": "Zhu Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

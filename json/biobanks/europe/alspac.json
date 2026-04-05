@@ -1,0 +1,16 @@
+{
+  "NAME": "ALSPAC (Children of the 90s)",
+  "SHORT NAME": "ALSPAC",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~14k children / ~30k total enrolled",
+  "DESCRIPTION": "Avon Longitudinal Study of Parents and Children: UK birth cohort with deep phenotyping from pregnancy onward; genotype and sequence data support developmental and complex-trait GWAS.",
+  "MANUAL_CITATION": "Boyd, A., Golding, J., Macleod, J., Lawlor, D. A., Fraser, A., Henderson, J., ... & Davey Smith, G. (2013). Cohort Profile: the 'children of the 90s'—the index offspring of the Avon Longitudinal Study of Parents and Children. International Journal of Epidemiology, 42(1), 111-127.",
+  "URL": "https://www.bristol.ac.uk/alspac/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "UK pregnant women and children (Bristol area; Children of the 90s)"
+}

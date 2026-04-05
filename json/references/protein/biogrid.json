@@ -1,0 +1,28 @@
+{
+  "NAME": "BioGRID",
+  "PMID": 33070389,
+  "LAST_CHECK": 2025,
+  "SECTION": "References",
+  "TOPIC": "Protein",
+  "CATEGORY": "Interaction",
+  "KEYWORDS": "Interaction",
+  "MANUAL_CITATION": "Oughtred, R. et al. The BioGRID database: A comprehensive biomedical resource of curated protein, genetic, and chemical interactions. Protein Sci. 30, 187–200 (2021).",
+  "URL": "https://thebiogrid.org/",
+  "DESCRIPTION": "BioGRID is a biomedical interaction repository with data compiled through comprehensive curation efforts. Our current index is version 4.4.242 and searches 86,339 publications for 2,834,410 protein and genetic interactions, 31,144 chemical interactions and 1,128,339 post translational modifications from major model organism species. All data are freely provided via our search index and available for download in many standardized formats.",
+  "TITLE": "The BioGRID database: A comprehensive biomedical resource of curated protein, genetic, and chemical interactions.",
+  "ISO": "Protein Sci",
+  "JOURNAL": "Protein science : a publication of the Protein Society",
+  "YEAR": "2021",
+  "VOLUME": "30",
+  "ISSUE": "1",
+  "PAGE": "187-200",
+  "Authors": "Oughtred R,Rust J,Chang C,Breitkreutz BJ,Stark C,Willems A,Boucher L,Leung G,Kolas N,Zhang F,Dolma S,Coulombe-Huntington J,Chatr-Aryamontri A,Dolinski K,Tyers M",
+  "ABSTRACT": "The BioGRID (Biological General Repository for Interaction Datasets, thebiogrid.org) is an open-access database resource that houses manually curated protein and genetic interactions from multiple species including yeast, worm, fly, mouse, and human. The ~1.93 million curated interactions in BioGRID can be used to build complex networks to facilitate biomedical discoveries, particularly as related to human health and disease. All BioGRID content is curated from primary experimental evidence in the biomedical literature, and includes both focused low-throughput studies and large high-throughput datasets. BioGRID also captures protein post-translational modifications and protein or gene interactions with bioactive small molecules including many known drugs. A built-in network visualization tool combines all annotations and allows users to generate network graphs of protein, genetic and chemical interactions. In addition to general curation across species, BioGRID undertakes themed curation projects in specific aspects of cellular regulation, for example the ubiquitin-proteasome system, as well as specific disease areas, such as for the SARS-CoV-2 virus that causes COVID-19 severe acute respiratory syndrome. A recent extension of BioGRID, named the Open Repository of CRISPR Screens (ORCS, orcs.thebiogrid.org), captures single mutant phenotypes and genetic interactions from published high throughput genome-wide CRISPR/Cas9-based genetic screens. BioGRID-ORCS contains datasets for over 1,042 CRISPR screens carried out to date in human, mouse and fly cell lines. The biomedical research community can freely access all BioGRID data through the web interface, standardized file downloads, or via model organism databases and partner meta-databases.",
+  "DOI": "10.1002/pro.3978",
+  "PMC ID": "PMC7737760",
+  "CITATION": "Oughtred R, Rust J, Chang C, Breitkreutz BJ, ...&, Tyers M. (2021) The BioGRID database: A comprehensive biomedical resource of curated protein, genetic, and chemical interactions. Protein Sci, 30 (1) 187-200. doi:10.1002/pro.3978. PMID 33070389",
+  "FIRST_AUTHOR": "Oughtred R",
+  "_meta": {
+    "source_sheet": "Protein"
+  }
+}

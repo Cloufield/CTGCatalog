@@ -1,0 +1,24 @@
+{
+  "NAME": "Proteome PheWAS browser",
+  "PMID": 32895551,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "Platform",
+  "TYPE": "Platform",
+  "TITLE": "Phenome-wide Mendelian randomization mapping the influence of the plasma proteome on complex diseases.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "10",
+  "PAGE": "1122-1131",
+  "Authors": "Zheng J,Haberland V,Baird D,Walker V,Haycock PC,Hurle MR,Gutteridge A,Erola P,Liu Y,Luo S,Robinson J,Richardson TG,Staley JR,Elsworth B,Burgess S,Sun BB,Danesh J,Runz H,Maranville JC,Martin HM,Yarmolinsky J,Laurin C,Holmes MV,Liu JZ,Estrada K,Santos R,McCarthy L,Waterworth D,Nelson MR,Smith GD,Butterworth AS,Hemani G,Scott RA,Gaunt TR",
+  "ABSTRACT": "The human proteome is a major source of therapeutic targets. Recent genetic association analyses of the plasma proteome enable systematic evaluation of the causal consequences of variation in plasma protein levels. Here we estimated the effects of 1,002 proteins on 225 phenotypes using two-sample Mendelian randomization (MR) and colocalization. Of 413 associations supported by evidence from MR, 130 (31.5%) were not supported by results of colocalization analyses, suggesting that genetic confounding due to linkage disequilibrium is widespread in naïve phenome-wide association studies of proteins. Combining MR and colocalization evidence in cis-only analyses, we identified 111 putatively causal effects between 65 proteins and 52 disease-related phenotypes ( https://www.epigraphdb.org/pqtl/ ). Evaluation of data from historic drug development programs showed that target-indication pairs with MR and colocalization support were more likely to be approved, evidencing the value of this approach in identifying and prioritizing potential therapeutic targets.",
+  "DOI": "10.1038/s41588-020-0682-6",
+  "PMC ID": "PMC7610464",
+  "CITATION": "Zheng J, Haberland V, Baird D, Walker V, ...&, Gaunt TR. (2020) Phenome-wide Mendelian randomization mapping the influence of the plasma proteome on complex diseases. Nat Genet, 52 (10) 1122-1131. doi:10.1038/s41588-020-0682-6. PMID 32895551",
+  "FIRST_AUTHOR": "Zheng J",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

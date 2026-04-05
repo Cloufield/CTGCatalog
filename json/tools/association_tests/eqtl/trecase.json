@@ -1,0 +1,29 @@
+{
+  "NAME": "TReCASE",
+  "PMID": 30666629,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "TReCASE (asSeq)",
+  "FULL NAME": "Total Read Count and Allele-Specific Expression",
+  "URL": "http://www.bios.unc.edu/~wsun/software.htm",
+  "DESCRIPTION": "A Statistical Framework for eQTL Mapping Using RNA-seq Data.",
+  "MANUAL_CITATION": "Sun, Wei. \"A statistical framework for eQTL mapping using RNA‐seq data.\" Biometrics 68.1 (2012): 1-11.",
+  "TITLE": "A statistical method for joint estimation of cis-eQTLs and parent-of-origin effects under family trio design.",
+  "ISO": "Biometrics",
+  "JOURNAL": "Biometrics",
+  "YEAR": "2019",
+  "VOLUME": "75",
+  "ISSUE": "3",
+  "PAGE": "864-874",
+  "Authors": "Zhabotynsky V,Inoue K,Magnuson T,Mauro Calabrese J,Sun W",
+  "ABSTRACT": "RNA sequencing allows one to study allelic imbalance of gene expression, which may be due to genetic factors or genomic imprinting (i.e., higher expression of maternal or paternal allele). It is desirable to model both genetic and parent-of-origin effects simultaneously to avoid confounding and to improve the power to detect either effect. In studies of genetically tractable model organisms, separation of genetic and parent-of-origin effects can be achieved by studying reciprocal cross of two inbred strains. In contrast, this task is much more challenging in outbred populations such as humans. To address this challenge, we propose a new framework to combine experimental strategies and novel statistical methods. Specifically, we propose to study genetic and imprinting effects in family trios with RNA-seq data from the children and genotype data from both parents and children, and quantify genetic effects by cis-eQTLs. Towards this end, we have extended our method that studies the eQTLs of RNA-seq data (Sun, Biometrics 2012, 68(1): 1-11) to model both cis-eQTL and parent-of-origin effects, and evaluated its performance using extensive simulations. Since sample size may be limited in family trios, we have developed a data analysis pipeline that borrows information from external data of unrelated individuals for cis-eQTL mapping. We have also collected RNA-seq data from the children of 30 family trios, applied our method to analyze this dataset, and identified some previously reported imprinted genes as well as some new candidates of imprinted genes.",
+  "DOI": "10.1111/biom.13026",
+  "PMC ID": "PMC6646089",
+  "CITATION": "Zhabotynsky V, Inoue K, Magnuson T, Mauro Calabrese J, ...&, Sun W. (2019) A statistical method for joint estimation of cis-eQTLs and parent-of-origin effects under family trio design. Biometrics, 75 (3) 864-874. doi:10.1111/biom.13026. PMID 30666629",
+  "FIRST_AUTHOR": "Zhabotynsky V",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

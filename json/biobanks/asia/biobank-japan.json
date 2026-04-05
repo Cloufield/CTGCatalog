@@ -1,0 +1,16 @@
+{
+  "NAME": "BioBank Japan",
+  "SHORT NAME": "BBJ",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~270k",
+  "MANUAL_CITATION": "Nagai, A., Hirata, M., Kamatani, Y., Muto, K., Matsuda, K., Kiyohara, Y., ... & Kubo, M. (2017). Overview of the BioBank Japan Project: study design and profile. Journal of epidemiology, 27(Supplement_III), S2-S8.",
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "In 2003, BioBank Japan (BBJ) started developing one of the world’s largest disease biobanks, creating a foundation for research aimed at achieving medical care tailored to the individual traits of each patient. From a total of 260,000 patients representing 440,000 cases of 51 primarily multifactorial (common) diseases, BBJ has collected DNA, serum, medical records (clinical information), etc. with their consent. No less than 5,800 items of screened information are available for research, including the patients’ survival information, with 95% of the patients tracked over an average of 10 years. In addition to large-scale genomic analyses, omics analyses including whole genome sequencing and metabolome/proteome analyses have been performed on the DNA, serum and other biological samples collected, producing significant research findings. The genomic information acquired through the analyses continues to be used as data. The biological samples and data are widely distributed and used by researchers.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Japanese adults (hospital and population network)"
+}

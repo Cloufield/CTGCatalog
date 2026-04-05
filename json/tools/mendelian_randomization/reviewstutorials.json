@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 29471399,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Benn, M., & Nordestgaard, B. G. (2018). From genome-wide association studies to Mendelian randomization: novel opportunities for understanding cardiovascular disease causality, pathogenesis, prevention, and treatment. Cardiovascular research, 114(9), 1192-1208.\n",
+  "TITLE": "From genome-wide association studies to Mendelian randomization: novel opportunities for understanding cardiovascular disease causality, pathogenesis, prevention, and treatment.",
+  "ISO": "Cardiovasc Res",
+  "JOURNAL": "Cardiovascular research",
+  "YEAR": "2018",
+  "VOLUME": "114",
+  "ISSUE": "9",
+  "PAGE": "1192-1208",
+  "Authors": "Benn M,Nordestgaard BG",
+  "ABSTRACT": "The Mendelian randomization approach is an epidemiological study design incorporating genetic information into traditional epidemiological studies to infer causality of biomarkers, risk factors, or lifestyle factors on disease risk. Mendelian randomization studies often draw on novel information generated in genome-wide association studies on causal associations between genetic variants and a risk factor or lifestyle factor. Such information can then be used in a largely unconfounded study design free of reverse causation to understand if and how risk factors and lifestyle factors cause cardiovascular disease. If causation is demonstrated, an opportunity for prevention of disease is identified; importantly however, before prevention or treatment can be implemented, randomized intervention trials altering risk factor levels or improving deleterious lifestyle factors needs to document reductions in cardiovascular disease in a safe and side-effect sparse manner. Documentation of causality can also inform on potential drug targets, more likely to be successful than prior approaches often relying on animal or cell studies mainly. The present review summarizes the history and background of Mendelian randomization, the study design, assumptions for using the design, and the most common caveats, followed by a discussion on advantages and disadvantages of different types of Mendelian randomization studies using one or more samples and different levels of information on study participants. The review also provides an overview of results on many of the risk factors and lifestyle factors for cardiovascular disease examined to date using the Mendelian randomization study design.",
+  "DOI": "10.1093/cvr/cvy045",
+  "PMC ID": "",
+  "CITATION": "Benn M, Nordestgaard BG. (2018) From genome-wide association studies to Mendelian randomization: novel opportunities for understanding cardiovascular disease causality, pathogenesis, prevention, and treatment. Cardiovasc Res, 114 (9) 1192-1208. doi:10.1093/cvr/cvy045. PMID 29471399",
+  "FIRST_AUTHOR": "Benn M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

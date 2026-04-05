@@ -1,0 +1,18 @@
+{
+  "NAME": "The pharmacogenomics journal",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Pharmacogenomics J",
+  "JOURNAL": "The pharmacogenomics journal",
+  "URL": "http://www.nature.com/tpj",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "HIBAG"
+  ]
+}

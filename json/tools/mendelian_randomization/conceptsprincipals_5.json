@@ -1,0 +1,25 @@
+{
+  "NAME": "Concepts&Principals",
+  "PMID": 34570226,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Concepts&Principals",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Howe, L. J., Tudball, M., Davey Smith, G., & Davies, N. M. (2022). Interpreting Mendelian-randomization estimates of the effects of categorical exposures such as disease status and educational attainment. International journal of epidemiology, 51(3), 948-957.",
+  "TITLE": "Interpreting Mendelian-randomization estimates of the effects of categorical exposures such as disease status and educational attainment.",
+  "ISO": "Int J Epidemiol",
+  "JOURNAL": "International journal of epidemiology",
+  "YEAR": "2022",
+  "VOLUME": "51",
+  "ISSUE": "3",
+  "PAGE": "948-957",
+  "Authors": "Howe LJ,Tudball M,Davey Smith G,Davies NM",
+  "ABSTRACT": "BACKGROUND: Mendelian randomization has been previously used to estimate the effects of binary and ordinal categorical exposures-e.g. Type 2 diabetes or educational attainment defined by qualification-on outcomes. Binary and categorical phenotypes can be modelled in terms of liability-an underlying latent continuous variable with liability thresholds separating individuals into categories. Genetic variants influence an individual's categorical exposure via their effects on liability, thus Mendelian-randomization analyses with categorical exposures will capture effects of liability that act independently of exposure category. METHODS AND RESULTS: We discuss how groups in which the categorical exposure is invariant can be used to detect liability effects acting independently of exposure category. For example, associations between an adult educational-attainment polygenic score (PGS) and body mass index measured before the minimum school leaving age (e.g. age 10 years), cannot indicate the effects of years in full-time education on this outcome. Using UK Biobank data, we show that a higher educational-attainment PGS is strongly associated with lower smoking initiation and higher odds of glasses use at age 15 years. These associations were replicated in sibling models. An orthogonal approach using the raising of the school leaving age (ROSLA) policy change found that individuals who chose to remain in education to age 16 years before the reform likely had higher liability to educational attainment than those who were compelled to remain in education to age 16 years after the reform, and had higher income, lower pack-years of smoking, higher odds of glasses use and lower deprivation in adulthood. These results suggest that liability to educational attainment is associated with health and social outcomes independently of years in full-time education. CONCLUSIONS: Mendelian-randomization studies with non-continuous exposures should be interpreted in terms of liability, which may affect the outcome via changes in exposure category and/or independently.",
+  "DOI": "10.1093/ije/dyab208",
+  "PMC ID": "PMC9189950",
+  "CITATION": "Howe LJ, Tudball M, Davey Smith G, Davies NM. (2022) Interpreting Mendelian-randomization estimates of the effects of categorical exposures such as disease status and educational attainment. Int J Epidemiol, 51 (3) 948-957. doi:10.1093/ije/dyab208. PMID 34570226",
+  "FIRST_AUTHOR": "Howe LJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

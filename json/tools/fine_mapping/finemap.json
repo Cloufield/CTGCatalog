@@ -1,0 +1,29 @@
+{
+  "NAME": "FINEMAP",
+  "PMID": 26773131,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "FINEMAP",
+  "FULL NAME": "FINEMAP",
+  "KEYWORDS": "Shotgun Stochastic Search (SSS)",
+  "URL": "http://www.christianbenner.com/",
+  "DESCRIPTION": "FINEMAP is a program for 1.identifying causal SNPs, 2. estimating effect sizes of causal SNPs, 3 estimating the heritability contribution of causal SNPs",
+  "MANUAL_CITATION": "Benner, C., Spencer, C. C., Havulinna, A. S., Salomaa, V., Ripatti, S., & Pirinen, M. (2016). FINEMAP: efficient variable selection using summary data from genome-wide association studies. Bioinformatics, 32(10), 1493-1501.",
+  "TITLE": "FINEMAP: efficient variable selection using summary data from genome-wide association studies.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2016",
+  "VOLUME": "32",
+  "ISSUE": "10",
+  "PAGE": "1493-501",
+  "Authors": "Benner C,Spencer CC,Havulinna AS,Salomaa V,Ripatti S,Pirinen M",
+  "ABSTRACT": "MOTIVATION: The goal of fine-mapping in genomic regions associated with complex diseases and traits is to identify causal variants that point to molecular mechanisms behind the associations. Recent fine-mapping methods using summary data from genome-wide association studies rely on exhaustive search through all possible causal configurations, which is computationally expensive. RESULTS: We introduce FINEMAP, a software package to efficiently explore a set of the most important causal configurations of the region via a shotgun stochastic search algorithm. We show that FINEMAP produces accurate results in a fraction of processing time of existing approaches and is therefore a promising tool for analyzing growing amounts of data produced in genome-wide association studies and emerging sequencing projects. AVAILABILITY AND IMPLEMENTATION: FINEMAP v1.0 is freely available for Mac OS X and Linux at http://www.christianbenner.com CONTACT: : christian.benner@helsinki.fi or matti.pirinen@helsinki.fi.",
+  "DOI": "10.1093/bioinformatics/btw018",
+  "PMC ID": "PMC4866522",
+  "CITATION": "Benner C, Spencer CC, Havulinna AS, Salomaa V, ...&, Pirinen M. (2016) FINEMAP: efficient variable selection using summary data from genome-wide association studies. Bioinformatics, 32 (10) 1493-501. doi:10.1093/bioinformatics/btw018. PMID 26773131",
+  "FIRST_AUTHOR": "Benner C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

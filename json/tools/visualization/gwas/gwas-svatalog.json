@@ -1,0 +1,21 @@
+{
+  "NAME": "GWAS SVatalog",
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "GWAS",
+  "CATEGORY": "Visualization",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWAS SVatalog",
+  "FULL NAME": "GWAS SVatalog: a visualization tool to aid fine-mapping of GWAS loci with structural variations",
+  "KEYWORDS": "GWAS, structural variations, visualization, fine-mapping",
+  "USE": "Computes and visualizes linkage disequilibrium between structural variations and GWAS-associated SNPs [1]",
+  "PREPRINT_DOI": "10.1101/2025.09.03.674075",
+  "PREPRINT_SERVER": "bioRxiv",
+  "URL": "https://svatalog.research.sickkids.ca/",
+  "DESCRIPTION": "Novel open-source web tool combining GWAS Catalog's SNP-trait associations with LD statistics to identify SVs explaining GWAS loci [1]",
+  "MANUAL_CITATION": "Chirmade S, Wang Z, et al. (2025). GWAS SVatalog: a visualization tool to aid fine-mapping of GWAS loci with structural variations. bioRxiv",
+  "CITATION": "Chirmade S, Wang Z, et al. (2025). GWAS SVatalog: a visualization tool to aid fine-mapping of GWAS loci with structural variations. bioRxiv",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

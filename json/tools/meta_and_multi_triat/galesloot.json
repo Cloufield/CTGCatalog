@@ -1,0 +1,26 @@
+{
+  "NAME": "Galesloot",
+  "PMID": 24763738,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Comparison",
+  "MANUAL_YEAR": 2013,
+  "MANUAL_CITATION": "Galesloot, T. E., van Steen, K., Kiemeney, L. A. L. M., Janss, L. L. & Vermeulen, S. H. A comparison of multivariate genome-wide association methods. PLoS One 9, e95923 (2014).",
+  "TITLE": "A comparison of multivariate genome-wide association methods.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2014",
+  "VOLUME": "9",
+  "ISSUE": "4",
+  "PAGE": "e95923",
+  "Authors": "Galesloot TE,van Steen K,Kiemeney LA,Janss LL,Vermeulen SH",
+  "ABSTRACT": "Joint association analysis of multiple traits in a genome-wide association study (GWAS), i.e. a multivariate GWAS, offers several advantages over analyzing each trait in a separate GWAS. In this study we directly compared a number of multivariate GWAS methods using simulated data. We focused on six methods that are implemented in the software packages PLINK, SNPTEST, MultiPhen, BIMBAM, PCHAT and TATES, and also compared them to standard univariate GWAS, analysis of the first principal component of the traits, and meta-analysis of univariate results. We simulated data (N = 1000) for three quantitative traits and one bi-allelic quantitative trait locus (QTL), and varied the number of traits associated with the QTL (explained variance 0.1%), minor allele frequency of the QTL, residual correlation between the traits, and the sign of the correlation induced by the QTL relative to the residual correlation. We compared the power of the methods using empirically fixed significance thresholds (α = 0.05). Our results showed that the multivariate methods implemented in PLINK, SNPTEST, MultiPhen and BIMBAM performed best for the majority of the tested scenarios, with a notable increase in power for scenarios with an opposite sign of genetic and residual correlation. All multivariate analyses resulted in a higher power than univariate analyses, even when only one of the traits was associated with the QTL. Hence, use of multivariate GWAS methods can be recommended, even when genetic correlations between traits are weak.",
+  "DOI": "10.1371/journal.pone.0095923",
+  "PMC ID": "PMC3999149",
+  "CITATION": "Galesloot TE, van Steen K, Kiemeney LA, Janss LL, ...&, Vermeulen SH. (2014) A comparison of multivariate genome-wide association methods. PLoS One, 9 (4) e95923. doi:10.1371/journal.pone.0095923. PMID 24763738",
+  "FIRST_AUTHOR": "Galesloot TE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

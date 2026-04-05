@@ -1,0 +1,33 @@
+{
+  "NAME": "CADD",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "CADD",
+  "PMID": 24487276,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nKircher, M. et al. A general framework for estimating the relative pathogenicity of human genetic variants. Nat. Genet. 46, 310–315 (2014).",
+  "TOPIC": "Function",
+  "URL": "https://cadd.gs.washington.edu/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Combined Annotation–Dependent Depletion; integrates multiple annotations to score variant deleteriousness.",
+  "MANUAL_YEAR": 2014,
+  "SHORT NAME": "CADD",
+  "FULL NAME": "Combined Annotation–Dependent Depletion",
+  "KEYWORDS": "genome-wide, deleteriousness, annotation",
+  "USE": "prioritization, filtering",
+  "TITLE": "A general framework for estimating the relative pathogenicity of human genetic variants.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2014",
+  "VOLUME": "46",
+  "ISSUE": "3",
+  "PAGE": "310-5",
+  "Authors": "Kircher M,Witten DM,Jain P,O'Roak BJ,Cooper GM,Shendure J",
+  "ABSTRACT": "Current methods for annotating and interpreting human genetic variation tend to exploit a single information type (for example, conservation) and/or are restricted in scope (for example, to missense changes). Here we describe Combined Annotation-Dependent Depletion (CADD), a method for objectively integrating many diverse annotations into a single measure (C score) for each variant. We implement CADD as a support vector machine trained to differentiate 14.7 million high-frequency human-derived alleles from 14.7 million simulated variants. We precompute C scores for all 8.6 billion possible human single-nucleotide variants and enable scoring of short insertions-deletions. C scores correlate with allelic diversity, annotations of functionality, pathogenicity, disease severity, experimentally measured regulatory effects and complex trait associations, and they highly rank known pathogenic variants within individual genomes. The ability of CADD to prioritize functional, deleterious and pathogenic variants across many functional categories, effect sizes and genetic architectures is unmatched by any current single-annotation method.",
+  "DOI": "10.1038/ng.2892",
+  "PMC ID": "PMC3992975",
+  "CITATION": "Kircher M, Witten DM, Jain P, O'Roak BJ, ...&, Shendure J. (2014) A general framework for estimating the relative pathogenicity of human genetic variants. Nat Genet, 46 (3) 310-5. doi:10.1038/ng.2892. PMID 24487276",
+  "FIRST_AUTHOR": "Kircher M",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

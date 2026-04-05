@@ -1,0 +1,15 @@
+{
+  "NAME": "East London Genes & Health",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~100k",
+  "MANUAL_CITATION": " Finer, S., Martin, H. C., Khan, A., Hunt, K. A., MacLaughlin, B., Ahmed, Z., ... & van Heel, D. A. (2020). Cohort Profile: East London Genes & Health (ELGH), a community-based population genomics and health study in British Bangladeshi and British Pakistani people. International journal of epidemiology, 49(1), 20-21i.",
+  "URL": "https://www.genesandhealth.org/",
+  "DESCRIPTION": " Genes & Health is a huge long-term study of 100,000 people of Bangladeshi and Pakistani origin. We will link genes with health records, to study disease and treatments. Some volunteers may be invited for further studies. We are inviting volunteers to take part in two regions of the UK: East London (East London Genes & Health) and Bradford (Bradford Genes & Health).",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "SAS",
+  "PARTICIPANTS": "British Bangladeshi and Pakistani adults (East London)"
+}

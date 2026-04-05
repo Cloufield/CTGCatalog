@@ -1,0 +1,32 @@
+{
+  "NAME": "Liu M",
+  "ADD_SUFFIX": 1,
+  "PMID": 38038215,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "Cross-ancestry",
+  "TRAIT": "Brain arterial diameters (BADs): global (all 13 arteries), anterior (internal carotid arte - rial,  middle  cerebral  arterial,  anterior  cerebral  arterial,   and  posterior  communicating  if  available),  and  posterior  (vertebral  arterial,  basilar  arterial,  and  posterior   cerebral arterial if available) arterial diameter scores",
+  "PLATFORM": "Brain  MRA",
+  "COHORT": "ARIC (Atherosclerosis Risk in Communities), NOMAS (Northern Manhattan Study), WHICAP  (Washington  Heights–Inwood  Columbia   Aging Project), EDIS (Epidemiology of Dementia in Singapore), MCS (Memory Clinic in Singapore), FHS  (Framingham  Heart  Study)",
+  "SAMPLE_SIZE": 4150,
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Liu, M. et al. Chromosome 10q24.32 variants associate with brain arterial diameters in diverse populations: A genome-wide association study. J. Am. Heart Assoc. 12, e030935 (2023).",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "Chromosome 10q24.32 Variants Associate With Brain Arterial Diameters in Diverse Populations: A Genome-Wide Association Study.",
+  "ISO": "J Am Heart Assoc",
+  "JOURNAL": "Journal of the American Heart Association",
+  "YEAR": "2023",
+  "VOLUME": "12",
+  "ISSUE": "23",
+  "PAGE": "e030935",
+  "Authors": "Liu M,Khasiyev F,Sariya S,Spagnolo-Allende A,Sanchez DL,Andrews H,Yang Q,Beiser A,Qiao Y,Thomas EA,Romero JR,Rundek T,Brickman AM,Manly JJ,Elkind MS,Seshadri S,Chen C,Hilal S,Wasserman BA,Tosto G,Fornage M,Gutierrez J",
+  "ABSTRACT": "BACKGROUND: Brain arterial diameters (BADs) are novel imaging biomarkers of cerebrovascular disease, cognitive decline, and dementia. Traditional vascular risk factors have been associated with BADs, but whether there may be genetic determinants of BADs is unknown. METHODS AND RESULTS: The authors studied 4150 participants from 6 geographically diverse population-based cohorts (40% European, 14% African, 22% Hispanic, 24% Asian ancestries). Brain arterial diameters for 13 segments were measured and averaged to obtain a global measure of BADs as well as the posterior and anterior circulations. A genome-wide association study revealed 14 variants at one locus associated with global BAD at genome-wide significance (P<5×10-8) (top single-nucleotide polymorphism, rs7921574; β=0.06 [P=1.54×10-8]). This locus mapped to an intron of CNNM2. A trans-ancestry genome-wide association study meta-analysis identified 2 more loci at NT5C2 (rs10748839; P=2.54×10-8) and AS3MT (rs10786721; P=4.97×10-8), associated with global BAD. In addition, 2 single-nucleotide polymorphisms colocalized with expression of CNNM2 (rs7897654; β=0.12 [P=6.17×10-7]) and AL356608.1 (rs10786719; β=-0.17 [P=6.60×10-6]) in brain tissue. For the posterior BAD, 2 variants at one locus mapped to an intron of TCF25 were identified (top single-nucleotide polymorphism, rs35994878; β=0.11 [P=2.94×10-8]). For the anterior BAD, one locus at ADAP1 was identified in trans-ancestry genome-wide association analysis (rs34217249; P=3.11×10-8). CONCLUSIONS: The current study reveals 3 novel risk loci (CNNM2, NT5C2, and AS3MT) associated with BADs. These findings may help elucidate the mechanism by which BADs may influence cerebrovascular health.",
+  "DOI": "10.1161/JAHA.123.030935",
+  "PMC ID": "PMC10727334",
+  "CITATION": "Liu M, Khasiyev F, Sariya S, Spagnolo-Allende A, ...&, Gutierrez J. (2023) Chromosome 10q24.32 Variants Associate With Brain Arterial Diameters in Diverse Populations: A Genome-Wide Association Study. J Am Heart Assoc, 12 (23) e030935. doi:10.1161/JAHA.123.030935. PMID 38038215",
+  "FIRST_AUTHOR": "Liu M",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "SDPR",
+  "PMID": 34310601,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "SDPR",
+  "FULL NAME": "SDPR",
+  "MANUAL_YEAR": 2021,
+  "URL": "https://github.com/eldronzhou/SDPR",
+  "DESCRIPTION": "SDPR (Summary statistics based Dirichelt Process Regression) is a method to compute polygenic risk score (PRS) from summary statistics. It is the extension of Dirichlet Process Regression (DPR) to the use of summary statistics",
+  "MANUAL_CITATION": "\nZhou, G. & Zhao, H. A fast and robust Bayesian nonparametric method for prediction of complex traits using summary statistics. PLoS Genet. 17, e1009697 (2021).\n  ",
+  "TITLE": "A fast and robust Bayesian nonparametric method for prediction of complex traits using summary statistics.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2021",
+  "VOLUME": "17",
+  "ISSUE": "7",
+  "PAGE": "e1009697",
+  "Authors": "Zhou G,Zhao H",
+  "ABSTRACT": "Genetic prediction of complex traits has great promise for disease prevention, monitoring, and treatment. The development of accurate risk prediction models is hindered by the wide diversity of genetic architecture across different traits, limited access to individual level data for training and parameter tuning, and the demand for computational resources. To overcome the limitations of the most existing methods that make explicit assumptions on the underlying genetic architecture and need a separate validation data set for parameter tuning, we develop a summary statistics-based nonparametric method that does not rely on validation datasets to tune parameters. In our implementation, we refine the commonly used likelihood assumption to deal with the discrepancy between summary statistics and external reference panel. We also leverage the block structure of the reference linkage disequilibrium matrix for implementation of a parallel algorithm. Through simulations and applications to twelve traits, we show that our method is adaptive to different genetic architectures, statistically robust, and computationally efficient. Our method is available at https://github.com/eldronzhou/SDPR.",
+  "DOI": "10.1371/journal.pgen.1009697",
+  "PMC ID": "PMC8341714",
+  "CITATION": "Zhou G, Zhao H. (2021) A fast and robust Bayesian nonparametric method for prediction of complex traits using summary statistics. PLoS Genet, 17 (7) e1009697. doi:10.1371/journal.pgen.1009697. PMID 34310601",
+  "FIRST_AUTHOR": "Zhou G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

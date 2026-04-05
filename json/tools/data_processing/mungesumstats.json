@@ -1,0 +1,28 @@
+{
+  "NAME": "MungeSumstats",
+  "PMID": 34601555,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "MungeSumstats",
+  "FULL NAME": "MungeSumstats",
+  "URL": "https://github.com/neurogenomics/MungeSumstats",
+  "DESCRIPTION": "a Bioconductor package for the standardization and quality control of many GWAS summary statistics",
+  "MANUAL_CITATION": "Murphy, Alan E., Brian M. Schilder, and Nathan G. Skene. \"MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics.\" Bioinformatics 37.23 (2021): 4593-4596.",
+  "TITLE": "MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2021",
+  "VOLUME": "37",
+  "ISSUE": "23",
+  "PAGE": "4593-4596",
+  "Authors": "Murphy AE,Schilder BM,Skene NG",
+  "ABSTRACT": "MOTIVATION: Genome-wide association studies (GWAS) summary statistics have popularized and accelerated genetic research. However, a lack of standardization of the file formats used has proven problematic when running secondary analysis tools or performing meta-analysis studies. RESULTS: To address this issue, we have developed MungeSumstats, a Bioconductor R package for the standardization and quality control of GWAS summary statistics. MungeSumstats can handle the most common summary statistic formats, including variant call format (VCF) producing a reformatted, standardized, tabular summary statistic file, VCF or R native data object. AVAILABILITY AND IMPLEMENTATION: MungeSumstats is available on Bioconductor (v 3.13) and can also be found on Github at: https://neurogenomics.github.io/MungeSumstats. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btab665",
+  "PMC ID": "PMC8652100",
+  "CITATION": "Murphy AE, Schilder BM, Skene NG. (2021) MungeSumstats: a Bioconductor package for the standardization and quality control of many GWAS summary statistics. Bioinformatics, 37 (23) 4593-4596. doi:10.1093/bioinformatics/btab665. PMID 34601555",
+  "FIRST_AUTHOR": "Murphy AE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "NAME": "HLARIMNT",
+  "SECTION": "Tools",
+  "TOPIC": "HLA",
+  "CATEGORY": "HLA imputation tool",
+  "TYPE": "HLA imputation tool",
+  "SHORT NAME": "HLARIMNT",
+  "FULL NAME": "HLA Reliable IMputatioN by Transformer",
+  "KEYWORDS": "HLA, imputation",
+  "URL": "https://github.com/seitalab/HLARIMNT",
+  "MANUAL_CITATION": "Tanaka, K., Kato, K., Nonaka, N., & Seita, J. (2022). Efficient HLA imputation from sequential SNPs data by Transformer. arXiv preprint arXiv:2211.06430.",
+  "CITATION": "Tanaka, K., Kato, K., Nonaka, N., & Seita, J. (2022). Efficient HLA imputation from sequential SNPs data by Transformer. arXiv preprint arXiv:2211.06430.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

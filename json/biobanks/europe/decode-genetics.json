@@ -1,0 +1,14 @@
+{
+  "NAME": "deCODE Genetics",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~250k",
+  "URL": "https://www.decode.com/",
+  "DESCRIPTION": "deCODE leads the world in the discovery of genetic risk factors for common diseases. Our gene discovery engine is driven by our unique approach and resources, including detailed genetic and medical information on some 500,000 individuals from around the globe taking part in our discovery work and proprietary statistical algorithms and informatics tools for gathering, analyzing, visualizing and storing large amounts of data.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Icelandic participants (population and genealogy)"
+}

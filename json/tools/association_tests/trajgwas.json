@@ -1,0 +1,30 @@
+{
+  "NAME": "TrajGWAS",
+  "PMID": 35196515,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS of longitudinal trajectories",
+  "TYPE": "Tools",
+  "SHORT NAME": "TrajGWAS",
+  "FULL NAME": "GWAS of longitudinal trajectories",
+  "KEYWORDS": "biomarker trajectories, mean, within-subject (WS) variability, linear mixed effect model, within-subject variance estimation by robust regression (WiSER) method",
+  "URL": "https://github.com/OpenMendel/TrajGWAS.jl",
+  "DESCRIPTION": "TrajGWAS.jl is a Julia package for performing genome-wide association studies (GWAS) for continuous longitudinal phenotypes using a modified linear mixed effects model. It builds upon the within-subject variance estimation by robust regression (WiSER) method and can be used to identify variants associated with changes in the mean and within-subject variability of the longitduinal trait.",
+  "MANUAL_CITATION": "Ko, S., German, C. A., Jensen, A., Shen, J., Wang, A., Mehrotra, D. V., ... & Zhou, J. J. (2022). GWAS of longitudinal trajectories at biobank scale. The American Journal of Human Genetics, 109(3), 433-445.",
+  "TITLE": "GWAS of longitudinal trajectories at biobank scale.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2022",
+  "VOLUME": "109",
+  "ISSUE": "3",
+  "PAGE": "433-445",
+  "Authors": "Ko S,German CA,Jensen A,Shen J,Wang A,Mehrotra DV,Sun YV,Sinsheimer JS,Zhou H,Zhou JJ",
+  "ABSTRACT": "Biobanks linked to massive, longitudinal electronic health record (EHR) data make numerous new genetic research questions feasible. One among these is the study of biomarker trajectories. For example, high blood pressure measurements over visits strongly predict stroke onset, and consistently high fasting glucose and Hb1Ac levels define diabetes. Recent research reveals that not only the mean level of biomarker trajectories but also their fluctuations, or within-subject (WS) variability, are risk factors for many diseases. Glycemic variation, for instance, is recently considered an important clinical metric in diabetes management. It is crucial to identify the genetic factors that shift the mean or alter the WS variability of a biomarker trajectory. Compared to traditional cross-sectional studies, trajectory analysis utilizes more data points and captures a complete picture of the impact of time-varying factors, including medication history and lifestyle. Currently, there are no efficient tools for genome-wide association studies (GWASs) of biomarker trajectories at the biobank scale, even for just mean effects. We propose TrajGWAS, a linear mixed effect model-based method for testing genetic effects that shift the mean or alter the WS variability of a biomarker trajectory. It is scalable to biobank data with 100,000 to 1,000,000 individuals and many longitudinal measurements and robust to distributional assumptions. Simulation studies corroborate that TrajGWAS controls the type I error rate and is powerful. Analysis of eleven biomarkers measured longitudinally and extracted from UK Biobank primary care data for more than 150,000 participants with 1,800,000 observations reveals loci that significantly alter the mean or WS variability.",
+  "DOI": "10.1016/j.ajhg.2022.01.018",
+  "PMC ID": "PMC8948167",
+  "CITATION": "Ko S, German CA, Jensen A, Shen J, ...&, Zhou JJ. (2022) GWAS of longitudinal trajectories at biobank scale. Am J Hum Genet, 109 (3) 433-445. doi:10.1016/j.ajhg.2022.01.018. PMID 35196515",
+  "FIRST_AUTHOR": "Ko S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

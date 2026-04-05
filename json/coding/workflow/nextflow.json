@@ -1,0 +1,11 @@
+{
+  "NAME": "Nextflow",
+  "SECTION": "Coding",
+  "TOPIC": "Workflow",
+  "TYPE": "Resource",
+  "URL": "https://www.nextflow.io/docs/latest/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Data-driven computational pipelines."
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "ENCODE 2012",
+  "PMID": 22955616,
+  "SECTION": "References",
+  "TOPIC": "Functional",
+  "CATEGORY": "ENCODE",
+  "DESCRIPTION": "ENCODE Phase II",
+  "MANUAL_CITATION": "\nThe ENCODE Project Consortium. An integrated encyclopedia of DNA elements in the human genome. Nature 489, 57–74 (2012).\n  \n",
+  "TITLE": "An integrated encyclopedia of DNA elements in the human genome.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2012",
+  "VOLUME": "489",
+  "ISSUE": "7414",
+  "PAGE": "57-74",
+  "Authors": "ENCODE Project Consortium",
+  "ABSTRACT": "The human genome encodes the blueprint of life, but the function of the vast majority of its nearly three billion bases is unknown. The Encyclopedia of DNA Elements (ENCODE) project has systematically mapped regions of transcription, transcription factor association, chromatin structure and histone modification. These data enabled us to assign biochemical functions for 80% of the genome, in particular outside of the well-studied protein-coding regions. Many discovered candidate regulatory elements are physically associated with one another and with expressed genes, providing new insights into the mechanisms of gene regulation. The newly identified elements also show a statistical correspondence to sequence variants linked to human disease, and can thereby guide interpretation of this variation. Overall, the project provides new insights into the organization and regulation of our genes and genome, and is an expansive resource of functional annotations for biomedical research.",
+  "DOI": "10.1038/nature11247",
+  "PMC ID": "PMC3439153",
+  "CITATION": "ENCODE Project Consortium. (2012) An integrated encyclopedia of DNA elements in the human genome. Nature, 489 (7414) 57-74. doi:10.1038/nature11247. PMID 22955616",
+  "FIRST_AUTHOR": "ENCODE Project Consortium",
+  "_meta": {
+    "source_sheet": "Regulatory elements"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "NAME": "IMPUTE4",
+  "PMID": 30305743,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "IMPUTE4",
+  "MANUAL_CITATION": "Bycroft, Clare, et al. \"The UK Biobank resource with deep phenotyping and genomic data.\" Nature 562.7726 (2018): 203-209.",
+  "TITLE": "The UK Biobank resource with deep phenotyping and genomic data.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2018",
+  "VOLUME": "562",
+  "ISSUE": "7726",
+  "PAGE": "203-209",
+  "Authors": "Bycroft C,Freeman C,Petkova D,Band G,Elliott LT,Sharp K,Motyer A,Vukcevic D,Delaneau O,O'Connell J,Cortes A,Welsh S,Young A,Effingham M,McVean G,Leslie S,Allen N,Donnelly P,Marchini J",
+  "ABSTRACT": "The UK Biobank project is a prospective cohort study with deep genetic and phenotypic data collected on approximately 500,000 individuals from across the United Kingdom, aged between 40 and 69 at recruitment. The open resource is unique in its size and scope. A rich variety of phenotypic and health-related information is available on each participant, including biological measurements, lifestyle indicators, biomarkers in blood and urine, and imaging of the body and brain. Follow-up information is provided by linking health and medical records. Genome-wide genotype data have been collected on all participants, providing many opportunities for the discovery of new genetic associations and the genetic bases of complex traits. Here we describe the centralized analysis of the genetic data, including genotype quality, properties of population structure and relatedness of the genetic data, and efficient phasing and genotype imputation that increases the number of testable variants to around 96 million. Classical allelic variation at 11 human leukocyte antigen genes was imputed, resulting in the recovery of signals with known associations between human leukocyte antigen alleles and many diseases.",
+  "DOI": "10.1038/s41586-018-0579-z",
+  "PMC ID": "PMC6786975",
+  "CITATION": "Bycroft C, Freeman C, Petkova D, Band G, ...&, Marchini J. (2018) The UK Biobank resource with deep phenotyping and genomic data. Nature, 562 (7726) 203-209. doi:10.1038/s41586-018-0579-z. PMID 30305743",
+  "FIRST_AUTHOR": "Bycroft C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

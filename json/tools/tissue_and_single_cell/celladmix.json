@@ -1,0 +1,28 @@
+{
+  "NAME": "cellAdmix",
+  "PMID": 41559218,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "cellAdmix",
+  "FULL NAME": "cellAdmix",
+  "KEYWORDS": "spatial transcriptomics, segmentation, matrix factorization, imaging-based ST",
+  "URL": "https://github.com/kharchenkolab/cellAdmix http://pklab.org/peterk/cellAdmix/",
+  "DESCRIPTION": "cellAdmix detects and corrects segmentation errors in imaging-based spatial transcriptomics by factorizing local molecular neighborhoods—analogous to doublet removal in scRNA-seq—to reassign transcripts that spill across cell boundaries.",
+  "TITLE": "Impact and correction of segmentation errors in spatial transcriptomics.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "58",
+  "ISSUE": "2",
+  "PAGE": "434-444",
+  "Authors": "Mitchel J,Gao T,Petukhov V,Cole E,Kharchenko PV",
+  "ABSTRACT": "Spatial transcriptomics aims to elucidate how cells coordinate within tissues by connecting cellular states to their native microenvironments. Imaging-based assays are especially promising, capturing molecular and cellular features at subcellular resolution in three dimensions. Interpretation of such data, however, hinges on accurate cell segmentation. Assigning individual molecules to the correct cells remains challenging. Here we re-analyze data from multiple tissues and platforms to find that segmentation errors currently confound most downstream analysis of cellular state, including differential expression, neighbor influence and ligand-receptor interactions. The extent to which misassigned molecules impact the results can be striking, frequently dominating the results. Thus, we show that matrix factorization of local molecular neighborhoods can effectively identify and isolate such molecular admixtures, thereby reducing their impact on downstream analyses, in a manner analogous to doublet filtering in single-cell RNA sequencing. As the applications of spatial transcriptomics assays become more widespread, accounting for segmentation errors will be important for resolving molecular mechanisms of tissue biology.",
+  "DOI": "10.1038/s41588-025-02497-4",
+  "PMC ID": "",
+  "CITATION": "Mitchel J, Gao T, Petukhov V, Cole E, ...&, Kharchenko PV. (2026) Impact and correction of segmentation errors in spatial transcriptomics. Nat Genet, 58 (2) 434-444. doi:10.1038/s41588-025-02497-4. PMID 41559218",
+  "FIRST_AUTHOR": "Mitchel J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

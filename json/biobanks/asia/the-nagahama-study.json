@@ -1,0 +1,15 @@
+{
+  "NAME": "The Nagahama Study",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~10K",
+  "MANUAL_CITATION": "Setoh, K., & Matsuda, F. (2022). Cohort profile: the Nagahama prospective genome cohort for comprehensive human bioscience (The Nagahama Study). Socio-Life Science and the COVID-19 Outbreak: Public Health and Public Policy, 127-143.",
+  "URL": "https://zeroji-cohort.com/english/",
+  "DESCRIPTION": "The Nagahama Primary Prevention Cohort Project is a joint project based on an agreement between Kyoto University Graduate School of Medicine and Nagahama City, Shiga Prefecture, with the cooperation of approximately 10,000 Nagahama residents. In addition, the project conducts follow-up surveys on morbidity and mortality, special tests and surveys on sleep, brain imaging, memory, motor function, skin condition, socioeconomic status, etc., during health checkups and periodic surveys conducted every five years after that. Furthermore, we have completed a multi-omics analysis focusing on genome analysis of approximately 9,000 people (including whole genome sequencing of roughly 2,500 people), comprehensive metabolite analysis of 3-time points, and comprehensive protein analysis of 2,000 people (as of August 2021), and based on these rich and diverse data, we have been searching for health risk Based on these abundant and varied data, we aim to search for health risk factors and elucidate their interactions.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Japanese adults (Nagahama City, Shiga)"
+}

@@ -1,0 +1,13 @@
+{
+  "NAME": "Grok",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "xAI",
+  "URL": "https://x.ai/grok",
+  "DESCRIPTION": "xAI’s Grok models integrated with X (Twitter) and standalone apps, aimed at real-time, conversational assistance.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

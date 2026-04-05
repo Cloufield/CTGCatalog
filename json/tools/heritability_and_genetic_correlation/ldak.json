@@ -1,0 +1,29 @@
+{
+  "NAME": "LDAK",
+  "PMID": 23217325,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDAK",
+  "FULL NAME": "LD-adjusted kinships",
+  "URL": "http://www.ldak.org/",
+  "DESCRIPTION": "LDAK is a software package for analysing association study data.",
+  "MANUAL_CITATION": "\nSpeed, D., Hemani, G., Johnson, M. R. & Balding, D. J. Improved heritability estimation from genome-wide SNPs. Am. J. Hum. Genet. 91, 1011–1021 (2012).\n  ",
+  "TITLE": "Improved heritability estimation from genome-wide SNPs.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2012",
+  "VOLUME": "91",
+  "ISSUE": "6",
+  "PAGE": "1011-21",
+  "Authors": "Speed D,Hemani G,Johnson MR,Balding DJ",
+  "ABSTRACT": "Estimation of narrow-sense heritability, h(2), from genome-wide SNPs genotyped in unrelated individuals has recently attracted interest and offers several advantages over traditional pedigree-based methods. With the use of this approach, it has been estimated that over half the heritability of human height can be attributed to the ~300,000 SNPs on a genome-wide genotyping array. In comparison, only 5%-10% can be explained by SNPs reaching genome-wide significance. We investigated via simulation the validity of several key assumptions underpinning the mixed-model analysis used in SNP-based h(2) estimation. Although we found that the method is reasonably robust to violations of four key assumptions, it can be highly sensitive to uneven linkage disequilibrium (LD) between SNPs: contributions to h(2) are overestimated from causal variants in regions of high LD and are underestimated in regions of low LD. The overall direction of the bias can be up or down depending on the genetic architecture of the trait, but it can be substantial in realistic scenarios. We propose a modified kinship matrix in which SNPs are weighted according to local LD. We show that this correction greatly reduces the bias and increases the precision of h(2) estimates. We demonstrate the impact of our method on the first seven diseases studied by the Wellcome Trust Case Control Consortium. Our LD adjustment revises downward the h(2) estimate for immune-related diseases, as expected because of high LD in the major-histocompatibility region, but increases it for some nonimmune diseases. To calculate our revised kinship matrix, we developed LDAK, software for computing LD-adjusted kinships.",
+  "DOI": "10.1016/j.ajhg.2012.10.010",
+  "PMC ID": "PMC3516604",
+  "CITATION": "Speed D, Hemani G, Johnson MR, Balding DJ. (2012) Improved heritability estimation from genome-wide SNPs. Am J Hum Genet, 91 (6) 1011-21. doi:10.1016/j.ajhg.2012.10.010. PMID 23217325",
+  "FIRST_AUTHOR": "Speed D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

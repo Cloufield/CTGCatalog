@@ -1,0 +1,22 @@
+{
+  "NAME": "medRxiv : the preprint server for health sciences",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv : the preprint server for health sciences",
+  "URL": "https://www.medrxiv.org/",
+  "ENTRY_COUNT": 4,
+  "CITED_BY_SECTION": {
+    "Tools": 2,
+    "Sumstats": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "PLATLAS",
+    "TenK10k",
+    "SAIGE-QTL",
+    "GRPa-PRS"
+  ]
+}

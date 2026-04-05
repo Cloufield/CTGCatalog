@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cloufield/CTGCatalog/.design/catalog-entry.schema.json",
+  "title": "CTGCatalog entry",
+  "type": "object",
+  "additionalProperties": true,
+  "required": ["NAME", "SECTION", "TOPIC"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "source_sheet": { "type": "string" }
+      }
+    },
+    "NAME": { "type": "string", "minLength": 1 },
+    "SECTION": { "type": "string", "minLength": 1 },
+    "TOPIC": { "type": "string", "minLength": 1 },
+    "SUBTOPIC": { "type": "string" },
+    "PMID": { "type": ["integer", "number", "string"] },
+    "URL": { "type": "string" },
+    "DESCRIPTION": { "type": "string" },
+    "TYPE": { "type": "string" },
+    "CATEGORY": { "type": "string" },
+    "TAG": { "type": "string" },
+    "TAGS": {
+      "anyOf": [
+        { "type": "string" },
+        { "type": "array", "items": { "type": "string" } }
+      ]
+    },
+    "MAIN_ANCESTRY": {
+      "type": "string",
+      "description": "Participant genetic-ancestry focus. Prefer 1000 Genomes super-population code(s) (AFR, AMR, EAS, EUR, SAS; comma-separated, no spaces) when they fit; otherwise use a short accurate label (e.g. Middle Eastern, Oceanian, global multi-study)."
+    },
+    "PARTICIPANTS": {
+      "type": "string",
+      "description": "Short prose description of who was enrolled (not numeric counts; use SAMPLE SIZE for scale)."
+    }
+  }
+}

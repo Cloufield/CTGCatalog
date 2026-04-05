@@ -1,0 +1,20 @@
+{
+  "NAME": "humanG1Kv37",
+  "SHORT NAME": "humanG1Kv37",
+  "FULL NAME": "1000 Genomes human_g1k_v37 reference",
+  "CATEGORY": "Genome",
+  "SOURCE": "the 1000 Genomes Project Phase I and III, Broad Institute",
+  "FILE": "human_g1k_v37.fasta",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh37; 1000 Genomes; reference FASTA; human_g1k_v37",
+  "DESCRIPTION": "GRCh37-based reference FASTA distributed by the 1000 Genomes Project (human_g1k_v37): chromosomes 1-22, X, Y, MT, plus GL unlocalized/unplaced contigs, without separate haplotype scaffolds or EBV. Commonly used as the Phase 1/III alignment reference when harmonizing with public 1KG VCFs and phase panels.",
+  "MANUAL_CITATION": "1000 Genomes Project. human_g1k_v37.fasta.",
+  "CITATION": "1000 Genomes Project. human_g1k_v37 reference (GRCh37). https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/",
+  "URL": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "1000 Genomes", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

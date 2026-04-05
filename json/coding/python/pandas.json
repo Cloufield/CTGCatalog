@@ -1,0 +1,11 @@
+{
+  "NAME": "pandas",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://pandas.pydata.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Data analysis and manipulation."
+}

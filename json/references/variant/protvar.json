@@ -1,0 +1,27 @@
+{
+  "NAME": "ProtVar",
+  "PMID": 38769064,
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "ProtVar",
+  "MANUAL_CITATION": "\nStephenson, J. D. et al. ProtVar: mapping and contextualizing human missense variation. Nucleic Acids Res. 52, W140–W147 (2024).\n  \n",
+  "URL": "https://www.ebi.ac.uk/ProtVar/",
+  "TITLE": "ProtVar: mapping and contextualizing human missense variation.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2024",
+  "VOLUME": "52",
+  "ISSUE": "W1",
+  "PAGE": "W140-W147",
+  "Authors": "Stephenson JD,Totoo P,Burke DF,Jänes J,Beltrao P,Martin MJ",
+  "ABSTRACT": "Genomic variation can impact normal biological function in complex ways and so understanding variant effects requires a broad range of data to be coherently assimilated. Whilst the volume of human variant data and relevant annotations has increased, the corresponding increase in the breadth of participating fields, standards and versioning mean that moving between genomic, coding, protein and structure positions is increasingly complex. In turn this makes investigating variants in diverse formats and assimilating annotations from different resources challenging. ProtVar addresses these issues to facilitate the contextualization and interpretation of human missense variation with unparalleled flexibility and ease of accessibility for use by the broadest range of researchers. By precalculating all possible variants in the human proteome it offers near instantaneous mapping between all relevant data types. It also combines data and analyses from a plethora of resources to bring together genomic, protein sequence and function annotations as well as structural insights and predictions to better understand the likely effect of missense variation in humans. It is offered as an intuitive web server https://www.ebi.ac.uk/protvar where data can be explored and downloaded, and can be accessed programmatically via an API.",
+  "DOI": "10.1093/nar/gkae413",
+  "PMC ID": "PMC11223857",
+  "CITATION": "Stephenson JD, Totoo P, Burke DF, Jänes J, ...&, Martin MJ. (2024) ProtVar: mapping and contextualizing human missense variation. Nucleic Acids Res, 52 (W1) W140-W147. doi:10.1093/nar/gkae413. PMID 38769064",
+  "FIRST_AUTHOR": "Stephenson JD",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

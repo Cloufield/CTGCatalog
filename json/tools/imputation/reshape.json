@@ -1,0 +1,29 @@
+{
+  "NAME": "RESHAPE",
+  "PMID": 38745108,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Other tools",
+  "TYPE": "Other tools",
+  "SHORT NAME": "RESHAPE",
+  "FULL NAME": "REcombine and Share HAPlotypEs",
+  "URL": "https://github.com/TheoCavinato/RESHAPE",
+  "DESCRIPTION": "RESHAPE removes sample-level genetic information from a reference panel to create a synthetic reference panel. By providing it with a genetic map and the VCF/BCF of a reference panel, RESHAPE outputs a VCF/BCF of the same size where each haplotypes corresponds to a mosaic of the original haplotypes of the reference panel.",
+  "MANUAL_CITATION": "Cavinato, T., Rubinacci, S., Malaspinas, A. S., & Delaneau, O. (2023). A resampling-based approach to share reference panels. bioRxiv, 2023-04.",
+  "TITLE": "A resampling-based approach to share reference panels.",
+  "ISO": "Nat Comput Sci",
+  "JOURNAL": "Nature computational science",
+  "YEAR": "2024",
+  "VOLUME": "4",
+  "ISSUE": "5",
+  "PAGE": "360-366",
+  "Authors": "Cavinato T,Rubinacci S,Malaspinas AS,Delaneau O",
+  "ABSTRACT": "For many genome-wide association studies, imputing genotypes from a haplotype reference panel is a necessary step. Over the past 15 years, reference panels have become larger and more diverse, leading to improvements in imputation accuracy. However, the latest generation of reference panels is subject to restrictions on data sharing due to concerns about privacy, limiting their usefulness for genotype imputation. In this context, here we propose RESHAPE, a method that employs a recombination Poisson process on a reference panel to simulate the genomes of hypothetical descendants after multiple generations. This data transformation helps to protect against re-identification threats and preserves data attributes, such as linkage disequilibrium patterns and, to some degree, identity-by-descent sharing, allowing for genotype imputation. Our experiments on gold-standard datasets show that simulated descendants up to eight generations can serve as reference panels without substantially reducing genotype imputation accuracy.",
+  "DOI": "10.1038/s43588-024-00630-7",
+  "PMC ID": "PMC11136649",
+  "CITATION": "Cavinato T, Rubinacci S, Malaspinas AS, Delaneau O. (2024) A resampling-based approach to share reference panels. Nat Comput Sci, 4 (5) 360-366. doi:10.1038/s43588-024-00630-7. PMID 38745108",
+  "FIRST_AUTHOR": "Cavinato T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

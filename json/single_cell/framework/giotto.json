@@ -1,0 +1,27 @@
+{
+  "NAME": "Giotto",
+  "SECTION": "Single_Cell",
+  "PMID": 33685491,
+  "TOPIC": "Framework",
+  "CATEGORY": "Spatial",
+  "MANUAL_YEAR": 2021,
+  "URL": "https://rubd.github.io/Giotto_site/",
+  "DESCRIPTION": "The Giotto package consists of two modules, Giotto Analyzer and Viewer (see www.spatialgiotto.com), which provide tools to process, analyze and visualize single-cell spatial expression data.",
+  "MANUAL_CITATION": "\nDries, R. et al. Giotto: a toolbox for integrative analysis and visualization of spatial expression data. Genome Biol. 22, 78 (2021).\n  \n",
+  "TITLE": "Giotto: a toolbox for integrative analysis and visualization of spatial expression data.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2021",
+  "VOLUME": "22",
+  "ISSUE": "1",
+  "PAGE": "78",
+  "Authors": "Dries R,Zhu Q,Dong R,Eng CL,Li H,Liu K,Fu Y,Zhao T,Sarkar A,Bao F,George RE,Pierson N,Cai L,Yuan GC",
+  "ABSTRACT": "Spatial transcriptomic and proteomic technologies have provided new opportunities to investigate cells in their native microenvironment. Here we present Giotto, a comprehensive and open-source toolbox for spatial data analysis and visualization. The analysis module provides end-to-end analysis by implementing a wide range of algorithms for characterizing tissue composition, spatial expression patterns, and cellular interactions. Furthermore, single-cell RNAseq data can be integrated for spatial cell-type enrichment analysis. The visualization module allows users to interactively visualize analysis outputs and imaging features. To demonstrate its general applicability, we apply Giotto to a wide range of datasets encompassing diverse technologies and platforms.",
+  "DOI": "10.1186/s13059-021-02286-2",
+  "PMC ID": "PMC7938609",
+  "CITATION": "Dries R, Zhu Q, Dong R, Eng CL, ...&, Yuan GC. (2021) Giotto: a toolbox for integrative analysis and visualization of spatial expression data. Genome Biol, 22 (1) 78. doi:10.1186/s13059-021-02286-2. PMID 33685491",
+  "FIRST_AUTHOR": "Dries R",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

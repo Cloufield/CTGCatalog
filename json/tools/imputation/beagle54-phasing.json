@@ -1,0 +1,28 @@
+{
+  "NAME": "BEAGLE5.4 (Phasing)",
+  "PMID": 34478634,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "BEAGLE5.4 (Phasing)",
+  "URL": "https://faculty.washington.edu/browning/beagle/beagle.html",
+  "DESCRIPTION": "(beagle 5.4 phasing) ",
+  "MANUAL_CITATION": "Browning, Brian L., et al. \"Fast two-stage phasing of large-scale sequence data.\" The American Journal of Human Genetics 108.10 (2021): 1880-1890.",
+  "TITLE": "Fast two-stage phasing of large-scale sequence data.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2021",
+  "VOLUME": "108",
+  "ISSUE": "10",
+  "PAGE": "1880-1890",
+  "Authors": "Browning BL,Tian X,Zhou Y,Browning SR",
+  "ABSTRACT": "Haplotype phasing is the estimation of haplotypes from genotype data. We present a fast, accurate, and memory-efficient haplotype phasing method that scales to large-scale SNP array and sequence data. The method uses marker windowing and composite reference haplotypes to reduce memory usage and computation time. It incorporates a progressive phasing algorithm that identifies confidently phased heterozygotes in each iteration and fixes the phase of these heterozygotes in subsequent iterations. For data with many low-frequency variants, such as whole-genome sequence data, the method employs a two-stage phasing algorithm that phases high-frequency markers via progressive phasing in the first stage and phases low-frequency markers via genotype imputation in the second stage. This haplotype phasing method is implemented in the open-source Beagle 5.2 software package. We compare Beagle 5.2 and SHAPEIT 4.2.1 by using expanding subsets of 485,301 UK Biobank samples and 38,387 TOPMed samples. Both methods have very similar accuracy and computation time for UK Biobank SNP array data. However, for TOPMed sequence data, Beagle is more than 20 times faster than SHAPEIT, achieves similar accuracy, and scales to larger sample sizes.",
+  "DOI": "10.1016/j.ajhg.2021.08.005",
+  "PMC ID": "PMC8551421",
+  "CITATION": "Browning BL, Tian X, Zhou Y, Browning SR. (2021) Fast two-stage phasing of large-scale sequence data. Am J Hum Genet, 108 (10) 1880-1890. doi:10.1016/j.ajhg.2021.08.005. PMID 34478634",
+  "FIRST_AUTHOR": "Browning BL",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "NAME": "BMC bioinformatics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "BMC Bioinformatics",
+  "JOURNAL": "BMC bioinformatics",
+  "URL": "https://bmcbioinformatics.biomedcentral.com/",
+  "ENTRY_COUNT": 4,
+  "CITED_BY_SECTION": {
+    "Tools": 4
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "PS4DR",
+    "GWAMA",
+    "sim1000G",
+    "ChromoMap"
+  ]
+}

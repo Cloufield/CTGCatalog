@@ -1,0 +1,28 @@
+{
+  "NAME": "Nucleotide Transformer",
+  "SECTION": "AI",
+  "TOPIC": "Genomic_models",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "Nucleotide Transformer",
+  "FULL NAME": "Nucleotide Transformer",
+  "URL": "https://github.com/instadeepai/nucleotide-transformer",
+  "DESCRIPTION": "A family of transformer foundation models (from tens of millions to multi-billion parameters) pretrained on thousands of human and other-species genomes to learn DNA sequence representations. Embeddings support fine-tuning for tasks such as splice-site prediction, enhancer activity, histone marks, and transcription-factor binding, with benchmarks and weights released openly.",
+  "PMID": 39609566,
+  "TITLE": "Nucleotide Transformer: building and evaluating robust foundation models for human genomics.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2025",
+  "VOLUME": "22",
+  "ISSUE": "2",
+  "PAGE": "287-297",
+  "Authors": "Dalla-Torre H,Gonzalez L,Mendoza-Revilla J,Lopez Carranza N,Grzywaczewski AH,Oteri F,Dallago C,Trop E,de Almeida BP,Sirelkhatim H,Richard G,Skwark M,Beguir K,Lopez M,Pierrot T",
+  "ABSTRACT": "The prediction of molecular phenotypes from DNA sequences remains a longstanding challenge in genomics, often driven by limited annotated data and the inability to transfer learnings between tasks. Here, we present an extensive study of foundation models pre-trained on DNA sequences, named Nucleotide Transformer, ranging from 50 million up to 2.5 billion parameters and integrating information from 3,202 human genomes and 850 genomes from diverse species. These transformer models yield context-specific representations of nucleotide sequences, which allow for accurate predictions even in low-data settings. We show that the developed models can be fine-tuned at low cost to solve a variety of genomics applications. Despite no supervision, the models learned to focus attention on key genomic elements and can be used to improve the prioritization of genetic variants. The training and application of foundational models in genomics provides a widely applicable approach for accurate molecular phenotype prediction from DNA sequence.",
+  "DOI": "10.1038/s41592-024-02523-z",
+  "PMC ID": "PMC11810778",
+  "CITATION": "Dalla-Torre H, Gonzalez L, Mendoza-Revilla J, Lopez Carranza N, ...&, Pierrot T. (2025) Nucleotide Transformer: building and evaluating robust foundation models for human genomics. Nat Methods, 22 (2) 287-297. doi:10.1038/s41592-024-02523-z. PMID 39609566",
+  "FIRST_AUTHOR": "Dalla-Torre H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

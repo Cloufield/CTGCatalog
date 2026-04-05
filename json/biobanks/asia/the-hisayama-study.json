@@ -1,0 +1,15 @@
+{
+  "NAME": "The Hisayama Study",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~8K",
+  "MANUAL_CITATION": "Ninomiya, T. (2018). Japanese legacy cohort studies: the Hisayama Study. Journal of epidemiology, 28(11), 444-451.",
+  "URL": "https://www.hisayama.med.kyushu-u.ac.jp/en/",
+  "DESCRIPTION": "The Hisayama Study is a population-based prospective cohort study that has been conducted in the town of Hisayama, Japan since 1961.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Japanese adults (Hisayama town)"
+}

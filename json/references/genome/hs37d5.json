@@ -1,0 +1,20 @@
+{
+  "NAME": "hs37d5",
+  "SHORT NAME": "hs37d5",
+  "FULL NAME": "1000 Genomes GRCh37 + decoy (hs37d5)",
+  "CATEGORY": "Genome",
+  "SOURCE": "Broad Institute, the 1000 Genomes Project Phase II",
+  "FILE": "hs37d5.fa",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh37; decoy; 1000 Genomes; alignment; hs37d5",
+  "DESCRIPTION": "GRCh37 (b37-style) primary chromosomes and contigs plus the hs37d5 decoy sequence set (HuRef/BAC/Fosmid/NA12878-derived sequences) to reduce spurious alignments in short-read mapping. Standard reference for Phase 3-era 1000 Genomes alignment and many imputation and low-pass WGS workflows that target the 1KG coordinate system.",
+  "MANUAL_CITATION": "1000 Genomes Project / Broad Institute. hs37d5.fa (GRCh37 + decoy).",
+  "CITATION": "1000 Genomes Project / Broad Institute. hs37d5 reference (GRCh37 plus decoy sequences). https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/",
+  "URL": "https://ftp.1000genomes.ebi.ac.uk/vol1/ftp/technical/reference/phase2_reference_assembly_sequence/",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "1000 Genomes", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

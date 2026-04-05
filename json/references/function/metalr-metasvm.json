@@ -1,0 +1,33 @@
+{
+  "NAME": "MetaLR / MetaSVM",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "MetaLR",
+  "PMID": 25552646,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\n Dong, C. et al. Comparison and integration of deleteriousness prediction methods for nonsynonymous SNVs in whole exome sequencing studies. Hum. Mol. Genet. 24, 2125–2137 (2015).\n",
+  "TOPIC": "Function",
+  "URL": "https://www.ncbi.nlm.nih.gov/clinvar/docs/scoreinfo/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Ensemble pathogenicity scores integrating multiple annotations.",
+  "MANUAL_YEAR": 2015,
+  "SHORT NAME": "MetaLR",
+  "FULL NAME": "MetaLR / MetaSVM",
+  "KEYWORDS": "ensemble, missense",
+  "USE": "prioritization",
+  "TITLE": "Comparison and integration of deleteriousness prediction methods for nonsynonymous SNVs in whole exome sequencing studies.",
+  "ISO": "Hum Mol Genet",
+  "JOURNAL": "Human molecular genetics",
+  "YEAR": "2015",
+  "VOLUME": "24",
+  "ISSUE": "8",
+  "PAGE": "2125-37",
+  "Authors": "Dong C,Wei P,Jian X,Gibbs R,Boerwinkle E,Wang K,Liu X",
+  "ABSTRACT": "Accurate deleteriousness prediction for nonsynonymous variants is crucial for distinguishing pathogenic mutations from background polymorphisms in whole exome sequencing (WES) studies. Although many deleteriousness prediction methods have been developed, their prediction results are sometimes inconsistent with each other and their relative merits are still unclear in practical applications. To address these issues, we comprehensively evaluated the predictive performance of 18 current deleteriousness-scoring methods, including 11 function prediction scores (PolyPhen-2, SIFT, MutationTaster, Mutation Assessor, FATHMM, LRT, PANTHER, PhD-SNP, SNAP, SNPs&GO and MutPred), 3 conservation scores (GERP++, SiPhy and PhyloP) and 4 ensemble scores (CADD, PON-P, KGGSeq and CONDEL). We found that FATHMM and KGGSeq had the highest discriminative power among independent scores and ensemble scores, respectively. Moreover, to ensure unbiased performance evaluation of these prediction scores, we manually collected three distinct testing datasets, on which no current prediction scores were tuned. In addition, we developed two new ensemble scores that integrate nine independent scores and allele frequency. Our scores achieved the highest discriminative power compared with all the deleteriousness prediction scores tested and showed low false-positive prediction rate for benign yet rare nonsynonymous variants, which demonstrated the value of combining information from multiple orthologous approaches. Finally, to facilitate variant prioritization in WES studies, we have pre-computed our ensemble scores for 87 347 044 possible variants in the whole-exome and made them publicly available through the ANNOVAR software and the dbNSFP database.",
+  "DOI": "10.1093/hmg/ddu733",
+  "PMC ID": "PMC4375422",
+  "CITATION": "Dong C, Wei P, Jian X, Gibbs R, ...&, Liu X. (2015) Comparison and integration of deleteriousness prediction methods for nonsynonymous SNVs in whole exome sequencing studies. Hum Mol Genet, 24 (8) 2125-37. doi:10.1093/hmg/ddu733. PMID 25552646",
+  "FIRST_AUTHOR": "Dong C",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

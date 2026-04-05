@@ -1,0 +1,28 @@
+{
+  "NAME": "MultiBLUP",
+  "PMID": 24963154,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MultiBLUP",
+  "FULL NAME": "MultiBLUP",
+  "URL": "http://www.ldak.org/",
+  "MANUAL_CITATION": "\nSpeed, D. & Balding, D. J. MultiBLUP: improved SNP-based prediction for complex traits. Genome Res. 24, 1550–1557 (2014).\n  ",
+  "TITLE": "MultiBLUP: improved SNP-based prediction for complex traits.",
+  "ISO": "Genome Res",
+  "JOURNAL": "Genome research",
+  "YEAR": "2014",
+  "VOLUME": "24",
+  "ISSUE": "9",
+  "PAGE": "1550-7",
+  "Authors": "Speed D,Balding DJ",
+  "ABSTRACT": "BLUP (best linear unbiased prediction) is widely used to predict complex traits in plant and animal breeding, and increasingly in human genetics. The BLUP mathematical model, which consists of a single random effect term, was adequate when kinships were measured from pedigrees. However, when genome-wide SNPs are used to measure kinships, the BLUP model implicitly assumes that all SNPs have the same effect-size distribution, which is a severe and unnecessary limitation. We propose MultiBLUP, which extends the BLUP model to include multiple random effects, allowing greatly improved prediction when the random effects correspond to classes of SNPs with distinct effect-size variances. The SNP classes can be specified in advance, for example, based on SNP functional annotations, and we also provide an adaptive procedure for determining a suitable partition of SNPs. We apply MultiBLUP to genome-wide association data from the Wellcome Trust Case Control Consortium (seven diseases), and from much larger studies of celiac disease and inflammatory bowel disease, finding that it consistently provides better prediction than alternative methods. Moreover, MultiBLUP is computationally very efficient; for the largest data set, which includes 12,678 individuals and 1.5 M SNPs, the total analysis can be run on a single desktop PC in less than a day and can be parallelized to run even faster. Tools to perform MultiBLUP are freely available in our software LDAK.",
+  "DOI": "10.1101/gr.169375.113",
+  "PMC ID": "PMC4158754",
+  "CITATION": "Speed D, Balding DJ. (2014) MultiBLUP: improved SNP-based prediction for complex traits. Genome Res, 24 (9) 1550-7. doi:10.1101/gr.169375.113. PMID 24963154",
+  "FIRST_AUTHOR": "Speed D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

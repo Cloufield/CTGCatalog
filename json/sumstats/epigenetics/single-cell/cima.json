@@ -1,0 +1,27 @@
+{
+  "NAME": "CIMA",
+  "PMID": 41505528,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Single-cell",
+  "DESCRIPTION": "Chinese Immune Multi-Omics Atlas",
+  "URL": "https://db.cngb.org/trueblood/cima",
+  "MANUAL_YEAR": 2026,
+  "MANUAL_CITATION": "Yin, J., Zheng, Y., Huang, Z., Zhou, W., Yuan, Y., Cai, P., ... & Liu, C. (2026). Chinese immune multi-omics atlas. Science, 391(6781), eadt3130.",
+  "TITLE": "Chinese Immune Multi-Omics Atlas.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2026",
+  "VOLUME": "391",
+  "ISSUE": "6781",
+  "PAGE": "eadt3130",
+  "Authors": "Yin J,Zheng Y,Huang Z,Zhou W,Yuan Y,Cai P,Bai Y,Yang S,Gao Y,Duan S,Wang Y,Xu Z,Zhang W,Zhang X,Wei Y,Huang Y,Liu Y,Wang W,Yang T,Zhang Z,Chen X,Zhang X,Lv J,Li F,Zhang Y,Zeng G,Wang X,Ma W,Hou G,Hao S,Liu C,Lai Y,Liu P,Wang B,Li Y,Zhang W,Gao P,Xie J,Esteban MA,Gu Y,Liu X,Ji J,Qi T,Liu B,Wang H,Zhao Y,Yang X,Wang X,Chen R,Yang J,Yin Y,Wang J,Cao Y,Xu X,Liu L,Jin X,Liu C",
+  "ABSTRACT": "Human peripheral blood exhibits molecular and cellular heterogeneity across populations, yet the underlying mechanisms remain unclear. We present the Chinese Immune Multi-Omics Atlas (CIMA), characterizing molecular variations linked to sex, age, and genetic variants through multi-omics analysis of more than 10 million circulating immune cells from 428 Chinese adults. CIMA established an enhancer-driven gene regulatory network comprising 237 robust regulons; identified 9600 eGenes and 52,361 caPeaks at cell type resolution; and revealed pleiotropic associations among immune-related disease risk loci, cis-expression quantitative trait loci (QTLs), and chromatin accessibility QTLs. Furthermore, the cell language model CIMA-CLM predicted chromatin accessibility and evaluated the effects of noncoding variants from chromatin sequences and gene expression. CIMA provides a comprehensive reference for immune-related disease research.",
+  "DOI": "10.1126/science.adt3130",
+  "PMC ID": "",
+  "CITATION": "Yin J, Zheng Y, Huang Z, Zhou W, ...&, Liu C. (2026) Chinese Immune Multi-Omics Atlas. Science, 391 (6781) eadt3130. doi:10.1126/science.adt3130. PMID 41505528",
+  "FIRST_AUTHOR": "Yin J",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Cardiovascular Disease Knowledge Portal ",
+  "PMID": 37814896,
+  "URL": "https://cvd.hugeamp.org/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Platform",
+  "TYPE": "Platform",
+  "TITLE": "Cardiovascular Disease Knowledge Portal: A Community Resource for Cardiovascular Disease Research.",
+  "ISO": "Circ Genom Precis Med",
+  "JOURNAL": "Circulation. Genomic and precision medicine",
+  "YEAR": "2023",
+  "VOLUME": "16",
+  "ISSUE": "6",
+  "PAGE": "e004181",
+  "Authors": "Costanzo MC,Roselli C,Brandes M,Duby M,Hoang Q,Jang D,Koesterer R,Kudtarkar P,Moriondo A,Nguyen T,Ruebenacker O,Smadbeck P,Sun Y,Butterworth AS,Aragam KG,Lumbers RT,Khera AV,Lubitz SA,Ellinor PT,Gaulton KJ,Flannick J,Burtt NP",
+  "ABSTRACT": "",
+  "DOI": "10.1161/CIRCGEN.123.004181",
+  "PMC ID": "PMC10843166",
+  "CITATION": "Costanzo MC, Roselli C, Brandes M, Duby M, ...&, Burtt NP. (2023) Cardiovascular Disease Knowledge Portal: A Community Resource for Cardiovascular Disease Research. Circ Genom Precis Med, 16 (6) e004181. doi:10.1161/CIRCGEN.123.004181. PMID 37814896",
+  "FIRST_AUTHOR": "Costanzo MC",
+  "DESCRIPTION": "Broad/HMS cardiovascular disease knowledge portal with GWAS, gene, and variant views across CV traits.",
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Michigan Imputation Server",
+  "PMID": 27571263,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation server",
+  "TYPE": "Imputation server",
+  "SHORT NAME": "Michigan",
+  "URL": "https://imputationserver.sph.umich.edu/index.html#!",
+  "MANUAL_CITATION": "Das, Sayantan, et al. \"Next-generation genotype imputation service and methods.\" Nature genetics 48.10 (2016): 1284-1287.",
+  "TITLE": "Next-generation genotype imputation service and methods.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "10",
+  "PAGE": "1284-1287",
+  "Authors": "Das S,Forer L,Schönherr S,Sidore C,Locke AE,Kwong A,Vrieze SI,Chew EY,Levy S,McGue M,Schlessinger D,Stambolian D,Loh PR,Iacono WG,Swaroop A,Scott LJ,Cucca F,Kronenberg F,Boehnke M,Abecasis GR,Fuchsberger C",
+  "ABSTRACT": "Genotype imputation is a key component of genetic association studies, where it increases power, facilitates meta-analysis, and aids interpretation of signals. Genotype imputation is computationally demanding and, with current tools, typically requires access to a high-performance computing cluster and to a reference panel of sequenced genomes. Here we describe improvements to imputation machinery that reduce computational requirements by more than an order of magnitude with no loss of accuracy in comparison to standard imputation tools. We also describe a new web-based service for imputation that facilitates access to new reference panels and greatly improves user experience and productivity.",
+  "DOI": "10.1038/ng.3656",
+  "PMC ID": "PMC5157836",
+  "CITATION": "Das S, Forer L, Schönherr S, Sidore C, ...&, Fuchsberger C. (2016) Next-generation genotype imputation service and methods. Nat Genet, 48 (10) 1284-1287. doi:10.1038/ng.3656. PMID 27571263",
+  "FIRST_AUTHOR": "Das S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

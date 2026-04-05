@@ -1,0 +1,30 @@
+{
+  "NAME": "SCARlink",
+  "PMID": 38514783,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "SCARlink",
+  "FULL NAME": "single-cell ATAC + RNA linking",
+  "KEYWORDS": "Possion regression, scATAC, scRNA, tile-level accessibility",
+  "URL": "https://github.com/snehamitra/SCARlink/",
+  "DESCRIPTION": "Single-cell ATAC+RNA linking (SCARlink) uses multiomic single-cell ATAC and RNA to predict gene expression from chromatin accessibility and predict regulatory regions.",
+  "MANUAL_CITATION": "Mitra, S., Malik, R., Wong, W., Rahman, A., Hartemink, A. J., Pritykin, Y., ... & Leslie, C. S. (2024). Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis. Nature Genetics, 1-10.",
+  "ARROW_SUMMARY": "scRNA-seq + scATAC-seq → Tile-level chromatin accessibility modeling → Regularized Poisson regression (SCARlink) → Predict gene expression & link enhancers to genes → Identify functional and disease-associated enhancers \n",
+  "TITLE": "Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "4",
+  "PAGE": "627-636",
+  "Authors": "Mitra S,Malik R,Wong W,Rahman A,Hartemink AJ,Pritykin Y,Dey KK,Leslie CS",
+  "ABSTRACT": "We present a gene-level regulatory model, single-cell ATAC + RNA linking (SCARlink), which predicts single-cell gene expression and links enhancers to target genes using multi-ome (scRNA-seq and scATAC-seq co-assay) sequencing data. The approach uses regularized Poisson regression on tile-level accessibility data to jointly model all regulatory effects at a gene locus, avoiding the limitations of pairwise gene-peak correlations and dependence on peak calling. SCARlink outperformed existing gene scoring methods for imputing gene expression from chromatin accessibility across high-coverage multi-ome datasets while giving comparable to improved performance on low-coverage datasets. Shapley value analysis on trained models identified cell-type-specific gene enhancers that are validated by promoter capture Hi-C and are 11× to 15× and 5× to 12× enriched in fine-mapped eQTLs and fine-mapped genome-wide association study (GWAS) variants, respectively. We further show that SCARlink-predicted and observed gene expression vectors provide a robust way to compute a chromatin potential vector field to enable developmental trajectory analysis.",
+  "DOI": "10.1038/s41588-024-01689-8",
+  "PMC ID": "PMC11018525",
+  "CITATION": "Mitra S, Malik R, Wong W, Rahman A, ...&, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis. Nat Genet, 56 (4) 627-636. doi:10.1038/s41588-024-01689-8. PMID 38514783",
+  "FIRST_AUTHOR": "Mitra S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

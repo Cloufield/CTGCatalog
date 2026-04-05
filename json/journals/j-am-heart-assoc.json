@@ -1,0 +1,18 @@
+{
+  "NAME": "Journal of the American Heart Association",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "J Am Heart Assoc",
+  "JOURNAL": "Journal of the American Heart Association",
+  "URL": "http://jaha.ahajournals.org/",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Liu M"
+  ]
+}

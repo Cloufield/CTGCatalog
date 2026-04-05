@@ -1,0 +1,30 @@
+{
+  "NAME": "LDpred2-auto",
+  "PMID": 37944514,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDpred2-auto",
+  "FULL NAME": "LDpred2-auto",
+  "KEYWORDS": "Bayesian, new LDpred2-auto, α (relationship between MAF and beta)",
+  "URL": "https://privefl.github.io/bigsnpr/articles/LDpred2.html",
+  "DESCRIPTION": "LDpred2 is a widely used Bayesian method for building polygenic scores (PGS). LDpred2-auto can infer the two parameters from the LDpred model, h^2 and p, so that it does not require an additional validation dataset to choose best-performing parameters. Here, we present a new version of LDpred2-auto, which adds a third parameter alpha to its model for modeling negative selection. Additional changes are also made to provide better sampling of these parameters.",
+  "MANUAL_CITATION": "Inferring disease architecture and predictive ability with LDpred2-auto Florian Privé, Clara Albiñana, Bogdan Pasaniuc, Bjarni J. Vilhjálmsson bioRxiv 2022.10.10.511629; doi: https://doi.org/10.1101/2022.10.10.511629",
+  "TITLE": "Inferring disease architecture and predictive ability with LDpred2-auto.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2023",
+  "VOLUME": "110",
+  "ISSUE": "12",
+  "PAGE": "2042-2055",
+  "Authors": "Privé F,Albiñana C,Arbel J,Pasaniuc B,Vilhjálmsson BJ",
+  "ABSTRACT": "LDpred2 is a widely used Bayesian method for building polygenic scores (PGSs). LDpred2-auto can infer the two parameters from the LDpred model, the SNP heritability h2 and polygenicity p, so that it does not require an additional validation dataset to choose best-performing parameters. The main aim of this paper is to properly validate the use of LDpred2-auto for inferring multiple genetic parameters. Here, we present a new version of LDpred2-auto that adds an optional third parameter α to its model, for modeling negative selection. We then validate the inference of these three parameters (or two, when using the previous model). We also show that LDpred2-auto provides per-variant probabilities of being causal that are well calibrated and can therefore be used for fine-mapping purposes. We also introduce a formula to infer the out-of-sample predictive performance r2 of the resulting PGS directly from the Gibbs sampler of LDpred2-auto. Finally, we extend the set of HapMap3 variants recommended to use with LDpred2 with 37% more variants to improve the coverage of this set, and we show that this new set of variants captures 12% more heritability and provides 6% more predictive performance, on average, in UK Biobank analyses.",
+  "DOI": "10.1016/j.ajhg.2023.10.010",
+  "PMC ID": "PMC10716363",
+  "CITATION": "Privé F, Albiñana C, Arbel J, Pasaniuc B, ...&, Vilhjálmsson BJ. (2023) Inferring disease architecture and predictive ability with LDpred2-auto. Am J Hum Genet, 110 (12) 2042-2055. doi:10.1016/j.ajhg.2023.10.010. PMID 37944514",
+  "FIRST_AUTHOR": "Privé F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

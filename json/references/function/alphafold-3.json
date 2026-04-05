@@ -1,0 +1,26 @@
+{
+  "NAME": "AlphaFold 3",
+  "CATEGORY": "Structure Prediction",
+  "SOURCE": "AlphaFold",
+  "PMID": 38718835,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nAbramson, J. et al. Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature 630, 493–500 (2024).\n",
+  "TOPIC": "Function",
+  "URL": "https://alphafold.ebi.ac.uk/",
+  "TITLE": "Accurate structure prediction of biomolecular interactions with AlphaFold 3.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2024",
+  "VOLUME": "630",
+  "ISSUE": "8016",
+  "PAGE": "493-500",
+  "Authors": "Abramson J,Adler J,Dunger J,Evans R,Green T,Pritzel A,Ronneberger O,Willmore L,Ballard AJ,Bambrick J,Bodenstein SW,Evans DA,Hung CC,O'Neill M,Reiman D,Tunyasuvunakool K,Wu Z,Žemgulytė A,Arvaniti E,Beattie C,Bertolli O,Bridgland A,Cherepanov A,Congreve M,Cowen-Rivers AI,Cowie A,Figurnov M,Fuchs FB,Gladman H,Jain R,Khan YA,Low CMR,Perlin K,Potapenko A,Savy P,Singh S,Stecula A,Thillaisundaram A,Tong C,Yakneen S,Zhong ED,Zielinski M,Žídek A,Bapst V,Kohli P,Jaderberg M,Hassabis D,Jumper JM",
+  "ABSTRACT": "The introduction of AlphaFold 21 has spurred a revolution in modelling the structure of proteins and their interactions, enabling a huge range of applications in protein modelling and design2-6. Here we describe our AlphaFold 3 model with a substantially updated diffusion-based architecture that is capable of predicting the joint structure of complexes including proteins, nucleic acids, small molecules, ions and modified residues. The new AlphaFold model demonstrates substantially improved accuracy over many previous specialized tools: far greater accuracy for protein-ligand interactions compared with state-of-the-art docking tools, much higher accuracy for protein-nucleic acid interactions compared with nucleic-acid-specific predictors and substantially higher antibody-antigen prediction accuracy compared with AlphaFold-Multimer v.2.37,8. Together, these results show that high-accuracy modelling across biomolecular space is possible within a single unified deep-learning framework.",
+  "DOI": "10.1038/s41586-024-07487-w",
+  "PMC ID": "PMC11168924",
+  "CITATION": "Abramson J, Adler J, Dunger J, Evans R, ...&, Jumper JM. (2024) Accurate structure prediction of biomolecular interactions with AlphaFold 3. Nature, 630 (8016) 493-500. doi:10.1038/s41586-024-07487-w. PMID 38718835",
+  "FIRST_AUTHOR": "Abramson J",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

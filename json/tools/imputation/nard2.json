@@ -1,0 +1,28 @@
+{
+  "NAME": "NARD2",
+  "PMID": 37556544,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "NARD2",
+  "FULL NAME": "Northeast Asian Reference Database 2",
+  "URL": "https://nard.macrogen.com/",
+  "MANUAL_CITATION": "Choi, J., Kim, S., Kim, J., Son, H. Y., Yoo, S. K., Kim, C. U., ... & Im, S. W. (2023). A whole-genome reference panel of 14,393 individuals for East Asian populations accelerates discovery of rare functional variants. Science Advances, 9(32), eadg6319.",
+  "TITLE": "A whole-genome reference panel of 14,393 individuals for East Asian populations accelerates discovery of rare functional variants.",
+  "ISO": "Sci Adv",
+  "JOURNAL": "Science advances",
+  "YEAR": "2023",
+  "VOLUME": "9",
+  "ISSUE": "32",
+  "PAGE": "eadg6319",
+  "Authors": "Choi J,Kim S,Kim J,Son HY,Yoo SK,Kim CU,Park YJ,Moon S,Cha B,Jeon MC,Park K,Yun JM,Cho B,Kim N,Kim C,Kwon NJ,Park YJ,Matsuda F,Momozawa Y,Kubo M,Biobank Japan Project,Kim HJ,Park JH,Seo JS,Kim JI,Im SW",
+  "ABSTRACT": "Underrepresentation of non-European (EUR) populations hinders growth of global precision medicine. Resources such as imputation reference panels that match the study population are necessary to find low-frequency variants with substantial effects. We created a reference panel consisting of 14,393 whole-genome sequences including more than 11,000 Asian individuals. Genome-wide association studies were conducted using the reference panel and a population-specific genotype array of 72,298 subjects for eight phenotypes. This panel yields improved imputation accuracy of rare and low-frequency variants within East Asian populations compared with the largest reference panel. Thirty-nine previously unidentified associations were found, and more than half of the variants were East Asian specific. We discovered genes with rare protein-altering variants, including LTBP1 for height and GPR75 for body mass index, as well as putative regulatory mechanisms for rare noncoding variants with cell type-specific effects. We suggest that this dataset will add to the potential value of Asian precision medicine.",
+  "DOI": "10.1126/sciadv.adg6319",
+  "PMC ID": "PMC10411914",
+  "CITATION": "Choi J, Kim S, Kim J, Son HY, ...&, Im SW. (2023) A whole-genome reference panel of 14,393 individuals for East Asian populations accelerates discovery of rare functional variants. Sci Adv, 9 (32) eadg6319. doi:10.1126/sciadv.adg6319. PMID 37556544",
+  "FIRST_AUTHOR": "Choi J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

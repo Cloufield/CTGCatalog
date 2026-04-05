@@ -1,0 +1,16 @@
+{
+  "NAME": "1KG SV imputation panel",
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Structural variants imputation panel",
+  "TYPE": "Structural variants imputation panel",
+  "SHORT NAME": "1KG SV",
+  "KEYWORDS": "structural variants, long-read",
+  "PREPRINT_DOI": "10.1101/2023.12.20.23300308",
+  "PREPRINT_SERVER": "medrxiv",
+  "MANUAL_CITATION": "Noyvert, B., Erzurumluoglu, A. M., Drichel, D., Omland, S., Andlauer, T. F., Mueller, S., ... & Ding, Z. (2023). Imputation of structural variants using a multi-ancestry long-read sequencing panel enables identification of disease associations. medRxiv, 2023-12.",
+  "CITATION": "Noyvert, B., Erzurumluoglu, A. M., Drichel, D., Omland, S., Andlauer, T. F., Mueller, S., ... & Ding, Z. (2023). Imputation of structural variants using a multi-ancestry long-read sequencing panel enables identification of disease associations. medRxiv, 2023-12.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

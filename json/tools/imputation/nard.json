@@ -1,0 +1,28 @@
+{
+  "NAME": "NARD",
+  "PMID": 31640730,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "NARD",
+  "FULL NAME": "Northeast Asian Reference Database",
+  "URL": "https://nard.macrogen.com/",
+  "MANUAL_CITATION": "Yoo, S. K., Kim, C. U., Kim, H. L., Kim, S., Shin, J. Y., Kim, N., ... & Seo, J. S. (2019). NARD: whole-genome reference panel of 1779 Northeast Asians improves imputation accuracy of rare and low-frequency variants. Genome medicine, 11, 1-10.",
+  "TITLE": "NARD: whole-genome reference panel of 1779 Northeast Asians improves imputation accuracy of rare and low-frequency variants.",
+  "ISO": "Genome Med",
+  "JOURNAL": "Genome medicine",
+  "YEAR": "2019",
+  "VOLUME": "11",
+  "ISSUE": "1",
+  "PAGE": "64",
+  "Authors": "Yoo SK,Kim CU,Kim HL,Kim S,Shin JY,Kim N,Yang JSW,Lo KW,Cho B,Matsuda F,Schuster SC,Kim C,Kim JI,Seo JS",
+  "ABSTRACT": "Here, we present the Northeast Asian Reference Database (NARD), including whole-genome sequencing data of 1779 individuals from Korea, Mongolia, Japan, China, and Hong Kong. NARD provides the genetic diversity of Korean (n = 850) and Mongolian (n = 384) ancestries that were not present in the 1000 Genomes Project Phase 3 (1KGP3). We combined and re-phased the genotypes from NARD and 1KGP3 to construct a union set of haplotypes. This approach established a robust imputation reference panel for Northeast Asians, which yields the greatest imputation accuracy of rare and low-frequency variants compared with the existing panels. NARD imputation panel is available at https://nard.macrogen.com/ .",
+  "DOI": "10.1186/s13073-019-0677-z",
+  "PMC ID": "PMC6805399",
+  "CITATION": "Yoo SK, Kim CU, Kim HL, Kim S, ...&, Seo JS. (2019) NARD: whole-genome reference panel of 1779 Northeast Asians improves imputation accuracy of rare and low-frequency variants. Genome Med, 11 (1) 64. doi:10.1186/s13073-019-0677-z. PMID 31640730",
+  "FIRST_AUTHOR": "Yoo SK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

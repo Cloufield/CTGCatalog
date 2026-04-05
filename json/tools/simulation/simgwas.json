@@ -1,0 +1,28 @@
+{
+  "NAME": "simGWAS",
+  "PMID": 30371734,
+  "SECTION": "Tools",
+  "TOPIC": "Simulation",
+  "TYPE": "Tools",
+  "SHORT NAME": "simGWAS",
+  "FULL NAME": "simGWAS",
+  "URL": "https://github.com/chr1swallace/simGWAS",
+  "DESCRIPTION": "a fast method for simulation of large scale case–control GWAS summary statistics",
+  "MANUAL_CITATION": "Fortune, Mary D., and Chris Wallace. \"simGWAS: a fast method for simulation of large scale case–control GWAS summary statistics.\" Bioinformatics 35.11 (2019): 1901-1906.",
+  "TITLE": "simGWAS: a fast method for simulation of large scale case-control GWAS summary statistics.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2019",
+  "VOLUME": "35",
+  "ISSUE": "11",
+  "PAGE": "1901-1906",
+  "Authors": "Fortune MD,Wallace C",
+  "ABSTRACT": "MOTIVATION: Methods for analysis of GWAS summary statistics have encouraged data sharing and democratized the analysis of different diseases. Ideal validation for such methods is application to simulated data, where some 'truth' is known. As GWAS increase in size, so does the computational complexity of such evaluations; standard practice repeatedly simulates and analyses genotype data for all individuals in an example study. RESULTS: We have developed a novel method based on an alternative approach, directly simulating GWAS summary data, without individual data as an intermediate step. We mathematically derive the expected statistics for any set of causal variants and their effect sizes, conditional upon control haplotype frequencies (available from public reference datasets). Simulation of GWAS summary output can be conducted independently of sample size by simulating random variates about these expected values. Across a range of scenarios, our method, produces very similar output to that from simulating individual genotypes with a substantial gain in speed even for modest sample sizes. Fast simulation of GWAS summary statistics will enable more complete and rapid evaluation of summary statistic methods as well as opening new potential avenues of research in fine mapping and gene set enrichment analysis. AVAILABILITY AND IMPLEMENTATION: Our method is available under a GPL license as an R package from http://github.com/chr1swallace/simGWAS. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/bty898",
+  "PMC ID": "PMC6546134",
+  "CITATION": "Fortune MD, Wallace C. (2019) simGWAS: a fast method for simulation of large scale case-control GWAS summary statistics. Bioinformatics, 35 (11) 1901-1906. doi:10.1093/bioinformatics/bty898. PMID 30371734",
+  "FIRST_AUTHOR": "Fortune MD",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "PRS credible intervals",
+  "PMID": 34931067,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Bias",
+  "TYPE": "Research",
+  "SHORT NAME": "PRS credible intervals",
+  "FULL NAME": "PRS credible intervals",
+  "KEYWORDS": "uncertainty",
+  "URL": "https://privefl.github.io/bigsnpr/articles/prs_uncertainty.html",
+  "MANUAL_CITATION": "\nDing, Y. et al. Large uncertainty in individual polygenic risk score estimation impacts PRS-based risk stratification. Nat. Genet. 54, 30–39 (2022).\n  ",
+  "TITLE": "Large uncertainty in individual polygenic risk score estimation impacts PRS-based risk stratification.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "1",
+  "PAGE": "30-39",
+  "Authors": "Ding Y,Hou K,Burch KS,Lapinska S,Privé F,Vilhjálmsson B,Sankararaman S,Pasaniuc B",
+  "ABSTRACT": "Although the cohort-level accuracy of polygenic risk scores (PRSs)-estimates of genetic value at the individual level-has been widely assessed, uncertainty in PRSs remains underexplored. In the present study, we show that Bayesian PRS methods can estimate the variance of an individual's PRS and can yield well-calibrated credible intervals via posterior sampling. For 13 real traits in the UK Biobank (n = 291,273 unrelated 'white British'), we observe large variances in individual PRS estimates which impact interpretation of PRS-based stratification; averaging across traits, only 0.8% (s.d. = 1.6%) of individuals with PRS point estimates in the top decile have corresponding 95% credible intervals fully contained in the top decile. We provide an analytical estimator for the expectation of individual PRS variance as a function of SNP heritability, number of causal SNPs and sample size. Our results showcase the importance of incorporating uncertainty in individual PRS estimates into subsequent analyses.",
+  "DOI": "10.1038/s41588-021-00961-5",
+  "PMC ID": "PMC8758557",
+  "CITATION": "Ding Y, Hou K, Burch KS, Lapinska S, ...&, Pasaniuc B. (2022) Large uncertainty in individual polygenic risk score estimation impacts PRS-based risk stratification. Nat Genet, 54 (1) 30-39. doi:10.1038/s41588-021-00961-5. PMID 34931067",
+  "FIRST_AUTHOR": "Ding Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

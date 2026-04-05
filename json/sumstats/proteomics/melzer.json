@@ -1,0 +1,27 @@
+{
+  "NAME": "Melzer",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 18464913,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "A genome-wide association study identifies protein quantitative trait loci (pQTLs).",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2008",
+  "VOLUME": "4",
+  "ISSUE": "5",
+  "PAGE": "e1000072",
+  "Authors": "Melzer D,Perry JR,Hernandez D,Corsi AM,Stevens K,Rafferty I,Lauretani F,Murray A,Gibbs JR,Paolisso G,Rafiq S,Simon-Sanchez J,Lango H,Scholz S,Weedon MN,Arepalli S,Rice N,Washecka N,Hurst A,Britton A,Henley W,van de Leemput J,Li R,Newman AB,Tranah G,Harris T,Panicker V,Dayan C,Bennett A,McCarthy MI,Ruokonen A,Jarvelin MR,Guralnik J,Bandinelli S,Frayling TM,Singleton A,Ferrucci L",
+  "ABSTRACT": "There is considerable evidence that human genetic variation influences gene expression. Genome-wide studies have revealed that mRNA levels are associated with genetic variation in or close to the gene coding for those mRNA transcripts - cis effects, and elsewhere in the genome - trans effects. The role of genetic variation in determining protein levels has not been systematically assessed. Using a genome-wide association approach we show that common genetic variation influences levels of clinically relevant proteins in human serum and plasma. We evaluated the role of 496,032 polymorphisms on levels of 42 proteins measured in 1200 fasting individuals from the population based InCHIANTI study. Proteins included insulin, several interleukins, adipokines, chemokines, and liver function markers that are implicated in many common diseases including metabolic, inflammatory, and infectious conditions. We identified eight Cis effects, including variants in or near the IL6R (p = 1.8x10(-57)), CCL4L1 (p = 3.9x10(-21)), IL18 (p = 6.8x10(-13)), LPA (p = 4.4x10(-10)), GGT1 (p = 1.5x10(-7)), SHBG (p = 3.1x10(-7)), CRP (p = 6.4x10(-6)) and IL1RN (p = 7.3x10(-6)) genes, all associated with their respective protein products with effect sizes ranging from 0.19 to 0.69 standard deviations per allele. Mechanisms implicated include altered rates of cleavage of bound to unbound soluble receptor (IL6R), altered secretion rates of different sized proteins (LPA), variation in gene copy number (CCL4L1) and altered transcription (GGT1). We identified one novel trans effect that was an association between ABO blood group and tumour necrosis factor alpha (TNF-alpha) levels (p = 6.8x10(-40)), but this finding was not present when TNF-alpha was measured using a different assay , or in a second study, suggesting an assay-specific association. Our results show that protein levels share some of the features of the genetics of gene expression. These include the presence of strong genetic effects in cis locations. The identification of protein quantitative trait loci (pQTLs) may be a powerful complementary method of improving our understanding of disease pathways.",
+  "DOI": "10.1371/journal.pgen.1000072",
+  "PMC ID": "PMC2362067",
+  "CITATION": "Melzer D, Perry JR, Hernandez D, Corsi AM, ...&, Ferrucci L. (2008) A genome-wide association study identifies protein quantitative trait loci (pQTLs). PLoS Genet, 4 (5) e1000072. doi:10.1371/journal.pgen.1000072. PMID 18464913",
+  "FIRST_AUTHOR": "Melzer D",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

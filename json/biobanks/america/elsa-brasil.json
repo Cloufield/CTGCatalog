@@ -1,0 +1,16 @@
+{
+  "NAME": "ELSA-Brasil",
+  "SHORT NAME": "ELSA",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~15k",
+  "DESCRIPTION": "Brazilian Longitudinal Study of Adult Health: six centers with deep phenotyping and biosamples; genome-wide data used for cardiometabolic and population-genetics GWAS in Brazil.",
+  "MANUAL_CITATION": "Schmidt, M. I., Duncan, B. B., Mill, J. G., Lotufo, P. A., Chor, D., Barreto, S. M., ... & Bensenor, I. M. (2015). Cohort Profile: Longitudinal Study of Adult Health (ELSA-Brasil). International Journal of Epidemiology, 44(1), 68-75.",
+  "URL": "https://elsa.org.br/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EUR",
+  "PARTICIPANTS": "Brazilian civil servants and families (longitudinal aging)"
+}

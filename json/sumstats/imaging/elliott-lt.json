@@ -1,0 +1,33 @@
+{
+  "NAME": "Elliott LT",
+  "ADD_SUFFIX": 1,
+  "PMID": 30305740,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "Structural/ Diffusion/ Functional MRI-IDP: 3,144 functional and structural brain imaging phenotypes",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 8428,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Elliott, L. T., Sharp, K., Alfaro-Almagro, F., Shi, S., Miller, K. L., Douaud, G., ... & Smith, S. M. (2018). Genome-wide association studies of brain imaging phenotypes in UK Biobank. Nature, 562(7726), 210-216.",
+  "MANUAL_YEAR": 2018,
+  "TITLE": "Genome-wide association studies of brain imaging phenotypes in UK Biobank.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2018",
+  "VOLUME": "562",
+  "ISSUE": "7726",
+  "PAGE": "210-216",
+  "Authors": "Elliott LT,Sharp K,Alfaro-Almagro F,Shi S,Miller KL,Douaud G,Marchini J,Smith SM",
+  "ABSTRACT": "The genetic architecture of brain structure and function is largely unknown. To investigate this, we carried out genome-wide association studies of 3,144 functional and structural brain imaging phenotypes from UK Biobank (discovery dataset 8,428 subjects). Here we show that many of these phenotypes are heritable. We identify 148 clusters of associations between single nucleotide polymorphisms and imaging phenotypes that replicate at P < 0.05, when we would expect 21 to replicate by chance. Notable significant, interpretable associations include: iron transport and storage genes, related to magnetic susceptibility of subcortical brain tissue; extracellular matrix and epidermal growth factor genes, associated with white matter micro-structure and lesions; genes that regulate mid-line axon development, associated with organization of the pontine crossing tract; and overall 17 genes involved in development, pathway signalling and plasticity. Our results provide insights into the genetic architecture of the brain that are relevant to neurological and psychiatric disorders, brain development and ageing.",
+  "DOI": "10.1038/s41586-018-0571-7",
+  "PMC ID": "PMC6786974",
+  "CITATION": "Elliott LT, Sharp K, Alfaro-Almagro F, Shi S, ...&, Smith SM. (2018) Genome-wide association studies of brain imaging phenotypes in UK Biobank. Nature, 562 (7726) 210-216. doi:10.1038/s41586-018-0571-7. PMID 30305740",
+  "FIRST_AUTHOR": "Elliott LT",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "DEPICT",
+  "PMID": 25597830,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_prioritization",
+  "TYPE": "Tools",
+  "SHORT NAME": "DEPICT",
+  "FULL NAME": "Data-driven Expression Prioritized Integration for Complex Traits",
+  "KEYWORDS": "co-regulation of gene expression",
+  "URL": "https://github.com/perslab/depict",
+  "DESCRIPTION": "an integrative tool that employs predicted gene functions to systematically prioritize the most likely causal genes at associated loci, highlight enriched pathways and identify tissues/cell types where genes from associated loci are highly expressed. DEPICT is not limited to genes with established functions and prioritizes relevant gene sets for many phenotypes.",
+  "MANUAL_CITATION": "Pers, T. H., Karjalainen, J. M., Chan, Y., Westra, H. J., Wood, A. R., Yang, J., ... & Franke, L. (2015). Biological interpretation of genome-wide association studies using predicted gene functions. Nature communications, 6(1), 1-9.",
+  "TITLE": "Biological interpretation of genome-wide association studies using predicted gene functions.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2015",
+  "VOLUME": "6",
+  "ISSUE": "",
+  "PAGE": "5890",
+  "Authors": "Pers TH,Karjalainen JM,Chan Y,Westra HJ,Wood AR,Yang J,Lui JC,Vedantam S,Gustafsson S,Esko T,Frayling T,Speliotes EK,Genetic Investigation of ANthropometric Traits (GIANT) Consortium,Boehnke M,Raychaudhuri S,Fehrmann RS,Hirschhorn JN,Franke L",
+  "ABSTRACT": "The main challenge for gaining biological insights from genetic associations is identifying which genes and pathways explain the associations. Here we present DEPICT, an integrative tool that employs predicted gene functions to systematically prioritize the most likely causal genes at associated loci, highlight enriched pathways and identify tissues/cell types where genes from associated loci are highly expressed. DEPICT is not limited to genes with established functions and prioritizes relevant gene sets for many phenotypes.",
+  "DOI": "10.1038/ncomms6890",
+  "PMC ID": "PMC4420238",
+  "CITATION": "Pers TH, Karjalainen JM, Chan Y, Westra HJ, ...&, Franke L. (2015) Biological interpretation of genome-wide association studies using predicted gene functions. Nat Commun, 6 () 5890. doi:10.1038/ncomms6890. PMID 25597830",
+  "FIRST_AUTHOR": "Pers TH",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

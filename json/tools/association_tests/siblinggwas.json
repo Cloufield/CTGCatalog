@@ -1,0 +1,29 @@
+{
+  "NAME": "SiblingGWAS",
+  "PMID": 35534559,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS using family history",
+  "TYPE": "Tools",
+  "SHORT NAME": "SiblingGWAS",
+  "FULL NAME": "Within-sibship genome-wide association analyses",
+  "URL": "https://github.com/LaurenceHowe/SiblingGWAS",
+  "DESCRIPTION": "Scripts for running GWAS using siblings to estimate Within-Family (WF) and Between-Family (BF) effects of genetic variants on continuous traits. Allows the inclusion of more than two siblings from one family.",
+  "MANUAL_CITATION": "Howe, L. J., Nivard, M. G., Morris, T. T., Hansen, A. F., Rasheed, H., Cho, Y., ... & Davies, N. M. (2022). Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects. Nature genetics, 54(5), 581-592.",
+  "TITLE": "Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "5",
+  "PAGE": "581-592",
+  "Authors": "Howe LJ,Nivard MG,Morris TT,Hansen AF,Rasheed H,Cho Y,Chittoor G,Ahlskog R,Lind PA,Palviainen T,van der Zee MD,Cheesman R,Mangino M,Wang Y,Li S,Klaric L,Ratliff SM,Bielak LF,Nygaard M,Giannelis A,Willoughby EA,Reynolds CA,Balbona JV,Andreassen OA,Ask H,Baras A,Bauer CR,Boomsma DI,Campbell A,Campbell H,Chen Z,Christofidou P,Corfield E,Dahm CC,Dokuru DR,Evans LM,de Geus EJC,Giddaluru S,Gordon SD,Harden KP,Hill WD,Hughes A,Kerr SM,Kim Y,Kweon H,Latvala A,Lawlor DA,Li L,Lin K,Magnus P,Magnusson PKE,Mallard TT,Martikainen P,Mills MC,Njølstad PR,Overton JD,Pedersen NL,Porteous DJ,Reid J,Silventoinen K,Southey MC,Stoltenberg C,Tucker-Drob EM,Wright MJ,Social Science Genetic Association Consortium,Within Family Consortium,Hewitt JK,Keller MC,Stallings MC,Lee JJ,Christensen K,Kardia SLR,Peyser PA,Smith JA,Wilson JF,Hopper JL,Hägg S,Spector TD,Pingault JB,Plomin R,Havdahl A,Bartels M,Martin NG,Oskarsson S,Justice AE,Millwood IY,Hveem K,Naess Ø,Willer CJ,Åsvold BO,Koellinger PD,Kaprio J,Medland SE,Walters RG,Benjamin DJ,Turley P,Evans DM,Davey Smith G,Hayward C,Brumpton B,Hemani G,Davies NM",
+  "ABSTRACT": "Estimates from genome-wide association studies (GWAS) of unrelated individuals capture effects of inherited variation (direct effects), demography (population stratification, assortative mating) and relatives (indirect genetic effects). Family-based GWAS designs can control for demographic and indirect genetic effects, but large-scale family datasets have been lacking. We combined data from 178,086 siblings from 19 cohorts to generate population (between-family) and within-sibship (within-family) GWAS estimates for 25 phenotypes. Within-sibship GWAS estimates were smaller than population estimates for height, educational attainment, age at first birth, number of children, cognitive ability, depressive symptoms and smoking. Some differences were observed in downstream SNP heritability, genetic correlations and Mendelian randomization analyses. For example, the within-sibship genetic correlation between educational attainment and body mass index attenuated towards zero. In contrast, analyses of most molecular phenotypes (for example, low-density lipoprotein-cholesterol) were generally consistent. We also found within-sibship evidence of polygenic adaptation on taller height. Here, we illustrate the importance of family-based GWAS data for phenotypes influenced by demographic and indirect genetic effects.",
+  "DOI": "10.1038/s41588-022-01062-7",
+  "PMC ID": "PMC9110300",
+  "CITATION": "Howe LJ, Nivard MG, Morris TT, Hansen AF, ...&, Davies NM. (2022) Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects. Nat Genet, 54 (5) 581-592. doi:10.1038/s41588-022-01062-7. PMID 35534559",
+  "FIRST_AUTHOR": "Howe LJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "NAME": "Linked health records & repeat phenotypes",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "STAGE_ORDER": 2,
+  "STAGE_PERIOD": "ongoing",
+  "TAGS": ["UK Biobank", "Phenotypes"],
+  "DESCRIPTION": "Linkage to hospital episode statistics, death registers, primary-care and cancer data; repeated web/verbal questionnaires and in-person follow-ups deepen longitudinal phenotyping for PheWAS and risk modelling.",
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

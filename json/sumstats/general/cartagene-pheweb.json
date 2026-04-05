@@ -1,0 +1,16 @@
+{
+  "NAME": "CARTaGENE PheWeb",
+  "URL": "https://cerc-genomic-medicine.ca/pheweb/cartagene/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "cartagene biobank",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "PheWeb browser for CARTaGENE (Quebec) GWAS summary statistics.",
+  "MANUAL_CITATION": "CARTaGENE. Quebec population health biobank — PheWeb-style GWAS summary statistics browser.",
+  "MANUAL_YEAR": 2019,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

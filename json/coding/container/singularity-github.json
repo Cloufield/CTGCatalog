@@ -1,0 +1,11 @@
+{
+  "NAME": "Singularity (GitHub)",
+  "SECTION": "Coding",
+  "TOPIC": "Container",
+  "TYPE": "Resource",
+  "URL": "https://github.com/sylabs/singularity",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Singularity source repository."
+}

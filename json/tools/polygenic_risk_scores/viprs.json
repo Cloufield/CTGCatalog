@@ -1,0 +1,30 @@
+{
+  "NAME": "VIPRS",
+  "PMID": 37030289,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "VIPRS",
+  "FULL NAME": "Variational inference of polygenic risk scores",
+  "KEYWORDS": "Variational Inference (VI)",
+  "URL": "https://github.com/shz9/viprs",
+  "DESCRIPTION": "viprs is a python package that implements scripts and utilities for running variational inference algorithms on genome-wide association study (GWAS) data for the purposes polygenic risk estimation.",
+  "MANUAL_CITATION": "Zabad, S., Gravel, S., & Li, Y. (2022). Fast and Accurate Bayesian Polygenic Risk Modeling with Variational Inference. bioRxiv.",
+  "TITLE": "Fast and accurate Bayesian polygenic risk modeling with variational inference.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2023",
+  "VOLUME": "110",
+  "ISSUE": "5",
+  "PAGE": "741-761",
+  "Authors": "Zabad S,Gravel S,Li Y",
+  "ABSTRACT": "The advent of large-scale genome-wide association studies (GWASs) has motivated the development of statistical methods for phenotype prediction with single-nucleotide polymorphism (SNP) array data. These polygenic risk score (PRS) methods use a multiple linear regression framework to infer joint effect sizes of all genetic variants on the trait. Among the subset of PRS methods that operate on GWAS summary statistics, sparse Bayesian methods have shown competitive predictive ability. However, most existing Bayesian approaches employ Markov chain Monte Carlo (MCMC) algorithms, which are computationally inefficient and do not scale favorably to higher dimensions, for posterior inference. Here, we introduce variational inference of polygenic risk scores (VIPRS), a Bayesian summary statistics-based PRS method that utilizes variational inference techniques to approximate the posterior distribution for the effect sizes. Our experiments with 36 simulation configurations and 12 real phenotypes from the UK Biobank dataset demonstrated that VIPRS is consistently competitive with the state-of-the-art in prediction accuracy while being more than twice as fast as popular MCMC-based approaches. This performance advantage is robust across a variety of genetic architectures, SNP heritabilities, and independent GWAS cohorts. In addition to its competitive accuracy on the \"White British\" samples, VIPRS showed improved transferability when applied to other ethnic groups, with up to 1.7-fold increase in R2 among individuals of Nigerian ancestry for low-density lipoprotein (LDL) cholesterol. To illustrate its scalability, we applied VIPRS to a dataset of 9.6 million genetic markers, which conferred further improvements in prediction accuracy for highly polygenic traits, such as height.",
+  "DOI": "10.1016/j.ajhg.2023.03.009",
+  "PMC ID": "PMC10183379",
+  "CITATION": "Zabad S, Gravel S, Li Y. (2023) Fast and accurate Bayesian polygenic risk modeling with variational inference. Am J Hum Genet, 110 (5) 741-761. doi:10.1016/j.ajhg.2023.03.009. PMID 37030289",
+  "FIRST_AUTHOR": "Zabad S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

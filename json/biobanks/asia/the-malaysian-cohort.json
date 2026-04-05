@@ -1,0 +1,17 @@
+{
+  "NAME": "The Malaysian Cohort",
+  "SHORT NAME": "TMC",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~100k",
+  "STUDY TYPE": "prospective population-based cohort",
+  "MANUAL_CITATION": "Jamal, R., Syed Zakaria, S. Z., Kamaruddin, M. A., Abd Jalal, N., Ismail, N., Mohd Kamil, N., ... & Malaysian Cohort Study Group. (2015). Cohort profile: The Malaysian Cohort (TMC) project: a prospective study of non-communicable diseases in a multi-ethnic population. International journal of epidemiology, 44(2), 423-431.",
+  "URL": "https://www.ukm.my/mycohort/ms/",
+  "DESCRIPTION": "The Malaysian Cohort (TMC) is a prospective study of non-communicable diseases in a multi-ethnic Malaysian population, recruiting adults across rural and urban settings with biosamples and phenotypes for gene–environment and biomarker research.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS,SAS",
+  "PARTICIPANTS": "Malaysian adults (multi-ethnic national cohort)"
+}

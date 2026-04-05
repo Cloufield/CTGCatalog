@@ -1,0 +1,27 @@
+{
+  "NAME": "QUILT1",
+  "PMID": 34083788,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "QUILT1",
+  "URL": "https://github.com/rwdavies/QUILT",
+  "MANUAL_CITATION": "Davies, R. W. et al. Rapid genotype imputation from sequence with reference panels. Nat. Genet. 53, 1104–1111 (2021).\n  ",
+  "TITLE": "Rapid genotype imputation from sequence with reference panels.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "7",
+  "PAGE": "1104-1111",
+  "Authors": "Davies RW,Kucka M,Su D,Shi S,Flanagan M,Cunniff CM,Chan YF,Myers S",
+  "ABSTRACT": "Inexpensive genotyping methods are essential to modern genomics. Here we present QUILT, which performs diploid genotype imputation using low-coverage whole-genome sequence data. QUILT employs Gibbs sampling to partition reads into maternal and paternal sets, facilitating rapid haploid imputation using large reference panels. We show this partitioning to be accurate over many megabases, enabling highly accurate imputation close to theoretical limits and outperforming existing methods. Moreover, QUILT can impute accurately using diverse technologies, including long reads from Oxford Nanopore Technologies, and a new form of low-cost barcoded Illumina sequencing called haplotagging, with the latter showing improved accuracy at low coverages. Relative to DNA genotyping microarrays, QUILT offers improved accuracy at reduced cost, particularly for diverse populations that are traditionally underserved in modern genomic analyses, with accuracy nearly doubling at rare SNPs. Finally, QUILT can accurately impute (four-digit) human leukocyte antigen types, the first such method from low-coverage sequence data.",
+  "DOI": "10.1038/s41588-021-00877-0",
+  "PMC ID": "PMC7611184",
+  "CITATION": "Davies RW, Kucka M, Su D, Shi S, ...&, Myers S. (2021) Rapid genotype imputation from sequence with reference panels. Nat Genet, 53 (7) 1104-1111. doi:10.1038/s41588-021-00877-0. PMID 34083788",
+  "FIRST_AUTHOR": "Davies RW",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

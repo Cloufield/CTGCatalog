@@ -1,0 +1,29 @@
+{
+  "NAME": "MultiPhen",
+  "PMID": 22567092,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MultiPhen",
+  "MANUAL_YEAR": 2012,
+  "URL": "https://cran.r-project.org/web/packages/MultiPhen/index.html",
+  "DESCRIPTION": "Performs genetic association tests between SNPs (one-at-a-time) and multiple phenotypes (separately or in joint model).",
+  "MANUAL_CITATION": "\nO’Reilly, P. F. et al. MultiPhen: joint model of multiple phenotypes can increase discovery in GWAS. PLoS One 7, e34861 (2012).\n  ",
+  "TITLE": "MultiPhen: joint model of multiple phenotypes can increase discovery in GWAS.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2012",
+  "VOLUME": "7",
+  "ISSUE": "5",
+  "PAGE": "e34861",
+  "Authors": "O'Reilly PF,Hoggart CJ,Pomyen Y,Calboli FC,Elliott P,Jarvelin MR,Coin LJ",
+  "ABSTRACT": "The genome-wide association study (GWAS) approach has discovered hundreds of genetic variants associated with diseases and quantitative traits. However, despite clinical overlap and statistical correlation between many phenotypes, GWAS are generally performed one-phenotype-at-a-time. Here we compare the performance of modelling multiple phenotypes jointly with that of the standard univariate approach. We introduce a new method and software, MultiPhen, that models multiple phenotypes simultaneously in a fast and interpretable way. By performing ordinal regression, MultiPhen tests the linear combination of phenotypes most associated with the genotypes at each SNP, and thus potentially captures effects hidden to single phenotype GWAS. We demonstrate via simulation that this approach provides a dramatic increase in power in many scenarios. There is a boost in power for variants that affect multiple phenotypes and for those that affect only one phenotype. While other multivariate methods have similar power gains, we describe several benefits of MultiPhen over these. In particular, we demonstrate that other multivariate methods that assume the genotypes are normally distributed, such as canonical correlation analysis (CCA) and MANOVA, can have highly inflated type-1 error rates when testing case-control or non-normal continuous phenotypes, while MultiPhen produces no such inflation. To test the performance of MultiPhen on real data we applied it to lipid traits in the Northern Finland Birth Cohort 1966 (NFBC1966). In these data MultiPhen discovers 21% more independent SNPs with known associations than the standard univariate GWAS approach, while applying MultiPhen in addition to the standard approach provides 37% increased discovery. The most associated linear combinations of the lipids estimated by MultiPhen at the leading SNPs accurately reflect the Friedewald Formula, suggesting that MultiPhen could be used to refine the definition of existing phenotypes or uncover novel heritable phenotypes.",
+  "DOI": "10.1371/journal.pone.0034861",
+  "PMC ID": "PMC3342314",
+  "CITATION": "O'Reilly PF, Hoggart CJ, Pomyen Y, Calboli FC, ...&, Coin LJ. (2012) MultiPhen: joint model of multiple phenotypes can increase discovery in GWAS. PLoS One, 7 (5) e34861. doi:10.1371/journal.pone.0034861. PMID 22567092",
+  "FIRST_AUTHOR": "O'Reilly PF",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "NAME": "SciPy",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://scipy.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Scientific computing ecosystem for Python."
+}

@@ -1,0 +1,19 @@
+{
+  "NAME": "American journal of epidemiology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Am J Epidemiol",
+  "JOURNAL": "American journal of epidemiology",
+  "URL": "https://academic.oup.com/aje",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Tools": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Concepts&Principals",
+    "Salinas"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "SumHer",
+  "PMID": 30510236,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "SumHer",
+  "FULL NAME": "SumHer",
+  "MANUAL_YEAR": 2019,
+  "URL": "http://www.ldak.org/",
+  "MANUAL_CITATION": "\nSpeed, D. & Balding, D. J. SumHer better estimates the SNP heritability of complex traits from summary statistics. Nat. Genet. 51, 277–284 (2019).\n  ",
+  "TITLE": "SumHer better estimates the SNP heritability of complex traits from summary statistics.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2019",
+  "VOLUME": "51",
+  "ISSUE": "2",
+  "PAGE": "277-284",
+  "Authors": "Speed D,Balding DJ",
+  "ABSTRACT": "We present SumHer, software for estimating confounding bias, SNP heritability, enrichments of heritability and genetic correlations using summary statistics from genome-wide association studies. The key difference between SumHer and the existing software LD Score Regression (LDSC) is that SumHer allows the user to specify the heritability model. We apply SumHer to results from 24 large-scale association studies (average sample size 121,000) using our recommended heritability model. We show that these studies tended to substantially over-correct for confounding, and as a result the number of genome-wide significant loci was under-reported by about a quarter. We also estimate enrichments for 24 categories of SNPs defined by functional annotations. A previous study using LDSC reported that conserved regions were 13-fold enriched, and found a further six categories with above threefold enrichment. By contrast, our analysis using SumHer finds that none of the categories have enrichment above twofold. SumHer provides an improved understanding of the genetic architecture of complex traits, which enables more efficient analysis of future genetic data.",
+  "DOI": "10.1038/s41588-018-0279-5",
+  "PMC ID": "PMC6485398",
+  "CITATION": "Speed D, Balding DJ. (2019) SumHer better estimates the SNP heritability of complex traits from summary statistics. Nat Genet, 51 (2) 277-284. doi:10.1038/s41588-018-0279-5. PMID 30510236",
+  "FIRST_AUTHOR": "Speed D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

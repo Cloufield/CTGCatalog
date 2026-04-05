@@ -1,0 +1,27 @@
+{
+  "NAME": "GENOA",
+  "PMID": 37169753,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Whole Blood",
+  "CATEGORY": "Methylation",
+  "URL": "http://mqtldb.godmc.org.uk/",
+  "MANUAL_YEAR": 2023,
+  "MANUAL_CITATION": "\nShang, L. et al. meQTL mapping in the GENOA study reveals genetic determinants of DNA methylation in African Americans. Nat. Commun. 14, 2711 (2023).\n  \n",
+  "TITLE": "meQTL mapping in the GENOA study reveals genetic determinants of DNA methylation in African Americans.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "2711",
+  "Authors": "Shang L,Zhao W,Wang YZ,Li Z,Choi JJ,Kho M,Mosley TH,Kardia SLR,Smith JA,Zhou X",
+  "ABSTRACT": "Identifying genetic variants that are associated with variation in DNA methylation, an analysis commonly referred to as methylation quantitative trait locus (meQTL) mapping, is an important first step towards understanding the genetic architecture underlying epigenetic variation. Most existing meQTL mapping studies have focused on individuals of European ancestry and are underrepresented in other populations, with a particular absence of large studies in populations with African ancestry. We fill this critical knowledge gap by performing a large-scale cis-meQTL mapping study in 961 African Americans from the Genetic Epidemiology Network of Arteriopathy (GENOA) study. We identify a total of 4,565,687 cis-acting meQTLs in 320,965 meCpGs. We find that 45% of meCpGs harbor multiple independent meQTLs, suggesting potential polygenic genetic architecture underlying methylation variation. A large percentage of the cis-meQTLs also colocalize with cis-expression QTLs (eQTLs) in the same population. Importantly, the identified cis-meQTLs explain a substantial proportion (median = 24.6%) of methylation variation. In addition, the cis-meQTL associated CpG sites mediate a substantial proportion (median = 24.9%) of SNP effects underlying gene expression. Overall, our results represent an important step toward revealing the co-regulation of methylation and gene expression, facilitating the functional interpretation of epigenetic and gene regulation underlying common diseases in African Americans.",
+  "DOI": "10.1038/s41467-023-37961-4",
+  "PMC ID": "PMC10175543",
+  "CITATION": "Shang L, Zhao W, Wang YZ, Li Z, ...&, Zhou X. (2023) meQTL mapping in the GENOA study reveals genetic determinants of DNA methylation in African Americans. Nat Commun, 14 (1) 2711. doi:10.1038/s41467-023-37961-4. PMID 37169753",
+  "FIRST_AUTHOR": "Shang L",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

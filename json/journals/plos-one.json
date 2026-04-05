@@ -1,0 +1,24 @@
+{
+  "NAME": "PloS one",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "URL": "http://www.plosone.org/",
+  "ENTRY_COUNT": 10,
+  "CITED_BY_SECTION": {
+    "Tools": 8,
+    "Sumstats": 1,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Phecode",
+    "Kim",
+    "SNP2HLA",
+    "Galesloot",
+    "MultiPhen"
+  ]
+}

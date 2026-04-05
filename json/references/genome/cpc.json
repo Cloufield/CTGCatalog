@@ -1,0 +1,33 @@
+{
+  "NAME": "CPC",
+  "SHORT NAME": "CPC",
+  "FULL NAME": "Chinese Pangenome Consortium (phase I core)",
+  "CATEGORY": "Pangenome",
+  "SOURCE": "Chinese Pangenome Consortium",
+  "PMID": 37316654,
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "pangenome; Chinese populations; long-read; haplotype; GRCh38",
+  "URL": "https://ngdc.cncb.ac.cn/bioproject/browse/PRJCA011422",
+  "TYPE": "Data",
+  "DESCRIPTION": "Phase I data from the Chinese Pangenome Consortium: 116 high-quality haplotype-phased de novo assemblies from 58 core samples across 36 minority Chinese ethnic groups (high-fidelity long-read coverage). Adds substantial novel sequence and variant discovery relative to GRCh38 and supports population-specific reference panels for Asian-ancestry genomics.",
+  "MANUAL_CITATION": "\n    Gao, Y. et al. A pangenome reference of 36 Chinese populations. Nature (2023) doi:10.1038/s41586-023-06173-7.\n  ",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "A pangenome reference of 36 Chinese populations.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2023",
+  "VOLUME": "619",
+  "ISSUE": "7968",
+  "PAGE": "112-121",
+  "Authors": "Gao Y,Yang X,Chen H,Tan X,Yang Z,Deng L,Wang B,Kong S,Li S,Cui Y,Lei C,Wang Y,Pan Y,Ma S,Sun H,Zhao X,Shi Y,Yang Z,Wu D,Wu S,Zhao X,Shi B,Jin L,Hu Z,Chinese Pangenome Consortium (CPC),Lu Y,Chu J,Ye K,Xu S",
+  "ABSTRACT": "Human genomics is witnessing an ongoing paradigm shift from a single reference sequence to a pangenome form, but populations of Asian ancestry are underrepresented. Here we present data from the first phase of the Chinese Pangenome Consortium, including a collection of 116 high-quality and haplotype-phased de novo assemblies based on 58 core samples representing 36 minority Chinese ethnic groups. With an average 30.65× high-fidelity long-read sequence coverage, an average contiguity N50 of more than 35.63 megabases and an average total size of 3.01 gigabases, the CPC core assemblies add 189 million base pairs of euchromatic polymorphic sequences and 1,367 protein-coding gene duplications to GRCh38. We identified 15.9 million small variants and 78,072 structural variants, of which 5.9 million small variants and 34,223 structural variants were not reported in a recently released pangenome reference1. The Chinese Pangenome Consortium data demonstrate a remarkable increase in the discovery of novel and missing sequences when individuals are included from underrepresented minority ethnic groups. The missing reference sequences were enriched with archaic-derived alleles and genes that confer essential functions related to keratinization, response to ultraviolet radiation, DNA repair, immunological responses and lifespan, implying great potential for shedding new light on human evolution and recovering missing heritability in complex disease mapping.",
+  "DOI": "10.1038/s41586-023-06173-7",
+  "PMC ID": "PMC10322713",
+  "CITATION": "Gao Y, Yang X, Chen H, Tan X, ...&, Xu S. (2023) A pangenome reference of 36 Chinese populations. Nature, 619 (7968) 112-121. doi:10.1038/s41586-023-06173-7. PMID 37316654",
+  "FIRST_AUTHOR": "Gao Y",
+  "TAGS": ["Pangenome", "Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

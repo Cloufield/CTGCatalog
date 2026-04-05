@@ -1,0 +1,19 @@
+{
+  "NAME": "Cell reports",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Cell Rep",
+  "JOURNAL": "Cell reports",
+  "URL": "https://www.sciencedirect.com/journal/cell-reports",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Tools": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Nyuwa Genome Resource Phase 1",
+    "NyuWa Imputation Server"
+  ]
+}

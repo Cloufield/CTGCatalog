@@ -1,0 +1,27 @@
+{
+  "NAME": "Caron",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 35264221,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "TITLE": "Integrative genetic and immune cell analysis of plasma proteins in healthy donors identifies novel associations involving primary immune deficiency genes.",
+  "ISO": "Genome Med",
+  "JOURNAL": "Genome medicine",
+  "YEAR": "2022",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "28",
+  "Authors": "Caron B,Patin E,Rotival M,Charbit B,Albert ML,Quintana-Murci L,Duffy D,Rausell A,Milieu Intérieur Consortium",
+  "ABSTRACT": "BACKGROUND: Blood plasma proteins play an important role in immune defense against pathogens, including cytokine signaling, the complement system, and the acute-phase response. Recent large-scale studies have reported genetic (i.e., protein quantitative trait loci, pQTLs) and non-genetic factors, such as age and sex, as major determinants to inter-individual variability in immune response variation. However, the contribution of blood-cell composition to plasma protein heterogeneity has not been fully characterized and may act as a mediating factor in association studies. METHODS: Here, we evaluated plasma protein levels from 400 unrelated healthy individuals of western European ancestry, who were stratified by sex and two decades of life (20-29 and 60-69 years), from the Milieu Intérieur cohort. We quantified 229 proteins by Luminex in a clinically certified laboratory and their levels of variation were analyzed together with 5.2 million single-nucleotide polymorphisms. With respect to non-genetic variables, we included 254 lifestyle and biochemical factors, as well as counts of seven circulating immune cell populations measured by hemogram and standardized flow cytometry. RESULTS: Collectively, we found 152 significant associations involving 49 proteins and 20 non-genetic variables. Consistent with previous studies, age and sex showed a global, pervasive impact on plasma protein heterogeneity, while body mass index and other health status variables were among the non-genetic factors with the highest number of associations. After controlling for these covariates, we identified 100 and 12 pQTLs acting in cis and trans, respectively, collectively associated with 87 plasma proteins and including 19 novel genetic associations. Genetic factors explained the largest fraction of the variability of plasma protein levels, as compared to non-genetic factors. In addition, blood-cell fractions, including leukocytes, lymphocytes, monocytes, neutrophils, eosinophils, basophils, and platelets, had a larger contribution to inter-individual variability than age and sex and appeared as confounders of specific genetic associations. Finally, we identified new genetic associations with plasma protein levels of five monogenic Mendelian disease genes including two primary immunodeficiency genes (Ficolin-3 and FAS). CONCLUSIONS: Our study identified novel genetic and non-genetic factors associated to plasma protein levels which may inform health status and disease management.",
+  "DOI": "10.1186/s13073-022-01032-y",
+  "PMC ID": "PMC8905727",
+  "CITATION": "Caron B, Patin E, Rotival M, Charbit B, ...&, Milieu Intérieur Consortium. (2022) Integrative genetic and immune cell analysis of plasma proteins in healthy donors identifies novel associations involving primary immune deficiency genes. Genome Med, 14 (1) 28. doi:10.1186/s13073-022-01032-y. PMID 35264221",
+  "FIRST_AUTHOR": "Caron B",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

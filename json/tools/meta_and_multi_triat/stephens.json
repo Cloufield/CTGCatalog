@@ -1,0 +1,26 @@
+{
+  "NAME": "Stephens",
+  "PMID": 23861737,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Concept",
+  "MANUAL_YEAR": 2013,
+  "MANUAL_CITATION": "Stephens, M. A unified framework for association analysis with multiple related phenotypes. PLoS One 8, e65245 (2013).",
+  "TITLE": "A unified framework for association analysis with multiple related phenotypes.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2013",
+  "VOLUME": "8",
+  "ISSUE": "7",
+  "PAGE": "e65245",
+  "Authors": "Stephens M",
+  "ABSTRACT": "We consider the problem of assessing associations between multiple related outcome variables, and a single explanatory variable of interest. This problem arises in many settings, including genetic association studies, where the explanatory variable is genotype at a genetic variant. We outline a framework for conducting this type of analysis, based on Bayesian model comparison and model averaging for multivariate regressions. This framework unifies several common approaches to this problem, and includes both standard univariate and standard multivariate association tests as special cases. The framework also unifies the problems of testing for associations and explaining associations - that is, identifying which outcome variables are associated with genotype. This provides an alternative to the usual, but conceptually unsatisfying, approach of resorting to univariate tests when explaining and interpreting significant multivariate findings. The method is computationally tractable genome-wide for modest numbers of phenotypes (e.g. 5-10), and can be applied to summary data, without access to raw genotype and phenotype data. We illustrate the methods on both simulated examples, and to a genome-wide association study of blood lipid traits where we identify 18 potential novel genetic associations that were not identified by univariate analyses of the same data.",
+  "DOI": "10.1371/journal.pone.0065245",
+  "PMC ID": "PMC3702528",
+  "CITATION": "Stephens M. (2013) A unified framework for association analysis with multiple related phenotypes. PLoS One, 8 (7) e65245. doi:10.1371/journal.pone.0065245. PMID 23861737",
+  "FIRST_AUTHOR": "Stephens M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

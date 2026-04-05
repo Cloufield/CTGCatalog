@@ -1,0 +1,29 @@
+{
+  "NAME": "MiXeR",
+  "PMID": 31160569,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MiXeR",
+  "FULL NAME": "MiXeR（cross-trait analysis）",
+  "URL": "https://github.com/precimed/mixer",
+  "DESCRIPTION": "Causal Mixture Model for GWAS summary statistics",
+  "MANUAL_CITATION": "Frei, Oleksandr, et al. \"Bivariate causal mixture model quantifies polygenic overlap between complex traits beyond genetic correlation.\" Nature communications 10.1 (2019): 1-11.",
+  "TITLE": "Bivariate causal mixture model quantifies polygenic overlap between complex traits beyond genetic correlation.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2019",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "2417",
+  "Authors": "Frei O,Holland D,Smeland OB,Shadrin AA,Fan CC,Maeland S,O'Connell KS,Wang Y,Djurovic S,Thompson WK,Andreassen OA,Dale AM",
+  "ABSTRACT": "Accumulating evidence from genome wide association studies (GWAS) suggests an abundance of shared genetic influences among complex human traits and disorders, such as mental disorders. Here we introduce a statistical tool, MiXeR, which quantifies polygenic overlap irrespective of genetic correlation, using GWAS summary statistics. MiXeR results are presented as a Venn diagram of unique and shared polygenic components across traits. At 90% of SNP-heritability explained for each phenotype, MiXeR estimates that 8.3 K variants causally influence schizophrenia and 6.4 K influence bipolar disorder. Among these variants, 6.2 K are shared between the disorders, which have a high genetic correlation. Further, MiXeR uncovers polygenic overlap between schizophrenia and educational attainment. Despite a genetic correlation close to zero, the phenotypes share 8.3 K causal variants, while 2.5 K additional variants influence only educational attainment. By considering the polygenicity, discoverability and heritability of complex phenotypes, MiXeR analysis may improve our understanding of cross-trait genetic architectures.",
+  "DOI": "10.1038/s41467-019-10310-0",
+  "PMC ID": "PMC6547727",
+  "CITATION": "Frei O, Holland D, Smeland OB, Shadrin AA, ...&, Dale AM. (2019) Bivariate causal mixture model quantifies polygenic overlap between complex traits beyond genetic correlation. Nat Commun, 10 (1) 2417. doi:10.1038/s41467-019-10310-0. PMID 31160569",
+  "FIRST_AUTHOR": "Frei O",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

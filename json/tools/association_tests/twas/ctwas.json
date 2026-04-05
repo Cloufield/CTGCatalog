@@ -1,0 +1,31 @@
+{
+  "NAME": "cTWAS",
+  "PMID": 38279041,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "cTWAS",
+  "FULL NAME": "causal-TWAS",
+  "MANUAL_YEAR": 2024,
+  "KEYWORDS": "TWAS, fine-mapping",
+  "URL": "https://xinhe-lab.github.io/ctwas/",
+  "DESCRIPTION": "Expression Quantitative Trait Loci (eQTLs) have often been used to nominate candidate genes from Genome-wide association studies (GWAS). However, commonly used methods are susceptible to false positives largely due to Linkage Disequilibrium of eQTLs with causal variants acting on the phenotype directly. Our method, causal-TWAS (cTWAS), addressed this challenge by borrowing ideas from statistical fine-mapping. It is a generalization of Transcriptome-wide association studies (TWAS), but when analyzing any gene, it adjusts for other nearby genes and all nearby genetic variants.",
+  "MANUAL_CITATION": "Zhao, S., Crouse, W., Qian, S., Luo, K., Stephens, M., & He, X. (2024). Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits. Nature Genetics, 1-12.",
+  "TITLE": "Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "2",
+  "PAGE": "336-347",
+  "Authors": "Zhao S,Crouse W,Qian S,Luo K,Stephens M,He X",
+  "ABSTRACT": "Many methods have been developed to leverage expression quantitative trait loci (eQTL) data to nominate candidate genes from genome-wide association studies. These methods, including colocalization, transcriptome-wide association studies (TWAS) and Mendelian randomization-based methods; however, all suffer from a key problem-when assessing the role of a gene in a trait using its eQTLs, nearby variants and genetic components of other genes' expression may be correlated with these eQTLs and have direct effects on the trait, acting as potential confounders. Our extensive simulations showed that existing methods fail to account for these 'genetic confounders', resulting in severe inflation of false positives. Our new method, causal-TWAS (cTWAS), borrows ideas from statistical fine-mapping and allows us to adjust all genetic confounders. cTWAS showed calibrated false discovery rates in simulations, and its application on several common traits discovered new candidate genes. In conclusion, cTWAS provides a robust statistical framework for gene discovery.",
+  "DOI": "10.1038/s41588-023-01648-9",
+  "PMC ID": "PMC10864181",
+  "CITATION": "Zhao S, Crouse W, Qian S, Luo K, ...&, He X. (2024) Adjusting for genetic confounders in transcriptome-wide association studies improves discovery of risk genes of complex traits. Nat Genet, 56 (2) 336-347. doi:10.1038/s41588-023-01648-9. PMID 38279041",
+  "FIRST_AUTHOR": "Zhao S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

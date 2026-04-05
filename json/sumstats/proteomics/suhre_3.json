@@ -1,0 +1,32 @@
+{
+  "NAME": "Suhre",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 38412862,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "PEA/OLINK",
+  "DESCRIPTION": "rQTLs",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "\nSuhre, K. Genetic associations with ratios between protein levels detect new pQTLs and reveal protein-protein interactions. Cell Genom 4, 100506 (2024).\n  ",
+  "TITLE": "Genetic associations with ratios between protein levels detect new pQTLs and reveal protein-protein interactions.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2024",
+  "VOLUME": "4",
+  "ISSUE": "3",
+  "PAGE": "100506",
+  "Authors": "Suhre K",
+  "ABSTRACT": "Protein quantitative trait loci (pQTLs) are an invaluable source of information for drug target development because they provide genetic evidence to support protein function, suggest relationships between cis- and trans-associated proteins, and link proteins to disease endpoints. Using Olink proteomics data for 1,463 proteins measured in over 54,000 samples of the UK Biobank, we identified 4,248 associations with 2,821 ratios between protein levels (rQTLs). rQTLs were 7.6-fold enriched in known protein-protein interactions, suggesting that their ratios reflect biological links between the implicated proteins. Conducting a GWAS on ratios increased the number of discovered genetic signals by 24.7%. The approach can identify novel loci of clinical relevance, support causal gene identification, and reveal complex networks of interacting proteins. Taken together, our study adds significant value to the genetic insights that can be derived from the UKB proteomics data and motivates the wider use of ratios in large-scale GWAS.",
+  "DOI": "10.1016/j.xgen.2024.100506",
+  "PMC ID": "PMC10943581",
+  "CITATION": "Suhre K. (2024) Genetic associations with ratios between protein levels detect new pQTLs and reveal protein-protein interactions. Cell Genom, 4 (3) 100506. doi:10.1016/j.xgen.2024.100506. PMID 38412862",
+  "FIRST_AUTHOR": "Suhre K",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

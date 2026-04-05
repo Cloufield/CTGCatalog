@@ -1,0 +1,16 @@
+{
+  "NAME": "Mexico City Prospective Study",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~150k",
+  "MANUAL_CITATION": " Ziyatdinov, A., Torres, J., Alegre-Diaz, J., Backman, J., Mbatchou, J., Turner, M., ... & Tapia-Conyer, R. (2022). Genotyping, sequencing and analysis of 140,000 adults from the Mexico City Prospective Study. bioRxiv.",
+  "URL": "https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico",
+  "DESCRIPTION": " Between 1998 and 2004, CTSU, in collaboration with the Mexican Ministry of Health, established a study in Mexico City, in which over 150,000 middle-aged adults (including 100,000 women and 50,000 men) provided information about their lifestyle and disease history, had physical measurements recorded (including weight, waist and hip circumference, blood pressure) and had a blood sample taken.",
+  "MAIN_ANCESTRY": "AMR",
+  "PARTICIPANTS": "Mexico City metropolitan adults",
+  "CITATION": "Ziyatdinov, A., Torres, J., Alegre-Diaz, J., Backman, J., Mbatchou, J., Turner, M., ... & Tapia-Conyer, R. (2022). Genotyping, sequencing and analysis of 140,000 adults from the Mexico City Prospective Study. bioRxiv.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "MR-MEGA",
+  "PMID": 28911207,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "MR-MEGA",
+  "FULL NAME": "Meta-Regression of Multi-AncEstry Genetic Association",
+  "KEYWORDS": "Multi-AncEstry",
+  "URL": "https://genomics.ut.ee/en/tools",
+  "DESCRIPTION": "MR-MEGA (Meta-Regression of Multi-AncEstry Genetic Association) is a tool to detect and fine-map complex trait association signals via multi-ancestry meta-regression.  This approach uses genome-wide metrics of diversity between populations to derive axes of genetic variation via multi-dimensional scaling [Purcell 2007].  Allelic effects of a variant across GWAS, weighted by their corresponding standard errors, can then be modelled in a linear regression framework, including the axes of genetic variation as covariates.  The flexibility of this model enables partitioning of the heterogeneity into components due to ancestry and residual variation, which would be expected to improve fine-mapping resolution.",
+  "MANUAL_CITATION": "Mägi, R., Horikoshi, M., Sofer, T., Mahajan, A., Kitajima, H., Franceschini, N., ... & Morris, A. P. (2017). Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution. Human molecular genetics, 26(18), 3639-3650.",
+  "TITLE": "Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution.",
+  "ISO": "Hum Mol Genet",
+  "JOURNAL": "Human molecular genetics",
+  "YEAR": "2017",
+  "VOLUME": "26",
+  "ISSUE": "18",
+  "PAGE": "3639-3650",
+  "Authors": "Mägi R,Horikoshi M,Sofer T,Mahajan A,Kitajima H,Franceschini N,McCarthy MI,COGENT-Kidney Consortium, T2D-GENES Consortium,Morris AP",
+  "ABSTRACT": "Trans-ethnic meta-analysis of genome-wide association studies (GWAS) across diverse populations can increase power to detect complex trait loci when the underlying causal variants are shared between ancestry groups. However, heterogeneity in allelic effects between GWAS at these loci can occur that is correlated with ancestry. Here, a novel approach is presented to detect SNP association and quantify the extent of heterogeneity in allelic effects that is correlated with ancestry. We employ trans-ethnic meta-regression to model allelic effects as a function of axes of genetic variation, derived from a matrix of mean pairwise allele frequency differences between GWAS, and implemented in the MR-MEGA software. Through detailed simulations, we demonstrate increased power to detect association for MR-MEGA over fixed- and random-effects meta-analysis across a range of scenarios of heterogeneity in allelic effects between ethnic groups. We also demonstrate improved fine-mapping resolution, in loci containing a single causal variant, compared to these meta-analysis approaches and PAINTOR, and equivalent performance to MANTRA at reduced computational cost. Application of MR-MEGA to trans-ethnic GWAS of kidney function in 71,461 individuals indicates stronger signals of association than fixed-effects meta-analysis when heterogeneity in allelic effects is correlated with ancestry. Application of MR-MEGA to fine-mapping four type 2 diabetes susceptibility loci in 22,086 cases and 42,539 controls highlights: (i) strong evidence for heterogeneity in allelic effects that is correlated with ancestry only at the index SNP for the association signal at the CDKAL1 locus; and (ii) 99% credible sets with six or fewer variants for five distinct association signals.",
+  "DOI": "10.1093/hmg/ddx280",
+  "PMC ID": "PMC5755684",
+  "CITATION": "Mägi R, Horikoshi M, Sofer T, Mahajan A, ...&, Morris AP. (2017) Trans-ethnic meta-regression of genome-wide association studies accounting for ancestry increases power for discovery and improves fine-mapping resolution. Hum Mol Genet, 26 (18) 3639-3650. doi:10.1093/hmg/ddx280. PMID 28911207",
+  "FIRST_AUTHOR": "Mägi R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

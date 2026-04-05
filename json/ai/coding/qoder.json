@@ -1,0 +1,13 @@
+{
+  "NAME": "Qoder",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "IDE",
+  "COMPANY": "Alibaba",
+  "URL": "https://qoder.com",
+  "DESCRIPTION": "Agentic coding platform with IDE, JetBrains plugin, and CLI—quest mode, repo-aware chat, and parallel expert-style agents.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

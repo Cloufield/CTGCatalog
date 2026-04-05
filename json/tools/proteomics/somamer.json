@@ -1,0 +1,24 @@
+{
+  "NAME": "SOMAmer",
+  "PMID": 21165148,
+  "SECTION": "Tools",
+  "TOPIC": "Proteomics",
+  "URL": "https://somalogic.com/somascan-platform/",
+  "MANUAL_CITATION": "Gold, L., Ayers, D., Bertino, J., Bock, C., Bock, A., Brody, E., ... & Zichi, D. (2010). Aptamer-based multiplexed proteomic technology for biomarker discovery. Nature Precedings, 1-1.\n\n",
+  "TITLE": "Aptamer-based multiplexed proteomic technology for biomarker discovery.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2010",
+  "VOLUME": "5",
+  "ISSUE": "12",
+  "PAGE": "e15004",
+  "Authors": "Gold L,Ayers D,Bertino J,Bock C,Bock A,Brody EN,Carter J,Dalby AB,Eaton BE,Fitzwater T,Flather D,Forbes A,Foreman T,Fowler C,Gawande B,Goss M,Gunn M,Gupta S,Halladay D,Heil J,Heilig J,Hicke B,Husar G,Janjic N,Jarvis T,Jennings S,Katilius E,Keeney TR,Kim N,Koch TH,Kraemer S,Kroiss L,Le N,Levine D,Lindsey W,Lollo B,Mayfield W,Mehan M,Mehler R,Nelson SK,Nelson M,Nieuwlandt D,Nikrad M,Ochsner U,Ostroff RM,Otis M,Parker T,Pietrasiewicz S,Resnicow DI,Rohloff J,Sanders G,Sattin S,Schneider D,Singer B,Stanton M,Sterkel A,Stewart A,Stratford S,Vaught JD,Vrkljan M,Walker JJ,Watrobka M,Waugh S,Weiss A,Wilcox SK,Wolfson A,Wolk SK,Zhang C,Zichi D",
+  "ABSTRACT": "BACKGROUND: The interrogation of proteomes (\"proteomics\") in a highly multiplexed and efficient manner remains a coveted and challenging goal in biology and medicine. METHODOLOGY/PRINCIPAL FINDINGS: We present a new aptamer-based proteomic technology for biomarker discovery capable of simultaneously measuring thousands of proteins from small sample volumes (15 µL of serum or plasma). Our current assay measures 813 proteins with low limits of detection (1 pM median), 7 logs of overall dynamic range (~100 fM-1 µM), and 5% median coefficient of variation. This technology is enabled by a new generation of aptamers that contain chemically modified nucleotides, which greatly expand the physicochemical diversity of the large randomized nucleic acid libraries from which the aptamers are selected. Proteins in complex matrices such as plasma are measured with a process that transforms a signature of protein concentrations into a corresponding signature of DNA aptamer concentrations, which is quantified on a DNA microarray. Our assay takes advantage of the dual nature of aptamers as both folded protein-binding entities with defined shapes and unique nucleotide sequences recognizable by specific hybridization probes. To demonstrate the utility of our proteomics biomarker discovery technology, we applied it to a clinical study of chronic kidney disease (CKD). We identified two well known CKD biomarkers as well as an additional 58 potential CKD biomarkers. These results demonstrate the potential utility of our technology to rapidly discover unique protein signatures characteristic of various disease states. CONCLUSIONS/SIGNIFICANCE: We describe a versatile and powerful tool that allows large-scale comparison of proteome profiles among discrete populations. This unbiased and highly multiplexed search engine will enable the discovery of novel biomarkers in a manner that is unencumbered by our incomplete knowledge of biology, thereby helping to advance the next generation of evidence-based medicine.",
+  "DOI": "10.1371/journal.pone.0015004",
+  "PMC ID": "PMC3000457",
+  "CITATION": "Gold L, Ayers D, Bertino J, Bock C, ...&, Zichi D. (2010) Aptamer-based multiplexed proteomic technology for biomarker discovery. PLoS One, 5 (12) e15004. doi:10.1371/journal.pone.0015004. PMID 21165148",
+  "FIRST_AUTHOR": "Gold L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

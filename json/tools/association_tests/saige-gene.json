@@ -1,0 +1,28 @@
+{
+  "NAME": "SAIGE-GENE",
+  "PMID": 32424355,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "SAIGE-GENE",
+  "FULL NAME": "SAIGE-GENE",
+  "URL": "https://github.com/weizhouUMICH/SAIGE",
+  "MANUAL_CITATION": "Zhou, Wei, et al. \"Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts.\" Nature genetics 52.6 (2020): 634-639.",
+  "TITLE": "Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "6",
+  "PAGE": "634-639",
+  "Authors": "Zhou W,Zhao Z,Nielsen JB,Fritsche LG,LeFaive J,Gagliano Taliun SA,Bi W,Gabrielsen ME,Daly MJ,Neale BM,Hveem K,Abecasis GR,Willer CJ,Lee S",
+  "ABSTRACT": "With very large sample sizes, biobanks provide an exciting opportunity to identify genetic components of complex traits. To analyze rare variants, region-based multiple-variant aggregate tests are commonly used to increase power for association tests. However, because of the substantial computational cost, existing region-based tests cannot analyze hundreds of thousands of samples while accounting for confounders such as population stratification and sample relatedness. Here we propose a scalable generalized mixed-model region-based association test, SAIGE-GENE, that is applicable to exome-wide and genome-wide region-based analysis for hundreds of thousands of samples and can account for unbalanced case-control ratios for binary traits. Through extensive simulation studies and analysis of the HUNT study with 69,716 Norwegian samples and the UK Biobank data with 408,910 White British samples, we show that SAIGE-GENE can efficiently analyze large-sample data (N > 400,000) with type I error rates well controlled.",
+  "DOI": "10.1038/s41588-020-0621-6",
+  "PMC ID": "PMC7871731",
+  "CITATION": "Zhou W, Zhao Z, Nielsen JB, Fritsche LG, ...&, Lee S. (2020) Scalable generalized linear mixed model for region-based association tests in large biobanks and cohorts. Nat Genet, 52 (6) 634-639. doi:10.1038/s41588-020-0621-6. PMID 32424355",
+  "FIRST_AUTHOR": "Zhou W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

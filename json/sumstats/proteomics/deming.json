@@ -1,0 +1,27 @@
+{
+  "NAME": "Deming",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 28247064,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "Genome-wide association study identifies four novel loci associated with Alzheimer's endophenotypes and disease modifiers.",
+  "ISO": "Acta Neuropathol",
+  "JOURNAL": "Acta neuropathologica",
+  "YEAR": "2017",
+  "VOLUME": "133",
+  "ISSUE": "5",
+  "PAGE": "839-856",
+  "Authors": "Deming Y,Li Z,Kapoor M,Harari O,Del-Aguila JL,Black K,Carrell D,Cai Y,Fernandez MV,Budde J,Ma S,Saef B,Howells B,Huang KL,Bertelsen S,Fagan AM,Holtzman DM,Morris JC,Kim S,Saykin AJ,De Jager PL,Albert M,Moghekar A,O'Brien R,Riemenschneider M,Petersen RC,Blennow K,Zetterberg H,Minthon L,Van Deerlin VM,Lee VM,Shaw LM,Trojanowski JQ,Schellenberg G,Haines JL,Mayeux R,Pericak-Vance MA,Farrer LA,Peskind ER,Li G,Di Narzo AF,Alzheimer’s Disease Neuroimaging Initiative (ADNI),Alzheimer Disease Genetic Consortium (ADGC),Kauwe JS,Goate AM,Cruchaga C",
+  "ABSTRACT": "More than 20 genetic loci have been associated with risk for Alzheimer's disease (AD), but reported genome-wide significant loci do not account for all the estimated heritability and provide little information about underlying biological mechanisms. Genetic studies using intermediate quantitative traits such as biomarkers, or endophenotypes, benefit from increased statistical power to identify variants that may not pass the stringent multiple test correction in case-control studies. Endophenotypes also contain additional information helpful for identifying variants and genes associated with other aspects of disease, such as rate of progression or onset, and provide context to interpret the results from genome-wide association studies (GWAS). We conducted GWAS of amyloid beta (Aβ42), tau, and phosphorylated tau (ptau181) levels in cerebrospinal fluid (CSF) from 3146 participants across nine studies to identify novel variants associated with AD. Five genome-wide significant loci (two novel) were associated with ptau181, including loci that have also been associated with AD risk or brain-related phenotypes. Two novel loci associated with Aβ42 near GLIS1 on 1p32.3 (β = -0.059, P = 2.08 × 10-8) and within SERPINB1 on 6p25 (β = -0.025, P = 1.72 × 10-8) were also associated with AD risk (GLIS1: OR = 1.105, P = 3.43 × 10-2), disease progression (GLIS1: β = 0.277, P = 1.92 × 10-2), and age at onset (SERPINB1: β = 0.043, P = 4.62 × 10-3). Bioinformatics indicate that the intronic SERPINB1 variant (rs316341) affects expression of SERPINB1 in various tissues, including the hippocampus, suggesting that SERPINB1 influences AD through an Aβ-associated mechanism. Analyses of known AD risk loci suggest CLU and FERMT2 may influence CSF Aβ42 (P = 0.001 and P = 0.009, respectively) and the INPP5D locus may affect ptau181 levels (P = 0.009); larger studies are necessary to verify these results. Together the findings from this study can be used to inform future AD studies.",
+  "DOI": "10.1007/s00401-017-1685-y",
+  "PMC ID": "PMC5613285",
+  "CITATION": "Deming Y, Li Z, Kapoor M, Harari O, ...&, Cruchaga C. (2017) Genome-wide association study identifies four novel loci associated with Alzheimer's endophenotypes and disease modifiers. Acta Neuropathol, 133 (5) 839-856. doi:10.1007/s00401-017-1685-y. PMID 28247064",
+  "FIRST_AUTHOR": "Deming Y",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "TreeMix",
+  "PMID": 23166502,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Phylogenetic_tree",
+  "TYPE": "Tools",
+  "SHORT NAME": "TreeMix",
+  "URL": "https://bitbucket.org/nygcresearch/treemix/wiki/Home",
+  "DESCRIPTION": "Pickrell, J., & Pritchard, J. (2012). Inference of population splits and mixtures from genome-wide allele frequency data. Nature Precedings, 1-1.",
+  "TITLE": "Inference of population splits and mixtures from genome-wide allele frequency data.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2012",
+  "VOLUME": "8",
+  "ISSUE": "11",
+  "PAGE": "e1002967",
+  "Authors": "Pickrell JK,Pritchard JK",
+  "ABSTRACT": "Many aspects of the historical relationships between populations in a species are reflected in genetic data. Inferring these relationships from genetic data, however, remains a challenging task. In this paper, we present a statistical model for inferring the patterns of population splits and mixtures in multiple populations. In our model, the sampled populations in a species are related to their common ancestor through a graph of ancestral populations. Using genome-wide allele frequency data and a Gaussian approximation to genetic drift, we infer the structure of this graph. We applied this method to a set of 55 human populations and a set of 82 dog breeds and wild canids. In both species, we show that a simple bifurcating tree does not fully describe the data; in contrast, we infer many migration events. While some of the migration events that we find have been detected previously, many have not. For example, in the human data, we infer that Cambodians trace approximately 16% of their ancestry to a population ancestral to other extant East Asian populations. In the dog data, we infer that both the boxer and basenji trace a considerable fraction of their ancestry (9% and 25%, respectively) to wolves subsequent to domestication and that East Asian toy breeds (the Shih Tzu and the Pekingese) result from admixture between modern toy breeds and \"ancient\" Asian breeds. Software implementing the model described here, called TreeMix, is available at http://treemix.googlecode.com.",
+  "DOI": "10.1371/journal.pgen.1002967",
+  "PMC ID": "PMC3499260",
+  "CITATION": "Pickrell JK, Pritchard JK. (2012) Inference of population splits and mixtures from genome-wide allele frequency data. PLoS Genet, 8 (11) e1002967. doi:10.1371/journal.pgen.1002967. PMID 23166502",
+  "FIRST_AUTHOR": "Pickrell JK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

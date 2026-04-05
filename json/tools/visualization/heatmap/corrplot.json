@@ -1,0 +1,15 @@
+{
+  "NAME": "corrplot",
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Heatmap",
+  "TYPE": "Tools",
+  "SHORT NAME": "corrplot",
+  "FULL NAME": "corrplot",
+  "URL": "https://github.com/taiyun/corrplot",
+  "DESCRIPTION": "R package corrplot provides a visual exploratory tool on correlation matrix that supports automatic variable reordering to help detect hidden patterns among variables.",
+  "MANUAL_CITATION": "Wei T, Simko V (2021). R package 'corrplot': Visualization of a Correlation Matrix. (Version 0.92)",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

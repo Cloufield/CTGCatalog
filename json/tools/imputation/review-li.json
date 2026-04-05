@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Li",
+  "PMID": 19715440,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Li, Yun, et al. \"Genotype imputation.\" Annual review of genomics and human genetics 10 (2009): 387.",
+  "TITLE": "Genotype imputation.",
+  "ISO": "Annu Rev Genomics Hum Genet",
+  "JOURNAL": "Annual review of genomics and human genetics",
+  "YEAR": "2009",
+  "VOLUME": "10",
+  "ISSUE": "",
+  "PAGE": "387-406",
+  "Authors": "Li Y,Willer C,Sanna S,Abecasis G",
+  "ABSTRACT": "Genotype imputation is now an essential tool in the analysis of genome-wide association scans. This technique allows geneticists to accurately evaluate the evidence for association at genetic markers that are not directly genotyped. Genotype imputation is particularly useful for combining results across studies that rely on different genotyping platforms but also increases the power of individual scans. Here, we review the history and theoretical underpinnings of the technique. To illustrate performance of the approach, we summarize results from several gene mapping studies. Finally, we preview the role of genotype imputation in an era when whole genome resequencing is becoming increasingly common.",
+  "DOI": "10.1146/annurev.genom.9.081307.164242",
+  "PMC ID": "PMC2925172",
+  "CITATION": "Li Y, Willer C, Sanna S, Abecasis G. (2009) Genotype imputation. Annu Rev Genomics Hum Genet, 10 () 387-406. doi:10.1146/annurev.genom.9.081307.164242. PMID 19715440",
+  "FIRST_AUTHOR": "Li Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

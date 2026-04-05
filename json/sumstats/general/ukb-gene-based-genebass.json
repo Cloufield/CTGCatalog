@@ -1,0 +1,29 @@
+{
+  "NAME": "UKB gene-based (Genebass)",
+  "PMID": 36778668,
+  "URL": "https://genebass.org/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "Datasets",
+  "MANUAL_CITATION": "Karczewski, K. J., Solomonson, M., Chao, K. R., Goodrich, J. K., Tiao, G., Lu, W., ... & Neale, B. M. (2022). Systematic single-variant and gene-based association testing of thousands of phenotypes in 394,841 UK Biobank exomes. Cell Genomics, 2(9).",
+  "TITLE": "Systematic single-variant and gene-based association testing of thousands of phenotypes in 394,841 UK Biobank exomes.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2022",
+  "VOLUME": "2",
+  "ISSUE": "9",
+  "PAGE": "100168",
+  "Authors": "Karczewski KJ,Solomonson M,Chao KR,Goodrich JK,Tiao G,Lu W,Riley-Gillis BM,Tsai EA,Kim HI,Zheng X,Rahimov F,Esmaeeli S,Grundstad AJ,Reppell M,Waring J,Jacob H,Sexton D,Bronson PG,Chen X,Hu X,Goldstein JI,King D,Vittal C,Poterba T,Palmer DS,Churchhouse C,Howrigan DP,Zhou W,Watts NA,Nguyen K,Nguyen H,Mason C,Farnham C,Tolonen C,Gauthier LD,Gupta N,MacArthur DG,Rehm HL,Seed C,Philippakis AA,Daly MJ,Davis JW,Runz H,Miller MR,Neale BM",
+  "ABSTRACT": "Genome-wide association studies have successfully discovered thousands of common variants associated with human diseases and traits, but the landscape of rare variations in human disease has not been explored at scale. Exome-sequencing studies of population biobanks provide an opportunity to systematically evaluate the impact of rare coding variations across a wide range of phenotypes to discover genes and allelic series relevant to human health and disease. Here, we present results from systematic association analyses of 4,529 phenotypes using single-variant and gene tests of 394,841 individuals in the UK Biobank with exome-sequence data. We find that the discovery of genetic associations is tightly linked to frequency and is correlated with metrics of deleteriousness and natural selection. We highlight biological findings elucidated by these data and release the dataset as a public resource alongside the Genebass browser for rapidly exploring rare-variant association results.",
+  "DOI": "10.1016/j.xgen.2022.100168",
+  "PMC ID": "PMC9903662",
+  "CITATION": "Karczewski KJ, Solomonson M, Chao KR, Goodrich JK, ...&, Neale BM. (2022) Systematic single-variant and gene-based association testing of thousands of phenotypes in 394,841 UK Biobank exomes. Cell Genom, 2 (9) 100168. doi:10.1016/j.xgen.2022.100168. PMID 36778668",
+  "FIRST_AUTHOR": "Karczewski KJ",
+  "DESCRIPTION": "UK Biobank gene-based association results from the Genebass / exome analysis resource.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

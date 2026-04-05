@@ -1,0 +1,26 @@
+{
+  "NAME": "ARGweaver-D",
+  "PMID": 32760067,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "ARGweaver-D",
+  "DESCRIPTION": "Hubisz, M. J., Williams, A. L. & Siepel, A. Mapping gene flow between ancient hominins through demography-aware inference of the ancestral recombination graph. PLoS Genet. 16, e1008895 (2020).\n  ",
+  "TITLE": "Mapping gene flow between ancient hominins through demography-aware inference of the ancestral recombination graph.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "8",
+  "PAGE": "e1008895",
+  "Authors": "Hubisz MJ,Williams AL,Siepel A",
+  "ABSTRACT": "The sequencing of Neanderthal and Denisovan genomes has yielded many new insights about interbreeding events between extinct hominins and the ancestors of modern humans. While much attention has been paid to the relatively recent gene flow from Neanderthals and Denisovans into modern humans, other instances of introgression leave more subtle genomic evidence and have received less attention. Here, we present a major extension of the ARGweaver algorithm, called ARGweaver-D, which can infer local genetic relationships under a user-defined demographic model that includes population splits and migration events. This Bayesian algorithm probabilistically samples ancestral recombination graphs (ARGs) that specify not only tree topologies and branch lengths along the genome, but also indicate migrant lineages. The sampled ARGs can therefore be parsed to produce probabilities of introgression along the genome. We show that this method is well powered to detect the archaic migration into modern humans, even with only a few samples. We then show that the method can also detect introgressed regions stemming from older migration events, or from unsampled populations. We apply it to human, Neanderthal, and Denisovan genomes, looking for signatures of older proposed migration events, including ancient humans into Neanderthal, and unknown archaic hominins into Denisovans. We identify 3% of the Neanderthal genome that is putatively introgressed from ancient humans, and estimate that the gene flow occurred between 200-300kya. We find no convincing evidence that negative selection acted against these regions. Finally, we predict that 1% of the Denisovan genome was introgressed from an unsequenced, but highly diverged, archaic hominin ancestor. About 15% of these \"super-archaic\" regions-comprising at least about 4Mb-were, in turn, introgressed into modern humans and continue to exist in the genomes of people alive today.",
+  "DOI": "10.1371/journal.pgen.1008895",
+  "PMC ID": "PMC7410169",
+  "CITATION": "Hubisz MJ, Williams AL, Siepel A. (2020) Mapping gene flow between ancient hominins through demography-aware inference of the ancestral recombination graph. PLoS Genet, 16 (8) e1008895. doi:10.1371/journal.pgen.1008895. PMID 32760067",
+  "FIRST_AUTHOR": "Hubisz MJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

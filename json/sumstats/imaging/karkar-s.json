@@ -1,0 +1,33 @@
+{
+  "NAME": "Karkar S",
+  "ADD_SUFFIX": 1,
+  "PMID": 33664500,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "T1-weighted MRI: 123 brain sulcus opening value (a measure of sulcal width)",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 16304,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Karkar, S. et al. Genome-wide haplotype association study in imaging genetics using whole-brain sulcal openings of 16,304 UK Biobank subjects. Eur. J. Hum. Genet. 29, 1424–1437 (2021).",
+  "MANUAL_YEAR": 2021,
+  "TITLE": "Genome-wide haplotype association study in imaging genetics using whole-brain sulcal openings of 16,304 UK Biobank subjects.",
+  "ISO": "Eur J Hum Genet",
+  "JOURNAL": "European journal of human genetics : EJHG",
+  "YEAR": "2021",
+  "VOLUME": "29",
+  "ISSUE": "9",
+  "PAGE": "1424-1437",
+  "Authors": "Karkar S,Dandine-Roulland C,Mangin JF,Le Guen Y,Philippe C,Deleuze JF,Pierre-Jean M,Le Floch E,Frouin V",
+  "ABSTRACT": "Neuroimaging-genetics cohorts gather two types of data: brain imaging and genetic data. They allow the discovery of associations between genetic variants and brain imaging features. They are invaluable resources to study the influence of genetics and environment in the brain features variance observed in normal and pathological populations. This study presents a genome-wide haplotype analysis for 123 brain sulcus opening value (a measure of sulcal width) across the whole brain that include 16,304 subjects from UK Biobank. Using genetic maps, we defined 119,548 blocks of low recombination rate distributed along the 22 autosomal chromosomes and analyzed 1,051,316 haplotypes. To test associations between haplotypes and complex traits, we designed three statistical approaches. Two of them use a model that includes all the haplotypes for a single block, while the last approach considers each haplotype independently. All the statistics produced were assessed as rigorously as possible. Thanks to the rich imaging dataset at hand, we used resampling techniques to assess False Positive Rate for each statistical approach in a genome-wide and brain-wide context. The results on real data show that genome-wide haplotype analyses are more sensitive than single-SNP approach and account for local complex Linkage Disequilibrium (LD) structure, which makes genome-wide haplotype analysis an interesting and statistically sound alternative to the single-SNP counterpart.",
+  "DOI": "10.1038/s41431-021-00827-8",
+  "PMC ID": "PMC8440755",
+  "CITATION": "Karkar S, Dandine-Roulland C, Mangin JF, Le Guen Y, ...&, Frouin V. (2021) Genome-wide haplotype association study in imaging genetics using whole-brain sulcal openings of 16,304 UK Biobank subjects. Eur J Hum Genet, 29 (9) 1424-1437. doi:10.1038/s41431-021-00827-8. PMID 33664500",
+  "FIRST_AUTHOR": "Karkar S",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

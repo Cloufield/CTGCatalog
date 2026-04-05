@@ -1,0 +1,25 @@
+{
+  "NAME": "Concepts&Principals",
+  "PMID": 23863760,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Concepts&Principals",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Pierce, B. L., & Burgess, S. (2013). Efficient design for Mendelian randomization studies: subsample and 2-sample instrumental variable estimators. American journal of epidemiology, 178(7), 1177-1184.\n\n",
+  "TITLE": "Efficient design for Mendelian randomization studies: subsample and 2-sample instrumental variable estimators.",
+  "ISO": "Am J Epidemiol",
+  "JOURNAL": "American journal of epidemiology",
+  "YEAR": "2013",
+  "VOLUME": "178",
+  "ISSUE": "7",
+  "PAGE": "1177-84",
+  "Authors": "Pierce BL,Burgess S",
+  "ABSTRACT": "Mendelian randomization (MR) is a method for estimating the causal relationship between an exposure and an outcome using a genetic factor as an instrumental variable (IV) for the exposure. In the traditional MR setting, data on the IV, exposure, and outcome are available for all participants. However, obtaining complete exposure data may be difficult in some settings, due to high measurement costs or lack of appropriate biospecimens. We used simulated data sets to assess statistical power and bias for MR when exposure data are available for a subset (or an independent set) of participants. We show that obtaining exposure data for a subset of participants is a cost-efficient strategy, often having negligible effects on power in comparison with a traditional complete-data analysis. The size of the subset needed to achieve maximum power depends on IV strength, and maximum power is approximately equal to the power of traditional IV estimators. Weak IVs are shown to lead to bias towards the null when the subsample is small and towards the confounded association when the subset is relatively large. Various approaches for confidence interval calculation are considered. These results have important implications for reducing the costs and increasing the feasibility of MR studies.",
+  "DOI": "10.1093/aje/kwt084",
+  "PMC ID": "PMC3783091",
+  "CITATION": "Pierce BL, Burgess S. (2013) Efficient design for Mendelian randomization studies: subsample and 2-sample instrumental variable estimators. Am J Epidemiol, 178 (7) 1177-84. doi:10.1093/aje/kwt084. PMID 23863760",
+  "FIRST_AUTHOR": "Pierce BL",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

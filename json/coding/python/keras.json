@@ -1,0 +1,11 @@
+{
+  "NAME": "Keras",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://keras.io/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "High-level neural network API."
+}

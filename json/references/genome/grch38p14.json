@@ -1,0 +1,19 @@
+{
+  "NAME": "GRCh38.p14",
+  "SHORT NAME": "GRCh38.p14",
+  "FULL NAME": "Genome Reference Consortium Human Build 38 patch release 14",
+  "CATEGORY": "Genome",
+  "SOURCE": "GRC",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh38; GRC; NCBI; reference assembly; patch 14",
+  "DESCRIPTION": "NCBI/GRC human assembly build 38, patch 14 (GCF_000001405.40): current GRC primary human reference on the GRCh38 line, including cumulative sequence fixes and scaffold updates through p14. Use this accession when you need the exact GRC patch level that matches NCBI/RefSeq alignment products.",
+  "MANUAL_CITATION": "Genome Reference Consortium. GRCh38.p14 (GCF_000001405.40).",
+  "CITATION": "Genome Reference Consortium. Human genome assembly GRCh38.p14 (GCF_000001405.40). National Center for Biotechnology Information. https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40",
+  "URL": "https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.40",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

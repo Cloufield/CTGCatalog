@@ -1,0 +1,11 @@
+{
+  "NAME": "TensorFlow",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://www.tensorflow.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "End-to-end ML platform."
+}

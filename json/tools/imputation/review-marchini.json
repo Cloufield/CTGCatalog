@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Marchini",
+  "PMID": 20517342,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Marchini, Jonathan, and Bryan Howie. \"Genotype imputation for genome-wide association studies.\" Nature Reviews Genetics 11.7 (2010): 499-511.",
+  "TITLE": "Genotype imputation for genome-wide association studies.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2010",
+  "VOLUME": "11",
+  "ISSUE": "7",
+  "PAGE": "499-511",
+  "Authors": "Marchini J,Howie B",
+  "ABSTRACT": "In the past few years genome-wide association (GWA) studies have uncovered a large number of convincingly replicated associations for many complex human diseases. Genotype imputation has been used widely in the analysis of GWA studies to boost power, fine-map associations and facilitate the combination of results across studies using meta-analysis. This Review describes the details of several different statistical methods for imputing genotypes, illustrates and discusses the factors that influence imputation performance, and reviews methods that can be used to assess imputation performance and test association at imputed SNPs.",
+  "DOI": "10.1038/nrg2796",
+  "PMC ID": "",
+  "CITATION": "Marchini J, Howie B. (2010) Genotype imputation for genome-wide association studies. Nat Rev Genet, 11 (7) 499-511. doi:10.1038/nrg2796. PMID 20517342",
+  "FIRST_AUTHOR": "Marchini J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

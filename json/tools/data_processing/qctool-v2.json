@@ -1,0 +1,27 @@
+{
+  "NAME": "QCTOOL v2",
+  "PMID": 15789306,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "QCTOOL",
+  "FULL NAME": "QCTOOL",
+  "URL": "https://www.well.ox.ac.uk/~gav/qctool_v2/index.html",
+  "DESCRIPTION": "QCTOOL is a command-line utility program for manipulation and quality control of gwas datasets and other genome-wide data.",
+  "TITLE": "A note on exact tests of Hardy-Weinberg equilibrium.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2005",
+  "VOLUME": "76",
+  "ISSUE": "5",
+  "PAGE": "887-93",
+  "Authors": "Wigginton JE,Cutler DJ,Abecasis GR",
+  "ABSTRACT": "Deviations from Hardy-Weinberg equilibrium (HWE) can indicate inbreeding, population stratification, and even problems in genotyping. In samples of affected individuals, these deviations can also provide evidence for association. Tests of HWE are commonly performed using a simple chi2 goodness-of-fit test. We show that this chi2 test can have inflated type I error rates, even in relatively large samples (e.g., samples of 1,000 individuals that include approximately 100 copies of the minor allele). On the basis of previous work, we describe exact tests of HWE together with efficient computational methods for their implementation. Our methods adequately control type I error in large and small samples and are computationally efficient. They have been implemented in freely available code that will be useful for quality assessment of genotype data and for the detection of genetic association or population stratification in very large data sets.",
+  "DOI": "10.1086/429864",
+  "PMC ID": "PMC1199378",
+  "CITATION": "Wigginton JE, Cutler DJ, Abecasis GR. (2005) A note on exact tests of Hardy-Weinberg equilibrium. Am J Hum Genet, 76 (5) 887-93. doi:10.1086/429864. PMID 15789306",
+  "FIRST_AUTHOR": "Wigginton JE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

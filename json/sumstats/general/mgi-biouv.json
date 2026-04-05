@@ -1,0 +1,15 @@
+{
+  "NAME": "MGI BioUV",
+  "URL": "https://pheweb.org/MGI-BioVU/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Michigan Genomics Initiative PheWeb BioUV freeze — GWAS summary statistics.",
+  "MANUAL_CITATION": "Michigan Genomics Initiative (University of Michigan) — EHR-linked biobank GWAS; PheWeb BioUV freeze summary statistics.",
+  "MANUAL_YEAR": 2021,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

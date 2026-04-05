@@ -1,0 +1,19 @@
+{
+  "NAME": "Macdonald-Dunlop",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "PEA/OLINK",
+  "MANUAL_YEAR": 2021,
+  "MANUAL_CITATION": "\nMacdonald-Dunlop, E. et al. Mapping genetic determinants of 184 circulating proteins in 26,494 individuals to connect proteins and diseases. bioRxiv (2021) doi:10.1101/2021.08.03.21261494.\n  ",
+  "PREPRINT_DOI": "2021.08.03.21261494",
+  "SERVER": "medrxiv",
+  "CITATION": "Macdonald-Dunlop, E. et al. Mapping genetic determinants of 184 circulating proteins in 26,494 individuals to connect proteins and diseases. bioRxiv (2021) doi:10.1101/2021.08.03.21261494.",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

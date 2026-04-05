@@ -1,0 +1,16 @@
+{
+  "NAME": "Westlake gut fungi GWAS",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EAS",
+  "SAMPLE_SIZE": 7350,
+  "DESCRIPTION": "Genome-wide association analyses for human gut fungi (mycobiome) in Han Chinese (n = 7,350) from the Westlake Chinese Multi-omics GWAS Catalog. Companion publication was listed as unpublished on the catalog data page as of 2026.",
+  "URL": "https://omics.lab.westlake.edu.cn/data/fungi/phenotypes https://omics.lab.westlake.edu.cn/collect.html",
+  "CITATION": "Laboratory of Precision Nutrition and Computational Medicine, Westlake University. Gut fungi GWAS summary statistics, Han Chinese (n = 7,350). Westlake Chinese Multi-omics GWAS Catalog. https://omics.lab.westlake.edu.cn/data.html (accessed 2026). Associated manuscript cited on the portal as “Genetic architecture of the human gut mycobiome” (unpublished).",
+  "METAGENOME": "Gut fungi",
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

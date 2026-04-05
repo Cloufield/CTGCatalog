@@ -1,0 +1,27 @@
+{
+  "NAME": "CytoTRACE",
+  "SECTION": "Single_Cell",
+  "PMID": 31974247,
+  "TOPIC": "Trajectory",
+  "CATEGORY": "Trajectory",
+  "MANUAL_YEAR": 2020,
+  "URL": "https://cytotrace.stanford.edu/",
+  "DESCRIPTION": "CytoTRACE (Cellular (Cyto) Trajectory Reconstruction Analysis using gene Counts and Expression) is a computational method that predicts the differentiation state of cells from single-cell RNA-sequencing data. CytoTRACE leverages a simple, yet robust, determinant of developmental potential—the number of detectably expressed genes per cell, or gene counts. We have validated CytoTRACE on ~150K single-cell transcriptomes spanning 315 cell phenotypes, 52 lineages, 14 tissue types, 9 scRNA-seq platforms, and 5 species.",
+  "MANUAL_CITATION": "\nGulati, G. S. et al. Single-cell transcriptional diversity is a hallmark of developmental potential. Science 367, 405–411 (2020).\n  \n",
+  "TITLE": "Single-cell transcriptional diversity is a hallmark of developmental potential.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2020",
+  "VOLUME": "367",
+  "ISSUE": "6476",
+  "PAGE": "405-411",
+  "Authors": "Gulati GS,Sikandar SS,Wesche DJ,Manjunath A,Bharadwaj A,Berger MJ,Ilagan F,Kuo AH,Hsieh RW,Cai S,Zabala M,Scheeren FA,Lobo NA,Qian D,Yu FB,Dirbas FM,Clarke MF,Newman AM",
+  "ABSTRACT": "Single-cell RNA sequencing (scRNA-seq) is a powerful approach for reconstructing cellular differentiation trajectories. However, inferring both the state and direction of differentiation is challenging. Here, we demonstrate a simple, yet robust, determinant of developmental potential-the number of expressed genes per cell-and leverage this measure of transcriptional diversity to develop a computational framework (CytoTRACE) for predicting differentiation states from scRNA-seq data. When applied to diverse tissue types and organisms, CytoTRACE outperformed previous methods and nearly 19,000 annotated gene sets for resolving 52 experimentally determined developmental trajectories. Additionally, it facilitated the identification of quiescent stem cells and revealed genes that contribute to breast tumorigenesis. This study thus establishes a key RNA-based feature of developmental potential and a platform for delineation of cellular hierarchies.",
+  "DOI": "10.1126/science.aax0249",
+  "PMC ID": "PMC7694873",
+  "CITATION": "Gulati GS, Sikandar SS, Wesche DJ, Manjunath A, ...&, Newman AM. (2020) Single-cell transcriptional diversity is a hallmark of developmental potential. Science, 367 (6476) 405-411. doi:10.1126/science.aax0249. PMID 31974247",
+  "FIRST_AUTHOR": "Gulati GS",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "NAME": "SCENIC+",
+  "SECTION": "Single_Cell",
+  "PMID": 37443338,
+  "TOPIC": "Network",
+  "CATEGORY": "Network",
+  "MANUAL_YEAR": 2023,
+  "URL": "https://scenicplus.readthedocs.io/en/latest/",
+  "MANUAL_CITATION": "\nBravo González-Blas, C. et al. SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks. Nat. Methods 20, 1355–1367 (2023).\n  \n",
+  "TITLE": "SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2023",
+  "VOLUME": "20",
+  "ISSUE": "9",
+  "PAGE": "1355-1367",
+  "Authors": "Bravo González-Blas C,De Winter S,Hulselmans G,Hecker N,Matetovici I,Christiaens V,Poovathingal S,Wouters J,Aibar S,Aerts S",
+  "ABSTRACT": "Joint profiling of chromatin accessibility and gene expression in individual cells provides an opportunity to decipher enhancer-driven gene regulatory networks (GRNs). Here we present a method for the inference of enhancer-driven GRNs, called SCENIC+. SCENIC+ predicts genomic enhancers along with candidate upstream transcription factors (TFs) and links these enhancers to candidate target genes. To improve both recall and precision of TF identification, we curated and clustered a motif collection with more than 30,000 motifs. We benchmarked SCENIC+ on diverse datasets from different species, including human peripheral blood mononuclear cells, ENCODE cell lines, melanoma cell states and Drosophila retinal development. Next, we exploit SCENIC+ predictions to study conserved TFs, enhancers and GRNs between human and mouse cell types in the cerebral cortex. Finally, we use SCENIC+ to study the dynamics of gene regulation along differentiation trajectories and the effect of TF perturbations on cell state. SCENIC+ is available at scenicplus.readthedocs.io .",
+  "DOI": "10.1038/s41592-023-01938-4",
+  "PMC ID": "PMC10482700",
+  "CITATION": "Bravo González-Blas C, De Winter S, Hulselmans G, Hecker N, ...&, Aerts S. (2023) SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks. Nat Methods, 20 (9) 1355-1367. doi:10.1038/s41592-023-01938-4. PMID 37443338",
+  "FIRST_AUTHOR": "Bravo González-Blas C",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

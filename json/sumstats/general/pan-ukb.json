@@ -1,0 +1,29 @@
+{
+  "NAME": "Pan-UKB",
+  "PMID": 40968291,
+  "URL": "https://pan.ukbb.broadinstitute.org/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "Datasets",
+  "MANUAL_CITATION": "\nKarczewski, K. J. et al. Pan-UK Biobank genome-wide association analyses enhance discovery and resolution of ancestry-enriched effects. Nat. Genet. 57, 2408–2417 (2025).\n  \n",
+  "TITLE": "Pan-UK Biobank genome-wide association analyses enhance discovery and resolution of ancestry-enriched effects.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "10",
+  "PAGE": "2408-2417",
+  "Authors": "Karczewski KJ,Gupta R,Kanai M,Lu W,Tsuo K,Wang Y,Walters RK,Turley P,Callier S,Shah NN,Baya N,Palmer DS,Goldstein JI,Sarma G,Solomonson M,Cheng N,Bryant S,Churchhouse C,Cusick CM,Poterba T,Compitello J,King D,Zhou W,Seed C,Finucane HK,Daly MJ,Neale BM,Atkinson EG,Martin AR",
+  "ABSTRACT": "Large biobanks, such as the UK Biobank (UKB), enable massive phenome by genome-wide association studies that elucidate genetic etiology of complex traits. However, people from diverse genetic ancestry groups are often excluded from association analyses due to concerns about population structure introducing false positive associations. Here we generate mixed model associations and meta-analyses across genetic ancestry groups, inclusive of a larger fraction of the UK Biobank than previous efforts, to produce freely available summary statistics for 7,266 traits. We build a quality control and analysis framework informed by genetic architecture. Overall, we identify 14,676 significant loci (P < 5 × 10-8) in the meta-analysis that were not found in the EUR genetic ancestry group alone, including new associations, for example between CAMK2D and triglycerides. We also highlight associations from ancestry-enriched variation, including a known pleiotropic missense variant in G6PD associated with several biomarker traits. We release these results publicly alongside frequently asked questions that describe caveats for interpretation of results, enhancing available resources for interpretation of risk variants across diverse populations.",
+  "DOI": "10.1038/s41588-025-02335-7",
+  "PMC ID": "",
+  "CITATION": "Karczewski KJ, Gupta R, Kanai M, Lu W, ...&, Martin AR. (2025) Pan-UK Biobank genome-wide association analyses enhance discovery and resolution of ancestry-enriched effects. Nat Genet, 57 (10) 2408-2417. doi:10.1038/s41588-025-02335-7. PMID 40968291",
+  "FIRST_AUTHOR": "Karczewski KJ",
+  "DESCRIPTION": "Pan-UK Biobank — multi-ancestry GWAS in UK Biobank across thousands of phenotypes.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

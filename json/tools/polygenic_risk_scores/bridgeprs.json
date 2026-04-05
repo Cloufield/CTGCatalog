@@ -1,0 +1,29 @@
+{
+  "NAME": "BridgePRS",
+  "PMID": 38123642,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "BridgePRS",
+  "FULL NAME": "BridgePRS",
+  "URL": "https://www.bridgeprs.net/",
+  "DESCRIPTION": "BridgePRS is a Bayesian-ridge (Bridge) approach, which \"bridges\" the PRS between two populations of different ancestry, developed to tackle the \"PRS Portability Problem\". The PRS Portability Problem causes lower accuracy PRS in underrepresented populations due to the biased sampling in GWAS data collection.",
+  "MANUAL_CITATION": "Hoggart, C. J., Choi, S. W., García-González, J., Souaiaia, T., Preuss, M., & O’Reilly, P. F. (2023). BridgePRS leverages shared genetic effects across ancestries to increase polygenic risk score portability. Nature Genetics, 1-7.",
+  "TITLE": "BridgePRS leverages shared genetic effects across ancestries to increase polygenic risk score portability.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "1",
+  "PAGE": "180-186",
+  "Authors": "Hoggart CJ,Choi SW,García-González J,Souaiaia T,Preuss M,O'Reilly PF",
+  "ABSTRACT": "Here we present BridgePRS, a novel Bayesian polygenic risk score (PRS) method that leverages shared genetic effects across ancestries to increase PRS portability. We evaluate BridgePRS via simulations and real UK Biobank data across 19 traits in individuals of African, South Asian and East Asian ancestry, using both UK Biobank and Biobank Japan genome-wide association study summary statistics; out-of-cohort validation is performed in the Mount Sinai (New York) BioMe biobank. BridgePRS is compared with the leading alternative, PRS-CSx, and two other PRS methods. Simulations suggest that the performance of BridgePRS relative to PRS-CSx increases as uncertainty increases: with lower trait heritability, higher polygenicity and greater between-population genetic diversity; and when causal variants are not present in the data. In real data, BridgePRS has a 61% larger average R2 than PRS-CSx in out-of-cohort prediction of African ancestry samples in BioMe (P = 6 × 10-5). BridgePRS is a computationally efficient, user-friendly and powerful approach for PRS analyses in non-European ancestries.",
+  "DOI": "10.1038/s41588-023-01583-9",
+  "PMC ID": "PMC10786716",
+  "CITATION": "Hoggart CJ, Choi SW, García-González J, Souaiaia T, ...&, O'Reilly PF. (2024) BridgePRS leverages shared genetic effects across ancestries to increase polygenic risk score portability. Nat Genet, 56 (1) 180-186. doi:10.1038/s41588-023-01583-9. PMID 38123642",
+  "FIRST_AUTHOR": "Hoggart CJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

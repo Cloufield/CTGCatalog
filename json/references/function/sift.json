@@ -1,0 +1,33 @@
+{
+  "NAME": "SIFT",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "SIFT",
+  "PMID": 12824425,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nNg, P. C. & Henikoff, S. SIFT: Predicting amino acid changes that affect protein function. Nucleic Acids Res. 31, 3812–3814 (2003).\n  \n",
+  "TOPIC": "Function",
+  "URL": "https://sift.bii.a-star.edu.sg/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Predicts whether substitutions affect protein function.",
+  "MANUAL_YEAR": 2009,
+  "SHORT NAME": "SIFT",
+  "FULL NAME": "Sorting Intolerant From Tolerant",
+  "KEYWORDS": "conservation, missense",
+  "USE": "variant scoring",
+  "TITLE": "SIFT: Predicting amino acid changes that affect protein function.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2003",
+  "VOLUME": "31",
+  "ISSUE": "13",
+  "PAGE": "3812-4",
+  "Authors": "Ng PC,Henikoff S",
+  "ABSTRACT": "Single nucleotide polymorphism (SNP) studies and random mutagenesis projects identify amino acid substitutions in protein-coding regions. Each substitution has the potential to affect protein function. SIFT (Sorting Intolerant From Tolerant) is a program that predicts whether an amino acid substitution affects protein function so that users can prioritize substitutions for further study. We have shown that SIFT can distinguish between functionally neutral and deleterious amino acid changes in mutagenesis studies and on human polymorphisms. SIFT is available at http://blocks.fhcrc.org/sift/SIFT.html.",
+  "DOI": "10.1093/nar/gkg509",
+  "PMC ID": "PMC168916",
+  "CITATION": "Ng PC, Henikoff S. (2003) SIFT: Predicting amino acid changes that affect protein function. Nucleic Acids Res, 31 (13) 3812-4. doi:10.1093/nar/gkg509. PMID 12824425",
+  "FIRST_AUTHOR": "Ng PC",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

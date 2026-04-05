@@ -1,0 +1,27 @@
+{
+  "NAME": "OmicsPred portal",
+  "PMID": 36991119,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "Platform",
+  "TYPE": "Platform",
+  "URL": "https://www.omicspred.org/",
+  "MANUAL_YEAR": 2023,
+  "MANUAL_CITATION": "Xu, Y., Ritchie, S. C., Liang, Y., Timmers, P. R., Pietzner, M., Lannelongue, L., ... & Inouye, M. (2023). An atlas of genetic scores to predict multi-omic traits. Nature, 1-9.",
+  "TITLE": "An atlas of genetic scores to predict multi-omic traits.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2023",
+  "VOLUME": "616",
+  "ISSUE": "7955",
+  "PAGE": "123-131",
+  "Authors": "Xu Y,Ritchie SC,Liang Y,Timmers PRHJ,Pietzner M,Lannelongue L,Lambert SA,Tahir UA,May-Wilson S,Foguet C,Johansson Å,Surendran P,Nath AP,Persyn E,Peters JE,Oliver-Williams C,Deng S,Prins B,Luan J,Bomba L,Soranzo N,Di Angelantonio E,Pirastu N,Tai ES,van Dam RM,Parkinson H,Davenport EE,Paul DS,Yau C,Gerszten RE,Mälarstig A,Danesh J,Sim X,Langenberg C,Wilson JF,Butterworth AS,Inouye M",
+  "ABSTRACT": "The use of omic modalities to dissect the molecular underpinnings of common diseases and traits is becoming increasingly common. But multi-omic traits can be genetically predicted, which enables highly cost-effective and powerful analyses for studies that do not have multi-omics1. Here we examine a large cohort (the INTERVAL study2; n = 50,000 participants) with extensive multi-omic data for plasma proteomics (SomaScan, n = 3,175; Olink, n = 4,822), plasma metabolomics (Metabolon HD4, n = 8,153), serum metabolomics (Nightingale, n = 37,359) and whole-blood Illumina RNA sequencing (n = 4,136), and use machine learning to train genetic scores for 17,227 molecular traits, including 10,521 that reach Bonferroni-adjusted significance. We evaluate the performance of genetic scores through external validation across cohorts of individuals of European, Asian and African American ancestries. In addition, we show the utility of these multi-omic genetic scores by quantifying the genetic control of biological pathways and by generating a synthetic multi-omic dataset of the UK Biobank3 to identify disease associations using a phenome-wide scan. We highlight a series of biological insights with regard to genetic mechanisms in metabolism and canonical pathway associations with disease; for example, JAK-STAT signalling and coronary atherosclerosis. Finally, we develop a portal ( https://www.omicspred.org/ ) to facilitate public access to all genetic scores and validation results, as well as to serve as a platform for future extensions and enhancements of multi-omic genetic scores.",
+  "DOI": "10.1038/s41586-023-05844-9",
+  "PMC ID": "PMC10323211",
+  "CITATION": "Xu Y, Ritchie SC, Liang Y, Timmers PRHJ, ...&, Inouye M. (2023) An atlas of genetic scores to predict multi-omic traits. Nature, 616 (7955) 123-131. doi:10.1038/s41586-023-05844-9. PMID 36991119",
+  "FIRST_AUTHOR": "Xu Y",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,33 +1,58 @@
 site_name: CTGCatalog
+site_url: https://cloufield.github.io/CTGCatalog/
+site_description: >-
+  Curated index of complex trait genetics resources—biobanks, GWAS summary statistics,
+  software tools, references, single-cell methods, major projects, and AI-related tooling.
 site_author: HE Yunye
 repo_name: 'GitHub'
 repo_url: https://github.com/Cloufield/CTGCatalog/
 edit_uri: ""
 copyright: "CTGCatalog is licensed under the MIT license"
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Cloufield/CTGCatalog
+      name: CTGCatalog on GitHub
+
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
       - navigation.tabs
       - navigation.top
+      - navigation.path
+      - navigation.prune
+      - toc.follow
       - search.highlight
       - search.suggest
       - search.share
-  font:
-      code: Roboto Mono
-      text: Roboto
+  font: false
   palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
       accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   logo:
       assets/logo.png
   favicon:
       assets/logo.png
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.min.css
 
 markdown_extensions:
+  - md_in_html
   - toc:
       toc_depth: 3
   - admonition
@@ -39,14 +64,18 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
 
 plugins:
+  - meta
+  - tags
   - search
   - mkdocs-jupyter
+
+not_in_nav: |
+  Trending/index.md
+  Trending/Trending_PubMed_GWAS.md
 
 nav: 
     - Home : index.md
@@ -56,39 +85,35 @@ nav:
       - AMERICA: Biobanks_AMERICA.md
       - ASIA: Biobanks_ASIA.md
       - EUROPE: Biobanks_EUROPE.md
-      - OCIENIA: Biobanks_OCIENIA.md
-    - References: 
-      - References: References.md 
-      - Epigenetics: References_Epigenetics.md
-      - Gene: References_Gene.md
-      - Genome: References_Genome.md
-      - LD: References_LD.md
-      - Phenotype: References_Phenotype.md
-      - Protein: References_Protein.md
-      - Variant: References_Variant.md
-      - scRNA: References_scRNA.md
-    - Single_Cell: 
-      - Single_Cell: Single_Cell.md 
-      - Annotation: Single_Cell_Annotation.md
-      - Framework: Single_Cell_Framework.md
-      - Harmonization: Single_Cell_Harmonization.md
-      - Network: Single_Cell_Network.md
-      - QC: Single_Cell_QC.md
-      - Trajectory: Single_Cell_Trajectory.md
+      - OCEANIA: Biobanks_OCEANIA.md
     - Sumstats: 
       - Sumstats: Sumstats.md 
+      - Epigenetics:
+        - Epigenetics: Sumstats_Epigenetics.md
+        - Fetal_brain: Sumstats_Epigenetics_Fetal_brain.md
+        - Single_cell: Sumstats_Epigenetics_Single_cell.md
+        - Whole_Blood: Sumstats_Epigenetics_Whole_Blood.md
       - General: Sumstats_General.md
+      - Gut_microbiome: Sumstats_Gut_microbiome.md
       - Imaging: Sumstats_Imaging.md
       - Metabolomics: Sumstats_Metabolomics.md
       - Proteomics: Sumstats_Proteomics.md
-    - Tools: 
-      - Tools: Tools.md 
-      - Admixture: Tools_Admixture.md
+      - Structural_variant: Sumstats_Structural_variant.md
+      - Transcriptomics:
+        - Transcriptomics: Sumstats_Transcriptomics.md
+        - Bulk_tissue: Sumstats_Transcriptomics_Bulk_tissue.md
+        - Long_read: Sumstats_Transcriptomics_Long_read.md
+        - Project: Sumstats_Transcriptomics_Project.md
+        - Single_cell: Sumstats_Transcriptomics_Single_cell.md
+    - GWAS Tools: 
+      - GWAS Tools: Tools.md 
       - Annotation: Tools_Annotation.md
       - Association_tests:
         - Association_tests: Tools_Association_tests.md
+        - Privacy_Preserving_GWAS_Tool: Tools_Association_tests_Privacy_Preserving_GWAS_Tool.md
         - RWAS: Tools_Association_tests_RWAS.md
         - TWAS: Tools_Association_tests_TWAS.md
+        - Time_to_event_phenotypes: Tools_Association_tests_Time_to_event_phenotypes.md
         - eQTL: Tools_Association_tests_eQTL.md
         - sQTL: Tools_Association_tests_sQTL.md
       - Colocalization: Tools_Colocalization.md
@@ -99,26 +124,71 @@ nav:
       - Functional_prediction: Tools_Functional_prediction.md
       - Gene_prioritization: Tools_Gene_prioritization.md
       - Gene_set_pathway_analysis: Tools_Gene_set_pathway_analysis.md
-      - Genealogy: Tools_Genealogy.md
       - GxE_interactions: Tools_GxE_interactions.md
       - HLA: Tools_HLA.md
       - Heritability_and_genetic_correlation: Tools_Heritability_and_genetic_correlation.md
       - Imputation: Tools_Imputation.md
       - Mendelian_randomization: Tools_Mendelian_randomization.md
       - Meta_and_Multi_triat: Tools_Meta_and_Multi_triat.md
-      - Phylogenetic_tree: Tools_Phylogenetic_tree.md
       - Polygenic_risk_scores: Tools_Polygenic_risk_scores.md
       - Power_analysis: Tools_Power_analysis.md
       - Proteomics: Tools_Proteomics.md
-      - Selection: Tools_Selection.md
       - Simulation: Tools_Simulation.md
       - Tissue_and_single_cell: Tools_Tissue_and_single_cell.md
+      - Visualization:
+        - Chromosome: Tools_Visualization_Chromosome.md
+        - Forest_plot: Tools_Visualization_Forest_plot.md
+        - GWAS: Tools_Visualization_GWAS.md
+        - Heatmap: Tools_Visualization_Heatmap.md
+        - LD: Tools_Visualization_LD.md
+        - UpSet_plots: Tools_Visualization_UpSet_plots.md
+        - Variants_on_protein: Tools_Visualization_Variants_on_protein.md
       - Winners_curse: Tools_Winners_curse.md
-    - Visualization: 
-      - Visualization: Visualization.md 
-      - Chromosome: Visualization_Chromosome.md
-      - Forest_plot: Visualization_Forest_plot.md
-      - GWAS: Visualization_GWAS.md
-      - Heatmap: Visualization_Heatmap.md
-      - LD: Visualization_LD.md
-      - Variants_on_protein: Visualization_Variants_on_protein.md
+    - Coding: 
+      - Coding: Coding.md 
+      - Conda: Coding_Conda.md
+      - Container: Coding_Container.md
+      - Documents: Coding_Documents.md
+      - General: Coding_General.md
+      - Linux: Coding_Linux.md
+      - Python: Coding_Python.md
+      - Workflow: Coding_Workflow.md
+    - Population Genetics: 
+      - Population Genetics: Population_Genetics.md 
+      - Population_Genetics:
+        - Admixture: Tools_Population_Genetics_Admixture.md
+        - Genealogy: Tools_Population_Genetics_Genealogy.md
+        - Phylogenetic_tree: Tools_Population_Genetics_Phylogenetic_tree.md
+        - Selection: Tools_Population_Genetics_Selection.md
+    - References: 
+      - References: References.md 
+      - Epigenetics: References_Epigenetics.md
+      - Function: References_Function.md
+      - Functional: References_Functional.md
+      - Gene: References_Gene.md
+      - Genome: References_Genome.md
+      - LD: References_LD.md
+      - Phenotype: References_Phenotype.md
+      - Protein: References_Protein.md
+      - Spatial: References_Spatial.md
+      - Variant: References_Variant.md
+      - scRNA: References_scRNA.md
+    - Single_Cell: 
+      - Single_Cell: Single_Cell.md 
+      - Annotation: Single_Cell_Annotation.md
+      - Framework: Single_Cell_Framework.md
+      - Harmonization: Single_Cell_Harmonization.md
+      - Network: Single_Cell_Network.md
+      - QC: Single_Cell_QC.md
+      - Trajectory: Single_Cell_Trajectory.md
+    - Projects: 
+      - Projects: Projects.md 
+      - 1000_Genomes: Projects_1000_Genomes.md
+      - GTEx: Projects_GTEx.md
+      - UK_Biobank: Projects_UK_Biobank.md
+    - AI: 
+      - AI: AI.md 
+      - Agent: AI_Agent.md
+      - Coding: AI_Coding.md
+      - Genomic_models: AI_Genomic_models.md
+      - Major_model_series: AI_Major_model_series.md

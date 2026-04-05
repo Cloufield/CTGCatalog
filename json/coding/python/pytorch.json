@@ -1,0 +1,11 @@
+{
+  "NAME": "PyTorch",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://pytorch.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Deep learning framework."
+}

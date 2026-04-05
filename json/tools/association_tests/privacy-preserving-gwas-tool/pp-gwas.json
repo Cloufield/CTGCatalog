@@ -1,0 +1,35 @@
+{
+  "NAME": "PP-GWAS",
+  "PMID": 41365878,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "Privacy-Preserving GWAS Tool",
+  "TYPE": "Tools",
+  "SHORT NAME": "PP-GWAS",
+  "FULL NAME": "PP-GWAS",
+  "KEYWORDS": "Privacy-preserving GWAS, multi-site, quantitative traits, federated analysis",
+  "URL": "https://github.com/mdppml/PP-GWAS https://doi.org/10.1038/s41467-025-66771-z",
+  "DESCRIPTION": "Privacy-preserving framework for multi-site GWAS on quantitative traits using a distributed linear mixed model and randomized encoding so servers never see raw genotypes or phenotypes—only obfuscated intermediates—while improving speed versus several cryptographic baselines.",
+  "TAGS": [
+    "GWAS",
+    "Privacy-preserving GWAS",
+    "Tool",
+    "Summary statistics"
+  ],
+  "TITLE": "PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "11030",
+  "Authors": "Swaminathan A,Hannemann A,Ünal AB,Pfeifer N,Akgün M",
+  "ABSTRACT": "Genome-wide association studies help uncover genetic influences on complex traits and diseases. Importantly, multi-site data collaborations enhance the statistical power of these studies but pose challenges due to the sensitivity of genomic data. Existing privacy-preserving approaches to performing multi-site genome-wide association studies rely on computationally expensive cryptographic techniques, which limit applicability. To address this, we present PP-GWAS, a privacy-preserving algorithm that improves efficiency and scalability while maintaining data privacy. Our method leverages randomized encoding within a distributed framework to perform stacked ridge regression on a linear mixed model, enabling robust analysis of quantitative phenotypes. We show experimentally using real-world and synthetic data that our approach achieves twice the computational speed of comparable methods while reducing resource consumption.",
+  "DOI": "10.1038/s41467-025-66771-z",
+  "PMC ID": "PMC12695980",
+  "CITATION": "Swaminathan A, Hannemann A, Ünal AB, Pfeifer N, ...&, Akgün M. (2025) PP-GWAS: Privacy Preserving Multi-Site Genome-wide Association Studies. Nat Commun, 16 (1) 11030. doi:10.1038/s41467-025-66771-z. PMID 41365878",
+  "FIRST_AUTHOR": "Swaminathan A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

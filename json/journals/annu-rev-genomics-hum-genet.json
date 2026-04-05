@@ -1,0 +1,19 @@
+{
+  "NAME": "Annual review of genomics and human genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Annu Rev Genomics Hum Genet",
+  "JOURNAL": "Annual review of genomics and human genetics",
+  "URL": "http://www.annualreviews.org/loi/genom",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Tools": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Review-Das",
+    "Review-Li"
+  ]
+}

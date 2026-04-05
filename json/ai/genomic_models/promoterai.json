@@ -1,0 +1,28 @@
+{
+  "NAME": "PromoterAI",
+  "SECTION": "AI",
+  "TOPIC": "Genomic_models",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "PromoterAI",
+  "FULL NAME": "PromoterAI",
+  "URL": "https://github.com/Illumina/PromoterAI",
+  "DESCRIPTION": "A deep learning model from Illumina that scores how variants in gene promoter regions alter predicted gene expression, trained on chromatin and expression-related signals at nucleotide resolution. Distributed as a Python package with precomputed genome-wide scores to support rare-disease and research variant interpretation alongside other splice and protein effect tools.",
+  "PMID": 40440429,
+  "TITLE": "Predicting expression-altering promoter mutations with deep learning.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2025",
+  "VOLUME": "389",
+  "ISSUE": "6760",
+  "PAGE": "eads7373",
+  "Authors": "Jaganathan K,Ersaro N,Novakovsky G,Wang Y,James T,Schwartzentruber J,Fiziev P,Kassam I,Cao F,Hawe J,Cavanagh H,Lim A,Png G,McRae J,Banerjee A,Kumar A,Ulirsch J,Zhang Y,Aguet F,Wainschtein P,Sundaram L,Salcedo A,Panagiotopoulou SK,Aghamirzaie D,Padhi E,Weng Z,Dong S,Smedley D,Caulfield M,O'Donnell-Luria A,Rehm HL,Sanders SJ,Kundaje A,Montgomery SB,Ross MT,Farh KK",
+  "ABSTRACT": "Only a minority of patients with rare genetic diseases are presently diagnosed by exome sequencing, suggesting that additional unrecognized pathogenic variants may reside in noncoding sequence. In this work, we describe PromoterAI, a deep neural network that accurately identifies noncoding promoter variants that dysregulate gene expression. We show that promoter variants with predicted expression-altering consequences produce outlier expression at both the RNA and protein levels in thousands of individuals and that these variants experience strong negative selection in human populations. We observed that clinically relevant genes in patients with rare diseases are enriched for such variants and validated their functional impact through reporter assays. Our estimates suggest that promoter variation accounts for 6% of the genetic burden associated with rare diseases.",
+  "DOI": "10.1126/science.ads7373",
+  "PMC ID": "",
+  "CITATION": "Jaganathan K, Ersaro N, Novakovsky G, Wang Y, ...&, Farh KK. (2025) Predicting expression-altering promoter mutations with deep learning. Science, 389 (6760) eads7373. doi:10.1126/science.ads7373. PMID 40440429",
+  "FIRST_AUTHOR": "Jaganathan K",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

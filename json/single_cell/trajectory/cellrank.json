@@ -1,0 +1,25 @@
+{
+  "NAME": "CellRank",
+  "SECTION": "Single_Cell",
+  "PMID": 35027767,
+  "TOPIC": "Trajectory",
+  "CATEGORY": "Trajectory",
+  "MANUAL_YEAR": 2022,
+  "MANUAL_CITATION": "\nLange, M. et al. CellRank for directed single-cell fate mapping. Nat. Methods 19, 159–170 (2022).\n  \n",
+  "TITLE": "CellRank for directed single-cell fate mapping.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2022",
+  "VOLUME": "19",
+  "ISSUE": "2",
+  "PAGE": "159-170",
+  "Authors": "Lange M,Bergen V,Klein M,Setty M,Reuter B,Bakhti M,Lickert H,Ansari M,Schniering J,Schiller HB,Pe'er D,Theis FJ",
+  "ABSTRACT": "Computational trajectory inference enables the reconstruction of cell state dynamics from single-cell RNA sequencing experiments. However, trajectory inference requires that the direction of a biological process is known, largely limiting its application to differentiating systems in normal development. Here, we present CellRank ( https://cellrank.org ) for single-cell fate mapping in diverse scenarios, including regeneration, reprogramming and disease, for which direction is unknown. Our approach combines the robustness of trajectory inference with directional information from RNA velocity, taking into account the gradual and stochastic nature of cellular fate decisions, as well as uncertainty in velocity vectors. On pancreas development data, CellRank automatically detects initial, intermediate and terminal populations, predicts fate potentials and visualizes continuous gene expression trends along individual lineages. Applied to lineage-traced cellular reprogramming data, predicted fate probabilities correctly recover reprogramming outcomes. CellRank also predicts a new dedifferentiation trajectory during postinjury lung regeneration, including previously unknown intermediate cell states, which we confirm experimentally.",
+  "DOI": "10.1038/s41592-021-01346-6",
+  "PMC ID": "PMC8828480",
+  "CITATION": "Lange M, Bergen V, Klein M, Setty M, ...&, Theis FJ. (2022) CellRank for directed single-cell fate mapping. Nat Methods, 19 (2) 159-170. doi:10.1038/s41592-021-01346-6. PMID 35027767",
+  "FIRST_AUTHOR": "Lange M",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "HIPO",
+  "PMID": 30289880,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "HIPO",
+  "FULL NAME": "heritability informed power optimization",
+  "MANUAL_YEAR": 2018,
+  "URL": "https://github.com/gqi/hipo",
+  "DESCRIPTION": "hipo is an R package that performs heritability informed power optimization (HIPO) for conducting multi-trait association analysis on summary level data.",
+  "MANUAL_CITATION": "\nQi, G. & Chatterjee, N. Heritability informed power optimization (HIPO) leads to enhanced detection of genetic associations across multiple traits. PLoS Genet. 14, e1007549 (2018).\n  ",
+  "TITLE": "Heritability informed power optimization (HIPO) leads to enhanced detection of genetic associations across multiple traits.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2018",
+  "VOLUME": "14",
+  "ISSUE": "10",
+  "PAGE": "e1007549",
+  "Authors": "Qi G,Chatterjee N",
+  "ABSTRACT": "Genome-wide association studies have shown that pleiotropy is a common phenomenon that can potentially be exploited for enhanced detection of susceptibility loci. We propose heritability informed power optimization (HIPO) for conducting powerful pleiotropic analysis using summary-level association statistics. We find optimal linear combinations of association coefficients across traits that are expected to maximize non-centrality parameter for the underlying test statistics, taking into account estimates of heritability, sample size variations and overlaps across the traits. Simulation studies show that the proposed method has correct type I error, robust to population stratification and leads to desired genome-wide enrichment of association signals. Application of the proposed method to publicly available data for three groups of genetically related traits, lipids (N = 188,577), psychiatric diseases (Ncase = 33,332, Ncontrol = 27,888) and social science traits (N ranging between 161,460 to 298,420 across individual traits) increased the number of genome-wide significant loci by 12%, 200% and 50%, respectively, compared to those found by analysis of individual traits. Evidence of replication is present for many of these loci in subsequent larger studies for individual traits. HIPO can potentially be extended to high-dimensional phenotypes as a way of dimension reduction to maximize power for subsequent genetic association testing.",
+  "DOI": "10.1371/journal.pgen.1007549",
+  "PMC ID": "PMC6192650",
+  "CITATION": "Qi G, Chatterjee N. (2018) Heritability informed power optimization (HIPO) leads to enhanced detection of genetic associations across multiple traits. PLoS Genet, 14 (10) e1007549. doi:10.1371/journal.pgen.1007549. PMID 30289880",
+  "FIRST_AUTHOR": "Qi G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

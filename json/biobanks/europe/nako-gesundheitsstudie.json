@@ -1,0 +1,16 @@
+{
+  "NAME": "NAKO Health Study",
+  "SHORT NAME": "NAKO",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~205k",
+  "DESCRIPTION": "German National Cohort (NAKO) is a large prospective study with biosamples and extensive phenotyping; genome-wide genotype data support GWAS and omics analyses under controlled access.",
+  "MANUAL_CITATION": "Ahrens, W., Jöckel, K. H., Patzak, A., Leitzmann, M., Schicht, T., Stang, A., ... & Greiser, K. H. (2014). The German National Cohort: aims, study design and organization. European Journal of Epidemiology, 29(5), 371-382.",
+  "URL": "https://www.nako.de/en/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "German adults (NAKO national cohort)"
+}

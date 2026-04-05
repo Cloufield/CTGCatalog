@@ -1,0 +1,17 @@
+{
+  "NAME": "Korean Genome Project Phase 2",
+  "SHORT NAME": "KGP Korea4K",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~4K",
+  "NOTE": "Second phase of Korean Genome Project",
+  "MANUAL_CITATION": "Jeon, S., Choi, H., Jeon, Y., Choi, W. H., Choi, H., An, K., ... & Bhak, J. (2024). Korea4K: whole genome sequences of 4,157 Koreans with 107 phenotypes derived from extensive health check-ups. GigaScience, 13, giae014.",
+  "URL": "http://koreangenome.org/Korea4K_Genomes",
+  "DESCRIPTION": "Korea4K is the second phase data release of the Korean Genome Project (KGP).",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Korean individuals (Korea4K reference)"
+}

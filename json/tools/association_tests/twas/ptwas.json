@@ -1,0 +1,30 @@
+{
+  "NAME": "PTWAS",
+  "PMID": 32912253,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "PTWAS",
+  "FULL NAME": "probabilistic TWAS",
+  "MANUAL_YEAR": 2020,
+  "KEYWORDS": "TWAS, instrumental variables",
+  "URL": "https://github.com/xqwen/ptwas",
+  "MANUAL_CITATION": "Zhang, Y., Quick, C., Yu, K., Barbeira, A., GTEx Consortium, Luca, F., ... & Wen, X. (2020). PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis. Genome biology, 21, 1-26.",
+  "TITLE": "PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2020",
+  "VOLUME": "21",
+  "ISSUE": "1",
+  "PAGE": "232",
+  "Authors": "Zhang Y,Quick C,Yu K,Barbeira A,GTEx Consortium,Luca F,Pique-Regi R,Kyung Im H,Wen X",
+  "ABSTRACT": "We propose a new computational framework, probabilistic transcriptome-wide association study (PTWAS), to investigate causal relationships between gene expressions and complex traits. PTWAS applies the established principles from instrumental variables analysis and takes advantage of probabilistic eQTL annotations to delineate and tackle the unique challenges arising in TWAS. PTWAS not only confers higher power than the existing methods but also provides novel functionalities to evaluate the causal assumptions and estimate tissue- or cell-type-specific gene-to-trait effects. We illustrate the power of PTWAS by analyzing the eQTL data across 49 tissues from GTEx (v8) and GWAS summary statistics from 114 complex traits.",
+  "DOI": "10.1186/s13059-020-02026-y",
+  "PMC ID": "PMC7488550",
+  "CITATION": "Zhang Y, Quick C, Yu K, Barbeira A, ...&, Wen X. (2020) PTWAS: investigating tissue-relevant causal molecular mechanisms of complex traits using probabilistic TWAS analysis. Genome Biol, 21 (1) 232. doi:10.1186/s13059-020-02026-y. PMID 32912253",
+  "FIRST_AUTHOR": "Zhang Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "NAME": "Cell genomics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "URL": "https://www.sciencedirect.com/journal/cell-genomics",
+  "ENTRY_COUNT": 9,
+  "CITED_BY_SECTION": {
+    "Tools": 2,
+    "Sumstats": 7
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Global Biobank",
+    "MANE PheWeb",
+    "UKB gene-based (Genebass)",
+    "Haas ME",
+    "Suhre"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "NAME": "GTEx",
+  "PMID": 29022597,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Bulk tissue",
+  "DESCRIPTION": "V6p",
+  "MANUAL_YEAR": 2017,
+  "MANUAL_CITATION": "\nAguet, F. et al. Genetic effects on gene expression across human tissues. Nature 550, 204–213 (2017).\n",
+  "TITLE": "Genetic effects on gene expression across human tissues.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2017",
+  "VOLUME": "550",
+  "ISSUE": "7675",
+  "PAGE": "204-213",
+  "Authors": "GTEx Consortium,Laboratory, Data Analysis &Coordinating Center (LDACC)—Analysis Working Group,Statistical Methods groups—Analysis Working Group,Enhancing GTEx (eGTEx) groups,NIH Common Fund,NIH/NCI,NIH/NHGRI,NIH/NIMH,NIH/NIDA,Biospecimen Collection Source Site—NDRI,Biospecimen Collection Source Site—RPCI,Biospecimen Core Resource—VARI,Brain Bank Repository—University of Miami Brain Endowment Bank,Leidos Biomedical—Project Management,ELSI Study,Genome Browser Data Integration &Visualization—EBI,Genome Browser Data Integration &Visualization—UCSC Genomics Institute, University of California Santa Cruz,Lead analysts:,Laboratory, Data Analysis &Coordinating Center (LDACC):,NIH program management:,Biospecimen collection:,Pathology:,eQTL manuscript working group:,Battle A,Brown CD,Engelhardt BE,Montgomery SB",
+  "ABSTRACT": "Characterization of the molecular function of the human genome and its variation across individuals is essential for identifying the cellular mechanisms that underlie human genetic traits and diseases. The Genotype-Tissue Expression (GTEx) project aims to characterize variation in gene expression levels across individuals and diverse tissues of the human body, many of which are not easily accessible. Here we describe genetic effects on gene expression levels across 44 human tissues. We find that local genetic variation affects gene expression levels for the majority of genes, and we further identify inter-chromosomal genetic effects for 93 genes and 112 loci. On the basis of the identified genetic effects, we characterize patterns of tissue specificity, compare local and distal effects, and evaluate the functional properties of the genetic effects. We also demonstrate that multi-tissue, multi-individual data can be used to identify genes and pathways affected by human disease-associated variation, enabling a mechanistic interpretation of gene regulation and the genetic basis of disease.",
+  "DOI": "10.1038/nature24277",
+  "PMC ID": "PMC5776756",
+  "CITATION": "GTEx Consortium, Laboratory,  Data Analysis &Coordinating Center (LDACC)—Analysis Working Group, Statistical Methods groups—Analysis Working Group, ...&, Montgomery SB. (2017) Genetic effects on gene expression across human tissues. Nature, 550 (7675) 204-213. doi:10.1038/nature24277. PMID 29022597",
+  "FIRST_AUTHOR": "GTEx Consortium",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "LAVA",
+  "PMID": 35288712,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Local heritability/genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "LAVA",
+  "FULL NAME": "Local Analysis of [co]Variant Association",
+  "URL": "https://ctg.cncr.nl/software/lava",
+  "DESCRIPTION": "LAVA is a tool to conduct genome-wide, local genetic correlation analysis on multiple traits, using GWAS summary statistics as input.",
+  "MANUAL_CITATION": "Werme, J., van der Sluis, S., Posthuma, D. et al. An integrated framework for local genetic correlation analysis. Nat Genet 54, 274–282 (2022). https://doi.org/10.1038/s41588-022-01017-y",
+  "TITLE": "An integrated framework for local genetic correlation analysis.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "3",
+  "PAGE": "274-282",
+  "Authors": "Werme J,van der Sluis S,Posthuma D,de Leeuw CA",
+  "ABSTRACT": "Genetic correlation (rg) analysis is used to identify phenotypes that may have a shared genetic basis. Traditionally, rg is studied globally, considering only the average of the shared signal across the genome, although this approach may fail when the rg is confined to particular genomic regions or in opposing directions at different loci. Current tools for local rg analysis are restricted to analysis of two phenotypes. Here we introduce LAVA, an integrated framework for local rg analysis that, in addition to testing the standard bivariate local rgs between two phenotypes, can evaluate local heritabilities and analyze conditional genetic relations between several phenotypes using partial correlation and multiple regression. Applied to 25 behavioral and health phenotypes, we show considerable heterogeneity in the bivariate local rgs across the genome, which is often masked by the global rg patterns, and demonstrate how our conditional approaches can elucidate more complex, multivariate genetic relations.",
+  "DOI": "10.1038/s41588-022-01017-y",
+  "PMC ID": "",
+  "CITATION": "Werme J, van der Sluis S, Posthuma D, de Leeuw CA. (2022) An integrated framework for local genetic correlation analysis. Nat Genet, 54 (3) 274-282. doi:10.1038/s41588-022-01017-y. PMID 35288712",
+  "FIRST_AUTHOR": "Werme J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

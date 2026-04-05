@@ -1,0 +1,24 @@
+{
+  "NAME": "eQTLGen Phase I",
+  "PMID": 34475573,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "URL": "https://www.eqtlgen.org/",
+  "MANUAL_CITATION": "\nVõsa, U. et al. Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression. Nat. Genet. 53, 1300–1310 (2021).\n",
+  "TITLE": "Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "9",
+  "PAGE": "1300-1310",
+  "Authors": "Võsa U,Claringbould A,Westra HJ,Bonder MJ,Deelen P,Zeng B,Kirsten H,Saha A,Kreuzhuber R,Yazar S,Brugge H,Oelen R,de Vries DH,van der Wijst MGP,Kasela S,Pervjakova N,Alves I,Favé MJ,Agbessi M,Christiansen MW,Jansen R,Seppälä I,Tong L,Teumer A,Schramm K,Hemani G,Verlouw J,Yaghootkar H,Sönmez Flitman R,Brown A,Kukushkina V,Kalnapenkis A,Rüeger S,Porcu E,Kronberg J,Kettunen J,Lee B,Zhang F,Qi T,Hernandez JA,Arindrarto W,Beutner F,BIOS Consortium,i2QTL Consortium,Dmitrieva J,Elansary M,Fairfax BP,Georges M,Heijmans BT,Hewitt AW,Kähönen M,Kim Y,Knight JC,Kovacs P,Krohn K,Li S,Loeffler M,Marigorta UM,Mei H,Momozawa Y,Müller-Nurasyid M,Nauck M,Nivard MG,Penninx BWJH,Pritchard JK,Raitakari OT,Rotzschke O,Slagboom EP,Stehouwer CDA,Stumvoll M,Sullivan P,'t Hoen PAC,Thiery J,Tönjes A,van Dongen J,van Iterson M,Veldink JH,Völker U,Warmerdam R,Wijmenga C,Swertz M,Andiappan A,Montgomery GW,Ripatti S,Perola M,Kutalik Z,Dermitzakis E,Bergmann S,Frayling T,van Meurs J,Prokisch H,Ahsan H,Pierce BL,Lehtimäki T,Boomsma DI,Psaty BM,Gharib SA,Awadalla P,Milani L,Ouwehand WH,Downes K,Stegle O,Battle A,Visscher PM,Yang J,Scholz M,Powell J,Gibson G,Esko T,Franke L",
+  "ABSTRACT": "Trait-associated genetic variants affect complex phenotypes primarily via regulatory mechanisms on the transcriptome. To investigate the genetics of gene expression, we performed cis- and trans-expression quantitative trait locus (eQTL) analyses using blood-derived expression from 31,684 individuals through the eQTLGen Consortium. We detected cis-eQTL for 88% of genes, and these were replicable in numerous tissues. Distal trans-eQTL (detected for 37% of 10,317 trait-associated variants tested) showed lower replication rates, partially due to low replication power and confounding by cell type composition. However, replication analyses in single-cell RNA-seq data prioritized intracellular trans-eQTL. Trans-eQTL exerted their effects via several mechanisms, primarily through regulation by transcription factors. Expression of 13% of the genes correlated with polygenic scores for 1,263 phenotypes, pinpointing potential drivers for those traits. In summary, this work represents a large eQTL resource, and its results serve as a starting point for in-depth interpretation of complex phenotypes.",
+  "DOI": "10.1038/s41588-021-00913-z",
+  "PMC ID": "PMC8432599",
+  "CITATION": "Võsa U, Claringbould A, Westra HJ, Bonder MJ, ...&, Franke L. (2021) Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression. Nat Genet, 53 (9) 1300-1310. doi:10.1038/s41588-021-00913-z. PMID 34475573",
+  "FIRST_AUTHOR": "Võsa U",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

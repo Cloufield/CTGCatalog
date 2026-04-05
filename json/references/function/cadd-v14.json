@@ -1,0 +1,26 @@
+{
+  "NAME": "CADD v1.4",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "CADD",
+  "PMID": 30371827,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nRentzsch, P., Witten, D., Cooper, G. M., Shendure, J. & Kircher, M. CADD: predicting the deleteriousness of variants throughout the human genome. Nucleic Acids Res. 47, D886–D894 (2019).\n",
+  "TOPIC": "Function",
+  "URL": "https://cadd.gs.washington.edu/",
+  "TITLE": "CADD: predicting the deleteriousness of variants throughout the human genome.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2019",
+  "VOLUME": "47",
+  "ISSUE": "D1",
+  "PAGE": "D886-D894",
+  "Authors": "Rentzsch P,Witten D,Cooper GM,Shendure J,Kircher M",
+  "ABSTRACT": "Combined Annotation-Dependent Depletion (CADD) is a widely used measure of variant deleteriousness that can effectively prioritize causal variants in genetic analyses, particularly highly penetrant contributors to severe Mendelian disorders. CADD is an integrative annotation built from more than 60 genomic features, and can score human single nucleotide variants and short insertion and deletions anywhere in the reference assembly. CADD uses a machine learning model trained on a binary distinction between simulated de novo variants and variants that have arisen and become fixed in human populations since the split between humans and chimpanzees; the former are free of selective pressure and may thus include both neutral and deleterious alleles, while the latter are overwhelmingly neutral (or, at most, weakly deleterious) by virtue of having survived millions of years of purifying selection. Here we review the latest updates to CADD, including the most recent version, 1.4, which supports the human genome build GRCh38. We also present updates to our website that include simplified variant lookup, extended documentation, an Application Program Interface and improved mechanisms for integrating CADD scores into other tools or applications. CADD scores, software and documentation are available at https://cadd.gs.washington.edu.",
+  "DOI": "10.1093/nar/gky1016",
+  "PMC ID": "PMC6323892",
+  "CITATION": "Rentzsch P, Witten D, Cooper GM, Shendure J, ...&, Kircher M. (2019) CADD: predicting the deleteriousness of variants throughout the human genome. Nucleic Acids Res, 47 (D1) D886-D894. doi:10.1093/nar/gky1016. PMID 30371827",
+  "FIRST_AUTHOR": "Rentzsch P",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "NAME": "Nature biomedical engineering",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Biomed Eng",
+  "JOURNAL": "Nature biomedical engineering",
+  "URL": "http://www.nature.com/nbme",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "MENTR"
+  ]
+}

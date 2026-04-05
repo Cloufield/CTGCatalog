@@ -1,0 +1,29 @@
+{
+  "NAME": "ADMIXTURE",
+  "PMID": 19648217,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Admixture",
+  "TYPE": "Tools",
+  "SHORT NAME": "ADMIXTURE",
+  "FULL NAME": "ADMIXTURE",
+  "USE": "ADMIXTURE is a software tool for maximum likelihood estimation of individual ancestries from multilocus SNP genotype datasets. It uses the same statistical model as STRUCTURE but calculates estimates much more rapidly using a fast numerical optimization algorithm.",
+  "URL": "https://dalexander.github.io/admixture/",
+  "DESCRIPTION": "Alexander, D. H., Novembre, J., & Lange, K. (2009). Fast model-based estimation of ancestry in unrelated individuals. Genome research, 19(9), 1655-1664.",
+  "TITLE": "Fast model-based estimation of ancestry in unrelated individuals.",
+  "ISO": "Genome Res",
+  "JOURNAL": "Genome research",
+  "YEAR": "2009",
+  "VOLUME": "19",
+  "ISSUE": "9",
+  "PAGE": "1655-64",
+  "Authors": "Alexander DH,Novembre J,Lange K",
+  "ABSTRACT": "Population stratification has long been recognized as a confounding factor in genetic association studies. Estimated ancestries, derived from multi-locus genotype data, can be used to perform a statistical correction for population stratification. One popular technique for estimation of ancestry is the model-based approach embodied by the widely applied program structure. Another approach, implemented in the program EIGENSTRAT, relies on Principal Component Analysis rather than model-based estimation and does not directly deliver admixture fractions. EIGENSTRAT has gained in popularity in part owing to its remarkable speed in comparison to structure. We present a new algorithm and a program, ADMIXTURE, for model-based estimation of ancestry in unrelated individuals. ADMIXTURE adopts the likelihood model embedded in structure. However, ADMIXTURE runs considerably faster, solving problems in minutes that take structure hours. In many of our experiments, we have found that ADMIXTURE is almost as fast as EIGENSTRAT. The runtime improvements of ADMIXTURE rely on a fast block relaxation scheme using sequential quadratic programming for block updates, coupled with a novel quasi-Newton acceleration of convergence. Our algorithm also runs faster and with greater accuracy than the implementation of an Expectation-Maximization (EM) algorithm incorporated in the program FRAPPE. Our simulations show that ADMIXTURE's maximum likelihood estimates of the underlying admixture coefficients and ancestral allele frequencies are as accurate as structure's Bayesian estimates. On real-world data sets, ADMIXTURE's estimates are directly comparable to those from structure and EIGENSTRAT. Taken together, our results show that ADMIXTURE's computational speed opens up the possibility of using a much larger set of markers in model-based ancestry estimation and that its estimates are suitable for use in correcting for population stratification in association studies.",
+  "DOI": "10.1101/gr.094052.109",
+  "PMC ID": "PMC2752134",
+  "CITATION": "Alexander DH, Novembre J, Lange K. (2009) Fast model-based estimation of ancestry in unrelated individuals. Genome Res, 19 (9) 1655-64. doi:10.1101/gr.094052.109. PMID 19648217",
+  "FIRST_AUTHOR": "Alexander DH",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

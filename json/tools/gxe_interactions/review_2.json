@@ -1,0 +1,25 @@
+{
+  "NAME": "Review",
+  "PMID": 15803198,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Hunter, D. J. (2005). Gene–environment interactions in human diseases. Nature reviews genetics, 6(4), 287-298.",
+  "TITLE": "Gene-environment interactions in human diseases.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2005",
+  "VOLUME": "6",
+  "ISSUE": "4",
+  "PAGE": "287-98",
+  "Authors": "Hunter DJ",
+  "ABSTRACT": "Studies of gene-environment interactions aim to describe how genetic and environmental factors jointly influence the risk of developing a human disease. Gene-environment interactions can be described by using several models, which take into account the various ways in which genetic effects can be modified by environmental exposures, the number of levels of these exposures and the model on which the genetic effects are based. Choice of study design, sample size and genotyping technology influence the analysis and interpretation of observed gene-environment interactions. Current systems for reporting epidemiological studies make it difficult to assess whether the observed interactions are reproducible, so suggestions are made for improvements in this area.",
+  "DOI": "10.1038/nrg1578",
+  "PMC ID": "",
+  "CITATION": "Hunter DJ. (2005) Gene-environment interactions in human diseases. Nat Rev Genet, 6 (4) 287-98. doi:10.1038/nrg1578. PMID 15803198",
+  "FIRST_AUTHOR": "Hunter DJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

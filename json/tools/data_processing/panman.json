@@ -1,0 +1,28 @@
+{
+  "NAME": "PanMAN",
+  "PMID": 41526696,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "PanMAN",
+  "FULL NAME": "Pangenome Mutation-Annotated Network",
+  "KEYWORDS": "pangenome, microbial genomics, compression, mutation-annotated tree, phylogeny",
+  "URL": "https://github.com/TurakhiaLab/panman https://turakhia.ucsd.edu/panman/",
+  "DESCRIPTION": "PanMAN is a compact pangenome representation built from mutation-annotated trees (PanMATs) linked into a network, designed to compress and query shared evolutionary history across large microbial pathogen collections.",
+  "TITLE": "Compressive pangenomics using mutation-annotated networks.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "58",
+  "ISSUE": "2",
+  "PAGE": "445-453",
+  "Authors": "Walia S,Motwani H,Tseng YH,Smith K,Corbett-Detig R,Turakhia Y",
+  "ABSTRACT": "Pangenomics is an emerging field that uses collections of genomes, rather than a single reference, to reduce bias and capture intra-species diversity. However, existing pangenomic data formats face challenges in scaling to millions of genomes and primarily emphasize variation, often neglecting the underlying mutational events and evolutionary relationships. This work introduces Pangenome Mutation-Annotated Network (PanMAN), a lossless pangenome representation that achieves compression ratios ranging from 3.5-1,391× in file sizes compared to existing variation-preserving formats, with performance generally improving on larger datasets. In addition to compression, PanMAN increases representational capacity by encoding detailed mutational and evolutionary histories inferred across genomes, thereby enabling new biological insights. Using PanMAN, a comprehensive SARS-CoV-2 pangenome was constructed from 8 million publicly available sequences, requiring only 366 MB of disk space. We also present 'panmanUtils', a toolkit that supports common analyses and ensures interoperability with existing software. PanMAN is poised to greatly improve the scale, speed, resolution and scope of pangenomic analysis and data sharing.",
+  "DOI": "10.1038/s41588-025-02478-7",
+  "PMC ID": "",
+  "CITATION": "Walia S, Motwani H, Tseng YH, Smith K, ...&, Turakhia Y. (2026) Compressive pangenomics using mutation-annotated networks. Nat Genet, 58 (2) 445-453. doi:10.1038/s41588-025-02478-7. PMID 41526696",
+  "FIRST_AUTHOR": "Walia S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "NAME": "Generation Scotland",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~24k",
+  "MANUAL_CITATION": " Smith, B. H., Campbell, A., Linksted, P., Fitzpatrick, B., Jackson, C., Kerr, S. M., ... & Morris, A. D. (2013). Cohort Profile: Generation Scotland: Scottish Family Health Study (GS: SFHS). The study, its participants and their potential for genetic research on health and illness. International journal of epidemiology, 42(3), 689-700.",
+  "URL": "https://www.ed.ac.uk/generation-scotland",
+  "DESCRIPTION": " Generation Scotland is a research study looking at the health and well-being of volunteers and their families. Generation Scotland combines responses to questionnaires of health and well-being from birth through life. We combine this with NHS health records and innovative laboratory science to understand health trajectories. We work closely with researchers and our volunteers to create a rich evidence base for understanding health. Through this rigorous, ethical and safe approach to research, we seek to enable meaningful change in public health.   ",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Scottish adults and families"
+}

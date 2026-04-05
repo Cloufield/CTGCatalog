@@ -1,0 +1,28 @@
+{
+  "NAME": "PCHAT",
+  "PMID": 17922480,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "PCHAT",
+  "FULL NAME": "principal component of heritability association test",
+  "MANUAL_YEAR": 2008,
+  "MANUAL_CITATION": "\nKlei, L., Luca, D., Devlin, B. & Roeder, K. Pleiotropy and principal components of heritability combine to increase power for association analysis. Genet. Epidemiol. 32, 9–19 (2008).\n  ",
+  "TITLE": "Pleiotropy and principal components of heritability combine to increase power for association analysis.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2008",
+  "VOLUME": "32",
+  "ISSUE": "1",
+  "PAGE": "9-19",
+  "Authors": "Klei L,Luca D,Devlin B,Roeder K",
+  "ABSTRACT": "When many correlated traits are measured the potential exists to discover the coordinated control of these traits via genotyped polymorphisms. A common statistical approach to this problem involves assessing the relationship between each phenotype and each single nucleotide polymorphism (SNP) individually (PHN); and taking a Bonferroni correction for the effective number of independent tests conducted. Alternatively, one can apply a dimension reduction technique, such as estimation of principal components, and test for an association with the principal components of the phenotypes (PCP) rather than the individual phenotypes. Building on the work of Lange and colleagues we develop an alternative method based on the principal component of heritability (PCH). For each SNP the PCH approach reduces the phenotypes to a single trait that has a higher heritability than any other linear combination of the phenotypes. As a result, the association between a SNP and derived trait is often easier to detect than an association with any of the individual phenotypes or the PCP. When applied to unrelated subjects, PCH has a drawback. For each SNP it is necessary to estimate the vector of loadings that maximize the heritability over all phenotypes. We develop a method of iterated sample splitting that uses one portion of the data for training and the remainder for testing. This cross-validation approach maintains the type I error control and yet utilizes the data efficiently, resulting in a powerful test for association.",
+  "DOI": "10.1002/gepi.20257",
+  "PMC ID": "",
+  "CITATION": "Klei L, Luca D, Devlin B, Roeder K. (2008) Pleiotropy and principal components of heritability combine to increase power for association analysis. Genet Epidemiol, 32 (1) 9-19. doi:10.1002/gepi.20257. PMID 17922480",
+  "FIRST_AUTHOR": "Klei L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

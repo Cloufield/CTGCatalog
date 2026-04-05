@@ -1,0 +1,27 @@
+{
+  "NAME": "mRnd",
+  "PMID": 24159078,
+  "SECTION": "Tools",
+  "TOPIC": "Power_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "mRnd",
+  "FULL NAME": "Power calculations for Mendelian Randomization",
+  "URL": "https://shiny.cnsgenomics.com/mRnd/",
+  "MANUAL_CITATION": "Brion, M. J. A., Shakhbazov, K., & Visscher, P. M. (2013). Calculating statistical power in Mendelian randomization studies. International journal of epidemiology, 42(5), 1497-1501.",
+  "TITLE": "Calculating statistical power in Mendelian randomization studies.",
+  "ISO": "Int J Epidemiol",
+  "JOURNAL": "International journal of epidemiology",
+  "YEAR": "2013",
+  "VOLUME": "42",
+  "ISSUE": "5",
+  "PAGE": "1497-501",
+  "Authors": "Brion MJ,Shakhbazov K,Visscher PM",
+  "ABSTRACT": "In Mendelian randomization (MR) studies, where genetic variants are used as proxy measures for an exposure trait of interest, obtaining adequate statistical power is frequently a concern due to the small amount of variation in a phenotypic trait that is typically explained by genetic variants. A range of power estimates based on simulations and specific parameters for two-stage least squares (2SLS) MR analyses based on continuous variables has previously been published. However there are presently no specific equations or software tools one can implement for calculating power of a given MR study. Using asymptotic theory, we show that in the case of continuous variables and a single instrument, for example a single-nucleotide polymorphism (SNP) or multiple SNP predictor, statistical power for a fixed sample size is a function of two parameters: the proportion of variation in the exposure variable explained by the genetic predictor and the true causal association between the exposure and outcome variable. We demonstrate that power for 2SLS MR can be derived using the non-centrality parameter (NCP) of the statistical test that is employed to test whether the 2SLS regression coefficient is zero. We show that the previously published power estimates from simulations can be represented theoretically using this NCP-based approach, with similar estimates observed when the simulation-based estimates are compared with our NCP-based approach. General equations for calculating statistical power for 2SLS MR using the NCP are provided in this note, and we implement the calculations in a web-based application.",
+  "DOI": "10.1093/ije/dyt179",
+  "PMC ID": "PMC3807619",
+  "CITATION": "Brion MJ, Shakhbazov K, Visscher PM. (2013) Calculating statistical power in Mendelian randomization studies. Int J Epidemiol, 42 (5) 1497-501. doi:10.1093/ije/dyt179. PMID 24159078",
+  "FIRST_AUTHOR": "Brion MJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

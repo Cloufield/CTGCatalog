@@ -1,0 +1,16 @@
+{
+  "NAME": "Gutenberg Health Study",
+  "SHORT NAME": "GHS",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~15k",
+  "DESCRIPTION": "Population-based cohort from Mainz with cardiovascular focus, omics, and imaging; genome-wide data support GWAS on cardiometabolic and related traits.",
+  "MANUAL_CITATION": "Wild, P. S., Zeller, T., Beutel, M., Blettner, M., Dugi, K. A., Durek, P., ... & Blankenberg, S. (2012). The Gutenberg Health Study. Bundesgesundheitsblatt - Gesundheitsforschung - Gesundheitsschutz, 55(6), 824-829.",
+  "URL": "https://www.gutenberg-health-study.org/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "German adults (population-based Mainz region)"
+}

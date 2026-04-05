@@ -1,0 +1,30 @@
+{
+  "NAME": "LDpred2",
+  "PMID": 33326037,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDpred2",
+  "FULL NAME": "LDpred2",
+  "KEYWORDS": "Bayesian, R, LDpred2-grid (LDpred2), LDpred2-auto, LDpred2-sparse",
+  "URL": "https://privefl.github.io/bigsnpr/articles/LDpred2.html",
+  "DESCRIPTION": "LDpred-2 is one of the dedicated PRS programs which is an R package that uses a Bayesian approach to polygenic risk scoring.",
+  "MANUAL_CITATION": "Privé, F., Arbel, J., & Vilhjálmsson, B. J. (2020). LDpred2: better, faster, stronger. Bioinformatics, 36(22-23), 5424-5431.",
+  "TITLE": "LDpred2: better, faster, stronger.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2021",
+  "VOLUME": "36",
+  "ISSUE": "22-23",
+  "PAGE": "5424-5431",
+  "Authors": "Privé F,Arbel J,Vilhjálmsson BJ",
+  "ABSTRACT": "MOTIVATION: Polygenic scores have become a central tool in human genetics research. LDpred is a popular method for deriving polygenic scores based on summary statistics and a matrix of correlation between genetic variants. However, LDpred has limitations that may reduce its predictive performance. RESULTS: Here, we present LDpred2, a new version of LDpred that addresses these issues. We also provide two new options in LDpred2: a 'sparse' option that can learn effects that are exactly 0, and an 'auto' option that directly learns the two LDpred parameters from data. We benchmark predictive performance of LDpred2 against the previous version on simulated and real data, demonstrating substantial improvements in robustness and predictive accuracy compared to LDpred1. We then show that LDpred2 also outperforms other polygenic score methods recently developed, with a mean AUC over the 8 real traits analyzed here of 65.1%, compared to 63.8% for lassosum, 62.9% for PRS-CS and 61.5% for SBayesR. Note that LDpred2 provides more accurate polygenic scores when run genome-wide, instead of per chromosome. AVAILABILITY AND IMPLEMENTATION: LDpred2 is implemented in R package bigsnpr. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btaa1029",
+  "PMC ID": "PMC8016455",
+  "CITATION": "Privé F, Arbel J, Vilhjálmsson BJ. (2021) LDpred2: better, faster, stronger. Bioinformatics, 36 (22-23) 5424-5431. doi:10.1093/bioinformatics/btaa1029. PMID 33326037",
+  "FIRST_AUTHOR": "Privé F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "ROADMAP 2015",
+  "PMID": 25693563,
+  "SECTION": "References",
+  "TOPIC": "Epigenetics",
+  "CATEGORY": "ROADMAP",
+  "MANUAL_CITATION": "\n    Roadmap Epigenomics Consortium et al. Integrative analysis of 111 reference human epigenomes. Nature 518, 317–329 (2015).\n  ",
+  "URL": "https://maayanlab.cloud/Harmonizome/resource/Roadmap+Epigenomics\nhttps://egg2.wustl.edu/roadmap/web_portal/chr_state_learning.html#core_15state",
+  "TITLE": "Integrative analysis of 111 reference human epigenomes.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2015",
+  "VOLUME": "518",
+  "ISSUE": "7539",
+  "PAGE": "317-30",
+  "Authors": "Roadmap Epigenomics Consortium,Kundaje A,Meuleman W,Ernst J,Bilenky M,Yen A,Heravi-Moussavi A,Kheradpour P,Zhang Z,Wang J,Ziller MJ,Amin V,Whitaker JW,Schultz MD,Ward LD,Sarkar A,Quon G,Sandstrom RS,Eaton ML,Wu YC,Pfenning AR,Wang X,Claussnitzer M,Liu Y,Coarfa C,Harris RA,Shoresh N,Epstein CB,Gjoneska E,Leung D,Xie W,Hawkins RD,Lister R,Hong C,Gascard P,Mungall AJ,Moore R,Chuah E,Tam A,Canfield TK,Hansen RS,Kaul R,Sabo PJ,Bansal MS,Carles A,Dixon JR,Farh KH,Feizi S,Karlic R,Kim AR,Kulkarni A,Li D,Lowdon R,Elliott G,Mercer TR,Neph SJ,Onuchic V,Polak P,Rajagopal N,Ray P,Sallari RC,Siebenthall KT,Sinnott-Armstrong NA,Stevens M,Thurman RE,Wu J,Zhang B,Zhou X,Beaudet AE,Boyer LA,De Jager PL,Farnham PJ,Fisher SJ,Haussler D,Jones SJ,Li W,Marra MA,McManus MT,Sunyaev S,Thomson JA,Tlsty TD,Tsai LH,Wang W,Waterland RA,Zhang MQ,Chadwick LH,Bernstein BE,Costello JF,Ecker JR,Hirst M,Meissner A,Milosavljevic A,Ren B,Stamatoyannopoulos JA,Wang T,Kellis M",
+  "ABSTRACT": "The reference human genome sequence set the stage for studies of genetic variation and its association with human disease, but epigenomic studies lack a similar reference. To address this need, the NIH Roadmap Epigenomics Consortium generated the largest collection so far of human epigenomes for primary cells and tissues. Here we describe the integrative analysis of 111 reference human epigenomes generated as part of the programme, profiled for histone modification patterns, DNA accessibility, DNA methylation and RNA expression. We establish global maps of regulatory elements, define regulatory modules of coordinated activity, and their likely activators and repressors. We show that disease- and trait-associated genetic variants are enriched in tissue-specific epigenomic marks, revealing biologically relevant cell types for diverse human traits, and providing a resource for interpreting the molecular basis of human disease. Our results demonstrate the central role of epigenomic information for understanding gene regulation, cellular differentiation and human disease.",
+  "DOI": "10.1038/nature14248",
+  "PMC ID": "PMC4530010",
+  "CITATION": "Roadmap Epigenomics Consortium, Kundaje A, Meuleman W, Ernst J, ...&, Kellis M. (2015) Integrative analysis of 111 reference human epigenomes. Nature, 518 (7539) 317-30. doi:10.1038/nature14248. PMID 25693563",
+  "FIRST_AUTHOR": "Roadmap Epigenomics Consortium",
+  "_meta": {
+    "source_sheet": "Regulatory elements"
+  }
+}

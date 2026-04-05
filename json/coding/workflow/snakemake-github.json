@@ -1,0 +1,11 @@
+{
+  "NAME": "Snakemake (GitHub)",
+  "SECTION": "Coding",
+  "TOPIC": "Workflow",
+  "TYPE": "Resource",
+  "URL": "https://github.com/snakemake/snakemake",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Snakemake source repository."
+}

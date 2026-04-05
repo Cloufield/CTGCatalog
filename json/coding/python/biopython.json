@@ -1,0 +1,11 @@
+{
+  "NAME": "Biopython",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://biopython.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Tools for biological computation in Python."
+}

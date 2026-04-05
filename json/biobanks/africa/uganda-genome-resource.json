@@ -1,0 +1,17 @@
+{
+  "NAME": "Uganda Genome Resource",
+  "SHORT NAME": "UGR",
+  "SECTION": "Biobanks",
+  "TOPIC": "AFRICA",
+  "CONTINENT": "AFRICA",
+  "SAMPLE SIZE": "~6k",
+  "NOTE": "(MedicalResearchCouncil (MRC)/UgandaVirusResearchInstitute (UVRI) and LSHTM Uganda Research Unit)",
+  "MANUAL_CITATION": "Gurdasani, D., Carstensen, T., Fatumo, S., Chen, G., Franklin, C. S., Prado-Martinez, J., ... & Sandhu, M. S. (2019). Uganda genome resource enables insights into population history and genomic discovery in Africa. Cell, 179(4), 984-1002.",
+  "URL": "https://www.lshtm.ac.uk/research/units/mrc-uganda",
+  "DESCRIPTION": "Whole-genome and genotype resource from Ugandan cohorts (MRC/UVRI and LSHTM Uganda Research Unit), supporting African population history inference, imputation, and variant discovery.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR",
+  "PARTICIPANTS": "Ugandan participants (genome resource)"
+}

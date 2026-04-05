@@ -1,0 +1,18 @@
+{
+  "NAME": "Molecular therapy. Nucleic acids",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Mol Ther Nucleic Acids",
+  "JOURNAL": "Molecular therapy. Nucleic acids",
+  "URL": "http://www.sciencedirect.com/science/journal/21622531",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "SOMAmer"
+  ]
+}

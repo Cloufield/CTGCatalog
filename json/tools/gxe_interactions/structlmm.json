@@ -1,0 +1,28 @@
+{
+  "NAME": "StructLMM",
+  "PMID": 30478441,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "StructLMM",
+  "FULL NAME": "Structured Linear Mixed Model",
+  "URL": "https://github.com/limix/struct-lmm\nhttps://github.com/limix/limix",
+  "DESCRIPTION": "Structured Linear Mixed Model (StructLMM) is a computationally efficient method to test for and characterize loci that interact with multiple environments",
+  "MANUAL_CITATION": "Moore, R., Casale, F. P., Jan Bonder, M., Horta, D., Franke, L., Barroso, I., & Stegle, O. (2019). A linear mixed-model approach to study multivariate gene–environment interactions. Nature genetics, 51(1), 180-186.",
+  "TITLE": "A linear mixed-model approach to study multivariate gene-environment interactions.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2019",
+  "VOLUME": "51",
+  "ISSUE": "1",
+  "PAGE": "180-186",
+  "Authors": "Moore R,Casale FP,Jan Bonder M,Horta D,BIOS Consortium,Franke L,Barroso I,Stegle O",
+  "ABSTRACT": "Different exposures, including diet, physical activity, or external conditions can contribute to genotype-environment interactions (G×E). Although high-dimensional environmental data are increasingly available and multiple exposures have been implicated with G×E at the same loci, multi-environment tests for G×E are not established. Here, we propose the structured linear mixed model (StructLMM), a computationally efficient method to identify and characterize loci that interact with one or more environments. After validating our model using simulations, we applied StructLMM to body mass index in the UK Biobank, where our model yields previously known and novel G×E signals. Finally, in an application to a large blood eQTL dataset, we demonstrate that StructLMM can be used to study interactions with hundreds of environmental variables.",
+  "DOI": "10.1038/s41588-018-0271-0",
+  "PMC ID": "PMC6354905",
+  "CITATION": "Moore R, Casale FP, Jan Bonder M, Horta D, ...&, Stegle O. (2019) A linear mixed-model approach to study multivariate gene-environment interactions. Nat Genet, 51 (1) 180-186. doi:10.1038/s41588-018-0271-0. PMID 30478441",
+  "FIRST_AUTHOR": "Moore R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

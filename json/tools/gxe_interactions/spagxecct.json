@@ -1,0 +1,28 @@
+{
+  "NAME": "SPAGxECCT",
+  "PMID": 40157913,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "SPAGxECCT",
+  "KEYWORDS": "Cauchy combination test",
+  "URL": "https://github.com/YuzhuoMa97/SPAGxECCT",
+  "DESCRIPTION": "A scalable and accurate framework for large-scale genome-wide gene-environment interaction (G×E) analysis.",
+  "MANUAL_CITATION": "\nMa, Y., Zhao, Y., Zhang, J.-F. & Bi, W. Efficient and accurate framework for genome-wide gene-environment interaction analysis in large-scale biobanks. Nat. Commun. 16, 3064 (2025).\n",
+  "TITLE": "Efficient and accurate framework for genome-wide gene-environment interaction analysis in large-scale biobanks.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "3064",
+  "Authors": "Ma Y,Zhao Y,Zhang JF,Bi W",
+  "ABSTRACT": "Gene-environment interaction (G×E) analysis elucidates the interplay between genetic and environmental factors. Genome-wide association studies (GWAS) have expanded to encompass complex traits like time-to-event and ordinal traits, which provide richer phenotypic information. However, most existing scalable approaches focus only on quantitative or binary traits. Here we propose SPAGxECCT, a scalable and accurate framework for diverse trait types. SPAGxECCT fits a genotype-independent model and employs a hybrid strategy including saddlepoint approximation (SPA) for accurate p value calculation, especially for low-frequency variants and unbalanced phenotypic distributions. We extend SPAGxECCT to SPAGxEmixCCT, which accounts for population stratification and is applicable to multi-ancestry or admixed populations. SPAGxEmixCCT can further be extended to SPAGxEmixCCT-local, which identifies ancestry-specific G×E effects using local ancestry. Through extensive simulations and real data analyses of UK Biobank data, we demonstrate that SPAGxECCT and SPAGxEmixCCT are scalable to analyze large-scale study cohort, control type I error rates effectively, and maintain power.",
+  "DOI": "10.1038/s41467-025-57887-3",
+  "PMC ID": "PMC11955004",
+  "CITATION": "Ma Y, Zhao Y, Zhang JF, Bi W. (2025) Efficient and accurate framework for genome-wide gene-environment interaction analysis in large-scale biobanks. Nat Commun, 16 (1) 3064. doi:10.1038/s41467-025-57887-3. PMID 40157913",
+  "FIRST_AUTHOR": "Ma Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

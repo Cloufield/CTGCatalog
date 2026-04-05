@@ -1,0 +1,29 @@
+{
+  "NAME": "MetaSTAAR",
+  "PMID": 36564505,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Rare-variant",
+  "TYPE": "Tools",
+  "SHORT NAME": "MetaSTAAR",
+  "FULL NAME": "MetaSTAAR",
+  "URL": "https://github.com/xihaoli/MetaSTAAR",
+  "DESCRIPTION": "MetaSTAAR is an R package for performing Meta-analysis of variant-Set Test for Association using Annotation infoRmation (MetaSTAAR) procedure in whole-genome sequencing (WGS) studies. MetaSTAAR enables functionally-informed rare variant meta-analysis of large WGS studies using an efficient, sparse matrix approach for storing summary statistic, while protecting data privacy of study participants and avoiding sharing subject-level data. MetaSTAAR accounts for relatedness and population structure of continuous and dichotomous traits, and boosts the power of rare variant meta-analysis by incorporating multiple variant functional annotations.",
+  "MANUAL_CITATION": "Li, X., Quick, C., Zhou, H. et al. Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies. Nat Genet (2022). https://doi.org/10.1038/s41588-022-01225-6",
+  "TITLE": "Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "1",
+  "PAGE": "154-164",
+  "Authors": "Li X,Quick C,Zhou H,Gaynor SM,Liu Y,Chen H,Selvaraj MS,Sun R,Dey R,Arnett DK,Bielak LF,Bis JC,Blangero J,Boerwinkle E,Bowden DW,Brody JA,Cade BE,Correa A,Cupples LA,Curran JE,de Vries PS,Duggirala R,Freedman BI,Göring HHH,Guo X,Haessler J,Kalyani RR,Kooperberg C,Kral BG,Lange LA,Manichaikul A,Martin LW,McGarvey ST,Mitchell BD,Montasser ME,Morrison AC,Naseri T,O'Connell JR,Palmer ND,Peyser PA,Psaty BM,Raffield LM,Redline S,Reiner AP,Reupena MS,Rice KM,Rich SS,Sitlani CM,Smith JA,Taylor KD,Vasan RS,Willer CJ,Wilson JG,Yanek LR,Zhao W,NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium, TOPMed Lipids Working Group,Rotter JI,Natarajan P,Peloso GM,Li Z,Lin X",
+  "ABSTRACT": "Meta-analysis of whole genome sequencing/whole exome sequencing (WGS/WES) studies provides an attractive solution to the problem of collecting large sample sizes for discovering rare variants associated with complex phenotypes. Existing rare variant meta-analysis approaches are not scalable to biobank-scale WGS data. Here we present MetaSTAAR, a powerful and resource-efficient rare variant meta-analysis framework for large-scale WGS/WES studies. MetaSTAAR accounts for relatedness and population structure, can analyze both quantitative and dichotomous traits and boosts the power of rare variant tests by incorporating multiple variant functional annotations. Through meta-analysis of four lipid traits in 30,138 ancestrally diverse samples from 14 studies of the Trans Omics for Precision Medicine (TOPMed) Program, we show that MetaSTAAR performs rare variant meta-analysis at scale and produces results comparable to using pooled data. Additionally, we identified several conditionally significant rare variant associations with lipid traits. We further demonstrate that MetaSTAAR is scalable to biobank-scale cohorts through meta-analysis of TOPMed WGS data and UK Biobank WES data of ~200,000 samples.",
+  "DOI": "10.1038/s41588-022-01225-6",
+  "PMC ID": "PMC10084891",
+  "CITATION": "Li X, Quick C, Zhou H, Gaynor SM, ...&, Lin X. (2023) Powerful, scalable and resource-efficient meta-analysis of rare variant associations in large whole genome sequencing studies. Nat Genet, 55 (1) 154-164. doi:10.1038/s41588-022-01225-6. PMID 36564505",
+  "FIRST_AUTHOR": "Li X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "meta-PRS",
+  "PMID": 33964208,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "meta-PRS",
+  "FULL NAME": "linear combination of PRSs",
+  "URL": "https://github.com/ClaraAlbi/paper_MetaPRS",
+  "MANUAL_CITATION": "\nAlbiñana, C. et al. Leveraging both individual-level genetic data and GWAS summary statistics increases polygenic prediction. Am. J. Hum. Genet. 108, 1001–1011 (2021).\n  ",
+  "TITLE": "Leveraging both individual-level genetic data and GWAS summary statistics increases polygenic prediction.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2021",
+  "VOLUME": "108",
+  "ISSUE": "6",
+  "PAGE": "1001-1011",
+  "Authors": "Albiñana C,Grove J,McGrath JJ,Agerbo E,Wray NR,Bulik CM,Nordentoft M,Hougaard DM,Werge T,Børglum AD,Mortensen PB,Privé F,Vilhjálmsson BJ",
+  "ABSTRACT": "The accuracy of polygenic risk scores (PRSs) to predict complex diseases increases with the training sample size. PRSs are generally derived based on summary statistics from large meta-analyses of multiple genome-wide association studies (GWASs). However, it is now common for researchers to have access to large individual-level data as well, such as the UK Biobank data. To the best of our knowledge, it has not yet been explored how best to combine both types of data (summary statistics and individual-level data) to optimize polygenic prediction. The most widely used approach to combine data is the meta-analysis of GWAS summary statistics (meta-GWAS), but we show that it does not always provide the most accurate PRS. Through simulations and using 12 real case-control and quantitative traits from both iPSYCH and UK Biobank along with external GWAS summary statistics, we compare meta-GWAS with two alternative data-combining approaches, stacked clumping and thresholding (SCT) and meta-PRS. We find that, when large individual-level data are available, the linear combination of PRSs (meta-PRS) is both a simple alternative to meta-GWAS and often more accurate.",
+  "DOI": "10.1016/j.ajhg.2021.04.014",
+  "PMC ID": "PMC8206385",
+  "CITATION": "Albiñana C, Grove J, McGrath JJ, Agerbo E, ...&, Vilhjálmsson BJ. (2021) Leveraging both individual-level genetic data and GWAS summary statistics increases polygenic prediction. Am J Hum Genet, 108 (6) 1001-1011. doi:10.1016/j.ajhg.2021.04.014. PMID 33964208",
+  "FIRST_AUTHOR": "Albiñana C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

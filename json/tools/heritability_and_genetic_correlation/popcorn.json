@@ -1,0 +1,30 @@
+{
+  "NAME": "popcorn",
+  "PMID": 27321947,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "popcorn",
+  "FULL NAME": "popcorn",
+  "KEYWORDS": "trans-ethnic",
+  "URL": "https://github.com/brielin/Popcorn",
+  "DESCRIPTION": "Popcorn is a program for estimaing the correlation of causal variant effect. This is the python3 version of Popcorn and still under development sizes across populations in GWAS.",
+  "MANUAL_CITATION": "Brown, Brielin C., et al. \"Transethnic genetic-correlation estimates from summary statistics.\" The American Journal of Human Genetics 99.1 (2016): 76-88.",
+  "TITLE": "Transethnic Genetic-Correlation Estimates from Summary Statistics.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2016",
+  "VOLUME": "99",
+  "ISSUE": "1",
+  "PAGE": "76-88",
+  "Authors": "Brown BC,Asian Genetic Epidemiology Network Type 2 Diabetes Consortium,Ye CJ,Price AL,Zaitlen N",
+  "ABSTRACT": "The increasing number of genetic association studies conducted in multiple populations provides an unprecedented opportunity to study how the genetic architecture of complex phenotypes varies between populations, a problem important for both medical and population genetics. Here, we have developed a method for estimating the transethnic genetic correlation: the correlation of causal-variant effect sizes at SNPs common in populations. This methods takes advantage of the entire spectrum of SNP associations and uses only summary-level data from genome-wide association studies. This avoids the computational costs and privacy concerns associated with genotype-level information while remaining scalable to hundreds of thousands of individuals and millions of SNPs. We applied our method to data on gene expression, rheumatoid arthritis, and type 2 diabetes and overwhelmingly found that the genetic correlation was significantly less than 1. Our method is implemented in a Python package called Popcorn.",
+  "DOI": "10.1016/j.ajhg.2016.05.001",
+  "PMC ID": "PMC5005434",
+  "CITATION": "Brown BC, Asian Genetic Epidemiology Network Type 2 Diabetes Consortium, Ye CJ, Price AL, ...&, Zaitlen N. (2016) Transethnic Genetic-Correlation Estimates from Summary Statistics. Am J Hum Genet, 99 (1) 76-88. doi:10.1016/j.ajhg.2016.05.001. PMID 27321947",
+  "FIRST_AUTHOR": "Brown BC",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

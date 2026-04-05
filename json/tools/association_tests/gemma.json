@@ -1,0 +1,29 @@
+{
+  "NAME": "GEMMA",
+  "PMID": 22706312,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "GEMMA",
+  "FULL NAME": "genome-wide efficient mixed-model association",
+  "URL": "http://stephenslab.uchicago.edu/software.html#gemma",
+  "DESCRIPTION": "GEMMA is the software implementing the Genome-wide Efficient Mixed Model Association algorithm for a standard linear mixed model and some of its close relatives for genome-wide association studies (GWAS). It fits a standard linear mixed model (LMM) to account for population stratification and sample structure for single marker association tests. It fits a Bayesian sparse linear mixed model (BSLMM) using Markov chain Monte Carlo (MCMC) for estimating the proportion of variance in phenotypes explained (PVE) by typed genotypes (i.e. chip heritability), predicting phenotypes, and identifying associated markers by jointly modeling all markers while controlling for population structure. It is computationally efficient for large scale GWAS and uses freely available open-source numerical libraries.",
+  "MANUAL_CITATION": "Zhou, Xiang, and Matthew Stephens. \"Genome-wide efficient mixed-model analysis for association studies.\" Nature genetics 44.7 (2012): 821-824.",
+  "TITLE": "Genome-wide efficient mixed-model analysis for association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2012",
+  "VOLUME": "44",
+  "ISSUE": "7",
+  "PAGE": "821-4",
+  "Authors": "Zhou X,Stephens M",
+  "ABSTRACT": "Linear mixed models have attracted considerable attention recently as a powerful and effective tool for accounting for population stratification and relatedness in genetic association tests. However, existing methods for exact computation of standard test statistics are computationally impractical for even moderate-sized genome-wide association studies. To address this issue, several approximate methods have been proposed. Here, we present an efficient exact method, which we refer to as genome-wide efficient mixed-model association (GEMMA), that makes approximations unnecessary in many contexts. This method is approximately n times faster than the widely used exact method known as efficient mixed-model association (EMMA), where n is the sample size, making exact genome-wide association analysis computationally practical for large numbers of individuals.",
+  "DOI": "10.1038/ng.2310",
+  "PMC ID": "PMC3386377",
+  "CITATION": "Zhou X, Stephens M. (2012) Genome-wide efficient mixed-model analysis for association studies. Nat Genet, 44 (7) 821-4. doi:10.1038/ng.2310. PMID 22706312",
+  "FIRST_AUTHOR": "Zhou X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

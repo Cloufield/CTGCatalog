@@ -1,0 +1,30 @@
+{
+  "NAME": "scPRS",
+  "PMID": 40715455,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "TYPE": "Tools",
+  "SHORT NAME": "scPRS",
+  "FULL NAME": "scPRS ",
+  "KEYWORDS": "GWAS, scATAC, cell-resolved PRS, GNN",
+  "URL": "https://github.com/szhang1112/scPRS",
+  "DESCRIPTION": "We introduce scPRS, an interpretable geometric deep learning model that contructs single-cell-resolved PRS leveraging reference single-cell ATAC-seq data for enhanced disease prediction and biological discovery.",
+  "MANUAL_CITATION": "\nZhang, S. et al. Single-cell polygenic risk scores dissect cellular and molecular heterogeneity of complex human diseases. Nat. Biotechnol. 1–17 (2025).\n  \n",
+  "ARROW_SUMMARY": "GWAS summary statistics + scATAC‑seq data → per‑cell PRS calculation → GNN smoothing → aggregate to individual scPRS → interpret cell‑type contributions & fine‑map causal variants.",
+  "TITLE": "Single-cell polygenic risk scores dissect cellular and molecular heterogeneity of complex human diseases.",
+  "ISO": "Nat Biotechnol",
+  "JOURNAL": "Nature biotechnology",
+  "YEAR": "2025",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zhang S,Shu H,Zhou J,Rubin-Sigler J,Yang X,Liu Y,Cooper-Knock J,Monte E,Zhu C,Tu S,Li H,Tong M,Ecker JR,Ichida JK,Shen Y,Zeng J,Tsao PS,Snyder MP",
+  "ABSTRACT": "Polygenic risk scores (PRSs) predict an individual's genetic risk for complex diseases, yet their utility in elucidating disease biology remains limited. We introduce scPRS, a graph neural network-based framework that computes single-cell-resolved PRSs by integrating reference single-cell chromatin accessibility profiles. scPRS outperforms traditional PRS approaches in genetic risk prediction, as demonstrated across multiple diseases including type 2 diabetes, hypertrophic cardiomyopathy, Alzheimer disease and severe COVID-19. Beyond risk prediction, scPRS prioritizes disease-critical cells and, when combined with a layered multiomic analysis, links risk variants to gene regulation in a cell-type-specific manner. Applied to these diseases, scPRS fine-maps causal cell types and cell-type-specific variants and genes, demonstrating its ability to bridge genetic risk with cell-specific biology. scPRS provides a unified framework for genetic risk prediction and mechanistic dissection of complex diseases, laying a methodological foundation for single-cell genetics.",
+  "DOI": "10.1038/s41587-025-02725-6",
+  "PMC ID": "",
+  "CITATION": "Zhang S, Shu H, Zhou J, Rubin-Sigler J, ...&, Snyder MP. (2025) Single-cell polygenic risk scores dissect cellular and molecular heterogeneity of complex human diseases. Nat Biotechnol,  () . doi:10.1038/s41587-025-02725-6. PMID 40715455",
+  "FIRST_AUTHOR": "Zhang S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "CKB reference panel",
+  "PMID": 37870428,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "CKB",
+  "FULL NAME": "China Kadoorie Biobank",
+  "URL": "https://db.cngb.org/imputation/",
+  "MANUAL_CITATION": "Yu, C., Lan, X., Tao, Y., Guo, Y., Sun, D., Qian, P., ... & Li, L. (2023). A high-resolution haplotype-resolved Reference panel constructed from the China Kadoorie Biobank Study. Nucleic Acids Research, 51(21), 11770-11782.",
+  "TITLE": "A high-resolution haplotype-resolved Reference panel constructed from the China Kadoorie Biobank Study.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2023",
+  "VOLUME": "51",
+  "ISSUE": "21",
+  "PAGE": "11770-11782",
+  "Authors": "Yu C,Lan X,Tao Y,Guo Y,Sun D,Qian P,Zhou Y,Walters RG,Li L,Zhu Y,Zeng J,Millwood IY,Guo R,Pei P,Yang T,Du H,Yang F,Yang L,Ren F,Chen Y,Chen F,Jiang X,Ye Z,Dai L,Wei X,Xu X,Yang H,Wang J,Chen Z,Zhu H,Lv J,Jin X,Li L",
+  "ABSTRACT": "Precision medicine depends on high-accuracy individual-level genotype data. However, the whole-genome sequencing (WGS) is still not suitable for gigantic studies due to budget constraints. It is particularly important to construct highly accurate haplotype reference panel for genotype imputation. In this study, we used 10 000 samples with medium-depth WGS to construct a reference panel that we named the CKB reference panel. By imputing microarray datasets, it showed that the CKB panel outperformed compared panels in terms of both the number of well-imputed variants and imputation accuracy. In addition, we have completed the imputation of 100 706 microarrays with the CKB panel, and the after-imputed data is the hitherto largest whole genome data of the Chinese population. Furthermore, in the GWAS analysis of real phenotype height, the number of tested SNPs tripled and the number of significant SNPs doubled after imputation. Finally, we developed an online server for offering free genotype imputation service based on the CKB reference panel (https://db.cngb.org/imputation/). We believe that the CKB panel is of great value for imputing microarray or low-coverage genotype data of Chinese population, and potentially mixed populations. The imputation-completed 100 706 microarray data are enormous and precious resources of population genetic studies for complex traits and diseases.",
+  "DOI": "10.1093/nar/gkad779",
+  "PMC ID": "PMC10681741",
+  "CITATION": "Yu C, Lan X, Tao Y, Guo Y, ...&, Li L. (2023) A high-resolution haplotype-resolved Reference panel constructed from the China Kadoorie Biobank Study. Nucleic Acids Res, 51 (21) 11770-11782. doi:10.1093/nar/gkad779. PMID 37870428",
+  "FIRST_AUTHOR": "Yu C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "NAME": "dbSNP",
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "dbSNP",
+  "URL": "https://www.ncbi.nlm.nih.gov/snp/",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "NAME": "t-SNE",
+  "SECTION": "Tools",
+  "TOPIC": "Dimension_reduction",
+  "TYPE": "Tools",
+  "SHORT NAME": "t-SNE",
+  "FULL NAME": "t-Distributed Stochastic Neighbor Embedding",
+  "MANUAL_YEAR": 2008,
+  "KEYWORDS": "t-SNE",
+  "URL": "https://lvdmaaten.github.io/tsne/",
+  "MANUAL_CITATION": "Van der Maaten, L., & Hinton, G. (2008). Visualizing data using t-SNE. Journal of machine learning research, 9(11).",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

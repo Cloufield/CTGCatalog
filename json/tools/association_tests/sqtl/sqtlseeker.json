@@ -1,0 +1,29 @@
+{
+  "NAME": "sQTLseekeR",
+  "PMID": 25140736,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "sQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "sQTLseekeR",
+  "FULL NAME": "sQTLseekeR",
+  "URL": "https://github.com/jmonlong/sQTLseekeR",
+  "DESCRIPTION": "sQTLseekeR is a R package to detect splicing QTLs (sQTLs), which are variants associated with change in the splicing pattern of a gene. Here, splicing patterns are modeled by the relative expression of the transcripts of a gene.",
+  "MANUAL_CITATION": "Monlong, J., Calvo, M., Ferreira, P. et al. Identification of genetic variants associated with alternative splicing using sQTLseekeR. Nat Commun 5, 4698 (2014). https://doi.org/10.1038/ncomms5698",
+  "TITLE": "Identification of genetic variants associated with alternative splicing using sQTLseekeR.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2014",
+  "VOLUME": "5",
+  "ISSUE": "",
+  "PAGE": "4698",
+  "Authors": "Monlong J,Calvo M,Ferreira PG,Guigó R",
+  "ABSTRACT": "Identification of genetic variants affecting splicing in RNA sequencing population studies is still in its infancy. Splicing phenotype is more complex than gene expression and ought to be treated as a multivariate phenotype to be recapitulated completely. Here we represent the splicing pattern of a gene as the distribution of the relative abundances of a gene's alternative transcript isoforms. We develop a statistical framework that uses a distance-based approach to compute the variability of splicing ratios across observations, and a non-parametric analogue to multivariate analysis of variance. We implement this approach in the R package sQTLseekeR and use it to analyze RNA-Seq data from the Geuvadis project in 465 individuals. We identify hundreds of single nucleotide polymorphisms (SNPs) as splicing QTLs (sQTLs), including some falling in genome-wide association study SNPs. By developing the appropriate metrics, we show that sQTLseekeR compares favorably with existing methods that rely on univariate approaches, predicting variants that behave as expected from mutations affecting splicing.",
+  "DOI": "10.1038/ncomms5698",
+  "PMC ID": "PMC4143934",
+  "CITATION": "Monlong J, Calvo M, Ferreira PG, Guigó R. (2014) Identification of genetic variants associated with alternative splicing using sQTLseekeR. Nat Commun, 5 () 4698. doi:10.1038/ncomms5698. PMID 25140736",
+  "FIRST_AUTHOR": "Monlong J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

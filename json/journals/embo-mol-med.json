@@ -1,0 +1,18 @@
+{
+  "NAME": "EMBO molecular medicine",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "EMBO Mol Med",
+  "JOURNAL": "EMBO molecular medicine",
+  "URL": "https://www.embopress.org/journal/17574684",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Hansson"
+  ]
+}

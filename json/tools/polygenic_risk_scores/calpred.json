@@ -1,0 +1,30 @@
+{
+  "NAME": "CalPred",
+  "PMID": 38886587,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "CalPred",
+  "FULL NAME": "Calibrated prediction intervals",
+  "KEYWORDS": "trait prediction intervals",
+  "URL": "https://github.com/KangchengHou/calpred",
+  "DESCRIPTION": "a statistical framework that jointly models the effects of all contexts on PGS accuracy with parameters learned in a calibration dataset",
+  "MANUAL_CITATION": "Hou, K., Xu, Z., Ding, Y., Mandla, R., Shi, Z., Boulier, K., ... & Pasaniuc, B. (2024). Calibrated prediction intervals for polygenic scores across diverse contexts. Nature Genetics, 1-11.",
+  "TITLE": "Calibrated prediction intervals for polygenic scores across diverse contexts.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "7",
+  "PAGE": "1386-1396",
+  "Authors": "Hou K,Xu Z,Ding Y,Mandla R,Shi Z,Boulier K,Harpak A,Pasaniuc B",
+  "ABSTRACT": "Polygenic scores (PGS) have emerged as the tool of choice for genomic prediction in a wide range of fields. We show that PGS performance varies broadly across contexts and biobanks. Contexts such as age, sex and income can impact PGS accuracy with similar magnitudes as genetic ancestry. Here we introduce an approach (CalPred) that models all contexts jointly to produce prediction intervals that vary across contexts to achieve calibration (include the trait with 90% probability), whereas existing methods are miscalibrated. In analyses of 72 traits across large and diverse biobanks (All of Us and UK Biobank), we find that prediction intervals required adjustment by up to 80% for quantitative traits. For disease traits, PGS-based predictions were miscalibrated across socioeconomic contexts such as annual household income levels, further highlighting the need of accounting for context information in PGS-based prediction across diverse populations.",
+  "DOI": "10.1038/s41588-024-01792-w",
+  "PMC ID": "PMC11465192",
+  "CITATION": "Hou K, Xu Z, Ding Y, Mandla R, ...&, Pasaniuc B. (2024) Calibrated prediction intervals for polygenic scores across diverse contexts. Nat Genet, 56 (7) 1386-1396. doi:10.1038/s41588-024-01792-w. PMID 38886587",
+  "FIRST_AUTHOR": "Hou K",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

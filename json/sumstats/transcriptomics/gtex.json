@@ -1,0 +1,26 @@
+{
+  "NAME": "GTEx",
+  "PMID": 32913098,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "DESCRIPTION": "V10",
+  "MANUAL_YEAR": 2024,
+  "URL": "https://gtexportal.org/home/",
+  "MANUAL_CITATION": "GTEx Consortium. (2020). The GTEx Consortium atlas of genetic regulatory effects across human tissues. Science, 369(6509), 1318-1330.",
+  "TITLE": "The GTEx Consortium atlas of genetic regulatory effects across human tissues.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2020",
+  "VOLUME": "369",
+  "ISSUE": "6509",
+  "PAGE": "1318-1330",
+  "Authors": "GTEx Consortium",
+  "ABSTRACT": "The Genotype-Tissue Expression (GTEx) project was established to characterize genetic effects on the transcriptome across human tissues and to link these regulatory mechanisms to trait and disease associations. Here, we present analyses of the version 8 data, examining 15,201 RNA-sequencing samples from 49 tissues of 838 postmortem donors. We comprehensively characterize genetic associations for gene expression and splicing in cis and trans, showing that regulatory associations are found for almost all genes, and describe the underlying molecular mechanisms and their contribution to allelic heterogeneity and pleiotropy of complex traits. Leveraging the large diversity of tissues, we provide insights into the tissue specificity of genetic effects and show that cell type composition is a key factor in understanding gene regulatory mechanisms in human tissues.",
+  "DOI": "10.1126/science.aaz1776",
+  "PMC ID": "PMC7737656",
+  "CITATION": "GTEx Consortium. (2020) The GTEx Consortium atlas of genetic regulatory effects across human tissues. Science, 369 (6509) 1318-1330. doi:10.1126/science.aaz1776. PMID 32913098",
+  "FIRST_AUTHOR": "GTEx Consortium",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

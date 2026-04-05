@@ -1,0 +1,29 @@
+{
+  "NAME": "PRSice-2",
+  "PMID": 31307061,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Pipeline",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRSice-2",
+  "FULL NAME": "PRSice-2",
+  "URL": "https://www.prsice.info/",
+  "DESCRIPTION": "PRSice (pronounced 'precise') is a Polygenic Risk Score software for calculating, applying, evaluating and plotting the results of polygenic risk scores (PRS) analyses.",
+  "MANUAL_CITATION": "Shing Wan Choi, Paul F O'Reilly, PRSice-2: Polygenic Risk Score software for biobank-scale data, GigaScience, Volume 8, Issue 7, July 2019, giz082, https://doi.org/10.1093/gigascience/giz082",
+  "TITLE": "PRSice-2: Polygenic Risk Score software for biobank-scale data.",
+  "ISO": "Gigascience",
+  "JOURNAL": "GigaScience",
+  "YEAR": "2019",
+  "VOLUME": "8",
+  "ISSUE": "7",
+  "PAGE": "",
+  "Authors": "Choi SW,O'Reilly PF",
+  "ABSTRACT": "BACKGROUND: Polygenic risk score (PRS) analyses have become an integral part of biomedical research, exploited to gain insights into shared aetiology among traits, to control for genomic profile in experimental studies, and to strengthen causal inference, among a range of applications. Substantial efforts are now devoted to biobank projects to collect large genetic and phenotypic data, providing unprecedented opportunity for genetic discovery and applications. To process the large-scale data provided by such biobank resources, highly efficient and scalable methods and software are required. RESULTS: Here we introduce PRSice-2, an efficient and scalable software program for automating and simplifying PRS analyses on large-scale data. PRSice-2 handles both genotyped and imputed data, provides empirical association P-values free from inflation due to overfitting, supports different inheritance models, and can evaluate multiple continuous and binary target traits simultaneously. We demonstrate that PRSice-2 is dramatically faster and more memory-efficient than PRSice-1 and alternative PRS software, LDpred and lassosum, while having comparable predictive power. CONCLUSION: PRSice-2's combination of efficiency and power will be increasingly important as data sizes grow and as the applications of PRS become more sophisticated, e.g., when incorporated into high-dimensional or gene set-based analyses. PRSice-2 is written in C++, with an R script for plotting, and is freely available for download from http://PRSice.info.",
+  "DOI": "10.1093/gigascience/giz082",
+  "PMC ID": "PMC6629542",
+  "CITATION": "Choi SW, O'Reilly PF. (2019) PRSice-2: Polygenic Risk Score software for biobank-scale data. Gigascience, 8 (7) . doi:10.1093/gigascience/giz082. PMID 31307061",
+  "FIRST_AUTHOR": "Choi SW",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

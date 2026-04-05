@@ -1,0 +1,36 @@
+{
+  "NAME": "OmiGA",
+  "PMID": 41680153,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "OmiGA",
+  "FULL NAME": "OmiGA",
+  "KEYWORDS": "molQTL, xQTL, LMM, relatedness, colocalization, fine mapping",
+  "URL": "https://omiga.bio/ https://doi.org/10.1038/s41467-026-68978-0",
+  "DESCRIPTION": "Toolkit for molecular QTL (molQTL) mapping using linear mixed models that handle complex relatedness, aimed at high-throughput omics phenotypes with strong performance for discovery, fine mapping, and trait–molQTL colocalization versus common linear-mapper pipelines.",
+  "TAGS": [
+    "eQTL",
+    "Colocalization",
+    "Fine mapping",
+    "Multi-omics",
+    "Tool"
+  ],
+  "TITLE": "OmiGA for ultra-efficient molecular quantitative trait loci mapping.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2026",
+  "VOLUME": "17",
+  "ISSUE": "1",
+  "PAGE": "",
+  "Authors": "Teng J,Zhang W,Gong W,Chen J,Gao Y,Fang L,Zhang Z",
+  "ABSTRACT": "Molecular quantitative trait loci (molQTL) mapping is one of the most popular approaches to systematically characterize functional impacts of genomic variants, leading to advanced understanding of the regulatory mechanisms underpinning complex traits and diseases. However, when applied to high-throughput molecular phenotypes, the existing molQTL mapping tools often implement simple linear models, overlooking complex inter-individual relatedness, leading to false positives and insufficient statistical power. Here, we introduce OmiGA, an ultra-efficient omics genetic analysis toolkit, for molQTL mapping based on linear mixed model in populations with complex relatedness. Both computational simulations and real data analyses demonstrate that OmiGA outperforms the existing popular tools regarding molQTL discovery power, fine mapping of causal variants, colocalization of molQTL and trait associations, and computational efficiency. In summary, we recommend OmiGA for molQTL mapping in populations with complex relatedness, for example, those in the Farm animal Genotype-Tissue Expression project and family-based molQTL studies in humans.",
+  "DOI": "10.1038/s41467-026-68978-0",
+  "PMC ID": "PMC13009172",
+  "CITATION": "Teng J, Zhang W, Gong W, Chen J, ...&, Zhang Z. (2026) OmiGA for ultra-efficient molecular quantitative trait loci mapping. Nat Commun, 17 (1) . doi:10.1038/s41467-026-68978-0. PMID 41680153",
+  "FIRST_AUTHOR": "Teng J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

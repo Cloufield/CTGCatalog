@@ -1,0 +1,24 @@
+{
+  "NAME": "Olink",
+  "PMID": 24755770,
+  "SECTION": "Tools",
+  "TOPIC": "Proteomics",
+  "URL": "https://www.olink.com/products-services/explore/",
+  "MANUAL_CITATION": "Assarsson, E., Lundberg, M., Holmquist, G., Björkesten, J., Bucht Thorsen, S., Ekman, D., ... & Fredriksson, S. (2014). Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability. PloS one, 9(4), e95192.\n",
+  "TITLE": "Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2014",
+  "VOLUME": "9",
+  "ISSUE": "4",
+  "PAGE": "e95192",
+  "Authors": "Assarsson E,Lundberg M,Holmquist G,Björkesten J,Thorsen SB,Ekman D,Eriksson A,Rennel Dickens E,Ohlsson S,Edfeldt G,Andersson AC,Lindstedt P,Stenvang J,Gullberg M,Fredriksson S",
+  "ABSTRACT": "Medical research is developing an ever greater need for comprehensive high-quality data generation to realize the promises of personalized health care based on molecular biomarkers. The nucleic acid proximity-based methods proximity ligation and proximity extension assays have, with their dual reporters, shown potential to relieve the shortcomings of antibodies and their inherent cross-reactivity in multiplex protein quantification applications. The aim of the present study was to develop a robust 96-plex immunoassay based on the proximity extension assay (PEA) for improved high throughput detection of protein biomarkers. This was enabled by: (1) a modified design leading to a reduced number of pipetting steps compared to the existing PEA protocol, as well as improved intra-assay precision; (2) a new enzymatic system that uses a hyper-thermostabile enzyme, Pwo, for uniting the two probes allowing for room temperature addition of all reagents and improved the sensitivity; (3) introduction of an inter-plate control and a new normalization procedure leading to improved inter-assay precision (reproducibility). The multiplex proximity extension assay was found to perform well in complex samples, such as serum and plasma, and also in xenografted mice and resuspended dried blood spots, consuming only 1 µL sample per test. All-in-all, the development of the current multiplex technique is a step toward robust high throughput protein marker discovery and research.",
+  "DOI": "10.1371/journal.pone.0095192",
+  "PMC ID": "PMC3995906",
+  "CITATION": "Assarsson E, Lundberg M, Holmquist G, Björkesten J, ...&, Fredriksson S. (2014) Homogenous 96-plex PEA immunoassay exhibiting high sensitivity, specificity, and excellent scalability. PLoS One, 9 (4) e95192. doi:10.1371/journal.pone.0095192. PMID 24755770",
+  "FIRST_AUTHOR": "Assarsson E",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

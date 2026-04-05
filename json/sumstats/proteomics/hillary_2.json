@@ -1,0 +1,27 @@
+{
+  "NAME": "Hillary",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 32641083,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Multi-method genome- and epigenome-wide studies of inflammatory protein levels in healthy older adults.",
+  "ISO": "Genome Med",
+  "JOURNAL": "Genome medicine",
+  "YEAR": "2020",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "60",
+  "Authors": "Hillary RF,Trejo-Banos D,Kousathanas A,McCartney DL,Harris SE,Stevenson AJ,Patxot M,Ojavee SE,Zhang Q,Liewald DC,Ritchie CW,Evans KL,Tucker-Drob EM,Wray NR,McRae AF,Visscher PM,Deary IJ,Robinson MR,Marioni RE",
+  "ABSTRACT": "BACKGROUND: The molecular factors which control circulating levels of inflammatory proteins are not well understood. Furthermore, association studies between molecular probes and human traits are often performed by linear model-based methods which may fail to account for complex structure and interrelationships within molecular datasets. METHODS: In this study, we perform genome- and epigenome-wide association studies (GWAS/EWAS) on the levels of 70 plasma-derived inflammatory protein biomarkers in healthy older adults (Lothian Birth Cohort 1936; n = 876; Olink® inflammation panel). We employ a Bayesian framework (BayesR+) which can account for issues pertaining to data structure and unknown confounding variables (with sensitivity analyses using ordinary least squares- (OLS) and mixed model-based approaches). RESULTS: We identified 13 SNPs associated with 13 proteins (n = 1 SNP each) concordant across OLS and Bayesian methods. We identified 3 CpG sites spread across 3 proteins (n = 1 CpG each) that were concordant across OLS, mixed-model and Bayesian analyses. Tagged genetic variants accounted for up to 45% of variance in protein levels (for MCP2, 36% of variance alone attributable to 1 polymorphism). Methylation data accounted for up to 46% of variation in protein levels (for CXCL10). Up to 66% of variation in protein levels (for VEGFA) was explained using genetic and epigenetic data combined. We demonstrated putative causal relationships between CD6 and IL18R1 with inflammatory bowel disease and between IL12B and Crohn's disease. CONCLUSIONS: Our data may aid understanding of the molecular regulation of the circulating inflammatory proteome as well as causal relationships between inflammatory mediators and disease.",
+  "DOI": "10.1186/s13073-020-00754-1",
+  "PMC ID": "PMC7346642",
+  "CITATION": "Hillary RF, Trejo-Banos D, Kousathanas A, McCartney DL, ...&, Marioni RE. (2020) Multi-method genome- and epigenome-wide studies of inflammatory protein levels in healthy older adults. Genome Med, 12 (1) 60. doi:10.1186/s13073-020-00754-1. PMID 32641083",
+  "FIRST_AUTHOR": "Hillary RF",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

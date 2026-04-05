@@ -1,0 +1,17 @@
+{
+  "NAME": "KoGES",
+  "SHORT NAME": "KoGES",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~210k (across sub-cohorts)",
+  "DESCRIPTION": "Korean Genome and Epidemiology Study: prospective population-based cohorts (Ansan–Ansung, etc.) with biosamples and follow-up; genome-wide data widely used in Korean and trans-ethnic GWAS.",
+  "MANUAL_CITATION": "Kim, Y. J., Han, B. G., Ko, H. M., Oh, J. Y., Lee, E. K., Moon, S., ... & Cho, Y. S. (2017). Cohort profile: The Korean Genome and Epidemiology Study (KoGES) consortium. International Journal of Epidemiology, 46(2), e20.",
+  "URL": "https://koges.leelabsg.org/about",
+  "NOTE": "Official program pages: Korea National Institute of Health (NIH). PheWeb hosts summary association results.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Korean adults (population-based sub-cohorts)"
+}

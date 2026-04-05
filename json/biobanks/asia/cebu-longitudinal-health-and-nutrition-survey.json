@@ -1,0 +1,16 @@
+{
+  "NAME": "Cebu Longitudinal Health and Nutrition Survey",
+  "SHORT NAME": "CLHNS",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~3k index offspring cohort",
+  "DESCRIPTION": "Long-standing community-based cohort in Metro Cebu with repeated anthropometric, dietary, and health measures from pregnancy/birth through adulthood; genetic and omics data used in developmental and metabolic trait studies.",
+  "MANUAL_CITATION": "Adair, L. S., Popkin, B. M., VanDerslice, J., Akin, C., Guilkey, D., Black, R., ... & Hindin, M. (2011). Cohort Profile: The Cebu Longitudinal Health and Nutrition survey. International Journal of Epidemiology, 40(3), 619-630.",
+  "URL": "https://www.cpc.unc.edu/projects/clhns",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Filipino mothers and offspring (Cebu)"
+}

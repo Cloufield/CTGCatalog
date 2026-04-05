@@ -1,0 +1,16 @@
+{
+  "NAME": "Million Veteran Program",
+  "SHORT NAME": "MVP",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~900k",
+  "MANUAL_CITATION": "Gaziano, J. M., Concato, J., Brophy, M., Fiore, L., Pyarajan, S., Breeling, J., ... & O'Leary, T. J. (2016). Million Veteran Program: A mega-biobank to study genetic influences on health and disease. Journal of clinical epidemiology, 70, 214-223.\nHunter-Zinck, H., Shi, Y., Li, M., Gorman, B. R., Ji, S. G., Sun, N., ... & Pyarajan, S. (2020). Genotyping array design and data quality control in the Million Veteran Program. The American Journal of Human Genetics, 106(4), 535-548.",
+  "URL": "https://www.mvp.va.gov/pwa/",
+  "DESCRIPTION": " The Million Veteran Program (MVP) is a national research program to learn how genes, lifestyle, and military exposures affect health and illness. Since launching in 2011, over 900,000 Veteran partners have joined one of the world's largest programs on genetics and health.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "US military veterans (VA healthcare)"
+}

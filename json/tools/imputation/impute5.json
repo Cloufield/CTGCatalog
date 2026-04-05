@@ -1,0 +1,26 @@
+{
+  "NAME": "IMPUTE5",
+  "PMID": 33196638,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "IMPUTE5",
+  "MANUAL_CITATION": "Rubinacci, Simone, Olivier Delaneau, and Jonathan Marchini. \"Genotype imputation using the positional burrows wheeler transform.\" PLoS genetics 16.11 (2020): e1009049.",
+  "TITLE": "Genotype imputation using the Positional Burrows Wheeler Transform.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "11",
+  "PAGE": "e1009049",
+  "Authors": "Rubinacci S,Delaneau O,Marchini J",
+  "ABSTRACT": "Genotype imputation is the process of predicting unobserved genotypes in a sample of individuals using a reference panel of haplotypes. In the last 10 years reference panels have increased in size by more than 100 fold. Increasing reference panel size improves accuracy of markers with low minor allele frequencies but poses ever increasing computational challenges for imputation methods. Here we present IMPUTE5, a genotype imputation method that can scale to reference panels with millions of samples. This method continues to refine the observation made in the IMPUTE2 method, that accuracy is optimized via use of a custom subset of haplotypes when imputing each individual. It achieves fast, accurate, and memory-efficient imputation by selecting haplotypes using the Positional Burrows Wheeler Transform (PBWT). By using the PBWT data structure at genotyped markers, IMPUTE5 identifies locally best matching haplotypes and long identical by state segments. The method then uses the selected haplotypes as conditioning states within the IMPUTE model. Using the HRC reference panel, which has ∼65,000 haplotypes, we show that IMPUTE5 is up to 30x faster than MINIMAC4 and up to 3x faster than BEAGLE5.1, and uses less memory than both these methods. Using simulated reference panels we show that IMPUTE5 scales sub-linearly with reference panel size. For example, keeping the number of imputed markers constant, increasing the reference panel size from 10,000 to 1 million haplotypes requires less than twice the computation time. As the reference panel increases in size IMPUTE5 is able to utilize a smaller number of reference haplotypes, thus reducing computational cost.",
+  "DOI": "10.1371/journal.pgen.1009049",
+  "PMC ID": "PMC7704051",
+  "CITATION": "Rubinacci S, Delaneau O, Marchini J. (2020) Genotype imputation using the Positional Burrows Wheeler Transform. PLoS Genet, 16 (11) e1009049. doi:10.1371/journal.pgen.1009049. PMID 33196638",
+  "FIRST_AUTHOR": "Rubinacci S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

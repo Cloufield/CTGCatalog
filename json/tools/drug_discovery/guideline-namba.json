@@ -1,0 +1,24 @@
+{
+  "NAME": "Guideline-Namba",
+  "PMID": 36778001,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Research",
+  "DESCRIPTION": " a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI)",
+  "TITLE": "A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2022",
+  "VOLUME": "2",
+  "ISSUE": "10",
+  "PAGE": "100190",
+  "Authors": "Namba S,Konuma T,Wu KH,Zhou W,Global Biobank Meta-analysis Initiative,Okada Y",
+  "ABSTRACT": "Genomics-driven drug discovery is indispensable for accelerating the development of novel therapeutic targets. However, the drug discovery framework based on evidence from genome-wide association studies (GWASs) has not been established, especially for cross-population GWAS meta-analysis. Here, we introduce a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI). Our drug discovery framework encompassed three methodologies and was applied to the 13 common diseases targeted by GBMI (N mean = 1,329,242). Individual methodologies complementarily prioritized drugs and drug targets, which were systematically validated by referring previously known drug-disease relationships. Integration of the three methodologies provided a comprehensive catalog of candidate drugs for repositioning, nominating promising drug candidates targeting the genes involved in the coagulation process for venous thromboembolism and the interleukin-4 and interleukin-13 signaling pathway for gout. Our study highlighted key factors for successful genomics-driven drug discovery using cross-population meta-analyses.",
+  "DOI": "10.1016/j.xgen.2022.100190",
+  "PMC ID": "PMC9903693",
+  "CITATION": "Namba S, Konuma T, Wu KH, Zhou W, ...&, Okada Y. (2022) A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis. Cell Genom, 2 (10) 100190. doi:10.1016/j.xgen.2022.100190. PMID 36778001",
+  "FIRST_AUTHOR": "Namba S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

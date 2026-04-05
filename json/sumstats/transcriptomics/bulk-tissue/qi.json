@@ -1,0 +1,28 @@
+{
+  "NAME": "Qi",
+  "PMID": 35982161,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Bulk tissue",
+  "CATEGORY": "Brain",
+  "DESCRIPTION": "THISTLE; 2,865 brain cortex samples from 2,443 unrelated individuals of European ancestry with genome-wide SNP data",
+  "URL": "https://yanglab.westlake.edu.cn/data/brainmeta/cis_sqtl/",
+  "MANUAL_YEAR": 2022,
+  "MANUAL_CITATION": "\nQi, T. et al. Genetic control of RNA splicing and its distinct role in complex trait variation. Nat. Genet. 54, 1355–1363 (2022).\n  \n",
+  "TITLE": "Genetic control of RNA splicing and its distinct role in complex trait variation.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "9",
+  "PAGE": "1355-1363",
+  "Authors": "Qi T,Wu Y,Fang H,Zhang F,Liu S,Zeng J,Yang J",
+  "ABSTRACT": "Most genetic variants identified from genome-wide association studies (GWAS) in humans are noncoding, indicating their role in gene regulation. Previous studies have shown considerable links of GWAS signals to expression quantitative trait loci (eQTLs) but the links to other genetic regulatory mechanisms, such as splicing QTLs (sQTLs), are underexplored. Here, we introduce an sQTL mapping method, ﻿testing for heterogeneity between isoform-eQTL effects (THISTLE), with improved power over competing methods. Applying THISTLE together with a complementary sQTL mapping strategy to brain transcriptomic (n = 2,865) and genotype data, we identified 12,794 genes with cis-sQTLs at P < 5 × 10-8, approximately 61% of which were distinct from eQTLs. Integrating the sQTL data into GWAS for 12 brain-related complex traits (including diseases), we identified 244 genes associated with the traits through cis-sQTLs, approximately 61% of which could not be discovered using the corresponding eQTL data. Our study demonstrates the distinct role of most sQTLs in the genetic regulation of transcription and complex trait variation.",
+  "DOI": "10.1038/s41588-022-01154-4",
+  "PMC ID": "PMC9470536",
+  "CITATION": "Qi T, Wu Y, Fang H, Zhang F, ...&, Yang J. (2022) Genetic control of RNA splicing and its distinct role in complex trait variation. Nat Genet, 54 (9) 1355-1363. doi:10.1038/s41588-022-01154-4. PMID 35982161",
+  "FIRST_AUTHOR": "Qi T",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "NAME": "ENCODE portal",
+  "PMID": 41168159,
+  "SECTION": "References",
+  "TOPIC": "Functional",
+  "CATEGORY": "ENCODE",
+  "MANUAL_CITATION": "\nKagda, M. S. et al. Data navigation on the ENCODE portal. Nat. Commun. 16, 9592 (2025).\n  \n",
+  "TITLE": "Data navigation on the ENCODE portal.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "9592",
+  "Authors": "Kagda MS,Lam B,Litton C,Small C,Sloan CA,Spragins E,Tanaka F,Whaling I,Gabdank I,Youngworth I,Strattan JS,Hilton J,Jou J,Au J,Lee JW,Andreeva K,Graham K,Lin K,Simison M,Jolanki O,Sud P,Assis P,Adenekan P,Miyasato S,Zhong W,Luo Y,Myers Z,Cherry JM,Hitz BC",
+  "ABSTRACT": "Spanning two decades, the collaborative ENCODE project aims to identify all the functional elements within human and mouse genomes. To best serve the scientific community, the comprehensive ENCODE data including results from 23,000+ functional genomics experiments, 800+ functional elements characterization experiments and 60,000+ results from integrative computational analyses are available on an open-access data-portal ( https://www.encodeproject.org/ ). The final phase of the project includes data from several novel assays aimed at characterization and validation of genomic elements. In addition to developing and maintaining the data portal, the Data Coordination Center (DCC) implemented and utilised uniform processing pipelines to generate uniformly processed data. Here we report recent updates to the data portal including a redesigned home page, an improved search interface, new custom-designed pages highlighting biologically related datasets and an enhanced cart interface for data visualisation plus user-friendly data download options. A summary of data generated using uniform processing pipelines is also provided.",
+  "DOI": "10.1038/s41467-025-64343-9",
+  "PMC ID": "PMC12575607",
+  "CITATION": "Kagda MS, Lam B, Litton C, Small C, ...&, Hitz BC. (2025) Data navigation on the ENCODE portal. Nat Commun, 16 (1) 9592. doi:10.1038/s41467-025-64343-9. PMID 41168159",
+  "FIRST_AUTHOR": "Kagda MS",
+  "_meta": {
+    "source_sheet": "Regulatory elements"
+  }
+}

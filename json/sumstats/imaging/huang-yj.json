@@ -1,0 +1,33 @@
+{
+  "NAME": "Huang YJ",
+  "ADD_SUFFIX": 1,
+  "PMID": 38762475,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "Prediction",
+  "MAIN_ANCESTRY": "EAS",
+  "TRAIT": "Type 2 diabetes",
+  "PLATFORM": "Other",
+  "COHORT": "TWB",
+  "RELATED_BIOBANK": "TWB",
+  "TYPE": "Prediction",
+  "MANUAL_CITATION": "Huang, Y.-J., Chen, C.-H. & Yang, H.-C. AI-enhanced integration of genetic and medical imaging data for risk assessment of Type 2 diabetes. Nat. Commun. 15, 4230 (2024).",
+  "DESCRIPTION": "ABD,\ncarotid artery ultrasonography (CAU), BMD, ECG, and thyroid ultra- sonography (TU) : 28 ABD features, 29 CAU features, 85 BMD features, and 10 ECG features ",
+  "MANUAL_YEAR": 2024,
+  "TITLE": "AI-enhanced integration of genetic and medical imaging data for risk assessment of Type 2 diabetes.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "4230",
+  "Authors": "Huang YJ,Chen CH,Yang HC",
+  "ABSTRACT": "Type 2 diabetes (T2D) presents a formidable global health challenge, highlighted by its escalating prevalence, underscoring the critical need for precision health strategies and early detection initiatives. Leveraging artificial intelligence, particularly eXtreme Gradient Boosting (XGBoost), we devise robust risk assessment models for T2D. Drawing upon comprehensive genetic and medical imaging datasets from 68,911 individuals in the Taiwan Biobank, our models integrate Polygenic Risk Scores (PRS), Multi-image Risk Scores (MRS), and demographic variables, such as age, sex, and T2D family history. Here, we show that our model achieves an Area Under the Receiver Operating Curve (AUC) of 0.94, effectively identifying high-risk T2D subgroups. A streamlined model featuring eight key variables also maintains a high AUC of 0.939. This high accuracy for T2D risk assessment promises to catalyze early detection and preventive strategies. Moreover, we introduce an accessible online risk assessment tool for T2D, facilitating broader applicability and dissemination of our findings.",
+  "DOI": "10.1038/s41467-024-48618-1",
+  "PMC ID": "PMC11102564",
+  "CITATION": "Huang YJ, Chen CH, Yang HC. (2024) AI-enhanced integration of genetic and medical imaging data for risk assessment of Type 2 diabetes. Nat Commun, 15 (1) 4230. doi:10.1038/s41467-024-48618-1. PMID 38762475",
+  "FIRST_AUTHOR": "Huang YJ",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

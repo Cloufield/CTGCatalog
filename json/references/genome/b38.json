@@ -1,0 +1,20 @@
+{
+  "NAME": "b38",
+  "SHORT NAME": "b38",
+  "FULL NAME": "Broad Institute Homo_sapiens_assembly38 (b38)",
+  "CATEGORY": "Genome",
+  "SOURCE": "Broad Institute (GATK reference bundle)",
+  "FILE": "Homo_sapiens_assembly38.fasta",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh38; GATK; Broad; b38; reference FASTA",
+  "DESCRIPTION": "GRCh38-based reference FASTA distributed with GATK and Broad pipelines (Homo_sapiens_assembly38), including primary chromosomes and standard alternate contigs (hs38d5 decoy is distributed separately). Default reference for many germline short-variant and joint-genotyping workflows on cloud and HPC.",
+  "MANUAL_CITATION": "Broad Institute. Homo_sapiens_assembly38.fasta (GATK hg38 bundle).",
+  "CITATION": "Broad Institute. Homo_sapiens_assembly38.fasta (GATK GRCh38 reference bundle). https://storage.googleapis.com/genomics-public-data/references/hg38/v0/",
+  "URL": "https://storage.googleapis.com/genomics-public-data/references/hg38/v0/Homo_sapiens_assembly38.fasta",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

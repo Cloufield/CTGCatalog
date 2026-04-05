@@ -1,0 +1,28 @@
+{
+  "NAME": "GWAX",
+  "PMID": 28092683,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS using family history",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWAX",
+  "FULL NAME": "genome-wide association by proxy",
+  "DESCRIPTION": "In randomly ascertained cohorts, replacing cases with their first-degree relatives enables studies of diseases that are absent (or nearly absent) in the cohort.",
+  "MANUAL_CITATION": "Liu, J. Z., Erlich, Y., & Pickrell, J. K. (2017). Case–control association mapping by proxy using family history of disease. Nature genetics, 49(3), 325-331.",
+  "TITLE": "Case-control association mapping by proxy using family history of disease.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2017",
+  "VOLUME": "49",
+  "ISSUE": "3",
+  "PAGE": "325-331",
+  "Authors": "Liu JZ,Erlich Y,Pickrell JK",
+  "ABSTRACT": "Collecting cases for case-control genetic association studies can be time-consuming and expensive. In some situations (such as studies of late-onset or rapidly lethal diseases), it may be more practical to identify family members of cases. In randomly ascertained cohorts, replacing cases with their first-degree relatives enables studies of diseases that are absent (or nearly absent) in the cohort. We refer to this approach as genome-wide association study by proxy (GWAX) and apply it to 12 common diseases in 116,196 individuals from the UK Biobank. Meta-analysis with published genome-wide association study summary statistics replicated established risk loci and yielded four newly associated loci for Alzheimer's disease, eight for coronary artery disease and five for type 2 diabetes. In addition to informing disease biology, our results demonstrate the utility of association mapping without directly observing cases. We anticipate that GWAX will prove useful in future genetic studies of complex traits in large population cohorts.",
+  "DOI": "10.1038/ng.3766",
+  "PMC ID": "",
+  "CITATION": "Liu JZ, Erlich Y, Pickrell JK. (2017) Case-control association mapping by proxy using family history of disease. Nat Genet, 49 (3) 325-331. doi:10.1038/ng.3766. PMID 28092683",
+  "FIRST_AUTHOR": "Liu JZ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

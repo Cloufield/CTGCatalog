@@ -1,0 +1,20 @@
+{
+  "NAME": "Cell",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Cell",
+  "JOURNAL": "Cell",
+  "URL": "https://www.sciencedirect.com/journal/cell",
+  "ENTRY_COUNT": 3,
+  "CITED_BY_SECTION": {
+    "Sumstats": 3
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Deng",
+    "AIDA",
+    "Ota"
+  ]
+}

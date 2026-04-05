@@ -1,0 +1,27 @@
+{
+  "NAME": "ARG-Needle",
+  "PMID": 37127670,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "ARG-Needle",
+  "URL": "https://palamaralab.github.io/software/argneedle/",
+  "DESCRIPTION": "Biobank-scale inference of ancestral recombination graphs enables genealogical analysis of complex traits. B. C. Zhang, A. Biddanda, Á. F. Gunnarsson, F. Cooper, P. F. Palamara. Nature Genetics. May 2023.",
+  "TITLE": "Biobank-scale inference of ancestral recombination graphs enables genealogical analysis of complex traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "5",
+  "PAGE": "768-776",
+  "Authors": "Zhang BC,Biddanda A,Gunnarsson ÁF,Cooper F,Palamara PF",
+  "ABSTRACT": "Genome-wide genealogies compactly represent the evolutionary history of a set of genomes and inferring them from genetic data has the potential to facilitate a wide range of analyses. We introduce a method, ARG-Needle, for accurately inferring biobank-scale genealogies from sequencing or genotyping array data, as well as strategies to utilize genealogies to perform association and other complex trait analyses. We use these methods to build genome-wide genealogies using genotyping data for 337,464 UK Biobank individuals and test for association across seven complex traits. Genealogy-based association detects more rare and ultra-rare signals (N = 134, frequency range 0.0007-0.1%) than genotype imputation using ~65,000 sequenced haplotypes (N = 64). In a subset of 138,039 exome sequencing samples, these associations strongly tag (average r = 0.72) underlying sequencing variants enriched (4.8×) for loss-of-function variation. These results demonstrate that inferred genome-wide genealogies may be leveraged in the analysis of complex traits, complementing approaches that require the availability of large, population-specific sequencing panels.",
+  "DOI": "10.1038/s41588-023-01379-x",
+  "PMC ID": "PMC10181934",
+  "CITATION": "Zhang BC, Biddanda A, Gunnarsson ÁF, Cooper F, ...&, Palamara PF. (2023) Biobank-scale inference of ancestral recombination graphs enables genealogical analysis of complex traits. Nat Genet, 55 (5) 768-776. doi:10.1038/s41588-023-01379-x. PMID 37127670",
+  "FIRST_AUTHOR": "Zhang BC",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

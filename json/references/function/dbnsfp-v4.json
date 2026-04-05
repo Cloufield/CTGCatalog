@@ -1,0 +1,33 @@
+{
+  "NAME": "dbNSFP v4",
+  "CATEGORY": "Functional Annotation",
+  "SOURCE": "dbNSFP",
+  "PMID": 33261662,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nLiu, X., Li, C., Mou, C., Dong, Y. & Tu, Y. dbNSFP v4: a comprehensive database of transcript-specific functional predictions and annotations for human nonsynonymous and splice-site SNVs. Genome Med. 12, 103 (2020).\n  \n",
+  "TOPIC": "Function",
+  "URL": "https://sites.google.com/site/jpopgen/dbNSFP",
+  "TYPE": "DB",
+  "DESCRIPTION": "Database aggregating functional predictions and annotations for nonsynonymous variants.",
+  "MANUAL_YEAR": 2011,
+  "SHORT NAME": "dbNSFP",
+  "FULL NAME": "Database for Nonsynonymous SNPs’ Functional Predictions",
+  "KEYWORDS": "annotation, variant, missense",
+  "USE": "meta-annotation",
+  "TITLE": "dbNSFP v4: a comprehensive database of transcript-specific functional predictions and annotations for human nonsynonymous and splice-site SNVs.",
+  "ISO": "Genome Med",
+  "JOURNAL": "Genome medicine",
+  "YEAR": "2020",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "103",
+  "Authors": "Liu X,Li C,Mou C,Dong Y,Tu Y",
+  "ABSTRACT": "Whole exome sequencing has been increasingly used in human disease studies. Prioritization based on appropriate functional annotations has been used as an indispensable step to select candidate variants. Here we present the latest updates to dbNSFP (version 4.1), a database designed to facilitate this step by providing deleteriousness prediction and functional annotation for all potential nonsynonymous and splice-site SNVs (a total of 84,013,093) in the human genome. The current version compiled 36 deleteriousness prediction scores, including 12 transcript-specific scores, and other variant and gene-level functional annotations. The database is available at http://database.liulab.science/dbNSFP with a downloadable version and a web-service.",
+  "DOI": "10.1186/s13073-020-00803-9",
+  "PMC ID": "PMC7709417",
+  "CITATION": "Liu X, Li C, Mou C, Dong Y, ...&, Tu Y. (2020) dbNSFP v4: a comprehensive database of transcript-specific functional predictions and annotations for human nonsynonymous and splice-site SNVs. Genome Med, 12 (1) 103. doi:10.1186/s13073-020-00803-9. PMID 33261662",
+  "FIRST_AUTHOR": "Liu X",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

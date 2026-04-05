@@ -1,0 +1,28 @@
+{
+  "NAME": "PASCAL",
+  "PMID": 26808494,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_set_pathway_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "PASCAL",
+  "FULL NAME": "Pathway scoring algorithm",
+  "URL": "https://www2.unil.ch/cbg/index.php?title=Pascal",
+  "DESCRIPTION": "Pascal (Pathway scoring algorithm) is an easy-to-use tool for gene scoring and pathway analysis from GWAS results.",
+  "MANUAL_CITATION": "Lamparter, David, et al. \"Fast and rigorous computation of gene and pathway scores from SNP-based summary statistics.\" PLoS computational biology 12.1 (2016): e1004714.",
+  "TITLE": "Fast and Rigorous Computation of Gene and Pathway Scores from SNP-Based Summary Statistics.",
+  "ISO": "PLoS Comput Biol",
+  "JOURNAL": "PLoS computational biology",
+  "YEAR": "2016",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "e1004714",
+  "Authors": "Lamparter D,Marbach D,Rueedi R,Kutalik Z,Bergmann S",
+  "ABSTRACT": "Integrating single nucleotide polymorphism (SNP) p-values from genome-wide association studies (GWAS) across genes and pathways is a strategy to improve statistical power and gain biological insight. Here, we present Pascal (Pathway scoring algorithm), a powerful tool for computing gene and pathway scores from SNP-phenotype association summary statistics. For gene score computation, we implemented analytic and efficient numerical solutions to calculate test statistics. We examined in particular the sum and the maximum of chi-squared statistics, which measure the strongest and the average association signals per gene, respectively. For pathway scoring, we use a modified Fisher method, which offers not only significant power improvement over more traditional enrichment strategies, but also eliminates the problem of arbitrary threshold selection inherent in any binary membership based pathway enrichment approach. We demonstrate the marked increase in power by analyzing summary statistics from dozens of large meta-studies for various traits. Our extensive testing indicates that our method not only excels in rigorous type I error control, but also results in more biologically meaningful discoveries.",
+  "DOI": "10.1371/journal.pcbi.1004714",
+  "PMC ID": "PMC4726509",
+  "CITATION": "Lamparter D, Marbach D, Rueedi R, Kutalik Z, ...&, Bergmann S. (2016) Fast and Rigorous Computation of Gene and Pathway Scores from SNP-Based Summary Statistics. PLoS Comput Biol, 12 (1) e1004714. doi:10.1371/journal.pcbi.1004714. PMID 26808494",
+  "FIRST_AUTHOR": "Lamparter D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

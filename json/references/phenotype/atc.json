@@ -1,0 +1,19 @@
+{
+  "NAME": "ATC",
+  "SECTION": "References",
+  "TOPIC": "Phenotype",
+  "CATEGORY": "Drug classification",
+  "TYPE": "Classification",
+  "SHORT NAME": "ATC",
+  "FULL NAME": "Anatomical Therapeutic Chemical Classification System",
+  "KEYWORDS": "ATC; drugs; pharmacoepidemiology; medication coding",
+  "DESCRIPTION": "Hierarchical system for classifying drugs by anatomical site, therapeutic and pharmacological subgroup, and chemical substance. Maintained by the WHO Collaborating Centre for Drug Statistics Methodology; widely used in prescription and claims data for exposure phenotypes.",
+  "MANUAL_CITATION": "WHO Collaborating Centre for Drug Statistics Methodology. ATC/DDD Index.",
+  "CITATION": "WHO Collaborating Centre for Drug Statistics Methodology. Anatomical Therapeutic Chemical (ATC) classification system. Norwegian Institute of Public Health.",
+  "YEAR": "1976",
+  "URL": "https://atcddd.fhi.no/atc/structure_and_principles/",
+  "TAGS": ["Phenotypes"],
+  "_meta": {
+    "source_sheet": "Phenotype"
+  }
+}

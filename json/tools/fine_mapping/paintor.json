@@ -1,0 +1,29 @@
+{
+  "NAME": "PAINTOR",
+  "PMID": 25357204,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "PAINTOR",
+  "FULL NAME": "Probabilistic Annotation INtegraTOR",
+  "KEYWORDS": "Empirical Bayes prior",
+  "URL": "https://bogdan.dgsom.ucla.edu/pages/paintor/",
+  "DESCRIPTION": "Finding causal variants that underlie known risk loci is one of the main post-GWAS challenges. Here we present PAINTOR (Probabilistic Annotation INtegraTOR), a probabilistic framework that integrates association strength with genomic functional annotation data to improve accuracy in selecting plausible causal variants for functional validation. The main output of PAINTOR are probabilities for every variant to be causal that can be used for prioritization in functional assays to establish biological causality.",
+  "MANUAL_CITATION": "Kichaev, G., Yang, W. Y., Lindstrom, S., Hormozdiari, F., Eskin, E., Price, A. L., ... & Pasaniuc, B. (2014). Integrating functional data to prioritize causal variants in statistical fine-mapping studies. PLoS genetics, 10(10), e1004722.",
+  "TITLE": "Integrating functional data to prioritize causal variants in statistical fine-mapping studies.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2014",
+  "VOLUME": "10",
+  "ISSUE": "10",
+  "PAGE": "e1004722",
+  "Authors": "Kichaev G,Yang WY,Lindstrom S,Hormozdiari F,Eskin E,Price AL,Kraft P,Pasaniuc B",
+  "ABSTRACT": "Standard statistical approaches for prioritization of variants for functional testing in fine-mapping studies either use marginal association statistics or estimate posterior probabilities for variants to be causal under simplifying assumptions. Here, we present a probabilistic framework that integrates association strength with functional genomic annotation data to improve accuracy in selecting plausible causal variants for functional validation. A key feature of our approach is that it empirically estimates the contribution of each functional annotation to the trait of interest directly from summary association statistics while allowing for multiple causal variants at any risk locus. We devise efficient algorithms that estimate the parameters of our model across all risk loci to further increase performance. Using simulations starting from the 1000 Genomes data, we find that our framework consistently outperforms the current state-of-the-art fine-mapping methods, reducing the number of variants that need to be selected to capture 90% of the causal variants from an average of 13.3 to 10.4 SNPs per locus (as compared to the next-best performing strategy). Furthermore, we introduce a cost-to-benefit optimization framework for determining the number of variants to be followed up in functional assays and assess its performance using real and simulation data. We validate our findings using a large scale meta-analysis of four blood lipids traits and find that the relative probability for causality is increased for variants in exons and transcription start sites and decreased in repressed genomic regions at the risk loci of these traits. Using these highly predictive, trait-specific functional annotations, we estimate causality probabilities across all traits and variants, reducing the size of the 90% confidence set from an average of 17.5 to 13.5 variants per locus in this data.",
+  "DOI": "10.1371/journal.pgen.1004722",
+  "PMC ID": "PMC4214605",
+  "CITATION": "Kichaev G, Yang WY, Lindstrom S, Hormozdiari F, ...&, Pasaniuc B. (2014) Integrating functional data to prioritize causal variants in statistical fine-mapping studies. PLoS Genet, 10 (10) e1004722. doi:10.1371/journal.pgen.1004722. PMID 25357204",
+  "FIRST_AUTHOR": "Kichaev G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

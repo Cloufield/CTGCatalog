@@ -1,0 +1,30 @@
+{
+  "NAME": "GenoBoost",
+  "PMID": 38811555,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "GenoBoost",
+  "FULL NAME": "GenoBoost",
+  "KEYWORDS": "additive effects, non-additive effects, statistical boosting",
+  "URL": "https://github.com/rickyota/genoboost",
+  "DESCRIPTION": "GenoBoost is a polygenic score method to capture additive and non-additive genetic inheritance effects.",
+  "MANUAL_CITATION": "Ohta, R., Tanigawa, Y., Suzuki, Y., Kellis, M., & Morishita, S. (2024). A polygenic score method boosted by non-additive models. Nature Communications, 15(1), 1-13.",
+  "TITLE": "A polygenic score method boosted by non-additive models.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "4433",
+  "Authors": "Ohta R,Tanigawa Y,Suzuki Y,Kellis M,Morishita S",
+  "ABSTRACT": "Dominance heritability in complex traits has received increasing recognition. However, most polygenic score (PGS) approaches do not incorporate non-additive effects. Here, we present GenoBoost, a flexible PGS modeling framework capable of considering both additive and non-additive effects, specifically focusing on genetic dominance. Building on statistical boosting theory, we derive provably optimal GenoBoost scores and provide its efficient implementation for analyzing large-scale cohorts. We benchmark it against seven commonly used PGS methods and demonstrate its competitive predictive performance. GenoBoost is ranked the best for four traits and second-best for three traits among twelve tested disease outcomes in UK Biobank. We reveal that GenoBoost improves prediction for autoimmune diseases by incorporating non-additive effects localized in the MHC locus and, more broadly, works best in less polygenic traits. We further demonstrate that GenoBoost can infer the mode of genetic inheritance without requiring prior knowledge. For example, GenoBoost finds non-zero genetic dominance effects for 602 of 900 selected genetic variants, resulting in 2.5% improvements in predicting psoriasis cases. Lastly, we show that GenoBoost can prioritize genetic loci with genetic dominance not previously reported in the GWAS catalog. Our results highlight the increased accuracy and biological insights from incorporating non-additive effects in PGS models.",
+  "DOI": "10.1038/s41467-024-48654-x",
+  "PMC ID": "PMC11522481",
+  "CITATION": "Ohta R, Tanigawa Y, Suzuki Y, Kellis M, ...&, Morishita S. (2024) A polygenic score method boosted by non-additive models. Nat Commun, 15 (1) 4433. doi:10.1038/s41467-024-48654-x. PMID 38811555",
+  "FIRST_AUTHOR": "Ohta R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

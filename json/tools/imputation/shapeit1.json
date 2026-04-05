@@ -1,0 +1,28 @@
+{
+  "NAME": "SHAPEIT1",
+  "PMID": 22138821,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "SHAPEIT1",
+  "URL": "https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html",
+  "DESCRIPTION": "(SHAPEIT1) ",
+  "MANUAL_CITATION": " Delaneau, Olivier, Jonathan Marchini, and Jean-François Zagury. \"A linear complexity phasing method for thousands of genomes.\" Nature methods 9.2 (2012): 179-181.",
+  "TITLE": "A linear complexity phasing method for thousands of genomes.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2011",
+  "VOLUME": "9",
+  "ISSUE": "2",
+  "PAGE": "179-81",
+  "Authors": "Delaneau O,Marchini J,Zagury JF",
+  "ABSTRACT": "Human-disease etiology can be better understood with phase information about diploid sequences. We present a method for estimating haplotypes, using genotype data from unrelated samples or small nuclear families, that leads to improved accuracy and speed compared to several widely used methods. The method, segmented haplotype estimation and imputation tool (SHAPEIT), scales linearly with the number of haplotypes used in each iteration and can be run efficiently on whole chromosomes.",
+  "DOI": "10.1038/nmeth.1785",
+  "PMC ID": "",
+  "CITATION": "Delaneau O, Marchini J, Zagury JF. (2011) A linear complexity phasing method for thousands of genomes. Nat Methods, 9 (2) 179-81. doi:10.1038/nmeth.1785. PMID 22138821",
+  "FIRST_AUTHOR": "Delaneau O",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

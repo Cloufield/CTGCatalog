@@ -1,0 +1,16 @@
+{
+  "NAME": "The International Agency for Research on Cancer (IARC) Biobank",
+  "SHORT NAME": "IARC",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~560k",
+  "MANUAL_CITATION": "Mendy, M., Caboux, E., Wild, C. P., & IARC Biobank Steering Committee Members. (2019). Centralization of the IARC biobank: combining multiple sample collections into a common platform. Biopreservation and Biobanking, 17(5), 433-443.",
+  "URL": "https://ibb.iarc.fr/",
+  "DESCRIPTION": " The IARC BioBank (IBB) is one of the largest, most varied and richest International collections of samples in the world. The Biobank is publicly funded, (approximately 60% of its budget is provided by IARC Participating States through the regular budget and the remainder is from research grants) and hosts over 50 different studies, led or coordinated by IARC scientists. The IBB contains both population-based collections from research projects focusing on gene-environment interactions (as in the European Prospective Investigation into Cancer and Nutrition (EPIC) study) and disease-based collections which focus on biomarkers (as in the International Head and Neck Cancer Epidemiology (INHANCE)). Study designs include case-series, prevalence studies, case-control and cohort studies, etc. The IBB contains 5.1 million biological samples from 562,000 individuals. 4 million of the samples are from the EPIC study (over 370,000 individuals) and about one million samples from other collections (close to 200,000 individuals). Most of the samples are body fluids, including plasma, serum and urine as well as extracted DNA samples.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "Global (ancestry varies by contributing study)",
+  "PARTICIPANTS": "Participants from many international IARC-led studies"
+}

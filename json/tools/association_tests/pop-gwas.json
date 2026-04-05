@@ -1,0 +1,30 @@
+{
+  "NAME": "POP-GWAS",
+  "PMID": 39349818,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Phenotype imputation",
+  "TYPE": "Tools",
+  "SHORT NAME": "POP-GWAS",
+  "FULL NAME": "Post-Prediction GWAS",
+  "KEYWORDS": "imputed phenotypes, 3 GWASs",
+  "URL": "https://github.com/qlu-lab/POP-TOOLS",
+  "DESCRIPTION": "POP-TOOLS (POst-Prediction TOOLS) is a Python3-based command line toolkit for conducting valid and powerful machine learning (ML)-assisted genetic association studies.",
+  "MANUAL_CITATION": "\nMiao, J. et al. Valid inference for machine learning-assisted genome-wide association studies. Nat. Genet. 56, 2361–2369 (2024).\n  \n",
+  "TITLE": "Valid inference for machine learning-assisted genome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "11",
+  "PAGE": "2361-2369",
+  "Authors": "Miao J,Wu Y,Sun Z,Miao X,Lu T,Zhao J,Lu Q",
+  "ABSTRACT": "Machine learning (ML) has become increasingly popular in almost all scientific disciplines, including human genetics. Owing to challenges related to sample collection and precise phenotyping, ML-assisted genome-wide association study (GWAS), which uses sophisticated ML techniques to impute phenotypes and then performs GWAS on the imputed outcomes, have become increasingly common in complex trait genetics research. However, the validity of ML-assisted GWAS associations has not been carefully evaluated. Here, we report pervasive risks for false-positive associations in ML-assisted GWAS and introduce Post-Prediction GWAS (POP-GWAS), a statistical framework that redesigns GWAS on ML-imputed outcomes. POP-GWAS ensures valid and powerful statistical inference irrespective of imputation quality and choice of algorithm, requiring only GWAS summary statistics as input. We employed POP-GWAS to perform a GWAS of bone mineral density derived from dual-energy X-ray absorptiometry imaging at 14 skeletal sites, identifying 89 new loci and revealing skeletal site-specific genetic architecture. Our framework offers a robust analytic solution for future ML-assisted GWAS.",
+  "DOI": "10.1038/s41588-024-01934-0",
+  "PMC ID": "PMC11972620",
+  "CITATION": "Miao J, Wu Y, Sun Z, Miao X, ...&, Lu Q. (2024) Valid inference for machine learning-assisted genome-wide association studies. Nat Genet, 56 (11) 2361-2369. doi:10.1038/s41588-024-01934-0. PMID 39349818",
+  "FIRST_AUTHOR": "Miao J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "GNOVA",
+  "PMID": 29220677,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Local heritability/genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "GNOVA",
+  "FULL NAME": "GeNetic cOVariance Analyzer",
+  "URL": "https://github.com/xtonyjiang/GNOVA",
+  "DESCRIPTION": "A principled framework to estimate annotation-stratified genetic covariance using GWAS summary statistics.",
+  "MANUAL_CITATION": "Lu, Qiongshi, et al. \"A powerful approach to estimating annotation-stratified genetic covariance via GWAS summary statistics.\" The American Journal of Human Genetics 101.6 (2017): 939-964.",
+  "TITLE": "A Powerful Approach to Estimating Annotation-Stratified Genetic Covariance via GWAS Summary Statistics.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2017",
+  "VOLUME": "101",
+  "ISSUE": "6",
+  "PAGE": "939-964",
+  "Authors": "Lu Q,Li B,Ou D,Erlendsdottir M,Powles RL,Jiang T,Hu Y,Chang D,Jin C,Dai W,He Q,Liu Z,Mukherjee S,Crane PK,Zhao H",
+  "ABSTRACT": "Despite the success of large-scale genome-wide association studies (GWASs) on complex traits, our understanding of their genetic architecture is far from complete. Jointly modeling multiple traits' genetic profiles has provided insights into the shared genetic basis of many complex traits. However, large-scale inference sets a high bar for both statistical power and biological interpretability. Here we introduce a principled framework to estimate annotation-stratified genetic covariance between traits using GWAS summary statistics. Through theoretical and numerical analyses, we demonstrate that our method provides accurate covariance estimates, thereby enabling researchers to dissect both the shared and distinct genetic architecture across traits to better understand their etiologies. Among 50 complex traits with publicly accessible GWAS summary statistics (Ntotal≈ 4.5 million), we identified more than 170 pairs with statistically significant genetic covariance. In particular, we found strong genetic covariance between late-onset Alzheimer disease (LOAD) and amyotrophic lateral sclerosis (ALS), two major neurodegenerative diseases, in single-nucleotide polymorphisms (SNPs) with high minor allele frequencies and in SNPs located in the predicted functional genome. Joint analysis of LOAD, ALS, and other traits highlights LOAD's correlation with cognitive traits and hints at an autoimmune component for ALS.",
+  "DOI": "10.1016/j.ajhg.2017.11.001",
+  "PMC ID": "PMC5812911",
+  "CITATION": "Lu Q, Li B, Ou D, Erlendsdottir M, ...&, Zhao H. (2017) A Powerful Approach to Estimating Annotation-Stratified Genetic Covariance via GWAS Summary Statistics. Am J Hum Genet, 101 (6) 939-964. doi:10.1016/j.ajhg.2017.11.001. PMID 29220677",
+  "FIRST_AUTHOR": "Lu Q",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

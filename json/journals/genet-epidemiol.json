@@ -1,0 +1,22 @@
+{
+  "NAME": "Genetic epidemiology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1098-2272",
+  "ENTRY_COUNT": 6,
+  "CITED_BY_SECTION": {
+    "Tools": 6
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "JAM",
+    "MACH / minimach",
+    "MANTRA",
+    "metaUSAT/metaMANOVA",
+    "PCHAT"
+  ]
+}

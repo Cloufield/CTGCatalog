@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Lappalainen",
+  "PMID": 34554789,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_prioritization",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Lappalainen, T., & MacArthur, D. G. (2021). From variant to function in human disease genetics. Science, 373(6562), 1464-1468.",
+  "TITLE": "From variant to function in human disease genetics.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2021",
+  "VOLUME": "373",
+  "ISSUE": "6562",
+  "PAGE": "1464-1468",
+  "Authors": "Lappalainen T,MacArthur DG",
+  "ABSTRACT": "Over the next decade, the primary challenge in human genetics will be to understand the biological mechanisms by which genetic variants influence phenotypes, including disease risk. Although the scale of this challenge is daunting, better methods for functional variant interpretation will have transformative consequences for disease diagnosis, risk prediction, and the development of new therapies. An array of new methods for characterizing variant impact at scale, using patient tissue samples as well as in vitro models, are already being applied to dissect variant mechanisms across a range of human cell types and environments. These approaches are also increasingly being deployed in clinical settings. We discuss the rationale, approaches, applications, and future outlook for characterizing the molecular and cellular effects of genetic variants.",
+  "DOI": "10.1126/science.abi8207",
+  "PMC ID": "",
+  "CITATION": "Lappalainen T, MacArthur DG. (2021) From variant to function in human disease genetics. Science, 373 (6562) 1464-1468. doi:10.1126/science.abi8207. PMID 34554789",
+  "FIRST_AUTHOR": "Lappalainen T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

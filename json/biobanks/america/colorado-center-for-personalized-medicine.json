@@ -1,0 +1,14 @@
+{
+  "NAME": "Colorado Center for Personalized Medicine",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~34k",
+  "URL": "https://medschool.cuanschutz.edu/cobiobank",
+  "DESCRIPTION": "Established in 2014 as a partnership between UCHealth and University of Colorado Anschutz Medical Campus, the Colorado Center for Personalized Medicine (CCPM) brings together multiple disciplines and institutions to uncover advancements in genomics that can improve diagnosis and treatment of disease, and identify more tailored approaches to population health management.To facilitate discoveries in personalized medicine, CCPM has created a Biobank that aims to be one of the largest academic medicine biospecimen repositories in the mountain and midwest regions of the U.S. The CCPM Biobank is able to link biospecimens and genotype information with patient health information from electronic medical records in an enterprise data warehouse (Health Data Compass) to support a broad range of research, operational, and clinical quality improvement agendas. ",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "University of Colorado health-system patients"
+}

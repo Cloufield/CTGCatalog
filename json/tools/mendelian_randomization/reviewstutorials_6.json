@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 37325194,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Sanderson, E., Glymour, M. M., Holmes, M. V., Kang, H., Morrison, J., Munafò, M. R., ... & Davey Smith, G. (2022). Mendelian randomization. Nature Reviews Methods Primers, 2(1), 1-21.",
+  "TITLE": "Mendelian randomization.",
+  "ISO": "Nat Rev Methods Primers",
+  "JOURNAL": "Nature reviews. Methods primers",
+  "YEAR": "2022",
+  "VOLUME": "2",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Sanderson E,Glymour MM,Holmes MV,Kang H,Morrison J,Munafò MR,Palmer T,Schooling CM,Wallace C,Zhao Q,Smith GD",
+  "ABSTRACT": "Mendelian randomization (MR) is a term that applies to the use of genetic variation to address causal questions about how modifiable exposures influence different outcomes. The principles of MR are based on Mendel's laws of inheritance and instrumental variable estimation methods, which enable the inference of causal effects in the presence of unobserved confounding. In this Primer, we outline the principles of MR, the instrumental variable conditions underlying MR estimation and some of the methods used for estimation. We go on to discuss how the assumptions underlying an MR study can be assessed and give methods of estimation that are robust to certain violations of these assumptions. We give examples of a range of studies in which MR has been applied, the limitations of current methods of analysis and the outlook for MR in the future. The difference between the assumptions required for MR analysis and other forms of non-interventional epidemiological studies means that MR can be used as part of a triangulation across multiple sources of evidence for causal inference.",
+  "DOI": "10.1038/s43586-021-00092-5",
+  "PMC ID": "PMC7614635",
+  "CITATION": "Sanderson E, Glymour MM, Holmes MV, Kang H, ...&, Smith GD. (2022) Mendelian randomization. Nat Rev Methods Primers, 2 () . doi:10.1038/s43586-021-00092-5. PMID 37325194",
+  "FIRST_AUTHOR": "Sanderson E",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

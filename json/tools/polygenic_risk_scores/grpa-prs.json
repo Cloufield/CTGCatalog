@@ -1,0 +1,29 @@
+{
+  "NAME": "GRPa-PRS",
+  "PMID": 37425929,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "GRPa-PRS",
+  "FULL NAME": "genetically-regulated pathways",
+  "MANUAL_YEAR": 2024,
+  "URL": "https://github.com/davidroad/GRPa-PRS",
+  "MANUAL_CITATION": "\nLi, X. et al. GRPa-PRS: A risk stratification method to identify genetically-regulated pathways in polygenic diseases. medRxiv 2023.06.19.23291621 (2024).\n  ",
+  "TITLE": "GRPa-PRS: A risk stratification method to identify genetically-regulated pathways in polygenic diseases.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv : the preprint server for health sciences",
+  "YEAR": "2024",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Li X,Fernandes BS,Liu A,Chen J,Chen X,Zhao Z,Dai Y",
+  "ABSTRACT": "BACKGROUND: Polygenic risk scores (PRS) are tools used to evaluate an individual's susceptibility to polygenic diseases based on their genetic profile. A considerable proportion of people carry a high genetic risk but evade the disease. On the other hand, some individuals with a low risk of eventually developing the disease. We hypothesized that unknown counterfactors might be involved in reversing the PRS prediction, which might provide new insights into the pathogenesis, prevention, and early intervention of diseases. METHODS: We built a novel computational framework to identify genetically-regulated pathways (GRPas) using PRS-based stratification for each cohort. We curated two AD cohorts with genotyping data; the discovery (disc) and the replication (rep) datasets include 2722 and 2854 individuals, respectively. First, we calculated the optimized PRS model based on the three recent AD GWAS summary statistics for each cohort. Then, we stratified the individuals by their PRS and clinical diagnosis into six biologically meaningful PRS strata, such as AD cases with low/high risk and cognitively normal (CN) with low/high risk. Lastly, we imputed individual genetically-regulated expression (GReX) and identified differential GReX and GRPas between risk strata using gene-set enrichment and variational analyses in two models, with and without APOE effects. An orthogonality test was further conducted to verify those GRPas are independent of PRS risk. To verify the generalizability of other polygenic diseases, we further applied a default model of GRPa-PRS for schizophrenia (SCZ). RESULTS: For each stratum, we conducted the same procedures in both the disc and rep datasets for comparison. In AD, we identified several well-known AD-related pathways, including amyloid-beta clearance, tau protein binding, and astrocyte response to oxidative stress. Additionally, we discovered resilience-related GRPs that are orthogonal to AD PRS, such as the calcium signaling pathway and divalent inorganic cation homeostasis. In SCZ, pathways related to mitochondrial function and muscle development were highlighted. Finally, our GRPa-PRS method identified more consistent differential pathways compared to another variant-based pathway PRS method. CONCLUSIONS: We developed a framework, GRPa-PRS, to systematically explore the differential GReX and GRPas among individuals stratified by their estimated PRS. The GReX-level comparison among those strata unveiled new insights into the pathways associated with disease risk and resilience. Our framework is extendable to other polygenic complex diseases.",
+  "DOI": "10.1101/2023.06.19.23291621",
+  "PMC ID": "PMC10327215",
+  "CITATION": "Li X, Fernandes BS, Liu A, Chen J, ...&, Dai Y. (2024) GRPa-PRS: A risk stratification method to identify genetically-regulated pathways in polygenic diseases. medRxiv,  () . doi:10.1101/2023.06.19.23291621. PMID 37425929",
+  "FIRST_AUTHOR": "Li X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

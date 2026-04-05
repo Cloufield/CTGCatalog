@@ -1,0 +1,28 @@
+{
+  "NAME": "gwas diversity monitor",
+  "PMID": 32139905,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "gwas diversity monitor",
+  "FULL NAME": "gwas diversity monitor",
+  "URL": "http://www.gwasdiversitymonitor.com/",
+  "MANUAL_CITATION": "Mills, Melinda C., and Charles Rahal. \"The GWAS Diversity Monitor tracks diversity by disease in real time.\" Nature genetics 52.3 (2020): 242-243.",
+  "TITLE": "The GWAS Diversity Monitor tracks diversity by disease in real time.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "3",
+  "PAGE": "242-243",
+  "Authors": "Mills MC,Rahal C",
+  "ABSTRACT": "",
+  "DOI": "10.1038/s41588-020-0580-y",
+  "PMC ID": "",
+  "CITATION": "Mills MC, Rahal C. (2020) The GWAS Diversity Monitor tracks diversity by disease in real time. Nat Genet, 52 (3) 242-243. doi:10.1038/s41588-020-0580-y. PMID 32139905",
+  "FIRST_AUTHOR": "Mills MC",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

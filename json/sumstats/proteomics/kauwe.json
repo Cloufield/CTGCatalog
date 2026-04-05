@@ -1,0 +1,27 @@
+{
+  "NAME": "Kauwe",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 25340798,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "Genome-wide association study of CSF levels of 59 alzheimer's disease candidate proteins: significant associations with proteins involved in amyloid processing and inflammation.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2014",
+  "VOLUME": "10",
+  "ISSUE": "10",
+  "PAGE": "e1004758",
+  "Authors": "Kauwe JS,Bailey MH,Ridge PG,Perry R,Wadsworth ME,Hoyt KL,Staley LA,Karch CM,Harari O,Cruchaga C,Ainscough BJ,Bales K,Pickering EH,Bertelsen S,Alzheimer's Disease Neuroimaging Initiative,Fagan AM,Holtzman DM,Morris JC,Goate AM",
+  "ABSTRACT": "Cerebrospinal fluid (CSF) 42 amino acid species of amyloid beta (Aβ42) and tau levels are strongly correlated with the presence of Alzheimer's disease (AD) neuropathology including amyloid plaques and neurodegeneration and have been successfully used as endophenotypes for genetic studies of AD. Additional CSF analytes may also serve as useful endophenotypes that capture other aspects of AD pathophysiology. Here we have conducted a genome-wide association study of CSF levels of 59 AD-related analytes. All analytes were measured using the Rules Based Medicine Human DiscoveryMAP Panel, which includes analytes relevant to several disease-related processes. Data from two independently collected and measured datasets, the Knight Alzheimer's Disease Research Center (ADRC) and Alzheimer's Disease Neuroimaging Initiative (ADNI), were analyzed separately, and combined results were obtained using meta-analysis. We identified genetic associations with CSF levels of 5 proteins (Angiotensin-converting enzyme (ACE), Chemokine (C-C motif) ligand 2 (CCL2), Chemokine (C-C motif) ligand 4 (CCL4), Interleukin 6 receptor (IL6R) and Matrix metalloproteinase-3 (MMP3)) with study-wide significant p-values (p<1.46×10-10) and significant, consistent evidence for association in both the Knight ADRC and the ADNI samples. These proteins are involved in amyloid processing and pro-inflammatory signaling. SNPs associated with ACE, IL6R and MMP3 protein levels are located within the coding regions of the corresponding structural gene. The SNPs associated with CSF levels of CCL4 and CCL2 are located in known chemokine binding proteins. The genetic associations reported here are novel and suggest mechanisms for genetic control of CSF and plasma levels of these disease-related proteins. Significant SNPs in ACE and MMP3 also showed association with AD risk. Our findings suggest that these proteins/pathways may be valuable therapeutic targets for AD. Robust associations in cognitively normal individuals suggest that these SNPs also influence regulation of these proteins more generally and may therefore be relevant to other diseases.",
+  "DOI": "10.1371/journal.pgen.1004758",
+  "PMC ID": "PMC4207667",
+  "CITATION": "Kauwe JS, Bailey MH, Ridge PG, Perry R, ...&, Goate AM. (2014) Genome-wide association study of CSF levels of 59 alzheimer's disease candidate proteins: significant associations with proteins involved in amyloid processing and inflammation. PLoS Genet, 10 (10) e1004758. doi:10.1371/journal.pgen.1004758. PMID 25340798",
+  "FIRST_AUTHOR": "Kauwe JS",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

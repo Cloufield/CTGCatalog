@@ -1,0 +1,33 @@
+{
+  "NAME": "Shah M",
+  "ADD_SUFFIX": 1,
+  "PMID": 37604819,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "CMR: image-derived  cardiovascular  age",
+  "PLATFORM": "Cardiac MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 39599,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "\nShah, M. et al. Environmental and genetic predictors of human cardiovascular ageing. Nat. Commun. 14, 4941 (2023).\n  ",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "Environmental and genetic predictors of human cardiovascular ageing.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "4941",
+  "Authors": "Shah M,de A Inácio MH,Lu C,Schiratti PR,Zheng SL,Clement A,de Marvao A,Bai W,King AP,Ware JS,Wilkins MR,Mielke J,Elci E,Kryukov I,McGurk KA,Bender C,Freitag DF,O'Regan DP",
+  "ABSTRACT": "Cardiovascular ageing is a process that begins early in life and leads to a progressive change in structure and decline in function due to accumulated damage across diverse cell types, tissues and organs contributing to multi-morbidity. Damaging biophysical, metabolic and immunological factors exceed endogenous repair mechanisms resulting in a pro-fibrotic state, cellular senescence and end-organ damage, however the genetic architecture of cardiovascular ageing is not known. Here we use machine learning approaches to quantify cardiovascular age from image-derived traits of vascular function, cardiac motion and myocardial fibrosis, as well as conduction traits from electrocardiograms, in 39,559 participants of UK Biobank. Cardiovascular ageing is found to be significantly associated with common or rare variants in genes regulating sarcomere homeostasis, myocardial immunomodulation, and tissue responses to biophysical stress. Ageing is accelerated by cardiometabolic risk factors and we also identify prescribed medications that are potential modifiers of ageing. Through large-scale modelling of ageing across multiple traits our results reveal insights into the mechanisms driving premature cardiovascular ageing and reveal potential molecular targets to attenuate age-related processes.",
+  "DOI": "10.1038/s41467-023-40566-6",
+  "PMC ID": "PMC10442405",
+  "CITATION": "Shah M, de A Inácio MH, Lu C, Schiratti PR, ...&, O'Regan DP. (2023) Environmental and genetic predictors of human cardiovascular ageing. Nat Commun, 14 (1) 4941. doi:10.1038/s41467-023-40566-6. PMID 37604819",
+  "FIRST_AUTHOR": "Shah M",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

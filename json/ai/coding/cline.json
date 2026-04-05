@@ -1,0 +1,13 @@
+{
+  "NAME": "Cline",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "Extension",
+  "COMPANY": "Open source",
+  "URL": "https://cline.bot",
+  "DESCRIPTION": "Autonomous coding agent for VS Code (and compatible editors) that plans, edits files, runs commands, and uses browser tools with user approval.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

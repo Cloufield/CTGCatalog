@@ -1,0 +1,28 @@
+{
+  "NAME": "LEMMA",
+  "PMID": 32888427,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "LEMMA",
+  "FULL NAME": "Linear Environment Mixed Model Analysis",
+  "URL": "https://github.com/mkerin/LEMMA",
+  "DESCRIPTION": "LEMMA (Linear Environment Mixed Model Analysis) is a whole genome wide regression method for flexible modeling of gene-environment interactions in large datasets such as the UK Biobank.",
+  "MANUAL_CITATION": "Kerin, M., & Marchini, J. (2020). Inferring gene-by-environment interactions with a Bayesian whole-genome regression model. The American Journal of Human Genetics, 107(4), 698-713.",
+  "TITLE": "Inferring Gene-by-Environment Interactions with a Bayesian Whole-Genome Regression Model.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2020",
+  "VOLUME": "107",
+  "ISSUE": "4",
+  "PAGE": "698-713",
+  "Authors": "Kerin M,Marchini J",
+  "ABSTRACT": "The contribution of gene-by-environment (GxE) interactions for many human traits and diseases is poorly characterized. We propose a Bayesian whole-genome regression model for joint modeling of main genetic effects and GxE interactions in large-scale datasets, such as the UK Biobank, where many environmental variables have been measured. The method is called LEMMA (Linear Environment Mixed Model Analysis) and estimates a linear combination of environmental variables, called an environmental score (ES), that interacts with genetic markers throughout the genome. The ES provides a readily interpretable way to examine the combined effect of many environmental variables. The ES can be used both to estimate the proportion of phenotypic variance attributable to GxE effects and to test for GxE effects at genetic variants across the genome. GxE effects can induce heteroskedasticity in quantitative traits, and LEMMA accounts for this by using robust standard error estimates when testing for GxE effects. When applied to body mass index, systolic blood pressure, diastolic blood pressure, and pulse pressure in the UK Biobank, we estimate that 9.3%, 3.9%, 1.6%, and 12.5%, respectively, of phenotypic variance is explained by GxE interactions and that low-frequency variants explain most of this variance. We also identify three loci that interact with the estimated environmental scores (-log10p>7.3).",
+  "DOI": "10.1016/j.ajhg.2020.08.009",
+  "PMC ID": "PMC7536582",
+  "CITATION": "Kerin M, Marchini J. (2020) Inferring Gene-by-Environment Interactions with a Bayesian Whole-Genome Regression Model. Am J Hum Genet, 107 (4) 698-713. doi:10.1016/j.ajhg.2020.08.009. PMID 32888427",
+  "FIRST_AUTHOR": "Kerin M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

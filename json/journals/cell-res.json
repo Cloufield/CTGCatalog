@@ -1,0 +1,20 @@
+{
+  "NAME": "Cell research",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Cell Res",
+  "JOURNAL": "Cell research",
+  "URL": "http://www.nature.com/cr",
+  "ENTRY_COUNT": 3,
+  "CITED_BY_SECTION": {
+    "Tools": 3
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "ChinaMAP panel",
+    "ChinaMAP",
+    "DOG"
+  ]
+}

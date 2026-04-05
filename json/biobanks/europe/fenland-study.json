@@ -1,0 +1,15 @@
+{
+  "NAME": "Fenland Study",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~12k",
+  "MANUAL_CITATION": " MRC Epidemiology Unit, University of Cambridge. Fenland Study. [Internet]. Cambridge (UK): MRC Epidemiology Unit; 2017; [cited 2017 July 8]. Available from: http://www.mrc-epid.cam.ac.uk/research/studies/fenland/.",
+  "URL": "https://www.mrc-epid.cam.ac.uk/research/studies/fenland/",
+  "DESCRIPTION": "The Fenland Study investigates the interaction between environmental and genetic factors in determining obesity, type 2 diabetes, and related metabolic disorders. These conditions are a considerable public health concern, but their causes and factors that predict who will be affected by them are not completely understood. What makes the Fenland Study unique is the level of detail it collects about the health and lifestyle of participants, and the objective measurement techniques used in the screening. The first phase of the Fenland Study is now complete, and we are now inviting participants who attended an initial Fenland Study visit between 2005 and 2015 to return for a second visit in Phase 2.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "English adults (Cambridgeshire Fenland)"
+}

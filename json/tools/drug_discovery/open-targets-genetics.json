@@ -1,0 +1,27 @@
+{
+  "NAME": "Open Targets Genetics",
+  "PMID": 34711957,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "Open Targets Genetics",
+  "FULL NAME": "Open Targets Genetics",
+  "URL": "https://genetics.opentargets.org/",
+  "DESCRIPTION": "Open Targets Genetics is a comprehensive tool highlighting variant-centric statistical evidence to allow both prioritisation of candidate causal variants at trait-associated loci and identification of potential drug targets.",
+  "TITLE": "An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "11",
+  "PAGE": "1527-1533",
+  "Authors": "Mountjoy E,Schmidt EM,Carmona M,Schwartzentruber J,Peat G,Miranda A,Fumis L,Hayhurst J,Buniello A,Karim MA,Wright D,Hercules A,Papa E,Fauman EB,Barrett JC,Todd JA,Ochoa D,Dunham I,Ghoussaini M",
+  "ABSTRACT": "Genome-wide association studies (GWASs) have identified many variants associated with complex traits, but identifying the causal gene(s) is a major challenge. In the present study, we present an open resource that provides systematic fine mapping and gene prioritization across 133,441 published human GWAS loci. We integrate genetics (GWAS Catalog and UK Biobank) with transcriptomic, proteomic and epigenomic data, including systematic disease-disease and disease-molecular trait colocalization results across 92 cell types and tissues. We identify 729 loci fine mapped to a single-coding causal variant and colocalized with a single gene. We trained a machine-learning model using the fine-mapped genetics and functional genomics data and 445 gold-standard curated GWAS loci to distinguish causal genes from neighboring genes, outperforming a naive distance-based model. Our prioritized genes were enriched for known approved drug targets (odds ratio = 8.1, 95% confidence interval = 5.7, 11.5). These results are publicly available through a web portal ( http://genetics.opentargets.org ), enabling users to easily prioritize genes at disease-associated loci and assess their potential as drug targets.",
+  "DOI": "10.1038/s41588-021-00945-5",
+  "PMC ID": "PMC7611956",
+  "CITATION": "Mountjoy E, Schmidt EM, Carmona M, Schwartzentruber J, ...&, Ghoussaini M. (2021) An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci. Nat Genet, 53 (11) 1527-1533. doi:10.1038/s41588-021-00945-5. PMID 34711957",
+  "FIRST_AUTHOR": "Mountjoy E",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

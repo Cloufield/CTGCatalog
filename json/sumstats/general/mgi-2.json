@@ -1,0 +1,15 @@
+{
+  "NAME": "MGI 2",
+  "URL": "https://pheweb.org/MGI-freeze2/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Michigan Genomics Initiative PheWeb freeze 2 — GWAS summary statistics.",
+  "MANUAL_CITATION": "Michigan Genomics Initiative (University of Michigan) — EHR-linked biobank GWAS; PheWeb freeze 2 summary statistics.",
+  "MANUAL_YEAR": 2020,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

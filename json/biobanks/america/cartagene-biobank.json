@@ -1,0 +1,16 @@
+{
+  "NAME": "CARTaGENE biobank",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~30K",
+  "DATA ACCESS": "https://cartagene.qc.ca/en/researchers.html",
+  "MANUAL_CITATION": "Awadalla, P., Boileau, C., Payette, Y., Idaghdour, Y., Goulet, J. P., Knoppers, B., ... & Laberge, C. (2013). Cohort profile of the CARTaGENE study: Quebec’s population-based biobank for public health and personalized genomics. International journal of epidemiology, 42(5), 1285-1299.",
+  "URL": "https://cartagene.qc.ca/en/",
+  "DESCRIPTION": "CARTaGENE is a public research platform of the CHU Sainte-Justine aiming to accelerate health research. CARTaGENE is made up of both biological samples and data on the health and lifestyle of 43,000 Quebec men and women between the ages of 40 and 69 at recruitment.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR,EUR",
+  "PARTICIPANTS": "Quebec residents (CartaGENE)"
+}

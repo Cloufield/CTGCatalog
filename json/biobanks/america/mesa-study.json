@@ -1,0 +1,16 @@
+{
+  "NAME": "MESA",
+  "SHORT NAME": "MESA",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~6.8k",
+  "DESCRIPTION": "Multi-Ethnic Study of Atherosclerosis: six U.S. sites with subclinical CVD imaging and omics; genome-wide data widely used in multi-ethnic GWAS and cardiometabolic genetics.",
+  "MANUAL_CITATION": "Bild, D. E., Bluemke, D. A., Burke, G. L., Detrano, R., Diez Roux, A. V., Folsom, A. R., ... & Tracy, R. P. (2002). Multi-ethnic study of atherosclerosis: objectives and design. American Journal of Epidemiology, 156(9), 871-881.",
+  "URL": "https://www.mesa-nhlbi.org/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR",
+  "PARTICIPANTS": "US adults (Black, white, Hispanic/Latino, Chinese cohorts)"
+}

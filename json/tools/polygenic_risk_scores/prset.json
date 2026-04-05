@@ -1,0 +1,30 @@
+{
+  "NAME": "PRSet",
+  "PMID": 36749789,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Pathway",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRSet",
+  "FULL NAME": "PRSet",
+  "KEYWORDS": "pathway-based",
+  "URL": "https://www.prsice.info/quick_start_prset/",
+  "DESCRIPTION": "A new feature of PRSice is the ability to perform set base/pathway based analysis. This new feature is called PRSet.",
+  "MANUAL_CITATION": "Choi SW, Garcia-Gonzalez J, Ruan Y, et al. The power of pathway-based polygenic risk scores. Research Square; 2021. DOI: 10.21203/rs.3.rs-643696/v1.",
+  "TITLE": "PRSet: Pathway-based polygenic risk score analyses and software.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2023",
+  "VOLUME": "19",
+  "ISSUE": "2",
+  "PAGE": "e1010624",
+  "Authors": "Choi SW,García-González J,Ruan Y,Wu HM,Porras C,Johnson J,Bipolar Disorder Working group of the Psychiatric Genomics Consortium,Hoggart CJ,O'Reilly PF",
+  "ABSTRACT": "Polygenic risk scores (PRSs) have been among the leading advances in biomedicine in recent years. As a proxy of genetic liability, PRSs are utilised across multiple fields and applications. While numerous statistical and machine learning methods have been developed to optimise their predictive accuracy, these typically distil genetic liability to a single number based on aggregation of an individual's genome-wide risk alleles. This results in a key loss of information about an individual's genetic profile, which could be critical given the functional sub-structure of the genome and the heterogeneity of complex disease. In this manuscript, we introduce a 'pathway polygenic' paradigm of disease risk, in which multiple genetic liabilities underlie complex diseases, rather than a single genome-wide liability. We describe a method and accompanying software, PRSet, for computing and analysing pathway-based PRSs, in which polygenic scores are calculated across genomic pathways for each individual. We evaluate the potential of pathway PRSs in two distinct ways, creating two major sections: (1) In the first section, we benchmark PRSet as a pathway enrichment tool, evaluating its capacity to capture GWAS signal in pathways. We find that for target sample sizes of >10,000 individuals, pathway PRSs have similar power for evaluating pathway enrichment as leading methods MAGMA and LD score regression, with the distinct advantage of providing individual-level estimates of genetic liability for each pathway -opening up a range of pathway-based PRS applications, (2) In the second section, we evaluate the performance of pathway PRSs for disease stratification. We show that using a supervised disease stratification approach, pathway PRSs (computed by PRSet) outperform two standard genome-wide PRSs (computed by C+T and lassosum) for classifying disease subtypes in 20 of 21 scenarios tested. As the definition and functional annotation of pathways becomes increasingly refined, we expect pathway PRSs to offer key insights into the heterogeneity of complex disease and treatment response, to generate biologically tractable therapeutic targets from polygenic signal, and, ultimately, to provide a powerful path to precision medicine.",
+  "DOI": "10.1371/journal.pgen.1010624",
+  "PMC ID": "PMC9937466",
+  "CITATION": "Choi SW, García-González J, Ruan Y, Wu HM, ...&, O'Reilly PF. (2023) PRSet: Pathway-based polygenic risk score analyses and software. PLoS Genet, 19 (2) e1010624. doi:10.1371/journal.pgen.1010624. PMID 36749789",
+  "FIRST_AUTHOR": "Choi SW",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "NAME": "Lifelines",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~167k",
+  "MANUAL_CITATION": " Scholtens, S., Smidt, N., Swertz, M. A., Bakker, S. J., Dotinga, A., Vonk, J. M., ... & Stolk, R. P. (2015). Cohort Profile: LifeLines, a three-generation cohort study and biobank. International journal of epidemiology, 44(4), 1172-1180.",
+  "URL": "https://www.lifelines.nl/researcher",
+  "DESCRIPTION": "Lifelines is a large, multigenerational cohort study that includes over 167,000 participants (10%) from the northern population of the Netherlands. We included participants from three generations, who are followed for at least 30 years, to obtain insight into healthy ageing. The aim of Lifelines is to be a resource for the national and international scientific community. ",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Dutch residents (three-generation cohort)"
+}

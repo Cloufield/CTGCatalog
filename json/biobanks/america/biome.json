@@ -1,0 +1,15 @@
+{
+  "NAME": "BioMe",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~32k",
+  "MANUAL_CITATION": "Roden, D. M., Pulley, J. M., Basford, M. A., Bernard, G. R., Clayton, E. W., Balser, J. R., & Masys, D. R. (2008). Development of a large‐scale de‐identified DNA biobank to enable personalized medicine. Clinical Pharmacology & Therapeutics, 84(3), 362-369.",
+  "URL": "https://www.vumc.org/dbmi/biovu",
+  "DESCRIPTION": "The Institute for Personalized Medicine at the Icahn School of Medicine at Mount Sinai is leading the movement toward diagnosis and classification of disease according to the patient’s molecular profile. This approach accommodates differences at all possible levels of exposure (genome, environment, and lifestyle) and at all stages of the process, from prevention to post-treatment follow-up. At the center of this effort is BioMe, an electronic medical record-linked biobank that enables researchers to rapidly and efficiently conduct genetic, epidemiologic, molecular, and genomic studies on large collections of research specimens linked with medical information.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "New York City area health-system patients"
+}

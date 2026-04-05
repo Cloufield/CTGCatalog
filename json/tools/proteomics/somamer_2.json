@@ -1,0 +1,23 @@
+{
+  "NAME": "SOMAmer",
+  "PMID": 25291143,
+  "SECTION": "Tools",
+  "TOPIC": "Proteomics",
+  "MANUAL_CITATION": "Rohloff, J. C., Gelinas, A. D., Jarvis, T. C., Ochsner, U. A., Schneider, D. J., Gold, L., & Janjic, N. (2014). Nucleic acid ligands with protein-like side chains: modified aptamers and their use as diagnostic and therapeutic agents. Molecular Therapy-Nucleic Acids, 3, e201.",
+  "TITLE": "Nucleic Acid Ligands With Protein-like Side Chains: Modified Aptamers and Their Use as Diagnostic and Therapeutic Agents.",
+  "ISO": "Mol Ther Nucleic Acids",
+  "JOURNAL": "Molecular therapy. Nucleic acids",
+  "YEAR": "2014",
+  "VOLUME": "3",
+  "ISSUE": "10",
+  "PAGE": "e201",
+  "Authors": "Rohloff JC,Gelinas AD,Jarvis TC,Ochsner UA,Schneider DJ,Gold L,Janjic N",
+  "ABSTRACT": "Limited chemical diversity of nucleic acid libraries has long been suspected to be a major constraining factor in the overall success of SELEX (Systematic Evolution of Ligands by EXponential enrichment). Despite this constraint, SELEX has enjoyed considerable success over the past quarter of a century as a result of the enormous size of starting libraries and conformational richness of nucleic acids. With judicious introduction of functional groups absent in natural nucleic acids, the \"diversity gap\" between nucleic acid-based ligands and protein-based ligands can be substantially bridged, to generate a new class of ligands that represent the best of both worlds. We have explored the effect of various functional groups at the 5-position of uracil and found that hydrophobic aromatic side chains have the most profound influence on the success rate of SELEX and allow the identification of ligands with very low dissociation rate constants (named Slow Off-rate Modified Aptamers or SOMAmers). Such modified nucleotides create unique intramolecular motifs and make direct contacts with proteins. Importantly, SOMAmers engage their protein targets with surfaces that have significantly more hydrophobic character compared with conventional aptamers, thereby increasing the range of epitopes that are available for binding. These improvements have enabled us to build a collection of SOMAmers to over 3,000 human proteins encompassing major families such as growth factors, cytokines, enzymes, hormones, and receptors, with additional SOMAmers aimed at pathogen and rodent proteins. Such a large and growing collection of exquisite affinity reagents expands the scope of possible applications in diagnostics and therapeutics.",
+  "DOI": "10.1038/mtna.2014.49",
+  "PMC ID": "PMC4217074",
+  "CITATION": "Rohloff JC, Gelinas AD, Jarvis TC, Ochsner UA, ...&, Janjic N. (2014) Nucleic Acid Ligands With Protein-like Side Chains: Modified Aptamers and Their Use as Diagnostic and Therapeutic Agents. Mol Ther Nucleic Acids, 3 (10) e201. doi:10.1038/mtna.2014.49. PMID 25291143",
+  "FIRST_AUTHOR": "Rohloff JC",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

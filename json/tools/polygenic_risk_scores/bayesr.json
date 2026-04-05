@@ -1,0 +1,29 @@
+{
+  "NAME": "BayesR",
+  "PMID": 25849665,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Polygenicity",
+  "TYPE": "Tools",
+  "SHORT NAME": "BayesR",
+  "FULL NAME": "BayesR",
+  "URL": "https://cnsgenomics.com/software/gctb/#Overview",
+  "DESCRIPTION": "Bayesian mixture model to dissect genetic variation for disease in human populations and to construct more powerful risk predictors",
+  "MANUAL_CITATION": "Moser, G., Lee, S. H., Hayes, B. J., Goddard, M. E., Wray, N. R., & Visscher, P. M. (2015). Simultaneous discovery, estimation and prediction analysis of complex traits using a Bayesian mixture model. PLoS genetics, 11(4), e1004969.",
+  "TITLE": "Simultaneous discovery, estimation and prediction analysis of complex traits using a bayesian mixture model.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2015",
+  "VOLUME": "11",
+  "ISSUE": "4",
+  "PAGE": "e1004969",
+  "Authors": "Moser G,Lee SH,Hayes BJ,Goddard ME,Wray NR,Visscher PM",
+  "ABSTRACT": "Gene discovery, estimation of heritability captured by SNP arrays, inference on genetic architecture and prediction analyses of complex traits are usually performed using different statistical models and methods, leading to inefficiency and loss of power. Here we use a Bayesian mixture model that simultaneously allows variant discovery, estimation of genetic variance explained by all variants and prediction of unobserved phenotypes in new samples. We apply the method to simulated data of quantitative traits and Welcome Trust Case Control Consortium (WTCCC) data on disease and show that it provides accurate estimates of SNP-based heritability, produces unbiased estimators of risk in new samples, and that it can estimate genetic architecture by partitioning variation across hundreds to thousands of SNPs. We estimated that, depending on the trait, 2,633 to 9,411 SNPs explain all of the SNP-based heritability in the WTCCC diseases. The majority of those SNPs (>96%) had small effects, confirming a substantial polygenic component to common diseases. The proportion of the SNP-based variance explained by large effects (each SNP explaining 1% of the variance) varied markedly between diseases, ranging from almost zero for bipolar disorder to 72% for type 1 diabetes. Prediction analyses demonstrate that for diseases with major loci, such as type 1 diabetes and rheumatoid arthritis, Bayesian methods outperform profile scoring or mixed model approaches.",
+  "DOI": "10.1371/journal.pgen.1004969",
+  "PMC ID": "PMC4388571",
+  "CITATION": "Moser G, Lee SH, Hayes BJ, Goddard ME, ...&, Visscher PM. (2015) Simultaneous discovery, estimation and prediction analysis of complex traits using a bayesian mixture model. PLoS Genet, 11 (4) e1004969. doi:10.1371/journal.pgen.1004969. PMID 25849665",
+  "FIRST_AUTHOR": "Moser G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

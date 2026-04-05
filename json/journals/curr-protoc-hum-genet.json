@@ -1,0 +1,20 @@
+{
+  "NAME": "Current protocols in human genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Curr Protoc Hum Genet",
+  "JOURNAL": "Current protocols in human genetics",
+  "URL": "http://onlinelibrary.wiley.com/book/10.1002/0471142905",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Tools": 1,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "PolyPhen-2",
+    "reviews"
+  ]
+}

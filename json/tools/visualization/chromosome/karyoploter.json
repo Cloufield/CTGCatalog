@@ -1,0 +1,29 @@
+{
+  "NAME": "karyoploteR",
+  "PMID": 28575171,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Chromosome",
+  "TYPE": "Tools",
+  "SHORT NAME": "karyoploteR",
+  "FULL NAME": "karyoploteR",
+  "URL": "https://bernatgel.github.io/karyoploter_tutorial/",
+  "DESCRIPTION": "karyoploteR is an R package to create karyoplots, that is, representations of whole genomes with arbitrary data plotted on them. It is inspired by the R base graphics system and does not depend on other graphics packages. The aim of karyoploteR is to offer the user an easy way to plot data along the genome to get broad genome-wide view to facilitate the identification of genome wide relations and distributions.",
+  "MANUAL_CITATION": "Gel, Bernat, and Eduard Serra. \"karyoploteR: an R/Bioconductor package to plot customizable genomes displaying arbitrary data.\" Bioinformatics 33.19 (2017): 3088-3090.",
+  "TITLE": "karyoploteR: an R/Bioconductor package to plot customizable genomes displaying arbitrary data.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2017",
+  "VOLUME": "33",
+  "ISSUE": "19",
+  "PAGE": "3088-3090",
+  "Authors": "Gel B,Serra E",
+  "ABSTRACT": "MOTIVATION: Data visualization is a crucial tool for data exploration, analysis and interpretation. For the visualization of genomic data there lacks a tool to create customizable non-circular plots of whole genomes from any species. RESULTS: We have developed karyoploteR, an R/Bioconductor package to create linear chromosomal representations of any genome with genomic annotations and experimental data plotted along them. Plot creation process is inspired in R base graphics, with a main function creating karyoplots with no data and multiple additional functions, including custom functions written by the end-user, adding data and other graphical elements. This approach allows the creation of highly customizable plots from arbitrary data with complete freedom on data positioning and representation. AVAILABILITY AND IMPLEMENTATION: karyoploteR is released under Artistic-2.0 License. Source code and documentation are freely available through Bioconductor (http://www.bioconductor.org/packages/karyoploteR) and at the examples and tutorial page at https://bernatgel.github.io/karyoploter_tutorial. CONTACT: bgel@igtp.cat.",
+  "DOI": "10.1093/bioinformatics/btx346",
+  "PMC ID": "PMC5870550",
+  "CITATION": "Gel B, Serra E. (2017) karyoploteR: an R/Bioconductor package to plot customizable genomes displaying arbitrary data. Bioinformatics, 33 (19) 3088-3090. doi:10.1093/bioinformatics/btx346. PMID 28575171",
+  "FIRST_AUTHOR": "Gel B",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

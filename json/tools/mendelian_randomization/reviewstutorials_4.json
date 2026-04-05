@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 29892602,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Teumer, A. (2018). Common methods for performing Mendelian randomization. Frontiers in cardiovascular medicine, 5, 51.",
+  "TITLE": "Common Methods for Performing Mendelian Randomization.",
+  "ISO": "Front Cardiovasc Med",
+  "JOURNAL": "Frontiers in cardiovascular medicine",
+  "YEAR": "2018",
+  "VOLUME": "5",
+  "ISSUE": "",
+  "PAGE": "51",
+  "Authors": "Teumer A",
+  "ABSTRACT": "Mendelian randomization (MR) is a framework for assessing causal inference using cross-sectional data in combination with genetic information. This paper summarizes statistical methods commonly applied and strait forward to use for conducting MR analyses including those taking advantage of the rich dataset of SNP-trait associations that were revealed in the last decade through large-scale genome-wide association studies. Using these data, powerful MR studies are possible. However, the causal estimate may be biased in case the assumptions of MR are violated. The source and the type of this bias are described while providing a summary of the mathematical formulas that should help estimating the magnitude and direction of the potential bias depending on the specific research setting. Finally, methods for relaxing the assumptions and for conducting sensitivity analyses are discussed. Future researches in the field of MR include the assessment of non-linear causal effects, and automatic detection of invalid instruments.",
+  "DOI": "10.3389/fcvm.2018.00051",
+  "PMC ID": "PMC5985452",
+  "CITATION": "Teumer A. (2018) Common Methods for Performing Mendelian Randomization. Front Cardiovasc Med, 5 () 51. doi:10.3389/fcvm.2018.00051. PMID 29892602",
+  "FIRST_AUTHOR": "Teumer A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

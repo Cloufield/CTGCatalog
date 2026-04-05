@@ -1,0 +1,25 @@
+{
+  "NAME": "NCBI-Gene",
+  "PMID": 33095870,
+  "SECTION": "References",
+  "TOPIC": "Gene",
+  "MANUAL_CITATION": "Sayers, E. W. et al. Database resources of the National Center for Biotechnology Information. Nucleic Acids Res. 49, D10–D17 (2021).\n  ",
+  "URL": "https://www.ncbi.nlm.nih.gov/gene/",
+  "DESCRIPTION": "Gene integrates information from a wide range of species. A record may include nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide.",
+  "TITLE": "Database resources of the National Center for Biotechnology Information.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2021",
+  "VOLUME": "49",
+  "ISSUE": "D1",
+  "PAGE": "D10-D17",
+  "Authors": "Sayers EW,Beck J,Bolton EE,Bourexis D,Brister JR,Canese K,Comeau DC,Funk K,Kim S,Klimke W,Marchler-Bauer A,Landrum M,Lathrop S,Lu Z,Madden TL,O'Leary N,Phan L,Rangwala SH,Schneider VA,Skripchenko Y,Wang J,Ye J,Trawick BW,Pruitt KD,Sherry ST",
+  "ABSTRACT": "The National Center for Biotechnology Information (NCBI) provides a large suite of online resources for biological information and data, including the GenBank® nucleic acid sequence database and the PubMed® database of citations and abstracts published in life science journals. The Entrez system provides search and retrieval operations for most of these data from 34 distinct databases. The E-utilities serve as the programming interface for the Entrez system. Custom implementations of the BLAST program provide sequence-based searching of many specialized datasets. New resources released in the past year include a new PubMed interface and NCBI datasets. Additional resources that were updated in the past year include PMC, Bookshelf, Genome Data Viewer, SRA, ClinVar, dbSNP, dbVar, Pathogen Detection, BLAST, Primer-BLAST, IgBLAST, iCn3D and PubChem. All of these resources can be accessed through the NCBI home page at https://www.ncbi.nlm.nih.gov.",
+  "DOI": "10.1093/nar/gkaa892",
+  "PMC ID": "PMC7778943",
+  "CITATION": "Sayers EW, Beck J, Bolton EE, Bourexis D, ...&, Sherry ST. (2021) Database resources of the National Center for Biotechnology Information. Nucleic Acids Res, 49 (D1) D10-D17. doi:10.1093/nar/gkaa892. PMID 33095870",
+  "FIRST_AUTHOR": "Sayers EW",
+  "_meta": {
+    "source_sheet": "Gene"
+  }
+}

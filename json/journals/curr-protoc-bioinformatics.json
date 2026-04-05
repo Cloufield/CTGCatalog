@@ -1,0 +1,18 @@
+{
+  "NAME": "Current protocols in bioinformatics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Curr Protoc Bioinformatics",
+  "JOURNAL": "Current protocols in bioinformatics",
+  "URL": "http://onlinelibrary.wiley.com/book/10.1002/0471250953",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "GeneCards"
+  ]
+}

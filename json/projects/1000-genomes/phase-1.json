@@ -1,0 +1,13 @@
+{
+  "NAME": "Phase 1",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "STAGE_ORDER": 2,
+  "STAGE_PERIOD": "2010–2011",
+  "TAGS": ["1000 Genomes", "Reference"],
+  "DESCRIPTION": "Expanded low-coverage WGS (~1,092 individuals) with exome capture and dense SNP genotyping; primary SNP and indel reference for early imputation panels.",
+  "URL": "https://www.internationalgenome.org/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

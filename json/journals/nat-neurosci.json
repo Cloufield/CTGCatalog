@@ -1,0 +1,22 @@
+{
+  "NAME": "Nature neuroscience",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Neurosci",
+  "JOURNAL": "Nature neuroscience",
+  "URL": "http://www.nature.com/neuro/",
+  "ENTRY_COUNT": 5,
+  "CITED_BY_SECTION": {
+    "Sumstats": 5
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Hannon",
+    "Smith SM",
+    "Wang C",
+    "Yang",
+    "PsychENCODE"
+  ]
+}

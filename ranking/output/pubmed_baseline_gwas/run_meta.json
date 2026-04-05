@@ -1,0 +1,27 @@
+{
+  "mode": "parse_and_summarize",
+  "elapsed_seconds": 3371.47,
+  "parse_elapsed_seconds": 3364.22,
+  "merge_elapsed_seconds": 7.25,
+  "n_baseline_files": 1334,
+  "written": 1334,
+  "skipped_existing": 0,
+  "workers": 12,
+  "year_min": 2007,
+  "year_max": 2026,
+  "min_articles_for_share_rank": 50,
+  "n_journals_any": 23039,
+  "n_journals_share_ranked": 4016,
+  "n_journal_rows_by_year_volume": 189982,
+  "n_journal_rows_by_year_share": 16579,
+  "shards_dir": "/home/yunye/work/github/CTGCatalog/ranking/output/pubmed_baseline_gwas/shards",
+  "outputs": [
+    "gwas_trends_by_year.csv",
+    "journal_gwas_ranking.csv",
+    "journal_gwas_ranking_by_share.csv",
+    "journal_gwas_ranking_by_year.csv",
+    "journal_gwas_ranking_by_share_by_year.csv"
+  ],
+  "input_mode": "baseline_dir",
+  "baseline_dir": "/mnt/f/CommonData2/Reference/PubMed"
+}

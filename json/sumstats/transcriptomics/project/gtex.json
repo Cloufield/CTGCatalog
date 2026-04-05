@@ -1,0 +1,26 @@
+{
+  "NAME": "GTEx ",
+  "PMID": 23715323,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Project",
+  "DESCRIPTION": "Project overview",
+  "MANUAL_YEAR": 2013,
+  "MANUAL_CITATION": "Lonsdale, J., Thomas, J., Salvatore, M., Phillips, R., Lo, E., Shad, S., ... & Moore, H. F. (2013). The genotype-tissue expression (GTEx) project. Nature genetics, 45(6), 580-585.",
+  "TITLE": "The Genotype-Tissue Expression (GTEx) project.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2013",
+  "VOLUME": "45",
+  "ISSUE": "6",
+  "PAGE": "580-5",
+  "Authors": "GTEx Consortium",
+  "ABSTRACT": "Genome-wide association studies have identified thousands of loci for common diseases, but, for the majority of these, the mechanisms underlying disease susceptibility remain unknown. Most associated variants are not correlated with protein-coding changes, suggesting that polymorphisms in regulatory regions probably contribute to many disease phenotypes. Here we describe the Genotype-Tissue Expression (GTEx) project, which will establish a resource database and associated tissue bank for the scientific community to study the relationship between genetic variation and gene expression in human tissues.",
+  "DOI": "10.1038/ng.2653",
+  "PMC ID": "PMC4010069",
+  "CITATION": "GTEx Consortium. (2013) The Genotype-Tissue Expression (GTEx) project. Nat Genet, 45 (6) 580-5. doi:10.1038/ng.2653. PMID 23715323",
+  "FIRST_AUTHOR": "GTEx Consortium",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

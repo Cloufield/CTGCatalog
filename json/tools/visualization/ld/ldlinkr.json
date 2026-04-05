@@ -1,0 +1,29 @@
+{
+  "NAME": "LDlinkR",
+  "PMID": 32180801,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "LD",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDlinkR",
+  "FULL NAME": "LDlinkR",
+  "URL": "https://cran.r-project.org/web/packages/LDlinkR/index.html",
+  "DESCRIPTION": "An R Package for Rapidly Calculating Linkage Disequilibrium Statistics in Diverse Populations",
+  "MANUAL_CITATION": "Myers, Timothy A., Stephen J. Chanock, and Mitchell J. Machiela. \"LDlinkR: an R package for rapidly calculating linkage disequilibrium statistics in diverse populations.\" Frontiers in genetics 11 (2020): 157.",
+  "TITLE": "",
+  "ISO": "Front Genet",
+  "JOURNAL": "Frontiers in genetics",
+  "YEAR": "2020",
+  "VOLUME": "11",
+  "ISSUE": "",
+  "PAGE": "157",
+  "Authors": "Myers TA,Chanock SJ,Machiela MJ",
+  "ABSTRACT": "Genomic research involving human genetics and evolutionary biology relies heavily on linkage disequilibrium (LD) to investigate population-specific genetic structure, functionally map regions of disease susceptibility and uncover evolutionary history. Interactive and powerful tools are needed to calculate population-specific LD estimates for integrative genomics research. LDlink is an interactive suite of web-based tools developed to query germline variants in 1000 Genomes Project population groups of interest and generate interactive tables and plots of LD estimates. As an expansion to this resource, we have developed an R package, LDlinkR, designed to rapidly calculate statistics for large lists of variants and LD attributes that eliminates the time needed to perform repetitive requests from the web-based LDlink tool. LDlinkR accelerates genomic research by providing efficient and user-friendly functions to programmatically interrogate and download pairwise LD estimates from expansive lists of genetic variants. LDlinkR is a free and publicly available R package that can be installed from the Comprehensive R Archive Network (CRAN) or downloaded from https://github.com/CBIIT/LDlinkR.",
+  "DOI": "10.3389/fgene.2020.00157",
+  "PMC ID": "PMC7059597",
+  "CITATION": "Myers TA, Chanock SJ, Machiela MJ. (2020)  Front Genet, 11 () 157. doi:10.3389/fgene.2020.00157. PMID 32180801",
+  "FIRST_AUTHOR": "Myers TA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

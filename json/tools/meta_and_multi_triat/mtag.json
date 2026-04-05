@@ -1,0 +1,30 @@
+{
+  "NAME": "MTAG",
+  "PMID": 29292387,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MTAG",
+  "FULL NAME": "Multi-Trait Analysis of GWAS",
+  "KEYWORDS": "Multi-trait",
+  "URL": "https://github.com/JonJala/mtag",
+  "DESCRIPTION": "mtag is a Python-based command line tool for jointly analyzing multiple sets of GWAS summary statistics as described by Turley et. al. (2018). It can also be used as a tool to meta-analyze GWAS results.",
+  "MANUAL_CITATION": "Turley, P., Walters, R. K., Maghzian, O., Okbay, A., Lee, J. J., Fontana, M. A., ... & Benjamin, D. J. (2018). Multi-trait analysis of genome-wide association summary statistics using MTAG. Nature genetics, 50(2), 229-237.",
+  "TITLE": "Multi-trait analysis of genome-wide association summary statistics using MTAG.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "2",
+  "PAGE": "229-237",
+  "Authors": "Turley P,Walters RK,Maghzian O,Okbay A,Lee JJ,Fontana MA,Nguyen-Viet TA,Wedow R,Zacher M,Furlotte NA,23andMe Research Team,Social Science Genetic Association Consortium,Magnusson P,Oskarsson S,Johannesson M,Visscher PM,Laibson D,Cesarini D,Neale BM,Benjamin DJ",
+  "ABSTRACT": "We introduce multi-trait analysis of GWAS (MTAG), a method for joint analysis of summary statistics from genome-wide association studies (GWAS) of different traits, possibly from overlapping samples. We apply MTAG to summary statistics for depressive symptoms (N eff = 354,862), neuroticism (N = 168,105), and subjective well-being (N = 388,538). As compared to the 32, 9, and 13 genome-wide significant loci identified in the single-trait GWAS (most of which are themselves novel), MTAG increases the number of associated loci to 64, 37, and 49, respectively. Moreover, association statistics from MTAG yield more informative bioinformatics analyses and increase the variance explained by polygenic scores by approximately 25%, matching theoretical expectations.",
+  "DOI": "10.1038/s41588-017-0009-4",
+  "PMC ID": "PMC5805593",
+  "CITATION": "Turley P, Walters RK, Maghzian O, Okbay A, ...&, Benjamin DJ. (2018) Multi-trait analysis of genome-wide association summary statistics using MTAG. Nat Genet, 50 (2) 229-237. doi:10.1038/s41588-017-0009-4. PMID 29292387",
+  "FIRST_AUTHOR": "Turley P",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

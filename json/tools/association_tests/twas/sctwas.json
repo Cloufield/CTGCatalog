@@ -1,0 +1,36 @@
+{
+  "NAME": "scTWAS",
+  "PMID": 41820391,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "scTWAS",
+  "FULL NAME": "scTWAS",
+  "KEYWORDS": "TWAS, single-cell, cell-type-specific, latent variable, GReX",
+  "URL": "https://github.com/ZhaotongL/scTWAS https://doi.org/10.1038/s41467-026-70374-7",
+  "DESCRIPTION": "Statistical framework for cell-type-resolved transcriptome-wide association using single-cell RNA-seq: models sparsity and technical noise via latent variables and moment-based estimation to improve genetically regulated expression prediction and gene–trait discovery.",
+  "TAGS": [
+    "TWAS",
+    "Single cell",
+    "scRNA-seq",
+    "Tool",
+    "Summary statistics"
+  ],
+  "TITLE": "scTWAS: a powerful statistical framework for single-cell transcriptome-wide association studies.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Lin Z,Su C",
+  "ABSTRACT": "Transcriptome-wide association studies (TWAS) have successfully identified genes associated with complex traits and diseases, but most have been performed using bulk gene expression data, which aggregate signals across heterogeneous cell types. Population-scale single-cell RNA sequencing data now make it possible to perform TWAS at the cell-type resolution, but present unique challenges due to strong noises, technical variations, and high sparsity. Here, we propose scTWAS, a statistical method to conduct cell-type-specific TWAS using single-cell data. Leveraging a latent-variable model and moment-based estimation to address the challenges of single-cell data, scTWAS consistently improves the prediction of genetically regulated gene expression across cell types in both blood and brain tissues. Compared to existing methods, scTWAS identifies substantially more gene-trait associations across 29 hematological traits and three immune-related diseases in immune cell types. An application to Alzheimer's disease also reveals cell-subtype-specific associations, including MS4A6A in the disease-associated microglial subtype and PPP1R37 in the inflammatory microglial subtype.",
+  "DOI": "10.1038/s41467-026-70374-7",
+  "PMC ID": "",
+  "CITATION": "Lin Z, Su C. (2026) scTWAS: a powerful statistical framework for single-cell transcriptome-wide association studies. Nat Commun,  () . doi:10.1038/s41467-026-70374-7. PMID 41820391",
+  "FIRST_AUTHOR": "Lin Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

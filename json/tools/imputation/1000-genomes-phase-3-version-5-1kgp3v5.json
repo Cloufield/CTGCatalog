@@ -1,0 +1,27 @@
+{
+  "NAME": "1000 Genomes Phase 3 Version 5 (1KGp3v5)",
+  "PMID": 26432245,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "1KG",
+  "URL": "https://www.internationalgenome.org/",
+  "MANUAL_CITATION": "1000 Genomes Project Consortium. \"A global reference for human genetic variation.\" Nature 526.7571 (2015): 68.",
+  "TITLE": "A global reference for human genetic variation.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2015",
+  "VOLUME": "526",
+  "ISSUE": "7571",
+  "PAGE": "68-74",
+  "Authors": "1000 Genomes Project Consortium,Auton A,Brooks LD,Durbin RM,Garrison EP,Kang HM,Korbel JO,Marchini JL,McCarthy S,McVean GA,Abecasis GR",
+  "ABSTRACT": "The 1000 Genomes Project set out to provide a comprehensive description of common human genetic variation by applying whole-genome sequencing to a diverse set of individuals from multiple populations. Here we report completion of the project, having reconstructed the genomes of 2,504 individuals from 26 populations using a combination of low-coverage whole-genome sequencing, deep exome sequencing, and dense microarray genotyping. We characterized a broad spectrum of genetic variation, in total over 88 million variants (84.7 million single nucleotide polymorphisms (SNPs), 3.6 million short insertions/deletions (indels), and 60,000 structural variants), all phased onto high-quality haplotypes. This resource includes >99% of SNP variants with a frequency of >1% for a variety of ancestries. We describe the distribution of genetic variation across the global sample, and discuss the implications for common disease studies.",
+  "DOI": "10.1038/nature15393",
+  "PMC ID": "PMC4750478",
+  "CITATION": "1000 Genomes Project Consortium, Auton A, Brooks LD, Durbin RM, ...&, Abecasis GR. (2015) A global reference for human genetic variation. Nature, 526 (7571) 68-74. doi:10.1038/nature15393. PMID 26432245",
+  "FIRST_AUTHOR": "1000 Genomes Project Consortium",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "BayesS",
+  "PMID": 29662166,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Polygenicity",
+  "TYPE": "Tools",
+  "SHORT NAME": "BayesS",
+  "FULL NAME": "BayesS",
+  "URL": "https://cnsgenomics.com/software/gctb/#Overview",
+  "MANUAL_CITATION": "Zeng, J., De Vlaming, R., Wu, Y., Robinson, M. R., Lloyd-Jones, L. R., Yengo, L., ... & Yang, J. (2018). Signatures of negative selection in the genetic architecture of human complex traits. Nature genetics, 50(5), 746-753.",
+  "TITLE": "Signatures of negative selection in the genetic architecture of human complex traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "5",
+  "PAGE": "746-753",
+  "Authors": "Zeng J,de Vlaming R,Wu Y,Robinson MR,Lloyd-Jones LR,Yengo L,Yap CX,Xue A,Sidorenko J,McRae AF,Powell JE,Montgomery GW,Metspalu A,Esko T,Gibson G,Wray NR,Visscher PM,Yang J",
+  "ABSTRACT": "We develop a Bayesian mixed linear model that simultaneously estimates single-nucleotide polymorphism (SNP)-based heritability, polygenicity (proportion of SNPs with nonzero effects), and the relationship between SNP effect size and minor allele frequency for complex traits in conventionally unrelated individuals using genome-wide SNP data. We apply the method to 28 complex traits in the UK Biobank data (N = 126,752) and show that on average, 6% of SNPs have nonzero effects, which in total explain 22% of phenotypic variance. We detect significant (P < 0.05/28) signatures of natural selection in the genetic architecture of 23 traits, including reproductive, cardiovascular, and anthropometric traits, as well as educational attainment. The significant estimates of the relationship between effect size and minor allele frequency in complex traits are consistent with a model of negative (or purifying) selection, as confirmed by forward simulation. We conclude that negative selection acts pervasively on the genetic variants associated with human complex traits.",
+  "DOI": "10.1038/s41588-018-0101-4",
+  "PMC ID": "",
+  "CITATION": "Zeng J, de Vlaming R, Wu Y, Robinson MR, ...&, Yang J. (2018) Signatures of negative selection in the genetic architecture of human complex traits. Nat Genet, 50 (5) 746-753. doi:10.1038/s41588-018-0101-4. PMID 29662166",
+  "FIRST_AUTHOR": "Zeng J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "BEATRICE",
+  "PMID": 39360993,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "BEATRICE",
+  "FULL NAME": "Bayesian finE-mapping from summAry daTa using deep vaRiational InferenCE",
+  "URL": "https://github.com/sayangsep/Beatrice-Finemapping",
+  "DESCRIPTION": "In this repository, we introduce BEATRICE, a finemapping tool to identify putative causal variants from GWAS summary data. BEATRICE combines a hierarchical Bayesian model with a deep learning-based inference procedure. This combination provides greater inferential power to handle noise and spurious interactions due to polygenicity of the trait, trans-interactions of variants, or varying correlation structure of the genomic region.",
+  "MANUAL_CITATION": "\nGhosal, S., Schatz, M. C. & Venkataraman, A. BEATRICE: Bayesian fine-mapping from summary data using deep variational inference. Bioinformatics 40, btae590 (2024).\n  \n",
+  "TITLE": "BEATRICE: Bayesian fine-mapping from summary data using deep variational inference.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2024",
+  "VOLUME": "40",
+  "ISSUE": "10",
+  "PAGE": "",
+  "Authors": "Ghosal S,Schatz MC,Venkataraman A",
+  "ABSTRACT": "MOTIVATION: We introduce a novel framework BEATRICE to identify putative causal variants from GWAS statistics. Identifying causal variants is challenging due to their sparsity and high correlation in the nearby regions. To account for these challenges, we rely on a hierarchical Bayesian model that imposes a binary concrete prior on the set of causal variants. We derive a variational algorithm for this fine-mapping problem by minimizing the KL divergence between an approximate density and the posterior probability distribution of the causal configurations. Correspondingly, we use a deep neural network as an inference machine to estimate the parameters of our proposal distribution. Our stochastic optimization procedure allows us to sample from the space of causal configurations, which we use to compute the posterior inclusion probabilities and determine credible sets for each causal variant. We conduct a detailed simulation study to quantify the performance of our framework against two state-of-the-art baseline methods across different numbers of causal variants and noise paradigms, as defined by the relative genetic contributions of causal and noncausal variants. RESULTS: We demonstrate that BEATRICE achieves uniformly better coverage with comparable power and set sizes, and that the performance gain increases with the number of causal variants. We also show the efficacy BEATRICE in finding causal variants from the GWAS study of Alzheimer's disease. In comparison to the baselines, only BEATRICE can successfully find the APOE ϵ2 allele, a commonly associated variant of Alzheimer's. AVAILABILITY AND IMPLEMENTATION: BEATRICE is available for download at https://github.com/sayangsep/Beatrice-Finemapping.",
+  "DOI": "10.1093/bioinformatics/btae590",
+  "PMC ID": "PMC11496888",
+  "CITATION": "Ghosal S, Schatz MC, Venkataraman A. (2024) BEATRICE: Bayesian fine-mapping from summary data using deep variational inference. Bioinformatics, 40 (10) . doi:10.1093/bioinformatics/btae590. PMID 39360993",
+  "FIRST_AUTHOR": "Ghosal S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "CC-GWAS",
+  "PMID": 33686288,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Case-case GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "CC-GWAS",
+  "FULL NAME": "case–case genome-wide association study",
+  "URL": "https://github.com/wouterpeyrot/CCGWAS",
+  "DESCRIPTION": "The CCGWAS R package provides a tool for case-case association testing of two different disorders based on their respective case-control GWAS results",
+  "MANUAL_CITATION": "Peyrot, W. J., & Price, A. L. (2021). Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS. Nature genetics, 53(4), 445-454.",
+  "TITLE": "Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "4",
+  "PAGE": "445-454",
+  "Authors": "Peyrot WJ,Price AL",
+  "ABSTRACT": "Psychiatric disorders are highly genetically correlated, but little research has been conducted on the genetic differences between disorders. We developed a new method (case-case genome-wide association study; CC-GWAS) to test for differences in allele frequency between cases of two disorders using summary statistics from the respective case-control GWAS, transcending current methods that require individual-level data. Simulations and analytical computations confirm that CC-GWAS is well powered with effective control of type I error. We applied CC-GWAS to publicly available summary statistics for schizophrenia, bipolar disorder, major depressive disorder and five other psychiatric disorders. CC-GWAS identified 196 independent case-case loci, including 72 CC-GWAS-specific loci that were not significant at the genome-wide level in the input case-control summary statistics; two of the CC-GWAS-specific loci implicate the genes KLF6 and KLF16 (from the Krüppel-like family of transcription factors), which have been linked to neurite outgrowth and axon regeneration. CC-GWAS loci replicated convincingly in applications to datasets with independent replication data.",
+  "DOI": "10.1038/s41588-021-00787-1",
+  "PMC ID": "PMC8038973",
+  "CITATION": "Peyrot WJ, Price AL. (2021) Identifying loci with different allele frequencies among cases of eight psychiatric disorders using CC-GWAS. Nat Genet, 53 (4) 445-454. doi:10.1038/s41588-021-00787-1. PMID 33686288",
+  "FIRST_AUTHOR": "Peyrot WJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

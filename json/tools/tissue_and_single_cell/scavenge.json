@@ -1,0 +1,28 @@
+{
+  "NAME": "SCAVENGE",
+  "PMID": 35668323,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "SCAVENGE",
+  "FULL NAME": "Single Cell Analysis of Variant Enrichment through Network propagation of GEnomic data",
+  "KEYWORDS": "GWAS, scATAC, network propagation",
+  "URL": "https://github.com/sankaranlab/SCAVENGE",
+  "MANUAL_CITATION": "Yu, F., Cato, L.D., Weng, C. et al. Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol (2022). https://doi.org/10.1038/s41587-022-01341-y",
+  "TITLE": "Variant to function mapping at single-cell resolution through network propagation.",
+  "ISO": "Nat Biotechnol",
+  "JOURNAL": "Nature biotechnology",
+  "YEAR": "2022",
+  "VOLUME": "40",
+  "ISSUE": "11",
+  "PAGE": "1644-1653",
+  "Authors": "Yu F,Cato LD,Weng C,Liggett LA,Jeon S,Xu K,Chiang CWK,Wiemels JL,Weissman JS,de Smith AJ,Sankaran VG",
+  "ABSTRACT": "Genome-wide association studies in combination with single-cell genomic atlases can provide insights into the mechanisms of disease-causal genetic variation. However, identification of disease-relevant or trait-relevant cell types, states and trajectories is often hampered by sparsity and noise, particularly in the analysis of single-cell epigenomic data. To overcome these challenges, we present SCAVENGE, a computational algorithm that uses network propagation to map causal variants to their relevant cellular context at single-cell resolution. We demonstrate how SCAVENGE can help identify key biological mechanisms underlying human genetic variation, applying the method to blood traits at distinct stages of human hematopoiesis, to monocyte subsets that increase the risk for severe Coronavirus Disease 2019 (COVID-19) and to intermediate lymphocyte developmental states that predispose to acute leukemia. Our approach not only provides a framework for enabling variant-to-function insights at single-cell resolution but also suggests a more general strategy for maximizing the inferences that can be made using single-cell genomic data.",
+  "DOI": "10.1038/s41587-022-01341-y",
+  "PMC ID": "PMC9646486",
+  "CITATION": "Yu F, Cato LD, Weng C, Liggett LA, ...&, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol, 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323",
+  "FIRST_AUTHOR": "Yu F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

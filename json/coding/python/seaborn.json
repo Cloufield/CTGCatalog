@@ -1,0 +1,11 @@
+{
+  "NAME": "Seaborn",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://seaborn.pydata.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Statistical data visualization."
+}

@@ -1,0 +1,44 @@
+# GitHub Pages hosts static HTML only — use `zensical serve` locally for live preview.
+# This workflow runs the catalog generator, then `zensical build` (see https://zensical.org/docs/publish-your-site/).
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Generate docs and zensical build
+        run: |
+          rm -f docs/*.md
+          cd src && python main.py && cd ..
+          python3 scripts/render_trending_pubmed_gwas.py || python3 scripts/render_trending_pubmed_gwas.py --stub
+          python3 scripts/minify_extra_css.py
+          zensical build --clean
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment

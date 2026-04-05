@@ -1,0 +1,30 @@
+{
+  "NAME": "sc-linker",
+  "PMID": 36175791,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "sc-linker",
+  "FULL NAME": "sc-linker",
+  "KEYWORDS": "GWAS, scRNA-seq",
+  "URL": "https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker",
+  "DESCRIPTION": "a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease",
+  "MANUAL_CITATION": "Jagadeesh, K. A., Dey, K. K., Montoro, D. T., Mohan, R., Gazal, S., Engreitz, J. M., ... & Regev, A. (2022). Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics. Nature genetics, 54(10), 1479-1492.",
+  "ARROW_SUMMARY": "scRNA-seq data →️ Derive cell-type-specific gene programs →️ Map SNPs to genes using epigenomic data →️ Integrate with GWAS summary statistics →️ Identify disease-critical cell types and processes",
+  "TITLE": "Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "10",
+  "PAGE": "1479-1492",
+  "Authors": "Jagadeesh KA,Dey KK,Montoro DT,Mohan R,Gazal S,Engreitz JM,Xavier RJ,Price AL,Regev A",
+  "ABSTRACT": "Genome-wide association studies provide a powerful means of identifying loci and genes contributing to disease, but in many cases, the related cell types/states through which genes confer disease risk remain unknown. Deciphering such relationships is important for identifying pathogenic processes and developing therapeutics. In the present study, we introduce sc-linker, a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease. The inferred disease enrichments recapitulated known biology and highlighted notable cell-disease relationships, including γ-aminobutyric acid-ergic neurons in major depressive disorder, a disease-dependent M-cell program in ulcerative colitis and a disease-specific complement cascade process in multiple sclerosis. In autoimmune disease, both healthy and disease-dependent immune cell-type programs were associated, whereas only disease-dependent epithelial cell programs were prominent, suggesting a role in disease response rather than initiation. Our framework provides a powerful approach for identifying the cell types and cellular processes by which genetic variants influence disease.",
+  "DOI": "10.1038/s41588-022-01187-9",
+  "PMC ID": "PMC9910198",
+  "CITATION": "Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics. Nat Genet, 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791",
+  "FIRST_AUTHOR": "Jagadeesh KA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

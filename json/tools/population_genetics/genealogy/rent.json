@@ -1,0 +1,26 @@
+{
+  "NAME": "RENT+",
+  "PMID": 28065901,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "RENT+",
+  "DESCRIPTION": "Mirzaei, S. & Wu, Y. RENT+: an improved method for inferring local genealogical trees from haplotypes with recombination. Bioinformatics 33, 1021–1030 (2017).",
+  "TITLE": "RENT+: an improved method for inferring local genealogical trees from haplotypes with recombination.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2017",
+  "VOLUME": "33",
+  "ISSUE": "7",
+  "PAGE": "1021-1030",
+  "Authors": "Mirzaei S,Wu Y",
+  "ABSTRACT": "MOTIVATION: : Haplotypes from one or multiple related populations share a common genealogical history. If this shared genealogy can be inferred from haplotypes, it can be very useful for many population genetics problems. However, with the presence of recombination, the genealogical history of haplotypes is complex and cannot be represented by a single genealogical tree. Therefore, inference of genealogical history with recombination is much more challenging than the case of no recombination. RESULTS: : In this paper, we present a new approach called RENT+  for the inference of local genealogical trees from haplotypes with the presence of recombination. RENT+  builds on a previous genealogy inference approach called RENT , which infers a set of related genealogical trees at different genomic positions. RENT+  represents a significant improvement over RENT in the sense that it is more effective in extracting information contained in the haplotype data about the underlying genealogy than RENT . The key components of RENT+  are several greatly enhanced genealogy inference rules. Through simulation, we show that RENT+  is more efficient and accurate than several existing genealogy inference methods. As an application, we apply RENT+  in the inference of population demographic history from haplotypes, which outperforms several existing methods. AVAILABILITY AND IMPLEMENTATION: : RENT+  is implemented in Java, and is freely available for download from: https://github.com/SajadMirzaei/RentPlus . CONTACTS: : sajad@engr.uconn.edu or ywu@engr.uconn.edu. SUPPLEMENTARY INFORMATION: : Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btw735",
+  "PMC ID": "PMC5860023",
+  "CITATION": "Mirzaei S, Wu Y. (2017) RENT+: an improved method for inferring local genealogical trees from haplotypes with recombination. Bioinformatics, 33 (7) 1021-1030. doi:10.1093/bioinformatics/btw735. PMID 28065901",
+  "FIRST_AUTHOR": "Mirzaei S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

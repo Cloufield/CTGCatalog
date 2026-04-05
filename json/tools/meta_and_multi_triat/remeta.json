@@ -1,0 +1,29 @@
+{
+  "NAME": "REMETA",
+  "PMID": 41225158,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Gene-based",
+  "TYPE": "Tools",
+  "SHORT NAME": "REMETA",
+  "FULL NAME": "REMETA",
+  "KEYWORDS": "gene-based test, meta-analysis, summary statistics, REGENIE, burden, SKAT-O",
+  "URL": "https://github.com/rgcgithub/remeta https://rgcgithub.github.io/remeta/",
+  "DESCRIPTION": "REMETA is a computationally efficient C++ toolkit for meta-analysis of gene-based association tests using single-variant summary statistics from REGENIE-style pipelines, including burden and variance-component tests, with sparse per-study LD references rescaled per phenotype.",
+  "TITLE": "Computationally efficient meta-analysis of gene-based tests using summary statistics in large-scale genetic studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "12",
+  "PAGE": "3193-3200",
+  "Authors": "Joseph TA,Mbatchou J,Ghosh A,Marcketta A,Gillies CE,Tang J,Nakka P,Zhang X,Kosmicki JA,Sidore C,Gurski L,Regeneron Genetics Center,Ghoussaini M,Ferreira MAR,Abecasis G,Marchini J",
+  "ABSTRACT": "Meta-analysis of gene-based tests using single-variant summary statistics is a powerful strategy for genetic association studies. However, current approaches require sharing the covariance matrix between variants for each study and trait of interest. For large-scale studies with many phenotypes, these matrices can be cumbersome to calculate, store and share. Here, to address this challenge, we present REMETA-an efficient tool for meta-analysis of gene-based tests. REMETA uses a single sparse covariance reference file per study that is rescaled for each phenotype using single-variant summary statistics. We develop new methods for binary traits with case-control imbalance, and to estimate allele frequencies, genotype counts and effect sizes of burden tests. We demonstrate the performance and advantages of our approach through meta-analysis of five traits in 469,376 samples in UK Biobank. The open-source REMETA software will facilitate meta-analysis across large-scale exome sequencing studies from diverse studies that cannot easily be combined.",
+  "DOI": "10.1038/s41588-025-02390-0",
+  "PMC ID": "PMC12695653",
+  "CITATION": "Joseph TA, Mbatchou J, Ghosh A, Marcketta A, ...&, Marchini J. (2025) Computationally efficient meta-analysis of gene-based tests using summary statistics in large-scale genetic studies. Nat Genet, 57 (12) 3193-3200. doi:10.1038/s41588-025-02390-0. PMID 41225158",
+  "FIRST_AUTHOR": "Joseph TA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

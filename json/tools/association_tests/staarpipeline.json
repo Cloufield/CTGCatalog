@@ -1,0 +1,29 @@
+{
+  "NAME": "STAARpipeline",
+  "PMID": 36303018,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "STAARpipeline",
+  "FULL NAME": "variant-set test for association using annotation information",
+  "URL": "https://github.com/xihaoli/STAARpipeline/",
+  "DESCRIPTION": "STAARpipeline is an R package for phenotype-genotype association analyses of biobank-scale WGS/WES data, including single variant analysis and variant set analysis.",
+  "MANUAL_CITATION": "\nLi, Z. et al. A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies. Nat. Methods 19, 1599–1611 (2022).\n  \n",
+  "TITLE": "A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2022",
+  "VOLUME": "19",
+  "ISSUE": "12",
+  "PAGE": "1599-1611",
+  "Authors": "Li Z,Li X,Zhou H,Gaynor SM,Selvaraj MS,Arapoglou T,Quick C,Liu Y,Chen H,Sun R,Dey R,Arnett DK,Auer PL,Bielak LF,Bis JC,Blackwell TW,Blangero J,Boerwinkle E,Bowden DW,Brody JA,Cade BE,Conomos MP,Correa A,Cupples LA,Curran JE,de Vries PS,Duggirala R,Franceschini N,Freedman BI,Göring HHH,Guo X,Kalyani RR,Kooperberg C,Kral BG,Lange LA,Lin BM,Manichaikul A,Manning AK,Martin LW,Mathias RA,Meigs JB,Mitchell BD,Montasser ME,Morrison AC,Naseri T,O'Connell JR,Palmer ND,Peyser PA,Psaty BM,Raffield LM,Redline S,Reiner AP,Reupena MS,Rice KM,Rich SS,Smith JA,Taylor KD,Taub MA,Vasan RS,Weeks DE,Wilson JG,Yanek LR,Zhao W,NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium,TOPMed Lipids Working Group,Rotter JI,Willer CJ,Natarajan P,Peloso GM,Lin X",
+  "ABSTRACT": "Large-scale whole-genome sequencing studies have enabled analysis of noncoding rare-variant (RV) associations with complex human diseases and traits. Variant-set analysis is a powerful approach to study RV association. However, existing methods have limited ability in analyzing the noncoding genome. We propose a computationally efficient and robust noncoding RV association detection framework, STAARpipeline, to automatically annotate a whole-genome sequencing study and perform flexible noncoding RV association analysis, including gene-centric analysis and fixed window-based and dynamic window-based non-gene-centric analysis by incorporating variant functional annotations. In gene-centric analysis, STAARpipeline uses STAAR to group noncoding variants based on functional categories of genes and incorporate multiple functional annotations. In non-gene-centric analysis, STAARpipeline uses SCANG-STAAR to incorporate dynamic window sizes and multiple functional annotations. We apply STAARpipeline to identify noncoding RV sets associated with four lipid traits in 21,015 discovery samples from the Trans-Omics for Precision Medicine (TOPMed) program and replicate several of them in an additional 9,123 TOPMed samples. We also analyze five non-lipid TOPMed traits.",
+  "DOI": "10.1038/s41592-022-01640-x",
+  "PMC ID": "PMC10008172",
+  "CITATION": "Li Z, Li X, Zhou H, Gaynor SM, ...&, Lin X. (2022) A framework for detecting noncoding rare-variant associations of large-scale whole-genome sequencing studies. Nat Methods, 19 (12) 1599-1611. doi:10.1038/s41592-022-01640-x. PMID 36303018",
+  "FIRST_AUTHOR": "Li Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

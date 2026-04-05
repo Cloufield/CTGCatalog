@@ -1,0 +1,27 @@
+{
+  "NAME": "Sun",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 37794186,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "TITLE": "Plasma proteomic associations with genetics and health in the UK Biobank.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2023",
+  "VOLUME": "622",
+  "ISSUE": "7982",
+  "PAGE": "329-338",
+  "Authors": "Sun BB,Chiou J,Traylor M,Benner C,Hsu YH,Richardson TG,Surendran P,Mahajan A,Robins C,Vasquez-Grinnell SG,Hou L,Kvikstad EM,Burren OS,Davitte J,Ferber KL,Gillies CE,Hedman ÅK,Hu S,Lin T,Mikkilineni R,Pendergrass RK,Pickering C,Prins B,Baird D,Chen CY,Ward LD,Deaton AM,Welsh S,Willis CM,Lehner N,Arnold M,Wörheide MA,Suhre K,Kastenmüller G,Sethi A,Cule M,Raj A,Alnylam Human Genetics,AstraZeneca Genomics Initiative,Biogen Biobank Team,Bristol Myers Squibb,Genentech Human Genetics,GlaxoSmithKline Genomic Sciences,Pfizer Integrative Biology,Population Analytics of Janssen Data Sciences,Regeneron Genetics Center,Burkitt-Gray L,Melamud E,Black MH,Fauman EB,Howson JMM,Kang HM,McCarthy MI,Nioi P,Petrovski S,Scott RA,Smith EN,Szalma S,Waterworth DM,Mitnaul LJ,Szustakowski JD,Gibson BW,Miller MR,Whelan CD",
+  "ABSTRACT": "The Pharma Proteomics Project is a precompetitive biopharmaceutical consortium characterizing the plasma proteomic profiles of 54,219 UK Biobank participants. Here we provide a detailed summary of this initiative, including technical and biological validations, insights into proteomic disease signatures, and prediction modelling for various demographic and health indicators. We present comprehensive protein quantitative trait locus (pQTL) mapping of 2,923 proteins that identifies 14,287 primary genetic associations, of which 81% are previously undescribed, alongside ancestry-specific pQTL mapping in non-European individuals. The study provides an updated characterization of the genetic architecture of the plasma proteome, contextualized with projected pQTL discovery rates as sample sizes and proteomic assay coverages increase over time. We offer extensive insights into trans pQTLs across multiple biological domains, highlight genetic influences on ligand-receptor interactions and pathway perturbations across a diverse collection of cytokines and complement networks, and illustrate long-range epistatic effects of ABO blood group and FUT2 secretor status on proteins with gastrointestinal tissue-enriched expression. We demonstrate the utility of these data for drug discovery by extending the genetic proxied effects of protein targets, such as PCSK9, on additional endpoints, and disentangle specific genes and proteins perturbed at loci associated with COVID-19 susceptibility. This public-private partnership provides the scientific community with an open-access proteomics resource of considerable breadth and depth to help to elucidate the biological mechanisms underlying proteo-genomic discoveries and accelerate the development of biomarkers, predictive models and therapeutics1.",
+  "DOI": "10.1038/s41586-023-06592-6",
+  "PMC ID": "PMC10567551",
+  "CITATION": "Sun BB, Chiou J, Traylor M, Benner C, ...&, Whelan CD. (2023) Plasma proteomic associations with genetics and health in the UK Biobank. Nature, 622 (7982) 329-338. doi:10.1038/s41586-023-06592-6. PMID 37794186",
+  "FIRST_AUTHOR": "Sun BB",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "NAME": "Biomni",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "SUBTOPIC": "",
+  "TYPE": "Tools",
+  "SHORT NAME": "Biomni",
+  "FULL NAME": "Biomni: A General-Purpose Biomedical AI Agent",
+  "PREPRINT_DOI": "10.1101/2025.05.30.656746",
+  "PREPRINT_SERVER": "bioRxiv",
+  "URL": "https://biomni.stanford.edu",
+  "DESCRIPTION": "A general-purpose biomedical AI agent designed to autonomously execute diverse biomedical tasks across 25 domains. It integrates large language models (LLMs), retrieval-augmented planning, and code-based execution to perform workflows like causal gene prioritization, drug repurposing, and rare disease diagnosis without task-specific tuning.",
+  "ARROW_SUMMARY": "User query → Action discovery agent identifies tools/protocols → LLM-driven planning and code execution → Output biomedical analysis workflows (e.g., gene prioritization, drug repurposing) using retrieval-augmented methods across 25 domains",
+  "AI_GENERATED": 1,
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

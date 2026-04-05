@@ -1,0 +1,28 @@
+{
+  "NAME": "EAGLE2",
+  "PMID": 27694958,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "EAGLE2",
+  "URL": "https://alkesgroup.broadinstitute.org/Eagle/",
+  "DESCRIPTION": "(EAGLE2) ",
+  "MANUAL_CITATION": "Loh, Po-Ru, et al. \"Reference-based phasing using the Haplotype Reference Consortium panel.\" Nature genetics 48.11 (2016): 1443-1448.",
+  "TITLE": "Reference-based phasing using the Haplotype Reference Consortium panel.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "11",
+  "PAGE": "1443-1448",
+  "Authors": "Loh PR,Danecek P,Palamara PF,Fuchsberger C,A Reshef Y,K Finucane H,Schoenherr S,Forer L,McCarthy S,Abecasis GR,Durbin R,L Price A",
+  "ABSTRACT": "Haplotype phasing is a fundamental problem in medical and population genetics. Phasing is generally performed via statistical phasing in a genotyped cohort, an approach that can yield high accuracy in very large cohorts but attains lower accuracy in smaller cohorts. Here we instead explore the paradigm of reference-based phasing. We introduce a new phasing algorithm, Eagle2, that attains high accuracy across a broad range of cohort sizes by efficiently leveraging information from large external reference panels (such as the Haplotype Reference Consortium; HRC) using a new data structure based on the positional Burrows-Wheeler transform. We demonstrate that Eagle2 attains a ∼20× speedup and ∼10% increase in accuracy compared to reference-based phasing using SHAPEIT2. On European-ancestry samples, Eagle2 with the HRC panel achieves >2× the accuracy of 1000 Genomes-based phasing. Eagle2 is open source and freely available for HRC-based phasing via the Sanger Imputation Service and the Michigan Imputation Server.",
+  "DOI": "10.1038/ng.3679",
+  "PMC ID": "PMC5096458",
+  "CITATION": "Loh PR, Danecek P, Palamara PF, Fuchsberger C, ...&, L Price A. (2016) Reference-based phasing using the Haplotype Reference Consortium panel. Nat Genet, 48 (11) 1443-1448. doi:10.1038/ng.3679. PMID 27694958",
+  "FIRST_AUTHOR": "Loh PR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

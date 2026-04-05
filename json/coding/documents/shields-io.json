@@ -1,0 +1,11 @@
+{
+  "NAME": "Shields.io",
+  "SECTION": "Coding",
+  "TOPIC": "Documents",
+  "TYPE": "Resource",
+  "URL": "https://shields.io/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Badge service for READMEs."
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "FUSION",
+  "PMID": 26854917,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "FUSION",
+  "FULL NAME": "Functional Summary-based Imputation",
+  "MANUAL_YEAR": 2016,
+  "URL": "http://gusevlab.org/projects/fusion/",
+  "DESCRIPTION": "FUSION is a suite of tools for performing transcriptome-wide and regulome-wide association studies (TWAS and RWAS). FUSION builds predictive models of the genetic component of a functional/molecular phenotype and predicts and tests that component for association with disease using GWAS summary statistics. The goal is to identify associations between a GWAS phenotype and a functional phenotype that was only measured in reference data. We provide precomputed predictive models from multiple studies to facilitate this analysis.",
+  "MANUAL_CITATION": "Gusev, A., Ko, A., Shi, H., Bhatia, G., Chung, W., Penninx, B. W., ... & Pasaniuc, B. (2016). Integrative approaches for large-scale transcriptome-wide association studies. Nature genetics, 48(3), 245-252.",
+  "TITLE": "Integrative approaches for large-scale transcriptome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "3",
+  "PAGE": "245-52",
+  "Authors": "Gusev A,Ko A,Shi H,Bhatia G,Chung W,Penninx BW,Jansen R,de Geus EJ,Boomsma DI,Wright FA,Sullivan PF,Nikkola E,Alvarez M,Civelek M,Lusis AJ,Lehtimäki T,Raitoharju E,Kähönen M,Seppälä I,Raitakari OT,Kuusisto J,Laakso M,Price AL,Pajukanta P,Pasaniuc B",
+  "ABSTRACT": "Many genetic variants influence complex traits by modulating gene expression, thus altering the abundance of one or multiple proteins. Here we introduce a powerful strategy that integrates gene expression measurements with summary association statistics from large-scale genome-wide association studies (GWAS) to identify genes whose cis-regulated expression is associated with complex traits. We leverage expression imputation from genetic data to perform a transcriptome-wide association study (TWAS) to identify significant expression-trait associations. We applied our approaches to expression data from blood and adipose tissue measured in ∼ 3,000 individuals overall. We imputed gene expression into GWAS data from over 900,000 phenotype measurements to identify 69 new genes significantly associated with obesity-related traits (BMI, lipids and height). Many of these genes are associated with relevant phenotypes in the Hybrid Mouse Diversity Panel. Our results showcase the power of integrating genotype, gene expression and phenotype to gain insights into the genetic basis of complex traits.",
+  "DOI": "10.1038/ng.3506",
+  "PMC ID": "PMC4767558",
+  "CITATION": "Gusev A, Ko A, Shi H, Bhatia G, ...&, Pasaniuc B. (2016) Integrative approaches for large-scale transcriptome-wide association studies. Nat Genet, 48 (3) 245-52. doi:10.1038/ng.3506. PMID 26854917",
+  "FIRST_AUTHOR": "Gusev A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "NAME": "GigaScience",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Gigascience",
+  "JOURNAL": "GigaScience",
+  "URL": "https://academic.oup.com/gigascience",
+  "ENTRY_COUNT": 5,
+  "CITED_BY_SECTION": {
+    "Tools": 4,
+    "Single_Cell": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "SoupX",
+    "PLINK2",
+    "PRSice-2"
+  ]
+}

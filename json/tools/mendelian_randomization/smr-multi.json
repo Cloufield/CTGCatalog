@@ -1,0 +1,26 @@
+{
+  "NAME": "SMR-multi",
+  "PMID": 29500431,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Tools",
+  "TYPE": "Tools",
+  "SHORT NAME": " SMR-multi",
+  "MANUAL_CITATION": "Wu, Y., Zeng, J., Zhang, F., Zhu, Z., Qi, T., Zheng, Z., ... & Yang, J. (2018). Integrative analysis of omics summary data reveals putative mechanisms underlying complex traits. Nature communications, 9(1), 918.",
+  "TITLE": "Integrative analysis of omics summary data reveals putative mechanisms underlying complex traits.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2018",
+  "VOLUME": "9",
+  "ISSUE": "1",
+  "PAGE": "918",
+  "Authors": "Wu Y,Zeng J,Zhang F,Zhu Z,Qi T,Zheng Z,Lloyd-Jones LR,Marioni RE,Martin NG,Montgomery GW,Deary IJ,Wray NR,Visscher PM,McRae AF,Yang J",
+  "ABSTRACT": "The identification of genes and regulatory elements underlying the associations discovered by GWAS is essential to understanding the aetiology of complex traits (including diseases). Here, we demonstrate an analytical paradigm of prioritizing genes and regulatory elements at GWAS loci for follow-up functional studies. We perform an integrative analysis that uses summary-level SNP data from multi-omics studies to detect DNA methylation (DNAm) sites associated with gene expression and phenotype through shared genetic effects (i.e., pleiotropy). We identify pleiotropic associations between 7858 DNAm sites and 2733 genes. These DNAm sites are enriched in enhancers and promoters, and >40% of them are mapped to distal genes. Further pleiotropic association analyses, which link both the methylome and transcriptome to 12 complex traits, identify 149 DNAm sites and 66 genes, indicating a plausible mechanism whereby the effect of a genetic variant on phenotype is mediated by genetic regulation of transcription through DNAm.",
+  "DOI": "10.1038/s41467-018-03371-0",
+  "PMC ID": "PMC5834629",
+  "CITATION": "Wu Y, Zeng J, Zhang F, Zhu Z, ...&, Yang J. (2018) Integrative analysis of omics summary data reveals putative mechanisms underlying complex traits. Nat Commun, 9 (1) 918. doi:10.1038/s41467-018-03371-0. PMID 29500431",
+  "FIRST_AUTHOR": "Wu Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

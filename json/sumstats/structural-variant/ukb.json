@@ -1,0 +1,28 @@
+{
+  "NAME": "UKB",
+  "PMID": 41639462,
+  "SECTION": "Sumstats",
+  "TOPIC": "Structural variant",
+  "CATEGORY": "CNV",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "URL": "https://azphewas.com/",
+  "MANUAL_YEAR": 2026,
+  "MANUAL_CITATION": "\nZou, X. Z. et al. Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes. Nature 1–11 (2026).",
+  "TITLE": "Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zou XZ,Hu F,Lou H,Burren OS,Li X,Megy K,Wheeler E,Wu Q,Atanur SS,Karpinski M,Loesch D,Fairhurst-Hunter Z,Deevi SVV,Oerton E,Wen S,Jiang X,Salvoro C,Mitchell J,Nag A,Hollis B,O'Neill A,AstraZeneca Genomics Initiative,Harrow J,MacArthur S,Wasilewski S,O'Dell S,Tian L,Smith KR,Del Angel G,Fabre M,Dhindsa RS,Wang Q,Petrovski S,Carss K",
+  "ABSTRACT": "Copy number variants (CNVs) are key drivers of human diversity and disease risk1. Here we evaluate the role of CNVs across a broad range of human phenotypes and diseases by analysing CNVs from 470,727 UK Biobank whole-genome sequences and conducting a variant- and gene-level phenome-wide association study (PheWAS) with 2,941 plasma protein abundance measurements, 13,336 binary clinical phenotypes and 1,911 quantitative traits. Proteomic analyses validated functional associations of CNVs with nearby genes (cis-protein quantitative trait loci; cis-pQTLs)-with deletions and duplications typically associated with reduced and increased protein levels, respectively-and uncovered previously unknown protein-protein interactions (trans-pQTLs). Our PheWAS recapitulated known associations and uncovered associations in both coding and non-coding regions. Notably, we identified a rare deletion in ZNF451 associated with increased leukocyte telomere length and a non-coding deletion of a SLC2A9 enhancer associated with reduced gout risk. In addition, by combining CNVs with protein-coding single nucleotide variants and indels, we enhanced the power of our study to detect gene-disease associations. Finally, we leveraged this multiomics dataset to identify several pQTLs that constitute candidate biomarkers, including TMPRSS5 for Charcot-Marie-Tooth disease type 1A. This multiancestry whole-genome-sequence CNV PheWAS offers insights into the roles of CNVs in human health outcomes and could serve as a valuable resource for therapeutic development.",
+  "DOI": "10.1038/s41586-025-10087-x",
+  "PMC ID": "",
+  "CITATION": "Zou XZ, Hu F, Lou H, Burren OS, ...&, Carss K. (2026) Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes. Nature,  () . doi:10.1038/s41586-025-10087-x. PMID 41639462",
+  "FIRST_AUTHOR": "Zou XZ",
+  "_meta": {
+    "source_sheet": "SV"
+  }
+}

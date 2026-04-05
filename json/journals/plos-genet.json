@@ -1,0 +1,24 @@
+{
+  "NAME": "PLoS genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "URL": "https://journals.plos.org/plosgenetics/",
+  "ENTRY_COUNT": 28,
+  "CITED_BY_SECTION": {
+    "Tools": 21,
+    "Sumstats": 6,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "UNEECON",
+    "Liu F",
+    "Bretherick",
+    "Folkersen",
+    "Kauwe"
+  ]
+}

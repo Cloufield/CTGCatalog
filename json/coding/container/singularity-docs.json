@@ -1,0 +1,11 @@
+{
+  "NAME": "Singularity / Apptainer user guide",
+  "SECTION": "Coding",
+  "TOPIC": "Container",
+  "TYPE": "Resource",
+  "URL": "https://docs.sylabs.io/guides/3.5/user-guide/introduction.html",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Sylabs Singularity documentation."
+}

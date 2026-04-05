@@ -1,0 +1,11 @@
+{
+  "NAME": "Docker",
+  "SECTION": "Coding",
+  "TOPIC": "Container",
+  "TYPE": "Resource",
+  "URL": "https://www.docker.com/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Container platform."
+}

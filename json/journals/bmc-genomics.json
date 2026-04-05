@@ -1,0 +1,20 @@
+{
+  "NAME": "BMC genomics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "BMC Genomics",
+  "JOURNAL": "BMC genomics",
+  "URL": "https://bmcgenomics.biomedcentral.com/",
+  "ENTRY_COUNT": 2,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "VEST4",
+    "Japan Omics Browser"
+  ]
+}

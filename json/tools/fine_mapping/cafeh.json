@@ -1,0 +1,29 @@
+{
+  "NAME": "CAFEH",
+  "PMID": 35085493,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "CAFEH",
+  "FULL NAME": "colocalization and fine-mapping in the presence of allelic heterogeneity",
+  "KEYWORDS": "multi-trait, finemapping, colocalization",
+  "URL": "https://github.com/karltayeb/cafeh",
+  "DESCRIPTION": "CAFEH is a method that performs finemapping and colocalization jointly over multiple phenotypes. CAFEH can be run with 10s of phenotypes and 1000s of variants in a few minutes.",
+  "MANUAL_CITATION": "Arvanitis, M., Tayeb, K., Strober, B. J., & Battle, A. (2022). Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity. The American Journal of Human Genetics, 109(2), 223-239.",
+  "TITLE": "Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2022",
+  "VOLUME": "109",
+  "ISSUE": "2",
+  "PAGE": "223-239",
+  "Authors": "Arvanitis M,Tayeb K,Strober BJ,Battle A",
+  "ABSTRACT": "Uncovering the functional impact of genetic variation on gene expression is important in understanding tissue biology and the pathogenesis of complex traits. Despite large efforts to map expression quantitative trait loci (eQTLs) across many human tissues, our ability to translate those findings to understanding human disease has been incomplete, and the majority of disease loci are not explained by association with expression of a target gene. Cell-type specificity and the presence of multiple independent causal variants for many eQTLs are potential confounders contributing to the apparent discrepancy with disease loci. In this study, we investigate the tissue specificity of genetic effects on gene expression and the overlap with disease loci while considering the presence of multiple causal variants within and across tissues. We find evidence of pervasive tissue specificity of eQTLs, often masked by linkage disequilibrium that misleads traditional meta-analytic approaches. We propose CAFEH (colocalization and fine-mapping in the presence of allelic heterogeneity), a Bayesian method that integrates genetic association data across multiple traits, incorporating linkage disequilibrium to identify causal variants. CAFEH outperforms previous approaches in colocalization and fine-mapping. Using CAFEH, we show that genes with highly tissue-specific genetic effects are under greater selection, enriched in differentiation and developmental processes, and more likely to be involved in human disease. Last, we demonstrate that CAFEH can efficiently leverage the widespread allelic heterogeneity in genetic regulation of gene expression to prioritize the target tissue in genome-wide association complex trait loci, thereby improving our ability to interpret complex trait genetics.",
+  "DOI": "10.1016/j.ajhg.2022.01.002",
+  "PMC ID": "PMC8874223",
+  "CITATION": "Arvanitis M, Tayeb K, Strober BJ, Battle A. (2022) Redefining tissue specificity of genetic regulation of gene expression in the presence of allelic heterogeneity. Am J Hum Genet, 109 (2) 223-239. doi:10.1016/j.ajhg.2022.01.002. PMID 35085493",
+  "FIRST_AUTHOR": "Arvanitis M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

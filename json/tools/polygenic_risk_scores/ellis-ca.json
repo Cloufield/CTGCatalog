@@ -1,0 +1,26 @@
+{
+  "NAME": "Ellis CA",
+  "PMID": 39168121,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Bias",
+  "TYPE": "Research",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "\nEllis, C. A. et al. Inflation of polygenic risk scores caused by sample overlap and relatedness: Examples of a major risk of bias. Am. J. Hum. Genet. 0, (2024).\n  ",
+  "TITLE": "Inflation of polygenic risk scores caused by sample overlap and relatedness: Examples of a major risk of bias.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2024",
+  "VOLUME": "111",
+  "ISSUE": "9",
+  "PAGE": "1805-1809",
+  "Authors": "Ellis CA,Oliver KL,Harris RV,Ottman R,Scheffer IE,Mefford HC,Epstein MP,Berkovic SF,Bahlo M",
+  "ABSTRACT": "Polygenic risk scores (PRSs) are an important tool for understanding the role of common genetic variants in human disease. Standard best practices recommend that PRSs be analyzed in cohorts that are independent of the genome-wide association study (GWAS) used to derive the scores without sample overlap or relatedness between the two cohorts. However, identifying sample overlap and relatedness can be challenging in an era of GWASs performed by large biobanks and international research consortia. Although most genomics researchers are aware of best practices and theoretical concerns about sample overlap and relatedness between GWAS and PRS cohorts, the prevailing assumption is that the risk of bias is small for very large GWASs. Here, we present two real-world examples demonstrating that sample overlap and relatedness is not a minor or theoretical concern but an important potential source of bias in PRS studies. Using a recently developed statistical adjustment tool, we found that excluding overlapping and related samples was equal to or more powerful than adjusting for overlap bias. Our goal is to make genomics researchers aware of the magnitude of risk of bias from sample overlap and relatedness and to highlight the need for mitigation tools, including independent validation cohorts in PRS studies, continued development of statistical adjustment methods, and tools for researchers to test their cohorts for overlap and relatedness with GWAS cohorts without sharing individual-level data.",
+  "DOI": "10.1016/j.ajhg.2024.07.014",
+  "PMC ID": "PMC11393675",
+  "CITATION": "Ellis CA, Oliver KL, Harris RV, Ottman R, ...&, Bahlo M. (2024) Inflation of polygenic risk scores caused by sample overlap and relatedness: Examples of a major risk of bias. Am J Hum Genet, 111 (9) 1805-1809. doi:10.1016/j.ajhg.2024.07.014. PMID 39168121",
+  "FIRST_AUTHOR": "Ellis CA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

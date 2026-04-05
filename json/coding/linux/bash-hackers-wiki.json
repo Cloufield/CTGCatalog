@@ -1,0 +1,11 @@
+{
+  "NAME": "The Bash Hackers Wiki",
+  "SECTION": "Coding",
+  "TOPIC": "Linux",
+  "TYPE": "Resource",
+  "URL": "https://wiki.bash-hackers.org/start",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Bash and shell scripting reference."
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "MultiSTAAR",
+  "PMID": 39920506,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "MultiSTAAR",
+  "FULL NAME": "Multi-trait variant-Set Test for Association using Annotation infoRmation",
+  "URL": "https://github.com/xihaoli/MultiSTAAR",
+  "DESCRIPTION": "MultiSTAAR is an R package for performing Multi-trait variant-Set Test for Association using Annotation infoRmation (MultiSTAAR) procedure in whole-genome sequencing (WGS) studies. MultiSTAAR is a general framework that (1) leverages the correlation structure between multiple phenotypes to improve power of multi-trait analysis over single-trait analysis, and (2) incorporates both qualitative functional categories and quantitative complementary functional annotations using an omnibus multi-dimensional weighting scheme. MultiSTAAR accounts for population structure and relatedness, and is scalable for jointly analyzing large WGS studies of multiple correlated traits.",
+  "MANUAL_CITATION": "Li, X., Chen, H., Selvaraj, M. S., Van Buren, E., Zhou, H., Wang, Y., ... & Lin, X. (2025). A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies. Nature Computational Science, 1-19.",
+  "TITLE": "A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies.",
+  "ISO": "Nat Comput Sci",
+  "JOURNAL": "Nature computational science",
+  "YEAR": "2025",
+  "VOLUME": "5",
+  "ISSUE": "2",
+  "PAGE": "125-143",
+  "Authors": "Li X,Chen H,Selvaraj MS,Van Buren E,Zhou H,Wang Y,Sun R,McCaw ZR,Yu Z,Jiang MZ,DiCorpo D,Gaynor SM,Dey R,Arnett DK,Benjamin EJ,Bis JC,Blangero J,Boerwinkle E,Bowden DW,Brody JA,Cade BE,Carson AP,Carlson JC,Chami N,Chen YI,Curran JE,de Vries PS,Fornage M,Franceschini N,Freedman BI,Gu C,Heard-Costa NL,He J,Hou L,Hung YJ,Irvin MR,Kaplan RC,Kardia SLR,Kelly TN,Konigsberg I,Kooperberg C,Kral BG,Li C,Li Y,Lin H,Liu CT,Loos RJF,Mahaney MC,Martin LW,Mathias RA,Mitchell BD,Montasser ME,Morrison AC,Naseri T,North KE,Palmer ND,Peyser PA,Psaty BM,Redline S,Reiner AP,Rich SS,Sitlani CM,Smith JA,Taylor KD,Tiwari HK,Vasan RS,Viali S,Wang Z,Wessel J,Yanek LR,Yu B,NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium,Dupuis J,Meigs JB,Auer PL,Raffield LM,Manning AK,Rice KM,Rotter JI,Peloso GM,Natarajan P,Li Z,Liu Z,Lin X",
+  "ABSTRACT": "Large-scale whole-genome sequencing (WGS) studies have improved our understanding of the contributions of coding and noncoding rare variants to complex human traits. Leveraging association effect sizes across multiple traits in WGS rare variant association analysis can improve statistical power over single-trait analysis, and also detect pleiotropic genes and regions. Existing multi-trait methods have limited ability to perform rare variant analysis of large-scale WGS data. We propose MultiSTAAR, a statistical framework and computationally scalable analytical pipeline for functionally informed multi-trait rare variant analysis in large-scale WGS studies. MultiSTAAR accounts for relatedness, population structure and correlation among phenotypes by jointly analyzing multiple traits, and further empowers rare variant association analysis by incorporating multiple functional annotations. We applied MultiSTAAR to jointly analyze three lipid traits in 61,838 multi-ethnic samples from the Trans-Omics for Precision Medicine (TOPMed) Program. We discovered and replicated new associations with lipid traits missed by single-trait analysis.",
+  "DOI": "10.1038/s43588-024-00764-8",
+  "PMC ID": "PMC11981678",
+  "CITATION": "Li X, Chen H, Selvaraj MS, Van Buren E, ...&, Lin X. (2025) A statistical framework for multi-trait rare variant analysis in large-scale whole-genome sequencing studies. Nat Comput Sci, 5 (2) 125-143. doi:10.1038/s43588-024-00764-8. PMID 39920506",
+  "FIRST_AUTHOR": "Li X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "Bioinformatics (Oxford, England)",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "URL": "https://academic.oup.com/bioinformatics",
+  "ENTRY_COUNT": 32,
+  "CITED_BY_SECTION": {
+    "Tools": 29,
+    "Sumstats": 1,
+    "References": 1,
+    "Single_Cell": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "ProteinBERT",
+    "scds",
+    "Kirchler M",
+    "FastQTL",
+    "MatrixEQTL"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "eCAVIAR",
+  "PMID": 27866706,
+  "SECTION": "Tools",
+  "TOPIC": "Colocalization",
+  "TYPE": "Tools",
+  "SHORT NAME": "eCAVIAR",
+  "FULL NAME": "eQTL and GWAS Causal Variant Identification in Associated Regions",
+  "URL": "https://github.com/fhormoz/caviar",
+  "MANUAL_CITATION": "Hormozdiari, F., Van De Bunt, M., Segre, A. V., Li, X., Joo, J. W. J., Bilow, M., ... & Eskin, E. (2016). Colocalization of GWAS and eQTL signals detects target genes. The American Journal of Human Genetics, 99(6), 1245-1260.",
+  "TITLE": "Colocalization of GWAS and eQTL Signals Detects Target Genes.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2016",
+  "VOLUME": "99",
+  "ISSUE": "6",
+  "PAGE": "1245-1260",
+  "Authors": "Hormozdiari F,van de Bunt M,Segrè AV,Li X,Joo JWJ,Bilow M,Sul JH,Sankararaman S,Pasaniuc B,Eskin E",
+  "ABSTRACT": "The vast majority of genome-wide association study (GWAS) risk loci fall in non-coding regions of the genome. One possible hypothesis is that these GWAS risk loci alter the individual's disease risk through their effect on gene expression in different tissues. In order to understand the mechanisms driving a GWAS risk locus, it is helpful to determine which gene is affected in specific tissue types. For example, the relevant gene and tissue could play a role in the disease mechanism if the same variant responsible for a GWAS locus also affects gene expression. Identifying whether or not the same variant is causal in both GWASs and expression quantitative trail locus (eQTL) studies is challenging because of the uncertainty induced by linkage disequilibrium and the fact that some loci harbor multiple causal variants. However, current methods that address this problem assume that each locus contains a single causal variant. In this paper, we present eCAVIAR, a probabilistic method that has several key advantages over existing methods. First, our method can account for more than one causal variant in any given locus. Second, it can leverage summary statistics without accessing the individual genotype data. We use both simulated and real datasets to demonstrate the utility of our method. Using publicly available eQTL data on 45 different tissues, we demonstrate that eCAVIAR can prioritize likely relevant tissues and target genes for a set of glucose- and insulin-related trait loci.",
+  "DOI": "10.1016/j.ajhg.2016.10.003",
+  "PMC ID": "PMC5142122",
+  "CITATION": "Hormozdiari F, van de Bunt M, Segrè AV, Li X, ...&, Eskin E. (2016) Colocalization of GWAS and eQTL Signals Detects Target Genes. Am J Hum Genet, 99 (6) 1245-1260. doi:10.1016/j.ajhg.2016.10.003. PMID 27866706",
+  "FIRST_AUTHOR": "Hormozdiari F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

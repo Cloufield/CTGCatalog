@@ -1,0 +1,31 @@
+{
+  "NAME": "REGENIE",
+  "PMID": 34017140,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "REGENIE",
+  "FULL NAME": "REGENIE",
+  "TAGS": "GWAS",
+  "KEYWORDS": "whole genome regression",
+  "URL": "https://github.com/rgcgithub/regenie",
+  "DESCRIPTION": "regenie is a C++ program for whole genome regression modelling of large genome-wide association studies. It is developed and supported by a team of scientists at the Regeneron Genetics Center.",
+  "MANUAL_CITATION": "Mbatchou, Joelle, et al. \"Computationally efficient whole-genome regression for quantitative and binary traits.\" Nature genetics 53.7 (2021): 1097-1103.",
+  "TITLE": "Computationally efficient whole-genome regression for quantitative and binary traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "7",
+  "PAGE": "1097-1103",
+  "Authors": "Mbatchou J,Barnard L,Backman J,Marcketta A,Kosmicki JA,Ziyatdinov A,Benner C,O'Dushlaine C,Barber M,Boutkov B,Habegger L,Ferreira M,Baras A,Reid J,Abecasis G,Maxwell E,Marchini J",
+  "ABSTRACT": "Genome-wide association analysis of cohorts with thousands of phenotypes is computationally expensive, particularly when accounting for sample relatedness or population structure. Here we present a novel machine-learning method called REGENIE for fitting a whole-genome regression model for quantitative and binary phenotypes that is substantially faster than alternatives in multi-trait analyses while maintaining statistical efficiency. The method naturally accommodates parallel analysis of multiple phenotypes and requires only local segments of the genotype matrix to be loaded in memory, in contrast to existing alternatives, which must load genome-wide matrices into memory. This results in substantial savings in compute time and memory usage. We introduce a fast, approximate Firth logistic regression test for unbalanced case-control phenotypes. The method is ideally suited to take advantage of distributed computing frameworks. We demonstrate the accuracy and computational benefits of this approach using the UK Biobank dataset with up to 407,746 individuals.",
+  "DOI": "10.1038/s41588-021-00870-7",
+  "PMC ID": "",
+  "CITATION": "Mbatchou J, Barnard L, Backman J, Marcketta A, ...&, Marchini J. (2021) Computationally efficient whole-genome regression for quantitative and binary traits. Nat Genet, 53 (7) 1097-1103. doi:10.1038/s41588-021-00870-7. PMID 34017140",
+  "FIRST_AUTHOR": "Mbatchou J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "POLMM",
+  "PMID": 33836139,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "POLMM",
+  "FULL NAME": "proportional odds logistic mixed model (POLMM)",
+  "KEYWORDS": "ordinal categorical phenotypes",
+  "URL": "https://github.com/WenjianBI/POLMM",
+  "DESCRIPTION": "Proportional Odds Logistic Mixed Model (POLMM) for ordinal categorical data analysis",
+  "MANUAL_CITATION": "Bi, W., Zhou, W., Dey, R., Mukherjee, B., Sampson, J. N., & Lee, S. (2021). Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes. The American Journal of Human Genetics, 108(5), 825-839.",
+  "TITLE": "Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2021",
+  "VOLUME": "108",
+  "ISSUE": "5",
+  "PAGE": "825-839",
+  "Authors": "Bi W,Zhou W,Dey R,Mukherjee B,Sampson JN,Lee S",
+  "ABSTRACT": "In genome-wide association studies, ordinal categorical phenotypes are widely used to measure human behaviors, satisfaction, and preferences. However, because of the lack of analysis tools, methods designed for binary or quantitative traits are commonly used inappropriately to analyze categorical phenotypes. To accurately model the dependence of an ordinal categorical phenotype on covariates, we propose an efficient mixed model association test, proportional odds logistic mixed model (POLMM). POLMM is computationally efficient to analyze large datasets with hundreds of thousands of samples, can control type I error rates at a stringent significance level regardless of the phenotypic distribution, and is more powerful than alternative methods. In contrast, the standard linear mixed model approaches cannot control type I error rates for rare variants when the phenotypic distribution is unbalanced, although they performed well when testing common variants. We applied POLMM to 258 ordinal categorical phenotypes on array genotypes and imputed samples from 408,961 individuals in UK Biobank. In total, we identified 5,885 genome-wide significant variants, of which, 424 variants (7.2%) are rare variants with MAF < 0.01.",
+  "DOI": "10.1016/j.ajhg.2021.03.019",
+  "PMC ID": "PMC8206161",
+  "CITATION": "Bi W, Zhou W, Dey R, Mukherjee B, ...&, Lee S. (2021) Efficient mixed model approach for large-scale genome-wide association studies of ordinal categorical phenotypes. Am J Hum Genet, 108 (5) 825-839. doi:10.1016/j.ajhg.2021.03.019. PMID 33836139",
+  "FIRST_AUTHOR": "Bi W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

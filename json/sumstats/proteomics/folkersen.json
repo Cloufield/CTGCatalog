@@ -1,0 +1,27 @@
+{
+  "NAME": "Folkersen",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 28369058,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Mapping of 79 loci for 83 plasma protein biomarkers in cardiovascular disease.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2017",
+  "VOLUME": "13",
+  "ISSUE": "4",
+  "PAGE": "e1006706",
+  "Authors": "Folkersen L,Fauman E,Sabater-Lleal M,Strawbridge RJ,Frånberg M,Sennblad B,Baldassarre D,Veglia F,Humphries SE,Rauramaa R,de Faire U,Smit AJ,Giral P,Kurl S,Mannarino E,Enroth S,Johansson Å,Enroth SB,Gustafsson S,Lind L,Lindgren C,Morris AP,Giedraitis V,Silveira A,Franco-Cereceda A,Tremoli E,IMPROVE study group,Gyllensten U,Ingelsson E,Brunak S,Eriksson P,Ziemek D,Hamsten A,Mälarstig A",
+  "ABSTRACT": "Recent advances in highly multiplexed immunoassays have allowed systematic large-scale measurement of hundreds of plasma proteins in large cohort studies. In combination with genotyping, such studies offer the prospect to 1) identify mechanisms involved with regulation of protein expression in plasma, and 2) determine whether the plasma proteins are likely to be causally implicated in disease. We report here the results of genome-wide association (GWA) studies of 83 proteins considered relevant to cardiovascular disease (CVD), measured in 3,394 individuals with multiple CVD risk factors. We identified 79 genome-wide significant (p<5e-8) association signals, 55 of which replicated at P<0.0007 in separate validation studies (n = 2,639 individuals). Using automated text mining, manual curation, and network-based methods incorporating information on expression quantitative trait loci (eQTL), we propose plausible causal mechanisms for 25 trans-acting loci, including a potential post-translational regulation of stem cell factor by matrix metalloproteinase 9 and receptor-ligand pairs such as RANK-RANK ligand. Using public GWA study data, we further evaluate all 79 loci for their causal effect on coronary artery disease, and highlight several potentially causal associations. Overall, a majority of the plasma proteins studied showed evidence of regulation at the genetic level. Our results enable future studies of the causal architecture of human disease, which in turn should aid discovery of new drug targets.",
+  "DOI": "10.1371/journal.pgen.1006706",
+  "PMC ID": "PMC5393901",
+  "CITATION": "Folkersen L, Fauman E, Sabater-Lleal M, Strawbridge RJ, ...&, Mälarstig A. (2017) Mapping of 79 loci for 83 plasma protein biomarkers in cardiovascular disease. PLoS Genet, 13 (4) e1006706. doi:10.1371/journal.pgen.1006706. PMID 28369058",
+  "FIRST_AUTHOR": "Folkersen L",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

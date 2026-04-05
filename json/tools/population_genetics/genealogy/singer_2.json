@@ -1,0 +1,20 @@
+{
+  "NAME": "SINGER",
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "SINGER",
+  "FULL NAME": "sampling and inferring of genealogies with recombination",
+  "KEYWORDS": "Ancestral Recombination Graph (ARG), Bayesian inference, population genomics, genealogical analysis, archaic introgression, trans-species polymorphism",
+  "URL": "https://github.com/popgenmethods/SINGER",
+  "DESCRIPTION": "SINGER is a Bayesian method for accelerating ARG (Ancestral Recombination Graph) sampling from the posterior distribution, enabling accurate inference and uncertainty quantification for hundreds of whole-genome sequences. It addresses scalability and accuracy challenges in ARG reconstruction, improving robustness to model misspecification. Applications include detecting population differentiation, archaic introgression, and trans-species polymorphism in regions like the HLA locus.",
+  "MANUAL_CITATION": "Deng, Y., Nielsen, R., & Song, Y.S. Robust and accurate Bayesian inference of genome-wide genealogies for hundreds of genomes. Nature Genetics, 57, 2124–2135. https://doi.org/10.1038/s41588-025-02317-9",
+  "ARROW_SUMMARY": "Phased WGS → Bayesian MCMC sampling (threading, ARG re-scaling, SGPR moves) → Genome-wide ARGs with uncertainty quantification",
+  "DATA_REQUIRED": "Phased whole-genome sequences. Requires phasing; not suitable for unphased or ancient DNA without prior phasing.",
+  "AI_GENERATED": 1,
+  "CITATION": "Deng, Y., Nielsen, R., & Song, Y.S. Robust and accurate Bayesian inference of genome-wide genealogies for hundreds of genomes. Nature Genetics, 57, 2124–2135. https://doi.org/10.1038/s41588-025-02317-9",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

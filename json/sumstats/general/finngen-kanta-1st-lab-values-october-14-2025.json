@@ -1,0 +1,16 @@
+{
+  "NAME": "FinnGen Kanta 1st Lab values (October 14 2025 )",
+  "URL": "https://labvalues.finngen.fi/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "Finngen",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "FinnGen GWAS of laboratory measurements from Finnish register data (first public release, Oct 2025).",
+  "MANUAL_CITATION": "FinnGen — first-release GWAS of laboratory values from Finnish health registers (Oct 2025). Companion resource to the FinnGen study.",
+  "MANUAL_YEAR": 2025,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

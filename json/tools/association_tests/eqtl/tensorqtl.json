@@ -1,0 +1,29 @@
+{
+  "NAME": "tensorQTL",
+  "PMID": 31675989,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "tensorQTL",
+  "FULL NAME": "tensorQTL",
+  "URL": "https://github.com/broadinstitute/tensorqtl",
+  "DESCRIPTION": "tensorQTL is a GPU-enabled QTL mapper, achieving ~200-300 fold faster cis- and trans-QTL mapping compared to CPU-based implementations.",
+  "MANUAL_CITATION": "Taylor-Weiner, A., Aguet, F., Haradhvala, N. J., Gosai, S., Anand, S., Kim, J., ... & Getz, G. (2019). Scaling computational genomics to millions of individuals with GPUs. Genome biology, 20(1), 1-5.",
+  "TITLE": "Scaling computational genomics to millions of individuals with GPUs.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2019",
+  "VOLUME": "20",
+  "ISSUE": "1",
+  "PAGE": "228",
+  "Authors": "Taylor-Weiner A,Aguet F,Haradhvala NJ,Gosai S,Anand S,Kim J,Ardlie K,Van Allen EM,Getz G",
+  "ABSTRACT": "Current genomics methods are designed to handle tens to thousands of samples but will need to scale to millions to match the pace of data and hypothesis generation in biomedical science. Here, we show that high efficiency at low cost can be achieved by leveraging general-purpose libraries for computing using graphics processing units (GPUs), such as PyTorch and TensorFlow. We demonstrate > 200-fold decreases in runtime and ~ 5-10-fold reductions in cost relative to CPUs. We anticipate that the accessibility of these libraries will lead to a widespread adoption of GPUs in computational genomics.",
+  "DOI": "10.1186/s13059-019-1836-7",
+  "PMC ID": "PMC6823959",
+  "CITATION": "Taylor-Weiner A, Aguet F, Haradhvala NJ, Gosai S, ...&, Getz G. (2019) Scaling computational genomics to millions of individuals with GPUs. Genome Biol, 20 (1) 228. doi:10.1186/s13059-019-1836-7. PMID 31675989",
+  "FIRST_AUTHOR": "Taylor-Weiner A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

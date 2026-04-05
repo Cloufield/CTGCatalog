@@ -1,0 +1,15 @@
+{
+  "NAME": "Qatar Biobank",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~80K",
+  "MANUAL_CITATION": "Al Kuwari, H., Al Thani, A., Al Marri, A., Al Kaabi, A., Abderrahim, H., Afifi, N., ... & Elliott, P. (2015). The Qatar Biobank: background and methods. BMC public health, 15(1), 1-9.",
+  "URL": "https://www.qatarbiobank.org.qa/",
+  "DESCRIPTION": "Qatar Biobank is a national long-term health research initiative that recruits consenting adults in Qatar, collects biological samples and health data, and supports population and genomic research on diseases relevant to the region (often analyzed together with the Qatar Genome Program).",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "Middle Eastern (Qatari Arab)",
+  "PARTICIPANTS": "Consenting adults in Qatar (national biobank)"
+}

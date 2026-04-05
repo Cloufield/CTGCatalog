@@ -1,0 +1,33 @@
+{
+  "NAME": "Liu Y",
+  "ADD_SUFFIX": 1,
+  "PMID": 34128465,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "d 11 Image Derived Phenotypes (IDPs): volume of the liver, pancreas, kidneys,spleen, lungs, VAT, and abdominal subcutaneous adipose tissue (ASAT), and fat and iron content of the liver and pancre",
+  "PLATFORM": "Abdominal MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 38000,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "\nLiu, Y. et al. Genetic architecture of 11 organ traits derived from abdominal MRI using deep learning. Elife 10, (2021).\n  ",
+  "MANUAL_YEAR": 2021,
+  "TITLE": "Genetic architecture of 11 organ traits derived from abdominal MRI using deep learning.",
+  "ISO": "Elife",
+  "JOURNAL": "eLife",
+  "YEAR": "2021",
+  "VOLUME": "10",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Liu Y,Basty N,Whitcher B,Bell JD,Sorokin EP,van Bruggen N,Thomas EL,Cule M",
+  "ABSTRACT": "Cardiometabolic diseases are an increasing global health burden. While socioeconomic, environmental, behavioural, and genetic risk factors have been identified, a better understanding of the underlying mechanisms is required to develop more effective interventions. Magnetic resonance imaging (MRI) has been used to assess organ health, but biobank-scale studies are still in their infancy. Using over 38,000 abdominal MRI scans in the UK Biobank, we used deep learning to quantify volume, fat, and iron in seven organs and tissues, and demonstrate that imaging-derived phenotypes reflect health status. We show that these traits have a substantial heritable component (8-44%) and identify 93 independent genome-wide significant associations, including four associations with liver traits that have not previously been reported. Our work demonstrates the tractability of deep learning to systematically quantify health parameters from high-throughput MRI across a range of organs and tissues, and use the largest-ever study of its kind to generate new insights into the genetic architecture of these traits.",
+  "DOI": "10.7554/eLife.65554",
+  "PMC ID": "PMC8205492",
+  "CITATION": "Liu Y, Basty N, Whitcher B, Bell JD, ...&, Cule M. (2021) Genetic architecture of 11 organ traits derived from abdominal MRI using deep learning. Elife, 10 () . doi:10.7554/eLife.65554. PMID 34128465",
+  "FIRST_AUTHOR": "Liu Y",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

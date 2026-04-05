@@ -1,0 +1,14 @@
+{
+  "NAME": "MANOVA",
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MANOVA",
+  "FULL NAME": "multivariate analysis of variance",
+  "MANUAL_YEAR": 1955,
+  "MANUAL_CITATION": "Pillai, K. C. S. Some new test criteria in multivariate analysis. Ann. Math. Stat. 26, 117–121 (1955).",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

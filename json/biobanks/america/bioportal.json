@@ -1,0 +1,14 @@
+{
+  "NAME": "BioPortal",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "N/A (multi-study platform)",
+  "URL": "https://www.mcgill.ca/genepi/bioportal",
+  "DESCRIPTION": "BioPortal is a unique research platform at the Jewish General Hospital (JGH)/Lady Davis Institute in Montreal built in partnership with the CERC Chair in Genomic Medicine at McGill.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR,EUR",
+  "PARTICIPANTS": "Montreal-area Canadian research participants"
+}

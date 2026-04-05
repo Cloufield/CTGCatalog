@@ -1,0 +1,15 @@
+{
+  "NAME": "KoGES Pheweb",
+  "URL": "https://koges.leelabsg.org/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "PheWeb instance for KoGES (Korean Genome and Epidemiology Study) GWAS summary statistics.",
+  "MANUAL_CITATION": "Korean Genome and Epidemiology Study (KoGES) — Korean population cohort GWAS; PheWeb summary statistics portal.",
+  "MANUAL_YEAR": 2018,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

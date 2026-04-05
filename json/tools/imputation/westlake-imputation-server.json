@@ -1,0 +1,27 @@
+{
+  "NAME": "Westlake Imputation Server",
+  "PMID": 35618720,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation server",
+  "TYPE": "Imputation server",
+  "SHORT NAME": "Westlake Imputation Server",
+  "URL": "https://imputationserver.westlake.edu.cn/",
+  "MANUAL_CITATION": "Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.",
+  "TITLE": "Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2022",
+  "VOLUME": "13",
+  "ISSUE": "1",
+  "PAGE": "2939",
+  "Authors": "Cong PK,Bai WY,Li JC,Yang MY,Khederzadeh S,Gai SR,Li N,Liu YH,Yu SH,Zhao WW,Liu JQ,Sun Y,Zhu XW,Zhao PP,Xia JW,Guan PL,Qian Y,Tao JG,Xu L,Tian G,Wang PY,Xie SY,Qiu MC,Liu KQ,Tang BS,Zheng HF",
+  "ABSTRACT": "We initiate the Westlake BioBank for Chinese (WBBC) pilot project with 4,535 whole-genome sequencing (WGS) individuals and 5,841 high-density genotyping individuals, and identify 81.5 million SNPs and INDELs, of which 38.5% are absent in dbSNP Build 151. We provide a population-specific reference panel and an online imputation server ( https://wbbc.westlake.edu.cn/ ) which could yield substantial improvement of imputation performance in Chinese population, especially for low-frequency and rare variants. By analyzing the singleton density of the WGS data, we find selection signatures in SNX29, DNAH1 and WDR1 genes, and the derived alleles of the alcohol metabolism genes (ADH1A and ADH1B) emerge around 7,000 years ago and tend to be more common from 4,000 years ago in East Asia. Genetic evidence supports the corresponding geographical boundaries of the Qinling-Huaihe Line and Nanling Mountains, which separate the Han Chinese into subgroups, and we reveal that North Han was more homogeneous than South Han.",
+  "DOI": "10.1038/s41467-022-30526-x",
+  "PMC ID": "PMC9135724",
+  "CITATION": "Cong PK, Bai WY, Li JC, Yang MY, ...&, Zheng HF. (2022) Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nat Commun, 13 (1) 2939. doi:10.1038/s41467-022-30526-x. PMID 35618720",
+  "FIRST_AUTHOR": "Cong PK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

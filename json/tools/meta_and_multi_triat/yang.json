@@ -1,0 +1,26 @@
+{
+  "NAME": "Yang",
+  "PMID": 24748889,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Review",
+  "MANUAL_YEAR": 2012,
+  "MANUAL_CITATION": "Yang, Q. & Wang, Y. Methods for analyzing multivariate phenotypes in genetic association studies. J. Probab. Stat. 2012, 652569 (2012).\n  ",
+  "TITLE": "Methods for Analyzing Multivariate Phenotypes in Genetic Association Studies.",
+  "ISO": "J Probab Stat",
+  "JOURNAL": "Journal of probability and statistics",
+  "YEAR": "2012",
+  "VOLUME": "2012",
+  "ISSUE": "",
+  "PAGE": "652569",
+  "Authors": "Yang Q,Wang Y",
+  "ABSTRACT": "This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited. Multivariate phenotypes are frequently encountered in genetic association studies. The purpose of analyzing multivariate phenotypes usually includes discovery of novel genetic variants of pleiotropy effects, that is, affecting multiple phenotypes, and the ultimate goal of uncovering the underlying genetic mechanism. In recent years, there have been new method development and application of existing statistical methods to such phenotypes. In this paper, we provide a review of the available methods for analyzing association between a single marker and a multivariate phenotype consisting of the same type of components (e.g., all continuous or all categorical) or different types of components (e.g., some are continuous and others are categorical). We also reviewed causal inference methods designed to test whether the detected association with the multivariate phenotype is truly pleiotropy or the genetic marker exerts its effects on some phenotypes through affecting the others.",
+  "DOI": "10.1155/2012/652569",
+  "PMC ID": "PMC3989935",
+  "CITATION": "Yang Q, Wang Y. (2012) Methods for Analyzing Multivariate Phenotypes in Genetic Association Studies. J Probab Stat, 2012 () 652569. doi:10.1155/2012/652569. PMID 24748889",
+  "FIRST_AUTHOR": "Yang Q",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

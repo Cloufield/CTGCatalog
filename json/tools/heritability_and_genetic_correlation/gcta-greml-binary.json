@@ -1,0 +1,29 @@
+{
+  "NAME": "GCTA-GREML-Binary",
+  "PMID": 21376301,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "GREML",
+  "FULL NAME": "Genome-wide complex trait analysis (GCTA) Genome-based restricted maximum likelihood (GREML)",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#GREML",
+  "DESCRIPTION": "(case-control)",
+  "MANUAL_CITATION": "Lee, Sang Hong, et al. \"Estimating missing heritability for disease from genome-wide association studies.\" The American Journal of Human Genetics 88.3 (2011): 294-305.",
+  "TITLE": "Estimating missing heritability for disease from genome-wide association studies.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2011",
+  "VOLUME": "88",
+  "ISSUE": "3",
+  "PAGE": "294-305",
+  "Authors": "Lee SH,Wray NR,Goddard ME,Visscher PM",
+  "ABSTRACT": "Genome-wide association studies are designed to discover SNPs that are associated with a complex trait. Employing strict significance thresholds when testing individual SNPs avoids false positives at the expense of increasing false negatives. Recently, we developed a method for quantitative traits that estimates the variation accounted for when fitting all SNPs simultaneously. Here we develop this method further for case-control studies. We use a linear mixed model for analysis of binary traits and transform the estimates to a liability scale by adjusting both for scale and for ascertainment of the case samples. We show by theory and simulation that the method is unbiased. We apply the method to data from the Wellcome Trust Case Control Consortium and show that a substantial proportion of variation in liability for Crohn disease, bipolar disorder, and type I diabetes is tagged by common SNPs.",
+  "DOI": "10.1016/j.ajhg.2011.02.002",
+  "PMC ID": "PMC3059431",
+  "CITATION": "Lee SH, Wray NR, Goddard ME, Visscher PM. (2011) Estimating missing heritability for disease from genome-wide association studies. Am J Hum Genet, 88 (3) 294-305. doi:10.1016/j.ajhg.2011.02.002. PMID 21376301",
+  "FIRST_AUTHOR": "Lee SH",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

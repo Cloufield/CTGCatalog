@@ -1,0 +1,33 @@
+{
+  "NAME": "ClinVar",
+  "CATEGORY": "Functional Annotation",
+  "SOURCE": "ClinVar",
+  "PMID": 39578691,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nLandrum, M. J. et al. ClinVar: updates to support classifications of both germline and somatic variants. Nucleic Acids Res. 53, D1313–D1321 (2025).  ",
+  "TOPIC": "Function",
+  "URL": "https://www.ncbi.nlm.nih.gov/clinvar/",
+  "TYPE": "DB",
+  "DESCRIPTION": "Archive of clinically relevant variants with interpretations.",
+  "MANUAL_YEAR": 2018,
+  "SHORT NAME": "ClinVar",
+  "FULL NAME": "ClinVar",
+  "KEYWORDS": "pathogenicity, variant, clinical",
+  "USE": "clinical annotation",
+  "TITLE": "ClinVar: updates to support classifications of both germline and somatic variants.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2025",
+  "VOLUME": "53",
+  "ISSUE": "D1",
+  "PAGE": "D1313-D1321",
+  "Authors": "Landrum MJ,Chitipiralla S,Kaur K,Brown G,Chen C,Hart J,Hoffman D,Jang W,Liu C,Maddipatla Z,Maiti R,Mitchell J,Rezaie T,Riley G,Song G,Yang J,Ziyabari L,Russette A,Kattman BL",
+  "ABSTRACT": "ClinVar (www.ncbi.nlm.nih.gov/clinvar/) is a free, public database of human genetic variants and their relationships to disease, with >3 million variants submitted by >2800 organizations across the world. The database was recently updated to have three types of classifications: germline, oncogenicity and clinical impact for somatic variants. As for germline variants, classifications for somatic variants can be submitted in batches in a file submission or through the submission API; variants can also be submitted and updated one at a time in online submission forms. The ClinVar XML files were redesigned to allow multiple classification types. Both old and new formats of the XML are supported through the end of 2024. Data for somatic classifications were also added to the ClinVar VCF files and to several tab-delimited files. The ClinVar VCV pages were updated to display the three types of classifications, both as it was submitted and as it was aggregated by ClinVar. Clinical testing laboratories and others in the cancer community are invited to share their classifications of somatic variant classifications through ClinVar to provide transparency in genomic testing and improve patient care.",
+  "DOI": "10.1093/nar/gkae1090",
+  "PMC ID": "PMC11701624",
+  "CITATION": "Landrum MJ, Chitipiralla S, Kaur K, Brown G, ...&, Kattman BL. (2025) ClinVar: updates to support classifications of both germline and somatic variants. Nucleic Acids Res, 53 (D1) D1313-D1321. doi:10.1093/nar/gkae1090. PMID 39578691",
+  "FIRST_AUTHOR": "Landrum MJ",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

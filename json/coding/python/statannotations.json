@@ -1,0 +1,11 @@
+{
+  "NAME": "statannotations",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://github.com/trevismd/statannotations",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Statistical annotations on matplotlib plots."
+}

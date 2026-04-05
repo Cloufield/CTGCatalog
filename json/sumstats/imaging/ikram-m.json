@@ -1,0 +1,31 @@
+{
+  "NAME": "Ikram M.",
+  "ADD_SUFFIX": 1,
+  "PMID": 28627999,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "MRI with 2D phase-contrast imaging: flow rate, cross-sectional area of the vessel, and flow velocity through the vessel: the basilar artery and bilateral carotid",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "Rotterdam Study",
+  "SAMPLE_SIZE": 4472,
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "\nIkram, M. A. et al. Heritability and genome-wide associations studies of cerebral blood flow in the general population. J. Cereb. Blood Flow Metab. 38, 1598–1608 (2018).\n  ",
+  "TITLE": "Heritability and genome-wide associations studies of cerebral blood flow in the general population.",
+  "ISO": "J Cereb Blood Flow Metab",
+  "JOURNAL": "Journal of cerebral blood flow and metabolism : official journal of the International Society of Cerebral Blood Flow and Metabolism",
+  "YEAR": "2018",
+  "VOLUME": "38",
+  "ISSUE": "9",
+  "PAGE": "1598-1608",
+  "Authors": "Ikram MA,Zonneveld HI,Roshchupkin G,Smith AV,Franco OH,Sigurdsson S,van Duijn C,Uitterlinden AG,Launer LJ,Vernooij MW,Gudnason V,Adams HH",
+  "ABSTRACT": "Cerebral blood flow is an important process for brain functioning and its dysregulation is implicated in multiple neurological disorders. While environmental risk factors have been identified, it remains unclear to what extent the flow is regulated by genetics. Here we performed heritability and genome-wide association analyses of cerebral blood flow in a population-based cohort study. We included 4472 persons free of cortical infarcts who underwent genotyping and phase-contrast magnetic resonance flow imaging (mean age 64.8 ± 10.8 years). The flow rate, cross-sectional area of the vessel, and flow velocity through the vessel were measured in the basilar artery and bilateral carotids. We found that the flow rate of the basilar artery is most heritable (h2 (SE) = 24.1 (9.8), p-value = 0.0056), and this increased over age. The association studies revealed two significant loci for the right carotid artery area (rs12546630, p-value = 2.0 × 10-8) and velocity (rs2971609, p-value = 1.4 × 10-8), with the latter showing a concordant effect in an independent sample (N = 1350, p-value = 0.057, meta-analyzed p-value = 2.5 × 10-9). These loci were also associated with other cerebral blood flow parameters below genome-wide significance, and rs2971609 lies in a known migraine locus. These findings establish that cerebral blood flow is under genetic control with potential relevance for neurological diseases.",
+  "DOI": "10.1177/0271678X17715861",
+  "PMC ID": "PMC6120124",
+  "CITATION": "Ikram MA, Zonneveld HI, Roshchupkin G, Smith AV, ...&, Adams HH. (2018) Heritability and genome-wide associations studies of cerebral blood flow in the general population. J Cereb Blood Flow Metab, 38 (9) 1598-1608. doi:10.1177/0271678X17715861. PMID 28627999",
+  "FIRST_AUTHOR": "Ikram MA",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

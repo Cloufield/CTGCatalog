@@ -1,0 +1,30 @@
+{
+  "NAME": "LDpred",
+  "PMID": 26430803,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDpred",
+  "FULL NAME": "LDpred",
+  "KEYWORDS": "Bayesian, Gaussian infinitesimal prior, python",
+  "URL": "https://github.com/bvilhjal/ldpred",
+  "DESCRIPTION": "LDpred is a Python based software package that adjusts GWAS summary statistics for the effects of linkage disequilibrium (LD).",
+  "MANUAL_CITATION": "Vilhjálmsson, B. J., Yang, J., Finucane, H. K., Gusev, A., Lindström, S., Ripke, S., ... & Marsal, S. (2015). Modeling linkage disequilibrium increases accuracy of polygenic risk scores. The american journal of human genetics, 97(4), 576-592.",
+  "TITLE": "Modeling Linkage Disequilibrium Increases Accuracy of Polygenic Risk Scores.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2015",
+  "VOLUME": "97",
+  "ISSUE": "4",
+  "PAGE": "576-92",
+  "Authors": "Vilhjálmsson BJ,Yang J,Finucane HK,Gusev A,Lindström S,Ripke S,Genovese G,Loh PR,Bhatia G,Do R,Hayeck T,Won HH,Schizophrenia Working Group of the Psychiatric Genomics Consortium, Discovery, Biology, and Risk of Inherited Variants in Breast Cancer (DRIVE) study,Kathiresan S,Pato M,Pato C,Tamimi R,Stahl E,Zaitlen N,Pasaniuc B,Belbin G,Kenny EE,Schierup MH,De Jager P,Patsopoulos NA,McCarroll S,Daly M,Purcell S,Chasman D,Neale B,Goddard M,Visscher PM,Kraft P,Patterson N,Price AL",
+  "ABSTRACT": "Polygenic risk scores have shown great promise in predicting complex disease risk and will become more accurate as training sample sizes increase. The standard approach for calculating risk scores involves linkage disequilibrium (LD)-based marker pruning and applying a p value threshold to association statistics, but this discards information and can reduce predictive accuracy. We introduce LDpred, a method that infers the posterior mean effect size of each marker by using a prior on effect sizes and LD information from an external reference panel. Theory and simulations show that LDpred outperforms the approach of pruning followed by thresholding, particularly at large sample sizes. Accordingly, predicted R(2) increased from 20.1% to 25.3% in a large schizophrenia dataset and from 9.8% to 12.0% in a large multiple sclerosis dataset. A similar relative improvement in accuracy was observed for three additional large disease datasets and for non-European schizophrenia samples. The advantage of LDpred over existing methods will grow as sample sizes increase.",
+  "DOI": "10.1016/j.ajhg.2015.09.001",
+  "PMC ID": "PMC4596916",
+  "CITATION": "Vilhjálmsson BJ, Yang J, Finucane HK, Gusev A, ...&, Price AL. (2015) Modeling Linkage Disequilibrium Increases Accuracy of Polygenic Risk Scores. Am J Hum Genet, 97 (4) 576-92. doi:10.1016/j.ajhg.2015.09.001. PMID 26430803",
+  "FIRST_AUTHOR": "Vilhjálmsson BJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

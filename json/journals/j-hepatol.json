@@ -1,0 +1,18 @@
+{
+  "NAME": "Journal of hepatology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "J Hepatol",
+  "JOURNAL": "Journal of hepatology",
+  "URL": "http://www.sciencedirect.com/science/journal/01688278",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Parisinos C"
+  ]
+}

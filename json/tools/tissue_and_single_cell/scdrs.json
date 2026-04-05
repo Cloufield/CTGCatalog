@@ -1,0 +1,31 @@
+{
+  "NAME": "scDRS",
+  "PMID": 36050550,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "scDRS",
+  "FULL NAME": "single-cell Disease Relevance Score",
+  "KEYWORDS": "GWAS, scRNA-seq",
+  "URL": "https://github.com/martinjzhang/scDRS",
+  "DESCRIPTION": "an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types",
+  "MANUAL_CITATION": "Zhang, M.J., Hou, K., Dey, K.K. et al. Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data. Nat Genet (2022). https://doi.org/10.1038/s41588-022-01167-z",
+  "ARROW_SUMMARY": "GWAS summary statistics → Select putative disease genes via MAGMA → Compute scDRS using Monte Carlo-based score aggregation → Normalize with control gene sets → Rank cells by disease relevance → Identify enriched subpopulations and co-expressed gene networks",
+  "DATA_REQUIRED": "Sumstats, scRNA",
+  "TITLE": "Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "10",
+  "PAGE": "1572-1580",
+  "Authors": "Zhang MJ,Hou K,Dey KK,Sakaue S,Jagadeesh KA,Weinand K,Taychameekiatchai A,Rao P,Pisco AO,Zou J,Wang B,Gandal M,Raychaudhuri S,Pasaniuc B,Price AL",
+  "ABSTRACT": "Single-cell RNA sequencing (scRNA-seq) provides unique insights into the pathology and cellular origin of disease. We introduce single-cell disease relevance score (scDRS), an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types. scDRS identifies cells exhibiting excess expression across disease-associated genes implicated by genome-wide association studies (GWASs). We applied scDRS to 74 diseases/traits and 1.3 million single-cell gene-expression profiles across 31 tissues/organs. Cell-type-level results broadly recapitulated known cell-type-disease associations. Individual-cell-level results identified subpopulations of disease-associated cells not captured by existing cell-type labels, including T cell subpopulations associated with inflammatory bowel disease, partially characterized by their effector-like states; neuron subpopulations associated with schizophrenia, partially characterized by their spatial locations; and hepatocyte subpopulations associated with triglyceride levels, partially characterized by their higher ploidy levels. Genes whose expression was correlated with the scDRS score across cells (reflecting coexpression with GWAS disease-associated genes) were strongly enriched for gold-standard drug target and Mendelian disease genes.",
+  "DOI": "10.1038/s41588-022-01167-z",
+  "PMC ID": "PMC9891382",
+  "CITATION": "Zhang MJ, Hou K, Dey KK, Sakaue S, ...&, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data. Nat Genet, 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550",
+  "FIRST_AUTHOR": "Zhang MJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

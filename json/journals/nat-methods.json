@@ -1,0 +1,23 @@
+{
+  "NAME": "Nature methods",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "URL": "http://www.nature.com/nmeth/index.html",
+  "ENTRY_COUNT": 8,
+  "CITED_BY_SECTION": {
+    "Tools": 3,
+    "Single_Cell": 5
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Squidpy",
+    "Harmony",
+    "SCENIC",
+    "SCENIC+",
+    "CellRank"
+  ]
+}

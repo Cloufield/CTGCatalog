@@ -1,0 +1,17 @@
+{
+  "NAME": "Danish National Biobank",
+  "SHORT NAME": "DNB",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "millions of stored samples (registry-linked)",
+  "NOTE": "National archive of human tissue and fluid samples; genotyping in linked research studies.",
+  "DESCRIPTION": "Nationwide biobank infrastructure integrating samples from the health system; enables large-scale genetic and epidemiological studies when linked to Danish registers.",
+  "MANUAL_CITATION": "Statens Serum Institut. The Danish National Biobank (DNB): national storage, Danish Biobank Register, and access framework for health research in Denmark. Overview: https://en.ssi.dk/research/the-danish-national-biobank",
+  "URL": "https://www.danishnationalbiobank.com/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Danish national biobank participants"
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "MESuSiE",
+  "PMID": 38168930,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "MESuSiE",
+  "FULL NAME": "multi-ancestry sum of the single effects model",
+  "KEYWORDS": "multi-trait, fine-mapping",
+  "URL": "https://github.com/borangao/MESuSiE",
+  "DESCRIPTION": "MESuSiE relies on GWAS summary statistics from multiple ancestries, properly accounts for the LD structure of the local genomic region in multiple ancestries, and explicitly models both shared and ancestry-specific causal signals to accommodate causal effect size similarity as well as heterogeneity across ancestries. MESuSiE outputs posterior inclusion probability of variant being shared or ancestry-specific causal variants.",
+  "MANUAL_CITATION": "Gao, B., Zhou, X. MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies. Nat Genet (2024). https://doi.org/10.1038/s41588-023-01604-7",
+  "TITLE": "MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "1",
+  "PAGE": "170-179",
+  "Authors": "Gao B,Zhou X",
+  "ABSTRACT": "Fine-mapping in genome-wide association studies attempts to identify causal SNPs from a set of candidate SNPs in a local genomic region of interest and is commonly performed in one genetic ancestry at a time. Here, we present multi-ancestry sum of the single effects model (MESuSiE), a probabilistic multi-ancestry fine-mapping method, to improve the accuracy and resolution of fine-mapping by leveraging association information across ancestries. MESuSiE uses summary statistics as input, accounts for the diverse linkage disequilibrium pattern observed in different ancestries, explicitly models both shared and ancestry-specific causal SNPs, and relies on a variational inference algorithm for scalable computation. We evaluated the performance of MESuSiE through comprehensive simulations and multi-ancestry fine-mapping of four lipid traits with both European and African samples. In the real data, MESuSiE improves fine-mapping resolution by 19.0% to 72.0% compared to existing approaches, is an order of magnitude faster, and captures and categorizes shared and ancestry-specific causal signals with enhanced functional enrichment.",
+  "DOI": "10.1038/s41588-023-01604-7",
+  "PMC ID": "PMC11849347",
+  "CITATION": "Gao B, Zhou X. (2024) MESuSiE enables scalable and powerful multi-ancestry fine-mapping of causal variants in genome-wide association studies. Nat Genet, 56 (1) 170-179. doi:10.1038/s41588-023-01604-7. PMID 38168930",
+  "FIRST_AUTHOR": "Gao B",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

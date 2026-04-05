@@ -1,0 +1,27 @@
+{
+  "NAME": "GCTA",
+  "PMID": 21167468,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "GCTA",
+  "FULL NAME": "Genome-wide complex trait analysis (GCTA)",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/",
+  "DESCRIPTION": "GCTA-GREML analysis:GCTA can simulate a GWAS based on real genotype data.",
+  "TITLE": "GCTA: a tool for genome-wide complex trait analysis.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2011",
+  "VOLUME": "88",
+  "ISSUE": "1",
+  "PAGE": "76-82",
+  "Authors": "Yang J,Lee SH,Goddard ME,Visscher PM",
+  "ABSTRACT": "For most human complex diseases and traits, SNPs identified by genome-wide association studies (GWAS) explain only a small fraction of the heritability. Here we report a user-friendly software tool called genome-wide complex trait analysis (GCTA), which was developed based on a method we recently developed to address the \"missing heritability\" problem. GCTA estimates the variance explained by all the SNPs on a chromosome or on the whole genome for a complex trait rather than testing the association of any particular SNP to the trait. We introduce GCTA's five main functions: data management, estimation of the genetic relationships from SNPs, mixed linear model analysis of variance explained by the SNPs, estimation of the linkage disequilibrium structure, and GWAS simulation. We focus on the function of estimating the variance explained by all the SNPs on the X chromosome and testing the hypotheses of dosage compensation. The GCTA software is a versatile tool to estimate and partition complex trait variation with large GWAS data sets.",
+  "DOI": "10.1016/j.ajhg.2010.11.011",
+  "PMC ID": "PMC3014363",
+  "CITATION": "Yang J, Lee SH, Goddard ME, Visscher PM. (2011) GCTA: a tool for genome-wide complex trait analysis. Am J Hum Genet, 88 (1) 76-82. doi:10.1016/j.ajhg.2010.11.011. PMID 21167468",
+  "FIRST_AUTHOR": "Yang J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

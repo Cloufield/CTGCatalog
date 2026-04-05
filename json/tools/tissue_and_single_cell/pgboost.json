@@ -1,0 +1,18 @@
+{
+  "NAME": "pgBoost",
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "pgBoost",
+  "FULL NAME": "pgBoost",
+  "KEYWORDS": "eQTL-informed gradient boosting",
+  "PREPRINT_DOI": "10.1101/2024.05.24.24307813",
+  "PREPRINT_SERVER": "medrxiv",
+  "URL": "https://github.com/elizabethdorans/pgBoost",
+  "DESCRIPTION": "pgBoost is an integrative modeling framework that trains a non-linear combination of existing linking strategies (including genomic distance) on fine-mapped eQTL data to assign a probabilistic score to each candidate SNP-gene link.",
+  "MANUAL_CITATION": "Dorans, E. R., Jagadeesh, K., Dey, K., & Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05.",
+  "CITATION": "Dorans, E. R., Jagadeesh, K., Dey, K., & Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

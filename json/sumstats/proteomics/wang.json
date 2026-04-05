@@ -1,0 +1,30 @@
+{
+  "NAME": "Wang",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 39317738,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EAS",
+  "TYPE": "PEA/OLINK",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "Wang, Q. S. et al. Statistically and functionally fine-mapped blood eQTLs and pQTLs from 1,405 humans reveal distinct regulation patterns and disease relevance. Nat. Genet. 56, 2054–2067 (2024).\n  ",
+  "TITLE": "Statistically and functionally fine-mapped blood eQTLs and pQTLs from 1,405 humans reveal distinct regulation patterns and disease relevance.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "10",
+  "PAGE": "2054-2067",
+  "Authors": "Wang QS,Hasegawa T,Namkoong H,Saiki R,Edahiro R,Sonehara K,Tanaka H,Azekawa S,Chubachi S,Takahashi Y,Sakaue S,Namba S,Yamamoto K,Shiraishi Y,Chiba K,Tanaka H,Makishima H,Nannya Y,Zhang Z,Tsujikawa R,Koike R,Takano T,Ishii M,Kimura A,Inoue F,Kanai T,Fukunaga K,Ogawa S,Imoto S,Miyano S,Okada Y,Japan COVID-19 Task Force",
+  "ABSTRACT": "Studying the genetic regulation of protein expression (through protein quantitative trait loci (pQTLs)) offers a deeper understanding of regulatory variants uncharacterized by mRNA expression regulation (expression QTLs (eQTLs)) studies. Here we report cis-eQTL and cis-pQTL statistical fine-mapping from 1,405 genotyped samples with blood mRNA and 2,932 plasma samples of protein expression, as part of the Japan COVID-19 Task Force (JCTF). Fine-mapped eQTLs (n = 3,464) were enriched for 932 variants validated with a massively parallel reporter assay. Fine-mapped pQTLs (n = 582) were enriched for missense variations on structured and extracellular domains, although the possibility of epitope-binding artifacts remains. Trans-eQTL and trans-pQTL analysis highlighted associations of class I HLA allele variation with KIR genes. We contrast the multi-tissue origin of plasma protein with blood mRNA, contributing to the limited colocalization level, distinct regulatory mechanisms and trait relevance of eQTLs and pQTLs. We report a negative correlation between ABO mRNA and protein expression because of linkage disequilibrium between distinct nearby eQTLs and pQTLs.",
+  "DOI": "10.1038/s41588-024-01896-3",
+  "PMC ID": "PMC11525184",
+  "CITATION": "Wang QS, Hasegawa T, Namkoong H, Saiki R, ...&, Japan COVID-19 Task Force. (2024) Statistically and functionally fine-mapped blood eQTLs and pQTLs from 1,405 humans reveal distinct regulation patterns and disease relevance. Nat Genet, 56 (10) 2054-2067. doi:10.1038/s41588-024-01896-3. PMID 39317738",
+  "FIRST_AUTHOR": "Wang QS",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

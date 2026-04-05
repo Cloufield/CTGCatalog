@@ -1,0 +1,29 @@
+{
+  "NAME": "RASQUAL",
+  "PMID": 26656845,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "RASQUAL",
+  "FULL NAME": "Robust Allele Specific QUAntitation and quality controL",
+  "URL": "https://github.com/natsuhiko/rasqual",
+  "DESCRIPTION": "RASQUAL (Robust Allele Specific QUAntification and quality controL) maps QTLs for sequenced based cellular traits by combining population and allele-specific signals.",
+  "MANUAL_CITATION": "Kumasaka, Natsuhiko, Andrew J. Knights, and Daniel J. Gaffney. \"Fine-mapping cellular QTLs with RASQUAL and ATAC-seq.\" Nature genetics 48.2 (2016): 206-213.",
+  "TITLE": "Fine-mapping cellular QTLs with RASQUAL and ATAC-seq.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "2",
+  "PAGE": "206-13",
+  "Authors": "Kumasaka N,Knights AJ,Gaffney DJ",
+  "ABSTRACT": "When cellular traits are measured using high-throughput DNA sequencing, quantitative trait loci (QTLs) manifest as fragment count differences between individuals and allelic differences within individuals. We present RASQUAL (Robust Allele-Specific Quantitation and Quality Control), a new statistical approach for association mapping that models genetic effects and accounts for biases in sequencing data using a single, probabilistic framework. RASQUAL substantially improves fine-mapping accuracy and sensitivity relative to existing methods in RNA-seq, DNase-seq and ChIP-seq data. We illustrate how RASQUAL can be used to maximize association detection by generating the first map of chromatin accessibility QTLs (caQTLs) in a European population using ATAC-seq. Despite a modest sample size, we identified 2,707 independent caQTLs (at a false discovery rate of 10%) and demonstrated how RASQUAL and ATAC-seq can provide powerful information for fine-mapping gene-regulatory variants and for linking distal regulatory elements with gene promoters. Our results highlight how combining between-individual and allele-specific genetic signals improves the functional interpretation of noncoding variation.",
+  "DOI": "10.1038/ng.3467",
+  "PMC ID": "PMC5098600",
+  "CITATION": "Kumasaka N, Knights AJ, Gaffney DJ. (2016) Fine-mapping cellular QTLs with RASQUAL and ATAC-seq. Nat Genet, 48 (2) 206-13. doi:10.1038/ng.3467. PMID 26656845",
+  "FIRST_AUTHOR": "Kumasaka N",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

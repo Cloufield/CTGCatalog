@@ -1,0 +1,28 @@
+{
+  "NAME": "LDAK-GBAT",
+  "PMID": 36480927,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (sumstats)",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDAK-GBAT",
+  "FULL NAME": "LDAK gene-based association testing",
+  "URL": "http://www.ldak.org/",
+  "MANUAL_CITATION": "\n\n\nBerrandou, T.-E., Balding, D. & Speed, D. LDAK-GBAT: Fast and powerful gene-based association testing using summary statistics. Am. J. Hum. Genet. 110, 23–29 (2023).",
+  "TITLE": "LDAK-GBAT: Fast and powerful gene-based association testing using summary statistics.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2023",
+  "VOLUME": "110",
+  "ISSUE": "1",
+  "PAGE": "23-29",
+  "Authors": "Berrandou TE,Balding D,Speed D",
+  "ABSTRACT": "We present LDAK-GBAT, a tool for gene-based association testing using summary statistics from genome-wide association studies that is computationally efficient, produces well-calibrated p values, and is significantly more powerful than existing tools. LDAK-GBAT takes approximately 30 min to analyze imputed data (2.9M common, genic SNPs), requiring less than 10 Gb memory. It shows good control of type 1 error given an appropriate reference panel. Across 109 phenotypes (82 from the UK Biobank, 18 from the Million Veteran Program, and nine from the Psychiatric Genetics Consortium), LDAK-GBAT finds on average 19% (SE: 1%) more significant genes than the existing tool sumFREGAT-ACAT, with even greater gains in comparison with MAGMA, GCTA-fastBAT, sumFREGAT-SKAT-O, and sumFREGAT-PCA.",
+  "DOI": "10.1016/j.ajhg.2022.11.010",
+  "PMC ID": "PMC9892699",
+  "CITATION": "Berrandou TE, Balding D, Speed D. (2023) LDAK-GBAT: Fast and powerful gene-based association testing using summary statistics. Am J Hum Genet, 110 (1) 23-29. doi:10.1016/j.ajhg.2022.11.010. PMID 36480927",
+  "FIRST_AUTHOR": "Berrandou TE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

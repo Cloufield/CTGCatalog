@@ -1,0 +1,28 @@
+{
+  "NAME": "ANNOVAR",
+  "PMID": 20601685,
+  "SECTION": "Tools",
+  "TOPIC": "Annotation",
+  "TYPE": "Tools",
+  "SHORT NAME": "ANNOVAR",
+  "FULL NAME": "Annotate Variation",
+  "URL": "https://annovar.openbioinformatics.org/en/latest/",
+  "DESCRIPTION": "ANNOVAR is an efficient software tool to utilize update-to-date information to functionally annotate genetic variants detected from diverse genomes (including human genome hg18, hg19, hg38, as well as mouse, worm, fly, yeast and many others).",
+  "MANUAL_CITATION": "Wang K, Li M, Hakonarson H. ANNOVAR: Functional annotation of genetic variants from next-generation sequencing data Nucleic Acids Research, 38:e164, 2010",
+  "TITLE": "ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2010",
+  "VOLUME": "38",
+  "ISSUE": "16",
+  "PAGE": "e164",
+  "Authors": "Wang K,Li M,Hakonarson H",
+  "ABSTRACT": "High-throughput sequencing platforms are generating massive amounts of genetic variation data for diverse genomes, but it remains a challenge to pinpoint a small subset of functionally important variants. To fill these unmet needs, we developed the ANNOVAR tool to annotate single nucleotide variants (SNVs) and insertions/deletions, such as examining their functional consequence on genes, inferring cytogenetic bands, reporting functional importance scores, finding variants in conserved regions, or identifying variants reported in the 1000 Genomes Project and dbSNP. ANNOVAR can utilize annotation databases from the UCSC Genome Browser or any annotation data set conforming to Generic Feature Format version 3 (GFF3). We also illustrate a 'variants reduction' protocol on 4.7 million SNVs and indels from a human genome, including two causal mutations for Miller syndrome, a rare recessive disease. Through a stepwise procedure, we excluded variants that are unlikely to be causal, and identified 20 candidate genes including the causal gene. Using a desktop computer, ANNOVAR requires ∼4 min to perform gene-based annotation and ∼15 min to perform variants reduction on 4.7 million variants, making it practical to handle hundreds of human genomes in a day. ANNOVAR is freely available at http://www.openbioinformatics.org/annovar/.",
+  "DOI": "10.1093/nar/gkq603",
+  "PMC ID": "PMC2938201",
+  "CITATION": "Wang K, Li M, Hakonarson H. (2010) ANNOVAR: functional annotation of genetic variants from high-throughput sequencing data. Nucleic Acids Res, 38 (16) e164. doi:10.1093/nar/gkq603. PMID 20601685",
+  "FIRST_AUTHOR": "Wang K",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

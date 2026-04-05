@@ -1,0 +1,29 @@
+{
+  "NAME": "haploview",
+  "PMID": 15297300,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "LD",
+  "TYPE": "Tools",
+  "SHORT NAME": "haploview",
+  "FULL NAME": "haploview",
+  "URL": "https://www.broadinstitute.org/haploview/haploview",
+  "DESCRIPTION": "Haploview is designed to simplify and expedite the process of haplotype analysis by providing a common interface to several tasks relating to such analyses.",
+  "MANUAL_CITATION": "Barrett, Jeffrey C., et al. \"Haploview: analysis and visualization of LD and haplotype maps.\" Bioinformatics 21.2 (2005): 263-265.",
+  "TITLE": "Haploview: analysis and visualization of LD and haplotype maps.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2005",
+  "VOLUME": "21",
+  "ISSUE": "2",
+  "PAGE": "263-5",
+  "Authors": "Barrett JC,Fry B,Maller J,Daly MJ",
+  "ABSTRACT": "UNLABELLED: Research over the last few years has revealed significant haplotype structure in the human genome. The characterization of these patterns, particularly in the context of medical genetic association studies, is becoming a routine research activity. Haploview is a software package that provides computation of linkage disequilibrium statistics and population haplotype patterns from primary genotype data in a visually appealing and interactive interface. AVAILABILITY: http://www.broad.mit.edu/mpg/haploview/ CONTACT: jcbarret@broad.mit.edu",
+  "DOI": "10.1093/bioinformatics/bth457",
+  "PMC ID": "",
+  "CITATION": "Barrett JC, Fry B, Maller J, Daly MJ. (2005) Haploview: analysis and visualization of LD and haplotype maps. Bioinformatics, 21 (2) 263-5. doi:10.1093/bioinformatics/bth457. PMID 15297300",
+  "FIRST_AUTHOR": "Barrett JC",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "TL-PRS",
+  "PMID": 36240765,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "TL-PRS",
+  "FULL NAME": "transfer learning PRS",
+  "URL": "https://github.com/ZhangchenZhao/TLPRS",
+  "DESCRIPTION": "This R package helps users to construct multi-ethnic polygenic risk score (PRS) using transfer learning. It can help predict PRS of minor ancestry using summary statistics from exsiting resources, such as UK Biobank.",
+  "MANUAL_CITATION": "Zhao, Z., Fritsche, L. G., Smith, J. A., Mukherjee, B., & Lee, S. (2022). The Construction of Multi-ethnic Polygenic Risk Score using Transfer Learning. medRxiv.",
+  "TITLE": "The construction of cross-population polygenic risk scores using transfer learning.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2022",
+  "VOLUME": "109",
+  "ISSUE": "11",
+  "PAGE": "1998-2008",
+  "Authors": "Zhao Z,Fritsche LG,Smith JA,Mukherjee B,Lee S",
+  "ABSTRACT": "As most existing genome-wide association studies (GWASs) were conducted in European-ancestry cohorts, and as the existing polygenic risk score (PRS) models have limited transferability across ancestry groups, PRS research on non-European-ancestry groups needs to make efficient use of available data until we attain large sample sizes across all ancestry groups. Here we propose a PRS method using transfer learning techniques. Our approach, TL-PRS, uses gradient descent to fine-tune the baseline PRS model from an ancestry group with large sample GWASs to the dataset of target ancestry. In our application of constructing PRS for seven quantitative and two dichotomous traits for 10,285 individuals of South Asian ancestry and 8,168 individuals of African ancestry in UK Biobank, TL-PRS using PRS-CS as a baseline method obtained 25% average relative improvement for South Asian samples and 29% for African samples compared to the standard PRS-CS method in terms of predicted R2. Our approach increases the transferability of PRSs across ancestries and thereby helps reduce existing inequities in genetics research.",
+  "DOI": "10.1016/j.ajhg.2022.09.010",
+  "PMC ID": "PMC9674947",
+  "CITATION": "Zhao Z, Fritsche LG, Smith JA, Mukherjee B, ...&, Lee S. (2022) The construction of cross-population polygenic risk scores using transfer learning. Am J Hum Genet, 109 (11) 1998-2008. doi:10.1016/j.ajhg.2022.09.010. PMID 36240765",
+  "FIRST_AUTHOR": "Zhao Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

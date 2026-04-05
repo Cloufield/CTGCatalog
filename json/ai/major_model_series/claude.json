@@ -1,0 +1,13 @@
+{
+  "NAME": "Claude",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Anthropic",
+  "URL": "https://www.anthropic.com/claude",
+  "DESCRIPTION": "Anthropic’s Claude family of assistants and API models, emphasizing long context, safety, and agentic workflows.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

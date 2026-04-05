@@ -1,0 +1,27 @@
+{
+  "NAME": "f",
+  "PMID": 27197222,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "f",
+  "FULL NAME": "fraction of sites under selection",
+  "DESCRIPTION": "Moon, S., & Akey, J. M. (2016). A flexible method for estimating the fraction of fitness influencing mutations from large sequencing data sets. Genome Research, 26(6), 834-843.",
+  "TITLE": "A flexible method for estimating the fraction of fitness influencing mutations from large sequencing data sets.",
+  "ISO": "Genome Res",
+  "JOURNAL": "Genome research",
+  "YEAR": "2016",
+  "VOLUME": "26",
+  "ISSUE": "6",
+  "PAGE": "834-43",
+  "Authors": "Moon S,Akey JM",
+  "ABSTRACT": "A continuing challenge in the analysis of massively large sequencing data sets is quantifying and interpreting non-neutrally evolving mutations. Here, we describe a flexible and robust approach based on the site frequency spectrum to estimate the fraction of deleterious and adaptive variants from large-scale sequencing data sets. We applied our method to approximately 1 million single nucleotide variants (SNVs) identified in high-coverage exome sequences of 6515 individuals. We estimate that the fraction of deleterious nonsynonymous SNVs is higher than previously reported; quantify the effects of genomic context, codon bias, chromatin accessibility, and number of protein-protein interactions on deleterious protein-coding SNVs; and identify pathways and networks that have likely been influenced by positive selection. Furthermore, we show that the fraction of deleterious nonsynonymous SNVs is significantly higher for Mendelian versus complex disease loci and in exons harboring dominant versus recessive Mendelian mutations. In summary, as genome-scale sequencing data accumulate in progressively larger sample sizes, our method will enable increasingly high-resolution inferences into the characteristics and determinants of non-neutral variation.",
+  "DOI": "10.1101/gr.203059.115",
+  "PMC ID": "PMC4889975",
+  "CITATION": "Moon S, Akey JM. (2016) A flexible method for estimating the fraction of fitness influencing mutations from large sequencing data sets. Genome Res, 26 (6) 834-43. doi:10.1101/gr.203059.115. PMID 27197222",
+  "FIRST_AUTHOR": "Moon S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

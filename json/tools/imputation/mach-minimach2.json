@@ -1,0 +1,28 @@
+{
+  "NAME": "MACH / minimach2",
+  "PMID": 25338720,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "MACH / minimach2",
+  "URL": "https://genome.sph.umich.edu/wiki/Minimac2",
+  "DESCRIPTION": "(minimac2)",
+  "MANUAL_CITATION": " Fuchsberger, Christian, Gonçalo R. Abecasis, and David A. Hinds. \"minimac2: faster genotype imputation.\" Bioinformatics 31.5 (2015): 782-784.",
+  "TITLE": "minimac2: faster genotype imputation.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2015",
+  "VOLUME": "31",
+  "ISSUE": "5",
+  "PAGE": "782-4",
+  "Authors": "Fuchsberger C,Abecasis GR,Hinds DA",
+  "ABSTRACT": "UNLABELLED: Genotype imputation is a key step in the analysis of genome-wide association studies. Upcoming very large reference panels, such as those from The 1000 Genomes Project and the Haplotype Consortium, will improve imputation quality of rare and less common variants, but will also increase the computational burden. Here, we demonstrate how the application of software engineering techniques can help to keep imputation broadly accessible. Overall, these improvements speed up imputation by an order of magnitude compared with our previous implementation. AVAILABILITY AND IMPLEMENTATION: minimac2, including source code, documentation, and examples is available at http://genome.sph.umich.edu/wiki/Minimac2",
+  "DOI": "10.1093/bioinformatics/btu704",
+  "PMC ID": "PMC4341061",
+  "CITATION": "Fuchsberger C, Abecasis GR, Hinds DA. (2015) minimac2: faster genotype imputation. Bioinformatics, 31 (5) 782-4. doi:10.1093/bioinformatics/btu704. PMID 25338720",
+  "FIRST_AUTHOR": "Fuchsberger C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

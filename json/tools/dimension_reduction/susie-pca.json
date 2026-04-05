@@ -1,0 +1,29 @@
+{
+  "NAME": "SuSiE PCA",
+  "PMID": 37953948,
+  "SECTION": "Tools",
+  "TOPIC": "Dimension_reduction",
+  "TYPE": "Tools",
+  "SHORT NAME": "SuSiE PCA",
+  "FULL NAME": "SuSiE PCA",
+  "KEYWORDS": "PCA, SuSiE",
+  "URL": "https://github.com/mancusolab/susiepca",
+  "DESCRIPTION": "SuSiE PCA is the abbreviation for the Sum of Single Effects model1 for principal component analysis. We develop SuSiE PCA for an efficient variable selection in PCA when dealing with high dimensional data with sparsity, and for quantifying uncertainty of contributing features for each latent component through posterior inclusion probabilities (PIPs).",
+  "MANUAL_CITATION": "Yuan, D., & Mancuso, N. (2023). SuSiE PCA: A scalable Bayesian variable selection technique for principal component analysis. Iscience, 26(11).",
+  "TITLE": "SuSiE PCA: A scalable Bayesian variable selection technique for principal component analysis.",
+  "ISO": "iScience",
+  "JOURNAL": "iScience",
+  "YEAR": "2023",
+  "VOLUME": "26",
+  "ISSUE": "11",
+  "PAGE": "108181",
+  "Authors": "Yuan D,Mancuso N",
+  "ABSTRACT": "Latent factor models, like principal component analysis (PCA), provide a statistical framework to infer low-rank representation in various biological contexts. However, feature selection is challenging when this low-rank structure manifests from a sparse subspace. We introduce SuSiE PCA, a scalable sparse latent factor approach that evaluates uncertainty in contributing variables through posterior inclusion probabilities. We validate our model in extensive simulations and demonstrate that SuSiE PCA outperforms other approaches in signal detection and model robustness. We apply SuSiE PCA to multi-tissue expression quantitative trait loci (eQTLs) data from GTEx v8 and identify tissue-specific factors and their contributing eGenes. We further investigate its performance on the large-scale perturbation data and find that SuSiE PCA identifies modules with a higher enrichment of ribosome-related genes than sparse PCA (false discovery rate [FDR] =9.2×10-82 vs. 1.4×10-33), while being ∼ 18x faster. Overall, SuSiE PCA provides an efficient tool to identify relevant features in high-dimensional biological data.",
+  "DOI": "10.1016/j.isci.2023.108181",
+  "PMC ID": "PMC10638022",
+  "CITATION": "Yuan D, Mancuso N. (2023) SuSiE PCA: A scalable Bayesian variable selection technique for principal component analysis. iScience, 26 (11) 108181. doi:10.1016/j.isci.2023.108181. PMID 37953948",
+  "FIRST_AUTHOR": "Yuan D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

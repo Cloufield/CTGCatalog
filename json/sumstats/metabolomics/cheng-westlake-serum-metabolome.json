@@ -1,0 +1,29 @@
+{
+  "NAME": "Cheng",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 39837327,
+  "SECTION": "Sumstats",
+  "TOPIC": "Metabolomics",
+  "CATEGORY": "GWAS",
+  "TYPE": "MS",
+  "MAIN_ANCESTRY": "EAS",
+  "DESCRIPTION": "Serum metabolome GWAS in Han Chinese; portal lists browse/download for 2,854 serum metabolites in 3,795 individuals on the Westlake Chinese Multi-omics GWAS Catalog (see publication for cohort and analysis details).",
+  "URL": "https://omics.lab.westlake.edu.cn/data/metabolites/phenotypes https://omics.lab.westlake.edu.cn/collect.html",
+  "TITLE": "Genetic mapping of serum metabolome to chronic diseases among Han Chinese.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2025",
+  "VOLUME": "5",
+  "ISSUE": "2",
+  "PAGE": "100743",
+  "Authors": "Cheng C,Xu F,Pan XF,Wang C,Fan J,Yang Y,Liu Y,Sun L,Liu X,Xu Y,Zhou Y,Xiao C,Gou W,Miao Z,Yuan J,Shen L,Fu Y,Sun X,Zhu Y,Chen Y,Pan A,Zhou D,Zheng JS",
+  "ABSTRACT": "Serum metabolites are potential regulators for chronic diseases. To explore the genetic regulation of metabolites and their roles in chronic diseases, we quantified 2,759 serum metabolites and performed genome-wide association studies (GWASs) among Han Chinese individuals. We identified 184 study-wide significant (p < 1.81 × 10-11) metabolite quantitative trait loci (metaboQTLs), 88.59% (163) of which were novel. Notably, we identified Asian-ancestry-specific metaboQTLs, including the SNP rs2296651 for taurocholic acid and taurochenodesoxycholic acid. Leveraging the GWAS for 37 clinical traits from East Asians, Mendelian randomization analyses identified 906 potential causal relationships between metabolites and clinical traits, including 27 for type 2 diabetes and 38 for coronary artery disease. Integrating genetic regulation of the transcriptome and proteome revealed putative regulators of several metabolites. In summary, we depict a landscape of the genetic architecture of the serum metabolome among Han Chinese and provide insights into the role of serum metabolites in chronic diseases.",
+  "DOI": "10.1016/j.xgen.2024.100743",
+  "PMC ID": "PMC11872534",
+  "CITATION": "Cheng C, Xu F, Pan XF, Wang C, ...&, Zheng JS. (2025) Genetic mapping of serum metabolome to chronic diseases among Han Chinese. Cell Genom, 5 (2) 100743. doi:10.1016/j.xgen.2024.100743. PMID 39837327",
+  "FIRST_AUTHOR": "Cheng C",
+  "_meta": {
+    "source_sheet": "Metabolomics"
+  }
+}

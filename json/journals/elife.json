@@ -1,0 +1,23 @@
+{
+  "NAME": "eLife",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Elife",
+  "JOURNAL": "eLife",
+  "URL": "http://www.elifesciences.org/",
+  "ENTRY_COUNT": 5,
+  "CITED_BY_SECTION": {
+    "Tools": 3,
+    "Sumstats": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Liu Y",
+    "sc-eQTLGen",
+    "Two-sample MR",
+    "metabolites PRS atlas",
+    "PRS atlas"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "MultiSuSiE",
+  "PMID": 41491094,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "MultiSuSiE",
+  "FULL NAME": "MultiSuSiE",
+  "KEYWORDS": "cross-ancestry, fine-mapping",
+  "URL": "https://github.com/jordanero/MultiSuSiE",
+  "DESCRIPTION": "MultiSuSiE is a multi-ancestry SuSiE-style fine-mapping framework that allows causal effect sizes to differ across ancestries, improving credible sets in diverse whole-genome sequencing cohorts such as All of Us.",
+  "TITLE": "MultiSuSiE improves multi-ancestry fine-mapping in All of Us whole-genome sequencing data.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "58",
+  "ISSUE": "1",
+  "PAGE": "67-76",
+  "Authors": "Rossen J,Shi H,Strober BJ,Zhang MJ,Kanai M,McCaw ZR,Liang L,Weissbrod O,Price AL",
+  "ABSTRACT": "Leveraging multi-ancestry data can improve fine-mapping power. We propose MultiSuSiE, an extension of Sum of Single Effects (SuSiE), to multiple ancestries that allows causal effect sizes to vary across ancestries. We evaluated MultiSuSiE using whole-genome sequencing data from 47,000 African-ancestry, 36,000 Latino-ancestry and 116,000 European-ancestry individuals from All of Us. In simulations, MultiSuSiE applied to Afr36k + Lat36k + Eur36k was well-calibrated and attained higher power than SuSiE applied to Eur109k; compared to recent multi-ancestry methods (SuSiEx and MESuSiE), MultiSuSiE attained higher power and lower computational cost. In analyses of 14 quantitative traits, MultiSuSiE applied to Afr47k + Lat36k + Eur116k identified 348 fine-mapped variants with posterior inclusion probability (PIP) > 0.9, and MultiSuSiE applied to Afr36k + Lat36k + Eur36k identified 59% more PIP > 0.9 variants than SuSiE applied to Eur109k; MultiSuSiE identified 29% more PIP > 0.9 variants than SuSiEx, and MESuSiE was not included due to its high computational cost. We validated these findings through functional enrichment of fine-mapped variants and highlighted examples implicating biologically plausible fine-mapped variants.",
+  "DOI": "10.1038/s41588-025-02450-5",
+  "PMC ID": "",
+  "CITATION": "Rossen J, Shi H, Strober BJ, Zhang MJ, ...&, Price AL. (2026) MultiSuSiE improves multi-ancestry fine-mapping in All of Us whole-genome sequencing data. Nat Genet, 58 (1) 67-76. doi:10.1038/s41588-025-02450-5. PMID 41491094",
+  "FIRST_AUTHOR": "Rossen J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

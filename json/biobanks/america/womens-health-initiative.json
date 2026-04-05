@@ -1,0 +1,16 @@
+{
+  "NAME": "Women's Health Initiative",
+  "SHORT NAME": "WHI",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~161k",
+  "DESCRIPTION": "Large U.S. women’s health trial and observational study with biospecimens and long follow-up; genotype data support GWAS on cancer, cardiovascular, and aging-related traits.",
+  "MANUAL_CITATION": "Design of the Women's Health Initiative clinical trial and observational study. Controlled Clinical Trials, 1998, 19(1), 61-109.",
+  "URL": "https://www.whi.org/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR",
+  "PARTICIPANTS": "US postmenopausal women (multi-ethnic)"
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Carayol",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 29234017,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Protein quantitative trait locus study in obesity during weight-loss identifies a leptin regulator.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2017",
+  "VOLUME": "8",
+  "ISSUE": "1",
+  "PAGE": "2084",
+  "Authors": "Carayol J,Chabert C,Di Cara A,Armenise C,Lefebvre G,Langin D,Viguerie N,Metairon S,Saris WHM,Astrup A,Descombes P,Valsesia A,Hager J",
+  "ABSTRACT": "Thousands of genetic variants have been associated with complex traits through genome-wide association studies. However, the functional variants or mechanistic consequences remain elusive. Intermediate traits such as gene expression or protein levels are good proxies of the metabolic state of an organism. Proteome analysis especially can provide new insights into the molecular mechanisms of complex traits like obesity. The role of genetic variation in determining protein level variation has not been assessed in obesity. To address this, we design a large-scale protein quantitative trait locus (pQTL) analysis based on a set of 1129 proteins from 494 obese subjects before and after a weight loss intervention. This reveals 55 BMI-associated cis-pQTLs and trans-pQTLs at baseline and 3 trans-pQTLs after the intervention. We provide evidence for distinct genetic mechanisms regulating BMI-associated proteins before and after weight loss. Finally, by functional analysis, we identify and validate FAM46A as a trans regulator for leptin.",
+  "DOI": "10.1038/s41467-017-02182-z",
+  "PMC ID": "PMC5727191",
+  "CITATION": "Carayol J, Chabert C, Di Cara A, Armenise C, ...&, Hager J. (2017) Protein quantitative trait locus study in obesity during weight-loss identifies a leptin regulator. Nat Commun, 8 (1) 2084. doi:10.1038/s41467-017-02182-z. PMID 29234017",
+  "FIRST_AUTHOR": "Carayol J",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

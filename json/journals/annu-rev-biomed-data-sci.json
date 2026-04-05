@@ -1,0 +1,18 @@
+{
+  "NAME": "Annual review of biomedical data science",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Annu Rev Biomed Data Sci",
+  "JOURNAL": "Annual review of biomedical data science",
+  "URL": "http://www.annualreviews.org/journal/biodatasci",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Review-Wang"
+  ]
+}

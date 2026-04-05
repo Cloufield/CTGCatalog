@@ -1,0 +1,27 @@
+{
+  "NAME": "eGTEx",
+  "PMID": 36510025,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "CATEGORY": "Methylation",
+  "DESCRIPTION": "Enhanceing GTEx",
+  "URL": "https://gtexportal.org/home/downloads/egtex/methylation",
+  "MANUAL_YEAR": 2022,
+  "MANUAL_CITATION": "Oliva, M. et al. DNA methylation QTL mapping across diverse human tissues provides molecular links between genetic variation and complex traits. Nat. Genet. (2022) doi:10.1038/s41588-022-01248-z.",
+  "TITLE": "DNA methylation QTL mapping across diverse human tissues provides molecular links between genetic variation and complex traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "1",
+  "PAGE": "112-122",
+  "Authors": "Oliva M,Demanelis K,Lu Y,Chernoff M,Jasmine F,Ahsan H,Kibriya MG,Chen LS,Pierce BL",
+  "ABSTRACT": "Studies of DNA methylation (DNAm) in solid human tissues are relatively scarce; tissue-specific characterization of DNAm is needed to understand its role in gene regulation and its relevance to complex traits. We generated array-based DNAm profiles for 987 human samples from the Genotype-Tissue Expression (GTEx) project, representing 9 tissue types and 424 subjects. We characterized methylome and transcriptome correlations (eQTMs), genetic regulation in cis (mQTLs and eQTLs) across tissues and e/mQTLs links to complex traits. We identified mQTLs for 286,152 CpG sites, many of which (>5%) show tissue specificity, and mQTL colocalizations with 2,254 distinct GWAS hits across 83 traits. For 91% of these loci, a candidate gene link was identified by integration of functional maps, including eQTMs, and/or eQTL colocalization, but only 33% of loci involved an eQTL and mQTL present in the same tissue type. With this DNAm-focused integrative analysis, we contribute to the understanding of molecular regulatory mechanisms in human tissues and their impact on complex traits.",
+  "DOI": "10.1038/s41588-022-01248-z",
+  "PMC ID": "PMC10249665",
+  "CITATION": "Oliva M, Demanelis K, Lu Y, Chernoff M, ...&, Pierce BL. (2023) DNA methylation QTL mapping across diverse human tissues provides molecular links between genetic variation and complex traits. Nat Genet, 55 (1) 112-122. doi:10.1038/s41588-022-01248-z. PMID 36510025",
+  "FIRST_AUTHOR": "Oliva M",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

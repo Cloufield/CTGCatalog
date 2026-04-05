@@ -1,0 +1,28 @@
+{
+  "NAME": "JAM",
+  "PMID": 27027514,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "JAM",
+  "FULL NAME": "joint analysis of marginal summary statistics",
+  "URL": "https://github.com/pjnewcombe/R2BGLiMS",
+  "DESCRIPTION": "Bayesian variable selection under a range of likelihoods, including linear regression for continuous outcomes, logistic regression for binary outcomes, Weibull regression for survival outcomes binary and survial outcomes, and the \"JAM\" model for summary genetic association data.",
+  "MANUAL_CITATION": "Newcombe, Paul J., David V. Conti, and Sylvia Richardson. \"JAM: a scalable Bayesian framework for joint analysis of marginal SNP effects.\" Genetic epidemiology 40.3 (2016): 188-201.",
+  "TITLE": "JAM: A Scalable Bayesian Framework for Joint Analysis of Marginal SNP Effects.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2016",
+  "VOLUME": "40",
+  "ISSUE": "3",
+  "PAGE": "188-201",
+  "Authors": "Newcombe PJ,Conti DV,Richardson S",
+  "ABSTRACT": "Recently, large scale genome-wide association study (GWAS) meta-analyses have boosted the number of known signals for some traits into the tens and hundreds. Typically, however, variants are only analysed one-at-a-time. This complicates the ability of fine-mapping to identify a small set of SNPs for further functional follow-up. We describe a new and scalable algorithm, joint analysis of marginal summary statistics (JAM), for the re-analysis of published marginal summary statistics under joint multi-SNP models. The correlation is accounted for according to estimates from a reference dataset, and models and SNPs that best explain the complete joint pattern of marginal effects are highlighted via an integrated Bayesian penalized regression framework. We provide both enumerated and Reversible Jump MCMC implementations of JAM and present some comparisons of performance. In a series of realistic simulation studies, JAM demonstrated identical performance to various alternatives designed for single region settings. In multi-region settings, where the only multivariate alternative involves stepwise selection, JAM offered greater power and specificity. We also present an application to real published results from MAGIC (meta-analysis of glucose and insulin related traits consortium) - a GWAS meta-analysis of more than 15,000 people. We re-analysed several genomic regions that produced multiple significant signals with glucose levels 2 hr after oral stimulation. Through joint multivariate modelling, JAM was able to formally rule out many SNPs, and for one gene, ADCY5, suggests that an additional SNP, which transpired to be more biologically plausible, should be followed up with equal priority to the reported index.",
+  "DOI": "10.1002/gepi.21953",
+  "PMC ID": "PMC4817278",
+  "CITATION": "Newcombe PJ, Conti DV, Richardson S. (2016) JAM: A Scalable Bayesian Framework for Joint Analysis of Marginal SNP Effects. Genet Epidemiol, 40 (3) 188-201. doi:10.1002/gepi.21953. PMID 27027514",
+  "FIRST_AUTHOR": "Newcombe PJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "Khurshid S",
+  "ADD_SUFFIX": 1,
+  "PMID": 36944631,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "CMR:  left ventricular mass(LVM)/ Left  ventricular  hypertrophy  (LVH)",
+  "PLATFORM": "Cardiac MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 43230,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Khurshid, S. et al. Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass. Nat. Commun. 14, 1558 (2023).",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "1558",
+  "Authors": "Khurshid S,Lazarte J,Pirruccello JP,Weng LC,Choi SH,Hall AW,Wang X,Friedman SF,Nauffal V,Biddinger KJ,Aragam KG,Batra P,Ho JE,Philippakis AA,Ellinor PT,Lubitz SA",
+  "ABSTRACT": "Left ventricular mass is a risk marker for cardiovascular events, and may indicate an underlying cardiomyopathy. Cardiac magnetic resonance is the gold-standard for left ventricular mass estimation, but is challenging to obtain at scale. Here, we use deep learning to enable genome-wide association study of cardiac magnetic resonance-derived left ventricular mass indexed to body surface area within 43,230 UK Biobank participants. We identify 12 genome-wide associations (1 known at TTN and 11 novel for left ventricular mass), implicating genes previously associated with cardiac contractility and cardiomyopathy. Cardiac magnetic resonance-derived indexed left ventricular mass is associated with incident dilated and hypertrophic cardiomyopathies, and implantable cardioverter-defibrillator implant. An indexed left ventricular mass polygenic risk score ≥90th percentile is also associated with incident implantable cardioverter-defibrillator implant in separate UK Biobank (hazard ratio 1.22, 95% CI 1.05-1.44) and Mass General Brigham (hazard ratio 1.75, 95% CI 1.12-2.74) samples. Here, we perform a genome-wide association study of cardiac magnetic resonance-derived indexed left ventricular mass to identify 11 novel variants and demonstrate that cardiac magnetic resonance-derived and genetically predicted indexed left ventricular mass are associated with incident cardiomyopathy.",
+  "DOI": "10.1038/s41467-023-37173-w",
+  "PMC ID": "PMC10030590",
+  "CITATION": "Khurshid S, Lazarte J, Pirruccello JP, Weng LC, ...&, Lubitz SA. (2023) Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass. Nat Commun, 14 (1) 1558. doi:10.1038/s41467-023-37173-w. PMID 36944631",
+  "FIRST_AUTHOR": "Khurshid S",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

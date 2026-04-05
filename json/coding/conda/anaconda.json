@@ -1,0 +1,11 @@
+{
+  "NAME": "Anaconda",
+  "SECTION": "Coding",
+  "TOPIC": "Conda",
+  "TYPE": "Resource",
+  "URL": "https://www.anaconda.com/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Python/R data-science distribution and environment manager."
+}

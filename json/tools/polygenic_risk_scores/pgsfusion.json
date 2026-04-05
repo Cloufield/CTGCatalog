@@ -1,0 +1,18 @@
+{
+  "NAME": "PGSFusion ",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "SHORT NAME": "PGSFusion ",
+  "MANUAL_YEAR": 2024,
+  "PREPRINT_DOI": "10.1101/2024.08.05.606619",
+  "PREPRINT_SERVER": "biorxiv",
+  "URL": "http://www.pgsfusion.net/#/ ",
+  "DESCRIPTION": "PGSFusion is your free comprehensive webserver for constructing polygenic scores (PGS)evaluating performance, and unlocking epidemiological insights. This server implements 16 leading summary statistics-based PGS methods in a standardized interface, and rigorously assesses their predictive capabilities using the UK Biobank dataset.",
+  "MANUAL_CITATION": "Yang, S., Ye, X., Ji, X., Li, Z., Tian, M., Huang, P., & Cao, C. (2024). PGSFusion streamlines polygenic score construction and epidemiological applications in biobank-scale cohorts. bioRxiv, 2024-08.",
+  "CITATION": "Yang, S., Ye, X., Ji, X., Li, Z., Tian, M., Huang, P., & Cao, C. (2024). PGSFusion streamlines polygenic score construction and epidemiological applications in biobank-scale cohorts. bioRxiv, 2024-08.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

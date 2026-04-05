@@ -1,0 +1,15 @@
+{
+  "NAME": "SCALLOP",
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "Consortium",
+  "PLATFORM": "OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "Consortium",
+  "DESCRIPTION": "The SCALLOP consortium (Systematic and Combined AnaLysis of Olink Proteins) is a collaborative framework for discovery and follow-up of genetic associations with proteins on the Olink Proteomics platform. To date, 35 PIs from 28 research institutions have joined the effort, which now comprises summary level data for more than 70,000 patients and controls from 45 cohort studies. SCALLOP welcomes new members.",
+  "URL": "http://www.scallop-consortium.com/",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

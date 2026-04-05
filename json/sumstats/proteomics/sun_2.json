@@ -1,0 +1,27 @@
+{
+  "NAME": "Sun",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 29875488,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Genomic atlas of the human plasma proteome.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2018",
+  "VOLUME": "558",
+  "ISSUE": "7708",
+  "PAGE": "73-79",
+  "Authors": "Sun BB,Maranville JC,Peters JE,Stacey D,Staley JR,Blackshaw J,Burgess S,Jiang T,Paige E,Surendran P,Oliver-Williams C,Kamat MA,Prins BP,Wilcox SK,Zimmerman ES,Chi A,Bansal N,Spain SL,Wood AM,Morrell NW,Bradley JR,Janjic N,Roberts DJ,Ouwehand WH,Todd JA,Soranzo N,Suhre K,Paul DS,Fox CS,Plenge RM,Danesh J,Runz H,Butterworth AS",
+  "ABSTRACT": "Although plasma proteins have important roles in biological processes and are the direct targets of many drugs, the genetic factors that control inter-individual variation in plasma protein levels are not well understood. Here we characterize the genetic architecture of the human plasma proteome in healthy blood donors from the INTERVAL study. We identify 1,927 genetic associations with 1,478 proteins, a fourfold increase on existing knowledge, including trans associations for 1,104 proteins. To understand the consequences of perturbations in plasma protein levels, we apply an integrated approach that links genetic variation with biological pathway, disease, and drug databases. We show that protein quantitative trait loci overlap with gene expression quantitative trait loci, as well as with disease-associated loci, and find evidence that protein biomarkers have causal roles in disease using Mendelian randomization analysis. By linking genetic factors to diseases via specific proteins, our analyses highlight potential therapeutic targets, opportunities for matching existing drugs with new disease indications, and potential safety concerns for drugs under development.",
+  "DOI": "10.1038/s41586-018-0175-2",
+  "PMC ID": "PMC6697541",
+  "CITATION": "Sun BB, Maranville JC, Peters JE, Stacey D, ...&, Butterworth AS. (2018) Genomic atlas of the human plasma proteome. Nature, 558 (7708) 73-79. doi:10.1038/s41586-018-0175-2. PMID 29875488",
+  "FIRST_AUTHOR": "Sun BB",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

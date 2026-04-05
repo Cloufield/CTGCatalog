@@ -1,0 +1,11 @@
+{
+  "NAME": "Snakemake",
+  "SECTION": "Coding",
+  "TOPIC": "Workflow",
+  "TYPE": "Resource",
+  "URL": "https://snakemake.readthedocs.io/en/stable/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Workflow management for reproducible analyses."
+}

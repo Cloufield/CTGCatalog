@@ -1,0 +1,15 @@
+{
+  "NAME": "Biobank Graz",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~1200k",
+  "MANUAL_CITATION": " Huppertz, B., Bayer, M., Macheiner, T., & Sargsyan, K. (2016). Biobank Graz: the hub for innovative biomedical research. Open journal of bioresources, 3(1).",
+  "URL": "https://biobank.medunigraz.at/en/?link=http%3A%2F%2F169.254.169.254%2Flatest%2Fmeta-data%2F&cHash=3b3a94b34935e2b8509a838b4a34b0eb",
+  "DESCRIPTION": " Biobank Graz is one of the largest and most well-known clinical biobanks in the world. Around 20 million individual specimens of body fluids and human tissue are stored here. Biobank Graz allows access to these specimens and associated data for scientific research purposes. The common goal is to develop approaches to diagnosing and treating disease. ",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Austrian clinical and research participants (Graz)"
+}

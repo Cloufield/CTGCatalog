@@ -1,0 +1,30 @@
+{
+  "NAME": "SAIGE-QTL",
+  "PMID": 38798318,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "SAIGE-QTL",
+  "FULL NAME": "SAIGE-QTL",
+  "KEYWORDS": "SPA, eQTL",
+  "URL": "https://github.com/weizhou0/qtl",
+  "DESCRIPTION": "SAIGE-QTL is an R package developed with Rcpp for scalable and accurate expression quantitative trait locus mapping for single-cell studies",
+  "MANUAL_CITATION": "\nZhou, W. et al. Efficient and accurate mixed model association tool for single-cell eQTL analysis. medRxiv 2024.05.15.24307317 (2024).\n  \n",
+  "TITLE": "Efficient and accurate mixed model association tool for single-cell eQTL analysis.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv : the preprint server for health sciences",
+  "YEAR": "2024",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zhou W,Cuomo ASE,Xue A,Kanai M,Chau G,Krishna C,Xavier RJ,MacArthur DG,Powell JE,Daly MJ,Neale BM",
+  "ABSTRACT": "Understanding the genetic basis of gene expression can help us understand the molecular underpinnings of human traits and disease. Expression quantitative trait locus (eQTL) mapping can help in studying this relationship but have been shown to be very cell-type specific, motivating the use of single-cell RNA sequencing and single-cell eQTLs to obtain a more granular view of genetic regulation. Current methods for single-cell eQTL mapping either rely on the \"pseudobulk\" approach and traditional pipelines for bulk transcriptomics or do not scale well to large datasets. Here, we propose SAIGE-QTL, a robust and scalable tool that can directly map eQTLs using single-cell profiles without needing aggregation at the pseudobulk level. Additionally, SAIGE-QTL allows for testing the effects of less frequent/rare genetic variation through set-based tests, which is traditionally excluded from eQTL mapping studies. We evaluate the performance of SAIGE-QTL on both real and simulated data and demonstrate the improved power for eQTL mapping over existing pipelines.",
+  "DOI": "10.1101/2024.05.15.24307317",
+  "PMC ID": "PMC11118640",
+  "CITATION": "Zhou W, Cuomo ASE, Xue A, Kanai M, ...&, Neale BM. (2024) Efficient and accurate mixed model association tool for single-cell eQTL analysis. medRxiv,  () . doi:10.1101/2024.05.15.24307317. PMID 38798318",
+  "FIRST_AUTHOR": "Zhou W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

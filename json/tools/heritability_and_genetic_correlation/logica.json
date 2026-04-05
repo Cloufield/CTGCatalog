@@ -1,0 +1,15 @@
+{
+  "NAME": "Logica",
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Local heritability/genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "Logica",
+  "FULL NAME": "LOcal GenetIc Correlation across Ancestries",
+  "URL": "https://github.com/borangao/Logica",
+  "DESCRIPTION": "Logica (LOcal GenetIc Correlation across Ancestries), a new method specifically designed to estimate local genetic correlations across ancestries. Logica employs a bivariate linear mixed model that explicitly accounts for diverse LD patterns across ancestries, operates on GWAS summary statistics, and utilizes a maximum likelihood framework for robust inference. Logica is implemented as an open-source R package。",
+  "MANUAL_CITATION": "\nGao, B., Li, Z. & Zhou, X. Logica: A likelihood framework for cross-ancestry local genetic correlation estimation using summary statistics. Am. J. Hum. Genet. 0, (2025).\n  \n",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

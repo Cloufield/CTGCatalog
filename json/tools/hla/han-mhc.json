@@ -1,0 +1,27 @@
+{
+  "NAME": "Han-MHC",
+  "PMID": 27213287,
+  "SECTION": "Tools",
+  "TOPIC": "HLA",
+  "CATEGORY": "HLA imputation panel",
+  "TYPE": "HLA imputation panel",
+  "SHORT NAME": "Han-MHC",
+  "URL": "http://gigadb.org/dataset/100156",
+  "MANUAL_CITATION": "Zhou, F. et al. Deep sequencing of the MHC region in the Chinese population contributes to studies of complex disease. Nat. Genet. 48, 740–746 (2016).\n  ",
+  "TITLE": "Deep sequencing of the MHC region in the Chinese population contributes to studies of complex disease.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "7",
+  "PAGE": "740-6",
+  "Authors": "Zhou F,Cao H,Zuo X,Zhang T,Zhang X,Liu X,Xu R,Chen G,Zhang Y,Zheng X,Jin X,Gao J,Mei J,Sheng Y,Li Q,Liang B,Shen J,Shen C,Jiang H,Zhu C,Fan X,Xu F,Yue M,Yin X,Ye C,Zhang C,Liu X,Yu L,Wu J,Chen M,Zhuang X,Tang L,Shao H,Wu L,Li J,Xu Y,Zhang Y,Zhao S,Wang Y,Li G,Xu H,Zeng L,Wang J,Bai M,Chen Y,Chen W,Kang T,Wu Y,Xu X,Zhu Z,Cui Y,Wang Z,Yang C,Wang P,Xiang L,Chen X,Zhang A,Gao X,Zhang F,Xu J,Zheng M,Zheng J,Zhang J,Yu X,Li Y,Yang S,Yang H,Wang J,Liu J,Hammarström L,Sun L,Wang J,Zhang X",
+  "ABSTRACT": "The human major histocompatibility complex (MHC) region has been shown to be associated with numerous diseases. However, it remains a challenge to pinpoint the causal variants for these associations because of the extreme complexity of the region. We thus sequenced the entire 5-Mb MHC region in 20,635 individuals of Han Chinese ancestry (10,689 controls and 9,946 patients with psoriasis) and constructed a Han-MHC database that includes both variants and HLA gene typing results of high accuracy. We further identified multiple independent new susceptibility loci in HLA-C, HLA-B, HLA-DPB1 and BTNL2 and an intergenic variant, rs118179173, associated with psoriasis and confirmed the well-established risk allele HLA-C*06:02. We anticipate that our Han-MHC reference panel built by deep sequencing of a large number of samples will serve as a useful tool for investigating the role of the MHC region in a variety of diseases and thus advance understanding of the pathogenesis of these disorders.",
+  "DOI": "10.1038/ng.3576",
+  "PMC ID": "",
+  "CITATION": "Zhou F, Cao H, Zuo X, Zhang T, ...&, Zhang X. (2016) Deep sequencing of the MHC region in the Chinese population contributes to studies of complex disease. Nat Genet, 48 (7) 740-6. doi:10.1038/ng.3576. PMID 27213287",
+  "FIRST_AUTHOR": "Zhou F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

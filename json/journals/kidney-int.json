@@ -1,0 +1,18 @@
+{
+  "NAME": "Kidney international",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Kidney Int",
+  "JOURNAL": "Kidney international",
+  "URL": "https://www.sciencedirect.com/journal/kidney-international",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Surapaneni"
+  ]
+}

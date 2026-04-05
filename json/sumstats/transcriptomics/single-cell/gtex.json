@@ -1,0 +1,26 @@
+{
+  "NAME": "GTEx",
+  "PMID": 35549429,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "DESCRIPTION": "V9 snRNA-Seq",
+  "MANUAL_YEAR": 2022,
+  "MANUAL_CITATION": "\nEraslan, G. et al. Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function. Science 376, eabl4290 (2022).\n  \n",
+  "TITLE": "Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2022",
+  "VOLUME": "376",
+  "ISSUE": "6594",
+  "PAGE": "eabl4290",
+  "Authors": "Eraslan G,Drokhlyansky E,Anand S,Fiskin E,Subramanian A,Slyper M,Wang J,Van Wittenberghe N,Rouhana JM,Waldman J,Ashenberg O,Lek M,Dionne D,Win TS,Cuoco MS,Kuksenko O,Tsankov AM,Branton PA,Marshall JL,Greka A,Getz G,Segrè AV,Aguet F,Rozenblatt-Rosen O,Ardlie KG,Regev A",
+  "ABSTRACT": "Understanding gene function and regulation in homeostasis and disease requires knowledge of the cellular and tissue contexts in which genes are expressed. Here, we applied four single-nucleus RNA sequencing methods to eight diverse, archived, frozen tissue types from 16 donors and 25 samples, generating a cross-tissue atlas of 209,126 nuclei profiles, which we integrated across tissues, donors, and laboratory methods with a conditional variational autoencoder. Using the resulting cross-tissue atlas, we highlight shared and tissue-specific features of tissue-resident cell populations; identify cell types that might contribute to neuromuscular, metabolic, and immune components of monogenic diseases and the biological processes involved in their pathology; and determine cell types and gene modules that might underlie disease mechanisms for complex traits analyzed by genome-wide association studies.",
+  "DOI": "10.1126/science.abl4290",
+  "PMC ID": "PMC9383269",
+  "CITATION": "Eraslan G, Drokhlyansky E, Anand S, Fiskin E, ...&, Regev A. (2022) Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function. Science, 376 (6594) eabl4290. doi:10.1126/science.abl4290. PMID 35549429",
+  "FIRST_AUTHOR": "Eraslan G",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

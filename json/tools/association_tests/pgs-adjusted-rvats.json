@@ -1,0 +1,29 @@
+{
+  "NAME": "PGS-adjusted RVATs",
+  "PMID": 36959364,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "PGS-adjusted GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "PGS-adjusted RVATs",
+  "FULL NAME": "PGS-adjusted rare variant association tests",
+  "KEYWORDS": "PGS, Rare variants",
+  "DESCRIPTION": "adjusting for common variant polygenic scores improves yield in gene-based rare variant association tests",
+  "MANUAL_CITATION": "Jurgens, S. J., Pirruccello, J. P., Choi, S. H., Morrill, V. N., Chaffin, M., Lubitz, S. A., ... & Ellinor, P. T. (2023). Adjusting for common variant polygenic scores improves yield in rare variant association analyses. Nature Genetics, 55(4), 544-548.",
+  "TITLE": "Adjusting for common variant polygenic scores improves yield in rare variant association analyses.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "4",
+  "PAGE": "544-548",
+  "Authors": "Jurgens SJ,Pirruccello JP,Choi SH,Morrill VN,Chaffin M,Lubitz SA,Lunetta KL,Ellinor PT",
+  "ABSTRACT": "With the emergence of large-scale sequencing data, methods for improving power in rare variant association tests are needed. Here we show that adjusting for common variant polygenic scores improves yield in gene-based rare variant association tests across 65 quantitative traits in the UK Biobank (up to 20% increase at α = 2.6 × 10-6), without marked increases in false-positive rates or genomic inflation. Benefits were seen for various models, with the largest improvements seen for efficient sparse mixed-effects models. Our results illustrate how polygenic score adjustment can efficiently improve power in rare variant association discovery.",
+  "DOI": "10.1038/s41588-023-01342-w",
+  "PMC ID": "PMC11078202",
+  "CITATION": "Jurgens SJ, Pirruccello JP, Choi SH, Morrill VN, ...&, Ellinor PT. (2023) Adjusting for common variant polygenic scores improves yield in rare variant association analyses. Nat Genet, 55 (4) 544-548. doi:10.1038/s41588-023-01342-w. PMID 36959364",
+  "FIRST_AUTHOR": "Jurgens SJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

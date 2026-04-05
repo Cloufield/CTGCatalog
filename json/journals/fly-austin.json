@@ -1,0 +1,18 @@
+{
+  "NAME": "Fly",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Fly (Austin)",
+  "JOURNAL": "Fly",
+  "URL": "http://www.tandfonline.com/loi/kfly20",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "SnpEff"
+  ]
+}

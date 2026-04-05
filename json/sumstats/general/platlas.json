@@ -1,0 +1,29 @@
+{
+  "NAME": "PLATLAS",
+  "PMID": 40313291,
+  "URL": "https://platlas.cels.anl.gov/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "ALL",
+  "TYPE": "Datasets",
+  "FULL NAME": "PLeiotropic ATLAS",
+  "MANUAL_CITATION": "\nLevin, M. G. et al. Genome-wide assessment of pleiotropy across &#62;1000 traits from global biobanks. medRxiv 2025.04.18.25326074 (2025) doi:10.1101/2025.04.18.25326074.\n  \n",
+  "TITLE": "Genome-Wide Assessment of Pleiotropy Across >1000 Traits from Global Biobanks.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv : the preprint server for health sciences",
+  "YEAR": "2025",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Levin MG,Koyama S,Woerner J,Zhang DY,Rodriguez A,Nandi T,Truong B,Abramowitz SA,Gupta H,Kamineni H,Hornsby W,Li Z,Cohron T,Huffman JE,Ellinor P,Kim D,Liao KP,Madduri RK,Voight BF,Verma A,Damrauer SM,Natarajan P",
+  "ABSTRACT": "Large-scale genetic association studies have identified thousands of trait-associated risk loci, establishing the polygenic basis for common complex traits and diseases. Although prior studies suggest that many trait-associated loci are pleiotropic, the extent to which this pleiotropy reflects shared causal variants or confounding by linkage disequilibrium remains poorly characterized. To define a set of candidate loci with potentially pleiotropic associations, we performed genome-wide association study (GWAS) meta-analyses of up to 1,167 clinically relevant traits and diseases across 1,789,365 diverse individuals genetically similar to Admixed American (AMR, NMax = 60,756), African (AFR, NMax = 128,361), East Asian (EAS, NMax = 307,465), European (EUR, NMax = 1,283,907), and South Asian (SAS, NMax = 8,876) reference populations from the VA Million Veteran Program (MVP), UK Biobank (UKB), FinnGen, Biobank Japan (BBJ), Tohoku Medical Megabank (ToMMo), and Korean Genome and Epidemiology Study (KoGES). We identified 27,193 genome-wide significant locus-trait pairs (1MB region with PGWAMA < 5 × 10-8) in within-population analysis and 29,139 in multi-population analysis (PMR-MEGA < 5 × 10-8). Among these, 11.5% (n = 3,149) of locus-trait pairs in population-wise and 6.4% (n = 1,875) in multi-population analyses did not reach genome-wide significance in previously published GWAS. In aggregate, the genome-wide significant loci fell within 2,624 non-overlapping autosomal genomic windows on average ~600kb in size. Each locus contained genome-wide significant signals for a median of 6 traits (IQR 2 to 18), including 2,110 (80%) pleiotropic loci associated with >1 trait. Multi-trait colocalization identified 1,902 (72%) loci with high-confidence (posterior probability > 0.9) evidence of a shared causal variant across two or more traits. Variants in pleiotropic loci were significantly enriched for a broad spectrum of functional annotations compared to non-pleiotropic counterparts. Polygenic scores (PGS) developed from these data generally improved prediction compared to existing PGS, and were broadly associated with both primary and pleiotropic phenotypes. These results provide a contemporary map of genetic pleiotropy across the spectrum of human traits/diseases and diverse genetic backgrounds.",
+  "DOI": "10.1101/2025.04.18.25326074",
+  "PMC ID": "PMC12045404",
+  "CITATION": "Levin MG, Koyama S, Woerner J, Zhang DY, ...&, Natarajan P. (2025) Genome-Wide Assessment of Pleiotropy Across >1000 Traits from Global Biobanks. medRxiv,  () . doi:10.1101/2025.04.18.25326074. PMID 40313291",
+  "FIRST_AUTHOR": "Levin MG",
+  "DESCRIPTION": "PLATLAS — pleiotropy atlas with GWAS summary statistics across >1000 phenotypes (multi-biobank).",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

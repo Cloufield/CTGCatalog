@@ -1,0 +1,14 @@
+{
+  "NAME": "BioVU",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~120k",
+  "URL": "https://bbofa.org/",
+  "DESCRIPTION": "Planning for BioVU began in mid-2004 and the first samples were collected in February 2007. Prior to collecting DNA samples, all aspects of the BioVU project were extensively tested. BioVU now accrues 500-1000 samples per week, totaling more than 275,000 DNA samples as of January 2022. Vanderbilt clinic patients may sign the BioVU Consent Form if they wish to donate their excess blood samples, or not sign the form if they do not wish to participate.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Vanderbilt University Medical Center patients"
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "Parisinos C",
+  "ADD_SUFFIX": 1,
+  "PMID": 32247823,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "Liver MRI-based corrected T1(cT1)",
+  "PLATFORM": "Abdominal MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 14440,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Parisinos, C. A. et al. Genome-wide and Mendelian randomisation studies of liver MRI yield insights into the pathogenesis of steatohepatitis. J. Hepatol. 73, 241–251 (2020).",
+  "MANUAL_YEAR": 2020,
+  "TITLE": "Genome-wide and Mendelian randomisation studies of liver MRI yield insights into the pathogenesis of steatohepatitis.",
+  "ISO": "J Hepatol",
+  "JOURNAL": "Journal of hepatology",
+  "YEAR": "2020",
+  "VOLUME": "73",
+  "ISSUE": "2",
+  "PAGE": "241-251",
+  "Authors": "Parisinos CA,Wilman HR,Thomas EL,Kelly M,Nicholls RC,McGonigle J,Neubauer S,Hingorani AD,Patel RS,Hemingway H,Bell JD,Banerjee R,Yaghootkar H",
+  "ABSTRACT": "BACKGROUND & AIMS: MRI-based corrected T1 (cT1) is a non-invasive method to grade the severity of steatohepatitis and liver fibrosis. We aimed to identify genetic variants influencing liver cT1 and use genetics to understand mechanisms underlying liver fibroinflammatory disease and its link with other metabolic traits and diseases. METHODS: First, we performed a genome-wide association study (GWAS) in 14,440 Europeans, with liver cT1 measures, from the UK Biobank. Second, we explored the effects of the cT1 variants on liver blood tests, and a range of metabolic traits and diseases. Third, we used Mendelian randomisation to test the causal effects of 24 predominantly metabolic traits on liver cT1 measures. RESULTS: We identified 6 independent genetic variants associated with liver cT1 that reached the GWAS significance threshold (p <5×10-8). Four of the variants (rs759359281 in SLC30A10, rs13107325 in SLC39A8, rs58542926 in TM6SF2, rs738409 in PNPLA3) were also associated with elevated aminotransferases and had variable effects on liver fat and other metabolic traits. Insulin resistance, type 2 diabetes, non-alcoholic fatty liver and body mass index were causally associated with elevated cT1, whilst favourable adiposity (instrumented by variants associated with higher adiposity but lower risk of cardiometabolic disease and lower liver fat) was found to be protective. CONCLUSION: The association between 2 metal ion transporters and cT1 indicates an important new mechanism in steatohepatitis. Future studies are needed to determine whether interventions targeting the identified transporters might prevent liver disease in at-risk individuals. LAY SUMMARY: We estimated levels of liver inflammation and scarring based on magnetic resonance imaging of 14,440 UK Biobank participants. We performed a genetic study and identified variations in 6 genes associated with levels of liver inflammation and scarring. Participants with variations in 4 of these genes also had higher levels of markers of liver cell injury in blood samples, further validating their role in liver health. Two identified genes are involved in the transport of metal ions in our body. Further investigation of these variations may lead to better detection, assessment, and/or treatment of liver inflammation and scarring.",
+  "DOI": "10.1016/j.jhep.2020.03.032",
+  "PMC ID": "PMC7372222",
+  "CITATION": "Parisinos CA, Wilman HR, Thomas EL, Kelly M, ...&, Yaghootkar H. (2020) Genome-wide and Mendelian randomisation studies of liver MRI yield insights into the pathogenesis of steatohepatitis. J Hepatol, 73 (2) 241-251. doi:10.1016/j.jhep.2020.03.032. PMID 32247823",
+  "FIRST_AUTHOR": "Parisinos CA",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

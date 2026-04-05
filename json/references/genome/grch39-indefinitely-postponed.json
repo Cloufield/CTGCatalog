@@ -1,0 +1,19 @@
+{
+  "NAME": "GRCh39 (indefinitely postponed)",
+  "SHORT NAME": "GRCh39",
+  "FULL NAME": "Genome Reference Consortium Human Build 39 (not pursued)",
+  "CATEGORY": "Genome",
+  "SOURCE": "GRC",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRC; GRCh39; reference assembly; postponed",
+  "DESCRIPTION": "The Genome Reference Consortium announced that work toward a distinct GRCh39 assembly line was indefinitely postponed; human reference updates continue on the GRCh38 series (patches) and complementary resources such as T2T-CHM13 and pangenome references. Check the GRC human page for current guidance and patch releases.",
+  "MANUAL_CITATION": "Genome Reference Consortium. GRCh39 status announcement.",
+  "CITATION": "Genome Reference Consortium. Human genome reference updates (GRCh39 indefinitely postponed; continued GRCh38 patches). https://www.ncbi.nlm.nih.gov/grc/human",
+  "URL": "https://www.ncbi.nlm.nih.gov/grc/human",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

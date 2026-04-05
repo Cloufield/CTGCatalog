@@ -1,0 +1,29 @@
+{
+  "NAME": "Cmplot",
+  "PMID": 33662620,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "Cmplot",
+  "FULL NAME": "Cmplot",
+  "URL": "https://github.com/YinLiLin/Cmplot",
+  "DESCRIPTION": "an easy-to-use open-source web-based tool for visualizing, navigating and sharing GWAS and PheWAS results",
+  "MANUAL_CITATION": "Yin, L., Zhang, H., Tang, Z., Xu, J., Yin, D., Zhang, Z., ... & Liu, X. (2021). rMVP: a memory-efficient, visualization-enhanced, and parallel-accelerated tool for genome-wide association study. Genomics, proteomics & bioinformatics, 19(4), 619-628.",
+  "TITLE": "rMVP: A Memory-efficient, Visualization-enhanced, and Parallel-accelerated Tool for Genome-wide Association Study.",
+  "ISO": "Genomics Proteomics Bioinformatics",
+  "JOURNAL": "Genomics, proteomics & bioinformatics",
+  "YEAR": "2021",
+  "VOLUME": "19",
+  "ISSUE": "4",
+  "PAGE": "619-628",
+  "Authors": "Yin L,Zhang H,Tang Z,Xu J,Yin D,Zhang Z,Yuan X,Zhu M,Zhao S,Li X,Liu X",
+  "ABSTRACT": "Along with the development of high-throughput sequencing technologies, both sample size and SNP number are increasing rapidly in genome-wide association studies (GWAS), and the associated computation is more challenging than ever. Here, we present a memory-efficient, visualization-enhanced, and parallel-accelerated R package called \"rMVP\" to address the need for improved GWAS computation. rMVP can 1) effectively process large GWAS data, 2) rapidly evaluate population structure, 3) efficiently estimate variance components by Efficient Mixed-Model Association eXpedited (EMMAX), Factored Spectrally Transformed Linear Mixed Models (FaST-LMM), and Haseman-Elston (HE) regression algorithms, 4) implement parallel-accelerated association tests of markers using general linear model (GLM), mixed linear model (MLM), and fixed and random model circulating probability unification (FarmCPU) methods, 5) compute fast with a globally efficient design in the GWAS processes, and 6) generate various visualizations of GWAS-related information. Accelerated by block matrix multiplication strategy and multiple threads, the association test methods embedded in rMVP are significantly faster than PLINK, GEMMA, and FarmCPU_pkg. rMVP is freely available at https://github.com/xiaolei-lab/rMVP.",
+  "DOI": "10.1016/j.gpb.2020.10.007",
+  "PMC ID": "PMC9040015",
+  "CITATION": "Yin L, Zhang H, Tang Z, Xu J, ...&, Liu X. (2021) rMVP: A Memory-efficient, Visualization-enhanced, and Parallel-accelerated Tool for Genome-wide Association Study. Genomics Proteomics Bioinformatics, 19 (4) 619-628. doi:10.1016/j.gpb.2020.10.007. PMID 33662620",
+  "FIRST_AUTHOR": "Yin L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

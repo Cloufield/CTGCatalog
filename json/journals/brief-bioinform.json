@@ -1,0 +1,18 @@
+{
+  "NAME": "Briefings in bioinformatics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Brief Bioinform",
+  "JOURNAL": "Briefings in bioinformatics",
+  "URL": "https://academic.oup.com/bib",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Benchmark-Wang"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "FUMA",
+  "PMID": 29184056,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_set_pathway_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "FUMA",
+  "FULL NAME": "FUMA",
+  "URL": "https://fuma.ctglab.nl/",
+  "DESCRIPTION": "FUMA is a platform that can be used to annotate, prioritize, visualize and interpret GWAS results.",
+  "MANUAL_CITATION": "Watanabe, Kyoko, et al. \"Functional mapping and annotation of genetic associations with FUMA.\" Nature communications 8.1 (2017): 1-11.",
+  "TITLE": "Functional mapping and annotation of genetic associations with FUMA.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2017",
+  "VOLUME": "8",
+  "ISSUE": "1",
+  "PAGE": "1826",
+  "Authors": "Watanabe K,Taskesen E,van Bochoven A,Posthuma D",
+  "ABSTRACT": "A main challenge in genome-wide association studies (GWAS) is to pinpoint possible causal variants. Results from GWAS typically do not directly translate into causal variants because the majority of hits are in non-coding or intergenic regions, and the presence of linkage disequilibrium leads to effects being statistically spread out across multiple variants. Post-GWAS annotation facilitates the selection of most likely causal variant(s). Multiple resources are available for post-GWAS annotation, yet these can be time consuming and do not provide integrated visual aids for data interpretation. We, therefore, develop FUMA: an integrative web-based platform using information from multiple biological resources to facilitate functional annotation of GWAS results, gene prioritization and interactive visualization. FUMA accommodates positional, expression quantitative trait loci (eQTL) and chromatin interaction mappings, and provides gene-based, pathway and tissue enrichment results. FUMA results directly aid in generating hypotheses that are testable in functional experiments aimed at proving causal relations.",
+  "DOI": "10.1038/s41467-017-01261-5",
+  "PMC ID": "PMC5705698",
+  "CITATION": "Watanabe K, Taskesen E, van Bochoven A, Posthuma D. (2017) Functional mapping and annotation of genetic associations with FUMA. Nat Commun, 8 (1) 1826. doi:10.1038/s41467-017-01261-5. PMID 29184056",
+  "FIRST_AUTHOR": "Watanabe K",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "Protter",
+  "PMID": 24162465,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Variants_on_protein",
+  "TYPE": "Tools",
+  "SHORT NAME": "Protter",
+  "FULL NAME": "Protter",
+  "URL": "https://wlab.ethz.ch/protter/start/",
+  "DESCRIPTION": "interactive protein feature visualization and integration with experimental proteomic data",
+  "MANUAL_CITATION": "Omasits, Ulrich, et al. \"Protter: interactive protein feature visualization and integration with experimental proteomic data.\" Bioinformatics 30.6 (2014): 884-886.",
+  "TITLE": "Protter: interactive protein feature visualization and integration with experimental proteomic data.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2014",
+  "VOLUME": "30",
+  "ISSUE": "6",
+  "PAGE": "884-6",
+  "Authors": "Omasits U,Ahrens CH,Müller S,Wollscheid B",
+  "ABSTRACT": "SUMMARY: The ability to integrate and visualize experimental proteomic evidence in the context of rich protein feature annotations represents an unmet need of the proteomics community. Here we present Protter, a web-based tool that supports interactive protein data analysis and hypothesis generation by visualizing both annotated sequence features and experimental proteomic data in the context of protein topology. Protter supports numerous proteomic file formats and automatically integrates a variety of reference protein annotation sources, which can be readily extended via modular plug-ins. A built-in export function produces publication-quality customized protein illustrations, also for large datasets. Visualizations of surfaceome datasets show the specific utility of Protter for the integrated visual analysis of membrane proteins and peptide selection for targeted proteomics. AVAILABILITY AND IMPLEMENTATION: The Protter web application is available at http://wlab.ethz.ch/protter. Source code and installation instructions are available at http://ulo.github.io/Protter/. CONTACT: wbernd@ethz.ch SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btt607",
+  "PMC ID": "",
+  "CITATION": "Omasits U, Ahrens CH, Müller S, Wollscheid B. (2014) Protter: interactive protein feature visualization and integration with experimental proteomic data. Bioinformatics, 30 (6) 884-6. doi:10.1093/bioinformatics/btt607. PMID 24162465",
+  "FIRST_AUTHOR": "Omasits U",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

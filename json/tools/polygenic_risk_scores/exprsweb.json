@@ -1,0 +1,30 @@
+{
+  "NAME": "ExPRSweb",
+  "PMID": 36152628,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "SHORT NAME": "ExPRSweb",
+  "FULL NAME": "exposure polygenic risk scores (ExPRSs)",
+  "KEYWORDS": "exposure PRS",
+  "URL": "https://exprsweb.sph.umich.edu:8443/",
+  "DESCRIPTION": "Integrating published and freely available genome-wide association studies (GWAS) summary statistics from multiple sources (published GWAS, the NHGRI-EBI GWAS Catalog, FinnGen- or UKB-based GWAS), we created an online repository for exposure polygenic risk scores (ExPRS) for health-related exposure traits. Our framework condenses these summary statistics into ExPRS using linkage disequilibrium pruning and p-value thresholding (P&T) or penalized, genome-wide effect size weighting. We evaluate them in the cohort of the Michigan Genomics Initiative (MGI), a longitudinal biorepository effort at Michigan Medicine, and in the population-based UK Biobank Study (UKB). For each ExPRS construct, measures on performance, accuracy, and discrimination are provided. Beyond the ExPRS evaluation in MGI and UKB, the ExPRSweb platform features construct downloads, evaluation in the top percentiles, and phenome-wide ExPRS association studies (ExPRS-PheWAS) for a subset of ExPRS that are predictive for the corresponding exposure.",
+  "MANUAL_CITATION": "Ma, Y., Patil, S., Zhou, X., Mukherjee, B., & Fritsche, L. G. (2022). ExPRSweb-An Online Repository with Polygenic Risk Scores for Common Health-related Exposures. medRxiv.",
+  "TITLE": "ExPRSweb: An online repository with polygenic risk scores for common health-related exposures.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2022",
+  "VOLUME": "109",
+  "ISSUE": "10",
+  "PAGE": "1742-1760",
+  "Authors": "Ma Y,Patil S,Zhou X,Mukherjee B,Fritsche LG",
+  "ABSTRACT": "Complex traits are influenced by genetic risk factors, lifestyle, and environmental variables, so-called exposures. Some exposures, e.g., smoking or lipid levels, have common genetic modifiers identified in genome-wide association studies. Because measurements are often unfeasible, exposure polygenic risk scores (ExPRSs) offer an alternative to study the influence of exposures on various phenotypes. Here, we collected publicly available summary statistics for 28 exposures and applied four common PRS methods to generate ExPRSs in two large biobanks: the Michigan Genomics Initiative and the UK Biobank. We established ExPRSs for 27 exposures and demonstrated their applicability in phenome-wide association studies and as predictors for common chronic conditions. Especially the addition of multiple ExPRSs showed, for several chronic conditions, an improvement compared to prediction models that only included traditional, disease-focused PRSs. To facilitate follow-up studies, we share all ExPRS constructs and generated results via an online repository called ExPRSweb.",
+  "DOI": "10.1016/j.ajhg.2022.09.001",
+  "PMC ID": "PMC9606385",
+  "CITATION": "Ma Y, Patil S, Zhou X, Mukherjee B, ...&, Fritsche LG. (2022) ExPRSweb: An online repository with polygenic risk scores for common health-related exposures. Am J Hum Genet, 109 (10) 1742-1760. doi:10.1016/j.ajhg.2022.09.001. PMID 36152628",
+  "FIRST_AUTHOR": "Ma Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

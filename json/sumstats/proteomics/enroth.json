@@ -1,0 +1,27 @@
+{
+  "NAME": "Enroth",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 25147954,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Strong effects of genetic and lifestyle factors on biomarker variation and use of personalized cutoffs.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2014",
+  "VOLUME": "5",
+  "ISSUE": "",
+  "PAGE": "4684",
+  "Authors": "Enroth S,Johansson A,Enroth SB,Gyllensten U",
+  "ABSTRACT": "Ideal biomarkers used for disease diagnosis should display deviating levels in affected individuals only and be robust to factors unrelated to the disease. Here we show the impact of genetic, clinical and lifestyle factors on circulating levels of 92 protein biomarkers for cancer and inflammation, using a population-based cohort of 1,005 individuals. For 75% of the biomarkers, the levels are significantly heritable and genome-wide association studies identifies 16 novel loci and replicate 2 previously known loci with strong effects on one or several of the biomarkers with P-values down to 4.4 × 10(-58). Integrative analysis attributes as much as 56.3% of the observed variance to non-disease factors. We propose that information on the biomarker-specific profile of major genetic, clinical and lifestyle factors should be used to establish personalized clinical cutoffs, and that this would increase the sensitivity of using biomarkers for prediction of clinical end points.",
+  "DOI": "10.1038/ncomms5684",
+  "PMC ID": "PMC4143927",
+  "CITATION": "Enroth S, Johansson A, Enroth SB, Gyllensten U. (2014) Strong effects of genetic and lifestyle factors on biomarker variation and use of personalized cutoffs. Nat Commun, 5 () 4684. doi:10.1038/ncomms5684. PMID 25147954",
+  "FIRST_AUTHOR": "Enroth S",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

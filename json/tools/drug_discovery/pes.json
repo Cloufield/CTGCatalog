@@ -1,0 +1,26 @@
+{
+  "NAME": "PES",
+  "PMID": 31964963,
+  "SECTION": "Tools",
+  "TOPIC": "Drug_discovery",
+  "TYPE": "Tools",
+  "SHORT NAME": "PES",
+  "FULL NAME": "Pharmagenic_enrichment_score",
+  "DESCRIPTION": "a framework to quantify an individual’s common variant enrichment in clinically actionable systems responsive to existing drugs.",
+  "TITLE": "Pharmacological enrichment of polygenic risk for precision medicine in complex disorders.",
+  "ISO": "Sci Rep",
+  "JOURNAL": "Scientific reports",
+  "YEAR": "2020",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "879",
+  "Authors": "Reay WR,Atkins JR,Carr VJ,Green MJ,Cairns MJ",
+  "ABSTRACT": "Individuals with complex disorders typically have a heritable burden of common variation that can be expressed as a polygenic risk score (PRS). While PRS has some predictive utility, it lacks the molecular specificity to be directly informative for clinical interventions. We therefore sought to develop a framework to quantify an individual's common variant enrichment in clinically actionable systems responsive to existing drugs. This was achieved with a metric designated the pharmagenic enrichment score (PES), which we demonstrate for individual SNP profiles in a cohort of cases with schizophrenia. A large proportion of these had elevated PES in one or more of eight clinically actionable gene-sets enriched with schizophrenia associated common variation. Notable candidates targeting these pathways included vitamins, antioxidants, insulin modulating agents, and cholinergic drugs. Interestingly, elevated PES was also observed in individuals with otherwise low common variant burden. The biological saliency of PES profiles were observed directly through their impact on gene expression in a subset of the cohort with matched transcriptomic data, supporting our assertion that this gene-set orientated approach could integrate an individual's common variant risk to inform personalised interventions, including drug repositioning, for complex disorders such as schizophrenia.",
+  "DOI": "10.1038/s41598-020-57795-0",
+  "PMC ID": "PMC6972917",
+  "CITATION": "Reay WR, Atkins JR, Carr VJ, Green MJ, ...&, Cairns MJ. (2020) Pharmacological enrichment of polygenic risk for precision medicine in complex disorders. Sci Rep, 10 (1) 879. doi:10.1038/s41598-020-57795-0. PMID 31964963",
+  "FIRST_AUTHOR": "Reay WR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

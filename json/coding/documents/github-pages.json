@@ -1,0 +1,11 @@
+{
+  "NAME": "GitHub Pages",
+  "SECTION": "Coding",
+  "TOPIC": "Documents",
+  "TYPE": "Resource",
+  "URL": "https://pages.github.com/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Static site hosting from GitHub repos."
+}

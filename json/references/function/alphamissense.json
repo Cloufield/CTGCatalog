@@ -1,0 +1,33 @@
+{
+  "NAME": "AlphaMissense",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "AlphaMissense",
+  "PMID": 37733863,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nCheng, J. et al. Accurate proteome-wide missense variant effect prediction with AlphaMissense. Science 381, eadg7492 (2023).",
+  "TOPIC": "Function",
+  "URL": "https://github.com/google-deepmind/alphamissense",
+  "TYPE": "Model",
+  "DESCRIPTION": "Deep learning model predicting pathogenicity of all possible missense variants in human proteins.",
+  "MANUAL_YEAR": 2023,
+  "SHORT NAME": "AlphaMissense",
+  "FULL NAME": "AlphaMissense",
+  "KEYWORDS": "missense, pathogenicity, variant effect, deep learning",
+  "USE": "variant effect scoring",
+  "TITLE": "Accurate proteome-wide missense variant effect prediction with AlphaMissense.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2023",
+  "VOLUME": "381",
+  "ISSUE": "6664",
+  "PAGE": "eadg7492",
+  "Authors": "Cheng J,Novati G,Pan J,Bycroft C,Žemgulytė A,Applebaum T,Pritzel A,Wong LH,Zielinski M,Sargeant T,Schneider RG,Senior AW,Jumper J,Hassabis D,Kohli P,Avsec Ž",
+  "ABSTRACT": "The vast majority of missense variants observed in the human genome are of unknown clinical significance. We present AlphaMissense, an adaptation of AlphaFold fine-tuned on human and primate variant population frequency databases to predict missense variant pathogenicity. By combining structural context and evolutionary conservation, our model achieves state-of-the-art results across a wide range of genetic and experimental benchmarks, all without explicitly training on such data. The average pathogenicity score of genes is also predictive for their cell essentiality, capable of identifying short essential genes that existing statistical approaches are underpowered to detect. As a resource to the community, we provide a database of predictions for all possible human single amino acid substitutions and classify 89% of missense variants as either likely benign or likely pathogenic.",
+  "DOI": "10.1126/science.adg7492",
+  "PMC ID": "",
+  "CITATION": "Cheng J, Novati G, Pan J, Bycroft C, ...&, Avsec Ž. (2023) Accurate proteome-wide missense variant effect prediction with AlphaMissense. Science, 381 (6664) eadg7492. doi:10.1126/science.adg7492. PMID 37733863",
+  "FIRST_AUTHOR": "Cheng J",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

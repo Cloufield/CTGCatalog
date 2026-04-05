@@ -1,0 +1,27 @@
+{
+  "NAME": "Ahola-Olli",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 27989323,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "Genome-wide Association Study Identifies 27 Loci Influencing Concentrations of Circulating Cytokines and Growth Factors.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2017",
+  "VOLUME": "100",
+  "ISSUE": "1",
+  "PAGE": "40-50",
+  "Authors": "Ahola-Olli AV,Würtz P,Havulinna AS,Aalto K,Pitkänen N,Lehtimäki T,Kähönen M,Lyytikäinen LP,Raitoharju E,Seppälä I,Sarin AP,Ripatti S,Palotie A,Perola M,Viikari JS,Jalkanen S,Maksimow M,Salomaa V,Salmi M,Kettunen J,Raitakari OT",
+  "ABSTRACT": "Circulating cytokines and growth factors are regulators of inflammation and have been implicated in autoimmune and metabolic diseases. In this genome-wide association study (GWAS) of up to 8,293 Finns we identified 27 genome-widely significant loci (p < 1.2 × 10-9) for one or more cytokines. Fifteen of the associated variants had expression quantitative trait loci in whole blood. We provide genetic instruments to clarify the causal roles of cytokine signaling and upstream inflammation in immune-related and other chronic diseases. We further link inflammatory markers with variants previously associated with autoimmune diseases such as Crohn disease, multiple sclerosis, and ulcerative colitis and hereby elucidate the molecular mechanisms underpinning these diseases and suggest potential drug targets.",
+  "DOI": "10.1016/j.ajhg.2016.11.007",
+  "PMC ID": "PMC5223028",
+  "CITATION": "Ahola-Olli AV, Würtz P, Havulinna AS, Aalto K, ...&, Raitakari OT. (2017) Genome-wide Association Study Identifies 27 Loci Influencing Concentrations of Circulating Cytokines and Growth Factors. Am J Hum Genet, 100 (1) 40-50. doi:10.1016/j.ajhg.2016.11.007. PMID 27989323",
+  "FIRST_AUTHOR": "Ahola-Olli AV",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

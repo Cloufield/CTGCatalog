@@ -1,0 +1,28 @@
+{
+  "NAME": "CaTS power calculator",
+  "PMID": 16415888,
+  "SECTION": "Tools",
+  "TOPIC": "Power_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "CaTS power calculator",
+  "FULL NAME": "CaTS power calculator",
+  "URL": "https://csg.sph.umich.edu/abecasis/cats/",
+  "DESCRIPTION": "CaTS is a simple, multi-platform interface for carrying out power calculations for large genetic association studies, including two stage genome wide association studies.",
+  "MANUAL_CITATION": "Skol, A. D., Scott, L. J., Abecasis, G. R., & Boehnke, M. (2006). Joint analysis is more efficient than replication-based analysis for two-stage genome-wide association studies. Nature genetics, 38(2), 209-213.",
+  "TITLE": "Joint analysis is more efficient than replication-based analysis for two-stage genome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2006",
+  "VOLUME": "38",
+  "ISSUE": "2",
+  "PAGE": "209-13",
+  "Authors": "Skol AD,Scott LJ,Abecasis GR,Boehnke M",
+  "ABSTRACT": "Genome-wide association is a promising approach to identify common genetic variants that predispose to human disease. Because of the high cost of genotyping hundreds of thousands of markers on thousands of subjects, genome-wide association studies often follow a staged design in which a proportion (pi(samples)) of the available samples are genotyped on a large number of markers in stage 1, and a proportion (pi(samples)) of these markers are later followed up by genotyping them on the remaining samples in stage 2. The standard strategy for analyzing such two-stage data is to view stage 2 as a replication study and focus on findings that reach statistical significance when stage 2 data are considered alone. We demonstrate that the alternative strategy of jointly analyzing the data from both stages almost always results in increased power to detect genetic association, despite the need to use more stringent significance levels, even when effect sizes differ between the two stages. We recommend joint analysis for all two-stage genome-wide association studies, especially when a relatively large proportion of the samples are genotyped in stage 1 (pi(samples) >or= 0.30), and a relatively large proportion of markers are selected for follow-up in stage 2 (pi(markers) >or= 0.01).",
+  "DOI": "10.1038/ng1706",
+  "PMC ID": "",
+  "CITATION": "Skol AD, Scott LJ, Abecasis GR, Boehnke M. (2006) Joint analysis is more efficient than replication-based analysis for two-stage genome-wide association studies. Nat Genet, 38 (2) 209-13. doi:10.1038/ng1706. PMID 16415888",
+  "FIRST_AUTHOR": "Skol AD",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

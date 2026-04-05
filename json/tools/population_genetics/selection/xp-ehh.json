@@ -1,0 +1,27 @@
+{
+  "NAME": "XP-EHH",
+  "PMID": 35041674,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "XP-EHH",
+  "FULL NAME": "Cross-population extended haplotype homozygosity",
+  "DESCRIPTION": "Klassmann, A., & Gautier, M. (2022). Detecting selection using extended haplotype homozygosity (EHH)-based statistics in unphased or unpolarized data. PloS one, 17(1), e0262024.",
+  "TITLE": "Detecting selection using extended haplotype homozygosity (EHH)-based statistics in unphased or unpolarized data.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2022",
+  "VOLUME": "17",
+  "ISSUE": "1",
+  "PAGE": "e0262024",
+  "Authors": "Klassmann A,Gautier M",
+  "ABSTRACT": "Analysis of population genetic data often includes a search for genomic regions with signs of recent positive selection. One of such approaches involves the concept of extended haplotype homozygosity (EHH) and its associated statistics. These statistics typically require phased haplotypes, and some of them necessitate polarized variants. Here, we unify and extend previously proposed modifications to loosen these requirements. We compare the modified versions with the original ones by measuring the false discovery rate in simulated whole-genome scans and by quantifying the overlap of inferred candidate regions in empirical data. We find that phasing information is indispensable for accurate estimation of within-population statistics (for all but very large samples) and of cross-population statistics for small samples. Ancestry information, in contrast, is of lesser importance for both types of statistic. Our publicly available R package rehh incorporates the modified statistics presented here.",
+  "DOI": "10.1371/journal.pone.0262024",
+  "PMC ID": "PMC8765611",
+  "CITATION": "Klassmann A, Gautier M. (2022) Detecting selection using extended haplotype homozygosity (EHH)-based statistics in unphased or unpolarized data. PLoS One, 17 (1) e0262024. doi:10.1371/journal.pone.0262024. PMID 35041674",
+  "FIRST_AUTHOR": "Klassmann A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

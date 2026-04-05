@@ -1,0 +1,11 @@
+{
+  "NAME": "Matplotlib",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://matplotlib.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Plotting library."
+}

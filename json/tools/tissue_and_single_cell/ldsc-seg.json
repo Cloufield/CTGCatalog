@@ -1,0 +1,28 @@
+{
+  "NAME": "LDSC-SEG",
+  "PMID": 29632380,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDSC-SEG",
+  "FULL NAME": "LD score regression applied to specifically expressed genes",
+  "KEYWORDS": "LDSC, tissue, cell type",
+  "URL": "https://github.com/bulik/ldsc",
+  "MANUAL_CITATION": "Finucane, H. K., Reshef, Y. A., Anttila, V., Slowikowski, K., Gusev, A., Byrnes, A., ... & Price, A. L. (2018). Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types. Nature genetics, 50(4), 621-629.",
+  "TITLE": "Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "4",
+  "PAGE": "621-629",
+  "Authors": "Finucane HK,Reshef YA,Anttila V,Slowikowski K,Gusev A,Byrnes A,Gazal S,Loh PR,Lareau C,Shoresh N,Genovese G,Saunders A,Macosko E,Pollack S,Brainstorm Consortium,Perry JRB,Buenrostro JD,Bernstein BE,Raychaudhuri S,McCarroll S,Neale BM,Price AL",
+  "ABSTRACT": "We introduce an approach to identify disease-relevant tissues and cell types by analyzing gene expression data together with genome-wide association study (GWAS) summary statistics. Our approach uses stratified linkage disequilibrium (LD) score regression to test whether disease heritability is enriched in regions surrounding genes with the highest specific expression in a given tissue. We applied our approach to gene expression data from several sources together with GWAS summary statistics for 48 diseases and traits (average N = 169,331) and found significant tissue-specific enrichments (false discovery rate (FDR) < 5%) for 34 traits. In our analysis of multiple tissues, we detected a broad range of enrichments that recapitulated known biology. In our brain-specific analysis, significant enrichments included an enrichment of inhibitory over excitatory neurons for bipolar disorder, and excitatory over inhibitory neurons for schizophrenia and body mass index. Our results demonstrate that our polygenic approach is a powerful way to leverage gene expression data for interpreting GWAS signals.",
+  "DOI": "10.1038/s41588-018-0081-4",
+  "PMC ID": "PMC5896795",
+  "CITATION": "Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types. Nat Genet, 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380",
+  "FIRST_AUTHOR": "Finucane HK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

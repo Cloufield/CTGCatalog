@@ -1,0 +1,36 @@
+{
+  "NAME": "seismic",
+  "PMID": 41034207,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "SUBTOPIC": "",
+  "TYPE": "Tools",
+  "SHORT NAME": "seismic",
+  "FULL NAME": "Single-cell Expression Integration System for Mapping genetically Implicated Cell types",
+  "KEYWORDS": "GWAS, scRNA-seq, cell type, MAGMA, post-GWAS interpretation",
+  "URL": "https://github.com/ylaboratory/seismic https://ylaboratory.github.io/seismic/ https://doi.org/10.1038/s41467-025-63753-z",
+  "DESCRIPTION": "R framework that links GWAS signals to single-cell-defined cell types via a cell-type gene specificity score (expression magnitude and consistency) and regression on gene-level association statistics, with influential-gene follow-up for interpretability.",
+  "TAGS": [
+    "GWAS",
+    "Single cell",
+    "scRNA-seq",
+    "Gene prioritization",
+    "Tool"
+  ],
+  "TITLE": "Disentangling associations between complex traits and cell types with seismic.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "8744",
+  "Authors": "Lai Q,Dannenfelser R,Roussarie JP,Yao V",
+  "ABSTRACT": "Integrating single-cell RNA sequencing with Genome-Wide Association Studies (GWAS) can uncover cell types involved in complex traits and disease. However, current methods often lack scalability, interpretability, and robustness. We present seismic, a framework that computes a novel specificity score capturing both expression magnitude and consistency across cell types and introduces influential gene analysis, an approach to identify genes driving each cell type-trait association. Across over 1000 cell-type characterizations at different granularities and 28 polygenic traits, seismic corroborates known associations and uncovers trait-relevant cell groups not apparent through other methodologies. In Parkinson's and Alzheimer's, seismic unveils both cell- and brain-region-specific differences in pathology. Analyzing a pathology-based Alzheimer's GWAS with seismic enables the identification of vulnerable neuron populations and molecular pathways implicated in their neurodegeneration. In general, seismic is a computationally efficient, powerful, and interpretable approach for mapping the relationships between polygenic traits and cell-type-specific expression, offering new insights into disease mechanisms.",
+  "DOI": "10.1038/s41467-025-63753-z",
+  "PMC ID": "PMC12488993",
+  "CITATION": "Lai Q, Dannenfelser R, Roussarie JP, Yao V. (2025) Disentangling associations between complex traits and cell types with seismic. Nat Commun, 16 (1) 8744. doi:10.1038/s41467-025-63753-z. PMID 41034207",
+  "FIRST_AUTHOR": "Lai Q",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

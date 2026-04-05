@@ -1,0 +1,16 @@
+{
+  "NAME": "The Japan Prospective Studies Collaboration for Aging and Dementia",
+  "SHORT NAME": "JPSC-AD",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~11K",
+  "MANUAL_CITATION": "JPSFC-AD Study Group. (2020). Study design and baseline characteristics of a population-based prospective cohort study of dementia in Japan: the Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD). Environmental health and preventive medicine, 25(1), 64.",
+  "URL": "https://www.eph.med.kyushu-u.ac.jp/jpsc/en/",
+  "DESCRIPTION": "Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD） study is a collaborative prospective cohort study of approximately 10,000 elderly people from 8 newly-established community-based dementia cohort studies in Japan, in which the data is prospectively collected by using the pre-specified standardized protocol. The purpose of this study is to evaluate quantitatively environmental and genomic risk factors for dementia in Japanese and to establish effective preventive strategies for dementia, in order to realize healthy aging society.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Japanese adults (aging and dementia collaboration)"
+}

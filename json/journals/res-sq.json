@@ -1,0 +1,18 @@
+{
+  "NAME": "Research square",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Res Sq",
+  "JOURNAL": "Research square",
+  "URL": "https://www.researchsquare.com/",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "PRStuning"
+  ]
+}

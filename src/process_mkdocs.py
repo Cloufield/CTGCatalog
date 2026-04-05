@@ -1,39 +1,89 @@
-import sys
+"""
+Regenerates section hub pages (docs/<Section>.md with “Contents - …” lists) and
+overwrites repo-root mkdocs.yml from `part1` plus a dynamic `nav` block.
+
+Top-level tabs use a fixed order (`_NAV_TAB_ORDER`); Journals, Catalog statistics, and
+Trending are omitted from the tab bar (home page cards link to them instead; Trending
+uses `not_in_nav` so those pages still build). Rows with
+SECTION=Tools and TOPIC=Population_Genetics are emitted as a separate **Population Genetics**
+tab (`Population_Genetics.md` hub; pages remain `Tools_Population_Genetics_*.md`). The Tools
+section tab and hub heading are labeled **GWAS Tools** (`Tools.md` unchanged).
+
+Change site config in `part1` below — hand-editing mkdocs.yml is lost on the next
+`write_mkdcos()` run (e.g. `python main.py` from src/). After editing
+`docs/stylesheets/extra.css`, run `python scripts/minify_extra_css.py` (see `deploy.sh`).
+"""
 import os
-import shutil
+import re
+
 import pandas as pd
+import yaml
+
 from load_data import load_table_and_ref
+from tag_pages import write_tag_pages
+
+
+def _load_biobanks_world_map_snippet():
+    path = os.path.join(os.path.dirname(__file__), "templates", "biobanks_world_map.html")
+    with open(path, encoding="utf-8") as f:
+        return f.read()
+
 
 part1='''site_name: CTGCatalog
+site_url: https://cloufield.github.io/CTGCatalog/
+site_description: >-
+  Curated index of complex trait genetics resources—biobanks, GWAS summary statistics,
+  software tools, references, single-cell methods, major projects, and AI-related tooling.
 site_author: HE Yunye
 repo_name: 'GitHub'
 repo_url: https://github.com/Cloufield/CTGCatalog/
 edit_uri: ""
 copyright: "CTGCatalog is licensed under the MIT license"
 
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Cloufield/CTGCatalog
+      name: CTGCatalog on GitHub
+
 theme:
   name: material
+  custom_dir: docs/overrides
   features:
       - navigation.tabs
       - navigation.top
+      - navigation.path
+      - navigation.prune
+      - toc.follow
       - search.highlight
       - search.suggest
       - search.share
-  font:
-      code: Roboto Mono
-      text: Roboto
+  font: false
   palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: blue
       accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   logo:
       assets/logo.png
   favicon:
       assets/logo.png
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra.min.css
 
 markdown_extensions:
+  - md_in_html
   - toc:
       toc_depth: 3
   - admonition
@@ -45,18 +95,74 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
 
 plugins:
+  - meta
+  - tags
   - search
   - mkdocs-jupyter
 
+not_in_nav: |
+  Trending/index.md
+  Trending/Trending_PubMed_GWAS.md
+
 '''
 
-part2="nav: \n    - Home : index.md\n"
+# Top tabs (Material navigation.tabs). Not listed here: Journals, Catalog statistics, Trending (home cards only).
+_NAV_TAB_ORDER = [
+    "Biobanks",
+    "Sumstats",
+    "Tools",
+    "Coding",
+    "Population_Genetics",
+    "References",
+    "Single_Cell",
+    "Projects",
+    "AI",
+]
+
+# Catalog rows still use SECTION=Tools, TOPIC=Population_Genetics; split into its own Material tab.
+_POPGEN_TOPIC = "Population_Genetics"
+_POPGEN_NAV_TITLE = "Population Genetics"
+_POPGEN_HUB_BASENAME = "Population_Genetics"
+
+# SECTION stays "Tools" in JSON; Material tab and hub heading use this label (page remains Tools.md).
+_TOOLS_NAV_TITLE = "GWAS Tools"
+
+# Short intro under "## Contents - …" on each top-level section hub (nav tab landing pages).
+_SECTION_HUB_LEADS: dict[str, str] = {
+    "Biobanks": (
+        "Regional cohorts and biobanks with ancestry scope, sample context, and pointers to data access."
+    ),
+    "Sumstats": (
+        "Public summary statistics and omics summary-level resources—GWAS, QTL, imaging, proteomics, and more."
+    ),
+    "Tools": (
+        "GWAS-centric software and pipelines: association tests, fine mapping, PRS, MR, imputation, and visualization."
+    ),
+    "Coding": (
+        "Languages, environments, containers, docs tooling, and workflow engines used day to day for analysis and the site."
+    ),
+    "Population_Genetics": (
+        "Population-genetics methods: ancestry and admixture, genealogies and ARGs, phylogeny, and selection."
+    ),
+    "References": (
+        "Curated reading by theme—genome biology, variants, phenotypes, methods, and related topics."
+    ),
+    "Single_Cell": (
+        "Single-cell genomics tools: QC, annotation, harmonization, trajectories, and gene networks."
+    ),
+    "Projects": (
+        "Major programs and reference resources (e.g. 1000 Genomes, UK Biobank, GTEx) with phased or versioned pages."
+    ),
+    "AI": (
+        "Genomic models, agents, and AI-assisted tooling for genomics and variant interpretation."
+    ),
+}
+
+part2_nav_home = "nav: \n    - Home : index.md\n"
 
 #part2+='''    - Sumstats:
 #      - Sumstats: Sumstats_Sumstats_README.md
@@ -67,7 +173,14 @@ part2="nav: \n    - Home : index.md\n"
 
 ## TAB_TOPIC_SUBTOPIC.md 
 
-def write_mkdcos(part1=part1, part2=part2):
+def write_mkdcos(
+    part1=part1,
+    part2_nav_home=part2_nav_home,
+    *,
+    tag_buckets=None,
+    tag_slug_map=None,
+    tag_card_rows=None,
+):
 
     ##################################################################################################################################################################################################################
 
@@ -84,379 +197,224 @@ def write_mkdcos(part1=part1, part2=part2):
             if i!="":
                 level+=1
         return level
+
+    def append_section_nav_lines(
+        out,
+        hub_basename,
+        path_df,
+        level_root_dic,
+        *,
+        nav_label=None,
+    ):
+        """Append mkdocs nav YAML lines for one catalog section (same structure as before).
+
+        hub_basename: docs/{hub_basename}.md (e.g. Population_Genetics).
+        nav_label: tab/sidebar title (e.g. Population Genetics); defaults to hub_basename.
+        """
+        spaces = " " * 2 * (1 + 1)
+        label = nav_label or hub_basename
+        value = "{}.md".format(hub_basename)
+        single_line = "{}- {}: \n".format(spaces, label)
+        out.append(single_line)
+
+        spaces = " " * 2 * (1 + 2)
+        single_line = "{}- {}: {} \n".format(spaces, label, value)
+        out.append(single_line)
+
+        added_topic = []
+        for index, row in path_df.iterrows():
+
+            spaces = " " * 2 * (1 + row["LEVEL"] - 1)
+            if row["LEVEL"] == 3:
+                col = "TOPIC"
+            if row["LEVEL"] == 4:
+                col = "SUBTOPIC"
+            key = row[col]
+
+            value = "{}.md".format(row["PATH"])
+
+            if row["SUBTOPIC"] == "" and row["TOPIC"] in level_root_dic["TOPIC"]:
+                added_topic.append(row["TOPIC"])
+                single_line = "{}- {}:\n".format(spaces, key)
+                out.append(single_line)
+                spaces = " " * 2 * (1 + row["LEVEL"])
+                single_line = "{}- {}: {}\n".format(spaces, key, value)
+                out.append(single_line)
+
+            elif (
+                row["SUBTOPIC"] != ""
+                and row["TOPIC"] in level_root_dic["TOPIC"]
+                and row["TOPIC"] not in added_topic
+            ):
+                added_topic.append(row["TOPIC"])
+                col = "TOPIC"
+                spaces = " " * 2 * (1 + row["LEVEL"] - 2)
+                single_line = "{}- {}:\n".format(spaces, row["TOPIC"])
+                out.append(single_line)
+
+                spaces = " " * 2 * (1 + row["LEVEL"] - 1)
+                single_line = "{}- {}: {}\n".format(spaces, key, value)
+                out.append(single_line)
+            else:
+                single_line = "{}- {}: {}\n".format(spaces, key, value)
+                out.append(single_line)
+
     ##################################################################################################################################################################################################################
 
-    #for sheet in ["Population_Genetics","Tools","Visualization","Sumstats","Proteomics","Metabolomics","Imaging","Single_Cell"]: 
     table = load_table_and_ref()
-    #table2 = load_ref()
-    #table = pd.concat([table, table2],ignore_index=True)
-
-    #raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = sheet, dtype={"PMID":"string"})
-    folder_cols =["SECTION","TOPIC","SUBTOPIC"]
+    folder_cols = ["SECTION", "TOPIC", "SUBTOPIC"]
     table.loc[:, folder_cols ] = table.loc[:, folder_cols].fillna("")
     table["TYPE"] = table["TYPE"].fillna("MISC")
     table = table.sort_values(by=["SECTION","TOPIC","SUBTOPIC"])
 
-    for dirname in table["SECTION"].dropna().unique():    
-        
-        if dirname=="":
-            continue
+    nav_by_section = {}
 
-        raw_dir = table.loc[table["SECTION"]==dirname,:].copy()
-        # create PATH using all folder_cols
+    def emit_catalog_section(
+        nav_map_key,
+        raw_dir,
+        *,
+        hub_basename,
+        contents_title,
+        nav_label=None,
+        biobanks_world_map=False,
+    ):
+        if raw_dir.empty:
+            return
+        raw_dir = raw_dir.copy()
         raw_dir["PATH"] = raw_dir[folder_cols].apply(lambda x: format_path(x), axis=1)
-        
-        # a df of folders
+
         df_dir = raw_dir.loc[:, folder_cols].dropna(subset=folder_cols[0]).fillna("")
-        
-        # get path and calculate indent level
         path_df = df_dir.groupby(folder_cols).count().reset_index()
-
-        # format path using all columns
         path_df["PATH"] = path_df[folder_cols].apply(lambda x: format_path(x), axis=1)
-        
-        # count levels
         path_df["LEVEL"] = path_df[folder_cols].apply(lambda x: format_level(x), axis=1)
-        
 
-        # get the root folder for each level
-        level_root_dic ={col:list() for col in folder_cols}
+        level_root_dic = {col: [] for col in folder_cols}
+        level_count = path_df.loc[path_df["LEVEL"] == 4, :].groupby("TOPIC")["PATH"].count()
+        level_root_dic["TOPIC"] += list(level_count[level_count >= 1].index.values)
 
-   
-        level_count = path_df.loc[path_df["LEVEL"]==4,:].groupby("TOPIC")["PATH"].count()
-        # add topics in this dic
-        level_root_dic["TOPIC"]+=list(level_count[level_count>=1].index.values)
+        main_file = "../docs/" + hub_basename + ".md"
+        hub_fm = {"class": f"catalog-section-{nav_map_key}"}
+        with open(main_file, "w") as file:
+            file.write("---\n")
+            file.write(
+                yaml.safe_dump(
+                    hub_fm,
+                    default_flow_style=False,
+                    allow_unicode=True,
+                    sort_keys=False,
+                )
+            )
+            file.write("---\n\n")
 
-        # write page for each category
-        main_file = "../docs/"+dirname+".md"
-        
-        #shutil.copyfile("../"+dirname+"/README.md", main_file)
-        with open(main_file,"w") as file:
-            file.write(" \n")
-
-        # edit section README.md
-        with open(main_file,"a") as file:
-
-            file.write("\n\n")
-            file.write("## {} - {} \n".format("Contents",dirname))
+        with open(main_file, "a") as file:
+            # Same order as other section hubs: intro rail first so page h1 + .catalog-nav-lead
+            # share the continuous accent rail (map would break that if placed above the lead).
+            hub_lead = _SECTION_HUB_LEADS.get(nav_map_key)
+            if hub_lead:
+                file.write(
+                    '<div class="catalog-nav-lead" markdown="block">\n\n'
+                    + hub_lead.strip()
+                    + "\n\n</div>\n\n"
+                )
+            if biobanks_world_map:
+                file.write(_load_biobanks_world_map_snippet())
+                file.write("\n\n")
+            file.write("## {} - {} \n".format("Contents", contents_title))
             file.write("\n")
+            file.write('<div class="catalog-section-contents" markdown="block">\n\n')
 
-            # add lines for topic and subtopics counts
             added_topic = []
             for index, row in path_df.iterrows():
-                
-                type_dir = raw_dir.loc[raw_dir["PATH"]==row["PATH"],:].groupby("TYPE")["NAME"].count()
-                string_list=[]
-                for key,value in type_dir.items():
-                    type_string = "{} - {}".format(key,value)
-                    string_list.append(type_string)
+                type_dir = raw_dir.loc[
+                    raw_dir["PATH"] == row["PATH"], :
+                ].groupby("TYPE")["NAME"].count()
+                string_list = []
+                for k, v in type_dir.items():
+                    string_list.append("{} - {}".format(k, v))
                 type_line = " , ".join(string_list)
 
-                spaces = " " * 2 * (row["LEVEL"]-2)
-                if row["LEVEL"]==3:
+                spaces = " " * 2 * (row["LEVEL"] - 2)
+                if row["LEVEL"] == 3:
                     col = "TOPIC"
-                if row["LEVEL"]==4:
-                    col="SUBTOPIC"
+                if row["LEVEL"] == 4:
+                    col = "SUBTOPIC"
                 string = row[col]
                 link_string = "{}.md".format(row["PATH"])
-                
-                if row["SUBTOPIC"]!="" and row["TOPIC"] in level_root_dic["TOPIC"] and row["TOPIC"] not in added_topic:
-                    added_topic.append(row["TOPIC"] )
-                    single_line = "{}- {} :\n".format( " " * 2 * (row["LEVEL"]-3) ,row["TOPIC"], type_line)
+
+                if (
+                    row["SUBTOPIC"] != ""
+                    and row["TOPIC"] in level_root_dic["TOPIC"]
+                    and row["TOPIC"] not in added_topic
+                ):
+                    added_topic.append(row["TOPIC"])
+                    single_line = "{}- {} :\n".format(
+                        " " * 2 * (row["LEVEL"] - 3), row["TOPIC"], type_line
+                    )
                     file.write(single_line)
                 else:
-                    added_topic.append(row["TOPIC"] )
+                    added_topic.append(row["TOPIC"])
 
-                key = "[{}]({})".format(string, link_string)
-                single_line = "{}- {} : {}\n".format( spaces ,key, type_line)
+                link_key = "[{}]({})".format(string, link_string)
+                single_line = "{}- {} : {}\n".format(spaces, link_key, type_line)
                 file.write(single_line)
 
-
-        #add section README.md into mkdocs ############################################
-        spaces = " " * 2 * (1 + 1)
-        key = dirname
-        value = "{}.md".format(dirname)
-        single_line = "{}- {}: \n".format( spaces ,key)
-        part2+= single_line
-        
-        #add topics within the section README.md into mkdocs ############################################
-        spaces = " " * 2 * (1 + 2)
-        single_line = "{}- {}: {} \n".format( spaces ,key, value)
-        part2+= single_line
-
-        #################################################################################################
-        added_topic = []
-        for index, row in path_df.iterrows():
-            
-            spaces = " " * 2 * (1+ row["LEVEL"]-1)
-            if row["LEVEL"]==3:
-                col = "TOPIC"
-            if row["LEVEL"]==4:
-                col="SUBTOPIC"
-            key = row[col]
-
-            value = "{}.md".format(row["PATH"])
-            
-
-            # if it is a subtopic
-            #if row["TOPIC"] in level_root_dic[col]:
-            if row["SUBTOPIC"] =="" and row["TOPIC"] in level_root_dic["TOPIC"]:
-                ## subtopic line within topic
-                added_topic.append(row["TOPIC"] )
-                single_line = "{}- {}:\n".format(spaces ,key)
-                part2+= single_line
-                spaces = " " * 2 * (1+ row["LEVEL"])
-                single_line = "{}- {}: {}\n".format(spaces ,key, value)
-                part2+= single_line
-
-            elif row["SUBTOPIC"]!="" and row["TOPIC"] in level_root_dic["TOPIC"] and row["TOPIC"] not in added_topic:
-                added_topic.append(row["TOPIC"] )
-                # topic line
-                col = "TOPIC"
-                spaces = " " * 2 * (1+ row["LEVEL"]-2)
-                single_line = "{}- {}:\n".format(spaces ,row["TOPIC"])
-                part2+= single_line
-
-                #spaces = " " * 2 * (1+ row["LEVEL"]-1)
-                #single_line = "{}- {}: {}\n".format(spaces ,row["TOPIC"], "{}.md".format(row["PATH"]).replace("_"+row["SUBTOPIC"],""))
-                #part2+= single_line
-
-                spaces = " " * 2 * (1+ row["LEVEL"]-1)
-                single_line = "{}- {}: {}\n".format(spaces ,key, value)
-                part2+= single_line
-            else:
-            # if it is not a subtopic
-                single_line = "{}- {}: {}\n".format( spaces ,key, value)
-                part2+= single_line
-
-    #tab############################################
-    #spaces = " " * 2 * (1+1)
-    #dirname = "Reference"
-    #value = "{}_README.md".format(dirname)
-    #single_line = "{}- {}: \n".format( spaces ,dirname)
-    #part2+= single_line
-    ##################################################################################################################################################################################################################
-    with open("../mkdocs.yml",mode="w") as file:
-        file.write(part1+part2)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#def write_mkdcos(part1=part1, part2=part2):
-#
-#    ##################################################################################################################################################################################################################
-#
-#    def format_path(series):
-#        path_list=[]
-#        for i in series:
-#            if i!="" and i is not None:
-#                path_list.append(i)
-#        return "_".join(path_list)
-#
-#    def format_level(series):
-#        level = 1
-#        for i in series:
-#            if i!="":
-#                level+=1
-#        return level
-#    ##################################################################################################################################################################################################################
-#
-#    for dirname in ["Tools","Visualization","Population_Genetics","Single_Cell" ]: 
-#        raw_dir = pd.read_excel("../CTGCatalog.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
-#        folder_cols =[]
-#
-#
-#        # "FOLDER1" "FOLDER2" "FOLDER3" ... 
-#        for col in raw_dir.columns:
-#            if "FOLDER" in col:
-#                folder_cols.append(col)
-#        
-#        raw_dir.loc[:, folder_cols ] = raw_dir.loc[:, folder_cols].fillna("")
-#        raw_dir["TYPE"] = raw_dir["TYPE"].fillna("MISC")
-#        
-#        # create PATH using all folder_cols
-#        raw_dir["PATH"] = raw_dir[folder_cols].apply(lambda x: format_path(x), axis=1)
-#        df_dir = raw_dir.loc[:, folder_cols].dropna(subset=folder_cols[0]).fillna("")
-#        
-#        # get path and calculate indent level
-#        path_df = df_dir.groupby(folder_cols).count().reset_index()
-#        path_df["PATH"] = path_df[folder_cols].apply(lambda x: format_path(x), axis=1)
-#        path_df["LEVEL"] = path_df[folder_cols].apply(lambda x: format_level(x), axis=1)
-#        
-#        # get the root folder for each level
-#        level_root_dic ={col:list() for col in folder_cols}
-#        for index in range(len(folder_cols)):
-#            if index< len(folder_cols)-1:
-#                level_count = path_df.groupby(folder_cols[index])["PATH"].count()
-#                level_root_dic[folder_cols[index]]+=list(level_count[level_count>1].index.values)      
-#        
-#        # write page for each category
-#        main_file = "../docs/"+dirname+"_README.md"
-#        shutil.copyfile("../"+dirname+"/README.md", main_file)
-#        with open(main_file,"a") as file:
-#            file.write("\n\n")
-#            file.write("## {} - {} \n".format("Contents",dirname))
-#            file.write("\n")
-#
-#            for index, row in path_df.iterrows():
-#
-#                type_dir = raw_dir.loc[raw_dir["PATH"]==row["PATH"],:].groupby("TYPE")["NAME"].count()
-#                string_list=[]
-#                for key,value in type_dir.items():
-#                    type_string = "{} - {}".format(key,value)
-#                    string_list.append(type_string)
-#                type_line = " , ".join(string_list)
-#
-#                spaces = " " * 2 * (row["LEVEL"]-1)
-#                col = "FOLDER_{}".format(row["LEVEL"]-1)
-#                string = row[col]
-#                link_string = "{}_{}_README.md".format(dirname, row["PATH"])
-#                
-#                key = "[{}]({})".format(string, link_string)
-#                single_line = "{}- {} : {}\n".format( spaces ,key, type_line)
-#                file.write(single_line)
-#
-#
-#        #tab############################################
-#        spaces = " " * 2 * (1+ 1)
-#        key = dirname
-#        value = "{}_README.md".format(dirname)
-#        single_line = "{}- {}: \n".format( spaces ,key)
-#        part2+= single_line
-#        
-#        #tab_apge############################################
-#        spaces = " " * 2 * (1+ 2)
-#        single_line = "{}- {}: {} \n".format( spaces ,key, value)
-#        part2+= single_line
-#        
-#        for index, row in path_df.iterrows():
-#
-#            spaces = " " * 2 * (1+ row["LEVEL"])
-#            col = "FOLDER_{}".format(row["LEVEL"]-1)
-#            key = row[col]
-#            value = "{}_{}_README.md".format(dirname, row["PATH"])
-#            if row["PATH"] in level_root_dic[col]:
-#                single_line = "{}- {}:\n".format(spaces ,key)
-#                part2+= single_line
-#                spaces = " " * 2 * (1+ row["LEVEL"]+1)
-#                single_line = "{}- {}: {}\n".format(spaces ,key, value)
-#                part2+= single_line
-#            else:
-#                single_line = "{}- {}: {}\n".format( spaces ,key, value)
-#                part2+= single_line
-#    
-#    #tab############################################
-#    spaces = " " * 2 * (1+1)
-#    dirname = "Reference"
-#    value = "{}_README.md".format(dirname)
-#    single_line = "{}- {}: \n".format( spaces ,dirname)
-#    part2+= single_line
-#    ############################################
-#
-#    for dirname in ["Phenotype","Genome","Gene","Variant","Protein","Annotation","Cell","Spatial"]: 
-#        raw_dir = pd.read_excel("../CTGCatalog_reference.xlsx",sheet_name = dirname, dtype={"PMID":"string"})
-#        if len(raw_dir)>0:
-#            folder_cols =[]
-#        
-#            # "FOLDER1" "FOLDER2" "FOLDER3" ... 
-#            for col in raw_dir.columns:
-#                if "FOLDER" in col:
-#                    folder_cols.append(col)
-#
-#            raw_dir.loc[:, folder_cols ] = raw_dir.loc[:, folder_cols ].fillna("")
-#            raw_dir["TYPE"] = raw_dir["TYPE"].fillna("MISC")
-#            
-#            # create PATH using all folder_cols
-#            raw_dir["PATH"] = raw_dir[folder_cols].apply(lambda x: format_path(x), axis=1)
-#            df_dir = raw_dir# .loc[:, folder_cols].dropna(subset=folder_cols[0]).fillna("")
-#            
-#            # get path and calculate indent level
-#            path_df = df_dir.groupby(folder_cols).count().reset_index()
-#            print(path_df)
-#            path_df["PATH"] = path_df[folder_cols].apply(lambda x: format_path(x), axis=1)
-#            path_df["LEVEL"] = path_df[folder_cols].apply(lambda x: format_level(x), axis=1)
-#            
-#            # get the root folder for each level
-#            level_root_dic ={col:list() for col in folder_cols}
-#            for index in range(len(folder_cols)):
-#                if index< len(folder_cols)-1:
-#                    level_count = path_df.groupby(folder_cols[index])["PATH"].count()
-#                    level_root_dic[folder_cols[index]]+=list(level_count[level_count>1].index.values)      
-#            
-#            for index, row in path_df.iterrows():
-#
-#                spaces = " " * 2 * (1+ row["LEVEL"])
-#                col = "FOLDER_{}".format( row["LEVEL"]-1 )
-#                key = row[col]
-#                value = "{}_{}_README.md".format(dirname, row["PATH"])
-#                if row["PATH"] in level_root_dic[col]:
-#                    single_line = "{}- {}:\n".format(spaces ,key)
-#                    part2+= single_line
-#                    spaces = " " * 2 * (1+ row["LEVEL"]+1)
-#                    single_line = "{}- {}: {}\n".format(spaces ,key, value)
-#                    part2+= single_line
-#                else:
-#                    single_line = "{}- {}: {}\n".format( spaces ,key, value)
-#                    part2+= single_line
-#    ##################################################################################################################################################################################################################
-#    with open("../mkdocs.yml",mode="w") as file:
-#        file.write(part1+part2)
+            file.write("\n</div>\n\n")
+
+        nav_lines = []
+        append_section_nav_lines(
+            nav_lines,
+            hub_basename,
+            path_df,
+            level_root_dic,
+            nav_label=nav_label,
+        )
+        nav_by_section[nav_map_key] = "".join(nav_lines)
+
+    for dirname in table["SECTION"].dropna().unique():
+        if dirname == "":
+            continue
+        # Journals: single page from process_md; not a top tab (linked from home only).
+        if dirname == "Journals":
+            continue
+
+        raw_dir = table.loc[table["SECTION"] == dirname, :].copy()
+        if dirname == "Tools":
+            raw_dir = raw_dir.loc[raw_dir["TOPIC"] != _POPGEN_TOPIC]
+
+        if dirname == "Tools":
+            tools_title = _TOOLS_NAV_TITLE
+            tools_nav = _TOOLS_NAV_TITLE
+        else:
+            tools_title = dirname
+            tools_nav = None
+
+        emit_catalog_section(
+            dirname,
+            raw_dir,
+            hub_basename=dirname,
+            contents_title=tools_title,
+            nav_label=tools_nav,
+            biobanks_world_map=(dirname == "Biobanks"),
+        )
+
+    popgen = table.loc[
+        (table["SECTION"] == "Tools") & (table["TOPIC"] == _POPGEN_TOPIC)
+    ].copy()
+    if not popgen.empty:
+        emit_catalog_section(
+            "Population_Genetics",
+            popgen,
+            hub_basename=_POPGEN_HUB_BASENAME,
+            contents_title=_POPGEN_NAV_TITLE,
+            nav_label=_POPGEN_NAV_TITLE,
+        )
+
+    part2 = part2_nav_home + "".join(
+        nav_by_section[s] for s in _NAV_TAB_ORDER if s in nav_by_section
+    )
+
+    if tag_buckets is not None and tag_slug_map is not None:
+        write_tag_pages(tag_buckets, tag_slug_map, tag_card_rows)
+
+    with open("../mkdocs.yml", mode="w") as file:
+        file.write(part1 + part2)

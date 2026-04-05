@@ -1,0 +1,27 @@
+{
+  "NAME": "Sun",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 27532455,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "Common Genetic Polymorphisms Influence Blood Biomarker Measurements in COPD.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2016",
+  "VOLUME": "12",
+  "ISSUE": "8",
+  "PAGE": "e1006011",
+  "Authors": "Sun W,Kechris K,Jacobson S,Drummond MB,Hawkins GA,Yang J,Chen TH,Quibrera PM,Anderson W,Barr RG,Basta PV,Bleecker ER,Beaty T,Casaburi R,Castaldi P,Cho MH,Comellas A,Crapo JD,Criner G,Demeo D,Christenson SA,Couper DJ,Curtis JL,Doerschuk CM,Freeman CM,Gouskova NA,Han MK,Hanania NA,Hansel NN,Hersh CP,Hoffman EA,Kaner RJ,Kanner RE,Kleerup EC,Lutz S,Martinez FJ,Meyers DA,Peters SP,Regan EA,Rennard SI,Scholand MB,Silverman EK,Woodruff PG,O'Neal WK,Bowler RP,SPIROMICS Research Group,COPDGene Investigators",
+  "ABSTRACT": "Implementing precision medicine for complex diseases such as chronic obstructive lung disease (COPD) will require extensive use of biomarkers and an in-depth understanding of how genetic, epigenetic, and environmental variations contribute to phenotypic diversity and disease progression. A meta-analysis from two large cohorts of current and former smokers with and without COPD [SPIROMICS (N = 750); COPDGene (N = 590)] was used to identify single nucleotide polymorphisms (SNPs) associated with measurement of 88 blood proteins (protein quantitative trait loci; pQTLs). PQTLs consistently replicated between the two cohorts. Features of pQTLs were compared to previously reported expression QTLs (eQTLs). Inference of causal relations of pQTL genotypes, biomarker measurements, and four clinical COPD phenotypes (airflow obstruction, emphysema, exacerbation history, and chronic bronchitis) were explored using conditional independence tests. We identified 527 highly significant (p < 8 X 10-10) pQTLs in 38 (43%) of blood proteins tested. Most pQTL SNPs were novel with low overlap to eQTL SNPs. The pQTL SNPs explained >10% of measured variation in 13 protein biomarkers, with a single SNP (rs7041; p = 10-392) explaining 71%-75% of the measured variation in vitamin D binding protein (gene = GC). Some of these pQTLs [e.g., pQTLs for VDBP, sRAGE (gene = AGER), surfactant protein D (gene = SFTPD), and TNFRSF10C] have been previously associated with COPD phenotypes. Most pQTLs were local (cis), but distant (trans) pQTL SNPs in the ABO blood group locus were the top pQTL SNPs for five proteins. The inclusion of pQTL SNPs improved the clinical predictive value for the established association of sRAGE and emphysema, and the explanation of variance (R2) for emphysema improved from 0.3 to 0.4 when the pQTL SNP was included in the model along with clinical covariates. Causal modeling provided insight into specific pQTL-disease relationships for airflow obstruction and emphysema. In conclusion, given the frequency of highly significant local pQTLs, the large amount of variance potentially explained by pQTL, and the differences observed between pQTLs and eQTLs SNPs, we recommend that protein biomarker-disease association studies take into account the potential effect of common local SNPs and that pQTLs be integrated along with eQTLs to uncover disease mechanisms. Large-scale blood biomarker studies would also benefit from close attention to the ABO blood group.",
+  "DOI": "10.1371/journal.pgen.1006011",
+  "PMC ID": "PMC4988780",
+  "CITATION": "Sun W, Kechris K, Jacobson S, Drummond MB, ...&, COPDGene Investigators. (2016) Common Genetic Polymorphisms Influence Blood Biomarker Measurements in COPD. PLoS Genet, 12 (8) e1006011. doi:10.1371/journal.pgen.1006011. PMID 27532455",
+  "FIRST_AUTHOR": "Sun W",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

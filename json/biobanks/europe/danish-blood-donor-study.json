@@ -1,0 +1,16 @@
+{
+  "NAME": "Danish Blood Donor Study",
+  "SHORT NAME": "DBDS",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~150k+ donors",
+  "DESCRIPTION": "Prospective cohort of Danish blood donors with biosamples and questionnaire data; large-scale genome-wide genotyping supports trait and omics GWAS.",
+  "MANUAL_CITATION": "Erikstrup, C., Ullum, H., Pedersen, O. B., Sørensen, E., Kotzé, S. R., Sørensen, S. S., ... & Edgren, G. (2019). The Danish Blood Donor Study: a large, prospective cohort and biobank for medical research. Vox Sanguinis, 114(3), 269-278.",
+  "URL": "https://www.dbds.dk/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Danish blood donors"
+}

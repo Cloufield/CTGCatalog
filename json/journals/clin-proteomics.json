@@ -1,0 +1,18 @@
+{
+  "NAME": "Clinical proteomics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Clin Proteomics",
+  "JOURNAL": "Clinical proteomics",
+  "URL": "https://clinicalproteomicsjournal.biomedcentral.com/",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Carland"
+  ]
+}

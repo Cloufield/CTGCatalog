@@ -1,0 +1,18 @@
+{
+  "NAME": "NAR genomics and bioinformatics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "NAR Genom Bioinform",
+  "JOURNAL": "NAR genomics and bioinformatics",
+  "URL": "https://academic.oup.com/nargab",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "JASS"
+  ]
+}

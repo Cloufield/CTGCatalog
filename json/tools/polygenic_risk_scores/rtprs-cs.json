@@ -1,0 +1,19 @@
+{
+  "NAME": "rtPRS-CS",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "rtPRS-CS",
+  "FULL NAME": "real-time PRS-CS",
+  "MANUAL_YEAR": 2024,
+  "PREPRINT_DOI": "10.1101/2024.07.12.24310357",
+  "PREPRINT_SERVER": "biorxiv",
+  "URL": "https://github.com/getian107/rtPRS",
+  "DESCRIPTION": "rtPRS-CS is a python-based command line tool that performs real-time online updating of polygenic risk score (PRS) weights in a target dataset, one sample at-a-time. Given the most recent set of SNP weights, for each new target sample with both phenotypic and genetic information, rtPRS-CS uses stochastic gradient descent to update the SNP weights, adjusting for the effect of a set of covariates.",
+  "MANUAL_CITATION": "Tubbs, J. D., Chen, Y., Duan, R., Huang, H. & Ge, T. Real-time dynamic polygenic prediction for streaming data. bioRxiv 2024.07.12.24310357 (2024) doi:10.1101/2024.07.12.24310357.\n  ",
+  "CITATION": "Tubbs, J. D., Chen, Y., Duan, R., Huang, H. & Ge, T. Real-time dynamic polygenic prediction for streaming data. bioRxiv 2024.07.12.24310357 (2024) doi:10.1101/2024.07.12.24310357.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

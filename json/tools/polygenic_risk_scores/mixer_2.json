@@ -1,0 +1,29 @@
+{
+  "NAME": "MiXeR",
+  "PMID": 32427991,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MiXeR",
+  "FULL NAME": "MiXeR（univariate） ",
+  "URL": "https://github.com/precimed/mixer",
+  "DESCRIPTION": "Causal Mixture Model for GWAS summary statistics",
+  "MANUAL_CITATION": "Holland, Dominic, et al. \"Beyond SNP heritability: Polygenicity and discoverability of phenotypes estimated with a univariate Gaussian mixture model.\" PLoS Genetics 16.5 (2020): e1008612.\n",
+  "TITLE": "Beyond SNP heritability: Polygenicity and discoverability of phenotypes estimated with a univariate Gaussian mixture model.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "5",
+  "PAGE": "e1008612",
+  "Authors": "Holland D,Frei O,Desikan R,Fan CC,Shadrin AA,Smeland OB,Sundar VS,Thompson P,Andreassen OA,Dale AM",
+  "ABSTRACT": "Estimating the polygenicity (proportion of causally associated single nucleotide polymorphisms (SNPs)) and discoverability (effect size variance) of causal SNPs for human traits is currently of considerable interest. SNP-heritability is proportional to the product of these quantities. We present a basic model, using detailed linkage disequilibrium structure from a reference panel of 11 million SNPs, to estimate these quantities from genome-wide association studies (GWAS) summary statistics. We apply the model to diverse phenotypes and validate the implementation with simulations. We find model polygenicities (as a fraction of the reference panel) ranging from ≃ 2 × 10-5 to ≃ 4 × 10-3, with discoverabilities similarly ranging over two orders of magnitude. A power analysis allows us to estimate the proportions of phenotypic variance explained additively by causal SNPs reaching genome-wide significance at current sample sizes, and map out sample sizes required to explain larger portions of additive SNP heritability. The model also allows for estimating residual inflation (or deflation from over-correcting of z-scores), and assessing compatibility of replication and discovery GWAS summary statistics.",
+  "DOI": "10.1371/journal.pgen.1008612",
+  "PMC ID": "PMC7272101",
+  "CITATION": "Holland D, Frei O, Desikan R, Fan CC, ...&, Dale AM. (2020) Beyond SNP heritability: Polygenicity and discoverability of phenotypes estimated with a univariate Gaussian mixture model. PLoS Genet, 16 (5) e1008612. doi:10.1371/journal.pgen.1008612. PMID 32427991",
+  "FIRST_AUTHOR": "Holland D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

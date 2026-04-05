@@ -1,0 +1,25 @@
+{
+  "NAME": "GeneCards",
+  "PMID": 27322403,
+  "SECTION": "References",
+  "TOPIC": "Gene",
+  "MANUAL_CITATION": "Stelzer, G. et al. The GeneCards suite: From gene data mining to disease genome sequence analyses. Curr. Protoc. Bioinformatics 54, 1.30.1-1.30.33 (2016).\n  ",
+  "URL": "https://www.genecards.org/",
+  "DESCRIPTION": "GeneCards is a searchable, integrative database that provides comprehensive, user-friendly information on all annotated and predicted human genes. The knowledgebase automatically integrates gene-centric data from ~200 web sources, including genomic, transcriptomic, proteomic, genetic, clinical and functional information.",
+  "TITLE": "The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses.",
+  "ISO": "Curr Protoc Bioinformatics",
+  "JOURNAL": "Current protocols in bioinformatics",
+  "YEAR": "2016",
+  "VOLUME": "54",
+  "ISSUE": "",
+  "PAGE": "1.30.1-1.30.33",
+  "Authors": "Stelzer G,Rosen N,Plaschkes I,Zimmerman S,Twik M,Fishilevich S,Stein TI,Nudel R,Lieder I,Mazor Y,Kaplan S,Dahary D,Warshawsky D,Guan-Golan Y,Kohn A,Rappaport N,Safran M,Lancet D",
+  "ABSTRACT": "GeneCards, the human gene compendium, enables researchers to effectively navigate and inter-relate the wide universe of human genes, diseases, variants, proteins, cells, and biological pathways. Our recently launched Version 4 has a revamped infrastructure facilitating faster data updates, better-targeted data queries, and friendlier user experience. It also provides a stronger foundation for the GeneCards suite of companion databases and analysis tools. Improved data unification includes gene-disease links via MalaCards and merged biological pathways via PathCards, as well as drug information and proteome expression. VarElect, another suite member, is a phenotype prioritizer for next-generation sequencing, leveraging the GeneCards and MalaCards knowledgebase. It automatically infers direct and indirect scored associations between hundreds or even thousands of variant-containing genes and disease phenotype terms. VarElect's capabilities, either independently or within TGex, our comprehensive variant analysis pipeline, help prepare for the challenge of clinical projects that involve thousands of exome/genome NGS analyses. © 2016 by John Wiley & Sons, Inc.",
+  "DOI": "10.1002/cpbi.5",
+  "PMC ID": "",
+  "CITATION": "Stelzer G, Rosen N, Plaschkes I, Zimmerman S, ...&, Lancet D. (2016) The GeneCards Suite: From Gene Data Mining to Disease Genome Sequence Analyses. Curr Protoc Bioinformatics, 54 () 1.30.1-1.30.33. doi:10.1002/cpbi.5. PMID 27322403",
+  "FIRST_AUTHOR": "Stelzer G",
+  "_meta": {
+    "source_sheet": "Gene"
+  }
+}

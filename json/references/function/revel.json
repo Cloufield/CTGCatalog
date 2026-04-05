@@ -1,0 +1,33 @@
+{
+  "NAME": "REVEL",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "REVEL",
+  "PMID": 27666373,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nIoannidis, N. M. et al. REVEL: An ensemble method for predicting the pathogenicity of rare missense variants. Am. J. Hum. Genet. 99, 877–885 (2016).  ",
+  "TOPIC": "Function",
+  "URL": "https://sites.google.com/site/revelgenomics/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Ensemble method integrating multiple tools to predict pathogenicity.",
+  "MANUAL_YEAR": 2016,
+  "SHORT NAME": "REVEL",
+  "FULL NAME": "Rare Exome Variant Ensemble Learner",
+  "KEYWORDS": "ensemble, missense",
+  "USE": "pathogenicity scoring",
+  "TITLE": "REVEL: An Ensemble Method for Predicting the Pathogenicity of Rare Missense Variants.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2016",
+  "VOLUME": "99",
+  "ISSUE": "4",
+  "PAGE": "877-885",
+  "Authors": "Ioannidis NM,Rothstein JH,Pejaver V,Middha S,McDonnell SK,Baheti S,Musolf A,Li Q,Holzinger E,Karyadi D,Cannon-Albright LA,Teerlink CC,Stanford JL,Isaacs WB,Xu J,Cooney KA,Lange EM,Schleutker J,Carpten JD,Powell IJ,Cussenot O,Cancel-Tassin G,Giles GG,MacInnis RJ,Maier C,Hsieh CL,Wiklund F,Catalona WJ,Foulkes WD,Mandal D,Eeles RA,Kote-Jarai Z,Bustamante CD,Schaid DJ,Hastie T,Ostrander EA,Bailey-Wilson JE,Radivojac P,Thibodeau SN,Whittemore AS,Sieh W",
+  "ABSTRACT": "The vast majority of coding variants are rare, and assessment of the contribution of rare variants to complex traits is hampered by low statistical power and limited functional data. Improved methods for predicting the pathogenicity of rare coding variants are needed to facilitate the discovery of disease variants from exome sequencing studies. We developed REVEL (rare exome variant ensemble learner), an ensemble method for predicting the pathogenicity of missense variants on the basis of individual tools: MutPred, FATHMM, VEST, PolyPhen, SIFT, PROVEAN, MutationAssessor, MutationTaster, LRT, GERP, SiPhy, phyloP, and phastCons. REVEL was trained with recently discovered pathogenic and rare neutral missense variants, excluding those previously used to train its constituent tools. When applied to two independent test sets, REVEL had the best overall performance (p < 10-12) as compared to any individual tool and seven ensemble methods: MetaSVM, MetaLR, KGGSeq, Condel, CADD, DANN, and Eigen. Importantly, REVEL also had the best performance for distinguishing pathogenic from rare neutral variants with allele frequencies <0.5%. The area under the receiver operating characteristic curve (AUC) for REVEL was 0.046-0.182 higher in an independent test set of 935 recent SwissVar disease variants and 123,935 putatively neutral exome sequencing variants and 0.027-0.143 higher in an independent test set of 1,953 pathogenic and 2,406 benign variants recently reported in ClinVar than the AUCs for other ensemble methods. We provide pre-computed REVEL scores for all possible human missense variants to facilitate the identification of pathogenic variants in the sea of rare variants discovered as sequencing studies expand in scale.",
+  "DOI": "10.1016/j.ajhg.2016.08.016",
+  "PMC ID": "PMC5065685",
+  "CITATION": "Ioannidis NM, Rothstein JH, Pejaver V, Middha S, ...&, Sieh W. (2016) REVEL: An Ensemble Method for Predicting the Pathogenicity of Rare Missense Variants. Am J Hum Genet, 99 (4) 877-885. doi:10.1016/j.ajhg.2016.08.016. PMID 27666373",
+  "FIRST_AUTHOR": "Ioannidis NM",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

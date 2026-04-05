@@ -1,0 +1,33 @@
+{
+  "NAME": "EVE",
+  "CATEGORY": "Evolutionary and Generative Protein Models",
+  "SOURCE": "EVE",
+  "PMID": 34707284,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nFrazer, J. et al. Disease variant prediction with deep generative models of evolutionary data. Nature 599, 91–95 (2021).  ",
+  "TOPIC": "Function",
+  "URL": "https://evemodel.org/",
+  "TYPE": "Model",
+  "DESCRIPTION": "VAE-based unsupervised model to predict variant impact using MSAs.",
+  "MANUAL_YEAR": 2023,
+  "SHORT NAME": "EVE",
+  "FULL NAME": "Evolutionary model of Variant Effect",
+  "KEYWORDS": "evolutionary, MSA, variant effect",
+  "USE": "missense scoring",
+  "TITLE": "Disease variant prediction with deep generative models of evolutionary data.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2021",
+  "VOLUME": "599",
+  "ISSUE": "7883",
+  "PAGE": "91-95",
+  "Authors": "Frazer J,Notin P,Dias M,Gomez A,Min JK,Brock K,Gal Y,Marks DS",
+  "ABSTRACT": "Quantifying the pathogenicity of protein variants in human disease-related genes would have a marked effect on clinical decisions, yet the overwhelming majority (over 98%) of these variants still have unknown consequences1-3. In principle, computational methods could support the large-scale interpretation of genetic variants. However, state-of-the-art methods4-10 have relied on training machine learning models on known disease labels. As these labels are sparse, biased and of variable quality, the resulting models have been considered insufficiently reliable11. Here we propose an approach that leverages deep generative models to predict variant pathogenicity without relying on labels. By modelling the distribution of sequence variation across organisms, we implicitly capture constraints on the protein sequences that maintain fitness. Our model EVE (evolutionary model of variant effect) not only outperforms computational approaches that rely on labelled data but also performs on par with, if not better than, predictions from high-throughput experiments, which are increasingly used as evidence for variant classification12-16. We predict the pathogenicity of more than 36 million variants across 3,219 disease genes and provide evidence for the classification of more than 256,000 variants of unknown significance. Our work suggests that models of evolutionary information can provide valuable independent evidence for variant interpretation that will be widely useful in research and clinical settings.",
+  "DOI": "10.1038/s41586-021-04043-8",
+  "PMC ID": "",
+  "CITATION": "Frazer J, Notin P, Dias M, Gomez A, ...&, Marks DS. (2021) Disease variant prediction with deep generative models of evolutionary data. Nature, 599 (7883) 91-95. doi:10.1038/s41586-021-04043-8. PMID 34707284",
+  "FIRST_AUTHOR": "Frazer J",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

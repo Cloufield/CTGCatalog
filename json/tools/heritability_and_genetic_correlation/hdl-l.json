@@ -1,0 +1,31 @@
+{
+  "NAME": "HDL-L",
+  "PMID": 40065165,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Local heritability/genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "HDL-L",
+  "FULL NAME": "high-definition likelihood (local)",
+  "MANUAL_YEAR": 2025,
+  "KEYWORDS": "likelihood-based inference",
+  "URL": "https://github.com/zhenin/HDL/",
+  "DESCRIPTION": "High-Definition Likelihood (HDL) is a likelihood-based method for estimating genetic correlation using GWAS summary statistics. Compared to LD Score regression (LDSC), It reduces the variance of a genetic correlation estimate by about 60%. Here, we provide an R-based computational tool HDL to implement our method. ",
+  "MANUAL_CITATION": "\nLi, Y., Pawitan, Y. & Shen, X. An enhanced framework for local genetic correlation analysis. Nat. Genet. 1–6 (2025).\n  \n",
+  "TITLE": "An enhanced framework for local genetic correlation analysis.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "4",
+  "PAGE": "1053-1058",
+  "Authors": "Li Y,Pawitan Y,Shen X",
+  "ABSTRACT": "Genetic correlation is a key parameter in the joint genetic model of complex traits, but it is usually estimated on a global genomic scale. Understanding local genetic correlations provides more detailed insight into the shared genetic architecture of complex traits. However, a state-of-the-art tool for local genetic correlation analysis, LAVA, is prone to false inference. Here we extend the high-definition likelihood (HDL) method to a local version, HDL-L, which performs genetic correlation analysis in small, approximately independent linkage disequilibrium blocks. HDL-L allows a more granular estimation of genetic variances and covariances. Simulations show that HDL-L offers more consistent heritability estimates and more efficient genetic correlation estimates compared with LAVA. HDL-L demonstrated robust performance across a wide range of simulations conducted under varying parameter settings. In the analysis of 30 phenotypes from the UK Biobank, HDL-L identified 109 significant local genetic correlations and showed a notable computational advantage. HDL-L proves to be a powerful tool for uncovering the detailed genetic landscape that underlies complex human traits, offering both accuracy and computational efficiency.",
+  "DOI": "10.1038/s41588-025-02123-3",
+  "PMC ID": "",
+  "CITATION": "Li Y, Pawitan Y, Shen X. (2025) An enhanced framework for local genetic correlation analysis. Nat Genet, 57 (4) 1053-1058. doi:10.1038/s41588-025-02123-3. PMID 40065165",
+  "FIRST_AUTHOR": "Li Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "Locityper",
+  "PMID": 41107551,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "Locityper",
+  "FULL NAME": "Locityper",
+  "KEYWORDS": "genotyping, complex loci, HLA, short read, long read, WGS",
+  "URL": "https://github.com/tprodanov/locityper",
+  "DESCRIPTION": "Locityper performs targeted genotyping of structurally variable and hyperpolymorphic genes—including HLA, KIR, MUC, and FCGR families—from short- or long-read whole-genome sequencing by aligning reads to locus haplotypes (often from pangenomes) and scoring depth and insert-size consistency.",
+  "TITLE": "Locityper enables targeted genotyping of complex polymorphic genes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "11",
+  "PAGE": "2901-2908",
+  "Authors": "Prodanov T,Plender EG,Seebohm G,Meuth SG,Eichler EE,Marschall T",
+  "ABSTRACT": "The human genome contains many structurally variable polymorphic loci, including several hundred disease-associated genes, almost inaccessible for accurate variant calling. Here we present Locityper, a tool capable of genotyping such challenging genes using short-read and long-read whole-genome sequencing. For each target, Locityper recruits and aligns reads to locus haplotypes, for instance, extracted from a pangenome, and finds the likeliest haplotype pair by optimizing read alignment, insert size and read depth profiles. Across 256 challenging medically relevant loci, Locityper achieves a median quality value (QV) above 35 from both long-read and short-read data, outperforming state-of-the-art Illumina and PacBio HiFi variant calling pipelines by 10.9 and 1.7 points, respectively. Furthermore, Locityper provides access to hyperpolymorphic HLA genes and other gene families, including KIR, MUC and FCGR. With its low running time of 1 h 35 m per sample at eight threads, Locityper is scalable to biobank-sized cohorts, enabling association studies for previously intractable disease-relevant genes.",
+  "DOI": "10.1038/s41588-025-02362-4",
+  "PMC ID": "PMC12597825",
+  "CITATION": "Prodanov T, Plender EG, Seebohm G, Meuth SG, ...&, Marschall T. (2025) Locityper enables targeted genotyping of complex polymorphic genes. Nat Genet, 57 (11) 2901-2908. doi:10.1038/s41588-025-02362-4. PMID 41107551",
+  "FIRST_AUTHOR": "Prodanov T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Kim",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 23894628,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "Influence of genetic variation on plasma protein levels in older adults using a multi-analyte panel.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2013",
+  "VOLUME": "8",
+  "ISSUE": "7",
+  "PAGE": "e70269",
+  "Authors": "Kim S,Swaminathan S,Inlow M,Risacher SL,Nho K,Shen L,Foroud TM,Petersen RC,Aisen PS,Soares H,Toledo JB,Shaw LM,Trojanowski JQ,Weiner MW,McDonald BC,Farlow MR,Ghetti B,Saykin AJ,Alzheimer’s Disease Neuroimaging Initiative (ADNI)",
+  "ABSTRACT": "Proteins, widely studied as potential biomarkers, play important roles in numerous physiological functions and diseases. Genetic variation may modulate corresponding protein levels and point to the role of these variants in disease pathophysiology. Effects of individual single nucleotide polymorphisms (SNPs) within a gene were analyzed for corresponding plasma protein levels using genome-wide association study (GWAS) genotype data and proteomic panel data with 132 quality-controlled analytes from 521 Caucasian participants in the Alzheimer's Disease Neuroimaging Initiative (ADNI) cohort. Linear regression analysis detected 112 significant (Bonferroni threshold p=2.44×10(-5)) associations between 27 analytes and 112 SNPs. 107 out of these 112 associations were tested in the Indiana Memory and Aging Study (IMAS) cohort for replication and 50 associations were replicated at uncorrected p<0.05 in the same direction of effect as those in the ADNI. We identified multiple novel associations including the association of rs7517126 with plasma complement factor H-related protein 1 (CFHR1) level at p<1.46×10(-60), accounting for 40 percent of total variation of the protein level. We serendipitously found the association of rs6677604 with the same protein at p<9.29×10(-112). Although these two SNPs were not in the strong linkage disequilibrium, 61 percent of total variation of CFHR1 was accounted for by rs6677604 without additional variation by rs7517126 when both SNPs were tested together. 78 other SNP-protein associations in the ADNI sample exceeded genome-wide significance (5×10(-8)). Our results confirmed previously identified gene-protein associations for interleukin-6 receptor, chemokine CC-4, angiotensin-converting enzyme, and angiotensinogen, although the direction of effect was reversed in some cases. This study is among the first analyses of gene-protein product relationships integrating multiplex-panel proteomics and targeted genes extracted from a GWAS array. With intensive searches taking place for proteomic biomarkers for many diseases, the role of genetic variation takes on new importance and should be considered in interpretation of proteomic results.",
+  "DOI": "10.1371/journal.pone.0070269",
+  "PMC ID": "PMC3720913",
+  "CITATION": "Kim S, Swaminathan S, Inlow M, Risacher SL, ...&, Alzheimer’s Disease Neuroimaging Initiative (ADNI). (2013) Influence of genetic variation on plasma protein levels in older adults using a multi-analyte panel. PLoS One, 8 (7) e70269. doi:10.1371/journal.pone.0070269. PMID 23894628",
+  "FIRST_AUTHOR": "Kim S",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

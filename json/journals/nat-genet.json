@@ -1,0 +1,24 @@
+{
+  "NAME": "Nature genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "URL": "http://www.nature.com/ng/",
+  "ENTRY_COUNT": 115,
+  "CITED_BY_SECTION": {
+    "Tools": 90,
+    "Sumstats": 20,
+    "References": 5
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "CADD",
+    "Gene Ontology",
+    "M-CAP",
+    "HUGO Gene Nomenclature Committee",
+    "UKBB-LD"
+  ]
+}

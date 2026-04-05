@@ -1,0 +1,27 @@
+{
+  "NAME": "Biobank Russia",
+  "PMID": 39043636,
+  "URL": "https://biobank.almazovcentre.ru/#",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "Datasets",
+  "TITLE": "Complex trait susceptibilities and population diversity in a sample of 4,145 Russians.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "6212",
+  "Authors": "Usoltsev D,Kolosov N,Rotar O,Loboda A,Boyarinova M,Moguchaya E,Kolesova E,Erina A,Tolkunova K,Rezapova V,Molotkov I,Melnik O,Freylikhman O,Paskar N,Alieva A,Baranova E,Bazhenova E,Beliaeva O,Vasilyeva E,Kibkalo S,Skitchenko R,Babenko A,Sergushichev A,Dushina A,Lopina E,Basyrova I,Libis R,Duplyakov D,Cherepanova N,Donner K,Laiho P,Kostareva A,Konradi A,Shlyakhto E,Palotie A,Daly MJ,Artomov M",
+  "ABSTRACT": "The population of Russia consists of more than 150 local ethnicities. The ethnic diversity and geographic origins, which extend from eastern Europe to Asia, make the population uniquely positioned to investigate the shared properties of inherited disease risks between European and Asian ancestries. We present the analysis of genetic and phenotypic data from a cohort of 4,145 individuals collected in three metro areas in western Russia. We show the presence of multiple admixed genetic ancestry clusters spanning from primarily European to Asian and high identity-by-descent sharing with the Finnish population. As a result, there was notable enrichment of Finnish-specific variants in Russia. We illustrate the utility of Russian-descent cohorts for discovery of novel population-specific genetic associations, as well as replication of previously identified associations that were thought to be population-specific in other cohorts. Finally, we provide access to a database of allele frequencies and GWAS results for 464 phenotypes.",
+  "DOI": "10.1038/s41467-024-50304-1",
+  "PMC ID": "PMC11266540",
+  "CITATION": "Usoltsev D, Kolosov N, Rotar O, Loboda A, ...&, Artomov M. (2024) Complex trait susceptibilities and population diversity in a sample of 4,145 Russians. Nat Commun, 15 (1) 6212. doi:10.1038/s41467-024-50304-1. PMID 39043636",
+  "FIRST_AUTHOR": "Usoltsev D",
+  "DESCRIPTION": "GWAS summary statistics from the Russian biobank resource (complex traits in Russian populations).",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

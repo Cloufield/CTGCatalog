@@ -1,0 +1,13 @@
+{
+  "NAME": "Pilot",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "STAGE_ORDER": 1,
+  "STAGE_PERIOD": "2008–2010",
+  "TAGS": ["1000 Genomes", "Reference"],
+  "DESCRIPTION": "Proof-of-concept low-coverage whole-genome sequencing and SNP arrays across multiple populations; established protocols and data model for the main project.",
+  "URL": "https://www.internationalgenome.org/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "snipar",
+  "PMID": 35681053,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS using family history",
+  "TYPE": "Tools",
+  "SHORT NAME": "snipar",
+  "FULL NAME": "single nucleotide imputation of parents",
+  "URL": "https://github.com/AlexTISYoung/snipar",
+  "DESCRIPTION": "snipar (single nucleotide imputation of parents) is a Python package for inferring identity-by-descent (IBD) segments shared between siblings, imputing missing parental genotypes, and for performing family based genome-wide association and polygenic score analyses using observed and/or imputed parental genotypes.",
+  "MANUAL_CITATION": "Young, A. I., Nehzati, S. M., Benonisdottir, S., Okbay, A., Jayashankar, H., Lee, C., ... & Kong, A. (2022). Mendelian imputation of parental genotypes improves estimates of direct genetic effects. Nature genetics, 54(6), 897-905.",
+  "TITLE": "Mendelian imputation of parental genotypes improves estimates of direct genetic effects.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "6",
+  "PAGE": "897-905",
+  "Authors": "Young AI,Nehzati SM,Benonisdottir S,Okbay A,Jayashankar H,Lee C,Cesarini D,Benjamin DJ,Turley P,Kong A",
+  "ABSTRACT": "Effects estimated by genome-wide association studies (GWASs) include effects of alleles in an individual on that individual (direct genetic effects), indirect genetic effects (for example, effects of alleles in parents on offspring through the environment) and bias from confounding. Within-family genetic variation is random, enabling unbiased estimation of direct genetic effects when parents are genotyped. However, parental genotypes are often missing. We introduce a method that imputes missing parental genotypes and estimates direct genetic effects. Our method, implemented in the software package snipar (single-nucleotide imputation of parents), gives more precise estimates of direct genetic effects than existing approaches. Using 39,614 individuals from the UK Biobank with at least one genotyped sibling/parent, we estimate the correlation between direct genetic effects and effects from standard GWASs for nine phenotypes, including educational attainment (r = 0.739, standard error (s.e.) = 0.086) and cognitive ability (r = 0.490, s.e. = 0.086). Our results demonstrate substantial confounding bias in standard GWASs for some phenotypes.",
+  "DOI": "10.1038/s41588-022-01085-0",
+  "PMC ID": "PMC9197765",
+  "CITATION": "Young AI, Nehzati SM, Benonisdottir S, Okbay A, ...&, Kong A. (2022) Mendelian imputation of parental genotypes improves estimates of direct genetic effects. Nat Genet, 54 (6) 897-905. doi:10.1038/s41588-022-01085-0. PMID 35681053",
+  "FIRST_AUTHOR": "Young AI",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

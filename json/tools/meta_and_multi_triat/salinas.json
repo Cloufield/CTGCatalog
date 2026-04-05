@@ -1,0 +1,26 @@
+{
+  "NAME": "Salinas",
+  "PMID": 29020254,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Review",
+  "MANUAL_YEAR": 2018,
+  "MANUAL_CITATION": "\nSalinas, Y. D., Wang, Z. & DeWan, A. T. Statistical analysis of multiple phenotypes in genetic epidemiologic studies: From cross-phenotype associations to pleiotropy. Am. J. Epidemiol. 187, 855–863 (2018).\n  ",
+  "TITLE": "Statistical Analysis of Multiple Phenotypes in Genetic Epidemiologic Studies: From Cross-Phenotype Associations to Pleiotropy.",
+  "ISO": "Am J Epidemiol",
+  "JOURNAL": "American journal of epidemiology",
+  "YEAR": "2018",
+  "VOLUME": "187",
+  "ISSUE": "4",
+  "PAGE": "855-863",
+  "Authors": "Salinas YD,Wang Z,DeWan AT",
+  "ABSTRACT": "In the context of genetics, pleiotropy refers to the phenomenon in which a single genetic locus affects more than 1 trait or disease. Genetic epidemiologic studies have identified loci associated with multiple phenotypes, and these cross-phenotype associations are often incorrectly interpreted as examples of pleiotropy. Pleiotropy is only one possible explanation for cross-phenotype associations. Cross-phenotype associations may also arise due to issues related to study design, confounder bias, or nongenetic causal links between the phenotypes under analysis. Therefore, it is necessary to dissect cross-phenotype associations carefully to uncover true pleiotropic loci. In this review, we describe statistical methods that can be used to identify robust statistical evidence of pleiotropy. First, we provide an overview of univariate and multivariate methods for discovery of cross-phenotype associations and highlight important considerations for choosing among available methods. Then, we describe how to dissect cross-phenotype associations by using mediation analysis. Pleiotropic loci provide insights into the mechanistic underpinnings of disease comorbidity, and they may serve as novel targets for interventions that simultaneously treat multiple diseases. Discerning between different types of cross-phenotype associations is necessary to realize the public health potential of pleiotropic loci.",
+  "DOI": "10.1093/aje/kwx296",
+  "PMC ID": "PMC5889027",
+  "CITATION": "Salinas YD, Wang Z, DeWan AT. (2018) Statistical Analysis of Multiple Phenotypes in Genetic Epidemiologic Studies: From Cross-Phenotype Associations to Pleiotropy. Am J Epidemiol, 187 (4) 855-863. doi:10.1093/aje/kwx296. PMID 29020254",
+  "FIRST_AUTHOR": "Salinas YD",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

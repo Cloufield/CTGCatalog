@@ -1,0 +1,13 @@
+{
+  "NAME": "HapMap Phase III",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "STAGE_ORDER": -1,
+  "STAGE_PERIOD": "2007–2009",
+  "TAGS": ["1000 Genomes", "HapMap", "Reference"],
+  "DESCRIPTION": "Extended to 11 populations and ~1.6M SNPs; broader ancestry representation and LD maps that informed the design and early phases of the 1000 Genomes Project.",
+  "URL": "https://www.genome.gov/10001688/international-hapmap-project",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

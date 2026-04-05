@@ -1,0 +1,31 @@
+{
+  "NAME": "S-PrediXcan",
+  "PMID": 29739930,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "S-PrediXcan",
+  "FULL NAME": "S-PrediXcan",
+  "MANUAL_YEAR": 2018,
+  "URL": "https://github.com/hakyimlab/MetaXcan",
+  "DESCRIPTION": "a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan)",
+  "MANUAL_CITATION": "Barbeira, A. N., Dickinson, S. P., Bonazzola, R., Zheng, J., Wheeler, H. E., Torres, J. M., ... & Im, H. K. (2018). Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics. Nature communications, 9(1), 1-20.",
+  "DATA_REQUIRED": "Sumstats",
+  "TITLE": "Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2018",
+  "VOLUME": "9",
+  "ISSUE": "1",
+  "PAGE": "1825",
+  "Authors": "Barbeira AN,Dickinson SP,Bonazzola R,Zheng J,Wheeler HE,Torres JM,Torstenson ES,Shah KP,Garcia T,Edwards TL,Stahl EA,Huckins LM,GTEx Consortium,Nicolae DL,Cox NJ,Im HK",
+  "ABSTRACT": "Scalable, integrative methods to understand mechanisms that link genetic variants with phenotypes are needed. Here we derive a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan) and show its accuracy and general robustness to misspecified reference sets. We apply this framework to 44 GTEx tissues and 100+ phenotypes from GWAS and meta-analysis studies, creating a growing public catalog of associations that seeks to capture the effects of gene expression variation on human phenotypes. Replication in an independent cohort is shown. Most of the associations are tissue specific, suggesting context specificity of the trait etiology. Colocalized significant associations in unexpected tissues underscore the need for an agnostic scanning of multiple contexts to improve our ability to detect causal regulatory mechanisms. Monogenic disease genes are enriched among significant associations for related traits, suggesting that smaller alterations of these genes may cause a spectrum of milder phenotypes.",
+  "DOI": "10.1038/s41467-018-03621-1",
+  "PMC ID": "PMC5940825",
+  "CITATION": "Barbeira AN, Dickinson SP, Bonazzola R, Zheng J, ...&, Im HK. (2018) Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics. Nat Commun, 9 (1) 1825. doi:10.1038/s41467-018-03621-1. PMID 29739930",
+  "FIRST_AUTHOR": "Barbeira AN",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

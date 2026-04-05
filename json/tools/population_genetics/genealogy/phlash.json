@@ -1,0 +1,20 @@
+{
+  "NAME": "PHLASH",
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "FULL NAME": "Population History Learning by Averaging Sampled Histories",
+  "KEYWORDS": "population size inference, Bayesian demographic inference, coalescent model, ancestral recombination graphs, whole-genome sequencing, GPU acceleration",
+  "URL": "https://github.com/jthlab/phlash",
+  "DESCRIPTION": "PHLASH is a Bayesian method for inferring population size history from whole-genome sequence data using a coalescent-based hidden Markov model. It provides accurate and adaptive estimates with automatic uncertainty quantification, leveraging GPU acceleration for efficiency. It outperforms existing tools like SMC++ and MSMC2 in accuracy and computational speed, particularly with large sample sizes.",
+  "MANUAL_CITATION": "Terhorst J. Accelerated Bayesian inference of population size history from recombining sequence data. Nat Genet. 2025; DOI: 10.1038/s41588-025-02323-x.",
+  "ARROW_SUMMARY": "Whole-genome sequence data → Bayesian coalescent model with gradient-based likelihood evaluation → Posterior distribution of population size history with uncertainty quantification",
+  "DATA_REQUIRED": "Whole-genome sequence data from multiple diploid samples",
+  "AI_GENERATED": 1,
+  "DOI": "10.1038/s41588-025-02323-x",
+  "CITATION": "Terhorst J. Accelerated Bayesian inference of population size history from recombining sequence data. Nat Genet. 2025; DOI: 10.1038/s41588-025-02323-x.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

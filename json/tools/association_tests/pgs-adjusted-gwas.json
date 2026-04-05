@@ -1,0 +1,29 @@
+{
+  "NAME": "PGS-adjusted GWAS",
+  "PMID": 37723263,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "PGS-adjusted GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "PGS-adjusted GWAS",
+  "FULL NAME": "PGS-adjusted GWAS",
+  "KEYWORDS": "LOCO-PGSs, two-stage meta-analysis strategy",
+  "DESCRIPTION": "adjustment of GWAS analyses for polygenic scores (PGSs) increases the statistical power for discovery across all ancestries",
+  "MANUAL_CITATION": "Campos, A. I., Namba, S., Lin, S. C., Nam, K., Sidorenko, J., Wang, H., ... & Yengo, L. (2023). Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores. Nature Genetics, 1-8.",
+  "TITLE": "Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "10",
+  "PAGE": "1769-1776",
+  "Authors": "Campos AI,Namba S,Lin SC,Nam K,Sidorenko J,Wang H,Kamatani Y,Biobank Japan Project,Wang LH,Lee S,Lin YF,Feng YA,Okada Y,Visscher PM,Yengo L",
+  "ABSTRACT": "Genome-wide association studies (GWASs) have been mostly conducted in populations of European ancestry, which currently limits the transferability of their findings to other populations. Here, we show, through theory, simulations and applications to real data, that adjustment of GWAS analyses for polygenic scores (PGSs) increases the statistical power for discovery across all ancestries. We applied this method to analyze seven traits available in three large biobanks with participants of East Asian ancestry (n = 340,000 in total) and report 139 additional associations across traits. We also present a two-stage meta-analysis strategy whereby, in contributing cohorts, a PGS-adjusted GWAS is rerun using PGSs derived from a first round of a standard meta-analysis. On average, across traits, this approach yields a 1.26-fold increase in the number of detected associations (range 1.07- to 1.76-fold increase). Altogether, our study demonstrates the value of using PGSs to increase the power of GWASs in underrepresented populations and promotes such an analytical strategy for future GWAS meta-analyses.",
+  "DOI": "10.1038/s41588-023-01500-0",
+  "PMC ID": "",
+  "CITATION": "Campos AI, Namba S, Lin SC, Nam K, ...&, Yengo L. (2023) Boosting the power of genome-wide association studies within and across ancestries by using polygenic scores. Nat Genet, 55 (10) 1769-1776. doi:10.1038/s41588-023-01500-0. PMID 37723263",
+  "FIRST_AUTHOR": "Campos AI",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

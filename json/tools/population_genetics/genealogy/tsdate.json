@@ -1,0 +1,28 @@
+{
+  "NAME": "tsdate ",
+  "PMID": 35201891,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "tsdate ",
+  "USE": "The tsdate program [Wohns et al., 2022] infers dates for nodes in a genetic genealogy, sometimes loosely known as an ancestral recombination graph or ARG [Wong et al., 2023]. More precisely, it takes a genealogy in tree sequence format as an input and returns a copy of that tree sequence with altered node and mutation times. These times have been estimated on the basis of the number of mutations along the edges connecting genomes in the genealogy (i.e. using the “molecular clock”).",
+  "URL": "https://tskit.dev/tsdate/docs/latest/introduction.html",
+  "DESCRIPTION": "Wohns, A. W. et al. A unified genealogy of modern and ancient genomes. Science 375, eabi8264 (2022).",
+  "TITLE": "A unified genealogy of modern and ancient genomes.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2022",
+  "VOLUME": "375",
+  "ISSUE": "6583",
+  "PAGE": "eabi8264",
+  "Authors": "Wohns AW,Wong Y,Jeffery B,Akbari A,Mallick S,Pinhasi R,Patterson N,Reich D,Kelleher J,McVean G",
+  "ABSTRACT": "The sequencing of modern and ancient genomes from around the world has revolutionized our understanding of human history and evolution. However, the problem of how best to characterize ancestral relationships from the totality of human genomic variation remains unsolved. Here, we address this challenge with nonparametric methods that enable us to infer a unified genealogy of modern and ancient humans. This compact representation of multiple datasets explores the challenges of missing and erroneous data and uses ancient samples to constrain and date relationships. We demonstrate the power of the method to recover relationships between individuals and populations as well as to identify descendants of ancient samples. Finally, we introduce a simple nonparametric estimator of the geographical location of ancestors that recapitulates key events in human history.",
+  "DOI": "10.1126/science.abi8264",
+  "PMC ID": "PMC10027547",
+  "CITATION": "Wohns AW, Wong Y, Jeffery B, Akbari A, ...&, McVean G. (2022) A unified genealogy of modern and ancient genomes. Science, 375 (6583) eabi8264. doi:10.1126/science.abi8264. PMID 35201891",
+  "FIRST_AUTHOR": "Wohns AW",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

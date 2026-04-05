@@ -1,0 +1,27 @@
+{
+  "NAME": "Hannon",
+  "PMID": 26619357,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Fetal brain",
+  "CATEGORY": "Methylation",
+  "URL": "https://epigenetics.essex.ac.uk/mQTL/",
+  "MANUAL_YEAR": 2015,
+  "MANUAL_CITATION": "Hannon, E. et al. Methylation QTLs in the developing brain and their enrichment in schizophrenia risk loci. Nat. Neurosci. 19, 48–54 (2016).",
+  "TITLE": "Methylation QTLs in the developing brain and their enrichment in schizophrenia risk loci.",
+  "ISO": "Nat Neurosci",
+  "JOURNAL": "Nature neuroscience",
+  "YEAR": "2016",
+  "VOLUME": "19",
+  "ISSUE": "1",
+  "PAGE": "48-54",
+  "Authors": "Hannon E,Spiers H,Viana J,Pidsley R,Burrage J,Murphy TM,Troakes C,Turecki G,O'Donovan MC,Schalkwyk LC,Bray NJ,Mill J",
+  "ABSTRACT": "We characterized DNA methylation quantitative trait loci (mQTLs) in a large collection (n = 166) of human fetal brain samples spanning 56-166 d post-conception, identifying >16,000 fetal brain mQTLs. Fetal brain mQTLs were primarily cis-acting, enriched in regulatory chromatin domains and transcription factor binding sites, and showed substantial overlap with genetic variants that were also associated with gene expression in the brain. Using tissue from three distinct regions of the adult brain (prefrontal cortex, striatum and cerebellum), we found that most fetal brain mQTLs were developmentally stable, although a subset was characterized by fetal-specific effects. Fetal brain mQTLs were enriched amongst risk loci identified in a recent large-scale genome-wide association study (GWAS) of schizophrenia, a severe psychiatric disorder with a hypothesized neurodevelopmental component. Finally, we found that mQTLs can be used to refine GWAS loci through the identification of discrete sites of variable fetal brain methylation associated with schizophrenia risk variants.",
+  "DOI": "10.1038/nn.4182",
+  "PMC ID": "PMC4714325",
+  "CITATION": "Hannon E, Spiers H, Viana J, Pidsley R, ...&, Mill J. (2016) Methylation QTLs in the developing brain and their enrichment in schizophrenia risk loci. Nat Neurosci, 19 (1) 48-54. doi:10.1038/nn.4182. PMID 26619357",
+  "FIRST_AUTHOR": "Hannon E",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

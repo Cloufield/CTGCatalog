@@ -1,0 +1,29 @@
+{
+  "NAME": "IBS",
+  "PMID": 26069263,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Variants_on_protein",
+  "TYPE": "Tools",
+  "SHORT NAME": "IBS",
+  "FULL NAME": "illustrator of biological sequences",
+  "URL": "http://ibs.biocuckoo.org/",
+  "DESCRIPTION": "an illustrator for the presentation and visualization of biological sequences",
+  "MANUAL_CITATION": "Liu, Wenzhong, et al. \"IBS: an illustrator for the presentation and visualization of biological sequences.\" Bioinformatics 31.20 (2015): 3359-3361.",
+  "TITLE": "IBS: an illustrator for the presentation and visualization of biological sequences.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2015",
+  "VOLUME": "31",
+  "ISSUE": "20",
+  "PAGE": "3359-61",
+  "Authors": "Liu W,Xie Y,Ma J,Luo X,Nie P,Zuo Z,Lahrmann U,Zhao Q,Zheng Y,Zhao Y,Xue Y,Ren J",
+  "ABSTRACT": "UNLABELLED: Biological sequence diagrams are fundamental for visualizing various functional elements in protein or nucleotide sequences that enable a summarization and presentation of existing information as well as means of intuitive new discoveries. Here, we present a software package called illustrator of biological sequences (IBS) that can be used for representing the organization of either protein or nucleotide sequences in a convenient, efficient and precise manner. Multiple options are provided in IBS, and biological sequences can be manipulated, recolored or rescaled in a user-defined mode. Also, the final representational artwork can be directly exported into a publication-quality figure. AVAILABILITY AND IMPLEMENTATION: The standalone package of IBS was implemented in JAVA, while the online service was implemented in HTML5 and JavaScript. Both the standalone package and online service are freely available at http://ibs.biocuckoo.org. CONTACT: renjian.sysu@gmail.com or xueyu@hust.edu.cn SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btv362",
+  "PMC ID": "PMC4595897",
+  "CITATION": "Liu W, Xie Y, Ma J, Luo X, ...&, Ren J. (2015) IBS: an illustrator for the presentation and visualization of biological sequences. Bioinformatics, 31 (20) 3359-61. doi:10.1093/bioinformatics/btv362. PMID 26069263",
+  "FIRST_AUTHOR": "Liu W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

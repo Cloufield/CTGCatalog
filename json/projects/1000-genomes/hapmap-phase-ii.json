@@ -1,0 +1,13 @@
+{
+  "NAME": "HapMap Phase II",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "STAGE_ORDER": -2,
+  "STAGE_PERIOD": "2005–2007",
+  "TAGS": ["1000 Genomes", "HapMap", "Reference"],
+  "DESCRIPTION": "Expanded SNP density (~3.1M SNPs) and haplotype structure across the same core panels; improved tagging coverage and supported finer-scale association and phasing workflows before large-scale resequencing.",
+  "URL": "https://www.genome.gov/10001688/international-hapmap-project",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

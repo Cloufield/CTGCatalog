@@ -1,0 +1,17 @@
+{
+  "NAME": "GAS Power Calculator",
+  "SECTION": "Tools",
+  "TOPIC": "Power_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "GAS Power Calculator",
+  "FULL NAME": "Genetic Association Study Power Calculator",
+  "PREPRINT_DOI": "10.1101/164343",
+  "PREPRINT_SERVER": "biorxiv",
+  "URL": "https://csg.sph.umich.edu/abecasis/gas_power_calculator/",
+  "DESCRIPTION": "This Genetic Association Study (GAS) Power Calculator is a simple interface that can be used to compute statistical power for large one-stage genetic association studies. The underlying method is derived from the CaTS power calculator for two-stage association studies (2006).",
+  "MANUAL_CITATION": "Johnson, J. L., & Abecasis, G. R. (2017). GAS Power Calculator: web-based power calculator for genetic association studies. BioRxiv, 164343.",
+  "CITATION": "Johnson, J. L., & Abecasis, G. R. (2017). GAS Power Calculator: web-based power calculator for genetic association studies. BioRxiv, 164343.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

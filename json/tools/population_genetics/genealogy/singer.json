@@ -1,0 +1,29 @@
+{
+  "NAME": "SINGER ",
+  "PMID": 40921789,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "SINGER ",
+  "FULL NAME": "sampling and inferring of genealogies with recombination",
+  "USE": "SINGER is a Bayesian method to do posterior sampling of Ancestral Recombination Graph under Sequentially Markovian Coalescent. SINGER works by iterative threading one haplotype to the partially-built ARG, until the ARG for all haplotypes have been built. After initialization, MCMC will be performed to update the ARG to explore the posterior distribution.",
+  "URL": "https://github.com/popgenmethods/SINGER",
+  "DESCRIPTION": "\nDeng, Y., Nielsen, R. & Song, Y. S. Robust and accurate Bayesian inference of genome-wide genealogies for hundreds of genomes. Nat. Genet. 1–12 (2025).\n  \n",
+  "TITLE": "Robust and accurate Bayesian inference of genome-wide genealogies for hundreds of genomes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "9",
+  "PAGE": "2124-2135",
+  "Authors": "Deng Y,Nielsen R,Song YS",
+  "ABSTRACT": "The Ancestral Recombination Graph (ARG), which describes the genealogical history of a sample of genomes, is a vital tool in population genomics and biomedical research. Recent advancements have substantially increased ARG reconstruction scalability, but they rely on approximations that can reduce accuracy, especially under model misspecification. Moreover, they reconstruct only a single ARG topology and cannot quantify the considerable uncertainty associated with ARG inferences. Here, to address these challenges, we introduce SINGER (sampling and inferring of genealogies with recombination), a method that accelerates ARG sampling from the posterior distribution by two orders of magnitude, enabling accurate inference and uncertainty quantification for hundreds of whole-genome sequences. Through extensive simulations, we demonstrate SINGER's enhanced accuracy and robustness to model misspecification compared to existing methods. We demonstrate the utility of SINGER by applying it to individuals of British and African descent within the 1000 Genomes Project, identifying signals of population differentiation, archaic introgression and strong support for ancient polymorphism in the human leukocyte antigen region shared across primates.",
+  "DOI": "10.1038/s41588-025-02317-9",
+  "PMC ID": "PMC12425808",
+  "CITATION": "Deng Y, Nielsen R, Song YS. (2025) Robust and accurate Bayesian inference of genome-wide genealogies for hundreds of genomes. Nat Genet, 57 (9) 2124-2135. doi:10.1038/s41588-025-02317-9. PMID 40921789",
+  "FIRST_AUTHOR": "Deng Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

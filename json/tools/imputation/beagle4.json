@@ -1,0 +1,28 @@
+{
+  "NAME": "BEAGLE4",
+  "PMID": 26748515,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "BEAGLE4",
+  "URL": "https://faculty.washington.edu/browning/beagle/beagle.html",
+  "DESCRIPTION": "(beagle 4.1)",
+  "MANUAL_CITATION": "Browning, Brian L., and Sharon R. Browning. \"Genotype imputation with millions of reference samples.\" The American Journal of Human Genetics 98.1 (2016): 116-126.",
+  "TITLE": "Genotype Imputation with Millions of Reference Samples.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2016",
+  "VOLUME": "98",
+  "ISSUE": "1",
+  "PAGE": "116-26",
+  "Authors": "Browning BL,Browning SR",
+  "ABSTRACT": "We present a genotype imputation method that scales to millions of reference samples. The imputation method, based on the Li and Stephens model and implemented in Beagle v.4.1, is parallelized and memory efficient, making it well suited to multi-core computer processors. It achieves fast, accurate, and memory-efficient genotype imputation by restricting the probability model to markers that are genotyped in the target samples and by performing linear interpolation to impute ungenotyped variants. We compare Beagle v.4.1 with Impute2 and Minimac3 by using 1000 Genomes Project data, UK10K Project data, and simulated data. All three methods have similar accuracy but different memory requirements and different computation times. When imputing 10 Mb of sequence data from 50,000 reference samples, Beagle's throughput was more than 100× greater than Impute2's throughput on our computer servers. When imputing 10 Mb of sequence data from 200,000 reference samples in VCF format, Minimac3 consumed 26× more memory per computational thread and 15× more CPU time than Beagle. We demonstrate that Beagle v.4.1 scales to much larger reference panels by performing imputation from a simulated reference panel having 5 million samples and a mean marker density of one marker per four base pairs.",
+  "DOI": "10.1016/j.ajhg.2015.11.020",
+  "PMC ID": "PMC4716681",
+  "CITATION": "Browning BL, Browning SR. (2016) Genotype Imputation with Millions of Reference Samples. Am J Hum Genet, 98 (1) 116-26. doi:10.1016/j.ajhg.2015.11.020. PMID 26748515",
+  "FIRST_AUTHOR": "Browning BL",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

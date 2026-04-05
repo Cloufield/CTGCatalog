@@ -1,0 +1,17 @@
+{
+  "NAME": "The Trøndelag Health Study",
+  "SHORT NAME": "HUNT",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~229k",
+  "STUDY TYPE": "population-based prospective Norwegian cohort",
+  "MANUAL_CITATION": "Brumpton, B. M., Graham, S., Surakka, I., Skogholt, A. H., Løset, M., Fritsche, L. G., ... & Willer, C. J. (2022). The HUNT Study: a population-based cohort for genetic research. Cell Genomics, 2(10), 100193.",
+  "URL": "https://www.ntnu.edu/hunt/hunt-biobank",
+  "DESCRIPTION": "HUNT Biobank is an established and modern research biobank with high-technology equipment for storage, analysis, sample handling and delivery of samples. Our samples satisfy high quality standards and are stored in accordance with the Data Inspectorates laws and regulations. HUNT Biobank engages in sample handling from The Nord-Trøndelag Health Study (HUNT), Cohort of Norway (CONOR), and can receive samples from other researchers and research projects for storage, analysis and processing of DNA. We do not store samples from private individuals.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Norwegian adults (HUNT, Trøndelag)"
+}

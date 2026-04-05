@@ -1,0 +1,14 @@
+{
+  "NAME": "Penn Medicine Biobank",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~40k",
+  "URL": "https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank",
+  "DESCRIPTION": "The Penn Medicine BioBank (PMBB) is a research program created to study the causes and treatments of many diseases. Any Penn Medicine patient (age 18 and up) can sign up. The PMBB is a collection of biological samples, such as blood or tissue, that are donated by patient volunteers. These samples are then connected to clinical information, such as diseases or lab measures. These data are then used by researchers to discover new ways to detect, treat, and maybe even prevent or cure disease. Some of these studies may be about how genes affect health and disease. Other studies look at how genes affect response to medicines.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "University of Pennsylvania Health System patients"
+}

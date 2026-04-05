@@ -1,0 +1,24 @@
+{
+  "NAME": "American journal of human genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "URL": "https://www.sciencedirect.com/journal/the-american-journal-of-human-genetics",
+  "ENTRY_COUNT": 47,
+  "CITED_BY_SECTION": {
+    "Tools": 45,
+    "Sumstats": 1,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "REVEL",
+    "Ahola-Olli",
+    "LDAK-GBAT",
+    "PLINK",
+    "POLMM"
+  ]
+}

@@ -4,17 +4,6 @@ import shutil
 import pandas as pd
 from load_data import load_biobanks
 
-def fix_journal_info(df_combined):
-    # fix JOURNAL_INFO
-    try:
-        #df_combined.loc[df_combined["TYPE"]=="Review","NAME"] = "Review-" + df_combined.loc[df_combined["TYPE"]=="Review","FIRST_AUTHOR"]
-        df_combined["JOURNAL_INFO"] =   df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].apply(lambda x: format_string(x) ,axis=1)
-        is_journal_info_empty = df_combined[['JOURNAL', 'ISO', 'YEAR', 'VOLUME', 'ISSUE', 'PAGE']].isna().all(axis=1)
-        df_combined.loc[is_journal_info_empty, "JOURNAL_INFO"] = pd.NA
-    except:
-        pass
-    return df_combined
-
 def fix_prefix_suffix(df_combined):
     if "ADD_PREFIX" in df_combined.columns and "ADD_SUFFIX" in df_combined.columns and "USE_FIRST_AUTHOR" in df_combined.columns: 
         df_combined[["ADD_PREFIX","ADD_SUFFIX","USE_FIRST_AUTHOR"]] = df_combined[["ADD_PREFIX","ADD_SUFFIX","USE_FIRST_AUTHOR"]].fillna("0")
@@ -23,7 +12,7 @@ def fix_prefix_suffix(df_combined):
 
 def fix_name(df_combined):
     # fix name
-    df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace('\s+' , " ",regex=True)
+    df_combined["NAME"] = df_combined["NAME"].str.strip().str.replace(r"\s+", " ", regex=True)
     return df_combined
 
 def fix_pubmed_id(df_combined):
@@ -41,28 +30,49 @@ def add_related_biobanks(biobanks, biobank_to_topic):
          lowered_strpped_key = i.strip().lower()
          if lowered_strpped_key in biobank_to_topic.keys():
             formatted_i = "-".join(lowered_strpped_key.split()) 
-            md_url_string.append("[{}](./Biobanks_{}.md#{}) ".format(i,  biobank_to_topic[lowered_strpped_key]["TOPIC"],formatted_i ))                
-    return ",".join(md_url_string)    
+            # Sibling pages live at /Sumstats_* / etc.; ./Biobanks_*.md would wrongly resolve to /Sumstats_*/Biobanks_*.md
+            topic = biobank_to_topic[lowered_strpped_key]["TOPIC"]
+            label = biobank_to_topic[lowered_strpped_key]["NAME"]
+            md_url_string.append(
+                "[{}](../Biobanks_{}/#{}) ".format(label, topic, formatted_i)
+            )
+    return ",".join(md_url_string)
+
 
 def format_related_biobanks(df_combined):
     is_not_na = ~df_combined["RELATED_BIOBANK"].isna()
-    
-    biobanks = load_biobanks()
-    biobanks["NAME"] = biobanks["NAME"].str.strip().str.lower()
+    if not is_not_na.any():
+        return df_combined
 
-    biobanks = biobanks.rename(columns={"NAME":"RELATED_BIOBANK"})[["RELATED_BIOBANK","TOPIC"]].set_index("RELATED_BIOBANK")
-    
+    biobanks = load_biobanks()
+    if biobanks.empty:
+        return df_combined
+
+    biobanks = biobanks.copy()
+    biobanks["NAME"] = biobanks["NAME"].str.strip()
+    biobanks["_key"] = biobanks["NAME"].str.lower()
+    biobanks = biobanks.set_index("_key")[["NAME", "TOPIC"]]
+
     biobank_to_topic = biobanks.to_dict(orient="index")
 
     df_combined.loc[is_not_na,"RELATED_BIOBANK"]  = df_combined.loc[is_not_na,"RELATED_BIOBANK"].apply(lambda x:add_related_biobanks(x, biobank_to_topic)) 
     return df_combined
 
-def format_string(series):
-    string = []
-    for i in series:
-        if i is not None:
-            string.append(str(i))
-    return " ; ".join(string)
+
+def _catalog_bool_flag(v) -> bool:
+    """True for JSON/DataFrame 1, 1.0, or string '1'; False for 0, NaN, blank."""
+    if v is None:
+        return False
+    try:
+        if pd.isna(v):
+            return False
+    except TypeError:
+        pass
+    try:
+        return float(v) == 1.0
+    except (TypeError, ValueError):
+        return str(v).strip() in ("1", "1.0")
+
 
 def add_prefix_suffix_to_name(series):
     name = series["NAME"]
@@ -75,15 +85,16 @@ def add_prefix_suffix_to_name(series):
 
     name_string = "{}".format(name)
 
-    if first_author_i == "1" :
-            if len(first_author)>0:
-                name_string = "{}".format(first_author)
-    if prefix_i == "1" :
-            if len(prefix) >0:
-                name_string = "{}-{}".format(prefix, name_string)
-    if suffix_i == "1":
-            if len(suffix) >0:
-                name_string = "{}-{}".format(name_string, suffix)
+    if _catalog_bool_flag(first_author_i):
+        fa = str(first_author).strip()
+        if fa:
+            name_string = "{}, et al".format(fa)
+    if _catalog_bool_flag(prefix_i):
+        if len(prefix) > 0:
+            name_string = "{}-{}".format(prefix, name_string)
+    if _catalog_bool_flag(suffix_i):
+        if len(suffix) > 0:
+            name_string = "{}-{}".format(name_string, suffix)
     return name_string
 
 def fix_url_single(urls):
@@ -101,13 +112,28 @@ def fix_url(df_combined):
     return df_combined    
 
 def fix_citation(df_combined):
-    if not df_combined["CITATION"].isna().all():
-        df_combined.loc[df_combined["CITATION"].isna(),"CITATION"] = df_combined.loc[df_combined["CITATION"].isna(),"MANUAL_CITATION"].str.strip()
-        df_combined["CITATION"] = df_combined["CITATION"].str.replace('\n','<br><br>')
+    if "CITATION" not in df_combined.columns:
+        df_combined["CITATION"] = pd.NA
+    # Only use explicit CITATION from JSON (PubMed sync or hand-authored). Do not
+    # fabricate from other fields and do not promote MANUAL_CITATION here.
+    cit = df_combined["CITATION"].astype("string")
+    blank = cit.isna() | (cit.str.strip() == "")
+    df_combined["CITATION"] = cit.mask(blank, pd.NA)
+    has_cit = df_combined["CITATION"].notna()
+    df_combined.loc[has_cit, "CITATION"] = df_combined.loc[
+        has_cit, "CITATION"
+    ].astype(str).str.replace("\n", "<br><br>", regex=False)
     return df_combined
 
 def fix_name_link(df_combined):
-    df_combined["NAME_FOR_LINK"] = df_combined["NAME"].str.strip().str.lower().str.replace('\s+','-',regex=True).str.replace('[^a-zA-Z0-9-]+','',regex=True).str.replace('[-]+','-',regex=True)
+    df_combined["NAME_FOR_LINK"] = (
+        df_combined["NAME"]
+        .str.strip()
+        .str.lower()
+        .str.replace(r"\s+", "-", regex=True)
+        .str.replace(r"[^a-zA-Z0-9-]+", "", regex=True)
+        .str.replace(r"[-]+", "-", regex=True)
+    )
     df_combined["TABLE_NAME"] = "[" +df_combined["NAME"] +"]"+"(#"+ df_combined["NAME_FOR_LINK"] + ")" 
     return df_combined
 
@@ -119,7 +145,6 @@ def fix_name_header(df_combined):
 def format_main(df_combined, type="tools"):
     df_combined = df_combined.copy()
 
-    df_combined = fix_journal_info(df_combined)
     df_combined = fix_prefix_suffix(df_combined)
     df_combined = fix_name(df_combined)
     df_combined = fix_pubmed_id(df_combined)

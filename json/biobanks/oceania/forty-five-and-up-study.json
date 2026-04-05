@@ -1,0 +1,17 @@
+{
+  "NAME": "45 and Up Study",
+  "SHORT NAME": "45 Up",
+  "SECTION": "Biobanks",
+  "TOPIC": "OCEANIA",
+  "CONTINENT": "OCEANIA",
+  "SAMPLE SIZE": "~250k+",
+  "NOTE": "Large-scale survey cohort linked to Medicare/hospital data; genetics via consented substudies and linkages.",
+  "DESCRIPTION": "Australian population cohort of adults ≥45 with long-term linkage to health administrative data; supports large observational and genetic studies including GWAS when genotype data are available to approved projects.",
+  "MANUAL_CITATION": "45 and Up Study Collaborators. (2008). Cohort profile: the 45 and up study. International Journal of Epidemiology, 37(5), 941-947.",
+  "URL": "https://www.saxinstitute.org.au/our-work/45-up-study/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "Australian adults aged 45 and over (NSW)"
+}

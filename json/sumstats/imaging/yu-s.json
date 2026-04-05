@@ -1,0 +1,19 @@
+{
+  "NAME": "Yu S",
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "TRAIT": "2D  MR  images,  chosen  to  be  the  middle  \nslice images from three different planes: axial, coronal and sagittal, derived from the original 3D  T1-weighted (T1w) MR images",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "Alzheimer's  Disease  Neuroimaging   Initiative  (ADNI)  consortium",
+  "SAMPLE_SIZE": 1009,
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Yu, S. et al. A novel classification framework for genome-wide association study of whole brain MRI images using deep learning. bioRxiv 2024.01.11.575251 (2024) doi:10.1101/2024.01.11.575251.",
+  "MANUAL_YEAR": 2024,
+  "PREPRINT_DOI": "10.1101/2024.01.11.575251",
+  "SERVER": "biorxiv",
+  "CITATION": "Yu, S. et al. A novel classification framework for genome-wide association study of whole brain MRI images using deep learning. bioRxiv 2024.01.11.575251 (2024) doi:10.1101/2024.01.11.575251.",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "TetraHer",
+  "PMID": 38490208,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "TetraHer",
+  "FULL NAME": "TetraHer",
+  "MANUAL_YEAR": 2024,
+  "URL": "http://www.ldak.org/",
+  "DESCRIPTION": "a method for estimating the liability heritability of binary phenotypes",
+  "MANUAL_CITATION": "\nSpeed, D. & Evans, D. M. Estimating disease heritability from complex pedigrees allowing for ascertainment and covariates. Am. J. Hum. Genet. 111, 680–690 (2024).\n  \n  ",
+  "TITLE": "Estimating disease heritability from complex pedigrees allowing for ascertainment and covariates.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2024",
+  "VOLUME": "111",
+  "ISSUE": "4",
+  "PAGE": "680-690",
+  "Authors": "Speed D,Evans DM",
+  "ABSTRACT": "We propose TetraHer, a method for estimating the liability heritability of binary phenotypes. TetraHer has five key features. First, it can be applied to data from complex pedigrees that contain multiple types of relationships. Second, it can correct for ascertainment of cases or controls. Third, it can accommodate covariates. Fourth, it can model the contribution of common environment. Fifth, it produces a likelihood that can be used for significance testing. We first demonstrate the validity of TetraHer on simulated data. We then use TetraHer to estimate liability heritability for 229 codes from the tenth International Classification of Diseases (ICD-10). We identify 107 codes with significant heritability (p < 0.05/229), which can be used in future analyses for investigating the genetic architecture of human diseases.",
+  "DOI": "10.1016/j.ajhg.2024.02.010",
+  "PMC ID": "PMC11023822",
+  "CITATION": "Speed D, Evans DM. (2024) Estimating disease heritability from complex pedigrees allowing for ascertainment and covariates. Am J Hum Genet, 111 (4) 680-690. doi:10.1016/j.ajhg.2024.02.010. PMID 38490208",
+  "FIRST_AUTHOR": "Speed D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

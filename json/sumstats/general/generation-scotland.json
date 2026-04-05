@@ -1,0 +1,15 @@
+{
+  "NAME": "Generation Scotland",
+  "URL": "https://datashare.ed.ac.uk/handle/10283/844",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Generation Scotland cohort GWAS summary statistics and related downloads.",
+  "MANUAL_CITATION": "Generation Scotland: Scottish Family Health Study — genotyped population cohort; GWAS summary statistics via cohort data portals / PheWeb.",
+  "MANUAL_YEAR": 2015,
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

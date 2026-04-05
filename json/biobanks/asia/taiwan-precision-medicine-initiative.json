@@ -1,0 +1,16 @@
+{
+  "NAME": "Taiwan Precision Medicine Initiative",
+  "SHORT NAME": "TMPI",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~460k",
+  "MANUAL_CITATION": "Yang, H. C., Kwok, P. Y., Li, L. H., Liu, Y. M., Jong, Y. J., Lee, K. Y., ... & Wu, J. Y. (2025). The Taiwan Precision Medicine Initiative provides a cohort for large-scale studies. Nature, 1-34.",
+  "URL": "https://tpmi.ibms.sinica.edu.tw/",
+  "DESCRIPTION": "The Taiwan Precision Medicine Initiative (TPMI) is a genomic research program designed to advance precision healthcare in Taiwan. This initiative focuses on collecting and analyzing genetic and clinical data from Taiwanese individuals to develop personalized healthcare solutions tailored specifically to Taiwan’s population. With over 500,000 Taiwanese residents already enrolled, TPMI maintains the most comprehensive dataset of genotypes and electronic medical records for Han Chinese populations.\n\nGiven that Han Chinese make up about 20% of the global population, TPMI’s findings have the potential to impact healthcare for over 1.4 billion people worldwide, setting a model for precision medicine initiatives tailored to specific populations.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Han Chinese adults (precision medicine initiative)"
+}

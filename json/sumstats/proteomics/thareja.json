@@ -1,0 +1,27 @@
+{
+  "NAME": "Thareja",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 36168886,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Differences and commonalities in the genetic architecture of protein quantitative trait loci in European and Arab populations.",
+  "ISO": "Hum Mol Genet",
+  "JOURNAL": "Human molecular genetics",
+  "YEAR": "2023",
+  "VOLUME": "32",
+  "ISSUE": "6",
+  "PAGE": "907-916",
+  "Authors": "Thareja G,Belkadi A,Arnold M,Albagha OME,Graumann J,Schmidt F,Grallert H,Peters A,Gieger C,Consortium TQGPR,Suhre K",
+  "ABSTRACT": "Polygenic scores (PGS) can identify individuals at risk of adverse health events and guide genetics-based personalized medicine. However, it is not clear how well PGS translate between different populations, limiting their application to well-studied ethnicities. Proteins are intermediate traits linking genetic predisposition and environmental factors to disease, with numerous blood circulating protein levels representing functional readouts of disease-related processes. We hypothesized that studying the genetic architecture of a comprehensive set of blood-circulating proteins between a European and an Arab population could shed fresh light on the translatability of PGS to understudied populations. We therefore conducted a genome-wide association study with whole-genome sequencing data using 1301 proteins measured on the SOMAscan aptamer-based affinity proteomics platform in 2935 samples of Qatar Biobank and evaluated the replication of protein quantitative traits (pQTLs) from European studies in an Arab population. Then, we investigated the colocalization of shared pQTL signals between the two populations. Finally, we compared the performance of protein PGS derived from a Caucasian population in a European and an Arab cohort. We found that the majority of shared pQTL signals (81.8%) colocalized between both populations. About one-third of the genetic protein heritability was explained by protein PGS derived from a European cohort, with protein PGS performing ~20% better in Europeans when compared to Arabs. Our results are relevant for the translation of PGS to non-Caucasian populations, as well as for future efforts to extend genetic research to understudied populations.",
+  "DOI": "10.1093/hmg/ddac243",
+  "PMC ID": "PMC9990988",
+  "CITATION": "Thareja G, Belkadi A, Arnold M, Albagha OME, ...&, Suhre K. (2023) Differences and commonalities in the genetic architecture of protein quantitative trait loci in European and Arab populations. Hum Mol Genet, 32 (6) 907-916. doi:10.1093/hmg/ddac243. PMID 36168886",
+  "FIRST_AUTHOR": "Thareja G",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

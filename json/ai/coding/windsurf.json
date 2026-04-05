@@ -1,0 +1,13 @@
+{
+  "NAME": "Windsurf",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "IDE",
+  "COMPANY": "Codeium",
+  "URL": "https://windsurf.com",
+  "DESCRIPTION": "Agentic IDE from Codeium with Cascade flow for multi-step edits, terminal integration, and deep workspace awareness.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

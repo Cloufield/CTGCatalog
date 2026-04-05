@@ -1,0 +1,16 @@
+{
+  "NAME": "PUMA-CUBS",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "PUMA-CUBS",
+  "FULL NAME": "PUMA-CUBS",
+  "URL": "https://github.com/qlu-lab/PUMAS",
+  "DESCRIPTION": "an ensemble learning strategy named PUMACUBS to combine multiple PRS models into an ensemble score without requiring external data for model fitting.",
+  "MANUAL_CITATION": "Zhao, Zijie, et al. \"Optimizing and benchmarking polygenic risk scores with GWAS summary statistics.\" bioRxiv (2022).",
+  "CITATION": "Zhao, Zijie, et al. \"Optimizing and benchmarking polygenic risk scores with GWAS summary statistics.\" bioRxiv (2022).",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

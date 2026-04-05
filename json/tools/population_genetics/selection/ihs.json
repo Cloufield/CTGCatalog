@@ -1,0 +1,27 @@
+{
+  "NAME": "iHS",
+  "PMID": 16494531,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "iHS",
+  "FULL NAME": "Integrated haplotype score",
+  "DESCRIPTION": "Voight, B. F., Kudaravalli, S., Wen, X., & Pritchard, J. K. (2006). A map of recent positive selection in the human genome. PLoS biology, 4(3), e72.",
+  "TITLE": "A map of recent positive selection in the human genome.",
+  "ISO": "PLoS Biol",
+  "JOURNAL": "PLoS biology",
+  "YEAR": "2006",
+  "VOLUME": "4",
+  "ISSUE": "3",
+  "PAGE": "e72",
+  "Authors": "Voight BF,Kudaravalli S,Wen X,Pritchard JK",
+  "ABSTRACT": "The identification of signals of very recent positive selection provides information about the adaptation of modern humans to local conditions. We report here on a genome-wide scan for signals of very recent positive selection in favor of variants that have not yet reached fixation. We describe a new analytical method for scanning single nucleotide polymorphism (SNP) data for signals of recent selection, and apply this to data from the International HapMap Project. In all three continental groups we find widespread signals of recent positive selection. Most signals are region-specific, though a significant excess are shared across groups. Contrary to some earlier low resolution studies that suggested a paucity of recent selection in sub-Saharan Africans, we find that by some measures our strongest signals of selection are from the Yoruba population. Finally, since these signals indicate the existence of genetic variants that have substantially different fitnesses, they must indicate loci that are the source of significant phenotypic variation. Though the relevant phenotypes are generally not known, such loci should be of particular interest in mapping studies of complex traits. For this purpose we have developed a set of SNPs that can be used to tag the strongest approximately 250 signals of recent selection in each population.",
+  "DOI": "10.1371/journal.pbio.0040072",
+  "PMC ID": "PMC1382018",
+  "CITATION": "Voight BF, Kudaravalli S, Wen X, Pritchard JK. (2006) A map of recent positive selection in the human genome. PLoS Biol, 4 (3) e72. doi:10.1371/journal.pbio.0040072. PMID 16494531",
+  "FIRST_AUTHOR": "Voight BF",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

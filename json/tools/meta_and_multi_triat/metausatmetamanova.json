@@ -1,0 +1,30 @@
+{
+  "NAME": "metaUSAT/metaMANOVA",
+  "PMID": 29226385,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "metaUSAT/metaMANOVA",
+  "FULL NAME": "unified score-based association test",
+  "MANUAL_YEAR": 2018,
+  "URL": "https://github.com/RayDebashree/metaUSAT",
+  "DESCRIPTION": "metaUSAT is a data-adaptive statistical approach for testing genetic associations of multiple traits from single/multiple studies using univariate GWAS summary statistics. This multivariate meta-analysis method can appropriately account for overlapping samples (if any) and can potentially test binary and/or continuous traits. ",
+  "MANUAL_CITATION": "\nRay, D. & Boehnke, M. Methods for meta-analysis of multiple traits using GWAS summary statistics. Genet. Epidemiol. 42, 134–145 (2018).\n  ",
+  "TITLE": "Methods for meta-analysis of multiple traits using GWAS summary statistics.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2018",
+  "VOLUME": "42",
+  "ISSUE": "2",
+  "PAGE": "134-145",
+  "Authors": "Ray D,Boehnke M",
+  "ABSTRACT": "Genome-wide association studies (GWAS) for complex diseases have focused primarily on single-trait analyses for disease status and disease-related quantitative traits. For example, GWAS on risk factors for coronary artery disease analyze genetic associations of plasma lipids such as total cholesterol, LDL-cholesterol, HDL-cholesterol, and triglycerides (TGs) separately. However, traits are often correlated and a joint analysis may yield increased statistical power for association over multiple univariate analyses. Recently several multivariate methods have been proposed that require individual-level data. Here, we develop metaUSAT (where USAT is unified score-based association test), a novel unified association test of a single genetic variant with multiple traits that uses only summary statistics from existing GWAS. Although the existing methods either perform well when most correlated traits are affected by the genetic variant in the same direction or are powerful when only a few of the correlated traits are associated, metaUSAT is designed to be robust to the association structure of correlated traits. metaUSAT does not require individual-level data and can test genetic associations of categorical and/or continuous traits. One can also use metaUSAT to analyze a single trait over multiple studies, appropriately accounting for overlapping samples, if any. metaUSAT provides an approximate asymptotic P-value for association and is computationally efficient for implementation at a genome-wide level. Simulation experiments show that metaUSAT maintains proper type-I error at low error levels. It has similar and sometimes greater power to detect association across a wide array of scenarios compared to existing methods, which are usually powerful for some specific association scenarios only. When applied to plasma lipids summary data from the METSIM and the T2D-GENES studies, metaUSAT detected genome-wide significant loci beyond the ones identified by univariate analyses. Evidence from larger studies suggest that the variants additionally detected by our test are, indeed, associated with lipid levels in humans. In summary, metaUSAT can provide novel insights into the genetic architecture of a common disease or traits.",
+  "DOI": "10.1002/gepi.22105",
+  "PMC ID": "PMC5811402",
+  "CITATION": "Ray D, Boehnke M. (2018) Methods for meta-analysis of multiple traits using GWAS summary statistics. Genet Epidemiol, 42 (2) 134-145. doi:10.1002/gepi.22105. PMID 29226385",
+  "FIRST_AUTHOR": "Ray D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

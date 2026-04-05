@@ -1,0 +1,28 @@
+{
+  "NAME": "VEP",
+  "PMID": 27268795,
+  "SECTION": "Tools",
+  "TOPIC": "Annotation",
+  "TYPE": "Tools",
+  "SHORT NAME": "VEP",
+  "FULL NAME": "Ensembl Variant Effect Predictor",
+  "URL": "https://asia.ensembl.org/info/docs/tools/vep/index.html",
+  "DESCRIPTION": "The Ensembl Variant Effect Predictor is a powerful toolset for the analysis, annotation, and prioritization of genomic variants in coding and non-coding regions. It provides access to an extensive collection of genomic annotation, with a variety of interfaces to suit different requirements, and simple options for configuring and extending analysis. It is open source, free to use, and supports full reproducibility of results. The Ensembl Variant Effect Predictor can simplify and accelerate variant interpretation in a wide range of study designs.",
+  "MANUAL_CITATION": "McLaren, W., Gil, L., Hunt, S.E. et al. The Ensembl Variant Effect Predictor. Genome Biol 17, 122 (2016). https://doi.org/10.1186/s13059-016-0974-4",
+  "TITLE": "The Ensembl Variant Effect Predictor.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2016",
+  "VOLUME": "17",
+  "ISSUE": "1",
+  "PAGE": "122",
+  "Authors": "McLaren W,Gil L,Hunt SE,Riat HS,Ritchie GR,Thormann A,Flicek P,Cunningham F",
+  "ABSTRACT": "The Ensembl Variant Effect Predictor is a powerful toolset for the analysis, annotation, and prioritization of genomic variants in coding and non-coding regions. It provides access to an extensive collection of genomic annotation, with a variety of interfaces to suit different requirements, and simple options for configuring and extending analysis. It is open source, free to use, and supports full reproducibility of results. The Ensembl Variant Effect Predictor can simplify and accelerate variant interpretation in a wide range of study designs.",
+  "DOI": "10.1186/s13059-016-0974-4",
+  "PMC ID": "PMC4893825",
+  "CITATION": "McLaren W, Gil L, Hunt SE, Riat HS, ...&, Cunningham F. (2016) The Ensembl Variant Effect Predictor. Genome Biol, 17 (1) 122. doi:10.1186/s13059-016-0974-4. PMID 27268795",
+  "FIRST_AUTHOR": "McLaren W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

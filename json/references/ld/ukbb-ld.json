@@ -1,0 +1,26 @@
+{
+  "NAME": "UKBB-LD",
+  "PMID": 33199916,
+  "SECTION": "References",
+  "TOPIC": "LD",
+  "URL": "https://registry.opendata.aws/ukbb-ld/",
+  "DESCRIPTION": "Linkage disequilibrium (LD) matrices of UK Biobank participants of a British ancestry, based on imputed genotypes.",
+  "MANUAL_CITATION": "\nWeissbrod, O. et al. Functionally informed fine-mapping and polygenic localization of complex trait heritability. Nat. Genet. 52, 1355–1363 (2020).\n  \n",
+  "TITLE": "Functionally informed fine-mapping and polygenic localization of complex trait heritability.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "12",
+  "PAGE": "1355-1363",
+  "Authors": "Weissbrod O,Hormozdiari F,Benner C,Cui R,Ulirsch J,Gazal S,Schoech AP,van de Geijn B,Reshef Y,Márquez-Luna C,O'Connor L,Pirinen M,Finucane HK,Price AL",
+  "ABSTRACT": "Fine-mapping aims to identify causal variants impacting complex traits. We propose PolyFun, a computationally scalable framework to improve fine-mapping accuracy by leveraging functional annotations across the entire genome-not just genome-wide-significant loci-to specify prior probabilities for fine-mapping methods such as SuSiE or FINEMAP. In simulations, PolyFun + SuSiE and PolyFun + FINEMAP were well calibrated and identified >20% more variants with a posterior causal probability >0.95 than identified in their nonfunctionally informed counterparts. In analyses of 49 UK Biobank traits (average n = 318,000), PolyFun + SuSiE identified 3,025 fine-mapped variant-trait pairs with posterior causal probability >0.95, a >32% improvement versus SuSiE. We used posterior mean per-SNP heritabilities from PolyFun + SuSiE to perform polygenic localization, constructing minimal sets of common SNPs causally explaining 50% of common SNP heritability; these sets ranged in size from 28 (hair color) to 3,400 (height) to 2 million (number of children). In conclusion, PolyFun prioritizes variants for functional follow-up and provides insights into complex trait architectures.",
+  "DOI": "10.1038/s41588-020-00735-5",
+  "PMC ID": "PMC7710571",
+  "CITATION": "Weissbrod O, Hormozdiari F, Benner C, Cui R, ...&, Price AL. (2020) Functionally informed fine-mapping and polygenic localization of complex trait heritability. Nat Genet, 52 (12) 1355-1363. doi:10.1038/s41588-020-00735-5. PMID 33199916",
+  "FIRST_AUTHOR": "Weissbrod O",
+  "_meta": {
+    "source_sheet": "LD"
+  },
+  "MAIN_ANCESTRY": "EUR"
+}

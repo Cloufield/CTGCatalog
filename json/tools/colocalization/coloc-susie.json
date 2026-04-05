@@ -1,0 +1,28 @@
+{
+  "NAME": "Coloc-susie",
+  "PMID": 34587156,
+  "SECTION": "Tools",
+  "TOPIC": "Colocalization",
+  "TYPE": "Tools",
+  "SHORT NAME": "Coloc-susie",
+  "FULL NAME": "Coloc-susie",
+  "KEYWORDS": "Approximate  Bayes  Factor (ABF), Sum of Single Effects (SuSiE)",
+  "URL": "https://chr1swallace.github.io/coloc/articles/a06_SuSiE.html",
+  "MANUAL_CITATION": "Wang, G., Sarkar, A., Carbonetto, P., & Stephens, M. (2020). A simple new approach to variable selection in regression, with application to genetic fine-mapping. BioRxiv, 501114.\nWallace, C. (2021). A more accurate method for colocalisation analysis allowing for multiple causal variants. PLoS genetics, 17(9), e1009440.",
+  "TITLE": "A more accurate method for colocalisation analysis allowing for multiple causal variants.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2021",
+  "VOLUME": "17",
+  "ISSUE": "9",
+  "PAGE": "e1009440",
+  "Authors": "Wallace C",
+  "ABSTRACT": "In genome-wide association studies (GWAS) it is now common to search for, and find, multiple causal variants located in close proximity. It has also become standard to ask whether different traits share the same causal variants, but one of the popular methods to answer this question, coloc, makes the simplifying assumption that only a single causal variant exists for any given trait in any genomic region. Here, we examine the potential of the recently proposed Sum of Single Effects (SuSiE) regression framework, which can be used for fine-mapping genetic signals, for use with coloc. SuSiE is a novel approach that allows evidence for association at multiple causal variants to be evaluated simultaneously, whilst separating the statistical support for each variant conditional on the causal signal being considered. We show this results in more accurate coloc inference than other proposals to adapt coloc for multiple causal variants based on conditioning. We therefore recommend that coloc be used in combination with SuSiE to optimise accuracy of colocalisation analyses when multiple causal variants exist.",
+  "DOI": "10.1371/journal.pgen.1009440",
+  "PMC ID": "PMC8504726",
+  "CITATION": "Wallace C. (2021) A more accurate method for colocalisation analysis allowing for multiple causal variants. PLoS Genet, 17 (9) e1009440. doi:10.1371/journal.pgen.1009440. PMID 34587156",
+  "FIRST_AUTHOR": "Wallace C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

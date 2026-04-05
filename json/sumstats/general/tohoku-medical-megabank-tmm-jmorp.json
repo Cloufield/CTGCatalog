@@ -1,0 +1,28 @@
+{
+  "NAME": "Tohoku Medical Megabank (TMM) Jmorp",
+  "URL": "https://jmorp.megabank.tohoku.ac.jp/202109/gwas/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "tohoku medical megabank",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Tohoku Medical Megabank / jMorp multi-omics reference and GWAS-related summary data portal.",
+  "PMID": 37930845,
+  "TITLE": "jMorp: Japanese Multi-Omics Reference Panel update report 2023.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2024",
+  "VOLUME": "52",
+  "ISSUE": "D1",
+  "PAGE": "D622-D632",
+  "Authors": "Tadaka S,Kawashima J,Hishinuma E,Saito S,Okamura Y,Otsuki A,Kojima K,Komaki S,Aoki Y,Kanno T,Saigusa D,Inoue J,Shirota M,Takayama J,Katsuoka F,Shimizu A,Tamiya G,Shimizu R,Hiratsuka M,Motoike IN,Koshiba S,Sasaki M,Yamamoto M,Kinoshita K",
+  "ABSTRACT": "Modern medicine is increasingly focused on personalized medicine, and multi-omics data is crucial in understanding biological phenomena and disease mechanisms. Each ethnic group has its unique genetic background with specific genomic variations influencing disease risk and drug response. Therefore, multi-omics data from specific ethnic populations are essential for the effective implementation of personalized medicine. Various prospective cohort studies, such as the UK Biobank, All of Us and Lifelines, have been conducted worldwide. The Tohoku Medical Megabank project was initiated after the Great East Japan Earthquake in 2011. It collects biological specimens and conducts genome and omics analyses to build a basis for personalized medicine. Summary statistical data from these analyses are available in the jMorp web database (https://jmorp.megabank.tohoku.ac.jp), which provides a multidimensional approach to the diversity of the Japanese population. jMorp was launched in 2015 as a public database for plasma metabolome and proteome analyses and has been continuously updated. The current update will significantly expand the scale of the data (metabolome, genome, transcriptome, and metagenome). In addition, the user interface and backend server implementations were rewritten to improve the connectivity between the items stored in jMorp. This paper provides an overview of the new version of the jMorp.",
+  "DOI": "10.1093/nar/gkad978",
+  "PMC ID": "PMC10767895",
+  "CITATION": "Tadaka S, Kawashima J, Hishinuma E, Saito S, ...&, Kinoshita K. (2024) jMorp: Japanese Multi-Omics Reference Panel update report 2023. Nucleic Acids Res, 52 (D1) D622-D632. doi:10.1093/nar/gkad978. PMID 37930845",
+  "FIRST_AUTHOR": "Tadaka S",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

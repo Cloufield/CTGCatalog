@@ -1,0 +1,18 @@
+{
+  "NAME": "Protein science : a publication of the Protein Society",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Protein Sci",
+  "JOURNAL": "Protein science : a publication of the Protein Society",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1469-896X",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "BioGRID"
+  ]
+}

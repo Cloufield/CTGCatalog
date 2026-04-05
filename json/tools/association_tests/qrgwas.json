@@ -1,0 +1,28 @@
+{
+  "NAME": "QRGWAS",
+  "PMID": 39085219,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "QRGWAS",
+  "FULL NAME": "Quantile regression GWAS",
+  "URL": "https://github.com/Iuliana-Ionita-Laza/QRGWAS",
+  "MANUAL_CITATION": "\nWang, C. et al. Genome-wide discovery for biomarkers using quantile regression at biobank scale. Nat. Commun. 15, 6460 (2024).\n  ",
+  "TITLE": "Genome-wide discovery for biomarkers using quantile regression at biobank scale.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "6460",
+  "Authors": "Wang C,Wang T,Kiryluk K,Wei Y,Aschard H,Ionita-Laza I",
+  "ABSTRACT": "Genome-wide association studies (GWAS) for biomarkers important for clinical phenotypes can lead to clinically relevant discoveries. Conventional GWAS for quantitative traits are based on simplified regression models modeling the conditional mean of a phenotype as a linear function of genotype. We draw attention here to an alternative, lesser known approach, namely quantile regression that naturally extends linear regression to the analysis of the entire conditional distribution of a phenotype of interest. Quantile regression can be applied efficiently at biobank scale, while having some unique advantages such as (1) identifying variants with heterogeneous effects across quantiles of the phenotype distribution; (2) accommodating a wide range of phenotype distributions including non-normal distributions, with invariance of results to trait transformations; and (3) providing more detailed information about genotype-phenotype associations even for those associations identified by conventional GWAS. We show in simulations that quantile regression is powerful across both homogeneous and various heterogeneous models. Applications to 39 quantitative traits in the UK Biobank demonstrate that quantile regression can be a helpful complement to linear regression in GWAS and can identify variants with larger effects on high-risk subgroups of individuals but with lower or no contribution overall.",
+  "DOI": "10.1038/s41467-024-50726-x",
+  "PMC ID": "PMC11291931",
+  "CITATION": "Wang C, Wang T, Kiryluk K, Wei Y, ...&, Ionita-Laza I. (2024) Genome-wide discovery for biomarkers using quantile regression at biobank scale. Nat Commun, 15 (1) 6460. doi:10.1038/s41467-024-50726-x. PMID 39085219",
+  "FIRST_AUTHOR": "Wang C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "Ota",
+  "PMID": 33930287,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "MANUAL_YEAR": 2021,
+  "MANUAL_CITATION": "Ota, M., Nagafuchi, Y., Hatano, H., Ishigaki, K., Terao, C., Takeshima, Y., ... & Fujio, K. (2021). Dynamic landscape of immune cell-specific gene regulation in immune-mediated diseases. Cell, 184(11), 3006-3021.",
+  "TITLE": "Dynamic landscape of immune cell-specific gene regulation in immune-mediated diseases.",
+  "ISO": "Cell",
+  "JOURNAL": "Cell",
+  "YEAR": "2021",
+  "VOLUME": "184",
+  "ISSUE": "11",
+  "PAGE": "3006-3021.e17",
+  "Authors": "Ota M,Nagafuchi Y,Hatano H,Ishigaki K,Terao C,Takeshima Y,Yanaoka H,Kobayashi S,Okubo M,Shirai H,Sugimori Y,Maeda J,Nakano M,Yamada S,Yoshida R,Tsuchiya H,Tsuchida Y,Akizuki S,Yoshifuji H,Ohmura K,Mimori T,Yoshida K,Kurosaka D,Okada M,Setoguchi K,Kaneko H,Ban N,Yabuki N,Matsuki K,Mutoh H,Oyama S,Okazaki M,Tsunoda H,Iwasaki Y,Sumitomo S,Shoda H,Kochi Y,Okada Y,Yamamoto K,Okamura T,Fujio K",
+  "ABSTRACT": "Genetic studies have revealed many variant loci that are associated with immune-mediated diseases. To elucidate the disease pathogenesis, it is essential to understand the function of these variants, especially under disease-associated conditions. Here, we performed a large-scale immune cell gene-expression analysis, together with whole-genome sequence analysis. Our dataset consists of 28 distinct immune cell subsets from 337 patients diagnosed with 10 categories of immune-mediated diseases and 79 healthy volunteers. Our dataset captured distinctive gene-expression profiles across immune cell types and diseases. Expression quantitative trait loci (eQTL) analysis revealed dynamic variations of eQTL effects in the context of immunological conditions, as well as cell types. These cell-type-specific and context-dependent eQTLs showed significant enrichment in immune disease-associated genetic variants, and they implicated the disease-relevant cell types, genes, and environment. This atlas deepens our understanding of the immunogenetic functions of disease-associated variants under in vivo disease conditions.",
+  "DOI": "10.1016/j.cell.2021.03.056",
+  "PMC ID": "",
+  "CITATION": "Ota M, Nagafuchi Y, Hatano H, Ishigaki K, ...&, Fujio K. (2021) Dynamic landscape of immune cell-specific gene regulation in immune-mediated diseases. Cell, 184 (11) 3006-3021.e17. doi:10.1016/j.cell.2021.03.056. PMID 33930287",
+  "FIRST_AUTHOR": "Ota M",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

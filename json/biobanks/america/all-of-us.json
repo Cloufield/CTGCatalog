@@ -1,0 +1,16 @@
+{
+  "NAME": "All of Us",
+  "SHORT NAME": "AoU",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~413k",
+  "MANUAL_CITATION": "Investigators, A. U. R. P. (2019). The “All of Us” research program. New England Journal of Medicine, 381(7), 668-676.\nBick, A. G., Metcalf, G. A., Mayo, K. R., Lichtenstein, L., Rura, S., Carroll, R. J., ... & Denny, J. C. (2024). Genomic data in the All of Us research program. Nature.",
+  "URL": "https://precisionhealth.umich.edu/our-research/michigangenomics/",
+  "DESCRIPTION": " The All of Us Research Program is a historic effort to collect and study data from one million or more people living in the United States. The goal of the program is better health for all of us. The program began national enrollment in 2018 and is expected to last at least 10 years.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "US residents (nationally diverse recruitment)"
+}

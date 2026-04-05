@@ -1,0 +1,25 @@
+{
+  "NAME": "Review",
+  "PMID": 24405358,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Manuck, S. B., & McCaffery, J. M. (2014). Gene-environment interaction. Annual review of psychology, 65(1), 41-70.",
+  "TITLE": "Gene-environment interaction.",
+  "ISO": "Annu Rev Psychol",
+  "JOURNAL": "Annual review of psychology",
+  "YEAR": "2014",
+  "VOLUME": "65",
+  "ISSUE": "",
+  "PAGE": "41-70",
+  "Authors": "Manuck SB,McCaffery JM",
+  "ABSTRACT": "With the advent of increasingly accessible technologies for typing genetic variation, studies of gene-environment (G×E) interactions have proliferated in psychological research. Among the aims of such studies are testing developmental hypotheses and models of the etiology of behavioral disorders, defining boundaries of genetic and environmental influences, and identifying individuals most susceptible to risk exposures or most amenable to preventive and therapeutic interventions. This research also coincides with the emergence of unanticipated difficulties in detecting genetic variants of direct association with behavioral traits and disorders, which may be obscured if genetic effects are expressed only in predisposing environments. In this essay we consider these and other rationales for positing G×E interactions, review conceptual models meant to inform G×E interpretations from a psychological perspective, discuss points of common critique to which G×E research is vulnerable, and address the role of the environment in G×E interactions.",
+  "DOI": "10.1146/annurev-psych-010213-115100",
+  "PMC ID": "",
+  "CITATION": "Manuck SB, McCaffery JM. (2014) Gene-environment interaction. Annu Rev Psychol, 65 () 41-70. doi:10.1146/annurev-psych-010213-115100. PMID 24405358",
+  "FIRST_AUTHOR": "Manuck SB",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

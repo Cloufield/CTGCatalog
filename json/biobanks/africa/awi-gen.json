@@ -1,0 +1,16 @@
+{
+  "NAME": "AWI-Gen",
+  "SHORT NAME": "AWI-Gen",
+  "SECTION": "Biobanks",
+  "TOPIC": "AFRICA",
+  "CONTINENT": "AFRICA",
+  "SAMPLE SIZE": "~12k",
+  "DESCRIPTION": "Africa Wits–INDEPTH Partnership for Genomic Research: harmonized obesity/diabetes/T2D-related phenotypes and genome-wide data across rural and urban sites; widely cited in African GWAS.",
+  "MANUAL_CITATION": "Ramsay, M., Crowther, N., Tambo, E., Agongo, G., Baloyi, V., Dikotope, G., ... & Tollman, S. (2016). H3Africa AWI-Gen Collaborative Centre: a resource for genomic studies on metabolic and cardiovascular disease in African populations. Global Health, Epidemiology and Genomics, 1, e20.",
+  "URL": "https://www.awigen.org/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR",
+  "PARTICIPANTS": "Sub-Saharan African adults (multi-site East/West/South)"
+}

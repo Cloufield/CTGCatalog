@@ -1,0 +1,28 @@
+{
+  "NAME": "EAGLE",
+  "PMID": 27270109,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "EAGLE",
+  "URL": "https://alkesgroup.broadinstitute.org/Eagle/",
+  "DESCRIPTION": "(EAGLE1) ",
+  "MANUAL_CITATION": "Loh, Po-Ru, Pier Francesco Palamara, and Alkes L. Price. \"Fast and accurate long-range phasing in a UK Biobank cohort.\" Nature genetics 48.7 (2016): 811-816.\n",
+  "TITLE": "Fast and accurate long-range phasing in a UK Biobank cohort.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "7",
+  "PAGE": "811-6",
+  "Authors": "Loh PR,Palamara PF,Price AL",
+  "ABSTRACT": "Recent work has leveraged the extensive genotyping of the Icelandic population to perform long-range phasing (LRP), enabling accurate imputation and association analysis of rare variants in target samples typed on genotyping arrays. Here we develop a fast and accurate LRP method, Eagle, that extends this paradigm to populations with much smaller proportions of genotyped samples by harnessing long (>4-cM) identical-by-descent (IBD) tracts shared among distantly related individuals. We applied Eagle to N ≈ 150,000 samples (0.2% of the British population) from the UK Biobank, and we determined that it is 1-2 orders of magnitude faster than existing methods while achieving similar or better phasing accuracy (switch error rate ≈ 0.3%, corresponding to perfect phase in a majority of 10-Mb segments). We also observed that, when used within an imputation pipeline, Eagle prephasing improved downstream imputation accuracy in comparison to prephasing in batches using existing methods, as necessary to achieve comparable computational cost.",
+  "DOI": "10.1038/ng.3571",
+  "PMC ID": "PMC4925291",
+  "CITATION": "Loh PR, Palamara PF, Price AL. (2016) Fast and accurate long-range phasing in a UK Biobank cohort. Nat Genet, 48 (7) 811-6. doi:10.1038/ng.3571. PMID 27270109",
+  "FIRST_AUTHOR": "Loh PR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

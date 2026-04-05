@@ -1,0 +1,29 @@
+{
+  "NAME": "SUPERGNOVA",
+  "PMID": 34493297,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Local heritability/genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "SUPERGNOVA",
+  "FULL NAME": "SUPER GeNetic cOVariance Analyzer",
+  "URL": "https://github.com/qlu-lab/SUPERGNOVA",
+  "DESCRIPTION": "SUPERGNOVA (SUPER GeNetic cOVariance Analyzer) is a statistical framework to perform local genetic covariance analysis.",
+  "MANUAL_CITATION": "Zhang, Yiliang, et al. \"SUPERGNOVA: local genetic correlation analysis reveals heterogeneous etiologic sharing of complex traits.\" Genome biology 22.1 (2021): 1-30.",
+  "TITLE": "SUPERGNOVA: local genetic correlation analysis reveals heterogeneous etiologic sharing of complex traits.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2021",
+  "VOLUME": "22",
+  "ISSUE": "1",
+  "PAGE": "262",
+  "Authors": "Zhang Y,Lu Q,Ye Y,Huang K,Liu W,Wu Y,Zhong X,Li B,Yu Z,Travers BG,Werling DM,Li JJ,Zhao H",
+  "ABSTRACT": "Local genetic correlation quantifies the genetic similarity of complex traits in specific genomic regions. However, accurate estimation of local genetic correlation remains challenging, due to linkage disequilibrium in local genomic regions and sample overlap across studies. We introduce SUPERGNOVA, a statistical framework to estimate local genetic correlations using summary statistics from genome-wide association studies. We demonstrate that SUPERGNOVA outperforms existing methods through simulations and analyses of 30 complex traits. In particular, we show that the positive yet paradoxical genetic correlation between autism spectrum disorder and cognitive performance could be explained by two etiologically distinct genetic signatures with bidirectional local genetic correlations.",
+  "DOI": "10.1186/s13059-021-02478-w",
+  "PMC ID": "PMC8422619",
+  "CITATION": "Zhang Y, Lu Q, Ye Y, Huang K, ...&, Zhao H. (2021) SUPERGNOVA: local genetic correlation analysis reveals heterogeneous etiologic sharing of complex traits. Genome Biol, 22 (1) 262. doi:10.1186/s13059-021-02478-w. PMID 34493297",
+  "FIRST_AUTHOR": "Zhang Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

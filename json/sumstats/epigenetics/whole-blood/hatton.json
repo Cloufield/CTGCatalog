@@ -1,0 +1,28 @@
+{
+  "NAME": "Hatton",
+  "PMID": 38548728,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Whole Blood",
+  "CATEGORY": "Methylation",
+  "DESCRIPTION": "cis DNAm QTLs in three European (n = 3701) and two East Asian (n = 2099) cohorts",
+  "URL": "https://yanglab.westlake.edu.cn/software/smr/#mQTLsummarydata",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "\nHatton, A. A. et al. Genetic control of DNA methylation is largely shared across European and East Asian populations. Nat. Commun. 15, 2713 (2024).\n  \n",
+  "TITLE": "Genetic control of DNA methylation is largely shared across European and East Asian populations.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "2713",
+  "Authors": "Hatton AA,Cheng FF,Lin T,Shen RJ,Chen J,Zheng Z,Qu J,Lyu F,Harris SE,Cox SR,Jin ZB,Martin NG,Fan D,Montgomery GW,Yang J,Wray NR,Marioni RE,Visscher PM,McRae AF",
+  "ABSTRACT": "DNA methylation is an ideal trait to study the extent of the shared genetic control across ancestries, effectively providing hundreds of thousands of model molecular traits with large QTL effect sizes. We investigate cis DNAm QTLs in three European (n = 3701) and two East Asian (n = 2099) cohorts to quantify the similarities and differences in the genetic architecture across populations. We observe 80,394 associated mQTLs (62.2% of DNAm probes with significant mQTL) to be significant in both ancestries, while 28,925 mQTLs (22.4%) are identified in only a single ancestry. mQTL effect sizes are highly conserved across populations, with differences in mQTL discovery likely due to differences in allele frequency of associated variants and differing linkage disequilibrium between causal variants and assayed SNPs. This study highlights the overall similarity of genetic control across ancestries and the value of ancestral diversity in increasing the power to detect associations and enhancing fine mapping resolution.",
+  "DOI": "10.1038/s41467-024-47005-0",
+  "PMC ID": "PMC10978881",
+  "CITATION": "Hatton AA, Cheng FF, Lin T, Shen RJ, ...&, McRae AF. (2024) Genetic control of DNA methylation is largely shared across European and East Asian populations. Nat Commun, 15 (1) 2713. doi:10.1038/s41467-024-47005-0. PMID 38548728",
+  "FIRST_AUTHOR": "Hatton AA",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "ENCODE 2020",
+  "PMID": 32728249,
+  "SECTION": "References",
+  "TOPIC": "Functional",
+  "CATEGORY": "ENCODE",
+  "DESCRIPTION": "ENCODE Phase III",
+  "MANUAL_CITATION": "\nENCODE Project Consortium et al. Expanded encyclopaedias of DNA elements in the human and mouse genomes. Nature 583, 699–710 (2020).\n  \n",
+  "TITLE": "Expanded encyclopaedias of DNA elements in the human and mouse genomes.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2020",
+  "VOLUME": "583",
+  "ISSUE": "7818",
+  "PAGE": "699-710",
+  "Authors": "ENCODE Project Consortium,Moore JE,Purcaro MJ,Pratt HE,Epstein CB,Shoresh N,Adrian J,Kawli T,Davis CA,Dobin A,Kaul R,Halow J,Van Nostrand EL,Freese P,Gorkin DU,Shen Y,He Y,Mackiewicz M,Pauli-Behn F,Williams BA,Mortazavi A,Keller CA,Zhang XO,Elhajjajy SI,Huey J,Dickel DE,Snetkova V,Wei X,Wang X,Rivera-Mulia JC,Rozowsky J,Zhang J,Chhetri SB,Zhang J,Victorsen A,White KP,Visel A,Yeo GW,Burge CB,Lécuyer E,Gilbert DM,Dekker J,Rinn J,Mendenhall EM,Ecker JR,Kellis M,Klein RJ,Noble WS,Kundaje A,Guigó R,Farnham PJ,Cherry JM,Myers RM,Ren B,Graveley BR,Gerstein MB,Pennacchio LA,Snyder MP,Bernstein BE,Wold B,Hardison RC,Gingeras TR,Stamatoyannopoulos JA,Weng Z",
+  "ABSTRACT": "The human and mouse genomes contain instructions that specify RNAs and proteins and govern the timing, magnitude, and cellular context of their production. To better delineate these elements, phase III of the Encyclopedia of DNA Elements (ENCODE) Project has expanded analysis of the cell and tissue repertoires of RNA transcription, chromatin structure and modification, DNA methylation, chromatin looping, and occupancy by transcription factors and RNA-binding proteins. Here we summarize these efforts, which have produced 5,992 new experimental datasets, including systematic determinations across mouse fetal development. All data are available through the ENCODE data portal (https://www.encodeproject.org), including phase II ENCODE1 and Roadmap Epigenomics2 data. We have developed a registry of 926,535 human and 339,815 mouse candidate cis-regulatory elements, covering 7.9 and 3.4% of their respective genomes, by integrating selected datatypes associated with gene regulation, and constructed a web-based server (SCREEN; http://screen.encodeproject.org) to provide flexible, user-defined access to this resource. Collectively, the ENCODE data and registry provide an expansive resource for the scientific community to build a better understanding of the organization and function of the human and mouse genomes.",
+  "DOI": "10.1038/s41586-020-2493-4",
+  "PMC ID": "PMC7410828",
+  "CITATION": "ENCODE Project Consortium, Moore JE, Purcaro MJ, Pratt HE, ...&, Weng Z. (2020) Expanded encyclopaedias of DNA elements in the human and mouse genomes. Nature, 583 (7818) 699-710. doi:10.1038/s41586-020-2493-4. PMID 32728249",
+  "FIRST_AUTHOR": "ENCODE Project Consortium",
+  "_meta": {
+    "source_sheet": "Regulatory elements"
+  }
+}

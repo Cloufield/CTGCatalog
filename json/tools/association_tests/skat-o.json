@@ -1,0 +1,29 @@
+{
+  "NAME": "SKAT-O",
+  "PMID": 22699862,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "SKAT-O",
+  "FULL NAME": "sequence kernel association test - optimal test",
+  "URL": "https://www.hsph.harvard.edu/skat/",
+  "DESCRIPTION": "estimating the correlation parameter in the kernel matrix to maximize the power, which corresponds to the estimated weight in the linear combination of the burden test and SKAT test statistics that maximizes power.",
+  "MANUAL_CITATION": "Lee, Seunggeun, Michael C. Wu, and Xihong Lin. \"Optimal tests for rare variant effects in sequencing association studies.\" Biostatistics 13.4 (2012): 762-775.",
+  "TITLE": "Optimal tests for rare variant effects in sequencing association studies.",
+  "ISO": "Biostatistics",
+  "JOURNAL": "Biostatistics (Oxford, England)",
+  "YEAR": "2012",
+  "VOLUME": "13",
+  "ISSUE": "4",
+  "PAGE": "762-75",
+  "Authors": "Lee S,Wu MC,Lin X",
+  "ABSTRACT": "With development of massively parallel sequencing technologies, there is a substantial need for developing powerful rare variant association tests. Common approaches include burden and non-burden tests. Burden tests assume all rare variants in the target region have effects on the phenotype in the same direction and of similar magnitude. The recently proposed sequence kernel association test (SKAT) (Wu, M. C., and others, 2011. Rare-variant association testing for sequencing data with the SKAT. The American Journal of Human Genetics 89, 82-93], an extension of the C-alpha test (Neale, B. M., and others, 2011. Testing for an unusual distribution of rare variants. PLoS Genetics 7, 161-165], provides a robust test that is particularly powerful in the presence of protective and deleterious variants and null variants, but is less powerful than burden tests when a large number of variants in a region are causal and in the same direction. As the underlying biological mechanisms are unknown in practice and vary from one gene to another across the genome, it is of substantial practical interest to develop a test that is optimal for both scenarios. In this paper, we propose a class of tests that include burden tests and SKAT as special cases, and derive an optimal test within this class that maximizes power. We show that this optimal test outperforms burden tests and SKAT in a wide range of scenarios. The results are illustrated using simulation studies and triglyceride data from the Dallas Heart Study. In addition, we have derived sample size/power calculation formula for SKAT with a new family of kernels to facilitate designing new sequence association studies.",
+  "DOI": "10.1093/biostatistics/kxs014",
+  "PMC ID": "PMC3440237",
+  "CITATION": "Lee S, Wu MC, Lin X. (2012) Optimal tests for rare variant effects in sequencing association studies. Biostatistics, 13 (4) 762-75. doi:10.1093/biostatistics/kxs014. PMID 22699862",
+  "FIRST_AUTHOR": "Lee S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

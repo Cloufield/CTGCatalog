@@ -1,0 +1,14 @@
+{
+  "NAME": "gwaslab",
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "gwaslab",
+  "FULL NAME": "gwaslab",
+  "URL": "https://github.com/Cloufield/gwaslab",
+  "MANUAL_CITATION": "He, Y., Koido, M., Shimmori, Y., & Kamatani, Y. (2023). GWASLab: a Python package for processing and visualizing GWAS summary statistics.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

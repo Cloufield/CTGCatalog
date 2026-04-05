@@ -1,0 +1,27 @@
+{
+  "NAME": "Bian",
+  "PMID": 40112817,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "DESCRIPTION": "scGaTE",
+  "URL": "http://ccra.njmu.edu.cn/scgate/",
+  "MANUAL_YEAR": 2025,
+  "MANUAL_CITATION": "\nBian, L. et al. Single-cell eQTL mapping reveals cell-type-specific genes associated with the risk of gastric cancer. Cell Genom. 5, 100812 (2025).\n  \n",
+  "TITLE": "Single-cell eQTL mapping reveals cell-type-specific genes associated with the risk of gastric cancer.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2025",
+  "VOLUME": "5",
+  "ISSUE": "4",
+  "PAGE": "100812",
+  "Authors": "Bian L,Hu B,Li F,Gu Y,Hu C,Chen Y,Deng B,Fang H,Zhu X,Chen Y,Fu X,Wang T,She Q,Zhu M,Jiang Y,Dai J,Xu H,Ma H,Xu Z,Hu Z,Shen H,Ding Y,Yan C,Jin G",
+  "ABSTRACT": "Most expression quantitative trait locus (eQTL) analyses have been conducted in heterogeneous gastric tissues, limiting understanding of cell-type-specific regulatory mechanisms. Here, we employed a pooled multiplexing strategy to profile 399,683 gastric cells from 203 Chinese individuals using single-cell RNA sequencing (scRNA-seq). We identified 19 distinct gastric cell types and performed eQTL analyses, uncovering 8,498 independent eQTLs, with a considerable fraction (81%, 6,909/8,498) exhibiting cell-type-specific effects. Integration of these eQTLs with genome-wide association studies for gastric cancer (GC) revealed four co-localization signals in specific cell types. Genetically predicted cell-type-specific gene expression identified 15 genes associated with GC risk, including the upregulation of MUC1 exclusively in parietal cells, linked to decreased GC risk. Our findings highlight substantial heterogeneity in the genetic regulation of gene expression across gastric cell types and provide critical cell-type-specific annotations of genetic variants associated with GC risk, offering new molecular insights underlying GC.",
+  "DOI": "10.1016/j.xgen.2025.100812",
+  "PMC ID": "PMC12008807",
+  "CITATION": "Bian L, Hu B, Li F, Gu Y, ...&, Jin G. (2025) Single-cell eQTL mapping reveals cell-type-specific genes associated with the risk of gastric cancer. Cell Genom, 5 (4) 100812. doi:10.1016/j.xgen.2025.100812. PMID 40112817",
+  "FIRST_AUTHOR": "Bian L",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

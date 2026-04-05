@@ -1,0 +1,29 @@
+{
+  "NAME": "fastGWA",
+  "PMID": 31768069,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "fastGWA",
+  "FULL NAME": "fastGWA",
+  "KEYWORDS": "grid-search-based REML algorithm",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#fastGWA",
+  "MANUAL_CITATION": "Jiang, Longda, et al. \"A resource-efficient tool for mixed model association analysis of large-scale data.\" Nature genetics 51.12 (2019): 1749-1755.",
+  "TITLE": "A resource-efficient tool for mixed model association analysis of large-scale data.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2019",
+  "VOLUME": "51",
+  "ISSUE": "12",
+  "PAGE": "1749-1755",
+  "Authors": "Jiang L,Zheng Z,Qi T,Kemper KE,Wray NR,Visscher PM,Yang J",
+  "ABSTRACT": "The genome-wide association study (GWAS) has been widely used as an experimental design to detect associations between genetic variants and a phenotype. Two major confounding factors, population stratification and relatedness, could potentially lead to inflated GWAS test statistics and hence to spurious associations. Mixed linear model (MLM)-based approaches can be used to account for sample structure. However, genome-wide association (GWA) analyses in biobank samples such as the UK Biobank (UKB) often exceed the capability of most existing MLM-based tools especially if the number of traits is large. Here, we develop an MLM-based tool (fastGWA) that controls for population stratification by principal components and for relatedness by a sparse genetic relationship matrix for GWA analyses of biobank-scale data. We demonstrate by extensive simulations that fastGWA is reliable, robust and highly resource-efficient. We then apply fastGWA to 2,173 traits on array-genotyped and imputed samples from 456,422 individuals and to 2,048 traits on whole-exome-sequenced samples from 46,191 individuals in the UKB.",
+  "DOI": "10.1038/s41588-019-0530-8",
+  "PMC ID": "",
+  "CITATION": "Jiang L, Zheng Z, Qi T, Kemper KE, ...&, Yang J. (2019) A resource-efficient tool for mixed model association analysis of large-scale data. Nat Genet, 51 (12) 1749-1755. doi:10.1038/s41588-019-0530-8. PMID 31768069",
+  "FIRST_AUTHOR": "Jiang L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

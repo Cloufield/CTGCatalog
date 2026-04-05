@@ -1,0 +1,30 @@
+{
+  "NAME": "Phecode",
+  "PMID": 28686612,
+  "SECTION": "References",
+  "TOPIC": "Phenotype",
+  "CATEGORY": "Clinical coding",
+  "TYPE": "Classification",
+  "KEYWORDS": "PheWAS; EHR; ICD; phenotype grouping",
+  "TAGS": ["Phenotypes"],
+  "SHORT NAME": "Phecode",
+  "MANUAL_CITATION": "Wei, W. Q., Bastarache, L. A., Carroll, R. J., Marlo, J. E., Osterman, T. J., Gamazon, E. R., ... & Denny, J. C. (2017). Evaluating phecodes, clinical classification software, and ICD-9-CM codes for phenome-wide association studies in the electronic health record. PloS one, 12(7), e0175508.\nWu P, Gifford A, Meng X, Li X, Campbell H, Varley T, Zhao J, Carroll R, Bastarache L, Denny JC, Theodoratou E, Wei W Mapping ICD-10 and ICD-10-CM Codes to Phecodes: Workflow Development and Initial Evaluation JMIR Med Inform 2019;7(4):e14325 doi: 10.2196/14325\nBastarache, L. (2021). Using Phecodes for research with the electronic health record: from PheWAS to PheRS. Annual Review of Biomedical Data Science, 4, 1-19.",
+  "URL": "https://phewascatalog.org/phecodes",
+  "DESCRIPTION": "Phecodes represent one strategy for defining phenotypes for research using EHR data. They are a high-throughput phenotyping tool based on ICD (International Classification of Diseases) codes that can be used to rapidly define the case/control status of thousands of clinically meaningful diseases and conditions.",
+  "TITLE": "Evaluating phecodes, clinical classification software, and ICD-9-CM codes for phenome-wide association studies in the electronic health record.",
+  "ISO": "PLoS One",
+  "JOURNAL": "PloS one",
+  "YEAR": "2017",
+  "VOLUME": "12",
+  "ISSUE": "7",
+  "PAGE": "e0175508",
+  "Authors": "Wei WQ,Bastarache LA,Carroll RJ,Marlo JE,Osterman TJ,Gamazon ER,Cox NJ,Roden DM,Denny JC",
+  "ABSTRACT": "OBJECTIVE: To compare three groupings of Electronic Health Record (EHR) billing codes for their ability to represent clinically meaningful phenotypes and to replicate known genetic associations. The three tested coding systems were the International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) codes, the Agency for Healthcare Research and Quality Clinical Classification Software for ICD-9-CM (CCS), and manually curated \"phecodes\" designed to facilitate phenome-wide association studies (PheWAS) in EHRs. METHODS AND MATERIALS: We selected 100 disease phenotypes and compared the ability of each coding system to accurately represent them without performing additional groupings. The 100 phenotypes included 25 randomly-chosen clinical phenotypes pursued in prior genome-wide association studies (GWAS) and another 75 common disease phenotypes mentioned across free-text problem lists from 189,289 individuals. We then evaluated the performance of each coding system to replicate known associations for 440 SNP-phenotype pairs. RESULTS: Out of the 100 tested clinical phenotypes, phecodes exactly matched 83, compared to 53 for ICD-9-CM and 32 for CCS. ICD-9-CM codes were typically too detailed (requiring custom groupings) while CCS codes were often not granular enough. Among 440 tested known SNP-phenotype associations, use of phecodes replicated 153 SNP-phenotype pairs compared to 143 for ICD-9-CM and 139 for CCS. Phecodes also generally produced stronger odds ratios and lower p-values for known associations than ICD-9-CM and CCS. Finally, evaluation of several SNPs via PheWAS identified novel potential signals, some seen in only using the phecode approach. Among them, rs7318369 in PEPD was associated with gastrointestinal hemorrhage. CONCLUSION: Our results suggest that the phecode groupings better align with clinical diseases mentioned in clinical practice or for genomic studies. ICD-9-CM, CCS, and phecode groupings all worked for PheWAS-type studies, though the phecode groupings produced superior results.",
+  "DOI": "10.1371/journal.pone.0175508",
+  "PMC ID": "PMC5501393",
+  "CITATION": "Wei WQ, Bastarache LA, Carroll RJ, Marlo JE, ...&, Denny JC. (2017) Evaluating phecodes, clinical classification software, and ICD-9-CM codes for phenome-wide association studies in the electronic health record. PLoS One, 12 (7) e0175508. doi:10.1371/journal.pone.0175508. PMID 28686612",
+  "FIRST_AUTHOR": "Wei WQ",
+  "_meta": {
+    "source_sheet": "Phenotype"
+  }
+}

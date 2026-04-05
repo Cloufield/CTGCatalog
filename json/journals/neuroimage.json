@@ -1,0 +1,18 @@
+{
+  "NAME": "NeuroImage",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Neuroimage",
+  "JOURNAL": "NeuroImage",
+  "URL": "http://www.sciencedirect.com/science/journal/10538119",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Xu Z"
+  ]
+}

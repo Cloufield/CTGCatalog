@@ -1,0 +1,14 @@
+{
+  "NAME": "Westlake BioBank for Chinese (WBBC)",
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "WBBC",
+  "FULL NAME": "Westlake BioBank for Chinese (WBBC)",
+  "MANUAL_CITATION": "Cong, P. K., Bai, W. Y., Li, J. C., Yang, M. Y., Khederzadeh, S., Gai, S. R., ... & Zheng, H. F. (2022). Genomic analyses of 10,376 individuals in the Westlake BioBank for Chinese (WBBC) pilot project. Nature Communications, 13(1), 1-15.",
+  "URL": "https://wbbc.westlake.edu.cn/genotype.html",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

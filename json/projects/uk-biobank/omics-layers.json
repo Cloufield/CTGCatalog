@@ -1,0 +1,13 @@
+{
+  "NAME": "Omics & imaging layers",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "STAGE_ORDER": 5,
+  "STAGE_PERIOD": "ongoing",
+  "TAGS": ["UK Biobank", "Multi-omics"],
+  "DESCRIPTION": "NMR metabolomics, Olink/SomaScan proteomics, and multimodal imaging (e.g. brain, cardiac, body composition) in large subsets; sample sizes differ by assay and enrich multi-trait and pathway analyses.",
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

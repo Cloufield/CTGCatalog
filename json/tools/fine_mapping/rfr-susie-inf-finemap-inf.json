@@ -1,0 +1,28 @@
+{
+  "NAME": "RFR SuSiE-inf FINEMAP-inf",
+  "PMID": 38036779,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "RFR",
+  "FULL NAME": "Replication Failure Rate",
+  "URL": "https://github.com/FinucaneLab/fine-mapping-inf",
+  "DESCRIPTION": "Replication Failure Rate (RFR), a metric to assess the consistency of fine-mapping results based on downsampling a large cohort. SuSiE-inf and FINEMAP-inf, that extend SuSiE and FINEMAP to incorporate a term for infinitesimal effects in addition to a small number of larger causal effects of interest.",
+  "MANUAL_CITATION": "Cui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M., ... & Finucane, H. K. (2022). Improving fine-mapping by modeling infinitesimal effects. bioRxiv.\nCui, R., Elzur, R. A., Kanai, M., Ulirsch, J. C., Weissbrod, O., Daly, M. J., ... & Finucane, H. K. (2023). Improving fine-mapping by modeling infinitesimal effects. Nature Genetics, 1-8.",
+  "TITLE": "Improving fine-mapping by modeling infinitesimal effects.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "1",
+  "PAGE": "162-169",
+  "Authors": "Cui R,Elzur RA,Kanai M,Ulirsch JC,Weissbrod O,Daly MJ,Neale BM,Fan Z,Finucane HK",
+  "ABSTRACT": "Fine-mapping aims to identify causal genetic variants for phenotypes. Bayesian fine-mapping algorithms (for example, SuSiE, FINEMAP, ABF and COJO-ABF) are widely used, but assessing posterior probability calibration remains challenging in real data, where model misspecification probably exists, and true causal variants are unknown. We introduce replication failure rate (RFR), a metric to assess fine-mapping consistency by downsampling. SuSiE, FINEMAP and COJO-ABF show high RFR, indicating potential overconfidence in their output. Simulations reveal that nonsparse genetic architecture can lead to miscalibration, while imputation noise, nonuniform distribution of causal variants and quality control filters have minimal impact. Here we present SuSiE-inf and FINEMAP-inf, fine-mapping methods modeling infinitesimal effects alongside fewer larger causal effects. Our methods show improved calibration, RFR and functional enrichment, competitive recall and computational efficiency. Notably, using our methods' posterior effect sizes substantially increases polygenic risk score accuracy over SuSiE and FINEMAP. Our work improves causal variant identification for complex traits, a fundamental goal of human genetics.",
+  "DOI": "10.1038/s41588-023-01597-3",
+  "PMC ID": "PMC11056999",
+  "CITATION": "Cui R, Elzur RA, Kanai M, Ulirsch JC, ...&, Finucane HK. (2024) Improving fine-mapping by modeling infinitesimal effects. Nat Genet, 56 (1) 162-169. doi:10.1038/s41588-023-01597-3. PMID 38036779",
+  "FIRST_AUTHOR": "Cui R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

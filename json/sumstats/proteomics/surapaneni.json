@@ -1,0 +1,27 @@
+{
+  "NAME": "Surapaneni",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 35870639,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Identification of 969 protein quantitative trait loci in an African American population with kidney disease attributed to hypertension.",
+  "ISO": "Kidney Int",
+  "JOURNAL": "Kidney international",
+  "YEAR": "2022",
+  "VOLUME": "102",
+  "ISSUE": "5",
+  "PAGE": "1167-1177",
+  "Authors": "Surapaneni A,Schlosser P,Zhou L,Liu C,Chatterjee N,Arking DE,Dutta D,Coresh J,Rhee EP,Grams ME",
+  "ABSTRACT": "Investigations into the causal underpinnings of disease processes can be aided by the incorporation of genetic information. Genetic studies require populations varied in both ancestry and prevalent disease in order to optimize discovery and ensure generalizability of findings to the global population. Here, we report the genetic determinants of the serum proteome in 466 African Americans with chronic kidney disease attributed to hypertension from the richly phenotyped African American Study of Kidney Disease and Hypertension (AASK) study. Using the largest aptamer-based protein profiling platform to date (6,790 proteins or protein complexes), we identified 969 genetic associations with 900 unique proteins; including 52 novel cis (local) associations and 379 novel trans (distant) associations. The genetic effects of previously published cis-protein quantitative trait loci (pQTLs) were found to be highly reproducible, and we found evidence that our novel genetic signals colocalize with gene expression and disease processes. Many trans- pQTLs were found to reflect associations mediated by the circulating cis protein, and the common trans-pQTLs are enriched for processes involving extracellular vesicles, highlighting a plausible mechanism for distal regulation of the levels of secreted proteins. Thus, our study generates a valuable resource of genetic associations linking variants to protein levels and disease in an understudied patient population to inform future studies of drug targets and physiology.",
+  "DOI": "10.1016/j.kint.2022.07.005",
+  "PMC ID": "PMC12997408",
+  "CITATION": "Surapaneni A, Schlosser P, Zhou L, Liu C, ...&, Grams ME. (2022) Identification of 969 protein quantitative trait loci in an African American population with kidney disease attributed to hypertension. Kidney Int, 102 (5) 1167-1177. doi:10.1016/j.kint.2022.07.005. PMID 35870639",
+  "FIRST_AUTHOR": "Surapaneni A",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "FinnGen R8 (Dec 1 2022)",
+  "PMID": 36653562,
+  "URL": "https://r8.finngen.fi/about",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "Finngen",
+  "TYPE": "Datasets",
+  "MANUAL_CITATION": "Kurki, M.I., Karjalainen, J., Palta, P. et al. FinnGen provides genetic insights from a well-phenotyped isolated population. Nature 613, 508–518 (2023). https://doi.org/10.1038/s41586-022-05473-12",
+  "TITLE": "FinnGen provides genetic insights from a well-phenotyped isolated population.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2023",
+  "VOLUME": "613",
+  "ISSUE": "7944",
+  "PAGE": "508-518",
+  "Authors": "Kurki MI,Karjalainen J,Palta P,Sipilä TP,Kristiansson K,Donner KM,Reeve MP,Laivuori H,Aavikko M,Kaunisto MA,Loukola A,Lahtela E,Mattsson H,Laiho P,Della Briotta Parolo P,Lehisto AA,Kanai M,Mars N,Rämö J,Kiiskinen T,Heyne HO,Veerapen K,Rüeger S,Lemmelä S,Zhou W,Ruotsalainen S,Pärn K,Hiekkalinna T,Koskelainen S,Paajanen T,Llorens V,Gracia-Tabuenca J,Siirtola H,Reis K,Elnahas AG,Sun B,Foley CN,Aalto-Setälä K,Alasoo K,Arvas M,Auro K,Biswas S,Bizaki-Vallaskangas A,Carpen O,Chen CY,Dada OA,Ding Z,Ehm MG,Eklund K,Färkkilä M,Finucane H,Ganna A,Ghazal A,Graham RR,Green EM,Hakanen A,Hautalahti M,Hedman ÅK,Hiltunen M,Hinttala R,Hovatta I,Hu X,Huertas-Vazquez A,Huilaja L,Hunkapiller J,Jacob H,Jensen JN,Joensuu H,John S,Julkunen V,Jung M,Junttila J,Kaarniranta K,Kähönen M,Kajanne R,Kallio L,Kälviäinen R,Kaprio J,FinnGen,Kerimov N,Kettunen J,Kilpeläinen E,Kilpi T,Klinger K,Kosma VM,Kuopio T,Kurra V,Laisk T,Laukkanen J,Lawless N,Liu A,Longerich S,Mägi R,Mäkelä J,Mäkitie A,Malarstig A,Mannermaa A,Maranville J,Matakidou A,Meretoja T,Mozaffari SV,Niemi MEK,Niemi M,Niiranen T,O Donnell CJ,Obeidat ME,Okafo G,Ollila HM,Palomäki A,Palotie T,Partanen J,Paul DS,Pelkonen M,Pendergrass RK,Petrovski S,Pitkäranta A,Platt A,Pulford D,Punkka E,Pussinen P,Raghavan N,Rahimov F,Rajpal D,Renaud NA,Riley-Gillis B,Rodosthenous R,Saarentaus E,Salminen A,Salminen E,Salomaa V,Schleutker J,Serpi R,Shen HY,Siegel R,Silander K,Siltanen S,Soini S,Soininen H,Sul JH,Tachmazidou I,Tasanen K,Tienari P,Toppila-Salmi S,Tukiainen T,Tuomi T,Turunen JA,Ulirsch JC,Vaura F,Virolainen P,Waring J,Waterworth D,Yang R,Nelis M,Reigo A,Metspalu A,Milani L,Esko T,Fox C,Havulinna AS,Perola M,Ripatti S,Jalanko A,Laitinen T,Mäkelä TP,Plenge R,McCarthy M,Runz H,Daly MJ,Palotie A",
+  "ABSTRACT": "Population isolates such as those in Finland benefit genetic research because deleterious alleles are often concentrated on a small number of low-frequency variants (0.1% ≤ minor allele frequency < 5%). These variants survived the founding bottleneck rather than being distributed over a large number of ultrarare variants. Although this effect is well established in Mendelian genetics, its value in common disease genetics is less explored1,2. FinnGen aims to study the genome and national health register data of 500,000 Finnish individuals. Given the relatively high median age of participants (63 years) and the substantial fraction of hospital-based recruitment, FinnGen is enriched for disease end points. Here we analyse data from 224,737 participants from FinnGen and study 15 diseases that have previously been investigated in large genome-wide association studies (GWASs). We also include meta-analyses of biobank data from Estonia and the United Kingdom. We identified 30 new associations, primarily low-frequency variants, enriched in the Finnish population. A GWAS of 1,932 diseases also identified 2,733 genome-wide significant associations (893 phenome-wide significant (PWS), P < 2.6 × 10-11) at 2,496 (771 PWS) independent loci with 807 (247 PWS) end points. Among these, fine-mapping implicated 148 (73 PWS) coding variants associated with 83 (42 PWS) end points. Moreover, 91 (47 PWS) had an allele frequency of <5% in non-Finnish European individuals, of which 62 (32 PWS) were enriched by more than twofold in Finland. These findings demonstrate the power of bottlenecked populations to find entry points into the biology of common diseases through low-frequency, high impact variants.",
+  "DOI": "10.1038/s41586-022-05473-8",
+  "PMC ID": "PMC9849126",
+  "CITATION": "Kurki MI, Karjalainen J, Palta P, Sipilä TP, ...&, Palotie A. (2023) FinnGen provides genetic insights from a well-phenotyped isolated population. Nature, 613 (7944) 508-518. doi:10.1038/s41586-022-05473-8. PMID 36653562",
+  "FIRST_AUTHOR": "Kurki MI",
+  "DESCRIPTION": "FinnGen data freeze R8 (1 Dec 2022) GWAS summary statistics; resource overview in Kurki et al., Nature 2023.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

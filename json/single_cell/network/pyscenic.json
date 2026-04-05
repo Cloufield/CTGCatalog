@@ -1,0 +1,12 @@
+{
+  "NAME": "pySCENIC",
+  "SECTION": "Single_Cell",
+  "TOPIC": "Network",
+  "CATEGORY": "Network",
+  "URL": "https://pyscenic.readthedocs.io/en/latest/",
+  "DESCRIPTION": "pySCENIC is a lightning-fast python implementation of the SCENIC pipeline (Single-Cell rEgulatory Network Inference and Clustering) which enables biologists to infer transcription factors, gene regulatory networks and cell types from single-cell RNA-seq data.",
+  "MANUAL_CITATION": "\nAibar, S. et al. SCENIC: single-cell regulatory network inference and clustering. Nat. Methods 14, 1083–1086 (2017).\n  \n",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

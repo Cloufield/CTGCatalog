@@ -1,0 +1,28 @@
+{
+  "NAME": "PsychENCODE ",
+  "PMID": 26605881,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Project",
+  "CATEGORY": "Brain",
+  "DESCRIPTION": "Established in 2015 by the National Institute of Mental Health, the PsychENCODE Consortium brings together multidisciplinary teams to study the molecular basis of neuropsychiatric diseases. Genetic influences on brain function are remarkably complex, characterized by a highly polygenic risk architecture and often located in the non-coding regions of the genome. PsychENCODE members generate large-scale gene expression and regulatory data from human postmortem brain tissues in major psychiatric disorders across multiple developmental stages. The goal is to map and functionally validate disease‐associated genetic variants, regulatory elements, genes and cell types. Phase II of the project focused on single-cell and spatial data, culminating in a collection of 14 papers published on May 24, 2024 (9 in Science, 3 in Science Advances, 1 in Scientific Reports, and 1 in Molecular Psychiatry). Phase I of the project was published in 2018 in a collection of 11 papers in Science, Science Translational Medicine, and Science Advances. ",
+  "URL": "https://www.psychencode.org/home",
+  "MANUAL_YEAR": 2015,
+  "MANUAL_CITATION": "\nPsychENCODE Consortium et al. The PsychENCODE project. Nat. Neurosci. 18, 1707–1712 (2015).\n  \n",
+  "TITLE": "The PsychENCODE project.",
+  "ISO": "Nat Neurosci",
+  "JOURNAL": "Nature neuroscience",
+  "YEAR": "2015",
+  "VOLUME": "18",
+  "ISSUE": "12",
+  "PAGE": "1707-12",
+  "Authors": "PsychENCODE Consortium,Akbarian S,Liu C,Knowles JA,Vaccarino FM,Farnham PJ,Crawford GE,Jaffe AE,Pinto D,Dracheva S,Geschwind DH,Mill J,Nairn AC,Abyzov A,Pochareddy S,Prabhakar S,Weissman S,Sullivan PF,State MW,Weng Z,Peters MA,White KP,Gerstein MB,Amiri A,Armoskus C,Ashley-Koch AE,Bae T,Beckel-Mitchener A,Berman BP,Coetzee GA,Coppola G,Francoeur N,Fromer M,Gao R,Grennan K,Herstein J,Kavanagh DH,Ivanov NA,Jiang Y,Kitchen RR,Kozlenkov A,Kundakovic M,Li M,Li Z,Liu S,Mangravite LM,Mattei E,Markenscoff-Papadimitriou E,Navarro FC,North N,Omberg L,Panchision D,Parikshak N,Poschmann J,Price AJ,Purcaro M,Reddy TE,Roussos P,Schreiner S,Scuderi S,Sebra R,Shibata M,Shieh AW,Skarica M,Sun W,Swarup V,Thomas A,Tsuji J,van Bakel H,Wang D,Wang Y,Wang K,Werling DM,Willsey AJ,Witt H,Won H,Wong CC,Wray GA,Wu EY,Xu X,Yao L,Senthil G,Lehner T,Sklar P,Sestan N",
+  "ABSTRACT": "Recent research on disparate psychiatric disorders has implicated rare variants in genes involved in global gene regulation and chromatin modification, as well as many common variants located primarily in regulatory regions of the genome. Understanding precisely how these variants contribute to disease will require a deeper appreciation for the mechanisms of gene regulation in the developing and adult human brain. The PsychENCODE project aims to produce a public resource of multidimensional genomic data using tissue- and cell type–specific samples from approximately 1,000 phenotypically well-characterized, high-quality healthy and disease-affected human post-mortem brains, as well as functionally characterize disease-associated regulatory elements and variants in model systems. We are beginning with a focus on autism spectrum disorder, bipolar disorder and schizophrenia, and expect that this knowledge will apply to a wide variety of psychiatric disorders. This paper outlines the motivation and design of PsychENCODE.",
+  "DOI": "10.1038/nn.4156",
+  "PMC ID": "PMC4675669",
+  "CITATION": "PsychENCODE Consortium, Akbarian S, Liu C, Knowles JA, ...&, Sestan N. (2015) The PsychENCODE project. Nat Neurosci, 18 (12) 1707-12. doi:10.1038/nn.4156. PMID 26605881",
+  "FIRST_AUTHOR": "PsychENCODE Consortium",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

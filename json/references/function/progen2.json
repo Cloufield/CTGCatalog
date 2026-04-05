@@ -1,0 +1,33 @@
+{
+  "NAME": "ProGen2",
+  "CATEGORY": "Evolutionary and Generative Protein Models",
+  "SOURCE": "ProGen2",
+  "PMID": 37909046,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nNijkamp, E., Ruffolo, J. A., Weinstein, E. N., Naik, N. & Madani, A. ProGen2: Exploring the boundaries of protein language models. Cell Syst. 14, 968-978.e3 (2023).\n  \n",
+  "TOPIC": "Function",
+  "URL": "https://github.com/salesforce/progen",
+  "TYPE": "Model",
+  "DESCRIPTION": "Generative protein design using LLMs trained on protein sequences.",
+  "MANUAL_YEAR": 2023,
+  "SHORT NAME": "ProGen2",
+  "FULL NAME": "ProGen2",
+  "KEYWORDS": "protein design, LLM",
+  "USE": "sequence generation",
+  "TITLE": "ProGen2: Exploring the boundaries of protein language models.",
+  "ISO": "Cell Syst",
+  "JOURNAL": "Cell systems",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "11",
+  "PAGE": "968-978.e3",
+  "Authors": "Nijkamp E,Ruffolo JA,Weinstein EN,Naik N,Madani A",
+  "ABSTRACT": "Attention-based models trained on protein sequences have demonstrated incredible success at classification and generation tasks relevant for artificial-intelligence-driven protein design. However, we lack a sufficient understanding of how very large-scale models and data play a role in effective protein model development. We introduce a suite of protein language models, named ProGen2, that are scaled up to 6.4B parameters and trained on different sequence datasets drawn from over a billion proteins from genomic, metagenomic, and immune repertoire databases. ProGen2 models show state-of-the-art performance in capturing the distribution of observed evolutionary sequences, generating novel viable sequences, and predicting protein fitness without additional fine-tuning. As large model sizes and raw numbers of protein sequences continue to become more widely accessible, our results suggest that a growing emphasis needs to be placed on the data distribution provided to a protein sequence model. Our models and code are open sourced for widespread adoption in protein engineering. A record of this paper's Transparent Peer Review process is included in the supplemental information.",
+  "DOI": "10.1016/j.cels.2023.10.002",
+  "PMC ID": "",
+  "CITATION": "Nijkamp E, Ruffolo JA, Weinstein EN, Naik N, ...&, Madani A. (2023) ProGen2: Exploring the boundaries of protein language models. Cell Syst, 14 (11) 968-978.e3. doi:10.1016/j.cels.2023.10.002. PMID 37909046",
+  "FIRST_AUTHOR": "Nijkamp E",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "NAME": "FinnGen",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~500k",
+  "MANUAL_CITATION": "Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K., ... & Nelis, M. (2022). FinnGen: Unique genetic insights from combining isolated population and national health register data. medRxiv.",
+  "URL": "https://www.finngen.fi/en",
+  "DESCRIPTION": " FinnGen study launched in Finland in the autumn of 2017 is a unique study that combines genome information with digital health care data. The FinnGen study is an unprecedented global research project representing one of the largest studies of this type. Project aims to improve human health through genetic research, and ultimately identify new therapeutic targets and diagnostics for treating numerous diseases. The collaborative nature of the project is exceptional compare to many ongoing studies, and all the partners are working closely together to ensure appropriate transparency, data security and ownership.",
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Finnish adults (national FinnGen)",
+  "CITATION": "Kurki, M. I., Karjalainen, J., Palta, P., Sipilä, T. P., Kristiansson, K., Donner, K., ... & Nelis, M. (2022). FinnGen: Unique genetic insights from combining isolated population and national health register data. medRxiv.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  }
+}

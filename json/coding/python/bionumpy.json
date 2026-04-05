@@ -1,0 +1,11 @@
+{
+  "NAME": "BioNumPy",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://bionumpy.github.io/bionumpy/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Biological data as NumPy-like arrays (see preprint in repo notes)."
+}

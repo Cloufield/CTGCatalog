@@ -1,0 +1,13 @@
+{
+  "NAME": "Baseline cohort & array genotyping",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "STAGE_ORDER": 1,
+  "STAGE_PERIOD": "2006–2010+",
+  "TAGS": ["UK Biobank", "GWAS"],
+  "DESCRIPTION": "Recruitment of ~500,000 UK adults with questionnaire and physical measures; genome-wide array genotyping on the full cohort underpins most early GWAS and PRS applications.",
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

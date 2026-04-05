@@ -1,0 +1,20 @@
+{
+  "NAME": "Said",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "China Kadoorie Biobank",
+  "TYPE": "PEA/OLINK",
+  "MANUAL_YEAR": 2023,
+  "MANUAL_CITATION": "\nSaid, S. et al. Ancestry diversity in the genetic determinants of the human plasma proteome and associated new drug targets. bioRxiv (2023) doi:10.1101/2023.11.13.23298365.\n  ",
+  "PREPRINT_DOI": "10.1101/2023.11.13.23298365",
+  "SERVER": "medrxiv",
+  "CITATION": "Said, S. et al. Ancestry diversity in the genetic determinants of the human plasma proteome and associated new drug targets. bioRxiv (2023) doi:10.1101/2023.11.13.23298365.",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

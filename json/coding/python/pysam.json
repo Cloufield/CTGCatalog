@@ -1,0 +1,11 @@
+{
+  "NAME": "pysam",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://github.com/pysam-developers/pysam",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "SAM/BAM/VCF interface for Python."
+}

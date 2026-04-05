@@ -1,0 +1,27 @@
+{
+  "NAME": "Sasayama",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 28031287,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Genome-wide quantitative trait loci mapping of the human cerebrospinal fluid proteome.",
+  "ISO": "Hum Mol Genet",
+  "JOURNAL": "Human molecular genetics",
+  "YEAR": "2017",
+  "VOLUME": "26",
+  "ISSUE": "1",
+  "PAGE": "44-51",
+  "Authors": "Sasayama D,Hattori K,Ogawa S,Yokota Y,Matsumura R,Teraishi T,Hori H,Ota M,Yoshida S,Kunugi H",
+  "ABSTRACT": "Cerebrospinal fluid (CSF) is virtually the only one accessible source of proteins derived from the central nervous system (CNS) of living humans and possibly reflects the pathophysiology of a variety of neuropsychiatric diseases. However, little is known regarding the genetic basis of variation in protein levels of human CSF. We examined CSF levels of 1,126 proteins in 133 subjects and performed a genome-wide association analysis of 514,227 single nucleotide polymorphisms (SNPs) to detect protein quantitative trait loci (pQTLs). To be conservative, Spearman's correlation was used to identify an association between genotypes of SNPs and protein levels. A total of 421 cis and 25 trans SNP-protein pairs were significantly correlated at a false discovery rate (FDR) of less than 0.01 (nominal P < 7.66 × 10-9). Cis-only analysis revealed additional 580 SNP-protein pairs with FDR < 0.01 (nominal P < 2.13 × 10-5). pQTL SNPs were more likely, compared to non-pQTL SNPs, to be a disease/trait-associated variants identified by previous genome-wide association studies. The present findings suggest that genetic variations play an important role in the regulation of protein expression in the CNS. The obtained database may serve as a valuable resource to understand the genetic bases for CNS protein expression pattern in humans.",
+  "DOI": "10.1093/hmg/ddw366",
+  "PMC ID": "",
+  "CITATION": "Sasayama D, Hattori K, Ogawa S, Yokota Y, ...&, Kunugi H. (2017) Genome-wide quantitative trait loci mapping of the human cerebrospinal fluid proteome. Hum Mol Genet, 26 (1) 44-51. doi:10.1093/hmg/ddw366. PMID 28031287",
+  "FIRST_AUTHOR": "Sasayama D",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

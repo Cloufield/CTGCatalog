@@ -1,0 +1,14 @@
+{
+  "NAME": "LDAK-KVIK",
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDAK-KVIK",
+  "URL": "http://www.ldak.org/",
+  "MANUAL_CITATION": "Hof, J. P. & Speed, D. LDAK-KVIK performs fast and powerful mixed-model association analysis of quantitative and binary phenotypes. bioRxiv 2024.07.25.24311005 (2024) doi:10.1101/2024.07.25.24311005.\n  ",
+  "CITATION": "Hof, J. P. & Speed, D. LDAK-KVIK performs fast and powerful mixed-model association analysis of quantitative and binary phenotypes. bioRxiv 2024.07.25.24311005 (2024) doi:10.1101/2024.07.25.24311005.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

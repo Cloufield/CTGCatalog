@@ -1,0 +1,30 @@
+{
+  "NAME": "LDpred-funct",
+  "PMID": 34663819,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "LDpred-funct",
+  "FULL NAME": "LDpred-funct",
+  "KEYWORDS": "Bayesian, functional priors",
+  "URL": "https://github.com/carlaml/LDpred-funct",
+  "DESCRIPTION": "LDpred-funct is a method for polygenic prediction that leverages trait-specific functional priors to increase prediction accuracy.",
+  "MANUAL_CITATION": "Márquez-Luna, C., Gazal, S., Loh, P. R., Kim, S. S., Furlotte, N., Auton, A., & Price, A. L. (2021). Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets. Nature Communications, 12(1), 1-11.",
+  "TITLE": "Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "6052",
+  "Authors": "Márquez-Luna C,Gazal S,Loh PR,Kim SS,Furlotte N,Auton A,23andMe Research Team,Price AL",
+  "ABSTRACT": "Polygenic risk prediction is a widely investigated topic because of its promising clinical applications. Genetic variants in functional regions of the genome are enriched for complex trait heritability. Here, we introduce a method for polygenic prediction, LDpred-funct, that leverages trait-specific functional priors to increase prediction accuracy. We fit priors using the recently developed baseline-LD model, including coding, conserved, regulatory, and LD-related annotations. We analytically estimate posterior mean causal effect sizes and then use cross-validation to regularize these estimates, improving prediction accuracy for sparse architectures. We applied LDpred-funct to predict 21 highly heritable traits in the UK Biobank (avg N = 373 K as training data). LDpred-funct attained a +4.6% relative improvement in average prediction accuracy (avg prediction R2 = 0.144; highest R2 = 0.413 for height) compared to SBayesR (the best method that does not incorporate functional information). For height, meta-analyzing training data from UK Biobank and 23andMe cohorts (N = 1107 K) increased prediction R2 to 0.431. Our results show that incorporating functional priors improves polygenic prediction accuracy, consistent with the functional architecture of complex traits.",
+  "DOI": "10.1038/s41467-021-25171-9",
+  "PMC ID": "PMC8523709",
+  "CITATION": "Márquez-Luna C, Gazal S, Loh PR, Kim SS, ...&, Price AL. (2021) Incorporating functional priors improves polygenic prediction accuracy in UK Biobank and 23andMe data sets. Nat Commun, 12 (1) 6052. doi:10.1038/s41467-021-25171-9. PMID 34663819",
+  "FIRST_AUTHOR": "Márquez-Luna C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

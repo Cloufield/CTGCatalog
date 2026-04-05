@@ -1,0 +1,32 @@
+{
+  "NAME": "Fu J",
+  "ADD_SUFFIX": 1,
+  "PMID": 38811844,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EAS,EUR",
+  "TRAIT": "sMRI, dMRI and rs-fMRI: 3,414 IDP",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "CHIMGEN, UKB",
+  "SAMPLE_SIZE": " 7,058 Chinese Han and 33,224 white British",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Fu, J. et al. Cross-ancestry genome-wide association studies of brain imaging phenotypes. Nat. Genet. (2024) doi:10.1038/s41588-024-01766-y.",
+  "MANUAL_YEAR": 2024,
+  "TITLE": "Cross-ancestry genome-wide association studies of brain imaging phenotypes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "6",
+  "PAGE": "1110-1120",
+  "Authors": "Fu J,Zhang Q,Wang J,Wang M,Zhang B,Zhu W,Qiu S,Geng Z,Cui G,Yu Y,Liao W,Zhang H,Gao B,Xu X,Han T,Yao Z,Qin W,Liu F,Liang M,Wang S,Xu Q,Xu J,Zhang P,Li W,Shi D,Wang C,Lui S,Yan Z,Chen F,Zhang J,Li J,Shen W,Miao Y,Wang D,Xian J,Gao JH,Zhang X,Xu K,Zuo XN,Zhang L,Ye Z,Cheng J,Li MJ,Yu C,CHIMGEN Consortium",
+  "ABSTRACT": "Genome-wide association studies of brain imaging phenotypes are mainly performed in European populations, but other populations are severely under-represented. Here, we conducted Chinese-alone and cross-ancestry genome-wide association studies of 3,414 brain imaging phenotypes in 7,058 Chinese Han and 33,224 white British participants. We identified 38 new associations in Chinese-alone analyses and 486 additional new associations in cross-ancestry meta-analyses at P < 1.46 × 10-11 for discovery and P < 0.05 for replication. We pooled significant autosomal associations identified by single- or cross-ancestry analyses into 6,443 independent associations, which showed uneven distribution in the genome and the phenotype subgroups. We further divided them into 44 associations with different effect sizes and 3,557 associations with similar effect sizes between ancestries. Loci of these associations were shared with 15 brain-related non-imaging traits including cognition and neuropsychiatric disorders. Our results provide a valuable catalog of genetic associations for brain imaging phenotypes in more diverse populations.",
+  "DOI": "10.1038/s41588-024-01766-y",
+  "PMC ID": "",
+  "CITATION": "Fu J, Zhang Q, Wang J, Wang M, ...&, CHIMGEN Consortium. (2024) Cross-ancestry genome-wide association studies of brain imaging phenotypes. Nat Genet, 56 (6) 1110-1120. doi:10.1038/s41588-024-01766-y. PMID 38811844",
+  "FIRST_AUTHOR": "Fu J",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

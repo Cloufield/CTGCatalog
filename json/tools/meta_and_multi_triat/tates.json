@@ -1,0 +1,28 @@
+{
+  "NAME": "TATES",
+  "PMID": 23359524,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "TATES",
+  "FULL NAME": "Trait-based Association Test that uses Extended Simes procedure",
+  "MANUAL_YEAR": 2013,
+  "MANUAL_CITATION": "van der Sluis, S., Posthuma, D. & Dolan, C. V. TATES: efficient multivariate genotype-phenotype analysis for genome-wide association studies. PLoS Genet. 9, e1003235 (2013).",
+  "TITLE": "TATES: efficient multivariate genotype-phenotype analysis for genome-wide association studies.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2013",
+  "VOLUME": "9",
+  "ISSUE": "1",
+  "PAGE": "e1003235",
+  "Authors": "van der Sluis S,Posthuma D,Dolan CV",
+  "ABSTRACT": "To date, the genome-wide association study (GWAS) is the primary tool to identify genetic variants that cause phenotypic variation. As GWAS analyses are generally univariate in nature, multivariate phenotypic information is usually reduced to a single composite score. This practice often results in loss of statistical power to detect causal variants. Multivariate genotype-phenotype methods do exist but attain maximal power only in special circumstances. Here, we present a new multivariate method that we refer to as TATES (Trait-based Association Test that uses Extended Simes procedure), inspired by the GATES procedure proposed by Li et al (2011). For each component of a multivariate trait, TATES combines p-values obtained in standard univariate GWAS to acquire one trait-based p-value, while correcting for correlations between components. Extensive simulations, probing a wide variety of genotype-phenotype models, show that TATES's false positive rate is correct, and that TATES's statistical power to detect causal variants explaining 0.5% of the variance can be 2.5-9 times higher than the power of univariate tests based on composite scores and 1.5-2 times higher than the power of the standard MANOVA. Unlike other multivariate methods, TATES detects both genetic variants that are common to multiple phenotypes and genetic variants that are specific to a single phenotype, i.e. TATES provides a more complete view of the genetic architecture of complex traits. As the actual causal genotype-phenotype model is usually unknown and probably phenotypically and genetically complex, TATES, available as an open source program, constitutes a powerful new multivariate strategy that allows researchers to identify novel causal variants, while the complexity of traits is no longer a limiting factor.",
+  "DOI": "10.1371/journal.pgen.1003235",
+  "PMC ID": "PMC3554627",
+  "CITATION": "van der Sluis S, Posthuma D, Dolan CV. (2013) TATES: efficient multivariate genotype-phenotype analysis for genome-wide association studies. PLoS Genet, 9 (1) e1003235. doi:10.1371/journal.pgen.1003235. PMID 23359524",
+  "FIRST_AUTHOR": "van der Sluis S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

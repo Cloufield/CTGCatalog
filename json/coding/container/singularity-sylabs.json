@@ -1,0 +1,11 @@
+{
+  "NAME": "Sylabs Singularity",
+  "SECTION": "Coding",
+  "TOPIC": "Container",
+  "TYPE": "Resource",
+  "URL": "https://sylabs.io/singularity/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Singularity / Apptainer ecosystem."
+}

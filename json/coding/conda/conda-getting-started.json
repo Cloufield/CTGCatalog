@@ -1,0 +1,11 @@
+{
+  "NAME": "Conda user guide — getting started",
+  "SECTION": "Coding",
+  "TOPIC": "Conda",
+  "TYPE": "Resource",
+  "URL": "https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Official Conda tutorial."
+}

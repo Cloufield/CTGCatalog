@@ -1,0 +1,28 @@
+{
+  "NAME": "PoPs",
+  "PMID": 37443254,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_prioritization",
+  "TYPE": "Tools",
+  "SHORT NAME": "PoPs",
+  "FULL NAME": "gene-level Polygenic Priority Score (PoPS)",
+  "URL": "https://github.com/FinucaneLab/pops",
+  "DESCRIPTION": "PoPS is a gene prioritization method that leverages genome-wide signal from GWAS summary statistics and incorporates data from an extensive set of public bulk and single-cell expression datasets, curated biological pathways, and predicted protein-protein interactions.",
+  "MANUAL_CITATION": "Weeks, E. M., Ulirsch, J. C., Cheng, N. Y., Trippe, B. L., Fine, R. S., Miao, J., ... & Finucane, H. K. (2020). Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. medRxiv.",
+  "TITLE": "Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "8",
+  "PAGE": "1267-1276",
+  "Authors": "Weeks EM,Ulirsch JC,Cheng NY,Trippe BL,Fine RS,Miao J,Patwardhan TA,Kanai M,Nasser J,Fulco CP,Tashman KC,Aguet F,Li T,Ordovas-Montanes J,Smillie CS,Biton M,Shalek AK,Ananthakrishnan AN,Xavier RJ,Regev A,Gupta RM,Lage K,Ardlie KG,Hirschhorn JN,Lander ES,Engreitz JM,Finucane HK",
+  "ABSTRACT": "Genome-wide association studies (GWASs) are a valuable tool for understanding the biology of complex human traits and diseases, but associated variants rarely point directly to causal genes. In the present study, we introduce a new method, polygenic priority score (PoPS), that learns trait-relevant gene features, such as cell-type-specific expression, to prioritize genes at GWAS loci. Using a large evaluation set of genes with fine-mapped coding variants, we show that PoPS and the closest gene individually outperform other gene prioritization methods, but observe the best overall performance by combining PoPS with orthogonal methods. Using this combined approach, we prioritize 10,642 unique gene-trait pairs across 113 complex traits and diseases with high precision, finding not only well-established gene-trait relationships but nominating new genes at unresolved loci, such as LGR4 for estimated glomerular filtration rate and CCR7 for deep vein thrombosis. Overall, we demonstrate that PoPS provides a powerful addition to the gene prioritization toolbox.",
+  "DOI": "10.1038/s41588-023-01443-6",
+  "PMC ID": "PMC10836580",
+  "CITATION": "Weeks EM, Ulirsch JC, Cheng NY, Trippe BL, ...&, Finucane HK. (2023) Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. Nat Genet, 55 (8) 1267-1276. doi:10.1038/s41588-023-01443-6. PMID 37443254",
+  "FIRST_AUTHOR": "Weeks EM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

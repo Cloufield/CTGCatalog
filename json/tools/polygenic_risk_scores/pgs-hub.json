@@ -1,0 +1,29 @@
+{
+  "NAME": "PGS-hub",
+  "PMID": 41580418,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "MANUAL_YEAR": 2026,
+  "KEYWORDS": "PGS-hub",
+  "URL": "https://ngdc.cncb.ac.cn/pgs-hub/",
+  "DESCRIPTION": "PGS-hub platform features the deployment of eight single-ancestry PGS algorithms and two multi-ancestry PGS algorithms, providing comprehensive and versatile tools for genetic risk assessment.",
+  "MANUAL_CITATION": "Chen, X., Wang, F., Zhao, H., Hao, J., A, Y., Yang, X., ... & Wang, M. (2026). Comprehensive benchmarking single and multi ancestry polygenic score methods with the PGS-hub platform. Nature Communications.",
+  "TITLE": "Comprehensive benchmarking single and multi ancestry polygenic score methods with the PGS-hub platform.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2026",
+  "VOLUME": "17",
+  "ISSUE": "1",
+  "PAGE": "",
+  "Authors": "Chen X,Wang F,Zhao H,Hao J,A Y,Yang X,Xu T,Zhou Y,Chen Q,Zhang R,Yu K,Zaib K,Fahed AC,Zhai G,Wang M",
+  "ABSTRACT": "Polygenic scores (PGS) quantify genetic contributions to complex traits, yet existing single- and multi-ancestry methods lack multi-dimensional evaluation within a unified framework. Here, we benchmarked 13 state-of-the-art PGS methods across 36 traits in UK Biobank European and African samples. The prediction performance, computational efficiency, the number of variants, and the impact of different linkage disequilibrium (LD) reference sizes were thoroughly assessed for each method. Results of single-ancestry methods demonstrate that LDpred2 has superior performance across a broad spectrum of complex traits in terms of accuracy and computational efficiency; however, other methods remain valuable for specific traits. For multi-ancestry methods, PRS-CSx and X-Wing have comparable performance, whereas LDpred2-multi outperforms both. Notably, we find that increasing the panel size of the LD reference significantly elevates PGS performance for sample sizes below 1,000, and it reaches a plateau when it exceeds 5,000 samples. Furthermore, implementing PGS calculation methods requires considerable technical effort and resource allocation. To support easy use of these PGS methods, we developed a user-friendly online computing platform, PGS-hub, that integrates all evaluated methods and is pre-configured with ancestry-stratified LD panels. This resource enables a scalable and harmonized PGS computation platform for the PGS community.",
+  "DOI": "10.1038/s41467-026-68599-7",
+  "PMC ID": "PMC12936211",
+  "CITATION": "Chen X, Wang F, Zhao H, Hao J, ...&, Wang M. (2026) Comprehensive benchmarking single and multi ancestry polygenic score methods with the PGS-hub platform. Nat Commun, 17 (1) . doi:10.1038/s41467-026-68599-7. PMID 41580418",
+  "FIRST_AUTHOR": "Chen X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

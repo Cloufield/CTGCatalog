@@ -1,0 +1,29 @@
+{
+  "NAME": "MegaPRS",
+  "PMID": 34234142,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MegaPRS ",
+  "FULL NAME": "MegaPRS ",
+  "URL": "http://www.ldak.org/",
+  "DESCRIPTION": "individual level: big_spLinReg, LDAK-Ridge-Predict, LDAK-Bolt-Predict and LDAK-BayesR-Predict\nsumstats: LDAK-Lasso-SS, LDAK-Ridge-SS, LDAK-Bolt-SS and LDAK-BayesR-SS",
+  "MANUAL_CITATION": "\nZhang, Q., Privé, F., Vilhjálmsson, B. & Speed, D. Improved genetic prediction of complex traits from individual-level data or summary statistics. Nat. Commun. 12, 4192 (2021).\n  ",
+  "TITLE": "Improved genetic prediction of complex traits from individual-level data or summary statistics.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "4192",
+  "Authors": "Zhang Q,Privé F,Vilhjálmsson B,Speed D",
+  "ABSTRACT": "Most existing tools for constructing genetic prediction models begin with the assumption that all genetic variants contribute equally towards the phenotype. However, this represents a suboptimal model for how heritability is distributed across the genome. Therefore, we develop prediction tools that allow the user to specify the heritability model. We compare individual-level data prediction tools using 14 UK Biobank phenotypes; our new tool LDAK-Bolt-Predict outperforms the existing tools Lasso, BLUP, Bolt-LMM and BayesR for all 14 phenotypes. We compare summary statistic prediction tools using 225 UK Biobank phenotypes; our new tool LDAK-BayesR-SS outperforms the existing tools lassosum, sBLUP, LDpred and SBayesR for 223 of the 225 phenotypes. When we improve the heritability model, the proportion of phenotypic variance explained increases by on average 14%, which is equivalent to increasing the sample size by a quarter.",
+  "DOI": "10.1038/s41467-021-24485-y",
+  "PMC ID": "PMC8263809",
+  "CITATION": "Zhang Q, Privé F, Vilhjálmsson B, Speed D. (2021) Improved genetic prediction of complex traits from individual-level data or summary statistics. Nat Commun, 12 (1) 4192. doi:10.1038/s41467-021-24485-y. PMID 34234142",
+  "FIRST_AUTHOR": "Zhang Q",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

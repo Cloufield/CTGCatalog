@@ -1,0 +1,30 @@
+{
+  "NAME": "SPAGRM",
+  "PMID": 39915470,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS of longitudinal traits",
+  "TYPE": "Tools",
+  "SHORT NAME": "SPAGRM",
+  "FULL NAME": "SPAGRM",
+  "KEYWORDS": "SPA, longitudinal traits",
+  "URL": "https://github.com/HeXuPKU/SPAGRM",
+  "DESCRIPTION": "PAGRM is a scalable and accurate analysis framework to control for sample relatedness in large-scale genome-wide association studies (GWAS).",
+  "MANUAL_CITATION": "\nXu, H. et al. SPAGRM: effectively controlling for sample relatedness in large-scale genome-wide association studies of longitudinal traits. Nat. Commun. 16, 1413 (2025).\n  \n",
+  "TITLE": "SPA",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "1413",
+  "Authors": "Xu H,Ma Y,Xu LL,Li Y,Liu Y,Li Y,Zhou XJ,Zhou W,Lee S,Zhang P,Yue W,Bi W",
+  "ABSTRACT": "Sample relatedness is a major confounder in genome-wide association studies (GWAS), potentially leading to inflated type I error rates if not appropriately controlled. A common strategy is to incorporate a random effect related to genetic relatedness matrix (GRM) into regression models. However, this approach is challenging for large-scale GWAS of complex traits, such as longitudinal traits. Here we propose a scalable and accurate analysis framework, SPAGRM, which controls for sample relatedness via a precise approximation of the joint distribution of genotypes. SPAGRM can utilize GRM-free models and thus is applicable to various trait types and statistical methods, including linear mixed models and generalized estimation equations for longitudinal traits. A hybrid strategy incorporating saddlepoint approximation greatly increases the accuracy to analyze low-frequency and rare genetic variants, especially in unbalanced phenotypic distributions. We also introduce SPAGRM(CCT) to aggregate the results following different models via Cauchy combination test. Extensive simulations and real data analyses demonstrated that SPAGRM maintains well-controlled type I error rates and SPAGRM(CCT) can serve as a broadly effective method. Applying SPAGRM to 79 longitudinal traits extracted from UK Biobank primary care data, we identified 7,463 genetic loci, making a pioneering attempt to conduct GWAS for these traits as longitudinal traits.",
+  "DOI": "10.1038/s41467-025-56669-1",
+  "PMC ID": "PMC11803118",
+  "CITATION": "Xu H, Ma Y, Xu LL, Li Y, ...&, Bi W. (2025) SPA Nat Commun, 16 (1) 1413. doi:10.1038/s41467-025-56669-1. PMID 39915470",
+  "FIRST_AUTHOR": "Xu H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

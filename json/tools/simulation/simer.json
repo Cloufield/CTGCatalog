@@ -1,0 +1,13 @@
+{
+  "NAME": "SIMER",
+  "SECTION": "Tools",
+  "TOPIC": "Simulation",
+  "TYPE": "Tools",
+  "SHORT NAME": "SIMER",
+  "FULL NAME": "Data Simulation for Life Science and Breeding",
+  "URL": "https://github.com/xiaolei-lab/SIMER#genotype-data",
+  "DESCRIPTION": "Data Simulation for Life Science and Breeding",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

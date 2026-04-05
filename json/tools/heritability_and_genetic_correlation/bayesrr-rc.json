@@ -1,0 +1,30 @@
+{
+  "NAME": "BayesRR-RC",
+  "PMID": 34848700,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "BayesRR-RC",
+  "FULL NAME": "BayesRR-RC",
+  "MANUAL_YEAR": 2021,
+  "URL": "https://github.com/medical-genomics-group/gmrm",
+  "DESCRIPTION": "gmrm is hybrid-parallel software for a Bayesian grouped mixture of regressions model for genome-wide association studies (GWAS). It is written in C++ using extensive optimisations and code vectorisation. It relies on plink's .bed format. It can handle multiple traits simultaneously.",
+  "MANUAL_CITATION": "\nPatxot, M. et al. Probabilistic inference of the genetic architecture underlying functional enrichment of complex traits. Nat. Commun. 12, 6972 (2021).\n  ",
+  "TITLE": "Probabilistic inference of the genetic architecture underlying functional enrichment of complex traits.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "6972",
+  "Authors": "Patxot M,Banos DT,Kousathanas A,Orliac EJ,Ojavee SE,Moser G,Holloway A,Sidorenko J,Kutalik Z,Mägi R,Visscher PM,Rönnegård L,Robinson MR",
+  "ABSTRACT": "We develop a Bayesian model (BayesRR-RC) that provides robust SNP-heritability estimation, an alternative to marker discovery, and accurate genomic prediction, taking 22 seconds per iteration to estimate 8.4 million SNP-effects and 78 SNP-heritability parameters in the UK Biobank. We find that only ≤10% of the genetic variation captured for height, body mass index, cardiovascular disease, and type 2 diabetes is attributable to proximal regulatory regions within 10kb upstream of genes, while 12-25% is attributed to coding regions, 32-44% to introns, and 22-28% to distal 10-500kb upstream regions. Up to 24% of all cis and coding regions of each chromosome are associated with each trait, with over 3,100 independent exonic and intronic regions and over 5,400 independent regulatory regions having ≥95% probability of contributing ≥0.001% to the genetic variance of these four traits. Our open-source software (GMRM) provides a scalable alternative to current approaches for biobank data.",
+  "DOI": "10.1038/s41467-021-27258-9",
+  "PMC ID": "PMC8633298",
+  "CITATION": "Patxot M, Banos DT, Kousathanas A, Orliac EJ, ...&, Robinson MR. (2021) Probabilistic inference of the genetic architecture underlying functional enrichment of complex traits. Nat Commun, 12 (1) 6972. doi:10.1038/s41467-021-27258-9. PMID 34848700",
+  "FIRST_AUTHOR": "Patxot M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

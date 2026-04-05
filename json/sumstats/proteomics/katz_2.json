@@ -1,0 +1,27 @@
+{
+  "NAME": "Katz",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 35984888,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Proteomic profiling platforms head to head: Leveraging genetics and clinical traits to compare aptamer- and antibody-based methods.",
+  "ISO": "Sci Adv",
+  "JOURNAL": "Science advances",
+  "YEAR": "2022",
+  "VOLUME": "8",
+  "ISSUE": "33",
+  "PAGE": "eabm5164",
+  "Authors": "Katz DH,Robbins JM,Deng S,Tahir UA,Bick AG,Pampana A,Yu Z,Ngo D,Benson MD,Chen ZZ,Cruz DE,Shen D,Gao Y,Bouchard C,Sarzynski MA,Correa A,Natarajan P,Wilson JG,Gerszten RE",
+  "ABSTRACT": "High-throughput proteomic profiling using antibody or aptamer-based affinity reagents is used increasingly in human studies. However, direct analyses to address the relative strengths and weaknesses of these platforms are lacking. We assessed findings from the SomaScan1.3K (N = 1301 reagents), the SomaScan5K platform (N = 4979 reagents), and the Olink Explore (N = 1472 reagents) profiling techniques in 568 adults from the Jackson Heart Study and 219 participants in the HERITAGE Family Study across four performance domains: precision, accuracy, analytic breadth, and phenotypic associations leveraging detailed clinical phenotyping and genetic data. Across these studies, we show evidence supporting more reliable protein target specificity and a higher number of phenotypic associations for the Olink platform, while the Soma platforms benefit from greater measurement precision and analytic breadth across the proteome.",
+  "DOI": "10.1126/sciadv.abm5164",
+  "PMC ID": "PMC9390994",
+  "CITATION": "Katz DH, Robbins JM, Deng S, Tahir UA, ...&, Gerszten RE. (2022) Proteomic profiling platforms head to head: Leveraging genetics and clinical traits to compare aptamer- and antibody-based methods. Sci Adv, 8 (33) eabm5164. doi:10.1126/sciadv.abm5164. PMID 35984888",
+  "FIRST_AUTHOR": "Katz DH",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

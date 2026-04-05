@@ -1,0 +1,29 @@
+{
+  "NAME": "mvGWAMA",
+  "PMID": 30617256,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "mvGWAMA",
+  "FULL NAME": "Multivariate Genome-Wide Association Meta-Analysis",
+  "URL": "https://github.com/Kyoko-wtnb/mvGWAMA",
+  "DESCRIPTION": "mvGWAMA is a python script to perform a GWAS meta-analysis when there are sample overlap.",
+  "MANUAL_CITATION": "Jansen, Iris E., et al. \"Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer’s disease risk.\" Nature genetics 51.3 (2019): 404-413.",
+  "TITLE": "Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer's disease risk.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2019",
+  "VOLUME": "51",
+  "ISSUE": "3",
+  "PAGE": "404-413",
+  "Authors": "Jansen IE,Savage JE,Watanabe K,Bryois J,Williams DM,Steinberg S,Sealock J,Karlsson IK,Hägg S,Athanasiu L,Voyle N,Proitsi P,Witoelar A,Stringer S,Aarsland D,Almdahl IS,Andersen F,Bergh S,Bettella F,Bjornsson S,Brækhus A,Bråthen G,de Leeuw C,Desikan RS,Djurovic S,Dumitrescu L,Fladby T,Hohman TJ,Jonsson PV,Kiddle SJ,Rongve A,Saltvedt I,Sando SB,Selbæk G,Shoai M,Skene NG,Snaedal J,Stordal E,Ulstein ID,Wang Y,White LR,Hardy J,Hjerling-Leffler J,Sullivan PF,van der Flier WM,Dobson R,Davis LK,Stefansson H,Stefansson K,Pedersen NL,Ripke S,Andreassen OA,Posthuma D",
+  "ABSTRACT": "Alzheimer's disease (AD) is highly heritable and recent studies have identified over 20 disease-associated genomic loci. Yet these only explain a small proportion of the genetic variance, indicating that undiscovered loci remain. Here, we performed a large genome-wide association study of clinically diagnosed AD and AD-by-proxy (71,880 cases, 383,378 controls). AD-by-proxy, based on parental diagnoses, showed strong genetic correlation with AD (rg = 0.81). Meta-analysis identified 29 risk loci, implicating 215 potential causative genes. Associated genes are strongly expressed in immune-related tissues and cell types (spleen, liver, and microglia). Gene-set analyses indicate biological mechanisms involved in lipid-related processes and degradation of amyloid precursor proteins. We show strong genetic correlations with multiple health-related outcomes, and Mendelian randomization results suggest a protective effect of cognitive ability on AD risk. These results are a step forward in identifying the genetic factors that contribute to AD risk and add novel insights into the neurobiology of AD.",
+  "DOI": "10.1038/s41588-018-0311-9",
+  "PMC ID": "PMC6836675",
+  "CITATION": "Jansen IE, Savage JE, Watanabe K, Bryois J, ...&, Posthuma D. (2019) Genome-wide meta-analysis identifies new loci and functional pathways influencing Alzheimer's disease risk. Nat Genet, 51 (3) 404-413. doi:10.1038/s41588-018-0311-9. PMID 30617256",
+  "FIRST_AUTHOR": "Jansen IE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

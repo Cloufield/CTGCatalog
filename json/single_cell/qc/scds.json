@@ -1,0 +1,27 @@
+{
+  "NAME": "scds",
+  "SECTION": "Single_Cell",
+  "PMID": 31501871,
+  "TOPIC": "QC",
+  "CATEGORY": "Doublets",
+  "MANUAL_YEAR": 2020,
+  "URL": "https://www.bioconductor.org/packages/release/bioc/html/scds.html",
+  "DESCRIPTION": "The scds package provides methods to annotate doublets in scRNA-seq data computationally.",
+  "MANUAL_CITATION": "\nBais, A. S. & Kostka, D. scds: computational annotation of doublets in single-cell RNA sequencing data. Bioinformatics 36, 1150–1158 (2020).\n  \n",
+  "TITLE": "scds: computational annotation of doublets in single-cell RNA sequencing data.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2020",
+  "VOLUME": "36",
+  "ISSUE": "4",
+  "PAGE": "1150-1158",
+  "Authors": "Bais AS,Kostka D",
+  "ABSTRACT": "MOTIVATION: Single-cell RNA sequencing (scRNA-seq) technologies enable the study of transcriptional heterogeneity at the resolution of individual cells and have an increasing impact on biomedical research. However, it is known that these methods sometimes wrongly consider two or more cells as single cells, and that a number of so-called doublets is present in the output of such experiments. Treating doublets as single cells in downstream analyses can severely bias a study's conclusions, and therefore computational strategies for the identification of doublets are needed. RESULTS: With scds, we propose two new approaches for in silico doublet identification: Co-expression based doublet scoring (cxds) and binary classification based doublet scoring (bcds). The co-expression based approach, cxds, utilizes binarized (absence/presence) gene expression data and, employing a binomial model for the co-expression of pairs of genes, yields interpretable doublet annotations. bcds, on the other hand, uses a binary classification approach to discriminate artificial doublets from original data. We apply our methods and existing computational doublet identification approaches to four datasets with experimental doublet annotations and find that our methods perform at least as well as the state of the art, at comparably little computational cost. We observe appreciable differences between methods and across datasets and that no approach dominates all others. In summary, scds presents a scalable, competitive approach that allows for doublet annotation of datasets with thousands of cells in a matter of seconds. AVAILABILITY AND IMPLEMENTATION: scds is implemented as a Bioconductor R package (doi: 10.18129/B9.bioc.scds). SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btz698",
+  "PMC ID": "PMC7703774",
+  "CITATION": "Bais AS, Kostka D. (2020) scds: computational annotation of doublets in single-cell RNA sequencing data. Bioinformatics, 36 (4) 1150-1158. doi:10.1093/bioinformatics/btz698. PMID 31501871",
+  "FIRST_AUTHOR": "Bais AS",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

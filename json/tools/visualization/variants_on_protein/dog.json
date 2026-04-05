@@ -1,0 +1,29 @@
+{
+  "NAME": "DOG",
+  "PMID": 19153597,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Variants_on_protein",
+  "TYPE": "Tools",
+  "SHORT NAME": "DOG",
+  "FULL NAME": "Domain Graph",
+  "URL": "https://dog.biocuckoo.org/",
+  "DESCRIPTION": "a novel software of DOG for experimentalists, to prepare publication-quality figures of protein domain structures",
+  "MANUAL_CITATION": "Jian, et al. \"DOG 1.0: illustrator of protein domain structures.\" Cell research 19.2 (2009): 271-273.",
+  "TITLE": "DOG 1.0: illustrator of protein domain structures.",
+  "ISO": "Cell Res",
+  "JOURNAL": "Cell research",
+  "YEAR": "2009",
+  "VOLUME": "19",
+  "ISSUE": "2",
+  "PAGE": "271-3",
+  "Authors": "Ren J,Wen L,Gao X,Jin C,Xue Y,Yao X",
+  "ABSTRACT": "",
+  "DOI": "10.1038/cr.2009.6",
+  "PMC ID": "",
+  "CITATION": "Ren J, Wen L, Gao X, Jin C, ...&, Yao X. (2009) DOG 1.0: illustrator of protein domain structures. Cell Res, 19 (2) 271-3. doi:10.1038/cr.2009.6. PMID 19153597",
+  "FIRST_AUTHOR": "Ren J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

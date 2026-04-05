@@ -1,0 +1,26 @@
+{
+  "NAME": "sc-eQTLGen",
+  "PMID": 32149610,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "URL": "https://www.eqtlgen.org/sc/",
+  "MANUAL_YEAR": 2020,
+  "MANUAL_CITATION": "\nvan der Wijst, M. et al. The single-cell eQTLGen consortium. Elife 9, (2020).\n  \n",
+  "TITLE": "The single-cell eQTLGen consortium.",
+  "ISO": "Elife",
+  "JOURNAL": "eLife",
+  "YEAR": "2020",
+  "VOLUME": "9",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "van der Wijst M,de Vries DH,Groot HE,Trynka G,Hon CC,Bonder MJ,Stegle O,Nawijn MC,Idaghdour Y,van der Harst P,Ye CJ,Powell J,Theis FJ,Mahfouz A,Heinig M,Franke L",
+  "ABSTRACT": "In recent years, functional genomics approaches combining genetic information with bulk RNA-sequencing data have identified the downstream expression effects of disease-associated genetic risk factors through so-called expression quantitative trait locus (eQTL) analysis. Single-cell RNA-sequencing creates enormous opportunities for mapping eQTLs across different cell types and in dynamic processes, many of which are obscured when using bulk methods. Rapid increase in throughput and reduction in cost per cell now allow this technology to be applied to large-scale population genetics studies. To fully leverage these emerging data resources, we have founded the single-cell eQTLGen consortium (sc-eQTLGen), aimed at pinpointing the cellular contexts in which disease-causing genetic variants affect gene expression. Here, we outline the goals, approach and potential utility of the sc-eQTLGen consortium. We also provide a set of study design considerations for future single-cell eQTL studies.",
+  "DOI": "10.7554/eLife.52155",
+  "PMC ID": "PMC7077978",
+  "CITATION": "van der Wijst M, de Vries DH, Groot HE, Trynka G, ...&, Franke L. (2020) The single-cell eQTLGen consortium. Elife, 9 () . doi:10.7554/eLife.52155. PMID 32149610",
+  "FIRST_AUTHOR": "van der Wijst M",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "Review",
+  "PMID": 32967067,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Boyce, W. T., Sokolowski, M. B., & Robinson, G. E. (2020). Genes and environments, development and time. Proceedings of the National Academy of Sciences, 117(38), 23235-23241.",
+  "TITLE": "Genes and environments, development and time.",
+  "ISO": "Proc Natl Acad Sci U S A",
+  "JOURNAL": "Proceedings of the National Academy of Sciences of the United States of America",
+  "YEAR": "2020",
+  "VOLUME": "117",
+  "ISSUE": "38",
+  "PAGE": "23235-23241",
+  "Authors": "Boyce WT,Sokolowski MB,Robinson GE",
+  "ABSTRACT": "A now substantial body of science implicates a dynamic interplay between genetic and environmental variation in the development of individual differences in behavior and health. Such outcomes are affected by molecular, often epigenetic, processes involving gene-environment (G-E) interplay that can influence gene expression. Early environments with exposures to poverty, chronic adversities, and acutely stressful events have been linked to maladaptive development and compromised health and behavior. Genetic differences can impart either enhanced or blunted susceptibility to the effects of such pathogenic environments. However, largely missing from present discourse regarding G-E interplay is the role of time, a \"third factor\" guiding the emergence of complex developmental endpoints across different scales of time. Trajectories of development increasingly appear best accounted for by a complex, dynamic interchange among the highly linked elements of genes, contexts, and time at multiple scales, including neurobiological (minutes to milliseconds), genomic (hours to minutes), developmental (years and months), and evolutionary (centuries and millennia) time. This special issue of PNAS thus explores time and timing among G-E transactions: The importance of timing and timescales in plasticity and critical periods of brain development; epigenetics and the molecular underpinnings of biologically embedded experience; the encoding of experience across time and biological levels of organization; and gene-regulatory networks in behavior and development and their linkages to neuronal networks. Taken together, the collection of papers offers perspectives on how G-E interplay operates contingently within and against a backdrop of time and timescales.",
+  "DOI": "10.1073/pnas.2016710117",
+  "PMC ID": "PMC7519332",
+  "CITATION": "Boyce WT, Sokolowski MB, Robinson GE. (2020) Genes and environments, development and time. Proc Natl Acad Sci U S A, 117 (38) 23235-23241. doi:10.1073/pnas.2016710117. PMID 32967067",
+  "FIRST_AUTHOR": "Boyce WT",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

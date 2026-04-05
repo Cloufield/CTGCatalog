@@ -1,0 +1,36 @@
+{
+  "NAME": "CHM13",
+  "SHORT NAME": "CHM13",
+  "FULL NAME": "T2T-CHM13 v1.1 complete hydatidiform mole assembly",
+  "CATEGORY": "Genome",
+  "SOURCE": "T2T",
+  "PMID": 35357919,
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "T2T; telomere-to-telomere; complete genome; CHM13; GRCh38 alternative",
+  "DESCRIPTION": "Telomere-to-telomere (T2T) assembly of the CHM13 hydatidiform mole cell line, providing the first gap-resolved maps of centromeres and the full Y (from a composite). Use as a complement to GRCh38 for studying repetitive and structurally variable loci; chromosome naming and coordinates differ from GRC primary assemblies; use liftover and T2T-specific tooling where appropriate.",
+  "MANUAL_CITATION": "Nurk, S., Koren, S., Rhie, A., Rautiainen, M., Bzikadze, A. V., Mikheenko, A., ... & Phillippy, A. M. (2022). The complete sequence of a human genome. Science, 376(6588), 44-53.",
+  "URL": "https://github.com/marbl/CHM13",
+  "TYPE": "Data",
+  "TAGS": [
+    "Reference",
+    "Structural variants",
+    "WGS"
+  ],
+  "TITLE": "The complete sequence of a human genome.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2022",
+  "VOLUME": "376",
+  "ISSUE": "6588",
+  "PAGE": "44-53",
+  "Authors": "Nurk S,Koren S,Rhie A,Rautiainen M,Bzikadze AV,Mikheenko A,Vollger MR,Altemose N,Uralsky L,Gershman A,Aganezov S,Hoyt SJ,Diekhans M,Logsdon GA,Alonge M,Antonarakis SE,Borchers M,Bouffard GG,Brooks SY,Caldas GV,Chen NC,Cheng H,Chin CS,Chow W,de Lima LG,Dishuck PC,Durbin R,Dvorkina T,Fiddes IT,Formenti G,Fulton RS,Fungtammasan A,Garrison E,Grady PGS,Graves-Lindsay TA,Hall IM,Hansen NF,Hartley GA,Haukness M,Howe K,Hunkapiller MW,Jain C,Jain M,Jarvis ED,Kerpedjiev P,Kirsche M,Kolmogorov M,Korlach J,Kremitzki M,Li H,Maduro VV,Marschall T,McCartney AM,McDaniel J,Miller DE,Mullikin JC,Myers EW,Olson ND,Paten B,Peluso P,Pevzner PA,Porubsky D,Potapova T,Rogaev EI,Rosenfeld JA,Salzberg SL,Schneider VA,Sedlazeck FJ,Shafin K,Shew CJ,Shumate A,Sims Y,Smit AFA,Soto DC,Sović I,Storer JM,Streets A,Sullivan BA,Thibaud-Nissen F,Torrance J,Wagner J,Walenz BP,Wenger A,Wood JMD,Xiao C,Yan SM,Young AC,Zarate S,Surti U,McCoy RC,Dennis MY,Alexandrov IA,Gerton JL,O'Neill RJ,Timp W,Zook JM,Schatz MC,Eichler EE,Miga KH,Phillippy AM",
+  "ABSTRACT": "Since its initial release in 2000, the human reference genome has covered only the euchromatic fraction of the genome, leaving important heterochromatic regions unfinished. Addressing the remaining 8% of the genome, the Telomere-to-Telomere (T2T) Consortium presents a complete 3.055 billion-base pair sequence of a human genome, T2T-CHM13, that includes gapless assemblies for all chromosomes except Y, corrects errors in the prior references, and introduces nearly 200 million base pairs of sequence containing 1956 gene predictions, 99 of which are predicted to be protein coding. The completed regions include all centromeric satellite arrays, recent segmental duplications, and the short arms of all five acrocentric chromosomes, unlocking these complex regions of the genome to variational and functional studies.",
+  "DOI": "10.1126/science.abj6987",
+  "PMC ID": "PMC9186530",
+  "CITATION": "Nurk S, Koren S, Rhie A, Rautiainen M, ...&, Phillippy AM. (2022) The complete sequence of a human genome. Science, 376 (6588) 44-53. doi:10.1126/science.abj6987. PMID 35357919",
+  "FIRST_AUTHOR": "Nurk S",
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

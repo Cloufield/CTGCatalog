@@ -1,0 +1,28 @@
+{
+  "NAME": "SHAPEIT4",
+  "PMID": 31780650,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "SHAPEIT4",
+  "URL": "https://odelaneau.github.io/shapeit4/",
+  "DESCRIPTION": "(SHAPEIT4) ",
+  "MANUAL_CITATION": "Delaneau, Olivier, et al. \"Accurate, scalable and integrative haplotype estimation.\" Nature communications 10.1 (2019): 1-10.",
+  "TITLE": "Accurate, scalable and integrative haplotype estimation.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2019",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "5436",
+  "Authors": "Delaneau O,Zagury JF,Robinson MR,Marchini JL,Dermitzakis ET",
+  "ABSTRACT": "The number of human genomes being genotyped or sequenced increases exponentially and efficient haplotype estimation methods able to handle this amount of data are now required. Here we present a method, SHAPEIT4, which substantially improves upon other methods to process large genotype and high coverage sequencing datasets. It notably exhibits sub-linear running times with sample size, provides highly accurate haplotypes and allows integrating external phasing information such as large reference panels of haplotypes, collections of pre-phased variants and long sequencing reads. We provide SHAPEIT4 in an open source format and demonstrate its performance in terms of accuracy and running times on two gold standard datasets: the UK Biobank data and the Genome In A Bottle.",
+  "DOI": "10.1038/s41467-019-13225-y",
+  "PMC ID": "PMC6882857",
+  "CITATION": "Delaneau O, Zagury JF, Robinson MR, Marchini JL, ...&, Dermitzakis ET. (2019) Accurate, scalable and integrative haplotype estimation. Nat Commun, 10 (1) 5436. doi:10.1038/s41467-019-13225-y. PMID 31780650",
+  "FIRST_AUTHOR": "Delaneau O",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

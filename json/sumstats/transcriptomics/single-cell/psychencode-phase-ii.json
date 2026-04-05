@@ -1,0 +1,28 @@
+{
+  "NAME": "PsychENCODE Phase II",
+  "PMID": 38781369,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "CATEGORY": "Brain",
+  "DESCRIPTION": "Phase II of the project focused on single-cell and spatial data, culminating in a collection of 14 papers published on May 24, 2024 (9 in Science, 3 in Science Advances, 1 in Scientific Reports, and 1 in Molecular Psychiatry). ",
+  "URL": "https://www.psychencode.org/home",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "\nEmani, P. S. et al. Single-cell genomics and regulatory networks for 388 human brains. Science 384, eadi5199 (2024).\n  \n",
+  "TITLE": "Single-cell genomics and regulatory networks for 388 human brains.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2024",
+  "VOLUME": "384",
+  "ISSUE": "6698",
+  "PAGE": "eadi5199",
+  "Authors": "Emani PS,Liu JJ,Clarke D,Jensen M,Warrell J,Gupta C,Meng R,Lee CY,Xu S,Dursun C,Lou S,Chen Y,Chu Z,Galeev T,Hwang A,Li Y,Ni P,Zhou X,PsychENCODE Consortium‡,Bakken TE,Bendl J,Bicks L,Chatterjee T,Cheng L,Cheng Y,Dai Y,Duan Z,Flaherty M,Fullard JF,Gancz M,Garrido-Martín D,Gaynor-Gillett S,Grundman J,Hawken N,Henry E,Hoffman GE,Huang A,Jiang Y,Jin T,Jorstad NL,Kawaguchi R,Khullar S,Liu J,Liu J,Liu S,Ma S,Margolis M,Mazariegos S,Moore J,Moran JR,Nguyen E,Phalke N,Pjanic M,Pratt H,Quintero D,Rajagopalan AS,Riesenmy TR,Shedd N,Shi M,Spector M,Terwilliger R,Travaglini KJ,Wamsley B,Wang G,Xia Y,Xiao S,Yang AC,Zheng S,Gandal MJ,Lee D,Lein ES,Roussos P,Sestan N,Weng Z,White KP,Won H,Girgenti MJ,Zhang J,Wang D,Geschwind D,Gerstein M,PsychENCODE Consortium",
+  "ABSTRACT": "Single-cell genomics is a powerful tool for studying heterogeneous tissues such as the brain. Yet little is understood about how genetic variants influence cell-level gene expression. Addressing this, we uniformly processed single-nuclei, multiomics datasets into a resource comprising >2.8 million nuclei from the prefrontal cortex across 388 individuals. For 28 cell types, we assessed population-level variation in expression and chromatin across gene families and drug targets. We identified >550,000 cell type-specific regulatory elements and >1.4 million single-cell expression quantitative trait loci, which we used to build cell-type regulatory and cell-to-cell communication networks. These networks manifest cellular changes in aging and neuropsychiatric disorders. We further constructed an integrative model accurately imputing single-cell expression and simulating perturbations; the model prioritized ~250 disease-risk genes and drug targets with associated cell types.",
+  "DOI": "10.1126/science.adi5199",
+  "PMC ID": "PMC11365579",
+  "CITATION": "Emani PS, Liu JJ, Clarke D, Jensen M, ...&, PsychENCODE Consortium. (2024) Single-cell genomics and regulatory networks for 388 human brains. Science, 384 (6698) eadi5199. doi:10.1126/science.adi5199. PMID 38781369",
+  "FIRST_AUTHOR": "Emani PS",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

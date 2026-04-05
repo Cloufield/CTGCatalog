@@ -1,0 +1,27 @@
+{
+  "NAME": "SHAPEIT2",
+  "PMID": 23269371,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "SHAPEIT2",
+  "DESCRIPTION": "(SHAPEIT2)",
+  "MANUAL_CITATION": "Delaneau, Olivier, Jean-Francois Zagury, and Jonathan Marchini. \"Improved whole-chromosome phasing for disease and population genetic studies.\" Nature methods 10.1 (2013): 5-6.",
+  "TITLE": "Improved whole-chromosome phasing for disease and population genetic studies.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2013",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "5-6",
+  "Authors": "Delaneau O,Zagury JF,Marchini J",
+  "ABSTRACT": "",
+  "DOI": "10.1038/nmeth.2307",
+  "PMC ID": "",
+  "CITATION": "Delaneau O, Zagury JF, Marchini J. (2013) Improved whole-chromosome phasing for disease and population genetic studies. Nat Methods, 10 (1) 5-6. doi:10.1038/nmeth.2307. PMID 23269371",
+  "FIRST_AUTHOR": "Delaneau O",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

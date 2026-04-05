@@ -1,0 +1,17 @@
+{
+  "NAME": "Born in Guangzhou Cohort Study",
+  "SHORT NAME": "BIGCS",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~50K",
+  "STUDY TYPE": "trio or duo",
+  "MANUAL_CITATION": "Qiu, X., Lu, J. H., He, J. R., Lam, K. B. H., Shen, S. Y., Guo, Y., ... & Xia, H. M. (2017). The born in Guangzhou cohort study (BIGCS). European journal of epidemiology, 32, 337-346.\nHuang, S., Liu, S., Huang, M., He, J. R., Wang, C., Wang, T., ... & Qiu, X. (2024). The Born in Guangzhou Cohort Study enables generational genetic discoveries. Nature, 626(7999), 565-573.",
+  "URL": "http://www.bigcs.com.cn/en_index.html",
+  "DESCRIPTION": "The Born in Guangzhou Cohort Study (BIGCS) is a large-scale prospective observational study investigating the role of social, biological and environmental influences on pregnancy and child health and development in an urban setting in southern China. ",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Han Chinese mothers and infants (Guangzhou birth cohort)"
+}

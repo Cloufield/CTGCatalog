@@ -1,0 +1,28 @@
+{
+  "NAME": "tsinfer ",
+  "PMID": 31477934,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "tsinfer",
+  "USE": "Infer a tree sequence from genetic variation data",
+  "URL": "https://github.com/tskit-dev/tsinfer",
+  "DESCRIPTION": "Kelleher, J. et al. Inferring whole-genome histories in large population datasets. Nat. Genet. 51, 1330–1338 (2019).",
+  "TITLE": "Inferring whole-genome histories in large population datasets.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2019",
+  "VOLUME": "51",
+  "ISSUE": "9",
+  "PAGE": "1330-1338",
+  "Authors": "Kelleher J,Wong Y,Wohns AW,Fadil C,Albers PK,McVean G",
+  "ABSTRACT": "Inferring the full genealogical history of a set of DNA sequences is a core problem in evolutionary biology, because this history encodes information about the events and forces that have influenced a species. However, current methods are limited, and the most accurate techniques are able to process no more than a hundred samples. As datasets that consist of millions of genomes are now being collected, there is a need for scalable and efficient inference methods to fully utilize these resources. Here we introduce an algorithm that is able to not only infer whole-genome histories with comparable accuracy to the state-of-the-art but also process four orders of magnitude more sequences. The approach also provides an 'evolutionary encoding' of the data, enabling efficient calculation of relevant statistics. We apply the method to human data from the 1000 Genomes Project, Simons Genome Diversity Project and UK Biobank, showing that the inferred genealogies are rich in biological signal and efficient to process.",
+  "DOI": "10.1038/s41588-019-0483-y",
+  "PMC ID": "PMC6726478",
+  "CITATION": "Kelleher J, Wong Y, Wohns AW, Fadil C, ...&, McVean G. (2019) Inferring whole-genome histories in large population datasets. Nat Genet, 51 (9) 1330-1338. doi:10.1038/s41588-019-0483-y. PMID 31477934",
+  "FIRST_AUTHOR": "Kelleher J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Povysil",
+  "PMID": 31605095,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Povysil, Gundula, et al. \"Rare-variant collapsing analyses for complex traits: guidelines and applications.\" Nature Reviews Genetics 20.12 (2019): 747-759.",
+  "TITLE": "Rare-variant collapsing analyses for complex traits: guidelines and applications.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2019",
+  "VOLUME": "20",
+  "ISSUE": "12",
+  "PAGE": "747-759",
+  "Authors": "Povysil G,Petrovski S,Hostyk J,Aggarwal V,Allen AS,Goldstein DB",
+  "ABSTRACT": "The first phase of genome-wide association studies (GWAS) assessed the role of common variation in human disease. Advances optimizing and economizing high-throughput sequencing have enabled a second phase of association studies that assess the contribution of rare variation to complex disease in all protein-coding genes. Unlike the early microarray-based studies, sequencing-based studies catalogue the full range of genetic variation, including the evolutionarily youngest forms. Although the experience with common variants helped establish relevant standards for genome-wide studies, the analysis of rare variation introduces several challenges that require novel analysis approaches.",
+  "DOI": "10.1038/s41576-019-0177-4",
+  "PMC ID": "",
+  "CITATION": "Povysil G, Petrovski S, Hostyk J, Aggarwal V, ...&, Goldstein DB. (2019) Rare-variant collapsing analyses for complex traits: guidelines and applications. Nat Rev Genet, 20 (12) 747-759. doi:10.1038/s41576-019-0177-4. PMID 31605095",
+  "FIRST_AUTHOR": "Povysil G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

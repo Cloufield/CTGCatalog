@@ -1,0 +1,29 @@
+{
+  "NAME": "ASMC ",
+  "PMID": 30104759,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "ASMC ",
+  "FULL NAME": "Ascertained Sequentially Markovian Coalescent",
+  "USE": "The Ascertained Sequentially Markovian Coalescent is a method to efficiently estimate pairwise coalescence time along the genome. It can be run using SNP array or whole-genome sequencing (WGS) data.",
+  "URL": "https://github.com/pierpal/ASMC",
+  "DESCRIPTION": "P. Palamara, J. Terhorst, Y. Song, A. Price. High-throughput inference of pairwise coalescence times identifies signals of selection and enriched disease heritability. Nature Genetics, 2018.",
+  "TITLE": "High-throughput inference of pairwise coalescence times identifies signals of selection and enriched disease heritability.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "9",
+  "PAGE": "1311-1317",
+  "Authors": "Palamara PF,Terhorst J,Song YS,Price AL",
+  "ABSTRACT": "Interest in reconstructing demographic histories has motivated the development of methods to estimate locus-specific pairwise coalescence times from whole-genome sequencing data. Here we introduce a powerful new method, ASMC, that can estimate coalescence times using only SNP array data, and is orders of magnitude faster than previous approaches. We applied ASMC to detect recent positive selection in 113,851 phased British samples from the UK Biobank, and detected 12 genome-wide significant signals, including 6 novel loci. We also applied ASMC to sequencing data from 498 Dutch individuals to detect background selection at deeper time scales. We detected strong heritability enrichment in regions of high background selection in an analysis of 20 independent diseases and complex traits using stratified linkage disequilibrium score regression, conditioned on a broad set of functional annotations (including other background selection annotations). These results underscore the widespread effects of background selection on the genetic architecture of complex traits.",
+  "DOI": "10.1038/s41588-018-0177-x",
+  "PMC ID": "PMC6145075",
+  "CITATION": "Palamara PF, Terhorst J, Song YS, Price AL. (2018) High-throughput inference of pairwise coalescence times identifies signals of selection and enriched disease heritability. Nat Genet, 50 (9) 1311-1317. doi:10.1038/s41588-018-0177-x. PMID 30104759",
+  "FIRST_AUTHOR": "Palamara PF",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

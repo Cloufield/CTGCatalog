@@ -1,0 +1,30 @@
+{
+  "NAME": "Genomic-SEM",
+  "PMID": 30962613,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "Genomic-SEM",
+  "FULL NAME": "genomic structural equation modelling",
+  "KEYWORDS": "SEM",
+  "URL": "https://github.com/GenomicSEM/GenomicSEM",
+  "DESCRIPTION": "R-package which allows the user to fit structural equation models based on the summary statistics obtained from genome wide association studies (GWAS).",
+  "MANUAL_CITATION": "Grotzinger, A. D., Rhemtulla, M., de Vlaming, R., Ritchie, S. J., Mallard, T. T., Hill, W. D., ... & Tucker-Drob, E. M. (2019). Genomic structural equation modelling provides insights into the multivariate genetic architecture of complex traits. Nature human behaviour, 3(5), 513-525.",
+  "TITLE": "Genomic structural equation modelling provides insights into the multivariate genetic architecture of complex traits.",
+  "ISO": "Nat Hum Behav",
+  "JOURNAL": "Nature human behaviour",
+  "YEAR": "2019",
+  "VOLUME": "3",
+  "ISSUE": "5",
+  "PAGE": "513-525",
+  "Authors": "Grotzinger AD,Rhemtulla M,de Vlaming R,Ritchie SJ,Mallard TT,Hill WD,Ip HF,Marioni RE,McIntosh AM,Deary IJ,Koellinger PD,Harden KP,Nivard MG,Tucker-Drob EM",
+  "ABSTRACT": "Genetic correlations estimated from genome-wide association studies (GWASs) reveal pervasive pleiotropy across a wide variety of phenotypes. We introduce genomic structural equation modelling (genomic SEM): a multivariate method for analysing the joint genetic architecture of complex traits. Genomic SEM synthesizes genetic correlations and single-nucleotide polymorphism heritabilities inferred from GWAS summary statistics of individual traits from samples with varying and unknown degrees of overlap. Genomic SEM can be used to model multivariate genetic associations among phenotypes, identify variants with effects on general dimensions of cross-trait liability, calculate more predictive polygenic scores and identify loci that cause divergence between traits. We demonstrate several applications of genomic SEM, including a joint analysis of summary statistics from five psychiatric traits. We identify 27 independent single-nucleotide polymorphisms not previously identified in the contributing univariate GWASs. Polygenic scores from genomic SEM consistently outperform those from univariate GWASs. Genomic SEM is flexible and open ended, and allows for continuous innovation in multivariate genetic analysis.",
+  "DOI": "10.1038/s41562-019-0566-x",
+  "PMC ID": "PMC6520146",
+  "CITATION": "Grotzinger AD, Rhemtulla M, de Vlaming R, Ritchie SJ, ...&, Tucker-Drob EM. (2019) Genomic structural equation modelling provides insights into the multivariate genetic architecture of complex traits. Nat Hum Behav, 3 (5) 513-525. doi:10.1038/s41562-019-0566-x. PMID 30962613",
+  "FIRST_AUTHOR": "Grotzinger AD",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

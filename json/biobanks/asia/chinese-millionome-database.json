@@ -1,0 +1,17 @@
+{
+  "NAME": "Chinese Millionome Database",
+  "SHORT NAME": "CMDB",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~141k",
+  "NOTE": "Chinese Academy of Sciences (CAS) and German Max Planck Society (MPG) partner institute for computational biology",
+  "MANUAL_CITATION": "Li, Z., Jiang, X., Fang, M., Bai, Y., Liu, S., Huang, S., & Jin, X. (2022). CMDB: the comprehensive population genome variation database of China. Nucleic Acids Research.\nLiu, S., Huang, S., Chen, F., Zhao, L., Yuan, Y., Francis, S. S., ... & Xu, X. (2018). Genomic analyses from non-invasive prenatal testing reveal genetic associations, patterns of viral infections, and Chinese population history. Cell, 175(2), 347-359.",
+  "URL": "https://db.cngb.org/cmdb/",
+  "DESCRIPTION": "the largest and the most representative Chinese genome variation database to date. The CMDB database contains 9.04 million single nucleotide variants (SNVs) and the allele frequency information from low-coverage (0.06×–0.1×) WGS data of 141 431 unrelated healthy Chinese individuals.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Chinese individuals (aggregated genome database)"
+}

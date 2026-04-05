@@ -1,0 +1,13 @@
+{
+  "NAME": "Extensions & ancillary studies",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "STAGE_ORDER": 4,
+  "STAGE_PERIOD": "ongoing",
+  "TAGS": ["GTEx", "Functional genomics"],
+  "DESCRIPTION": "Single-cell pilots, additional molecular assays, and integration with other consortia complement the core bulk RNA-seq atlas and support finer-resolution interpretation of regulatory variation.",
+  "URL": "https://gtexportal.org/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

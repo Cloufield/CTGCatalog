@@ -1,0 +1,27 @@
+{
+  "NAME": "Pietzner",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 34648354,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Mapping the proteo-genomic convergence of human diseases.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2021",
+  "VOLUME": "374",
+  "ISSUE": "6569",
+  "PAGE": "eabj1541",
+  "Authors": "Pietzner M,Wheeler E,Carrasco-Zanini J,Cortes A,Koprulu M,Wörheide MA,Oerton E,Cook J,Stewart ID,Kerrison ND,Luan J,Raffler J,Arnold M,Arlt W,O'Rahilly S,Kastenmüller G,Gamazon ER,Hingorani AD,Scott RA,Wareham NJ,Langenberg C",
+  "ABSTRACT": "Characterization of the genetic regulation of proteins is essential for understanding disease etiology and developing therapies. We identified 10,674 genetic associations for 3892 plasma proteins to create a cis-anchored gene-protein-disease map of 1859 connections that highlights strong cross-disease biological convergence. This proteo-genomic map provides a framework to connect etiologically related diseases, to provide biological context for new or emerging disorders, and to integrate different biological domains to establish mechanisms for known gene-disease links. Our results identify proteo-genomic connections within and between diseases and establish the value of cis-protein variants for annotation of likely causal disease genes at loci identified in genome-wide association studies, thereby addressing a major barrier to experimental validation and clinical translation of genetic discoveries.",
+  "DOI": "10.1126/science.abj1541",
+  "PMC ID": "PMC9904207",
+  "CITATION": "Pietzner M, Wheeler E, Carrasco-Zanini J, Cortes A, ...&, Langenberg C. (2021) Mapping the proteo-genomic convergence of human diseases. Science, 374 (6569) eabj1541. doi:10.1126/science.abj1541. PMID 34648354",
+  "FIRST_AUTHOR": "Pietzner M",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

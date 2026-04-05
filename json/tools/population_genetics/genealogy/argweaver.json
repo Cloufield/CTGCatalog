@@ -1,0 +1,28 @@
+{
+  "NAME": "ARGweaver",
+  "PMID": 24831947,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "ARGweaver",
+  "USE": "The ARGweaver software package contains programs and libraries for sampling and manipulating ancestral recombination graphs (ARGs). An ARG is a rich data structure for representing the ancestry of DNA sequences undergoing coalescence and recombination.",
+  "URL": "https://github.com/mdrasmus/argweaver",
+  "DESCRIPTION": "Rasmussen, M. D., Hubisz, M. J., Gronau, I. & Siepel, A. Genome-wide inference of ancestral recombination graphs. PLoS Genet. 10, e1004342 (2014).",
+  "TITLE": "Genome-wide inference of ancestral recombination graphs.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2014",
+  "VOLUME": "10",
+  "ISSUE": "5",
+  "PAGE": "e1004342",
+  "Authors": "Rasmussen MD,Hubisz MJ,Gronau I,Siepel A",
+  "ABSTRACT": "The complex correlation structure of a collection of orthologous DNA sequences is uniquely captured by the \"ancestral recombination graph\" (ARG), a complete record of coalescence and recombination events in the history of the sample. However, existing methods for ARG inference are computationally intensive, highly approximate, or limited to small numbers of sequences, and, as a consequence, explicit ARG inference is rarely used in applied population genomics. Here, we introduce a new algorithm for ARG inference that is efficient enough to apply to dozens of complete mammalian genomes. The key idea of our approach is to sample an ARG of [Formula: see text] chromosomes conditional on an ARG of [Formula: see text] chromosomes, an operation we call \"threading.\" Using techniques based on hidden Markov models, we can perform this threading operation exactly, up to the assumptions of the sequentially Markov coalescent and a discretization of time. An extension allows for threading of subtrees instead of individual sequences. Repeated application of these threading operations results in highly efficient Markov chain Monte Carlo samplers for ARGs. We have implemented these methods in a computer program called ARGweaver. Experiments with simulated data indicate that ARGweaver converges rapidly to the posterior distribution over ARGs and is effective in recovering various features of the ARG for dozens of sequences generated under realistic parameters for human populations. In applications of ARGweaver to 54 human genome sequences from Complete Genomics, we find clear signatures of natural selection, including regions of unusually ancient ancestry associated with balancing selection and reductions in allele age in sites under directional selection. The patterns we observe near protein-coding genes are consistent with a primary influence from background selection rather than hitchhiking, although we cannot rule out a contribution from recurrent selective sweeps.",
+  "DOI": "10.1371/journal.pgen.1004342",
+  "PMC ID": "PMC4022496",
+  "CITATION": "Rasmussen MD, Hubisz MJ, Gronau I, Siepel A. (2014) Genome-wide inference of ancestral recombination graphs. PLoS Genet, 10 (5) e1004342. doi:10.1371/journal.pgen.1004342. PMID 24831947",
+  "FIRST_AUTHOR": "Rasmussen MD",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

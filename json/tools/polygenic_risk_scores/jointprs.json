@@ -1,0 +1,37 @@
+{
+  "NAME": "JointPRS",
+  "PMID": 40268942,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "SUBTOPIC": "",
+  "TYPE": "Tools",
+  "SHORT NAME": "JointPRS",
+  "FULL NAME": "JointPRS",
+  "KEYWORDS": "PRS, multi-population, genetic correlation, summary statistics, cross-ancestry",
+  "URL": "https://github.com/LeqiXu/JointPRS https://doi.org/10.1038/s41467-025-59243-x",
+  "DESCRIPTION": "Data-adaptive polygenic score framework that borrows strength across populations via genetic correlations using only GWAS summary statistics and LD references—supporting prediction with or without individual-level tuning data.",
+  "TAGS": [
+    "PRS",
+    "Multi-ancestry",
+    "Cross-ancestry",
+    "Genetic correlation",
+    "Tool",
+    "Summary statistics"
+  ],
+  "TITLE": "JointPRS: A data-adaptive framework for multi-population genetic risk prediction incorporating genetic correlation.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "3841",
+  "Authors": "Xu L,Zhou G,Jiang W,Zhang H,Dong Y,Guan L,Zhao H",
+  "ABSTRACT": "Genetic risk prediction for non-European populations is hindered by limited Genome-Wide Association Study (GWAS) sample sizes and small tuning datasets. We propose JointPRS, a data-adaptive framework that leverages genetic correlations across multiple populations using GWAS summary statistics. It achieves accurate predictions without individual-level tuning data and remains effective in the presence of a small tuning set thanks to its data-adaptive approach. Through extensive simulations and real data applications to 22 quantitative and four binary traits in five continental populations evaluated using the UK Biobank (UKBB) and All of Us (AoU), JointPRS consistently outperforms six state-of-the-art methods across three data scenarios: no tuning data, same-cohort tuning and testing, and cross-cohort tuning and testing. Notably, in the Admixed American population, JointPRS improves lipid trait prediction in AoU by 6.46%-172.00% compared to the other existing methods.",
+  "DOI": "10.1038/s41467-025-59243-x",
+  "PMC ID": "PMC12019179",
+  "CITATION": "Xu L, Zhou G, Jiang W, Zhang H, ...&, Zhao H. (2025) JointPRS: A data-adaptive framework for multi-population genetic risk prediction incorporating genetic correlation. Nat Commun, 16 (1) 3841. doi:10.1038/s41467-025-59243-x. PMID 40268942",
+  "FIRST_AUTHOR": "Xu L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

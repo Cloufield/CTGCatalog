@@ -1,0 +1,28 @@
+{
+  "NAME": "AlphaGenome",
+  "SECTION": "AI",
+  "TOPIC": "Genomic_models",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "AlphaGenome",
+  "FULL NAME": "AlphaGenome",
+  "URL": "https://github.com/google-deepmind/alphagenome",
+  "DESCRIPTION": "Unified deep learning model that predicts molecular phenotypes from DNA sequence—including gene expression, chromatin accessibility, histone marks, TF binding, splicing, and contact maps—at single-nucleotide resolution for variant effect interpretation.",
+  "PMID": 41606153,
+  "TITLE": "Advancing regulatory variant effect prediction with AlphaGenome.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "649",
+  "ISSUE": "8099",
+  "PAGE": "1206-1218",
+  "Authors": "Avsec Ž,Latysheva N,Cheng J,Novati G,Taylor KR,Ward T,Bycroft C,Nicolaisen L,Arvaniti E,Pan J,Thomas R,Dutordoir V,Perino M,De S,Karollus A,Gayoso A,Sargeant T,Mottram A,Wong LH,Drotár P,Kosiorek A,Senior A,Tanburn R,Applebaum T,Basu S,Hassabis D,Kohli P",
+  "ABSTRACT": "Deep learning models that predict functional genomic measurements from DNA sequences are powerful tools for deciphering the genetic regulatory code. Existing methods involve a trade-off between input sequence length and prediction resolution, thereby limiting their modality scope and performance1-5. We present AlphaGenome, a unified DNA sequence model, which takes as input 1 Mb of DNA sequence and predicts thousands of functional genomic tracks up to single-base-pair resolution across diverse modalities. The modalities include gene expression, transcription initiation, chromatin accessibility, histone modifications, transcription factor binding, chromatin contact maps, splice site usage and splice junction coordinates and strength. Trained on human and mouse genomes, AlphaGenome matches or exceeds the strongest available external models in 25 of 26 evaluations of variant effect prediction. The ability of AlphaGenome to simultaneously score variant effects across all modalities accurately recapitulates the mechanisms of clinically relevant variants near the TAL1 oncogene6. To facilitate broader use, we provide tools for making genome track and variant effect predictions from sequence.",
+  "DOI": "10.1038/s41586-025-10014-0",
+  "PMC ID": "PMC12851941",
+  "CITATION": "Avsec Ž, Latysheva N, Cheng J, Novati G, ...&, Kohli P. (2026) Advancing regulatory variant effect prediction with AlphaGenome. Nature, 649 (8099) 1206-1218. doi:10.1038/s41586-025-10014-0. PMID 41606153",
+  "FIRST_AUTHOR": "Avsec Ž",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

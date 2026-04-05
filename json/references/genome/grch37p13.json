@@ -1,0 +1,19 @@
+{
+  "NAME": "GRCh37.p13",
+  "SHORT NAME": "GRCh37.p13",
+  "FULL NAME": "Genome Reference Consortium Human Build 37 patch release 13",
+  "CATEGORY": "Genome",
+  "SOURCE": "GRC",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh37; GRC; NCBI; reference assembly; patch 13",
+  "DESCRIPTION": "NCBI/GRC human assembly build 37, patch 13 (GCF_000001405.25): the authoritative GRCh37 patch-level reference used for stable accessioning and alignment. Distinct from UCSC hg19/Broad b37 contig naming; always verify chromosome naming and inclusion of ALT/patch contigs when mixing resources.",
+  "MANUAL_CITATION": "Genome Reference Consortium. GRCh37.p13 (GCF_000001405.25).",
+  "CITATION": "Genome Reference Consortium. Human genome assembly GRCh37.p13 (GCF_000001405.25). National Center for Biotechnology Information.",
+  "URL": "https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_000001405.25/",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

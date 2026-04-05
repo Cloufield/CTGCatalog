@@ -1,0 +1,31 @@
+{
+  "NAME": "ALL-Sum",
+  "PMID": 39110727,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "ALL-Sum",
+  "FULL NAME": "Aggregated L0Learn using Summary-level data",
+  "MANUAL_YEAR": 2024,
+  "KEYWORDS": "ensemble learning",
+  "URL": "https://github.com/chen-tony/ALL-Sum/",
+  "DESCRIPTION": "ALL - Sum leverages  a L0L2 penalized regression and ensemble learning across tuning parameters to flexibly  model traits with diverse genetic architectures.",
+  "MANUAL_CITATION": "\nChen, T., Zhang, H., Mazumder, R. & Lin, X. Fast and scalable ensemble learning method for versatile polygenic risk prediction. Proc. Natl. Acad. Sci. U. S. A. 121, e2403210121 (2024).\n  ",
+  "TITLE": "Fast and scalable ensemble learning method for versatile polygenic risk prediction.",
+  "ISO": "Proc Natl Acad Sci U S A",
+  "JOURNAL": "Proceedings of the National Academy of Sciences of the United States of America",
+  "YEAR": "2024",
+  "VOLUME": "121",
+  "ISSUE": "33",
+  "PAGE": "e2403210121",
+  "Authors": "Chen T,Zhang H,Mazumder R,Lin X",
+  "ABSTRACT": "Polygenic risk scores (PRS) enhance population risk stratification and advance personalized medicine, but existing methods face several limitations, encompassing issues related to computational burden, predictive accuracy, and adaptability to a wide range of genetic architectures. To address these issues, we propose Aggregated L0Learn using Summary-level data (ALL-Sum), a fast and scalable ensemble learning method for computing PRS using summary statistics from genome-wide association studies (GWAS). ALL-Sum leverages a L0L2 penalized regression and ensemble learning across tuning parameters to flexibly model traits with diverse genetic architectures. In extensive large-scale simulations across a wide range of polygenicity and GWAS sample sizes, ALL-Sum consistently outperformed popular alternative methods in terms of prediction accuracy, runtime, and memory usage by 10%, 20-fold, and threefold, respectively, and demonstrated robustness to diverse genetic architectures. We validated the performance of ALL-Sum in real data analysis of 11 complex traits using GWAS summary statistics from nine data sources, including the Global Lipids Genetics Consortium, Breast Cancer Association Consortium, and FinnGen Biobank, with validation in the UK Biobank. Our results show that on average, ALL-Sum obtained PRS with 25% higher accuracy on average, with 15 times faster computation and half the memory than the current state-of-the-art methods, and had robust performance across a wide range of traits and diseases. Furthermore, our method demonstrates stable prediction when using linkage disequilibrium computed from different data sources. ALL-Sum is available as a user-friendly R software package with publicly available reference data for streamlined analysis.",
+  "DOI": "10.1073/pnas.2403210121",
+  "PMC ID": "PMC11331062",
+  "CITATION": "Chen T, Zhang H, Mazumder R, Lin X. (2024) Fast and scalable ensemble learning method for versatile polygenic risk prediction. Proc Natl Acad Sci U S A, 121 (33) e2403210121. doi:10.1073/pnas.2403210121. PMID 39110727",
+  "FIRST_AUTHOR": "Chen T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

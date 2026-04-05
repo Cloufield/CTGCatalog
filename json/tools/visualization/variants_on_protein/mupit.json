@@ -1,0 +1,29 @@
+{
+  "NAME": "MuPIT",
+  "PMID": 23793516,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "Variants_on_protein",
+  "TYPE": "Tools",
+  "SHORT NAME": "MuPIT",
+  "FULL NAME": "Mutation position imaging toolbox",
+  "URL": "http://mupit.icm.jhu.edu/MuPIT_Interactive/",
+  "DESCRIPTION": "Webserver for mapping variant positions to annotated, interactive 3D structures",
+  "MANUAL_CITATION": "Niknafs, Noushin, et al. \"MuPIT interactive: webserver for mapping variant positions to annotated, interactive 3D structures.\" Human genetics 132.11 (2013): 1235-1243.",
+  "TITLE": "MuPIT interactive: webserver for mapping variant positions to annotated, interactive 3D structures.",
+  "ISO": "Hum Genet",
+  "JOURNAL": "Human genetics",
+  "YEAR": "2013",
+  "VOLUME": "132",
+  "ISSUE": "11",
+  "PAGE": "1235-43",
+  "Authors": "Niknafs N,Kim D,Kim R,Diekhans M,Ryan M,Stenson PD,Cooper DN,Karchin R",
+  "ABSTRACT": "Mutation position imaging toolbox (MuPIT) interactive is a browser-based application for single-nucleotide variants (SNVs), which automatically maps the genomic coordinates of SNVs onto the coordinates of available three-dimensional (3D) protein structures. The application is designed for interactive browser-based visualization of the putative functional relevance of SNVs by biologists who are not necessarily experts either in bioinformatics or protein structure. Users may submit batches of several thousand SNVs and review all protein structures that cover the SNVs, including available functional annotations such as binding sites, mutagenesis experiments, and common polymorphisms. Multiple SNVs may be mapped onto each structure, enabling 3D visualization of SNV clusters and their relationship to functionally annotated positions. We illustrate the utility of MuPIT interactive in rationalizing the impact of selected polymorphisms in the PharmGKB database, somatic mutations identified in the Cancer Genome Atlas study of invasive breast carcinomas, and rare variants identified in the exome sequencing project. MuPIT interactive is freely available for non-profit use at http://mupit.icm.jhu.edu .",
+  "DOI": "10.1007/s00439-013-1325-0",
+  "PMC ID": "PMC3797853",
+  "CITATION": "Niknafs N, Kim D, Kim R, Diekhans M, ...&, Karchin R. (2013) MuPIT interactive: webserver for mapping variant positions to annotated, interactive 3D structures. Hum Genet, 132 (11) 1235-43. doi:10.1007/s00439-013-1325-0. PMID 23793516",
+  "FIRST_AUTHOR": "Niknafs N",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "Nyuwa Genome Resource Phase 1",
+  "PMID": 34788621,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "Nyuwa Genome Resource Phase 1",
+  "FULL NAME": "Nyuwa Genome Resource Phase 1",
+  "URL": "http://bigdata.ibp.ac.cn/refpanel/getstarted.php",
+  "MANUAL_CITATION": "Zhang, P., Luo, H., Li, Y., Wang, Y., Wang, J., Zheng, Y., ... & Han100K Initiative. (2021). NyuWa Genome resource: a deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Reports, 37(7), 110017.",
+  "TITLE": "NyuWa Genome resource: A deep whole-genome sequencing-based variation profile and reference panel for the Chinese population.",
+  "ISO": "Cell Rep",
+  "JOURNAL": "Cell reports",
+  "YEAR": "2021",
+  "VOLUME": "37",
+  "ISSUE": "7",
+  "PAGE": "110017",
+  "Authors": "Zhang P,Luo H,Li Y,Wang Y,Wang J,Zheng Y,Niu Y,Shi Y,Zhou H,Song T,Kang Q,Han100K Initiative,Xu T,He S",
+  "ABSTRACT": "The lack of haplotype reference panels and whole-genome sequencing resources specific to the Chinese population has greatly hindered genetic studies in the world's largest population. Here, we present the NyuWa genome resource, based on deep (26.2×) sequencing of 2,999 Chinese individuals, and construct a NyuWa reference panel of 5,804 haplotypes and 19.3 million variants, which is a high-quality publicly available Chinese population-specific reference panel with thousands of samples. Compared with other panels, the NyuWa reference panel reduces the Han Chinese imputation error rate by a margin ranging from 30% to 51%. Population structure and imputation simulation tests support the applicability of one integrated reference panel for northern and southern Chinese. In addition, a total of 22,504 loss-of-function variants in coding and noncoding genes are identified, including 11,493 novel variants. These results highlight the value of the NyuWa genome resource in facilitating genetic research in Chinese and Asian populations.",
+  "DOI": "10.1016/j.celrep.2021.110017",
+  "PMC ID": "",
+  "CITATION": "Zhang P, Luo H, Li Y, Wang Y, ...&, He S. (2021) NyuWa Genome resource: A deep whole-genome sequencing-based variation profile and reference panel for the Chinese population. Cell Rep, 37 (7) 110017. doi:10.1016/j.celrep.2021.110017. PMID 34788621",
+  "FIRST_AUTHOR": "Zhang P",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

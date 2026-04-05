@@ -1,0 +1,17 @@
+{
+  "NAME": "PAGE Study",
+  "SHORT NAME": "PAGE",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "50k+ (aggregated across studies)",
+  "NOTE": "Consortium harmonizing diverse-population GWAS; not a single-site biobank.",
+  "DESCRIPTION": "Population Architecture using Genomics and Epidemiology (PAGE): NIH consortium coordinating genome-wide association studies in African American, Hispanic/Latino, Asian, Pacific Islander, and Native American participants across multiple cohorts.",
+  "MANUAL_CITATION": "Matise, T. C., Ambite, J. L., Buyske, S., Carlson, C. S., Cole, S. A., Crawford, D. C., ... & Williams, R. T. (2011). The Next PAGE in understanding complex traits: design for the analysis of Population Architecture Using Genetics and Epidemiology (PAGE) Study. American Journal of Epidemiology, 174(7), 849-859.",
+  "URL": "https://www.pagestudy.org/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR",
+  "PARTICIPANTS": "US minority cohorts (NH Black, Hispanic/Latino, Asian, Native American)"
+}

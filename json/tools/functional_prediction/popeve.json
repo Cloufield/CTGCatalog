@@ -1,0 +1,28 @@
+{
+  "NAME": "popEVE",
+  "PMID": 41286104,
+  "SECTION": "Tools",
+  "TOPIC": "Functional_prediction",
+  "TYPE": "Tools",
+  "SHORT NAME": "popEVE",
+  "FULL NAME": "popEVE",
+  "KEYWORDS": "missense, pathogenicity, deep generative model, proteome-wide, UK Biobank",
+  "URL": "https://github.com/debbiemarkslab/popEVE",
+  "DESCRIPTION": "popEVE is a proteome-wide deep generative model that scores missense variant pathogenicity by combining cross-species evolutionary predictors with human population cohort data, aiming for well-calibrated, human-specific deleteriousness estimates.",
+  "TITLE": "Proteome-wide model for human disease genetics.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "12",
+  "PAGE": "3165-3174",
+  "Authors": "Orenbuch R,Shearer CA,Kollasch AW,Spinner AD,Hopf T,van Niekerk L,Franceschi D,Dias M,Frazer J,Marks DS",
+  "ABSTRACT": "Missense variants remain a challenge in genetic interpretation owing to their subtle and context-dependent effects. Although current prediction models perform well in known disease genes, their scores are not calibrated across the proteome, limiting generalizability. To address this knowledge gap, we developed popEVE, a deep generative model combining evolutionary and human population data to estimate variant deleteriousness on a proteome-wide scale. popEVE achieves state-of-the-art performance without overestimating the burden of deleterious variants and identifies variants in 442 genes in a severe developmental disorder cohort, including 123 novel candidates. These genes are functionally similar to known disease genes, and their variants often localize to critical regions. Remarkably, popEVE can prioritize likely causal variants using only child exomes, enabling diagnosis even without parental sequencing. This work provides a generalizable framework for rare disease variant interpretation, especially in singleton cases, and demonstrates the utility of calibrated, evolution-informed scoring models for clinical genomics.",
+  "DOI": "10.1038/s41588-025-02400-1",
+  "PMC ID": "PMC12695638",
+  "CITATION": "Orenbuch R, Shearer CA, Kollasch AW, Spinner AD, ...&, Marks DS. (2025) Proteome-wide model for human disease genetics. Nat Genet, 57 (12) 3165-3174. doi:10.1038/s41588-025-02400-1. PMID 41286104",
+  "FIRST_AUTHOR": "Orenbuch R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

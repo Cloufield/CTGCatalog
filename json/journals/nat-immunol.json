@@ -1,0 +1,18 @@
+{
+  "NAME": "Nature immunology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Immunol",
+  "JOURNAL": "Nature immunology",
+  "URL": "http://www.nature.com/ni/",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Single_Cell": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "SingleR"
+  ]
+}

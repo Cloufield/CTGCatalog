@@ -1,0 +1,30 @@
+{
+  "NAME": "Suhre",
+  "ADD_PREFIX": 1,
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 32860016,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "DESCRIPTION": "A Table of all published GWAS with proteomics",
+  "URL": "http://www.metabolomix.com/a-table-of-all-published-gwas-with-proteomics/",
+  "MANUAL_CITATION": "Suhre, K., McCarthy, M. I. & Schwenk, J. M. Genetics meets proteomics: perspectives for large population-based studies. Nat. Rev. Genet. 22, 19–37 (2021).",
+  "TITLE": "Genetics meets proteomics: perspectives for large population-based studies.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2021",
+  "VOLUME": "22",
+  "ISSUE": "1",
+  "PAGE": "19-37",
+  "Authors": "Suhre K,McCarthy MI,Schwenk JM",
+  "ABSTRACT": "Proteomic analysis of cells, tissues and body fluids has generated valuable insights into the complex processes influencing human biology. Proteins represent intermediate phenotypes for disease and provide insight into how genetic and non-genetic risk factors are mechanistically linked to clinical outcomes. Associations between protein levels and DNA sequence variants that colocalize with risk alleles for common diseases can expose disease-associated pathways, revealing novel drug targets and translational biomarkers. However, genome-wide, population-scale analyses of proteomic data are only now emerging. Here, we review current findings from studies of the plasma proteome and discuss their potential for advancing biomedical translation through the interpretation of genome-wide association analyses. We highlight the challenges faced by currently available technologies and provide perspectives relevant to their future application in large-scale biobank studies.",
+  "DOI": "10.1038/s41576-020-0268-2",
+  "PMC ID": "",
+  "CITATION": "Suhre K, McCarthy MI, Schwenk JM. (2021) Genetics meets proteomics: perspectives for large population-based studies. Nat Rev Genet, 22 (1) 19-37. doi:10.1038/s41576-020-0268-2. PMID 32860016",
+  "FIRST_AUTHOR": "Suhre K",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

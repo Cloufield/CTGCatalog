@@ -1,0 +1,27 @@
+{
+  "NAME": "Johansson",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 23487758,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "mass spectrometry",
+  "SECTION": "Sumstats",
+  "TITLE": "Identification of genetic variants influencing the human plasma proteome.",
+  "ISO": "Proc Natl Acad Sci U S A",
+  "JOURNAL": "Proceedings of the National Academy of Sciences of the United States of America",
+  "YEAR": "2013",
+  "VOLUME": "110",
+  "ISSUE": "12",
+  "PAGE": "4673-8",
+  "Authors": "Johansson Å,Enroth S,Palmblad M,Deelder AM,Bergquist J,Gyllensten U",
+  "ABSTRACT": "Genetic variants influencing the transcriptome have been extensively studied. However, the impact of the genetic factors on the human proteome is largely unexplored, mainly due to lack of suitable high-throughput methods. Here we present unique and comprehensive identification of genetic variants affecting the human plasma protein profile by combining high-throughput and high-resolution mass spectrometry (MS) with genome-wide SNP data. We identified and quantified the abundance of 1,056 tryptic-digested peptides, representing 163 proteins in the plasma of 1,060 individuals from two population-based cohorts. The abundance level of almost one-fifth (19%) of the peptides was found to be heritable, with heritability ranging from 0.08 to 0.43. The levels of 60 peptides from 25 proteins, 15% of the proteins studied, were influenced by cis-acting SNPs. We identified and replicated individual cis-acting SNPs (combined P value ranging from 3.1 × 10(-52) to 2.9 × 10(-12)) influencing 11 peptides from 5 individual proteins. These SNPs represent both regulatory SNPs and nonsynonymous changes defining well-studied disease alleles such as the ε4 allele of apolipoprotein E (APOE), which has been shown to increase risk of Alzheimer's disease. Our results show that high-throughput mass spectrometry represents a promising method for large-scale characterization of the human proteome, allowing for both quantification and sequencing of individual proteins. Abundance and peptide composition of a protein plays an important role in the etiology, diagnosis, and treatment of a number of diseases. A better understanding of the genetic impact on the plasma proteome is therefore important for evaluating potential biomarkers and therapeutic agents for common diseases.",
+  "DOI": "10.1073/pnas.1217238110",
+  "PMC ID": "PMC3606982",
+  "CITATION": "Johansson Å, Enroth S, Palmblad M, Deelder AM, ...&, Gyllensten U. (2013) Identification of genetic variants influencing the human plasma proteome. Proc Natl Acad Sci U S A, 110 (12) 4673-8. doi:10.1073/pnas.1217238110. PMID 23487758",
+  "FIRST_AUTHOR": "Johansson Å",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

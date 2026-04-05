@@ -1,0 +1,29 @@
+{
+  "NAME": "SDPRX",
+  "PMID": 36460009,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "SDPRX",
+  "FULL NAME": "SDPRX",
+  "URL": "https://github.com/eldronzhou/SDPRX",
+  "DESCRIPTION": "SDPRX is a statistical method for cross-population prediction of complex traits. It integrates GWAS summary statistics and LD matrices from two populations (EUR and non-EUR) to compuate polygenic risk scores.",
+  "MANUAL_CITATION": "Zhou, Geyu, Tianqi Chen, and Hongyu Zhao. \"SDPRX: A statistical method for cross-population prediction of complex traits.\" The American Journal of Human Genetics (2022).",
+  "TITLE": "SDPRX: A statistical method for cross-population prediction of complex traits.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2023",
+  "VOLUME": "110",
+  "ISSUE": "1",
+  "PAGE": "13-22",
+  "Authors": "Zhou G,Chen T,Zhao H",
+  "ABSTRACT": "Polygenic risk score (PRS) has demonstrated its great utility in biomedical research through identifying high-risk individuals for different diseases from their genotypes. However, the broader application of PRS to the general population is hindered by the limited transferability of PRS developed in Europeans to non-European populations. To improve PRS prediction accuracy in non-European populations, we develop a statistical method called SDPRX that can effectively integrate genome wide association study summary statistics from different populations. SDPRX automatically adjusts for linkage disequilibrium differences between populations and characterizes the joint distribution of the effect sizes of a variant in two populations to be both null, population specific, or shared with correlation. Through simulations and applications to real traits, we show that SDPRX improves the prediction performance over existing methods in non-European populations.",
+  "DOI": "10.1016/j.ajhg.2022.11.007",
+  "PMC ID": "PMC9892700",
+  "CITATION": "Zhou G, Chen T, Zhao H. (2023) SDPRX: A statistical method for cross-population prediction of complex traits. Am J Hum Genet, 110 (1) 13-22. doi:10.1016/j.ajhg.2022.11.007. PMID 36460009",
+  "FIRST_AUTHOR": "Zhou G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

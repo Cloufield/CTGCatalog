@@ -1,0 +1,16 @@
+{
+  "NAME": "Rotterdam Study",
+  "SHORT NAME": "RS",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~15k+",
+  "DESCRIPTION": "Population-based cohort in Rotterdam (Erasmus MC) with longitudinal follow-up, imaging, and biosamples; among the most widely used European cohorts in cardiovascular and aging GWAS.",
+  "MANUAL_CITATION": "Ikram, M. A., van der Heijden, R. J., Kors, J. A., Hofman, A., Franco, O. H., Uitterlinden, A. G., ... & Stricker, B. H. (2017). The Rotterdam Study: 2018 update on objectives, design and main results. European Journal of Epidemiology, 32(9), 807-850.",
+  "URL": "https://www.erasmusmc.nl/en/research/epidemiology/rotterdam-study",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Dutch adults (Rotterdam Study)"
+}

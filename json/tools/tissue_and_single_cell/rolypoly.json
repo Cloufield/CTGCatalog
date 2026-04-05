@@ -1,0 +1,28 @@
+{
+  "NAME": "RolyPoly",
+  "PMID": 29106824,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "RolyPoly",
+  "FULL NAME": "RolyPoly",
+  "URL": "https://github.com/dcalderon/rolypoly",
+  "DESCRIPTION": "RolyPoly is a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data.",
+  "MANUAL_CITATION": "Calderon, D., Bhaskar, A., Knowles, D. A., Golan, D., Raj, T., Fu, A. Q., & Pritchard, J. K. (2017). Inferring relevant cell types for complex traits by using single-cell gene expression. The American Journal of Human Genetics, 101(5), 686-699.",
+  "TITLE": "Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2017",
+  "VOLUME": "101",
+  "ISSUE": "5",
+  "PAGE": "686-699",
+  "Authors": "Calderon D,Bhaskar A,Knowles DA,Golan D,Raj T,Fu AQ,Pritchard JK",
+  "ABSTRACT": "Previous studies have prioritized trait-relevant cell types by looking for an enrichment of genome-wide association study (GWAS) signal within functional regions. However, these studies are limited in cell resolution by the lack of functional annotations from difficult-to-characterize or rare cell populations. Measurement of single-cell gene expression has become a popular method for characterizing novel cell types, and yet limited work has linked single-cell RNA sequencing (RNA-seq) to phenotypes of interest. To address this deficiency, we present RolyPoly, a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data. RolyPoly is designed to use expression data from either bulk tissue or single-cell RNA-seq. In this study, we demonstrated RolyPoly's accuracy through simulation and validated previously known tissue-trait associations. We discovered a significant association between microglia and late-onset Alzheimer disease and an association between schizophrenia and oligodendrocytes and replicating fetal cortical cells. Additionally, RolyPoly computes a trait-relevance score for each gene to reflect the importance of expression specific to a cell type. We found that differentially expressed genes in the prefrontal cortex of individuals with Alzheimer disease were significantly enriched with genes ranked highly by RolyPoly gene scores. Overall, our method represents a powerful framework for understanding the effect of common variants on cell types contributing to complex traits.",
+  "DOI": "10.1016/j.ajhg.2017.09.009",
+  "PMC ID": "PMC5673624",
+  "CITATION": "Calderon D, Bhaskar A, Knowles DA, Golan D, ...&, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression. Am J Hum Genet, 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824",
+  "FIRST_AUTHOR": "Calderon D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

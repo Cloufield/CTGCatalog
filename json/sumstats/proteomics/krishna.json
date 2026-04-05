@@ -1,0 +1,31 @@
+{
+  "NAME": "Krishna",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 39085222,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "HLA-GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "TYPE": "PEA/OLINK",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "Krishna, C. et al. The influence of HLA genetic variation on plasma protein expression. Nat. Commun. 15, 6469 (2024)",
+  "TITLE": "The influence of HLA genetic variation on plasma protein expression.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "6469",
+  "Authors": "Krishna C,Chiou J,Sakaue S,Kang JB,Christensen SM,Lee I,Aksit MA,Kim HI,von Schack D,Raychaudhuri S,Ziemek D,Hu X",
+  "ABSTRACT": "Genetic variation in the human leukocyte antigen (HLA) loci is associated with risk of immune-mediated diseases, but the molecular effects of HLA polymorphism are unclear. Here we examined the effects of HLA genetic variation on the expression of 2940 plasma proteins across 45,330 Europeans in the UK Biobank, with replication analyses across multiple ancestry groups. We detected 504 proteins affected by HLA variants (HLA-pQTL), including widespread trans effects by autoimmune disease risk alleles. More than 80% of the HLA-pQTL fine-mapped to amino acid positions in the peptide binding groove. HLA-I and II affected proteins expressed in similar cell types but in different pathways of both adaptive and innate immunity. Finally, we investigated potential HLA-pQTL effects on disease by integrating HLA-pQTL with fine-mapped HLA-disease signals in the UK Biobank. Our data reveal the diverse effects of HLA genetic variation and aid the interpretation of associations between HLA alleles and immune-mediated diseases.",
+  "DOI": "10.1038/s41467-024-50583-8",
+  "PMC ID": "PMC11291675",
+  "CITATION": "Krishna C, Chiou J, Sakaue S, Kang JB, ...&, Hu X. (2024) The influence of HLA genetic variation on plasma protein expression. Nat Commun, 15 (1) 6469. doi:10.1038/s41467-024-50583-8. PMID 39085222",
+  "FIRST_AUTHOR": "Krishna C",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

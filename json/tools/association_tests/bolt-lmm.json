@@ -1,0 +1,30 @@
+{
+  "NAME": "BOLT-lMM",
+  "PMID": 25642633,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "BOLT-lMM",
+  "FULL NAME": "BOLT-lMM",
+  "KEYWORDS": "non-infinitesimal model,  mixture of two Gaussian distributions",
+  "URL": "https://alkesgroup.broadinstitute.org/BOLT-LMM/BOLT-LMM_manual.html",
+  "DESCRIPTION": "The BOLT-LMM software package currently consists of two main algorithms, the BOLT-LMM algorithm for mixed model association testing, and the BOLT-REML algorithm for variance components analysis (i.e., partitioning of SNP-heritability and estimation of genetic correlations).",
+  "MANUAL_CITATION": "Loh, Po-Ru, et al. \"Efficient Bayesian mixed-model analysis increases association power in large cohorts.\" Nature genetics 47.3 (2015): 284-290.",
+  "TITLE": "Efficient Bayesian mixed-model analysis increases association power in large cohorts.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2015",
+  "VOLUME": "47",
+  "ISSUE": "3",
+  "PAGE": "284-90",
+  "Authors": "Loh PR,Tucker G,Bulik-Sullivan BK,Vilhjálmsson BJ,Finucane HK,Salem RM,Chasman DI,Ridker PM,Neale BM,Berger B,Patterson N,Price AL",
+  "ABSTRACT": "Linear mixed models are a powerful statistical tool for identifying genetic associations and avoiding confounding. However, existing methods are computationally intractable in large cohorts and may not optimize power. All existing methods require time cost O(MN(2)) (where N is the number of samples and M is the number of SNPs) and implicitly assume an infinitesimal genetic architecture in which effect sizes are normally distributed, which can limit power. Here we present a far more efficient mixed-model association method, BOLT-LMM, which requires only a small number of O(MN) time iterations and increases power by modeling more realistic, non-infinitesimal genetic architectures via a Bayesian mixture prior on marker effect sizes. We applied BOLT-LMM to 9 quantitative traits in 23,294 samples from the Women's Genome Health Study (WGHS) and observed significant increases in power, consistent with simulations. Theory and simulations show that the boost in power increases with cohort size, making BOLT-LMM appealing for genome-wide association studies in large cohorts.",
+  "DOI": "10.1038/ng.3190",
+  "PMC ID": "PMC4342297",
+  "CITATION": "Loh PR, Tucker G, Bulik-Sullivan BK, Vilhjálmsson BJ, ...&, Price AL. (2015) Efficient Bayesian mixed-model analysis increases association power in large cohorts. Nat Genet, 47 (3) 284-90. doi:10.1038/ng.3190. PMID 25642633",
+  "FIRST_AUTHOR": "Loh PR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

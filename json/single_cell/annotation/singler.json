@@ -1,0 +1,27 @@
+{
+  "NAME": "SingleR",
+  "SECTION": "Single_Cell",
+  "PMID": 30643263,
+  "TOPIC": "Annotation",
+  "CATEGORY": "Annotation",
+  "MANUAL_YEAR": 2019,
+  "URL": "https://github.com/dviraran/SingleR",
+  "DESCRIPTION": "a computational method for unbiased cell type recognition of scRNA-seq.",
+  "MANUAL_CITATION": "\nAran, D. et al. Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. Nat. Immunol. 20, 163–172 (2019).\n  \n",
+  "TITLE": "Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage.",
+  "ISO": "Nat Immunol",
+  "JOURNAL": "Nature immunology",
+  "YEAR": "2019",
+  "VOLUME": "20",
+  "ISSUE": "2",
+  "PAGE": "163-172",
+  "Authors": "Aran D,Looney AP,Liu L,Wu E,Fong V,Hsu A,Chak S,Naikawadi RP,Wolters PJ,Abate AR,Butte AJ,Bhattacharya M",
+  "ABSTRACT": "Tissue fibrosis is a major cause of mortality that results from the deposition of matrix proteins by an activated mesenchyme. Macrophages accumulate in fibrosis, but the role of specific subgroups in supporting fibrogenesis has not been investigated in vivo. Here, we used single-cell RNA sequencing (scRNA-seq) to characterize the heterogeneity of macrophages in bleomycin-induced lung fibrosis in mice. A novel computational framework for the annotation of scRNA-seq by reference to bulk transcriptomes (SingleR) enabled the subclustering of macrophages and revealed a disease-associated subgroup with a transitional gene expression profile intermediate between monocyte-derived and alveolar macrophages. These CX3CR1+SiglecF+ transitional macrophages localized to the fibrotic niche and had a profibrotic effect in vivo. Human orthologs of genes expressed by the transitional macrophages were upregulated in samples from patients with idiopathic pulmonary fibrosis. Thus, we have identified a pathological subgroup of transitional macrophages that are required for the fibrotic response to injury.",
+  "DOI": "10.1038/s41590-018-0276-y",
+  "PMC ID": "PMC6340744",
+  "CITATION": "Aran D, Looney AP, Liu L, Wu E, ...&, Bhattacharya M. (2019) Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. Nat Immunol, 20 (2) 163-172. doi:10.1038/s41590-018-0276-y. PMID 30643263",
+  "FIRST_AUTHOR": "Aran D",
+  "_meta": {
+    "source_sheet": "Single_Cell"
+  }
+}

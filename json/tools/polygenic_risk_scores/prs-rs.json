@@ -1,0 +1,27 @@
+{
+  "NAME": "PRS-RS",
+  "PMID": 33692554,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Standards",
+  "TYPE": "Review",
+  "SHORT NAME": "PRS-RS",
+  "FULL NAME": "Polygenic Risk Score Reporting Standards",
+  "MANUAL_CITATION": "Wand, H. et al. Improving reporting standards for polygenic scores in risk prediction studies. Nature 591, 211–219 (2021).\n  ",
+  "TITLE": "Improving reporting standards for polygenic scores in risk prediction studies.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2021",
+  "VOLUME": "591",
+  "ISSUE": "7849",
+  "PAGE": "211-219",
+  "Authors": "Wand H,Lambert SA,Tamburro C,Iacocca MA,O'Sullivan JW,Sillari C,Kullo IJ,Rowley R,Dron JS,Brockman D,Venner E,McCarthy MI,Antoniou AC,Easton DF,Hegele RA,Khera AV,Chatterjee N,Kooperberg C,Edwards K,Vlessis K,Kinnear K,Danesh JN,Parkinson H,Ramos EM,Roberts MC,Ormond KE,Khoury MJ,Janssens ACJW,Goddard KAB,Kraft P,MacArthur JAL,Inouye M,Wojcik GL",
+  "ABSTRACT": "Polygenic risk scores (PRSs), which often aggregate results from genome-wide association studies, can bridge the gap between initial discovery efforts and clinical applications for the estimation of disease risk using genetics. However, there is notable heterogeneity in the application and reporting of these risk scores, which hinders the translation of PRSs into clinical care. Here, in a collaboration between the Clinical Genome Resource (ClinGen) Complex Disease Working Group and the Polygenic Score (PGS) Catalog, we present the Polygenic Risk Score Reporting Standards (PRS-RS), in which we update the Genetic Risk Prediction Studies (GRIPS) Statement to reflect the present state of the field. Drawing on the input of experts in epidemiology, statistics, disease-specific applications, implementation and policy, this comprehensive reporting framework defines the minimal information that is needed to interpret and evaluate PRSs, especially with respect to downstream clinical applications. Items span detailed descriptions of study populations, statistical methods for the development and validation of PRSs and considerations for the potential limitations of these scores. In addition, we emphasize the need for data availability and transparency, and we encourage researchers to deposit and share PRSs through the PGS Catalog to facilitate reproducibility and comparative benchmarking. By providing these criteria in a structured format that builds on existing standards and ontologies, the use of this framework in publishing PRSs will facilitate translation into clinical care and progress towards defining best practice.",
+  "DOI": "10.1038/s41586-021-03243-6",
+  "PMC ID": "PMC8609771",
+  "CITATION": "Wand H, Lambert SA, Tamburro C, Iacocca MA, ...&, Wojcik GL. (2021) Improving reporting standards for polygenic scores in risk prediction studies. Nature, 591 (7849) 211-219. doi:10.1038/s41586-021-03243-6. PMID 33692554",
+  "FIRST_AUTHOR": "Wand H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

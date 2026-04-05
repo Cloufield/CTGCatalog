@@ -1,0 +1,20 @@
+{
+  "NAME": "b37",
+  "SHORT NAME": "b37",
+  "FULL NAME": "Broad Institute Homo_sapiens_assembly19 (b37)",
+  "CATEGORY": "Genome",
+  "SOURCE": "the 1000 Genomes Project Phase I and III, Broad Institute",
+  "FILE": "Homo_sapiens_assembly19.fasta",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh37; 1000 Genomes; Broad; b37; reference FASTA",
+  "DESCRIPTION": "GRCh37-compatible reference FASTA used across Broad Institute and 1000 Genomes workflows: chromosomes 1-22, X, Y, MT, plus GL/NC unlocalized and unplaced contigs (as in the distributed assembly19 package). Coordinate system matches the 1KG/b37 ecosystem used by many GWAS imputation and joint-calling pipelines.",
+  "MANUAL_CITATION": "Broad Institute / 1000 Genomes Project. Homo_sapiens_assembly19.fasta (b37).",
+  "CITATION": "Broad Institute / 1000 Genomes Project. Homo_sapiens_assembly19.fasta (b37). https://data.broadinstitute.org/snowman/hg19/",
+  "URL": "https://data.broadinstitute.org/snowman/hg19/",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "1000 Genomes", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

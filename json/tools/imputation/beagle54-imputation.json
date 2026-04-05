@@ -1,0 +1,28 @@
+{
+  "NAME": "BEAGLE5.4 (Imputation)",
+  "PMID": 30100085,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "BEAGLE5.4 (Imputation)",
+  "URL": "https://faculty.washington.edu/browning/beagle/beagle.html",
+  "DESCRIPTION": "(beagle 5.4 imputation)",
+  "MANUAL_CITATION": " Browning, Brian L., Ying Zhou, and Sharon R. Browning. \"A one-penny imputed genome from next-generation reference panels.\" The American Journal of Human Genetics 103.3 (2018): 338-348.",
+  "TITLE": "A One-Penny Imputed Genome from Next-Generation Reference Panels.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2018",
+  "VOLUME": "103",
+  "ISSUE": "3",
+  "PAGE": "338-348",
+  "Authors": "Browning BL,Zhou Y,Browning SR",
+  "ABSTRACT": "Genotype imputation is commonly performed in genome-wide association studies because it greatly increases the number of markers that can be tested for association with a trait. In general, one should perform genotype imputation using the largest reference panel that is available because the number of accurately imputed variants increases with reference panel size. However, one impediment to using larger reference panels is the increased computational cost of imputation. We present a new genotype imputation method, Beagle 5.0, which greatly reduces the computational cost of imputation from large reference panels. We compare Beagle 5.0 with Beagle 4.1, Impute4, Minimac3, and Minimac4 using 1000 Genomes Project data, Haplotype Reference Consortium data, and simulated data for 10k, 100k, 1M, and 10M reference samples. All methods produce nearly identical accuracy, but Beagle 5.0 has the lowest computation time and the best scaling of computation time with increasing reference panel size. For 10k, 100k, 1M, and 10M reference samples and 1,000 phased target samples, Beagle 5.0's computation time is 3× (10k), 12× (100k), 43× (1M), and 533× (10M) faster than the fastest alternative method. Cost data from the Amazon Elastic Compute Cloud show that Beagle 5.0 can perform genome-wide imputation from 10M reference samples into 1,000 phased target samples at a cost of less than one US cent per sample.",
+  "DOI": "10.1016/j.ajhg.2018.07.015",
+  "PMC ID": "PMC6128308",
+  "CITATION": "Browning BL, Zhou Y, Browning SR. (2018) A One-Penny Imputed Genome from Next-Generation Reference Panels. Am J Hum Genet, 103 (3) 338-348. doi:10.1016/j.ajhg.2018.07.015. PMID 30100085",
+  "FIRST_AUTHOR": "Browning BL",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

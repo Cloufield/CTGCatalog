@@ -1,0 +1,27 @@
+{
+  "NAME": "PGC (Psychiatric Genomics Consortium)",
+  "URL": "https://www.med.unc.edu/pgc/download-results/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Consortiums",
+  "TYPE": "Consortiums",
+  "DESCRIPTION": "Psychiatric Genomics Consortium meta-analysis summary statistics for psychiatric disorders.",
+  "PMID": 25056061,
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "TITLE": "Biological insights from 108 schizophrenia-associated genetic loci.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2014",
+  "VOLUME": "511",
+  "ISSUE": "7510",
+  "PAGE": "421-7",
+  "Authors": "Schizophrenia Working Group of the Psychiatric Genomics Consortium",
+  "ABSTRACT": "Schizophrenia is a highly heritable disorder. Genetic risk is conferred by a large number of alleles, including common alleles of small effect that might be detected by genome-wide association studies. Here we report a multi-stage schizophrenia genome-wide association study of up to 36,989 cases and 113,075 controls. We identify 128 independent associations spanning 108 conservatively defined loci that meet genome-wide significance, 83 of which have not been previously reported. Associations were enriched among genes expressed in brain, providing biological plausibility for the findings. Many findings have the potential to provide entirely new insights into aetiology, but associations at DRD2 and several genes involved in glutamatergic neurotransmission highlight molecules of known and potential therapeutic relevance to schizophrenia, and are consistent with leading pathophysiological hypotheses. Independent of genes expressed in brain, associations were enriched among genes expressed in tissues that have important roles in immunity, providing support for the speculated link between the immune system and schizophrenia.",
+  "DOI": "10.1038/nature13595",
+  "PMC ID": "PMC4112379",
+  "CITATION": "Schizophrenia Working Group of the Psychiatric Genomics Consortium. (2014) Biological insights from 108 schizophrenia-associated genetic loci. Nature, 511 (7510) 421-7. doi:10.1038/nature13595. PMID 25056061",
+  "FIRST_AUTHOR": "Schizophrenia Working Group of the Psychiatric Genomics Consortium",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

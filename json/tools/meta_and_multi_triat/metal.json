@@ -1,0 +1,29 @@
+{
+  "NAME": "METAL",
+  "PMID": 20616382,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Meta-analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "METAL",
+  "FULL NAME": "METAL",
+  "URL": "https://genome.sph.umich.edu/wiki/METAL_Documentation",
+  "DESCRIPTION": "METAL is a tool for meta-analysis genomewide association scans. METAL can combine either (a) test statistics and standard errors or (b) p-values across studies (taking sample size and direction of effect into account). METAL analysis is a convenient alternative to a direct analysis of merged data from multiple studies. It is especially appropriate when data from the individual studies cannot be analyzed together because of differences in ethnicity, phenotype distribution, gender or constraints in sharing of individual level data imposed. Meta-analysis results in little or no loss of efficiency compared to analysis of a combined dataset including data from all individual studies.",
+  "MANUAL_CITATION": "Willer, C. J., Li, Y., & Abecasis, G. R. (2010). METAL: fast and efficient meta-analysis of genomewide association scans. Bioinformatics, 26(17), 2190-2191.",
+  "TITLE": "METAL: fast and efficient meta-analysis of genomewide association scans.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2010",
+  "VOLUME": "26",
+  "ISSUE": "17",
+  "PAGE": "2190-1",
+  "Authors": "Willer CJ,Li Y,Abecasis GR",
+  "ABSTRACT": "SUMMARY: METAL provides a computationally efficient tool for meta-analysis of genome-wide association scans, which is a commonly used approach for improving power complex traits gene mapping studies. METAL provides a rich scripting interface and implements efficient memory management to allow analyses of very large data sets and to support a variety of input file formats. AVAILABILITY AND IMPLEMENTATION: METAL, including source code, documentation, examples, and executables, is available at http://www.sph.umich.edu/csg/abecasis/metal/.",
+  "DOI": "10.1093/bioinformatics/btq340",
+  "PMC ID": "PMC2922887",
+  "CITATION": "Willer CJ, Li Y, Abecasis GR. (2010) METAL: fast and efficient meta-analysis of genomewide association scans. Bioinformatics, 26 (17) 2190-1. doi:10.1093/bioinformatics/btq340. PMID 20616382",
+  "FIRST_AUTHOR": "Willer CJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

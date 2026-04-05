@@ -1,0 +1,17 @@
+{
+  "NAME": "QUILT2",
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "QUILT2",
+  "PREPRINT_DOI": "10.1101/2024.07.18.604149",
+  "PREPRINT_SERVER": "biorxiv",
+  "URL": "https://github.com/rwdavies/QUILT",
+  "DESCRIPTION": "QUILT2 is a fast and memory-efficient method for imputation from low coverage sequence. Statistically, QUILT2 operates on a per-read basis, and is base quality aware, meaning it can accurately impute from diverse inputs, including short read (e.g. Illumina), long read sequencing (that might be noisy) (e.g. Oxford Nanopore Technologies), barcoded Illumina sequencing (e.g. Haplotagging) and ancient DNA. In addition, QUILT2 can impute both the mother and fetal genome using cfDNA NIPT data. ",
+  "MANUAL_CITATION": "Li, Z., Albrechtsen, A. & Davies, R. W. Rapid and accurate genotype imputation from low coverage short read, long read, and cell free DNA sequence. bioRxiv 2024.07.18.604149 (2024) doi:10.1101/2024.07.18.604149.",
+  "CITATION": "Li, Z., Albrechtsen, A. & Davies, R. W. Rapid and accurate genotype imputation from low coverage short read, long read, and cell free DNA sequence. bioRxiv 2024.07.18.604149 (2024) doi:10.1101/2024.07.18.604149.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "NAME": "DEEP*HLA",
+  "PMID": 33712626,
+  "SECTION": "Tools",
+  "TOPIC": "HLA",
+  "CATEGORY": "HLA imputation tool",
+  "TYPE": "HLA imputation tool",
+  "URL": "https://github.com/tatsuhikonaito/DEEP-HLA",
+  "MANUAL_CITATION": "Naito, T., Suzuki, K., Hirata, J., Kamatani, Y., Matsuda, K., Toda, T., & Okada, Y. (2021). A deep learning method for HLA imputation and trans-ethnic MHC fine-mapping of type 1 diabetes. Nature communications, 12(1), 1639.",
+  "TITLE": "A deep learning method for HLA imputation and trans-ethnic MHC fine-mapping of type 1 diabetes.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "1639",
+  "Authors": "Naito T,Suzuki K,Hirata J,Kamatani Y,Matsuda K,Toda T,Okada Y",
+  "ABSTRACT": "Conventional human leukocyte antigen (HLA) imputation methods drop their performance for infrequent alleles, which is one of the factors that reduce the reliability of trans-ethnic major histocompatibility complex (MHC) fine-mapping due to inter-ethnic heterogeneity in allele frequency spectra. We develop DEEP*HLA, a deep learning method for imputing HLA genotypes. Through validation using the Japanese and European HLA reference panels (n = 1,118 and 5,122), DEEP*HLA achieves the highest accuracies with significant superiority for low-frequency and rare alleles. DEEP*HLA is less dependent on distance-dependent linkage disequilibrium decay of the target alleles and might capture the complicated region-wide information. We apply DEEP*HLA to type 1 diabetes GWAS data from BioBank Japan (n = 62,387) and UK Biobank (n = 354,459), and successfully disentangle independently associated class I and II HLA variants with shared risk among diverse populations (the top signal at amino acid position 71 of HLA-DRβ1; P = 7.5 × 10-120). Our study illustrates the value of deep learning in genotype imputation and trans-ethnic MHC fine-mapping.",
+  "DOI": "10.1038/s41467-021-21975-x",
+  "PMC ID": "PMC7955122",
+  "CITATION": "Naito T, Suzuki K, Hirata J, Kamatani Y, ...&, Okada Y. (2021) A deep learning method for HLA imputation and trans-ethnic MHC fine-mapping of type 1 diabetes. Nat Commun, 12 (1) 1639. doi:10.1038/s41467-021-21975-x. PMID 33712626",
+  "FIRST_AUTHOR": "Naito T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

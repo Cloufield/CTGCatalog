@@ -1,0 +1,28 @@
+{
+  "NAME": "EIGENSTRAT",
+  "PMID": 16862161,
+  "SECTION": "Tools",
+  "TOPIC": "Dimension_reduction",
+  "TYPE": "Tools",
+  "SHORT NAME": "EIGENSTRAT",
+  "FULL NAME": "EIGENSTRAT",
+  "KEYWORDS": "PCA, Linear",
+  "URL": "https://github.com/DReichLab/EIG",
+  "MANUAL_CITATION": "Price, A. L., Patterson, N. J., Plenge, R. M., Weinblatt, M. E., Shadick, N. A., & Reich, D. (2006). Principal components analysis corrects for stratification in genome-wide association studies. Nature genetics, 38(8), 904-909.",
+  "TITLE": "Principal components analysis corrects for stratification in genome-wide association studies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2006",
+  "VOLUME": "38",
+  "ISSUE": "8",
+  "PAGE": "904-9",
+  "Authors": "Price AL,Patterson NJ,Plenge RM,Weinblatt ME,Shadick NA,Reich D",
+  "ABSTRACT": "Population stratification--allele frequency differences between cases and controls due to systematic ancestry differences-can cause spurious associations in disease studies. We describe a method that enables explicit detection and correction of population stratification on a genome-wide scale. Our method uses principal components analysis to explicitly model ancestry differences between cases and controls. The resulting correction is specific to a candidate marker's variation in frequency across ancestral populations, minimizing spurious associations while maximizing power to detect true associations. Our simple, efficient approach can easily be applied to disease studies with hundreds of thousands of markers.",
+  "DOI": "10.1038/ng1847",
+  "PMC ID": "",
+  "CITATION": "Price AL, Patterson NJ, Plenge RM, Weinblatt ME, ...&, Reich D. (2006) Principal components analysis corrects for stratification in genome-wide association studies. Nat Genet, 38 (8) 904-9. doi:10.1038/ng1847. PMID 16862161",
+  "FIRST_AUTHOR": "Price AL",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

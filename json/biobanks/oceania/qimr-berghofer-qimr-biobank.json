@@ -1,0 +1,15 @@
+{
+  "NAME": "QIMR Berghofer - QIMR Biobank",
+  "SHORT NAME": "QSkin and GenEpi",
+  "SECTION": "Biobanks",
+  "TOPIC": "OCEANIA",
+  "CONTINENT": "OCEANIA",
+  "SAMPLE SIZE": "~17k",
+  "URL": "https://genepi.qimr.edu.au/",
+  "DESCRIPTION": "Genetic epidemiology biobank at QIMR Berghofer Medical Research Institute (Brisbane, Australia), supporting large-scale cohort studies including skin cancer and related traits.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "Australian research volunteers (QIMR Berghofer)"
+}

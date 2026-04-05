@@ -1,0 +1,16 @@
+{
+  "NAME": "UCLA Precision Health Biobank",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~27k",
+  "MANUAL_CITATION": "Johnson, R. D., Ding, Y., Bhattacharya, A., Chiu, A., Lajonchere, C., Geschwind, D. H., & Pasaniuc, B. (2022). The UCLA ATLAS Community Health Initiative: promoting precision health research in a diverse biobank. medRxiv.",
+  "URL": "https://icahn.mssm.edu/research/ipm/programs/biome-biobank",
+  "DESCRIPTION": "The UCLA ATLAS Precision Health Biobank, under the supervision of the Translational Pathology Core Laboratory (TCPL), collects biological samples from patients who have consented to participate in the UCLA ATLAS Community Health Initiative. As a collaborator with UCLA ATLAS Community Health Initiative, the UCLA ATLAS Precision Health Biobank manages the collection and distribution of biological samples by removing the personally identifiable information.",
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "UCLA Health patients",
+  "CITATION": "Johnson, R. D., Ding, Y., Bhattacharya, A., Chiu, A., Lajonchere, C., Geschwind, D. H., & Pasaniuc, B. (2022). The UCLA ATLAS Community Health Initiative: promoting precision health research in a diverse biobank. medRxiv.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  }
+}

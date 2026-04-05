@@ -1,0 +1,29 @@
+{
+  "NAME": "SKAT",
+  "PMID": 21737059,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "SKAT",
+  "FULL NAME": "sequence kernel association test",
+  "URL": "https://www.hsph.harvard.edu/skat/",
+  "DESCRIPTION": "SKAT is a SNP-set (e.g., a gene or a region) level test for association between a set of rare (or common) variants and dichotomous or quantitative phenotypes, SKAT aggregates individual score test statistics of SNPs in a SNP set  and efficiently computes SNP-set level p-values, e.g. a gene or a region level p-value, while adjusting for covariates, such as principal components to account for population stratification. SKAT also allows for power/sample size calculations for designing for sequence association studies.",
+  "MANUAL_CITATION": "Wu, Michael C., et al. \"Rare-variant association testing for sequencing data with the sequence kernel association test.\" The American Journal of Human Genetics 89.1 (2011): 82-93.",
+  "TITLE": "Rare-variant association testing for sequencing data with the sequence kernel association test.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2011",
+  "VOLUME": "89",
+  "ISSUE": "1",
+  "PAGE": "82-93",
+  "Authors": "Wu MC,Lee S,Cai T,Li Y,Boehnke M,Lin X",
+  "ABSTRACT": "Sequencing studies are increasingly being conducted to identify rare variants associated with complex traits. The limited power of classical single-marker association analysis for rare variants poses a central challenge in such studies. We propose the sequence kernel association test (SKAT), a supervised, flexible, computationally efficient regression method to test for association between genetic variants (common and rare) in a region and a continuous or dichotomous trait while easily adjusting for covariates. As a score-based variance-component test, SKAT can quickly calculate p values analytically by fitting the null model containing only the covariates, and so can easily be applied to genome-wide data. Using SKAT to analyze a genome-wide sequencing study of 1000 individuals, by segmenting the whole genome into 30 kb regions, requires only 7 hr on a laptop. Through analysis of simulated data across a wide range of practical scenarios and triglyceride data from the Dallas Heart Study, we show that SKAT can substantially outperform several alternative rare-variant association tests. We also provide analytic power and sample-size calculations to help design candidate-gene, whole-exome, and whole-genome sequence association studies.",
+  "DOI": "10.1016/j.ajhg.2011.05.029",
+  "PMC ID": "PMC3135811",
+  "CITATION": "Wu MC, Lee S, Cai T, Li Y, ...&, Lin X. (2011) Rare-variant association testing for sequencing data with the sequence kernel association test. Am J Hum Genet, 89 (1) 82-93. doi:10.1016/j.ajhg.2011.05.029. PMID 21737059",
+  "FIRST_AUTHOR": "Wu MC",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

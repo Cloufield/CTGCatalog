@@ -1,0 +1,12 @@
+{
+  "NAME": "gnomAD",
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "gnomAD",
+  "URL": "https://gnomad.broadinstitute.org/",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

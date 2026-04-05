@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Fst",
+  "PMID": 19687804,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Review",
+  "DESCRIPTION": "Holsinger, K. E., & Weir, B. S. (2009). Genetics in geographically structured populations: defining, estimating and interpreting F ST. Nature Reviews Genetics, 10(9), 639-650.",
+  "TITLE": "Genetics in geographically structured populations: defining, estimating and interpreting F(ST).",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2009",
+  "VOLUME": "10",
+  "ISSUE": "9",
+  "PAGE": "639-50",
+  "Authors": "Holsinger KE,Weir BS",
+  "ABSTRACT": "Wright's F-statistics, and especially F(ST), provide important insights into the evolutionary processes that influence the structure of genetic variation within and among populations, and they are among the most widely used descriptive statistics in population and evolutionary genetics. Estimates of F(ST) can identify regions of the genome that have been the target of selection, and comparisons of F(ST) from different parts of the genome can provide insights into the demographic history of populations. For these reasons and others, F(ST) has a central role in population and evolutionary genetics and has wide applications in fields that range from disease association mapping to forensic science. This Review clarifies how F(ST) is defined, how it should be estimated, how it is related to similar statistics and how estimates of F(ST) should be interpreted.",
+  "DOI": "10.1038/nrg2611",
+  "PMC ID": "PMC4687486",
+  "CITATION": "Holsinger KE, Weir BS. (2009) Genetics in geographically structured populations: defining, estimating and interpreting F(ST). Nat Rev Genet, 10 (9) 639-50. doi:10.1038/nrg2611. PMID 19687804",
+  "FIRST_AUTHOR": "Holsinger KE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

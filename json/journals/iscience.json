@@ -1,0 +1,18 @@
+{
+  "NAME": "iScience",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "iScience",
+  "JOURNAL": "iScience",
+  "URL": "http://www.cell.com/iscience/home",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "SuSiE PCA"
+  ]
+}

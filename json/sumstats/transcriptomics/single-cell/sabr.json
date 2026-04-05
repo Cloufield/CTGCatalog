@@ -1,0 +1,27 @@
+{
+  "NAME": "SABR",
+  "PMID": 40500424,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "DESCRIPTION": "South African Blood Regulatory",
+  "URL": "https://zenodo.org/records/15334125",
+  "MANUAL_YEAR": 2025,
+  "MANUAL_CITATION": "\nCastel, S. E. et al. A map of blood regulatory variation in South Africans enables GWAS interpretation. Nat. Genet. 57, 1628–1637 (2025).\n",
+  "TITLE": "A map of blood regulatory variation in South Africans enables GWAS interpretation.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "7",
+  "PAGE": "1628-1637",
+  "Authors": "Castel SE,Tluway FD,Emde AK,Smyth N,Karim M,Sengupta D,Gray OA,Hendershott M,LeBaron von Baeyer S,Burke EE,Kaewert S,Nguyen KH,Choma SSR,Mashaba RG,Micklesfield LK,Kabudula C,Kahn K,Xavier Gomez-Olive F,Tollman S,Choudhury A,Mpangase PT,Hazelhurst S,Wasik KA,Yerges-Armstrong L,Ramsay M",
+  "ABSTRACT": "Functional genomics resources are critical for interpreting human genetic studies, but currently they are predominantly from European-ancestry individuals. Here we present the South African Blood Regulatory (SABR) resource, a map of blood regulatory variation that includes three South Eastern Bantu-speaking groups. Using paired whole-genome and blood transcriptome data from over 600 individuals, we map the genetic architecture of 40 blood cell traits derived from deconvolution analysis, as well as expression, splice and cell-type interaction quantitative trait loci. We comprehensively compare SABR to the Genotype Tissue Expression Project and characterize thousands of regulatory variants only observed in African-ancestry individuals. Finally, we demonstrate the increased utility of SABR for interpreting African-ancestry association studies by identifying putatively causal genes and molecular mechanisms through colocalization analysis of blood-relevant traits from the Pan-UK Biobank. Importantly, we make full SABR summary statistics publicly available to support the African genomics community.",
+  "DOI": "10.1038/s41588-025-02223-0",
+  "PMC ID": "PMC12283414",
+  "CITATION": "Castel SE, Tluway FD, Emde AK, Smyth N, ...&, Ramsay M. (2025) A map of blood regulatory variation in South Africans enables GWAS interpretation. Nat Genet, 57 (7) 1628-1637. doi:10.1038/s41588-025-02223-0. PMID 40500424",
+  "FIRST_AUTHOR": "Castel SE",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

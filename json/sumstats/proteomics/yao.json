@@ -1,0 +1,27 @@
+{
+  "NAME": "Yao",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 30111768,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "IA",
+  "TYPE": "immunoassay",
+  "SECTION": "Sumstats",
+  "TITLE": "Genome-wide mapping of plasma protein QTLs identifies putatively causal genes and pathways for cardiovascular disease.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2018",
+  "VOLUME": "9",
+  "ISSUE": "1",
+  "PAGE": "3268",
+  "Authors": "Yao C,Chen G,Song C,Keefe J,Mendelson M,Huan T,Sun BB,Laser A,Maranville JC,Wu H,Ho JE,Courchesne P,Lyass A,Larson MG,Gieger C,Graumann J,Johnson AD,Danesh J,Runz H,Hwang SJ,Liu C,Butterworth AS,Suhre K,Levy D",
+  "ABSTRACT": "Identifying genetic variants associated with circulating protein concentrations (protein quantitative trait loci; pQTLs) and integrating them with variants from genome-wide association studies (GWAS) may illuminate the proteome's causal role in disease and bridge a knowledge gap regarding SNP-disease associations. We provide the results of GWAS of 71 high-value cardiovascular disease proteins in 6861 Framingham Heart Study participants and independent external replication. We report the mapping of over 16,000 pQTL variants and their functional relevance. We provide an integrated plasma protein-QTL database. Thirteen proteins harbor pQTL variants that match coronary disease-risk variants from GWAS or test causal for coronary disease by Mendelian randomization. Eight of these proteins predict new-onset cardiovascular disease events in Framingham participants. We demonstrate that identifying pQTLs, integrating them with GWAS results, employing Mendelian randomization, and prospectively testing protein-trait associations holds potential for elucidating causal genes, proteins, and pathways for cardiovascular disease and may identify targets for its prevention and treatment.",
+  "DOI": "10.1038/s41467-018-05512-x",
+  "PMC ID": "PMC6093935",
+  "CITATION": "Yao C, Chen G, Song C, Keefe J, ...&, Levy D. (2018) Genome-wide mapping of plasma protein QTLs identifies putatively causal genes and pathways for cardiovascular disease. Nat Commun, 9 (1) 3268. doi:10.1038/s41467-018-05512-x. PMID 30111768",
+  "FIRST_AUTHOR": "Yao C",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

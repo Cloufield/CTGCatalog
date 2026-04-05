@@ -1,0 +1,17 @@
+{
+  "NAME": "South and East Asian Reference Database (SEAD) ",
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "SEAD",
+  "FULL NAME": "South and East Asian Reference Database ",
+  "PREPRINT_DOI": "10.1101/2023.12.23.23300480",
+  "PREPRINT_SERVER": "medrxiv",
+  "URL": "https://imputationserver.westlake.edu.cn/",
+  "MANUAL_CITATION": "Yang, M. Y., Zhong, J. D., Li, X., Bai, W. Y., Yuan, C. D., Qiu, M. C., ... & Zheng, H. F. (2023). SEAD: an augmented reference panel with 22,134 haplotypes boosts the rare variants imputation and GWAS analysis in Asian population. medRxiv, 2023-12.",
+  "CITATION": "Yang, M. Y., Zhong, J. D., Li, X., Bai, W. Y., Yuan, C. D., Qiu, M. C., ... & Zheng, H. F. (2023). SEAD: an augmented reference panel with 22,134 haplotypes boosts the rare variants imputation and GWAS analysis in Asian population. medRxiv, 2023-12.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

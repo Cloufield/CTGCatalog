@@ -1,0 +1,29 @@
+{
+  "NAME": "Tutorial-Choi",
+  "PMID": 32709988,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Tutorial",
+  "TYPE": "Tutorial",
+  "SHORT NAME": "PRS Tutorial",
+  "FULL NAME": "PRS Tutorial",
+  "URL": "https://choishingwan.github.io/PRS-Tutorial/",
+  "DESCRIPTION": "This tutorial provides a step-by-step guide to performing basic polygenic risk score (PRS) analyses and accompanies our PRS Guide paper. The aim of this tutorial is to provide a simple introduction of PRS analyses to those new to PRS, while equipping existing users with a better understanding of the processes and implementation \"underneath the hood\" of popular PRS software.",
+  "MANUAL_CITATION": "Choi, S. W., Mak, T. S. H., & O’Reilly, P. F. (2020). Tutorial: a guide to performing polygenic risk score analyses. Nature protocols, 15(9), 2759-2772.",
+  "TITLE": "Tutorial: a guide to performing polygenic risk score analyses.",
+  "ISO": "Nat Protoc",
+  "JOURNAL": "Nature protocols",
+  "YEAR": "2020",
+  "VOLUME": "15",
+  "ISSUE": "9",
+  "PAGE": "2759-2772",
+  "Authors": "Choi SW,Mak TS,O'Reilly PF",
+  "ABSTRACT": "A polygenic score (PGS) or polygenic risk score (PRS) is an estimate of an individual's genetic liability to a trait or disease, calculated according to their genotype profile and relevant genome-wide association study (GWAS) data. While present PRSs typically explain only a small fraction of trait variance, their correlation with the single largest contributor to phenotypic variation-genetic liability-has led to the routine application of PRSs across biomedical research. Among a range of applications, PRSs are exploited to assess shared etiology between phenotypes, to evaluate the clinical utility of genetic data for complex disease and as part of experimental studies in which, for example, experiments are performed that compare outcomes (e.g., gene expression and cellular response to treatment) between individuals with low and high PRS values. As GWAS sample sizes increase and PRSs become more powerful, PRSs are set to play a key role in research and stratified medicine. However, despite the importance and growing application of PRSs, there are limited guidelines for performing PRS analyses, which can lead to inconsistency between studies and misinterpretation of results. Here, we provide detailed guidelines for performing and interpreting PRS analyses. We outline standard quality control steps, discuss different methods for the calculation of PRSs, provide an introductory online tutorial, highlight common misconceptions relating to PRS results, offer recommendations for best practice and discuss future challenges.",
+  "DOI": "10.1038/s41596-020-0353-1",
+  "PMC ID": "PMC7612115",
+  "CITATION": "Choi SW, Mak TS, O'Reilly PF. (2020) Tutorial: a guide to performing polygenic risk score analyses. Nat Protoc, 15 (9) 2759-2772. doi:10.1038/s41596-020-0353-1. PMID 32709988",
+  "FIRST_AUTHOR": "Choi SW",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

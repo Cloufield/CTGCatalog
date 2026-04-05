@@ -1,0 +1,29 @@
+{
+  "NAME": "metabolites PRS atlas",
+  "PMID": 36219204,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "SHORT NAME": "metabolites PRS atlas",
+  "FULL NAME": "metabolites PRS atlas",
+  "URL": "http://mrcieu.mrsoftware.org/metabolites_PRS_atlas/",
+  "DESCRIPTION": "This web application can be used to query findings from a systematic analysis of 129 polygenic risk scores and 249 circulating metabolits using high-throughput nuclear magnetic resonance data from the UK Biobank study1,2. We encourage users of this resource to conduct follow-up analyses of associations to investigate potential causal and non-causal metabolic biomarkers. Age-stratified results can be used to investigate how potential sources of collider bias (e.g. statin therapy) may influence findings in the full sample",
+  "MANUAL_CITATION": "Fang, S., Holmes, M. V., Gaunt, T. R., Smith, G. D., & Richardson, T. G. (2022). Constructing an atlas of associations between polygenic scores from across the human phenome and circulating metabolic biomarkers. eLife.",
+  "TITLE": "Constructing an atlas of associations between polygenic scores from across the human phenome and circulating metabolic biomarkers.",
+  "ISO": "Elife",
+  "JOURNAL": "eLife",
+  "YEAR": "2022",
+  "VOLUME": "11",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Fang S,Holmes MV,Gaunt TR,Davey Smith G,Richardson TG",
+  "ABSTRACT": "BACKGROUND: Polygenic scores (PGS) are becoming an increasingly popular approach to predict complex disease risk, although they also hold the potential to develop insight into the molecular profiles of patients with an elevated genetic predisposition to disease. METHODS: We sought to construct an atlas of associations between 125 different PGS derived using results from genome-wide association studies and 249 circulating metabolites in up to 83,004 participants from the UK Biobank. RESULTS: As an exemplar to demonstrate the value of this atlas, we conducted a hypothesis-free evaluation of all associations with glycoprotein acetyls (GlycA), an inflammatory biomarker. Using bidirectional Mendelian randomization, we find that the associations highlighted likely reflect the effect of risk factors, such as adiposity or liability towards smoking, on systemic inflammation as opposed to the converse direction. Moreover, we repeated all analyses in our atlas within age strata to investigate potential sources of collider bias, such as medication usage. This was exemplified by comparing associations between lipoprotein lipid profiles and the coronary artery disease PGS in the youngest and oldest age strata, which had differing proportions of individuals undergoing statin therapy. Lastly, we generated all PGS-metabolite associations stratified by sex and separately after excluding 13 established lipid-associated loci to further evaluate the robustness of findings. CONCLUSIONS: We envisage that the atlas of results constructed in our study will motivate future hypothesis generation and help prioritize and deprioritize circulating metabolic traits for in-depth investigations. All results can be visualized and downloaded at http://mrcieu.mrsoftware.org/metabolites_PRS_atlas. FUNDING: This work is supported by funding from the Wellcome Trust, the British Heart Foundation, and the Medical Research Council Integrative Epidemiology Unit.",
+  "DOI": "10.7554/eLife.73951",
+  "PMC ID": "PMC9553209",
+  "CITATION": "Fang S, Holmes MV, Gaunt TR, Davey Smith G, ...&, Richardson TG. (2022) Constructing an atlas of associations between polygenic scores from across the human phenome and circulating metabolic biomarkers. Elife, 11 () . doi:10.7554/eLife.73951. PMID 36219204",
+  "FIRST_AUTHOR": "Fang S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

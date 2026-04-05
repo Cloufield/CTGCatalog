@@ -1,0 +1,13 @@
+{
+  "NAME": "Qwen",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Alibaba Cloud",
+  "URL": "https://qwenlm.github.io",
+  "DESCRIPTION": "Open-weight and API language / multimodal models (Qwen family) from Alibaba, widely used in research and products.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

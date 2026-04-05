@@ -1,0 +1,27 @@
+{
+  "NAME": "PGG.Han panel",
+  "PMID": 31584086,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "PGG.Han",
+  "URL": "https://www.biosino.org/pgghan2/index#home1",
+  "MANUAL_CITATION": "\nGao, Y. et al. PGG.Han: the Han Chinese genome database and analysis platform. Nucleic Acids Res. 48, D971–D976 (2020).\n  ",
+  "TITLE": "PGG.Han: the Han Chinese genome database and analysis platform.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2020",
+  "VOLUME": "48",
+  "ISSUE": "D1",
+  "PAGE": "D971-D976",
+  "Authors": "Gao Y,Zhang C,Yuan L,Ling Y,Wang X,Liu C,Pan Y,Zhang X,Ma X,Wang Y,Lu Y,Yuan K,Ye W,Qian J,Chang H,Cao R,Yang X,Ma L,Ju Y,Dai L,Tang Y,Han100K Initiative,Zhang G,Xu S",
+  "ABSTRACT": "As the largest ethnic group in the world, the Han Chinese population is nonetheless underrepresented in global efforts to catalogue the genomic variability of natural populations. Here, we developed the PGG.Han, a population genome database to serve as the central repository for the genomic data of the Han Chinese Genome Initiative (Phase I). In its current version, the PGG.Han archives whole-genome sequences or high-density genome-wide single-nucleotide variants (SNVs) of 114 783 Han Chinese individuals (a.k.a. the Han100K), representing geographical sub-populations covering 33 of the 34 administrative divisions of China, as well as Singapore. The PGG.Han provides: (i) an interactive interface for visualization of the fine-scale genetic structure of the Han Chinese population; (ii) genome-wide allele frequencies of hierarchical sub-populations; (iii) ancestry inference for individual samples and controlling population stratification based on nested ancestry informative markers (AIMs) panels; (iv) population-structure-aware shared control data for genotype-phenotype association studies (e.g. GWASs) and (v) a Han-Chinese-specific reference panel for genotype imputation. Computational tools are implemented into the PGG.Han, and an online user-friendly interface is provided for data analysis and results visualization. The PGG.Han database is freely accessible via http://www.pgghan.org or https://www.hanchinesegenomes.org.",
+  "DOI": "10.1093/nar/gkz829",
+  "PMC ID": "PMC6943055",
+  "CITATION": "Gao Y, Zhang C, Yuan L, Ling Y, ...&, Xu S. (2020) PGG.Han: the Han Chinese genome database and analysis platform. Nucleic Acids Res, 48 (D1) D971-D976. doi:10.1093/nar/gkz829. PMID 31584086",
+  "FIRST_AUTHOR": "Gao Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

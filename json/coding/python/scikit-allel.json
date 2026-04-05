@@ -1,0 +1,11 @@
+{
+  "NAME": "scikit-allel",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://scikit-allel.readthedocs.io/en/stable/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Large-scale genetic variation data utilities."
+}

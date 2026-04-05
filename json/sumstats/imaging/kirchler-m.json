@@ -1,0 +1,31 @@
+{
+  "NAME": "Kirchler M",
+  "ADD_SUFFIX": 1,
+  "PMID": 35640976,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "Method",
+  "TRAIT": "Full medical images",
+  "TYPE": "Method",
+  "SHORT NAME": "transferGWAS",
+  "MANUAL_CITATION": "Kirchler, M. et al. transferGWAS: GWAS of images using deep transfer learning. Bioinformatics 38, 3621–3628 (2022).",
+  "DESCRIPTION": "transferGWAS is a method for performing genome-wide association studies on whole images.",
+  "URL": "https://github.com/mkirchler/transferGWAS/",
+  "MANUAL_YEAR": 2022,
+  "TITLE": "transferGWAS: GWAS of images using deep transfer learning.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2022",
+  "VOLUME": "38",
+  "ISSUE": "14",
+  "PAGE": "3621-3628",
+  "Authors": "Kirchler M,Konigorski S,Norden M,Meltendorf C,Kloft M,Schurmann C,Lippert C",
+  "ABSTRACT": "MOTIVATION: Medical images can provide rich information about diseases and their biology. However, investigating their association with genetic variation requires non-standard methods. We propose transferGWAS, a novel approach to perform genome-wide association studies directly on full medical images. First, we learn semantically meaningful representations of the images based on a transfer learning task, during which a deep neural network is trained on independent but similar data. Then, we perform genetic association tests with these representations. RESULTS: We validate the type I error rates and power of transferGWAS in simulation studies of synthetic images. Then we apply transferGWAS in a genome-wide association study of retinal fundus images from the UK Biobank. This first-of-a-kind GWAS of full imaging data yielded 60 genomic regions associated with retinal fundus images, of which 7 are novel candidate loci for eye-related traits and diseases. AVAILABILITY AND IMPLEMENTATION: Our method is implemented in Python and available at https://github.com/mkirchler/transferGWAS/. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btac369",
+  "PMC ID": "",
+  "CITATION": "Kirchler M, Konigorski S, Norden M, Meltendorf C, ...&, Lippert C. (2022) transferGWAS: GWAS of images using deep transfer learning. Bioinformatics, 38 (14) 3621-3628. doi:10.1093/bioinformatics/btac369. PMID 35640976",
+  "FIRST_AUTHOR": "Kirchler M",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

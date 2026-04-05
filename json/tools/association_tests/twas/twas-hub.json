@@ -1,0 +1,30 @@
+{
+  "NAME": "TWAS hub",
+  "PMID": 28238358,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "TWAS hub",
+  "FULL NAME": "TWAS hub",
+  "MANUAL_YEAR": 2017,
+  "URL": "http://twas-hub.org",
+  "DESCRIPTION": "TWAS hub is an interactive browser of results from integrative analyses of GWAS and functional data for hundreds of traits and >100k expression models. The aim is facilitate the investigation of individual TWAS associations; pleiotropic disease/trait associations for a given gene of interest; predicted gene associations for a given disease/trait of interest with detailed per-locus statistics; and pleiotropic relationships between traits based on shared associated genes.",
+  "MANUAL_CITATION": "Mancuso, Nicholas, et al. \"Integrating gene expression with summary association statistics to identify genes associated with 30 complex traits.\" The American Journal of Human Genetics 100.3 (2017): 473-487.",
+  "TITLE": "Integrating Gene Expression with Summary Association Statistics to Identify Genes Associated with 30 Complex Traits.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2017",
+  "VOLUME": "100",
+  "ISSUE": "3",
+  "PAGE": "473-487",
+  "Authors": "Mancuso N,Shi H,Goddard P,Kichaev G,Gusev A,Pasaniuc B",
+  "ABSTRACT": "Although genome-wide association studies (GWASs) have identified thousands of risk loci for many complex traits and diseases, the causal variants and genes at these loci remain largely unknown. Here, we introduce a method for estimating the local genetic correlation between gene expression and a complex trait and utilize it to estimate the genetic correlation due to predicted expression between pairs of traits. We integrated gene expression measurements from 45 expression panels with summary GWAS data to perform 30 multi-tissue transcriptome-wide association studies (TWASs). We identified 1,196 genes whose expression is associated with these traits; of these, 168 reside more than 0.5 Mb away from any previously reported GWAS significant variant. We then used our approach to find 43 pairs of traits with significant genetic correlation at the level of predicted expression; of these, eight were not found through genetic correlation at the SNP level. Finally, we used bi-directional regression to find evidence that BMI causally influences triglyceride levels and that triglyceride levels causally influence low-density lipoprotein. Together, our results provide insight into the role of gene expression in the susceptibility of complex traits and diseases.",
+  "DOI": "10.1016/j.ajhg.2017.01.031",
+  "PMC ID": "PMC5339290",
+  "CITATION": "Mancuso N, Shi H, Goddard P, Kichaev G, ...&, Pasaniuc B. (2017) Integrating Gene Expression with Summary Association Statistics to Identify Genes Associated with 30 Complex Traits. Am J Hum Genet, 100 (3) 473-487. doi:10.1016/j.ajhg.2017.01.031. PMID 28238358",
+  "FIRST_AUTHOR": "Mancuso N",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "MACH / minimach",
+  "PMID": 21058334,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "MACH / minimach",
+  "URL": "http://csg.sph.umich.edu/abecasis/MaCH/index.html",
+  "DESCRIPTION": "(MACH)",
+  "MANUAL_CITATION": " Li, Yun, et al. \"MaCH: using sequence and genotype data to estimate haplotypes and unobserved genotypes.\" Genetic epidemiology 34.8 (2010): 816-834.",
+  "TITLE": "MaCH: using sequence and genotype data to estimate haplotypes and unobserved genotypes.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2010",
+  "VOLUME": "34",
+  "ISSUE": "8",
+  "PAGE": "816-34",
+  "Authors": "Li Y,Willer CJ,Ding J,Scheet P,Abecasis GR",
+  "ABSTRACT": "Genome-wide association studies (GWAS) can identify common alleles that contribute to complex disease susceptibility. Despite the large number of SNPs assessed in each study, the effects of most common SNPs must be evaluated indirectly using either genotyped markers or haplotypes thereof as proxies. We have previously implemented a computationally efficient Markov Chain framework for genotype imputation and haplotyping in the freely available MaCH software package. The approach describes sampled chromosomes as mosaics of each other and uses available genotype and shotgun sequence data to estimate unobserved genotypes and haplotypes, together with useful measures of the quality of these estimates. Our approach is already widely used to facilitate comparison of results across studies as well as meta-analyses of GWAS. Here, we use simulations and experimental genotypes to evaluate its accuracy and utility, considering choices of genotyping panels, reference panel configurations, and designs where genotyping is replaced with shotgun sequencing. Importantly, we show that genotype imputation not only facilitates cross study analyses but also increases power of genetic association studies. We show that genotype imputation of common variants using HapMap haplotypes as a reference is very accurate using either genome-wide SNP data or smaller amounts of data typical in fine-mapping studies. Furthermore, we show the approach is applicable in a variety of populations. Finally, we illustrate how association analyses of unobserved variants will benefit from ongoing advances such as larger HapMap reference panels and whole genome shotgun sequencing technologies.",
+  "DOI": "10.1002/gepi.20533",
+  "PMC ID": "PMC3175618",
+  "CITATION": "Li Y, Willer CJ, Ding J, Scheet P, ...&, Abecasis GR. (2010) MaCH: using sequence and genotype data to estimate haplotypes and unobserved genotypes. Genet Epidemiol, 34 (8) 816-34. doi:10.1002/gepi.20533. PMID 21058334",
+  "FIRST_AUTHOR": "Li Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

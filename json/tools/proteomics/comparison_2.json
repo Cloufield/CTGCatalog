@@ -1,0 +1,24 @@
+{
+  "NAME": "Comparison",
+  "PMID": 32386347,
+  "SECTION": "Tools",
+  "TOPIC": "Proteomics",
+  "TYPE": "Comparison",
+  "MANUAL_CITATION": "Raffield, L. M., Dang, H., Pratte, K. A., Jacobson, S., Gillenwater, L. A., Ampleford, E., ... & NHLBI Trans‐Omics for Precision Medicine (TOPMed) Consortium. (2020). Comparison of proteomic assessment methods in multiple cohort studies. Proteomics, 20(12), 1900278.",
+  "TITLE": "Comparison of Proteomic Assessment Methods in Multiple Cohort Studies.",
+  "ISO": "Proteomics",
+  "JOURNAL": "Proteomics",
+  "YEAR": "2020",
+  "VOLUME": "20",
+  "ISSUE": "12",
+  "PAGE": "e1900278",
+  "Authors": "Raffield LM,Dang H,Pratte KA,Jacobson S,Gillenwater LA,Ampleford E,Barjaktarevic I,Basta P,Clish CB,Comellas AP,Cornell E,Curtis JL,Doerschuk C,Durda P,Emson C,Freeman CM,Guo X,Hastie AT,Hawkins GA,Herrera J,Johnson WC,Labaki WW,Liu Y,Masters B,Miller M,Ortega VE,Papanicolaou G,Peters S,Taylor KD,Rich SS,Rotter JI,Auer P,Reiner AP,Tracy RP,Ngo D,Gerszten RE,O'Neal WK,Bowler RP,NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium",
+  "ABSTRACT": "Novel proteomics platforms, such as the aptamer-based SOMAscan platform, can quantify large numbers of proteins efficiently and cost-effectively and are rapidly growing in popularity. However, comparisons to conventional immunoassays remain underexplored, leaving investigators unsure when cross-assay comparisons are appropriate. The correlation of results from immunoassays with relative protein quantification is explored by SOMAscan. For 63 proteins assessed in two chronic obstructive pulmonary disease (COPD) cohorts, subpopulations and intermediate outcome measures in COPD Study (SPIROMICS), and COPDGene, using myriad rules based medicine multiplex immunoassays and SOMAscan, Spearman correlation coefficients range from -0.13 to 0.97, with a median correlation coefficient of ≈0.5 and consistent results across cohorts. A similar range is observed for immunoassays in the population-based Multi-Ethnic Study of Atherosclerosis and for other assays in COPDGene and SPIROMICS. Comparisons of relative quantification from the antibody-based Olink platform and SOMAscan in a small cohort of myocardial infarction patients also show a wide correlation range. Finally, cis pQTL data, mass spectrometry aptamer confirmation, and other publicly available data are integrated to assess relationships with observed correlations. Correlation between proteomics assays shows a wide range and should be carefully considered when comparing and meta-analyzing proteomics data across assays and studies.",
+  "DOI": "10.1002/pmic.201900278",
+  "PMC ID": "PMC7425176",
+  "CITATION": "Raffield LM, Dang H, Pratte KA, Jacobson S, ...&, NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium. (2020) Comparison of Proteomic Assessment Methods in Multiple Cohort Studies. Proteomics, 20 (12) e1900278. doi:10.1002/pmic.201900278. PMID 32386347",
+  "FIRST_AUTHOR": "Raffield LM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

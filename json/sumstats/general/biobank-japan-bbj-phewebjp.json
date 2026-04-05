@@ -1,0 +1,28 @@
+{
+  "NAME": "Biobank Japan (BBJ) Phewebjp",
+  "URL": "https://pheweb.jp/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "biobank japan",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Japan-wide PheWeb instance for Biobank Japan GWAS summary statistics.",
+  "PMID": 39363016,
+  "TITLE": "Population-specific putative causal variants shape quantitative traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "10",
+  "PAGE": "2027-2035",
+  "Authors": "Koyama S,Liu X,Koike Y,Hikino K,Koido M,Li W,Akaki K,Tomizuka K,Ito S,Otomo N,Suetsugu H,Yoshino S,Akiyama M,Saito K,Ishikawa Y,Benner C,Natarajan P,Ellinor PT,Mushiroda T,Horikoshi M,Ikeda M,Iwata N,Matsuda K,Biobank Japan Project,Niida S,Ozaki K,Momozawa Y,Ikegawa S,Takeuchi O,Ito K,Terao C",
+  "ABSTRACT": "Human genetic variants are associated with many traits through largely unknown mechanisms. Here, combining approximately 260,000 Japanese study participants, a Japanese-specific genotype reference panel and statistical fine-mapping, we identified 4,423 significant loci across 63 quantitative traits, among which 601 were new, and 9,406 putatively causal variants. New associations included Japanese-specific coding, splicing and noncoding variants, exemplified by a damaging missense variant rs730881101 in TNNT2 associated with lower heart function and increased risk for heart failure (P = 1.4 × 10-15 and odds ratio = 4.5, 95% confidence interval = 3.1-6.5). Putative causal noncoding variants were supported by state-of-art in silico functional assays and had comparable effect sizes to coding variants. A plausible example of new mechanisms of causal variants is an enrichment of causal variants in 3' untranslated regions (UTRs), including the Japanese-specific rs13306436 in IL6 associated with pro-inflammatory traits and protection against tuberculosis. We experimentally showed that transcripts with rs13306436 are resistant to mRNA degradation by regnase-1, an RNA-binding protein. Our study provides a list of fine-mapped causal variants to be tested for functionality and underscores the importance of sequencing, genotyping and association efforts in diverse populations.",
+  "DOI": "10.1038/s41588-024-01913-5",
+  "PMC ID": "PMC11525193",
+  "CITATION": "Koyama S, Liu X, Koike Y, Hikino K, ...&, Terao C. (2024) Population-specific putative causal variants shape quantitative traits. Nat Genet, 56 (10) 2027-2035. doi:10.1038/s41588-024-01913-5. PMID 39363016",
+  "FIRST_AUTHOR": "Koyama S",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

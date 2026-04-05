@@ -1,0 +1,28 @@
+{
+  "NAME": "locuszoom",
+  "PMID": 20634204,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "locuszoom",
+  "FULL NAME": "locuszoom",
+  "URL": "http://locuszoom.org/",
+  "MANUAL_CITATION": "Pruim, Randall J., et al. \"LocusZoom: regional visualization of genome-wide association scan results.\" Bioinformatics 26.18 (2010): 2336-2337.",
+  "TITLE": "LocusZoom: regional visualization of genome-wide association scan results.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2010",
+  "VOLUME": "26",
+  "ISSUE": "18",
+  "PAGE": "2336-7",
+  "Authors": "Pruim RJ,Welch RP,Sanna S,Teslovich TM,Chines PS,Gliedt TP,Boehnke M,Abecasis GR,Willer CJ",
+  "ABSTRACT": "UNLABELLED: Genome-wide association studies (GWAS) have revealed hundreds of loci associated with common human genetic diseases and traits. We have developed a web-based plotting tool that provides fast visual display of GWAS results in a publication-ready format. LocusZoom visually displays regional information such as the strength and extent of the association signal relative to genomic position, local linkage disequilibrium (LD) and recombination patterns and the positions of genes in the region. AVAILABILITY: LocusZoom can be accessed from a web interface at http://csg.sph.umich.edu/locuszoom. Users may generate a single plot using a web form, or many plots using batch mode. The software utilizes LD information from HapMap Phase II (CEU, YRI and JPT+CHB) or 1000 Genomes (CEU) and gene information from the UCSC browser, and will accept SNP identifiers in dbSNP or 1000 Genomes format. Single plots are generated in approximately 20 s. Source code and associated databases are available for download and local installation, and full documentation is available online.",
+  "DOI": "10.1093/bioinformatics/btq419",
+  "PMC ID": "PMC2935401",
+  "CITATION": "Pruim RJ, Welch RP, Sanna S, Teslovich TM, ...&, Willer CJ. (2010) LocusZoom: regional visualization of genome-wide association scan results. Bioinformatics, 26 (18) 2336-7. doi:10.1093/bioinformatics/btq419. PMID 20634204",
+  "FIRST_AUTHOR": "Pruim RJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

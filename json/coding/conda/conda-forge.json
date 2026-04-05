@@ -1,0 +1,11 @@
+{
+  "NAME": "conda-forge",
+  "SECTION": "Coding",
+  "TOPIC": "Conda",
+  "TYPE": "Resource",
+  "URL": "https://conda-forge.org/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Community-led Conda packages."
+}

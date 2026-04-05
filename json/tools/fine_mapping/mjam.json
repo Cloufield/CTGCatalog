@@ -1,0 +1,15 @@
+{
+  "NAME": "mJAM",
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "mJAM",
+  "FULL NAME": "multi-population JAM",
+  "KEYWORDS": "multi-population",
+  "URL": "https://github.com/USCbiostats/hJAM/R",
+  "MANUAL_CITATION": "Shen, J., Jiang, L., Wang, K., Wang, A., Chen, F., Newcombe, P. J., ... & Conti, D. V. (2022). Fine-mapping and credible set construction using a multi-population joint analysis of marginal summary statistics from genome-wide association studies. bioRxiv, 2022-12.",
+  "CITATION": "Shen, J., Jiang, L., Wang, K., Wang, A., Chen, F., Newcombe, P. J., ... & Conti, D. V. (2022). Fine-mapping and credible set construction using a multi-population joint analysis of marginal summary statistics from genome-wide association studies. bioRxiv, 2022-12.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

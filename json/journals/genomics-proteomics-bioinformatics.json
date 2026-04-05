@@ -1,0 +1,18 @@
+{
+  "NAME": "Genomics, proteomics & bioinformatics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Genomics Proteomics Bioinformatics",
+  "JOURNAL": "Genomics, proteomics & bioinformatics",
+  "URL": "https://academic.oup.com/gpb/",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Cmplot"
+  ]
+}

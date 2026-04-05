@@ -1,0 +1,16 @@
+{
+  "NAME": "National Center Biobank Network",
+  "SHORT NAME": "NCBN",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~120K",
+  "MANUAL_CITATION": " Omae, Yosuke, Yu-ichi Goto, and Katsushi Tokunaga. \"National Center Biobank Network.\" Human Genome Variation 9.1 (2022): 1-6.",
+  "URL": "https://ncbiobank.org/en/home.php",
+  "DESCRIPTION": " Six National Centers in Japan conduct specialized medical research under the coordination of the National Center Biobank Network (NCBN) and develop therapeutics to improve and protect national health. They actively collaborate to establish a shared biobank and are developing a structure to facilitate industry-academia-government cooperation regarding bioresources through broad joint research. NCBN strives to promote the success of the National Centers and to create bright future for health and human life.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Japanese patients (national hospital biobank network)"
+}

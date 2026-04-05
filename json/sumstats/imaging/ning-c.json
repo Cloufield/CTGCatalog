@@ -1,0 +1,33 @@
+{
+  "NAME": "Ning C",
+  "ADD_SUFFIX": 1,
+  "PMID": 38036550,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "CMR: 12 Left ventricular regional wall thickness (LVRWT) traits",
+  "PLATFORM": "Cardiac MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 42194,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Ning, C. et al. Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy. Nat. Commun. 14, 7900 (2023).",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "7900",
+  "Authors": "Ning C,Fan L,Jin M,Wang W,Hu Z,Cai Y,Chen L,Lu Z,Zhang M,Chen C,Li Y,Zhang F,Wang W,Liu Y,Chen S,Jiang Y,He C,Wang Z,Chen X,Li H,Li G,Ma Q,Geng H,Tian W,Zhang H,Liu B,Xia Q,Yang X,Liu Z,Li B,Zhu Y,Li X,Zhang S,Tian J,Miao X",
+  "ABSTRACT": "Left ventricular regional wall thickness (LVRWT) is an independent predictor of morbidity and mortality in cardiovascular diseases (CVDs). To identify specific genetic influences on individual LVRWT, we established a novel deep learning algorithm to calculate 12 LVRWTs accurately in 42,194 individuals from the UK Biobank with cardiac magnetic resonance (CMR) imaging. Genome-wide association studies of CMR-derived 12 LVRWTs identified 72 significant genetic loci associated with at least one LVRWT phenotype (P < 5 × 10-8), which were revealed to actively participate in heart development and contraction pathways. Significant causal relationships were observed between the LVRWT traits and hypertrophic cardiomyopathy (HCM) using genetic correlation and Mendelian randomization analyses (P < 0.01). The polygenic risk score of inferoseptal LVRWT at end systole exhibited a notable association with incident HCM, facilitating the identification of high-risk individuals. The findings yield insights into the genetic determinants of LVRWT phenotypes and shed light on the biological basis for HCM etiology.",
+  "DOI": "10.1038/s41467-023-43771-5",
+  "PMC ID": "PMC10689443",
+  "CITATION": "Ning C, Fan L, Jin M, Wang W, ...&, Miao X. (2023) Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy. Nat Commun, 14 (1) 7900. doi:10.1038/s41467-023-43771-5. PMID 38036550",
+  "FIRST_AUTHOR": "Ning C",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

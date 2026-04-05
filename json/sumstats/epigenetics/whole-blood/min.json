@@ -1,0 +1,28 @@
+{
+  "NAME": "Min",
+  "PMID": 34493871,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Whole Blood",
+  "CATEGORY": "Methylation",
+  "DESCRIPTION": "Cis and trans meta-analysis results from genome-wide scans of 420,509 DNA methylation sites",
+  "URL": "http://mqtldb.godmc.org.uk/",
+  "MANUAL_YEAR": 2021,
+  "MANUAL_CITATION": "\nMin, J. L. et al. Genomic and phenotypic insights from an atlas of genetic effects on DNA methylation. Nat. Genet. 53, 1311–1321 (2021).  \n",
+  "TITLE": "Genomic and phenotypic insights from an atlas of genetic effects on DNA methylation.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "9",
+  "PAGE": "1311-1321",
+  "Authors": "Min JL,Hemani G,Hannon E,Dekkers KF,Castillo-Fernandez J,Luijk R,Carnero-Montoro E,Lawson DJ,Burrows K,Suderman M,Bretherick AD,Richardson TG,Klughammer J,Iotchkova V,Sharp G,Al Khleifat A,Shatunov A,Iacoangeli A,McArdle WL,Ho KM,Kumar A,Söderhäll C,Soriano-Tárraga C,Giralt-Steinhauer E,Kazmi N,Mason D,McRae AF,Corcoran DL,Sugden K,Kasela S,Cardona A,Day FR,Cugliari G,Viberti C,Guarrera S,Lerro M,Gupta R,Bollepalli S,Mandaviya P,Zeng Y,Clarke TK,Walker RM,Schmoll V,Czamara D,Ruiz-Arenas C,Rezwan FI,Marioni RE,Lin T,Awaloff Y,Germain M,Aïssi D,Zwamborn R,van Eijk K,Dekker A,van Dongen J,Hottenga JJ,Willemsen G,Xu CJ,Barturen G,Català-Moll F,Kerick M,Wang C,Melton P,Elliott HR,Shin J,Bernard M,Yet I,Smart M,Gorrie-Stone T,BIOS Consortium,Shaw C,Al Chalabi A,Ring SM,Pershagen G,Melén E,Jiménez-Conde J,Roquer J,Lawlor DA,Wright J,Martin NG,Montgomery GW,Moffitt TE,Poulton R,Esko T,Milani L,Metspalu A,Perry JRB,Ong KK,Wareham NJ,Matullo G,Sacerdote C,Panico S,Caspi A,Arseneault L,Gagnon F,Ollikainen M,Kaprio J,Felix JF,Rivadeneira F,Tiemeier H,van IJzendoorn MH,Uitterlinden AG,Jaddoe VWV,Haley C,McIntosh AM,Evans KL,Murray A,Räikkönen K,Lahti J,Nohr EA,Sørensen TIA,Hansen T,Morgen CS,Binder EB,Lucae S,Gonzalez JR,Bustamante M,Sunyer J,Holloway JW,Karmaus W,Zhang H,Deary IJ,Wray NR,Starr JM,Beekman M,van Heemst D,Slagboom PE,Morange PE,Trégouët DA,Veldink JH,Davies GE,de Geus EJC,Boomsma DI,Vonk JM,Brunekreef B,Koppelman GH,Alarcón-Riquelme ME,Huang RC,Pennell CE,van Meurs J,Ikram MA,Hughes AD,Tillin T,Chaturvedi N,Pausova Z,Paus T,Spector TD,Kumari M,Schalkwyk LC,Visscher PM,Davey Smith G,Bock C,Gaunt TR,Bell JT,Heijmans BT,Mill J,Relton CL",
+  "ABSTRACT": "Characterizing genetic influences on DNA methylation (DNAm) provides an opportunity to understand mechanisms underpinning gene regulation and disease. In the present study, we describe results of DNAm quantitative trait locus (mQTL) analyses on 32,851 participants, identifying genetic variants associated with DNAm at 420,509 DNAm sites in blood. We present a database of >270,000 independent mQTLs, of which 8.5% comprise long-range (trans) associations. Identified mQTL associations explain 15-17% of the additive genetic variance of DNAm. We show that the genetic architecture of DNAm levels is highly polygenic. Using shared genetic control between distal DNAm sites, we constructed networks, identifying 405 discrete genomic communities enriched for genomic annotations and complex traits. Shared genetic variants are associated with both DNAm levels and complex diseases, but only in a minority of cases do these associations reflect causal relationships from DNAm to trait or vice versa, indicating a more complex genotype-phenotype map than previously anticipated.",
+  "DOI": "10.1038/s41588-021-00923-x",
+  "PMC ID": "PMC7612069",
+  "CITATION": "Min JL, Hemani G, Hannon E, Dekkers KF, ...&, Relton CL. (2021) Genomic and phenotypic insights from an atlas of genetic effects on DNA methylation. Nat Genet, 53 (9) 1311-1321. doi:10.1038/s41588-021-00923-x. PMID 34493871",
+  "FIRST_AUTHOR": "Min JL",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

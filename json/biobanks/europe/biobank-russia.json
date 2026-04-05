@@ -1,0 +1,18 @@
+{
+  "NAME": "Biobank Russia",
+  "SHORT NAME": "BBRU",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~4K",
+  "STUDY TYPE": "prospective ",
+  "MANUAL_CITATION": "Usoltsev, D., Kolosov, N., Rotar, O., Loboda, A., Boyarinova, M., Moguchaya, E., ... & Artomov, M. (2023). Understanding Complex Trait Susceptibilities and Ethnical Diversity in a Sample of 4,145 Russians Through Analysis of Clinical and Genetic Data. bioRxiv, 2023-03.",
+  "URL": "https://biobank.almazovcentre.ru/",
+  "DESCRIPTION": "BioBank Russia (BBRU) is a prospective biobank, managed by V. A. Almazov National Medical Research Center.",
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Russian adults (Almazov Centre biobank)",
+  "CITATION": "Usoltsev, D., Kolosov, N., Rotar, O., Loboda, A., Boyarinova, M., Moguchaya, E., ... & Artomov, M. (2023). Understanding Complex Trait Susceptibilities and Ethnical Diversity in a Sample of 4,145 Russians Through Analysis of Clinical and Genetic Data. bioRxiv, 2023-03.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  }
+}

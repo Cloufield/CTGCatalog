@@ -1,0 +1,29 @@
+{#-
+  Append front matter `class:` to the article so per-page CSS (e.g. catalog-section-*)
+  can scope variables. Stock Material hardcodes only md-content__inner md-typeset.
+
+  `theme.custom_dir` in mkdocs.yml is relative to the project root (where mkdocs.yml
+  lives), so templates live under docs/overrides/ and custom_dir is `docs/overrides`.
+-#}
+{% extends "base.html" %}
+
+{% block container %}
+  <div class="md-content" data-md-component="content">
+    {% if "navigation.path" in features %}
+      {% include "partials/path.html" %}
+    {% endif %}
+    {% set ns = namespace(art="md-content__inner md-typeset") %}
+    {% if page.meta and page.meta.class is defined and page.meta.class %}
+      {% if page.meta.class is string %}
+        {% set ns.art = ns.art ~ " " ~ page.meta.class %}
+      {% else %}
+        {% set ns.art = ns.art ~ " " ~ (page.meta.class | join(" ")) %}
+      {% endif %}
+    {% endif %}
+    <article class="{{ ns.art }}">
+      {% block content %}
+        {% include "partials/content.html" %}
+      {% endblock %}
+    </article>
+  </div>
+{% endblock %}

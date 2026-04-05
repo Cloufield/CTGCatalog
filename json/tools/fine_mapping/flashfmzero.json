@@ -1,0 +1,28 @@
+{
+  "NAME": "flashfmZero",
+  "PMID": 40220762,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "flashfmZero",
+  "FULL NAME": "flashfmZero",
+  "KEYWORDS": "latent factor, multi-trait, fine-mapping, GWAS summary statistics, high-dimensional traits",
+  "URL": "https://github.com/jennasimit/flashfmZero",
+  "DESCRIPTION": "flashfmZero performs zero-correlation latent-factor-based multi-trait fine-mapping from GWAS summary statistics for high-dimensional trait panels (e.g., blood cell counts). Latent-factor GWAS can surface signals below univariate thresholds; in INTERVAL blood-cell analyses, 99% credible sets were at least as small as univariate fine-mapping in most comparisons and were nested within univariate latent-factor credible sets.",
+  "TITLE": "Improved genetic discovery and fine-mapping resolution through multivariate latent factor analysis of high-dimensional traits.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2025",
+  "VOLUME": "5",
+  "ISSUE": "5",
+  "PAGE": "100847",
+  "Authors": "Zhou F,Astle WJ,Butterworth AS,Asimit JL",
+  "ABSTRACT": "Genome-wide association studies (GWASs) of high-dimensional traits, such as blood cell or metabolic traits, often use univariate approaches, ignoring trait relationships. Biological mechanisms generating variation in high-dimensional traits can be captured parsimoniously through a GWAS of latent factors. Here, we introduce flashfmZero, a zero-correlation latent-factor-based multi-trait fine-mapping approach. In an application to 25 latent factors derived from 99 blood cell traits in the INTERVAL cohort, we show that latent factor GWASs enable the detection of signals generating sub-threshold associations with several blood cell traits. The 99% credible sets (CS99) from flashfmZero were equal to or smaller in size than those from univariate fine-mapping of blood cell traits in 87% of our comparisons. In all cases univariate latent factor CS99 contained those from flashfmZero. Our latent factor approaches can be applied to GWAS summary statistics and will enhance power for the discovery and fine-mapping of associations for many traits.",
+  "DOI": "10.1016/j.xgen.2025.100847",
+  "PMC ID": "PMC12143322",
+  "CITATION": "Zhou F, Astle WJ, Butterworth AS, Asimit JL. (2025) Improved genetic discovery and fine-mapping resolution through multivariate latent factor analysis of high-dimensional traits. Cell Genom, 5 (5) 100847. doi:10.1016/j.xgen.2025.100847. PMID 40220762",
+  "FIRST_AUTHOR": "Zhou F",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

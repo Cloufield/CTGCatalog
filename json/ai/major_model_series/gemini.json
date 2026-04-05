@@ -1,0 +1,13 @@
+{
+  "NAME": "Gemini",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Google",
+  "URL": "https://gemini.google.com",
+  "DESCRIPTION": "Google DeepMind’s Gemini model family for chat, search, code, and multimodal tasks across consumer and Vertex / AI Studio APIs.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

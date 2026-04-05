@@ -1,0 +1,18 @@
+{
+  "NAME": "Nature reviews. Methods primers",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Rev Methods Primers",
+  "JOURNAL": "Nature reviews. Methods primers",
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/?term=Nat%20Rev%20Methods%20Primers%5Bjour%5D",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Reviews&Tutorials"
+  ]
+}

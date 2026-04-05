@@ -1,0 +1,16 @@
+{
+  "NAME": "Michigan Genomics Initiative",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~55k",
+  "MANUAL_CITATION": "Zawistowski, M., Fritsche, L. G., Pandit, A., Vanderwerff, B., Patil, S., Scmidt, E. M., ... & Zoellner, S. (2021). The Michigan Genomics Initiative: a biobank linking genotypes and electronic clinical records in Michigan Medicine patients. medRxiv.",
+  "URL": "https://pmbb.med.upenn.edu/",
+  "DESCRIPTION": "The Michigan Genomics Initiative (MGI) is a collaborative research effort among physicians, researchers, and patients at the University of Michigan (U-M) with the goal of combining patient electronic health record (EHR) data with corresponding genetic data to gain novel biomedical insights. There are currently ~84K consented participants through the MGI and partner studies and the addition of ~10K new participants per year is anticipated. Currently, all MGI participants with available genetic data have received care at the University of Michigan Health System. ",
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "Michigan Medicine patients",
+  "CITATION": "Zawistowski, M., Fritsche, L. G., Pandit, A., Vanderwerff, B., Patil, S., Scmidt, E. M., ... & Zoellner, S. (2021). The Michigan Genomics Initiative: a biobank linking genotypes and electronic clinical records in Michigan Medicine patients. medRxiv.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  }
+}

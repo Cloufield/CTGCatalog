@@ -1,0 +1,30 @@
+{
+  "NAME": "PRS-CSx",
+  "PMID": 35513724,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRS-CSx",
+  "FULL NAME": "PRS-CSx",
+  "KEYWORDS": "continuous shrinkage (CS) prior,  cross-population",
+  "URL": "https://github.com/getian107/PRScsx",
+  "DESCRIPTION": "PRS-CSx is a Python based command line tool that integrates GWAS summary statistics and external LD reference panels from multiple populations to improve cross-population polygenic prediction. Posterior SNP effect sizes are inferred under coupled continuous shrinkage (CS) priors across populations.",
+  "MANUAL_CITATION": "Ruan, Y., Lin, YF., Feng, YC.A. et al. Improving polygenic prediction in ancestrally diverse populations. Nat Genet 54, 573–580 (2022). https://doi.org/10.1038/s41588-022-01054-7",
+  "TITLE": "Improving polygenic prediction in ancestrally diverse populations.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "5",
+  "PAGE": "573-580",
+  "Authors": "Ruan Y,Lin YF,Feng YA,Chen CY,Lam M,Guo Z,Stanley Global Asia Initiatives,He L,Sawa A,Martin AR,Qin S,Huang H,Ge T",
+  "ABSTRACT": "Polygenic risk scores (PRS) have attenuated cross-population predictive performance. As existing genome-wide association studies (GWAS) have been conducted predominantly in individuals of European descent, the limited transferability of PRS reduces their clinical value in non-European populations, and may exacerbate healthcare disparities. Recent efforts to level ancestry imbalance in genomic research have expanded the scale of non-European GWAS, although most remain underpowered. Here, we present a new PRS construction method, PRS-CSx, which improves cross-population polygenic prediction by integrating GWAS summary statistics from multiple populations. PRS-CSx couples genetic effects across populations via a shared continuous shrinkage (CS) prior, enabling more accurate effect size estimation by sharing information between summary statistics and leveraging linkage disequilibrium diversity across discovery samples, while inheriting computational efficiency and robustness from PRS-CS. We show that PRS-CSx outperforms alternative methods across traits with a wide range of genetic architectures, cross-population genetic overlaps and discovery GWAS sample sizes in simulations, and improves the prediction of quantitative traits and schizophrenia risk in non-European populations.",
+  "DOI": "10.1038/s41588-022-01054-7",
+  "PMC ID": "PMC9117455",
+  "CITATION": "Ruan Y, Lin YF, Feng YA, Chen CY, ...&, Ge T. (2022) Improving polygenic prediction in ancestrally diverse populations. Nat Genet, 54 (5) 573-580. doi:10.1038/s41588-022-01054-7. PMID 35513724",
+  "FIRST_AUTHOR": "Ruan Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

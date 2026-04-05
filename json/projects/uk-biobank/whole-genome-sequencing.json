@@ -1,0 +1,13 @@
+{
+  "NAME": "Whole-genome sequencing",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "STAGE_ORDER": 4,
+  "STAGE_PERIOD": "phased release",
+  "TAGS": ["UK Biobank", "WGS"],
+  "DESCRIPTION": "WGS on a large fraction of participants supports CNV analysis, short-variant refinement, and single-sample graph workflows; companion GWAS products (e.g. Pan-UKB) extend array-based analyses across ancestries.",
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

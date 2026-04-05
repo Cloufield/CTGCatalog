@@ -1,0 +1,30 @@
+{
+  "NAME": "SBayesRC",
+  "PMID": 38689000,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Polygenicity",
+  "TYPE": "Tools",
+  "SHORT NAME": "SBayesRC",
+  "FULL NAME": "SBayesRC",
+  "KEYWORDS": "functional genomic annotation, whole-genome variants,  cross-ancestry",
+  "URL": "https://cnsgenomics.com/software/gctb/#Overview",
+  "DESCRIPTION": "SBayesRC integrates GWAS summary statistics with functional genomic annotations to improve polygenic prediction of complex traits.",
+  "MANUAL_CITATION": "Zheng, Z., Liu, S., Sidorenko, J., Yengo, L., Turley, P., Ani, A., ... & Zeng, J. (2022). Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. bioRxiv, 2022-10.\nZheng, Z., Liu, S., Sidorenko, J. et al. Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. Nat Genet (2024). https://doi.org/10.1038/s41588-024-01704-y",
+  "TITLE": "Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "5",
+  "PAGE": "767-777",
+  "Authors": "Zheng Z,Liu S,Sidorenko J,Wang Y,Lin T,Yengo L,Turley P,Ani A,Wang R,Nolte IM,Snieder H,LifeLines Cohort Study,Yang J,Wray NR,Goddard ME,Visscher PM,Zeng J",
+  "ABSTRACT": "We develop a method, SBayesRC, that integrates genome-wide association study (GWAS) summary statistics with functional genomic annotations to improve polygenic prediction of complex traits. Our method is scalable to whole-genome variant analysis and refines signals from functional annotations by allowing them to affect both causal variant probability and causal effect distribution. We analyze 50 complex traits and diseases using ∼7 million common single-nucleotide polymorphisms (SNPs) and 96 annotations. SBayesRC improves prediction accuracy by 14% in European ancestry and up to 34% in cross-ancestry prediction compared to the baseline method SBayesR, which does not use annotations, and outperforms other methods, including LDpred2, LDpred-funct, MegaPRS, PolyPred-S and PRS-CSx. Investigation of factors affecting prediction accuracy identifies a significant interaction between SNP density and annotation information, suggesting whole-genome sequence variants with annotations may further improve prediction. Functional partitioning analysis highlights a major contribution of evolutionary constrained regions to prediction accuracy and the largest per-SNP contribution from nonsynonymous SNPs.",
+  "DOI": "10.1038/s41588-024-01704-y",
+  "PMC ID": "PMC11096109",
+  "CITATION": "Zheng Z, Liu S, Sidorenko J, Wang Y, ...&, Zeng J. (2024) Leveraging functional genomic annotations and genome coverage to improve polygenic prediction of complex traits within and between ancestries. Nat Genet, 56 (5) 767-777. doi:10.1038/s41588-024-01704-y. PMID 38689000",
+  "FIRST_AUTHOR": "Zheng Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

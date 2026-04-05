@@ -1,0 +1,19 @@
+{
+  "NAME": "hg38",
+  "SHORT NAME": "hg38",
+  "FULL NAME": "UCSC hg38 (GRCh38) reference bundle",
+  "CATEGORY": "Genome",
+  "SOURCE": "UCSC",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh38; UCSC; reference genome; FASTA; primary assembly",
+  "DESCRIPTION": "UCSC Genome Browser distribution of the human reference aligned to GRCh38 (primary assembly plus standard patches and decoys as packaged in the browser bigZips downloads). Chromosome names use the chr1-chrM convention; coordinates match the corresponding GRC assembly for the same patch level when sequences are identical.",
+  "MANUAL_CITATION": "UCSC Genome Browser. hg38 downloads.",
+  "CITATION": "UCSC Genome Browser. Human reference assembly hg38 (GRCh38-aligned). https://hgdownload.soe.ucsc.edu/goldenPath/hg38/",
+  "URL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

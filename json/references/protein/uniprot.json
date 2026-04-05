@@ -1,0 +1,27 @@
+{
+  "NAME": "UniProt",
+  "PMID": 39552041,
+  "LAST_CHECK": 2025,
+  "SECTION": "References",
+  "TOPIC": "Protein",
+  "CATEGORY": "Proetin",
+  "MANUAL_CITATION": "UniProt Consortium. UniProt: The universal protein knowledgebase in 2025. Nucleic Acids Res. 53, D609–D617 (2024).\n  ",
+  "URL": "https://www.uniprot.org/",
+  "DESCRIPTION": "The Universal Protein Resource (UniProt) is a comprehensive resource for protein sequence and annotation data. The UniProt databases are the UniProt Knowledgebase (UniProtKB), the UniProt Reference Clusters (UniRef), and the UniProt Archive (UniParc). The UniProt consortium and host institutions EMBL-EBI, SIB and PIR are committed to the long-term preservation of the UniProt databases.",
+  "TITLE": "UniProt: the Universal Protein Knowledgebase in 2025.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2025",
+  "VOLUME": "53",
+  "ISSUE": "D1",
+  "PAGE": "D609-D617",
+  "Authors": "UniProt Consortium",
+  "ABSTRACT": "The aim of the UniProt Knowledgebase (UniProtKB; https://www.uniprot.org/) is to provide users with a comprehensive, high-quality and freely accessible set of protein sequences annotated with functional information. In this publication, we describe ongoing changes to our production pipeline to limit the sequences available in UniProtKB to high-quality, non-redundant reference proteomes. We continue to manually curate the scientific literature to add the latest functional data and use machine learning techniques. We also encourage community curation to ensure key publications are not missed. We provide an update on the automatic annotation methods used by UniProtKB to predict information for unreviewed entries describing unstudied proteins. Finally, updates to the UniProt website are described, including a new tab linking protein to genomic information. In recognition of its value to the scientific community, the UniProt database has been awarded Global Core Biodata Resource status.",
+  "DOI": "10.1093/nar/gkae1010",
+  "PMC ID": "PMC11701636",
+  "CITATION": "UniProt Consortium. (2025) UniProt: the Universal Protein Knowledgebase in 2025. Nucleic Acids Res, 53 (D1) D609-D617. doi:10.1093/nar/gkae1010. PMID 39552041",
+  "FIRST_AUTHOR": "UniProt Consortium",
+  "_meta": {
+    "source_sheet": "Protein"
+  }
+}

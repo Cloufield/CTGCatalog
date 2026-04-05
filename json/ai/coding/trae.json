@@ -1,0 +1,13 @@
+{
+  "NAME": "Trae",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "IDE",
+  "COMPANY": "ByteDance",
+  "URL": "https://www.trae.ai",
+  "DESCRIPTION": "AI-native IDE (ByteDance) with builder mode, multi-model chat, and agent workflows for full-stack development.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

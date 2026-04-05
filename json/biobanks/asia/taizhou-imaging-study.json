@@ -1,0 +1,16 @@
+{
+  "NAME": "Taizhou Imaging Study",
+  "SHORT NAME": "TIS",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~1K",
+  "MANUAL_CITATION": "Jiang, Y., Cui, M., Tian, W., Zhu, S., Chen, J., Suo, C., ... & Taizhou Imaging Study Group. (2021). Lifestyle, multi‐omics features, and preclinical dementia among Chinese: the Taizhou Imaging Study. Alzheimer's & Dementia, 17(1), 18-28.",
+  "DESCRIPTION": "Prospective Chinese cohort (Taizhou) combining lifestyle factors with multi-omics and brain imaging to study aging and preclinical dementia.",
+  "URL": "https://www.fdtzihs.org.cn/dljs",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Han Chinese adults (Taizhou imaging cohort)"
+}

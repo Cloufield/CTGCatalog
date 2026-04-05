@@ -1,0 +1,33 @@
+{
+  "NAME": "Warrier V",
+  "ADD_SUFFIX": 1,
+  "PMID": 37592024,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "T1, T2-FLAIR-weighted, and diffusion MRI: 13 global and 2,334 regional cortical brain phenotypes (cortical thickness, surface area, gray matter volume, measures of folding, neurite density and water diffusion)",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "UKB, ABCD",
+  "SAMPLE_SIZE": " 36,663",
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Warrier, V. et al. Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes. Nat. Genet. 55, 1483–1493 (2023).",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "9",
+  "PAGE": "1483-1493",
+  "Authors": "Warrier V,Stauffer EM,Huang QQ,Wigdor EM,Slob EAW,Seidlitz J,Ronan L,Valk SL,Mallard TT,Grotzinger AD,Romero-Garcia R,Baron-Cohen S,Geschwind DH,Lancaster MA,Murray GK,Gandal MJ,Alexander-Bloch A,Won H,Martin HC,Bullmore ET,Bethlehem RAI",
+  "ABSTRACT": "Our understanding of the genetics of the human cerebral cortex is limited both in terms of the diversity and the anatomical granularity of brain structural phenotypes. Here we conducted a genome-wide association meta-analysis of 13 structural and diffusion magnetic resonance imaging-derived cortical phenotypes, measured globally and at 180 bilaterally averaged regions in 36,663 individuals and identified 4,349 experiment-wide significant loci. These phenotypes include cortical thickness, surface area, gray matter volume, measures of folding, neurite density and water diffusion. We identified four genetic latent structures and causal relationships between surface area and some measures of cortical folding. These latent structures partly relate to different underlying gene expression trajectories during development and are enriched for different cell types. We also identified differential enrichment for neurodevelopmental and constrained genes and demonstrate that common genetic variants associated with cortical expansion are associated with cephalic disorders. Finally, we identified complex interphenotype and inter-regional genetic relationships among the 13 phenotypes, reflecting the developmental differences among them. Together, these analyses identify distinct genetic organizational principles of the cortex and their correlates with neurodevelopment.",
+  "DOI": "10.1038/s41588-023-01475-y",
+  "PMC ID": "PMC10600728",
+  "CITATION": "Warrier V, Stauffer EM, Huang QQ, Wigdor EM, ...&, Bethlehem RAI. (2023) Genetic insights into human cortical organization and development through genome-wide analyses of 2,347 neuroimaging phenotypes. Nat Genet, 55 (9) 1483-1493. doi:10.1038/s41588-023-01475-y. PMID 37592024",
+  "FIRST_AUTHOR": "Warrier V",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

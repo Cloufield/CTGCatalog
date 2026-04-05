@@ -1,0 +1,13 @@
+{
+  "NAME": "GLM",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Zhipu AI",
+  "URL": "https://chatglm.cn",
+  "DESCRIPTION": "Zhipu AI’s ChatGLM / GLM family of bilingual LLMs and coding assistants, with open and commercial variants.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

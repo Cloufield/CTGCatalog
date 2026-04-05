@@ -1,0 +1,29 @@
+{
+  "NAME": "Multi-PGS",
+  "PMID": 37543680,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "Multi-PGS",
+  "FULL NAME": "Multi-PGS",
+  "URL": "https://github.com/ClaraAlbi/paper_multiPGS",
+  "DESCRIPTION": "a framework to generate enriched PGS from a wealth of publicly available genome-wide association studies, combining thousands of studies focused on many different phenotypes, into a multi-PGS",
+  "MANUAL_CITATION": "Albiñana, C., Zhu, Z., Schork, A. J., Ingason, A., Aschard, H., Brikell, I., ... & Vilhjálmsson, B. J. (2023). Multi-PGS enhances polygenic prediction by combining 937 polygenic scores. Nature Communications, 14(1), 4702.",
+  "TITLE": "Multi-PGS enhances polygenic prediction by combining 937 polygenic scores.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "4702",
+  "Authors": "Albiñana C,Zhu Z,Schork AJ,Ingason A,Aschard H,Brikell I,Bulik CM,Petersen LV,Agerbo E,Grove J,Nordentoft M,Hougaard DM,Werge T,Børglum AD,Mortensen PB,McGrath JJ,Neale BM,Privé F,Vilhjálmsson BJ",
+  "ABSTRACT": "The predictive performance of polygenic scores (PGS) is largely dependent on the number of samples available to train the PGS. Increasing the sample size for a specific phenotype is expensive and takes time, but this sample size can be effectively increased by using genetically correlated phenotypes. We propose a framework to generate multi-PGS from thousands of publicly available genome-wide association studies (GWAS) with no need to individually select the most relevant ones. In this study, the multi-PGS framework increases prediction accuracy over single PGS for all included psychiatric disorders and other available outcomes, with prediction R2 increases of up to 9-fold for attention-deficit/hyperactivity disorder compared to a single PGS. We also generate multi-PGS for phenotypes without an existing GWAS and for case-case predictions. We benchmark the multi-PGS framework against other methods and highlight its potential application to new emerging biobanks.",
+  "DOI": "10.1038/s41467-023-40330-w",
+  "PMC ID": "PMC10404269",
+  "CITATION": "Albiñana C, Zhu Z, Schork AJ, Ingason A, ...&, Vilhjálmsson BJ. (2023) Multi-PGS enhances polygenic prediction by combining 937 polygenic scores. Nat Commun, 14 (1) 4702. doi:10.1038/s41467-023-40330-w. PMID 37543680",
+  "FIRST_AUTHOR": "Albiñana C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "NAME": "European journal of human genetics : EJHG",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Eur J Hum Genet",
+  "JOURNAL": "European journal of human genetics : EJHG",
+  "URL": "http://www.nature.com/ejhg/",
+  "ENTRY_COUNT": 3,
+  "CITED_BY_SECTION": {
+    "Tools": 2,
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Karkar S",
+    "LCP-GWAS",
+    "PRS_to_Abs"
+  ]
+}

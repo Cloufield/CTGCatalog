@@ -1,0 +1,29 @@
+{
+  "NAME": "Xu",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 36797296,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "MS",
+  "TYPE": "mass spectrometry",
+  "URL": "https://omics.lab.westlake.edu.cn/data/proteins/phenotypes https://omics.lab.westlake.edu.cn/collect.html",
+  "MANUAL_CITATION": "Xu, F. et al. Genome-wide genotype-serum proteome mapping provides insights into the cross-ancestry differences in cardiometabolic disease susceptibility. Nat. Commun. 14, 896 (2023).\n  ",
+  "TITLE": "Genome-wide genotype-serum proteome mapping provides insights into the cross-ancestry differences in cardiometabolic disease susceptibility.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "896",
+  "Authors": "Xu F,Yu EY,Cai X,Yue L,Jing LP,Liang X,Fu Y,Miao Z,Yang M,Shuai M,Gou W,Xiao C,Xue Z,Xie Y,Li S,Lu S,Shi M,Wang X,Hu W,Langenberg C,Yang J,Chen YM,Guo T,Zheng JS",
+  "ABSTRACT": "Identification of protein quantitative trait loci (pQTL) helps understand the underlying mechanisms of diseases and discover promising targets for pharmacological intervention. For most important class of drug targets, genetic evidence needs to be generalizable to diverse populations. Given that the majority of the previous studies were conducted in European ancestry populations, little is known about the protein-associated genetic variants in East Asians. Based on data-independent acquisition mass spectrometry technique, we conduct genome-wide association analyses for 304 unique proteins in 2,958 Han Chinese participants. We identify 195 genetic variant-protein associations. Colocalization and Mendelian randomization analyses highlight 60 gene-protein-phenotype associations, 45 of which (75%) have not been prioritized in Europeans previously. Further cross-ancestry analyses uncover key proteins that contributed to the differences in the obesity-induced diabetes and coronary artery disease susceptibility. These findings provide novel druggable proteins as well as a unique resource for the trans-ancestry evaluation of protein-targeted drug discovery.",
+  "DOI": "10.1038/s41467-023-36491-3",
+  "PMC ID": "PMC9935862",
+  "CITATION": "Xu F, Yu EY, Cai X, Yue L, ...&, Zheng JS. (2023) Genome-wide genotype-serum proteome mapping provides insights into the cross-ancestry differences in cardiometabolic disease susceptibility. Nat Commun, 14 (1) 896. doi:10.1038/s41467-023-36491-3. PMID 36797296",
+  "FIRST_AUTHOR": "Xu F",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

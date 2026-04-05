@@ -1,0 +1,29 @@
+{
+  "NAME": "SBayesR",
+  "PMID": 31704910,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Polygenicity",
+  "TYPE": "Tools",
+  "SHORT NAME": "SBayesR",
+  "FULL NAME": "SBayesR",
+  "URL": "https://cnsgenomics.com/software/gctb/#Overview",
+  "DESCRIPTION": "extend a powerful individual-level data Bayesian multiple regression model (BayesR) to one that utilises summary statistics from genome-wide association studies, SBayesR.",
+  "MANUAL_CITATION": "Lloyd-Jones, L. R., Zeng, J., Sidorenko, J., Yengo, L., Moser, G., Kemper, K. E., ... & Visscher, P. M. (2019). Improved polygenic prediction by Bayesian multiple regression on summary statistics. Nature communications, 10(1), 1-11.",
+  "TITLE": "Improved polygenic prediction by Bayesian multiple regression on summary statistics.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2019",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "5086",
+  "Authors": "Lloyd-Jones LR,Zeng J,Sidorenko J,Yengo L,Moser G,Kemper KE,Wang H,Zheng Z,Magi R,Esko T,Metspalu A,Wray NR,Goddard ME,Yang J,Visscher PM",
+  "ABSTRACT": "Accurate prediction of an individual's phenotype from their DNA sequence is one of the great promises of genomics and precision medicine. We extend a powerful individual-level data Bayesian multiple regression model (BayesR) to one that utilises summary statistics from genome-wide association studies (GWAS), SBayesR. In simulation and cross-validation using 12 real traits and 1.1 million variants on 350,000 individuals from the UK Biobank, SBayesR improves prediction accuracy relative to commonly used state-of-the-art summary statistics methods at a fraction of the computational resources. Furthermore, using summary statistics for variants from the largest GWAS meta-analysis (n ≈ 700, 000) on height and BMI, we show that on average across traits and two independent data sets that SBayesR improves prediction R2 by 5.2% relative to LDpred and by 26.5% relative to clumping and p value thresholding.",
+  "DOI": "10.1038/s41467-019-12653-0",
+  "PMC ID": "PMC6841727",
+  "CITATION": "Lloyd-Jones LR, Zeng J, Sidorenko J, Yengo L, ...&, Visscher PM. (2019) Improved polygenic prediction by Bayesian multiple regression on summary statistics. Nat Commun, 10 (1) 5086. doi:10.1038/s41467-019-12653-0. PMID 31704910",
+  "FIRST_AUTHOR": "Lloyd-Jones LR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

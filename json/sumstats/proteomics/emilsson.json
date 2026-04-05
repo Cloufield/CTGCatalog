@@ -1,0 +1,27 @@
+{
+  "NAME": "Emilsson",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 30072576,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Co-regulatory networks of human serum proteins link genetics to disease.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2018",
+  "VOLUME": "361",
+  "ISSUE": "6404",
+  "PAGE": "769-773",
+  "Authors": "Emilsson V,Ilkov M,Lamb JR,Finkel N,Gudmundsson EF,Pitts R,Hoover H,Gudmundsdottir V,Horman SR,Aspelund T,Shu L,Trifonov V,Sigurdsson S,Manolescu A,Zhu J,Olafsson Ö,Jakobsdottir J,Lesley SA,To J,Zhang J,Harris TB,Launer LJ,Zhang B,Eiriksdottir G,Yang X,Orth AP,Jennings LL,Gudnason V",
+  "ABSTRACT": "Proteins circulating in the blood are critical for age-related disease processes; however, the serum proteome has remained largely unexplored. To this end, 4137 proteins covering most predicted extracellular proteins were measured in the serum of 5457 Icelanders over 65 years of age. Pairwise correlation between proteins as they varied across individuals revealed 27 different network modules of serum proteins, many of which were associated with cardiovascular and metabolic disease states, as well as overall survival. The protein modules were controlled by cis- and trans-acting genetic variants, which in many cases were also associated with complex disease. This revealed co-regulated groups of circulating proteins that incorporated regulatory control between tissues and demonstrated close relationships to past, current, and future disease states.",
+  "DOI": "10.1126/science.aaq1327",
+  "PMC ID": "PMC6190714",
+  "CITATION": "Emilsson V, Ilkov M, Lamb JR, Finkel N, ...&, Gudnason V. (2018) Co-regulatory networks of human serum proteins link genetics to disease. Science, 361 (6404) 769-773. doi:10.1126/science.aaq1327. PMID 30072576",
+  "FIRST_AUTHOR": "Emilsson V",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

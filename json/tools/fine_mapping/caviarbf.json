@@ -1,0 +1,29 @@
+{
+  "NAME": "CAVIARBF",
+  "PMID": 25948564,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "CAVIARBF",
+  "FULL NAME": "CAVIAR Bayes factor",
+  "KEYWORDS": "Bayes factor",
+  "URL": "https://bitbucket.org/Wenan/caviarbf/src/master/",
+  "DESCRIPTION": "a fine-mapping method using marginal test statistics in the Bayesian framework",
+  "MANUAL_CITATION": "Chen, W., Larrabee, B. R., Ovsyannikova, I. G., Kennedy, R. B., Haralambieva, I. H., Poland, G. A., & Schaid, D. J. (2015). Fine mapping causal variants with an approximate Bayesian method using marginal test statistics. Genetics, 200(3), 719-736.",
+  "TITLE": "Fine Mapping Causal Variants with an Approximate Bayesian Method Using Marginal Test Statistics.",
+  "ISO": "Genetics",
+  "JOURNAL": "Genetics",
+  "YEAR": "2015",
+  "VOLUME": "200",
+  "ISSUE": "3",
+  "PAGE": "719-36",
+  "Authors": "Chen W,Larrabee BR,Ovsyannikova IG,Kennedy RB,Haralambieva IH,Poland GA,Schaid DJ",
+  "ABSTRACT": "Two recently developed fine-mapping methods, CAVIAR and PAINTOR, demonstrate better performance over other fine-mapping methods. They also have the advantage of using only the marginal test statistics and the correlation among SNPs. Both methods leverage the fact that the marginal test statistics asymptotically follow a multivariate normal distribution and are likelihood based. However, their relationship with Bayesian fine mapping, such as BIMBAM, is not clear. In this study, we first show that CAVIAR and BIMBAM are actually approximately equivalent to each other. This leads to a fine-mapping method using marginal test statistics in the Bayesian framework, which we call CAVIAR Bayes factor (CAVIARBF). Another advantage of the Bayesian framework is that it can answer both association and fine-mapping questions. We also used simulations to compare CAVIARBF with other methods under different numbers of causal variants. The results showed that both CAVIARBF and BIMBAM have better performance than PAINTOR and other methods. Compared to BIMBAM, CAVIARBF has the advantage of using only marginal test statistics and takes about one-quarter to one-fifth of the running time. We applied different methods on two independent cohorts of the same phenotype. Results showed that CAVIARBF, BIMBAM, and PAINTOR selected the same top 3 SNPs; however, CAVIARBF and BIMBAM had better consistency in selecting the top 10 ranked SNPs between the two cohorts. Software is available at https://bitbucket.org/Wenan/caviarbf.",
+  "DOI": "10.1534/genetics.115.176107",
+  "PMC ID": "PMC4512539",
+  "CITATION": "Chen W, Larrabee BR, Ovsyannikova IG, Kennedy RB, ...&, Schaid DJ. (2015) Fine Mapping Causal Variants with an Approximate Bayesian Method Using Marginal Test Statistics. Genetics, 200 (3) 719-36. doi:10.1534/genetics.115.176107. PMID 25948564",
+  "FIRST_AUTHOR": "Chen W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "Fu",
+  "PMID": 41386230,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "MANUAL_YEAR": 2025,
+  "MANUAL_CITATION": "\nFu, Y. et al. Single-cell eQTL mapping reveals cell-type-specific genetic regulation in lung cancer. Cell Genom. 101100 (2025).\n  \n",
+  "TITLE": "Single-cell eQTL mapping reveals cell-type-specific genetic regulation in lung cancer.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2026",
+  "VOLUME": "6",
+  "ISSUE": "3",
+  "PAGE": "101100",
+  "Authors": "Fu Y,Wang Y,Jin C,Zhang C,Cai J,Gong L,Jin C,Ji C,Mou Y,Zhang C,Wu S,Ge X,Dai Y,Miao S,Ma H,Ma X,Wang M,Bian L,Zhang E,Dai J,Hu Z,Jin G,Zhu M,Shen H,Ma H",
+  "ABSTRACT": "Genome-wide association studies (GWASs) have identified over 50 lung cancer risk loci; however, the precise cellular context of these genetic mechanisms remains unclear due to limitations in bulk tissue expression quantitative trait locus (eQTL) analyses. Here, we present the largest single-cell eQTL (sc-eQTL) atlas of human lung tissue to date, profiling 222 donors using multiplexed single-cell RNA sequencing (scRNA-seq). We identified 4,341 independent eQTLs across 17 cell types, with over 60% of sc-eQTLs and 51% of eGenes being cell-type specific, and fewer than 52% were detectable in paired bulk datasets. Integration with GWASs for non-small cell lung cancer highlighted epithelial and immune cells as key contributors to genetic susceptibility, identifying 28 candidate genes within known risk loci and 24 in novel regions. Notably, 47% of established non-small cell lung cancer (NSCLC) susceptibility loci exhibited cell-type-specific pleiotropic genetic regulation. This study provides a valuable resource of lung sc-eQTLs and illuminates how genetic variation modulates gene expression in a cell-type-specific fashion, contributing to lung cancer susceptibility.",
+  "DOI": "10.1016/j.xgen.2025.101100",
+  "PMC ID": "PMC12985386",
+  "CITATION": "Fu Y, Wang Y, Jin C, Zhang C, ...&, Ma H. (2026) Single-cell eQTL mapping reveals cell-type-specific genetic regulation in lung cancer. Cell Genom, 6 (3) 101100. doi:10.1016/j.xgen.2025.101100. PMID 41386230",
+  "FIRST_AUTHOR": "Fu Y",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

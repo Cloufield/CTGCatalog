@@ -1,0 +1,28 @@
+{
+  "NAME": "GWAS catalog",
+  "PMID": 36350656,
+  "URL": "https://www.ebi.ac.uk/gwas/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Platform",
+  "TYPE": "Platform",
+  "MANUAL_CITATION": "Sollis, E., Mosaku, A., Abid, A., Buniello, A., Cerezo, M., Gil, L., ... & Harris, L. W. (2023). The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource. Nucleic acids research, 51(D1), D977-D985.",
+  "TITLE": "The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2023",
+  "VOLUME": "51",
+  "ISSUE": "D1",
+  "PAGE": "D977-D985",
+  "Authors": "Sollis E,Mosaku A,Abid A,Buniello A,Cerezo M,Gil L,Groza T,Güneş O,Hall P,Hayhurst J,Ibrahim A,Ji Y,John S,Lewis E,MacArthur JAL,McMahon A,Osumi-Sutherland D,Panoutsopoulou K,Pendlington Z,Ramachandran S,Stefancsik R,Stewart J,Whetzel P,Wilson R,Hindorff L,Cunningham F,Lambert SA,Inouye M,Parkinson H,Harris LW",
+  "ABSTRACT": "The NHGRI-EBI GWAS Catalog (www.ebi.ac.uk/gwas) is a FAIR knowledgebase providing detailed, structured, standardised and interoperable genome-wide association study (GWAS) data to >200 000 users per year from academic research, healthcare and industry. The Catalog contains variant-trait associations and supporting metadata for >45 000 published GWAS across >5000 human traits, and >40 000 full P-value summary statistics datasets. Content is curated from publications or acquired via author submission of prepublication summary statistics through a new submission portal and validation tool. GWAS data volume has vastly increased in recent years. We have updated our software to meet this scaling challenge and to enable rapid release of submitted summary statistics. The scope of the repository has expanded to include additional data types of high interest to the community, including sequencing-based GWAS, gene-based analyses and copy number variation analyses. Community outreach has increased the number of shared datasets from under-represented traits, e.g. cancer, and we continue to contribute to awareness of the lack of population diversity in GWAS. Interoperability of the Catalog has been enhanced through links to other resources including the Polygenic Score Catalog and the International Mouse Phenotyping Consortium, refinements to GWAS trait annotation, and the development of a standard format for GWAS data.",
+  "DOI": "10.1093/nar/gkac1010",
+  "PMC ID": "PMC9825413",
+  "CITATION": "Sollis E, Mosaku A, Abid A, Buniello A, ...&, Harris LW. (2023) The NHGRI-EBI GWAS Catalog: knowledgebase and deposition resource. Nucleic Acids Res, 51 (D1) D977-D985. doi:10.1093/nar/gkac1010. PMID 36350656",
+  "FIRST_AUTHOR": "Sollis E",
+  "DESCRIPTION": "NHGRI–EBI GWAS Catalog — curated SNP–trait associations and deposition hub for full summary statistics.",
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

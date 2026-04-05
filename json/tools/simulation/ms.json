@@ -1,0 +1,26 @@
+{
+  "NAME": "ms",
+  "PMID": 11847089,
+  "SECTION": "Tools",
+  "TOPIC": "Simulation",
+  "TYPE": "Tools",
+  "SHORT NAME": "ms",
+  "FULL NAME": "ms",
+  "MANUAL_CITATION": "Hudson, R. R. Generating samples under a Wright-Fisher neutral model of genetic variation. Bioinformatics 18, 337–338 (2002).\n  ",
+  "TITLE": "Generating samples under a Wright-Fisher neutral model of genetic variation.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2002",
+  "VOLUME": "18",
+  "ISSUE": "2",
+  "PAGE": "337-8",
+  "Authors": "Hudson RR",
+  "ABSTRACT": "A Monte Carlo computer program is available to generate samples drawn from a population evolving according to a Wright-Fisher neutral model. The program assumes an infinite-sites model of mutation, and allows recombination, gene conversion, symmetric migration among subpopulations, and a variety of demographic histories. The samples produced can be used to investigate the sampling properties of any sample statistic under these neutral models.",
+  "DOI": "10.1093/bioinformatics/18.2.337",
+  "PMC ID": "",
+  "CITATION": "Hudson RR. (2002) Generating samples under a Wright-Fisher neutral model of genetic variation. Bioinformatics, 18 (2) 337-8. doi:10.1093/bioinformatics/18.2.337. PMID 11847089",
+  "FIRST_AUTHOR": "Hudson RR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

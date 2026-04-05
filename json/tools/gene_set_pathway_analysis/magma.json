@@ -1,0 +1,28 @@
+{
+  "NAME": "MAGMA",
+  "PMID": 25885710,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_set_pathway_analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "MAGMA",
+  "FULL NAME": "Multi-marker Analysis of GenoMic Annotation",
+  "URL": "https://ctg.cncr.nl/software/magma",
+  "DESCRIPTION": "MAGMA is a tool for gene analysis and generalized gene-set analysis of GWAS data. It can be used to analyse both raw genotype data as well as summary SNP p-values from a previous GWAS or meta-analysis.",
+  "MANUAL_CITATION": "de Leeuw, C. A., Mooij, J. M., Heskes, T., & Posthuma, D. (2015). MAGMA: generalized gene-set analysis of GWAS data. PLoS computational biology, 11(4), e1004219.",
+  "TITLE": "MAGMA: generalized gene-set analysis of GWAS data.",
+  "ISO": "PLoS Comput Biol",
+  "JOURNAL": "PLoS computational biology",
+  "YEAR": "2015",
+  "VOLUME": "11",
+  "ISSUE": "4",
+  "PAGE": "e1004219",
+  "Authors": "de Leeuw CA,Mooij JM,Heskes T,Posthuma D",
+  "ABSTRACT": "By aggregating data for complex traits in a biologically meaningful way, gene and gene-set analysis constitute a valuable addition to single-marker analysis. However, although various methods for gene and gene-set analysis currently exist, they generally suffer from a number of issues. Statistical power for most methods is strongly affected by linkage disequilibrium between markers, multi-marker associations are often hard to detect, and the reliance on permutation to compute p-values tends to make the analysis computationally very expensive. To address these issues we have developed MAGMA, a novel tool for gene and gene-set analysis. The gene analysis is based on a multiple regression model, to provide better statistical performance. The gene-set analysis is built as a separate layer around the gene analysis for additional flexibility. This gene-set analysis also uses a regression structure to allow generalization to analysis of continuous properties of genes and simultaneous analysis of multiple gene sets and other gene properties. Simulations and an analysis of Crohn's Disease data are used to evaluate the performance of MAGMA and to compare it to a number of other gene and gene-set analysis tools. The results show that MAGMA has significantly more power than other tools for both the gene and the gene-set analysis, identifying more genes and gene sets associated with Crohn's Disease while maintaining a correct type 1 error rate. Moreover, the MAGMA analysis of the Crohn's Disease data was found to be considerably faster as well.",
+  "DOI": "10.1371/journal.pcbi.1004219",
+  "PMC ID": "PMC4401657",
+  "CITATION": "de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data. PLoS Comput Biol, 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710",
+  "FIRST_AUTHOR": "de Leeuw CA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

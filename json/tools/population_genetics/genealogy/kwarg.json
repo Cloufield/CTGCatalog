@@ -1,0 +1,26 @@
+{
+  "NAME": "KwARG ",
+  "PMID": 33970217,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Genealogy",
+  "TYPE": "Tools",
+  "SHORT NAME": "KwARG ",
+  "DESCRIPTION": "Ignatieva, A., Lyngsø, R. B., Jenkins, P. A. & Hein, J. KwARG: parsimonious reconstruction of ancestral recombination graphs with recurrent mutation. Bioinformatics 37, 3277–3284 (2021).",
+  "TITLE": "KwARG: parsimonious reconstruction of ancestral recombination graphs with recurrent mutation.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2021",
+  "VOLUME": "37",
+  "ISSUE": "19",
+  "PAGE": "3277-3284",
+  "Authors": "Ignatieva A,Lyngsø RB,Jenkins PA,Hein J",
+  "ABSTRACT": "MOTIVATION: The reconstruction of possible histories given a sample of genetic data in the presence of recombination and recurrent mutation is a challenging problem, but can provide key insights into the evolution of a population. We present KwARG, which implements a parsimony-based greedy heuristic algorithm for finding plausible genealogical histories (ancestral recombination graphs) that are minimal or near-minimal in the number of posited recombination and mutation events. RESULTS: Given an input dataset of aligned sequences, KwARG outputs a list of possible candidate solutions, each comprising a list of mutation and recombination events that could have generated the dataset; the relative proportion of recombinations and recurrent mutations in a solution can be controlled via specifying a set of 'cost' parameters. We demonstrate that the algorithm performs well when compared against existing methods. AVAILABILITY AND IMPLEMENTATION: The software is available at https://github.com/a-ignatieva/kwarg. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btab351",
+  "PMC ID": "PMC8504621",
+  "CITATION": "Ignatieva A, Lyngsø RB, Jenkins PA, Hein J. (2021) KwARG: parsimonious reconstruction of ancestral recombination graphs with recurrent mutation. Bioinformatics, 37 (19) 3277-3284. doi:10.1093/bioinformatics/btab351. PMID 33970217",
+  "FIRST_AUTHOR": "Ignatieva A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

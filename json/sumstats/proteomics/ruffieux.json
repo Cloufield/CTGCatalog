@@ -1,0 +1,27 @@
+{
+  "NAME": "Ruffieux",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 32492067,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "A fully joint Bayesian quantitative trait locus mapping of human protein abundance in plasma.",
+  "ISO": "PLoS Comput Biol",
+  "JOURNAL": "PLoS computational biology",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "6",
+  "PAGE": "e1007882",
+  "Authors": "Ruffieux H,Carayol J,Popescu R,Harper ME,Dent R,Saris WHM,Astrup A,Hager J,Davison AC,Valsesia A",
+  "ABSTRACT": "Molecular quantitative trait locus (QTL) analyses are increasingly popular to explore the genetic architecture of complex traits, but existing studies do not leverage shared regulatory patterns and suffer from a large multiplicity burden, which hampers the detection of weak signals such as trans associations. Here, we present a fully multivariate proteomic QTL (pQTL) analysis performed with our recently proposed Bayesian method LOCUS on data from two clinical cohorts, with plasma protein levels quantified by mass-spectrometry and aptamer-based assays. Our two-stage study identifies 136 pQTL associations in the first cohort, of which >80% replicate in the second independent cohort and have significant enrichment with functional genomic elements and disease risk loci. Moreover, 78% of the pQTLs whose protein abundance was quantified by both proteomic techniques are confirmed across assays. Our thorough comparisons with standard univariate QTL mapping on (1) these data and (2) synthetic data emulating the real data show how LOCUS borrows strength across correlated protein levels and markers on a genome-wide scale to effectively increase statistical power. Notably, 15% of the pQTLs uncovered by LOCUS would be missed by the univariate approach, including several trans and pleiotropic hits with successful independent validation. Finally, the analysis of extensive clinical data from the two cohorts indicates that the genetically-driven proteins identified by LOCUS are enriched in associations with low-grade inflammation, insulin resistance and dyslipidemia and might therefore act as endophenotypes for metabolic diseases. While considerations on the clinical role of the pQTLs are beyond the scope of our work, these findings generate useful hypotheses to be explored in future research; all results are accessible online from our searchable database. Thanks to its efficient variational Bayes implementation, LOCUS can analyze jointly thousands of traits and millions of markers. Its applicability goes beyond pQTL studies, opening new perspectives for large-scale genome-wide association and QTL analyses. Diet, Obesity and Genes (DiOGenes) trial registration number: NCT00390637.",
+  "DOI": "10.1371/journal.pcbi.1007882",
+  "PMC ID": "PMC7295243",
+  "CITATION": "Ruffieux H, Carayol J, Popescu R, Harper ME, ...&, Valsesia A. (2020) A fully joint Bayesian quantitative trait locus mapping of human protein abundance in plasma. PLoS Comput Biol, 16 (6) e1007882. doi:10.1371/journal.pcbi.1007882. PMID 32492067",
+  "FIRST_AUTHOR": "Ruffieux H",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

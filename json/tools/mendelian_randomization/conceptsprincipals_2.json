@@ -1,0 +1,25 @@
+{
+  "NAME": "Concepts&Principals",
+  "PMID": 26050253,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Concepts&Principals",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Bowden, J., Davey Smith, G., & Burgess, S. (2015). Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression. International journal of epidemiology, 44(2), 512-525.",
+  "TITLE": "Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression.",
+  "ISO": "Int J Epidemiol",
+  "JOURNAL": "International journal of epidemiology",
+  "YEAR": "2015",
+  "VOLUME": "44",
+  "ISSUE": "2",
+  "PAGE": "512-25",
+  "Authors": "Bowden J,Davey Smith G,Burgess S",
+  "ABSTRACT": "BACKGROUND: The number of Mendelian randomization analyses including large numbers of genetic variants is rapidly increasing. This is due to the proliferation of genome-wide association studies, and the desire to obtain more precise estimates of causal effects. However, some genetic variants may not be valid instrumental variables, in particular due to them having more than one proximal phenotypic correlate (pleiotropy). METHODS: We view Mendelian randomization with multiple instruments as a meta-analysis, and show that bias caused by pleiotropy can be regarded as analogous to small study bias. Causal estimates using each instrument can be displayed visually by a funnel plot to assess potential asymmetry. Egger regression, a tool to detect small study bias in meta-analysis, can be adapted to test for bias from pleiotropy, and the slope coefficient from Egger regression provides an estimate of the causal effect. Under the assumption that the association of each genetic variant with the exposure is independent of the pleiotropic effect of the variant (not via the exposure), Egger's test gives a valid test of the null causal hypothesis and a consistent causal effect estimate even when all the genetic variants are invalid instrumental variables. RESULTS: We illustrate the use of this approach by re-analysing two published Mendelian randomization studies of the causal effect of height on lung function, and the causal effect of blood pressure on coronary artery disease risk. The conservative nature of this approach is illustrated with these examples. CONCLUSIONS: An adaption of Egger regression (which we call MR-Egger) can detect some violations of the standard instrumental variable assumptions, and provide an effect estimate which is not subject to these violations. The approach provides a sensitivity analysis for the robustness of the findings from a Mendelian randomization investigation.",
+  "DOI": "10.1093/ije/dyv080",
+  "PMC ID": "PMC4469799",
+  "CITATION": "Bowden J, Davey Smith G, Burgess S. (2015) Mendelian randomization with invalid instruments: effect estimation and bias detection through Egger regression. Int J Epidemiol, 44 (2) 512-25. doi:10.1093/ije/dyv080. PMID 26050253",
+  "FIRST_AUTHOR": "Bowden J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "NAME": "TwinsUK",
+  "SHORT NAME": "TwinsUK",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~14k twins",
+  "DESCRIPTION": "UK adult twin registry with deep multi-omics and phenotyping; genotype and sequence data widely used in GWAS, heritability, and multi-trait genetic analyses.",
+  "MANUAL_CITATION": "Moayyeri, A., Hammond, C. J., Hart, D. J., Spector, T. D., & Oellinger, W. (2013). Cohort Profile: TwinsUK and healthy ageing twin study. International Journal of Epidemiology, 42(1), 76-85.",
+  "URL": "https://twinsuk.ac.uk/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "UK adult female twins"
+}

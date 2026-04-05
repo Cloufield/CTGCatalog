@@ -1,0 +1,18 @@
+{
+  "NAME": "Preventive medicine",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Prev Med",
+  "JOURNAL": "Preventive medicine",
+  "URL": "http://www.sciencedirect.com/science/journal/00917435",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Review"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "Haas ME",
+  "ADD_SUFFIX": 1,
+  "PMID": 34957434,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "Abdominal MRI: liver fat",
+  "PLATFORM": "Abdominal MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 36703,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Haas, M. E. et al. Machine learning enables new insights into genetic contributions to liver fat accumulation. Cell Genom. 1, 100066 (2021).",
+  "MANUAL_YEAR": 2021,
+  "TITLE": "Machine learning enables new insights into genetic contributions to liver fat accumulation.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2021",
+  "VOLUME": "1",
+  "ISSUE": "3",
+  "PAGE": "",
+  "Authors": "Haas ME,Pirruccello JP,Friedman SN,Wang M,Emdin CA,Ajmera VH,Simon TG,Homburger JR,Guo X,Budoff M,Corey KE,Zhou AY,Philippakis A,Ellinor PT,Loomba R,Batra P,Khera AV",
+  "ABSTRACT": "Excess liver fat, called hepatic steatosis, is a leading risk factor for end-stage liver disease and cardiometabolic diseases but often remains undiagnosed in clinical practice because of the need for direct imaging assessments. We developed an abdominal MRI-based machine-learning algorithm to accurately estimate liver fat (correlation coefficients, 0.97-0.99) from a truth dataset of 4,511 middle-aged UK Biobank participants, enabling quantification in 32,192 additional individuals. 17% of participants had predicted liver fat levels indicative of steatosis, and liver fat could not have been reliably estimated based on clinical factors such as BMI. A genome-wide association study of common genetic variants and liver fat replicated three known associations and identified five newly associated variants in or near the MTARC1, ADH1B, TRIB1, GPAM, and MAST3 genes (p < 3 × 10-8). A polygenic score integrating these eight genetic variants was strongly associated with future risk of chronic liver disease (hazard ratio > 1.32 per SD score, p < 9 × 10-17). Rare inactivating variants in the APOB or MTTP genes were identified in 0.8% of individuals with steatosis and conferred more than 6-fold risk (p < 2 × 10-5), highlighting a molecular subtype of hepatic steatosis characterized by defective secretion of apolipoprotein B-containing lipoproteins. We demonstrate that our imaging-based machine-learning model accurately estimates liver fat and may be useful in epidemiological and genetic studies of hepatic steatosis.",
+  "DOI": "10.1016/j.xgen.2021.100066",
+  "PMC ID": "PMC8699145",
+  "CITATION": "Haas ME, Pirruccello JP, Friedman SN, Wang M, ...&, Khera AV. (2021) Machine learning enables new insights into genetic contributions to liver fat accumulation. Cell Genom, 1 (3) . doi:10.1016/j.xgen.2021.100066. PMID 34957434",
+  "FIRST_AUTHOR": "Haas ME",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

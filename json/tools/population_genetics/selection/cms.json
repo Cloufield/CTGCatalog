@@ -1,0 +1,27 @@
+{
+  "NAME": "CMS",
+  "PMID": 20056855,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "CMS",
+  "FULL NAME": "Composite of multiple signals",
+  "DESCRIPTION": "Grossman, S. R., Shylakhter, I., Karlsson, E. K., Byrne, E. H., Morales, S., Frieden, G., ... & Sabeti, P. C. (2010). A composite of multiple signals distinguishes causal variants in regions of positive selection. Science, 327(5967), 883-886.",
+  "TITLE": "A composite of multiple signals distinguishes causal variants in regions of positive selection.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2010",
+  "VOLUME": "327",
+  "ISSUE": "5967",
+  "PAGE": "883-6",
+  "Authors": "Grossman SR,Shlyakhter I,Karlsson EK,Byrne EH,Morales S,Frieden G,Hostetter E,Angelino E,Garber M,Zuk O,Lander ES,Schaffner SF,Sabeti PC",
+  "ABSTRACT": "The human genome contains hundreds of regions whose patterns of genetic variation indicate recent positive natural selection, yet for most the underlying gene and the advantageous mutation remain unknown. We developed a method, composite of multiple signals (CMS), that combines tests for multiple signals of selection and increases resolution by up to 100-fold. By applying CMS to candidate regions from the International Haplotype Map, we localized population-specific selective signals to 55 kilobases (median), identifying known and novel causal variants. CMS can not just identify individual loci but implicates precise variants selected by evolution.",
+  "DOI": "10.1126/science.1183863",
+  "PMC ID": "",
+  "CITATION": "Grossman SR, Shlyakhter I, Karlsson EK, Byrne EH, ...&, Sabeti PC. (2010) A composite of multiple signals distinguishes causal variants in regions of positive selection. Science, 327 (5967) 883-6. doi:10.1126/science.1183863. PMID 20056855",
+  "FIRST_AUTHOR": "Grossman SR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

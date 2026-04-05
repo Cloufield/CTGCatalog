@@ -1,0 +1,15 @@
+{
+  "NAME": "CanPath - Ontario Health Study",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~7k",
+  "MANUAL_CITATION": "Kirsh, V. A., Skead, K., McDonald, K., Kreiger, N., Little, J., Menard, K., ... & Awadalla, P. (2022). Cohort Profile: The Ontario Health Study (OHS). International Journal of Epidemiology.",
+  "URL": "https://canpath.ca/cohort/ontario-health-study/",
+  "DESCRIPTION": "The Ontario Health Study (OHS) is a resource for investigating the ways in which lifestyle, the environment and genetics affect people’s health. It is one of the regional cohorts that collectively form the Canadian Partnership for Tomorrow’s Health (CanPath)—a pan-Canadian cohort with >330 000 participants. The linking of Canada’s rich collection of administrative health data with the cohort’s data represents a powerful means to disseminate high-quality, timely data.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR,EUR",
+  "PARTICIPANTS": "Canadian adults (Ontario; CanPath)"
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "STAAR",
+  "PMID": 32839606,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "STAAR",
+  "FULL NAME": "variant-set test for association using annotation information",
+  "KEYWORDS": "functional annotations",
+  "URL": "https://github.com/xihaoli/STAAR",
+  "DESCRIPTION": "STAAR is an R package for performing variant-Set Test for Association using Annotation infoRmation (STAAR) procedure in whole-genome sequencing (WGS) studies. STAAR is a general framework that incorporates both qualitative functional categories and quantitative complementary functional annotations using an omnibus multi-dimensional weighting scheme. STAAR accounts for population structure and relatedness, and is scalable for analyzing large WGS studies of continuous and dichotomous traits.",
+  "MANUAL_CITATION": "Li, Xihao, et al. \"Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.\" Nature genetics 52.9 (2020): 969-983.",
+  "TITLE": "Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "9",
+  "PAGE": "969-983",
+  "Authors": "Li X,Li Z,Zhou H,Gaynor SM,Liu Y,Chen H,Sun R,Dey R,Arnett DK,Aslibekyan S,Ballantyne CM,Bielak LF,Blangero J,Boerwinkle E,Bowden DW,Broome JG,Conomos MP,Correa A,Cupples LA,Curran JE,Freedman BI,Guo X,Hindy G,Irvin MR,Kardia SLR,Kathiresan S,Khan AT,Kooperberg CL,Laurie CC,Liu XS,Mahaney MC,Manichaikul AW,Martin LW,Mathias RA,McGarvey ST,Mitchell BD,Montasser ME,Moore JE,Morrison AC,O'Connell JR,Palmer ND,Pampana A,Peralta JM,Peyser PA,Psaty BM,Redline S,Rice KM,Rich SS,Smith JA,Tiwari HK,Tsai MY,Vasan RS,Wang FF,Weeks DE,Weng Z,Wilson JG,Yanek LR,NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium,TOPMed Lipids Working Group,Neale BM,Sunyaev SR,Abecasis GR,Rotter JI,Willer CJ,Peloso GM,Natarajan P,Lin X",
+  "ABSTRACT": "Large-scale whole-genome sequencing studies have enabled the analysis of rare variants (RVs) associated with complex phenotypes. Commonly used RV association tests have limited scope to leverage variant functions. We propose STAAR (variant-set test for association using annotation information), a scalable and powerful RV association test method that effectively incorporates both variant categories and multiple complementary annotations using a dynamic weighting scheme. For the latter, we introduce 'annotation principal components', multidimensional summaries of in silico variant annotations. STAAR accounts for population structure and relatedness and is scalable for analyzing very large cohort and biobank whole-genome sequencing studies of continuous and dichotomous traits. We applied STAAR to identify RVs associated with four lipid traits in 12,316 discovery and 17,822 replication samples from the Trans-Omics for Precision Medicine Program. We discovered and replicated new RV associations, including disruptive missense RVs of NPC1L1 and an intergenic region near APOC1P1 associated with low-density lipoprotein cholesterol.",
+  "DOI": "10.1038/s41588-020-0676-4",
+  "PMC ID": "PMC7483769",
+  "CITATION": "Li X, Li Z, Zhou H, Gaynor SM, ...&, Lin X. (2020) Dynamic incorporation of multiple in silico functional annotations empowers rare variant association analysis of large whole-genome sequencing studies at scale. Nat Genet, 52 (9) 969-983. doi:10.1038/s41588-020-0676-4. PMID 32839606",
+  "FIRST_AUTHOR": "Li X",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

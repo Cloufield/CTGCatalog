@@ -1,0 +1,28 @@
+{
+  "NAME": "fastASSET",
+  "PMID": 39143063,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "fastASSET",
+  "MANUAL_YEAR": 2024,
+  "URL": "https://github.com/gqi/fastASSET",
+  "MANUAL_CITATION": "\nQi, G. et al. Genome-wide large-scale multi-trait analysis characterizes global patterns of pleiotropy and unique trait-specific variants. Nat. Commun. 15, 6985 (2024).\n  ",
+  "TITLE": "Genome-wide large-scale multi-trait analysis characterizes global patterns of pleiotropy and unique trait-specific variants.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "6985",
+  "Authors": "Qi G,Chhetri SB,Ray D,Dutta D,Battle A,Bhattacharjee S,Chatterjee N",
+  "ABSTRACT": "Genome-wide association studies (GWAS) have found widespread evidence of pleiotropy, but characterization of global patterns of pleiotropy remain highly incomplete due to insufficient power of current approaches. We develop fastASSET, a method that allows efficient detection of variant-level pleiotropic association across many traits. We analyze GWAS summary statistics of 116 complex traits of diverse types collected from the GRASP repository and large GWAS Consortia. We identify 2293 independent loci and find that the lead variants in nearly all these loci (~99%) to be associated with ≥ 2 traits (median = 6). We observe that degree of pleiotropy estimated from our study predicts that observed in the UK Biobank for a much larger number of traits (K = 4114) (correlation = 0.43, p-value < 2.2 × 10 - 16   ). Follow-up analyzes of 21 trait-specific variants indicate their link to the expression in trait-related tissues for a small number of genes involved in relevant biological processes. Our findings provide deeper insight into the nature of pleiotropy and leads to identification of highly trait-specific susceptibility variants.",
+  "DOI": "10.1038/s41467-024-51075-5",
+  "PMC ID": "PMC11324957",
+  "CITATION": "Qi G, Chhetri SB, Ray D, Dutta D, ...&, Chatterjee N. (2024) Genome-wide large-scale multi-trait analysis characterizes global patterns of pleiotropy and unique trait-specific variants. Nat Commun, 15 (1) 6985. doi:10.1038/s41467-024-51075-5. PMID 39143063",
+  "FIRST_AUTHOR": "Qi G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

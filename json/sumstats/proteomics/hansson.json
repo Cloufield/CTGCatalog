@@ -1,0 +1,27 @@
+{
+  "NAME": "Hansson",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 36504281,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "TITLE": "The genetic regulation of protein expression in cerebrospinal fluid.",
+  "ISO": "EMBO Mol Med",
+  "JOURNAL": "EMBO molecular medicine",
+  "YEAR": "2023",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "e16359",
+  "Authors": "Hansson O,Kumar A,Janelidze S,Stomrud E,Insel PS,Blennow K,Zetterberg H,Fauman E,Hedman ÅK,Nagle MW,Whelan CD,Baird D,Mälarstig A,Mattsson-Carlgren N",
+  "ABSTRACT": "Studies of the genetic regulation of cerebrospinal fluid (CSF) proteins may reveal pathways for treatment of neurological diseases. 398 proteins in CSF were measured in 1,591 participants from the BioFINDER study. Protein quantitative trait loci (pQTL) were identified as associations between genetic variants and proteins, with 176 pQTLs for 145 CSF proteins (P < 1.25 × 10-10 , 117 cis-pQTLs and 59 trans-pQTLs). Ventricular volume (measured with brain magnetic resonance imaging) was a confounder for several pQTLs. pQTLs for CSF and plasma proteins were overall correlated, but CSF-specific pQTLs were also observed. Mendelian randomization analyses suggested causal roles for several proteins, for example, ApoE, CD33, and GRN in Alzheimer's disease, MMP-10 in preclinical Alzheimer's disease, SIGLEC9 in amyotrophic lateral sclerosis, and CD38, GPNMB, and ADAM15 in Parkinson's disease. CSF levels of GRN, MMP-10, and GPNMB were altered in Alzheimer's disease, preclinical Alzheimer's disease, and Parkinson's disease, respectively. These findings point to pathways to be explored for novel therapies. The novel finding that ventricular volume confounded pQTLs has implications for design of future studies of the genetic regulation of the CSF proteome.",
+  "DOI": "10.15252/emmm.202216359",
+  "PMC ID": "PMC9832827",
+  "CITATION": "Hansson O, Kumar A, Janelidze S, Stomrud E, ...&, Mattsson-Carlgren N. (2023) The genetic regulation of protein expression in cerebrospinal fluid. EMBO Mol Med, 15 (1) e16359. doi:10.15252/emmm.202216359. PMID 36504281",
+  "FIRST_AUTHOR": "Hansson O",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Yang Lab xQTL",
+  "URL": "https://yanglab.westlake.edu.cn/software/smr/#DataResource",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "DESCRIPTION": "Yang lab SMR/xQTL data resource — public GWAS and molecular QTL summary statistics for integrative analysis.",
+  "PMID": 39623049,
+  "TYPE": "Datasets",
+  "TITLE": "SMR-Portal: an online platform for integrative analysis of GWAS and xQTL data to identify complex trait genes.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2025",
+  "VOLUME": "22",
+  "ISSUE": "2",
+  "PAGE": "220-222",
+  "Authors": "Guo Y,Xu T,Luo J,Jiang Z,Chen W,Chen H,Qi T,Yang J",
+  "ABSTRACT": "",
+  "DOI": "10.1038/s41592-024-02561-7",
+  "PMC ID": "",
+  "CITATION": "Guo Y, Xu T, Luo J, Jiang Z, ...&, Yang J. (2025) SMR-Portal: an online platform for integrative analysis of GWAS and xQTL data to identify complex trait genes. Nat Methods, 22 (2) 220-222. doi:10.1038/s41592-024-02561-7. PMID 39623049",
+  "FIRST_AUTHOR": "Guo Y",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 30002074,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Davies, N. M., Holmes, M. V., & Smith, G. D. (2018). Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians. bmj, 362.",
+  "TITLE": "Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians.",
+  "ISO": "BMJ",
+  "JOURNAL": "BMJ (Clinical research ed.)",
+  "YEAR": "2018",
+  "VOLUME": "362",
+  "ISSUE": "",
+  "PAGE": "k601",
+  "Authors": "Davies NM,Holmes MV,Davey Smith G",
+  "ABSTRACT": "Mendelian randomisation uses genetic variation as a natural experiment to investigate the causal relations between potentially modifiable risk factors and health outcomes in observational data. As with all epidemiological approaches, findings from Mendelian randomisation studies depend on specific assumptions. We provide explanations of the information typically reported in Mendelian randomisation studies that can be used to assess the plausibility of these assumptions and guidance on how to interpret findings from Mendelian randomisation studies in the context of other sources of evidence",
+  "DOI": "10.1136/bmj.k601",
+  "PMC ID": "PMC6041728",
+  "CITATION": "Davies NM, Holmes MV, Davey Smith G. (2018) Reading Mendelian randomisation studies: a guide, glossary, and checklist for clinicians. BMJ, 362 () k601. doi:10.1136/bmj.k601. PMID 30002074",
+  "FIRST_AUTHOR": "Davies NM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

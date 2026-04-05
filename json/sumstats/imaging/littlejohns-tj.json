@@ -1,0 +1,32 @@
+{
+  "NAME": "Littlejohns TJ",
+  "ADD_SUFFIX": 1,
+  "PMID": 32457287,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "Review",
+  "MAIN_ANCESTRY": "EUR",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 100000,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Littlejohns, T. J. et al. The UK Biobank imaging enhancement of 100,000 participants: rationale, data collection, management and future directions. Nat. Commun. 11, 2624 (2020).",
+  "DESCRIPTION": "brain, cardiac and abdominal magnetic resonance imaging, dual-energy X-ray absorptiometry and carotid ultrasound",
+  "MANUAL_YEAR": 2020,
+  "TITLE": "The UK Biobank imaging enhancement of 100,000 participants: rationale, data collection, management and future directions.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2020",
+  "VOLUME": "11",
+  "ISSUE": "1",
+  "PAGE": "2624",
+  "Authors": "Littlejohns TJ,Holliday J,Gibson LM,Garratt S,Oesingmann N,Alfaro-Almagro F,Bell JD,Boultwood C,Collins R,Conroy MC,Crabtree N,Doherty N,Frangi AF,Harvey NC,Leeson P,Miller KL,Neubauer S,Petersen SE,Sellors J,Sheard S,Smith SM,Sudlow CLM,Matthews PM,Allen NE",
+  "ABSTRACT": "UK Biobank is a population-based cohort of half a million participants aged 40-69 years recruited between 2006 and 2010. In 2014, UK Biobank started the world's largest multi-modal imaging study, with the aim of re-inviting 100,000 participants to undergo brain, cardiac and abdominal magnetic resonance imaging, dual-energy X-ray absorptiometry and carotid ultrasound. The combination of large-scale multi-modal imaging with extensive phenotypic and genetic data offers an unprecedented resource for scientists to conduct health-related research. This article provides an in-depth overview of the imaging enhancement, including the data collected, how it is managed and processed, and future directions.",
+  "DOI": "10.1038/s41467-020-15948-9",
+  "PMC ID": "PMC7250878",
+  "CITATION": "Littlejohns TJ, Holliday J, Gibson LM, Garratt S, ...&, Allen NE. (2020) The UK Biobank imaging enhancement of 100,000 participants: rationale, data collection, management and future directions. Nat Commun, 11 (1) 2624. doi:10.1038/s41467-020-15948-9. PMID 32457287",
+  "FIRST_AUTHOR": "Littlejohns TJ",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "AIDA",
+  "PMID": 40112801,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "DESCRIPTION": "Asian Immune Diversity Atlas",
+  "URL": "https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508",
+  "MANUAL_YEAR": 2025,
+  "MANUAL_CITATION": "\nKock, K. H. et al. Asian diversity in human immune cells. Cell 0, (2025).\n  \n",
+  "TITLE": "Asian diversity in human immune cells.",
+  "ISO": "Cell",
+  "JOURNAL": "Cell",
+  "YEAR": "2025",
+  "VOLUME": "188",
+  "ISSUE": "8",
+  "PAGE": "2288-2306.e24",
+  "Authors": "Kock KH,Tan LM,Han KY,Ando Y,Jevapatarakul D,Chatterjee A,Lin QXX,Buyamin EV,Sonthalia R,Rajagopalan D,Tomofuji Y,Sankaran S,Park MS,Abe M,Chantaraamporn J,Furukawa S,Ghosh S,Inoue G,Kojima M,Kouno T,Lim J,Myouzen K,Nguantad S,Oh JM,Rayan NA,Sarkar S,Suzuki A,Thungsatianpun N,Venkatesh PN,Moody J,Nakano M,Chen Z,Tian C,Zhang Y,Tong Y,Tan CTY,Tizazu AM,Loh M,Hwang YY,Ho RC,Larbi A,Ng TP,Won HH,Wright FA,Villani AC,Park JE,Choi M,Liu B,Maitra A,Pithukpakorn M,Suktitipat B,Ishigaki K,Okada Y,Yamamoto K,Carninci P,Chambers JC,Hon CC,Matangkasombut P,Charoensawan V,Majumder PP,Shin JW,Park WY,Prabhakar S",
+  "ABSTRACT": "The relationships of human diversity with biomedical phenotypes are pervasive yet remain understudied, particularly in a single-cell genomics context. Here, we present the Asian Immune Diversity Atlas (AIDA), a multi-national single-cell RNA sequencing (scRNA-seq) healthy reference atlas of human immune cells. AIDA comprises 1,265,624 circulating immune cells from 619 donors, spanning 7 population groups across 5 Asian countries, and 6 controls. Though population groups are frequently compared at the continental level, we found that sub-continental diversity, age, and sex pervasively impacted cellular and molecular properties of immune cells. These included differential abundance of cell neighborhoods as well as cell populations and genes relevant to disease risk, pathogenesis, and diagnostics. We discovered functional genetic variants influencing cell-type-specific gene expression, which were under-represented in non-Asian populations, and helped contextualize disease-associated variants. AIDA enables analyses of multi-ancestry disease datasets and facilitates the development of precision medicine efforts in Asia and beyond.",
+  "DOI": "10.1016/j.cell.2025.02.017",
+  "PMC ID": "",
+  "CITATION": "Kock KH, Tan LM, Han KY, Ando Y, ...&, Prabhakar S. (2025) Asian diversity in human immune cells. Cell, 188 (8) 2288-2306.e24. doi:10.1016/j.cell.2025.02.017. PMID 40112801",
+  "FIRST_AUTHOR": "Kock KH",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

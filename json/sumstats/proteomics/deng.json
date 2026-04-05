@@ -1,0 +1,31 @@
+{
+  "NAME": "Deng",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 39579765,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "Post-GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EAS",
+  "TYPE": "PEA/OLINK",
+  "URL": "https://proteome-phenome-atlas.com/",
+  "MANUAL_YEAR": 2025,
+  "MANUAL_CITATION": "Deng, Y.-T. et al. Atlas of the plasma proteome in health and disease in 53,026 adults. Cell 0, (2024).\n  ",
+  "TITLE": "Atlas of the plasma proteome in health and disease in 53,026 adults.",
+  "ISO": "Cell",
+  "JOURNAL": "Cell",
+  "YEAR": "2025",
+  "VOLUME": "188",
+  "ISSUE": "1",
+  "PAGE": "253-271.e7",
+  "Authors": "Deng YT,You J,He Y,Zhang Y,Li HY,Wu XR,Cheng JY,Guo Y,Long ZW,Chen YL,Li ZY,Yang L,Zhang YR,Chen SD,Ge YJ,Huang YY,Shi LM,Dong Q,Mao Y,Feng JF,Cheng W,Yu JT",
+  "ABSTRACT": "Large-scale proteomics studies can refine our understanding of health and disease and enable precision medicine. Here, we provide a detailed atlas of 2,920 plasma proteins linking to diseases (406 prevalent and 660 incident) and 986 health-related traits in 53,026 individuals (median follow-up: 14.8 years) from the UK Biobank, representing the most comprehensive proteome profiles to date. This atlas revealed 168,100 protein-disease associations and 554,488 protein-trait associations. Over 650 proteins were shared among at least 50 diseases, and over 1,000 showed sex and age heterogeneity. Furthermore, proteins demonstrated promising potential in disease discrimination (area under the curve [AUC] > 0.80 in 183 diseases). Finally, integrating protein quantitative trait locus data determined 474 causal proteins, providing 37 drug-repurposing opportunities and 26 promising targets with favorable safety profiles. These results provide an open-access comprehensive proteome-phenome resource (https://proteome-phenome-atlas.com/) to help elucidate the biological mechanisms of diseases and accelerate the development of disease biomarkers, prediction models, and therapeutic targets.",
+  "DOI": "10.1016/j.cell.2024.10.045",
+  "PMC ID": "",
+  "CITATION": "Deng YT, You J, He Y, Zhang Y, ...&, Yu JT. (2025) Atlas of the plasma proteome in health and disease in 53,026 adults. Cell, 188 (1) 253-271.e7. doi:10.1016/j.cell.2024.10.045. PMID 39579765",
+  "FIRST_AUTHOR": "Deng YT",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "NSPT",
+  "PMID": 38641644,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Whole Blood",
+  "CATEGORY": "Methylation",
+  "DESCRIPTION": "Methylation quantitative trait loci (mQTLs) CpGs in the whole blood of 3,523 Han Chinese from the National Survey of Physical Traits (NSPT) cohort ",
+  "URL": "https://www.biosino.org/sinomqtl/",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "Peng, Q., Liu, X., Li, W., Jing, H., Li, J., Gao, X., ... & Wang, S. (2024). Analysis of blood methylation quantitative trait loci in East Asians reveals ancestry-specific impacts on complex traits. Nature genetics, 56(5), 846-860.",
+  "TITLE": "Analysis of blood methylation quantitative trait loci in East Asians reveals ancestry-specific impacts on complex traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "5",
+  "PAGE": "846-860",
+  "Authors": "Peng Q,Liu X,Li W,Jing H,Li J,Gao X,Luo Q,Breeze CE,Pan S,Zheng Q,Li G,Qian J,Yuan L,Yuan N,You C,Du S,Zheng Y,Yuan Z,Tan J,Jia P,Wang J,Zhang G,Lu X,Shi L,Guo S,Liu Y,Ni T,Wen B,Zeng C,Jin L,Teschendorff AE,Liu F,Wang S",
+  "ABSTRACT": "Methylation quantitative trait loci (mQTLs) are essential for understanding the role of DNA methylation changes in genetic predisposition, yet they have not been fully characterized in East Asians (EAs). Here we identified mQTLs in whole blood from 3,523 Chinese individuals and replicated them in additional 1,858 Chinese individuals from two cohorts. Over 9% of mQTLs displayed specificity to EAs, facilitating the fine-mapping of EA-specific genetic associations, as shown for variants associated with height. Trans-mQTL hotspots revealed biological pathways contributing to EA-specific genetic associations, including an ERG-mediated 233 trans-mCpG network, implicated in hematopoietic cell differentiation, which likely reflects binding efficiency modulation of the ERG protein complex. More than 90% of mQTLs were shared between different blood cell lineages, with a smaller fraction of lineage-specific mQTLs displaying preferential hypomethylation in the respective lineages. Our study provides new insights into the mQTL landscape across genetic ancestries and their downstream effects on cellular processes and diseases/traits.",
+  "DOI": "10.1038/s41588-023-01494-9",
+  "PMC ID": "",
+  "CITATION": "Peng Q, Liu X, Li W, Jing H, ...&, Wang S. (2024) Analysis of blood methylation quantitative trait loci in East Asians reveals ancestry-specific impacts on complex traits. Nat Genet, 56 (5) 846-860. doi:10.1038/s41588-023-01494-9. PMID 38641644",
+  "FIRST_AUTHOR": "Peng Q",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}

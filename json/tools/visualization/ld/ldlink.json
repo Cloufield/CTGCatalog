@@ -1,0 +1,29 @@
+{
+  "NAME": "Ldlink",
+  "PMID": 26139635,
+  "SECTION": "Tools",
+  "TOPIC": "Visualization",
+  "SUBTOPIC": "LD",
+  "TYPE": "Tools",
+  "SHORT NAME": "Ldlink",
+  "FULL NAME": "Ldlink",
+  "URL": "https://ldlink.nci.nih.gov/?tab=home",
+  "DESCRIPTION": "LDlink is a suite of web-based applications designed to easily and efficiently interrogate linkage disequilibrium in population groups. Each included application is specialized for querying and displaying unique aspects of linkage disequilibrium.",
+  "MANUAL_CITATION": "Machiela, Mitchell J., and Stephen J. Chanock. \"LDlink: a web-based application for exploring population-specific haplotype structure and linking correlated alleles of possible functional variants.\" Bioinformatics 31.21 (2015): 3555-3557.",
+  "TITLE": "LDlink: a web-based application for exploring population-specific haplotype structure and linking correlated alleles of possible functional variants.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2015",
+  "VOLUME": "31",
+  "ISSUE": "21",
+  "PAGE": "3555-7",
+  "Authors": "Machiela MJ,Chanock SJ",
+  "ABSTRACT": "UNLABELLED: Assessing linkage disequilibrium (LD) across ancestral populations is a powerful approach for investigating population-specific genetic structure as well as functionally mapping regions of disease susceptibility. Here, we present LDlink, a web-based collection of bioinformatic modules that query single nucleotide polymorphisms (SNPs) in population groups of interest to generate haplotype tables and interactive plots. Modules are designed with an emphasis on ease of use, query flexibility, and interactive visualization of results. Phase 3 haplotype data from the 1000 Genomes Project are referenced for calculating pairwise metrics of LD, searching for proxies in high LD, and enumerating all observed haplotypes. LDlink is tailored for investigators interested in mapping common and uncommon disease susceptibility loci by focusing on output linking correlated alleles and highlighting putative functional variants. AVAILABILITY AND IMPLEMENTATION: LDlink is a free and publically available web tool which can be accessed at http://analysistools.nci.nih.gov/LDlink/. CONTACT: mitchell.machiela@nih.gov.",
+  "DOI": "10.1093/bioinformatics/btv402",
+  "PMC ID": "PMC4626747",
+  "CITATION": "Machiela MJ, Chanock SJ. (2015) LDlink: a web-based application for exploring population-specific haplotype structure and linking correlated alleles of possible functional variants. Bioinformatics, 31 (21) 3555-7. doi:10.1093/bioinformatics/btv402. PMID 26139635",
+  "FIRST_AUTHOR": "Machiela MJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

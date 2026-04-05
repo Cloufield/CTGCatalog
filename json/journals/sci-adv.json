@@ -1,0 +1,22 @@
+{
+  "NAME": "Science advances",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Sci Adv",
+  "JOURNAL": "Science advances",
+  "URL": "https://www.science.org/journal/sciadv",
+  "ENTRY_COUNT": 4,
+  "CITED_BY_SECTION": {
+    "Tools": 3,
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Katz",
+    "NARD2",
+    "SARGE",
+    "Comparison"
+  ]
+}

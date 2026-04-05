@@ -1,0 +1,30 @@
+{
+  "NAME": "cross-trait LDSC",
+  "PMID": 26414676,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Genetic correlation",
+  "TYPE": "Tools",
+  "SHORT NAME": "cross-trait LDSC",
+  "FULL NAME": "cross-trait LD Score Regression",
+  "KEYWORDS": "cross-trait, LD score regression",
+  "URL": "https://github.com/bulik/ldsc",
+  "DESCRIPTION": "ldsc is a command line tool for estimating heritability and genetic correlation from GWAS summary statistics. ldsc also computes LD Scores.",
+  "MANUAL_CITATION": "Bulik-Sullivan, Brendan, et al. \"An atlas of genetic correlations across human diseases and traits.\" Nature genetics 47.11 (2015): 1236-1241.",
+  "TITLE": "An atlas of genetic correlations across human diseases and traits.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2015",
+  "VOLUME": "47",
+  "ISSUE": "11",
+  "PAGE": "1236-41",
+  "Authors": "Bulik-Sullivan B,Finucane HK,Anttila V,Gusev A,Day FR,Loh PR,ReproGen Consortium,Psychiatric Genomics Consortium,Genetic Consortium for Anorexia Nervosa of the Wellcome Trust Case Control Consortium 3,Duncan L,Perry JR,Patterson N,Robinson EB,Daly MJ,Price AL,Neale BM",
+  "ABSTRACT": "Identifying genetic correlations between complex traits and diseases can provide useful etiological insights and help prioritize likely causal relationships. The major challenges preventing estimation of genetic correlation from genome-wide association study (GWAS) data with current methods are the lack of availability of individual-level genotype data and widespread sample overlap among meta-analyses. We circumvent these difficulties by introducing a technique-cross-trait LD Score regression-for estimating genetic correlation that requires only GWAS summary statistics and is not biased by sample overlap. We use this method to estimate 276 genetic correlations among 24 traits. The results include genetic correlations between anorexia nervosa and schizophrenia, anorexia and obesity, and educational attainment and several diseases. These results highlight the power of genome-wide analyses, as there currently are no significantly associated SNPs for anorexia nervosa and only three for educational attainment.",
+  "DOI": "10.1038/ng.3406",
+  "PMC ID": "PMC4797329",
+  "CITATION": "Bulik-Sullivan B, Finucane HK, Anttila V, Gusev A, ...&, Neale BM. (2015) An atlas of genetic correlations across human diseases and traits. Nat Genet, 47 (11) 1236-41. doi:10.1038/ng.3406. PMID 26414676",
+  "FIRST_AUTHOR": "Bulik-Sullivan B",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

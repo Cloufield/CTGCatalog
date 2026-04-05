@@ -1,0 +1,33 @@
+{
+  "NAME": "DAVID",
+  "CATEGORY": "Pathway and Gene Ontology Enrichment",
+  "SOURCE": "DAVID",
+  "PMID": 17784955,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nHuang, D. W. et al. The DAVID Gene Functional Classification Tool: a novel biological module-centric algorithm to functionally analyze large gene lists. Genome Biol. 8, R183 (2007).  \n",
+  "TOPIC": "Function",
+  "URL": "https://david.ncifcrf.gov/",
+  "TYPE": "Tool",
+  "DESCRIPTION": "Functional annotation and enrichment analysis platform.",
+  "MANUAL_YEAR": 2009,
+  "SHORT NAME": "DAVID",
+  "FULL NAME": "Database for Annotation, Visualization and Integrated Discovery",
+  "KEYWORDS": "functional enrichment, GO, pathway",
+  "USE": "enrichment analysis",
+  "TITLE": "The DAVID Gene Functional Classification Tool: a novel biological module-centric algorithm to functionally analyze large gene lists.",
+  "ISO": "Genome Biol",
+  "JOURNAL": "Genome biology",
+  "YEAR": "2007",
+  "VOLUME": "8",
+  "ISSUE": "9",
+  "PAGE": "R183",
+  "Authors": "Huang DW,Sherman BT,Tan Q,Collins JR,Alvord WG,Roayaei J,Stephens R,Baseler MW,Lane HC,Lempicki RA",
+  "ABSTRACT": "The DAVID Gene Functional Classification Tool http://david.abcc.ncifcrf.gov uses a novel agglomeration algorithm to condense a list of genes or associated biological terms into organized classes of related genes or biology, called biological modules. This organization is accomplished by mining the complex biological co-occurrences found in multiple sources of functional annotation. It is a powerful method to group functionally related genes and terms into a manageable number of biological modules for efficient interpretation of gene lists in a network context.",
+  "DOI": "10.1186/gb-2007-8-9-r183",
+  "PMC ID": "PMC2375021",
+  "CITATION": "Huang DW, Sherman BT, Tan Q, Collins JR, ...&, Lempicki RA. (2007) The DAVID Gene Functional Classification Tool: a novel biological module-centric algorithm to functionally analyze large gene lists. Genome Biol, 8 (9) R183. doi:10.1186/gb-2007-8-9-r183. PMID 17784955",
+  "FIRST_AUTHOR": "Huang DW",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

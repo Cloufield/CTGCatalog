@@ -1,0 +1,27 @@
+{
+  "NAME": "Sakaue",
+  "PMID": 37495751,
+  "SECTION": "Tools",
+  "TOPIC": "HLA",
+  "CATEGORY": "HLA analyses tutorial",
+  "TYPE": "Tutorial",
+  "KEYWORDS": "HLA analyses tutorial",
+  "URL": "https://github.com/immunogenomics/HLA_analyses_tutorial",
+  "MANUAL_CITATION": "\nSakaue, S. et al. Tutorial: a statistical genetics guide to identifying HLA alleles driving complex disease. Nat. Protoc. 18, 2625–2641 (2023).\n  ",
+  "TITLE": "Tutorial: a statistical genetics guide to identifying HLA alleles driving complex disease.",
+  "ISO": "Nat Protoc",
+  "JOURNAL": "Nature protocols",
+  "YEAR": "2023",
+  "VOLUME": "18",
+  "ISSUE": "9",
+  "PAGE": "2625-2641",
+  "Authors": "Sakaue S,Gurajala S,Curtis M,Luo Y,Choi W,Ishigaki K,Kang JB,Rumker L,Deutsch AJ,Schönherr S,Forer L,LeFaive J,Fuchsberger C,Han B,Lenz TL,de Bakker PIW,Okada Y,Smith AV,Raychaudhuri S",
+  "ABSTRACT": "The human leukocyte antigen (HLA) locus is associated with more complex diseases than any other locus in the human genome. In many diseases, HLA explains more heritability than all other known loci combined. In silico HLA imputation methods enable rapid and accurate estimation of HLA alleles in the millions of individuals that are already genotyped on microarrays. HLA imputation has been used to define causal variation in autoimmune diseases, such as type I diabetes, and in human immunodeficiency virus infection control. However, there are few guidelines on performing HLA imputation, association testing, and fine mapping. Here, we present a comprehensive tutorial to impute HLA alleles from genotype data. We provide detailed guidance on performing standard quality control measures for input genotyping data and describe options to impute HLA alleles and amino acids either locally or using the web-based Michigan Imputation Server, which hosts a multi-ancestry HLA imputation reference panel. We also offer best practice recommendations to conduct association tests to define the alleles, amino acids, and haplotypes that affect human traits. Along with the pipeline, we provide a step-by-step online guide with scripts and available software ( https://github.com/immunogenomics/HLA_analyses_tutorial ). This tutorial will be broadly applicable to large-scale genotyping data and will contribute to defining the role of HLA in human diseases across global populations.",
+  "DOI": "10.1038/s41596-023-00853-4",
+  "PMC ID": "PMC10786448",
+  "CITATION": "Sakaue S, Gurajala S, Curtis M, Luo Y, ...&, Raychaudhuri S. (2023) Tutorial: a statistical genetics guide to identifying HLA alleles driving complex disease. Nat Protoc, 18 (9) 2625-2641. doi:10.1038/s41596-023-00853-4. PMID 37495751",
+  "FIRST_AUTHOR": "Sakaue S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

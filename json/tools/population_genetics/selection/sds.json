@@ -1,0 +1,30 @@
+{
+  "NAME": "SDS",
+  "PMID": 27738015,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "SDS",
+  "FULL NAME": "singleton density score",
+  "KEYWORDS": "singleton, recent selection",
+  "USE": "SDS is a method to infer very recent changes in allele frequencies from contemporary genome sequences",
+  "URL": "https://github.com/yairf/SDS",
+  "DESCRIPTION": "Field, Y., Boyle, E. A., Telis, N., Gao, Z., Gaulton, K. J., Golan, D., ... & Pritchard, J. K. (2016). Detection of human adaptation during the past 2000 years. Science, 354(6313), 760-764.",
+  "TITLE": "Detection of human adaptation during the past 2000 years.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2016",
+  "VOLUME": "354",
+  "ISSUE": "6313",
+  "PAGE": "760-764",
+  "Authors": "Field Y,Boyle EA,Telis N,Gao Z,Gaulton KJ,Golan D,Yengo L,Rocheleau G,Froguel P,McCarthy MI,Pritchard JK",
+  "ABSTRACT": "Detection of recent natural selection is a challenging problem in population genetics. Here we introduce the singleton density score (SDS), a method to infer very recent changes in allele frequencies from contemporary genome sequences. Applied to data from the UK10K Project, SDS reflects allele frequency changes in the ancestors of modern Britons during the past ~2000 to 3000 years. We see strong signals of selection at lactase and the major histocompatibility complex, and in favor of blond hair and blue eyes. For polygenic adaptation, we find that recent selection for increased height has driven allele frequency shifts across most of the genome. Moreover, we identify shifts associated with other complex traits, suggesting that polygenic adaptation has played a pervasive role in shaping genotypic and phenotypic variation in modern humans.",
+  "DOI": "10.1126/science.aag0776",
+  "PMC ID": "PMC5182071",
+  "CITATION": "Field Y, Boyle EA, Telis N, Gao Z, ...&, Pritchard JK. (2016) Detection of human adaptation during the past 2000 years. Science, 354 (6313) 760-764. doi:10.1126/science.aag0776. PMID 27738015",
+  "FIRST_AUTHOR": "Field Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

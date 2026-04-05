@@ -1,0 +1,24 @@
+{
+  "NAME": "Genome medicine",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Genome Med",
+  "JOURNAL": "Genome medicine",
+  "URL": "https://genomemedicine.biomedcentral.com/",
+  "ENTRY_COUNT": 6,
+  "CITED_BY_SECTION": {
+    "Tools": 1,
+    "Sumstats": 3,
+    "References": 2
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "CADD v1.6 (CADD-Splice)",
+    "dbNSFP v4",
+    "Caron",
+    "Hillary",
+    "Zhong"
+  ]
+}

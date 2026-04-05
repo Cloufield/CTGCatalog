@@ -1,0 +1,28 @@
+{
+  "NAME": "China Kadoorie Biobank (CKB)",
+  "URL": "https://pheweb.ckbiobank.org/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "china kadoorie biobank",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "PheWeb-style GWAS summary statistics for the China Kadoorie Biobank.",
+  "PMID": 22158673,
+  "TITLE": "China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up.",
+  "ISO": "Int J Epidemiol",
+  "JOURNAL": "International journal of epidemiology",
+  "YEAR": "2011",
+  "VOLUME": "40",
+  "ISSUE": "6",
+  "PAGE": "1652-66",
+  "Authors": "Chen Z,Chen J,Collins R,Guo Y,Peto R,Wu F,Li L,China Kadoorie Biobank (CKB) collaborative group",
+  "ABSTRACT": "BACKGROUND: Large blood-based prospective studies can provide reliable assessment of the complex interplay of lifestyle, environmental and genetic factors as determinants of chronic disease. METHODS: The baseline survey of the China Kadoorie Biobank took place during 2004-08 in 10 geographically defined regions, with collection of questionnaire data, physical measurements and blood samples. Subsequently, a re-survey of 25,000 randomly selected participants was done (80% responded) using the same methods as in the baseline. All participants are being followed for cause-specific mortality and morbidity, and for any hospital admission through linkages with registries and health insurance (HI) databases. RESULTS: Overall, 512,891 adults aged 30-79 years were recruited, including 41% men, 56% from rural areas and mean age was 52 years. The prevalence of ever-regular smoking was 74% in men and 3% in women. The mean blood pressure was 132/79 mmHg in men and 130/77 mmHg in women. The mean body mass index (BMI) was 23.4 kg/m(2) in men and 23.8 kg/m(2) in women, with only 4% being obese (>30 kg/m(2)), and 3.2% being diabetic. Blood collection was successful in 99.98% and the mean delay from sample collection to processing was 10.6 h. For each of the main baseline variables, there is good reproducibility but large heterogeneity by age, sex and study area. By 1 January 2011, over 10,000 deaths had been recorded, with 91% of surviving participants already linked to HI databases. CONCLUSION: This established large biobank will be a rich and powerful resource for investigating genetic and non-genetic causes of many common chronic diseases in the Chinese population.",
+  "DOI": "10.1093/ije/dyr120",
+  "PMC ID": "PMC3235021",
+  "CITATION": "Chen Z, Chen J, Collins R, Guo Y, ...&, China Kadoorie Biobank (CKB) collaborative group. (2011) China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. Int J Epidemiol, 40 (6) 1652-66. doi:10.1093/ije/dyr120. PMID 22158673",
+  "FIRST_AUTHOR": "Chen Z",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

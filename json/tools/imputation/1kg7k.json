@@ -1,0 +1,16 @@
+{
+  "NAME": "1KG+7K",
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "1KG+7K",
+  "FULL NAME": "1KG+7K",
+  "KEYWORDS": "Japanese population-specific reference panel",
+  "PREPRINT_DOI": "10.21203/rs.3.rs-3194976/v1",
+  "PREPRINT_SERVER": "researchsquare",
+  "MANUAL_CITATION": "Terao, C., Flanagan, J., Tomizuka, K., Liu, X., Ortega-Reyes, D., Matoba, N., ... & Horikoshi, M. (2023). Population-specific reference panel improves imputation quality and enhances locus discovery and fine-mapping.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "NAME": "Nigerian 100K Genome Project",
+  "SECTION": "Biobanks",
+  "TOPIC": "AFRICA",
+  "CONTINENT": "AFRICA",
+  "SAMPLE SIZE": "~100k",
+  "NOTE": "First phase: Non-Communicable Diseases Genetic Heritage Study (NCD-GHS)",
+  "MANUAL_CITATION": "Fatumo, S., Yakubu, A., Oyedele, O., Popoola, J., Attipoe, D. A., Eze-Echesi, G., ... & Ene-Obong, A. (2022). Promoting the genomic revolution in Africa through the Nigerian 100K Genome Project. Nature Genetics, 54(5), 531-536.\nJoshi, E., Biddanda, A., Popoola, J., Yakubu, A., Osakwe, O., Attipoe, D., ... & Salako, B. (2023). Whole-genome sequencing across 449 samples spanning 47 ethnolinguistic groups provides insights into genetic diversity in Nigeria. Cell genomics, 3(9).",
+  "URL": "https://allofus.nih.gov/ https://www.researchallofus.org/register/",
+  "DESCRIPTION": "Genomic studies in African populations provide unique opportunities to understand disease aetiology, human genetic diversity and population history in a regional and a global context. To leverage the relative benefits of different strategies, we undertook a combined approach of genotyping and whole-genome sequencing (WGS) in a population-based study of 6,400 individuals from a geographically defined rural community in South-West Uganda. We present data from 4,778 individuals with genotypes for ~2.2 million SNPs from the Uganda GWAS resource (UGWAS), and sequence data on up to 1,978 individuals spanning 41.5M SNPs and 4.5M indels (UG2G); 343 individuals overlap between the two datasets. We highlight the value of the largest sequence panel from Africa to date as a global resource for variant discovery, imputation and understanding the mutational spectrum and its clinical relevance in African populations. Alongside phenotype data, we provide a rich new genomic resource for researchers in Africa and globally",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR",
+  "PARTICIPANTS": "Nigerian participants (national genome project)"
+}

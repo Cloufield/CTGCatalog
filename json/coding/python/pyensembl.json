@@ -1,0 +1,11 @@
+{
+  "NAME": "pyensembl",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://github.com/openvax/pyensembl",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Python interface to Ensembl references."
+}

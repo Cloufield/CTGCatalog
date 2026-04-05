@@ -1,0 +1,27 @@
+{
+  "NAME": "Yang",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 34239129,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "Somascan",
+  "TYPE": "Aptamer/Somascan",
+  "SECTION": "Sumstats",
+  "TITLE": "Genomic atlas of the proteome from brain, CSF and plasma prioritizes proteins implicated in neurological disorders.",
+  "ISO": "Nat Neurosci",
+  "JOURNAL": "Nature neuroscience",
+  "YEAR": "2021",
+  "VOLUME": "24",
+  "ISSUE": "9",
+  "PAGE": "1302-1312",
+  "Authors": "Yang C,Farias FHG,Ibanez L,Suhy A,Sadler B,Fernandez MV,Wang F,Bradley JL,Eiffert B,Bahena JA,Budde JP,Li Z,Dube U,Sung YJ,Mihindukulasuriya KA,Morris JC,Fagan AM,Perrin RJ,Benitez BA,Rhinn H,Harari O,Cruchaga C",
+  "ABSTRACT": "Understanding the tissue-specific genetic controls of protein levels is essential to uncover mechanisms of post-transcriptional gene regulation. In this study, we generated a genomic atlas of protein levels in three tissues relevant to neurological disorders (brain, cerebrospinal fluid and plasma) by profiling thousands of proteins from participants with and without Alzheimer's disease. We identified 274, 127 and 32 protein quantitative trait loci (pQTLs) for cerebrospinal fluid, plasma and brain, respectively. cis-pQTLs were more likely to be tissue shared, but trans-pQTLs tended to be tissue specific. Between 48.0% and 76.6% of pQTLs did not co-localize with expression, splicing, DNA methylation or histone acetylation QTLs. Using Mendelian randomization, we nominated proteins implicated in neurological diseases, including Alzheimer's disease, Parkinson's disease and stroke. This first multi-tissue study will be instrumental to map signals from genome-wide association studies onto functional genes, to discover pathways and to identify drug targets for neurological diseases.",
+  "DOI": "10.1038/s41593-021-00886-6",
+  "PMC ID": "PMC8521603",
+  "CITATION": "Yang C, Farias FHG, Ibanez L, Suhy A, ...&, Cruchaga C. (2021) Genomic atlas of the proteome from brain, CSF and plasma prioritizes proteins implicated in neurological disorders. Nat Neurosci, 24 (9) 1302-1312. doi:10.1038/s41593-021-00886-6. PMID 34239129",
+  "FIRST_AUTHOR": "Yang C",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

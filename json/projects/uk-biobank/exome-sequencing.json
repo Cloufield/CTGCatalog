@@ -1,0 +1,13 @@
+{
+  "NAME": "Whole-exome sequencing",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "STAGE_ORDER": 3,
+  "STAGE_PERIOD": "phased release",
+  "TAGS": ["UK Biobank", "WES"],
+  "DESCRIPTION": "Large-scale exome sequencing released in tranches; enables rare-coding variant association, gene-based tests, and integration with array/WGS layers on overlapping participants.",
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

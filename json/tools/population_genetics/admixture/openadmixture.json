@@ -1,0 +1,29 @@
+{
+  "NAME": "OpenADMIXTURE",
+  "PMID": 36610401,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Admixture",
+  "TYPE": "Tools",
+  "SHORT NAME": "OpenADMIXTURE",
+  "FULL NAME": "OpenADMIXTURE",
+  "USE": "This software package is an open-source Julia reimplementation of the ADMIXTURE package. It estimates ancestry with maximum-likelihood method for a large SNP genotype datasets, where individuals are assumed to be unrelated.",
+  "URL": "https://github.com/OpenMendel/OpenADMIXTURE.jl",
+  "DESCRIPTION": "Ko, S., Chu, B. B., Peterson, D., Okenwa, C., Papp, J. C., Alexander, D. H., ... & Lange, K. L. (2023). Unsupervised discovery of ancestry-informative markers and genetic admixture proportions in biobank-scale datasets. The American Journal of Human Genetics.",
+  "TITLE": "Unsupervised discovery of ancestry-informative markers and genetic admixture proportions in biobank-scale datasets.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2023",
+  "VOLUME": "110",
+  "ISSUE": "2",
+  "PAGE": "314-325",
+  "Authors": "Ko S,Chu BB,Peterson D,Okenwa C,Papp JC,Alexander DH,Sobel EM,Zhou H,Lange KL",
+  "ABSTRACT": "Admixture estimation plays a crucial role in ancestry inference and genome-wide association studies (GWASs). Computer programs such as ADMIXTURE and STRUCTURE are commonly employed to estimate the admixture proportions of sample individuals. However, these programs can be overwhelmed by the computational burdens imposed by the 105 to 106 samples and millions of markers commonly found in modern biobanks. An attractive strategy is to run these programs on a set of ancestry-informative SNP markers (AIMs) that exhibit substantially different frequencies across populations. Unfortunately, existing methods for identifying AIMs require knowing ancestry labels for a subset of the sample. This supervised learning approach creates a chicken and the egg scenario. In this paper, we present an unsupervised, scalable framework that seamlessly carries out AIM selection and likelihood-based estimation of admixture proportions. Our simulated and real data examples show that this approach is scalable to modern biobank datasets. OpenADMIXTURE, our Julia implementation of the method, is open source and available for free.",
+  "DOI": "10.1016/j.ajhg.2022.12.008",
+  "PMC ID": "PMC9943729",
+  "CITATION": "Ko S, Chu BB, Peterson D, Okenwa C, ...&, Lange KL. (2023) Unsupervised discovery of ancestry-informative markers and genetic admixture proportions in biobank-scale datasets. Am J Hum Genet, 110 (2) 314-325. doi:10.1016/j.ajhg.2022.12.008. PMID 36610401",
+  "FIRST_AUTHOR": "Ko S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "NAME": "Koprulu",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 36823471,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "TITLE": "Proteogenomic links to human metabolic diseases.",
+  "ISO": "Nat Metab",
+  "JOURNAL": "Nature metabolism",
+  "YEAR": "2023",
+  "VOLUME": "5",
+  "ISSUE": "3",
+  "PAGE": "516-528",
+  "Authors": "Koprulu M,Carrasco-Zanini J,Wheeler E,Lockhart S,Kerrison ND,Wareham NJ,Pietzner M,Langenberg C",
+  "ABSTRACT": "Studying the plasma proteome as the intermediate layer between the genome and the phenome has the potential to identify new disease processes. Here, we conducted a cis-focused proteogenomic analysis of 2,923 plasma proteins measured in 1,180 individuals using antibody-based assays. We (1) identify 256 unreported protein quantitative trait loci (pQTL); (2) demonstrate shared genetic regulation of 224 cis-pQTLs with 575 specific health outcomes, revealing examples for notable metabolic diseases (such as gastrin-releasing peptide as a potential therapeutic target for type 2 diabetes); (3) improve causal gene assignment at 40% (n = 192) of overlapping risk loci; and (4) observe convergence of phenotypic consequences of cis-pQTLs and rare loss-of-function gene burden for 12 proteins, such as TIMD4 for lipoprotein metabolism. Our findings demonstrate the value of integrating complementary proteomic technologies with genomics even at moderate scale to identify new mediators of metabolic diseases with the potential for therapeutic interventions.",
+  "DOI": "10.1038/s42255-023-00753-7",
+  "PMC ID": "PMC7614946",
+  "CITATION": "Koprulu M, Carrasco-Zanini J, Wheeler E, Lockhart S, ...&, Langenberg C. (2023) Proteogenomic links to human metabolic diseases. Nat Metab, 5 (3) 516-528. doi:10.1038/s42255-023-00753-7. PMID 36823471",
+  "FIRST_AUTHOR": "Koprulu M",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

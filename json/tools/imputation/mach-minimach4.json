@@ -1,0 +1,13 @@
+{
+  "NAME": "MACH / minimach4",
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "MACH / minimach4",
+  "URL": "https://genome.sph.umich.edu/wiki/Minimac4",
+  "DESCRIPTION": "(minimac4) ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

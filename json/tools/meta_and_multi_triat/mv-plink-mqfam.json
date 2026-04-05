@@ -1,0 +1,27 @@
+{
+  "NAME": "MV-PLINK (MQFAM)",
+  "PMID": 19019849,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "MV-PLINK (MQFAM)",
+  "MANUAL_YEAR": 2009,
+  "MANUAL_CITATION": "Ferreira, M. A. R. & Purcell, S. M. A multivariate test of association. Bioinformatics 25, 132–133 (2009).",
+  "TITLE": "A multivariate test of association.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2009",
+  "VOLUME": "25",
+  "ISSUE": "1",
+  "PAGE": "132-3",
+  "Authors": "Ferreira MA,Purcell SM",
+  "ABSTRACT": "UNLABELLED: Although genetic association studies often test multiple, related phenotypes, few formal multivariate tests of association are available. We describe a test of association that can be efficiently applied to large population-based designs. AVAILABILITY: A C++ implementation can be obtained from the authors.",
+  "DOI": "10.1093/bioinformatics/btn563",
+  "PMC ID": "",
+  "CITATION": "Ferreira MA, Purcell SM. (2009) A multivariate test of association. Bioinformatics, 25 (1) 132-3. doi:10.1093/bioinformatics/btn563. PMID 19019849",
+  "FIRST_AUTHOR": "Ferreira MA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

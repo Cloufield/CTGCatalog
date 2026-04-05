@@ -1,0 +1,15 @@
+{
+  "NAME": "CNSGENOMICS",
+  "URL": "https://cnsgenomics.com/content/data",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Institution",
+  "TYPE": "Institution",
+  "DESCRIPTION": "Curated links and files for public GWAS summary statistics from the Program in Complex Trait Genomics (Queensland).",
+  "MANUAL_CITATION": "Program in Complex Trait Genomics (IMB, University of Queensland) — public GWAS/summary statistics listing (CNSgenomics).",
+  "MANUAL_YEAR": 2024,
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

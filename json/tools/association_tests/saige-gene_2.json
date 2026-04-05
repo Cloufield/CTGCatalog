@@ -1,0 +1,28 @@
+{
+  "NAME": "SAIGE-GENE+",
+  "PMID": 36138231,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Gene-based analysis (rare variant)",
+  "TYPE": "Tools",
+  "SHORT NAME": "SAIGE-GENE+",
+  "FULL NAME": "SAIGE-GENE+",
+  "URL": "https://github.com/weizhouUMICH/SAIGE",
+  "MANUAL_CITATION": "Zhou, Wei, et al. \"SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests.\" Nature Genetics (2022): 1-4.",
+  "TITLE": "SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "10",
+  "PAGE": "1466-1469",
+  "Authors": "Zhou W,Bi W,Zhao Z,Dey KK,Jagadeesh KA,Karczewski KJ,Daly MJ,Neale BM,Lee S",
+  "ABSTRACT": "Several biobanks, including UK Biobank (UKBB), are generating large-scale sequencing data. An existing method, SAIGE-GENE, performs well when testing variants with minor allele frequency (MAF) ≤ 1%, but inflation is observed in variance component set-based tests when restricting to variants with MAF ≤ 0.1% or 0.01%. Here, we propose SAIGE-GENE+ with greatly improved type I error control and computational efficiency to facilitate rare variant tests in large-scale data. We further show that incorporating multiple MAF cutoffs and functional annotations can improve power and thus uncover new gene-phenotype associations. In the analysis of UKBB whole exome sequencing data for 30 quantitative and 141 binary traits, SAIGE-GENE+ identified 551 gene-phenotype associations.",
+  "DOI": "10.1038/s41588-022-01178-w",
+  "PMC ID": "PMC9534766",
+  "CITATION": "Zhou W, Bi W, Zhao Z, Dey KK, ...&, Lee S. (2022) SAIGE-GENE+ improves the efficiency and accuracy of set-based rare variant association tests. Nat Genet, 54 (10) 1466-1469. doi:10.1038/s41588-022-01178-w. PMID 36138231",
+  "FIRST_AUTHOR": "Zhou W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

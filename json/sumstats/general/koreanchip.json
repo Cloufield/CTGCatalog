@@ -1,0 +1,27 @@
+{
+  "NAME": "KoreanChip",
+  "URL": "https://www.koreanchip.org/downloads",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EAS",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "GWAS summary statistics based on the Korea Biobank Array (KoreanChip / KoGES).",
+  "PMID": 30718733,
+  "TITLE": "The Korea Biobank Array: Design and Identification of Coding Variants Associated with Blood Biochemical Traits.",
+  "ISO": "Sci Rep",
+  "JOURNAL": "Scientific reports",
+  "YEAR": "2019",
+  "VOLUME": "9",
+  "ISSUE": "1",
+  "PAGE": "1382",
+  "Authors": "Moon S,Kim YJ,Han S,Hwang MY,Shin DM,Park MY,Lu Y,Yoon K,Jang HM,Kim YK,Park TJ,Song DS,Park JK,Lee JE,Kim BJ",
+  "ABSTRACT": "We introduce the design and implementation of a new array, the Korea Biobank Array (referred to as KoreanChip), optimized for the Korean population and demonstrate findings from GWAS of blood biochemical traits. KoreanChip comprised >833,000 markers including >247,000 rare-frequency or functional variants estimated from >2,500 sequencing data in Koreans. Of the 833 K markers, 208 K functional markers were directly genotyped. Particularly, >89 K markers were presented in East Asians. KoreanChip achieved higher imputation performance owing to the excellent genomic coverage of 95.38% for common and 73.65% for low-frequency variants. From GWAS (Genome-wide association study) using 6,949 individuals, 28 associations were successfully recapitulated. Moreover, 9 missense variants were newly identified, of which we identified new associations between a common population-specific missense variant, rs671 (p.Glu457Lys) of ALDH2, and two traits including aspartate aminotransferase (P = 5.20 × 10-13) and alanine aminotransferase (P = 4.98 × 10-8). Furthermore, two novel missense variants of GPT with rare frequency in East Asians but extreme rarity in other populations were associated with alanine aminotransferase (rs200088103; p.Arg133Trp, P = 2.02 × 10-9 and rs748547625; p.Arg143Cys, P = 1.41 × 10-6). These variants were successfully replicated in 6,000 individuals (P = 5.30 × 10-8 and P = 1.24 × 10-6). GWAS results suggest the promising utility of KoreanChip with a substantial number of damaging variants to identify new population-specific disease-associated rare/functional variants.",
+  "DOI": "10.1038/s41598-018-37832-9",
+  "PMC ID": "PMC6361960",
+  "CITATION": "Moon S, Kim YJ, Han S, Hwang MY, ...&, Kim BJ. (2019) The Korea Biobank Array: Design and Identification of Coding Variants Associated with Blood Biochemical Traits. Sci Rep, 9 (1) 1382. doi:10.1038/s41598-018-37832-9. PMID 30718733",
+  "FIRST_AUTHOR": "Moon S",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

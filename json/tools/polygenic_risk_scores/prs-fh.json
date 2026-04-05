@@ -1,0 +1,29 @@
+{
+  "NAME": "PRS-FH",
+  "PMID": 35935918,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRS-FH",
+  "FULL NAME": "family history",
+  "KEYWORDS": "family history",
+  "URL": "https://alkesgroup.broadinstitute.org/UKBB/PRSFH/PRSFH/",
+  "MANUAL_CITATION": "Hujoel, M. L. A., Loh, P.-R., Neale, B. M. & Price, A. L. Incorporating family history of disease improves polygenic risk scores in diverse populations. Cell Genom. 2, 100152 (2022).\n  ",
+  "TITLE": "Incorporating family history of disease improves polygenic risk scores in diverse populations.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2022",
+  "VOLUME": "2",
+  "ISSUE": "7",
+  "PAGE": "",
+  "Authors": "Hujoel MLA,Loh PR,Neale BM,Price AL",
+  "ABSTRACT": "Polygenic risk scores (PRSs) derived from genotype data and family history (FH) of disease provide valuable information for predicting disease risk, but PRSs perform poorly when applied to diverse populations. Here, we explore methods for combining both types of information (PRS-FH) in UK Biobank data. PRSs were trained using all British individuals (n = 409,000), and target samples consisted of unrelated non-British Europeans (n = 42,000), South Asians (n = 7,000), or Africans (n = 7,000). We evaluated PRS, FH, and PRS-FH using liability-scale R 2, primarily focusing on 3 well-powered diseases (type 2 diabetes, hypertension, and depression). PRS attained average prediction R 2s of 5.8%, 4.0%, and 0.53% in non-British Europeans, South Asians, and Africans, confirming poor cross-population transferability. In contrast, PRS-FH attained average prediction R 2s of 13%, 12%, and 10%, respectively, representing a large improvement in Europeans and an extremely large improvement in Africans. In conclusion, including family history improves the accuracy of polygenic risk scores, particularly in diverse populations.",
+  "DOI": "10.1016/j.xgen.2022.100152",
+  "PMC ID": "PMC9351615",
+  "CITATION": "Hujoel MLA, Loh PR, Neale BM, Price AL. (2022) Incorporating family history of disease improves polygenic risk scores in diverse populations. Cell Genom, 2 (7) . doi:10.1016/j.xgen.2022.100152. PMID 35935918",
+  "FIRST_AUTHOR": "Hujoel MLA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

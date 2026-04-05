@@ -1,0 +1,16 @@
+{
+  "NAME": "ARIC",
+  "SHORT NAME": "ARIC",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~15.7k",
+  "DESCRIPTION": "Atherosclerosis Risk in Communities: four U.S. community cohorts with longitudinal cardio-metabolic phenotyping and genome-wide genotype data; foundational for many cardiovascular and multi-ancestry GWAS.",
+  "MANUAL_CITATION": "The Atherosclerosis Risk in Communities (ARIC) Study: design and objectives. American Journal of Epidemiology, 1989, 129(4), 687-702.",
+  "URL": "https://sites.cscc.unc.edu/aric/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,EUR",
+  "PARTICIPANTS": "US Black and white adults (community-based cohorts)"
+}

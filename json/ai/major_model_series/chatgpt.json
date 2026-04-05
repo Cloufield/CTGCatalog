@@ -1,0 +1,13 @@
+{
+  "NAME": "ChatGPT",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "OpenAI",
+  "URL": "https://openai.com/chatgpt",
+  "DESCRIPTION": "OpenAI’s consumer and API chat lineup (GPT family), including multimodal and agent-style capabilities.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "fastGWA-GLMM",
+  "PMID": 34737426,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "Single variant association tests",
+  "TYPE": "Tools",
+  "SHORT NAME": "fastGWA-GLMM",
+  "FULL NAME": "fastGWA-GLMM",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#fastGWA",
+  "MANUAL_CITATION": "Jiang, Longda, et al. \"A generalized linear mixed model association tool for biobank-scale data.\" Nature genetics 53.11 (2021): 1616-1621.",
+  "TITLE": "A generalized linear mixed model association tool for biobank-scale data.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "11",
+  "PAGE": "1616-1621",
+  "Authors": "Jiang L,Zheng Z,Fang H,Yang J",
+  "ABSTRACT": "Compared with linear mixed model-based genome-wide association (GWA) methods, generalized linear mixed model (GLMM)-based methods have better statistical properties when applied to binary traits but are computationally much slower. In the present study, leveraging efficient sparse matrix-based algorithms, we developed a GLMM-based GWA tool, fastGWA-GLMM, that is severalfold to orders of magnitude faster than the state-of-the-art tools when applied to the UK Biobank (UKB) data and scalable to cohorts with millions of individuals. We show by simulation that the fastGWA-GLMM test statistics of both common and rare variants are well calibrated under the null, even for traits with extreme case-control ratios. We applied fastGWA-GLMM to the UKB data of 456,348 individuals, 11,842,647 variants and 2,989 binary traits (full summary statistics available at http://fastgwa.info/ukbimpbin ), and identified 259 rare variants associated with 75 traits, demonstrating the use of imputed genotype data in a large cohort to discover rare variants for binary complex traits.",
+  "DOI": "10.1038/s41588-021-00954-4",
+  "PMC ID": "",
+  "CITATION": "Jiang L, Zheng Z, Fang H, Yang J. (2021) A generalized linear mixed model association tool for biobank-scale data. Nat Genet, 53 (11) 1616-1621. doi:10.1038/s41588-021-00954-4. PMID 34737426",
+  "FIRST_AUTHOR": "Jiang L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

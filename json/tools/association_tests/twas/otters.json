@@ -1,0 +1,29 @@
+{
+  "NAME": "OTTERS",
+  "PMID": 36882394,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "OTTERS",
+  "FULL NAME": "Omnibus Transcriptome Test using Expression Reference Summary data",
+  "MANUAL_YEAR": 2023,
+  "URL": "https://github.com/daiqile96/OTTERS",
+  "DESCRIPTION": "\nDai, Q. et al. OTTERS: a powerful TWAS framework leveraging summary-level reference data. Nat. Commun. 14, 1271 (2023).\n  \n",
+  "TITLE": "OTTERS: a powerful TWAS framework leveraging summary-level reference data.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "1271",
+  "Authors": "Dai Q,Zhou G,Zhao H,Võsa U,Franke L,Battle A,Teumer A,Lehtimäki T,Raitakari OT,Esko T,eQTLGen Consortium,Epstein MP,Yang J",
+  "ABSTRACT": "Most existing TWAS tools require individual-level eQTL reference data and thus are not applicable to summary-level reference eQTL datasets. The development of TWAS methods that can harness summary-level reference data is valuable to enable TWAS in broader settings and enhance power due to increased reference sample size. Thus, we develop a TWAS framework called OTTERS (Omnibus Transcriptome Test using Expression Reference Summary data) that adapts multiple polygenic risk score (PRS) methods to estimate eQTL weights from summary-level eQTL reference data and conducts an omnibus TWAS. We show that OTTERS is a practical and powerful TWAS tool by both simulations and application studies.",
+  "DOI": "10.1038/s41467-023-36862-w",
+  "PMC ID": "PMC9992663",
+  "CITATION": "Dai Q, Zhou G, Zhao H, Võsa U, ...&, Yang J. (2023) OTTERS: a powerful TWAS framework leveraging summary-level reference data. Nat Commun, 14 (1) 1271. doi:10.1038/s41467-023-36862-w. PMID 36882394",
+  "FIRST_AUTHOR": "Dai Q",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

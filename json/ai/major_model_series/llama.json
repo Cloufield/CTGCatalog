@@ -1,0 +1,13 @@
+{
+  "NAME": "Llama",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Meta",
+  "URL": "https://llama.meta.com",
+  "DESCRIPTION": "Meta’s open-weights Llama family for research and product fine-tuning, from dense LLMs to multimodal stacks.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

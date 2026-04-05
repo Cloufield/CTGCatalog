@@ -1,0 +1,31 @@
+{
+  "NAME": "Liu F",
+  "ADD_SUFFIX": 1,
+  "PMID": 23028347,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "Facial landmarks： Right (ZygR) and left (ZygL) zygion: the most lateral point located on the cortex of the zygomatic arches; right (EyeR) and left (EyeL) eyeball: the middle point of the eyeball; right (AlrR) and left (AlrL) alare: the most lateral point on the surface of the ala nasi; nasion (Nsn): the skin point where the bridge of the nose meets the forehead; pronasale (Prn): the most anterior tip of the nose; subnasale (Sbn): the point where the base of the nasal septum meets the philtrum.",
+  "PLATFORM": "3D head MRI\n2D portrait photo",
+  "SAMPLE_SIZE": 5388,
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Liu, F. et al. A genome-wide association study identifies five loci influencing facial morphology in Europeans. PLoS Genet. 8, e1002932 (2012).",
+  "MANUAL_YEAR": 2012,
+  "TITLE": "A genome-wide association study identifies five loci influencing facial morphology in Europeans.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2012",
+  "VOLUME": "8",
+  "ISSUE": "9",
+  "PAGE": "e1002932",
+  "Authors": "Liu F,van der Lijn F,Schurmann C,Zhu G,Chakravarty MM,Hysi PG,Wollstein A,Lao O,de Bruijne M,Ikram MA,van der Lugt A,Rivadeneira F,Uitterlinden AG,Hofman A,Niessen WJ,Homuth G,de Zubicaray G,McMahon KL,Thompson PM,Daboul A,Puls R,Hegenscheid K,Bevan L,Pausova Z,Medland SE,Montgomery GW,Wright MJ,Wicking C,Boehringer S,Spector TD,Paus T,Martin NG,Biffar R,Kayser M",
+  "ABSTRACT": "Inter-individual variation in facial shape is one of the most noticeable phenotypes in humans, and it is clearly under genetic regulation; however, almost nothing is known about the genetic basis of normal human facial morphology. We therefore conducted a genome-wide association study for facial shape phenotypes in multiple discovery and replication cohorts, considering almost ten thousand individuals of European descent from several countries. Phenotyping of facial shape features was based on landmark data obtained from three-dimensional head magnetic resonance images (MRIs) and two-dimensional portrait images. We identified five independent genetic loci associated with different facial phenotypes, suggesting the involvement of five candidate genes--PRDM16, PAX3, TP63, C5orf50, and COL17A1--in the determination of the human face. Three of them have been implicated previously in vertebrate craniofacial development and disease, and the remaining two genes potentially represent novel players in the molecular networks governing facial development. Our finding at PAX3 influencing the position of the nasion replicates a recent GWAS of facial features. In addition to the reported GWA findings, we established links between common DNA variants previously associated with NSCL/P at 2p21, 8q24, 13q31, and 17q22 and normal facial-shape variations based on a candidate gene approach. Overall our study implies that DNA variants in genes essential for craniofacial development contribute with relatively small effect size to the spectrum of normal variation in human facial morphology. This observation has important consequences for future studies aiming to identify more genes involved in the human facial morphology, as well as for potential applications of DNA prediction of facial shape such as in future forensic applications.",
+  "DOI": "10.1371/journal.pgen.1002932",
+  "PMC ID": "PMC3441666",
+  "CITATION": "Liu F, van der Lijn F, Schurmann C, Zhu G, ...&, Kayser M. (2012) A genome-wide association study identifies five loci influencing facial morphology in Europeans. PLoS Genet, 8 (9) e1002932. doi:10.1371/journal.pgen.1002932. PMID 23028347",
+  "FIRST_AUTHOR": "Liu F",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

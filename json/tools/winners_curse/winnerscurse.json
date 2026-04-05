@@ -1,0 +1,14 @@
+{
+  "NAME": "winnerscurse",
+  "SECTION": "Tools",
+  "TOPIC": "Winners_curse",
+  "TYPE": "Tools",
+  "SHORT NAME": "winnerscurse",
+  "FULL NAME": "winnerscurse",
+  "URL": "https://amandaforde.github.io/winnerscurse/",
+  "DESCRIPTION": "This package, winnerscurse, has been designed to provide easy access to published methods which aim to correct for Winner’s Curse, using GWAS summary statistics.",
+  "MANUAL_CITATION": "Forde A (2022). winnerscurse: Winner's Curse Adjustment Methods for GWAS Summary Statistics. R package version 0.1.1, https://amandaforde.github.io/winnerscurse/.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

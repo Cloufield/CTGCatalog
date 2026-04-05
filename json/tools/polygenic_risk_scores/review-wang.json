@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Wang",
+  "PMID": 35576555,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Wang, Y., Tsuo, K., Kanai, M., Neale, B. M., & Martin, A. R. (2022). Challenges and Opportunities for Developing More Generalizable Polygenic Risk Scores. Annual Review of Biomedical Data Science, 5.",
+  "TITLE": "Challenges and Opportunities for Developing More Generalizable Polygenic Risk Scores.",
+  "ISO": "Annu Rev Biomed Data Sci",
+  "JOURNAL": "Annual review of biomedical data science",
+  "YEAR": "2022",
+  "VOLUME": "5",
+  "ISSUE": "",
+  "PAGE": "293-320",
+  "Authors": "Wang Y,Tsuo K,Kanai M,Neale BM,Martin AR",
+  "ABSTRACT": "Polygenic risk scores (PRS) estimate an individual's genetic likelihood of complex traits and diseases by aggregating information across multiple genetic variants identified from genome-wide association studies. PRS can predict a broad spectrum of diseases and have therefore been widely used in research settings. Some work has investigated their potential applications as biomarkers in preventative medicine, but significant work is still needed to definitively establish and communicate absolute risk to patients for genetic and modifiable risk factors across demographic groups. However, the biggest limitation of PRS currently is that they show poor generalizability across diverse ancestries and cohorts. Major efforts are underway through methodological development and data generation initiatives to improve their generalizability. This review aims to comprehensively discuss current progress on the development of PRS, the factors that affect their generalizability, and promising areas for improving their accuracy, portability, and implementation.",
+  "DOI": "10.1146/annurev-biodatasci-111721-074830",
+  "PMC ID": "PMC9828290",
+  "CITATION": "Wang Y, Tsuo K, Kanai M, Neale BM, ...&, Martin AR. (2022) Challenges and Opportunities for Developing More Generalizable Polygenic Risk Scores. Annu Rev Biomed Data Sci, 5 () 293-320. doi:10.1146/annurev-biodatasci-111721-074830. PMID 35576555",
+  "FIRST_AUTHOR": "Wang Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

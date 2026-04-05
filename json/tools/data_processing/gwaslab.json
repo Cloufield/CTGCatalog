@@ -1,0 +1,17 @@
+{
+  "NAME": "GWASLab",
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWASLab",
+  "FULL NAME": "GWASLab",
+  "MANUAL_YEAR": 2023,
+  "PREPRINT_DOI": "10.51094/jxiv.370",
+  "URL": "https://github.com/Cloufield/gwaslab",
+  "DESCRIPTION": "a python package for handling GWAS sumstats.",
+  "MANUAL_CITATION": "GWASLab preprint: He, Y., Koido, M., Shimmori, Y., Kamatani, Y. (2023). GWASLab: a Python package for processing and visualizing GWAS summary statistics. Preprint at Jxiv, 2023-5. https://doi.org/10.51094/jxiv.370",
+  "CITATION": "GWASLab preprint: He, Y., Koido, M., Shimmori, Y., Kamatani, Y. (2023). GWASLab: a Python package for processing and visualizing GWAS summary statistics. Preprint at Jxiv, 2023-5. https://doi.org/10.51094/jxiv.370",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

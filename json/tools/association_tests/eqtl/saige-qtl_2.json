@@ -1,0 +1,17 @@
+{
+  "NAME": "SAIGE-QTL",
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "SAIGE-QTL",
+  "FULL NAME": "SAIGE-QTL",
+  "KEYWORDS": "single -cell eQTL, rare variant, set-based test, trans-eQTL, SPA",
+  "URL": "https://github.com/weizhou0/qtl",
+  "DESCRIPTION": "SAIGE-QTL is a robust and scalable tool that can directly map eQTLs using single-cell profiles without needing aggregation at the pseudobulk level.",
+  "MANUAL_CITATION": "Zhou, W., Cuomo, A., Xue, A., Kanai, M., Chau, G., Krishna, C., ... & Neale, B. M. (2024). Efficient and accurate mixed model association tool for single-cell eQTL analysis. medRxiv, 2024-05.",
+  "CITATION": "Zhou, W., Cuomo, A., Xue, A., Kanai, M., Chau, G., Krishna, C., ... & Neale, B. M. (2024). Efficient and accurate mixed model association tool for single-cell eQTL analysis. medRxiv, 2024-05.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

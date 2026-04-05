@@ -1,0 +1,29 @@
+{
+  "NAME": "Meta-SAIGE",
+  "PMID": 41266648,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Rare-variant",
+  "TYPE": "Tools",
+  "SHORT NAME": "Meta-SAIGE",
+  "FULL NAME": "Meta-SAIGE",
+  "KEYWORDS": "rare variant, meta-analysis, SAIGE, summary statistics, type I error",
+  "URL": "https://meta-saige.leelabsg.org/ https://github.com/weizhouUMICH/SAIGE",
+  "DESCRIPTION": "Meta-SAIGE performs scalable cohort-level rare-variant meta-analysis from study-level outputs, emphasizing accurate null calibration (including low-prevalence binary traits), computational efficiency via reuse of LD structure across phenotypes, and power close to pooled individual-level analysis with SAIGE-GENE+.",
+  "TITLE": "Scalable and accurate rare variant meta-analysis with Meta-SAIGE.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "12",
+  "PAGE": "3185-3192",
+  "Authors": "Park E,Nam K,Jeong S,Keat K,Kim D,Bansal V,Zhou W,Lee S",
+  "ABSTRACT": "Meta-analysis enhances the power of rare variant association tests by combining summary statistics across several cohorts. However, existing methods often fail to control type I error for low-prevalence binary traits and are computationally intensive. Here we introduce Meta-SAIGE-a scalable method for rare variant meta-analysis that accurately estimates the null distribution to control type I error and reuses the linkage disequilibrium matrix across phenotypes to boost computational efficiency in phenome-wide analyses. Simulations using UK Biobank whole-exome sequencing data show that Meta-SAIGE effectively controls type I error and achieves power comparable to pooled individual-level analysis with SAIGE-GENE+. Applying Meta-SAIGE to 83 low-prevalence phenotypes in UK Biobank and All of Us whole-exome sequencing data identified 237 gene-trait associations. Notably, 80 of these associations were not significant in either dataset alone, underscoring the power of our meta-analysis.",
+  "DOI": "10.1038/s41588-025-02403-y",
+  "PMC ID": "PMC12695641",
+  "CITATION": "Park E, Nam K, Jeong S, Keat K, ...&, Lee S. (2025) Scalable and accurate rare variant meta-analysis with Meta-SAIGE. Nat Genet, 57 (12) 3185-3192. doi:10.1038/s41588-025-02403-y. PMID 41266648",
+  "FIRST_AUTHOR": "Park E",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

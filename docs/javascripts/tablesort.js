@@ -1,6 +1,12 @@
-document$.subscribe(function() {
-  var tables = document.querySelectorAll("article table:not([class])")
-  tables.forEach(function(table) {
-    new Tablesort(table)
-  })
-})
+document$.subscribe(function () {
+  var tables = document.querySelectorAll(
+    "article .catalog-summary-table table"
+  );
+  tables.forEach(function (table) {
+    if (table.dataset.catalogTablesortInit === "1") {
+      return;
+    }
+    table.dataset.catalogTablesortInit = "1";
+    new Tablesort(table);
+  });
+});

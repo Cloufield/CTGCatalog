@@ -1,0 +1,18 @@
+{
+  "NAME": "Proceedings. Mathematical, physical, and engineering sciences",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Proc Math Phys Eng Sci",
+  "JOURNAL": "Proceedings. Mathematical, physical, and engineering sciences",
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/?term=Proc%20Math%20Phys%20Eng%20Sci%5Bjour%5D",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Arbores"
+  ]
+}

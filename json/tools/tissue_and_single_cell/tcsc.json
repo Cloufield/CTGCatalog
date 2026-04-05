@@ -1,0 +1,28 @@
+{
+  "NAME": "TCSC",
+  "PMID": 37580597,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "TCSC",
+  "FULL NAME": "Tissue co-regulation score regression",
+  "URL": "https://github.com/TiffanyAmariuta/TCSC/",
+  "DESCRIPTION": "TCSC is a statistical genetics method to identify causal tissues in diseases and complex traits. We leverage TWAS and GWAS summary statistics while explicitly modeling the genetic co-regulation of genes across tissues.",
+  "MANUAL_CITATION": "Amariuta, Tiffany, Katie Siewert-Rocks, and Alkes L. Price. \"Modeling tissue co-regulation to estimate tissue-specific contributions to disease.\" bioRxiv (2022).",
+  "TITLE": "Modeling tissue co-regulation estimates tissue-specific contributions to disease.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "9",
+  "PAGE": "1503-1511",
+  "Authors": "Amariuta T,Siewert-Rocks K,Price AL",
+  "ABSTRACT": "Integrative analyses of genome-wide association studies and gene expression data have implicated many disease-critical tissues. However, co-regulation of genetic effects on gene expression across tissues impedes distinguishing biologically causal tissues from tagging tissues. In the present study, we introduce tissue co-regulation score regression (TCSC), which disentangles causal tissues from tagging tissues by regressing gene-disease association statistics (from transcriptome-wide association studies) on tissue co-regulation scores, reflecting correlations of predicted gene expression across genes and tissues. We applied TCSC to 78 diseases/traits (average n = 302,000) and gene expression prediction models for 48 GTEx tissues. TCSC identified 21 causal tissue-trait pairs at a 5% false discovery rate (FDR), including well-established findings, biologically plausible new findings (for example, aorta artery and glaucoma) and increased specificity of known tissue-trait associations (for example, subcutaneous adipose, but not visceral adipose, and high-density lipoprotein). TCSC also identified 17 causal tissue-trait covariance pairs at 5% FDR. In conclusion, TCSC is a precise method for distinguishing causal tissues from tagging tissues.",
+  "DOI": "10.1038/s41588-023-01474-z",
+  "PMC ID": "PMC10904330",
+  "CITATION": "Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease. Nat Genet, 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597",
+  "FIRST_AUTHOR": "Amariuta T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "NAME": "ENCODE 2026",
+  "PMID": 41501460,
+  "SECTION": "References",
+  "TOPIC": "Functional",
+  "CATEGORY": "ENCODE",
+  "DESCRIPTION": "ENCODE Phase IV (ENCODE4) ",
+  "MANUAL_CITATION": "\nMoore, J. E. et al. An expanded registry of candidate cis-regulatory elements. Nature 1–10 (2026).\n  \n",
+  "TITLE": "An expanded registry of candidate cis-regulatory elements.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Moore JE,Pratt HE,Fan K,Phalke N,Fisher J,Elhajjajy SI,Andrews G,Gao M,Shedd N,Fu Y,Lacadie MC,Meza J,Khandpekar M,Ganna M,Choudhury E,Swofford R,Phan H,Ramirez CC,Campbell M,Likhite M,Farrell NP,Weimer AK,Pampari A,Ramalingam V,Reese F,Borsari B,Yu X,Wattenberg E,Ruiz-Romero M,Razavi-Mohseni M,Xu J,Galeev T,Colubri A,Beer MA,Guigó R,Gerstein MB,Engreitz JM,Ljungman M,Reddy TE,Snyder MP,Epstein CB,Gaskell E,Bernstein BE,Dickel DE,Visel A,Pennacchio LA,Mortazavi A,Kundaje A,Weng Z",
+  "ABSTRACT": "Mammalian genomes contain millions of regulatory elements that control the complex patterns of gene expression1. Previously, the ENCODE consortium mapped biochemical signals across hundreds of cell types and tissues and integrated these data to develop a registry containing 0.9 million human and 300,000 mouse candidate cis-regulatory elements (cCREs) annotated with potential functions2. Here we have expanded the registry to include 2.37 million human and 967,000 mouse cCREs, leveraging new ENCODE datasets and enhanced computational methods. This expanded registry covers hundreds of unique cell and tissue types, providing a comprehensive understanding of gene regulation. Functional characterization data from assays such as STARR-seq3, massively parallel reporter assay4, CRISPR perturbation5,6 and transgenic mouse assays7 have profiled more than 90% of human cCREs, revealing complex regulatory functions. We identified thousands of novel silencer cCREs and demonstrated their dual enhancer and silencer roles in different cellular contexts. Integrating the registry with other ENCODE annotations facilitates genetic variation interpretation and trait-associated gene identification, exemplified by the identification of KLF1 as a novel causal gene for red blood cell traits. This expanded registry is a valuable resource for studying the regulatory genome and its impact on health and disease.",
+  "DOI": "10.1038/s41586-025-09909-9",
+  "PMC ID": "",
+  "CITATION": "Moore JE, Pratt HE, Fan K, Phalke N, ...&, Weng Z. (2026) An expanded registry of candidate cis-regulatory elements. Nature,  () . doi:10.1038/s41586-025-09909-9. PMID 41501460",
+  "FIRST_AUTHOR": "Moore JE",
+  "_meta": {
+    "source_sheet": "Regulatory elements"
+  }
+}

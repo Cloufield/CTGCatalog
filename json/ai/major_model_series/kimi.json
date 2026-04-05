@@ -1,0 +1,13 @@
+{
+  "NAME": "Kimi",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Moonshot AI",
+  "URL": "https://www.kimi.com",
+  "DESCRIPTION": "Moonshot AI’s Kimi chat and model lineup, known for long-context reasoning and Chinese–English bilingual use.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "PROSPER",
+  "PMID": 38622117,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "PROSPER",
+  "FULL NAME": "Polygenic Risk scOres based on enSemble of PEnalized Regression models",
+  "URL": "https://github.com/Jingning-Zhang/PROSPER",
+  "DESCRIPTION": "PROSPER is a new multi-ancestry PRS method with penalized regression followed by ensemble learning. This software is a command line tool based on R programming language. Large-scale benchmarking study shows that PROSPER could be the leading method to reduce the disparity of PRS performance across ancestry groups",
+  "MANUAL_CITATION": "Zhang, J., Zhan, J., Jin, J., Ma, C., Zhao, R., O’Connell, J., ... & 23andMe Research Team. (2023). An ensemble penalized regression method for multi-ancestry polygenic risk prediction. BioRxiv.",
+  "TITLE": "An ensemble penalized regression method for multi-ancestry polygenic risk prediction.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "3238",
+  "Authors": "Zhang J,Zhan J,Jin J,Ma C,Zhao R,O'Connell J,Jiang Y,23andMe Research Team,Koelsch BL,Zhang H,Chatterjee N",
+  "ABSTRACT": "Great efforts are being made to develop advanced polygenic risk scores (PRS) to improve the prediction of complex traits and diseases. However, most existing PRS are primarily trained on European ancestry populations, limiting their transferability to non-European populations. In this article, we propose a novel method for generating multi-ancestry Polygenic Risk scOres based on enSemble of PEnalized Regression models (PROSPER). PROSPER integrates genome-wide association studies (GWAS) summary statistics from diverse populations to develop ancestry-specific PRS with improved predictive power for minority populations. The method uses a combination of  L 1   (lasso) and  L 2   (ridge) penalty functions, a parsimonious specification of the penalty parameters across populations, and an ensemble step to combine PRS generated across different penalty parameters. We evaluate the performance of PROSPER and other existing methods on large-scale simulated and real datasets, including those from 23andMe Inc., the Global Lipids Genetics Consortium, and All of Us. Results show that PROSPER can substantially improve multi-ancestry polygenic prediction compared to alternative methods across a wide variety of genetic architectures. In real data analyses, for example, PROSPER increased out-of-sample prediction R2 for continuous traits by an average of 70% compared to a state-of-the-art Bayesian method (PRS-CSx) in the African ancestry population. Further, PROSPER is computationally highly scalable for the analysis of large SNP contents and many diverse populations.",
+  "DOI": "10.1038/s41467-024-47357-7",
+  "PMC ID": "PMC11271575",
+  "CITATION": "Zhang J, Zhan J, Jin J, Ma C, ...&, Chatterjee N. (2024) An ensemble penalized regression method for multi-ancestry polygenic risk prediction. Nat Commun, 15 (1) 3238. doi:10.1038/s41467-024-47357-7. PMID 38622117",
+  "FIRST_AUTHOR": "Zhang J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

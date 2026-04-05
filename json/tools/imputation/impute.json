@@ -1,0 +1,27 @@
+{
+  "NAME": "IMPUTE",
+  "PMID": 17572673,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "IMPUTE",
+  "URL": "https://jmarchini.org/software/",
+  "MANUAL_CITATION": "Marchini, Jonathan, et al. \"A new multipoint method for genome-wide association studies by imputation of genotypes.\" Nature genetics 39.7 (2007): 906-913.\n\n",
+  "TITLE": "A new multipoint method for genome-wide association studies by imputation of genotypes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2007",
+  "VOLUME": "39",
+  "ISSUE": "7",
+  "PAGE": "906-13",
+  "Authors": "Marchini J,Howie B,Myers S,McVean G,Donnelly P",
+  "ABSTRACT": "Genome-wide association studies are set to become the method of choice for uncovering the genetic basis of human diseases. A central challenge in this area is the development of powerful multipoint methods that can detect causal variants that have not been directly genotyped. We propose a coherent analysis framework that treats the problem as one involving missing or uncertain genotypes. Central to our approach is a model-based imputation method for inferring genotypes at observed or unobserved SNPs, leading to improved power over existing methods for multipoint association mapping. Using real genome-wide association study data, we show that our approach (i) is accurate and well calibrated, (ii) provides detailed views of associated regions that facilitate follow-up studies and (iii) can be used to validate and correct data at genotyped markers. A notable future use of our method will be to boost power by combining data from genome-wide scans that use different SNP sets.",
+  "DOI": "10.1038/ng2088",
+  "PMC ID": "",
+  "CITATION": "Marchini J, Howie B, Myers S, McVean G, ...&, Donnelly P. (2007) A new multipoint method for genome-wide association studies by imputation of genotypes. Nat Genet, 39 (7) 906-13. doi:10.1038/ng2088. PMID 17572673",
+  "FIRST_AUTHOR": "Marchini J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

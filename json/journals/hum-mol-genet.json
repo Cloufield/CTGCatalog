@@ -1,0 +1,24 @@
+{
+  "NAME": "Human molecular genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Hum Mol Genet",
+  "JOURNAL": "Human molecular genetics",
+  "URL": "https://academic.oup.com/hmg",
+  "ENTRY_COUNT": 7,
+  "CITED_BY_SECTION": {
+    "Tools": 3,
+    "Sumstats": 3,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "MetaLR / MetaSVM",
+    "A Table of all published GWAS with metabolomics",
+    "Sasayama",
+    "Thareja",
+    "Trans-Phar"
+  ]
+}

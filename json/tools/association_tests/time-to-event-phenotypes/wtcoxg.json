@@ -1,0 +1,19 @@
+{
+  "NAME": "WtCoxG",
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "Time-to-event phenotypes",
+  "TYPE": "Tools",
+  "FULL NAME": "WtCoxG",
+  "KEYWORDS": "Genome-wide association study, time-to-event phenotypes, Cox regression, case ascertainment, weighted Cox model, rare variants, minor allele frequencies, UK Biobank",
+  "URL": "https://github.com/GeneticAnalysisinBiobanks/GRAB",
+  "DESCRIPTION": "A computationally efficient Cox-based method for genome-wide association studies (GWAS) of time-to-event phenotypes that addresses case ascertainment bias using a weighted Cox proportional hazards model, incorporates saddlepoint approximation for accuracy with rare variants, and boosts statistical power by integrating external minor allele frequency (MAF) data from public resources.",
+  "MANUAL_CITATION": "Li, Y., Ma, Y., Xu, H. et al. Applying weighted Cox regression to genome-wide association studies of time-to-event phenotypes. Nat Comput Sci (2025). https://doi.org/10.1038/s43588-025-00864-z",
+  "ARROW_SUMMARY": "Genomic data + time-to-event phenotypes → Weighted Cox model with saddlepoint approximation → association signals; Leverages external MAF data → enhanced statistical power.",
+  "DATA_REQUIRED": "Genotype and phenotype data linked with time-stamped electronic health records, along with external minor allele frequency (MAF) data from public resources such as the UK Biobank.",
+  "AI_GENERATED": 1,
+  "CITATION": "Li, Y., Ma, Y., Xu, H. et al. Applying weighted Cox regression to genome-wide association studies of time-to-event phenotypes. Nat Comput Sci (2025). https://doi.org/10.1038/s43588-025-00864-z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

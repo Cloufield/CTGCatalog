@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Kachuri",
+  "PMID": 37620596,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Kachuri, L., Chatterjee, N., Hirbo, J. et al. Principles and methods for transferring polygenic risk scores across global populations. Nat Rev Genet (2023).",
+  "TITLE": "Principles and methods for transferring polygenic risk scores across global populations.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2024",
+  "VOLUME": "25",
+  "ISSUE": "1",
+  "PAGE": "8-25",
+  "Authors": "Kachuri L,Chatterjee N,Hirbo J,Schaid DJ,Martin I,Kullo IJ,Kenny EE,Pasaniuc B,Polygenic Risk Methods in Diverse Populations (PRIMED) Consortium Methods Working Group,Witte JS,Ge T",
+  "ABSTRACT": "Polygenic risk scores (PRSs) summarize the genetic predisposition of a complex human trait or disease and may become a valuable tool for advancing precision medicine. However, PRSs that are developed in populations of predominantly European genetic ancestries can increase health disparities due to poor predictive performance in individuals of diverse and complex genetic ancestries. We describe genetic and modifiable risk factors that limit the transferability of PRSs across populations and review the strengths and weaknesses of existing PRS construction methods for diverse ancestries. Developing PRSs that benefit global populations in research and clinical settings provides an opportunity for innovation and is essential for health equity.",
+  "DOI": "10.1038/s41576-023-00637-2",
+  "PMC ID": "PMC10961971",
+  "CITATION": "Kachuri L, Chatterjee N, Hirbo J, Schaid DJ, ...&, Ge T. (2024) Principles and methods for transferring polygenic risk scores across global populations. Nat Rev Genet, 25 (1) 8-25. doi:10.1038/s41576-023-00637-2. PMID 37620596",
+  "FIRST_AUTHOR": "Kachuri L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

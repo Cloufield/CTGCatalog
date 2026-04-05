@@ -1,0 +1,24 @@
+{
+  "NAME": "Comparison",
+  "PMID": 34819519,
+  "SECTION": "Tools",
+  "TOPIC": "Proteomics",
+  "TYPE": "Comparison",
+  "MANUAL_CITATION": "Pietzner, M., Wheeler, E., Carrasco-Zanini, J., Kerrison, N. D., Oerton, E., Koprulu, M., ... & Langenberg, C. (2021). Synergistic insights into human health from aptamer-and antibody-based proteomic profiling. Nature communications, 12(1), 1-13.",
+  "TITLE": "Synergistic insights into human health from aptamer- and antibody-based proteomic profiling.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "6822",
+  "Authors": "Pietzner M,Wheeler E,Carrasco-Zanini J,Kerrison ND,Oerton E,Koprulu M,Luan J,Hingorani AD,Williams SA,Wareham NJ,Langenberg C",
+  "ABSTRACT": "Affinity-based proteomics has enabled scalable quantification of thousands of protein targets in blood enhancing biomarker discovery, understanding of disease mechanisms, and genetic evaluation of drug targets in humans through protein quantitative trait loci (pQTLs). Here, we integrate two partly complementary techniques-the aptamer-based SomaScan® v4 assay and the antibody-based Olink assays-to systematically assess phenotypic consequences of hundreds of pQTLs discovered for 871 protein targets across both platforms. We create a genetically anchored cross-platform proteome-phenome network comprising 547 protein-phenotype connections, 36.3% of which were only seen with one of the two platforms suggesting that both techniques capture distinct aspects of protein biology. We further highlight discordance of genetically predicted effect directions between assays, such as for PILRA and Alzheimer's disease. Our results showcase the synergistic nature of these technologies to better understand and identify disease mechanisms and provide a benchmark for future cross-platform discoveries.",
+  "DOI": "10.1038/s41467-021-27164-0",
+  "PMC ID": "PMC8613205",
+  "CITATION": "Pietzner M, Wheeler E, Carrasco-Zanini J, Kerrison ND, ...&, Langenberg C. (2021) Synergistic insights into human health from aptamer- and antibody-based proteomic profiling. Nat Commun, 12 (1) 6822. doi:10.1038/s41467-021-27164-0. PMID 34819519",
+  "FIRST_AUTHOR": "Pietzner M",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

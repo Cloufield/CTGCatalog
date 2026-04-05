@@ -1,0 +1,33 @@
+{
+  "NAME": "ProtBERT",
+  "CATEGORY": "Evolutionary and Generative Protein Models",
+  "SOURCE": "ProtBERT",
+  "PMID": 34232869,
+  "SECTION": "References",
+  "MANUAL_CITATION": "Elnaggar A.  et al. (2021) ProtTrans: towards cracking the language of lifes code through self-supervised deep learning and high performance computing. IEEE Trans. Pattern Anal. Mach. Intell., 1, 1.",
+  "TOPIC": "Function",
+  "URL": "https://huggingface.co/Rostlab/prot_bert",
+  "TYPE": "Model",
+  "DESCRIPTION": "BERT-based protein language model for downstream functional tasks.",
+  "MANUAL_YEAR": 2021,
+  "SHORT NAME": "ProtBERT",
+  "FULL NAME": "ProtBERT",
+  "KEYWORDS": "protein LM, transformer, embeddings",
+  "USE": "feature extraction",
+  "TITLE": "ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning.",
+  "ISO": "IEEE Trans Pattern Anal Mach Intell",
+  "JOURNAL": "IEEE transactions on pattern analysis and machine intelligence",
+  "YEAR": "2022",
+  "VOLUME": "44",
+  "ISSUE": "10",
+  "PAGE": "7112-7127",
+  "Authors": "Elnaggar A,Heinzinger M,Dallago C,Rehawi G,Wang Y,Jones L,Gibbs T,Feher T,Angerer C,Steinegger M,Bhowmik D,Rost B",
+  "ABSTRACT": "Computational biology and bioinformatics provide vast data gold-mines from protein sequences, ideal for Language Models (LMs) taken from Natural Language Processing (NLP). These LMs reach for new prediction frontiers at low inference costs. Here, we trained two auto-regressive models (Transformer-XL, XLNet) and four auto-encoder models (BERT, Albert, Electra, T5) on data from UniRef and BFD containing up to 393 billion amino acids. The protein LMs (pLMs) were trained on the Summit supercomputer using 5616 GPUs and TPU Pod up-to 1024 cores. Dimensionality reduction revealed that the raw pLM-embeddings from unlabeled data captured some biophysical features of protein sequences. We validated the advantage of using the embeddings as exclusive input for several subsequent tasks: (1) a per-residue (per-token) prediction of protein secondary structure (3-state accuracy Q3=81%-87%); (2) per-protein (pooling) predictions of protein sub-cellular location (ten-state accuracy: Q10=81%) and membrane versus water-soluble (2-state accuracy Q2=91%). For secondary structure, the most informative embeddings (ProtT5) for the first time outperformed the state-of-the-art without multiple sequence alignments (MSAs) or evolutionary information thereby bypassing expensive database searches. Taken together, the results implied that pLMs learned some of the grammar of the language of life. All our models are available through https://github.com/agemagician/ProtTrans.",
+  "DOI": "10.1109/TPAMI.2021.3095381",
+  "PMC ID": "",
+  "CITATION": "Elnaggar A, Heinzinger M, Dallago C, Rehawi G, ...&, Rost B. (2022) ProtTrans: Toward Understanding the Language of Life Through Self-Supervised Learning. IEEE Trans Pattern Anal Mach Intell, 44 (10) 7112-7127. doi:10.1109/TPAMI.2021.3095381. PMID 34232869",
+  "FIRST_AUTHOR": "Elnaggar A",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

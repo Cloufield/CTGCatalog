@@ -1,0 +1,30 @@
+{
+  "NAME": "RareMETAL",
+  "PMID": 24894501,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Rare-variant",
+  "TYPE": "Tools",
+  "SHORT NAME": "RareMETAL",
+  "FULL NAME": "RareMETAL",
+  "KEYWORDS": "rare variants",
+  "URL": "https://genome.sph.umich.edu/wiki/RAREMETAL",
+  "DESCRIPTION": "RAREMETAL is a program that facilitates the meta-analysis of rare variants from genotype arrays or sequencing (manuscript in preparation).",
+  "MANUAL_CITATION": "Feng, S., Liu, D., Zhan, X., Wing, M. K., & Abecasis, G. R. (2014). RAREMETAL: fast and powerful meta-analysis for rare variants. Bioinformatics, 30(19), 2828-2829.",
+  "TITLE": "RAREMETAL: fast and powerful meta-analysis for rare variants.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2014",
+  "VOLUME": "30",
+  "ISSUE": "19",
+  "PAGE": "2828-9",
+  "Authors": "Feng S,Liu D,Zhan X,Wing MK,Abecasis GR",
+  "ABSTRACT": "SUMMARY: RAREMETAL is a computationally efficient tool for meta-analysis of rare variants genotyped using sequencing or arrays. RAREMETAL facilitates analyses of individual studies, accommodates a variety of input file formats, handles related and unrelated individuals, executes both single variant and burden tests and performs conditional association analyses. AVAILABILITY AND IMPLEMENTATION: http://genome.sph.umich.edu/wiki/RAREMETAL for executables, source code, documentation and tutorial.",
+  "DOI": "10.1093/bioinformatics/btu367",
+  "PMC ID": "PMC4173011",
+  "CITATION": "Feng S, Liu D, Zhan X, Wing MK, ...&, Abecasis GR. (2014) RAREMETAL: fast and powerful meta-analysis for rare variants. Bioinformatics, 30 (19) 2828-9. doi:10.1093/bioinformatics/btu367. PMID 24894501",
+  "FIRST_AUTHOR": "Feng S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

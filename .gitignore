@@ -1,0 +1,39 @@
+.cache/
+
+# MkDocs build output
+/site/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local venvs
+.venv/
+venv/
+env/
+
+# PubMed baseline (scripts/pubmed_baseline_gwas.py): commit merged CSVs + run_meta.json for
+# site builds (render_trending_pubmed_gwas.py). Keep shard intermediates and logs local only.
+/ranking/output/pubmed_baseline_gwas/shards/
+/ranking/output/pubmed_baseline_gwas/*.log
+
+# Generated from catalog build (src/main.py, scripts)
+# Run `python src/main.py` before `mkdocs build` / deploy (source: json/ + templates).
+/docs/**/*.md
+/docs/tags/
+/docs/stylesheets/extra.min.css
+/docs/assets/trending/
+
+# Written by load_data when building the table (PMIDs missing bibliography)
+/not_in_lib.pmidlist
+
+# Editor / tooling backups
+mkdocs.yml.bak

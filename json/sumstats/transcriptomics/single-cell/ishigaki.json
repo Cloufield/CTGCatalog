@@ -1,0 +1,25 @@
+{
+  "NAME": "Ishigaki",
+  "PMID": 28553958,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Single-cell",
+  "MANUAL_YEAR": 2017,
+  "MANUAL_CITATION": "Ishigaki, K., Kochi, Y., Suzuki, A., Tsuchida, Y., Tsuchiya, H., Sumitomo, S., ... & Yamamoto, K. (2017). Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nature genetics, 49(7), 1120-1125.",
+  "TITLE": "Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2017",
+  "VOLUME": "49",
+  "ISSUE": "7",
+  "PAGE": "1120-1125",
+  "Authors": "Ishigaki K,Kochi Y,Suzuki A,Tsuchida Y,Tsuchiya H,Sumitomo S,Yamaguchi K,Nagafuchi Y,Nakachi S,Kato R,Sakurai K,Shoda H,Ikari K,Taniguchi A,Yamanaka H,Miya F,Tsunoda T,Okada Y,Momozawa Y,Kamatani Y,Yamada R,Kubo M,Fujio K,Yamamoto K",
+  "ABSTRACT": "Recent evidence suggests that a substantial portion of complex disease risk alleles modify gene expression in a cell-specific manner. To identify candidate causal genes and biological pathways of immune-related complex diseases, we conducted expression quantitative trait loci (eQTL) analysis on five subsets of immune cells (CD4+ T cells, CD8+ T cells, B cells, natural killer (NK) cells and monocytes) and unfractionated peripheral blood from 105 healthy Japanese volunteers. We developed a three-step analytical pipeline comprising (i) prediction of individual gene expression using our eQTL database and public epigenomic data, (ii) gene-level association analysis and (iii) prediction of cell-specific pathway activity by integrating the direction of eQTL effects. By applying this pipeline to rheumatoid arthritis data sets, we identified candidate causal genes and a cytokine pathway (upregulation of tumor necrosis factor (TNF) in CD4+ T cells). Our approach is an efficient way to characterize the polygenic contributions and potential biological mechanisms of complex diseases.",
+  "DOI": "10.1038/ng.3885",
+  "PMC ID": "",
+  "CITATION": "Ishigaki K, Kochi Y, Suzuki A, Tsuchida Y, ...&, Yamamoto K. (2017) Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nat Genet, 49 (7) 1120-1125. doi:10.1038/ng.3885. PMID 28553958",
+  "FIRST_AUTHOR": "Ishigaki K",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

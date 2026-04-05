@@ -1,0 +1,28 @@
+{
+  "NAME": "HyPrColoc",
+  "PMID": 33536417,
+  "SECTION": "Tools",
+  "TOPIC": "Colocalization",
+  "TYPE": "Tools",
+  "SHORT NAME": "HyPrColoc",
+  "FULL NAME": "Hypothesis Prioritisation for multi-trait Colocalization",
+  "KEYWORDS": "multiple traits,",
+  "URL": "https://github.com/cnfoley/hyprcoloc",
+  "MANUAL_CITATION": "Foley, C. N., Staley, J. R., Breen, P. G., Sun, B. B., Kirk, P. D., Burgess, S., & Howson, J. M. (2021). A fast and efficient colocalization algorithm for identifying shared genetic risk factors across multiple traits. Nature communications, 12(1), 1-18.",
+  "TITLE": "A fast and efficient colocalization algorithm for identifying shared genetic risk factors across multiple traits.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "764",
+  "Authors": "Foley CN,Staley JR,Breen PG,Sun BB,Kirk PDW,Burgess S,Howson JMM",
+  "ABSTRACT": "Genome-wide association studies (GWAS) have identified thousands of genomic regions affecting complex diseases. The next challenge is to elucidate the causal genes and mechanisms involved. One approach is to use statistical colocalization to assess shared genetic aetiology across multiple related traits (e.g. molecular traits, metabolic pathways and complex diseases) to identify causal pathways, prioritize causal variants and evaluate pleiotropy. We propose HyPrColoc (Hypothesis Prioritisation for multi-trait Colocalization), an efficient deterministic Bayesian algorithm using GWAS summary statistics that can detect colocalization across vast numbers of traits simultaneously (e.g. 100 traits can be jointly analysed in around 1 s). We perform a genome-wide multi-trait colocalization analysis of coronary heart disease (CHD) and fourteen related traits, identifying 43 regions in which CHD colocalized with ≥1 trait, including 5 previously unknown CHD loci. Across the 43 loci, we further integrate gene and protein expression quantitative trait loci to identify candidate causal genes.",
+  "DOI": "10.1038/s41467-020-20885-8",
+  "PMC ID": "PMC7858636",
+  "CITATION": "Foley CN, Staley JR, Breen PG, Sun BB, ...&, Howson JMM. (2021) A fast and efficient colocalization algorithm for identifying shared genetic risk factors across multiple traits. Nat Commun, 12 (1) 764. doi:10.1038/s41467-020-20885-8. PMID 33536417",
+  "FIRST_AUTHOR": "Foley CN",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

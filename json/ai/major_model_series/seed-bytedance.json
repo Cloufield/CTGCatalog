@@ -1,0 +1,13 @@
+{
+  "NAME": "Seed",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "ByteDance",
+  "URL": "https://seed.bytedance.com/en",
+  "DESCRIPTION": "ByteDance Seed LLM lineup (e.g. Seed 2.0 Pro/Lite/Mini, prior Seed 1.x) for chat, agents, multimodal, and production APIs—sibling to consumer products such as Doubao.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

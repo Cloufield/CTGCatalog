@@ -1,0 +1,33 @@
+{
+  "NAME": "PolyPhen-2",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "PolyPhen-2",
+  "PMID": 23315928,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nAdzhubei, I., Jordan, D. M. & Sunyaev, S. R. Predicting Functional Effect of Human Missense Mutations Using PolyPhen-2. Curr. Protoc. Hum. Genet. 76, 7.20.1-7.20.41 (2013).  \n",
+  "TOPIC": "Function",
+  "URL": "http://genetics.bwh.harvard.edu/pph2/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Predicts functional impact of amino acid substitutions.",
+  "MANUAL_YEAR": 2010,
+  "SHORT NAME": "PolyPhen-2",
+  "FULL NAME": "Polymorphism Phenotyping v2",
+  "KEYWORDS": "missense, conservation",
+  "USE": "variant scoring",
+  "TITLE": "Predicting functional effect of human missense mutations using PolyPhen-2.",
+  "ISO": "Curr Protoc Hum Genet",
+  "JOURNAL": "Current protocols in human genetics",
+  "YEAR": "2013",
+  "VOLUME": "Chapter 7",
+  "ISSUE": "",
+  "PAGE": "Unit7.20",
+  "Authors": "Adzhubei I,Jordan DM,Sunyaev SR",
+  "ABSTRACT": "PolyPhen-2 (Polymorphism Phenotyping v2), available as software and via a Web server, predicts the possible impact of amino acid substitutions on the stability and function of human proteins using structural and comparative evolutionary considerations. It performs functional annotation of single-nucleotide polymorphisms (SNPs), maps coding SNPs to gene transcripts, extracts protein sequence annotations and structural attributes, and builds conservation profiles. It then estimates the probability of the missense mutation being damaging based on a combination of all these properties. PolyPhen-2 features include a high-quality multiple protein sequence alignment pipeline and a prediction method employing machine-learning classification. The software also integrates the UCSC Genome Browser's human genome annotations and MultiZ multiple alignments of vertebrate genomes with the human genome. PolyPhen-2 is capable of analyzing large volumes of data produced by next-generation sequencing projects, thanks to built-in support for high-performance computing environments like Grid Engine and Platform LSF.",
+  "DOI": "10.1002/0471142905.hg0720s76",
+  "PMC ID": "PMC4480630",
+  "CITATION": "Adzhubei I, Jordan DM, Sunyaev SR. (2013) Predicting functional effect of human missense mutations using PolyPhen-2. Curr Protoc Hum Genet, Chapter 7 () Unit7.20. doi:10.1002/0471142905.hg0720s76. PMID 23315928",
+  "FIRST_AUTHOR": "Adzhubei I",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

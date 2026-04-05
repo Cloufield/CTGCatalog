@@ -1,0 +1,31 @@
+{
+  "NAME": "gsMap",
+  "PMID": 40108460,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "gsMap",
+  "FULL NAME": "genetically informed spatial mapping of cells for complex traits",
+  "MANUAL_YEAR": 2025,
+  "KEYWORDS": "spatial transciptomics",
+  "URL": "https://github.com/JianYang-Lab/gsMap",
+  "DESCRIPTION": "gsMap (genetically informed spatial mapping of cells for complex traits) integrates spatial transcriptomics (ST) data with genome-wide association study (GWAS) summary statistics to map cells to human complex traits, including diseases, in a spatially resolved manner.",
+  "MANUAL_CITATION": "\nSong, L., Chen, W., Hou, J., Guo, M. & Yang, J. Spatially resolved mapping of cells associated with human complex traits. Nature 1–10 (2025).\n  \n",
+  "ARROW_SUMMARY": "Spatial transcriptomics data + GWAS summary statistics → Graph Neural Network identifies homogeneous spatial domains → Compute Gene Specificity Scores (GSS) for each spot → Map GSS to nearby SNPs → Perform Stratified LD Score Regression (S-LDSC) to assess trait heritability enrichment → Aggregate spot-level p-values using the Cauchy Combination Test to identify trait-associated spatial regions",
+  "TITLE": "Spatially resolved mapping of cells associated with human complex traits.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2025",
+  "VOLUME": "641",
+  "ISSUE": "8064",
+  "PAGE": "932-941",
+  "Authors": "Song L,Chen W,Hou J,Guo M,Yang J",
+  "ABSTRACT": "Depicting spatial distributions of disease-relevant cells is crucial for understanding disease pathology1,2. Here we present genetically informed spatial mapping of cells for complex traits (gsMap), a method that integrates spatial transcriptomics data with summary statistics from genome-wide association studies to map cells to human complex traits, including diseases, in a spatially resolved manner. Using embryonic spatial transcriptomics datasets covering 25 organs, we benchmarked gsMap through simulation and by corroborating known trait-associated cells or regions in various organs. Applying gsMap to brain spatial transcriptomics data, we reveal that the spatial distribution of glutamatergic neurons associated with schizophrenia more closely resembles that for cognitive traits than that for mood traits such as depression. The schizophrenia-associated glutamatergic neurons were distributed near the dorsal hippocampus, with upregulated expression of calcium signalling and regulation genes, whereas depression-associated glutamatergic neurons were distributed near the deep medial prefrontal cortex, with upregulated expression of neuroplasticity and psychiatric drug target genes. Our study provides a method for spatially resolved mapping of trait-associated cells and demonstrates the gain of biological insights (such as the spatial distribution of trait-relevant cells and related signature genes) through these maps.",
+  "DOI": "10.1038/s41586-025-08757-x",
+  "PMC ID": "PMC12095064",
+  "CITATION": "Song L, Chen W, Hou J, Guo M, ...&, Yang J. (2025) Spatially resolved mapping of cells associated with human complex traits. Nature, 641 (8064) 932-941. doi:10.1038/s41586-025-08757-x. PMID 40108460",
+  "FIRST_AUTHOR": "Song L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

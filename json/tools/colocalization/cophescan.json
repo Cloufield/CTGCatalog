@@ -1,0 +1,27 @@
+{
+  "NAME": "CoPheScan",
+  "PMID": 38997278,
+  "SECTION": "Tools",
+  "TOPIC": "Colocalization",
+  "TYPE": "Tools",
+  "SHORT NAME": "CoPheScan",
+  "FULL NAME": "Coloc adapted Phenome-wide Scan",
+  "URL": "https://github.com/ichcha-m/cophescan",
+  "MANUAL_CITATION": "Manipur, I., Reales, G., Sul, J. H., Shin, M. K., Longerich, S., Cortes, A., & Wallace, C. (2023). CoPheScan: phenome-wide association studies accounting for linkage disequilibrium. bioRxiv, 2023-06.",
+  "TITLE": "CoPheScan: phenome-wide association studies accounting for linkage disequilibrium.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "5862",
+  "Authors": "Manipur I,Reales G,Sul JH,Shin MK,Longerich S,Cortes A,Wallace C",
+  "ABSTRACT": "Phenome-wide association studies (PheWAS) facilitate the discovery of associations between a single genetic variant with multiple phenotypes. For variants which impact a specific protein, this can help identify additional therapeutic indications or on-target side effects of intervening on that protein. However, PheWAS is restricted by an inability to distinguish confounding due to linkage disequilibrium (LD) from true pleiotropy. Here we describe CoPheScan (Coloc adapted Phenome-wide Scan), a Bayesian approach that enables an intuitive and systematic exploration of causal associations while simultaneously addressing LD confounding. We demonstrate its performance through simulation, showing considerably better control of false positive rates than a conventional approach not accounting for LD. We used CoPheScan to perform PheWAS of protein-truncating variants and fine-mapped variants from disease and pQTL studies, in 2275 disease phenotypes from the UK Biobank. Our results identify the complexity of known pleiotropic genes such as APOE, and suggest a new causal role for TGM3 in skin cancer.",
+  "DOI": "10.1038/s41467-024-49990-8",
+  "PMC ID": "PMC11245513",
+  "CITATION": "Manipur I, Reales G, Sul JH, Shin MK, ...&, Wallace C. (2024) CoPheScan: phenome-wide association studies accounting for linkage disequilibrium. Nat Commun, 15 (1) 5862. doi:10.1038/s41467-024-49990-8. PMID 38997278",
+  "FIRST_AUTHOR": "Manipur I",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

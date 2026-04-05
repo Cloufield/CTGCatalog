@@ -1,0 +1,15 @@
+{
+  "NAME": "Massachusetts General Brigham Biobank",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~26K",
+  "MANUAL_CITATION": " Boutin, N. T., Schecter, S. B., Perez, E. F., Tchamitchian, N. S., Cerretani, X. R., Gainer, V. S., ... & Smoller, J. W. (2022). The Evolution of a Large Biobank at Mass General Brigham. Journal of Personalized Medicine, 12(8), 1323.\nCastro, V. M., Gainer, V., Wattanasin, N., Benoit, B., Cagan, A., Ghosh, B., ... & Murphy, S. N. (2022). The Mass General Brigham Biobank Portal: an i2b2-based data repository linking disparate and high-dimensional patient data to support multimodal analytics. Journal of the American Medical Informatics Association, 29(4), 643-651.",
+  "URL": "https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank",
+  "DESCRIPTION": " The Mass General Brigham Biobank is a large research program designed to help researchers understand how people’s health is affected by their genes, lifestyle, and environment. By participating in the Mass General Brigham Biobank, you can help us better understand, treat, and even prevent the diseases that might affect your health and the health of future generations. ",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR,AMR,EAS,EUR,SAS",
+  "PARTICIPANTS": "Mass General Brigham patients"
+}

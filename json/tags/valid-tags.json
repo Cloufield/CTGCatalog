@@ -1,0 +1,264 @@
+{
+  "_meta": {
+    "kind": "tag_registry",
+    "usage": "Each object's \"tag\" is an allowed value for catalog JSON TAGS / TAG (see .design/SCHEMA.md). Append entries as the vocabulary grows. Files under json/tags/ are not loaded as catalog rows."
+  },
+  "tags": [
+    {
+      "tag": "1000 Genomes",
+      "description": "1000 Genomes Project data, phases, or reference panels."
+    },
+    {
+      "tag": "Agent",
+      "description": "LLM or agent-style tools for genetics workflows (AI section)."
+    },
+    {
+      "tag": "Bayesian methods",
+      "description": "Bayesian inference for PRS, fine-mapping, or related models."
+    },
+    {
+      "tag": "Biobank / cohort",
+      "description": "Large population cohort or biobank resource (default Tools-adjacent badge)."
+    },
+    {
+      "tag": "Biobank scale",
+      "description": "Methods designed for very large cohorts (e.g. UKB-scale computation)."
+    },
+    {
+      "tag": "CNV",
+      "description": "Copy-number variation (sequence- or read-based)."
+    },
+    {
+      "tag": "Colocalization",
+      "description": "Colocalization of GWAS with QTL or other molecular traits."
+    },
+    {
+      "tag": "Cross-ancestry",
+      "description": "Cross-population or trans-ethnic comparison, transfer, or modeling."
+    },
+    {
+      "tag": "Deep learning",
+      "description": "Neural or deep models for prediction, sequence, or imaging."
+    },
+    {
+      "tag": "eQTL",
+      "description": "Expression quantitative trait loci (bulk or single-cell)."
+    },
+    {
+      "tag": "Epigenomics",
+      "description": "Methylation, chromatin, or other epigenetic layers."
+    },
+    {
+      "tag": "Expression",
+      "description": "Gene or transcript expression resources (e.g. bulk tissue panels)."
+    },
+    {
+      "tag": "Family-based",
+      "description": "Related samples, pedigree structure, or family GWAS."
+    },
+    {
+      "tag": "Fine mapping",
+      "description": "Credible sets, causal variant prioritization, or regional refinement."
+    },
+    {
+      "tag": "Genomic models",
+      "description": "Large sequence or multimodal models for DNA, regulatory, or protein context (AI catalog topic)."
+    },
+    {
+      "tag": "Functional annotation",
+      "description": "Variant consequence, scores, or functional priors for association."
+    },
+    {
+      "tag": "Functional genomics",
+      "description": "Integrated functional data (eQTL, chromatin, expression context)."
+    },
+    {
+      "tag": "Gene-based test",
+      "description": "Gene- or region-level association (burden, SKAT, meta-gene tests)."
+    },
+    {
+      "tag": "Gene prioritization",
+      "description": "Prioritizing causal genes at GWAS loci."
+    },
+    {
+      "tag": "Genetic correlation",
+      "description": "Shared genetic architecture between traits (e.g. LDSC-related)."
+    },
+    {
+      "tag": "GTEx",
+      "description": "Genotype-Tissue Expression project or GTEx-derived resources."
+    },
+    {
+      "tag": "GWAS",
+      "description": "Genome-wide association study methods or results."
+    },
+    {
+      "tag": "GxE",
+      "description": "Gene–environment interaction analyses."
+    },
+    {
+      "tag": "HapMap",
+      "description": "HapMap-era panels or legacy reference haplotypes."
+    },
+    {
+      "tag": "Heritability",
+      "description": "SNP-chip or partitioned heritability estimation."
+    },
+    {
+      "tag": "HLA",
+      "description": "HLA typing, imputation, or MHC-focused association."
+    },
+    {
+      "tag": "Imaging",
+      "description": "Brain or other imaging-derived GWAS / endophenotypes."
+    },
+    {
+      "tag": "Imputation",
+      "description": "Genotype imputation servers, panels, or phasing workflows."
+    },
+    {
+      "tag": "Journal",
+      "description": "Publication venue entry (default Journals section badge)."
+    },
+    {
+      "tag": "Longitudinal",
+      "description": "Repeated measures, trajectories, or within-subject variability."
+    },
+    {
+      "tag": "Mendelian randomization",
+      "description": "MR, causal inference from germline instruments."
+    },
+    {
+      "tag": "Meta-analysis",
+      "description": "Combining studies or summary statistics across cohorts."
+    },
+    {
+      "tag": "Metabolomics",
+      "description": "Metabolite or metabolic trait GWAS / resources."
+    },
+    {
+      "tag": "Multi-ancestry",
+      "description": "Multiple genetic ancestries or trans-ancestry scope in one resource."
+    },
+    {
+      "tag": "Multi-omics",
+      "description": "Joint layers (e.g. genomics + proteomics + metabolomics)."
+    },
+    {
+      "tag": "Multi-trait",
+      "description": "Multiple traits or phenotypes; multi-trait fine-mapping or meta-methods."
+    },
+    {
+      "tag": "Ordinal phenotypes",
+      "description": "Ordered categorical or graded outcomes."
+    },
+    {
+      "tag": "Pangenome",
+      "description": "Pangenome graphs, graph genomes, or pangenome-aware genotyping."
+    },
+    {
+      "tag": "Pathway analysis",
+      "description": "Gene-set, pathway, or enrichment-style follow-up."
+    },
+    {
+      "tag": "Phenotypes",
+      "description": "Phenotype coding, linkage, or deep phenotyping in a cohort."
+    },
+    {
+      "tag": "Pleiotropy",
+      "description": "Multiple traits per variant or shared signal modeling."
+    },
+    {
+      "tag": "Population genetics",
+      "description": "Selection, demography, admixture, genealogy, or related population-level inference."
+    },
+    {
+      "tag": "Privacy-preserving GWAS",
+      "description": "Secure or federated association without sharing individual genotypes."
+    },
+    {
+      "tag": "Program",
+      "description": "Multi-phase flagship program (default Projects section badge)."
+    },
+    {
+      "tag": "PRS",
+      "description": "Polygenic risk or liability scores; PGS calibration and transfer."
+    },
+    {
+      "tag": "Proteomics",
+      "description": "Protein-level GWAS, assays, or proteomic sumstats."
+    },
+    {
+      "tag": "Rare variants",
+      "description": "Rare or low-frequency variant association (e.g. RVAS, gene tests)."
+    },
+    {
+      "tag": "Reference",
+      "description": "Reference panel, genome build, or baseline population resource."
+    },
+    {
+      "tag": "scATAC-seq",
+      "description": "Single-cell chromatin accessibility integration with genetics."
+    },
+    {
+      "tag": "scRNA-seq",
+      "description": "Single-cell RNA integration with GWAS or QTL context."
+    },
+    {
+      "tag": "Simulation",
+      "description": "Power, null, or method benchmarking simulators."
+    },
+    {
+      "tag": "Single cell",
+      "description": "Single-cell methods or atlases (default Single_Cell section badge)."
+    },
+    {
+      "tag": "Spatial omics",
+      "description": "Spatial transcriptomics or imaging-based spatial assays."
+    },
+    {
+      "tag": "sQTL",
+      "description": "Splicing QTL or splice-related molecular QTL."
+    },
+    {
+      "tag": "Structural variants",
+      "description": "SVs, CNVs at genome scale, or graph-based SV typing."
+    },
+    {
+      "tag": "Summary statistics",
+      "description": "Summary-statistic input/output; default Sumstats section badge."
+    },
+    {
+      "tag": "Time-to-event",
+      "description": "Survival, censored, or time-to-event phenotypes."
+    },
+    {
+      "tag": "Tool",
+      "description": "Software or package (default Tools section badge)."
+    },
+    {
+      "tag": "Transcriptomics",
+      "description": "RNA-seq, expression GWAS, or transcript-level sumstats."
+    },
+    {
+      "tag": "TWAS",
+      "description": "Transcriptome-wide association; gene expression–mediated association."
+    },
+    {
+      "tag": "UK Biobank",
+      "description": "UK Biobank data, phenotypes, or UKB-focused methods."
+    },
+    {
+      "tag": "Visualization",
+      "description": "Plots, browsers, or GWAS/variant visualization tools."
+    },
+    {
+      "tag": "WES",
+      "description": "Whole-exome sequencing data or exome-first analyses."
+    },
+    {
+      "tag": "WGS",
+      "description": "Whole-genome sequencing data or WGS-first analyses."
+    }
+  ]
+}

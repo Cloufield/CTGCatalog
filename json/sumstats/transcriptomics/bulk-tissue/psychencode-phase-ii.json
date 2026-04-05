@@ -1,0 +1,28 @@
+{
+  "NAME": "PsychENCODE Phase II",
+  "PMID": 38781368,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Bulk tissue",
+  "CATEGORY": "Brain",
+  "DESCRIPTION": "A large-scale, cross-population resource of gene, isoform, and splicing regulation in the developing human brain",
+  "URL": "https://www.psychencode.org/home",
+  "MANUAL_YEAR": 2024,
+  "MANUAL_CITATION": "\nWen, C. et al. Cross-ancestry atlas of gene, isoform, and splicing regulation in the developing human brain. Science 384, eadh0829 (2024).\n  \n",
+  "TITLE": "Cross-ancestry atlas of gene, isoform, and splicing regulation in the developing human brain.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2024",
+  "VOLUME": "384",
+  "ISSUE": "6698",
+  "PAGE": "eadh0829",
+  "Authors": "Wen C,Margolis M,Dai R,Zhang P,Przytycki PF,Vo DD,Bhattacharya A,Matoba N,Tang M,Jiao C,Kim M,Tsai E,Hoh C,Aygün N,Walker RL,Chatzinakos C,Clarke D,Pratt H,PsychENCODE Consortium†,Peters MA,Gerstein M,Daskalakis NP,Weng Z,Jaffe AE,Kleinman JE,Hyde TM,Weinberger DR,Bray NJ,Sestan N,Geschwind DH,Roeder K,Gusev A,Pasaniuc B,Stein JL,Love MI,Pollard KS,Liu C,Gandal MJ,PsychENCODE Consortium",
+  "ABSTRACT": "Neuropsychiatric genome-wide association studies (GWASs), including those for autism spectrum disorder and schizophrenia, show strong enrichment for regulatory elements in the developing brain. However, prioritizing risk genes and mechanisms is challenging without a unified regulatory atlas. Across 672 diverse developing human brains, we identified 15,752 genes harboring gene, isoform, and/or splicing quantitative trait loci, mapping 3739 to cellular contexts. Gene expression heritability drops during development, likely reflecting both increasing cellular heterogeneity and the intrinsic properties of neuronal maturation. Isoform-level regulation, particularly in the second trimester, mediated the largest proportion of GWAS heritability. Through colocalization, we prioritized mechanisms for about 60% of GWAS loci across five disorders, exceeding adult brain findings. Finally, we contextualized results within gene and isoform coexpression networks, revealing the comprehensive landscape of transcriptome regulation in development and disease.",
+  "DOI": "10.1126/science.adh0829",
+  "PMC ID": "PMC12147038",
+  "CITATION": "Wen C, Margolis M, Dai R, Zhang P, ...&, PsychENCODE Consortium. (2024) Cross-ancestry atlas of gene, isoform, and splicing regulation in the developing human brain. Science, 384 (6698) eadh0829. doi:10.1126/science.adh0829. PMID 38781368",
+  "FIRST_AUTHOR": "Wen C",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

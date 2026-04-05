@@ -1,0 +1,29 @@
+{
+  "NAME": "GWAMA",
+  "PMID": 20509871,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Meta-analysis",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWAMA",
+  "FULL NAME": "Genome-Wide Association Meta-Analysis",
+  "URL": "https://genomics.ut.ee/en/tools",
+  "DESCRIPTION": "Software tool for meta analysis of whole genome association data",
+  "MANUAL_CITATION": "Mägi, R., & Morris, A. P. (2010). GWAMA: software for genome-wide association meta-analysis. BMC bioinformatics, 11(1), 1-6.",
+  "TITLE": "GWAMA: software for genome-wide association meta-analysis.",
+  "ISO": "BMC Bioinformatics",
+  "JOURNAL": "BMC bioinformatics",
+  "YEAR": "2010",
+  "VOLUME": "11",
+  "ISSUE": "",
+  "PAGE": "288",
+  "Authors": "Mägi R,Morris AP",
+  "ABSTRACT": "BACKGROUND: Despite the recent success of genome-wide association studies in identifying novel loci contributing effects to complex human traits, such as type 2 diabetes and obesity, much of the genetic component of variation in these phenotypes remains unexplained. One way to improving power to detect further novel loci is through meta-analysis of studies from the same population, increasing the sample size over any individual study. Although statistical software analysis packages incorporate routines for meta-analysis, they are ill equipped to meet the challenges of the scale and complexity of data generated in genome-wide association studies. RESULTS: We have developed flexible, open-source software for the meta-analysis of genome-wide association studies. The software incorporates a variety of error trapping facilities, and provides a range of meta-analysis summary statistics. The software is distributed with scripts that allow simple formatting of files containing the results of each association study and generate graphical summaries of genome-wide meta-analysis results. CONCLUSIONS: The GWAMA (Genome-Wide Association Meta-Analysis) software has been developed to perform meta-analysis of summary statistics generated from genome-wide association studies of dichotomous phenotypes or quantitative traits. Software with source files, documentation and example data files are freely available online at http://www.well.ox.ac.uk/GWAMA.",
+  "DOI": "10.1186/1471-2105-11-288",
+  "PMC ID": "PMC2893603",
+  "CITATION": "Mägi R, Morris AP. (2010) GWAMA: software for genome-wide association meta-analysis. BMC Bioinformatics, 11 () 288. doi:10.1186/1471-2105-11-288. PMID 20509871",
+  "FIRST_AUTHOR": "Mägi R",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

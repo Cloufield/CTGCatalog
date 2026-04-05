@@ -1,0 +1,33 @@
+{
+  "NAME": "Pirruccello JP",
+  "ADD_SUFFIX": 1,
+  "PMID": 32382064,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "CMR: left ventricular end-diastolic volume (LVEDV), left ventricular end-systolic volume (LVESV), stroke volume (SV), the body-surface-area (BSA) indexed versions of each of these traits (LVEDVi, LVESVi, and SVi), and left ventricular ejection fraction (LVEF)",
+  "PLATFORM": "Cardiac MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 36041,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Pirruccello, J. P. et al. Analysis of cardiac magnetic resonance imaging in 36,000 individuals yields genetic insights into dilated cardiomyopathy. Nat. Commun. 11, 2254 (2020).",
+  "MANUAL_YEAR": 2020,
+  "TITLE": "Analysis of cardiac magnetic resonance imaging in 36,000 individuals yields genetic insights into dilated cardiomyopathy.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2020",
+  "VOLUME": "11",
+  "ISSUE": "1",
+  "PAGE": "2254",
+  "Authors": "Pirruccello JP,Bick A,Wang M,Chaffin M,Friedman S,Yao J,Guo X,Venkatesh BA,Taylor KD,Post WS,Rich S,Lima JAC,Rotter JI,Philippakis A,Lubitz SA,Ellinor PT,Khera AV,Kathiresan S,Aragam KG",
+  "ABSTRACT": "Dilated cardiomyopathy (DCM) is an important cause of heart failure and the leading indication for heart transplantation. Many rare genetic variants have been associated with DCM, but common variant studies of the disease have yielded few associated loci. As structural changes in the heart are a defining feature of DCM, we report a genome-wide association study of cardiac magnetic resonance imaging (MRI)-derived left ventricular measurements in 36,041 UK Biobank participants, with replication in 2184 participants from the Multi-Ethnic Study of Atherosclerosis. We identify 45 previously unreported loci associated with cardiac structure and function, many near well-established genes for Mendelian cardiomyopathies. A polygenic score of MRI-derived left ventricular end systolic volume strongly associates with incident DCM in the general population. Even among carriers of TTN truncating mutations, this polygenic score influences the size and function of the human heart. These results further implicate common genetic polymorphisms in the pathogenesis of DCM.",
+  "DOI": "10.1038/s41467-020-15823-7",
+  "PMC ID": "PMC7206184",
+  "CITATION": "Pirruccello JP, Bick A, Wang M, Chaffin M, ...&, Aragam KG. (2020) Analysis of cardiac magnetic resonance imaging in 36,000 individuals yields genetic insights into dilated cardiomyopathy. Nat Commun, 11 (1) 2254. doi:10.1038/s41467-020-15823-7. PMID 32382064",
+  "FIRST_AUTHOR": "Pirruccello JP",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

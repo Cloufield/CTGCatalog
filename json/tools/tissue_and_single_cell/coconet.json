@@ -1,0 +1,29 @@
+{
+  "NAME": "CoCoNet",
+  "PMID": 32310941,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "CoCoNet",
+  "FULL NAME": "CoCoNet",
+  "KEYWORDS": "composite likelihood-based inference algorithm",
+  "URL": "https://xiangzhou.github.io/software/",
+  "DESCRIPTION": "CoCoNet is a composite likelihood-based covariance regression network model for identifying trait-relevant tissues or cell types.",
+  "MANUAL_CITATION": "Shang, L., Smith, J. A., & Zhou, X. (2020). Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies. PLoS genetics, 16(4), e1008734.",
+  "TITLE": "Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "4",
+  "PAGE": "e1008734",
+  "Authors": "Shang L,Smith JA,Zhou X",
+  "ABSTRACT": "Genome-wide association studies (GWASs) have identified many SNPs associated with various common diseases. Understanding the biological functions of these identified SNP associations requires identifying disease/trait relevant tissues or cell types. Here, we develop a network method, CoCoNet, to facilitate the identification of trait-relevant tissues or cell types. Different from existing approaches, CoCoNet incorporates tissue-specific gene co-expression networks constructed from either bulk or single cell RNA sequencing (RNAseq) studies with GWAS data for trait-tissue inference. In particular, CoCoNet relies on a covariance regression network model to express gene-level effect measurements for the given GWAS trait as a function of the tissue-specific co-expression adjacency matrix. With a composite likelihood-based inference algorithm, CoCoNet is scalable to tens of thousands of genes. We validate the performance of CoCoNet through extensive simulations. We apply CoCoNet for an in-depth analysis of four neurological disorders and four autoimmune diseases, where we integrate the corresponding GWASs with bulk RNAseq data from 38 tissues and single cell RNAseq data from 10 cell types. In the real data applications, we show how CoCoNet can help identify specific glial cell types relevant for neurological disorders and identify disease-targeted colon tissues as relevant for autoimmune diseases.",
+  "DOI": "10.1371/journal.pgen.1008734",
+  "PMC ID": "PMC7192514",
+  "CITATION": "Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies. PLoS Genet, 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941",
+  "FIRST_AUTHOR": "Shang L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

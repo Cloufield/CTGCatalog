@@ -1,0 +1,17 @@
+{
+  "NAME": "China Kadoorie Biobank",
+  "SHORT NAME": "CKB",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~512k",
+  "NOTE": "University of Oxford, BJMU, Peking Union Medical College",
+  "MANUAL_CITATION": " Chen, Z., Chen, J., Collins, R., Guo, Y., Peto, R., Wu, F., & Li, L. (2011). China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up. International journal of epidemiology, 40(6), 1652-1666.\nWalters, R. G., Millwood, I. Y., Lin, K., Valle, D. S., McDonnell, P., Hacker, A., ... & Chen, Z. (2023). Genotyping and population characteristics of the China Kadoorie Biobank. Cell Genomics, 3(8).",
+  "URL": "https://www.ckbiobank.org/",
+  "DESCRIPTION": "The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Chinese adults (10 regions; prospective cohort)"
+}

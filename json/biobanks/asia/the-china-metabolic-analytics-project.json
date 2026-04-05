@@ -1,0 +1,17 @@
+{
+  "NAME": "The China Metabolic Analytics Project",
+  "SHORT NAME": "ChinaMAP",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~10k",
+  "NOTE": "Shanghai Jiao Tong University",
+  "MANUAL_CITATION": "Cao, Y., Li, L., Xu, M., Feng, Z., Sun, X., Lu, J., ... & Wang, W. (2020). The ChinaMAP analytics of deep whole genome sequences in 10,588 individuals. Cell research, 30(9), 717-731.",
+  "URL": "http://www.mbiobank.com/",
+  "DESCRIPTION": "The ChinaMAP is based on three large-scale cohorts: The China Noncommunicable Disease Surveillance 2010, a nationally representative study with 150,000 participants; the Risk Evaluation of cAncers in Chinese diabeTic Individuals: a lONgitudinal (REACTION) study with 250,000 participants15 and the Community-based Cardiovascular Risk During Urbanization in Shanghai with 50,000 participants.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Chinese adults (metabolic disease cohort)"
+}

@@ -1,0 +1,23 @@
+{
+  "NAME": "Nature reviews. Genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "URL": "http://www.nature.com/nrg/",
+  "ENTRY_COUNT": 7,
+  "CITED_BY_SECTION": {
+    "Tools": 6,
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Suhre",
+    "Review-Povysil",
+    "Review",
+    "Review-Marchini",
+    "Review-Kachuri"
+  ]
+}

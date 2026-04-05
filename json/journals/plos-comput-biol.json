@@ -1,0 +1,22 @@
+{
+  "NAME": "PLoS computational biology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "PLoS Comput Biol",
+  "JOURNAL": "PLoS computational biology",
+  "URL": "http://www.ploscompbiol.org/",
+  "ENTRY_COUNT": 5,
+  "CITED_BY_SECTION": {
+    "Tools": 4,
+    "Sumstats": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Ruffieux",
+    "MAGMA",
+    "PASCAL",
+    "ARGinfer"
+  ]
+}

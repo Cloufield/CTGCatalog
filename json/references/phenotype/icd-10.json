@@ -1,0 +1,19 @@
+{
+  "NAME": "ICD-10",
+  "SECTION": "References",
+  "TOPIC": "Phenotype",
+  "CATEGORY": "Disease classification",
+  "TYPE": "Classification",
+  "SHORT NAME": "ICD-10",
+  "FULL NAME": "International Classification of Diseases 10th Revision",
+  "KEYWORDS": "ICD-10; clinical coding; diagnosis; mortality; morbidity",
+  "DESCRIPTION": "WHO standard for coding diagnoses, symptoms, and procedures in health records and vital statistics. Widely used for epidemiology, billing, and EHR-based research (including mapping to other systems such as Phecodes).",
+  "MANUAL_CITATION": "World Health Organization. International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10).",
+  "CITATION": "World Health Organization. International Statistical Classification of Diseases and Related Health Problems, 10th Revision (ICD-10). Geneva: WHO.",
+  "YEAR": "1990",
+  "URL": "https://icd.who.int/browse10/2019/en",
+  "TAGS": ["Phenotypes"],
+  "_meta": {
+    "source_sheet": "Phenotype"
+  }
+}

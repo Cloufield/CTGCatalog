@@ -1,0 +1,16 @@
+{
+  "NAME": "CoLaus / PsyCoLaus",
+  "SHORT NAME": "CoLaus",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~6.7k (CoLaus); PsyCoLaus psychiatric sub-study",
+  "DESCRIPTION": "Swiss population-based cohort (Lausanne) focused on cardiovascular risk (CoLaus) with parallel PsyCoLaus mental-health deep phenotyping; genotype data used in GWAS and omics analyses.",
+  "MANUAL_CITATION": "Firmann, M., Mayor, V., Vidal, P. M., Bochud, M., Pécoud, A., Hayoz, D., ... & Waeber, G. (2008). The CoLaus study: a population-based study to investigate the epidemiology and genetic determinants of cardiovascular risk factors and metabolic syndrome. BMC Cardiovascular Disorders, 8(1), 6.",
+  "URL": "https://www.colaus-psycolaus.ch/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "Swiss adults (Lausanne population cohort)"
+}

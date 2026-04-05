@@ -1,0 +1,18 @@
+{
+  "NAME": "bioRxiv : the preprint server for biology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "bioRxiv",
+  "JOURNAL": "bioRxiv : the preprint server for biology",
+  "URL": "http://www.biorxiv.org/",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "MutationAssessor"
+  ]
+}

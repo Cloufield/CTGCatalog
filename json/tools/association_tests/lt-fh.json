@@ -1,0 +1,29 @@
+{
+  "NAME": "LT-FH",
+  "PMID": 32313248,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "CATEGORY": "GWAS using family history",
+  "TYPE": "Tools",
+  "SHORT NAME": "LT-FH",
+  "FULL NAME": "liability threshold model, conditional on case–control status and family history",
+  "URL": "https://alkesgroup.broadinstitute.org/UKBB/LTFH/",
+  "DESCRIPTION": "an association method based on posterior mean genetic liabilities under a liability threshold model, conditional on case-control status and family history (LT-FH)",
+  "MANUAL_CITATION": "Hujoel, M. L., Gazal, S., Loh, P. R., Patterson, N., & Price, A. L. (2020). Liability threshold modeling of case–control status and family history of disease increases association power. Nature genetics, 52(5), 541-547.",
+  "TITLE": "Liability threshold modeling of case-control status and family history of disease increases association power.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2020",
+  "VOLUME": "52",
+  "ISSUE": "5",
+  "PAGE": "541-547",
+  "Authors": "Hujoel MLA,Gazal S,Loh PR,Patterson N,Price AL",
+  "ABSTRACT": "Family history of disease can provide valuable information in case-control association studies, but it is currently unclear how to best combine case-control status and family history of disease. We developed an association method based on posterior mean genetic liabilities under a liability threshold model, conditional on case-control status and family history (LT-FH). Analyzing 12 diseases from the UK Biobank (average N = 350,000) we compared LT-FH to genome-wide association without using family history (GWAS) and a previous proxy-based method incorporating family history (GWAX). LT-FH was 63% (standard error (s.e.) 6%) more powerful than GWAS and 36% (s.e. 4%) more powerful than the trait-specific maximum of GWAS and GWAX, based on the number of independent genome-wide-significant loci across all diseases (for example, 690 loci for LT-FH versus 423 for GWAS); relative improvements were similar when applying BOLT-LMM to GWAS, GWAX and LT-FH phenotypes. Thus, LT-FH greatly increases association power when family history of disease is available.",
+  "DOI": "10.1038/s41588-020-0613-6",
+  "PMC ID": "PMC7210076",
+  "CITATION": "Hujoel MLA, Gazal S, Loh PR, Patterson N, ...&, Price AL. (2020) Liability threshold modeling of case-control status and family history of disease increases association power. Nat Genet, 52 (5) 541-547. doi:10.1038/s41588-020-0613-6. PMID 32313248",
+  "FIRST_AUTHOR": "Hujoel MLA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

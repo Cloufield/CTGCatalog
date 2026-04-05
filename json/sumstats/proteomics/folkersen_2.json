@@ -1,0 +1,27 @@
+{
+  "NAME": "Folkersen",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 33067605,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Genomic and drug target evaluation of 90 cardiovascular proteins in 30,931 individuals.",
+  "ISO": "Nat Metab",
+  "JOURNAL": "Nature metabolism",
+  "YEAR": "2020",
+  "VOLUME": "2",
+  "ISSUE": "10",
+  "PAGE": "1135-1148",
+  "Authors": "Folkersen L,Gustafsson S,Wang Q,Hansen DH,Hedman ÅK,Schork A,Page K,Zhernakova DV,Wu Y,Peters J,Eriksson N,Bergen SE,Boutin TS,Bretherick AD,Enroth S,Kalnapenkis A,Gådin JR,Suur BE,Chen Y,Matic L,Gale JD,Lee J,Zhang W,Quazi A,Ala-Korpela M,Choi SH,Claringbould A,Danesh J,Davey Smith G,de Masi F,Elmståhl S,Engström G,Fauman E,Fernandez C,Franke L,Franks PW,Giedraitis V,Haley C,Hamsten A,Ingason A,Johansson Å,Joshi PK,Lind L,Lindgren CM,Lubitz S,Palmer T,Macdonald-Dunlop E,Magnusson M,Melander O,Michaelsson K,Morris AP,Mägi R,Nagle MW,Nilsson PM,Nilsson J,Orho-Melander M,Polasek O,Prins B,Pålsson E,Qi T,Sjögren M,Sundström J,Surendran P,Võsa U,Werge T,Wernersson R,Westra HJ,Yang J,Zhernakova A,Ärnlöv J,Fu J,Smith JG,Esko T,Hayward C,Gyllensten U,Landen M,Siegbahn A,Wilson JF,Wallentin L,Butterworth AS,Holmes MV,Ingelsson E,Mälarstig A",
+  "ABSTRACT": "Circulating proteins are vital in human health and disease and are frequently used as biomarkers for clinical decision-making or as targets for pharmacological intervention. Here, we map and replicate protein quantitative trait loci (pQTL) for 90 cardiovascular proteins in over 30,000 individuals, resulting in 451 pQTLs for 85 proteins. For each protein, we further perform pathway mapping to obtain trans-pQTL gene and regulatory designations. We substantiate these regulatory findings with orthogonal evidence for trans-pQTLs using mouse knockdown experiments (ABCA1 and TRIB1) and clinical trial results (chemokine receptors CCR2 and CCR5), with consistent regulation. Finally, we evaluate known drug targets, and suggest new target candidates or repositioning opportunities using Mendelian randomization. This identifies 11 proteins with causal evidence of involvement in human disease that have not previously been targeted, including EGF, IL-16, PAPPA, SPON1, F3, ADM, CASP-8, CHI3L1, CXCL16, GDF15 and MMP-12. Taken together, these findings demonstrate the utility of large-scale mapping of the genetics of the proteome and provide a resource for future precision studies of circulating proteins in human health.",
+  "DOI": "10.1038/s42255-020-00287-2",
+  "PMC ID": "PMC7611474",
+  "CITATION": "Folkersen L, Gustafsson S, Wang Q, Hansen DH, ...&, Mälarstig A. (2020) Genomic and drug target evaluation of 90 cardiovascular proteins in 30,931 individuals. Nat Metab, 2 (10) 1135-1148. doi:10.1038/s42255-020-00287-2. PMID 33067605",
+  "FIRST_AUTHOR": "Folkersen L",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "NAME": "CT-SLEB",
+  "PMID": 37749244,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "CT-SLEB",
+  "URL": "https://github.com/andrewhaoyu/CTSLEB",
+  "DESCRIPTION": "CT-SLEB is a method designed to generate multi-ancestry PRSs that incorporate existing large GWAS from EUR populations and smaller GWAS from non-EUR populations. The method has three key steps: 1. Clumping and Thresholding for selecting SNPs to be included in a PRS for the target population; 2. Empirical-Bayes method for estimating the coefficients of the SNPs; 3. Super-learning model to combine a series of PRSs generated under different SNP selection thresholds.",
+  "MANUAL_CITATION": "Zhang, H. et al. A new method for multiancestry polygenic prediction improves performance across diverse populations. Nat. Genet. (2023) doi:10.1038/s41588-023-01501-z.\n  ",
+  "TITLE": "A new method for multiancestry polygenic prediction improves performance across diverse populations.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "10",
+  "PAGE": "1757-1768",
+  "Authors": "Zhang H,Zhan J,Jin J,Zhang J,Lu W,Zhao R,Ahearn TU,Yu Z,O'Connell J,Jiang Y,Chen T,Okuhara D,23andMe Research Team,Garcia-Closas M,Lin X,Koelsch BL,Chatterjee N",
+  "ABSTRACT": "Polygenic risk scores (PRSs) increasingly predict complex traits; however, suboptimal performance in non-European populations raise concerns about clinical applications and health inequities. We developed CT-SLEB, a powerful and scalable method to calculate PRSs, using ancestry-specific genome-wide association study summary statistics from multiancestry training samples, integrating clumping and thresholding, empirical Bayes and superlearning. We evaluated CT-SLEB and nine alternative methods with large-scale simulated genome-wide association studies (~19 million common variants) and datasets from 23andMe, Inc., the Global Lipids Genetics Consortium, All of Us and UK Biobank, involving 5.1 million individuals of diverse ancestry, with 1.18 million individuals from four non-European populations across 13 complex traits. Results demonstrated that CT-SLEB significantly improves PRS performance in non-European populations compared with simple alternatives, with comparable or superior performance to a recent, computationally intensive method. Moreover, our simulation studies offered insights into sample size requirements and SNP density effects on multiancestry risk prediction.",
+  "DOI": "10.1038/s41588-023-01501-z",
+  "PMC ID": "PMC10923245",
+  "CITATION": "Zhang H, Zhan J, Jin J, Zhang J, ...&, Chatterjee N. (2023) A new method for multiancestry polygenic prediction improves performance across diverse populations. Nat Genet, 55 (10) 1757-1768. doi:10.1038/s41588-023-01501-z. PMID 37749244",
+  "FIRST_AUTHOR": "Zhang H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

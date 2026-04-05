@@ -1,0 +1,12 @@
+{
+  "NAME": "GWAS Catalog",
+  "SECTION": "References",
+  "TOPIC": "Variant",
+  "CATEGORY": "Variant",
+  "TYPE": "Database",
+  "SHORT NAME": "GWAS Catalog",
+  "URL": "https://www.ebi.ac.uk/gwas/",
+  "_meta": {
+    "source_sheet": "Variant"
+  }
+}

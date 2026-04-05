@@ -1,0 +1,27 @@
+{
+  "NAME": "Png",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 34857772,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Mapping the serum proteome to neurological diseases using whole genome sequencing.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "7042",
+  "Authors": "Png G,Barysenka A,Repetto L,Navarro P,Shen X,Pietzner M,Wheeler E,Wareham NJ,Langenberg C,Tsafantakis E,Karaleftheri M,Dedoussis G,Mälarstig A,Wilson JF,Gilly A,Zeggini E",
+  "ABSTRACT": "Despite the increasing global burden of neurological disorders, there is a lack of effective diagnostic and therapeutic biomarkers. Proteins are often dysregulated in disease and have a strong genetic component. Here, we carry out a protein quantitative trait locus analysis of 184 neurologically-relevant proteins, using whole genome sequencing data from two isolated population-based cohorts (N = 2893). In doing so, we elucidate the genetic landscape of the circulating proteome and its connection to neurological disorders. We detect 214 independently-associated variants for 107 proteins, the majority of which (76%) are cis-acting, including 114 variants that have not been previously identified. Using two-sample Mendelian randomisation, we identify causal associations between serum CD33 and Alzheimer's disease, GPNMB and Parkinson's disease, and MSR1 and schizophrenia, describing their clinical potential and highlighting drug repurposing opportunities.",
+  "DOI": "10.1038/s41467-021-27387-1",
+  "PMC ID": "PMC8640022",
+  "CITATION": "Png G, Barysenka A, Repetto L, Navarro P, ...&, Zeggini E. (2021) Mapping the serum proteome to neurological diseases using whole genome sequencing. Nat Commun, 12 (1) 7042. doi:10.1038/s41467-021-27387-1. PMID 34857772",
+  "FIRST_AUTHOR": "Png G",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "MutationAssessor",
+  "CATEGORY": "Variant Effect Prediction",
+  "SOURCE": "MutationAssessor",
+  "PMID": 40832239,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nSu, Y. et al. MutationAssessor in cBioPortal. bioRxivorg (2025) doi:10.1101/2025.08.10.669566.\n  \n",
+  "TOPIC": "Function",
+  "URL": "http://mutationassessor.org/",
+  "TYPE": "Score",
+  "DESCRIPTION": "Predicts functional impact based on evolutionary conservation.",
+  "MANUAL_YEAR": 2011,
+  "SHORT NAME": "MutationAssessor",
+  "FULL NAME": "MutationAssessor",
+  "KEYWORDS": "conservation, function",
+  "USE": "variant effect",
+  "TITLE": "MutationAssessor in cBioPortal.",
+  "ISO": "bioRxiv",
+  "JOURNAL": "bioRxiv : the preprint server for biology",
+  "YEAR": "2025",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Su Y,Li X,Reva B,Antipin Y,Schultz N,de Bruijn I,Sander C",
+  "ABSTRACT": "MutationAssessor (MA) helps researchers evaluate the likely functional impact of somatic and germline mutations in cancer. It provides an evolution-based functional impact score (FIS) to classify mutations based on their likely effect on protein function. FIS scores are based on analysis of patterns of conservation in protein families (conserved residues) and subfamilies (specificity residues). In this new version (r4) we have (1) refined the combinatorial entropy analysis of conservation patterns, (2) recalculated full-length protein multiple sequence alignments covering a larger fraction of human proteins and making use of the explosive growth of protein sequence data, (3) compared predicted functional impact with the pathogenic-benign classification of sequence variants in curated knowledge bases, such as ClinVar, (4) observed the inverse relationship between predicted high functional impact and variant frequency in germline genome sequences and (5) explore the evaluation of switch-of-function mutational effects. Functional impact of ~4 million somatic amino-acid changing mutations across more than 320K human tumor samples are now available in the widely used cBioPortal for Cancer Genomics.",
+  "DOI": "10.1101/2025.08.10.669566",
+  "PMC ID": "PMC12363874",
+  "CITATION": "Su Y, Li X, Reva B, Antipin Y, ...&, Sander C. (2025) MutationAssessor in cBioPortal. bioRxiv,  () . doi:10.1101/2025.08.10.669566. PMID 40832239",
+  "FIRST_AUTHOR": "Su Y",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

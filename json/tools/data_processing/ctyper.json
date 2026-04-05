@@ -1,0 +1,28 @@
+{
+  "NAME": "Ctyper",
+  "PMID": 41107550,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "Ctyper",
+  "FULL NAME": "Ctyper",
+  "KEYWORDS": "CNV, copy number, pangenome, sequence-resolved, biobank scale",
+  "URL": "https://github.com/ChaissonLab/Ctyper https://www.nature.com/articles/s41588-025-02346-4",
+  "DESCRIPTION": "Ctyper genotypes sequence-resolved copy-number variation and other complex polymorphic genes using a pangenome reference matrix, enabling allele- and copy-aware calls at scale for biobank-style cohorts.",
+  "TITLE": "Genotyping sequence-resolved copy number variation using pangenomes reveals paralog-specific global diversity and expression divergence of duplicated genes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "11",
+  "PAGE": "2909-2919",
+  "Authors": "Ma W,Chaisson MJP",
+  "ABSTRACT": "Copy number variable (CNV) genes are important in evolution and disease, yet their sequence variation remains a blind spot in large-scale studies. We present ctyper, a method that leverages pangenomes to produce allele-specific copy numbers with locally phased variants from next-generation sequencing samples. Benchmarking on 3,351 CNV genes and 212 challenging medically relevant (CMR) genes, ctyper captures 96.5% of phased variants with ≥99.1% correctness of copy number in CNV genes and 94.8% of phased variants in CMR genes. Ctyper takes 1.5 h to genotype a genome on one CPU. The ctyper genotypes give a 4.81-fold improvement in predictions of gene expression compared to known expression quantitative trait locus (eQTL) variants. Allele-specific expression quantified divergent expression in 7.94% of paralogs and tissue-specific biases in 4.68%. We found reduced expression of SMN2 due to SMN1 conversion, potentially affecting spinal muscular atrophy, and increased expression of translocated duplications of AMY2B. Overall, ctyper enables biobank-scale genotyping of CNV and CMR genes.",
+  "DOI": "10.1038/s41588-025-02346-4",
+  "PMC ID": "PMC12597824",
+  "CITATION": "Ma W, Chaisson MJP. (2025) Genotyping sequence-resolved copy number variation using pangenomes reveals paralog-specific global diversity and expression divergence of duplicated genes. Nat Genet, 57 (11) 2909-2919. doi:10.1038/s41588-025-02346-4. PMID 41107550",
+  "FIRST_AUTHOR": "Ma W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

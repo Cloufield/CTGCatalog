@@ -1,0 +1,17 @@
+{
+  "NAME": "The STROMICS genome study",
+  "SHORT NAME": "STROMICS",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~10k",
+  "STUDY TYPE": "prospective registry for patients presented to hospitals with acute ischaemic cerebrovascular events with long-term follow-up",
+  "MANUAL_CITATION": "Cheng, S., Xu, Z., Bian, S., Chen, X., Shi, Y., Li, Y., ... & Wang, Y. (2023). The STROMICS genome study: deep whole-genome sequencing and analysis of 10K Chinese patients with ischemic stroke reveal complex genetic and phenotypic interplay. Cell Discovery, 9(1), 75.",
+  "URL": "http://www.stromics.org.cn/",
+  "DESCRIPTION": "The Stroke Omics Atlas (STROMICS) is committed to using multi-omics and clinical big data to achieve accurate diagnosis and treatment for stroke patients, reduce treatment costs, and contribute to the health of the people.\nUsing artificial intelligence and cutting-edge high-throughput omics technologies (genomics, transcriptomics, epigenomics, proteomics, metabolomics, metagenomics, etc.), potential drug targets for stroke can be found on a large scale and with high efficiency, providing strong technical support for clinical transformation.\nRelying on the China National Clinical Research Center for Neurological Diseases and Center of excellence for Omics Research (CORe), STROMICS has realized the interdisciplinary integration of clinical medicine, bioinformatics, and multi-omics, creating a new paradigm of drug research and development.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Chinese adults (acute ischemic stroke registry)"
+}

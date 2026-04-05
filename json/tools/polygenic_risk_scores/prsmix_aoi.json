@@ -1,0 +1,17 @@
+{
+  "NAME": "PRSMix_AOI",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRSMix_AOI",
+  "FULL NAME": "add -one-in (AOI)",
+  "MANUAL_YEAR": 2024,
+  "PREPRINT_DOI": "10.1101/2024.07.24.24310897",
+  "PREPRINT_SERVER": "biorxiv",
+  "MANUAL_CITATION": "Misra, A. et al. Instability of high polygenic risk classification and mitigation by integrative scoring. bioRxiv 2024.07.24.24310897 (2024) doi:10.1101/2024.07.24.24310897.\n \n  ",
+  "CITATION": "Misra, A. et al. Instability of high polygenic risk classification and mitigation by integrative scoring. bioRxiv 2024.07.24.24310897 (2024) doi:10.1101/2024.07.24.24310897.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

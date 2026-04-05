@@ -1,0 +1,11 @@
+{
+  "NAME": "statsmodels",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://www.statsmodels.org/stable/index.html",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "Statistical models and tests."
+}

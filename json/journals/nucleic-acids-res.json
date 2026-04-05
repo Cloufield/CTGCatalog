@@ -1,0 +1,24 @@
+{
+  "NAME": "Nucleic acids research",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "URL": "https://academic.oup.com/nar",
+  "ENTRY_COUNT": 18,
+  "CITED_BY_SECTION": {
+    "Tools": 7,
+    "Sumstats": 1,
+    "References": 10
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "CADD v1.4",
+    "CADD v1.7",
+    "ClinVar",
+    "SIFT",
+    "NCBI-Gene"
+  ]
+}

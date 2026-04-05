@@ -1,0 +1,28 @@
+{
+  "NAME": "HAPGEN2",
+  "PMID": 21653516,
+  "SECTION": "Tools",
+  "TOPIC": "Simulation",
+  "TYPE": "Tools",
+  "SHORT NAME": "HAPGEN2",
+  "FULL NAME": "HAPGEN2",
+  "URL": "https://mathgen.stats.ox.ac.uk/genetics_software/hapgen/hapgen2.html",
+  "DESCRIPTION": "HAPGEN2 is a an updated version of the program HAPGEN, which simulates case control datasets at SNP markers. The new version can now simulate multiple disease SNPs on a single chromosome, on the assumption that each disease SNP acts independently and are in Hardy-Weinberg equilibrium. We also supply a R package that can simulate interaction between the disease SNPs.",
+  "MANUAL_CITATION": "Su, Zhan, Jonathan Marchini, and Peter Donnelly. \"HAPGEN2: simulation of multiple disease SNPs.\" Bioinformatics 27.16 (2011): 2304-2305.",
+  "TITLE": "HAPGEN2: simulation of multiple disease SNPs.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics (Oxford, England)",
+  "YEAR": "2011",
+  "VOLUME": "27",
+  "ISSUE": "16",
+  "PAGE": "2304-5",
+  "Authors": "Su Z,Marchini J,Donnelly P",
+  "ABSTRACT": "MOTIVATION: Performing experiments with simulated data is an inexpensive approach to evaluating competing experimental designs and analysis methods in genome-wide association studies. Simulation based on resampling known haplotypes is fast and efficient and can produce samples with patterns of linkage disequilibrium (LD), which mimic those in real data. However, the inability of current methods to simulate multiple nearby disease SNPs on the same chromosome can limit their application. RESULTS: We introduce a new simulation algorithm based on a successful resampling method, HAPGEN, that can simulate multiple nearby disease SNPs on the same chromosome. The new method, HAPGEN2, retains many advantages of resampling methods and expands the range of disease models that current simulators offer. AVAILABILITY: HAPGEN2 is freely available from http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html. CONTACT: zhan@well.ox.ac.uk SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.",
+  "DOI": "10.1093/bioinformatics/btr341",
+  "PMC ID": "PMC3150040",
+  "CITATION": "Su Z, Marchini J, Donnelly P. (2011) HAPGEN2: simulation of multiple disease SNPs. Bioinformatics, 27 (16) 2304-5. doi:10.1093/bioinformatics/btr341. PMID 21653516",
+  "FIRST_AUTHOR": "Su Z",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

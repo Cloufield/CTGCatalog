@@ -1,0 +1,30 @@
+{
+  "NAME": "Gilly",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 37778719,
+  "SECTION": "Sumstats",
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "MAIN_ANCESTRY": "EUR",
+  "TYPE": "PEA/OLINK",
+  "MANUAL_YEAR": 2023,
+  "MANUAL_CITATION": "Gilly, A. et al. Genome-wide meta-analysis of 92 cardiometabolic protein serum levels. Mol. Metab. 78, 101810 (2023).\n  ",
+  "TITLE": "Genome-wide meta-analysis of 92 cardiometabolic protein serum levels.",
+  "ISO": "Mol Metab",
+  "JOURNAL": "Molecular metabolism",
+  "YEAR": "2023",
+  "VOLUME": "78",
+  "ISSUE": "",
+  "PAGE": "101810",
+  "Authors": "Gilly A,Park YC,Tsafantakis E,Karaleftheri M,Dedoussis G,Zeggini E",
+  "ABSTRACT": "OBJECTIVES: Global cardiometabolic disease prevalence has grown rapidly over the years, making it the leading cause of death worldwide. Proteins are crucial components in biological pathways dysregulated in disease states. Identifying genetic components that influence circulating protein levels may lead to the discovery of biomarkers for early stages of disease or offer opportunities as therapeutic targets. METHODS: Here, we carry out a genome-wide association study (GWAS) utilising whole genome sequencing data in 3,005 individuals from the HELIC founder populations cohort, across 92 proteins of cardiometabolic relevance. RESULTS: We report 322 protein quantitative trait loci (pQTL) signals across 92 proteins, of which 76 are located in or near the coding gene (cis-pQTL). We link those association signals with changes in protein expression and cardiometabolic disease risk using colocalisation and Mendelian randomisation (MR) analyses. CONCLUSIONS: The majority of previously unknown signals we describe point to proteins or protein interactions involved in inflammation and immune response, providing genetic evidence for the contributing role of inflammation in cardiometabolic disease processes.",
+  "DOI": "10.1016/j.molmet.2023.101810",
+  "PMC ID": "PMC10582065",
+  "CITATION": "Gilly A, Park YC, Tsafantakis E, Karaleftheri M, ...&, Zeggini E. (2023) Genome-wide meta-analysis of 92 cardiometabolic protein serum levels. Mol Metab, 78 () 101810. doi:10.1016/j.molmet.2023.101810. PMID 37778719",
+  "FIRST_AUTHOR": "Gilly A",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

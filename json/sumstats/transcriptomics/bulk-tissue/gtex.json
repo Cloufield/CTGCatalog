@@ -1,0 +1,26 @@
+{
+  "NAME": "GTEx",
+  "PMID": 25954001,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Bulk tissue",
+  "DESCRIPTION": "V3 (Pilot Phase)",
+  "MANUAL_YEAR": 2015,
+  "MANUAL_CITATION": "\nArdlie, K. G. et al. The Genotype-Tissue Expression (GTEx) pilot analysis: Multitissue gene regulation in humans. Science 348, 648–660 (2015).",
+  "TITLE": "Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans.",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "YEAR": "2015",
+  "VOLUME": "348",
+  "ISSUE": "6235",
+  "PAGE": "648-60",
+  "Authors": "GTEx Consortium",
+  "ABSTRACT": "Understanding the functional consequences of genetic variation, and how it affects complex human disease and quantitative traits, remains a critical challenge for biomedicine. We present an analysis of RNA sequencing data from 1641 samples across 43 tissues from 175 individuals, generated as part of the pilot phase of the Genotype-Tissue Expression (GTEx) project. We describe the landscape of gene expression across tissues, catalog thousands of tissue-specific and shared regulatory expression quantitative trait loci (eQTL) variants, describe complex network relationships, and identify signals from genome-wide association studies explained by eQTLs. These findings provide a systematic understanding of the cellular and biological consequences of human genetic variation and of the heterogeneity of such effects among a diverse set of human tissues.",
+  "DOI": "10.1126/science.1262110",
+  "PMC ID": "PMC4547484",
+  "CITATION": "GTEx Consortium. (2015) Human genomics. The Genotype-Tissue Expression (GTEx) pilot analysis: multitissue gene regulation in humans. Science, 348 (6235) 648-60. doi:10.1126/science.1262110. PMID 25954001",
+  "FIRST_AUTHOR": "GTEx Consortium",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

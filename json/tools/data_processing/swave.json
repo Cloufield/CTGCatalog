@@ -1,0 +1,28 @@
+{
+  "NAME": "Swave",
+  "PMID": 41807798,
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "Swave",
+  "FULL NAME": "Swave",
+  "KEYWORDS": "structural variant, pangenome graph, deep learning, RNN, population genomics",
+  "URL": "https://github.com/songbowang125/Swave https://github.com/songbowang125/Swave-Utils",
+  "DESCRIPTION": "Swave calls and genotypes structural variants from assembly-based pangenome graphs by encoding mapping patterns as images (“projection waves”) and classifying signals with a recurrent neural network, including complex and repetitive SVs for population-level characterization.",
+  "TITLE": "Population-level structural variant characterization using pangenome graphs.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "58",
+  "ISSUE": "3",
+  "PAGE": "664-672",
+  "Authors": "Wang S,Xu T,Zhang P,Ye K",
+  "ABSTRACT": "Population-level structural variant (SV) profiling is crucial in the era of pangenomes. However, identifying SVs from genome assemblies and pangenome graphs remains a substantial challenge. Here we present Swave, a sequence-to-image, deep learning-based method that accurately resolves both simple and complex SVs, along with their population characteristics, from assembly-derived pangenome graphs. Swave introduces 'projection waves' to summarize the dotplot images that capture mapping patterns between reference and SV-indicating alleles in the pangenome. Then, a recurrent neural network distinguishes true SV signals from background noise introduced by genomic repeats. Swave demonstrates superior performance in both SV-type classification and genotyping compared with existing methods. When applied to healthy cohorts and rare-disease cohorts, Swave reveals complex and polymorphic SV patterns across human populations and identifies potentially pathogenic SVs. These advancements will facilitate the creation of comprehensive population-level SV catalogs, deepening our understanding of SVs in genetic diversity and disease associations.",
+  "DOI": "10.1038/s41588-026-02538-6",
+  "PMC ID": "",
+  "CITATION": "Wang S, Xu T, Zhang P, Ye K. (2026) Population-level structural variant characterization using pangenome graphs. Nat Genet, 58 (3) 664-672. doi:10.1038/s41588-026-02538-6. PMID 41807798",
+  "FIRST_AUTHOR": "Wang S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

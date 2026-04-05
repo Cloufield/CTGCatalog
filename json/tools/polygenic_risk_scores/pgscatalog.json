@@ -1,0 +1,30 @@
+{
+  "NAME": "PGSCatalog",
+  "PMID": 33692568,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "SHORT NAME": "PGS Catalog",
+  "FULL NAME": "PGS Catalog",
+  "KEYWORDS": "PGS database",
+  "URL": "https://www.pgscatalog.org/",
+  "DESCRIPTION": "The PGS Catalog is an open database of published polygenic scores (PGS). Each PGS in the Catalog is consistently annotated with relevant metadata; including scoring files (variants, effect alleles/weights), annotations of how the PGS was developed and applied, and evaluations of their predictive performance.",
+  "MANUAL_CITATION": "Lambert, S. A., Gil, L., Jupp, S., Ritchie, S. C., Xu, Y., Buniello, A., ... & Inouye, M. (2021). The Polygenic Score Catalog as an open database for reproducibility and systematic evaluation. Nature Genetics, 53(4), 420-425.",
+  "TITLE": "The Polygenic Score Catalog as an open database for reproducibility and systematic evaluation.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "4",
+  "PAGE": "420-425",
+  "Authors": "Lambert SA,Gil L,Jupp S,Ritchie SC,Xu Y,Buniello A,McMahon A,Abraham G,Chapman M,Parkinson H,Danesh J,MacArthur JAL,Inouye M",
+  "ABSTRACT": "We present the Polygenic Score (PGS) Catalog (https://www.PGSCatalog.org), an open resource of published scores (including variants, alleles and weights) and consistently curated metadata required for reproducibility and independent applications. The PGS Catalog has capabilities for user deposition, expert curation and programmatic access, thus providing the community with a platform for PGS dissemination, research and translation.",
+  "DOI": "10.1038/s41588-021-00783-5",
+  "PMC ID": "PMC11165303",
+  "CITATION": "Lambert SA, Gil L, Jupp S, Ritchie SC, ...&, Inouye M. (2021) The Polygenic Score Catalog as an open database for reproducibility and systematic evaluation. Nat Genet, 53 (4) 420-425. doi:10.1038/s41588-021-00783-5. PMID 33692568",
+  "FIRST_AUTHOR": "Lambert SA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

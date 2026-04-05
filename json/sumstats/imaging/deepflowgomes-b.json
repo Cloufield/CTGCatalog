@@ -1,0 +1,32 @@
+{
+  "NAME": "DeepFlow/Gomes B",
+  "ADD_SUFFIX": 1,
+  "PMID": 38082205,
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "DeepFlow-derived phenotypes: the forward left ventricular stroke volume (LVSV), the net LVSV, the aortic valve regurgitant volume, the  aortic valve regurgitant fraction, the mitral valve regurgitation volumes  by subtracting the forward LVSV from the total LVSV11, the forward  peak velocity (AoFVmax) and the regurgitant peak velocity (AoRVmax) at  the sinotubular region of the heart cycle.",
+  "PLATFORM": "Cardiac MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 37653,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "\nGomes, B. et al. Genetic architecture of cardiac dynamic flow volumes. Nat. Genet. 56, 245–257 (2024).\n  ",
+  "TITLE": "Genetic architecture of cardiac dynamic flow volumes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "2",
+  "PAGE": "245-257",
+  "Authors": "Gomes B,Singh A,O'Sullivan JW,Schnurr TM,Goddard PC,Loong S,Amar D,Hughes JW,Kostur M,Haddad F,Salerno M,Foo R,Montgomery SB,Parikh VN,Meder B,Ashley EA",
+  "ABSTRACT": "Cardiac blood flow is a critical determinant of human health. However, the definition of its genetic architecture is limited by the technical challenge of capturing dynamic flow volumes from cardiac imaging at scale. We present DeepFlow, a deep-learning system to extract cardiac flow and volumes from phase-contrast cardiac magnetic resonance imaging. A mixed-linear model applied to 37,653 individuals from the UK Biobank reveals genome-wide significant associations across cardiac dynamic flow volumes spanning from aortic forward velocity to aortic regurgitation fraction. Mendelian randomization reveals a causal role for aortic root size in aortic valve regurgitation. Among the most significant contributing variants, localizing genes (near ELN, PRDM6 and ADAMTS7) are implicated in connective tissue and blood pressure pathways. Here we show that DeepFlow cardiac flow phenotyping at scale, combined with genotyping data, reinforces the contribution of connective tissue genes, blood pressure and root size to aortic valve function.",
+  "DOI": "10.1038/s41588-023-01587-5",
+  "PMC ID": "",
+  "CITATION": "Gomes B, Singh A, O'Sullivan JW, Schnurr TM, ...&, Ashley EA. (2024) Genetic architecture of cardiac dynamic flow volumes. Nat Genet, 56 (2) 245-257. doi:10.1038/s41588-023-01587-5. PMID 38082205",
+  "FIRST_AUTHOR": "Gomes B",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

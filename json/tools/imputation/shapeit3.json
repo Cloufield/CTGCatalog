@@ -1,0 +1,28 @@
+{
+  "NAME": "SHAPEIT3",
+  "PMID": 27270105,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "SHAPEIT3",
+  "URL": "https://jmarchini.org/shapeit3/",
+  "DESCRIPTION": "(SHAPEIT3)",
+  "MANUAL_CITATION": "O'Connell, Jared, et al. \"Haplotype estimation for biobank-scale data sets.\" Nature genetics 48.7 (2016): 817-820.",
+  "TITLE": "Haplotype estimation for biobank-scale data sets.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "7",
+  "PAGE": "817-20",
+  "Authors": "O'Connell J,Sharp K,Shrine N,Wain L,Hall I,Tobin M,Zagury JF,Delaneau O,Marchini J",
+  "ABSTRACT": "The UK Biobank (UKB) has recently released genotypes on 152,328 individuals together with extensive phenotypic and lifestyle information. We present a new phasing method, SHAPEIT3, that can handle such biobank-scale data sets and results in switch error rates as low as ∼0.3%. The method exhibits O(NlogN) scaling with sample size N, enabling fast and accurate phasing of even larger cohorts.",
+  "DOI": "10.1038/ng.3583",
+  "PMC ID": "PMC4926957",
+  "CITATION": "O'Connell J, Sharp K, Shrine N, Wain L, ...&, Marchini J. (2016) Haplotype estimation for biobank-scale data sets. Nat Genet, 48 (7) 817-20. doi:10.1038/ng.3583. PMID 27270105",
+  "FIRST_AUTHOR": "O'Connell J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

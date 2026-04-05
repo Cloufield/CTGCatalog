@@ -1,0 +1,16 @@
+{
+  "NAME": "UMAP",
+  "SECTION": "Tools",
+  "TOPIC": "Dimension_reduction",
+  "TYPE": "Tools",
+  "SHORT NAME": "UMAP",
+  "FULL NAME": "Uniform Manifold Approximation and Projection",
+  "MANUAL_YEAR": 2018,
+  "KEYWORDS": "UMAP",
+  "URL": "https://github.com/lmcinnes/umap",
+  "MANUAL_CITATION": "McInnes, L., Healy, J., & Melville, J. (2018). Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426.",
+  "CITATION": "McInnes, L., Healy, J., & Melville, J. (2018). Umap: Uniform manifold approximation and projection for dimension reduction. arXiv preprint arXiv:1802.03426.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

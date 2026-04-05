@@ -1,0 +1,28 @@
+{
+  "NAME": "STRING",
+  "PMID": 36370105,
+  "LAST_CHECK": 2025,
+  "SECTION": "References",
+  "TOPIC": "Protein",
+  "CATEGORY": "Interaction",
+  "KEYWORDS": "Interaction",
+  "MANUAL_CITATION": "Szklarczyk, D. et al. The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res. 51, D638–D646 (2023).\n  ",
+  "URL": "https://string-db.org/",
+  "DESCRIPTION": "STRING is a database of known and predicted protein-protein interactions. The interactions include direct (physical) and indirect (functional) associations; they stem from computational prediction, from knowledge transfer between organisms, and from interactions aggregated from other (primary) databases.",
+  "TITLE": "The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2023",
+  "VOLUME": "51",
+  "ISSUE": "D1",
+  "PAGE": "D638-D646",
+  "Authors": "Szklarczyk D,Kirsch R,Koutrouli M,Nastou K,Mehryary F,Hachilif R,Gable AL,Fang T,Doncheva NT,Pyysalo S,Bork P,Jensen LJ,von Mering C",
+  "ABSTRACT": "Much of the complexity within cells arises from functional and regulatory interactions among proteins. The core of these interactions is increasingly known, but novel interactions continue to be discovered, and the information remains scattered across different database resources, experimental modalities and levels of mechanistic detail. The STRING database (https://string-db.org/) systematically collects and integrates protein-protein interactions-both physical interactions as well as functional associations. The data originate from a number of sources: automated text mining of the scientific literature, computational interaction predictions from co-expression, conserved genomic context, databases of interaction experiments and known complexes/pathways from curated sources. All of these interactions are critically assessed, scored, and subsequently automatically transferred to less well-studied organisms using hierarchical orthology information. The data can be accessed via the website, but also programmatically and via bulk downloads. The most recent developments in STRING (version 12.0) are: (i) it is now possible to create, browse and analyze a full interaction network for any novel genome of interest, by submitting its complement of encoded proteins, (ii) the co-expression channel now uses variational auto-encoders to predict interactions, and it covers two new sources, single-cell RNA-seq and experimental proteomics data and (iii) the confidence in each experimentally derived interaction is now estimated based on the detection method used, and communicated to the user in the web-interface. Furthermore, STRING continues to enhance its facilities for functional enrichment analysis, which are now fully available also for user-submitted genomes.",
+  "DOI": "10.1093/nar/gkac1000",
+  "PMC ID": "PMC9825434",
+  "CITATION": "Szklarczyk D, Kirsch R, Koutrouli M, Nastou K, ...&, von Mering C. (2023) The STRING database in 2023: protein-protein association networks and functional enrichment analyses for any sequenced genome of interest. Nucleic Acids Res, 51 (D1) D638-D646. doi:10.1093/nar/gkac1000. PMID 36370105",
+  "FIRST_AUTHOR": "Szklarczyk D",
+  "_meta": {
+    "source_sheet": "Protein"
+  }
+}

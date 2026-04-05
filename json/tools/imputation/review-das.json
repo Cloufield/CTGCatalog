@@ -1,0 +1,25 @@
+{
+  "NAME": "Review-Das",
+  "PMID": 29799802,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Das, Sayantan, Gonçalo R. Abecasis, and Brian L. Browning. \"Genotype imputation from large reference panels.\" Annu Rev Genomics Hum Genet 19.1 (2018): 73-96.",
+  "TITLE": "Genotype Imputation from Large Reference Panels.",
+  "ISO": "Annu Rev Genomics Hum Genet",
+  "JOURNAL": "Annual review of genomics and human genetics",
+  "YEAR": "2018",
+  "VOLUME": "19",
+  "ISSUE": "",
+  "PAGE": "73-96",
+  "Authors": "Das S,Abecasis GR,Browning BL",
+  "ABSTRACT": "Genotype imputation has become a standard tool in genome-wide association studies because it enables researchers to inexpensively approximate whole-genome sequence data from genome-wide single-nucleotide polymorphism array data. Genotype imputation increases statistical power, facilitates fine mapping of causal variants, and plays a key role in meta-analyses of genome-wide association studies. Only variants that were previously observed in a reference panel of sequenced individuals can be imputed. However, the rapid increase in the number of deeply sequenced individuals will soon make it possible to assemble enormous reference panels that greatly increase the number of imputable variants. In this review, we present an overview of genotype imputation and describe the computational techniques that make it possible to impute genotypes from reference panels with millions of individuals.",
+  "DOI": "10.1146/annurev-genom-083117-021602",
+  "PMC ID": "",
+  "CITATION": "Das S, Abecasis GR, Browning BL. (2018) Genotype Imputation from Large Reference Panels. Annu Rev Genomics Hum Genet, 19 () 73-96. doi:10.1146/annurev-genom-083117-021602. PMID 29799802",
+  "FIRST_AUTHOR": "Das S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "NAME": "Nature biotechnology",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Nat Biotechnol",
+  "JOURNAL": "Nature biotechnology",
+  "URL": "http://www.nature.com/nbt/",
+  "ENTRY_COUNT": 3,
+  "CITED_BY_SECTION": {
+    "Tools": 2,
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "ROADMAP 2010",
+    "scPRS",
+    "SCAVENGE"
+  ]
+}

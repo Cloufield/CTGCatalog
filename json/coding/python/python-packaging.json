@@ -1,0 +1,11 @@
+{
+  "NAME": "Python packaging tutorial",
+  "SECTION": "Coding",
+  "TOPIC": "Python",
+  "TYPE": "Resource",
+  "URL": "https://packaging.python.org/en/latest/tutorials/packaging-projects/",
+  "_meta": {
+    "source_sheet": "Coding"
+  },
+  "DESCRIPTION": "How to package and publish Python projects."
+}

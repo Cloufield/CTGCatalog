@@ -1,0 +1,25 @@
+{
+  "NAME": "Reviews&Tutorials",
+  "PMID": 33899104,
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "CATEGORY": "Reviews&Tutorials",
+  "TYPE": "Review",
+  "MANUAL_CITATION": "Minelli, C., Del Greco M, F., van der Plaat, D. A., Bowden, J., Sheehan, N. A., & Thompson, J. (2021). The use of two-sample methods for Mendelian randomization analyses on single large datasets. International journal of epidemiology, 50(5), 1651-1659.",
+  "TITLE": "The use of two-sample methods for Mendelian randomization analyses on single large datasets.",
+  "ISO": "Int J Epidemiol",
+  "JOURNAL": "International journal of epidemiology",
+  "YEAR": "2021",
+  "VOLUME": "50",
+  "ISSUE": "5",
+  "PAGE": "1651-1659",
+  "Authors": "Minelli C,Del Greco M F,van der Plaat DA,Bowden J,Sheehan NA,Thompson J",
+  "ABSTRACT": "BACKGROUND: With genome-wide association data for many exposures and outcomes now available from large biobanks, one-sample Mendelian randomization (MR) is increasingly used to investigate causal relationships. Many robust MR methods are available to address pleiotropy, but these assume independence between the gene-exposure and gene-outcome association estimates. Unlike in two-sample MR, in one-sample MR the two estimates are obtained from the same individuals, and the assumption of independence does not hold in the presence of confounding. METHODS: With simulations mimicking a typical study in UK Biobank, we assessed the performance, in terms of bias and precision of the MR estimate, of the fixed-effect and (multiplicative) random-effects meta-analysis method, weighted median estimator, weighted mode estimator and MR-Egger regression, used in both one-sample and two-sample data. We considered scenarios differing by the: presence/absence of a true causal effect; amount of confounding; and presence and type of pleiotropy (none, balanced or directional). RESULTS: Even in the presence of substantial correlation due to confounding, all two-sample methods used in one-sample MR performed similarly to when used in two-sample MR, except for MR-Egger which resulted in bias reflecting direction and magnitude of the confounding. Such bias was much reduced in the presence of very high variability in instrument strength across variants (IGX2 of 97%). CONCLUSIONS: Two-sample MR methods can be safely used for one-sample MR performed within large biobanks, expect for MR-Egger. MR-Egger is not recommended for one-sample MR unless the correlation between the gene-exposure and gene-outcome estimates due to confounding can be kept low, or the variability in instrument strength is very high.",
+  "DOI": "10.1093/ije/dyab084",
+  "PMC ID": "PMC8580269",
+  "CITATION": "Minelli C, Del Greco M F, van der Plaat DA, Bowden J, ...&, Thompson J. (2021) The use of two-sample methods for Mendelian randomization analyses on single large datasets. Int J Epidemiol, 50 (5) 1651-1659. doi:10.1093/ije/dyab084. PMID 33899104",
+  "FIRST_AUTHOR": "Minelli C",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

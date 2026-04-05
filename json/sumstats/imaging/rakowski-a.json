@@ -1,0 +1,21 @@
+{
+  "NAME": "Rakowski A",
+  "SECTION": "Sumstats",
+  "TOPIC": "Imaging",
+  "CATEGORY": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "TRAIT": "low-dimensional representations of T1-weighted brain  MRI",
+  "PLATFORM": "Brain MRI",
+  "COHORT": "UKB",
+  "SAMPLE_SIZE": 36311,
+  "RELATED_BIOBANK": "UKB",
+  "TYPE": "GWAS",
+  "MANUAL_CITATION": "Rakowski, A., Monti, R. & Lippert, C. TransferGWAS of T1-weighted brain MRI data from the UK Biobank. bioRxiv 2024.06.11.24308721 (2024) doi:10.1101/2024.06.11.24308721.",
+  "MANUAL_YEAR": 2024,
+  "PREPRINT_DOI": "10.1101/2024.06.11.24308721",
+  "SERVER": "biorxiv",
+  "CITATION": "Rakowski, A., Monti, R. & Lippert, C. TransferGWAS of T1-weighted brain MRI data from the UK Biobank. bioRxiv 2024.06.11.24308721 (2024) doi:10.1101/2024.06.11.24308721.",
+  "_meta": {
+    "source_sheet": "Imaging"
+  }
+}

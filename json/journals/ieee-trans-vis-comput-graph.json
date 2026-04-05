@@ -1,0 +1,18 @@
+{
+  "NAME": "IEEE transactions on visualization and computer graphics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "IEEE Trans Vis Comput Graph",
+  "JOURNAL": "IEEE transactions on visualization and computer graphics",
+  "URL": "http://ieeexplore.ieee.org/servlet/opac?punumber=2945",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "UpSetPlot"
+  ]
+}

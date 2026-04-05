@@ -1,0 +1,29 @@
+{
+  "NAME": "PRS atlas",
+  "PMID": 30835202,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRS atlas",
+  "FULL NAME": "PRS atlas",
+  "URL": "http://mrcieu.mrsoftware.org/PRS_atlas/",
+  "DESCRIPTION": "This web application can be used to query findings from an analysis of 162 polygenic risk scores and 551 complex traits using data from the UK Biobank study1. Traits were selected based on the heritability analysis conducted by the Neale Lab2 (P<0.05). We encourage users of this resource to conduct follow-up analyses of associations to robustly identify causal relationships between complex traits.",
+  "MANUAL_CITATION": "Richardson, T. G., Harrison, S., Hemani, G., & Smith, G. D. (2019). An atlas of polygenic risk score associations to highlight putative causal relationships across the human phenome. Elife, 8, e43657.",
+  "TITLE": "An atlas of polygenic risk score associations to highlight putative causal relationships across the human phenome.",
+  "ISO": "Elife",
+  "JOURNAL": "eLife",
+  "YEAR": "2019",
+  "VOLUME": "8",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Richardson TG,Harrison S,Hemani G,Davey Smith G",
+  "ABSTRACT": "The age of large-scale genome-wide association studies (GWAS) has provided us with an unprecedented opportunity to evaluate the genetic liability of complex disease using polygenic risk scores (PRS). In this study, we have analysed 162 PRS (p<5×10-05) derived from GWAS and 551 heritable traits from the UK Biobank study (N = 334,398). Findings can be investigated using a web application (http:‌//‌mrcieu.‌mrsoftware.org/‌PRS‌_atlas/), which we envisage will help uncover both known and novel mechanisms which contribute towards disease susceptibility. To demonstrate this, we have investigated the results from a phenome-wide evaluation of schizophrenia genetic liability. Amongst findings were inverse associations with measures of cognitive function which extensive follow-up analyses using Mendelian randomization (MR) provided evidence of a causal relationship. We have also investigated the effect of multiple risk factors on disease using mediation and multivariable MR frameworks. Our atlas provides a resource for future endeavours seeking to unravel the causal determinants of complex disease.",
+  "DOI": "10.7554/eLife.43657",
+  "PMC ID": "PMC6400585",
+  "CITATION": "Richardson TG, Harrison S, Hemani G, Davey Smith G. (2019) An atlas of polygenic risk score associations to highlight putative causal relationships across the human phenome. Elife, 8 () . doi:10.7554/eLife.43657. PMID 30835202",
+  "FIRST_AUTHOR": "Richardson TG",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

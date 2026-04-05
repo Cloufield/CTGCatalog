@@ -1,0 +1,26 @@
+{
+  "NAME": "Open Targets",
+  "PMID": 27899665,
+  "SECTION": "Tools",
+  "TOPIC": "Gene_prioritization",
+  "TYPE": "Tools",
+  "URL": "https://www.opentargets.org/",
+  "DESCRIPTION": "Open Targets is an innovative, large-scale, multi-year, public-private partnership that uses human genetics and genomics data for systematic drug target identification and prioritisation.",
+  "MANUAL_CITATION": "Koscielny, G., An, P., Carvalho-Silva, D., Cham, J.A., Fumis, L., Gasparyan, R., Hasan, S., Karamanis, N., Maguire, M., Papa, E. and Pierleoni, A., 2017. Open Targets: a platform for therapeutic target identification and validation. Nucleic acids research, 45(D1), pp.D985-D994.",
+  "TITLE": "Open Targets: a platform for therapeutic target identification and validation.",
+  "ISO": "Nucleic Acids Res",
+  "JOURNAL": "Nucleic acids research",
+  "YEAR": "2017",
+  "VOLUME": "45",
+  "ISSUE": "D1",
+  "PAGE": "D985-D994",
+  "Authors": "Koscielny G,An P,Carvalho-Silva D,Cham JA,Fumis L,Gasparyan R,Hasan S,Karamanis N,Maguire M,Papa E,Pierleoni A,Pignatelli M,Platt T,Rowland F,Wankar P,Bento AP,Burdett T,Fabregat A,Forbes S,Gaulton A,Gonzalez CY,Hermjakob H,Hersey A,Jupe S,Kafkas Ş,Keays M,Leroy C,Lopez FJ,Magarinos MP,Malone J,McEntyre J,Munoz-Pomer Fuentes A,O'Donovan C,Papatheodorou I,Parkinson H,Palka B,Paschall J,Petryszak R,Pratanwanich N,Sarntivijal S,Saunders G,Sidiropoulos K,Smith T,Sondka Z,Stegle O,Tang YA,Turner E,Vaughan B,Vrousgou O,Watkins X,Martin MJ,Sanseau P,Vamathevan J,Birney E,Barrett J,Dunham I",
+  "ABSTRACT": "We have designed and developed a data integration and visualization platform that provides evidence about the association of known and potential drug targets with diseases. The platform is designed to support identification and prioritization of biological targets for follow-up. Each drug target is linked to a disease using integrated genome-wide data from a broad range of data sources. The platform provides either a target-centric workflow to identify diseases that may be associated with a specific target, or a disease-centric workflow to identify targets that may be associated with a specific disease. Users can easily transition between these target- and disease-centric workflows. The Open Targets Validation Platform is accessible at https://www.targetvalidation.org.",
+  "DOI": "10.1093/nar/gkw1055",
+  "PMC ID": "PMC5210543",
+  "CITATION": "Koscielny G, An P, Carvalho-Silva D, Cham JA, ...&, Dunham I. (2017) Open Targets: a platform for therapeutic target identification and validation. Nucleic Acids Res, 45 (D1) D985-D994. doi:10.1093/nar/gkw1055. PMID 27899665",
+  "FIRST_AUTHOR": "Koscielny G",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

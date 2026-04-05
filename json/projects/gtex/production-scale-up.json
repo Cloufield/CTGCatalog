@@ -1,0 +1,13 @@
+{
+  "NAME": "Production scale-up",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "STAGE_ORDER": 2,
+  "STAGE_PERIOD": "mid-program",
+  "TAGS": ["GTEx", "Expression"],
+  "DESCRIPTION": "Increased donor count, read depth, and tissue coverage with harmonized QC; broadened power for splicing QTLs, ASE, and cross-tissue meta-analysis.",
+  "URL": "https://gtexportal.org/",
+  "_meta": {
+    "source_sheet": "Projects"
+  }
+}

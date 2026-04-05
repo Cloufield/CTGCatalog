@@ -1,0 +1,28 @@
+{
+  "NAME": "RWAS",
+  "PMID": 35697866,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "RWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "RWAS",
+  "FULL NAME": "Regulome-Wide Association Study",
+  "URL": "http://gusevlab.org/projects/fusion/#tcga-regulome-wide-association-study-rwas-atac-seq-models",
+  "MANUAL_CITATION": "Grishin, D., & Gusev, A. (2022). Allelic imbalance of chromatin accessibility in cancer identifies candidate causal risk variants and their mechanisms. Nature Genetics, 54(6), 837-849.",
+  "TITLE": "Allelic imbalance of chromatin accessibility in cancer identifies candidate causal risk variants and their mechanisms.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "6",
+  "PAGE": "837-849",
+  "Authors": "Grishin D,Gusev A",
+  "ABSTRACT": "While many germline cancer risk variants have been identified through genome-wide association studies (GWAS), the mechanisms by which these variants operate remain largely unknown. Here we used 406 cancer ATAC-Seq samples across 23 cancer types to identify 7,262 germline allele-specific accessibility QTLs (as-aQTLs). Cancer as-aQTLs had stronger enrichment for cancer risk heritability (up to 145 fold) than any other functional annotation across seven cancer GWAS. Most cancer as-aQTLs directly altered transcription factor (TF) motifs and exhibited differential TF binding and gene expression in functional screens. To connect as-aQTLs to putative risk mechanisms, we introduced the regulome-wide associations study (RWAS). RWAS identified genetically associated accessible peaks at >70% of known breast and prostate loci and discovered new risk loci in all examined cancer types. Integrating as-aQTL discovery, motif analysis and RWAS identified candidate causal regulatory elements and their probable upstream regulators. Our work establishes cancer as-aQTLs and RWAS analysis as powerful tools to study the genetic architecture of cancer risk.",
+  "DOI": "10.1038/s41588-022-01075-2",
+  "PMC ID": "PMC9886437",
+  "CITATION": "Grishin D, Gusev A. (2022) Allelic imbalance of chromatin accessibility in cancer identifies candidate causal risk variants and their mechanisms. Nat Genet, 54 (6) 837-849. doi:10.1038/s41588-022-01075-2. PMID 35697866",
+  "FIRST_AUTHOR": "Grishin D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "NAME": "HPRC first draft pangenome",
+  "SHORT NAME": "HPRC draft",
+  "FULL NAME": "Human Pangenome Reference Consortium first-draft pangenome",
+  "CATEGORY": "Pangenome",
+  "SOURCE": "Human Pangenome Reference Consortium",
+  "PMID": 37165242,
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "HPRC; pangenome; graph genome; haplotypes; GRCh38",
+  "DESCRIPTION": "First-draft human pangenome from the HPRC: 47 phased diploid assemblies from diverse samples, aligned and summarized relative to GRCh38. Adds substantial euchromatic polymorphic sequence and duplicated gene content versus a single linear reference; intended for pangenome-aware alignment, variant calling, and downstream graph-based genomics (see HPRC data portal and companion software).",
+  "MANUAL_CITATION": "Liao, W. W., Asri, M., Ebler, J., Doerr, D., Haukness, M., Hickey, G., ... & Paten, B. (2023). A draft human pangenome reference. Nature, 617(7960), 312-324.",
+  "MANUAL_YEAR": 2023,
+  "TITLE": "A draft human pangenome reference.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2023",
+  "VOLUME": "617",
+  "ISSUE": "7960",
+  "PAGE": "312-324",
+  "Authors": "Liao WW,Asri M,Ebler J,Doerr D,Haukness M,Hickey G,Lu S,Lucas JK,Monlong J,Abel HJ,Buonaiuto S,Chang XH,Cheng H,Chu J,Colonna V,Eizenga JM,Feng X,Fischer C,Fulton RS,Garg S,Groza C,Guarracino A,Harvey WT,Heumos S,Howe K,Jain M,Lu TY,Markello C,Martin FJ,Mitchell MW,Munson KM,Mwaniki MN,Novak AM,Olsen HE,Pesout T,Porubsky D,Prins P,Sibbesen JA,Sirén J,Tomlinson C,Villani F,Vollger MR,Antonacci-Fulton LL,Baid G,Baker CA,Belyaeva A,Billis K,Carroll A,Chang PC,Cody S,Cook DE,Cook-Deegan RM,Cornejo OE,Diekhans M,Ebert P,Fairley S,Fedrigo O,Felsenfeld AL,Formenti G,Frankish A,Gao Y,Garrison NA,Giron CG,Green RE,Haggerty L,Hoekzema K,Hourlier T,Ji HP,Kenny EE,Koenig BA,Kolesnikov A,Korbel JO,Kordosky J,Koren S,Lee H,Lewis AP,Magalhães H,Marco-Sola S,Marijon P,McCartney A,McDaniel J,Mountcastle J,Nattestad M,Nurk S,Olson ND,Popejoy AB,Puiu D,Rautiainen M,Regier AA,Rhie A,Sacco S,Sanders AD,Schneider VA,Schultz BI,Shafin K,Smith MW,Sofia HJ,Abou Tayoun AN,Thibaud-Nissen F,Tricomi FF,Wagner J,Walenz B,Wood JMD,Zimin AV,Bourque G,Chaisson MJP,Flicek P,Phillippy AM,Zook JM,Eichler EE,Haussler D,Wang T,Jarvis ED,Miga KH,Garrison E,Marschall T,Hall IM,Li H,Paten B",
+  "ABSTRACT": "Here the Human Pangenome Reference Consortium presents a first draft of the human pangenome reference. The pangenome contains 47 phased, diploid assemblies from a cohort of genetically diverse individuals1. These assemblies cover more than 99% of the expected sequence in each genome and are more than 99% accurate at the structural and base pair levels. Based on alignments of the assemblies, we generate a draft pangenome that captures known variants and haplotypes and reveals new alleles at structurally complex loci. We also add 119 million base pairs of euchromatic polymorphic sequences and 1,115 gene duplications relative to the existing reference GRCh38. Roughly 90 million of the additional base pairs are derived from structural variation. Using our draft pangenome to analyse short-read data reduced small variant discovery errors by 34% and increased the number of structural variants detected per haplotype by 104% compared with GRCh38-based workflows, which enabled the typing of the vast majority of structural variant alleles per sample.",
+  "DOI": "10.1038/s41586-023-05896-x",
+  "PMC ID": "PMC10172123",
+  "CITATION": "Liao WW, Asri M, Ebler J, Doerr D, ...&, Paten B. (2023) A draft human pangenome reference. Nature, 617 (7960) 312-324. doi:10.1038/s41586-023-05896-x. PMID 37165242",
+  "FIRST_AUTHOR": "Liao WW",
+  "URL": "https://s3-us-west-2.amazonaws.com/human-pangenomics/index.html",
+  "TYPE": "Data",
+  "TAGS": ["Pangenome", "Reference", "Structural variants", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

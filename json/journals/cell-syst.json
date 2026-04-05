@@ -1,0 +1,18 @@
+{
+  "NAME": "Cell systems",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Cell Syst",
+  "JOURNAL": "Cell systems",
+  "URL": "http://www.sciencedirect.com/science/journal/24054712",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "References": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "ProGen2"
+  ]
+}

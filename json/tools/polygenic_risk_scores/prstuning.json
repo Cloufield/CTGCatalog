@@ -1,0 +1,28 @@
+{
+  "NAME": "PRStuning",
+  "PMID": 37398263,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Single-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "PRStuning",
+  "FULL NAME": "PRStuning",
+  "DESCRIPTION": "Estimate Testing AUC for Binary Phenotype Using GWAS Summary Statistics from the Training Data",
+  "MANUAL_CITATION": "Jiang, W., Chen, L., Girgenti, M. J., & Zhao, H. (2023). Tuning Parameters for Polygenic Risk Score Methods Using GWAS Summary Statistics from Training Data. Research Square.",
+  "TITLE": "Tuning Parameters for Polygenic Risk Score Methods Using GWAS Summary Statistics from Training Data.",
+  "ISO": "Res Sq",
+  "JOURNAL": "Research square",
+  "YEAR": "2023",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Jiang W,Chen L,Girgenti MJ,Zhao H",
+  "ABSTRACT": "Predicting genetic risks for common diseases may improve their prevention and early treatment. In recent years, various additive-model-based polygenic risk scores (PRS) methods have been proposed to combine the estimated effects of single nucleotide polymorphisms (SNPs) using data collected from genome-wide association studies (GWAS). Some of these methods require access to another external individual-level GWAS dataset to tune the hyperparameters, which can be difficult because of privacy and security-related concerns. Additionally, leaving out partial data for hyperparameter tuning can reduce the predictive accuracy of the constructed PRS model. In this article, we propose a novel method, called PRStuning, to automatically tune hyperparameters for different PRS methods using only GWAS summary statistics from the training data. The core idea is to first predict the performance of the PRS method with different parameter values, and then select the parameters with the best prediction performance. Because directly using the effects observed from the training data tends to overestimate the performance in the testing data (a phenomenon known as overfitting), we adopt an empirical Bayes approach to shrinking the predicted performance in accordance with the estimated genetic architecture of the disease. Results from extensive simulations and real data applications demonstrate that PRStuning can accurately predict the PRS performance across PRS methods and parameters, and it can help select the best-performing parameters.",
+  "DOI": "10.21203/rs.3.rs-2939390/v1",
+  "PMC ID": "PMC10312948",
+  "CITATION": "Jiang W, Chen L, Girgenti MJ, Zhao H. (2023) Tuning Parameters for Polygenic Risk Score Methods Using GWAS Summary Statistics from Training Data. Res Sq,  () . doi:10.21203/rs.3.rs-2939390/v1. PMID 37398263",
+  "FIRST_AUTHOR": "Jiang W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

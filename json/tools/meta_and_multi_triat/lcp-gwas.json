@@ -1,0 +1,29 @@
+{
+  "NAME": "LCP-GWAS",
+  "PMID": 33110245,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "LCP-GWAS",
+  "FULL NAME": "Linear Combination Phenotype GWAS",
+  "MANUAL_YEAR": 2021,
+  "KEYWORDS": "multivariate GWAS follow-up analyses",
+  "MANUAL_CITATION": "\nRuotsalainen, S. E. et al. An expanded analysis framework for multivariate GWAS connects inflammatory biomarkers to functional variants and disease. Eur. J. Hum. Genet. 29, 309–324 (2021).\n  ",
+  "TITLE": "An expanded analysis framework for multivariate GWAS connects inflammatory biomarkers to functional variants and disease.",
+  "ISO": "Eur J Hum Genet",
+  "JOURNAL": "European journal of human genetics : EJHG",
+  "YEAR": "2021",
+  "VOLUME": "29",
+  "ISSUE": "2",
+  "PAGE": "309-324",
+  "Authors": "Ruotsalainen SE,Partanen JJ,Cichonska A,Lin J,Benner C,Surakka I,FinnGen,Reeve MP,Palta P,Salmi M,Jalkanen S,Ahola-Olli A,Palotie A,Salomaa V,Daly MJ,Pirinen M,Ripatti S,Koskela J",
+  "ABSTRACT": "Multivariate methods are known to increase the statistical power to detect associations in the case of shared genetic basis between phenotypes. They have, however, lacked essential analytic tools to follow-up and understand the biology underlying these associations. We developed a novel computational workflow for multivariate GWAS follow-up analyses, including fine-mapping and identification of the subset of traits driving associations (driver traits). Many follow-up tools require univariate regression coefficients which are lacking from multivariate results. Our method overcomes this problem by using Canonical Correlation Analysis to turn each multivariate association into its optimal univariate Linear Combination Phenotype (LCP). This enables an LCP-GWAS, which in turn generates the statistics required for follow-up analyses. We implemented our method on 12 highly correlated inflammatory biomarkers in a Finnish population-based study. Altogether, we identified 11 associations, four of which (F5, ABO, C1orf140 and PDGFRB) were not detected by biomarker-specific analyses. Fine-mapping identified 19 signals within the 11 loci and driver trait analysis determined the traits contributing to the associations. A phenome-wide association study on the 19 representative variants from the signals in 176,899 individuals from the FinnGen study revealed 53 disease associations (p < 1 × 10-4). Several reported pQTLs in the 11 loci provided orthogonal evidence for the biologically relevant functions of the representative variants. Our novel multivariate analysis workflow provides a powerful addition to standard univariate GWAS analyses by enabling multivariate GWAS follow-up and thus promoting the advancement of powerful multivariate methods in genomics.",
+  "DOI": "10.1038/s41431-020-00730-8",
+  "PMC ID": "PMC7868371",
+  "CITATION": "Ruotsalainen SE, Partanen JJ, Cichonska A, Lin J, ...&, Koskela J. (2021) An expanded analysis framework for multivariate GWAS connects inflammatory biomarkers to functional variants and disease. Eur J Hum Genet, 29 (2) 309-324. doi:10.1038/s41431-020-00730-8. PMID 33110245",
+  "FIRST_AUTHOR": "Ruotsalainen SE",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

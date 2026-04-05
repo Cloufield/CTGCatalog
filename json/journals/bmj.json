@@ -1,0 +1,18 @@
+{
+  "NAME": "BMJ (Clinical research ed.)",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "BMJ",
+  "JOURNAL": "BMJ (Clinical research ed.)",
+  "URL": "http://www.bmj.com/thebmj",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Reviews&Tutorials"
+  ]
+}

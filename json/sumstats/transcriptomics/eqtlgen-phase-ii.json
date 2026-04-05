@@ -1,0 +1,15 @@
+{
+  "NAME": "eQTLGen Phase II",
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "DESCRIPTION": "Expanded blood eQTL meta-analysis and genome-wide summary statistics across cohorts; consortium coordination, cookbook, and downloads via the Phase II portal.",
+  "URL": "https://www.eqtlgen.org/",
+  "MANUAL_CITATION": "eQTLGen Consortium. Phase II portal and resources: https://www.eqtlgen.org/ . Analysis cookbook: https://eqtlgen.github.io/eqtlgen-web-site/eQTLGen-p2-cookbook.html . Phase I flagship publication: Võsa, U. et al. Large-scale cis- and trans-eQTL analyses identify thousands of genetic loci and polygenic scores that regulate blood gene expression. Nat. Genet. 53, 1300–1310 (2021). doi:10.1038/s41588-021-00913-z",
+  "TITLE": "eQTLGen Phase II (blood eQTL consortium resource).",
+  "Authors": "eQTLGen Consortium",
+  "FIRST_AUTHOR": "eQTLGen Consortium",
+  "CITATION": "eQTLGen Consortium. eQTLGen Phase II (blood eQTL consortium resource).",
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "NAME": "H3Africa",
+  "SHORT NAME": "H3Africa",
+  "SECTION": "Biobanks",
+  "TOPIC": "AFRICA",
+  "CONTINENT": "AFRICA",
+  "SAMPLE SIZE": "50k+ (initiative-wide)",
+  "NOTE": "NIH & Wellcome–funded consortium of studies and biobanks across Africa.",
+  "DESCRIPTION": "Human Heredity and Health in Africa: pan-African genomics and epidemiology initiative producing genome-wide data, reference panels, and phenotype-linked biosamples for disease and population-genetics GWAS.",
+  "MANUAL_CITATION": "H3Africa Consortium (2025). H3Africa: a model for implementing biobank-based genomic research in resource-constrained settings. Human Molecular Genetics. PMID: 40618283.",
+  "URL": "https://h3africa.org/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AFR",
+  "PARTICIPANTS": "African participants (H3Africa consortium studies)"
+}

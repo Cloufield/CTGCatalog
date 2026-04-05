@@ -1,0 +1,28 @@
+{
+  "NAME": "Japan Omics Browser",
+  "PMID": 40335902,
+  "URL": "https://japan-omics.jp/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Platform",
+  "MAIN_ANCESTRY": "EAS",
+  "RELATED_BIOBANK": "The Japan COVID-19 Task Force study",
+  "TYPE": "Platform",
+  "TITLE": "JOB: Japan Omics Browser provides integrative visualization of multi-omics data.",
+  "ISO": "BMC Genomics",
+  "JOURNAL": "BMC genomics",
+  "YEAR": "2025",
+  "VOLUME": "26",
+  "ISSUE": "1",
+  "PAGE": "451",
+  "Authors": "Takahashi Y,Wang QS,Hasegawa T,Namkoong H,Inoue F,Fukunaga K,Imoto S,Miyano S,Okada Y,Japan COVID-19 Task Force",
+  "ABSTRACT": "We present the Japan Omics Browser (JOB), which enables integrative analysis of human omics at different layers. JOB offers visualization of per-variant regulatory effects in the human blood at mRNA and protein level distinctively, quantified from statistical fine-mapping of mRNA-expression quantitative loci (eQTL) and protein QTLs (pQTLs) in 1,405 Japanese, together with fine-mapping results of 94 complex traits in UK Biobank. In addition, JOB shows per-tissue regulatory effect prediction score (EMS), trained via multi-task learning. Furthermore, validation scores from Massively Parallel Reporter Assay (MPRA) in two cell types are available for over 10,000 variants. JOB is publicly available at https://japan-omics.jp/ .",
+  "DOI": "10.1186/s12864-025-11639-1",
+  "PMC ID": "PMC12057183",
+  "CITATION": "Takahashi Y, Wang QS, Hasegawa T, Namkoong H, ...&, Japan COVID-19 Task Force. (2025) JOB: Japan Omics Browser provides integrative visualization of multi-omics data. BMC Genomics, 26 (1) 451. doi:10.1186/s12864-025-11639-1. PMID 40335902",
+  "FIRST_AUTHOR": "Takahashi Y",
+  "DESCRIPTION": "Japan Omics Browser (JOB) for browsing omics and GWAS-style association results in Japanese cohorts.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

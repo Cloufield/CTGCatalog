@@ -1,0 +1,28 @@
+{
+  "NAME": "MVP-Finngen-UKBB meta-analysis",
+  "URL": "https://mvp-ukbb.finngen.fi/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Biobanks_Cohorts",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank, FinnGen, Million Veteran Program",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "Cross-biobank GWAS meta-analysis across MVP, FinnGen, and UK Biobank (phenome-wide association resource).",
+  "PMID": 39974076,
+  "TITLE": "Prevalence and disease risks for male and female sex chromosome trisomies: a registry-based phenome-wide association study in 1.5 million participants of MVP, FinnGen, and UK Biobank.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv : the preprint server for health sciences",
+  "YEAR": "2025",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Davis SM,Liu A,Teerlink CC,Lapato DM,Gorman B,Genovese G,Singh M,Reeve MP,Gentry AE,Donner KM,Sipilä TP,Ghazal A,Pagadala MS,Panizzon MS,Lancaster EE,FinnGen banner authorship,UKB working group authorship,Chatzinakos C,Ganna A,Bigdeli TB,Daly MJ,Lynch JA,Ross J,Peterson RE,Hauger RL",
+  "ABSTRACT": "Sex chromosome trisomies (SCT) are the most common whole chromosome aneuploidy in humans. Yet, our understanding of the prevalence and associated health outcomes is largely driven by observational studies of clinically diagnosed cases, resulting in a disproportionate focus on 47,XXY and associated hypogonadism. We analyzed microarray intensity data of sex chromosomes for 1.5 million individuals enrolled in three large cohorts-Million Veteran Program, FinnGen, and UK Biobank-to identify individuals with 47,XXY, 47,XYY, and 47,XXX. We examined disease conditions associated with SCTs by performing phenome-wide association studies (PheWAS) using electronic health records (EHR) data for each cohort, followed by meta-analysis across cohorts. Association results are presented for each SCT and also stratified by presence or absence of a documented clinical diagnosis for 47,XXY. We identified 2,769 individuals with (47,XXY: 1,319; 47,XYY: 1,108; 47,XXX: 342), most of whom had no documented clinical diagnosis (47,XXY: 73.8%; 47,XYY: 98.6%; 47,XXX: 93.6%). The identified phenotypic associations with SCT spanned all PheWAS disease categories except neoplasms. Many associations are shared among three SCT subtypes, particularly for vascular diseases (e.g., chronic venous insufficiency (OR [95% CI] for 47,XXY 4.7 [3.9,5.8]; 47,XYY 5.6 [4.5,7.0]; 4 7,XXX 4.6 [2.7,7.6], venous thromboembolism (47,XXY 4.6 [3.7-5.6]; 47,XYY 4.1 [3.3-5.0]; 47,XXX 8.1 [4.2-15.4]), and glaucoma (47,XXY 2.5 [2.1-2.9]; 47,XYY 2.4 [2.0-2.8]; 47,XXX 2.3 [1.4-3.5]). A third sex chromosome confers an increased risk for systemic comorbidities, even if the SCT is not documented. SCT phenotypes largely overlap, suggesting one or more X/Y homolog genes may underlie pathophysiology and comorbidities across SCTs.",
+  "DOI": "10.1101/2025.01.31.25321488",
+  "PMC ID": "PMC11838634",
+  "CITATION": "Davis SM, Liu A, Teerlink CC, Lapato DM, ...&, Hauger RL. (2025) Prevalence and disease risks for male and female sex chromosome trisomies: a registry-based phenome-wide association study in 1.5 million participants of MVP, FinnGen, and UK Biobank. medRxiv,  () . doi:10.1101/2025.01.31.25321488. PMID 39974076",
+  "FIRST_AUTHOR": "Davis SM",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

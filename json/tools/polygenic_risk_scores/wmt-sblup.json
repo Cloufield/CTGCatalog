@@ -1,0 +1,28 @@
+{
+  "NAME": "wMT-SBLUP",
+  "PMID": 29515099,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "wMT-SBLUP",
+  "FULL NAME": "weighted approximate multi-trait summary statistic BLUP",
+  "URL": "https://github.com/uqrmaie1/smtpred",
+  "MANUAL_CITATION": "Maier, R.M., Zhu, Z., Lee, S.H. et al. Improving genetic prediction by leveraging genetic correlations among human diseases and traits. Nat Commun 9, 989 (2018). https://doi.org/10.1038/s41467-017-02769-6",
+  "TITLE": "Improving genetic prediction by leveraging genetic correlations among human diseases and traits.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2018",
+  "VOLUME": "9",
+  "ISSUE": "1",
+  "PAGE": "989",
+  "Authors": "Maier RM,Zhu Z,Lee SH,Trzaskowski M,Ruderfer DM,Stahl EA,Ripke S,Wray NR,Yang J,Visscher PM,Robinson MR",
+  "ABSTRACT": "Genomic prediction has the potential to contribute to precision medicine. However, to date, the utility of such predictors is limited due to low accuracy for most traits. Here theory and simulation study are used to demonstrate that widespread pleiotropy among phenotypes can be utilised to improve genomic risk prediction. We show how a genetic predictor can be created as a weighted index that combines published genome-wide association study (GWAS) summary statistics across many different traits. We apply this framework to predict risk of schizophrenia and bipolar disorder in the Psychiatric Genomics consortium data, finding substantial heterogeneity in prediction accuracy increases across cohorts. For six additional phenotypes in the UK Biobank data, we find increases in prediction accuracy ranging from 0.7% for height to 47% for type 2 diabetes, when using a multi-trait predictor that combines published summary statistics from multiple traits, as compared to a predictor based only on one trait.",
+  "DOI": "10.1038/s41467-017-02769-6",
+  "PMC ID": "PMC5841449",
+  "CITATION": "Maier RM, Zhu Z, Lee SH, Trzaskowski M, ...&, Robinson MR. (2018) Improving genetic prediction by leveraging genetic correlations among human diseases and traits. Nat Commun, 9 (1) 989. doi:10.1038/s41467-017-02769-6. PMID 29515099",
+  "FIRST_AUTHOR": "Maier RM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

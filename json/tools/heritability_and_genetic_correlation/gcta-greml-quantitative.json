@@ -1,0 +1,29 @@
+{
+  "NAME": "GCTA-GREML-Quantitative",
+  "PMID": 20562875,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "GREML",
+  "FULL NAME": "Genome-wide complex trait analysis (GCTA) Genome-based restricted maximum likelihood (GREML)",
+  "URL": "https://yanglab.westlake.edu.cn/software/gcta/#GREML",
+  "DESCRIPTION": "GCTA-GREML analysis: estimating the variance explained by the SNPs / GCTA-GREML analysis for a case-control study",
+  "MANUAL_CITATION": "Yang, Jian, et al. \"Common SNPs explain a large proportion of the heritability for human height.\" Nature genetics 42.7 (2010): 565-569.\n\n",
+  "TITLE": "Common SNPs explain a large proportion of the heritability for human height.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2010",
+  "VOLUME": "42",
+  "ISSUE": "7",
+  "PAGE": "565-9",
+  "Authors": "Yang J,Benyamin B,McEvoy BP,Gordon S,Henders AK,Nyholt DR,Madden PA,Heath AC,Martin NG,Montgomery GW,Goddard ME,Visscher PM",
+  "ABSTRACT": "SNPs discovered by genome-wide association studies (GWASs) account for only a small fraction of the genetic variation of complex traits in human populations. Where is the remaining heritability? We estimated the proportion of variance for human height explained by 294,831 SNPs genotyped on 3,925 unrelated individuals using a linear model analysis, and validated the estimation method with simulations based on the observed genotype data. We show that 45% of variance can be explained by considering all SNPs simultaneously. Thus, most of the heritability is not missing but has not previously been detected because the individual effects are too small to pass stringent significance tests. We provide evidence that the remaining heritability is due to incomplete linkage disequilibrium between causal variants and genotyped SNPs, exacerbated by causal variants having lower minor allele frequency than the SNPs explored to date.",
+  "DOI": "10.1038/ng.608",
+  "PMC ID": "PMC3232052",
+  "CITATION": "Yang J, Benyamin B, McEvoy BP, Gordon S, ...&, Visscher PM. (2010) Common SNPs explain a large proportion of the heritability for human height. Nat Genet, 42 (7) 565-9. doi:10.1038/ng.608. PMID 20562875",
+  "FIRST_AUTHOR": "Yang J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

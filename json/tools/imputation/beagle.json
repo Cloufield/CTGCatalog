@@ -1,0 +1,27 @@
+{
+  "NAME": "BEAGLE",
+  "PMID": 17924348,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "BEAGLE",
+  "URL": "https://faculty.washington.edu/browning/beagle/beagle.html",
+  "MANUAL_CITATION": "Browning, Sharon R., and Brian L. Browning. \"Rapid and accurate haplotype phasing and missing-data inference for whole-genome association studies by use of localized haplotype clustering.\" The American Journal of Human Genetics 81.5 (2007): 1084-1097.",
+  "TITLE": "Rapid and accurate haplotype phasing and missing-data inference for whole-genome association studies by use of localized haplotype clustering.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2007",
+  "VOLUME": "81",
+  "ISSUE": "5",
+  "PAGE": "1084-97",
+  "Authors": "Browning SR,Browning BL",
+  "ABSTRACT": "Whole-genome association studies present many new statistical and computational challenges due to the large quantity of data obtained. One of these challenges is haplotype inference; methods for haplotype inference designed for small data sets from candidate-gene studies do not scale well to the large number of individuals genotyped in whole-genome association studies. We present a new method and software for inference of haplotype phase and missing data that can accurately phase data from whole-genome association studies, and we present the first comparison of haplotype-inference methods for real and simulated data sets with thousands of genotyped individuals. We find that our method outperforms existing methods in terms of both speed and accuracy for large data sets with thousands of individuals and densely spaced genetic markers, and we use our method to phase a real data set of 3,002 individuals genotyped for 490,032 markers in 3.1 days of computing time, with 99% of masked alleles imputed correctly. Our method is implemented in the Beagle software package, which is freely available.",
+  "DOI": "10.1086/521987",
+  "PMC ID": "PMC2265661",
+  "CITATION": "Browning SR, Browning BL. (2007) Rapid and accurate haplotype phasing and missing-data inference for whole-genome association studies by use of localized haplotype clustering. Am J Hum Genet, 81 (5) 1084-97. doi:10.1086/521987. PMID 17924348",
+  "FIRST_AUTHOR": "Browning SR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

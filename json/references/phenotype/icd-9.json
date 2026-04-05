@@ -1,0 +1,19 @@
+{
+  "NAME": "ICD-9",
+  "SECTION": "References",
+  "TOPIC": "Phenotype",
+  "CATEGORY": "Disease classification",
+  "TYPE": "Classification",
+  "SHORT NAME": "ICD-9",
+  "FULL NAME": "International Classification of Diseases 9th Revision",
+  "KEYWORDS": "ICD-9; ICD-9-CM; clinical coding; legacy EHR",
+  "DESCRIPTION": "Earlier WHO disease and injury classification still present in many historical EHR and claims datasets (e.g. ICD-9-CM in US data). Useful for harmonization with ICD-10/11 and aggregated phenotypes such as Phecodes.",
+  "MANUAL_CITATION": "World Health Organization. International Classification of Diseases, 9th Revision (ICD-9).",
+  "CITATION": "World Health Organization. International Classification of Diseases, 9th Revision (ICD-9). Geneva: WHO.",
+  "YEAR": "1977",
+  "URL": "https://icd.who.int/browse9/l/en",
+  "TAGS": ["Phenotypes"],
+  "_meta": {
+    "source_sheet": "Phenotype"
+  }
+}

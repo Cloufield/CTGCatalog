@@ -1,0 +1,15 @@
+{
+  "NAME": "Hail",
+  "SECTION": "Tools",
+  "TOPIC": "Data_processing",
+  "TYPE": "Tools",
+  "SHORT NAME": "Hail",
+  "FULL NAME": "Hail",
+  "MANUAL_YEAR": 2018,
+  "URL": "https://hail.is/",
+  "DESCRIPTION": "Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data.",
+  "MANUAL_CITATION": "Hail Team. Hail 0.2.13-81ab564db2b4. https://github.com/hail-is/hail/releases/tag/0.2.13.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

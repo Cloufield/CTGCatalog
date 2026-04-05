@@ -1,0 +1,19 @@
+{
+  "NAME": "hg19",
+  "SHORT NAME": "hg19",
+  "FULL NAME": "UCSC hg19 (GRCh37) reference bundle",
+  "CATEGORY": "Genome",
+  "SOURCE": "UCSC",
+  "SECTION": "References",
+  "TOPIC": "Genome",
+  "KEYWORDS": "GRCh37; UCSC; reference genome; FASTA; legacy assembly",
+  "DESCRIPTION": "UCSC Genome Browser distribution of the GRCh37-era human reference (hg19): chromosomes chr1-22, chrX, chrY, chrM, plus unlocalized and unplaced contigs, alternate loci (e.g. chr6_apd_hap1), and related patches as packaged for the browser. Widely used in legacy pipelines and liftOver chains to/from hg38.",
+  "MANUAL_CITATION": "UCSC Genome Browser. hg19 downloads.",
+  "CITATION": "UCSC Genome Browser. Human reference assembly hg19 (GRCh37-aligned). https://hgdownload.soe.ucsc.edu/goldenPath/hg19/",
+  "URL": "https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/",
+  "TYPE": "Data",
+  "TAGS": ["Reference", "WGS"],
+  "_meta": {
+    "source_sheet": "Genome"
+  }
+}

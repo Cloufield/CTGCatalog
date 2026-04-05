@@ -1,0 +1,27 @@
+{
+  "NAME": "GenomeAsia 100K",
+  "PMID": 31802016,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation panel",
+  "TYPE": "Imputation panel",
+  "SHORT NAME": "GenomeAsia 100K",
+  "URL": "https://www.genomeasia100k.org/",
+  "MANUAL_CITATION": "\nGenomeAsia100K Consortium. The GenomeAsia 100K Project enables genetic discoveries across Asia. Nature 576, 106–111 (2019).\n  ",
+  "TITLE": "The GenomeAsia 100K Project enables genetic discoveries across Asia.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2019",
+  "VOLUME": "576",
+  "ISSUE": "7785",
+  "PAGE": "106-111",
+  "Authors": "GenomeAsia100K Consortium",
+  "ABSTRACT": "The underrepresentation of non-Europeans in human genetic studies so far has limited the diversity of individuals in genomic datasets and led to reduced medical relevance for a large proportion of the world's population. Population-specific reference genome datasets as well as genome-wide association studies in diverse populations are needed to address this issue. Here we describe the pilot phase of the GenomeAsia 100K Project. This includes a whole-genome sequencing reference dataset from 1,739 individuals of 219 population groups and 64 countries across Asia. We catalogue genetic variation, population structure, disease associations and founder effects. We also explore the use of this dataset in imputation, to facilitate genetic studies in populations across Asia and worldwide.",
+  "DOI": "10.1038/s41586-019-1793-z",
+  "PMC ID": "PMC7054211",
+  "CITATION": "GenomeAsia100K Consortium. (2019) The GenomeAsia 100K Project enables genetic discoveries across Asia. Nature, 576 (7785) 106-111. doi:10.1038/s41586-019-1793-z. PMID 31802016",
+  "FIRST_AUTHOR": "GenomeAsia100K Consortium",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

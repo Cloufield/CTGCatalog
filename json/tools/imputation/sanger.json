@@ -1,0 +1,26 @@
+{
+  "NAME": "Sanger",
+  "PMID": 27548312,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation server",
+  "TYPE": "Imputation server",
+  "URL": "https://imputation.sanger.ac.uk/",
+  "MANUAL_CITATION": "\"A reference panel of 64,976 haplotypes for genotype imputation.\" Nature genetics 48, no. 10 (2016): 1279-1283.",
+  "TITLE": "A reference panel of 64,976 haplotypes for genotype imputation.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2016",
+  "VOLUME": "48",
+  "ISSUE": "10",
+  "PAGE": "1279-83",
+  "Authors": "McCarthy S,Das S,Kretzschmar W,Delaneau O,Wood AR,Teumer A,Kang HM,Fuchsberger C,Danecek P,Sharp K,Luo Y,Sidore C,Kwong A,Timpson N,Koskinen S,Vrieze S,Scott LJ,Zhang H,Mahajan A,Veldink J,Peters U,Pato C,van Duijn CM,Gillies CE,Gandin I,Mezzavilla M,Gilly A,Cocca M,Traglia M,Angius A,Barrett JC,Boomsma D,Branham K,Breen G,Brummett CM,Busonero F,Campbell H,Chan A,Chen S,Chew E,Collins FS,Corbin LJ,Smith GD,Dedoussis G,Dorr M,Farmaki AE,Ferrucci L,Forer L,Fraser RM,Gabriel S,Levy S,Groop L,Harrison T,Hattersley A,Holmen OL,Hveem K,Kretzler M,Lee JC,McGue M,Meitinger T,Melzer D,Min JL,Mohlke KL,Vincent JB,Nauck M,Nickerson D,Palotie A,Pato M,Pirastu N,McInnis M,Richards JB,Sala C,Salomaa V,Schlessinger D,Schoenherr S,Slagboom PE,Small K,Spector T,Stambolian D,Tuke M,Tuomilehto J,Van den Berg LH,Van Rheenen W,Volker U,Wijmenga C,Toniolo D,Zeggini E,Gasparini P,Sampson MG,Wilson JF,Frayling T,de Bakker PI,Swertz MA,McCarroll S,Kooperberg C,Dekker A,Altshuler D,Willer C,Iacono W,Ripatti S,Soranzo N,Walter K,Swaroop A,Cucca F,Anderson CA,Myers RM,Boehnke M,McCarthy MI,Durbin R,Haplotype Reference Consortium",
+  "ABSTRACT": "We describe a reference panel of 64,976 human haplotypes at 39,235,157 SNPs constructed using whole-genome sequence data from 20 studies of predominantly European ancestry. Using this resource leads to accurate genotype imputation at minor allele frequencies as low as 0.1% and a large increase in the number of SNPs tested in association studies, and it can help to discover and refine causal loci. We describe remote server resources that allow researchers to carry out imputation and phasing consistently and efficiently.",
+  "DOI": "10.1038/ng.3643",
+  "PMC ID": "PMC5388176",
+  "CITATION": "McCarthy S, Das S, Kretzschmar W, Delaneau O, ...&, Haplotype Reference Consortium. (2016) A reference panel of 64,976 haplotypes for genotype imputation. Nat Genet, 48 (10) 1279-83. doi:10.1038/ng.3643. PMID 27548312",
+  "FIRST_AUTHOR": "McCarthy S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

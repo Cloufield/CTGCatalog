@@ -1,0 +1,15 @@
+{
+  "NAME": "NBDC (hum0197)",
+  "URL": "https://humandbs.dbcls.jp/en/hum0197",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Database",
+  "TYPE": "Datasets",
+  "DESCRIPTION": "NBDC human database entry hum0197 — metadata and access route for Japanese GWAS / summary statistics.",
+  "MANUAL_CITATION": "NBDC Human Database (hum0197) — Japanese National Bioscience Database Center entry for controlled-access human GWAS / summary statistics.",
+  "MANUAL_YEAR": 2020,
+  "MAIN_ANCESTRY": "EAS",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

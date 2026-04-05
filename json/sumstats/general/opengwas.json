@@ -1,0 +1,18 @@
+{
+  "NAME": "OpenGWAS",
+  "URL": "https://gwas.mrcieu.ac.uk/",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Platform",
+  "TYPE": "Platform",
+  "MANUAL_CITATION": "Elsworth, B., Lyon, M., Alexander, T., Liu, Y., Matthews, P., Hallett, J., ... & Hemani, G. (2020). The MRC IEU OpenGWAS data infrastructure. BioRxiv, 2020-08.",
+  "PREPRINT_DOI": "10.1101/2020.08.10.244293",
+  "SERVER": "biorxiv",
+  "DESCRIPTION": "MRC IEU OpenGWAS database — harmonized GWAS summary statistics and API for MR and related analyses.",
+  "MANUAL_YEAR": 2020,
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "CITATION": "Elsworth, B., Lyon, M., Alexander, T., Liu, Y., Matthews, P., Hallett, J., ... & Hemani, G. (2020). The MRC IEU OpenGWAS data infrastructure. BioRxiv, 2020-08.",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

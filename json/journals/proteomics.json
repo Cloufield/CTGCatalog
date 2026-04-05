@@ -1,0 +1,18 @@
+{
+  "NAME": "Proteomics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Proteomics",
+  "JOURNAL": "Proteomics",
+  "URL": "http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1615-9861",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Comparison"
+  ]
+}

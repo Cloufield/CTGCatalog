@@ -1,0 +1,27 @@
+{
+  "NAME": "Zhong",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 32576278,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Whole-genome sequence association analysis of blood proteins in a longitudinal wellness cohort.",
+  "ISO": "Genome Med",
+  "JOURNAL": "Genome medicine",
+  "YEAR": "2020",
+  "VOLUME": "12",
+  "ISSUE": "1",
+  "PAGE": "53",
+  "Authors": "Zhong W,Gummesson A,Tebani A,Karlsson MJ,Hong MG,Schwenk JM,Edfors F,Bergström G,Fagerberg L,Uhlén M",
+  "ABSTRACT": "BACKGROUND: The human plasma proteome is important for many biological processes and targets for diagnostics and therapy. It is therefore of great interest to understand the interplay of genetic and environmental factors to determine the specific protein levels in individuals and to gain a deeper insight of the importance of genetic architecture related to the individual variability of plasma levels of proteins during adult life. METHODS: We have combined whole-genome sequencing, multiplex plasma protein profiling, and extensive clinical phenotyping in a longitudinal 2-year wellness study of 101 healthy individuals with repeated sampling. Analyses of genetic and non-genetic associations related to the variability of blood levels of proteins in these individuals were performed. RESULTS: The analyses showed that each individual has a unique protein profile, and we report on the intra-individual as well as inter-individual variation for 794 plasma proteins. A genome-wide association study (GWAS) using 7.3 million genetic variants identified by whole-genome sequencing revealed 144 independent variants across 107 proteins that showed strong association (P < 6 × 10-11) between genetics and the inter-individual variability on protein levels. Many proteins not reported before were identified (67 out of 107) with individual plasma level affected by genetics. Our longitudinal analysis further demonstrates that these levels are stable during the 2-year study period. The variability of protein profiles as a consequence of environmental factors was also analyzed with focus on the effects of weight loss and infections. CONCLUSIONS: We show that the adult blood levels of many proteins are determined at birth by genetics, which is important for efforts aimed to understand the relationship between plasma proteome profiles and human biology and disease.",
+  "DOI": "10.1186/s13073-020-00755-0",
+  "PMC ID": "PMC7310558",
+  "CITATION": "Zhong W, Gummesson A, Tebani A, Karlsson MJ, ...&, Uhlén M. (2020) Whole-genome sequence association analysis of blood proteins in a longitudinal wellness cohort. Genome Med, 12 (1) 53. doi:10.1186/s13073-020-00755-0. PMID 32576278",
+  "FIRST_AUTHOR": "Zhong W",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

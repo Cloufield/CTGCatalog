@@ -1,0 +1,18 @@
+{
+  "NAME": "Frontiers in genetics",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Front Genet",
+  "JOURNAL": "Frontiers in genetics",
+  "URL": "http://www.frontiersin.org/genetics",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "LDlinkR"
+  ]
+}

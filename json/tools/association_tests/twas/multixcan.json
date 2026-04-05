@@ -1,0 +1,30 @@
+{
+  "NAME": "MultiXcan",
+  "PMID": 30668570,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "MultiXcan",
+  "FULL NAME": "MultiXcan",
+  "MANUAL_YEAR": 2019,
+  "URL": "https://github.com/hakyimlab/MetaXcan",
+  "DESCRIPTION": "an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure.",
+  "MANUAL_CITATION": "Barbeira, A. N., Pividori, M., Zheng, J., Wheeler, H. E., Nicolae, D. L., & Im, H. K. (2019). Integrating predicted transcriptome from multiple tissues improves association detection. PLoS genetics, 15(1), e1007889.",
+  "TITLE": "Integrating predicted transcriptome from multiple tissues improves association detection.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2019",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "e1007889",
+  "Authors": "Barbeira AN,Pividori M,Zheng J,Wheeler HE,Nicolae DL,Im HK",
+  "ABSTRACT": "Integration of genome-wide association studies (GWAS) and expression quantitative trait loci (eQTL) studies is needed to improve our understanding of the biological mechanisms underlying GWAS hits, and our ability to identify therapeutic targets. Gene-level association methods such as PrediXcan can prioritize candidate targets. However, limited eQTL sample sizes and absence of relevant developmental and disease context restrict our ability to detect associations. Here we propose an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure. We apply our method to simulated and real traits from the UK Biobank and show that, in realistic settings, we can detect a larger set of significantly associated genes than using each panel separately. To improve applicability, we developed a summary result-based extension called S-MultiXcan, which we show yields highly concordant results with the individual level version when LD is well matched. Our multivariate model-based approach allowed us to use the individual level results as a gold standard to calibrate and develop a robust implementation of the summary-based extension. Results from our analysis as well as software and necessary resources to apply our method are publicly available.",
+  "DOI": "10.1371/journal.pgen.1007889",
+  "PMC ID": "PMC6358100",
+  "CITATION": "Barbeira AN, Pividori M, Zheng J, Wheeler HE, ...&, Im HK. (2019) Integrating predicted transcriptome from multiple tissues improves association detection. PLoS Genet, 15 (1) e1007889. doi:10.1371/journal.pgen.1007889. PMID 30668570",
+  "FIRST_AUTHOR": "Barbeira AN",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

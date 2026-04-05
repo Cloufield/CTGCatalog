@@ -1,0 +1,27 @@
+{
+  "NAME": "fastPHASE",
+  "PMID": 16532393,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "fastPHASE",
+  "URL": "http://scheet.org/software.html",
+  "MANUAL_CITATION": "Scheet, Paul, and Matthew Stephens. \"A fast and flexible statistical model for large-scale population genotype data: applications to inferring missing genotypes and haplotypic phase.\" The American Journal of Human Genetics 78.4 (2006): 629-644.",
+  "TITLE": "A fast and flexible statistical model for large-scale population genotype data: applications to inferring missing genotypes and haplotypic phase.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2006",
+  "VOLUME": "78",
+  "ISSUE": "4",
+  "PAGE": "629-44",
+  "Authors": "Scheet P,Stephens M",
+  "ABSTRACT": "We present a statistical model for patterns of genetic variation in samples of unrelated individuals from natural populations. This model is based on the idea that, over short regions, haplotypes in a population tend to cluster into groups of similar haplotypes. To capture the fact that, because of recombination, this clustering tends to be local in nature, our model allows cluster memberships to change continuously along the chromosome according to a hidden Markov model. This approach is flexible, allowing for both \"block-like\" patterns of linkage disequilibrium (LD) and gradual decline in LD with distance. The resulting model is also fast and, as a result, is practicable for large data sets (e.g., thousands of individuals typed at hundreds of thousands of markers). We illustrate the utility of the model by applying it to dense single-nucleotide-polymorphism genotype data for the tasks of imputing missing genotypes and estimating haplotypic phase. For imputing missing genotypes, methods based on this model are as accurate or more accurate than existing methods. For haplotype estimation, the point estimates are slightly less accurate than those from the best existing methods (e.g., for unrelated Centre d'Etude du Polymorphisme Humain individuals from the HapMap project, switch error was 0.055 for our method vs. 0.051 for PHASE) but require a small fraction of the computational cost. In addition, we demonstrate that the model accurately reflects uncertainty in its estimates, in that probabilities computed using the model are approximately well calibrated. The methods described in this article are implemented in a software package, fastPHASE, which is available from the Stephens Lab Web site.",
+  "DOI": "10.1086/502802",
+  "PMC ID": "PMC1424677",
+  "CITATION": "Scheet P, Stephens M. (2006) A fast and flexible statistical model for large-scale population genotype data: applications to inferring missing genotypes and haplotypic phase. Am J Hum Genet, 78 (4) 629-44. doi:10.1086/502802. PMID 16532393",
+  "FIRST_AUTHOR": "Scheet P",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

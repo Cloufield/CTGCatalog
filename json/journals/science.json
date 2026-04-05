@@ -1,0 +1,25 @@
+{
+  "NAME": "Science (New York, N.Y.)",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Science",
+  "JOURNAL": "Science (New York, N.Y.)",
+  "URL": "https://www.science.org/journal/science",
+  "ENTRY_COUNT": 24,
+  "CITED_BY_SECTION": {
+    "Tools": 5,
+    "Sumstats": 13,
+    "References": 5,
+    "Single_Cell": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "AlphaMissense",
+    "ESM-2",
+    "PrimateAI-3D",
+    "ENCODE 2004",
+    "OneK1K"
+  ]
+}

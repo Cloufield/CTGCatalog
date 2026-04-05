@@ -1,0 +1,15 @@
+{
+  "NAME": "INTERVAL Study",
+  "SECTION": "Biobanks",
+  "TOPIC": "EUROPE",
+  "CONTINENT": "EUROPE",
+  "SAMPLE SIZE": "~50k",
+  "MANUAL_CITATION": "Moore, C., Bolton, T., Walker, M., Kaptoge, S., Allen, D., Daynes, M., ... & Thompson, S. G. (2016). Recruitment and representativeness of blood donors in the INTERVAL randomised trial assessing varying inter-donation intervals. Trials, 17(1), 1-12.",
+  "URL": "https://www.intervalstudy.org.uk/",
+  "DESCRIPTION": "Between June 2012 and June 2014, the INTERVAL study recruited about 25,000 men and about 25,000 women at NHS Blood and Transplant (NSHBT) blood donation centres across England. During the study participants are asked to give blood either at usual donation intervals or more frequently. Men donate every 12, 10 or 8 weeks and women every 16, 14 or 12 weeks.",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EUR",
+  "PARTICIPANTS": "English blood donors (INTERVAL)"
+}

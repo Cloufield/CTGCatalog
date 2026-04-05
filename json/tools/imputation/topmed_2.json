@@ -1,0 +1,28 @@
+{
+  "NAME": "TOPMED",
+  "PMID": 33568819,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Imputation server",
+  "TYPE": "Imputation server",
+  "SHORT NAME": "TOPMED",
+  "FULL NAME": "\nTrans-Omics for Precision Medicine",
+  "URL": "https://imputation.biodatacatalyst.nhlbi.nih.gov/#!",
+  "MANUAL_CITATION": "Taliun, D., Harris, D. N., Kessler, M. D., Carlson, J., Szpiech, Z. A., Torres, R., ... & Stilp, A. M. (2021). Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program. Nature, 590(7845), 290-299.",
+  "TITLE": "Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2021",
+  "VOLUME": "590",
+  "ISSUE": "7845",
+  "PAGE": "290-299",
+  "Authors": "Taliun D,Harris DN,Kessler MD,Carlson J,Szpiech ZA,Torres R,Taliun SAG,Corvelo A,Gogarten SM,Kang HM,Pitsillides AN,LeFaive J,Lee SB,Tian X,Browning BL,Das S,Emde AK,Clarke WE,Loesch DP,Shetty AC,Blackwell TW,Smith AV,Wong Q,Liu X,Conomos MP,Bobo DM,Aguet F,Albert C,Alonso A,Ardlie KG,Arking DE,Aslibekyan S,Auer PL,Barnard J,Barr RG,Barwick L,Becker LC,Beer RL,Benjamin EJ,Bielak LF,Blangero J,Boehnke M,Bowden DW,Brody JA,Burchard EG,Cade BE,Casella JF,Chalazan B,Chasman DI,Chen YI,Cho MH,Choi SH,Chung MK,Clish CB,Correa A,Curran JE,Custer B,Darbar D,Daya M,de Andrade M,DeMeo DL,Dutcher SK,Ellinor PT,Emery LS,Eng C,Fatkin D,Fingerlin T,Forer L,Fornage M,Franceschini N,Fuchsberger C,Fullerton SM,Germer S,Gladwin MT,Gottlieb DJ,Guo X,Hall ME,He J,Heard-Costa NL,Heckbert SR,Irvin MR,Johnsen JM,Johnson AD,Kaplan R,Kardia SLR,Kelly T,Kelly S,Kenny EE,Kiel DP,Klemmer R,Konkle BA,Kooperberg C,Köttgen A,Lange LA,Lasky-Su J,Levy D,Lin X,Lin KH,Liu C,Loos RJF,Garman L,Gerszten R,Lubitz SA,Lunetta KL,Mak ACY,Manichaikul A,Manning AK,Mathias RA,McManus DD,McGarvey ST,Meigs JB,Meyers DA,Mikulla JL,Minear MA,Mitchell BD,Mohanty S,Montasser ME,Montgomery C,Morrison AC,Murabito JM,Natale A,Natarajan P,Nelson SC,North KE,O'Connell JR,Palmer ND,Pankratz N,Peloso GM,Peyser PA,Pleiness J,Post WS,Psaty BM,Rao DC,Redline S,Reiner AP,Roden D,Rotter JI,Ruczinski I,Sarnowski C,Schoenherr S,Schwartz DA,Seo JS,Seshadri S,Sheehan VA,Sheu WH,Shoemaker MB,Smith NL,Smith JA,Sotoodehnia N,Stilp AM,Tang W,Taylor KD,Telen M,Thornton TA,Tracy RP,Van Den Berg DJ,Vasan RS,Viaud-Martinez KA,Vrieze S,Weeks DE,Weir BS,Weiss ST,Weng LC,Willer CJ,Zhang Y,Zhao X,Arnett DK,Ashley-Koch AE,Barnes KC,Boerwinkle E,Gabriel S,Gibbs R,Rice KM,Rich SS,Silverman EK,Qasba P,Gan W,NHLBI Trans-Omics for Precision Medicine (TOPMed) Consortium,Papanicolaou GJ,Nickerson DA,Browning SR,Zody MC,Zöllner S,Wilson JG,Cupples LA,Laurie CC,Jaquish CE,Hernandez RD,O'Connor TD,Abecasis GR",
+  "ABSTRACT": "The Trans-Omics for Precision Medicine (TOPMed) programme seeks to elucidate the genetic architecture and biology of heart, lung, blood and sleep disorders, with the ultimate goal of improving diagnosis, treatment and prevention of these diseases. The initial phases of the programme focused on whole-genome sequencing of individuals with rich phenotypic data and diverse backgrounds. Here we describe the TOPMed goals and design as well as the available resources and early insights obtained from the sequence data. The resources include a variant browser, a genotype imputation server, and genomic and phenotypic data that are available through dbGaP (Database of Genotypes and Phenotypes)1. In the first 53,831 TOPMed samples, we detected more than 400 million single-nucleotide and insertion or deletion variants after alignment with the reference genome. Additional previously undescribed variants were detected through assembly of unmapped reads and customized analysis in highly variable loci. Among the more than 400 million detected variants, 97% have frequencies of less than 1% and 46% are singletons that are present in only one individual (53% among unrelated individuals). These rare variants provide insights into mutational processes and recent human evolutionary history. The extensive catalogue of genetic variation in TOPMed studies provides unique opportunities for exploring the contributions of rare and noncoding sequence variants to phenotypic variation. Furthermore, combining TOPMed haplotypes with modern imputation methods improves the power and reach of genome-wide association studies to include variants down to a frequency of approximately 0.01%.",
+  "DOI": "10.1038/s41586-021-03205-y",
+  "PMC ID": "PMC7875770",
+  "CITATION": "Taliun D, Harris DN, Kessler MD, Carlson J, ...&, Abecasis GR. (2021) Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program. Nature, 590 (7845) 290-299. doi:10.1038/s41586-021-03205-y. PMID 33568819",
+  "FIRST_AUTHOR": "Taliun D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

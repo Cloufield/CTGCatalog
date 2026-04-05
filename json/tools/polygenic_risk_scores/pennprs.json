@@ -1,0 +1,18 @@
+{
+  "NAME": "PennPRS",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Platform",
+  "TYPE": "Tools",
+  "MANUAL_YEAR": 2025,
+  "KEYWORDS": "PennPRS",
+  "PREPRINT_DOI": "10.1101/2025.02.07.25321875",
+  "PREPRINT_SERVER": "medrxiv",
+  "URL": "https://pennprs.org/",
+  "DESCRIPTION": "PennPRS is a centralized cloud computing platform for efficient polygenic risk score (PRS) model training in precision medicine. Users can either upload their own GWAS summary data or directly query data from public data sources we provide. PennPRS supports both single-ancestry and multi-ancestry PRS training.",
+  "MANUAL_CITATION": "Jin, J., Li, B., Wang, X., Yang, X., Li, Y., Wang, R., ... & Zhao, B. (2025). PennPRS: a centralized cloud computing platform for efficient polygenic risk score training in precision medicine. medRxiv.",
+  "CITATION": "Jin, J., Li, B., Wang, X., Yang, X., Li, Y., Wang, R., ... & Zhao, B. (2025). PennPRS: a centralized cloud computing platform for efficient polygenic risk score training in precision medicine. medRxiv.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

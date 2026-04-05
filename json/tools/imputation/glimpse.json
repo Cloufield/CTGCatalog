@@ -1,0 +1,29 @@
+{
+  "NAME": "GLIMPSE",
+  "PMID": 33414550,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Phasing & Imputation tool",
+  "TYPE": "Phasing & Imputation tool",
+  "SHORT NAME": "GLIMPSE",
+  "FULL NAME": "Genotype Likelihoods IMputation and PhaSing mEthod",
+  "URL": "https://odelaneau.github.io/GLIMPSE/",
+  "DESCRIPTION": "GLIMPSE is a phasing and imputation method for large-scale low-coverage sequencing studies.",
+  "MANUAL_CITATION": "Rubinacci, S., Ribeiro, D. M., Hofmeister, R. J., & Delaneau, O. (2021). Efficient phasing and imputation of low-coverage sequencing data using large reference panels. Nature Genetics, 53(1), 120-126.\n(using GLIMPSE for ancient DNA) Sousa da Mota, B., Rubinacci, S., Cruz Dávalos, D. I., G. Amorim, C. E., Sikora, M., Johannsen, N. N., ... & Delaneau, O. (2023). Imputation of ancient human genomes. Nature Communications, 14(1), 3660.",
+  "TITLE": "Efficient phasing and imputation of low-coverage sequencing data using large reference panels.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2021",
+  "VOLUME": "53",
+  "ISSUE": "1",
+  "PAGE": "120-126",
+  "Authors": "Rubinacci S,Ribeiro DM,Hofmeister RJ,Delaneau O",
+  "ABSTRACT": "Low-coverage whole-genome sequencing followed by imputation has been proposed as a cost-effective genotyping approach for disease and population genetics studies. However, its competitiveness against SNP arrays is undermined because current imputation methods are computationally expensive and unable to leverage large reference panels. Here, we describe a method, GLIMPSE, for phasing and imputation of low-coverage sequencing datasets from modern reference panels. We demonstrate its remarkable performance across different coverages and human populations. GLIMPSE achieves imputation of a genome for less than US$1 in computational cost, considerably outperforming other methods and improving imputation accuracy over the full allele frequency range. As a proof of concept, we show that 1× coverage enables effective gene expression association studies and outperforms dense SNP arrays in rare variant burden tests. Overall, this study illustrates the promising potential of low-coverage imputation and suggests a paradigm shift in the design of future genomic studies.",
+  "DOI": "10.1038/s41588-020-00756-0",
+  "PMC ID": "",
+  "CITATION": "Rubinacci S, Ribeiro DM, Hofmeister RJ, Delaneau O. (2021) Efficient phasing and imputation of low-coverage sequencing data using large reference panels. Nat Genet, 53 (1) 120-126. doi:10.1038/s41588-020-00756-0. PMID 33414550",
+  "FIRST_AUTHOR": "Rubinacci S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "NAME": "Mistral",
+  "SECTION": "AI",
+  "TOPIC": "Major_model_series",
+  "TYPE": "Model series",
+  "COMPANY": "Mistral AI",
+  "URL": "https://mistral.ai",
+  "DESCRIPTION": "Mistral AI’s open and commercial Mistral / Mixtral models for chat, code, and EU-focused deployments.",
+  "TAGS": ["AI", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

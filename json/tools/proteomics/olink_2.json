@@ -1,0 +1,23 @@
+{
+  "NAME": "Olink",
+  "PMID": 34715355,
+  "SECTION": "Tools",
+  "TOPIC": "Proteomics",
+  "MANUAL_CITATION": "Wik, L., Nordberg, N., Broberg, J., Björkesten, J., Assarsson, E., Henriksson, S., ... & Lundberg, M. (2021). Proximity extension assay in combination with next-generation sequencing for high-throughput proteome-wide analysis. Molecular & Cellular Proteomics, 20.",
+  "TITLE": "Proximity Extension Assay in Combination with Next-Generation Sequencing for High-throughput Proteome-wide Analysis.",
+  "ISO": "Mol Cell Proteomics",
+  "JOURNAL": "Molecular & cellular proteomics : MCP",
+  "YEAR": "2021",
+  "VOLUME": "20",
+  "ISSUE": "",
+  "PAGE": "100168",
+  "Authors": "Wik L,Nordberg N,Broberg J,Björkesten J,Assarsson E,Henriksson S,Grundberg I,Pettersson E,Westerberg C,Liljeroth E,Falck A,Lundberg M",
+  "ABSTRACT": "Understanding the dynamics of the human proteome is crucial for developing biomarkers to be used as measurable indicators for disease severity and progression, patient stratification, and drug development. The Proximity Extension Assay (PEA) is a technology that translates protein information into actionable knowledge by linking protein-specific antibodies to DNA-encoded tags. In this report we demonstrate how we have combined the unique PEA technology with an innovative and automated sample preparation and high-throughput sequencing readout enabling parallel measurement of nearly 1500 proteins in 96 samples generating close to 150,000 data points per run. This advancement will have a major impact on the discovery of new biomarkers for disease prediction and prognosis and contribute to the development of the rapidly evolving fields of wellness monitoring and precision medicine.",
+  "DOI": "10.1016/j.mcpro.2021.100168",
+  "PMC ID": "PMC8633680",
+  "CITATION": "Wik L, Nordberg N, Broberg J, Björkesten J, ...&, Lundberg M. (2021) Proximity Extension Assay in Combination with Next-Generation Sequencing for High-throughput Proteome-wide Analysis. Mol Cell Proteomics, 20 () 100168. doi:10.1016/j.mcpro.2021.100168. PMID 34715355",
+  "FIRST_AUTHOR": "Wik L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

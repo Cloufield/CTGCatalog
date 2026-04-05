@@ -1,0 +1,16 @@
+{
+  "NAME": "Korean Genome Project Phase 1",
+  "SHORT NAME": "KGP Korea1K",
+  "SECTION": "Biobanks",
+  "TOPIC": "ASIA",
+  "CONTINENT": "ASIA",
+  "SAMPLE SIZE": "~1K",
+  "MANUAL_CITATION": "Jeon, S., Bhak, Y., Choi, Y., Jeon, Y., Kim, S., Jang, J., ... & Bhak, J. (2020). Korean Genome Project: 1094 Korean personal genomes with clinical information. Science advances, 6(22), eaaz7835.",
+  "DESCRIPTION": "Reference panel of ~1,000 Korean whole genomes with linked clinical information for population genetics, imputation, and precision-medicine applications.",
+  "URL": "https://koreangenome.org/Main_Page",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "EAS",
+  "PARTICIPANTS": "Korean individuals (reference genomes)"
+}

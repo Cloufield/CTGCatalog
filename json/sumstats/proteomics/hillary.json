@@ -1,0 +1,27 @@
+{
+  "NAME": "Hillary",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 31320639,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "PEA/OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Genome and epigenome wide studies of neurological protein biomarkers in the Lothian Birth Cohort 1936.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2019",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "3160",
+  "Authors": "Hillary RF,McCartney DL,Harris SE,Stevenson AJ,Seeboth A,Zhang Q,Liewald DC,Evans KL,Ritchie CW,Tucker-Drob EM,Wray NR,McRae AF,Visscher PM,Deary IJ,Marioni RE",
+  "ABSTRACT": "Although plasma proteins may serve as markers of neurological disease risk, the molecular mechanisms responsible for inter-individual variation in plasma protein levels are poorly understood. Therefore, we conduct genome- and epigenome-wide association studies on the levels of 92 neurological proteins to identify genetic and epigenetic loci associated with their plasma concentrations (n = 750 healthy older adults). We identify 41 independent genome-wide significant (P < 5.4 × 10-10) loci for 33 proteins and 26 epigenome-wide significant (P < 3.9 × 10-10) sites associated with the levels of 9 proteins. Using this information, we identify biological pathways in which putative neurological biomarkers are implicated (neurological, immunological and extracellular matrix metabolic pathways). We also observe causal relationships (by Mendelian randomisation analysis) between changes in gene expression (DRAXIN, MDGA1 and KYNU), or DNA methylation profiles (MATN3, MDGA1 and NEP), and altered plasma protein levels. Together, this may help inform causal relationships between biomarkers and neurological diseases.",
+  "DOI": "10.1038/s41467-019-11177-x",
+  "PMC ID": "PMC6639385",
+  "CITATION": "Hillary RF, McCartney DL, Harris SE, Stevenson AJ, ...&, Marioni RE. (2019) Genome and epigenome wide studies of neurological protein biomarkers in the Lothian Birth Cohort 1936. Nat Commun, 10 (1) 3160. doi:10.1038/s41467-019-11177-x. PMID 31320639",
+  "FIRST_AUTHOR": "Hillary RF",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "NAME": "DDx-PRS",
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "DDx-PRS",
+  "FULL NAME": "Differential Diagnosis-Polygenic Risk Score",
+  "URL": "https://github.com/wouterpeyrot/DDxPRS",
+  "DESCRIPTION": "The DDxPRS R function provides a tool for distuingishing different disorders based on polygenic prediction. ",
+  "MANUAL_CITATION": "Peyrot, W. J., Panagiotaropoulou, G., Olde Loohuis, L. M., Adams, M., Awasthi, S., Ge, T., ... & Price, A. L. (2024). Distinguishing different psychiatric disorders using DDx-PRS. medRxiv, 2024-02.",
+  "CITATION": "Peyrot, W. J., Panagiotaropoulou, G., Olde Loohuis, L. M., Adams, M., Awasthi, S., Ge, T., ... & Price, A. L. (2024). Distinguishing different psychiatric disorders using DDx-PRS. medRxiv, 2024-02.",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

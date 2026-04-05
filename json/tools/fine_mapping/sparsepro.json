@@ -1,0 +1,28 @@
+{
+  "NAME": "SparsePro",
+  "PMID": 38153934,
+  "SECTION": "Tools",
+  "TOPIC": "Fine_mapping",
+  "TYPE": "Tools",
+  "SHORT NAME": "SparsePro",
+  "FULL NAME": "SparsePro",
+  "URL": "https://github.com/zhwm/SparsePro",
+  "DESCRIPTION": "SparsePro is a command line tool for efficiently conducting genome-wide fine-mapping. Our method has two key features: First, by creating a sparse low-dimensional projection of the high-dimensional genotype, we enable a linear search of causal variants instead of an exponential search of causal configurations in most existing methods; Second, we adopt a probabilistic framework with a highly efficient variational expectation-maximization algorithm to integrate statistical associations and functional priors.",
+  "MANUAL_CITATION": "Zhang, W., Najafabadi, H. S., & Li, Y. (2021). SparsePro: an efficient genome-wide fine-mapping method integrating summary statistics and functional annotations. bioRxiv.\nZhang, W., Najafabadi, H., & Li, Y. (2023). SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations. PLoS genetics, 19(12), e1011104.",
+  "TITLE": "SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2023",
+  "VOLUME": "19",
+  "ISSUE": "12",
+  "PAGE": "e1011104",
+  "Authors": "Zhang W,Najafabadi H,Li Y",
+  "ABSTRACT": "Identifying causal variants from genome-wide association studies (GWAS) is challenging due to widespread linkage disequilibrium (LD) and the possible existence of multiple causal variants in the same genomic locus. Functional annotations of the genome may help to prioritize variants that are biologically relevant and thus improve fine-mapping of GWAS results. Classical fine-mapping methods conducting an exhaustive search of variant-level causal configurations have a high computational cost, especially when the underlying genetic architecture and LD patterns are complex. SuSiE provided an iterative Bayesian stepwise selection algorithm for efficient fine-mapping. In this work, we build connections between SuSiE and a paired mean field variational inference algorithm through the implementation of a sparse projection, and propose effective strategies for estimating hyperparameters and summarizing posterior probabilities. Moreover, we incorporate functional annotations into fine-mapping by jointly estimating enrichment weights to derive functionally-informed priors. We evaluate the performance of SparsePro through extensive simulations using resources from the UK Biobank. Compared to state-of-the-art methods, SparsePro achieved improved power for fine-mapping with reduced computation time. We demonstrate the utility of SparsePro through fine-mapping of five functional biomarkers of clinically relevant phenotypes. In summary, we have developed an efficient fine-mapping method for integrating summary statistics and functional annotations. Our method can have wide utility in understanding the genetics of complex traits and increasing the yield of functional follow-up studies of GWAS. SparsePro software is available on GitHub at https://github.com/zhwm/SparsePro.",
+  "DOI": "10.1371/journal.pgen.1011104",
+  "PMC ID": "PMC10781022",
+  "CITATION": "Zhang W, Najafabadi H, Li Y. (2023) SparsePro: An efficient fine-mapping method integrating summary statistics and functional annotations. PLoS Genet, 19 (12) e1011104. doi:10.1371/journal.pgen.1011104. PMID 38153934",
+  "FIRST_AUTHOR": "Zhang W",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "LeafCutter",
+  "PMID": 29229983,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "sQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "LeafCutter",
+  "FULL NAME": "LeafCutter",
+  "URL": "https://davidaknowles.github.io/leafcutter/",
+  "DESCRIPTION": "Leafcutter quantifies RNA splicing variation using short-read RNA-seq data. The core idea is to leverage spliced reads (reads that span an intron) to quantify (differential) intron usage across samples.",
+  "MANUAL_CITATION": "Li, Y.I., Knowles, D.A., Humphrey, J. et al. Annotation-free quantification of RNA splicing using LeafCutter. Nat Genet 50, 151–158 (2018). https://doi.org/10.1038/s41588-017-0004-9",
+  "TITLE": "Annotation-free quantification of RNA splicing using LeafCutter.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "1",
+  "PAGE": "151-158",
+  "Authors": "Li YI,Knowles DA,Humphrey J,Barbeira AN,Dickinson SP,Im HK,Pritchard JK",
+  "ABSTRACT": "The excision of introns from pre-mRNA is an essential step in mRNA processing. We developed LeafCutter to study sample and population variation in intron splicing. LeafCutter identifies variable splicing events from short-read RNA-seq data and finds events of high complexity. Our approach obviates the need for transcript annotations and circumvents the challenges in estimating relative isoform or exon usage in complex splicing events. LeafCutter can be used both to detect differential splicing between sample groups and to map splicing quantitative trait loci (sQTLs). Compared with contemporary methods, our approach identified 1.4-2.1 times more sQTLs, many of which helped us ascribe molecular effects to disease-associated variants. Transcriptome-wide associations between LeafCutter intron quantifications and 40 complex traits increased the number of associated disease genes at a 5% false discovery rate by an average of 2.1-fold compared with that detected through the use of gene expression levels alone. LeafCutter is fast, scalable, easy to use, and available online.",
+  "DOI": "10.1038/s41588-017-0004-9",
+  "PMC ID": "PMC5742080",
+  "CITATION": "Li YI, Knowles DA, Humphrey J, Barbeira AN, ...&, Pritchard JK. (2018) Annotation-free quantification of RNA splicing using LeafCutter. Nat Genet, 50 (1) 151-158. doi:10.1038/s41588-017-0004-9. PMID 29229983",
+  "FIRST_AUTHOR": "Li YI",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "NAME": "Cardiovascular research",
+  "SECTION": "Journals",
+  "TOPIC": "Index",
+  "ISO": "Cardiovasc Res",
+  "JOURNAL": "Cardiovascular research",
+  "URL": "https://academic.oup.com/cardiovascres",
+  "ENTRY_COUNT": 1,
+  "CITED_BY_SECTION": {
+    "Tools": 1
+  },
+  "_meta": {
+    "source_sheet": "Journals"
+  },
+  "EXAMPLE_ENTRIES": [
+    "Reviews&Tutorials"
+  ]
+}

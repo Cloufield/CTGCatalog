@@ -1,0 +1,16 @@
+{
+  "NAME": "HCHS/SOL",
+  "SHORT NAME": "HCHS/SOL",
+  "SECTION": "Biobanks",
+  "TOPIC": "AMERICA",
+  "CONTINENT": "AMERICA",
+  "SAMPLE SIZE": "~16k",
+  "DESCRIPTION": "Hispanic Community Health Study / Study of Latinos: four U.S. field centers with deep cardiometabolic phenotyping; central to GWAS in admixed Latino populations.",
+  "MANUAL_CITATION": "Lavange, L. M., Kalsbeek, W. D., Sorlie, P. D., Avilés-Santa, L. M., Kaplan, R. C., Barnhart, J., ... & Sorlie, P. D. (2010). Sample design and cohort selection in the Hispanic Community Health Study/Study of Latinos. Annals of Epidemiology, 20(9), 642-649.",
+  "URL": "https://www.cscc.unc.edu/hchs/",
+  "_meta": {
+    "source_sheet": "Biobanks"
+  },
+  "MAIN_ANCESTRY": "AMR",
+  "PARTICIPANTS": "Hispanic/Latino adults (US community sites)"
+}

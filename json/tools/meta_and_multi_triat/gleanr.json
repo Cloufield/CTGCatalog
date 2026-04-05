@@ -1,0 +1,29 @@
+{
+  "NAME": "GLEANR",
+  "PMID": 40730164,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "GLEANR",
+  "FULL NAME": "GWAS latent embeddings accounting for noise and regularization",
+  "URL": "https://github.com/aomdahl/gleanr",
+  "DESCRIPTION": "GLEANER is a GWAS matrix factorization tool to estimate sparse latent pleiotropic genetic factors. Factors map traits to a distribution of SNP effects that may capture biological pathways or mechanisms shared by these traits.",
+  "MANUAL_CITATION": "\nOmdahl, A. R. et al. Sparse matrix factorization robust to sample sharing across GWASs reveals interpretable genetic components. Am. J. Hum. Genet. (2025) doi:10.1016/j.ajhg.2025.07.003.\n  \n",
+  "TITLE": "Sparse matrix factorization robust to sample sharing across GWASs reveals interpretable genetic components.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2025",
+  "VOLUME": "112",
+  "ISSUE": "9",
+  "PAGE": "2178-2197",
+  "Authors": "Omdahl AR,Weinstock JS,Keener R,Chhetri SB,Arvanitis M,Battle A",
+  "ABSTRACT": "Complex trait-associated genetic variation is highly pleiotropic. This extensive pleiotropy implies that multi-phenotype analyses are informative for characterizing genetic associations, as they facilitate the discovery of trait-shared and trait-specific variants and pathways (\"genetic factors\"). Previous efforts have estimated genetic factors using matrix factorization (MF) applied to numerous genome-wide association studies (GWASs). However, existing methods are susceptible to spurious factors arising from residual confounding due to sample sharing in biobank GWASs. Furthermore, MF approaches have historically estimated dense factors, loaded on most traits and variants, that are challenging to map onto interpretable biological pathways. To address these shortcomings, we introduce \"GWAS latent embeddings accounting for noise and regularization\" (GLEANR), an MF method for detection of sparse genetic factors from summary statistics. GLEANR accounts for sample sharing between studies and uses regularization to estimate a data-driven number of interpretable factors. GLEANR is robust to confounding induced by shared samples and improves the replication of genetic factors derived from distinct biobanks. We used GLEANR to evaluate 137 diverse GWASs from the UK Biobank, identifying 58 factors that decompose the genetic architecture of input traits and have distinct signatures of negative selection and degrees of polygenicity. These sparse factors can be interpreted with respect to disease, cell type, and pathway enrichment. We highlight three such factors that captured platelet-measure phenotypes and were enriched for disease-relevant markers corresponding to distinct stages of platelet differentiation. Overall, GLEANR is a powerful tool for discovering both trait-specific and trait-shared pathways underlying complex traits from GWAS summary statistics.",
+  "DOI": "10.1016/j.ajhg.2025.07.003",
+  "PMC ID": "PMC12461026",
+  "CITATION": "Omdahl AR, Weinstock JS, Keener R, Chhetri SB, ...&, Battle A. (2025) Sparse matrix factorization robust to sample sharing across GWASs reveals interpretable genetic components. Am J Hum Genet, 112 (9) 2178-2197. doi:10.1016/j.ajhg.2025.07.003. PMID 40730164",
+  "FIRST_AUTHOR": "Omdahl AR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

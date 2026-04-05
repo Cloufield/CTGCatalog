@@ -1,0 +1,27 @@
+{
+  "NAME": "Megastroke",
+  "URL": "https://www.megastroke.org/index.html",
+  "SECTION": "Sumstats",
+  "TOPIC": "General",
+  "CATEGORY": "Consortiums",
+  "TYPE": "Consortiums",
+  "DESCRIPTION": "MEGASTROKE multi-ancestry stroke GWAS meta-analysis summary statistics and portal.",
+  "PMID": 29531354,
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "TITLE": "Multiancestry genome-wide association study of 520,000 subjects identifies 32 loci associated with stroke and stroke subtypes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "4",
+  "PAGE": "524-537",
+  "Authors": "Malik R,Chauhan G,Traylor M,Sargurupremraj M,Okada Y,Mishra A,Rutten-Jacobs L,Giese AK,van der Laan SW,Gretarsdottir S,Anderson CD,Chong M,Adams HHH,Ago T,Almgren P,Amouyel P,Ay H,Bartz TM,Benavente OR,Bevan S,Boncoraglio GB,Brown RD,Butterworth AS,Carrera C,Carty CL,Chasman DI,Chen WM,Cole JW,Correa A,Cotlarciuc I,Cruchaga C,Danesh J,de Bakker PIW,DeStefano AL,den Hoed M,Duan Q,Engelter ST,Falcone GJ,Gottesman RF,Grewal RP,Gudnason V,Gustafsson S,Haessler J,Harris TB,Hassan A,Havulinna AS,Heckbert SR,Holliday EG,Howard G,Hsu FC,Hyacinth HI,Ikram MA,Ingelsson E,Irvin MR,Jian X,Jiménez-Conde J,Johnson JA,Jukema JW,Kanai M,Keene KL,Kissela BM,Kleindorfer DO,Kooperberg C,Kubo M,Lange LA,Langefeld CD,Langenberg C,Launer LJ,Lee JM,Lemmens R,Leys D,Lewis CM,Lin WY,Lindgren AG,Lorentzen E,Magnusson PK,Maguire J,Manichaikul A,McArdle PF,Meschia JF,Mitchell BD,Mosley TH,Nalls MA,Ninomiya T,O'Donnell MJ,Psaty BM,Pulit SL,Rannikmäe K,Reiner AP,Rexrode KM,Rice K,Rich SS,Ridker PM,Rost NS,Rothwell PM,Rotter JI,Rundek T,Sacco RL,Sakaue S,Sale MM,Salomaa V,Sapkota BR,Schmidt R,Schmidt CO,Schminke U,Sharma P,Slowik A,Sudlow CLM,Tanislav C,Tatlisumak T,Taylor KD,Thijs VNS,Thorleifsson G,Thorsteinsdottir U,Tiedt S,Trompet S,Tzourio C,van Duijn CM,Walters M,Wareham NJ,Wassertheil-Smoller S,Wilson JG,Wiggins KL,Yang Q,Yusuf S,AFGen Consortium,Cohorts for Heart and Aging Research in Genomic Epidemiology (CHARGE) Consortium,International Genomics of Blood Pressure (iGEN-BP) Consortium,INVENT Consortium,STARNET,Bis JC,Pastinen T,Ruusalepp A,Schadt EE,Koplev S,Björkegren JLM,Codoni V,Civelek M,Smith NL,Trégouët DA,Christophersen IE,Roselli C,Lubitz SA,Ellinor PT,Tai ES,Kooner JS,Kato N,He J,van der Harst P,Elliott P,Chambers JC,Takeuchi F,Johnson AD,BioBank Japan Cooperative Hospital Group,COMPASS Consortium,EPIC-CVD Consortium,EPIC-InterAct Consortium,International Stroke Genetics Consortium (ISGC),METASTROKE Consortium,Neurology Working Group of the CHARGE Consortium,NINDS Stroke Genetics Network (SiGN),UK Young Lacunar DNA Study,MEGASTROKE Consortium,Sanghera DK,Melander O,Jern C,Strbian D,Fernandez-Cadenas I,Longstreth WT,Rolfs A,Hata J,Woo D,Rosand J,Pare G,Hopewell JC,Saleheen D,Stefansson K,Worrall BB,Kittner SJ,Seshadri S,Fornage M,Markus HS,Howson JMM,Kamatani Y,Debette S,Dichgans M",
+  "ABSTRACT": "Stroke has multiple etiologies, but the underlying genes and pathways are largely unknown. We conducted a multiancestry genome-wide-association meta-analysis in 521,612 individuals (67,162 cases and 454,450 controls) and discovered 22 new stroke risk loci, bringing the total to 32. We further found shared genetic variation with related vascular traits, including blood pressure, cardiac traits, and venous thromboembolism, at individual loci (n = 18), and using genetic risk scores and linkage-disequilibrium-score regression. Several loci exhibited distinct association and pleiotropy patterns for etiological stroke subtypes. Eleven new susceptibility loci indicate mechanisms not previously implicated in stroke pathophysiology, with prioritization of risk variants and genes accomplished through bioinformatics analyses using extensive functional datasets. Stroke risk loci were significantly enriched in drug targets for antithrombotic therapy.",
+  "DOI": "10.1038/s41588-018-0058-3",
+  "PMC ID": "PMC5968830",
+  "CITATION": "Malik R, Chauhan G, Traylor M, Sargurupremraj M, ...&, Dichgans M. (2018) Multiancestry genome-wide association study of 520,000 subjects identifies 32 loci associated with stroke and stroke subtypes. Nat Genet, 50 (4) 524-537. doi:10.1038/s41588-018-0058-3. PMID 29531354",
+  "FIRST_AUTHOR": "Malik R",
+  "_meta": {
+    "source_sheet": "Sumstats"
+  }
+}

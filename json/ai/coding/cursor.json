@@ -1,0 +1,13 @@
+{
+  "NAME": "Cursor",
+  "SECTION": "AI",
+  "TOPIC": "Coding",
+  "TYPE": "IDE",
+  "COMPANY": "Anysphere",
+  "URL": "https://cursor.com",
+  "DESCRIPTION": "AI-native code editor (VS Code fork) with inline chat, agent mode, and codebase-wide context for editing and refactoring.",
+  "TAGS": ["AI", "Coding"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

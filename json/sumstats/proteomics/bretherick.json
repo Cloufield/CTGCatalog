@@ -1,0 +1,27 @@
+{
+  "NAME": "Bretherick",
+  "USE_FIRST_AUTHOR": 1,
+  "ADD_SUFFIX": 1,
+  "PMID": 32628676,
+  "TOPIC": "Proteomics",
+  "CATEGORY": "GWAS",
+  "PLATFORM": "OLINK",
+  "TYPE": "PEA/OLINK",
+  "SECTION": "Sumstats",
+  "TITLE": "Linking protein to phenotype with Mendelian Randomization detects 38 proteins with causal roles in human diseases and traits.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2020",
+  "VOLUME": "16",
+  "ISSUE": "7",
+  "PAGE": "e1008785",
+  "Authors": "Bretherick AD,Canela-Xandri O,Joshi PK,Clark DW,Rawlik K,Boutin TS,Zeng Y,Amador C,Navarro P,Rudan I,Wright AF,Campbell H,Vitart V,Hayward C,Wilson JF,Tenesa A,Ponting CP,Baillie JK,Haley C",
+  "ABSTRACT": "To efficiently transform genetic associations into drug targets requires evidence that a particular gene, and its encoded protein, contribute causally to a disease. To achieve this, we employ a three-step proteome-by-phenome Mendelian Randomization (MR) approach. In step one, 154 protein quantitative trait loci (pQTLs) were identified and independently replicated. From these pQTLs, 64 replicated locally-acting variants were used as instrumental variables for proteome-by-phenome MR across 846 traits (step two). When its assumptions are met, proteome-by-phenome MR, is equivalent to simultaneously running many randomized controlled trials. Step 2 yielded 38 proteins that significantly predicted variation in traits and diseases in 509 instances. Step 3 revealed that amongst the 271 instances from GeneAtlas (UK Biobank), 77 showed little evidence of pleiotropy (HEIDI), and 92 evidence of colocalization (eCAVIAR). Results were wide ranging: including, for example, new evidence for a causal role of tyrosine-protein phosphatase non-receptor type substrate 1 (SHPS1; SIRPA) in schizophrenia, and a new finding that intestinal fatty acid binding protein (FABP2) abundance contributes to the pathogenesis of cardiovascular disease. We also demonstrated confirmatory evidence for the causal role of four further proteins (FGF5, IL6R, LPL, LTA) in cardiovascular disease risk.",
+  "DOI": "10.1371/journal.pgen.1008785",
+  "PMC ID": "PMC7337286",
+  "CITATION": "Bretherick AD, Canela-Xandri O, Joshi PK, Clark DW, ...&, Haley C. (2020) Linking protein to phenotype with Mendelian Randomization detects 38 proteins with causal roles in human diseases and traits. PLoS Genet, 16 (7) e1008785. doi:10.1371/journal.pgen.1008785. PMID 32628676",
+  "FIRST_AUTHOR": "Bretherick AD",
+  "_meta": {
+    "source_sheet": "Proteomics"
+  }
+}
