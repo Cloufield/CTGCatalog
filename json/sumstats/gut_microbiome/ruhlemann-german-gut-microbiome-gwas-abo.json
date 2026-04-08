@@ -1,0 +1,19 @@
+{
+  "NAME": "German gut microbiome GWAS (ABO / FUT2)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EUR",
+  "SAMPLE_SIZE": 8956,
+  "N_MICROBES": 431,
+  "DESCRIPTION": "Genome-wide association analysis in 8,956 German individuals links host variation to single-taxon and overall gut microbiome composition; replicates ABO histo-blood group and FUT2 secretor associations with Bacteroides and Faecalibacterium. Includes Mendelian randomization for IBD-relevant microbial effects.",
+  "URL": "https://www.nature.com/articles/s41588-020-00747-1",
+  "PMID": 33462482,
+  "CITATION": "Rühlemann MC, Hermes BM, Bang C, et al. (2021) Genome-wide association study in 8,956 German individuals identifies influence of ABO histo-blood groups on gut microbiome. Nat Genet, 53:147–155. doi:10.1038/s41588-020-00747-1. PMID 33462482",
+  "METAGENOME": "Gut bacteria",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

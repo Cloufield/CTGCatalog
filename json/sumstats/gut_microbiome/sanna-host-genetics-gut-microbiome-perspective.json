@@ -1,0 +1,17 @@
+{
+  "NAME": "Host genetics & gut microbiome (Nat Genet perspective)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "SAMPLE_SIZE": "N/A (perspective)",
+  "N_MICROBES": "N/A (perspective)",
+  "DESCRIPTION": "Perspective on microbial GWAS (mbGWAS): state of the art, heterogeneity of microbiome assays, power, and directions for genetic analysis of the gut microbiome.",
+  "URL": "https://www.nature.com/articles/s41588-021-00983-z",
+  "PMID": 35115688,
+  "CITATION": "Sanna S, Kurilshikov A, van der Graaf A, et al. (2022) Challenges and future directions for studying effects of host genetics on the gut microbiome. Nat Genet, 54:100–106. doi:10.1038/s41588-021-00983-z. PMID 35115688",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

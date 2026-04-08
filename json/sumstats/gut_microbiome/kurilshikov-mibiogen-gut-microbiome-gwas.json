@@ -1,0 +1,19 @@
+{
+  "NAME": "MiBioGen gut microbiome GWAS (multi-cohort)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "SAMPLE_SIZE": 18340,
+  "N_MICROBES": 410,
+  "DESCRIPTION": "MiBioGen consortium meta-analysis: genome-wide host genotypes with 16S fecal microbiome data across 24 cohorts (n = 18,340). N_MICROBES = 410 genus-level groups in the MiBioGen framework (paper: nine genera detected in >95% of samples). Identifies 31 genome-wide significant loci affecting microbial taxa (e.g. lactase LCT, ABO, fucosyltransferase cluster).",
+  "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8515199/ https://www.nature.com/articles/s41588-020-00763-1",
+  "PMID": 33462485,
+  "CITATION": "Kurilshikov A, Medina-Gomez C, Bacigalupe R, et al. (2021) Large-scale association analyses identify host factors influencing human gut microbiome composition. Nat Genet, 53:156–165. doi:10.1038/s41588-020-00763-1. PMID 33462485",
+  "METAGENOME": "Gut bacteria (16S)",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "NAME": "Swedish gut metagenome GWAS (SCAPIS / HUNT replication)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EUR",
+  "SAMPLE_SIZE": 16017,
+  "N_MICROBES": 921,
+  "DESCRIPTION": "Harmonized shotgun metagenome GWAS in 16,017 adults from four Swedish studies, with replication in 12,652 participants from the Norwegian HUNT study. Reports loci including OR51E1–OR51E2 (microbial richness), LCT, ABO, FUT2, MUC12, CORO7–HMOX2, SLC5A11, FOXP1, FUT3–FUT6, and species-level associations.",
+  "URL": "https://www.nature.com/articles/s41588-026-02512-2",
+  "PMID": 41688638,
+  "CITATION": "Dekkers KF, Pertiwi K, Baldanzi G, et al. (2026) Genome-wide association analyses highlight the role of the intestinal molecular environment in human gut microbiota variation. Nat Genet, 58:540–549. doi:10.1038/s41588-026-02512-2. PMID 41688638",
+  "METAGENOME": "Gut (shotgun metagenome)",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

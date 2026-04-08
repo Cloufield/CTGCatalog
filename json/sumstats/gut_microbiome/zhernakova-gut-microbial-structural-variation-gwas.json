@@ -1,0 +1,20 @@
+{
+  "NAME": "Gut microbial structural variation GWAS (Dutch meta-analysis)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EUR",
+  "SAMPLE_SIZE": 9015,
+  "N_MICROBIAL_SVS": 3552,
+  "N_MICROBIAL_SPECIES": 49,
+  "DESCRIPTION": "Meta-analysis of genome-wide associations between host genotypes and gut microbial structural variants (deletion dSVs and variable vSVs) from metagenomes in four Dutch cohorts (n = 9,015), with replication in Tanzania (n = 279). After frequency filters, GWAS used 3,552 common SV phenotypes aggregated across 49 bacterial species with sufficient metagenomic coverage. Highlights ABO/FUT2–GalNAc pathways and Faecalibacterium prausnitzii SVs.",
+  "URL": "https://www.nature.com/articles/s41586-023-06893-w",
+  "PMID": 38172637,
+  "CITATION": "Zhernakova DV, Wang D, Liu L, et al. (2024) Host genetic regulation of human gut microbial structural variation. Nature, 625:813–821. doi:10.1038/s41586-023-06893-w. PMID 38172637",
+  "METAGENOME": "Gut bacteria (metagenomic SVs)",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

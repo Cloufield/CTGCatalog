@@ -1,0 +1,19 @@
+{
+  "NAME": "AD gut microbiome host genetics (Chinese cohort)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EAS",
+  "SAMPLE_SIZE": 252,
+  "N_MICROBES": 1,
+  "DESCRIPTION": "Joint host whole-genome sequencing and gut microbiome profiling in 252 Chinese individuals with graded cognitive disability. Microbiome GWAS for latent enterosignature (Anaerostipes-enriched) abundance; integrates AD polygenic risk and brain cell-type expression context. Open-access report in Microbiome.",
+  "URL": "https://link.springer.com/article/10.1186/s40168-026-02342-8",
+  "PMID": 41782023,
+  "CITATION": "Liu J, Cao J, Jia L, et al. (2026) Impacts of host genetics on gut microbiome composition in Alzheimer's disease. Microbiome. doi:10.1186/s40168-026-02342-8. PMID 41782023",
+  "METAGENOME": "Gut bacteria",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

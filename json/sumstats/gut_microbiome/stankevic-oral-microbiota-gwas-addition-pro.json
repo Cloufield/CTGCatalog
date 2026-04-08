@@ -1,0 +1,19 @@
+{
+  "NAME": "Oral microbiota GWAS (ADDITION-PRO)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EUR",
+  "SAMPLE_SIZE": 610,
+  "N_MICROBES": 44,
+  "DESCRIPTION": "16S rRNA amplicon-based GWAS of salivary microbiota traits in unrelated Danish adults from the ADDITION-PRO cohort (n = 610). Identifies host SNPs associated with oral bacterial abundance and beta diversity; several variants link to metabolic traits. Oral (not gut) microbiota — listed here for host–microbiome genetics.",
+  "URL": "https://www.nature.com/articles/s41598-024-65538-8",
+  "PMID": 38926497,
+  "CITATION": "Stankevic E, Kern T, Borisevich D, et al. (2024) Genome-wide association study identifies host genetic variants influencing oral microbiota diversity and metabolic health. Sci Rep, 14:14738. doi:10.1038/s41598-024-65538-8. PMID 38926497",
+  "METAGENOME": "Oral (salivary)",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

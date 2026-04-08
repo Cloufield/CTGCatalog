@@ -1,0 +1,19 @@
+{
+  "NAME": "Japanese gut microbiome–host genetics (Cell Reports)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "GWAS",
+  "TYPE": "Microbiome",
+  "MAIN_ANCESTRY": "EAS",
+  "SAMPLE_SIZE": 524,
+  "N_MICROBES": 423,
+  "DESCRIPTION": "Japanese shotgun metagenome and SNP-array GWAS (7,213,469 post-imputation variants, MAF >1%, Minimac4 Rsq >0.7): microbial traits included species, gene orthologs, and pathways. Two study waves—dataset 1 (gut microbiome, plasma metabolome, genotype): n = 300; dataset 2 (gut microbiome, genotype): n = 224—were combined by fixed-effect meta-analysis (total n = 524; Figure S1 / Table S1). Species GWAS used 423 microbial species (study-wide threshold 5×10⁻⁸/423); headline hits include PDE1C–Bacteroides intestinalis and TGIF2 / TGIF2-RAB5IF–B. acidifaciens, plus microbial gene ortholog associations with blood group A conditioned on East Asian FUT2 secretor status. Metabolome arm in dataset 1 supports microbiome–plasma integration. Public data resource.",
+  "URL": "https://www.cell.com/cell-reports/fulltext/S2211-1247%2823%2901336-0",
+  "PMID": 37935197,
+  "CITATION": "Tomofuji Y, Kishikawa T, Sonehara K, et al. (2023) Analysis of gut microbiome, host genetics, and plasma metabolites reveals gut microbiome-host interactions in the Japanese population. Cell Rep, 42(11):113324. doi:10.1016/j.celrep.2023.113324. PMID 37935197",
+  "METAGENOME": "Gut (shotgun metagenome)",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}

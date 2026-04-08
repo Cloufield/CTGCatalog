@@ -1,0 +1,19 @@
+{
+  "NAME": "Host transcriptome–gut microbiome integration (CRC / IBD / IBS)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Gut_microbiome",
+  "CATEGORY": "MISC",
+  "TYPE": "Microbiome",
+  "SAMPLE_SIZE": 208,
+  "N_MICROBES": 189,
+  "DESCRIPTION": "Paired colonic mucosal RNA-seq and 16S gut microbiome data (208 sample pairs) across colorectal cancer, IBD, and IBS; machine-learning integration (sparse CCA, lasso) maps shared and disease-specific host gene–microbe associations—not SNP-based GWAS.",
+  "URL": "https://www.nature.com/articles/s41564-022-01121-z",
+  "PMID": 35577971,
+  "CITATION": "Priya S, Burns MB, Ward T, et al. (2022) Identification of shared and disease-specific host gene–microbiome associations across human diseases using multi-omic integration. Nat Microbiol, 7:780–795. doi:10.1038/s41564-022-01121-z. PMID 35577971",
+  "METAGENOME": "Gut mucosa (16S)",
+  "TRANSCRIPTOME": "Colonic mucosa RNA-seq",
+  "TAGS": ["Multi-omics"],
+  "_meta": {
+    "source_sheet": "Gut_microbiome"
+  }
+}
