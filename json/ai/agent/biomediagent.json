@@ -1,0 +1,17 @@
+{
+  "NAME": "BioMedAgent",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "BioMedAgent",
+  "FULL NAME": "BioMedAgent: self-evolving multi-agent LLM framework for biomedical data analysis",
+  "URL": "https://www.nature.com/articles/s41551-026-01634-6 https://github.com/BOBQWERA/BioMedAgent http://biomed.drai.cn",
+  "DESCRIPTION": "Multi-agent LLM system that learns to chain bioinformatics tools into workflows via exploration and memory retrieval; natural-language tasks. Paper introduces BioMed-AQA (327 tasks, ~77% success) and reports cross-omics, ML modelling, and pathology segmentation examples.",
+  "PMID": 41912700,
+  "MANUAL_YEAR": 2026,
+  "CITATION": "Bu D, Sun J, Li K, et al. (2026) Empowering AI data scientists using a multi-agent LLM framework with self-evolving capabilities for autonomous, tool-aware biomedical data analyses. Nat Biomed Eng. doi:10.1038/s41551-026-01634-6. PMID 41912700",
+  "TAGS": ["AI", "Agent"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
