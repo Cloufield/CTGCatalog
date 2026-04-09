@@ -1,0 +1,37 @@
+{
+  "NAME": "IMRP-GxE",
+  "PMID": 38649715,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "IMRP-GxE",
+  "FULL NAME": "Mendelian randomization-based genome-wide screening for gene–environment interactions",
+  "KEYWORDS": "GWAS, GWIS, G×E, Mendelian randomization, IMRP, summary statistics",
+  "ARROW_SUMMARY": "Inputs: GWAS + GWIS summary stats (per-SNP β/SE; LD-pruned instruments; sample-overlap ρ if needed) → IMRP θ → T_MR-GxE (G×E + mediation)",
+  "URL": "https://www.nature.com/articles/s41467-024-47806-3\nhttps://github.com/XiaofengZhuCase/IMRP23\nhttps://zenodo.org/records/10815731",
+  "DESCRIPTION": "Screens for combined gene–environment interaction and environmental mediation by testing departure of marginal GWAS effects from GWIS main effects using an MR-style statistic (IMRP), applicable to summary statistics from separate GWAS and interaction meta-analyses.",
+  "MANUAL_CITATION": "Zhu, X., Yang, Y., Lorincz-Comi, N., et al. (2024). An approach to identify gene-environment interactions and reveal new biological insight in complex traits. Nature Communications, 15(1), 3385.",
+  "TITLE": "An approach to identify gene-environment interactions and reveal new biological insight in complex traits.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2024",
+  "VOLUME": "15",
+  "ISSUE": "1",
+  "PAGE": "3385",
+  "Authors": "Zhu X,Yang Y,Lorincz-Comi N,Li G,Bentley AR,de Vries PS,Brown M,Morrison AC,Rotimi CN,Gauderman WJ,Rao DC,Aschard H,CHARGE Gene-lifestyle Interactions Working Group",
+  "ABSTRACT": "There is a long-standing debate about the magnitude of the contribution of gene-environment interactions to phenotypic variations of complex traits owing to the low statistical power and few reported interactions to date. To address this issue, the Gene-Lifestyle Interactions Working Group within the Cohorts for Heart and Aging Research in Genetic Epidemiology Consortium has been spearheading efforts to investigate G×E in large and diverse samples through meta-analysis. Here, we present a powerful new approach to screen for interactions across the genome, an approach that shares substantial similarity to the Mendelian randomization framework. We identify and confirm 5 loci (6 independent signals) interacted with either cigarette smoking or alcohol consumption for serum lipids, and empirically demonstrate that interaction and mediation are the major contributors to genetic effect size heterogeneity across populations. The estimated lower bound of the interaction and environmentally mediated heritability is significant (P < 0.02) for low-density lipoprotein cholesterol and triglycerides in Cross-Population data. Our study improves the understanding of the genetic architecture and environmental contributions to complex traits.",
+  "DOI": "10.1038/s41467-024-47806-3",
+  "PMC ID": "PMC11035594",
+  "CITATION": "Zhu X, Yang Y, Lorincz-Comi N, Li G, Bentley AR, de Vries PS, ...&, Aschard H. (2024) An approach to identify gene-environment interactions and reveal new biological insight in complex traits. Nat Commun, 15 (1) 3385. doi:10.1038/s41467-024-47806-3. PMID 38649715",
+  "FIRST_AUTHOR": "Zhu X",
+  "TAGS": [
+    "GWAS",
+    "G×E",
+    "Mendelian randomization",
+    "Summary statistics",
+    "Tool"
+  ],
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

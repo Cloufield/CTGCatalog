@@ -1,8 +1,8 @@
 {
   "mode": "parse_and_summarize",
-  "elapsed_seconds": 3371.47,
-  "parse_elapsed_seconds": 3364.22,
-  "merge_elapsed_seconds": 7.25,
+  "elapsed_seconds": 9855.61,
+  "parse_elapsed_seconds": 9849.74,
+  "merge_elapsed_seconds": 5.87,
   "n_baseline_files": 1334,
   "written": 1334,
   "skipped_existing": 0,
@@ -23,5 +23,5 @@
     "journal_gwas_ranking_by_share_by_year.csv"
   ],
   "input_mode": "baseline_dir",
-  "baseline_dir": "/mnt/f/CommonData2/Reference/PubMed"
+  "baseline_dir": "/home/yunye/CommonData/pubmed/pubmed_2026/baseline"
 }

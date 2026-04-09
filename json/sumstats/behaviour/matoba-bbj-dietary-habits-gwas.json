@@ -1,0 +1,21 @@
+{
+  "NAME": "Matoba N",
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Behaviour",
+  "CATEGORY": "Diet",
+  "TYPE": "GWAS",
+  "MAIN_ANCESTRY": "EAS",
+  "COHORT": "BioBank Japan",
+  "SAMPLE_SIZE": 165084,
+  "TRAIT": "Dietary habits (alcohol, beverages, foods; 13 traits)",
+  "DESCRIPTION": "Genome-wide association studies for 13 dietary habits in Japanese individuals (n = 58,610–165,084) from BioBank Japan; nine genome-wide significant loci reported.",
+  "URL": "https://www.nature.com/articles/s41562-019-0805-1",
+  "PMID": 31959922,
+  "DOI": "10.1038/s41562-019-0805-1",
+  "CITATION": "Matoba N, Akiyama M, Ishigaki K, et al. (2020) GWAS of 165,084 Japanese individuals identified nine loci associated with dietary habits. Nat Hum Behav, 4 (3) 308-316. doi:10.1038/s41562-019-0805-1. PMID 31959922",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Behaviour"
+  }
+}

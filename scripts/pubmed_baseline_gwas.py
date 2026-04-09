@@ -3,6 +3,11 @@
 Stream PubMed baseline Medline XML (.xml.gz), aggregate GWAS-related term trends
 by year and journal rankings for a configurable year window.
 
+**Trend counting (two steps):** (1) *MeSH_GWAS* and *text_GWAS_core* are counted for any
+article that matches them. (2) All other text buckets (PRS, MR, omics, fine-mapping,
+etc.) are counted **only among articles that are GWAS-related** (MeSH_GWAS or
+*text_GWAS_core*). Journal volume/share still use that same GWAS-related gate only.
+
 Designed for local NCBI baseline dumps (e.g. pubmed26n0001.xml.gz). Uses
 iterparse + element clear for bounded memory; optional parallel workers per file.
 
@@ -163,6 +168,152 @@ _BUCKET_PATTERNS: dict[str, list[re.Pattern[str]]] = {
     "text_MR": [
         re.compile(r"mendelian\s+randomi[sz]ation", re.I),
     ],
+    "text_finemapping": [
+        re.compile(r"fine[-\s]?mapping", re.I),
+        re.compile(r"credible\s+set(?:s)?", re.I),
+        re.compile(r"posterior\s+inclusion\s+probability", re.I),
+        re.compile(r"\bpip\b", re.I),
+        re.compile(r"causal\s+variant", re.I),
+        re.compile(r"statistical\s+fine[-\s]?mapping", re.I),
+    ],
+    "text_colocalization": [
+        re.compile(r"colocali[sz]ation", re.I),
+        re.compile(r"\bcoloc\b", re.I),
+    ],
+    "text_functional_annotation": [
+        re.compile(r"functional\s+annotation", re.I),
+        re.compile(r"variant\s+annotation", re.I),
+        re.compile(r"regulatory\s+annotation", re.I),
+        re.compile(r"chromatin\s+state", re.I),
+    ],
+    "text_gene_prioritization": [
+        re.compile(r"gene\s+prioriti[sz]ation", re.I),
+        re.compile(r"target\s+gene", re.I),
+        re.compile(r"causal\s+gene", re.I),
+    ],
+    "text_pathway_analysis": [
+        re.compile(r"pathway\s+analysis", re.I),
+        re.compile(r"pathway\s+enrichment", re.I),
+        re.compile(r"gene\s+set\s+enrichment", re.I),
+        re.compile(r"\bgsea\b", re.I),
+        re.compile(r"ontology\s+enrichment", re.I),
+    ],
+    "text_heritability": [
+        re.compile(r"\bheritability\b", re.I),
+        re.compile(r"snp\s+heritability", re.I),
+        re.compile(r"\bh2\b", re.I),
+        re.compile(r"partitioned\s+heritability", re.I),
+    ],
+    "text_genetic_correlation": [
+        re.compile(r"genetic\s+correlation", re.I),
+        re.compile(r"\brg\b", re.I),
+        re.compile(r"shared\s+genetics", re.I),
+        re.compile(r"\bpleiotropy\b", re.I),
+    ],
+    "text_meta_analysis": [
+        re.compile(r"meta[-\s]?analysis", re.I),
+        re.compile(r"fixed\s+effects", re.I),
+        re.compile(r"random\s+effects", re.I),
+    ],
+    "text_biobank": [
+        re.compile(r"\bbiobank\b", re.I),
+        re.compile(r"population\s+cohort", re.I),
+        re.compile(r"cohort\s+study", re.I),
+        re.compile(r"large[-\s]?scale\s+cohort", re.I),
+    ],
+    "text_family_based": [
+        re.compile(r"family[-\s]?based", re.I),
+        re.compile(r"\btrio\b", re.I),
+        re.compile(r"\bpedigree\b", re.I),
+        re.compile(r"\bsibling\b", re.I),
+        re.compile(r"parent[-\s]?offspring", re.I),
+    ],
+    "text_longitudinal": [
+        re.compile(r"\blongitudinal\b", re.I),
+        re.compile(r"follow[-\s]?up", re.I),
+        re.compile(r"repeated\s+measures", re.I),
+        re.compile(r"time[-\s]?to[-\s]?event", re.I),
+        re.compile(r"survival\s+analysis", re.I),
+    ],
+    "text_structural_variant": [
+        re.compile(r"structural\s+variant", re.I),
+        re.compile(r"structural\s+variation", re.I),
+        re.compile(r"\bsv\b", re.I),
+        re.compile(r"\bcnv\b", re.I),
+        re.compile(r"copy\s+number\s+variation", re.I),
+    ],
+    "text_exome": [
+        re.compile(r"\bexome\b", re.I),
+        re.compile(r"whole\s+exome\s+sequencing", re.I),
+        re.compile(r"\bwes\b", re.I),
+    ],
+    "text_noncoding": [
+        re.compile(r"non[-\s]?coding", re.I),
+        re.compile(r"regulatory\s+variant", re.I),
+        re.compile(r"\benhancer\b", re.I),
+        re.compile(r"\bpromoter\b", re.I),
+    ],
+    "text_HLA": [
+        re.compile(r"\bhla\b", re.I),
+        re.compile(r"human\s+leukocyte\s+antigen", re.I),
+        re.compile(r"\bmhc\b", re.I),
+        re.compile(r"major\s+histocompatibility\s+complex", re.I),
+    ],
+    "text_mitochondrial": [
+        re.compile(r"mitochondrial\s+dna", re.I),
+        re.compile(r"\bmtdna\b", re.I),
+        re.compile(r"mitochondrial\s+genome", re.I),
+    ],
+    "text_sex_chromosome": [
+        re.compile(r"x\s+chromosome", re.I),
+        re.compile(r"y\s+chromosome", re.I),
+        re.compile(r"sex\s+chromosome", re.I),
+    ],
+    "text_AI_genomics": [
+        re.compile(r"machine\s+learning", re.I),
+        re.compile(r"deep\s+learning", re.I),
+        re.compile(r"artificial\s+intelligence", re.I),
+        re.compile(r"foundation\s+model", re.I),
+        re.compile(r"large\s+language\s+model", re.I),
+        re.compile(r"\bllm\b", re.I),
+    ],
+    "text_single_cell": [
+        re.compile(r"single[-\s]?cell", re.I),
+        re.compile(r"scrna[-\s]?seq", re.I),
+        re.compile(r"snrna[-\s]?seq", re.I),
+        re.compile(r"single[-\s]?cell\s+(?:rna\s+)?sequencing", re.I),
+    ],
+    "text_transcriptomics": [
+        re.compile(r"\btranscriptome\b", re.I),
+        re.compile(r"transcriptomic", re.I),
+        re.compile(r"rna[-\s]?seq", re.I),
+        re.compile(r"rna\s+sequencing", re.I),
+    ],
+    "text_epigenomics": [
+        re.compile(r"\bepigenome\b", re.I),
+        re.compile(r"epigenomic", re.I),
+        re.compile(r"epigenetics", re.I),
+        re.compile(r"\bewas\b", re.I),
+        re.compile(r"dna\s+methylation", re.I),
+    ],
+    "text_proteomics": [
+        re.compile(r"\bproteome\b", re.I),
+        re.compile(r"proteomic", re.I),
+        re.compile(r"\bproteomics\b", re.I),
+        re.compile(r"\bpqtl\b", re.I),
+    ],
+    "text_metabolomics": [
+        re.compile(r"\bmetabolome\b", re.I),
+        re.compile(r"metabolomic", re.I),
+        re.compile(r"\bmetabolomics\b", re.I),
+        re.compile(r"\bmqtl\b", re.I),
+    ],
+    "text_spatial_transcriptomics": [
+        re.compile(r"spatial\s+transcriptomic", re.I),
+        re.compile(r"spatial[-\s]?transcriptomics", re.I),
+        re.compile(r"spatially\s+resolved\s+transcript", re.I),
+        re.compile(r"spatial\s+rna", re.I),
+    ],
 }
 
 
@@ -181,7 +332,10 @@ def _is_gwas_related(mesh_gwas: bool, blob: str) -> bool:
 
 
 SHARD_SUFFIX = ".shard.json"
-SCHEMA_VERSION = 2
+# Bump when shard semantics change (e.g. two-step subtopic gating); re-parse shards after bump.
+SCHEMA_VERSION = 3
+# Subtopic text buckets apply only when MeSH_GWAS or this text bucket matches.
+_GWAS_GATE_TEXT_BUCKET = "text_GWAS_core"
 # Unlikely in bucket names; avoids ambiguity vs journal keys with tabs.
 TREND_KEY_SEP = "\x1f"
 
@@ -386,17 +540,23 @@ def parse_pubmed_baseline_file(
             mesh_gwas = _mesh_has_gwas(medline)
             blob = _collect_title_abstract_keywords(article)
             text_hits = _text_bucket_hits(blob)
+            gwas_rel = _is_gwas_related(mesh_gwas, blob)
 
             if mesh_gwas:
                 trends[(year, "MeSH_GWAS")] += 1
-            for b in text_hits:
-                trends[(year, b)] += 1
+            if _GWAS_GATE_TEXT_BUCKET in text_hits:
+                trends[(year, _GWAS_GATE_TEXT_BUCKET)] += 1
+            if gwas_rel:
+                for b in text_hits:
+                    if b == _GWAS_GATE_TEXT_BUCKET:
+                        continue
+                    trends[(year, b)] += 1
 
             jkey, jtitle = _extract_journal_key_title(medline, article)
             journal_title[jkey] = jtitle
             journal_total[jkey] += 1
             journal_total_by_year[(year, jkey)] += 1
-            if _is_gwas_related(mesh_gwas, blob):
+            if gwas_rel:
                 journal_gwas[jkey] += 1
                 journal_gwas_by_year[(year, jkey)] += 1
 

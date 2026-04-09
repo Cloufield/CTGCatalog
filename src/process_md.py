@@ -725,9 +725,9 @@ def overwrite_markdown(filename, df_combined, output_items):
             file.write(
                 "*Click a column header to sort the table.*\n\n"
             )
-            file.write(
-                f'<div class="{summary_wrap}" markdown="block">\n\n'
-            )
+            # No markdown="block": inner content is raw HTML <table>; md_in_html would
+            # mis-parse closing tags (e.g. <p></tbody></table></p>) and break layout.
+            file.write(f'<div class="{summary_wrap}">\n\n')
 
     if not is_journals:
         to_output = df_sorted.loc[:, table_columns].fillna("NA")
@@ -774,7 +774,9 @@ def overwrite_markdown(filename, df_combined, output_items):
 def write_md(pop_pmid):
     pop_pmid = add_path(pop_pmid)
 
-    for path in pop_pmid["PATH"].unique():
+    for path in pop_pmid["PATH"].dropna().unique():
+        if str(path).endswith("/.md"):
+            continue
         df_combined = pop_pmid.loc[pop_pmid["PATH"] == path, :]
         overwrite_markdown(
             path, df_combined, _card_output_items_for_path(path)
@@ -788,6 +790,8 @@ def format_path_full(series):
             path_list.append(i)
     if path_list and path_list[0] == "Journals":
         return "../docs/Journals.md"
+    if not path_list:
+        return None
     return "../docs/"+"_".join(path_list)+".md"
 
 def add_path(df_combined):

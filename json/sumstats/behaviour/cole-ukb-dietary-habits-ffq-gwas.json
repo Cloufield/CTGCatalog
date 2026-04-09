@@ -1,0 +1,21 @@
+{
+  "NAME": "Cole JB",
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Behaviour",
+  "CATEGORY": "Diet",
+  "TYPE": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "COHORT": "UK Biobank",
+  "SAMPLE_SIZE": 449210,
+  "TRAIT": "Dietary habits (85 food intakes + 85 dietary-pattern PCs)",
+  "DESCRIPTION": "GWAS of food-frequency questionnaire traits in UK Biobank; hundreds of associated loci. Summary statistics for ~143 heritable dietary measures (BOLT-LMM); large tarball via Knowledge Portal.",
+  "URL": "https://www.nature.com/articles/s41467-020-15193-0 https://www.kp4cd.org/node/351",
+  "PMID": 32193382,
+  "DOI": "10.1038/s41467-020-15193-0",
+  "CITATION": "Cole JB, Florez JC, Hirschhorn JN. (2020) Comprehensive genomic analysis of dietary habits in UK Biobank identifies hundreds of genetic associations. Nat Commun, 11 (1) 1467. doi:10.1038/s41467-020-15193-0. PMID 32193382",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Behaviour"
+  }
+}

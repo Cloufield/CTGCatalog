@@ -37,3 +37,4 @@ env/
 
 # Editor / tooling backups
 mkdocs.yml.bak
+.ipynb_checkpoints/

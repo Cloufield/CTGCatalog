@@ -1,0 +1,26 @@
+{
+  "NAME": "Review",
+  "PMID": 20212493,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2891422",
+  "MANUAL_CITATION": "Thomas, D. (2010). Gene-environment-wide association studies: emerging approaches. Nature Reviews Genetics, 11(4), 259–272.",
+  "TITLE": "Gene-environment-wide association studies: emerging approaches.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2010",
+  "VOLUME": "11",
+  "ISSUE": "4",
+  "PAGE": "259-272",
+  "Authors": "Thomas D",
+  "ABSTRACT": "Despite the yield of recent genome-wide association (GWA) studies, the identified variants explain only a small proportion of the heritability of most complex diseases. This unexplained heritability could be partly due to gene-environment (G×E) interactions or more complex pathways involving multiple genes and exposures. This Review provides a tutorial on the available epidemiological designs and statistical analysis approaches for studying specific G×E interactions and choosing the most appropriate methods. I discuss the approaches that are being developed for studying entire pathways and available techniques for mining interactions in GWA data. I also explore methods for marrying hypothesis-driven pathway-based approaches with \"agnostic\" GWA studies.",
+  "DOI": "10.1038/nrg2764",
+  "PMC ID": "PMC2891422",
+  "CITATION": "Thomas D. (2010) Gene-environment-wide association studies: emerging approaches. Nat Rev Genet, 11 (4) 259-272. doi:10.1038/nrg2764. PMID 20212493",
+  "FIRST_AUTHOR": "Thomas D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -6,6 +6,7 @@
   "TYPE": "Tools",
   "SHORT NAME": "GPLEMMA",
   "FULL NAME": "Gaussian Prior Linear Environment Mixed Model Analysis",
+  "ARROW_SUMMARY": "Inputs: individual genotypes + phenotypes; kinship/relatedness; env matrix → randomized Haseman–Elston + priors → ES + G×E heritability",
   "URL": "https://github.com/mkerin/LEMMA",
   "DESCRIPTION": "GPLEMMA (Gaussian Prior Linear Environment Mixed Model Analysis) non-linear randomized Haseman-Elston regression method for flexible modeling of gene-environment interactions in large datasets such as the UK Biobank.",
   "MANUAL_CITATION": "Kerin, M., & Marchini, J. (2020). A non-linear regression method for estimation of gene–environment heritability. Bioinformatics, 36(24), 5632-5639.",

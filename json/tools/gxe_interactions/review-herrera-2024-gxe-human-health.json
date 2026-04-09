@@ -1,0 +1,26 @@
+{
+  "NAME": "Review",
+  "PMID": 38806721,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12288441",
+  "MANUAL_CITATION": "Herrera-Luis, E., Benke, K., Volk, H., Ladd-Acosta, C., & Wojcik, G. L. (2024). Gene-environment interactions in human health. Nature Reviews Genetics, 25(11), 768–784.",
+  "TITLE": "Gene-environment interactions in human health.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature reviews. Genetics",
+  "YEAR": "2024",
+  "VOLUME": "25",
+  "ISSUE": "11",
+  "PAGE": "768-784",
+  "Authors": "Herrera-Luis E,Benke K,Volk H,Ladd-Acosta C,Wojcik GL",
+  "ABSTRACT": "Gene-environment interactions (G×E), the interplay of genetic variation with environmental factors, have a pivotal impact on human complex traits and diseases. Statistically, G×E can be assessed by determining the deviation from expectation of predictive models based solely on the phenotypic effects of genetics or environmental exposures. Despite the unprecedented, widespread and diverse use of G×E analytical frameworks, heterogeneity in their application and reporting hinders their applicability in public health. In this Review, we discuss study design considerations as well as G×E analytical frameworks to assess polygenic liability dependent on the environment, to identify specific genetic variants exhibiting G×E, and to characterize environmental context for these dynamics. We conclude with recommendations to address the most common challenges and pitfalls in the conceptualization, methodology and reporting of G×E studies, as well as future directions.",
+  "DOI": "10.1038/s41576-024-00731-z",
+  "PMC ID": "PMC12288441",
+  "CITATION": "Herrera-Luis E, Benke K, Volk H, Ladd-Acosta C, Wojcik GL. (2024) Gene-environment interactions in human health. Nat Rev Genet, 25 (11) 768-784. doi:10.1038/s41576-024-00731-z. PMID 38806721",
+  "FIRST_AUTHOR": "Herrera-Luis E",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

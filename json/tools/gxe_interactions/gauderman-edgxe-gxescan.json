@@ -1,0 +1,30 @@
+{
+  "NAME": "G×Escan",
+  "PMID": 23873611,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "G×Escan",
+  "FULL NAME": "Genomewide interaction scan with EDG×E two-step screening and testing",
+  "KEYWORDS": "GWIS, case-control, two-step, EDG×E, weak marginal effect, G×E",
+  "ARROW_SUMMARY": "Inputs: individual case-control genotypes; binary E [+ covariates] → EDG×E screen + test → G×Escan",
+  "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4348012\nhttp://biostats.usc.edu/software",
+  "DESCRIPTION": "Two-step genome-wide interaction scan (EDG×E) and software implementing it plus other case-control GWIS methods; targets SNPs with weak marginal association that may show G×E in environment-defined subgroups.",
+  "MANUAL_CITATION": "Gauderman, W. J., Zhang, P., Morrison, J. L., & Lewinger, J. P. (2013). Finding novel genes by testing G×E interactions in a genome wide association study. Genetic Epidemiology, 37(6), 603–613.",
+  "TITLE": "Finding novel genes by testing G×E interactions in a genome wide association study.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2013",
+  "VOLUME": "37",
+  "ISSUE": "6",
+  "PAGE": "603-613",
+  "Authors": "Gauderman WJ,Zhang P,Morrison JL,Lewinger JP",
+  "ABSTRACT": "In a genome-wide association study (GWAS), investigators typically focus their primary analysis on the direct (marginal) associations of each single nucleotide polymorphism (SNP) with the trait. Some SNPs that are truly associated with the trait may not be identified in this scan if they have a weak marginal effect and thus low power to be detected. However, these SNPs may be quite important in subgroups of the population defined by an environmental or personal factor, and may be detectable if such a factor is carefully considered in a gene-environment (G×E) interaction analysis. We address the question \"Using a genome wide interaction scan (GWIS), can we find new genes that were not found in the primary GWAS scan?\" We review commonly used approaches for conducting a GWIS in case-control studies, and propose a new two-step screening and testing method (EDG×E) that is optimized to find genes with a weak marginal effect. We simulate several scenarios in which our two-step method provides 70-80% power to detect a disease locus while a marginal scan provides less than 5% power. We also provide simulations demonstrating that the EDG×E method outperforms other GWIS approaches (including case-only and previously proposed two-step methods) for finding genes with a weak marginal effect. G×Escan software implements this method as well as several other GWIS approaches.",
+  "DOI": "10.1002/gepi.21748",
+  "PMC ID": "PMC4348012",
+  "CITATION": "Gauderman WJ, Zhang P, Morrison JL, Lewinger JP. (2013) Finding novel genes by testing G×E interactions in a genome wide association study. Genet Epidemiol, 37 (6) 603-613. doi:10.1002/gepi.21748. PMID 23873611",
+  "FIRST_AUTHOR": "Gauderman WJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

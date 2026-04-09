@@ -6,6 +6,7 @@
   "TYPE": "Tools",
   "SHORT NAME": "LEMMA",
   "FULL NAME": "Linear Environment Mixed Model Analysis",
+  "ARROW_SUMMARY": "Inputs: individual genotypes; quantitative Y; matrix of environmental measures → Bayesian WGR + ES → G×E variance + per-SNP tests",
   "URL": "https://github.com/mkerin/LEMMA",
   "DESCRIPTION": "LEMMA (Linear Environment Mixed Model Analysis) is a whole genome wide regression method for flexible modeling of gene-environment interactions in large datasets such as the UK Biobank.",
   "MANUAL_CITATION": "Kerin, M., & Marchini, J. (2020). Inferring gene-by-environment interactions with a Bayesian whole-genome regression model. The American Journal of Human Genetics, 107(4), 698-713.",

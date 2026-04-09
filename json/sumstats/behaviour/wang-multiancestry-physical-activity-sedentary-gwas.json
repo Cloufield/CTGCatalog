@@ -1,0 +1,21 @@
+{
+  "NAME": "Wang Z",
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Behaviour",
+  "CATEGORY": "Physical activity & sedentary behaviour",
+  "TYPE": "GWAS",
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "COHORT": "51 studies (meta-analysis)",
+  "SAMPLE_SIZE": 703901,
+  "TRAIT": "MVPA, leisure screen time, sedentary commuting, sedentary behaviour at work",
+  "DESCRIPTION": "Genome-wide association meta-analysis of physical activity and sedentary behaviour traits across ancestries; 99 associated loci. Supplementary tables and open materials via Nature Genetics and WashU Digital Commons.",
+  "URL": "https://www.nature.com/articles/s41588-022-01165-1 https://digitalcommons.wustl.edu/oa_4/339/",
+  "PMID": 36071172,
+  "DOI": "10.1038/s41588-022-01165-1",
+  "CITATION": "Wang Z, Emmerich A, Pillon NJ, et al. (2022) Genome-wide association analyses of physical activity and sedentary behavior provide insights into underlying mechanisms and roles in disease prevention. Nat Genet, 54 (9) 1332-1344. doi:10.1038/s41588-022-01165-1. PMID 36071172",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Behaviour"
+  }
+}

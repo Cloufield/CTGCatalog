@@ -1,0 +1,21 @@
+{
+  "NAME": "Namba S",
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "GxE",
+  "CATEGORY": "Gene–environment interaction",
+  "TYPE": "G×E",
+  "MAIN_ANCESTRY": "Multi-ancestry",
+  "COHORT": "UK Biobank, BioBank Japan; replication cohorts",
+  "SAMPLE_SIZE": 440210,
+  "TRAIT": "Clinical phenotypes and metabolome (G×E interaction effects; age, sex, lifestyles)",
+  "DESCRIPTION": "Cross-population atlas of gene–environment interactions (discovery n ≈ 440k EUR + Japanese; replication n ≈ 540k). Genome-wide G×E summary statistics released at NBDC Human Database (hum0197.v26.374-traits.v1) and GWAS Catalog (GCST90681837–GCST90690020).",
+  "URL": "https://www.nature.com/articles/s41586-025-10054-6 https://humandbs.dbcls.jp/en https://www.ebi.ac.uk/gwas",
+  "PMID": 41606330,
+  "DOI": "10.1038/s41586-025-10054-6",
+  "CITATION": "Namba S, Sonehara K, Koyanagi YN, et al. (2026) A cross-population compendium of gene-environment interactions. Nature, 651:688-697. doi:10.1038/s41586-025-10054-6. PMID 41606330",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "GxE"
+  }
+}

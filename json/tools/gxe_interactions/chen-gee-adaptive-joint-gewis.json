@@ -1,0 +1,30 @@
+{
+  "NAME": "GEE-adaptive / GEE-joint",
+  "PMID": 30793815,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "GEE-GEWIS",
+  "FULL NAME": "Generalized estimating equation GEWIS with kinship and ancestry adjustment",
+  "KEYWORDS": "GEWIS, GEE, kinship, admixture, population stratification, related individuals, G×E",
+  "ARROW_SUMMARY": "Inputs: individual genotypes; binary outcome; E; ancestry PCs/covariates; kinship or pedigree → GEE → GEE-adaptive or GEE-joint GEWIS",
+  "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6648658\nhttps://github.com/ndtkinesin/GxE_GEEKin_Joint",
+  "DESCRIPTION": "GEE-based gene-environment-wide interaction study (GEWIS) methods that adjust for phenotypic correlation due to kinship and for admixture via covariates, extending case-control G×E scans to related and admixed cohorts.",
+  "MANUAL_CITATION": "Chen, Y., Adrianto, I., Iannuzzi, M. C., Garman, L., Montgomery, C. G., Rybicki, B. A., Levin, A. M., & Li, J. (2019). Extended methods for gene-environment-wide interaction scans in studies of admixed individuals with varying degrees of relationships. Genetic Epidemiology, 43(4), 414–426.",
+  "TITLE": "Extended methods for gene-environment-wide interaction scans in studies of admixed individuals with varying degrees of relationships.",
+  "ISO": "Genet Epidemiol",
+  "JOURNAL": "Genetic epidemiology",
+  "YEAR": "2019",
+  "VOLUME": "43",
+  "ISSUE": "4",
+  "PAGE": "414-426",
+  "Authors": "Chen Y,Adrianto I,Iannuzzi MC,Garman L,Montgomery CG,Rybicki BA,Levin AM,Li J",
+  "ABSTRACT": "The etiology of many complex diseases involves both environmental exposures and inherited genetic predisposition as well as interactions between them. Gene-environment-wide interaction studies (GEWIS) provide a means to identify the interactions between genetic variation and environmental exposures that underlie disease risk. However, current GEWIS methods lack the capability to adjust for the potentially complex correlations in studies with varying degrees of relationships (both known and unknown) among individuals in admixed populations. We developed novel generalized estimating equation (GEE) based methods—GEE-adaptive and GEE-joint—to account for phenotypic correlations due to kinship while accounting for covariates, including measures of genome-wide ancestry. In simulation studies of admixed individuals, both methods controlled family-wise error rates, an advantage over the case-only approach. They demonstrated higher power than traditional case-control methods across a wide range of underlying alternative hypotheses, especially where both marginal and interaction effects were present. We applied the proposed method to conduct a GEWIS of a known sarcoidosis risk factor (insecticide exposure) and risk of sarcoidosis in African Americans and identified two novel loci with suggestive evidence of G×E interaction.",
+  "DOI": "10.1002/gepi.22196",
+  "PMC ID": "PMC6648658",
+  "CITATION": "Chen Y, Adrianto I, Iannuzzi MC, Garman L, Montgomery CG, Rybicki BA, Levin AM, Li J. (2019) Extended methods for gene-environment-wide interaction scans in studies of admixed individuals with varying degrees of relationships. Genet Epidemiol, 43 (4) 414-426. doi:10.1002/gepi.22196. PMID 30793815",
+  "FIRST_AUTHOR": "Chen Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -13,6 +13,8 @@ HOMEPAGE_SUMSTATS_SHEETS = [
     "SV",
     "Imaging",
     "Gut_microbiome",
+    "Behaviour",
+    "GxE",
 ]
 
 

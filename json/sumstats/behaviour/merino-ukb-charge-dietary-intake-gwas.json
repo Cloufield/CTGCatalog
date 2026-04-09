@@ -1,0 +1,21 @@
+{
+  "NAME": "Merino J",
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Behaviour",
+  "CATEGORY": "Diet",
+  "TYPE": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "COHORT": "UK Biobank, CHARGE Consortium",
+  "SAMPLE_SIZE": 282271,
+  "TRAIT": "Dietary intake (multivariate; macronutrients and related traits)",
+  "DESCRIPTION": "Multi-trait GWAS meta-analysis of dietary intake combining UK Biobank and CHARGE; functional and brain-related follow-up. Summary statistics via UK Biobank showcase, dbGaP, and Type 2 Diabetes Knowledge Portal (see paper data availability).",
+  "URL": "https://www.nature.com/articles/s41562-021-01182-w https://www.kp4cd.org/dataset_downloads/t2d",
+  "PMID": 34426670,
+  "DOI": "10.1038/s41562-021-01182-w",
+  "CITATION": "Merino J, Dashti HS, Sarnowski C, et al. (2022) Genetic analysis of dietary intake identifies new loci and functional links with metabolic traits. Nat Hum Behav, 6 (1) 155-163. doi:10.1038/s41562-021-01182-w. PMID 34426670",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Behaviour"
+  }
+}

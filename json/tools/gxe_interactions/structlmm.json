@@ -6,6 +6,7 @@
   "TYPE": "Tools",
   "SHORT NAME": "StructLMM",
   "FULL NAME": "Structured Linear Mixed Model",
+  "ARROW_SUMMARY": "Inputs: individual genotypes; quantitative Y; env feature matrix + env–env covariance → StructLMM → multivariate G×E",
   "URL": "https://github.com/limix/struct-lmm\nhttps://github.com/limix/limix",
   "DESCRIPTION": "Structured Linear Mixed Model (StructLMM) is a computationally efficient method to test for and characterize loci that interact with multiple environments",
   "MANUAL_CITATION": "Moore, R., Casale, F. P., Jan Bonder, M., Horta, D., Franke, L., Barroso, I., & Stegle, O. (2019). A linear mixed-model approach to study multivariate gene–environment interactions. Nature genetics, 51(1), 180-186.",

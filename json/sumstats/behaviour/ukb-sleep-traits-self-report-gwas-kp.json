@@ -1,0 +1,20 @@
+{
+  "NAME": "UK Biobank sleep traits (self-report)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Behaviour",
+  "CATEGORY": "Sleep",
+  "TYPE": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "COHORT": "UK Biobank",
+  "SAMPLE_SIZE": 446118,
+  "TRAIT": "Sleep duration, short/long sleep, daytime sleepiness, napping, insomnia symptoms, chronotype (bundled portal releases)",
+  "DESCRIPTION": "Self-reported sleep-related GWAS summary statistics hosted on the Knowledge Portal (downloads per trait with READMEs). Landmark papers include Dashti et al. on sleep duration and daytime napping, Wang et al. on daytime sleepiness, and Lane et al. on chronotype and sleep disturbance (see portal publication list).",
+  "URL": "https://www.kp4cd.org/node/235 https://www.nature.com/articles/s41467-019-08917-4",
+  "PMID": 30846698,
+  "DOI": "10.1038/s41467-019-08917-4",
+  "CITATION": "Dashti HS, Jones SE, Wood AR, et al. (2019) Genome-wide association study identifies genetic loci for self-reported habitual sleep duration supported by accelerometer-derived estimates. Nat Commun, 10 (1) 1100. doi:10.1038/s41467-019-08917-4. PMID 30846698",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Behaviour"
+  }
+}

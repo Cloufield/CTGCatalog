@@ -1,0 +1,21 @@
+{
+  "NAME": "Doherty A",
+  "ADD_SUFFIX": 1,
+  "SECTION": "Sumstats",
+  "TOPIC": "Behaviour",
+  "CATEGORY": "Physical activity & sleep",
+  "TYPE": "GWAS",
+  "MAIN_ANCESTRY": "EUR",
+  "COHORT": "UK Biobank",
+  "SAMPLE_SIZE": 91105,
+  "TRAIT": "Device-measured physical activity, sedentary time, sleep duration, walking, moderate activity",
+  "DESCRIPTION": "GWAS of UK Biobank wrist accelerometer phenotypes (91,105 participants); 14 loci. Summary statistics (unadjusted and sex/BMI-adjusted) deposited in Oxford University Research Archive.",
+  "URL": "https://www.nature.com/articles/s41467-018-07743-4 https://ora.ox.ac.uk/objects/uuid:ff479f44-bf35-48b9-9e67-e690a2937b22",
+  "PMID": 30531941,
+  "DOI": "10.1038/s41467-018-07743-4",
+  "CITATION": "Doherty A, Smith-Byrne K, Ferreira T, et al. (2018) GWAS identifies 14 loci for device-measured physical activity and sleep duration. Nat Commun, 9 (1) 5257. doi:10.1038/s41467-018-07743-4. PMID 30531941",
+  "TAGS": ["GWAS"],
+  "_meta": {
+    "source_sheet": "Behaviour"
+  }
+}

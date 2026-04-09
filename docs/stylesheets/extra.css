@@ -1194,7 +1194,8 @@ a.catalog-badge.catalog-badge--link:hover {
 /*
  * Summary table — last in file so it wins over generic .md-typeset__table / table rules.
  * Material injects .md-typeset__scrollwrap > .md-typeset__table around tables, which breaks h2+table.
- * process_md wraps the markdown table in .catalog-summary-table (see md_in_html).
+ * process_md wraps the HTML summary table in .catalog-summary-table (no markdown="block"
+ * on that div — md_in_html would corrupt </tbody></table>).
  */
 .md-typeset h2#summary-table {
   margin-bottom: 0.45rem;

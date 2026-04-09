@@ -88,6 +88,7 @@ nav:
       - OCEANIA: Biobanks_OCEANIA.md
     - Sumstats: 
       - Sumstats: Sumstats.md 
+      - Behaviour: Sumstats_Behaviour.md
       - Epigenetics:
         - Epigenetics: Sumstats_Epigenetics.md
         - Fetal_brain: Sumstats_Epigenetics_Fetal_brain.md
@@ -95,6 +96,7 @@ nav:
         - Whole_Blood: Sumstats_Epigenetics_Whole_Blood.md
       - General: Sumstats_General.md
       - Gut_microbiome: Sumstats_Gut_microbiome.md
+      - GxE: Sumstats_GxE.md
       - Imaging: Sumstats_Imaging.md
       - Metabolomics: Sumstats_Metabolomics.md
       - Proteomics: Sumstats_Proteomics.md
