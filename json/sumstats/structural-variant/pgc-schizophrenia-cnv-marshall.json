@@ -1,0 +1,29 @@
+{
+  "PMID": 27869829,
+  "TITLE": "Contribution of copy number variants to schizophrenia from a genome-wide study of 41,321 subjects.",
+  "JOURNAL": "Nature genetics",
+  "ISO": "Nat Genet",
+  "YEAR": "2017",
+  "VOLUME": "49",
+  "ISSUE": "1",
+  "PAGE": "27-35",
+  "DOI": "10.1038/ng.3725",
+  "PMC ID": "PMC5737772",
+  "Authors": "Marshall CR,Howrigan DP,Merico D,Thiruvahindrapuram B,Wu W,Greer DS,Antaki D,Shetty A,Holmans PA,Pinto D,Gujral M,Brandler WM,Malhotra D,Wang Z,Fajarado KVF,Maile MS,Ripke S,Agartz I,Albus M,Alexander M,Amin F,Atkins J,Bacanu SA,Belliveau RA,Bergen SE,Bertalan M,Bevilacqua E,Bigdeli TB,Black DW,Bruggeman R,Buccola NG,Buckner RL,Bulik-Sullivan B,Byerley W,Cahn W,Cai G,Cairns MJ,Campion D,Cantor RM,Carr VJ,Carrera N,Catts SV,Chambert KD,Cheng W,Cloninger CR,Cohen D,Cormican P,Craddock N,Crespo-Facorro B,Crowley JJ,Curtis D,Davidson M,Davis KL,Degenhardt F,Del Favero J,DeLisi LE,Dikeos D,Dinan T,Djurovic S,Donohoe G,Drapeau E,Duan J,Dudbridge F,Eichhammer P,Eriksson J,Escott-Price V,Essioux L,Fanous AH,Farh KH,Farrell MS,Frank J,Franke L,Freedman R,Freimer NB,Friedman JI,Forstner AJ,Fromer M,Genovese G,Georgieva L,Gershon ES,Giegling I,Giusti-Rodríguez P,Godard S,Goldstein JI,Gratten J,de Haan L,Hamshere ML,Hansen M,Hansen T,Haroutunian V,Hartmann AM,Henskens FA,Herms S,Hirschhorn JN,Hoffmann P,Hofman A,Huang H,Ikeda M,Joa I,Kähler AK,Kahn RS,Kalaydjieva L,Karjalainen J,Kavanagh D,Keller MC,Kelly BJ,Kennedy JL,Kim Y,Knowles JA,Konte B,Laurent C,Lee P,Lee SH,Legge SE,Lerer B,Levy DL,Liang KY,Lieberman J,Lönnqvist J,Loughland CM,Magnusson PKE,Maher BS,Maier W,Mallet J,Mattheisen M,Mattingsdal M,McCarley RW,McDonald C,McIntosh AM,Meier S,Meijer CJ,Melle I,Mesholam-Gately RI,Metspalu A,Michie PT,Milani L,Milanova V,Mokrab Y,Morris DW,Müller-Myhsok B,Murphy KC,Murray RM,Myin-Germeys I,Nenadic I,Nertney DA,Nestadt G,Nicodemus KK,Nisenbaum L,Nordin A,O'Callaghan E,O'Dushlaine C,Oh SY,Olincy A,Olsen L,O'Neill FA,Van Os J,Pantelis C,Papadimitriou GN,Parkhomenko E,Pato MT,Paunio T,Psychosis Endophenotypes International Consortium,Perkins DO,Pers TH,Pietiläinen O,Pimm J,Pocklington AJ,Powell J,Price A,Pulver AE,Purcell SM,Quested D,Rasmussen HB,Reichenberg A,Reimers MA,Richards AL,Roffman JL,Roussos P,Ruderfer DM,Salomaa V,Sanders AR,Savitz A,Schall U,Schulze TG,Schwab SG,Scolnick EM,Scott RJ,Seidman LJ,Shi J,Silverman JM,Smoller JW,Söderman E,Spencer CCA,Stahl EA,Strengman E,Strohmaier J,Stroup TS,Suvisaari J,Svrakic DM,Szatkiewicz JP,Thirumalai S,Tooney PA,Veijola J,Visscher PM,Waddington J,Walsh D,Webb BT,Weiser M,Wildenauer DB,Williams NM,Williams S,Witt SH,Wolen AR,Wormley BK,Wray NR,Wu JQ,Zai CC,Adolfsson R,Andreassen OA,Blackwood DHR,Bramon E,Buxbaum JD,Cichon S,Collier DA,Corvin A,Daly MJ,Darvasi A,Domenici E,Esko T,Gejman PV,Gill M,Gurling H,Hultman CM,Iwata N,Jablensky AV,Jönsson EG,Kendler KS,Kirov G,Knight J,Levinson DF,Li QS,McCarroll SA,McQuillin A,Moran JL,Mowry BJ,Nöthen MM,Ophoff RA,Owen MJ,Palotie A,Pato CN,Petryshen TL,Posthuma D,Rietschel M,Riley BP,Rujescu D,Sklar P,St Clair D,Walters JTR,Werge T,Sullivan PF,O'Donovan MC,Scherer SW,Neale BM,Sebat J,CNV and Schizophrenia Working Groups of the Psychiatric Genomics Consortium",
+  "ABSTRACT": "Copy number variants (CNVs) have been strongly implicated in the genetic etiology of schizophrenia (SCZ). However, genome-wide investigation of the contribution of CNV to risk has been hampered by limited sample sizes. We sought to address this obstacle by applying a centralized analysis pipeline to a SCZ cohort of 21,094 cases and 20,227 controls. A global enrichment of CNV burden was observed in cases (odds ratio (OR) = 1.11, P = 5.7 × 10-15), which persisted after excluding loci implicated in previous studies (OR = 1.07, P = 1.7 × 10-6). CNV burden was enriched for genes associated with synaptic function (OR = 1.68, P = 2.8 × 10-11) and neurobehavioral phenotypes in mouse (OR = 1.18, P = 7.3 × 10-5). Genome-wide significant evidence was obtained for eight loci, including 1q21.1, 2p16.3 (NRXN1), 3q29, 7q11.2, 15q13.3, distal 16p11.2, proximal 16p11.2 and 22q11.2. Suggestive support was found for eight additional candidate susceptibility and protective loci, which consisted predominantly of CNVs mediated by nonallelic homologous recombination.",
+  "FIRST_AUTHOR": "Marshall CR",
+  "NAME": "PGC schizophrenia CNV",
+  "SECTION": "Sumstats",
+  "TOPIC": "Structural variant",
+  "CATEGORY": "CNV",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "Psychiatric Genomics Consortium",
+  "URL": "https://pgc.unc.edu/forresearchers/download-results/ https://pubmed.ncbi.nlm.nih.gov/27869829/",
+  "TYPE": "CNV",
+  "SAMPLE_SIZE": 41321,
+  "COHORT": "PGC SCZ",
+  "CITATION": "Marshall CR, Howrigan DP, Merico D, Thiruvahindrapuram B, Wu W, Greer DS, Antaki D, Shetty A, Holmans PA, Pinto D, Gujral M, Brandler WM, Malhotra D, Wang Z, ...&, CNV and Schizophrenia Working Groups of the Psychiatric Genomics Consortium. (2017) Contribution of copy number variants to schizophrenia from a genome-wide study of 41,321 subjects. Nat Genet, 49 (1) 27-35. doi:10.1038/ng.3725. PMID 27869829",
+  "_meta": {
+    "source_sheet": "SV"
+  }
+}

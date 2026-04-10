@@ -531,11 +531,26 @@ def configure_type(filename):
         type="sumstats"
     return type
 
+
+def _sumstats_topic_page_summary_layout(filename: str) -> bool:
+    """True for ``docs/Sumstats_<Topic>.md`` pages that use MAIN_ANCESTRY + PLATFORM in the summary table.
+
+    Topic filenames use underscores (e.g. ``Sumstats_Imaging.md``), not ``Sumstats.<Topic>``.
+    ``Sumstats_Proteomics.md`` uses the separate Proteomics column layout below.
+    """
+    base = Path(filename).name
+    if not (base.startswith("Sumstats_") and base.endswith(".md")):
+        return False
+    if base.startswith("Sumstats_Proteomics"):
+        return False
+    return True
+
+
 def configure_table_columns(df_combined, filename):
     ## topic-specifc table
     sort_cols = ["NAME"]
-    if "Sumstats." in filename:
-        table_columns = ["NAME","MAIN_ANCESTRY"]
+    if _sumstats_topic_page_summary_layout(filename):
+        table_columns = ["NAME", "MAIN_ANCESTRY", "PLATFORM"]
     elif "Proteomics" in filename:
         table_columns = ["NAME","PLATFORM","YEAR","TITLE"]
     elif "Biobanks_" in filename:
@@ -731,7 +746,7 @@ def overwrite_markdown(filename, df_combined, output_items):
 
     if not is_journals:
         to_output = df_sorted.loc[:, table_columns].fillna("NA")
-        if "Biobanks_" in filename or "Sumstats." in filename:
+        if "Biobanks_" in filename or _sumstats_topic_page_summary_layout(filename):
             to_output = to_output.rename(
                 columns={"MAIN_ANCESTRY": "MAIN ANCESTRY"},
             )

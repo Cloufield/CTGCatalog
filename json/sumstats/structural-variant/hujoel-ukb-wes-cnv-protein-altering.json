@@ -1,0 +1,29 @@
+{
+  "PMID": 38548989,
+  "TITLE": "Protein-altering variants at copy number-variable regions influence diverse human phenotypes.",
+  "JOURNAL": "Nature genetics",
+  "ISO": "Nat Genet",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "4",
+  "PAGE": "569-578",
+  "DOI": "10.1038/s41588-024-01684-z",
+  "PMC ID": "PMC11018521",
+  "Authors": "Hujoel MLA,Handsaker RE,Sherman MA,Kamitaki N,Barton AR,Mukamel RE,Terao C,McCarroll SA,Loh PR",
+  "ABSTRACT": "Copy number variants (CNVs) are among the largest genetic variants, yet CNVs have not been effectively ascertained in most genetic association studies. Here we ascertained protein-altering CNVs from UK Biobank whole-exome sequencing data (n = 468,570) using haplotype-informed methods capable of detecting subexonic CNVs and variation within segmental duplications. Incorporating CNVs into analyses of rare variants predicted to cause gene loss of function (LOF) identified 100 associations of predicted LOF variants with 41 quantitative traits. A low-frequency partial deletion of RGL3 exon 6 conferred one of the strongest protective effects of gene LOF on hypertension risk (odds ratio = 0.86 (0.82-0.90)). Protein-coding variation in rapidly evolving gene families within segmental duplications-previously invisible to most analysis methods-generated some of the human genome's largest contributions to variation in type 2 diabetes risk, chronotype and blood cell traits. These results illustrate the potential for new genetic insights from genomic variation that has escaped large-scale analysis to date.",
+  "FIRST_AUTHOR": "Hujoel MLA",
+  "NAME": "UKB WES CNV (Loh lab)",
+  "SECTION": "Sumstats",
+  "TOPIC": "Structural variant",
+  "CATEGORY": "CNV",
+  "MAIN_ANCESTRY": "EUR",
+  "RELATED_BIOBANK": "UK Biobank",
+  "URL": "https://www.nature.com/articles/s41588-024-01684-z https://data.broadinstitute.org/lohlab/UKB_WES_CNV_sumstats/ https://doi.org/10.5281/zenodo.10529671",
+  "TYPE": "CNV",
+  "SAMPLE_SIZE": 468570,
+  "COHORT": "UKB WES",
+  "CITATION": "Hujoel MLA, Handsaker RE, Sherman MA, Kamitaki N, Barton AR, Mukamel RE, Terao C, McCarroll SA, Loh PR. (2024) Protein-altering variants at copy number-variable regions influence diverse human phenotypes. Nat Genet, 56 (4) 569-578. doi:10.1038/s41588-024-01684-z. PMID 38548989",
+  "_meta": {
+    "source_sheet": "SV"
+  }
+}

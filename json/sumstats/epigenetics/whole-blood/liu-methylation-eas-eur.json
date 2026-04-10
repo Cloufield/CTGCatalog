@@ -1,0 +1,28 @@
+{
+  "NAME": "Liu EAS/EUR mQTL",
+  "PMID": 41672998,
+  "SECTION": "Sumstats",
+  "TOPIC": "Epigenetics",
+  "SUBTOPIC": "Whole Blood",
+  "CATEGORY": "Methylation",
+  "DESCRIPTION": "Cis-mQTL summary statistics for Taiwan Biobank (EAS_TWB, n=1,997), fixed-effect EAS meta-analysis across 7,619 Han Chinese (TWB plus Peng and Hatton cohorts), and EAS+EUR meta-analysis with EUR_Min (n=27,750). Illumina EPIC and 450K blood methylation.",
+  "URL": "https://lin-lab.site/data/",
+  "MANUAL_YEAR": 2026,
+  "MANUAL_CITATION": "\nLiu, R. et al. Genetic regulation of methylation across East Asian and European populations. Nat. Commun. 17, 2616 (2026).\n  \n",
+  "TITLE": "Genetic regulation of methylation across East Asian and European populations.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2026",
+  "VOLUME": "17",
+  "ISSUE": "1",
+  "PAGE": "2616",
+  "Authors": "Liu R,Chen TT,Xia Y,Lin SC,Ge T,Chen CY,Feng YA,Huang H,Lin YF",
+  "ABSTRACT": "Methylation quantitative trait loci (mQTL) studies have predominantly focused on European populations (EUR), limiting understanding of the genetic regulation of DNA methylation in other populations. We conduct an East Asian (EAS) mQTL analysis, integrating data from three independent samples comprising 7619 Han Chinese individuals. We identified 331,048 mCpGs, including 28,978 novel mCpGs in EAS. While observing substantial sharing of mQTL between EUR and EAS, we also identify EAS-specific mQTLs, often driven by variants with low minor allele frequencies in EUR. We found that mQTLs are enriched for disease and trait heritability, especially for matched-ancestry mQTLs, underscoring their utility for interpreting GWAS results and highlighting the role of DNA methylation in diseases. Our EAS mQTL resource provides valuable insights into the genetic architecture of DNA methylation and its contribution to complex traits.",
+  "DOI": "10.1038/s41467-026-69372-6",
+  "PMC ID": "PMC13002944",
+  "CITATION": "Liu R, Chen TT, Xia Y, Lin SC, ...&, Lin YF. (2026) Genetic regulation of methylation across East Asian and European populations. Nat Commun, 17 (1) 2616. doi:10.1038/s41467-026-69372-6. PMID 41672998",
+  "FIRST_AUTHOR": "Liu R",
+  "_meta": {
+    "source_sheet": "Epigenetics"
+  }
+}
