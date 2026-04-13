@@ -7,6 +7,7 @@ import pandas as pd
 TAG_SLUG_MAP: dict[str, str] | None = None
 
 _BR_TAG = re.compile(r"(?i)<br\s*/?>")
+_BOLD_MD = re.compile(r"\*\*(.+?)\*\*", re.DOTALL)
 
 
 def iter_markdown_inline_links(text: str):
@@ -65,23 +66,37 @@ def _heading_id_attr(row: pd.Series) -> str:
     return _anchor_id(str(row["NAME"]))
 
 
+def _escape_plain_with_bold(text: str) -> str:
+    """Escape plain text; ``**like this**`` becomes ``<strong>`` (no nested links)."""
+    if "**" not in text:
+        return html.escape(text)
+    parts: list[str] = []
+    pos = 0
+    for m in _BOLD_MD.finditer(text):
+        parts.append(html.escape(text[pos : m.start()]))
+        parts.append("<strong>" + html.escape(m.group(1)) + "</strong>")
+        pos = m.end()
+    parts.append(html.escape(text[pos:]))
+    return "".join(parts)
+
+
 def _escape_with_md_links(text: str) -> str:
-    """HTML-escape text but preserve markdown [label](href) as real <a> tags."""
+    """Escape text with ``**bold**`` and markdown ``[label](href)`` → ``<a>``."""
     out: list[str] = []
     pos = 0
     for start, end, label_raw, href_raw in iter_markdown_inline_links(text):
-        out.append(html.escape(text[pos:start]))
-        label = html.escape(label_raw)
+        out.append(_escape_plain_with_bold(text[pos:start]))
+        label = _escape_plain_with_bold(label_raw)
         href = html.escape(href_raw, quote=True)
         out.append(f'<a href="{href}">{label}</a>')
         pos = end
-    out.append(html.escape(text[pos:]))
+    out.append(_escape_plain_with_bold(text[pos:]))
     return "".join(out)
 
 
 def _format_rich_field_html(text: str) -> str:
     """
-    Escape for safe HTML and markdown links; real <br> and newlines become HTML line breaks.
+    Escape for safe HTML, ``**bold**``, markdown links, and ``<br>`` / newlines as breaks.
     """
     s = str(text).replace("\r\n", "\n").replace("\r", "\n")
     s = _BR_TAG.sub("<br>", s)

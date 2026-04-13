@@ -1,0 +1,7 @@
+{
+  "NAME": "European Genome-phenome Archive",
+  "ABBREVIATION": "EGA",
+  "DISPLAY_ORDER": 1,
+  "URL": "https://ega-archive.org/",
+  "DESCRIPTION": "Federated archive for sensitive human genomes and phenotypes (member institutions across Europe and beyond)."
+}

@@ -1,15 +1,16 @@
 """
 Regenerates section hub pages (docs/<Section>.md with “Contents - …” lists) and
-overwrites repo-root mkdocs.yml from `part1` plus a dynamic `nav` block.
+overwrites repo-root mkdocs.yml from ``PART1_BASE`` + dynamic ``not_in_nav`` + a dynamic ``nav`` block (Biobanks, then other tabs).
 
-Top-level tabs use a fixed order (`_NAV_TAB_ORDER`); Journals, Catalog statistics, and
-Trending are omitted from the tab bar (home page cards link to them instead; Trending
-uses `not_in_nav` so those pages still build). Rows with
+Top-level tabs use a fixed order (`_NAV_TAB_ORDER`). **Major databases** is not a tab: hub and
+continent listing pages are listed under ``not_in_nav`` (home page links; pages still build). Journals, Catalog statistics, and
+Trending are omitted from the tab bar (home page cards link to Journals / Catalog statistics;
+Trending uses `not_in_nav` so those pages still build). Rows with
 SECTION=Tools and TOPIC=Population_Genetics are emitted as a separate **Population Genetics**
 tab (`Population_Genetics.md` hub; pages remain `Tools_Population_Genetics_*.md`). The Tools
 section tab and hub heading are labeled **GWAS Tools** (`Tools.md` unchanged).
 
-Change site config in `part1` below — hand-editing mkdocs.yml is lost on the next
+Change site config in `PART1_BASE` / ``build_mkdocs_part1_yaml_header()`` below — hand-editing mkdocs.yml is lost on the next
 `write_mkdcos()` run (e.g. `python main.py` from src/). After editing
 `docs/stylesheets/extra.css`, run `python scripts/minify_extra_css.py` (see `deploy.sh`).
 """
@@ -20,6 +21,7 @@ import pandas as pd
 import yaml
 
 from load_data import load_table_and_ref
+from process_major_databases import major_databases_not_in_nav_paths
 from tag_pages import write_tag_pages
 
 
@@ -29,7 +31,7 @@ def _load_biobanks_world_map_snippet():
         return f.read()
 
 
-part1='''site_name: CTGCatalog
+PART1_BASE='''site_name: CTGCatalog
 site_url: https://cloufield.github.io/CTGCatalog/
 site_description: >-
   Curated index of complex trait genetics resources—biobanks, GWAS summary statistics,
@@ -104,11 +106,21 @@ plugins:
   - search
   - mkdocs-jupyter
 
-not_in_nav: |
-  Trending/index.md
-  Trending/Trending_PubMed_GWAS.md
-
 '''
+
+def build_mkdocs_part1_yaml_header(*, major_db_not_in_nav: list[str] | None = None) -> str:
+    """Site YAML head + ``not_in_nav`` (Trending + Major databases; neither is a top tab)."""
+    lines = [
+        PART1_BASE.rstrip(),
+        "",
+        "not_in_nav: |",
+        "  Trending/index.md",
+        "  Trending/Trending_PubMed_GWAS.md",
+    ]
+    for rel in major_db_not_in_nav or ():
+        lines.append(f"  {rel}")
+    return "\n".join(lines) + "\n\n"
+
 
 # Top tabs (Material navigation.tabs). Not listed here: Journals, Catalog statistics, Trending (home cards only).
 _NAV_TAB_ORDER = [
@@ -162,7 +174,6 @@ _SECTION_HUB_LEADS: dict[str, str] = {
     ),
 }
 
-part2_nav_home = "nav: \n    - Home : index.md\n"
 
 #part2+='''    - Sumstats:
 #      - Sumstats: Sumstats_Sumstats_README.md
@@ -174,8 +185,6 @@ part2_nav_home = "nav: \n    - Home : index.md\n"
 ## TAB_TOPIC_SUBTOPIC.md 
 
 def write_mkdcos(
-    part1=part1,
-    part2_nav_home=part2_nav_home,
     *,
     tag_buckets=None,
     tag_slug_map=None,
@@ -409,12 +418,23 @@ def write_mkdcos(
             nav_label=_POPGEN_NAV_TITLE,
         )
 
-    part2 = part2_nav_home + "".join(
-        nav_by_section[s] for s in _NAV_TAB_ORDER if s in nav_by_section
-    )
+    part2_parts: list[str] = ["nav: \n", "    - Home : index.md\n"]
+    if "Biobanks" in nav_by_section:
+        part2_parts.append(nav_by_section["Biobanks"])
+    for s in _NAV_TAB_ORDER:
+        if s == "Biobanks":
+            continue
+        if s in nav_by_section:
+            part2_parts.append(nav_by_section[s])
+    part2 = "".join(part2_parts)
 
     if tag_buckets is not None and tag_slug_map is not None:
         write_tag_pages(tag_buckets, tag_slug_map, tag_card_rows)
 
     with open("../mkdocs.yml", mode="w") as file:
-        file.write(part1 + part2)
+        file.write(
+            build_mkdocs_part1_yaml_header(
+                major_db_not_in_nav=major_databases_not_in_nav_paths(),
+            )
+            + part2
+        )

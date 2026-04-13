@@ -65,7 +65,7 @@ _HOMEPAGE_INTRO = """# Complex Trait Genetics Catalog
 
 <div class="catalog-home-hero">
 <p><strong>Hi there, and welcome to CTGCatalog.</strong></p>
-<p>I'm Yunye, and I study complex trait genomics. I created this collection to bring together resources that I personally find useful for my work.</p>
+<p>I'm Yunye, and I study complex trait genomics. I created this collection to bring together resources that I personally find useful for my work. Researchers who share similar interests, or anyone who wants to start studying this field, may find it useful as well.</p>
 <p>CTGCatalog is a GWAS-focused collection for complex trait genetics, including reference data, public summary statistics, software tools, related literature, and AI-related resources. It is a personal curated collection rather than an exhaustive or official resource. AI assists with curation, while all entries are reviewed and maintained manually.</p>
 </div>
 
@@ -125,6 +125,13 @@ _HOMEPAGE_INTRO = """# Complex Trait Genetics Catalog
 <p><span class="catalog-card-icon" aria-hidden="true">🤖</span> <strong>AI</strong></p>
 <hr>
 <p>Biomedical AI agents and related tooling.</p>
+</a>
+</li>
+<li>
+<a class="catalog-home-card-link" href="Major_Databases/">
+<p><span class="catalog-card-icon" aria-hidden="true">🗄️</span> <strong>Major databases</strong></p>
+<hr>
+<p>National and regional omics archives by country (DDBJ, NBDC, NGDC / CNCB, INSDC partners, and similar).</p>
 </a>
 </li>
 <li>

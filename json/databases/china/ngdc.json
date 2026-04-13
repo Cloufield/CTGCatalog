@@ -1,0 +1,28 @@
+{
+  "NAME": "National Genomics Data Center",
+  "NAME_ZH": "国家基因组科学数据中心",
+  "ABBREVIATION": "NGDC",
+  "DISPLAY_ORDER": 0,
+  "URL": "https://ngdc.cncb.ac.cn/?lang=en",
+  "DESCRIPTION": "Operated by [CNCB (China National Center for Bioinformation)](https://www.cncb.ac.cn/). The NGDC provides open-access data and services for life and health sciences—supporting translation of large-scale data into discoveries for academia and industry. The site describes the center as **National Genomics Data Center (formerly the BIG Data Center)** and highlights national-scale infrastructure (multi-petabyte storage, high-throughput compute, and wide network capacity). Flagship sequence services center on **GSA** (Genome Sequence Archive) and [Genome Warehouse (GWH)](https://ngdc.cncb.ac.cn/gwh/); other prominent portals include GenBase (genetic sequences), GVM (Genome Variation Map), **OMIX** (miscellaneous multi-omics), BioProject and BioSample libraries, **GSA-Human** (human omics with controlled access), MethBank, GEN (Gene Expression Nebulas), Database Commons (biological database catalog), BioCode, BIT (Bioinformatics Toolkit), OpenLB, and BIG Search (cross-domain search). The English hub also groups **partner** access to EBI- and NCBI-family databases alongside NGDC-hosted resources.",
+  "KEY_DATABASES": [
+    {
+      "NAME": "GSA",
+      "NAME_ZH": "基因组序列存档",
+      "URL": "https://ngdc.cncb.ac.cn/gsa/",
+      "DESCRIPTION": "**Genome Sequence Archive**—repository for raw sequencing reads, assemblies, and study metadata at NGDC, in the same role as [SRA](https://www.ncbi.nlm.nih.gov/sra/) / [ENA](https://www.ebi.ac.uk/ena) within the INSDC ecosystem."
+    },
+    {
+      "NAME": "GSA-Human",
+      "NAME_ZH": "人类基因组序列存档",
+      "URL": "https://ngdc.cncb.ac.cn/gsa-human/",
+      "DESCRIPTION": "Human-focused omics archive with **controlled access** and policy-driven release, analogous in purpose to controlled human read archives elsewhere."
+    },
+    {
+      "NAME": "OMIX",
+      "NAME_ZH": "多组学数据存档",
+      "URL": "https://ngdc.cncb.ac.cn/omix/",
+      "DESCRIPTION": "Multi-omics submission and browse portal for datasets that do not fit a single “sequence-only” archive—metadata-rich miscellaneous omics at NGDC."
+    }
+  ]
+}

@@ -76,6 +76,12 @@ plugins:
 not_in_nav: |
   Trending/index.md
   Trending/Trending_PubMed_GWAS.md
+  Major_Databases.md
+  Major_Databases_International.md
+  Major_Databases_AMERICA.md
+  Major_Databases_ASIA.md
+  Major_Databases_EUROPE.md
+  Major_Databases_OCEANIA.md
 
 nav: 
     - Home : index.md
@@ -130,6 +136,7 @@ nav:
       - HLA: Tools_HLA.md
       - Heritability_and_genetic_correlation: Tools_Heritability_and_genetic_correlation.md
       - Imputation: Tools_Imputation.md
+      - Mediation: Tools_Mediation.md
       - Mendelian_randomization: Tools_Mendelian_randomization.md
       - Meta_and_Multi_triat: Tools_Meta_and_Multi_triat.md
       - Polygenic_risk_scores: Tools_Polygenic_risk_scores.md

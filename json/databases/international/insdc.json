@@ -1,0 +1,39 @@
+{
+  "NAME": "International Nucleotide Sequence Database Collaboration",
+  "ABBREVIATION": "INSDC",
+  "DISPLAY_ORDER": 0,
+  "URL": "https://www.insdc.org/",
+  "DESCRIPTION": "The **International Nucleotide Sequence Database Collaboration (INSDC)** is the agreement among **[GenBank](https://www.ncbi.nlm.nih.gov/genbank/)** (U.S. **NCBI**), **[ENA](https://www.ebi.ac.uk/ena/browser/home)** (European **EMBL-EBI**), and **[DDBJ](https://www.ddbj.nig.ac.jp/)** (Japan **NIG**) to form one globally mirrored nucleotide archive: submissions receive stable accessions and propagate daily between the three sites. The same partnership governs **raw read** archives (**SRA**, **DRA**, and raw reads in **ENA**) and shared **BioProject** / **BioSample** metadata so studies stay traceable from sample through reads to assembled records. Policy, **minimal information** expectations, and format updates are coordinated through the INSDC web site and member notices.",
+  "KEY_DATABASES": [
+    {
+      "NAME": "GenBank",
+      "URL": "https://www.ncbi.nlm.nih.gov/genbank/",
+      "DESCRIPTION": "**NCBI** member of INSDC for **annotated and assembled** nucleotide sequences; exchanges accessions with [ENA](https://www.ebi.ac.uk/ena) and [DDBJ](https://www.ddbj.nig.ac.jp/ddbj/index-e.html) so a DDBJ accession resolves at GenBank and vice versa."
+    },
+    {
+      "NAME": "ENA",
+      "URL": "https://www.ebi.ac.uk/ena/browser/home",
+      "DESCRIPTION": "**European Nucleotide Archive** at **EMBL-EBI**—INSDC entry for annotated sequences and **indexed raw reads**; mirrors [SRA](https://www.ncbi.nlm.nih.gov/sra/) and [DRA](https://www.ddbj.nig.ac.jp/dra/index-e.html) run metadata under shared INSDC accession rules."
+    },
+    {
+      "NAME": "DDBJ",
+      "URL": "https://www.ddbj.nig.ac.jp/ddbj/index-e.html",
+      "DESCRIPTION": "**DNA Data Bank of Japan** at **NIG**—Japanese INSDC node for **DDBJ** nucleotide records plus **[DRA](https://www.ddbj.nig.ac.jp/dra/index-e.html)** reads, **[GEA](https://www.ddbj.nig.ac.jp/gea/index-e.html)** expression, and **[JGA](https://www.ddbj.nig.ac.jp/jga/)** human controlled-access data under national policy."
+    },
+    {
+      "NAME": "SRA",
+      "URL": "https://www.ncbi.nlm.nih.gov/sra/",
+      "DESCRIPTION": "**Sequence Read Archive** at **NCBI**—INSDC **raw read** partner; run accessions are synchronized with **ENA** and **[DRA](https://www.ddbj.nig.ac.jp/dra/index-e.html)** so submitters can retrieve the same logical dataset from any member site."
+    },
+    {
+      "NAME": "BioProject",
+      "URL": "https://www.ncbi.nlm.nih.gov/bioproject/",
+      "DESCRIPTION": "**Study-level accessioning** shared across INSDC; a BioProject ID ties together **BioSample**, read archives, and sequence records regardless of which member database accepted the original submission."
+    },
+    {
+      "NAME": "INSDC technical specifications",
+      "URL": "https://www.insdc.org/technical-specifications/",
+      "DESCRIPTION": "Coordinated **file formats, feature tables, controlled vocabularies**, and **minimal metadata** rules agreed by GenBank, ENA, and DDBJ—first stop when preparing bulk or high-throughput submissions."
+    }
+  ]
+}

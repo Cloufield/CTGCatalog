@@ -24,7 +24,7 @@ def repo_json_dir() -> Path:
 
 
 # Top-level directories under json/ whose *.json files are registries, not catalog rows.
-_JSON_NON_CATALOG_TOP_DIRS = frozenset({"tags"})
+_JSON_NON_CATALOG_TOP_DIRS = frozenset({"tags", "databases"})
 
 
 def is_catalog_json_file(json_dir: Path, path: Path) -> bool:
@@ -46,6 +46,11 @@ def repo_journals_dir() -> Path:
 def repo_projects_dir() -> Path:
     """json/projects/ — umbrella entries for multi-phase programs (1KG, UKB, GTEx, …)."""
     return repo_json_dir() / "projects"
+
+
+def repo_databases_dir() -> Path:
+    """json/databases/<country>/ — one JSON file per major database (see process_major_databases)."""
+    return repo_json_dir() / "databases"
 
 
 def slugify_catalog_tag(tag: str) -> str:

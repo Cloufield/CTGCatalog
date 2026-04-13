@@ -10,7 +10,8 @@ from process_md import write_md
 from process_homepage import write_homepage
 from process_mkdocs import write_mkdcos
 from tag_pages import prepare_tag_index
-from validate_catalog import validate_catalog
+from process_major_databases import write_major_databases_md
+from validate_catalog import validate_catalog, validate_databases_json
 from check_docs_links import run_link_check
 
 
@@ -37,7 +38,7 @@ def _emit_trending_pages() -> None:
         sys.exit(1)
 
 
-if validate_catalog() != 0:
+if validate_catalog() != 0 or validate_databases_json() != 0:
     sys.exit(1)
 
 # Load Data and Ref
@@ -47,6 +48,8 @@ _tag_buckets, _tag_slug_map, _tag_card_rows = prepare_tag_index(table_and_ref)
 print_level.TAG_SLUG_MAP = _tag_slug_map
 write_md(table_and_ref)
 print_level.TAG_SLUG_MAP = None
+
+write_major_databases_md()
 
 write_homepage(table_and_ref)
 

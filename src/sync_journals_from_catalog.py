@@ -25,7 +25,7 @@ from journal_nlm_homepage import nlm_catalog_journal_homepage_url
 
 
 # Top-level trees that are not citation sources for journal aggregation.
-_SKIP_JOURNAL_SOURCES = frozenset({"journals", "projects", "tags"})
+_SKIP_JOURNAL_SOURCES = frozenset({"databases", "journals", "projects", "tags"})
 
 
 def _skip_for_journal_aggregate(path: Path, json_root: Path) -> bool:

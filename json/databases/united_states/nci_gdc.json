@@ -1,0 +1,6 @@
+{
+  "NAME": "NCI Genomic Data Commons",
+  "ABBREVIATION": "GDC",
+  "URL": "https://portal.gdc.cancer.gov/",
+  "DESCRIPTION": "Major cancer genomics data portal (harmonized TCGA, TARGET, and related programs)."
+}

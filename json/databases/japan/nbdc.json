@@ -1,0 +1,29 @@
+{
+  "NAME": "National Bioscience Database Center",
+  "ABBREVIATION": "NBDC",
+  "DISPLAY_ORDER": 0,
+  "URL": "https://biosciencedbc.jp/en/",
+  "DESCRIPTION": "**NBDC** coordinates Japanese life-science database policy and infrastructure with domestic and international partners. It oversees **human data sharing** (review, security guidelines, and linkage to archives such as **JGA**), **group-level restricted sharing**, and discovery services such as **TogoVar**. Day-to-day operation of the **NBDC Human Database** and **NBDC Group Shared Database** platforms is carried out with **DBCLS** in cooperation with the **DDBJ Center** at NIG.",
+  "KEY_DATABASES": [
+    {
+      "NAME": "NBDC Human Database",
+      "URL": "https://humandbs.dbcls.jp/en",
+      "DESCRIPTION": "Portal to **apply for submission or reuse** of human omics and related data under NBDC guidelines; reviews **controlled-access** datasets archived in **JGA** and coordinates with [DDBJ](https://www.ddbj.nig.ac.jp/). (Operated by **DBCLS**; successor site to the former *humandbs.biosciencedbc.jp* URL.)"
+    },
+    {
+      "NAME": "JGA",
+      "URL": "https://www.ddbj.nig.ac.jp/jga/",
+      "DESCRIPTION": "**Japanese Genotype-phenotype Archive**—repository for **individual-level** genetic and phenotypic data with access controls; Japan’s counterpart in spirit to [dbGaP](https://www.ncbi.nlm.nih.gov/gap/) and the [EGA](https://ega-archive.org/), operated by the **DDBJ Center** under NBDC/DBCLS policy workflows."
+    },
+    {
+      "NAME": "NBDC Group Shared Database",
+      "URL": "https://gr-sharingdbs.dbcls.jp/en",
+      "DESCRIPTION": "Infrastructure for **laboratory- and consortium-scale** sharing when public release or JGA-style archives are not appropriate—**group-restricted** access with NBDC oversight. (Operated by **DBCLS**; replaces the former *gr-sharingdbs.biosciencedbc.jp* service.)"
+    },
+    {
+      "NAME": "TogoVar",
+      "URL": "https://togovar.org/",
+      "DESCRIPTION": "**Japanese genetic variation** browser integrating allele frequencies, transcripts, and disease/clinical annotations—useful for interpreting variants in **Japanese** and related cohorts; currently provided via **DBCLS** (historically promoted through NBDC)."
+    }
+  ]
+}

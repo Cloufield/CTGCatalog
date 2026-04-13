@@ -1,0 +1,44 @@
+{
+  "NAME": "European Bioinformatics Institute",
+  "ABBREVIATION": "EMBL-EBI",
+  "DISPLAY_ORDER": 0,
+  "URL": "https://www.ebi.ac.uk/",
+  "DESCRIPTION": "**EMBL-EBI** is Europe’s flagship open-data hub for life science: it operates core INSDC services (**ENA**), genome annotation and browsing (**Ensembl**), protein knowledge (**UniProt**), functional-genomics archives (**BioStudies**, **Expression Atlas**), human variation submission (**EVA**), structural biology (**PDBe**), chemical biology (**ChEMBL**), and literature discovery (**Europe PMC**), alongside training and APIs. Many resources federate with global partners (NCBI, DDBJ, SIB) and with controlled-access archives such as the [EGA](https://ega-archive.org/) for sensitive human data.",
+  "KEY_DATABASES": [
+    {
+      "NAME": "ENA",
+      "URL": "https://www.ebi.ac.uk/ena/browser/home",
+      "DESCRIPTION": "**European Nucleotide Archive**—INSDC member archive for raw reads, assemblies, and annotated sequences; exchanges metadata and accessions with [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) and [DDBJ](https://www.ddbj.nig.ac.jp/)."
+    },
+    {
+      "NAME": "UniProt",
+      "URL": "https://www.uniprot.org/",
+      "DESCRIPTION": "Curated **protein sequence and functional annotation** resource (UniProtKB, proteomes, isoforms); joint **EMBL-EBI**, **SIB**, and **PIR**."
+    },
+    {
+      "NAME": "Ensembl",
+      "URL": "https://www.ensembl.org/",
+      "DESCRIPTION": "**Genome browser and annotation** for vertebrates and selected model organisms—genes, variants, comparative genomics, and REST/API access aligned with reference assemblies."
+    },
+    {
+      "NAME": "BioStudies",
+      "URL": "https://www.ebi.ac.uk/biostudies/",
+      "DESCRIPTION": "**Study-centric metadata warehouse** for life-science experiments; hosts and links **ArrayExpress**-style functional-genomics studies alongside imaging and other modalities."
+    },
+    {
+      "NAME": "Expression Atlas",
+      "URL": "https://www.ebi.ac.uk/gxa/",
+      "DESCRIPTION": "**Baseline and differential expression** summaries from RNA-seq and microarray studies, with reproducible pipelines and cross-study query."
+    },
+    {
+      "NAME": "EVA",
+      "URL": "https://www.ebi.ac.uk/eva/",
+      "DESCRIPTION": "**European Variation Archive**—open repository for VCF-scale **genetic variant** submissions with study-level metadata, complementing reference browsers."
+    },
+    {
+      "NAME": "Europe PMC",
+      "URL": "https://europepmc.org/",
+      "DESCRIPTION": "**Literature and preprint** search with full-text open-access articles, grants, and links to molecular datasets cited in papers."
+    }
+  ]
+}

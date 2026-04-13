@@ -1,0 +1,30 @@
+{
+  "NAME": "condFDR",
+  "PMID": 23637625,
+  "SECTION": "Tools",
+  "TOPIC": "Meta_and_Multi_triat",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "condFDR",
+  "FULL NAME": "pleiotropy-informed conditional false discovery rate",
+  "KEYWORDS": "Pleiotropy,conditional FDR,conjunction FDR,summary statistics,multi-trait",
+  "URL": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3636100/",
+  "DESCRIPTION": "Uses GWAS summary statistics from two related traits to estimate conditional false discovery rates from conditional Q–Q curves, boosting discovery of variants that may fall below standard genome-wide thresholds in single-trait scans. The framework includes conjunction FDR for loci associated with both traits.",
+  "MANUAL_CITATION": "Andreassen, O. A., Thompson, W. K., Schork, A. J., Ripke, S., Mattingsdal, M., Kelsoe, J. R., Kendler, K. S., O'Donovan, M. C., Rujescu, D., Werge, T., Sklar, P., … Dale, A. M. (2013). Improved detection of common variants associated with schizophrenia and bipolar disorder using pleiotropy-informed conditional false discovery rate. PLoS Genetics, 9(4), e1003455.",
+  "TITLE": "Improved detection of common variants associated with schizophrenia and bipolar disorder using pleiotropy-informed conditional false discovery rate.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLoS genetics",
+  "YEAR": "2013",
+  "VOLUME": "9",
+  "ISSUE": "4",
+  "PAGE": "e1003455",
+  "Authors": "Andreassen OA,Thompson WK,Schork AJ,Ripke S,Mattingsdal M,Kelsoe JR,Kendler KS,O'Donovan MC,Rujescu D,Werge T,Sklar P,Psychiatric Genomics Consortium,Bipolar Disorder and Schizophrenia Working Groups,Roddey JC,Chen CH,McEvoy L,Desikan RS,Djurovic S,Dale AM",
+  "ABSTRACT": "Several lines of evidence suggest that genome-wide association studies (GWAS) have the potential to explain more of the \"missing heritability\" of common complex phenotypes. However, reliable methods to identify a larger proportion of single nucleotide polymorphisms (SNPs) that impact disease risk are currently lacking. Here, we use a genetic pleiotropy-informed conditional false discovery rate (FDR) method on GWAS summary statistics data to identify new loci associated with schizophrenia (SCZ) and bipolar disorders (BD), two highly heritable disorders with significant missing heritability. Epidemiological and clinical evidence suggest similar disease characteristics and overlapping genes between SCZ and BD. Here, we computed conditional Q-Q curves of data from the Psychiatric Genome Consortium (SCZ; n = 9,379 cases and n = 7,736 controls; BD: n = 6,990 cases and n = 4,820 controls) to show enrichment of SNPs associated with SCZ as a function of association with BD and vice versa with a corresponding reduction in FDR. Applying the conditional FDR method, we identified 58 loci associated with SCZ and 35 loci associated with BD below the conditional FDR level of 0.05. Of these, 14 loci were associated with both SCZ and BD (conjunction FDR). Together, these findings show the feasibility of genetic pleiotropy-informed methods to improve gene discovery in SCZ and BD and indicate overlapping genetic mechanisms between these two disorders.",
+  "DOI": "10.1371/journal.pgen.1003455",
+  "PMC ID": "PMC3636100",
+  "CITATION": "Andreassen OA, Thompson WK, Schork AJ, Ripke S, Mattingsdal M, Kelsoe JR, Kendler KS, O'Donovan MC, Rujescu D, Werge T, Sklar P, et al. (2013) Improved detection of common variants associated with schizophrenia and bipolar disorder using pleiotropy-informed conditional false discovery rate. PLoS Genet, 9 (4) e1003455. doi:10.1371/journal.pgen.1003455. PMID 23637625",
+  "FIRST_AUTHOR": "Andreassen OA",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

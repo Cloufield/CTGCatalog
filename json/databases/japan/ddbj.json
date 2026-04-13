@@ -1,0 +1,39 @@
+{
+  "NAME": "DNA Data Bank of Japan",
+  "ABBREVIATION": "DDBJ",
+  "DISPLAY_ORDER": 1,
+  "URL": "https://www.ddbj.nig.ac.jp/index-e.html",
+  "DESCRIPTION": "The **DDBJ Center** at the **National Institute of Genetics (NIG)** operates Japan’s INSDC member services: the **DDBJ** nucleotide archive, **DRA** (raw reads), **GEA** (expression), and **BioProject** / **BioSample** metadata, with unified submission through **D-way**. Data flow is synchronized with [NCBI](https://www.ncbi.nlm.nih.gov/) and [ENA](https://www.ebi.ac.uk/ena); **JGA** for controlled human data is operated alongside **NBDC** human-data policies.",
+  "KEY_DATABASES": [
+    {
+      "NAME": "DDBJ",
+      "URL": "https://www.ddbj.nig.ac.jp/ddbj/index-e.html",
+      "DESCRIPTION": "**Annotated and assembled nucleotide sequences** (INSDC); accessions and daily exchange with [GenBank](https://www.ncbi.nlm.nih.gov/genbank/) and [ENA](https://www.ebi.ac.uk/ena) keep a single global nucleotide corpus."
+    },
+    {
+      "NAME": "DRA",
+      "URL": "https://www.ddbj.nig.ac.jp/dra/index-e.html",
+      "DESCRIPTION": "**DDBJ Sequence Read Archive**—raw sequencing reads, metadata, and experiment records; INSDC partner of [SRA](https://www.ncbi.nlm.nih.gov/sra/) and ENA under common run accession conventions."
+    },
+    {
+      "NAME": "GEA",
+      "URL": "https://www.ddbj.nig.ac.jp/gea/index-e.html",
+      "DESCRIPTION": "**Genomic Expression Archive**—submissions from **microarray** and **high-throughput sequencing** (e.g. RNA-seq, ChIP-seq) with MIAME/MINSEQE-style metadata; complements [GEO](https://www.ncbi.nlm.nih.gov/geo/)-style discovery."
+    },
+    {
+      "NAME": "BioProject",
+      "URL": "https://www.ddbj.nig.ac.jp/bioproject/index-e.html",
+      "DESCRIPTION": "**Study-level registration** for sequencing and functional projects; links to **BioSample**, **DRA**, **DDBJ**, and **GEA** objects so INSDC submissions stay traceable end to end."
+    },
+    {
+      "NAME": "BioSample",
+      "URL": "https://www.ddbj.nig.ac.jp/biosample/index-e.html",
+      "DESCRIPTION": "**Sample-level metadata** (organism, tissue, collection) shared across INSDC; sample accessions tie experiments in **DRA** and **GEA** to reproducible biological context."
+    },
+    {
+      "NAME": "JGA",
+      "URL": "https://www.ddbj.nig.ac.jp/jga/",
+      "DESCRIPTION": "**Japanese Genotype-phenotype Archive**—controlled-access storage for human genotype and phenotype data; submission and data use are gated through the [NBDC Human Database](https://humandbs.dbcls.jp/en)."
+    }
+  ]
+}

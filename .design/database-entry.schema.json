@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Cloufield/CTGCatalog/.design/database-entry.schema.json",
+  "title": "CTGCatalog major database entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["NAME", "URL", "DESCRIPTION"],
+  "properties": {
+    "NAME": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Primary label for the resource link."
+    },
+    "URL": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Canonical site URL (https recommended)."
+    },
+    "DESCRIPTION": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown notes (second column). Avoid raw `|` characters (breaks GFM tables)."
+    },
+    "SUBTITLE": {
+      "type": "string",
+      "description": "Optional longer label; may appear as an “Also known as” field on the card when it differs from ABBREVIATION."
+    },
+    "ABBREVIATION": {
+      "type": "string",
+      "description": "Optional short form shown in the card title, e.g. “BioBank Japan (BBJ)”."
+    },
+    "NAME_ZH": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional Chinese name (Simplified) for the resource; shown on cards when present (e.g. China-hosted databases)."
+    },
+    "DISPLAY_ORDER": {
+      "type": "integer",
+      "description": "Optional sort key within a country folder (lower first; default 0)."
+    },
+    "KEY_DATABASES": {
+      "type": "array",
+      "description": "Optional sub-databases or portals; each row is a card field with link and optional prose.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["NAME", "URL"],
+        "properties": {
+          "NAME": { "type": "string", "minLength": 1 },
+          "NAME_ZH": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Optional Chinese label for this portal row (Simplified)."
+          },
+          "URL": { "type": "string", "minLength": 1 },
+          "DESCRIPTION": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Optional markdown blurb under the portal link (inline links allowed; avoid raw `|`)."
+          }
+        }
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

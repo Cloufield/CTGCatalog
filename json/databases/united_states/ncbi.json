@@ -1,0 +1,43 @@
+{
+  "NAME": "National Center for Biotechnology Information",
+  "ABBREVIATION": "NCBI",
+  "URL": "https://www.ncbi.nlm.nih.gov/",
+  "DESCRIPTION": "The U.S. **National Center for Biotechnology Information** is NIH’s primary bioinformatics hub: literature (**PubMed**), reference sequences (**RefSeq**, **GenBank**), analysis tools, and major data archives. As an INSDC partner it exchanges nucleotide data with **ENA** and **DDBJ**. **SRA** stores raw sequencing reads; **dbGaP** provides controlled access to participant-level genotype and phenotype data; **GEO** archives functional genomics; **ClinVar** aggregates variant interpretations for clinical and research use. Datasets routinely cross-link to PubMed and Gene records.",
+  "KEY_DATABASES": [
+    {
+      "NAME": "PubMed",
+      "URL": "https://pubmed.ncbi.nlm.nih.gov/",
+      "DESCRIPTION": "**Bibliographic index** of biomedical literature with abstracts and links to full text where available; central entry point for citations tied to NCBI sequence and GEO records."
+    },
+    {
+      "NAME": "GenBank",
+      "URL": "https://www.ncbi.nlm.nih.gov/genbank/",
+      "DESCRIPTION": "**Annotated nucleotide sequence database** and INSDC exchange partner—deposits receive accessions mirrored with [ENA](https://www.ebi.ac.uk/ena) and [DDBJ](https://www.ddbj.nig.ac.jp/)."
+    },
+    {
+      "NAME": "SRA",
+      "URL": "https://www.ncbi.nlm.nih.gov/sra/",
+      "DESCRIPTION": "**Sequence Read Archive**—high-volume store for raw sequencing output (reads, run metadata) with INSDC exchange alongside [ENA](https://www.ebi.ac.uk/ena) and [DDBJ](https://www.ddbj.nig.ac.jp/)."
+    },
+    {
+      "NAME": "RefSeq",
+      "URL": "https://www.ncbi.nlm.nih.gov/refseq/",
+      "DESCRIPTION": "**Non-redundant reference sequences** (genomes, transcripts, proteins) used for annotation, variant reporting, and stable **NM_/NP_** accessions in clinical and research workflows."
+    },
+    {
+      "NAME": "ClinVar",
+      "URL": "https://www.ncbi.nlm.nih.gov/clinvar/",
+      "DESCRIPTION": "**Archive of genomic variant interpretations** (pathogenicity, drug response) aggregated from submitters; integrates with **dbSNP** and clinical testing pipelines."
+    },
+    {
+      "NAME": "dbGaP",
+      "URL": "https://www.ncbi.nlm.nih.gov/gap/",
+      "DESCRIPTION": "**Database of Genotypes and Phenotypes**—study-level portal for **controlled-access** participant genotype, phenotype, and omics under NIH data-use agreements."
+    },
+    {
+      "NAME": "GEO",
+      "URL": "https://www.ncbi.nlm.nih.gov/geo/",
+      "DESCRIPTION": "**Gene Expression Omnibus**—curated submissions of array- and sequencing-based **functional genomics** and expression profiling, with series and sample records."
+    }
+  ]
+}

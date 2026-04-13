@@ -1,0 +1,9 @@
+{
+  "NAME": "CNGBdb",
+  "NAME_ZH": "国家基因库数据库",
+  "ABBREVIATION": "CNGB",
+  "SUBTITLE": "China National GeneBank Database",
+  "DISPLAY_ORDER": 1,
+  "URL": "https://db.cngb.org/",
+  "DESCRIPTION": "Unified portal for sharing and using biological data, built on large-scale data, cloud computing, and AI. **DNA Omics**, **Cell Omics**, and **Spatial Omics** hubs surface 40+ scientific databases spanning biodiversity, microbiology, and health. Core services include [CNSA](https://db.cngb.org/cnsa/) (China National GeneBank Sequence Archive) for omics submission via the [CNSA submit portal](https://db.cngb.org/cnsa/submit/), spatial-omics submission, FTP-based dataset download, BLAST and other analysis tools, bioinformatics training, and cooperation offerings (database development, hosting, and analysis). The site publishes handbooks plus terms, privacy, and data-sharing policies."
+}

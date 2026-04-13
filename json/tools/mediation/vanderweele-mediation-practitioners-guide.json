@@ -1,0 +1,28 @@
+{
+  "NAME": "Mediation practitioner's guide",
+  "PMID": 26653405,
+  "SECTION": "Tools",
+  "TOPIC": "Mediation",
+  "CATEGORY": "Methods",
+  "TYPE": "Review",
+  "SHORT NAME": "vanderweele-mediation-guide",
+  "FULL NAME": "Mediation analysis: a practitioner's guide",
+  "KEYWORDS": "mediation,causal inference,direct effects,indirect effects,sensitivity analysis,multiple mediators",
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/26653405/",
+  "DESCRIPTION": "Annual Review of Public Health overview of mediation methods: confounding assumptions for causal direct and indirect effects, interactions, binary outcomes and mediators, case-control designs, sensitivity analysis, time-to-event and multiple mediators, and flexible modeling from counterfactual definitions.",
+  "MANUAL_CITATION": "VanderWeele, T. J. (2016). Mediation Analysis: A Practitioner's Guide. Annual Review of Public Health, 37, 17–32.",
+  "TITLE": "Mediation Analysis: A Practitioner's Guide.",
+  "ISO": "Annu Rev Public Health",
+  "JOURNAL": "Annual review of public health",
+  "YEAR": "2016",
+  "VOLUME": "37",
+  "PAGE": "17-32",
+  "Authors": "VanderWeele TJ",
+  "ABSTRACT": "This article provides an overview of recent developments in mediation analysis, that is, analyses used to assess the relative magnitude of different pathways and mechanisms by which an exposure may affect an outcome. Traditional approaches to mediation in the biomedical and social sciences are described. Attention is given to the confounding assumptions required for a causal interpretation of direct and indirect effect estimates. Methods from the causal inference literature to conduct mediation in the presence of exposure-mediator interactions, binary outcomes, binary mediators, and case-control study designs are presented. Sensitivity analysis techniques for unmeasured confounding and measurement error are introduced. Discussion is given to extensions to time-to-event outcomes and multiple mediators. Further flexible modeling strategies arising from the precise counterfactual definitions of direct and indirect effects are also described. The focus throughout is on methodology that is easily implementable in practice across a broad range of potential applications.",
+  "DOI": "10.1146/annurev-publhealth-032315-021402",
+  "CITATION": "VanderWeele TJ. (2016) Mediation Analysis: A Practitioner's Guide. Annu Rev Public Health, 37 17-32. doi:10.1146/annurev-publhealth-032315-021402. PMID 26653405",
+  "FIRST_AUTHOR": "VanderWeele TJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

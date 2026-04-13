@@ -1,0 +1,28 @@
+{
+  "NAME": "mediation (JSS)",
+  "SECTION": "Tools",
+  "TOPIC": "Mediation",
+  "CATEGORY": "Methods",
+  "TYPE": "Software",
+  "SHORT NAME": "mediation-jss",
+  "FULL NAME": "mediation: R package for causal mediation analysis (JSS)",
+  "KEYWORDS": "mediation,R,causal inference,sensitivity analysis,noncompliance,multiple mediators",
+  "URL": "https://www.jstatsoft.org/article/view/v059i05",
+  "DESCRIPTION": "Journal of Statistical Software article for the mediation R package: model- and design-based causal mediation effects, sensitivity analysis, multiple (dependent) mediators, and mediation with treatment noncompliance.",
+  "MANUAL_CITATION": "Tingley, D., Yamamoto, T., Hirose, K., Keele, L., & Imai, K. (2014). mediation: R Package for Causal Mediation Analysis. Journal of Statistical Software, 59(5), 1–38.",
+  "TITLE": "mediation: R Package for Causal Mediation Analysis.",
+  "ISO": "J Stat Softw",
+  "JOURNAL": "Journal of Statistical Software",
+  "YEAR": "2014",
+  "VOLUME": "59",
+  "ISSUE": "5",
+  "PAGE": "1-38",
+  "Authors": "Tingley D,Yamamoto T,Hirose K,Keele L,Imai K",
+  "ABSTRACT": "In this paper, we describe the R package mediation for conducting causal mediation analysis in applied empirical research. In many scientific disciplines, the goal of researchers is not only estimating causal effects of a treatment but also understanding the process in which the treatment causally affects the outcome. Causal mediation analysis is frequently used to assess potential causal mechanisms. The mediation package implements a comprehensive suite of statistical tools for conducting such an analysis. The package is organized into two distinct approaches. Using the model-based approach, researchers can estimate causal mediation effects and conduct sensitivity analysis under the standard research design. Furthermore, the design-based approach provides several analysis tools that are applicable under different experimental designs. This approach requires weaker assumptions than the model-based approach. We also implement a statistical method for dealing with multiple (causally dependent) mediators, which are often encountered in practice. Finally, the package also offers a methodology for assessing causal mediation in the presence of treatment noncompliance, a common problem in randomized trials.",
+  "DOI": "10.18637/jss.v059.i05",
+  "CITATION": "Tingley D, Yamamoto T, Hirose K, Keele L, Imai K. (2014) mediation: R Package for Causal Mediation Analysis. J Stat Softw, 59 (5) 1-38. doi:10.18637/jss.v059.i05",
+  "FIRST_AUTHOR": "Tingley D",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

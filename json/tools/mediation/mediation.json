@@ -1,0 +1,30 @@
+{
+  "NAME": "mediation",
+  "PMID": 33961203,
+  "SECTION": "Tools",
+  "TOPIC": "Mediation",
+  "CATEGORY": "Methods",
+  "TYPE": "Review",
+  "SHORT NAME": "mediation",
+  "FULL NAME": "Mendelian randomisation for mediation analysis: current methods and challenges for implementation",
+  "KEYWORDS": "Mendelian randomisation,mediation,multivariable MR,two-step MR,summary statistics,weak instruments",
+  "URL": "https://pubmed.ncbi.nlm.nih.gov/33961203/",
+  "DESCRIPTION": "Review of Mendelian randomisation approaches to mediation analysis, focusing on multivariable MR and two-step MR, with discussion of confounding, measurement error, weak instrument bias, exposure–mediator interaction, multiple mediators, and illustrated code.",
+  "MANUAL_CITATION": "Carter, A. R., Sanderson, E., Hammerton, G., Richmond, R. C., Davey Smith, G., Heron, J., Taylor, A. E., Davies, N. M., & Howe, L. D. (2021). Mendelian randomisation for mediation analysis: current methods and challenges for implementation. European Journal of Epidemiology, 36(5), 465–478.",
+  "TITLE": "Mendelian randomisation for mediation analysis: current methods and challenges for implementation.",
+  "ISO": "Eur J Epidemiol",
+  "JOURNAL": "European journal of epidemiology",
+  "YEAR": "2021",
+  "VOLUME": "36",
+  "ISSUE": "5",
+  "PAGE": "465-478",
+  "Authors": "Carter AR,Sanderson E,Hammerton G,Richmond RC,Davey Smith G,Heron J,Taylor AE,Davies NM,Howe LD",
+  "ABSTRACT": "Mediation analysis seeks to explain the pathway(s) through which an exposure affects an outcome. Traditional, non-instrumental variable methods for mediation analysis experience a number of methodological difficulties, including bias due to confounding between an exposure, mediator and outcome and measurement error. Mendelian randomisation (MR) can be used to improve causal inference for mediation analysis. We describe two approaches that can be used for estimating mediation analysis with MR: multivariable MR (MVMR) and two-step MR. We outline the approaches and provide code to demonstrate how they can be used in mediation analysis. We review issues that can affect analyses, including confounding, measurement error, weak instrument bias, interactions between exposures and mediators and analysis of multiple mediators. Description of the methods is supplemented by simulated and real data examples. Although MR relies on large sample sizes and strong assumptions, such as having strong instruments and no horizontally pleiotropic pathways, our simulations demonstrate that these methods are unaffected by confounders of the exposure or mediator and the outcome and non-differential measurement error of the exposure or mediator. Both MVMR and two-step MR can be implemented in both individual-level MR and summary data MR. MR mediation methods require different assumptions to be made, compared with non-instrumental variable mediation methods. Where these assumptions are more plausible, MR can be used to improve causal inference in mediation analysis.",
+  "DOI": "10.1007/s10654-021-00757-1",
+  "PMC ID": "PMC8159796",
+  "CITATION": "Carter AR, Sanderson E, Hammerton G, Richmond RC, Davey Smith G, Heron J, Taylor AE, Davies NM, Howe LD. (2021) Mendelian randomisation for mediation analysis: current methods and challenges for implementation. Eur J Epidemiol, 36 (5) 465-478. doi:10.1007/s10654-021-00757-1. PMID 33961203",
+  "FIRST_AUTHOR": "Carter AR",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

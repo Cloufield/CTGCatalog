@@ -99,6 +99,11 @@ article.md-content__inner.catalog-section-Biobanks,
   --catalog-section-header-accent: var(--catalog-journal-sec-biobanks);
 }
 
+article.md-content__inner.catalog-section-Major_Databases,
+.catalog-entry-card[data-catalog-section="Major_Databases"] {
+  --catalog-section-header-accent: var(--catalog-journal-sec-sumstats);
+}
+
 article.md-content__inner.catalog-section-Sumstats,
 .catalog-entry-card[data-catalog-section="Sumstats"] {
   --catalog-section-header-accent: var(--catalog-journal-sec-sumstats);
@@ -232,6 +237,10 @@ article.md-content__inner[class*="catalog-section-"] .md-tags a.md-tag,
 
 body:has(article.md-content__inner.catalog-section-Biobanks) {
   --catalog-sidebar-tag-accent: var(--catalog-journal-sec-biobanks);
+}
+
+body:has(article.md-content__inner.catalog-section-Major_Databases) {
+  --catalog-sidebar-tag-accent: var(--catalog-journal-sec-sumstats);
 }
 
 body:has(article.md-content__inner.catalog-section-Sumstats) {
@@ -973,6 +982,56 @@ a.catalog-badge.catalog-badge--link:hover {
   letter-spacing: 0.01em;
 }
 
+.md-typeset .catalog-entry-card__name-zh {
+  margin: 0.35rem 0 0.1rem;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--md-default-fg-color);
+  font-family:
+    "Source Han Sans SC",
+    "Noto Sans SC",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "Heiti SC",
+    sans-serif;
+}
+
+.catalog-entry-card__field-name-zh {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: none;
+  color: var(--md-default-fg-color);
+  font-family:
+    "Source Han Sans SC",
+    "Noto Sans SC",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "Heiti SC",
+    sans-serif;
+}
+
+.catalog-summary-table .catalog-summary-name-zh {
+  display: inline-block;
+  margin-top: 0.2rem;
+  font-size: 0.88em;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+  font-family:
+    "Source Han Sans SC",
+    "Noto Sans SC",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "Microsoft YaHei",
+    "Heiti SC",
+    sans-serif;
+}
+
 .catalog-entry-card__fields {
   display: flex;
   flex-direction: column;
@@ -1011,6 +1070,14 @@ a.catalog-badge.catalog-badge--link:hover {
 
 .catalog-entry-card__value a:hover {
   text-decoration: underline;
+}
+
+/* KEY_DATABASES: prose under portal URL */
+.catalog-entry-card__key-database-desc {
+  margin-top: 0.35rem;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.72rem;
+  line-height: 1.38;
 }
 
 /* Long bibliographic lines: match denser type like collapsible abstract */
