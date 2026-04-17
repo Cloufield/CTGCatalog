@@ -1,0 +1,30 @@
+{
+  "NAME": "GeneBayes",
+  "PMID": "",
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "GeneBayes",
+  "FULL NAME": "Bayesian estimation of gene constraint from an evolutionary model with gene features",
+  "KEYWORDS": "gene constraint, Bayesian inference, selection coefficient, loss-of-function, s_het",
+  "USE": "GeneBayes estimates gene-level selective constraint (s_het) by combining an evolutionary population genetics model with machine learning on gene features, improving constraint inference for short genes.",
+  "URL": "https://github.com/tkzeng/GeneBayes",
+  "DESCRIPTION": "Zeng, T., Spence, J. P., Mostafavi, H., & Pritchard, J. K. (2024). Bayesian estimation of gene constraint from an evolutionary model with gene features. Nature Genetics, 56, 1632-1643.",
+  "TITLE": "Bayesian estimation of gene constraint from an evolutionary model with gene features.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "",
+  "PAGE": "1632-1643",
+  "Authors": "Zeng T,Spence JP,Mostafavi H,Pritchard JK",
+  "ABSTRACT": "This study introduces GeneBayes, a framework that integrates an evolutionary model with gene features to estimate gene-level selective constraint. The method improves inference of the interpretable constraint metric s_het, especially for short genes, and outperforms existing metrics for prioritizing genes relevant to essentiality and human disease.",
+  "DOI": "10.1038/s41588-024-01820-9",
+  "PMC ID": "",
+  "CITATION": "Zeng T, Spence JP, Mostafavi H, Pritchard JK. (2024) Bayesian estimation of gene constraint from an evolutionary model with gene features. Nature Genetics, 56, 1632-1643. doi:10.1038/s41588-024-01820-9.",
+  "FIRST_AUTHOR": "Zeng T",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

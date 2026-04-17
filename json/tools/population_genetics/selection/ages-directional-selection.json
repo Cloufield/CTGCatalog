@@ -1,0 +1,30 @@
+{
+  "NAME": "AGES",
+  "PMID": "",
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "AGES",
+  "FULL NAME": "Ancient GEnome Selection",
+  "KEYWORDS": "ancient DNA, directional selection, time series, allele frequency",
+  "USE": "AGES detects directional selection in ancient DNA time-series data by testing whether allele frequencies show consistent temporal trends after accounting for structure and migration-related confounding.",
+  "URL": "http://reich-ages.rc.hms.harvard.edu",
+  "DESCRIPTION": "Akbari, A., Perry, A., Barton, A. R., Kariminejad, M., Gazal, S., Li, Z., ... & Reich, D. (2026). Ancient DNA reveals pervasive directional selection across West Eurasia. Nature.",
+  "TITLE": "Ancient DNA reveals pervasive directional selection across West Eurasia.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Akbari A,Perry A,Barton AR,Kariminejad M,Gazal S,Li Z,Zeng Y,Mittnik A,Patterson N,Mah M,Zhou X,Price AL,Lander ES,Pinhasi R,Rohland N,Mallick S,Reich D",
+  "ABSTRACT": "The study introduces a method for detecting directional selection from ancient DNA time-series by testing for consistent allele-frequency changes over time across 15,836 West Eurasians. The framework estimates selection coefficients genome-wide and helps distinguish sustained adaptive change from shifts caused by migration, structure, or non-adaptive forces.",
+  "DOI": "10.1038/s41586-026-10358-1",
+  "PMC ID": "",
+  "CITATION": "Akbari A, Perry A, Barton AR, Kariminejad M, Gazal S, Li Z, ... Reich D. (2026) Ancient DNA reveals pervasive directional selection across West Eurasia. Nature. doi:10.1038/s41586-026-10358-1.",
+  "FIRST_AUTHOR": "Akbari A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
