@@ -15,6 +15,7 @@ HOMEPAGE_SUMSTATS_SHEETS = [
     "Gut_microbiome",
     "Behaviour",
     "GxE",
+    "Family_GWAS",
 ]
 
 

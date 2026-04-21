@@ -100,6 +100,7 @@ nav:
         - Fetal_brain: Sumstats_Epigenetics_Fetal_brain.md
         - Single_cell: Sumstats_Epigenetics_Single_cell.md
         - Whole_Blood: Sumstats_Epigenetics_Whole_Blood.md
+      - Family_GWAS: Sumstats_Family_GWAS.md
       - General: Sumstats_General.md
       - Gut_microbiome: Sumstats_Gut_microbiome.md
       - GxE: Sumstats_GxE.md
