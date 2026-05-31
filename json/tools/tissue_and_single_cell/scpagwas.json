@@ -1,0 +1,31 @@
+{
+  "NAME": "scPagwas",
+  "PMID": 37719150,
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "scPagwas",
+  "FULL NAME": "single-cell Pathway-guided GWAS analysis",
+  "KEYWORDS": "GWAS, scRNA-seq, pathway activation",
+  "URL": "https://github.com/sulab-wmu/scPagwas",
+  "DESCRIPTION": "Obtain trait-relevant cell subpopulations by incorporating pathway activity transformed scRNA-seq data with GWAS data.",
+  "MANUAL_CITATION": "Ma, Y., Deng, C., Zhou, Y. et al. Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data. Cell Genom (2023). https://doi.org/10.1016/j.xgen.2023.100383",
+  "ARROW_SUMMARY": "GWAS summary statistics → Pathway activation transformation of scRNA-seq data → Polygenic regression → Prioritize trait-relevant genes → Identify trait-relevant cell types/populations → Discover novel cellular subpopulations and pathways",
+  "DATA_REQUIRED": "Sumstats, scRNA",
+  "TITLE": "Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2023",
+  "VOLUME": "3",
+  "ISSUE": "9",
+  "PAGE": "100383",
+  "Authors": "Ma Y,Deng C,Zhou Y,Zhang Y,Qiu F,Jiang D,Zheng G,Li J,Shuai J,Zhang Y,Yang J,Su J",
+  "ABSTRACT": "Advances in single-cell RNA sequencing (scRNA-seq) techniques have accelerated functional interpretation of disease-associated variants discovered from genome-wide association studies (GWASs). However, identification of trait-relevant cell populations is often impeded by inherent technical noise and high sparsity in scRNA-seq data. Here, we developed scPagwas, a computational approach that uncovers trait-relevant cellular context by integrating pathway activation transformation of scRNA-seq data and GWAS summary statistics. scPagwas effectively prioritizes trait-relevant genes, which facilitates identification of trait-relevant cell types/populations with high accuracy in extensive simulated and real datasets. Cellular-level association results identified a novel subpopulation of naive CD8+ T cells related to COVID-19 severity and oligodendrocyte progenitor cell and microglia subsets with critical pathways by which genetic variants influence Alzheimer's disease. Overall, our approach provides new insights for the discovery of trait-relevant cell types and improves the mechanistic understanding of disease variants from a pathway perspective.",
+  "DOI": "10.1016/j.xgen.2023.100383",
+  "PMC ID": "PMC10504677",
+  "CITATION": "Ma Y, Deng C, Zhou Y, Zhang Y, ...&, Su J. (2023) Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data. Cell Genom, 3 (9) 100383. doi:10.1016/j.xgen.2023.100383. PMID 37719150",
+  "FIRST_AUTHOR": "Ma Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
