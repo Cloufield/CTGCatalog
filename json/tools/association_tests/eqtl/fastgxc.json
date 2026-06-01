@@ -1,0 +1,32 @@
+{
+  "NAME": "FastGxC",
+  "PMID": 42155441,
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "eQTL",
+  "TYPE": "Tools",
+  "SHORT NAME": "FastGxC",
+  "FULL NAME": "FastGxC",
+  "KEYWORDS": "eQTL, context-specific eQTL, single-cell, multi-tissue, bulk RNA-seq, scRNA-seq",
+  "URL": "https://github.com/BalliuLab/FastGxC",
+  "DESCRIPTION": "Fast and powerful context-specific eQTL mapping in bulk multi-tissue and single-cell RNA-seq data, leveraging correlation structure for efficient detection of tissue- and cell-type-specific eQTLs.",
+  "MANUAL_CITATION": "Krockenberger, L., Lu, A., Thompson, M., et al. (2026) FastGxC: Fast and powerful context-specific eQTL mapping in bulk and single-cell data. Cell Genom. https://doi.org/10.1016/j.xgen.2026.101250",
+  "ARROW_SUMMARY": "Multi-context RNA-seq data (bulk multi-tissue or scRNA-seq) + Genotypes → Model repeated samples per individual → Leverage correlation structure → Remove shared noise → Map context-specific eQTLs → Identify tissue- and cell-type-specific genetic effects on gene expression",
+  "DATA_REQUIRED": "Genotype, RNA-seq (bulk multi-tissue or scRNA-seq)",
+  "TITLE": "FastGxC: Fast and powerful context-specific eQTL mapping in bulk and single-cell data.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "101250",
+  "Authors": "Krockenberger L,Lu A,Thompson M,Tucker LA,Liu C,Gordon MG,Ramste A,Carcamo-Orive I,Knowles JW,Dahl A,Ye CJ,Zaitlen N,Balliu B",
+  "ABSTRACT": "Context-specific expression quantitative trait loci (eQTLs) mediate genetic risk for complex diseases, but current methods limit their characterization and interpretation. We introduce FastGxC, a method for efficiently mapping context-specific eQTLs by leveraging correlation structure in multi-tissue bulk and single-cell RNA sequencing studies. In simulations, FastGxC is nine times more powerful and 106 times faster than existing approaches, reducing computation time from years to minutes. We applied FastGxC to bulk multi-tissue (n = 698) and peripheral blood mononuclear cell (PBMC) single-cell RNA sequencing datasets (n = 1,218), generating comprehensive tissue- and cell-type-specific eQTL maps. These eQTLs showed 4-fold enrichment in context-matched open chromatin and were twice as enriched as standard context-specific eQTLs. FastGxC improved precision in identifying relevant trait contexts by 3-fold and expanded candidate causal genes by 25% in cell types and by 6% in tissues. FastGxC provides a powerful framework for mapping context-specific eQTLs, advancing our understanding of gene regulatory mechanisms underlying complex traits.",
+  "DOI": "10.1016/j.xgen.2026.101250",
+  "PMC ID": "",
+  "CITATION": "Krockenberger L, Lu A, Thompson M, Tucker LA, ...&, Balliu B. (2026) FastGxC: Fast and powerful context-specific eQTL mapping in bulk and single-cell data. Cell Genom, 101250. doi:10.1016/j.xgen.2026.101250. PMID 42155441",
+  "FIRST_AUTHOR": "Krockenberger L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
