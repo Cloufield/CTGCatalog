@@ -1,0 +1,30 @@
+{
+  "NAME": "ExPecto",
+  "PMID": 30013180,
+  "SECTION": "AI",
+  "TOPIC": "Regulatory_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "ExPecto",
+  "FULL NAME": "ExPecto",
+  "KEYWORDS": "variant effect, gene expression, disease risk, ab initio, deep learning, noncoding, tissue-specific",
+  "URL": "",
+  "DESCRIPTION": "ExPecto (Basenji2) is a deep learning framework that predicts the causal effects of both coding and noncoding genetic variants on gene expression levels and disease risk directly from DNA sequence, without requiring any prior knowledge of regulatory elements or annotations.",
+  "TITLE": "Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2018",
+  "VOLUME": "50",
+  "ISSUE": "8",
+  "PAGE": "1171-1179",
+  "Authors": "Zhou J,Theesfeld CL,Yao K,Chen KM,Wong AK,Troyanskaya OG",
+  "ABSTRACT": "The complexity and scale of human genetics studies present a significant challenge for interpreting the functional consequences of genetic variants. Here we introduce ExPecto, a deep learning framework that can predict the causal effects of genetic variants on gene expression levels and disease risk directly from DNA sequence. ExPecto uses a modular architecture with a core deep convolutional neural network to learn regulatory features from sequence, followed by spatial transformation and tissue-specific prediction layers. We demonstrate that ExPecto can accurately predict variant effects on expression across a wide range of tissues and can identify pathogenic variants from population-scale sequencing data. The framework enables ab initio prediction of expression and disease risk without relying on prior annotations of regulatory elements.",
+  "DOI": "10.1038/s41588-018-0160-6",
+  "PMC ID": "",
+  "CITATION": "Zhou J, Theesfeld CL, Yao K, Chen KM, Wong AK, Troyanskaya OG. (2018) Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk. Nat Genet, 50 (8) 1171-1179. doi:10.1038/s41588-018-0160-6. PMID 30013180",
+  "FIRST_AUTHOR": "Zhou J",
+  "MANUAL_CITATION": "Zhou, J., Theesfeld, C. L., Yao, K., Chen, K. M., Wong, A. K. & Troyanskaya, O. G. Deep learning sequence-based ab initio prediction of variant effects on expression and disease risk. Nat Genet 50, 1171-1179 (2018).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

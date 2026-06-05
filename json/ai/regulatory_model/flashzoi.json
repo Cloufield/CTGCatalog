@@ -1,0 +1,30 @@
+{
+  "NAME": "Flashzoi",
+  "PMID": 40905959,
+  "SECTION": "AI",
+  "TOPIC": "Regulatory_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "Flashzoi",
+  "FULL NAME": "Flashzoi",
+  "KEYWORDS": "Borzoi, FlashAttention, RoPE, accelerated inference, regulatory genomics, variant effect, enhancer-promoter",
+  "URL": "https://github.com/johahi/borzoi-pytorch",
+  "DESCRIPTION": "Flashzoi is an enhanced Borzoi model that replaces relative positional encodings with rotary positional encodings (RoPE) and uses FlashAttention-2, achieving over 3x faster training/inference and up to 2.4x reduced memory usage while maintaining or improving accuracy on RNA-seq coverage prediction, variant effects, and enhancer-promoter linking.",
+  "TITLE": "Flashzoi: an enhanced Borzoi for accelerated genomic analysis.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics",
+  "YEAR": "2025",
+  "VOLUME": "41",
+  "ISSUE": "9",
+  "PAGE": "btaf467",
+  "Authors": "Hingerl JC,Karollus A,Gagneur J",
+  "ABSTRACT": "Accurately predicting how DNA sequence drives gene regulation and how genetic variants alter gene expression is a central challenge in genomics. Borzoi, which models over ten thousand genomic assays including RNA-seq coverage from over half a megabase of sequence context alone promises to become an important foundation model in regulatory genomics, both for massively annotating variants and for further model development. However, the currently used relative positional encodings limit Borzoi's computational efficiency. We present Flashzoi, an enhanced Borzoi model that leverages rotary positional encodings and FlashAttention-2. This achieves over 3-fold faster training and inference and up to 2.4-fold reduced memory usage, while maintaining or improving accuracy in modeling various genomic assays including RNA-seq coverage, predicting variant effects, and enhancer-promoter linking. Flashzoi's improved efficiency facilitates large-scale genomic analyses and opens avenues for exploring more complex regulatory mechanisms and modeling.",
+  "DOI": "10.1093/bioinformatics/btaf467",
+  "PMC ID": "PMC12457734",
+  "CITATION": "Hingerl JC, Karollus A, Gagneur J. (2025) Flashzoi: an enhanced Borzoi for accelerated genomic analysis. Bioinformatics, 41 (9) btaf467. doi:10.1093/bioinformatics/btaf467. PMID 40905959",
+  "FIRST_AUTHOR": "Hingerl JC",
+  "MANUAL_CITATION": "Hingerl, J. C., Karollus, A. & Gagneur, J. Flashzoi: an enhanced Borzoi for accelerated genomic analysis. Bioinformatics 41, btaf467 (2025).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

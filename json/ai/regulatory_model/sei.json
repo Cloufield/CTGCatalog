@@ -1,0 +1,30 @@
+{
+  "NAME": "Sei",
+  "PMID": 35817977,
+  "SECTION": "AI",
+  "TOPIC": "Regulatory_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "Sei",
+  "FULL NAME": "Sei",
+  "KEYWORDS": "regulatory activity map, chromatin, transcriptional regulation, deep learning, sequence-to-activity, human genetics, 21,907 features",
+  "URL": "",
+  "DESCRIPTION": "Sei is a deep learning model that generates a comprehensive map of regulatory activity from DNA sequence, predicting 21,907 chromatin features across cell types and contexts. Enables interpretation of noncoding variants in terms of specific regulatory functions and tissues, providing a global atlas of human cis-regulation.",
+  "TITLE": "A sequence-based global map of regulatory activity for deciphering human genetics.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "7",
+  "PAGE": "940-949",
+  "Authors": "Chen KM,Wong AK,Troyanskaya OG,Zhou J",
+  "ABSTRACT": "Deciphering the impact of noncoding variants on gene regulation is a major challenge in human genetics. While deep learning models can accurately predict regulatory features from DNA sequence, interpreting these predictions to understand variant effects across diverse contexts remains difficult. Here we present Sei, a deep learning model that produces a comprehensive, sequence-based global map of regulatory activity. Sei predicts 21,907 chromatin profiles encompassing a wide range of cell types and regulatory features, and organizes them into 40 tissue-agnostic regulatory activities using a hierarchical model. We demonstrate that Sei accurately predicts regulatory effects and can identify disease-relevant variants across diverse conditions, enabling a more complete understanding of human genetic variation.",
+  "DOI": "10.1038/s41588-022-01102-2",
+  "PMC ID": "",
+  "CITATION": "Chen KM, Wong AK, Troyanskaya OG, Zhou J. (2022) A sequence-based global map of regulatory activity for deciphering human genetics. Nat Genet, 54 (7) 940-949. doi:10.1038/s41588-022-01102-2. PMID 35817977",
+  "FIRST_AUTHOR": "Chen KM",
+  "MANUAL_CITATION": "Chen, K. M., Wong, A. K., Troyanskaya, O. G. & Zhou, J. A sequence-based global map of regulatory activity for deciphering human genetics. Nat Genet 54, 940-949 (2022).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

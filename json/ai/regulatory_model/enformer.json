@@ -1,0 +1,30 @@
+{
+  "NAME": "Enformer",
+  "PMID": 34608324,
+  "SECTION": "AI",
+  "TOPIC": "Regulatory_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "Enformer",
+  "FULL NAME": "Enformer",
+  "KEYWORDS": "gene expression prediction, long-range interactions, CNN, Transformer, DeepMind, chromatin, variant effect, regulatory genomics",
+  "URL": "https://github.com/lucidrains/enformer-pytorch",
+  "DESCRIPTION": "Enformer is a DeepMind model that integrates long-range DNA interactions (up to 200 kb) using a CNN + Transformer architecture to predict gene expression, chromatin profiles, and TF binding from DNA sequence. Achieves SOTA on variant effect prediction and regulatory element annotation.",
+  "TITLE": "Effective gene expression prediction from sequence by integrating long-range interactions.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2021",
+  "VOLUME": "18",
+  "ISSUE": "10",
+  "PAGE": "1196-1203",
+  "Authors": "Avsec Ž,Agarwal V,Visentin D,Ledsam JR,Grabska-Barwinska A,Taylor KR,Assael Y,Jumper J,Kohli P,Kelley DR",
+  "ABSTRACT": "Quantitative gene expression measurements across cell types and tissues can provide a complete picture of the dynamic functions of the genome. However, gene expression is challenging to predict from sequence alone because of the enormous distances over which regulatory elements act. Enformer combines CNN and Transformer architectures to integrate information from up to 200 kb of DNA sequence, enabling accurate prediction of gene expression, chromatin state, and transcription factor binding. Enformer achieves state-of-the-art predictions across diverse genomic assays and accurately predicts the effects of genetic variants on gene expression.",
+  "DOI": "10.1038/s41592-021-01252-x",
+  "PMC ID": "",
+  "CITATION": "Avsec Ž, Agarwal V, Visentin D, ...&, Kelley DR. (2021) Effective gene expression prediction from sequence by integrating long-range interactions. Nat Methods, 18 (10) 1196-1203. doi:10.1038/s41592-021-01252-x. PMID 34608324",
+  "FIRST_AUTHOR": "Avsec Ž",
+  "MANUAL_CITATION": "Avsec, Ž., Agarwal, V., Visentin, D. et al. Effective gene expression prediction from sequence by integrating long-range interactions. Nat Methods 18, 1196-1203 (2021).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

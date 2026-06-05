@@ -1,0 +1,30 @@
+{
+  "NAME": "DeepSEA",
+  "PMID": 26301843,
+  "SECTION": "AI",
+  "TOPIC": "Regulatory_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "DeepSEA",
+  "FULL NAME": "DeepSEA",
+  "KEYWORDS": "noncoding variant, chromatin, epigenetics, deep learning, DNase I, histone marks, TF binding, regulatory effect",
+  "URL": "https://github.com/FunctionLab/DeepSEA",
+  "DESCRIPTION": "DeepSEA is a foundational deep learning model that predicts the chromatin effects of noncoding variants directly from DNA sequence, including DNase I sensitivity, histone mark profiles, and transcription factor binding. Published in Nature Methods, it was one of the first deep learning approaches for noncoding variant interpretation.",
+  "TITLE": "Predicting effects of noncoding variants with deep learning-based sequence model.",
+  "ISO": "Nat Methods",
+  "JOURNAL": "Nature methods",
+  "YEAR": "2015",
+  "VOLUME": "12",
+  "ISSUE": "10",
+  "PAGE": "931-934",
+  "Authors": "Zhou J,Troyanskaya OG",
+  "ABSTRACT": "Noncoding variants are of tremendous biological importance, and their functional interpretation is a critical challenge in genomics. Here we introduce DeepSEA, a deep learning-based sequence model that directly predicts the chromatin effects of sequence alterations at single-nucleotide sensitivity. DeepSEA captures regulatory sequence context and learns a wide range of regulatory features including DNase I sensitivity, histone mark profiles, and transcription factor binding. The model achieves state-of-the-art accuracy for predicting the functional consequences of noncoding variants and can be applied to prioritize disease-associated variants from large-scale sequencing studies.",
+  "DOI": "10.1038/nmeth.3547",
+  "PMC ID": "",
+  "CITATION": "Zhou J, Troyanskaya OG. (2015) Predicting effects of noncoding variants with deep learning-based sequence model. Nat Methods, 12 (10) 931-934. doi:10.1038/nmeth.3547. PMID 26301843",
+  "FIRST_AUTHOR": "Zhou J",
+  "MANUAL_CITATION": "Zhou, J. & Troyanskaya, O. G. Predicting effects of noncoding variants with deep learning-based sequence model. Nat Methods 12, 931-934 (2015).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

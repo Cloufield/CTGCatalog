@@ -1,0 +1,30 @@
+{
+  "NAME": "Borzoi",
+  "PMID": 39779956,
+  "SECTION": "AI",
+  "TOPIC": "Regulatory_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "Borzoi",
+  "FULL NAME": "Borzoi",
+  "KEYWORDS": "RNA-seq, gene regulation, splicing, polyadenylation, variant effect, CNN, deep learning, eQTL",
+  "URL": "https://github.com/calico/borzoi",
+  "DESCRIPTION": "Borzoi is a deep learning model from Calico that predicts cell-type-specific and tissue-specific RNA-seq coverage from DNA sequence. It scores variant effects across transcription, splicing, and polyadenylation, and extracts cis-regulatory motifs driving RNA expression. Published in Nature Genetics.",
+  "TITLE": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "4",
+  "PAGE": "949-961",
+  "Authors": "Linder J,Srivastava D,Yuan H,Agarwal V,Kelley DR",
+  "ABSTRACT": "Sequence-based machine-learning models trained on genomics data improve genetic variant interpretation by providing functional predictions describing their impact on the cis-regulatory code. However, current tools do not predict RNA-seq expression profiles because of modeling challenges. Here, we introduce Borzoi, a model that learns to predict cell-type-specific and tissue-specific RNA-seq coverage from DNA sequence. Using statistics derived from Borzoi's predicted coverage, we isolate and accurately score DNA variant effects across multiple layers of regulation, including transcription, splicing and polyadenylation. Evaluated on quantitative trait loci, Borzoi is competitive with and often outperforms state-of-the-art models trained on individual regulatory functions. By applying attribution methods to the derived statistics, we extract cis-regulatory motifs driving RNA expression and post-transcriptional regulation in normal tissues. The wide availability of RNA-seq data across species, conditions and assays profiling specific aspects of regulation emphasizes the potential of this approach to decipher the mapping from DNA sequence to regulatory function.",
+  "DOI": "10.1038/s41588-024-02053-6",
+  "PMC ID": "PMC11985352",
+  "CITATION": "Linder J, Srivastava D, Yuan H, Agarwal V, Kelley DR. (2025) Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation. Nat Genet, 57 (4) 949-961. doi:10.1038/s41588-024-02053-6. PMID 39779956",
+  "FIRST_AUTHOR": "Linder J",
+  "MANUAL_CITATION": "Linder, J., Srivastava, D., Yuan, H., Agarwal, V. & Kelley, D. R. Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation. Nat Genet 57, 949-961 (2025).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

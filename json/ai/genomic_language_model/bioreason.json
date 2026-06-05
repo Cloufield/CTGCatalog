@@ -1,0 +1,29 @@
+{
+  "NAME": "BioReason",
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "SUBTOPIC": "",
+  "TYPE": "Model",
+  "SHORT NAME": "BioReason",
+  "FULL NAME": "BioReason",
+  "KEYWORDS": "DNA-LLM, multimodal reasoning, biological reasoning, foundation model, NeurIPS 2025, long-context, interpretability",
+  "URL": "https://github.com/bowang-lab/BioReason",
+  "DESCRIPTION": "BioReason is a DNA-LLM model that incentivizes multimodal biological reasoning by integrating DNA sequence representations with biological knowledge. Published at NeurIPS 2025, it achieves state-of-the-art on several genomic reasoning benchmarks.",
+  "MANUAL_CITATION": "Fallahpour, A., Magnuson, A., Gupta, P., Ma, S., Naimer, J., Shah, A., Duan, H., Ibrahim, O., Goodarzi, H., Maddison, C. J. & Wang, B. BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model. NeurIPS 2025.",
+  "TITLE": "BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model.",
+  "ISO": "NeurIPS",
+  "JOURNAL": "Advances in Neural Information Processing Systems (NeurIPS)",
+  "YEAR": "2025",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Fallahpour A,Magnuson A,Gupta P,Ma S,Naimer J,Shah A,Duan H,Ibrahim O,Goodarzi H,Maddison CJ,Wang B",
+  "ABSTRACT": "Unlocking deep, interpretable biological reasoning from complex genomic data is a major AI challenge hindering scientific discovery. Current DNA foundation models excel at encoding sequence information but lack the ability to perform explicit reasoning over biological concepts. We present BioReason, a DNA-LLM model that integrates a genome foundation model with a large language model to enable multimodal biological reasoning. BioReason is trained to reason over DNA sequences and biological text jointly, enabling interpretable predictions and natural language explanations of genomic functions. The model achieves state-of-the-art performance across multiple genomic reasoning tasks.",
+  "DOI": "",
+  "PMC ID": "",
+  "CITATION": "Fallahpour A, Magnuson A, Gupta P, ...&, Wang B. (2025) BioReason: Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model. NeurIPS 2025.",
+  "FIRST_AUTHOR": "Fallahpour A",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
