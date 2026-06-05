@@ -1,0 +1,32 @@
+{
+  "NAME": "ClinGen",
+  "CATEGORY": "Functional Annotation",
+  "SOURCE": "ClinGen",
+  "PMID": 41956073,
+  "SECTION": "References",
+  "MANUAL_CITATION": "\nShah, N. et al. ClinGen API platform for classification of human genetic variants. Cell Genom. 6, 101211 (2026).\n",
+  "TOPIC": "Function",
+  "URL": "https://clinicalgenome.org/",
+  "TYPE": "DB",
+  "DESCRIPTION": "The Clinical Genome Resource (ClinGen) is an NIH-funded resource that provides authoritative standards and resources for evaluating the clinical relevance of genes and variants.",
+  "SHORT NAME": "ClinGen",
+  "FULL NAME": "Clinical Genome Resource",
+  "KEYWORDS": "clinical genomics, variant interpretation, gene-disease association, curation",
+  "USE": "clinical annotation",
+  "TITLE": "ClinGen API platform for classification of human genetic variants.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell genomics",
+  "YEAR": "2026",
+  "VOLUME": "6",
+  "ISSUE": "4",
+  "PAGE": "101211",
+  "Authors": "Shah N,Farris T,Zuniga AA,Jackson AR,Arce J,Riehle K,Preston CG,Mandell ME,Wulf B,Cheung G,Yu K,Ritter DI,Jevtic D,Milinkov M,Martinovic N,Vucinic N,Mihajlovic A,Rubin AF,Cline MS,Distefano M,Griffith M,Griffith OL,Wright MW,Klein TE,Plon SE,Milosavljevic A",
+  "ABSTRACT": "In this commentary, we describe how the Clinical Genome Resource's (ClinGen's) application programming interface-based microservices accelerate growth and dissemination of knowledge about human genetic variation. By exposing findable, accessible, interoperable, reusable, and AI-ready variant data, ClinGen lays a foundation for next-generation software applications, AI systems, and variant classification workflows.",
+  "DOI": "10.1016/j.xgen.2026.101211",
+  "PMC ID": "PMC13069835",
+  "CITATION": "Shah N, Farris T, Zuniga AA, Jackson AR, ...&, Milosavljevic A. (2026) ClinGen API platform for classification of human genetic variants. Cell Genom, 6 (4) 101211. doi:10.1016/j.xgen.2026.101211. PMID 41956073",
+  "FIRST_AUTHOR": "Shah N",
+  "_meta": {
+    "source_sheet": "Annotation"
+  }
+}

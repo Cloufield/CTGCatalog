@@ -1,0 +1,31 @@
+{
+  "NAME": "ImputeSV",
+  "PMID": 42156564,
+  "SECTION": "Tools",
+  "TOPIC": "Imputation",
+  "CATEGORY": "Structural variants imputation tool & panel",
+  "TYPE": "Structural variants imputation tool & panel",
+  "SHORT NAME": "ImputeSV",
+  "FULL NAME": "Genome-wide imputation of structural variants from long-read assemblies",
+  "KEYWORDS": "structural variants, long-read, imputation, SNP",
+  "URL": "https://www.ImputeSV.com",
+  "DESCRIPTION": "A reference panel and web application to impute structural variants from SNP data, built from 482 haplotype-resolved long-read genome assemblies (PacBio HiFi) of 241 individuals.",
+  "MANUAL_CITATION": "Bai, W.Y., Liu, S., Duan, Z. et al. Genome-wide associations of structural variants with human traits through imputation from long-read assemblies. Nat Genet (2026). https://doi.org/10.1038/s41588-026-02612-z",
+  "ARROW_SUMMARY": "482 haplotype-resolved assemblies (PacBio HiFi, 241 individuals) → 171,233 high-quality SVs → ImputeSV reference panel → Impute SVs from SNP data → 54,578 common SVs imputed in 456,643 UKB participants → GWAS for 2,624 traits → 17,335 SV-trait associations",
+  "DATA_REQUIRED": "SNP genotype data",
+  "TITLE": "Genome-wide associations of structural variants with human traits through imputation from long-read assemblies.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Bai WY,Liu S,Duan Z,Yang JJ,Chen J,Hou J,Wu L,Li N,Qi T,Yang J",
+  "ABSTRACT": "Structural variants (SVs) are a major type of genetic variation, yet their role in human traits remains largely uncharacterized, primarily due to challenges in genotyping them on a genome-wide scale in large cohorts. Here we identified 171,233 high-quality, genome-wide SVs from 482 haplotype-resolved genome assemblies derived from PacBio HiFi long-read sequencing of 241 individuals. We developed a reference panel and a web application (ImputeSV) to impute these SVs from single-nucleotide polymorphism (SNP) data and demonstrated high imputation accuracy at both the individual and cohort levels. Using this tool, we imputed 54,578 common SVs (minor allele frequencies (MAFs) ≥1%) in 456,643 UK Biobank (UKB) participants of European ancestry. Through analysis of UKB data and simulations, we estimated that SVs contributed to at least 4.7% of the common genetic variation for complex traits. Genome-wide association analyses of SVs for 2,624 UKB traits identified 17,335 SV-trait associations, including 958 unlikely to be driven by small genetic variants. Our study demonstrates the power of using long-read assemblies for imputing SVs from SNPs, unveils the role of SVs in complex trait variation and provides a catalog of SV associations in the UKB.",
+  "DOI": "10.1038/s41588-026-02612-z",
+  "CITATION": "Bai WY, Liu S, Duan Z, ...&, Yang J. (2026) Genome-wide associations of structural variants with human traits through imputation from long-read assemblies. Nat Genet. doi:10.1038/s41588-026-02612-z. PMID 42156564",
+  "FIRST_AUTHOR": "Bai WY",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
