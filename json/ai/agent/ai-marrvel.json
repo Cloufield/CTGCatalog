@@ -1,0 +1,18 @@
+{
+  "NAME": "AI-MARRVEL",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "AI-MARRVEL",
+  "FULL NAME": "AI-MARRVEL - A Knowledge-Driven AI System for Diagnosing Mendelian Disorders",
+  "PMID": 38962029,
+  "PMC ID": "PMC11221788",
+  "DOI": "10.1056/aioa2300009",
+  "URL": "https://ai.marrvel.org",
+  "DESCRIPTION": "AI-MARRVEL (AIM) is a knowledge-driven AI system for diagnosing Mendelian disorders that uses a random-forest machine-learning classifier trained on over 3.5 million variants from thousands of diagnosed cases. It incorporates expert-engineered features to recapitulate the complex decision-making processes in molecular diagnosis. AIM doubled the rate of accurate genetic diagnosis across three independent real-world cohorts compared to benchmarked methods. Its confidence metric achieved 98% precision and identified 57% of diagnosable cases from 871 unsolved cases. AIM also demonstrated potential for novel disease gene discovery.",
+  "MANUAL_CITATION": "Mao D, Liu C, Wang L, et al. (2024) AI-MARRVEL - A Knowledge-Driven AI System for Diagnosing Mendelian Disorders. NEJM AI. 1(5):10.1056/aioa2300009. PMID 38962029",
+  "TAGS": ["AI", "Agent", "Rare Disease", "Mendelian"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

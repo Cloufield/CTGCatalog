@@ -1,0 +1,31 @@
+{
+  "NAME": "MARRVEL",
+  "PMID": 28502612,
+  "SECTION": "Tools",
+  "TOPIC": "Rare disease",
+  "CATEGORY": "Variant interpretation & annotation",
+  "TYPE": "Database & web resource",
+  "SHORT NAME": "MARRVEL",
+  "FULL NAME": "MARRVEL: Integration of Human and Model Organism Genetic Resources to Facilitate Functional Annotation of the Human Genome",
+  "KEYWORDS": "rare disease, variant interpretation, model organism, functional annotation, OMIM, ClinVar, ExAC",
+  "URL": "https://marrvel.org",
+  "DESCRIPTION": "A publicly available web server that integrates six human genetic databases (OMIM, ExAC, ClinVar, Geno2MP, DGV, DECIPHER) and seven model organism databases (budding/fission yeast, worm, fly, fish, mouse, rat) for rare variant exploration. MARRVEL curates and presents a concise summary of human gene homologs across model organisms, including tissue expression, protein subcellular localization, biological process, and molecular function on a single webpage. It integrates 18 million records to facilitate clinical diagnosis and basic research.",
+  "MANUAL_CITATION": "Wang J, Al-Ouran R, Hu Y, et al. (2017) MARRVEL: Integration of Human and Model Organism Genetic Resources to Facilitate Functional Annotation of the Human Genome. Am J Hum Genet. 100(6):843-853. doi:10.1016/j.ajhg.2017.04.010",
+  "ARROW_SUMMARY": "Gene/variant query → Integrate 6 human genetic DBs (OMIM, ExAC, ClinVar, Geno2MP, DGV, DECIPHER) + 7 model organism DBs → Concise summary of homologs, expression, localization, function → Facilitate clinical diagnosis and basic research",
+  "TITLE": "MARRVEL: Integration of Human and Model Organism Genetic Resources to Facilitate Functional Annotation of the Human Genome.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American Journal of Human Genetics",
+  "YEAR": "2017",
+  "VOLUME": "100",
+  "ISSUE": "6",
+  "PAGE": "843-853",
+  "Authors": "Wang J,Al-Ouran R,Hu Y,Kim SY,Wan YW,Wangler MF,Yamamoto S,Chao HT,Comjean A,Mohr SE,UDN,Perrimon N,Liu Z,Bellen HJ",
+  "ABSTRACT": "One major challenge encountered with interpreting human genetic variants is the limited understanding of the functional impact of genetic alterations on biological processes. Furthermore, there remains an unmet demand for an efficient survey of the wealth of information on human homologs in model organisms across numerous databases. To efficiently assess the large volume of publically available information, it is important to provide a concise summary of the most relevant information in a rapid user-friendly format. To this end, we created MARRVEL (model organism aggregated resources for rare variant exploration). MARRVEL is a publicly available website that integrates information from six human genetic databases and seven model organism databases. For any given variant or gene, MARRVEL displays information from OMIM, ExAC, ClinVar, Geno2MP, DGV, and DECIPHER. Importantly, it curates model organism-specific databases to concurrently display a concise summary regarding the human gene homologs in budding and fission yeast, worm, fly, fish, mouse, and rat on a single webpage. Experiment-based information on tissue expression, protein subcellular localization, biological process, and molecular function for the human gene and homologs in the seven model organisms are arranged into a concise output. Hence, rather than visiting multiple separate databases for variant and gene analysis, users can obtain important information by searching once through MARRVEL. Altogether, MARRVEL dramatically improves efficiency and accessibility to data collection and facilitates analysis of human genes and variants by cross-disciplinary integration of 18 million records available in public databases to facilitate clinical diagnosis and basic research.",
+  "DOI": "10.1016/j.ajhg.2017.04.010",
+  "PMC ID": "PMC5670038",
+  "CITATION": "Wang J, Al-Ouran R, Hu Y, et al. (2017) MARRVEL: Integration of Human and Model Organism Genetic Resources to Facilitate Functional Annotation of the Human Genome. Am J Hum Genet. 100(6):843-853. doi:10.1016/j.ajhg.2017.04.010. PMID 28502612",
+  "FIRST_AUTHOR": "Wang J",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

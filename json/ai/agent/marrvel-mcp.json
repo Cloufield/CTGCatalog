@@ -1,0 +1,17 @@
+{
+  "NAME": "MARRVEL-MCP",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "MARRVEL-MCP",
+  "FULL NAME": "MARRVEL-MCP: An Agentic Interface for Mendelian Disease Discovery via Tool-Augmented Context Engineering",
+  "PMID": 42167217,
+  "DOI": "10.1016/j.ajhg.2026.04.012",
+  "URL": "https://marrvel.org",
+  "DESCRIPTION": "A natural-language interface that enables large language models (LLMs) to perform end-to-end variant interpretation for Mendelian diseases via structured tool access (MCP). MARRVEL-MCP equips LLMs with 44 tools spanning gene and variant utilities, pathogenicity databases, phenotype resources, expression atlases, ortholog data, and literature APIs. Without hard-coded workflows, LLMs infer which tools to invoke and in what sequence, performing named-entity recognition, identifier normalization, and multi-database synthesis from clinical queries. A 20B-parameter model achieved 94% pass rate on 100 expert-curated questions (vs 41% without MARRVEL-MCP), approaching state-of-the-art proprietary performance. Establishes context engineering as a core principle for biomedical AI.",
+  "MANUAL_CITATION": "Everton Z, Botas J, Kim SY, et al. (2026) MARRVEL-MCP: An agentic interface for Mendelian disease discovery via tool-augmented context engineering. Am J Hum Genet. doi:10.1016/j.ajhg.2026.04.012. PMID 42167217",
+  "TAGS": ["AI", "Agent", "MCP", "Rare Disease", "LLM"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
