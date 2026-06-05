@@ -1,0 +1,30 @@
+{
+  "NAME": "DNABERT-S",
+  "PMID": 40662791,
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "TYPE": "Model",
+  "SUBTOPIC": "",
+  "SHORT NAME": "DNABERT-S",
+  "FULL NAME": "DNABERT-S",
+  "KEYWORDS": "species awareness, contrastive learning, manifold instance mixup, curriculum learning, long-read sequencing, ISMB 2025",
+  "URL": "https://github.com/MAGICS-LAB/DNABERT_S",
+  "DESCRIPTION": "DNABERT-S builds upon DNABERT-2 to develop species-aware DNA embeddings via Manifold Instance Mixup (MI-Mix) contrastive learning and Curriculum Contrastive Learning (C2LR), enabling unsupervised species differentiation from DNA sequences. Published in Bioinformatics (ISMB 2025 proceedings).",
+  "TITLE": "DNABERT-S: pioneering species differentiation with species-aware DNA embeddings.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics",
+  "YEAR": "2025",
+  "VOLUME": "41",
+  "ISSUE": "Supplement_1",
+  "PAGE": "i255-i264",
+  "Authors": "Zhou Z,Wu W,Ho H,Wang J,Shi L,Davuluri RV,Wang Z,Liu H",
+  "ABSTRACT": "We introduce DNABERT-S, a tailored genome model that develops species-aware embeddings to naturally cluster and segregate DNA sequences of different species in the embedding space. Differentiating species from genomic sequences (i.e. DNA and RNA) is vital yet challenging, since many real-world species remain uncharacterized, lacking known genomes for reference. Embedding-based methods are therefore used to differentiate species in an unsupervised manner. DNABERT-S builds upon a pre-trained genome foundation model named DNABERT-2. To encourage effective embeddings to error-prone long-read DNA sequences, we introduce Manifold Instance Mixup (MI-Mix), a contrastive objective that mixes the hidden representations of DNA sequences at randomly selected layers and trains the model to recognize and differentiate these mixed proportions at the output layer. We further enhance it with the proposed Curriculum Contrastive Learning (C2LR) strategy. Empirical results on 28 diverse datasets show DNABERT-S achieves state-of-the-art performance across multiple species classification and clustering tasks.",
+  "DOI": "10.1093/bioinformatics/btaf188",
+  "PMC ID": "PMC12261423",
+  "CITATION": "Zhou Z, Wu W, Ho H, ...&, Liu H. (2025) DNABERT-S: pioneering species differentiation with species-aware DNA embeddings. Bioinformatics, 41 (Supplement_1) i255-i264. doi:10.1093/bioinformatics/btaf188. PMID 40662791",
+  "FIRST_AUTHOR": "Zhou Z",
+  "MANUAL_CITATION": "Zhou, Z., Wu, W., Ho, H. et al. DNABERT-S: pioneering species differentiation with species-aware DNA embeddings. Bioinformatics 41(Supplement_1), i255-i264 (2025).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

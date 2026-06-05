@@ -1,9 +1,10 @@
 {
   "NAME": "Nucleotide Transformer",
   "SECTION": "AI",
-  "TOPIC": "Genomic_models",
+  "TOPIC": "Genomic_language_model",
   "SUBTOPIC": "",
   "TYPE": "Model",
+  "KEYWORDS": "Transformer, foundation model, human genome, multi-species, DNA embeddings, splice-site, enhancer, histone marks, TF binding",
   "SHORT NAME": "Nucleotide Transformer",
   "FULL NAME": "Nucleotide Transformer",
   "URL": "https://github.com/instadeepai/nucleotide-transformer",
@@ -22,6 +23,7 @@
   "PMC ID": "PMC11810778",
   "CITATION": "Dalla-Torre H, Gonzalez L, Mendoza-Revilla J, Lopez Carranza N, ...&, Pierrot T. (2025) Nucleotide Transformer: building and evaluating robust foundation models for human genomics. Nat Methods, 22 (2) 287-297. doi:10.1038/s41592-024-02523-z. PMID 39609566",
   "FIRST_AUTHOR": "Dalla-Torre H",
+  "MANUAL_CITATION": "Dalla-Torre, H., Gonzalez, L., Mendoza-Revilla, J. et al. Nucleotide Transformer: building and evaluating robust foundation models for human genomics. Nat Methods 22, 287-297 (2025).",
   "_meta": {
     "source_sheet": "Tools"
   }

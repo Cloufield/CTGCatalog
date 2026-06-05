@@ -1,0 +1,30 @@
+{
+  "NAME": "Genos",
+  "PMID": 41122975,
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "TYPE": "Model",
+  "SUBTOPIC": "",
+  "SHORT NAME": "Genos",
+  "FULL NAME": "Genos",
+  "KEYWORDS": "mixture of experts, million-basepair context, human pangenome, human-centric, variant effect, structural variation",
+  "URL": "https://github.com/BGI-HangzhouAI/Genos",
+  "DESCRIPTION": "Genos is a human-centric genomic foundation model using mixture-of-experts architecture (Genos-1.2B/Genos-10B) for million-basepair sequence modeling, trained on high-quality human de novo assemblies including the Human Pangenome Reference Consortium data. Published in GigaScience.",
+  "TITLE": "Genos: a human-centric genomic foundation model.",
+  "ISO": "Gigascience",
+  "JOURNAL": "GigaScience",
+  "YEAR": "2025",
+  "VOLUME": "14",
+  "ISSUE": "",
+  "PAGE": "giaf132",
+  "Authors": "Lin A,Xie B,Ye C,Wang C,Chen D,Wang E,Lu F,Xue G,Zhang H,Zhan J,Zhang J,Pang J,Liang J,Lin J,Ma J,Hu J,Ma J,Dong J,Li J,Liu J,Chen J,Li J,Ding K,Deng K,Chen K,Wang L,Liu L,Guo L,Xiong L,Yang L,Cheng M,Chen N,Chen R,Sun S,Li S,Chen S,Liu S,Xie S,Liu S,Zhou T,Tang W,Zhang W,Jiang X,Qi X,Jin X,Tan X,Hu X,Xu X,Feng X,Lu Y,Gao Y,Shang Y,He Y,Yuan Y,Wang Y,Liu Y,Xiao Z,Meng Z,Li Z,Zhao Z,Yang Z,Wang Z",
+  "ABSTRACT": "The rapid expansion of human genomic data demands foundation models that manage ultra-long sequences and capture population diversity, limitations common in existing models that lack human-specific representation, and clinical inference efficiency. Here, we introduce Genos (Genos-1.2B/Genos-10B), a human-centric genomic foundation model engineered for million-basepair sequence modeling. Genos utilizes a large-scale mixture of experts structure, optimized for a 1-Mb context, trained on high-quality human de novo assemblies from datasets such as the Human Pangenome Reference Consortium and the Human Genome Structural Variation Consortium, representing diverse global populations. A suite of optimization strategies was implemented to ensure training stability and enhance computational efficiency, which collectively reduces costs and facilitates million-basepair context modeling. Functionally, Genos performs single-nucleotide resolution analysis and dynamically simulates the cascade effects of genetic variation on molecular phenotypes, including the influence of both common and rare single-nucleotide variants as well as structural variants.",
+  "DOI": "10.1093/gigascience/giaf132",
+  "PMC ID": "PMC12755919",
+  "CITATION": "Lin A, Xie B, Ye C, ...&, Wang Z. (2025) Genos: a human-centric genomic foundation model. Gigascience, 14 giaf132. doi:10.1093/gigascience/giaf132. PMID 41122975",
+  "FIRST_AUTHOR": "Lin A",
+  "MANUAL_CITATION": "Lin, A., Xie, B., Ye, C. et al. Genos: a human-centric genomic foundation model. Gigascience 14, giaf132 (2025).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

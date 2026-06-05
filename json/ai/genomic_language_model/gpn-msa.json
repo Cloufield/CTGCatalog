@@ -1,0 +1,30 @@
+{
+  "NAME": "GPN-MSA",
+  "PMID": 39747647,
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "TYPE": "Model",
+  "SUBTOPIC": "",
+  "SHORT NAME": "GPN-MSA",
+  "FULL NAME": "Genomic Pretrained Network with Multiple-Sequence Alignment",
+  "KEYWORDS": "multiple sequence alignment, variant effect prediction, noncoding variants, ClinVar, COSMIC, gnomAD, DNA language model",
+  "URL": "https://github.com/songlab-cal/gpn",
+  "DESCRIPTION": "GPN-MSA is a DNA language model leveraging whole-genome multiple-sequence alignments across species to predict the effects of genome-wide variants, achieving outstanding performance on deleteriousness prediction for both coding and noncoding variants. Published in Nature Biotechnology.",
+  "TITLE": "A DNA language model based on multispecies alignment predicts the effects of genome-wide variants.",
+  "ISO": "Nat Biotechnol",
+  "JOURNAL": "Nature biotechnology",
+  "YEAR": "2025",
+  "VOLUME": "43",
+  "ISSUE": "12",
+  "PAGE": "1960-1965",
+  "Authors": "Benegas G,Albors C,Aw AJ,Ye C,Song YS",
+  "ABSTRACT": "Protein language models have demonstrated remarkable performance in predicting the effects of missense variants but DNA language models have not yet shown a competitive edge for complex genomes such as that of humans. This limitation is particularly evident when dealing with the vast complexity of noncoding regions that comprise approximately 98% of the human genome. To tackle this challenge, we introduce GPN-MSA (genomic pretrained network with multiple-sequence alignment), a framework that leverages whole-genome alignments across multiple species while taking only a few hours to train. Across several benchmarks on clinical databases (ClinVar, COSMIC and OMIM), experimental functional assays (deep mutational scanning and DepMap) and population genomic data (gnomAD), our model for the human genome achieves outstanding performance on deleteriousness prediction for both coding and noncoding variants. We provide precomputed scores for all ~9 billion possible single-nucleotide variants in the human genome.",
+  "DOI": "10.1038/s41587-024-02511-w",
+  "PMC ID": "",
+  "CITATION": "Benegas G, Albors C, Aw AJ, Ye C, Song YS. (2025) A DNA language model based on multispecies alignment predicts the effects of genome-wide variants. Nat Biotechnol, 43 (12) 1960-1965. doi:10.1038/s41587-024-02511-w. PMID 39747647",
+  "FIRST_AUTHOR": "Benegas G",
+  "MANUAL_CITATION": "Benegas, G., Albors, C., Aw, A. J., Ye, C. & Song, Y. S. A DNA language model based on multispecies alignment predicts the effects of genome-wide variants. Nat Biotechnol 43, 1960-1965 (2025).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

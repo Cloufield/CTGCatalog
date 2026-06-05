@@ -1,9 +1,10 @@
 {
   "NAME": "PromoterAI",
   "SECTION": "AI",
-  "TOPIC": "Genomic_models",
+  "TOPIC": "Genomic_language_model",
   "SUBTOPIC": "",
   "TYPE": "Model",
+  "KEYWORDS": "promoter, variant effect, deep learning, rare disease, noncoding, gene expression, Illumina",
   "SHORT NAME": "PromoterAI",
   "FULL NAME": "PromoterAI",
   "URL": "https://github.com/Illumina/PromoterAI",
@@ -22,6 +23,7 @@
   "PMC ID": "",
   "CITATION": "Jaganathan K, Ersaro N, Novakovsky G, Wang Y, ...&, Farh KK. (2025) Predicting expression-altering promoter mutations with deep learning. Science, 389 (6760) eads7373. doi:10.1126/science.ads7373. PMID 40440429",
   "FIRST_AUTHOR": "Jaganathan K",
+  "MANUAL_CITATION": "Jaganathan, K., Ersaro, N., Novakovsky, G. et al. Predicting expression-altering promoter mutations with deep learning. Science 389, eads7373 (2025).",
   "_meta": {
     "source_sheet": "Tools"
   }

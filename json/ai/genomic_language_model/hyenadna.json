@@ -1,0 +1,30 @@
+{
+  "NAME": "HyenaDNA",
+  "PMID": 37426456,
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "TYPE": "Model",
+  "SUBTOPIC": "",
+  "SHORT NAME": "HyenaDNA",
+  "FULL NAME": "HyenaDNA",
+  "KEYWORDS": "Hyena, implicit convolution, long-range context, single nucleotide resolution, SNP, regulatory elements, NeurIPS 2023",
+  "URL": "https://github.com/HazyResearch/hyena-dna",
+  "DESCRIPTION": "HyenaDNA is a genomic foundation model using implicit convolution operators (Hyena) to achieve up to 1 million token context length at single nucleotide resolution, overcoming the quadratic scaling limitations of Transformer-based models. Published at NeurIPS 2023.",
+  "TITLE": "HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution.",
+  "ISO": "NeurIPS",
+  "JOURNAL": "Advances in Neural Information Processing Systems (NeurIPS)",
+  "YEAR": "2023",
+  "VOLUME": "36",
+  "ISSUE": "",
+  "PAGE": "43177-43201",
+  "Authors": "Nguyen E,Poli M,Faizi M,Thomas A,Birch-Sykes C,Wornow M,Patel A,Rabideau C,Massaroli S,Bengio Y,Ermon S,Baccus SA,Ré C",
+  "ABSTRACT": "Genomic (DNA) sequences encode an enormous amount of information for gene regulation and protein synthesis. Similar to natural language models, researchers have proposed foundation models in genomics to learn generalizable features from unlabeled genome data that can then be fine-tuned for downstream tasks such as identifying regulatory elements. Due to the quadratic scaling of attention, previous Transformer-based genomic models have used 512 to 4k tokens as context (<0.001% of the human genome), significantly limiting the modeling of long-range interactions in DNA. In addition, these methods rely on tokenizers or fixed k-mers to aggregate meaningful DNA units, losing single nucleotide resolution where subtle genetic variations can completely alter protein function via single nucleotide polymorphisms (SNPs). Recently, Hyena, a large language model based on implicit convolutions was shown to match attention in quality while allowing longer context lengths and lower time complexity. Leveraging Hyena, we present HyenaDNA, a genomic foundation model that scales context length to 1 million tokens at single nucleotide resolution, an up to 500x increase over previous dense attention-based models. HyenaDNA achieves state-of-the-art on 12 of 18 benchmarks and excels at long-range regulatory element prediction and SNP effect prediction.",
+  "DOI": "10.48550/arXiv.2306.15794",
+  "PMC ID": "PMC10327243",
+  "CITATION": "Nguyen E, Poli M, Faizi M, ...&, Ré C. (2023) HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution. NeurIPS, 36 43177-43201.",
+  "FIRST_AUTHOR": "Nguyen E",
+  "MANUAL_CITATION": "Nguyen, E., Poli, M., Faizi, M. et al. HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution. NeurIPS 36, 43177-43201 (2023).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

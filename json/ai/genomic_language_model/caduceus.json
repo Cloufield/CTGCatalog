@@ -1,0 +1,30 @@
+{
+  "NAME": "Caduceus",
+  "PMID": 40567809,
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "TYPE": "Model",
+  "SUBTOPIC": "",
+  "SHORT NAME": "Caduceus",
+  "FULL NAME": "Caduceus",
+  "KEYWORDS": "Mamba, RC equivariance, bi-directional, long-range DNA, variant effect prediction, state space model, ICML 2024",
+  "URL": "https://github.com/kuleshov-group/caduceus",
+  "DESCRIPTION": "Caduceus is the first family of reverse-complement (RC) equivariant bi-directional long-range DNA language models, built on the Mamba state space model backbone with BiMamba and MambaDNA blocks. Published at ICML 2024, it excels at long-range variant effect prediction.",
+  "TITLE": "Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling.",
+  "ISO": "PMLR",
+  "JOURNAL": "Proceedings of Machine Learning Research (ICML)",
+  "YEAR": "2024",
+  "VOLUME": "235",
+  "ISSUE": "",
+  "PAGE": "43632-43648",
+  "Authors": "Schiff Y,Kao CH,Gokaslan A,Dao T,Gu A,Kuleshov V",
+  "ABSTRACT": "Large-scale sequence modeling has sparked rapid advances that now extend into biology and genomics. However, modeling genomic sequences introduces challenges such as the need to model long-range token interactions, the effects of upstream and downstream regions of the genome, and the reverse complementarity (RC) of DNA. Here, we propose an architecture motivated by these challenges that builds off the long-range Mamba block, and extends it to a BiMamba component that supports bi-directionality, and to a MambaDNA block that additionally supports RC equivariance. We use MambaDNA as the basis of Caduceus, the first family of RC equivariant bi-directional long-range DNA language models, and we introduce pre-training and fine-tuning strategies that yield Caduceus DNA foundation models. Caduceus outperforms previous long-range models on downstream benchmarks; on a challenging long-range variant effect prediction task, Caduceus exceeds the performance of prior models.",
+  "DOI": "",
+  "PMC ID": "PMC12189541",
+  "CITATION": "Schiff Y, Kao CH, Gokaslan A, Dao T, Gu A, Kuleshov V. (2024) Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling. PMLR, 235 43632-43648. PMID 40567809",
+  "FIRST_AUTHOR": "Schiff Y",
+  "MANUAL_CITATION": "Schiff, Y., Kao, C. H., Gokaslan, A., Dao, T., Gu, A. & Kuleshov, V. Caduceus: Bi-Directional Equivariant Long-Range DNA Sequence Modeling. PMLR 235, 43632-43648 (2024).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

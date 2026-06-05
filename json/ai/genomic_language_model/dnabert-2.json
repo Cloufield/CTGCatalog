@@ -1,0 +1,30 @@
+{
+  "NAME": "DNABERT-2",
+  "SECTION": "AI",
+  "TOPIC": "Genomic_language_model",
+  "TYPE": "Model",
+  "SUBTOPIC": "",
+  "SHORT NAME": "DNABERT-2",
+  "FULL NAME": "DNABERT-2",
+  "KEYWORDS": "BERT, Transformer, BPE tokenization, multi-species genome, foundation model, ICLR 2024",
+  "URL": "https://github.com/MAGICS-LAB/DNABERT_2",
+  "DESCRIPTION": "DNABERT-2 is an efficient foundation model for multi-species genome understanding, improving upon DNABERT with Byte-Pair Encoding (BPE) tokenization, attention head pruning, and improved training techniques. Published at ICLR 2024, it achieves SOTA across 28 genome prediction tasks while being significantly more efficient than previous models.",
+  "MANUAL_CITATION": "Zhou, Z., Ji, Y., Li, W., Dutta, P., Davuluri, R. V., & Liu, H. (2024). DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome. ICLR 2024.",
+  "TITLE": "DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome.",
+  "ISO": "ICLR",
+  "JOURNAL": "Proceedings of the International Conference on Learning Representations (ICLR)",
+  "YEAR": "2024",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zhou Z,Ji Y,Li W,Dutta P,Davuluri RV,Liu H",
+  "ABSTRACT": "Deciphering the language of non-coding DNA is a critical challenge in genome research. Existing approaches often rely on k-mer based tokenization and single-species datasets, limiting their effectiveness for multi-species genome understanding. Here, we introduce DNABERT-2, a foundation model that leverages Byte-Pair Encoding (BPE) tokenization to capture meaningful DNA units across species, combined with attention head pruning and other optimizations for efficient training and inference. We also present a comprehensive multi-species genome benchmark (Genome Understanding Evaluation, GUE) covering 28 tasks across 7 species. DNABERT-2 achieves state-of-the-art performance across diverse genome prediction tasks, demonstrating superior efficiency and generalization. The model and benchmark are publicly available.",
+  "DOI": "",
+  "PMC ID": "",
+  "CITATION": "Zhou Z, Ji Y, Li W, Dutta P, Davuluri RV, Liu H. (2024) DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome. ICLR 2024.",
+  "FIRST_AUTHOR": "Zhou Z",
+  "MANUAL_CITATION": "Zhou, Z., Ji, Y., Li, W., Dutta, P., Davuluri, R. V. & Liu, H. DNABERT-2: Efficient Foundation Model and Benchmark for Multi-Species Genome. ICLR (2024).",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
