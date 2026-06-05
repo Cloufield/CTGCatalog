@@ -1,0 +1,29 @@
+{
+  "NAME": "GPTL",
+  "PMID": 41577700,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "GPTL",
+  "FULL NAME": "Genomic Prediction Using Transfer Learning",
+  "KEYWORDS": "transfer learning, underrepresented groups, cross-population, gradient descent, penalized regression, Bayesian mixture prior",
+  "URL": "https://github.com/QuantGen/GPTL",
+  "DESCRIPTION": "GPTL is an R package that implements three Transfer Learning based approaches for developing polygenic scores (PGS) for underrepresented groups: (1) gradient descent with early stopping, (2) penalized regression shrinking toward prior values, and (3) a Bayesian finite-mixture prior method enabling integration of multiple prior sources. Works with individual genotype-phenotype data or GWAS summary statistics.",
+  "TITLE": "Improving polygenic score prediction for underrepresented groups through transfer learning.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature communications",
+  "YEAR": "2026",
+  "VOLUME": "17",
+  "ISSUE": "1",
+  "PAGE": "1973",
+  "Authors": "Wu H,Pérez-Rodríguez P,Boehnke M,Cui Y,Liang X,Vazquez AI,de Los Campos G",
+  "ABSTRACT": "The advent of large biobanks has substantially increased the accuracy of polygenic scores (PGS). However, most existing PGSs were derived from European-ancestry data and often exhibit reduced predictive performance when applied to individuals of non-European ancestries. Transfer Learning offers a promising strategy to address this limitation by leveraging information learned in one population to improve prediction in another. Here, we introduce GPTL, an R package that implements three Transfer Learning based approaches for developing PGS: (1) gradient descent with early stopping, (2) a penalized regression model that shrinks variant-effect estimates toward prior values, and (3) a Bayesian method with a finite-mixture prior that enables integration of multiple prior sources of information. Using both simulated data and real data from the UK-Biobank and All of Us, we demonstrate that PGS generated with GPTL's Transfer Learning algorithms consistently outperform single-ancestry PGS and, in many settings, match or exceed the performance of multi-ancestry ensemble-based PGS. Our software can be used with either individual genotype-phenotype data or summary statistics from genome-wide association studies.",
+  "DOI": "10.1038/s41467-026-68696-7",
+  "PMC ID": "PMC12932743",
+  "CITATION": "Wu H, Pérez-Rodríguez P, Boehnke M, ...&, de Los Campos G. (2026) Improving polygenic score prediction for underrepresented groups through transfer learning. Nat Commun, 17 (1) 1973. doi:10.1038/s41467-026-68696-7. PMID 41577700",
+  "FIRST_AUTHOR": "Wu H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "NAME": "DiscoDivas",
+  "PMID": 42235505,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Cross-population",
+  "TYPE": "Tools",
+  "SHORT NAME": "DiscoDivas",
+  "FULL NAME": "DiscoDivas",
+  "KEYWORDS": "admixed population, genetic ancestry continuum, interpolation, cross-population, PRS combination",
+  "URL": "https://github.com/YunfengRuan/DiscoDivas",
+  "DESCRIPTION": "DiscoDivas is an R package that leverages genetic-distance information to interpolate a harmonized PRS for admixed populations across the genetic-ancestry continuum, using multiple PRS models fine-tuned within existing single-ancestry samples.",
+  "TITLE": "DiscoDivas: Leveraging genetic-ancestry continuum information to interpolate PRS for admixed populations.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Ruan Y,Bhukar R,Patel A,Koyama S,Hull L,Truong B,Cho SM,Hornsby W,Zhang H,Chatterjee N,Natarajan P",
+  "ABSTRACT": "Genome-wide association study (GWAS) summary statistics for training and individual-level cohorts for fine-tuning are essential for constructing predictive polygenic risk score (PRS) models. However, the relatively low representation of admixed populations in both GWAS summary statistics and individual-level datasets hinders the development of PRSs and equitable clinical translation for admixed populations. Prior work indicates that the most informative PRS model for a genetically homogeneous sample varies linearly in an ancestry continuum space. Guided by these observations, we introduce a genetic-distance-assisted PRS combination pipeline for diverse genetic ancestries (DiscoDivas) to interpolate a harmonized PRS for diverse, especially admixed, genetic ancestries. DiscoDivas leverages multiple PRS models fine-tuned within existing samples, which are mostly of single ancestry, and genetic distance. It provides a new approach to generate genetic-ancestry-specific PRSs when a suitably matched individual-level fine-tuning cohort is unavailable or underpowered. DiscoDivas treats genetic ancestry as a continuous variable and does not require shifting across different models when calculating PRSs for different ancestries. We generated PRSs with DiscoDivas and the current conventional method, i.e., fine-tuning multiple GWAS PRSs using the matched or similar genetic-ancestry samples. DiscoDivas generated a harmonized PRS, performing comparable to or better than the conventional approach, with the greatest advantage exhibited in admixed individuals.",
+  "DOI": "10.1016/j.ajhg.2026.05.006",
+  "PMC ID": "",
+  "CITATION": "Ruan Y, Bhukar R, Patel A, ...&, Natarajan P. (2026) DiscoDivas: Leveraging genetic-ancestry continuum information to interpolate PRS for admixed populations. Am J Hum Genet, Online ahead of print. doi:10.1016/j.ajhg.2026.05.006. PMID 42235505",
+  "FIRST_AUTHOR": "Ruan Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
