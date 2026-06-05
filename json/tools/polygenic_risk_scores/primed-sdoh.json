@@ -1,0 +1,29 @@
+{
+  "NAME": "PRIMED-SDoH",
+  "PMID": 41785862,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "SHORT NAME": "PRIMED SDoH Review",
+  "FULL NAME": "PRIMED Consortium SDoH Review",
+  "KEYWORDS": "social determinants of health, PRS transferability, population descriptors, gene-environment interaction, mediation, best practices",
+  "URL": "",
+  "DESCRIPTION": "A PRIMED Consortium review providing best practices for incorporating polygenic risk scores (PRS) and social determinants of health (SDoH) across populations, covering analytic considerations including main-effect estimation, gene-environment interaction, mediation, and integration of genetic and SDoH factors.",
+  "TITLE": "Incorporating polygenic risk scores and social determinants of health across populations: Considerations and best practices in research.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2026",
+  "VOLUME": "113",
+  "ISSUE": "4",
+  "PAGE": "639-663",
+  "Authors": "Cromer SJ,Cobran EK,Iyer HS,Hysong MR,Vargas LB,Smith JL,Konigsberg IR,Bogumil D,Glover L,King G,Lange LA,Patel A,Wojcik G,Raffield L,Conti DV",
+  "ABSTRACT": "There is a growing interest in evaluating the intersection of genetic and environmental factors, particularly social determinants of health (SDoH). As both the distributions and associations of genetic and SDoH-related risk vary across populations, a thorough understanding of the interplay of these factors (genetics and SDoH across populations) is necessary for the appropriate design and interpretation of studies examining their combined impact on health outcomes. In this review, we review population descriptors, including self-reported social constructs and genetically defined constructs, highlighting the different concepts they may capture and when it may be appropriate to use them. We discuss the challenges of applying polygenic risk scores (PRSs) to populations distinct in their genetic architecture or social context from the cohort in which they were developed. We provide an overview of conceptual SDoH frameworks and measures at the individual and area levels, discussing how these measures are defined, assessed, utilized, and interpreted in health research. For evaluating SDoH and PRS jointly, we outline analytic considerations, including calculating main-effect estimates, conducting gene-environment interaction studies, testing for mediation, and incorporating these factors into risk prediction models. This review is part of the PRIMED Consortium's effort to advance equitable polygenic risk methods.",
+  "DOI": "10.1016/j.ajhg.2026.02.007",
+  "PMC ID": "",
+  "CITATION": "Cromer SJ, Cobran EK, Iyer HS, ...&, Conti DV. (2026) Incorporating polygenic risk scores and social determinants of health across populations: Considerations and best practices in research. Am J Hum Genet, 113 (4) 639-663. doi:10.1016/j.ajhg.2026.02.007. PMID 41785862",
+  "FIRST_AUTHOR": "Cromer SJ",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

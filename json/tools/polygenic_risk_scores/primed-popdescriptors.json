@@ -1,0 +1,29 @@
+{
+  "NAME": "PRIMED-PopDescriptors",
+  "PMID": 41286102,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Review",
+  "TYPE": "Review",
+  "SHORT NAME": "PRIMED Pop Descriptors",
+  "FULL NAME": "PRIMED Population Descriptors Recommendations",
+  "KEYWORDS": "population descriptors, PRS development, ancestry labels, ethical considerations, NASEM, cross-population, diversity",
+  "URL": "",
+  "DESCRIPTION": "A PRIMED Consortium Perspective offering recommendations for the responsible use of population descriptors throughout the entire process of PRS development, validation and application, addressing both analytical and ethical concerns across diverse populations.",
+  "TITLE": "Recommendations for responsible use of population descriptors in polygenic risk score development.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "12",
+  "PAGE": "2962-2971",
+  "Authors": "Smith JL,Adebamowo CA,Adebamowo SN,Darst BF,Fullerton SM,Gogarten SM,Hamed ME,Hirbo JB,Hysong MR,Johar AS,Khan AT,Kullo IJ,Konigsberg IR,Kraft P,Lange LA,Li Y,Martin AR,Nelson SC,Choudhury A,Ramsay M,Cobran EK,Schaid DJ,Sharma J,Wang Y,Wojcik GL,Sun Q",
+  "ABSTRACT": "The recent report from the National Academies of Sciences, Engineering and Medicine emphasizes the importance of detailed and tailored use of population descriptors in genomic analyses, but specific guidance for genomic data analysts is still lacking. In this Perspective, we focus on polygenic risk score (PRS) development and demonstrate that population descriptors are explicitly or implicitly involved in every step of the process. Attention to this matter is both an analytical concern and an ethical concern, as each decision has an impact on PRS results and performance across diverse populations. Drawing from the experience of the Polygenic Risk Methods Development (PRIMED) Consortium, we offer recommendations for applying population descriptors throughout the entire process of PRS development, validation and application. We urge the research community to carefully consider the choice of population descriptors at each step, to assess the impact of these choices, and to report them with sufficient nuance to enable appropriate interpretation and use of PRS models.",
+  "DOI": "10.1038/s41588-025-02395-9",
+  "PMC ID": "",
+  "CITATION": "Smith JL, Adebamowo CA, ...&, Sun Q. (2025) Recommendations for responsible use of population descriptors in polygenic risk score development. Nat Genet, 57 (12) 2962-2971. doi:10.1038/s41588-025-02395-9. PMID 41286102",
+  "FIRST_AUTHOR": "Smith JL",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
