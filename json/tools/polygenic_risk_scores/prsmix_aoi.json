@@ -4,6 +4,7 @@
   "TOPIC": "Polygenic_risk_scores",
   "CATEGORY": "Single-trait",
   "TYPE": "Tools",
+  "YEAR": "2024",
   "SHORT NAME": "PRSMix_AOI",
   "FULL NAME": "add -one-in (AOI)",
   "MANUAL_YEAR": 2024,

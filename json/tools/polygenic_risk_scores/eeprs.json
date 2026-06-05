@@ -1,0 +1,29 @@
+{
+  "NAME": "EEPRS",
+  "PMID": 41349513,
+  "SECTION": "Tools",
+  "TOPIC": "Polygenic_risk_scores",
+  "CATEGORY": "Multi-trait",
+  "TYPE": "Tools",
+  "SHORT NAME": "EEPRS",
+  "FULL NAME": "EHR-embedding-enhanced polygenic risk score",
+  "KEYWORDS": "EHR, phenotype embedding, Word2Vec, GPT, electronic health records, multi-trait, phenome-wide",
+  "URL": "https://github.com/YCSGP/EEPRS",
+  "DESCRIPTION": "EEPRS is a framework that leverages phenotype embeddings derived from electronic health records (EHRs) via Word2Vec or GPT to improve both single-trait and multi-trait PRS, using only GWAS summary statistics. Includes EEPRS_optimal (data-adaptive embedding selection) and MTAG_EEPRS (multi-trait extension).",
+  "TITLE": "Improving polygenic risk prediction performance by integrating electronic health records through phenotype embedding.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2025",
+  "VOLUME": "112",
+  "ISSUE": "12",
+  "PAGE": "3030-3045",
+  "Authors": "Xu L,Zheng W,Hu J,Lin Y,Zhao J,Wang G,Liu T,Zhao H",
+  "ABSTRACT": "Large-scale biobanks provide comprehensive electronic health records (EHRs) that capture detailed clinical phenotypes, potentially enhancing disease prediction. However, traditional polygenic risk score (PRS) methods rely on simplified phenotype definitions or predefined trait sets, limiting their ability to represent the complex structures embedded within EHRs. To address this gap, we introduce EHR-embedding-enhanced PRS (EEPRS), leveraging phenotype embeddings derived from EHRs to improve PRSs using only genome-wide association study (GWAS) summary statistics. Employing embedding methods such as Word2Vec and GPT, we conducted EHR-embedding-based GWASs and identified a cardiovascular cluster via hierarchical clustering of genetic correlations. Across 41 traits in the UK Biobank, EEPRS consistently outperformed single-trait PRSs, particularly within this cluster. PRS-based phenome-wide association studies further demonstrated robust associations between EHR-embedding-based PRS and circulatory system diseases. We then developed EEPRS_optimal, a data-adaptive method that uses cross-validation to select the best embedding, yielding additional improvements. We also developed MTAG_EEPRS for multi-trait PRSs, which further improved prediction accuracy compared to single-trait PRSs and MTAG_PRS. Finally, we validated the benefits of EEPRS in the All of Us cohort for seven selected diseases. Overall, EEPRS represents a robust and interpretable framework, enhancing single-trait and multi-trait PRSs by integrating EHR embeddings.",
+  "DOI": "10.1016/j.ajhg.2025.11.006",
+  "PMC ID": "PMC12695032",
+  "CITATION": "Xu L, Zheng W, Hu J, ...&, Zhao H. (2025) Improving polygenic risk prediction performance by integrating electronic health records through phenotype embedding. Am J Hum Genet, 112 (12) 3030-3045. doi:10.1016/j.ajhg.2025.11.006. PMID 41349513",
+  "FIRST_AUTHOR": "Xu L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

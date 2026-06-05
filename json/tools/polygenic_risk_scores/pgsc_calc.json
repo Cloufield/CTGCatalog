@@ -4,6 +4,7 @@
   "TOPIC": "Polygenic_risk_scores",
   "CATEGORY": "Pipeline",
   "TYPE": "Tools",
+  "YEAR": "2024",
   "SHORT NAME": "pgsc_calc",
   "FULL NAME": "The Polygenic Score Catalog Calculator",
   "KEYWORDS": "PRS calculation pipeline",
