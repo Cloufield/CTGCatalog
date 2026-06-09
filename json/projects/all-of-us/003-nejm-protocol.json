@@ -1,0 +1,21 @@
+{
+  "NAME": "All of Us — NEJM protocol & design paper",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Program Launch & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2019",
+  "STAGE_ORDER": 2019,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Flagship protocol paper describing the All of Us Research Program design, enrollment targets of one million participants, core data collection (EHR, surveys, biospecimens, genomics), and the Researcher Workbench data platform.",
+  "TAGS": [
+    "Protocol",
+    "Design"
+  ],
+  "PMID": 31412182,
+  "TITLE": "The \"All of Us\" Research Program",
+  "FIRST_AUTHOR": "The All of Us Research Program Investigators",
+  "JOURNAL": "N Engl J Med",
+  "YEAR": 2019
+}

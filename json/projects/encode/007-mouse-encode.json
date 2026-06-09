@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE — Mouse encyclopedia of DNA elements",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "ENCODE2: Full Genome (2012–2014)",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2014",
+  "STAGE_ORDER": 2014,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "Comparative encyclopedia of DNA elements in the mouse genome, enabling cross-species analysis of regulatory element conservation and divergence. Provided the foundation for understanding which functional elements are evolutionarily constrained.",
+  "TAGS": [
+    "ENCODE",
+    "Mouse",
+    "Comparative Genomics"
+  ],
+  "PMID": 25409824,
+  "TITLE": "A comparative encyclopedia of DNA elements in the mouse genome",
+  "FIRST_AUTHOR": "Yue F",
+  "JOURNAL": "Nature",
+  "YEAR": 2014
+}

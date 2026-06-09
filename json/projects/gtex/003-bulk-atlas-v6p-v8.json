@@ -1,0 +1,17 @@
+{
+  "NAME": "GTEx — Bulk atlas releases (v6p / v8)",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "stable releases",
+  "STAGE_ORDER": 2015,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Large stable releases (notably v6p and v8) distributing expression matrices, covariates, and variant calls; default inputs for TWAS, colocalization, and enrichment after GWAS.",
+  "TAGS": [
+    "GTEx",
+    "eQTL",
+    "TWAS"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE2 — Integrated encyclopedia of DNA elements",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "ENCODE2: Full Genome (2012–2014)",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2012",
+  "STAGE_ORDER": 2012,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "ENCODE flagship paper: integrated encyclopedia of DNA elements in the human genome. Used 1,640 data sets from 147 cell types to systematically catalogue RNA transcription, transcription factor binding, chromatin structure, and histone modifications. Defined 80.4% of the genome as participating in at least one biochemical event. One of the most cited papers in genomics history.",
+  "TAGS": [
+    "ENCODE2",
+    "Encyclopedia",
+    "Genome Annotation"
+  ],
+  "PMID": 22955616,
+  "TITLE": "An integrated encyclopedia of DNA elements in the human genome",
+  "FIRST_AUTHOR": "ENCODE Project Consortium",
+  "JOURNAL": "Nature",
+  "YEAR": 2012
+}

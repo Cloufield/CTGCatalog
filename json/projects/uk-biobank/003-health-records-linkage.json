@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — Health records linkage",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Phenotypes & Health Records",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2012–ongoing",
+  "STAGE_ORDER": 2012,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Linkage to hospital episode statistics (England 1996+, Scotland 1997+, Wales 1998+), death registers (2006+), and cancer registers. Repeated in-person assessments for ~20k participants.",
+  "TAGS": [
+    "Phenotypes",
+    "Health Records"
+  ],
+  "PMID": 30305743,
+  "TITLE": "The UK Biobank resource with deep phenotyping and genomic data",
+  "FIRST_AUTHOR": "Bycroft C",
+  "JOURNAL": "Nature",
+  "YEAR": 2018
+}

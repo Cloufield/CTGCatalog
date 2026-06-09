@@ -1,0 +1,16 @@
+{
+  "NAME": "GTEx — Pilot phase (v3)",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "~2011–2015",
+  "STAGE_ORDER": 2011,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Multitissue RNA-seq and genotyping in ~175 donors across 43 tissues; defined tissue-specific and shared cis-eQTL architecture and established GTEx as the reference expression resource.",
+  "TAGS": [
+    "GTEx",
+    "eQTL"
+  ]
+}

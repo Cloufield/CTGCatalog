@@ -1,0 +1,22 @@
+{
+  "NAME": "BBJ — Cross-sectional clinical data analysis",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2017.1,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "Cross-sectional analysis of baseline clinical data from 200,000 BBJ participants across 47 common diseases, documenting prevalence, comorbidity patterns, and clinical characteristics of the Japanese patient cohort.",
+  "TAGS": [
+    "Clinical Data",
+    "Phenotypes",
+    "Comorbidity"
+  ],
+  "PMID": 28190657,
+  "TITLE": "Cross-sectional analysis of BioBank Japan clinical data: A large cohort of 200,000 patients with 47 common diseases",
+  "FIRST_AUTHOR": "Hirata M",
+  "JOURNAL": "J Epidemiol",
+  "YEAR": 2017
+}

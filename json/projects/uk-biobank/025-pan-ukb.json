@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Pan-UKB multi-ancestry GWAS",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2025",
+  "STAGE_ORDER": 2025,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Multi-ancestry GWAS meta-analysis across 7,266 traits in UK Biobank, identifying 14,676 significant loci not found in EUR-only analysis.",
+  "TAGS": [
+    "Pan-UKB",
+    "GWAS",
+    "Multi-ancestry"
+  ],
+  "PMID": 40968291,
+  "TITLE": "Pan-UK Biobank genome-wide association analyses enhance discovery and resolution of ancestry-enriched effects",
+  "FIRST_AUTHOR": "Karczewski KJ",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2025
+}

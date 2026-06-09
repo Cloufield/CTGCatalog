@@ -1,0 +1,22 @@
+{
+  "NAME": "GTEx — High-quality postmortem tissue procurement",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2015",
+  "STAGE_ORDER": 2011.1,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Description of the novel approach to high-quality postmortem tissue procurement for the GTEx project.",
+  "TAGS": [
+    "GTEx",
+    "Tissue Procurement",
+    "Biospecimen"
+  ],
+  "PMID": 26484571,
+  "TITLE": "A Novel Approach to High-Quality Postmortem Tissue Procurement: The GTEx Project",
+  "FIRST_AUTHOR": "Carithers LJ",
+  "JOURNAL": "Biopreserv Biobank",
+  "YEAR": 2015
+}

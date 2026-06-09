@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Olink proteomics flagship pQTL",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Multi-omics & Imaging",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2023.10",
+  "STAGE_ORDER": 2023.75,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "UK Biobank Pharma Proteomics Project (UKB-PPP) released Olink Proximity Extension Assay proteomics for ~53k participants, covering ~2,900 plasma proteins. Flagship pQTL resource for cis/trans protein QTL mapping.",
+  "TAGS": [
+    "Proteomics",
+    "pQTL",
+    "Olink"
+  ],
+  "PMID": 37794186,
+  "TITLE": "Plasma proteomic associations with genetics and health in the UK Biobank",
+  "FIRST_AUTHOR": "Sun BB",
+  "JOURNAL": "Nature",
+  "YEAR": 2023
+}

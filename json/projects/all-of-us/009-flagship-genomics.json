@@ -1,0 +1,23 @@
+{
+  "NAME": "All of Us — Flagship genomic data release (WGS + WES + array)",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 5,
+  "STAGE_PERIOD": "2024",
+  "STAGE_ORDER": 2024,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Landmark genomic data release of whole-genome sequences (WGS), whole-exome sequences (WES), and genotyping array data from over 245,000 diverse participants. Demonstrated 2.1× increase in discovery power for rare variants by including diverse populations. Data accessible via the Researcher Workbench.",
+  "TAGS": [
+    "WGS",
+    "WES",
+    "Array",
+    "Data Release"
+  ],
+  "PMID": 38374255,
+  "TITLE": "Genomic data in the All of Us Research Program",
+  "FIRST_AUTHOR": "All of Us Research Program Genomics Investigators",
+  "JOURNAL": "Nature",
+  "YEAR": 2024
+}

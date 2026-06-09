@@ -1,0 +1,22 @@
+{
+  "NAME": "GTEx — X chromosome inactivation across tissues",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2015.2,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Landscape analysis of X chromosome inactivation across 29 tissues, identifying genes that escape XCI and demonstrating tissue-specific patterns with implications for sex-differences in complex traits.",
+  "TAGS": [
+    "GTEx",
+    "XCI",
+    "Gene Regulation"
+  ],
+  "PMID": 29022598,
+  "TITLE": "Landscape of X chromosome inactivation across human tissues",
+  "FIRST_AUTHOR": "Tukiainen T",
+  "JOURNAL": "Nature",
+  "YEAR": 2017
+}

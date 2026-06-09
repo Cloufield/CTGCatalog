@@ -1,0 +1,17 @@
+{
+  "NAME": "FANTOM1 — RIKEN full-length cDNA project launch",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM1-2: cDNA Encyclopedia",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2000–2002",
+  "STAGE_ORDER": 2000,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "FANTOM1 (Functional Annotation of the Mammalian Genome 1) launched by RIKEN. Created the first comprehensive full-length cDNA clone collection from the mouse genome, establishing the foundation for mammalian transcriptome annotation.",
+  "TAGS": [
+    "FANTOM1",
+    "cDNA",
+    "Mouse"
+  ]
+}

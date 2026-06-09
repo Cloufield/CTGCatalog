@@ -1,0 +1,22 @@
+{
+  "NAME": "BBJ — Study design & profile overview",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2017,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "Comprehensive overview of the BioBank Japan Project design, including enrollment of approximately 200,000 participants with 47 common diseases, DNA and serum collection, and prospective follow-up via medical records and disease registries.",
+  "TAGS": [
+    "Design",
+    "Cohort",
+    "Protocol"
+  ],
+  "PMID": 28189464,
+  "TITLE": "Overview of the BioBank Japan Project: Study design and profile",
+  "FIRST_AUTHOR": "Nagai A",
+  "JOURNAL": "J Epidemiol",
+  "YEAR": 2017
+}

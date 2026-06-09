@@ -1,0 +1,17 @@
+{
+  "NAME": "BBJ — Project launch & initial enrollment",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2003–2007",
+  "STAGE_ORDER": 2003,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "BioBank Japan project initiated in 2003 by the Institute of Medical Science, University of Tokyo. Enrolled ~200,000 patients diagnosed with 47 common diseases from 12 medical institutions across Japan, collecting DNA, serum, and clinical information.",
+  "TAGS": [
+    "Launch",
+    "Enrollment",
+    "Japanese"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "NAME": "All of Us — Sleep patterns & chronic disease",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Wearables",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2024",
+  "STAGE_ORDER": 2024,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Long-term sleep monitoring via commercial wearable devices linked to chronic disease outcomes in the All of Us cohort, revealing associations between sleep patterns (duration, consistency, timing) and multiple chronic diseases.",
+  "TAGS": [
+    "Wearables",
+    "Sleep",
+    "Fitbit"
+  ],
+  "PMID": 39030265,
+  "TITLE": "Sleep patterns and risk of chronic disease as measured by long-term monitoring with commercial wearable devices in the All of Us Research Program",
+  "FIRST_AUTHOR": "Zheng NS",
+  "JOURNAL": "Nat Med",
+  "YEAR": 2024
+}

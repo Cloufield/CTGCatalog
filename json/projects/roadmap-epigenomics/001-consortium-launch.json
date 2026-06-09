@@ -1,0 +1,17 @@
+{
+  "NAME": "Roadmap — NIH Epigenomics Mapping Consortium",
+  "SECTION": "Projects",
+  "TOPIC": "Roadmap Epigenomics",
+  "TYPE": "Project",
+  "CATEGORY": "Consortium & Reference Epigenomes",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2008–2010",
+  "STAGE_ORDER": 2008,
+  "URL": "https://www.roadmapepigenomics.org/",
+  "DESCRIPTION": "The NIH Roadmap Epigenomics Mapping Consortium launched as a public resource of human epigenomic data. Goals included producing a reference set of histone modification, DNA accessibility, DNA methylation, and RNA expression maps across a broad range of human cell types and tissues.",
+  "TAGS": [
+    "Epigenomics",
+    "Consortium",
+    "NIH Roadmap"
+  ]
+}

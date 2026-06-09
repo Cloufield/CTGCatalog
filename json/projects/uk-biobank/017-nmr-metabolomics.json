@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — NMR metabolomics",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Multi-omics & Imaging",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2021",
+  "STAGE_ORDER": 2021.5,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Nightingale Health NMR metabolomics assay covering 249 metabolic measures (lipoprotein subclasses, fatty acids, amino acids, inflammation markers) released for ~121k participants.",
+  "TAGS": [
+    "Metabolomics",
+    "NMR",
+    "Nightingale"
+  ],
+  "PMID": 36737438,
+  "TITLE": "Atlas of plasma NMR biomarkers for health and disease in 118,461 individuals from the UK Biobank",
+  "FIRST_AUTHOR": "Julkunen H",
+  "JOURNAL": "Nat Commun",
+  "YEAR": 2023
+}

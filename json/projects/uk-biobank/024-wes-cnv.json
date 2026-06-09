@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — WES-derived CNV analysis",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2024",
+  "STAGE_ORDER": 2024,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Protein-altering CNV analysis from WES data in 468,570 participants. CNV-pQTL validation and phenome-wide associations covering 41 quantitative traits.",
+  "TAGS": [
+    "WES",
+    "CNV",
+    "Structural Variant"
+  ],
+  "PMID": 38548989,
+  "TITLE": "Protein-altering variants at copy number-variable regions influence diverse human phenotypes",
+  "FIRST_AUTHOR": "Hujoel MLA",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2024
+}

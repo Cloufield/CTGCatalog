@@ -1,0 +1,22 @@
+{
+  "NAME": "All of Us — Population-scale long-read sequencing",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 5,
+  "STAGE_PERIOD": "2025",
+  "STAGE_ORDER": 2025,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Population-scale long-read whole-genome sequencing in the All of Us cohort, enabling comprehensive detection of structural variants, repeat expansions, and complex genomic regions not accessible with short-read sequencing.",
+  "TAGS": [
+    "Long-read",
+    "WGS",
+    "Structural Variant"
+  ],
+  "PMID": 41256123,
+  "TITLE": "Population-scale Long-read Sequencing in the All of Us Research Program",
+  "FIRST_AUTHOR": "Garimella K",
+  "JOURNAL": "medRxiv",
+  "YEAR": 2025
+}

@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — Brain MRI protocol",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Multi-omics & Imaging",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2014–2022",
+  "STAGE_ORDER": 2014,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Multi-modal imaging including brain MRI, cardiac MRI, abdominal MRI, whole-body DXA, carotid ultrasound, and resting ECG. Target of 100k participants achieved by 2022.",
+  "TAGS": [
+    "Imaging",
+    "MRI"
+  ],
+  "PMID": 27643430,
+  "TITLE": "Multimodal population brain imaging in the UK Biobank prospective epidemiological study",
+  "FIRST_AUTHOR": "Miller KL",
+  "JOURNAL": "Nat Neurosci",
+  "YEAR": 2016
+}

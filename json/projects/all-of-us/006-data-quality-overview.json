@@ -1,0 +1,22 @@
+{
+  "NAME": "All of Us — Data quality, utility & diversity overview",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Data Platform",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2022",
+  "STAGE_ORDER": 2022,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Comprehensive overview of All of Us data quality and diversity after enrollment of 315,000+ participants. Demonstrated the program's success in recruiting a diverse cohort (including 83% from historically underrepresented groups) and described the Researcher Workbench cloud platform.",
+  "TAGS": [
+    "Data Quality",
+    "Diversity",
+    "Platform"
+  ],
+  "PMID": 36033590,
+  "TITLE": "The All of Us Research Program: Data quality, utility, and diversity",
+  "FIRST_AUTHOR": "Ramirez AH",
+  "JOURNAL": "Patterns",
+  "YEAR": 2022
+}

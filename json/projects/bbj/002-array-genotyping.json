@@ -1,0 +1,17 @@
+{
+  "NAME": "BBJ — Japanese-specific array genotyping",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2013–2015",
+  "STAGE_ORDER": 2013,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "Genome-wide genotyping using Japanese-specific SNP arrays (Japonica Array v1/v2) designed to capture East Asian-specific variation. Included ~650,000 SNPs with enriched coverage of Japanese population variants.",
+  "TAGS": [
+    "Array",
+    "Genotyping",
+    "Japonica Array"
+  ]
+}

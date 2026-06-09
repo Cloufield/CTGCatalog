@@ -1,0 +1,23 @@
+{
+  "NAME": "UK Biobank — Proteome PheWAS & MR",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Multi-omics & Imaging",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2023.10",
+  "STAGE_ORDER": 2023.76,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Phenome-wide Mendelian randomization mapping the influence of the plasma proteome on complex diseases, using pQTL data from UKB-PPP and other cohorts.",
+  "TAGS": [
+    "Proteomics",
+    "pQTL",
+    "MR",
+    "PheWAS"
+  ],
+  "PMID": 32895551,
+  "TITLE": "Phenome-wide Mendelian randomization mapping the influence of the plasma proteome on complex diseases",
+  "FIRST_AUTHOR": "Zheng J",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2020
+}

@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE4 — Expanded encyclopedias of DNA elements",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "ENCODE3-4 & Portal (2017–2020)",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2020",
+  "STAGE_ORDER": 2020,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "Expanded ENCODE encyclopedias of DNA elements in human and mouse genomes (ENCODE 4). Included data from 1,178 human and 439 mouse biosamples with new assays for chromatin conformation, RNA-binding proteins, and DNA methylation. The Registry of cCREs now covers over 1 million human and 300,000 mouse candidate regulatory elements.",
+  "TAGS": [
+    "ENCODE4",
+    "cCRE",
+    "Regulatory Elements"
+  ],
+  "PMID": 32728249,
+  "TITLE": "Expanded encyclopaedias of DNA elements in the human and mouse genomes",
+  "FIRST_AUTHOR": "Abascal F",
+  "JOURNAL": "Nature",
+  "YEAR": 2020
+}

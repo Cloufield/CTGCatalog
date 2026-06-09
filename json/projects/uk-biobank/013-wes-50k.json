@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Whole-exome sequencing (50k tranche)",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2019–2020",
+  "STAGE_ORDER": 2019,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "First 49,960 WES participants released. Enables rare-coding variant association and gene-based tests.",
+  "TAGS": [
+    "WES",
+    "Exome",
+    "Rare Variant"
+  ],
+  "PMID": 33087929,
+  "TITLE": "Exome sequencing and characterization of 49,960 individuals in the UK Biobank",
+  "FIRST_AUTHOR": "Van Hout CV",
+  "JOURNAL": "Nature",
+  "YEAR": 2020
+}

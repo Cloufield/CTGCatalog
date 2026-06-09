@@ -1,0 +1,22 @@
+{
+  "NAME": "All of Us — EHR data model harmonization (i2b2 → OMOP)",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Surveys & EHR",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2019",
+  "STAGE_ORDER": 2019.1,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Transformation of i2b2-sourced electronic health record data into the OMOP Common Data Model for the All of Us Research Program, enabling standardized cross-institutional analysis of clinical data.",
+  "TAGS": [
+    "EHR",
+    "Data Model",
+    "OMOP"
+  ],
+  "PMID": 30779778,
+  "TITLE": "Data model harmonization for the All Of Us Research Program: Transforming i2b2 data into the OMOP common data model",
+  "FIRST_AUTHOR": "Klann JG",
+  "JOURNAL": "PLoS One",
+  "YEAR": 2019
+}

@@ -1,0 +1,22 @@
+{
+  "NAME": "CKB — Lifestyle, cardiometabolic disease & multimorbidity",
+  "SECTION": "Projects",
+  "TOPIC": "CKB",
+  "TYPE": "Project",
+  "CATEGORY": "Phenotypes & Exposures",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2021",
+  "STAGE_ORDER": 2021,
+  "URL": "https://www.ckbiobank.org/",
+  "DESCRIPTION": "Prospective analysis of lifestyle factors (smoking, alcohol, diet, physical activity) and their association with cardiometabolic disease and multimorbidity in Chinese adults.",
+  "TAGS": [
+    "Lifestyle",
+    "Multimorbidity",
+    "Cardiometabolic"
+  ],
+  "PMID": 34333624,
+  "TITLE": "Lifestyle, cardiometabolic disease, and multimorbidity in a prospective Chinese study",
+  "FIRST_AUTHOR": "Han Y",
+  "JOURNAL": "Eur Heart J",
+  "YEAR": 2021
+}

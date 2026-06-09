@@ -1,0 +1,22 @@
+{
+  "NAME": "FANTOM — Web resource expansion",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM5+ & Web Resource",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2018",
+  "STAGE_ORDER": 2018,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "Major update of the FANTOM web resource, expanding to provide additional transcriptome atlases including FANTOM5 CAGE data, FANTOM6 lncRNA functional data, and improved tools for browsing and analyzing promoter/enhancer expression across cell types.",
+  "TAGS": [
+    "FANTOM",
+    "Web Resource",
+    "Database"
+  ],
+  "PMID": 30407557,
+  "TITLE": "Update of the FANTOM web resource: expansion to provide additional transcriptome atlases",
+  "FIRST_AUTHOR": "Lizio M",
+  "JOURNAL": "Nucleic Acids Res",
+  "YEAR": 2018
+}

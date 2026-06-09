@@ -49,6 +49,7 @@ def _iter_catalog_json_paths(json_dir: Path) -> list[Path]:
     return paths
 
 
+
 def _needs_biblio(rec: dict, only_missing: bool) -> bool:
     if not only_missing:
         return True

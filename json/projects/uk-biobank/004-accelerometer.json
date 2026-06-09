@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — Accelerometer physical activity monitoring",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Multi-omics & Imaging",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2013–2015",
+  "STAGE_ORDER": 2013,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Axivity AX3 tri-axial wrist accelerometers distributed to 100k participants, recording week-long 100Hz acceleration data.",
+  "TAGS": [
+    "Accelerometer",
+    "Physical Activity"
+  ],
+  "PMID": 29292503,
+  "TITLE": "Large scale population assessment of physical activity using wrist-worn accelerometers: The UK Biobank study",
+  "FIRST_AUTHOR": "Doherty A",
+  "JOURNAL": "PLoS One",
+  "YEAR": 2017
+}

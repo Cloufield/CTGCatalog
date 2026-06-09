@@ -1,0 +1,16 @@
+{
+  "NAME": "UK Biobank — Online dietary & cognitive questionnaires",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Phenotypes & Health Records",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2011–2015",
+  "STAGE_ORDER": 2011,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Web-based dietary questionnaire (176k participants) and online cognitive function tests (120k, including symbol digit substitution and trail making).",
+  "TAGS": [
+    "Phenotypes",
+    "Questionnaire"
+  ]
+}

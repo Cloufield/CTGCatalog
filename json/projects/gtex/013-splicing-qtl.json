@@ -1,0 +1,22 @@
+{
+  "NAME": "GTEx — Splicing QTL across multiple tissues",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2021",
+  "STAGE_ORDER": 2019.2,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Identification and analysis of splicing QTLs across 49 tissues in GTEx v8. sQTLs were less tissue-shared than eQTLs and enriched at GWAS loci.",
+  "TAGS": [
+    "GTEx",
+    "sQTL",
+    "Splicing"
+  ],
+  "PMID": 33526779,
+  "TITLE": "Identification and analysis of splicing quantitative trait loci across multiple tissues in the human genome",
+  "FIRST_AUTHOR": "Garrido-Martín D",
+  "JOURNAL": "Nat Commun",
+  "YEAR": 2021
+}

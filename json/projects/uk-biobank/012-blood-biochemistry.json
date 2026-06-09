@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Blood biochemistry & haematology",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Recruitment & Baseline",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2018",
+  "STAGE_ORDER": 2018,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Serum biochemistry panel (30+ biomarkers: liver function, renal function, lipids, glucose, HbA1c, etc.) and full blood count (haematology: WBC, RBC, platelets, haemoglobin, etc.) released for all ~500k participants.",
+  "TAGS": [
+    "Biochemistry",
+    "Haematology",
+    "Assay"
+  ],
+  "PMID": 34737426,
+  "TITLE": "A generalized linear mixed model association tool for biobank-scale data",
+  "FIRST_AUTHOR": "Jiang L",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2021
+}

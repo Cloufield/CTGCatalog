@@ -1,0 +1,16 @@
+{
+  "NAME": "1000 Genomes — High-coverage on GRCh38",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "TYPE": "Project",
+  "CATEGORY": "1000 Genomes",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2019–",
+  "STAGE_ORDER": 2019,
+  "URL": "https://www.internationalgenome.org/",
+  "DESCRIPTION": "High-coverage whole-genome sequencing of a subset of Phase 3 samples on GRCh38; improves rare-variant discovery, phasing, and structural-variant catalogs while staying aligned with the 1000 Genomes sample framework.",
+  "TAGS": [
+    "1000 Genomes",
+    "WGS"
+  ]
+}

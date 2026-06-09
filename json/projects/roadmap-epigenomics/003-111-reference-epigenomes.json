@@ -1,0 +1,22 @@
+{
+  "NAME": "Roadmap — Integrative analysis of 111 reference epigenomes",
+  "SECTION": "Projects",
+  "TOPIC": "Roadmap Epigenomics",
+  "TYPE": "Project",
+  "CATEGORY": "Consortium & Reference Epigenomes",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2015",
+  "STAGE_ORDER": 2015,
+  "URL": "https://www.roadmapepigenomics.org/",
+  "DESCRIPTION": "Flagship Roadmap Epigenomics paper: integrative analysis of 111 reference human epigenomes from diverse cell types and tissues. Generated comprehensive maps of histone modifications, chromatin accessibility, DNA methylation, and RNA expression. Defined 15-chromatin-state models (ChromHMM) for each epigenome and developed the Epigenome Roadmap web portal. A foundational resource for understanding gene regulation in human health and disease.",
+  "TAGS": [
+    "Epigenomes",
+    "Reference",
+    "ChromHMM"
+  ],
+  "PMID": 25693563,
+  "TITLE": "Integrative analysis of 111 reference human epigenomes",
+  "FIRST_AUTHOR": "Kundaje A",
+  "JOURNAL": "Nature",
+  "YEAR": 2015
+}

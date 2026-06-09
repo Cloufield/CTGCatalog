@@ -1,0 +1,23 @@
+{
+  "NAME": "FANTOM — 20th year: transcriptomic atlases & ncRNA annotation",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM5+ & Web Resource",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2020",
+  "STAGE_ORDER": 2020,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "FANTOM enters its 20th year with expanded transcriptomic atlases including FANTOM6 functional annotation of non-coding RNAs. The resource now covers CAGE-based expression for over 2,000 samples and provides extensive functional data on lncRNAs through systematic perturbation screens.",
+  "TAGS": [
+    "FANTOM",
+    "FANTOM6",
+    "ncRNA",
+    "lncRNA"
+  ],
+  "PMID": 33211864,
+  "TITLE": "FANTOM enters 20th year: expansion of transcriptomic atlases and functional annotation of non-coding RNAs",
+  "FIRST_AUTHOR": "Abugessaisa I",
+  "JOURNAL": "Nucleic Acids Res",
+  "YEAR": 2020
+}

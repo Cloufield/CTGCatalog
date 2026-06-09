@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Array genotyping flagship",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2015–2017",
+  "STAGE_ORDER": 2015,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Genome-wide array genotyping using UK BiLEVE Axiom and UK Biobank Axiom arrays. First 150k participants released in 2015, remainder (full ~500k) released in July 2017.",
+  "TAGS": [
+    "Array",
+    "Genotyping",
+    "QC"
+  ],
+  "PMID": 30305743,
+  "TITLE": "The UK Biobank resource with deep phenotyping and genomic data",
+  "FIRST_AUTHOR": "Bycroft C",
+  "JOURNAL": "Nature",
+  "YEAR": 2018
+}

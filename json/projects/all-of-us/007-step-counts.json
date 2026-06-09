@@ -1,0 +1,22 @@
+{
+  "NAME": "All of Us — Step counts & chronic disease risk",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Wearables",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2022",
+  "STAGE_ORDER": 2022,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Association of step counts over time with chronic disease risk in All of Us participants using Fitbit wearable device data linked to EHR outcomes. Demonstrated that higher step counts were associated with lower risk of multiple chronic conditions.",
+  "TAGS": [
+    "Wearables",
+    "Physical Activity",
+    "Fitbit"
+  ],
+  "PMID": 36216933,
+  "TITLE": "Association of step counts over time with the risk of chronic disease in the All of Us Research Program",
+  "FIRST_AUTHOR": "Master H",
+  "JOURNAL": "Nat Med",
+  "YEAR": 2022
+}

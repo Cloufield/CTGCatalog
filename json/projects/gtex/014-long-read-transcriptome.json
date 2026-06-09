@@ -1,0 +1,23 @@
+{
+  "NAME": "GTEx — Transcriptome variation revealed by long-read sequencing",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2022",
+  "STAGE_ORDER": 2019.3,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Long-read RNA sequencing across GTEx tissues revealed extensive transcriptome variation including novel isoforms, fusion transcripts, and full-length isoform structures.",
+  "TAGS": [
+    "GTEx",
+    "Long-read",
+    "Transcriptome",
+    "Isoform"
+  ],
+  "PMID": 35922509,
+  "TITLE": "Transcriptome variation in human tissues revealed by long-read sequencing",
+  "FIRST_AUTHOR": "Glinos DA",
+  "JOURNAL": "Nature",
+  "YEAR": 2022
+}

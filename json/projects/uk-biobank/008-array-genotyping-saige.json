@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — SAIGE method (binary trait GWAS)",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2015–2017",
+  "STAGE_ORDER": 2015.1,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "SAIGE method for efficient case-control imbalance control applied to UKB GWAS of >1,400 binary traits.",
+  "TAGS": [
+    "Array",
+    "GWAS",
+    "SAIGE"
+  ],
+  "PMID": 30104761,
+  "TITLE": "Efficiently controlling for case-control imbalance and sample relatedness in large-scale genetic association studies",
+  "FIRST_AUTHOR": "Zhou W",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2018
+}

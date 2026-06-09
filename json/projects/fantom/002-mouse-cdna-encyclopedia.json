@@ -1,0 +1,23 @@
+{
+  "NAME": "FANTOM1-2 — Mouse full-length cDNA encyclopedia",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM1-2: cDNA Encyclopedia",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2003",
+  "STAGE_ORDER": 2003,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "Construction of the mouse full-length cDNA encyclopedia, generating over 60,000 full-length cDNA clones. Represented the most comprehensive collection of mammalian full-length cDNAs at the time, enabling systematic annotation of the mouse transcriptome.",
+  "TAGS": [
+    "FANTOM2",
+    "cDNA",
+    "Mouse",
+    "Encyclopedia"
+  ],
+  "PMID": 12819125,
+  "TITLE": "Targeting a Complex Transcriptome: The Construction of the Mouse Full-Length cDNA Encyclopedia",
+  "FIRST_AUTHOR": "Carninci P",
+  "JOURNAL": "Genome Res",
+  "YEAR": 2003
+}

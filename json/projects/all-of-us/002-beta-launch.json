@@ -1,0 +1,16 @@
+{
+  "NAME": "All of Us — Beta launch & national enrollment",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Program Launch & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2018",
+  "STAGE_ORDER": 2018,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "All of Us Research Program beta launch with soft enrollment. National enrollment officially opened to the public, collecting EHR, surveys, physical measurements, and biospecimens from participants across the US.",
+  "TAGS": [
+    "Launch",
+    "Enrollment"
+  ]
+}

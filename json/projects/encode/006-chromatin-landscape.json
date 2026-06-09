@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE2 — Accessible chromatin landscape",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "ENCODE2: Full Genome (2012–2014)",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2012",
+  "STAGE_ORDER": 2012.2,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "DNase I hypersensitivity mapping across 125 cell types, defining the accessible chromatin landscape of the human genome. Identified 2.9 million DNase I hypersensitive sites, 97% of which fell in non-coding regions, providing the most comprehensive view of regulatory DNA.",
+  "TAGS": [
+    "ENCODE2",
+    "Chromatin",
+    "DNase-seq"
+  ],
+  "PMID": 22955617,
+  "TITLE": "The accessible chromatin landscape of the human genome",
+  "FIRST_AUTHOR": "Thurman RE",
+  "JOURNAL": "Nature",
+  "YEAR": 2012
+}

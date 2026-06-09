@@ -1,0 +1,23 @@
+{
+  "NAME": "CKB — Alcohol and vascular disease (ALDH2 MR)",
+  "SECTION": "Projects",
+  "TOPIC": "CKB",
+  "TYPE": "Project",
+  "CATEGORY": "Phenotypes & Exposures",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2019",
+  "STAGE_ORDER": 2019,
+  "URL": "https://www.ckbiobank.org/",
+  "DESCRIPTION": "Conventional and genetic evidence on alcohol and vascular disease in 500,000 Chinese adults. Used ALDH2 Mendelian randomization to demonstrate moderate alcohol does not protect against stroke, challenging the J-shaped curve hypothesis.",
+  "TAGS": [
+    "Alcohol",
+    "Vascular",
+    "MR",
+    "ALDH2"
+  ],
+  "PMID": 30955975,
+  "TITLE": "Conventional and genetic evidence on alcohol and vascular disease aetiology: a prospective study of 500,000 men and women in China",
+  "FIRST_AUTHOR": "Millwood IY",
+  "JOURNAL": "Lancet",
+  "YEAR": 2019
+}

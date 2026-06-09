@@ -1,0 +1,17 @@
+{
+  "NAME": "ENCODE — Pilot phase launch",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "Pilot Phase (2003–2011)",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2003",
+  "STAGE_ORDER": 2003,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "ENCODE Pilot Project launched by NHGRI to identify functional elements in 1% (30 Mb) of the human genome. 35 research groups across 80 institutions used multiple experimental and computational approaches to annotate genes, regulatory elements, and chromatin features.",
+  "TAGS": [
+    "ENCODE",
+    "Pilot",
+    "Functional Elements"
+  ]
+}

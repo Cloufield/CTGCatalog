@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — fastGWA imputed GWAS",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2015–2017",
+  "STAGE_ORDER": 2015.2,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "fastGWA mixed-model association analysis of 2,173 UKB imputed traits, providing a resource-efficient tool for biobank-scale GWAS.",
+  "TAGS": [
+    "Array",
+    "GWAS",
+    "fastGWA"
+  ],
+  "PMID": 31768069,
+  "TITLE": "A resource-efficient tool for mixed model association analysis of large-scale data",
+  "FIRST_AUTHOR": "Jiang L",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2019
+}

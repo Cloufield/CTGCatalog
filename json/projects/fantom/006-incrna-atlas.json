@@ -1,0 +1,23 @@
+{
+  "NAME": "FANTOM5 — Atlas of human long non-coding RNAs",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM5: Promoter & Enhancer Atlas",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2017,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "Comprehensive atlas of 27,919 human long non-coding RNA (lncRNA) genes with accurate 5' ends defined by CAGE. Provided a high-confidence catalog of lncRNAs with detailed annotation of their expression patterns, conservation, and genomic features across diverse cell types.",
+  "TAGS": [
+    "FANTOM5",
+    "lncRNA",
+    "CAGE",
+    "Annotation"
+  ],
+  "PMID": 28241135,
+  "TITLE": "An atlas of human long non-coding RNAs with accurate 5' ends",
+  "FIRST_AUTHOR": "Hon CC",
+  "JOURNAL": "Nature",
+  "YEAR": 2017
+}

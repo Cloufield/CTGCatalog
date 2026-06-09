@@ -1,0 +1,22 @@
+{
+  "NAME": "GTEx — Pilot analysis: multitissue gene regulation",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2015",
+  "STAGE_ORDER": 2013.1,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Pilot analysis of RNA-seq data from ~175 donors across 43 tissues, demonstrating tissue-specific and shared cis-eQTL architecture.",
+  "TAGS": [
+    "GTEx",
+    "eQTL",
+    "Pilot"
+  ],
+  "PMID": 25954001,
+  "TITLE": "The Genotype-Tissue Expression (GTEx) pilot analysis: Multitissue gene regulation in humans",
+  "FIRST_AUTHOR": "Ardlie KG",
+  "JOURNAL": "Science",
+  "YEAR": 2015
+}

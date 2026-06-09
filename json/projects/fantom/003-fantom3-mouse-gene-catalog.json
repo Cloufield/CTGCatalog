@@ -1,0 +1,23 @@
+{
+  "NAME": "FANTOM3 — Mouse gene catalog based on physical cDNAs",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM3: Transcriptome Annotation",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2005–2006",
+  "STAGE_ORDER": 2005,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "FANTOM3 transcript annotation producing the mouse gene catalog based on physical cDNAs. Extended the cDNA collection and provided comprehensive transcript annotation, distinguishing protein-coding from non-coding RNAs and revealing the complexity of the mammalian transcriptome.",
+  "TAGS": [
+    "FANTOM3",
+    "Transcriptome",
+    "Mouse",
+    "Annotation"
+  ],
+  "PMID": 16683036,
+  "TITLE": "Transcript Annotation in FANTOM3: Mouse Gene Catalog Based on Physical cDNAs",
+  "FIRST_AUTHOR": "Maeda N",
+  "JOURNAL": "PLoS Genet",
+  "YEAR": 2006
+}

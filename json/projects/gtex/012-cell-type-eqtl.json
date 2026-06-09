@@ -1,0 +1,23 @@
+{
+  "NAME": "GTEx — Cell-type-specific genetic regulation of expression",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2020",
+  "STAGE_ORDER": 2019.1,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Cell-type-specific eQTL analysis using computational deconvolution of bulk GTEx RNA-seq data across multiple tissues.",
+  "TAGS": [
+    "GTEx",
+    "eQTL",
+    "Cell-type",
+    "Deconvolution"
+  ],
+  "PMID": 32913075,
+  "TITLE": "Cell type-specific genetic regulation of gene expression across human tissues",
+  "FIRST_AUTHOR": "Kim-Hellmuth S",
+  "JOURNAL": "Science",
+  "YEAR": 2020
+}

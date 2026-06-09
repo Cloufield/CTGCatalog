@@ -1,0 +1,23 @@
+{
+  "NAME": "FANTOM5 — Promoter-level mammalian expression atlas",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM5: Promoter & Enhancer Atlas",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2011–2014",
+  "STAGE_ORDER": 2011,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "Flagship FANTOM5 paper: comprehensive promoter-level expression atlas across 975 human and 152 mouse samples using CAGE (Cap Analysis of Gene Expression) sequencing. Identified and quantified promoter usage across diverse cell types, revealing the core promoter architecture of the mammalian genome.",
+  "TAGS": [
+    "FANTOM5",
+    "CAGE",
+    "Promoter",
+    "Expression Atlas"
+  ],
+  "PMID": 24670764,
+  "TITLE": "A promoter-level mammalian expression atlas",
+  "FIRST_AUTHOR": "Forrest ARR",
+  "JOURNAL": "Nature",
+  "YEAR": 2014
+}

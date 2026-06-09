@@ -1,0 +1,22 @@
+{
+  "NAME": "FANTOM — Paradigm shifts through the FANTOM projects",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM5: Promoter & Enhancer Atlas",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2015",
+  "STAGE_ORDER": 2015,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "Review of the FANTOM projects and their paradigm-shifting contributions to genomics, including the transition from cDNA-based transcript annotation to CAGE-based promoter/expression analysis, and the discovery of widespread non-coding RNA transcription.",
+  "TAGS": [
+    "Review",
+    "FANTOM",
+    "Genomics"
+  ],
+  "PMID": 26253466,
+  "TITLE": "Paradigm shifts in genomics through the FANTOM projects",
+  "FIRST_AUTHOR": "de Hoon M",
+  "JOURNAL": "Mamm Genome",
+  "YEAR": 2015
+}

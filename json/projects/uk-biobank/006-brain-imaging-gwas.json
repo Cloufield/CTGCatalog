@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — Brain imaging GWAS",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Multi-omics & Imaging",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2014–2022",
+  "STAGE_ORDER": 2014.5,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "GWAS of 3,144 brain imaging phenotypes from 8,428 participants, demonstrating the power of UKB imaging data for genetic discovery.",
+  "TAGS": [
+    "Imaging",
+    "GWAS"
+  ],
+  "PMID": 30279503,
+  "TITLE": "Genome-wide association studies of brain imaging phenotypes in UK Biobank",
+  "FIRST_AUTHOR": "Elliott LT",
+  "JOURNAL": "Nature",
+  "YEAR": 2018
+}

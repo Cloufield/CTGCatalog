@@ -1,0 +1,23 @@
+{
+  "NAME": "CKB — Haplotype-resolved reference panel (WGS)",
+  "SECTION": "Projects",
+  "TOPIC": "CKB",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2023",
+  "STAGE_ORDER": 2023,
+  "URL": "https://www.ckbiobank.org/",
+  "DESCRIPTION": "High-resolution haplotype-resolved reference panel from ~5,000 CKB whole-genome sequences. One of the most comprehensive East Asian imputation references for improved GWAS fine-mapping.",
+  "TAGS": [
+    "Reference Panel",
+    "Imputation",
+    "Haplotype",
+    "WGS"
+  ],
+  "PMID": 37870428,
+  "TITLE": "A high-resolution haplotype-resolved Reference panel constructed from the China Kadoorie Biobank Study",
+  "FIRST_AUTHOR": "Yu C",
+  "JOURNAL": "Nucleic Acids Res",
+  "YEAR": 2023
+}

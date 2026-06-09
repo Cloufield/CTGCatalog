@@ -1,0 +1,21 @@
+{
+  "NAME": "All of Us — Initial surveys development",
+  "SECTION": "Projects",
+  "TOPIC": "All of Us",
+  "TYPE": "Project",
+  "CATEGORY": "Surveys & EHR",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2019",
+  "STAGE_ORDER": 2019,
+  "URL": "https://allofus.nih.gov/",
+  "DESCRIPTION": "Development and validation of the All of Us baseline surveys covering demographics, lifestyle, overall health, healthcare access, and physical activity. Surveys designed for broad accessibility including low-literacy populations.",
+  "TAGS": [
+    "Surveys",
+    "Phenotypes"
+  ],
+  "PMID": 31045611,
+  "TITLE": "Development of the Initial Surveys for the All of Us Research Program",
+  "FIRST_AUTHOR": "Cronin RM",
+  "JOURNAL": "Epidemiology",
+  "YEAR": 2019
+}

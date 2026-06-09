@@ -1,0 +1,16 @@
+{
+  "NAME": "HapMap Phase I",
+  "SECTION": "Projects",
+  "TOPIC": "1000 Genomes",
+  "TYPE": "Project",
+  "CATEGORY": "HapMap (precursor)",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2003–2005",
+  "STAGE_ORDER": 2003,
+  "URL": "https://www.internationalgenome.org/",
+  "DESCRIPTION": "International HapMap Project first data release: ~1 million SNPs in CEU, YRI, and JPT+CHB; produced the first genome-wide LD and recombination maps and drove early GWAS SNP selection and imputation panels.",
+  "TAGS": [
+    "HapMap",
+    "Reference"
+  ]
+}

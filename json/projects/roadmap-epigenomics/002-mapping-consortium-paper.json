@@ -1,0 +1,22 @@
+{
+  "NAME": "Roadmap — Mapping Consortium overview",
+  "SECTION": "Projects",
+  "TOPIC": "Roadmap Epigenomics",
+  "TYPE": "Project",
+  "CATEGORY": "Consortium & Reference Epigenomes",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2010",
+  "STAGE_ORDER": 2010,
+  "URL": "https://www.roadmapepigenomics.org/",
+  "DESCRIPTION": "Detailed description of the NIH Roadmap Epigenomics Mapping Consortium, its goals, experimental strategies, data pipeline, and the production of reference epigenomes across diverse human cell types and tissues.",
+  "TAGS": [
+    "Epigenomics",
+    "Mapping",
+    "Reference"
+  ],
+  "PMID": 20944595,
+  "TITLE": "The NIH Roadmap Epigenomics Mapping Consortium",
+  "FIRST_AUTHOR": "Bernstein BE",
+  "JOURNAL": "Nat Biotechnol",
+  "YEAR": 2010
+}

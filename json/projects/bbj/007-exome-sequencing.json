@@ -1,0 +1,23 @@
+{
+  "NAME": "BBJ — Whole-exome sequencing & rare variant analysis",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "Sequencing & Beyond",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2020–2022",
+  "STAGE_ORDER": 2020,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "Whole-exome sequencing of BBJ participants enabling rare variant association studies. Demonstrated expanded cancer risk profiles for BRCA1/BRCA2 pathogenic variants in the Japanese population, revealing population-specific pathogenic variant frequencies.",
+  "TAGS": [
+    "WES",
+    "Exome",
+    "Rare Variant",
+    "BRCA"
+  ],
+  "PMID": 35420638,
+  "TITLE": "Expansion of Cancer Risk Profile for BRCA1 and BRCA2 Pathogenic Variants",
+  "FIRST_AUTHOR": "Momozawa Y",
+  "JOURNAL": "JAMA Oncol",
+  "YEAR": 2022
+}

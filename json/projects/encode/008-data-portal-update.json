@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE — Data portal update (ENCODE 3)",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "ENCODE3-4 & Portal (2017–2020)",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2017,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "Major update of the ENCODE data portal supporting ENCODE 3 data, including new data types (ChIP-seq, RNA-seq, WGBS, DNase-seq, Hi-C), improved metadata standards, and the Registry of candidate cis-Regulatory Elements (cCREs) for genome annotation.",
+  "TAGS": [
+    "ENCODE3",
+    "Data Portal",
+    "cCRE"
+  ],
+  "PMID": 29126249,
+  "TITLE": "The Encyclopedia of DNA elements (ENCODE): data portal update",
+  "FIRST_AUTHOR": "Davis CA",
+  "JOURNAL": "Nucleic Acids Res",
+  "YEAR": 2017
+}

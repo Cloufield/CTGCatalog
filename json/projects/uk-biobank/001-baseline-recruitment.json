@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — Baseline recruitment",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Recruitment & Baseline",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2006–2010",
+  "STAGE_ORDER": 2006,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Recruitment of UK adults aged 40–69 with touchscreen questionnaire, physical measures (height, weight, BP, grip strength, spirometry, bone density), ECG, and blood/urine sample collection.",
+  "TAGS": [
+    "Recruitment",
+    "Baseline"
+  ],
+  "PMID": 30305743,
+  "TITLE": "The UK Biobank resource with deep phenotyping and genomic data",
+  "FIRST_AUTHOR": "Bycroft C",
+  "JOURNAL": "Nature",
+  "YEAR": 2018
+}

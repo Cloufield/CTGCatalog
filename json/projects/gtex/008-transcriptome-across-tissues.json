@@ -1,0 +1,22 @@
+{
+  "NAME": "GTEx — Human transcriptome across tissues and individuals",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2015",
+  "STAGE_ORDER": 2013.2,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Comprehensive analysis of transcriptome variation across tissues and individuals, revealing that tissue identity is the primary driver of expression variation.",
+  "TAGS": [
+    "GTEx",
+    "Transcriptome",
+    "Expression"
+  ],
+  "PMID": 25954002,
+  "TITLE": "The human transcriptome across tissues and individuals",
+  "FIRST_AUTHOR": "Melé M",
+  "JOURNAL": "Science",
+  "YEAR": 2015
+}

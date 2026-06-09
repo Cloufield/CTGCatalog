@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — WGS/WES phasing (SHAPEIT5)",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2023.11",
+  "STAGE_ORDER": 2023.91,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Accurate rare variant phasing of WGS and WES data using SHAPEIT5, enabling haplotype-based analyses.",
+  "TAGS": [
+    "WGS",
+    "Phasing",
+    "SHAPEIT5"
+  ],
+  "PMID": 37386249,
+  "TITLE": "Accurate rare variant phasing of whole-genome and whole-exome sequencing data in the UK Biobank",
+  "FIRST_AUTHOR": "Hofmeister RJ",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2023
+}

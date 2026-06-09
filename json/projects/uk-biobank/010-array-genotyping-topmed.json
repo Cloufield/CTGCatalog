@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — TOPMed imputation reference",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2015–2017",
+  "STAGE_ORDER": 2015.3,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "TOPMed sequencing reference panel providing improved imputation quality for UKB GWAS across diverse ancestries.",
+  "TAGS": [
+    "Imputation",
+    "TOPMed",
+    "Reference"
+  ],
+  "PMID": 33568819,
+  "TITLE": "Sequencing of 53,831 diverse genomes from the NHLBI TOPMed Program",
+  "FIRST_AUTHOR": "Taliun D",
+  "JOURNAL": "Nature",
+  "YEAR": 2021
+}

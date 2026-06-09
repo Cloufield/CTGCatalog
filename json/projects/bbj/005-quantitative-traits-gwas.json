@@ -1,0 +1,22 @@
+{
+  "NAME": "BBJ — Quantitative traits GWAS",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "GWAS & Genetics",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2018",
+  "STAGE_ORDER": 2018,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "Large-scale GWAS of 58 quantitative traits in up to 148,000 Japanese individuals. Identified 585 trait-associated loci, 118 of which were novel. Demonstrated cell-type-specific gene expression mediation and genetic correlations between Japanese and European populations.",
+  "TAGS": [
+    "GWAS",
+    "Quantitative Traits",
+    "Cross-population"
+  ],
+  "PMID": 29403010,
+  "TITLE": "Genetic analysis of quantitative traits in the Japanese population links cell types to complex human diseases",
+  "FIRST_AUTHOR": "Kanai M",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2018
+}

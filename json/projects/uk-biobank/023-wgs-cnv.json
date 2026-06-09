@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — WGS-derived CNV PheWAS",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2023.11",
+  "STAGE_ORDER": 2023.93,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes, including CNV-pQTL and phenome-wide associations.",
+  "TAGS": [
+    "WGS",
+    "CNV",
+    "Structural Variant"
+  ],
+  "PMID": 41639462,
+  "TITLE": "Phenome-wide analysis of copy number variants in 470,727 UK Biobank genomes",
+  "FIRST_AUTHOR": "Zou XZ",
+  "JOURNAL": "Nature",
+  "YEAR": 2026
+}

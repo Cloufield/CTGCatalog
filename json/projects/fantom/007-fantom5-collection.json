@@ -1,0 +1,22 @@
+{
+  "NAME": "FANTOM5 — Data collection & web resource",
+  "SECTION": "Projects",
+  "TOPIC": "FANTOM",
+  "TYPE": "Project",
+  "CATEGORY": "FANTOM5+ & Web Resource",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2017,
+  "URL": "https://fantom.gsc.riken.jp/",
+  "DESCRIPTION": "Systematic description of the FANTOM5 data collection, including CAGE profiling of 975 human and 152 mouse samples, transcription factor expression data, and the Zenbu genome browser interface. Data series underpinning the mammalian transcriptome atlases.",
+  "TAGS": [
+    "FANTOM5",
+    "Data Collection",
+    "Zenbu"
+  ],
+  "PMID": 28850107,
+  "TITLE": "The FANTOM5 collection, a data series underpinning mammalian transcriptome atlases in diverse cell types",
+  "FIRST_AUTHOR": "Kawaji H",
+  "JOURNAL": "Sci Data",
+  "YEAR": 2017
+}

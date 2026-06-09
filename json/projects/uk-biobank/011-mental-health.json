@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — Mental health questionnaire",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Phenotypes & Health Records",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2016–2017",
+  "STAGE_ORDER": 2016,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "137k participants completed online mental health assessment covering subjective well-being, psychotic experiences, self-harm, traumatic events, cannabis and alcohol use (PHQ-9, GAD-7).",
+  "TAGS": [
+    "Phenotypes",
+    "Mental Health"
+  ],
+  "PMID": 30178800,
+  "TITLE": "Mental health in UK Biobank: development, implementation and results from an online questionnaire completed by 157,366 participants",
+  "FIRST_AUTHOR": "Davis KAS",
+  "JOURNAL": "BJPsych Open",
+  "YEAR": 2018
+}

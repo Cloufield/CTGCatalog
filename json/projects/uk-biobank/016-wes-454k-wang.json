@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Rare variant gene-based collapsing analysis",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2021",
+  "STAGE_ORDER": 2021.1,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Gene-based collapsing analysis in 281k participants identified 1,703 gene-phenotype associations. Rare variant contribution to common disease demonstrated.",
+  "TAGS": [
+    "WES",
+    "Rare Variant",
+    "Collapsing"
+  ],
+  "PMID": 34375979,
+  "TITLE": "Rare variant contribution to human disease in 281,104 UK Biobank exomes",
+  "FIRST_AUTHOR": "Wang Q",
+  "JOURNAL": "Nature",
+  "YEAR": 2021
+}

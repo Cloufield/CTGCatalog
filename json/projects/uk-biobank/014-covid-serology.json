@@ -1,0 +1,16 @@
+{
+  "NAME": "UK Biobank — COVID-19 serology monitoring",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Phenotypes & Health Records",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2020–2021",
+  "STAGE_ORDER": 2020,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "20,000 volunteers (participants plus children and grandchildren) collected monthly blood samples for SARS-CoV-2 antibody analysis.",
+  "TAGS": [
+    "COVID-19",
+    "Serology"
+  ]
+}

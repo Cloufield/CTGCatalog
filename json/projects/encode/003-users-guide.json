@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE — User's Guide to the Encyclopedia",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "Pilot Phase (2003–2011)",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2011",
+  "STAGE_ORDER": 2011,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "Comprehensive guide to the ENCODE resource, describing data types, experimental protocols, analysis pipelines, and data access tools. Provided the framework for understanding the full-genome ENCODE project and the upcoming 2012 Nature publications.",
+  "TAGS": [
+    "ENCODE",
+    "Resource",
+    "Guide"
+  ],
+  "PMID": 21526222,
+  "TITLE": "A User's Guide to the Encyclopedia of DNA Elements (ENCODE)",
+  "FIRST_AUTHOR": "ENCODE Project Consortium",
+  "JOURNAL": "PLoS Biol",
+  "YEAR": 2011
+}

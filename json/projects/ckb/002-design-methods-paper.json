@@ -1,0 +1,22 @@
+{
+  "NAME": "CKB — Survey methods, baseline & follow-up design",
+  "SECTION": "Projects",
+  "TOPIC": "CKB",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2011",
+  "STAGE_ORDER": 2011,
+  "URL": "https://www.ckbiobank.org/",
+  "DESCRIPTION": "Flagship design paper describing CKB: survey methods, baseline characteristics, assay protocols, and long-term follow-up through disease registries and health insurance databases.",
+  "TAGS": [
+    "Design",
+    "Cohort",
+    "Protocol"
+  ],
+  "PMID": 22158673,
+  "TITLE": "China Kadoorie Biobank of 0.5 million people: survey methods, baseline characteristics and long-term follow-up",
+  "FIRST_AUTHOR": "Chen Z",
+  "JOURNAL": "Int J Epidemiol",
+  "YEAR": 2011
+}

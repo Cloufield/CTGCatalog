@@ -1,0 +1,22 @@
+{
+  "NAME": "ENCODE2 — Landscape of transcription in human cells",
+  "SECTION": "Projects",
+  "TOPIC": "ENCODE",
+  "TYPE": "Project",
+  "CATEGORY": "ENCODE2: Full Genome (2012–2014)",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2012",
+  "STAGE_ORDER": 2012.1,
+  "URL": "https://www.encodeproject.org/",
+  "DESCRIPTION": "Comprehensive RNA-seq analysis of the human transcriptome across multiple cell lines, revealing pervasive transcription with 62% of the genome covered by processed transcripts, thousands of novel non-coding RNAs, and extensive RNA processing complexity.",
+  "TAGS": [
+    "ENCODE2",
+    "Transcriptome",
+    "RNA-seq"
+  ],
+  "PMID": 22955620,
+  "TITLE": "Landscape of transcription in human cells",
+  "FIRST_AUTHOR": "Djebali S",
+  "JOURNAL": "Nature",
+  "YEAR": 2012
+}

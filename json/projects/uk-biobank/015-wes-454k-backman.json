@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — WES full expansion (454k)",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2021",
+  "STAGE_ORDER": 2021,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "WES expanded to ~454k participants, enabling comprehensive rare-variant association studies at biobank scale.",
+  "TAGS": [
+    "WES",
+    "Exome"
+  ],
+  "PMID": 34662886,
+  "TITLE": "Exome sequencing and analysis of 454,787 UK Biobank participants",
+  "FIRST_AUTHOR": "Backman JD",
+  "JOURNAL": "Nature",
+  "YEAR": 2021
+}

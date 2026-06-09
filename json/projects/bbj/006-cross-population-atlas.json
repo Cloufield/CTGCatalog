@@ -1,0 +1,22 @@
+{
+  "NAME": "BBJ — Cross-population atlas of 220 phenotypes",
+  "SECTION": "Projects",
+  "TOPIC": "BBJ",
+  "TYPE": "Project",
+  "CATEGORY": "GWAS & Genetics",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2021",
+  "STAGE_ORDER": 2021,
+  "URL": "https://biobankjp.org/",
+  "DESCRIPTION": "Cross-population GWAS atlas integrating BBJ, UK Biobank, and FinnGen for 220 phenotypes. Identified thousands of novel loci through trans-ancestry meta-analysis, improving fine-mapping resolution with diverse ancestry. BBJ was critical for East Asian representation.",
+  "TAGS": [
+    "GWAS",
+    "Cross-population",
+    "Trans-ancestry"
+  ],
+  "PMID": 34594039,
+  "TITLE": "A cross-population atlas of genetic associations for 220 human phenotypes",
+  "FIRST_AUTHOR": "Sakaue S",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2021
+}

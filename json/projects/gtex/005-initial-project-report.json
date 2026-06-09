@@ -1,0 +1,22 @@
+{
+  "NAME": "GTEx — Initial project report",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2013",
+  "STAGE_ORDER": 2010,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "First comprehensive description of the GTEx project design, including tissue collection protocols, RNA-seq and genotyping methods, and the initial data release strategy.",
+  "TAGS": [
+    "GTEx",
+    "eQTL",
+    "Project Design"
+  ],
+  "PMID": 23715323,
+  "TITLE": "The Genotype-Tissue Expression (GTEx) project",
+  "FIRST_AUTHOR": "Lonsdale J",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2013
+}

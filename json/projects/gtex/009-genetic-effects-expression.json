@@ -1,0 +1,23 @@
+{
+  "NAME": "GTEx — Genetic effects on gene expression across tissues",
+  "SECTION": "Projects",
+  "TOPIC": "GTEx",
+  "TYPE": "Project",
+  "CATEGORY": "GTEx Core",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2017",
+  "STAGE_ORDER": 2015.1,
+  "URL": "https://gtexportal.org/",
+  "DESCRIPTION": "Analysis of genetic effects on gene expression using 7,051 RNA-seq samples from 449 donors across 44 tissues. Identified thousands of cis- and trans-eQTLs.",
+  "TAGS": [
+    "GTEx",
+    "eQTL",
+    "Cis-eQTL",
+    "Trans-eQTL"
+  ],
+  "PMID": 29022597,
+  "TITLE": "Genetic effects on gene expression across human tissues",
+  "FIRST_AUTHOR": "Tukiainen T",
+  "JOURNAL": "Nature",
+  "YEAR": 2017
+}

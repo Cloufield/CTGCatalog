@@ -1,0 +1,21 @@
+{
+  "NAME": "UK Biobank — WGS full 500k release",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2023.11",
+  "STAGE_ORDER": 2023.9,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "WGS released for all 500,000 participants — the largest whole-genome sequencing dataset ever released for medical research. Sequencing by deCODE Genetics & Wellcome Sanger Institute.",
+  "TAGS": [
+    "WGS",
+    "Whole Genome"
+  ],
+  "PMID": 38036674,
+  "TITLE": "World's biggest set of human genome sequences opens to scientists",
+  "FIRST_AUTHOR": "Callaway E",
+  "JOURNAL": "Nature (News)",
+  "YEAR": 2023
+}

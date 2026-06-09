@@ -1,0 +1,22 @@
+{
+  "NAME": "UK Biobank — Telomere length GWAS (WGS)",
+  "SECTION": "Projects",
+  "TOPIC": "UK Biobank",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2023.11",
+  "STAGE_ORDER": 2023.92,
+  "URL": "https://www.ukbiobank.ac.uk/",
+  "DESCRIPTION": "Genetic architecture of telomere length in 462,666 UK Biobank whole-genome sequences, identifying both common and rare variant associations.",
+  "TAGS": [
+    "WGS",
+    "Telomere",
+    "GWAS"
+  ],
+  "PMID": 39198591,
+  "TITLE": "Genetic architecture of telomere length in 462,666 UK Biobank whole-genome sequences",
+  "FIRST_AUTHOR": "Codd V",
+  "JOURNAL": "Nat Genet",
+  "YEAR": 2024
+}

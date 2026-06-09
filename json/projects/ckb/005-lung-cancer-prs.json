@@ -1,0 +1,22 @@
+{
+  "NAME": "CKB — Lung cancer GWAS & polygenic risk score",
+  "SECTION": "Projects",
+  "TOPIC": "CKB",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2019",
+  "STAGE_ORDER": 2019,
+  "URL": "https://www.ckbiobank.org/",
+  "DESCRIPTION": "Large-scale GWAS of lung cancer in Chinese populations identifying novel risk loci, plus development of a polygenic risk score for lung cancer risk stratification in the CKB prospective cohort.",
+  "TAGS": [
+    "GWAS",
+    "PRS",
+    "Lung Cancer"
+  ],
+  "PMID": 31326317,
+  "TITLE": "Identification of risk loci and a polygenic risk score for lung cancer: a large-scale prospective cohort study in Chinese",
+  "FIRST_AUTHOR": "Dai J",
+  "JOURNAL": "Lancet Respir Med",
+  "YEAR": 2019
+}
