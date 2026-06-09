@@ -1,0 +1,23 @@
+{
+  "NAME": "ExAC — Nature paper & v1.0 release",
+  "SECTION": "Projects",
+  "TOPIC": "gnomAD",
+  "TYPE": "Project",
+  "CATEGORY": "Launch & Foundation",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2016",
+  "STAGE_ORDER": 2016,
+  "URL": "https://gnomad.broadinstitute.org/",
+  "DESCRIPTION": "ExAC v1.0 published in Nature (Lek et al., 2016), analyzing exome data from 60,706 individuals. This landmark resource cataloged over 10 million variants, established allele frequency filters for clinical variant interpretation, and demonstrated that most genes are extremely tolerant of loss-of-function variation. The ExAC browser became the de facto standard for variant annotation.",
+  "TAGS": [
+    "ExAC",
+    "Nature",
+    "Loss-of-function",
+    "Variant Interpretation"
+  ],
+  "PMID": 27535533,
+  "TITLE": "Analysis of protein-coding genetic variation in 60,706 humans",
+  "FIRST_AUTHOR": "Lek M",
+  "JOURNAL": "Nature",
+  "YEAR": 2016
+}

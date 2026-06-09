@@ -1,0 +1,18 @@
+{
+  "NAME": "MVP — WES & pharmacogenomics expansion",
+  "SECTION": "Projects",
+  "TOPIC": "MVP",
+  "TYPE": "Project",
+  "CATEGORY": "Sequencing & Beyond",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2022–2024",
+  "STAGE_ORDER": 2022,
+  "URL": "https://www.mvp.va.gov/",
+  "DESCRIPTION": "Whole-exome sequencing of MVP participants enabling rare variant association studies. Major pharmacogenomics initiatives leveraging the extensive VA medication records to discover genetic determinants of drug response and adverse reactions across diverse ancestries.",
+  "TAGS": [
+    "WES",
+    "Pharmacogenomics",
+    "Rare Variant",
+    "Drug Response"
+  ]
+}

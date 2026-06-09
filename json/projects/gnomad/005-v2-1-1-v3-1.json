@@ -1,0 +1,19 @@
+{
+  "NAME": "gnomAD v2.1.1 / v3.1 — Updated resources",
+  "SECTION": "Projects",
+  "TOPIC": "gnomAD",
+  "TYPE": "Project",
+  "CATEGORY": "Major Release",
+  "CATEGORY_ORDER": 5,
+  "STAGE_PERIOD": "2021–2022",
+  "STAGE_ORDER": 2021,
+  "URL": "https://gnomad.broadinstitute.org/",
+  "DESCRIPTION": "gnomAD v2.1.1 updated the exome dataset with improved QC and additional samples. v3.1 updated the genome dataset with new call sets and expanded to include structural variant (SV) calls. Introduced comprehensive SV resource across 14,891 genomes, revealing thousands of previously uncharacterized structural variants.",
+  "TAGS": [
+    "v2.1.1",
+    "v3.1",
+    "Structural Variant",
+    "SV",
+    "Update"
+  ]
+}

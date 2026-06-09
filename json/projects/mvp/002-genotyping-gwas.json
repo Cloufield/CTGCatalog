@@ -1,0 +1,19 @@
+{
+  "NAME": "MVP — Genotyping & initial GWAS",
+  "SECTION": "Projects",
+  "TOPIC": "MVP",
+  "TYPE": "Project",
+  "CATEGORY": "Genomics",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2015–2019",
+  "STAGE_ORDER": 2015,
+  "URL": "https://www.mvp.va.gov/",
+  "DESCRIPTION": "Genome-wide genotyping of MVP participants using a custom MVP 1.0 array. Initial GWAS across key phenotypes including coronary artery disease, type 2 diabetes, and PTSD demonstrated the unique value of the veteran cohort for genetic discovery.",
+  "TAGS": [
+    "Array",
+    "Genotyping",
+    "GWAS",
+    "PTSD",
+    "CAD"
+  ]
+}

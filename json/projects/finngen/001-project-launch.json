@@ -1,0 +1,18 @@
+{
+  "NAME": "FinnGen — Project launch & enrollment",
+  "SECTION": "Projects",
+  "TOPIC": "FinnGen",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2017–2018",
+  "STAGE_ORDER": 2017,
+  "URL": "https://www.finngen.fi/en",
+  "DESCRIPTION": "FinnGen launched in 2017 as a public-private partnership combining genome information with digital health care data from Finnish biobanks and national health registers. Aims to recruit 500,000 Finnish participants, leveraging the population bottleneck effect of Finland for genetic discovery.",
+  "TAGS": [
+    "Launch",
+    "Enrollment",
+    "Finnish",
+    "Population Bottleneck"
+  ]
+}

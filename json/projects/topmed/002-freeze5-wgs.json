@@ -1,0 +1,18 @@
+{
+  "NAME": "TOPMed — Freeze 5, first major WGS release",
+  "SECTION": "Projects",
+  "TOPIC": "TOPMed",
+  "TYPE": "Project",
+  "CATEGORY": "Data Releases",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2017–2018",
+  "STAGE_ORDER": 2017,
+  "URL": "https://topmed.nhlbi.nih.gov/",
+  "DESCRIPTION": "First major whole-genome sequencing data freeze (Freeze 5) covering ~14k genomes from diverse ancestral populations including African American, Hispanic/Latino, Asian, and European individuals. Established the TOPMed variant discovery and quality control pipeline.",
+  "TAGS": [
+    "WGS",
+    "Freeze 5",
+    "Diverse",
+    "Variant Discovery"
+  ]
+}

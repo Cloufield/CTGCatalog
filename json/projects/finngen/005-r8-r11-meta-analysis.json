@@ -1,0 +1,18 @@
+{
+  "NAME": "FinnGen — R8–R12 & cross-biobank meta-analysis",
+  "SECTION": "Projects",
+  "TOPIC": "FinnGen",
+  "TYPE": "Project",
+  "CATEGORY": "Data Releases",
+  "CATEGORY_ORDER": 5,
+  "STAGE_PERIOD": "2022–2024",
+  "STAGE_ORDER": 2022.5,
+  "URL": "https://www.finngen.fi/en/researchers",
+  "DESCRIPTION": "R8–R12 data freezes with progressive sample size increases and phenotype expansion. Cross-biobank meta-analyses with UK Biobank (R10-UKBB, R12-UKBB meta) and later integration with Kanta electronic health record laboratory values, enabling large-scale genetic discovery across populations.",
+  "TAGS": [
+    "Meta-analysis",
+    "Cross-biobank",
+    "Kanta",
+    "Laboratory Traits"
+  ]
+}

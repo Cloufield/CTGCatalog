@@ -1,0 +1,18 @@
+{
+  "NAME": "TOPMed — Freeze 8, multi-ancestry expansion",
+  "SECTION": "Projects",
+  "TOPIC": "TOPMed",
+  "TYPE": "Project",
+  "CATEGORY": "Data Releases",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2019–2020",
+  "STAGE_ORDER": 2019,
+  "URL": "https://topmed.nhlbi.nih.gov/",
+  "DESCRIPTION": "Freeze 8 expanded WGS to ~62k participants, substantially increasing representation of African American, Hispanic/Latino, Asian, and other ancestries. Enabled deep variant discovery with >400M variants including many rare and population-specific alleles. Became the gold-standard imputation reference panel for multi-ethnic studies.",
+  "TAGS": [
+    "WGS",
+    "Freeze 8",
+    "Multi-ancestry",
+    "Imputation Reference"
+  ]
+}

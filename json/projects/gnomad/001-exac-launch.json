@@ -1,0 +1,19 @@
+{
+  "NAME": "ExAC/gnomAD — Exome Aggregation Consortium launch",
+  "SECTION": "Projects",
+  "TOPIC": "gnomAD",
+  "TYPE": "Project",
+  "CATEGORY": "Launch & Foundation",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2014–2015",
+  "STAGE_ORDER": 2014,
+  "URL": "https://gnomad.broadinstitute.org/",
+  "DESCRIPTION": "Exome Aggregation Consortium (ExAC) launched at the Broad Institute with exome data from 61,486 individuals across multiple disease-specific and population genetic studies. Provided the first comprehensive reference of population genetic variation, transforming variant interpretation in medical genetics.",
+  "TAGS": [
+    "ExAC",
+    "Exome",
+    "Launch",
+    "Variant Reference",
+    "Broad"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "NAME": "MVP — Large-scale disease-specific GWAS & WGS",
+  "SECTION": "Projects",
+  "TOPIC": "MVP",
+  "TYPE": "Project",
+  "CATEGORY": "GWAS Discovery",
+  "CATEGORY_ORDER": 5,
+  "STAGE_PERIOD": "2023–2025",
+  "STAGE_ORDER": 2023,
+  "URL": "https://www.mvp.va.gov/",
+  "DESCRIPTION": "Expanded disease-specific GWAS across hundreds of traits leveraging the deep EHR phenotyping in the VA system. Whole-genome sequencing of a subset of participants for comprehensive variant discovery. MVP data contributed to multi-biobank meta-analyses with FinnGen and UK Biobank spanning thousands of phenotypes.",
+  "TAGS": [
+    "WGS",
+    "PheWAS",
+    "Multi-biobank",
+    "EHR"
+  ]
+}

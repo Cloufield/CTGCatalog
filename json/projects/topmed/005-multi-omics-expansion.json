@@ -1,0 +1,19 @@
+{
+  "NAME": "TOPMed — WGS freeze expansion & multi-omics integration",
+  "SECTION": "Projects",
+  "TOPIC": "TOPMed",
+  "TYPE": "Project",
+  "CATEGORY": "Data Releases",
+  "CATEGORY_ORDER": 5,
+  "STAGE_PERIOD": "2022–2025",
+  "STAGE_ORDER": 2022,
+  "URL": "https://topmed.nhlbi.nih.gov/",
+  "DESCRIPTION": "Continued expansion of TOPMed WGS to over 100k participants across >50 NHLBI cohort studies. Integration of whole-genome sequencing with epigenomics, transcriptomics, proteomics, and metabolomics data. Open access to sequencing data and variant annotations through the BRAVEO browser and dbGaP, serving as a critical resource for the global genetics community.",
+  "TAGS": [
+    "Multi-omic",
+    "WGS",
+    "Proteomics",
+    "Epigenomics",
+    "BRAVEO"
+  ]
+}

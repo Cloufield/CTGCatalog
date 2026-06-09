@@ -1,0 +1,19 @@
+{
+  "NAME": "TOPMed — Flagship publications & cross-trait analyses",
+  "SECTION": "Projects",
+  "TOPIC": "TOPMed",
+  "TYPE": "Project",
+  "CATEGORY": "Scientific Discovery",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2020–2022",
+  "STAGE_ORDER": 2020,
+  "URL": "https://topmed.nhlbi.nih.gov/",
+  "DESCRIPTION": "Series of landmark papers from TOPMed studies spanning blood pressure, lipid, pulmonary function, and glycemic trait GWAS leveraging the unique WGS data for rare variant association testing. Demonstrated value of deep WGS in diverse populations for fine-mapping and identifying causal variants. Multi-ancestry meta-analyses improved fine-mapping resolution at loci with divergent LD patterns.",
+  "TAGS": [
+    "GWAS",
+    "Rare Variant",
+    "Fine-mapping",
+    "Blood Pressure",
+    "Lipids"
+  ]
+}

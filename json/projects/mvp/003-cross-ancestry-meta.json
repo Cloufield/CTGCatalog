@@ -1,0 +1,18 @@
+{
+  "NAME": "MVP — Cross-ancestry GWAS & meta-analysis",
+  "SECTION": "Projects",
+  "TOPIC": "MVP",
+  "TYPE": "Project",
+  "CATEGORY": "GWAS Discovery",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2020–2023",
+  "STAGE_ORDER": 2020,
+  "URL": "https://www.mvp.va.gov/",
+  "DESCRIPTION": "MVP expanded to >850k participants with diverse ancestry representation including substantial African American, Hispanic, and Asian cohorts. Large-scale cross-ancestry GWAS meta-analyses with FinnGen and UK Biobank across cardiovascular, metabolic, psychiatric, and aging-related traits. Demonstrated generalizability and ancestry-specific effects of genetic associations.",
+  "TAGS": [
+    "Meta-analysis",
+    "Cross-ancestry",
+    "Multi-ethnic",
+    "NHLBI"
+  ]
+}

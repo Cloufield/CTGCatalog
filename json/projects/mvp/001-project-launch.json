@@ -1,0 +1,19 @@
+{
+  "NAME": "MVP — Million Veteran Program launch",
+  "SECTION": "Projects",
+  "TOPIC": "MVP",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design & Enrollment",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2011–2015",
+  "STAGE_ORDER": 2011,
+  "URL": "https://www.mvp.va.gov/",
+  "DESCRIPTION": "Million Veteran Program launched by the US Department of Veterans Affairs as a national research program to study how genes, lifestyle, and military exposures affect health and disease. Aims to enroll over one million US veterans, creating one of the world's largest and most diverse biobanks with rich EHR data.",
+  "TAGS": [
+    "Launch",
+    "Enrollment",
+    "VA",
+    "Veterans",
+    "Diverse"
+  ]
+}

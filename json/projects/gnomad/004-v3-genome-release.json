@@ -1,0 +1,18 @@
+{
+  "NAME": "gnomAD v3 — Genome-only release",
+  "SECTION": "Projects",
+  "TOPIC": "gnomAD",
+  "TYPE": "Project",
+  "CATEGORY": "Major Release",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2020–2021",
+  "STAGE_ORDER": 2020,
+  "URL": "https://gnomad.broadinstitute.org/",
+  "DESCRIPTION": "gnomAD v3 released 71,702 whole genomes aligned to GRCh38, providing coverage of both coding and non-coding regions. Enabled genome-wide constraint metrics and non-coding variant interpretation. The transition to GRCh38 improved compatibility with modern genomic analyses.",
+  "TAGS": [
+    "v3",
+    "WGS",
+    "GRCh38",
+    "Non-coding"
+  ]
+}

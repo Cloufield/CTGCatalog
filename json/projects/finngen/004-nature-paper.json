@@ -1,0 +1,23 @@
+{
+  "NAME": "FinnGen — Nature flagship paper (R7)",
+  "SECTION": "Projects",
+  "TOPIC": "FinnGen",
+  "TYPE": "Project",
+  "CATEGORY": "Flagship Publication",
+  "CATEGORY_ORDER": 4,
+  "STAGE_PERIOD": "2022–2023",
+  "STAGE_ORDER": 2022,
+  "URL": "https://www.finngen.fi/en",
+  "DESCRIPTION": "FinnGen R7 data freeze of 224,737 participants analyzed across 1,932 disease endpoints. Identified 30 new low-frequency variant associations enriched in Finland, and 2,733 genome-wide significant associations through phenome-wide scanning. Published in Nature (Kurki et al., 2023).",
+  "TAGS": [
+    "Nature",
+    "Flagship",
+    "PheWAS",
+    "Low-frequency Variant"
+  ],
+  "PMID": 36653562,
+  "TITLE": "FinnGen provides genetic insights from a well-phenotyped isolated population",
+  "FIRST_AUTHOR": "Kurki MI",
+  "JOURNAL": "Nature",
+  "YEAR": 2023
+}

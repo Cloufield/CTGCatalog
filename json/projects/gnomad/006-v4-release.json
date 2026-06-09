@@ -1,0 +1,20 @@
+{
+  "NAME": "gnomAD v4 — Massive multi-ancestry expansion",
+  "SECTION": "Projects",
+  "TOPIC": "gnomAD",
+  "TYPE": "Project",
+  "CATEGORY": "Major Release",
+  "CATEGORY_ORDER": 6,
+  "STAGE_PERIOD": "2023–2024",
+  "STAGE_ORDER": 2023,
+  "URL": "https://gnomad.broadinstitute.org/",
+  "DESCRIPTION": "gnomAD v4 dramatically expanded to 807,098 exomes and 76,215 genomes, with substantially improved ancestral diversity. v4 included >30 genetic ancestry groups, enabling more precise population-specific allele frequency estimates. New constraint metrics across diverse ancestries and improved structural variant calls made this the most comprehensive human variation resource ever created.",
+  "TAGS": [
+    "v4",
+    "Multi-ancestry",
+    "Exome",
+    "Genome",
+    "Constraint",
+    "Diversity"
+  ]
+}

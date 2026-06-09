@@ -1,0 +1,18 @@
+{
+  "NAME": "TOPMed — Program launch & design",
+  "SECTION": "Projects",
+  "TOPIC": "TOPMed",
+  "TYPE": "Project",
+  "CATEGORY": "Study Design",
+  "CATEGORY_ORDER": 1,
+  "STAGE_PERIOD": "2014–2016",
+  "STAGE_ORDER": 2014,
+  "URL": "https://topmed.nhlbi.nih.gov/",
+  "DESCRIPTION": "Trans-Omics for Precision Medicine (TOPMed) program launched by the NHLBI as part of the Precision Medicine Initiative. Designed to generate whole-genome sequencing data from diverse populations across NHLBI-funded cohort studies, integrating multi-omics data with detailed phenotypes to study heart, lung, blood, and sleep disorders.",
+  "TAGS": [
+    "Launch",
+    "NHLBI",
+    "Precision Medicine",
+    "Multi-omic"
+  ]
+}

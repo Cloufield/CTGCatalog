@@ -1,0 +1,17 @@
+{
+  "NAME": "FinnGen — Early data releases (R1–R3)",
+  "SECTION": "Projects",
+  "TOPIC": "FinnGen",
+  "TYPE": "Project",
+  "CATEGORY": "Data Releases",
+  "CATEGORY_ORDER": 2,
+  "STAGE_PERIOD": "2018–2020",
+  "STAGE_ORDER": 2018,
+  "URL": "https://www.finngen.fi/en/researchers",
+  "DESCRIPTION": "Initial data freezes (R1–R3) with growing sample sizes and phenotype coverage. Demonstrated the power of the Finnish population isolate for identifying low-frequency variant associations.",
+  "TAGS": [
+    "Data Freeze",
+    "GWAS",
+    "Early Access"
+  ]
+}

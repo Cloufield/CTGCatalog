@@ -1,0 +1,18 @@
+{
+  "NAME": "gnomAD v2.1 — Exome + Genome expansion",
+  "SECTION": "Projects",
+  "TOPIC": "gnomAD",
+  "TYPE": "Project",
+  "CATEGORY": "Major Release",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2017–2019",
+  "STAGE_ORDER": 2017,
+  "URL": "https://gnomad.broadinstitute.org/",
+  "DESCRIPTION": "Rebranded to Genome Aggregation Database (gnomAD) with broadened scope. gnomAD v2.1 released 125,748 exomes and 15,708 genomes — a massive expansion over ExAC. Introduced population-specific allele frequency data across multiple ancestral groups and provided the most comprehensive catalog of human genetic variation to date.",
+  "TAGS": [
+    "v2.1",
+    "Exome",
+    "Genome",
+    "Population Reference"
+  ]
+}

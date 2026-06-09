@@ -1,0 +1,17 @@
+{
+  "NAME": "FinnGen — R4–R6 major expansion",
+  "SECTION": "Projects",
+  "TOPIC": "FinnGen",
+  "TYPE": "Project",
+  "CATEGORY": "Data Releases",
+  "CATEGORY_ORDER": 3,
+  "STAGE_PERIOD": "2020–2021",
+  "STAGE_ORDER": 2020,
+  "URL": "https://www.finngen.fi/en/researchers",
+  "DESCRIPTION": "R4 (Nov 2020), R5 (May 2021), and R6 (Jan 2022) releases with expanded sample size and phenotype coverage. R4 marked the first major public data release enabling broad GWAS discovery across the Finnish population.",
+  "TAGS": [
+    "Data Freeze",
+    "GWAS",
+    "Expansion"
+  ]
+}
