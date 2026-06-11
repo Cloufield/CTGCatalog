@@ -1,0 +1,28 @@
+{
+  "NAME": "CRISPR-GPT",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "CRISPR-GPT",
+  "FULL NAME": "CRISPR-GPT - Agentic Automation of Gene-Editing Experiments",
+  "PMID": 40738974,
+  "PMC ID": "PMC12920143",
+  "DOI": "10.1038/s41551-025-01463-z",
+  "URL": "https://github.com/bowang-lab/CRISPR-GPT",
+  "DESCRIPTION": "CRISPR-GPT is an LLM-based agent system for automating gene-editing experiments. It leverages large language models to guide researchers through the entire CRISPR experiment workflow, including guide RNA design, off-target prediction, experimental protocol generation, and result interpretation, making gene-editing more accessible to non-expert researchers.",
+  "MANUAL_CITATION": "Qu Y, Huang K, Yin M, et al. (2026) CRISPR-GPT for agentic automation of gene-editing experiments. Nat Biomed Eng. 10(2):245-258. doi:10.1038/s41551-025-01463-z. PMID 40738974",
+  "TAGS": ["AI", "Agent", "CRISPR", "Gene Editing", "LLM", "Biomedical Engineering", "Automation"],
+  "TITLE": "CRISPR-GPT for agentic automation of gene-editing experiments.",
+  "ISO": "Nat Biomed Eng",
+  "JOURNAL": "Nature Biomedical Engineering",
+  "YEAR": "2026",
+  "VOLUME": "10",
+  "ISSUE": "2",
+  "PAGE": "245-258",
+  "Authors": "Qu Y,Huang K,Yin M,Zhan K,Liu D,Yin D,Cousins HC,Johnson WA,Wang X,Shah M,Altman RB,Zhou D,Wang M,Cong L",
+  "ABSTRACT": "Performing effective gene-editing experiments requires a deep understanding of both the CRISPR technology and the biological system involved. Meanwhile, despite their versatility and promise, large language models have not been fully leveraged for automated experimental design in molecular biology. Here we present CRISPR-GPT, an LLM-based agent system for automating gene-editing experiments across the entire CRISPR workflow, including guide RNA design, off-target prediction, experimental protocol generation, and result interpretation.",
+  "FIRST_AUTHOR": "Qu Y",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

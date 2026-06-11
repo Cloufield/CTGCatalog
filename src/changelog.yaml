@@ -1,6 +1,12 @@
 2026-06-11:
   - "Added 4 AI agent papers to **AI** > **Agent**: Robin (PMID 42156546), Co-Scientist (PMID 42156544), DeepRare (PMID 41708847), Virtual Lab (PMID 40730228)"
   - "Updated scPRS metadata (vol/issue/pages/PMCID/year) in **Tools** > **Polygenic risk scores**"
+  - "Added AI agents review from **Cell** (PMID 39486399) to **AI** > **Agent**"
+  - "Added ChemCrow (PMID 38799228) from **Nat Mach Intell** to **AI** > **Agent**"
+  - "Added SciToolAgent (PMID 40835791) from **Nat Comput Sci** to **AI** > **Agent**"
+  - "Added SciSciGPT (PMID 41366152) from **Nat Comput Sci** to **AI** > **Agent**"
+  - "Added CRISPR-GPT (PMID 40738974) from **Nat Biomed Eng** to **AI** > **Agent**"
+  - "Added AI agents in cancer research review (PMID 41526721) from **Nat Rev Cancer** to **AI** > **Agent**"
 2026-06-09:
   - "Added phbc.json to **Tools** > **Heritability and genetic correlation**"
   - "Added 5 ancient DNA entries to **Tools** > **Population genetics** > **Ancient DNA**"

@@ -1,0 +1,28 @@
+{
+  "NAME": "AI Agents in Cancer Research",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Review",
+  "SHORT NAME": "AI Agents Cancer",
+  "FULL NAME": "Artificial Intelligence Agents in Cancer Research and Oncology - A Review",
+  "PMID": 41526721,
+  "PMC ID": "PMC10733136",
+  "DOI": "10.1038/s41568-025-00900-0",
+  "URL": "",
+  "DESCRIPTION": "A comprehensive review from Nature Reviews Cancer examining how AI agents (beyond traditional ML classifiers) are transforming cancer research and oncology. Covers LLM-powered agents for clinical decision support, drug discovery, treatment planning, and patient care, including agentic systems capable of logical reasoning, multi-step planning, and tool use in oncology contexts.",
+  "MANUAL_CITATION": "Truhn D, Azizi S, Zou J, et al. (2026) Artificial intelligence agents in cancer research and oncology. Nat Rev Cancer. 26(4):256-269. doi:10.1038/s41568-025-00900-0. PMID 41526721",
+  "TAGS": ["AI", "Agent", "Cancer Research", "Oncology", "Review", "Clinical AI", "Nat Rev Cancer"],
+  "TITLE": "Artificial intelligence agents in cancer research and oncology.",
+  "ISO": "Nat Rev Cancer",
+  "JOURNAL": "Nature Reviews Cancer",
+  "YEAR": "2026",
+  "VOLUME": "26",
+  "ISSUE": "4",
+  "PAGE": "256-269",
+  "Authors": "Truhn D,Azizi S,Zou J,Cerda-Alberich L,Mahmood F,Kather JN",
+  "ABSTRACT": "Since 2022, artificial intelligence (AI) methods have progressed far beyond their established capabilities of data classification and prediction. Large language models (LLMs) can perform logical reasoning, multi-step planning, and tool use, enabling a new paradigm of AI agents for cancer research and oncology. This review examines how AI agents are transforming clinical decision support, drug discovery, treatment planning, and patient care in oncology.",
+  "FIRST_AUTHOR": "Truhn D",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

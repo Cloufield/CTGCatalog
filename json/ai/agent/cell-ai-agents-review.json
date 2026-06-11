@@ -1,0 +1,28 @@
+{
+  "NAME": "AI Agents in Biomedicine (Cell Review)",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Review",
+  "SHORT NAME": "AI Agents Review",
+  "FULL NAME": "Empowering Biomedical Discovery with AI Agents - A Comprehensive Review",
+  "PMID": 39486399,
+  "PMC ID": "",
+  "DOI": "10.1016/j.cell.2024.09.022",
+  "URL": "",
+  "DESCRIPTION": "A comprehensive review from Cell envisioning 'AI scientists' as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents integrating AI models and biomedical tools with expert human oversight. Covers the landscape of AI agents for biomedical discovery, including virtual laboratories, autonomous experimentation, and human-AI collaboration frameworks.",
+  "MANUAL_CITATION": "Gao S, Fang A, Huang Y, et al. (2024) Empowering biomedical discovery with AI agents. Cell. 187(22):6125-6151. doi:10.1016/j.cell.2024.09.022. PMID 39486399",
+  "TAGS": ["AI", "Agent", "Review", "Biomedical Discovery", "Cell", "AI Scientists"],
+  "TITLE": "Empowering biomedical discovery with AI agents.",
+  "ISO": "Cell",
+  "JOURNAL": "Cell",
+  "YEAR": "2024",
+  "VOLUME": "187",
+  "ISSUE": "22",
+  "PAGE": "6125-6151",
+  "Authors": "Gao S,Fang A,Huang Y,Giunchiglia V,Noori A,Schwarz JR,Ektefaie Y,Kondic J,Zitnik M",
+  "ABSTRACT": "We envision 'AI scientists' as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate AI models and biomedical tools with expert human oversight. This review covers the landscape of AI agents for biomedical discovery, including virtual laboratories, autonomous experimentation, and human-AI collaboration frameworks.",
+  "FIRST_AUTHOR": "Gao S",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

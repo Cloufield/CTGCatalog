@@ -1,0 +1,28 @@
+{
+  "NAME": "SciToolAgent",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "SciToolAgent",
+  "FULL NAME": "SciToolAgent - A Knowledge-Graph-Driven Scientific Agent for Multitool Integration",
+  "PMID": 40835791,
+  "PMC ID": "",
+  "DOI": "10.1038/s43588-025-00849-y",
+  "URL": "",
+  "DESCRIPTION": "SciToolAgent is a knowledge-graph-driven scientific agent that integrates multiple computational tools for scientific research. It leverages a knowledge graph to understand tool capabilities and relationships, enabling automated multi-tool workflow composition for complex scientific tasks across domains including bioinformatics, cheminformatics, and materials science.",
+  "MANUAL_CITATION": "Ding K, Yu J, Huang J, et al. (2025) SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration. Nat Comput Sci. 5(10):962-972. doi:10.1038/s43588-025-00849-y. PMID 40835791",
+  "TAGS": ["AI", "Agent", "Knowledge Graph", "Scientific Computing", "Tool Integration", "Multi-Agent"],
+  "TITLE": "SciToolAgent: a knowledge-graph-driven scientific agent for multitool integration.",
+  "ISO": "Nat Comput Sci",
+  "JOURNAL": "Nature Computational Science",
+  "YEAR": "2025",
+  "VOLUME": "5",
+  "ISSUE": "10",
+  "PAGE": "962-972",
+  "Authors": "Ding K,Yu J,Huang J,Yang Y,Zhang Q,Chen H",
+  "ABSTRACT": "Scientific research increasingly relies on specialized computational tools, yet effectively utilizing these tools requires substantial domain expertise. While large language models show promise in tool use, they struggle with complex multi-tool workflows. Here we introduce SciToolAgent, a knowledge-graph-driven scientific agent that integrates multiple computational tools for scientific research. By leveraging a knowledge graph to understand tool capabilities and relationships, SciToolAgent enables automated multi-tool workflow composition for complex scientific tasks.",
+  "FIRST_AUTHOR": "Ding K",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

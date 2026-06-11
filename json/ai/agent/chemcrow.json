@@ -1,0 +1,28 @@
+{
+  "NAME": "ChemCrow",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "ChemCrow",
+  "FULL NAME": "ChemCrow - Augmenting Large Language Models with Chemistry Tools",
+  "PMID": 38799228,
+  "PMC ID": "PMC11116106",
+  "DOI": "10.1038/s42256-024-00832-8",
+  "URL": "https://github.com/ur-whitelab/chemcrow-public",
+  "DESCRIPTION": "ChemCrow is an LLM-based agent system that augments large language models with 13 expert-designed chemistry tools, enabling autonomous chemical reasoning and experiment design. It integrates tools for organic synthesis, drug discovery, and materials design, allowing the agent to plan syntheses, analyze chemical properties, and execute complex chemical tasks through natural language interaction.",
+  "MANUAL_CITATION": "M Bran A, Cox S, Schilter O, et al. (2024) Augmenting large language models with chemistry tools. Nat Mach Intell. 6(5):525-535. doi:10.1038/s42256-024-00832-8. PMID 38799228",
+  "TAGS": ["AI", "Agent", "Chemistry", "LLM", "Tool-Augmented", "Drug Discovery"],
+  "TITLE": "Augmenting large language models with chemistry tools.",
+  "ISO": "Nat Mach Intell",
+  "JOURNAL": "Nature Machine Intelligence",
+  "YEAR": "2024",
+  "VOLUME": "6",
+  "ISSUE": "5",
+  "PAGE": "525-535",
+  "Authors": "M Bran A,Cox S,Schilter O,Baldassari C,White AD,Schwaller P",
+  "ABSTRACT": "Large language models (LLMs) have shown strong performance in tasks across domains but struggle with chemistry-related problems. These models also lack access to external knowledge sources, limiting their usefulness in scientific applications. Here we introduce ChemCrow, an LLM-based agent that integrates 13 expert-designed chemistry tools, enabling autonomous chemical reasoning and experiment design. ChemCrow successfully plans syntheses, analyzes chemical properties, and executes complex chemical tasks through natural language interaction.",
+  "FIRST_AUTHOR": "M Bran A",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

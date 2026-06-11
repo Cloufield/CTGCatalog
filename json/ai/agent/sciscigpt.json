@@ -1,0 +1,28 @@
+{
+  "NAME": "SciSciGPT",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "SciSciGPT",
+  "FULL NAME": "SciSciGPT - Advancing Human-AI Collaboration in the Science of Science",
+  "PMID": 41366152,
+  "PMC ID": "PMC13021501",
+  "DOI": "10.1038/s43588-025-00906-6",
+  "URL": "",
+  "DESCRIPTION": "SciSciGPT is an open-source, prototype AI collaborator that uses the domain of science of science as a testbed to explore LLM-powered scientific collaboration. It assists researchers in analyzing scientific literature, identifying research trends, generating hypotheses about scientific dynamics, and facilitating human-AI collaborative research in metascience and scientometrics.",
+  "MANUAL_CITATION": "Shao E, Wang Y, Qian Y, et al. (2026) SciSciGPT: advancing human-AI collaboration in the science of science. Nat Comput Sci. 6(3):301-315. doi:10.1038/s43588-025-00906-6. PMID 41366152",
+  "TAGS": ["AI", "Agent", "Science of Science", "Human-AI Collaboration", "Metascience", "Scientometrics"],
+  "TITLE": "SciSciGPT: advancing human-AI collaboration in the science of science.",
+  "ISO": "Nat Comput Sci",
+  "JOURNAL": "Nature Computational Science",
+  "YEAR": "2026",
+  "VOLUME": "6",
+  "ISSUE": "3",
+  "PAGE": "301-315",
+  "Authors": "Shao E,Wang Y,Qian Y,Pan Z,Liu H,Wang D",
+  "ABSTRACT": "We introduce SciSciGPT, an open-source, prototype artificial intelligence (AI) collaborator that uses the domain of science of science as a testbed to explore the potential of large language model-powered scientific collaboration. SciSciGPT assists researchers in analyzing scientific literature, identifying research trends, generating hypotheses about scientific dynamics, and facilitating human-AI collaborative research in metascience and scientometrics.",
+  "FIRST_AUTHOR": "Shao E",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
