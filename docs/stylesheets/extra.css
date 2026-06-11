@@ -1522,3 +1522,28 @@ article.md-content__inner[class*="catalog-section-"] .catalog-summary-table thea
   text-decoration: underline;
   text-underline-offset: 2px;
 }
+
+/* What's New section on homepage */
+.md-typeset .catalog-whatsnew {
+  margin: 0.15rem 0 1.5rem;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--catalog-radius-md);
+  border: 1px solid var(--catalog-elevated-border);
+  background-color: var(--catalog-elevated);
+  box-shadow: var(--catalog-shadow-sm);
+}
+.md-typeset .catalog-whatsnew ul {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem;
+}
+.md-typeset .catalog-whatsnew li {
+  margin: 0.2rem 0;
+  line-height: 1.5;
+}
+.md-typeset .catalog-whatsnew-more {
+  margin: 0.4rem 0 0;
+  font-size: 0.85em;
+}
+.md-typeset .catalog-whatsnew-more a {
+  font-weight: 500;
+}

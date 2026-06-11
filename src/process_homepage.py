@@ -1,10 +1,93 @@
 import html
+import yaml
+from pathlib import Path
 
 import pandas as pd
-import yaml
 
 from catalog_sources import HOMEPAGE_SUMSTATS_SHEETS
 from print_level import _SECTION_DEFAULT_BADGES
+
+
+CHANGELOG_PATH = Path(__file__).parent / "changelog.yaml"
+
+
+def _load_changelog() -> list[tuple[str, list[str]]]:
+    """Load changelog from YAML. Returns [(date_str, [entries]), ...] newest first."""
+    if not CHANGELOG_PATH.exists():
+        return []
+    with open(CHANGELOG_PATH, "r") as f:
+        data = yaml.safe_load(f) or {}
+    # Sort by date descending
+    return sorted(data.items(), key=lambda x: x[0], reverse=True)
+
+
+def _format_changelog_entry(entry: str) -> str:
+    """Render a single changelog line as HTML with markdown-like formatting."""
+    import re
+    # Bold (**text**)
+    entry = re.sub(r'\*\*(.*?)\*\*', r'<strong>\1</strong>', entry)
+    return f"<li>{entry}</li>"
+
+
+def write_whats_new_page() -> None:
+    """Write docs/Whats_New/index.md (full changelog page)."""
+    changelog = _load_changelog()
+    out_dir = Path(__file__).resolve().parents[1] / "docs" / "Whats_New"
+    out_dir.mkdir(parents=True, exist_ok=True)
+    path = out_dir / "index.md"
+
+    # Front matter: hide nav/sidebar
+    lines = [
+        "---",
+        "hide:",
+        "  - navigation",
+        "  - toc",
+        "  - tags",
+        "tags:",
+        "  - Changelog",
+        "---",
+        "",
+        "# What's New",
+        "",
+        "A running log of additions and updates to the catalog.",
+        "",
+    ]
+
+    if not changelog:
+        lines.append("_No entries yet._\n")
+    else:
+        for date_str, entries in changelog:
+            lines.append(f"## {date_str}\n")
+            for entry in entries:
+                lines.append(f"- {entry}")
+            lines.append("")
+
+    with open(path, "w") as f:
+        f.write("\n".join(lines) + "\n")
+
+
+def _generate_whats_new_preview(changelog: list[tuple[str, list[str]]], max_items: int = 5) -> str:
+    """Generate HTML preview of recent changelog entries for the homepage."""
+    if not changelog:
+        return "<p><em>No recent changes.</em></p>"
+
+    items: list[str] = []
+    count = 0
+    for date_str, entries in changelog:
+        for entry in entries:
+            if count >= max_items:
+                break
+            items.append(_format_changelog_entry(
+                f"**{date_str}** — {entry}"
+            ))
+            count += 1
+        if count >= max_items:
+            break
+
+    if not items:
+        return "<p><em>No recent changes.</em></p>"
+
+    return "<ul>\n" + "\n".join(items) + "\n</ul>"
 
 
 def _stats_counts_table_html(df: pd.DataFrame) -> str:
@@ -162,18 +245,25 @@ _HOMEPAGE_INTRO = """# Complex Trait Genetics Catalog
 <p>Literature trends from PubMed baseline: GWAS-related terms and journal rankings.</p>
 </a>
 </li>
-<li id="about">
-<div class="catalog-home-card-link catalog-home-card-link--static" markdown="block">
-<p><span class="catalog-card-icon" aria-hidden="true">ℹ️</span> <strong>About</strong></p>
-<hr>
-<p>For more complex trait genomics content, see <a href="https://cloufield.github.io/GWASTutorial/">GWASTutorial</a></p>
-<p>Contact: <a href="mailto:gwaslab@gmail.com">gwaslab@gmail.com</a></p>
-</div>
-</li>
-</ul>
-</div>
-
-"""
+|<li id="about">
+|<div class="catalog-home-card-link catalog-home-card-link--static" markdown="block">
+|<p><span class="catalog-card-icon" aria-hidden="true">ℹ️</span> <strong>About</strong></p>
+|<hr>
+|<p>For more complex trait genomics content, see <a href="https://cloufield.github.io/GWASTutorial/">GWASTutorial</a></p>
+|<p>Contact: <a href="mailto:gwaslab@gmail.com">gwaslab@gmail.com</a></p>
+|</div>
+|</li>
+|</ul>
+|</div>
+|
+|## What's New
+|
+|<div class="catalog-whatsnew">
+|{whats_new_preview}
+|<p class="catalog-whatsnew-more"><a href="Whats_New/">View full changelog →</a></p>
+|</div>
+|
+|"""
 
 
 def write_catalog_statistics_page(t: pd.DataFrame) -> None:
@@ -293,6 +383,10 @@ def write_catalog_statistics_page(t: pd.DataFrame) -> None:
 
 def write_homepage(table_and_ref: pd.DataFrame):
     write_catalog_statistics_page(table_and_ref)
+    write_whats_new_page()
+
+    changelog = _load_changelog()
+    whats_new_preview = _generate_whats_new_preview(changelog)
 
     index_path = "../docs/index.md"
     with open(index_path, "w") as homepage:
@@ -304,4 +398,4 @@ def write_homepage(table_and_ref: pd.DataFrame):
                 }
             )
         )
-        homepage.write(_HOMEPAGE_INTRO)
+        homepage.write(_HOMEPAGE_INTRO.format(whats_new_preview=whats_new_preview))

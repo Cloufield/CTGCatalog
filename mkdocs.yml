@@ -143,6 +143,7 @@ nav:
       - Polygenic_risk_scores: Tools_Polygenic_risk_scores.md
       - Power_analysis: Tools_Power_analysis.md
       - Proteomics: Tools_Proteomics.md
+      - Rare_disease: Tools_Rare_disease.md
       - Simulation: Tools_Simulation.md
       - Tissue_and_single_cell: Tools_Tissue_and_single_cell.md
       - Visualization:
@@ -167,6 +168,7 @@ nav:
       - Population Genetics: Population_Genetics.md 
       - Population_Genetics:
         - Admixture: Tools_Population_Genetics_Admixture.md
+        - Ancient_DNA: Tools_Population_Genetics_Ancient_DNA.md
         - Genealogy: Tools_Population_Genetics_Genealogy.md
         - Phylogenetic_tree: Tools_Population_Genetics_Phylogenetic_tree.md
         - Selection: Tools_Population_Genetics_Selection.md
@@ -194,11 +196,22 @@ nav:
     - Projects: 
       - Projects: Projects.md 
       - 1000_Genomes: Projects_1000_Genomes.md
+      - All_of_Us: Projects_All_of_Us.md
+      - BBJ: Projects_BBJ.md
+      - CKB: Projects_CKB.md
+      - ENCODE: Projects_ENCODE.md
+      - FANTOM: Projects_FANTOM.md
+      - FinnGen: Projects_FinnGen.md
       - GTEx: Projects_GTEx.md
+      - MVP: Projects_MVP.md
+      - Roadmap_Epigenomics: Projects_Roadmap_Epigenomics.md
+      - TOPMed: Projects_TOPMed.md
       - UK_Biobank: Projects_UK_Biobank.md
+      - gnomAD: Projects_gnomAD.md
     - AI: 
       - AI: AI.md 
       - Agent: AI_Agent.md
       - Coding: AI_Coding.md
-      - Genomic_models: AI_Genomic_models.md
+      - Genomic_language_model: AI_Genomic_language_model.md
       - Major_model_series: AI_Major_model_series.md
+      - Regulatory_model: AI_Regulatory_model.md
