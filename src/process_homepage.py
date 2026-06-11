@@ -245,25 +245,25 @@ _HOMEPAGE_INTRO = """# Complex Trait Genetics Catalog
 <p>Literature trends from PubMed baseline: GWAS-related terms and journal rankings.</p>
 </a>
 </li>
-|<li id="about">
-|<div class="catalog-home-card-link catalog-home-card-link--static" markdown="block">
-|<p><span class="catalog-card-icon" aria-hidden="true">ℹ️</span> <strong>About</strong></p>
-|<hr>
-|<p>For more complex trait genomics content, see <a href="https://cloufield.github.io/GWASTutorial/">GWASTutorial</a></p>
-|<p>Contact: <a href="mailto:gwaslab@gmail.com">gwaslab@gmail.com</a></p>
-|</div>
-|</li>
-|</ul>
-|</div>
-|
-|## What's New
-|
-|<div class="catalog-whatsnew">
-|{whats_new_preview}
-|<p class="catalog-whatsnew-more"><a href="Whats_New/">View full changelog →</a></p>
-|</div>
-|
-|"""
+<li id="about">
+<div class="catalog-home-card-link catalog-home-card-link--static" markdown="block">
+<p><span class="catalog-card-icon" aria-hidden="true">ℹ️</span> <strong>About</strong></p>
+<hr>
+<p>For more complex trait genomics content, see <a href="https://cloufield.github.io/GWASTutorial/">GWASTutorial</a></p>
+<p>Contact: <a href="mailto:gwaslab@gmail.com">gwaslab@gmail.com</a></p>
+</div>
+</li>
+</ul>
+</div>
+
+## What's New
+
+<div class="catalog-whatsnew">
+{whats_new_preview}
+<p class="catalog-whatsnew-more"><a href="Whats_New/">View full changelog →</a></p>
+</div>
+
+"""
 
 
 def write_catalog_statistics_page(t: pd.DataFrame) -> None:
