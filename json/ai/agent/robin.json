@@ -1,0 +1,28 @@
+{
+  "NAME": "Robin",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "Robin",
+  "FULL NAME": "Robin - A Multi-Agent System for Automating Scientific Discovery",
+  "PMID": 42156546,
+  "PMC ID": "",
+  "DOI": "10.1038/s41586-026-10652-y",
+  "URL": "",
+  "DESCRIPTION": "Robin is the first multi-agent system capable of fully automating both hypothesis generation and data analysis for experimental biology. By integrating literature search agents with data analysis agents, Robin can generate testable hypotheses from literature and design experiments to validate them, automating the entire scientific discovery cycle for biological research.",
+  "MANUAL_CITATION": "Ghareeb AE, Chang B, Mitchener L, et al. (2026) A multi-agent system for automating scientific discovery. Nature. doi:10.1038/s41586-026-10652-y. PMID 42156546",
+  "TAGS": ["AI", "Agent", "Scientific Discovery", "Multi-Agent", "Automation", "Biology"],
+  "TITLE": "A multi-agent system for automating scientific discovery.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Ghareeb AE,Chang B,Mitchener L,Yiu A,Szostkiewicz CJ,Shved D,Gyimesi GJ,Laurent JM,Wright SM,Razzak MT,White AD,Finnemann SC,Hinks MM,Rodriques SG",
+  "ABSTRACT": "Scientific discovery is driven by the iterative process of observation, hypothesis generation, experimentation, and data analysis. Despite recent advancements in applying artificial intelligence to biology, no system has yet automated all these stages. Here, we introduce Robin, the first multi-agent system capable of fully automating both hypothesis generation and data analysis for experimental biology. By integrating literature search agents with data analysis agents, Robin can generate testable hypotheses from literature and design experiments to validate them.",
+  "FIRST_AUTHOR": "Ghareeb AE",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

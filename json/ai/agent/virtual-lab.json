@@ -1,0 +1,28 @@
+{
+  "NAME": "Virtual Lab",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "Virtual Lab",
+  "FULL NAME": "Virtual Lab - AI Agent Teams for Scientific Discovery",
+  "PMID": 40730228,
+  "PMC ID": "PMC9707800",
+  "DOI": "10.1038/s41586-025-09442-9",
+  "URL": "https://github.com/kyle-swanson/virtual-lab",
+  "DESCRIPTION": "The Virtual Lab is an AI agent framework that uses LLM-powered researchers in a simulated laboratory environment to collaboratively design and test scientific hypotheses. It was demonstrated by successfully designing new SARS-CoV-2 nanobodies, with AI agents specializing in different scientific roles working together to propose, evaluate, and refine experimental designs.",
+  "MANUAL_CITATION": "Swanson K, Wu W, Bulaong NL, Pak JE, Zou J. (2025) The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies. Nature. 646(8085):716-723. doi:10.1038/s41586-025-09442-9. PMID 40730228",
+  "TAGS": ["AI", "Agent", "Virtual Lab", "Nanobody", "SARS-CoV-2", "Drug Discovery", "Multi-Agent"],
+  "TITLE": "The Virtual Lab of AI agents designs new SARS-CoV-2 nanobodies.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2025",
+  "VOLUME": "646",
+  "ISSUE": "8085",
+  "PAGE": "716-723",
+  "Authors": "Swanson K,Wu W,Bulaong NL,Pak JE,Zou J",
+  "ABSTRACT": "Science frequently benefits from teams of interdisciplinary researchers, but many scientists do not have easy access to experts from multiple fields. Although large language models (LLMs) have shown an impressive ability to aid researchers across diverse domains, their uses have been largely limited to answering specific scientific questions rather than performing open-ended research. Here we expand the capabilities of LLMs for science by introducing the Virtual Lab, a framework where LLM-powered AI agents collaborate in a simulated laboratory to design and test scientific hypotheses. The Virtual Lab successfully designed new SARS-CoV-2 nanobodies, demonstrating the potential of multi-agent AI systems for open-ended scientific discovery.",
+  "FIRST_AUTHOR": "Swanson K",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

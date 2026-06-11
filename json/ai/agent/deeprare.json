@@ -1,0 +1,28 @@
+{
+  "NAME": "DeepRare",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "DeepRare",
+  "FULL NAME": "DeepRare - A Multi-Agent System for Rare Disease Diagnosis with Traceable Reasoning",
+  "PMID": 41708847,
+  "PMC ID": "PMC12999473",
+  "DOI": "10.1038/s41586-025-10097-9",
+  "URL": "",
+  "DESCRIPTION": "DeepRare is a multi-agent system for rare disease differential diagnosis that integrates large language models with structured medical knowledge to provide traceable reasoning. It aims to reduce the diagnostic odyssey for rare disease patients by leveraging AI agents to analyze clinical phenotypes, genomic data, and medical literature in a transparent, interpretable manner.",
+  "MANUAL_CITATION": "Zhao W, Wu C, Fan Y, et al. (2026) An agentic system for rare disease diagnosis with traceable reasoning. Nature. 651(8106):775-784. doi:10.1038/s41586-025-10097-9. PMID 41708847",
+  "TAGS": ["AI", "Agent", "Rare Disease", "Diagnosis", "Multi-Agent", "Clinical AI"],
+  "TITLE": "An agentic system for rare disease diagnosis with traceable reasoning.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "651",
+  "ISSUE": "8106",
+  "PAGE": "775-784",
+  "Authors": "Zhao W,Wu C,Fan Y,Qiu P,Zhang X,Sun Y,Zhou X,Zhang S,Peng Y,Wang Y,Sun X,Zhang Y,Yu Y,Sun K,Xie W",
+  "ABSTRACT": "Rare diseases affect more than 300 million people worldwide, yet timely and accurate diagnosis remains an urgent challenge. Patients often endure a prolonged 'diagnostic odyssey' exceeding 5 years, marked by repeated referrals, misdiagnoses and unnecessary interventions, leading to delayed treatment and substantial emotional and economic burden. Here we present DeepRare, a multi-agent system for rare disease differential diagnosis decision support with traceable reasoning.",
+  "FIRST_AUTHOR": "Zhao W",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

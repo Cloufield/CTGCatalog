@@ -1,0 +1,28 @@
+{
+  "NAME": "Co-Scientist",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "Co-Scientist",
+  "FULL NAME": "Co-Scientist - A Multi-Agent AI System for Accelerating Scientific Discovery",
+  "PMID": 42156544,
+  "PMC ID": "",
+  "DOI": "10.1038/s41586-026-10644-y",
+  "URL": "",
+  "DESCRIPTION": "Co-Scientist is a multi-agent AI system built on Gemini for structured scientific thinking and hypothesis generation. It aims to help scientists discover new original knowledge by formulating demonstrably novel research hypotheses for experimental validation, conditioned on research objectives and prior scientific evidence.",
+  "MANUAL_CITATION": "Gottweis J, Weng WH, Daryin A, et al. (2026) Accelerating scientific discovery with Co-Scientist. Nature. doi:10.1038/s41586-026-10644-y. PMID 42156544",
+  "TAGS": ["AI", "Agent", "Scientific Discovery", "Multi-Agent", "Hypothesis Generation", "Gemini"],
+  "TITLE": "Accelerating scientific discovery with Co-Scientist.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Gottweis J,Weng WH,Daryin A,Tu T,Sirkovic P,Myaskovsky A,Glowaty G,Weissenberger F,Orlandi A,Popovici D,Palepu A,Rong K,Tanno R,Saab K,Zhang F,Blum J,Carroll A,Kulkarni K,Tomašev N,Zverinski D,Rendulic I,Vedadi E,Hasler F,Rimanic L,Boia M,Budiselic I,Feinstein B,Bellaiche M,Sheffer T,Freyberg J,Ratcliff J,Bertolli O,Chou K,Hassidim A,Gokturk B,Vahdat A,Guan Y,Dhillon V,Vaishnav ED,Lee B,Costa TRD,Penadés JR,Peltz G,Matias Y,Manyika J,Hassabis D,Xu Y,Kohli P,Pawlosky A,Karthikesalingam A,Natarajan V",
+  "ABSTRACT": "Scientific discovery is driven by scientists generating novel hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent AI system built on Gemini for structured scientific thinking and hypothesis generation. Co-Scientist aims to help scientists discover new original knowledge. Conditioned on their research objectives and prior scientific evidence, it formulates demonstrably novel research hypotheses for experimental validation.",
+  "FIRST_AUTHOR": "Gottweis J",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
