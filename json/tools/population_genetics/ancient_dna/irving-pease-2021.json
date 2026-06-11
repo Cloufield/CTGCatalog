@@ -1,0 +1,30 @@
+{
+  "NAME": "Irving-Pease 2021",
+  "PMID": 34422004,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Ancient_DNA",
+  "CATEGORY": "Review",
+  "TYPE": "Tools",
+  "SHORT NAME": "Irving-Pease 2021",
+  "FULL NAME": "Quantitative Human Paleogenetics — Review",
+  "URL": "",
+  "DESCRIPTION": "Foundational review on quantitative paleogenetics — using ancient DNA (aDNA) to study complex trait evolution. Covers polygenic score applications in ancient samples, detection of natural selection on complex traits, methods for linking aDNA to GWAS findings, and critical limitations including ascertainment bias, genetic drift confounding, and the challenge of inferring past phenotypes from genotype data alone.",
+  "MANUAL_CITATION": "Irving-Pease, Evan K., et al. \"Quantitative human paleogenetics: What can ancient DNA tell us about complex trait evolution?\" Frontiers in Genetics 12 (2021): 703541.",
+  "TITLE": "Quantitative Human Paleogenetics: What can Ancient DNA Tell us About Complex Trait Evolution?",
+  "ISO": "Front Genet",
+  "JOURNAL": "Frontiers in genetics",
+  "YEAR": "2021",
+  "VOLUME": "12",
+  "ISSUE": "",
+  "PAGE": "703541",
+  "Authors": "Irving-Pease EK,Muktupavela R,Dannemann M,Racimo F",
+  "ABSTRACT": "The field of human paleogenetics has entered a new era, with the availability of genome-scale ancient DNA (aDNA) datasets that span tens of thousands of years. These data provide a unique opportunity to directly study how complex trait architectures have evolved over time. In this review, we discuss the methods and challenges of using aDNA to study complex trait evolution, including the use of polygenic scores, the detection of selection on complex traits, and the limitations of current approaches.",
+  "DOI": "10.3389/fgene.2021.703541",
+  "PMC ID": "PMC8374794",
+  "CITATION": "Irving-Pease EK, Muktupavela R, Dannemann M, Racimo F. (2021) Quantitative Human Paleogenetics: What can Ancient DNA Tell us About Complex Trait Evolution? Front Genet, 12 703541. doi:10.3389/fgene.2021.703541. PMID 34422004",
+  "FIRST_AUTHOR": "Irving-Pease EK",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

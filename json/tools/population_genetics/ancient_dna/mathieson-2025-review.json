@@ -1,0 +1,30 @@
+{
+  "NAME": "Mathieson 2025",
+  "PMID": 40886582,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Ancient_DNA",
+  "CATEGORY": "Review",
+  "TYPE": "Tools",
+  "SHORT NAME": "Mathieson 2025",
+  "FULL NAME": "Polygenic prediction using ancient DNA — Review",
+  "URL": "",
+  "DESCRIPTION": "Comprehensive review by Iain Mathieson on using ancient DNA (aDNA) for polygenic prediction of human complex traits. Covers methodology for applying GWAS-derived polygenic scores to ancient samples, discusses limitations including selection bias, population structure, and genotype-phenotype mapping across time, and summarizes key findings from the paleogenomic literature.",
+  "MANUAL_CITATION": "Mathieson, Iain. \"Polygenic prediction of human complex traits using ancient DNA.\" Current Opinion in Genetics & Development (2025): 102396.",
+  "TITLE": "Polygenic prediction of human complex traits using ancient DNA.",
+  "ISO": "Curr Opin Genet Dev",
+  "JOURNAL": "Current opinion in genetics & development",
+  "YEAR": "2025",
+  "VOLUME": "93",
+  "ISSUE": "",
+  "PAGE": "102396",
+  "Authors": "Mathieson I",
+  "ABSTRACT": "Ancient DNA (aDNA) provides a direct window into the genetic history of human populations. Recent advances have made it possible to apply polygenic scores, derived from modern GWAS, to ancient individuals, allowing us to study how the genetic architecture of complex traits has changed over time. In this review, I discuss the methods used to predict polygenic traits from aDNA, the biological insights gained, and the limitations and challenges that remain.",
+  "DOI": "10.1016/j.gde.2025.102396",
+  "PMC ID": "",
+  "CITATION": "Mathieson I. (2025) Polygenic prediction of human complex traits using ancient DNA. Curr Opin Genet Dev, 93 102396. doi:10.1016/j.gde.2025.102396. PMID 40886582",
+  "FIRST_AUTHOR": "Mathieson I",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

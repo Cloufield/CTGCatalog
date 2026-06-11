@@ -1,0 +1,31 @@
+{
+  "NAME": "AncientProxy",
+  "PMID": 41605204,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Ancient_DNA",
+  "CATEGORY": "Database",
+  "TYPE": "Tools",
+  "SHORT NAME": "AncientProxy",
+  "FULL NAME": "AncientProxy: A catalog of ancient proxies for modern genetic variants",
+  "ARROW_SUMMARY": "Modern GWAS variants + AADR ancient genotyped variants (AGVs) → LD-based proxy matching → 260M+ variant pairs → Ancient proxy catalog bridging aDNA to GWAS",
+  "URL": "https://github.com/brandcm/AncientProxy",
+  "DESCRIPTION": "AncientProxy is a catalog of ancient proxies for modern genetic variants, directly bridging aDNA and GWAS. It quantifies LD between modern GWAS variants and ancient genotyped variants (AGVs from AADR) — 260,732,675 variant pairs. At R2 >= 0.9, it covers >=60% of common GWAS variants in non-Africans and 34% in Africans — 5.6x more coverage than using AGVs alone.",
+  "MANUAL_CITATION": "Brand, Colin M., and John A. Capra. \"AncientProxy: A catalog of ancient proxies for modern genetic variants.\" American Journal of Human Genetics (2026).",
+  "TITLE": "AncientProxy: A catalog of ancient proxies for modern genetic variants.",
+  "ISO": "Am J Hum Genet",
+  "JOURNAL": "American journal of human genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Brand CM,Capra JA",
+  "ABSTRACT": "Ancient DNA (aDNA) has the potential to illuminate the evolutionary history of human complex traits and diseases. However, a major limitation is that most aDNA datasets contain fewer than 1.5 million single-nucleotide polymorphisms (SNPs), which cover only a small fraction of the variants identified in genome-wide association studies (GWAS). Here, we introduce AncientProxy, a catalog that quantifies linkage disequilibrium between modern GWAS variants and ancient genotyped variants (AGVs) to identify proxies for modern variants in aDNA datasets. We estimated LD between over 260 million variant pairs and found that at an R2 threshold of 0.9, ancient proxies cover at least 60% of common GWAS variants in non-African populations and 34% in African populations, a 5.6-fold increase over using AGVs alone. AncientProxy enables researchers to expand the range of complex traits and diseases that can be studied with aDNA.",
+  "DOI": "10.1016/j.ajhg.2026.01.001",
+  "PMC ID": "",
+  "CITATION": "Brand CM, Capra JA. (2026) AncientProxy: A catalog of ancient proxies for modern genetic variants. Am J Hum Genet. doi:10.1016/j.ajhg.2026.01.001. PMID 41605204",
+  "FIRST_AUTHOR": "Brand CM",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

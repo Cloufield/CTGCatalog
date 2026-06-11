@@ -1,0 +1,31 @@
+{
+  "NAME": "AADR",
+  "PMID": 38341426,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Ancient_DNA",
+  "CATEGORY": "Dataset",
+  "TYPE": "Tools",
+  "SHORT NAME": "AADR",
+  "FULL NAME": "Allen Ancient DNA Resource",
+  "ARROW_SUMMARY": "Curated ancient human genomes (1240K capture + genome-wide) → Uniformly processed SNP data at ~1.23M positions → Publicly available compendium for paleogenomic analyses",
+  "URL": "https://dataverse.harvard.edu/dataverse/reich_lab",
+  "DESCRIPTION": "The Allen Ancient DNA Resource (AADR) is the premier curated compendium of ancient human genomes. It provides uniformly processed, publicly available genotype data from thousands of ancient and present-day individuals at up to ~1.23 million SNP positions (1240K capture + genome-wide). The most widely used aDNA resource in human paleogenomics. Persistent dataset ID: doi:10.7910/DVN/FFIDCW.",
+  "MANUAL_CITATION": "Mallick, Swapan, et al. \"The Allen Ancient DNA Resource (AADR) a curated compendium of ancient human genomes.\" Scientific Data 11.1 (2024): 182.",
+  "TITLE": "The Allen Ancient DNA Resource (AADR) a curated compendium of ancient human genomes.",
+  "ISO": "Sci Data",
+  "JOURNAL": "Scientific data",
+  "YEAR": "2024",
+  "VOLUME": "11",
+  "ISSUE": "1",
+  "PAGE": "182",
+  "Authors": "Mallick S,Micco A,Mah M,Ringbauer H,Lazaridis I,Olalde I,Patterson N,Reich D",
+  "ABSTRACT": "The Allen Ancient DNA Resource (AADR) is a curated compendium of published ancient human genomes. It includes genome-wide data from over 10,000 ancient individuals, genotyped at up to ~1.23 million single nucleotide polymorphism positions. The dataset is publicly available and regularly updated, providing a standardized resource for paleogenomic research.",
+  "DOI": "10.1038/s41597-024-03031-7",
+  "PMC ID": "PMC10803760",
+  "CITATION": "Mallick S, Micco A, Mah M, Ringbauer H, Lazaridis I, Olalde I, Patterson N, Reich D. (2024) The Allen Ancient DNA Resource (AADR) a curated compendium of ancient human genomes. Sci Data, 11 (1) 182. doi:10.1038/s41597-024-03031-7. PMID 38341426",
+  "FIRST_AUTHOR": "Mallick S",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "NAME": "PHBC",
+  "PMID": 40585167,
+  "SECTION": "Tools",
+  "TOPIC": "Heritability_and_genetic_correlation",
+  "CATEGORY": "Heritability",
+  "TYPE": "Tools",
+  "SHORT NAME": "PHBC",
+  "ARROW_SUMMARY": "GWAS summary statistics for target + auxiliary diseases → Cross-trait LDSC genetic correlation matrix → Monte Carlo bias correction → PHBC h²_pleio estimate → Quantify proportion of heritability shared with auxiliary diseases/traits",
+  "FULL NAME": "Pleiotropic Shared Heritability with Bias Correction",
+  "URL": "https://cran.r-project.org/package=pleioh2g",
+  "DESCRIPTION": "PHBC (pleiotropic shared heritability with bias correction) estimates the liability-scale genetic variance of a target disease that is shared with a specific set of auxiliary diseases. It uses GWAS summary statistics and a genetic correlation matrix with Monte-Carlo bias correction to account for sampling noise. Available as the R package pleioh2g on CRAN.",
+  "MANUAL_CITATION": "Zhao, Yujie, et al. \"Pleiotropic shared heritability quantifies the shared genetic variance of common diseases.\" Nature Genetics (2026).",
+  "TITLE": "Pleiotropic shared heritability quantifies the shared genetic variance of common diseases.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zhao Y,Strober B,Hou K,Kerner G,Danesh J,Gazal S,Cheng W,Inouye M,Price AL,Jiang X",
+  "ABSTRACT": "The overall contribution of pleiotropy to disease architectures is unknown, as most studies estimate genetic correlations with each auxiliary disease in turn. Here we propose a method—pleiotropic shared heritability with bias correction (PHBC)—to estimate the liability-scale genetic variance of a target disease that is shared with a specific set of auxiliary diseases (h2_pleio). PHBC estimates h2_pleio from a genetic correlation matrix using a Monte Carlo bias correction procedure to account for sampling noise. The average ratio of h2_pleio to total SNP heritability (h2_pleio/h2) across 15 UK Biobank diseases (spanning seven disease categories) was 27 +/- 3%, increasing to 48 +/- 5% when expanding to 62 auxiliary diseases/traits. h2_pleio/h2 was broadly distributed across disease categories, decreasing only modestly when removing the most informative auxiliary disease categories. The average h2_pleio/h2 was 1.51 +/- 0.16-times larger than the proportion of total phenotypic variance explained by auxiliary diseases, implying higher pleiotropy for genetic effects. In summary, roughly half of common disease heritability is pleiotropic with a broad range of diseases.",
+  "DOI": "10.1038/s41588-026-02607-w",
+  "PMC ID": "",
+  "CITATION": "Zhao Y, Strober B, Hou K, Kerner G, Danesh J, Gazal S, Cheng W, Inouye M, Price AL, Jiang X. (2026) Pleiotropic shared heritability quantifies the shared genetic variance of common diseases. Nat Genet. doi:10.1038/s41588-026-02607-w. PMID 40585167",
+  "FIRST_AUTHOR": "Zhao Y",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

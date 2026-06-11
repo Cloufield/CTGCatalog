@@ -1,0 +1,31 @@
+{
+  "NAME": "Akbari 2024",
+  "PMID": 39314480,
+  "SECTION": "Tools",
+  "TOPIC": "Population_Genetics",
+  "SUBTOPIC": "Ancient_DNA",
+  "CATEGORY": "Selection",
+  "TYPE": "Tools",
+  "SHORT NAME": "Akbari 2024",
+  "FULL NAME": "Pervasive directional selection from ancient DNA",
+  "ARROW_SUMMARY": "8,433 ancient West Eurasians (14,000 yrs) + 6,510 present-day → Time-series allele frequency tracking → 347 selected loci detected → Polygenic trait selection analysis (body fat, pigmentation, schizophrenia, cognition)",
+  "URL": "https://github.com/aliakbari/Ancient_Selection",
+  "DESCRIPTION": "Large-scale detection of natural selection using aDNA time-series data. Analyzed 8,433 ancient West Eurasians spanning 14,000 years and 6,510 present-day individuals. Found 347 selection loci and examined selection on polygenic traits including body fat, pigmentation, schizophrenia risk, and cognitive performance. Directly relevant to understanding how selection shapes complex trait architecture.",
+  "MANUAL_CITATION": "Akbari, Ali, et al. \"Pervasive findings of directional selection realize the promise of ancient DNA to elucidate human adaptation.\" bioRxiv (2024): 2024-09.",
+  "TITLE": "Pervasive findings of directional selection realize the promise of ancient DNA to elucidate human adaptation.",
+  "ISO": "bioRxiv",
+  "JOURNAL": "bioRxiv : the preprint server for biology",
+  "YEAR": "2024",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Akbari A,Barton AR,Gazal S,Li Z,Kariminejad M,Mikhailova A,Chalkiadaki K,Pathak G,Zhang S,Asgari S,Nait Saada J,Kerminen S,Guo M,Robinson MR,Martin AR,Whitton L,Kivisild T,Moorjani P,Murray GR,Chen GK,Yang S,Sohail M,Novembre J,Futschik A,Browning SR,Browning BL,Gojobori J,Sathirapongsasuti N,Kim BY,Skoglund P,Manning MA,Price AL,Huff CD,Patterson N,Palamara PF,Schraiber JG,Kim SK,Pritchard JK,McCoy RC,Coop G,Moorjani P",
+  "ABSTRACT": "Ancient DNA (aDNA) time-series data provide a direct way to study natural selection. Here we analyzed 14,000 years of human genomes from West Eurasia, combining 8,433 ancient and 6,510 present-day individuals. We identified 347 loci under strong directional selection, most of which were previously unknown. We examined the effects of selection on polygenic traits, showing that selection has shaped body fat, pigmentation, and other complex traits over time. Our results demonstrate the power of aDNA to realize the promise of understanding human adaptation.",
+  "DOI": "10.1101/2024.09.14.613021",
+  "PMC ID": "PMC11430265",
+  "CITATION": "Akbari A, Barton AR, Gazal S, Li Z, Kariminejad M, ... Price AL, ... Pritchard JK, ... (2024) Pervasive findings of directional selection realize the promise of ancient DNA to elucidate human adaptation. bioRxiv. doi:10.1101/2024.09.14.613021. PMID 39314480",
+  "FIRST_AUTHOR": "Akbari A",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
