@@ -1,0 +1,28 @@
+{
+    "NAME": "SAGE-net",
+    "PMID": 42260311,
+    "SECTION": "Tools",
+    "TOPIC": "Functional_prediction",
+    "TYPE": "Tools",
+    "SHORT NAME": "SAGE-net",
+    "FULL NAME": "scalable framework for sequence-to-function predictions from personal genomes",
+    "URL": "https://github.com/mostafavilabuw/SAGEnet",
+    "DESCRIPTION": "A scalable framework and software package for training and evaluating sequence-to-function (S2F) deep learning models using personal genomes. Personal genome training improves gene expression prediction for held-out individuals, but gains arise from identifying predictive variants rather than learning a cis-regulatory grammar that generalizes across loci.",
+    "MANUAL_CITATION": "\nSpiro, A. E. et al. A scalable approach to investigating sequence-to-function predictions from personal genomes. Nat. Methods (2026).\n  \n",
+    "TITLE": "A scalable approach to investigating sequence-to-function predictions from personal genomes.",
+    "ISO": "Nat Methods",
+    "JOURNAL": "Nature Methods",
+    "YEAR": "2026",
+    "VOLUME": "",
+    "ISSUE": "",
+    "PAGE": "",
+    "Authors": "Spiro AE,Tu X,Sheng Y,Sasse A,Hosseini R,Chikina M,Mostafavi S",
+    "ABSTRACT": "Sequence-to-function (S2F) models can evaluate arbitrary DNA sequences, yet they struggle to fully capture inter-individual variation in gene expression. We introduce SAGE-net, a scalable framework for training and evaluating S2F models using personal genomes. While personal genome training improves gene expression prediction accuracy for held-out individuals, performance gains arise primarily from identifying predictive variants rather than learning a cis-regulatory grammar that generalizes across loci. Scalable software will be critical to advancing S2F models for personal genomics.",
+    "DOI": "10.1038/s41592-026-03124-8",
+    "PMC ID": "",
+    "CITATION": "Spiro AE, Tu X, Sheng Y, ...&, Mostafavi S. (2026) A scalable approach to investigating sequence-to-function predictions from personal genomes. Nat Methods, () . doi:10.1038/s41592-026-03124-8. PMID 42260311",
+    "FIRST_AUTHOR": "Spiro AE",
+    "_meta": {
+        "source_sheet": "Functional_prediction"
+    }
+}

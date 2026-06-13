@@ -1,6 +1,7 @@
 2026-06-13:
   - "Added IBDverse sc-eQTL (Alegbe PMID 42236949, Nature 2026) to **Sumstats** > **Transcriptomics** > **Single-cell**"
   - "Added Brain sc-eQTL (Haglund PMID 39794547, Nat Genet 2025) to **Sumstats** > **Transcriptomics** > **Single-cell**"
+  - "Added SAGE-net (Spiro PMID 42260311, Nat Methods 2026) to **Tools** > **Functional_prediction**"
 2026-06-11:
   - "Added 4 AI agent papers to **AI** > **Agent**: Robin (PMID 42156546), Co-Scientist (PMID 42156544), DeepRare (PMID 41708847), Virtual Lab (PMID 40730228)"
   - "Updated scPRS metadata (vol/issue/pages/PMCID/year) in **Tools** > **Polygenic risk scores**"
