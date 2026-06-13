@@ -1,3 +1,6 @@
+2026-06-13:
+  - "Added IBDverse sc-eQTL (Alegbe PMID 42236949, Nature 2026) to **Sumstats** > **Transcriptomics** > **Single-cell**"
+  - "Added Brain sc-eQTL (Haglund PMID 39794547, Nat Genet 2025) to **Sumstats** > **Transcriptomics** > **Single-cell**"
 2026-06-11:
   - "Added 4 AI agent papers to **AI** > **Agent**: Robin (PMID 42156546), Co-Scientist (PMID 42156544), DeepRare (PMID 41708847), Virtual Lab (PMID 40730228)"
   - "Updated scPRS metadata (vol/issue/pages/PMCID/year) in **Tools** > **Polygenic risk scores**"
@@ -7,6 +10,7 @@
   - "Added SciSciGPT (PMID 41366152) from **Nat Comput Sci** to **AI** > **Agent**"
   - "Added CRISPR-GPT (PMID 40738974) from **Nat Biomed Eng** to **AI** > **Agent**"
   - "Added AI agents in cancer research review (PMID 41526721) from **Nat Rev Cancer** to **AI** > **Agent**"
+  - "Created **AI** > **GWAS** section and added 11 papers: Quickdraws (Nat Genet), DL Aorta GWAS (Nat Genet), PoPS (Nat Genet), MILTON (Nat Genet), Causal ML sc (Nat Genet), SynSurr (Nat Genet), DeepNull (Nat Commun), InsightGWAS (Nat Commun), MixEHR-SAGE (Brief Bioinform), DL PRS Survey (Brief Bioinform), GWANN (Brief Bioinform)"
 2026-06-09:
   - "Added phbc.json to **Tools** > **Heritability and genetic correlation**"
   - "Added 5 ancient DNA entries to **Tools** > **Population genetics** > **Ancient DNA**"
