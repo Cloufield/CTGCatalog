@@ -1,0 +1,26 @@
+{
+    "NAME": "Haglund sc-eQTL brain",
+    "PMID": 39794547,
+    "SECTION": "Sumstats",
+    "TOPIC": "Transcriptomics",
+    "SUBTOPIC": "Single-cell",
+    "URL": "https://www.nature.com/articles/s41588-024-02050-9",
+    "MANUAL_YEAR": 2025,
+    "MANUAL_CITATION": "\nHaglund, A. et al. Cell state-dependent allelic effects and contextual Mendelian randomization analysis for human brain phenotypes. Nat. Genet. 57, 358–368 (2025).\n  \n",
+    "TITLE": "Cell state-dependent allelic effects and contextual Mendelian randomization analysis for human brain phenotypes.",
+    "ISO": "Nat Genet",
+    "JOURNAL": "Nature Genetics",
+    "YEAR": "2025",
+    "VOLUME": "57",
+    "ISSUE": "2",
+    "PAGE": "358-368",
+    "Authors": "Haglund A,Zuber V,Abouzeid M,Yang Y,Ko JH,Wiemann L,Otero-Jimenez M,Muhammed L,Feleke R,Nott A,Mills JD,Laaniste L,Gveric DO,Clode D,Babtie AC,Pagni S,Bellampalli R,Somani A,McDade K,Anink JJ,Mesarosova L,Fancy N,Willumsen N,Smith A,Jackson J,Alegre-Abarrategui J,Aronica E,Matthews PM,Thom M,Sisodiya SM,Srivastava PK,Malhotra D,Bryois J,Bottolo L,Johnson MR",
+    "ABSTRACT": "Gene expression quantitative trait loci are widely used to infer relationships between genes and central nervous system (CNS) phenotypes; however, the effect of brain disease on these inferences is unclear. Using 2,348,438 single-nuclei profiles from 391 disease-case and control brains, we report 13,939 genes whose expression correlated with genetic variation, of which 16.7-40.8% (depending on cell type) showed disease-dependent allelic effects. Across 501 colocalizations for 30 CNS traits, 23.6% had a disease dependency, even after adjusting for disease status. To estimate the unconfounded effect of genes on outcomes, we repeated the analysis using nondiseased brains (n = 183) and reported an additional 91 colocalizations not present in the larger mixed disease and control dataset, demonstrating enhanced interpretation of disease-associated variants. Principled implementation of single-cell Mendelian randomization in control-only brains identified 140 putatively causal gene-trait associations, of which 11 were replicated in the UK Biobank, prioritizing candidate peripheral biomarkers predictive of CNS outcomes.",
+    "DOI": "10.1038/s41588-024-02050-9",
+    "PMC ID": "PMC11821528",
+    "CITATION": "Haglund A, Zuber V, Abouzeid M, ...&, Johnson MR. (2025) Cell state-dependent allelic effects and contextual Mendelian randomization analysis for human brain phenotypes. Nat Genet, 57 (2) 358-368. doi:10.1038/s41588-024-02050-9. PMID 39794547",
+    "FIRST_AUTHOR": "Haglund A",
+    "_meta": {
+        "source_sheet": "Transcriptomics"
+    }
+}

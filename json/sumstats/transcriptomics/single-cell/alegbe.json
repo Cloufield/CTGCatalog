@@ -1,0 +1,26 @@
+{
+    "NAME": "IBDverse sc-eQTL",
+    "PMID": 42236949,
+    "SECTION": "Sumstats",
+    "TOPIC": "Transcriptomics",
+    "SUBTOPIC": "Single-cell",
+    "URL": "https://www.nature.com/articles/s41586-026-10627-z",
+    "MANUAL_YEAR": 2026,
+    "MANUAL_CITATION": "\nAlegbe, T. et al. Cell-type-resolved genetic variation shapes inflammatory bowel disease risk. Nature 642, 1–23 (2026).\n  \n",
+    "TITLE": "Cell-type-resolved genetic variation shapes inflammatory bowel disease risk.",
+    "ISO": "Nature",
+    "JOURNAL": "Nature",
+    "YEAR": "2026",
+    "VOLUME": "642",
+    "ISSUE": "",
+    "PAGE": "1-23",
+    "Authors": "Alegbe T,Harris BT,Fachal L,Ramirez-Navarro L,Tutert M,Krzak M,Ghouraba M,Strickland M,Ozols M,Cohen CE,Khullar S,Khabirova E,Panousis NI,Ochoa D,Wana N,Hu MX,Skelton J,Ostermayer J,Cheam KAX,Taylor DL,Gu Y,Dawson C,Thompson T,Arestang K,Nishad N,Brezina B,Caballes CQ,Garri W,Leonard S,Iyer V,Parkes M,Wallace C,McIntyre RE,Cotobal Martin C,Jones GR,Raine T,Anderson CA",
+    "ABSTRACT": "Most genetic variants associated with complex diseases lie in non-coding regions, complicating efforts to identify effector genes and relevant cell types. Here we map cis-expression quantitative trait loci (eQTLs) across 2.2 million single cells using intestinal biopsies and blood from 421 individuals, including 125 with inflammatory bowel disease (IBD). Cell-type-level eQTLs were more distal to transcription start sites, enriched in enhancers, less likely to regulate the nearest gene, and more than 3.5-fold more likely to colocalize with IBD loci detected in genome-wide association studies (GWASs) than eQTLs detected at tissue-level resolution. We nominate effector genes at more than half of known IBD loci, including MAML2, PSEN2 and ZMIZ1 in myeloid cells, implicating reduced Notch signalling in intestinal immune dysfunction. We also identify Wnt-regulated genes, including MYC, in epithelial stem and progenitor cells, suggesting that impaired renewal contributes to barrier breakdown. Our results provide a mechanistic map that links genetic risk to specific genes and cell types in IBD, and a generalized framework for interpretation of GWAS loci using single-cell eQTL mapping of disease-relevant tissues in complex diseases.",
+    "DOI": "10.1038/s41586-026-10627-z",
+    "PMC ID": "PMC40666361",
+    "CITATION": "Alegbe T, Harris BT, Fachal L, ...&, Anderson CA, Raine T. (2026) Cell-type-resolved genetic variation shapes inflammatory bowel disease risk. Nature, 642 () 1-23. doi:10.1038/s41586-026-10627-z. PMID 42236949",
+    "FIRST_AUTHOR": "Alegbe T",
+    "_meta": {
+        "source_sheet": "Transcriptomics"
+    }
+}
