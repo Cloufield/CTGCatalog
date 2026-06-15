@@ -1,0 +1,29 @@
+{
+  "NAME": "SPARK",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "SPARK",
+  "FULL NAME": "SPARK (System of Pathology Agents for Research and Knowledge)",
+  "PMID": 42056496,
+  "PMC ID": "",
+  "DOI": "10.1038/s41591-026-04357-y",
+  "TITLE": "An agentic framework for autonomous scientific discovery in cancer pathology.",
+  "ISO": "Nat Med",
+  "JOURNAL": "Nature Medicine",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "URL": "https://github.com/cpath-ukk/SPARK",
+  "DESCRIPTION": "SPARK (System of Pathology Agents for Research and Knowledge) is a foundational agentic AI framework that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. It functions as a pathology 'brain' — an interconnected system of AI agents that autonomously reason, generate and implement biologically meaningful hypotheses as analytical tools without additional model training. SPARK uses four linked modules: idea generation (OpenAI o1), idea refinement, parameter coding (Claude Sonnet 3.5), and parameter verification. Evaluated across 18 patient cohorts spanning 5 cancer types and >5,400 patients, SPARK produced clinically and biologically relevant concepts correlated with prognosis, pathological variables, and predictive biomarkers, including patterns of tumor progression inferred from static images.",
+  "MANUAL_CITATION": "Trost F, Zhang B, Aring J, et al. (2026) An agentic framework for autonomous scientific discovery in cancer pathology. Nat Med. doi:10.1038/s41591-026-04357-y. PMID 42056496",
+  "CITATION": "Trost F, Zhang B, Aring J, Glamann L, Wessolly M, Johnson K, Göbel H, Lerbs T, Sangenne T, Herrmann P, Mairinger F, Kopp C, Michels S, Rasokat A, Heldwein M, Wagner S, Schömig-Markiefka B, Wolf J, Hartmann S, Wickenhauser C, Bychkov A, Klussmann JP, Quaas A, Buettner R, Tolkach Y. (2026) An agentic framework for autonomous scientific discovery in cancer pathology. Nature Medicine. doi:10.1038/s41591-026-04357-y. PMID 42056496",
+  "FIRST_AUTHOR": "Trost F",
+  "Authors": "Trost F,Zhang B,Aring J,Glamann L,Wessolly M,Johnson K,Göbel H,Lerbs T,Sangenne T,Herrmann P,Mairinger F,Kopp C,Michels S,Rasokat A,Heldwein M,Wagner S,Schömig-Markiefka B,Wolf J,Hartmann S,Wickenhauser C,Bychkov A,Klussmann JP,Quaas A,Buettner R,Tolkach Y",
+  "TAGS": ["AI", "Agent", "Pathology", "Cancer", "Multi-Agent", "Biomedical"],
+  "ABSTRACT": "Artificial intelligence has advanced cancer pathology, but many systems still depend on hand-crafted features, are hard to explain and rely on fragmented workflows. We introduce SPARK (System of Pathology Agents for Research and Knowledge), a foundational agentic artificial intelligence approach that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. SPARK turns biological ideas into analytical tools and works directly with complex pathology data without extra model training. We evaluated SPARK across 18 patient cohorts spanning five cancer types (lung adenocarcinoma, lung squamous cell carcinoma, colorectal cancer, breast cancer and oropharyngeal squamous cell carcinoma) and more than 5,400 patients with available histopathology images and clinical/follow-up information, in both prognostic and predictive settings and on a well characterized spatial biology breast cancer dataset (n=625). We found that SPARK produced clinically and biologically relevant concepts correlated with prognosis, known pathological variables and predictive biomarkers, including patterns of tumor progression and temporal change inferred from static images. A dedicated module allows for human interaction with SPARK. All code, parameters and results are openly released.",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

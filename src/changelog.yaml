@@ -1,4 +1,8 @@
 2026-06-15:
+  - "Added SPARK (Trost PMID 42056496, Nat Med 2026) — System of Pathology Agents for Research and Knowledge — to **AI** > **Agent**"
+  - "Added Biomni (Huang PMID 40501924, bioRxiv 2025) — a general-purpose biomedical AI agent — to **AI** > **Agent**"
+  - "Updated BioMedAgent (Bu PMID 41912700, Nat Biomed Eng 2026) — fixed citation with YEAR/TITLE/ISO/JOURNAL/full authors/abstract — in **AI** > **Agent**"
+  - "Added CITATION field to 5 entries: SciToolAgent (Ding PMID 40835791), AI Agents Cancer Review (Truhn PMID 41526721), Cell AI Agents Review (Gao PMID 39486399), Co-Scientist (Gottweis PMID 42156544), Robin (Ghareeb PMID 42156546) — all in **AI** > **Agent**"
   - "Updated MARRVEL-MCP (Everton PMID 42167217, Am J Hum Genet 2026) with complete citation info (vol/issue/page, DOI, abstract, authors) in **AI** > **Agent**"
   - "Updated AI-MARRVEL (Mao PMID 38962029, NEJM AI 2024) with complete citation info (vol/issue, DOI, abstract, full author list) in **AI** > **Agent**"
 2026-06-13:
