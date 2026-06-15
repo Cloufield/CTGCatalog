@@ -1,0 +1,19 @@
+{
+  "NAME": "AutoResearchClaw",
+  "SECTION": "AI",
+  "TOPIC": "Auto research",
+  "TYPE": "Tools",
+  "SHORT NAME": "AutoResearchClaw",
+  "FULL NAME": "AutoResearchClaw — Self-Reinforcing Autonomous Research with Human-AI Collaboration",
+  "DOI": "10.48550/arXiv.2605.20025",
+  "URL": "https://github.com/aiming-lab/AutoResearchClaw",
+  "DESCRIPTION": "AutoResearchClaw is an open-source 23-stage autonomous research pipeline from UNC Chapel Hill that turns a research idea into a conference-ready LaTeX paper. Features: multi-agent debate for hypothesis generation, self-healing executor with Pivot/Refine decision loop, verifiable result reporting preventing hallucinations, human-in-the-loop with 7 intervention modes, and cross-run evolution. Outperforms AI Scientist v2 by 54.7% on ARC-Bench. MIT licensed.",
+  "MANUAL_CITATION": "AIMING Lab. (2026) AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration. arXiv:2605.20025. doi:10.48550/arXiv.2605.20025",
+  "CITATION": "AIMING Lab. (2026) AutoResearchClaw: Self-Reinforcing Autonomous Research with Human-AI Collaboration. arXiv:2605.20025. doi:10.48550/arXiv.2605.20025",
+  "FIRST_AUTHOR": "AIMING Lab",
+  "TAGS": ["AI", "Auto Research", "Scientific Discovery", "Multi-Agent", "Human-in-the-Loop", "Open Source"],
+  "ABSTRACT": "Automating scientific discovery requires more than generating papers from ideas. Real research is iterative: hypotheses are challenged from multiple perspectives, experiments fail and inform the next attempt, and lessons accumulate across cycles. We present AutoResearchClaw, a multi-agent autonomous research pipeline built on five mechanisms: structured multi-agent debate for hypothesis generation and result analysis, a self-healing executor with a Pivot/Refine decision loop that transforms failures into information, verifiable result reporting that prevents fabricated numbers and hallucinated citations, human-in-the-loop collaboration with seven intervention modes, and cross-run evolution that converts past mistakes into future safeguards. On ARC-Bench, AutoResearchClaw outperforms AI Scientist v2 by 54.7%.",
+  "_meta": {
+    "source_sheet": "Auto_research"
+  }
+}

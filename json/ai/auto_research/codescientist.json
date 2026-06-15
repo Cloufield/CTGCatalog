@@ -1,0 +1,19 @@
+{
+  "NAME": "CodeScientist",
+  "SECTION": "AI",
+  "TOPIC": "Auto research",
+  "TYPE": "Tools",
+  "SHORT NAME": "CodeScientist",
+  "FULL NAME": "CodeScientist — End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation",
+  "DOI": "10.48550/arXiv.2503.22708",
+  "URL": "https://github.com/allenai/codescientist",
+  "DESCRIPTION": "CodeScientist is an autonomous scientific discovery system from Ai2 (Allen Institute for AI) that frames ideation and experiment construction as genetic search over research articles and code blocks. It conducted hundreds of automated experiments on agents and virtual environments, returning 19 discoveries, 6 of which were judged minimally sound and incrementally novel after multi-faceted evaluation (conference review, code review, replication). Discoveries span new tasks, agents, metrics, and data. Published at ACL 2025 Findings.",
+  "MANUAL_CITATION": "Jansen P. (2025) CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation. arXiv:2503.22708. ACL 2025 Findings. doi:10.48550/arXiv.2503.22708",
+  "CITATION": "Jansen P. (2025) CodeScientist: End-to-End Semi-Automated Scientific Discovery with Code-based Experimentation. arXiv:2503.22708. ACL 2025 Findings. doi:10.48550/arXiv.2503.22708",
+  "FIRST_AUTHOR": "Jansen P",
+  "TAGS": ["AI", "Auto Research", "Scientific Discovery", "Genetic Search", "Ai2", "ACL"],
+  "ABSTRACT": "Despite the surge of interest in autonomous scientific discovery (ASD) of software artifacts, current ASD systems face two key limitations: they largely explore variants of existing codebases, and they produce large volumes of research artifacts typically evaluated using conference-style paper review with limited evaluation of code. In this work we introduce CodeScientist, a novel ASD system that frames ideation and experiment construction as a form of genetic search jointly over combinations of research articles and codeblocks defining common actions in a domain. We use this paradigm to conduct hundreds of automated experiments, with the system returning 19 discoveries, 6 of which were judged as being both at least minimally sound and incrementally novel after multi-faceted evaluation.",
+  "_meta": {
+    "source_sheet": "Auto_research"
+  }
+}
