@@ -1,4 +1,5 @@
 2026-06-15:
+  - "Created 7 new **AI** categories: Drug discovery, Protein, Imaging, Single cell, Clinical EHR, Multimodal, Benchmark — with 7 representative entries"
   - "Added 4 papers to **AI** > **Auto research**: AI Scientist (Lu PMID 41882133, Nature 2026), Denario (Villaescusa-Navarro arXiv 2025), CodeScientist (Jansen ACL 2025), AutoResearchClaw (AIMING Lab arXiv 2026)"
   - "Created **AI** > **Auto research** category; moved 5 automated discovery systems: Co-Scientist, Robin, SPARK, Virtual Lab, Biomni from **AI** > **Agent**"
   - "Added Hermes Agent (Nous Research, 2026) — self-improving open-source AI agent — to **AI** > **Agent**"
