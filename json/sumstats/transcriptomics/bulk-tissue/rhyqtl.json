@@ -1,0 +1,26 @@
+{
+  "NAME": "rhyQTL",
+  "PMID": 40341583,
+  "SECTION": "Sumstats",
+  "TOPIC": "Transcriptomics",
+  "SUBTOPIC": "Bulk tissue",
+  "DESCRIPTION": "rhyQTL (rhythmic QTL) — maps genetic determinants of 24-hour rhythmic gene expression across 45 GTEx tissues (838 individuals). Defines a new QTL class: rhyQTLs regulate gene rhythmicity (amplitude/phase/presence of daily cycle), distinct from eQTLs which regulate overall expression level. 63.8% of rhythmic genes show differential rhythmicity across genotypes; rhyQTLs explain median 15.8% of SNP heritability for 15 lipid traits. Only 3-37% of rhyQTLs overlap with eQTLs; rhyQTLs enriched in enhancer regions. Reveals ~4× more rhythmic genes than whole-population analyses.",
+  "MANUAL_CITATION": "Chen Y, Liu P, Sabo A, Guan D. (2025) Human genetic variation determines 24-hour rhythmic gene expression and disease risk. Nat Commun. 16:4270. doi:10.1038/s41467-025-59524-5. PMID 40341583",
+  "TITLE": "Human genetic variation determines 24-hour rhythmic gene expression and disease risk.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature Communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "",
+  "PAGE": "4270",
+  "Authors": "Chen Y,Liu P,Sabo A,Guan D",
+  "ABSTRACT": "24-hour biological rhythms are essential to maintain physiological homeostasis. Disruption of these rhythms increases the risks of multiple diseases. The biological rhythms are known to have a genetic basis formed by core clock genes, but how individual genetic variation shapes the oscillating transcriptome and contributes to human chronophysiology and disease risk is largely unknown. Here, we mapped interactions between temporal gene expression and genotype to identify quantitative trait loci (QTLs) contributing to rhythmic gene expression. These newly identified QTLs were termed as rhythmic QTLs (rhyQTLs), which determine previously unappreciated rhythmic genes in human subpopulations with specific genotypes. Our analyses of 45 human tissues from the Genotype-Tissue Expression (GTEx) project revealed thousands of rhythmic genes that would be otherwise obscured without stratifying by genetic variation. rhyQTLs and their associated rhythmic genes contribute extensively to essential chronophysiological processes, including bile acid and lipid metabolism. The identification of rhyQTLs sheds light on the genetic mechanisms of gene rhythmicity, offers mechanistic insights into variations in human disease risk, and enables precision chronotherapeutic approaches for patients.",
+  "DOI": "10.1038/s41467-025-59524-5",
+  "PMC ID": "PMC12062405",
+  "CITATION": "Chen Y, Liu P, Sabo A, Guan D. (2025) Human genetic variation determines 24-hour rhythmic gene expression and disease risk. Nature Communications, 16:4270. doi:10.1038/s41467-025-59524-5. PMID 40341583",
+  "FIRST_AUTHOR": "Chen Y",
+  "TAGS": ["rhyQTL", "Circadian", "GTEx", "eQTL", "Rhythmicity", "Lipid Metabolism"],
+  "_meta": {
+    "source_sheet": "Transcriptomics"
+  }
+}
