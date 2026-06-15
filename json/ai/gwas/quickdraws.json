@@ -1,0 +1,28 @@
+{
+  "NAME": "Quickdraws",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "Quickdraws",
+  "FULL NAME": "Quickdraws - Scalable Variational Inference for Mixed-Model GWAS",
+  "PMID": 39789286,
+  "PMC ID": "PMC11821521",
+  "DOI": "10.1038/s41588-024-02044-7",
+  "URL": "",
+  "DESCRIPTION": "Quickdraws is a method that increases association power in quantitative and binary traits for GWAS without sacrificing computational efficiency, leveraging a spike-and-slab prior on variant effects, stochastic variational inference, and graphics processing unit acceleration. Published in Nature Genetics.",
+  "MANUAL_CITATION": "Loya H, Kalantzis G, Cooper F, Palamara PF. (2025) A scalable variational inference approach for increased mixed-model association power. Nat Genet. 57(2):461-468. doi:10.1038/s41588-024-02044-7. PMID 39789286",
+  "TAGS": ["AI", "GWAS", "Variational Inference", "Mixed Model", "GPU", "Nat Genet"],
+  "TITLE": "A scalable variational inference approach for increased mixed-model association power.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "2",
+  "PAGE": "461-468",
+  "Authors": "Loya H,Kalantzis G,Cooper F,Palamara PF",
+  "ABSTRACT": "The rapid growth of modern biobanks is creating new opportunities for large-scale genome-wide association studies (GWASs) and the analysis of complex traits. However, performing GWASs on millions of samples often leads to trade-offs between computational efficiency and statistical power, reducing the benefits of large-scale data collection efforts. We developed Quickdraws, a method that increases association power in quantitative and binary traits without sacrificing computational efficiency, leveraging a spike-and-slab prior on variant effects, stochastic variational inference and graphics processing unit acceleration.",
+  "FIRST_AUTHOR": "Loya H",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

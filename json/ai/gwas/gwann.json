@@ -1,0 +1,28 @@
+{
+  "NAME": "GWANN",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "GWANN",
+  "FULL NAME": "GWANN - Genome-Wide Association Neural Networks",
+  "PMID": 39775791,
+  "PMC ID": "PMC11707606",
+  "DOI": "10.1093/bib/bbae704",
+  "URL": "",
+  "DESCRIPTION": "GWANN (Genome-Wide Association Neural Networks) is a novel approach that uses neural networks to perform gene-level association studies. Applied to Alzheimer's disease in UK Biobank, GWANN identifies genes linked to family history of AD by aggregating SNP-level information at the gene level through neural network architectures. Published in Briefings in Bioinformatics.",
+  "MANUAL_CITATION": "Ghose U, Sproviero W, Winchester L, et al. (2024) Genome-wide association neural networks identify genes linked to family history of Alzheimer's disease. Brief Bioinform. 26(1):bbae704. doi:10.1093/bib/bbae704. PMID 39775791",
+  "TAGS": ["AI", "GWAS", "Neural Network", "Alzheimer's Disease", "Gene-level Association", "Brief Bioinform"],
+  "TITLE": "Genome-wide association neural networks identify genes linked to family history of Alzheimer's disease.",
+  "ISO": "Brief Bioinform",
+  "JOURNAL": "Briefings in Bioinformatics",
+  "YEAR": "2024",
+  "VOLUME": "26",
+  "ISSUE": "1",
+  "PAGE": "",
+  "Authors": "Ghose U,Sproviero W,Winchester L,Amin N,Zhu T,Newby D,Ulm BS,Papathanasiou A,Shi L,Liu Q,Fernandes M,Adams C,Albukhari A,Almansouri M,Choudhry H,van Duijn C,Nevado-Holgado A",
+  "ABSTRACT": "Augmenting traditional genome-wide association studies (GWAS) with advanced machine learning algorithms can allow the detection of novel signals in available cohorts. We introduce \"genome-wide association neural networks (GWANN)\", a novel approach that uses neural networks (NNs) to perform a gene-level association study with family history of Alzheimer's disease (AD) in UK Biobank.",
+  "FIRST_AUTHOR": "Ghose U",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

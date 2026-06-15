@@ -1,0 +1,28 @@
+{
+  "NAME": "PoPS",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "PoPS",
+  "FULL NAME": "PoPS - Polygenic Priority Score for Gene Prioritization",
+  "PMID": 37443254,
+  "PMC ID": "PMC10836580",
+  "DOI": "10.1038/s41588-023-01443-6",
+  "URL": "https://github.com/FinucaneLab/pops",
+  "DESCRIPTION": "PoPS (Polygenic Priority Score) is a method that learns trait-relevant gene features, such as cell-type-specific expression, to prioritize genes at GWAS loci. It leverages polygenic enrichments across multiple gene features to predict causal genes underlying complex traits and diseases. Published in Nature Genetics.",
+  "MANUAL_CITATION": "Weeks EM, Ulirsch JC, Cheng NY, et al. (2023) Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. Nat Genet. 55(8):1267-1276. doi:10.1038/s41588-023-01443-6. PMID 37443254",
+  "TAGS": ["AI", "GWAS", "Gene Prioritization", "Machine Learning", "Polygenic", "Nat Genet"],
+  "TITLE": "Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2023",
+  "VOLUME": "55",
+  "ISSUE": "8",
+  "PAGE": "1267-1276",
+  "Authors": "Weeks EM,Ulirsch JC,Cheng NY,Trippe BL,Fine RS,Miao J,Patwardhan TA,Kanai M,Nasser J,Fulco CP,Tashman KC,Aguet F,Li T,Ordovas-Montanes J,Smillie CS,Biton M,Shalek AK,Ananthakrishnan AN,Xavier RJ,Regev A,Gupta RM,Lage K,Ardlie KG,Hirschhorn JN,Lander ES,Engreitz JM,Finucane HK",
+  "ABSTRACT": "Genome-wide association studies (GWASs) are a valuable tool for understanding the biology of complex human traits and diseases, but associated variants rarely point directly to causal genes. In the present study, we introduce a new method, polygenic priority score (PoPS), that learns trait-relevant gene features, such as cell-type-specific expression, to prioritize genes at GWAS loci. PoPS and the closest gene individually outperform other gene prioritization methods.",
+  "FIRST_AUTHOR": "Weeks EM",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

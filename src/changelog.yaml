@@ -1,7 +1,7 @@
 2026-06-15:
+  - "Created **AI** > **Auto research** category; moved 5 automated discovery systems: Co-Scientist, Robin, SPARK, Virtual Lab, Biomni from **AI** > **Agent**"
   - "Added Hermes Agent (Nous Research, 2026) — self-improving open-source AI agent — to **AI** > **Agent**"
   - "Added rhyQTL (Chen PMID 40341583, Nat Commun 2025) — rhythmic QTLs for 24-hour gene expression across 45 GTEx tissues — to **Sumstats** > **Transcriptomics** > **Bulk tissue**"
-  - "Added SPARK (Trost PMID 42056496, Nat Med 2026) — System of Pathology Agents for Research and Knowledge — to **AI** > **Agent**"
   - "Added Biomni (Huang PMID 40501924, bioRxiv 2025) — a general-purpose biomedical AI agent — to **AI** > **Agent**"
   - "Updated BioMedAgent (Bu PMID 41912700, Nat Biomed Eng 2026) — fixed citation with YEAR/TITLE/ISO/JOURNAL/full authors/abstract — in **AI** > **Agent**"
   - "Added CITATION field to 5 entries: SciToolAgent (Ding PMID 40835791), AI Agents Cancer Review (Truhn PMID 41526721), Cell AI Agents Review (Gao PMID 39486399), Co-Scientist (Gottweis PMID 42156544), Robin (Ghareeb PMID 42156546) — all in **AI** > **Agent**"

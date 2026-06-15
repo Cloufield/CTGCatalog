@@ -1,0 +1,28 @@
+{
+  "NAME": "DL Thoracic Aorta GWAS",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "DL Aorta GWAS",
+  "FULL NAME": "Deep Learning Enables Genetic Analysis of the Human Thoracic Aorta",
+  "PMID": 34837083,
+  "PMC ID": "PMC8758523",
+  "DOI": "10.1038/s41588-021-00962-4",
+  "URL": "",
+  "DESCRIPTION": "Deep learning model trained on 4.6 million cardiac MRI images from UK Biobank to evaluate ascending and descending thoracic aorta dimensions, followed by GWAS identifying 82 ascending and 47 descending aorta loci. Demonstrates DL-based image phenotyping for large-scale genetic association studies. Published in Nature Genetics.",
+  "MANUAL_CITATION": "Pirruccello JP, Chaffin MD, Chou EL, et al. (2022) Deep learning enables genetic analysis of the human thoracic aorta. Nat Genet. 54(1):40-51. doi:10.1038/s41588-021-00962-4. PMID 34837083",
+  "TAGS": ["AI", "GWAS", "Deep Learning", "Medical Imaging", "UK Biobank", "Nat Genet"],
+  "TITLE": "Deep learning enables genetic analysis of the human thoracic aorta.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2022",
+  "VOLUME": "54",
+  "ISSUE": "1",
+  "PAGE": "40-51",
+  "Authors": "Pirruccello JP,Chaffin MD,Chou EL,Fleming SJ,Lin H,Nekoui M,Khurshid S,Friedman SF,Bick AG,Arduini A,Weng LC,Choi SH,Akkad AD,Batra P,Tucker NR,Hall AW,Roselli C,Benjamin EJ,Vellarikkal SK,Gupta RM,Stegmann CM,Juric D,Stone JR,Vasan RS,Ho JE,Hoffmann U,Lubitz SA,Philippakis AA,Lindsay ME,Ellinor PT",
+  "ABSTRACT": "Enlargement or aneurysm of the aorta predisposes to dissection, an important cause of sudden death. We trained a deep learning model to evaluate the dimensions of the ascending and descending thoracic aorta in 4.6 million cardiac magnetic resonance images from the UK Biobank. We then conducted genome-wide association studies in 39,688 individuals, identifying 82 loci associated with ascending and 47 with descending thoracic aortic diameter. Transcriptome-wide analyses, rare-variant burden tests and human aortic single nucleus RNA sequencing prioritized genes including FBN1 and MFAP5.",
+  "FIRST_AUTHOR": "Pirruccello JP",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

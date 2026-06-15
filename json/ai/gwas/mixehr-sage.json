@@ -1,0 +1,28 @@
+{
+  "NAME": "MixEHR-SAGE",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "MixEHR-SAGE",
+  "FULL NAME": "MixEHR-SAGE - Multi-modal Topic Modeling for PheWAS and GWAS",
+  "PMID": 41627341,
+  "PMC ID": "PMC12862981",
+  "DOI": "10.1093/bib/bbag030",
+  "URL": "",
+  "DESCRIPTION": "MixEHR-SAGE is a PheCode-guided multi-modal topic model that integrates diagnoses, procedures, and medications from EHR to enhance phenotyping for GWAS. By combining expert-informed priors with probabilistic inference, it identifies over 1000 interpretable phenotype topics from UK Biobank data and improves disease incidence prediction and GWAS discovery. Published in Briefings in Bioinformatics.",
+  "MANUAL_CITATION": "Yang Z, Song Z, Zabad S, Legault MA, Li Y. (2026) PheCode-guided multi-modal topic modeling of electronic health records improves disease incidence prediction and GWAS discovery from UK Biobank. Brief Bioinform. 27(1):bbag030. doi:10.1093/bib/bbag030. PMID 41627341",
+  "TAGS": ["AI", "GWAS", "Topic Modeling", "PheWAS", "EHR", "Phenotyping", "UK Biobank", "Brief Bioinform"],
+  "TITLE": "PheCode-guided multi-modal topic modeling of electronic health records improves disease incidence prediction and GWAS discovery from UK Biobank.",
+  "ISO": "Brief Bioinform",
+  "JOURNAL": "Briefings in Bioinformatics",
+  "YEAR": "2026",
+  "VOLUME": "27",
+  "ISSUE": "1",
+  "PAGE": "",
+  "Authors": "Yang Z,Song Z,Zabad S,Legault MA,Li Y",
+  "ABSTRACT": "Phenome-wide association studies rely on disease definitions derived from diagnostic codes, often failing to leverage the full richness of electronic health records (EHR). We present MixEHR-SAGE, a PheCode-guided multi-modal topic model that integrates diagnoses, procedures, and medications to enhance phenotyping from large-scale EHRs. Applied to 350,000 individuals with high-quality genetic data, MixEHR-SAGE-derived risk scores accurately predicted disease incidence and improved GWAS discovery.",
+  "FIRST_AUTHOR": "Yang Z",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

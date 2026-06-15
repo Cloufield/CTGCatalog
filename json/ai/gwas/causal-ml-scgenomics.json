@@ -1,0 +1,28 @@
+{
+  "NAME": "Causal ML for scGenomics",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Perspective",
+  "SHORT NAME": "Causal ML sc",
+  "FULL NAME": "Causal Machine Learning for Single-Cell Genomics",
+  "PMID": 40164735,
+  "PMC ID": "PMC8828480",
+  "DOI": "10.1038/s41588-025-02124-2",
+  "URL": "",
+  "DESCRIPTION": "A Perspective from Nature Genetics delineating the application of causal machine learning to single-cell genomics. Discusses causal models, challenges in inferring causative roles of genes from single-cell omics data combined with perturbation screens, and the potential for integrating causal ML with GWAS to understand disease mechanisms at single-cell resolution.",
+  "MANUAL_CITATION": "Tejada-Lapuerta A, Bertin P, Bauer S, Aliee H, Bengio Y, Theis FJ. (2025) Causal machine learning for single-cell genomics. Nat Genet. 57(4):797-808. doi:10.1038/s41588-025-02124-2. PMID 40164735",
+  "TAGS": ["AI", "GWAS", "Causal ML", "Single Cell", "Machine Learning", "Nat Genet"],
+  "TITLE": "Causal machine learning for single-cell genomics.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2025",
+  "VOLUME": "57",
+  "ISSUE": "4",
+  "PAGE": "797-808",
+  "Authors": "Tejada-Lapuerta A,Bertin P,Bauer S,Aliee H,Bengio Y,Theis FJ",
+  "ABSTRACT": "Advances in single-cell '-omics' allow unprecedented insights into the transcriptional profiles of individual cells and, when combined with large-scale perturbation screens, enable measuring of the effect of targeted perturbations on the whole transcriptome. In this Perspective, we delineate the application of causal machine learning to single-cell genomics and its associated challenges, presenting the causal model most commonly applied to single-cell biology.",
+  "FIRST_AUTHOR": "Tejada-Lapuerta A",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

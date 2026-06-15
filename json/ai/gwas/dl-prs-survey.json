@@ -1,0 +1,28 @@
+{
+  "NAME": "DL for PRS Survey",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Review",
+  "SHORT NAME": "DL PRS Survey",
+  "FULL NAME": "A Survey on Deep Learning for Polygenic Risk Scores",
+  "PMID": 40802796,
+  "PMC ID": "PMC12454937",
+  "DOI": "10.1093/bib/bbaf373",
+  "URL": "",
+  "DESCRIPTION": "A comprehensive survey of deep learning approaches for polygenic risk scores (PRS). Reviews how neural networks can model non-linear relationships between genetic variants and disease risk, going beyond traditional linear PRS methods, and assesses their performance across different traits and architectures. Published in Briefings in Bioinformatics.",
+  "MANUAL_CITATION": "Schuran M, Goudey B, Dite GS, Makalic E. (2025) A survey on deep learning for polygenic risk scores. Brief Bioinform. 26(4):bbaf373. doi:10.1093/bib/bbaf373. PMID 40802796",
+  "TAGS": ["AI", "GWAS", "Polygenic Risk Score", "Deep Learning", "Survey", "Review", "Brief Bioinform"],
+  "TITLE": "A survey on deep learning for polygenic risk scores.",
+  "ISO": "Brief Bioinform",
+  "JOURNAL": "Briefings in Bioinformatics",
+  "YEAR": "2025",
+  "VOLUME": "26",
+  "ISSUE": "4",
+  "PAGE": "",
+  "Authors": "Schuran M,Goudey B,Dite GS,Makalic E",
+  "ABSTRACT": "Polygenic risk scores (PRS) combine the effects of multiple genetic variants to predict an individual's genetic predisposition to a disease. PRS typically rely on linear models, which assume that all genetic variants act independently. There is growing interest in applying deep learning neural networks to model PRS given their ability to model non-linear relationships. We conducted a survey of the literature to investigate how neural networks are being applied to PRS.",
+  "FIRST_AUTHOR": "Schuran M",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

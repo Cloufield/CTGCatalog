@@ -1,0 +1,28 @@
+{
+  "NAME": "MILTON",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "MILTON",
+  "FULL NAME": "MILTON - Machine Learning with Phenotype Associations for Disease Prediction",
+  "PMID": 39261665,
+  "PMC ID": "PMC11390475",
+  "DOI": "10.1038/s41588-024-01898-1",
+  "URL": "",
+  "DESCRIPTION": "MILTON is an ensemble machine learning framework that utilizes biomarkers and multi-omics data to predict 3,213 diseases in the UK Biobank. It predicts incident disease cases undiagnosed at time of recruitment and demonstrates utility in augmenting genetic association discovery by empowering case-control GWAS with predicted phenotypes. Published in Nature Genetics.",
+  "MANUAL_CITATION": "Garg M, Karpinski M, Matelska D, et al. (2024) Disease prediction with multi-omics and biomarkers empowers case-control genetic discoveries in the UK Biobank. Nat Genet. 56(9):1821-1831. doi:10.1038/s41588-024-01898-1. PMID 39261665",
+  "TAGS": ["AI", "GWAS", "Machine Learning", "Disease Prediction", "UK Biobank", "Multi-omics", "Nat Genet"],
+  "TITLE": "Disease prediction with multi-omics and biomarkers empowers case-control genetic discoveries in the UK Biobank.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2024",
+  "VOLUME": "56",
+  "ISSUE": "9",
+  "PAGE": "1821-1831",
+  "Authors": "Garg M,Karpinski M,Matelska D,Middleton L,Burren OS,Hu F,Wheeler E,Smith KR,Fabre MA,Mitchell J,O'Neill A,Ashley EA,Harper AR,Wang Q,Dhindsa RS,Petrovski S,Vitsios D",
+  "ABSTRACT": "The emergence of biobank-level datasets offers new opportunities to discover novel biomarkers and develop predictive algorithms for human disease. Here, we present an ensemble machine-learning framework (machine learning with phenotype associations, MILTON) utilizing a range of biomarkers to predict 3,213 diseases in the UK Biobank. MILTON predicts incident disease cases undiagnosed at time of recruitment, largely outperforming available polygenic risk scores, and augments genetic association discovery.",
+  "FIRST_AUTHOR": "Garg M",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

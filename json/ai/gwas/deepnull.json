@@ -1,0 +1,28 @@
+{
+  "NAME": "DeepNull",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "DeepNull",
+  "FULL NAME": "DeepNull - Deep Learning for Non-linear Covariate Adjustment in GWAS",
+  "PMID": 35017556,
+  "PMC ID": "PMC8752755",
+  "DOI": "10.1038/s41467-021-27930-0",
+  "URL": "",
+  "DESCRIPTION": "DeepNull is a method that identifies and adjusts for non-linear and interactive covariate effects in GWAS using a deep neural network. It maintains tight control of type I error while increasing statistical power by up to 20% in the presence of non-linear covariate effects. Published in Nature Communications.",
+  "MANUAL_CITATION": "McCaw ZR, Colthurst T, Yun T, et al. (2022) DeepNull models non-linear covariate effects to improve phenotypic prediction and association power. Nat Commun. 13(1):241. doi:10.1038/s41467-021-27930-0. PMID 35017556",
+  "TAGS": ["AI", "GWAS", "Deep Learning", "Covariate Adjustment", "Statistical Power", "Nat Commun"],
+  "TITLE": "DeepNull models non-linear covariate effects to improve phenotypic prediction and association power.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature Communications",
+  "YEAR": "2022",
+  "VOLUME": "13",
+  "ISSUE": "1",
+  "PAGE": "241",
+  "Authors": "McCaw ZR,Colthurst T,Yun T,Furlotte NA,Carroll A,Alipanahi B,McLean CY,Hormozdiari F",
+  "ABSTRACT": "Genome-wide association studies (GWASs) examine the association between genotype and phenotype while adjusting for a set of covariates. Although the covariates may have non-linear or interactive effects, due to the challenge of specifying the model, GWAS often neglect such terms. Here we introduce DeepNull, a method that identifies and adjusts for non-linear and interactive covariate effects using a deep neural network, maintaining tight control of the type I error while increasing statistical power by up to 20%.",
+  "FIRST_AUTHOR": "McCaw ZR",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

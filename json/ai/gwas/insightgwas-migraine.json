@@ -1,0 +1,28 @@
+{
+  "NAME": "InsightGWAS (Migraine)",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "InsightGWAS",
+  "FULL NAME": "InsightGWAS - Transformer-based Deep Learning Enhances Migraine GWAS",
+  "PMID": 41372126,
+  "PMC ID": "PMC12696003",
+  "DOI": "10.1038/s41467-025-65991-7",
+  "URL": "",
+  "DESCRIPTION": "InsightGWAS is a Transformer-based model that enhances genetic discovery for migraine GWAS by integrating functional annotations and leveraging transfer learning from GWAS datasets of major depressive disorder. It identified 293 previously unreported loci from 53,109 cases and 230,876 controls. Published in Nature Communications.",
+  "MANUAL_CITATION": "Meng Z, Song Y, Jiang Y, et al. (2025) Transformer-based deep learning enhances discovery in migraine GWAS. Nat Commun. 16(1):11023. doi:10.1038/s41467-025-65991-7. PMID 41372126",
+  "TAGS": ["AI", "GWAS", "Transformer", "Deep Learning", "Migraine", "Transfer Learning", "Nat Commun"],
+  "TITLE": "Transformer-based deep learning enhances discovery in migraine GWAS.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature Communications",
+  "YEAR": "2025",
+  "VOLUME": "16",
+  "ISSUE": "1",
+  "PAGE": "11023",
+  "Authors": "Meng Z,Song Y,Jiang Y,Wang X,Zou Y,Li X,Hakonarson H,Chang X",
+  "ABSTRACT": "Migraine is a complex neurological disorder with substantial heritability, yet genome-wide association studies (GWAS) have explained only a fraction of its genetic component. We developed InsightGWAS, a Transformer-based model, to enhance genetic discovery for migraine by integrating functional annotations and leveraging transfer learning from GWAS datasets of major depressive disorder (MDD), identifying 293 previously unreported loci.",
+  "FIRST_AUTHOR": "Meng Z",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
