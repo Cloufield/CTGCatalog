@@ -1,0 +1,14 @@
+{
+  "NAME": "Hermes Agent",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "Hermes Agent",
+  "FULL NAME": "Hermes Agent — Self-Improving Open-Source AI Agent by Nous Research",
+  "URL": "https://github.com/NousResearch/hermes-agent",
+  "DESCRIPTION": "Hermes Agent is an open-source autonomous AI agent built by Nous Research with a built-in closed learning loop — it creates skills from experience, improves them during use, persists knowledge, searches past conversations, and builds a user model across sessions. Supports 14 messaging platforms (Telegram, Discord, Slack, WhatsApp, Signal, etc.) and 6 execution backends (local, Docker, SSH, Modal, Singularity). Features include persistent memory (FTS5 + Honcho), automated skill creation, cron scheduling, parallel sub-agent delegation, full browser automation, MCP integration, and model-agnostic provider switching via CLI. MIT licensed, first released February 2026.",
+  "TAGS": ["AI", "Agent", "Open Source", "Nous Research", "Multi-Platform"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
