@@ -8,10 +8,21 @@
   "PMID": 38962029,
   "PMC ID": "PMC11221788",
   "DOI": "10.1056/aioa2300009",
+  "TITLE": "AI-MARRVEL - A Knowledge-Driven AI System for Diagnosing Mendelian Disorders.",
+  "ISO": "NEJM AI",
+  "JOURNAL": "NEJM AI",
+  "YEAR": "2024",
+  "VOLUME": "1",
+  "ISSUE": "5",
+  "PAGE": "",
   "URL": "https://ai.marrvel.org",
   "DESCRIPTION": "AI-MARRVEL (AIM) is a knowledge-driven AI system for diagnosing Mendelian disorders that uses a random-forest machine-learning classifier trained on over 3.5 million variants from thousands of diagnosed cases. It incorporates expert-engineered features to recapitulate the complex decision-making processes in molecular diagnosis. AIM doubled the rate of accurate genetic diagnosis across three independent real-world cohorts compared to benchmarked methods. Its confidence metric achieved 98% precision and identified 57% of diagnosable cases from 871 unsolved cases. AIM also demonstrated potential for novel disease gene discovery.",
-  "MANUAL_CITATION": "Mao D, Liu C, Wang L, et al. (2024) AI-MARRVEL - A Knowledge-Driven AI System for Diagnosing Mendelian Disorders. NEJM AI. 1(5):10.1056/aioa2300009. PMID 38962029",
+  "MANUAL_CITATION": "Mao D, Liu C, Wang L, et al. (2024) AI-MARRVEL - A Knowledge-Driven AI System for Diagnosing Mendelian Disorders. NEJM AI. 1(5):10.1056/aioa2300009. doi:10.1056/aioa2300009. PMID 38962029",
+  "CITATION": "Mao D, Liu C, Wang L, AI-Ouran R, Deisseroth C, Pasupuleti S, Kim SY, Li L, Rosenfeld JA, Meng L, Burrage LC, Wangler MF, Yamamoto S, Santana M, Perez V, Shukla P, Eng CM, Lee B, Yuan B, Xia F, Bellen HJ, Liu P, Liu Z. (2024) AI-MARRVEL - A Knowledge-Driven AI System for Diagnosing Mendelian Disorders. NEJM AI, 1(5). doi:10.1056/aioa2300009. PMID 38962029",
+  "FIRST_AUTHOR": "Mao D",
+  "Authors": "Mao D,Liu C,Wang L,AI-Ouran R,Deisseroth C,Pasupuleti S,Kim SY,Li L,Rosenfeld JA,Meng L,Burrage LC,Wangler MF,Yamamoto S,Santana M,Perez V,Shukla P,Eng CM,Lee B,Yuan B,Xia F,Bellen HJ,Liu P,Liu Z",
   "TAGS": ["AI", "Agent", "Rare Disease", "Mendelian"],
+  "ABSTRACT": "Diagnosing genetic disorders requires extensive manual curation and interpretation of candidate variants, a labor-intensive task even for trained geneticists. Although artificial intelligence (AI) shows promise in aiding these diagnoses, existing AI tools have only achieved moderate success for primary diagnosis. AI-MARRVEL (AIM) uses a random-forest machine-learning classifier trained on over 3.5 million variants from thousands of diagnosed cases. AIM additionally incorporates expert-engineered features into training to recapitulate the intricate decision-making processes in molecular diagnosis. AIM improved the rate of accurate genetic diagnosis, doubling the number of solved cases as compared with benchmarked methods, across three distinct real-world cohorts. AIM achieved a precision rate of 98% and identified 57% of diagnosable cases out of a collection of 871 cases. AIM demonstrated potential for novel disease gene discovery by correctly predicting two newly reported disease genes from the Undiagnosed Diseases Network.",
   "_meta": {
     "source_sheet": "AI"
   }

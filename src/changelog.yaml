@@ -1,3 +1,6 @@
+2026-06-15:
+  - "Updated MARRVEL-MCP (Everton PMID 42167217, Am J Hum Genet 2026) with complete citation info (vol/issue/page, DOI, abstract, authors) in **AI** > **Agent**"
+  - "Updated AI-MARRVEL (Mao PMID 38962029, NEJM AI 2024) with complete citation info (vol/issue, DOI, abstract, full author list) in **AI** > **Agent**"
 2026-06-13:
   - "Added IBDverse sc-eQTL (Alegbe PMID 42236949, Nature 2026) to **Sumstats** > **Transcriptomics** > **Single-cell**"
   - "Added Brain sc-eQTL (Haglund PMID 39794547, Nat Genet 2025) to **Sumstats** > **Transcriptomics** > **Single-cell**"
