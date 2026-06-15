@@ -1,0 +1,1682 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curated index of complex trait genetics resources—biobanks, GWAS summary statistics, software tools, references, single-cell methods, major projects, and AI-related tooling.">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+        <link rel="canonical" href="https://cloufield.github.io/CTGCatalog/tags/single-cell/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Tag: Single cell - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#single-cell" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Tag: Single cell
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Biobanks/" class="md-tabs__link">
+          
+  
+  
+  Biobanks
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Sumstats/" class="md-tabs__link">
+          
+  
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Tools/" class="md-tabs__link">
+          
+  
+  
+  GWAS Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Coding/" class="md-tabs__link">
+          
+  
+  
+  Coding
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Population_Genetics/" class="md-tabs__link">
+          
+  
+  
+  Population Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../References/" class="md-tabs__link">
+          
+  
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Single_Cell/" class="md-tabs__link">
+          
+  
+  
+  Single_Cell
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../Projects/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../AI/" class="md-tabs__link">
+          
+  
+  
+  AI
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Biobanks/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biobanks
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Sumstats/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sumstats
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Tools/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GWAS Tools
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Coding/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coding
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Population_Genetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Population Genetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../References/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Single_Cell/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_Cell
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../Projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../../AI/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#entries" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Entries
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    
+      
+
+  
+
+
+
+  
+
+
+    
+    
+    
+      
+        
+      
+    
+    <article class="md-content__inner md-typeset catalog-tag-page">
+      
+        
+  
+
+
+  <nav class="md-tags" hidden>
+    
+      
+      
+      
+      
+        <span class="md-tag">Catalog</span>
+      
+    
+  </nav>
+
+
+
+<h1 id="single-cell">Single cell</h1>
+<p>Catalog entries using this tag (links open the entry card on its page):</p>
+<ul>
+<li><a href="../../Tools_Association_tests_TWAS/#sctwas">scTWAS — GWAS Tools</a></li>
+<li><a href="../../Tools_Tissue_and_single_cell/#seismic">seismic — GWAS Tools</a></li>
+<li><a href="../../Single_Cell_Trajectory/#cellrank">CellRank — Single cell</a></li>
+<li><a href="../../Single_Cell_Trajectory/#cytotrace">CytoTRACE — Single cell</a></li>
+<li><a href="../../Single_Cell_Framework/#giotto">Giotto — Single cell</a></li>
+<li><a href="../../Single_Cell_Harmonization/#harmony">Harmony — Single cell</a></li>
+<li><a href="../../Single_Cell_Network/#pyscenic">pySCENIC — Single cell</a></li>
+<li><a href="../../Single_Cell_Framework/#scanpy">Scanpy — Single cell</a></li>
+<li><a href="../../Single_Cell_QC/#scds">scds — Single cell</a></li>
+<li><a href="../../Single_Cell_Network/#scenic">SCENIC — Single cell</a></li>
+<li><a href="../../Single_Cell_Framework/#seurat">Seurat — Single cell</a></li>
+<li><a href="../../Single_Cell_Annotation/#singler">SingleR — Single cell</a></li>
+<li><a href="../../Single_Cell_QC/#soupx">SoupX — Single cell</a></li>
+<li><a href="../../Single_Cell_Framework/#squidpy">Squidpy — Single cell</a></li>
+</ul>
+<h2 id="entries">Entries</h2>
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="sctwas" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Tools_Association_tests_TWAS/#sctwas">scTWAS</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="twas/" class="catalog-badge catalog-badge--link" role="listitem">TWAS</a>
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+      <a href="scrna-seq/" class="catalog-badge catalog-badge--link" role="listitem">scRNA-seq</a>
+      <a href="tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+      <a href="summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/41820391">41820391</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Statistical framework for cell-type-resolved transcriptome-wide association using single-cell RNA-seq: models sparsity and technical noise via latent variables and moment-based estimation to improve genetically regulated expression prediction and gene–trait discovery.</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/ZhaotongL/scTWAS">https://github.com/ZhaotongL/scTWAS</a> ,<a href="https://doi.org/10.1038/s41467-026-70374-7">https://doi.org/10.1038/s41467-026-70374-7</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-1" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">TWAS, single-cell, cell-type-specific, latent variable, GReX</div>
+    <label for="catalog-col-keywords-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">scTWAS: a powerful statistical framework for single-cell transcriptome-wide association studies.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Lin Z, Su C. (2026) scTWAS: a powerful statistical framework for single-cell transcriptome-wide association studies. Nat Commun,  () . doi:10.1038/s41467-026-70374-7. PMID 41820391</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-1" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Transcriptome-wide association studies (TWAS) have successfully identified genes associated with complex traits and diseases, but most have been performed using bulk gene expression data, which aggregate signals across heterogeneous cell types. Population-scale single-cell RNA sequencing data now make it possible to perform TWAS at the cell-type resolution, but present unique challenges due to strong noises, technical variations, and high sparsity. Here, we propose scTWAS, a statistical method to conduct cell-type-specific TWAS using single-cell data. Leveraging a latent-variable model and moment-based estimation to address the challenges of single-cell data, scTWAS consistently improves the prediction of genetically regulated gene expression across cell types in both blood and brain tissues. Compared to existing methods, scTWAS identifies substantially more gene-trait associations across 29 hematological traits and three immune-related diseases in immune cell types. An application to Alzheimer&#x27;s disease also reveals cell-subtype-specific associations, including MS4A6A in the disease-associated microglial subtype and PPP1R37 in the inflammatory microglial subtype.</div>
+    <label for="catalog-col-abstract-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41467-026-70374-7</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="seismic" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Tools_Tissue_and_single_cell/#seismic">seismic</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+      <a href="scrna-seq/" class="catalog-badge catalog-badge--link" role="listitem">scRNA-seq</a>
+      <a href="gene-prioritization-2/" class="catalog-badge catalog-badge--link" role="listitem">Gene prioritization</a>
+      <a href="tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/41034207">41034207</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Single-cell Expression Integration System for Mapping genetically Implicated Cell types</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">R framework that links GWAS signals to single-cell-defined cell types via a cell-type gene specificity score (expression magnitude and consistency) and regression on gene-level association statistics, with influential-gene follow-up for interpretability.</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/ylaboratory/seismic">https://github.com/ylaboratory/seismic</a> ,<a href="https://ylaboratory.github.io/seismic/">https://ylaboratory.github.io/seismic/</a> ,<a href="https://doi.org/10.1038/s41467-025-63753-z">https://doi.org/10.1038/s41467-025-63753-z</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-2" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq, cell type, MAGMA, post-GWAS interpretation</div>
+    <label for="catalog-col-keywords-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Disentangling associations between complex traits and cell types with seismic.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Lai Q, Dannenfelser R, Roussarie JP, Yao V. (2025) Disentangling associations between complex traits and cell types with seismic. Nat Commun, 16 (1) 8744. doi:10.1038/s41467-025-63753-z. PMID 41034207</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Integrating single-cell RNA sequencing with Genome-Wide Association Studies (GWAS) can uncover cell types involved in complex traits and disease. However, current methods often lack scalability, interpretability, and robustness. We present seismic, a framework that computes a novel specificity score capturing both expression magnitude and consistency across cell types and introduces influential gene analysis, an approach to identify genes driving each cell type-trait association. Across over 1000 cell-type characterizations at different granularities and 28 polygenic traits, seismic corroborates known associations and uncovers trait-relevant cell groups not apparent through other methodologies. In Parkinson&#x27;s and Alzheimer&#x27;s, seismic unveils both cell- and brain-region-specific differences in pathology. Analyzing a pathology-based Alzheimer&#x27;s GWAS with seismic enables the identification of vulnerable neuron populations and molecular pathways implicated in their neurodegeneration. In general, seismic is a computationally efficient, powerful, and interpretable approach for mapping the relationships between polygenic traits and cell-type-specific expression, offering new insights into disease mechanisms.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41467-025-63753-z</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="cellrank" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Trajectory/#cellrank">CellRank</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35027767">35027767</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">CellRank for directed single-cell fate mapping.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Lange M, Bergen V, Klein M, Setty M, ...&amp;, Theis FJ. (2022) CellRank for directed single-cell fate mapping. Nat Methods, 19 (2) 159-170. doi:10.1038/s41592-021-01346-6. PMID 35027767</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Computational trajectory inference enables the reconstruction of cell state dynamics from single-cell RNA sequencing experiments. However, trajectory inference requires that the direction of a biological process is known, largely limiting its application to differentiating systems in normal development. Here, we present CellRank ( https://cellrank.org ) for single-cell fate mapping in diverse scenarios, including regeneration, reprogramming and disease, for which direction is unknown. Our approach combines the robustness of trajectory inference with directional information from RNA velocity, taking into account the gradual and stochastic nature of cellular fate decisions, as well as uncertainty in velocity vectors. On pancreas development data, CellRank automatically detects initial, intermediate and terminal populations, predicts fate potentials and visualizes continuous gene expression trends along individual lineages. Applied to lineage-traced cellular reprogramming data, predicted fate probabilities correctly recover reprogramming outcomes. CellRank also predicts a new dedifferentiation trajectory during postinjury lung regeneration, including previously unknown intermediate cell states, which we confirm experimentally.</div>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41592-021-01346-6</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="cytotrace" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Trajectory/#cytotrace">CytoTRACE</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/31974247">31974247</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">CytoTRACE (Cellular (Cyto) Trajectory Reconstruction Analysis using gene Counts and Expression) is a computational method that predicts the differentiation state of cells from single-cell RNA-sequencing data. CytoTRACE leverages a simple, yet robust, determinant of developmental potential—the number of detectably expressed genes per cell, or gene counts. We have validated CytoTRACE on ~150K single-cell transcriptomes spanning 315 cell phenotypes, 52 lineages, 14 tissue types, 9 scRNA-seq platforms, and 5 species.</div>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://cytotrace.stanford.edu/">https://cytotrace.stanford.edu/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-cell transcriptional diversity is a hallmark of developmental potential.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Gulati GS, Sikandar SS, Wesche DJ, Manjunath A, ...&amp;, Newman AM. (2020) Single-cell transcriptional diversity is a hallmark of developmental potential. Science, 367 (6476) 405-411. doi:10.1126/science.aax0249. PMID 31974247</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Single-cell RNA sequencing (scRNA-seq) is a powerful approach for reconstructing cellular differentiation trajectories. However, inferring both the state and direction of differentiation is challenging. Here, we demonstrate a simple, yet robust, determinant of developmental potential-the number of expressed genes per cell-and leverage this measure of transcriptional diversity to develop a computational framework (CytoTRACE) for predicting differentiation states from scRNA-seq data. When applied to diverse tissue types and organisms, CytoTRACE outperformed previous methods and nearly 19,000 annotated gene sets for resolving 52 experimentally determined developmental trajectories. Additionally, it facilitated the identification of quiescent stem cells and revealed genes that contribute to breast tumorigenesis. This study thus establishes a key RNA-based feature of developmental potential and a platform for delineation of cellular hierarchies.</div>
+    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1126/science.aax0249</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="giotto" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Framework/#giotto">Giotto</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/33685491">33685491</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Giotto package consists of two modules, Giotto Analyzer and Viewer (see www.spatialgiotto.com), which provide tools to process, analyze and visualize single-cell spatial expression data.</div>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://rubd.github.io/Giotto_site/">https://rubd.github.io/Giotto_site/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Giotto: a toolbox for integrative analysis and visualization of spatial expression data.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Dries R, Zhu Q, Dong R, Eng CL, ...&amp;, Yuan GC. (2021) Giotto: a toolbox for integrative analysis and visualization of spatial expression data. Genome Biol, 22 (1) 78. doi:10.1186/s13059-021-02286-2. PMID 33685491</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Spatial transcriptomic and proteomic technologies have provided new opportunities to investigate cells in their native microenvironment. Here we present Giotto, a comprehensive and open-source toolbox for spatial data analysis and visualization. The analysis module provides end-to-end analysis by implementing a wide range of algorithms for characterizing tissue composition, spatial expression patterns, and cellular interactions. Furthermore, single-cell RNAseq data can be integrated for spatial cell-type enrichment analysis. The visualization module allows users to interactively visualize analysis outputs and imaging features. To demonstrate its general applicability, we apply Giotto to a wide range of datasets encompassing diverse technologies and platforms.</div>
+    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1186/s13059-021-02286-2</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="harmony" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Harmonization/#harmony">Harmony</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/31740819">31740819</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Fast, sensitive and accurate integration of single-cell data with Harmony</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/immunogenomics/harmony">https://github.com/immunogenomics/harmony</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Fast, sensitive and accurate integration of single-cell data with Harmony.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Korsunsky I, Millard N, Fan J, Slowikowski K, ...&amp;, Raychaudhuri S. (2019) Fast, sensitive and accurate integration of single-cell data with Harmony. Nat Methods, 16 (12) 1289-1296. doi:10.1038/s41592-019-0619-0. PMID 31740819</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">The emerging diversity of single-cell RNA-seq datasets allows for the full transcriptional characterization of cell types across a wide variety of biological and clinical conditions. However, it is challenging to analyze them together, particularly when datasets are assayed with different technologies, because biological and technical differences are interspersed. We present Harmony (https://github.com/immunogenomics/harmony), an algorithm that projects cells into a shared embedding in which cells group by cell type rather than dataset-specific conditions. Harmony simultaneously accounts for multiple experimental and biological factors. In six analyses, we demonstrate the superior performance of Harmony to previously published algorithms while requiring fewer computational resources. Harmony enables the integration of ~106 cells on a personal computer. We apply Harmony to peripheral blood mononuclear cells from datasets with large experimental differences, five studies of pancreatic islet cells, mouse embryogenesis datasets and the integration of scRNA-seq with spatial transcriptomics data.</div>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41592-019-0619-0</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="pyscenic" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Network/#pyscenic">pySCENIC</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">pySCENIC is a lightning-fast python implementation of the SCENIC pipeline (Single-Cell rEgulatory Network Inference and Clustering) which enables biologists to infer transcription factors, gene regulatory networks and cell types from single-cell RNA-seq data.</div>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://pyscenic.readthedocs.io/en/latest/">https://pyscenic.readthedocs.io/en/latest/</a></div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="scanpy" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Framework/#scanpy">Scanpy</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/29409532">29409532</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://scanpy.readthedocs.io/en/stable/tutorials/index.html">https://scanpy.readthedocs.io/en/stable/tutorials/index.html</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">SCANPY: large-scale single-cell gene expression data analysis.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Wolf FA, Angerer P, Theis FJ. (2018) SCANPY: large-scale single-cell gene expression data analysis. Genome Biol, 19 (1) 15. doi:10.1186/s13059-017-1382-0. PMID 29409532</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">SCANPY is a scalable toolkit for analyzing single-cell gene expression data. It includes methods for preprocessing, visualization, clustering, pseudotime and trajectory inference, differential expression testing, and simulation of gene regulatory networks. Its Python-based implementation efficiently deals with data sets of more than one million cells ( https://github.com/theislab/Scanpy ). Along with SCANPY, we present ANNDATA, a generic class for handling annotated data matrices ( https://github.com/theislab/anndata ).</div>
+    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1186/s13059-017-1382-0</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="scds" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_QC/#scds">scds</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/31501871">31501871</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The scds package provides methods to annotate doublets in scRNA-seq data computationally.</div>
+    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.bioconductor.org/packages/release/bioc/html/scds.html">https://www.bioconductor.org/packages/release/bioc/html/scds.html</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">scds: computational annotation of doublets in single-cell RNA sequencing data.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Bais AS, Kostka D. (2020) scds: computational annotation of doublets in single-cell RNA sequencing data. Bioinformatics, 36 (4) 1150-1158. doi:10.1093/bioinformatics/btz698. PMID 31501871</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">MOTIVATION: Single-cell RNA sequencing (scRNA-seq) technologies enable the study of transcriptional heterogeneity at the resolution of individual cells and have an increasing impact on biomedical research. However, it is known that these methods sometimes wrongly consider two or more cells as single cells, and that a number of so-called doublets is present in the output of such experiments. Treating doublets as single cells in downstream analyses can severely bias a study&#x27;s conclusions, and therefore computational strategies for the identification of doublets are needed. RESULTS: With scds, we propose two new approaches for in silico doublet identification: Co-expression based doublet scoring (cxds) and binary classification based doublet scoring (bcds). The co-expression based approach, cxds, utilizes binarized (absence/presence) gene expression data and, employing a binomial model for the co-expression of pairs of genes, yields interpretable doublet annotations. bcds, on the other hand, uses a binary classification approach to discriminate artificial doublets from original data. We apply our methods and existing computational doublet identification approaches to four datasets with experimental doublet annotations and find that our methods perform at least as well as the state of the art, at comparably little computational cost. We observe appreciable differences between methods and across datasets and that no approach dominates all others. In summary, scds presents a scalable, competitive approach that allows for doublet annotation of datasets with thousands of cells in a matter of seconds. AVAILABILITY AND IMPLEMENTATION: scds is implemented as a Bioconductor R package (doi: 10.18129/B9.bioc.scds). SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</div>
+    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1093/bioinformatics/btz698</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="scenic" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Network/#scenic">SCENIC+</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/37443338">37443338</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://scenicplus.readthedocs.io/en/latest/">https://scenicplus.readthedocs.io/en/latest/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Bravo González-Blas C, De Winter S, Hulselmans G, Hecker N, ...&amp;, Aerts S. (2023) SCENIC+: single-cell multiomic inference of enhancers and gene regulatory networks. Nat Methods, 20 (9) 1355-1367. doi:10.1038/s41592-023-01938-4. PMID 37443338</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Joint profiling of chromatin accessibility and gene expression in individual cells provides an opportunity to decipher enhancer-driven gene regulatory networks (GRNs). Here we present a method for the inference of enhancer-driven GRNs, called SCENIC+. SCENIC+ predicts genomic enhancers along with candidate upstream transcription factors (TFs) and links these enhancers to candidate target genes. To improve both recall and precision of TF identification, we curated and clustered a motif collection with more than 30,000 motifs. We benchmarked SCENIC+ on diverse datasets from different species, including human peripheral blood mononuclear cells, ENCODE cell lines, melanoma cell states and Drosophila retinal development. Next, we exploit SCENIC+ predictions to study conserved TFs, enhancers and GRNs between human and mouse cell types in the cerebral cortex. Finally, we use SCENIC+ to study the dynamics of gene regulation along differentiation trajectories and the effect of TF perturbations on cell state. SCENIC+ is available at scenicplus.readthedocs.io .</div>
+    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41592-023-01938-4</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="seurat" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Framework/#seurat">Seurat</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="singler" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Annotation/#singler">SingleR</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/30643263">30643263</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">a computational method for unbiased cell type recognition of scRNA-seq.</div>
+    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/dviraran/SingleR">https://github.com/dviraran/SingleR</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Aran D, Looney AP, Liu L, Wu E, ...&amp;, Bhattacharya M. (2019) Reference-based analysis of lung single-cell sequencing reveals a transitional profibrotic macrophage. Nat Immunol, 20 (2) 163-172. doi:10.1038/s41590-018-0276-y. PMID 30643263</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Tissue fibrosis is a major cause of mortality that results from the deposition of matrix proteins by an activated mesenchyme. Macrophages accumulate in fibrosis, but the role of specific subgroups in supporting fibrogenesis has not been investigated in vivo. Here, we used single-cell RNA sequencing (scRNA-seq) to characterize the heterogeneity of macrophages in bleomycin-induced lung fibrosis in mice. A novel computational framework for the annotation of scRNA-seq by reference to bulk transcriptomes (SingleR) enabled the subclustering of macrophages and revealed a disease-associated subgroup with a transitional gene expression profile intermediate between monocyte-derived and alveolar macrophages. These CX3CR1+SiglecF+ transitional macrophages localized to the fibrotic niche and had a profibrotic effect in vivo. Human orthologs of genes expressed by the transitional macrophages were upregulated in samples from patients with idiopathic pulmonary fibrosis. Thus, we have identified a pathological subgroup of transitional macrophages that are required for the fibrotic response to injury.</div>
+    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41590-018-0276-y</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="soupx" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_QC/#soupx">SoupX</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/33367645">33367645</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/constantAmateur/SoupX">https://github.com/constantAmateur/SoupX</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">SoupX removes ambient RNA contamination from droplet-based single-cell RNA sequencing data.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Young MD, Behjati S. (2020) SoupX removes ambient RNA contamination from droplet-based single-cell RNA sequencing data. Gigascience, 9 (12) . doi:10.1093/gigascience/giaa151. PMID 33367645</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">BACKGROUND: Droplet-based single-cell RNA sequence analyses assume that all acquired RNAs are endogenous to cells. However, any cell-free RNAs contained within the input solution are also captured by these assays. This sequencing of cell-free RNA constitutes a background contamination that confounds the biological interpretation of single-cell transcriptomic data. RESULTS: We demonstrate that contamination from this &quot;soup&quot; of cell-free RNAs is ubiquitous, with experiment-specific variations in composition and magnitude. We present a method, SoupX, for quantifying the extent of the contamination and estimating &quot;background-corrected&quot; cell expression profiles that seamlessly integrate with existing downstream analysis tools. Applying this method to several datasets using multiple droplet sequencing technologies, we demonstrate that its application improves biological interpretation of otherwise misleading data, as well as improving quality control metrics. CONCLUSIONS: We present SoupX, a tool for removing ambient RNA contamination from droplet-based single-cell RNA sequencing experiments. This tool has broad applicability, and its application can improve the biological utility of existing and future datasets.</div>
+    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1093/gigascience/giaa151</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Single_Cell">
+  <header class="catalog-entry-card__header">
+    <h2 id="squidpy" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Single_Cell_Framework/#squidpy">Squidpy</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35102346">35102346</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://squidpy.readthedocs.io/en/stable/index.html#">https://squidpy.readthedocs.io/en/stable/index.html#</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Squidpy: a scalable framework for spatial omics analysis.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Palla G, Spitzer H, Klein M, Fischer D, ...&amp;, Theis FJ. (2022) Squidpy: a scalable framework for spatial omics analysis. Nat Methods, 19 (2) 171-178. doi:10.1038/s41592-021-01358-2. PMID 35102346</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Spatial omics data are advancing the study of tissue organization and cellular communication at an unprecedented scale. Flexible tools are required to store, integrate and visualize the large diversity of spatial omics data. Here, we present Squidpy, a Python framework that brings together tools from omics and image analysis to enable scalable description of spatial molecular data, such as transcriptome or multivariate proteins. Squidpy provides efficient infrastructure and numerous analysis methods that allow to efficiently store, manipulate and interactively visualize spatial omics data. Squidpy is extensible and can be interfaced with a variety of already existing libraries for the scalable analysis of spatial omics data.</div>
+    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41592-021-01358-2</div>
+  </section>
+  </div>
+</article>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Cloufield/CTGCatalog" target="_blank" rel="noopener" title="CTGCatalog on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.path", "navigation.prune", "toc.follow", "search.highlight", "search.suggest", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

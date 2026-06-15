@@ -6,9 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Curated index of complex trait genetics resources—biobanks, GWAS summary statistics, software tools, references, single-cell methods, major projects, and AI-related tooling.">
+      
       
         <meta name="author" content="HE Yunye">
       
+      
+        <link rel="canonical" href="https://cloufield.github.io/CTGCatalog/Biobanks_AMERICA/">
       
       
         <link rel="prev" href="../Biobanks_AFRICA/">
@@ -17,8 +21,11 @@
         <link rel="next" href="../Biobanks_ASIA/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -26,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -40,15 +47,9 @@
     
     
       
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -56,11 +57,12 @@
 
     
     
-    
   </head>
   
   
     
+    
+      
     
     
     
@@ -115,15 +117,43 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -162,13 +192,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -194,9 +225,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href=".." class="md-tabs__link">
         
+  
   
     
   
@@ -210,6 +243,7 @@
         
   
   
+  
     
   
   
@@ -218,6 +252,7 @@
       <li class="md-tabs__item md-tabs__item--active">
         <a href="../Biobanks/" class="md-tabs__link">
           
+  
   
   Biobanks
 
@@ -231,47 +266,13 @@
   
   
   
-    
-    
-      <li class="md-tabs__item">
-        <a href="../References/" class="md-tabs__link">
-          
-  
-  References
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../Single_Cell/" class="md-tabs__link">
-          
-  
-  Single_Cell
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
   
     
     
       <li class="md-tabs__item">
         <a href="../Sumstats/" class="md-tabs__link">
           
+  
   
   Sumstats
 
@@ -285,13 +286,135 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../Tools/" class="md-tabs__link">
           
   
-  Tools
+  
+  GWAS Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Coding/" class="md-tabs__link">
+          
+  
+  
+  Coding
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics/" class="md-tabs__link">
+          
+  
+  
+  Population Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../References/" class="md-tabs__link">
+          
+  
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Single_Cell/" class="md-tabs__link">
+          
+  
+  
+  Single_Cell
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Projects/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../AI/" class="md-tabs__link">
+          
+  
+  
+  AI
 
         </a>
       </li>
@@ -309,6 +432,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -333,7 +458,7 @@
       <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -353,10 +478,16 @@
       <a href=".." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -375,12 +506,15 @@
     
     
     
+    
       
         
         
       
       
     
+    
+      
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
@@ -392,10 +526,16 @@
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
+    
+  
     Biobanks
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -404,7 +544,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Biobanks
+            
+  
+    Biobanks
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -418,10 +562,16 @@
       <a href="../Biobanks/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Biobanks
+  
+
     
   </span>
+  
   
 
       </a>
@@ -440,10 +590,16 @@
       <a href="../Biobanks_AFRICA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     AFRICA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -469,10 +625,16 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
+    
+  
     AMERICA
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -481,10 +643,16 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     AMERICA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -505,142 +673,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#all-of-us" class="md-nav__link">
-    <span class="md-ellipsis">
-      All of Us
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#biome" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioMe
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bioportal" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioPortal
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#biovu" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioVU
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#biobank-of-the-americas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Biobank of the Americas
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cartagene-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      CARTaGENE biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#canpath-ontario-health-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      CanPath - Ontario Health Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#colorado-center-for-personalized-medicine" class="md-nav__link">
-    <span class="md-ellipsis">
-      Colorado Center for Personalized Medicine
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#massachusetts-general-brigham-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Massachusetts General Brigham Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mexico-city-prospective-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mexico City Prospective Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#michigan-genomics-initiative" class="md-nav__link">
-    <span class="md-ellipsis">
-      Michigan Genomics Initiative
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#million-veteran-program" class="md-nav__link">
-    <span class="md-ellipsis">
-      Million Veteran Program
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#penn-medicine-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Penn Medicine Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-canadian-longitudinal-study-on-aging" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Canadian Longitudinal Study on Aging
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ucla-precision-health-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      UCLA Precision Health Biobank
     </span>
   </a>
   
@@ -665,10 +700,16 @@
       <a href="../Biobanks_ASIA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     ASIA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -687,10 +728,16 @@
       <a href="../Biobanks_EUROPE/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     EUROPE
+  
+
     
   </span>
+  
   
 
       </a>
@@ -706,13 +753,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../Biobanks_OCIENIA/" class="md-nav__link">
+      <a href="../Biobanks_OCEANIA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    OCIENIA
+    
+  
+    OCEANIA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -737,614 +790,43 @@
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            References
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Epigenetics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Epigenetics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Function/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Function
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Gene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Genome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Phenotype/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phenotype
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Variant/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variant
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_scRNA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    scRNA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
     
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Single_Cell
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Annotation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Annotation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Framework/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Framework
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Harmonization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Harmonization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Network/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Network
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_QC/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    QC
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Trajectory/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Trajectory
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
-  
-
     
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../Sumstats/" class="md-nav__link">
       
   
   
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
   <span class="md-ellipsis">
+    
+  
     Sumstats
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Sumstats
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sumstats
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_General/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    General
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Imaging/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Imaging
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Metabolomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Proteomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proteomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1359,64 +841,55 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Tools/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
-    Tools
+    
+  
+    GWAS Tools
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            Tools
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tools
-    
-  </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
-              
-            
-              
-                
+    
+      
+      
   
   
   
   
+    
     
     
     
@@ -1424,1063 +897,293 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Coding/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
+    Coding
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Population_Genetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Population Genetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../References/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Single_Cell/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_Cell
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../AI/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
     AI
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            AI
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_AI_Agent/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Agent
-    
-  </span>
   
 
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Annotation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Annotation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
+        <span class="md-nav__icon md-icon"></span>
       
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
-            
+    </a>
   
-  <span class="md-ellipsis">
-    Association_tests
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_4">
-            <span class="md-nav__icon md-icon"></span>
-            Association_tests
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Association_tests
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Privacy_Preserving_GWAS_Tool/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Privacy_Preserving_GWAS_Tool
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_RWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    RWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_TWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    TWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Time_to_event_phenotypes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Time_to_event_phenotypes
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_eQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    eQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_sQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    sQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Colocalization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Colocalization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Data_processing/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Data_processing
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Dimension_reduction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Dimension_reduction
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Drug_discovery/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Drug_discovery
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Fine_mapping/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Fine_mapping
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Functional_prediction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Functional_prediction
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Gene_prioritization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene_prioritization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Gene_set_pathway_analysis/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene_set_pathway_analysis
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_GxE_interactions/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GxE_interactions
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_HLA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    HLA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Heritability_and_genetic_correlation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heritability_and_genetic_correlation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Imputation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Imputation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Mendelian_randomization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Mendelian_randomization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Meta_and_Multi_triat/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Meta_and_Multi_triat
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Polygenic_risk_scores/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Polygenic_risk_scores
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_20" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_20" id="__nav_6_20_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Population_Genetics
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_20_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_20">
-            <span class="md-nav__icon md-icon"></span>
-            Population_Genetics
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Admixture/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Admixture
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Genealogy/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genealogy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Phylogenetic_tree/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phylogenetic_tree
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Selection/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Selection
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Power_analysis/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Power_analysis
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Proteomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proteomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Simulation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Simulation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Tissue_and_single_cell/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tissue_and_single_cell
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_25" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_25" id="__nav_6_25_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Visualization
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_25_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_25">
-            <span class="md-nav__icon md-icon"></span>
-            Visualization
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Chromosome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chromosome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Forest_plot/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Forest_plot
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_GWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Heatmap/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heatmap
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_UpSet_plots/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    UpSet_plots
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Variants_on_protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variants_on_protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Winners_curse/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Winners_curse
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
 
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -2493,6 +1196,8 @@
               </div>
             
             
+              
+                
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
@@ -2513,142 +1218,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#all-of-us" class="md-nav__link">
-    <span class="md-ellipsis">
-      All of Us
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#biome" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioMe
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#bioportal" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioPortal
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#biovu" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioVU
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#biobank-of-the-americas" class="md-nav__link">
-    <span class="md-ellipsis">
-      Biobank of the Americas
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#cartagene-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      CARTaGENE biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#canpath-ontario-health-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      CanPath - Ontario Health Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#colorado-center-for-personalized-medicine" class="md-nav__link">
-    <span class="md-ellipsis">
-      Colorado Center for Personalized Medicine
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#massachusetts-general-brigham-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Massachusetts General Brigham Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#mexico-city-prospective-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      Mexico City Prospective Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#michigan-genomics-initiative" class="md-nav__link">
-    <span class="md-ellipsis">
-      Michigan Genomics Initiative
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#million-veteran-program" class="md-nav__link">
-    <span class="md-ellipsis">
-      Million Veteran Program
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#penn-medicine-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Penn Medicine Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-canadian-longitudinal-study-on-aging" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Canadian Longitudinal Study on Aging
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ucla-precision-health-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      UCLA Precision Health Biobank
     </span>
   </a>
   
@@ -2663,216 +1235,987 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
+  <div class="md-content" data-md-component="content">
+    
+      
+
+  
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Biobanks/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Biobanks
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+    
+    
+    
+      
+        
+      
+    
+    <article class="md-content__inner md-typeset catalog-section-Biobanks">
+      
+        
+  
+
+
+  <nav class="md-tags" hidden>
+    
+      
+      
+      
+      
+        <span class="md-tag">Biobank / cohort</span>
+      
+    
+  </nav>
 
 
 
   <h1>AMERICA</h1>
 
+<div class="catalog-nav-lead">
+<p>Curation of <strong>AMERICA</strong> — listings under the <strong>Biobanks</strong> tab.</p>
+</div>
 <h2 id="summary-table">Summary Table</h2>
+<p><em>Click a column header to sort the table.</em></p>
+<div class="catalog-summary-table">
+
+
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">NAME</th>
-<th style="text-align: left;">CONTINENT</th>
-<th style="text-align: left;">SAMPLE SIZE</th>
-<th style="text-align: left;">URL</th>
+<th>NAME</th>
+<th>MAIN ANCESTRY</th>
+<th>PARTICIPANTS</th>
+<th>CONTINENT</th>
+<th>SAMPLE SIZE</th>
+<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a href="#all-of-us">All of Us</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~413k</td>
-<td style="text-align: left;"><a href="https://precisionhealth.umich.edu/our-research/michigangenomics/">https://precisionhealth.umich.edu/our-research/michigangenomics/</a></td>
+<td><a href="#aric">ARIC</a></td>
+<td>AFR,EUR</td>
+<td>US Black and white adults (community-based cohorts)</td>
+<td>AMERICA</td>
+<td>~15.7k</td>
+<td><a href="https://sites.cscc.unc.edu/aric/">https://sites.cscc.unc.edu/aric/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#biome">BioMe</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~32k</td>
-<td style="text-align: left;"><a href="https://www.vumc.org/dbmi/biovu">https://www.vumc.org/dbmi/biovu</a></td>
+<td><a href="#all-of-us">All of Us</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>US residents (nationally diverse recruitment)</td>
+<td>AMERICA</td>
+<td>~413k</td>
+<td><a href="https://precisionhealth.umich.edu/our-research/michigangenomics/">https://precisionhealth.umich.edu/our-research/michig…</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#bioportal">BioPortal</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">NA</td>
-<td style="text-align: left;"><a href="https://www.mcgill.ca/genepi/bioportal">https://www.mcgill.ca/genepi/bioportal</a></td>
+<td><a href="#biome">BioMe</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>New York City area health-system patients</td>
+<td>AMERICA</td>
+<td>~32k</td>
+<td><a href="https://www.vumc.org/dbmi/biovu">https://www.vumc.org/dbmi/biovu</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#biovu">BioVU</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~120k</td>
-<td style="text-align: left;"><a href="https://bbofa.org/">https://bbofa.org/</a></td>
+<td><a href="#bioportal">BioPortal</a></td>
+<td>AMR,EUR</td>
+<td>Montreal-area Canadian research participants</td>
+<td>AMERICA</td>
+<td>N/A (multi-study platform)</td>
+<td><a href="https://www.mcgill.ca/genepi/bioportal">https://www.mcgill.ca/genepi/bioportal</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#biobank-of-the-americas">Biobank of the Americas</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~20k</td>
-<td style="text-align: left;"><a href="https://www.galatea.bio/#main-biobank">https://www.galatea.bio/#main-biobank</a></td>
+<td><a href="#biovu">BioVU</a></td>
+<td>EUR</td>
+<td>Vanderbilt University Medical Center patients</td>
+<td>AMERICA</td>
+<td>~120k</td>
+<td><a href="https://bbofa.org/">https://bbofa.org/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#cartagene-biobank">CARTaGENE biobank</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~30K</td>
-<td style="text-align: left;"><a href="https://cartagene.qc.ca/en/">https://cartagene.qc.ca/en/</a></td>
+<td><a href="#biobank-of-the-americas">Biobank of the Americas</a></td>
+<td>AMR,EUR</td>
+<td>US and Latin American clinical / biopharma-linked participants</td>
+<td>AMERICA</td>
+<td>~20k</td>
+<td><a href="https://www.galatea.bio/#main-biobank">https://www.galatea.bio/#main-biobank</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#canpath-ontario-health-study">CanPath - Ontario Health Study</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~7k</td>
-<td style="text-align: left;"><a href="https://canpath.ca/cohort/ontario-health-study/">https://canpath.ca/cohort/ontario-health-study/</a></td>
+<td><a href="#cartagene-biobank">CARTaGENE biobank</a></td>
+<td>AMR,EUR</td>
+<td>Quebec residents (CartaGENE)</td>
+<td>AMERICA</td>
+<td>~30K</td>
+<td><a href="https://cartagene.qc.ca/en/">https://cartagene.qc.ca/en/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#colorado-center-for-personalized-medicine">Colorado Center for Personalized Medicine</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~34k</td>
-<td style="text-align: left;"><a href="https://medschool.cuanschutz.edu/cobiobank">https://medschool.cuanschutz.edu/cobiobank</a></td>
+<td><a href="#canpath-ontario-health-study">CanPath - Ontario Health Study</a></td>
+<td>AMR,EUR</td>
+<td>Canadian adults (Ontario; CanPath)</td>
+<td>AMERICA</td>
+<td>~7k</td>
+<td><a href="https://canpath.ca/cohort/ontario-health-study/">https://canpath.ca/cohort/ontario-health-study/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#massachusetts-general-brigham-biobank">Massachusetts General Brigham Biobank</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~26K</td>
-<td style="text-align: left;"><a href="https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank">https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank</a></td>
+<td><a href="#colorado-center-for-personalized-medicine">Colorado Center for Personalized Medicine</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>University of Colorado health-system patients</td>
+<td>AMERICA</td>
+<td>~34k</td>
+<td><a href="https://medschool.cuanschutz.edu/cobiobank">https://medschool.cuanschutz.edu/cobiobank</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#mexico-city-prospective-study">Mexico City Prospective Study</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~150k</td>
-<td style="text-align: left;"><a href="https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico">https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico</a></td>
+<td><a href="#elsa-brasil">ELSA-Brasil</a></td>
+<td>AFR,AMR,EUR</td>
+<td>Brazilian civil servants and families (longitudinal aging)</td>
+<td>AMERICA</td>
+<td>~15k</td>
+<td><a href="https://elsa.org.br/">https://elsa.org.br/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#michigan-genomics-initiative">Michigan Genomics Initiative</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~55k</td>
-<td style="text-align: left;"><a href="https://pmbb.med.upenn.edu/">https://pmbb.med.upenn.edu/</a></td>
+<td><a href="#hchssol">HCHS/SOL</a></td>
+<td>AMR</td>
+<td>Hispanic/Latino adults (US community sites)</td>
+<td>AMERICA</td>
+<td>~16k</td>
+<td><a href="https://www.cscc.unc.edu/hchs/">https://www.cscc.unc.edu/hchs/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#million-veteran-program">Million Veteran Program</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~900k</td>
-<td style="text-align: left;"><a href="https://www.mvp.va.gov/pwa/">https://www.mvp.va.gov/pwa/</a></td>
+<td><a href="#mesa">MESA</a></td>
+<td>AFR,AMR,EAS,EUR</td>
+<td>US adults (Black, white, Hispanic/Latino, Chinese cohorts)</td>
+<td>AMERICA</td>
+<td>~6.8k</td>
+<td><a href="https://www.mesa-nhlbi.org/">https://www.mesa-nhlbi.org/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#penn-medicine-biobank">Penn Medicine Biobank</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~40k</td>
-<td style="text-align: left;"><a href="https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank">https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank</a></td>
+<td><a href="#massachusetts-general-brigham-biobank">Massachusetts General Brigham Biobank</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>Mass General Brigham patients</td>
+<td>AMERICA</td>
+<td>~26K</td>
+<td><a href="https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank">https://www.massgeneralbrigham.org/en/research-and-in…</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-canadian-longitudinal-study-on-aging">The Canadian Longitudinal Study on Aging</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~50k</td>
-<td style="text-align: left;"><a href="https://www.clsa-elcv.ca/">https://www.clsa-elcv.ca/</a></td>
+<td><a href="#mexico-city-prospective-study">Mexico City Prospective Study</a></td>
+<td>AMR</td>
+<td>Mexico City metropolitan adults</td>
+<td>AMERICA</td>
+<td>~150k</td>
+<td><a href="https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico">https://www.ctsu.ox.ac.uk/research/prospective-blood-…</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#ucla-precision-health-biobank">UCLA Precision Health Biobank</a></td>
-<td style="text-align: left;">AMERICA</td>
-<td style="text-align: left;">~27k</td>
-<td style="text-align: left;"><a href="https://icahn.mssm.edu/research/ipm/programs/biome-biobank">https://icahn.mssm.edu/research/ipm/programs/biome-biobank</a></td>
+<td><a href="#michigan-genomics-initiative">Michigan Genomics Initiative</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>Michigan Medicine patients</td>
+<td>AMERICA</td>
+<td>~55k</td>
+<td><a href="https://pmbb.med.upenn.edu/">https://pmbb.med.upenn.edu/</a></td>
+</tr>
+<tr>
+<td><a href="#million-veteran-program">Million Veteran Program</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>US military veterans (VA healthcare)</td>
+<td>AMERICA</td>
+<td>~900k</td>
+<td><a href="https://www.mvp.va.gov/pwa/">https://www.mvp.va.gov/pwa/</a></td>
+</tr>
+<tr>
+<td><a href="#page-study">PAGE Study</a></td>
+<td>AFR,AMR,EAS,EUR</td>
+<td>US minority cohorts (NH Black, Hispanic/Latino, Asian, Native American)</td>
+<td>AMERICA</td>
+<td>50k+ (aggregated across studies)</td>
+<td><a href="https://www.pagestudy.org/">https://www.pagestudy.org/</a></td>
+</tr>
+<tr>
+<td><a href="#penn-medicine-biobank">Penn Medicine Biobank</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>University of Pennsylvania Health System patients</td>
+<td>AMERICA</td>
+<td>~40k</td>
+<td><a href="https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank">https://www.uclahealth.org/precision-health/programs/…</a></td>
+</tr>
+<tr>
+<td><a href="#the-canadian-longitudinal-study-on-aging">The Canadian Longitudinal Study on Aging</a></td>
+<td>AMR,EUR</td>
+<td>Canadian adults (national aging cohort)</td>
+<td>AMERICA</td>
+<td>~50k</td>
+<td><a href="https://www.clsa-elcv.ca/">https://www.clsa-elcv.ca/</a></td>
+</tr>
+<tr>
+<td><a href="#ucla-precision-health-biobank">UCLA Precision Health Biobank</a></td>
+<td>AFR,AMR,EAS,EUR,SAS</td>
+<td>UCLA Health patients</td>
+<td>AMERICA</td>
+<td>~27k</td>
+<td><a href="https://icahn.mssm.edu/research/ipm/programs/biome-biobank">https://icahn.mssm.edu/research/ipm/programs/biome-bi…</a></td>
+</tr>
+<tr>
+<td><a href="#womens-health-initiative">Women&#x27;s Health Initiative</a></td>
+<td>AFR,AMR,EAS,EUR</td>
+<td>US postmenopausal women (multi-ethnic)</td>
+<td>AMERICA</td>
+<td>~161k</td>
+<td><a href="https://www.whi.org/">https://www.whi.org/</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="all-of-us">All of Us</h2>
-<ul>
-<li><strong>NAME</strong> : All of Us </li>
-<li><strong>SHORT NAME</strong> : AoU </li>
-<li><strong>ANCESTRY</strong> : EUR, AFR, AMR, EAS, SAS, WAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~413k </li>
-<li><strong>WGS/WES</strong> : ~245K </li>
-<li><strong>URL</strong> : <a href="https://precisionhealth.umich.edu/our-research/michigangenomics/">https://precisionhealth.umich.edu/our-research/michigangenomics/</a> </li>
-</ul>
-<h2 id="biome">BioMe</h2>
-<ul>
-<li><strong>NAME</strong> : BioMe </li>
-<li><strong>SAMPLE SIZE</strong> : ~32k </li>
-<li><strong>URL</strong> : <a href="https://www.vumc.org/dbmi/biovu">https://www.vumc.org/dbmi/biovu</a> </li>
-</ul>
-<h2 id="bioportal">BioPortal</h2>
-<ul>
-<li><strong>NAME</strong> : BioPortal </li>
-<li><strong>URL</strong> : <a href="https://www.mcgill.ca/genepi/bioportal">https://www.mcgill.ca/genepi/bioportal</a> </li>
-</ul>
-<h2 id="biovu">BioVU</h2>
-<ul>
-<li><strong>NAME</strong> : BioVU </li>
-<li><strong>SAMPLE SIZE</strong> : ~120k </li>
-<li><strong>URL</strong> : <a href="https://bbofa.org/">https://bbofa.org/</a> </li>
-</ul>
-<h2 id="biobank-of-the-americas">Biobank of the Americas</h2>
-<ul>
-<li><strong>NAME</strong> : Biobank of the Americas </li>
-<li><strong>SAMPLE SIZE</strong> : ~20k </li>
-<li><strong>URL</strong> : <a href="https://www.galatea.bio/#main-biobank">https://www.galatea.bio/#main-biobank</a> </li>
-</ul>
-<h2 id="cartagene-biobank">CARTaGENE biobank</h2>
-<ul>
-<li><strong>NAME</strong> : CARTaGENE biobank </li>
-<li><strong>SAMPLE SIZE</strong> : ~30K </li>
-<li><strong>ARRAY</strong> : ~30K </li>
-<li><strong>WGS/WES</strong> : ~2K </li>
-<li><strong>TRANSCRIPTOME</strong> : ~0.9K </li>
-<li><strong>DATA ACCESS</strong> : https://cartagene.qc.ca/en/researchers.html </li>
-<li><strong>URL</strong> : <a href="https://cartagene.qc.ca/en/">https://cartagene.qc.ca/en/</a> </li>
-</ul>
-<h2 id="canpath-ontario-health-study">CanPath - Ontario Health Study</h2>
-<ul>
-<li><strong>NAME</strong> : CanPath - Ontario Health Study </li>
-<li><strong>SAMPLE SIZE</strong> : ~7k </li>
-<li><strong>URL</strong> : <a href="https://canpath.ca/cohort/ontario-health-study/">https://canpath.ca/cohort/ontario-health-study/</a> </li>
-</ul>
-<h2 id="colorado-center-for-personalized-medicine">Colorado Center for Personalized Medicine</h2>
-<ul>
-<li><strong>NAME</strong> : Colorado Center for Personalized Medicine </li>
-<li><strong>SAMPLE SIZE</strong> : ~34k </li>
-<li><strong>URL</strong> : <a href="https://medschool.cuanschutz.edu/cobiobank">https://medschool.cuanschutz.edu/cobiobank</a> </li>
-</ul>
-<h2 id="massachusetts-general-brigham-biobank">Massachusetts General Brigham Biobank</h2>
-<ul>
-<li><strong>NAME</strong> : Massachusetts General Brigham Biobank </li>
-<li><strong>SAMPLE SIZE</strong> : ~26K </li>
-<li><strong>URL</strong> : <a href="https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank">https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank</a> </li>
-</ul>
-<h2 id="mexico-city-prospective-study">Mexico City Prospective Study</h2>
-<ul>
-<li><strong>NAME</strong> : Mexico City Prospective Study </li>
-<li><strong>SAMPLE SIZE</strong> : ~150k </li>
-<li><strong>URL</strong> : <a href="https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico">https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico</a> </li>
-</ul>
-<h2 id="michigan-genomics-initiative">Michigan Genomics Initiative</h2>
-<ul>
-<li><strong>NAME</strong> : Michigan Genomics Initiative </li>
-<li><strong>SAMPLE SIZE</strong> : ~55k </li>
-<li><strong>URL</strong> : <a href="https://pmbb.med.upenn.edu/">https://pmbb.med.upenn.edu/</a> </li>
-</ul>
-<h2 id="million-veteran-program">Million Veteran Program</h2>
-<ul>
-<li><strong>NAME</strong> : Million Veteran Program </li>
-<li><strong>SHORT NAME</strong> : MVP </li>
-<li><strong>SAMPLE SIZE</strong> : ~900k </li>
-<li><strong>URL</strong> : <a href="https://www.mvp.va.gov/pwa/">https://www.mvp.va.gov/pwa/</a> </li>
-</ul>
-<h2 id="penn-medicine-biobank">Penn Medicine Biobank</h2>
-<ul>
-<li><strong>NAME</strong> : Penn Medicine Biobank </li>
-<li><strong>SAMPLE SIZE</strong> : ~40k </li>
-<li><strong>URL</strong> : <a href="https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank">https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank</a> </li>
-</ul>
-<h2 id="the-canadian-longitudinal-study-on-aging">The Canadian Longitudinal Study on Aging</h2>
-<ul>
-<li><strong>NAME</strong> : The Canadian Longitudinal Study on Aging </li>
-<li><strong>SHORT NAME</strong> : CLSA </li>
-<li><strong>SAMPLE SIZE</strong> : ~50k </li>
-<li><strong>URL</strong> : <a href="https://www.clsa-elcv.ca/">https://www.clsa-elcv.ca/</a> </li>
-</ul>
-<h2 id="ucla-precision-health-biobank">UCLA Precision Health Biobank</h2>
-<ul>
-<li><strong>NAME</strong> : UCLA Precision Health Biobank </li>
-<li><strong>SAMPLE SIZE</strong> : ~27k </li>
-<li><strong>URL</strong> : <a href="https://icahn.mssm.edu/research/ipm/programs/biome-biobank">https://icahn.mssm.edu/research/ipm/programs/biome-biobank</a> </li>
-</ul>
+
+
+</div>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="aric" class="catalog-entry-card__title">ARIC</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Atherosclerosis Risk in Communities: four U.S. community cohorts with longitudinal cardio-metabolic phenotyping and genome-wide genotype data; foundational for many cardiovascular and multi-ancestry GWAS.</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://sites.cscc.unc.edu/aric/">https://sites.cscc.unc.edu/aric/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US Black and white adults (community-based cohorts)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~15.7k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="all-of-us" class="catalog-entry-card__title">All of Us <span class="catalog-entry-card__title-abbr">(AoU)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The All of Us Research Program is a historic effort to collect and study data from one million or more people living in the United States. The goal of the program is better health for all of us. The program began national enrollment in 2018 and is expected to last at least 10 years.</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://precisionhealth.umich.edu/our-research/michigangenomics/">https://precisionhealth.umich.edu/our-research/michigangenomics/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US residents (nationally diverse recruitment)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~413k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="biome" class="catalog-entry-card__title">BioMe</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Institute for Personalized Medicine at the Icahn School of Medicine at Mount Sinai is leading the movement toward diagnosis and classification of disease according to the patient’s molecular profile. This approach accommodates differences at all possible levels of exposure (genome, environment, and lifestyle) and at all stages of the process, from prevention to post-treatment follow-up. At the center of this effort is BioMe, an electronic medical record-linked biobank that enables researchers to rapidly and efficiently conduct genetic, epidemiologic, molecular, and genomic studies on large collections of research specimens linked with medical information.</div>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.vumc.org/dbmi/biovu">https://www.vumc.org/dbmi/biovu</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">New York City area health-system patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~32k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="bioportal" class="catalog-entry-card__title">BioPortal</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">BioPortal is a unique research platform at the Jewish General Hospital (JGH)/Lady Davis Institute in Montreal built in partnership with the CERC Chair in Genomic Medicine at McGill.</div>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.mcgill.ca/genepi/bioportal">https://www.mcgill.ca/genepi/bioportal</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Montreal-area Canadian research participants</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">N/A (multi-study platform)</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="biovu" class="catalog-entry-card__title">BioVU</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Planning for BioVU began in mid-2004 and the first samples were collected in February 2007. Prior to collecting DNA samples, all aspects of the BioVU project were extensively tested. BioVU now accrues 500-1000 samples per week, totaling more than 275,000 DNA samples as of January 2022. Vanderbilt clinic patients may sign the BioVU Consent Form if they wish to donate their excess blood samples, or not sign the form if they do not wish to participate.</div>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://bbofa.org/">https://bbofa.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Vanderbilt University Medical Center patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~120k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="biobank-of-the-americas" class="catalog-entry-card__title">Biobank of the Americas</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Biobank consented samples with associated clinical data from diverse populations from throughout the United States and Latin America via healthcare and biopharma partnerships.</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.galatea.bio/#main-biobank">https://www.galatea.bio/#main-biobank</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US and Latin American clinical / biopharma-linked participants</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~20k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="cartagene-biobank" class="catalog-entry-card__title">CARTaGENE biobank</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">CARTaGENE is a public research platform of the CHU Sainte-Justine aiming to accelerate health research. CARTaGENE is made up of both biological samples and data on the health and lifestyle of 43,000 Quebec men and women between the ages of 40 and 69 at recruitment.</div>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://cartagene.qc.ca/en/">https://cartagene.qc.ca/en/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Quebec residents (CartaGENE)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~30K</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DATA ACCESS</div>
+    <div class="catalog-entry-card__value">https://cartagene.qc.ca/en/researchers.html</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="canpath-ontario-health-study" class="catalog-entry-card__title">CanPath - Ontario Health Study</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Ontario Health Study (OHS) is a resource for investigating the ways in which lifestyle, the environment and genetics affect people’s health. It is one of the regional cohorts that collectively form the Canadian Partnership for Tomorrow’s Health (CanPath)—a pan-Canadian cohort with &gt;330 000 participants. The linking of Canada’s rich collection of administrative health data with the cohort’s data represents a powerful means to disseminate high-quality, timely data.</div>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://canpath.ca/cohort/ontario-health-study/">https://canpath.ca/cohort/ontario-health-study/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Canadian adults (Ontario; CanPath)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~7k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="colorado-center-for-personalized-medicine" class="catalog-entry-card__title">Colorado Center for Personalized Medicine</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Established in 2014 as a partnership between UCHealth and University of Colorado Anschutz Medical Campus, the Colorado Center for Personalized Medicine (CCPM) brings together multiple disciplines and institutions to uncover advancements in genomics that can improve diagnosis and treatment of disease, and identify more tailored approaches to population health management.To facilitate discoveries in personalized medicine, CCPM has created a Biobank that aims to be one of the largest academic medicine biospecimen repositories in the mountain and midwest regions of the U.S. The CCPM Biobank is able to link biospecimens and genotype information with patient health information from electronic medical records in an enterprise data warehouse (Health Data Compass) to support a broad range of research, operational, and clinical quality improvement agendas.</div>
+    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://medschool.cuanschutz.edu/cobiobank">https://medschool.cuanschutz.edu/cobiobank</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">University of Colorado health-system patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~34k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="elsa-brasil" class="catalog-entry-card__title">ELSA-Brasil <span class="catalog-entry-card__title-abbr">(ELSA)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Brazilian Longitudinal Study of Adult Health: six centers with deep phenotyping and biosamples; genome-wide data used for cardiometabolic and population-genetics GWAS in Brazil.</div>
+    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://elsa.org.br/">https://elsa.org.br/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Brazilian civil servants and families (longitudinal aging)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~15k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="hchssol" class="catalog-entry-card__title">HCHS/SOL</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-11" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Hispanic Community Health Study / Study of Latinos: four U.S. field centers with deep cardiometabolic phenotyping; central to GWAS in admixed Latino populations.</div>
+    <label for="catalog-col-description-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.cscc.unc.edu/hchs/">https://www.cscc.unc.edu/hchs/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Hispanic/Latino adults (US community sites)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~16k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="mesa" class="catalog-entry-card__title">MESA</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Multi-Ethnic Study of Atherosclerosis: six U.S. sites with subclinical CVD imaging and omics; genome-wide data widely used in multi-ethnic GWAS and cardiometabolic genetics.</div>
+    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.mesa-nhlbi.org/">https://www.mesa-nhlbi.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US adults (Black, white, Hispanic/Latino, Chinese cohorts)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~6.8k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="massachusetts-general-brigham-biobank" class="catalog-entry-card__title">Massachusetts General Brigham Biobank</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Mass General Brigham Biobank is a large research program designed to help researchers understand how people’s health is affected by their genes, lifestyle, and environment. By participating in the Mass General Brigham Biobank, you can help us better understand, treat, and even prevent the diseases that might affect your health and the health of future generations.</div>
+    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank">https://www.massgeneralbrigham.org/en/research-and-innovation/participate-in-research/biobank</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Mass General Brigham patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~26K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="mexico-city-prospective-study" class="catalog-entry-card__title">Mexico City Prospective Study</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-14" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Between 1998 and 2004, CTSU, in collaboration with the Mexican Ministry of Health, established a study in Mexico City, in which over 150,000 middle-aged adults (including 100,000 women and 50,000 men) provided information about their lifestyle and disease history, had physical measurements recorded (including weight, waist and hip circumference, blood pressure) and had a blood sample taken.</div>
+    <label for="catalog-col-description-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico">https://www.ctsu.ox.ac.uk/research/prospective-blood-based-study-of-150-000-individuals-in-mexico</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ziyatdinov, A., Torres, J., Alegre-Diaz, J., Backman, J., Mbatchou, J., Turner, M., ... &amp; Tapia-Conyer, R. (2022). Genotyping, sequencing and analysis of 140,000 adults from the Mexico City Prospective Study. bioRxiv.</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Mexico City metropolitan adults</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~150k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="michigan-genomics-initiative" class="catalog-entry-card__title">Michigan Genomics Initiative</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Michigan Genomics Initiative (MGI) is a collaborative research effort among physicians, researchers, and patients at the University of Michigan (U-M) with the goal of combining patient electronic health record (EHR) data with corresponding genetic data to gain novel biomedical insights. There are currently ~84K consented participants through the MGI and partner studies and the addition of ~10K new participants per year is anticipated. Currently, all MGI participants with available genetic data have received care at the University of Michigan Health System.</div>
+    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://pmbb.med.upenn.edu/">https://pmbb.med.upenn.edu/</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Zawistowski, M., Fritsche, L. G., Pandit, A., Vanderwerff, B., Patil, S., Scmidt, E. M., ... &amp; Zoellner, S. (2021). The Michigan Genomics Initiative: a biobank linking genotypes and electronic clinical records in Michigan Medicine patients. medRxiv.</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Michigan Medicine patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~55k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="million-veteran-program" class="catalog-entry-card__title">Million Veteran Program <span class="catalog-entry-card__title-abbr">(MVP)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Million Veteran Program (MVP) is a national research program to learn how genes, lifestyle, and military exposures affect health and illness. Since launching in 2011, over 900,000 Veteran partners have joined one of the world&#x27;s largest programs on genetics and health.</div>
+    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.mvp.va.gov/pwa/">https://www.mvp.va.gov/pwa/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US military veterans (VA healthcare)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~900k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="page-study" class="catalog-entry-card__title">PAGE Study <span class="catalog-entry-card__title-abbr">(PAGE)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Population Architecture using Genomics and Epidemiology (PAGE): NIH consortium coordinating genome-wide association studies in African American, Hispanic/Latino, Asian, Pacific Islander, and Native American participants across multiple cohorts.</div>
+    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.pagestudy.org/">https://www.pagestudy.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US minority cohorts (NH Black, Hispanic/Latino, Asian, Native American)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">50k+ (aggregated across studies)</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="penn-medicine-biobank" class="catalog-entry-card__title">Penn Medicine Biobank</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-18" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Penn Medicine BioBank (PMBB) is a research program created to study the causes and treatments of many diseases. Any Penn Medicine patient (age 18 and up) can sign up. The PMBB is a collection of biological samples, such as blood or tissue, that are donated by patient volunteers. These samples are then connected to clinical information, such as diseases or lab measures. These data are then used by researchers to discover new ways to detect, treat, and maybe even prevent or cure disease. Some of these studies may be about how genes affect health and disease. Other studies look at how genes affect response to medicines.</div>
+    <label for="catalog-col-description-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank">https://www.uclahealth.org/precision-health/programs/ucla-atlas-community-health-initiative/ucla-atlas-precision-health-biobank</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">University of Pennsylvania Health System patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~40k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-canadian-longitudinal-study-on-aging" class="catalog-entry-card__title">The Canadian Longitudinal Study on Aging <span class="catalog-entry-card__title-abbr">(CLSA)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-19" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Canadian Longitudinal Study on Aging (CLSA) is a large, national, long-term study that will follow approximately 50,000 individuals who are between the ages of 45 and 85 when recruited, for at least 20 years. The CLSA will collect information on the changing biological, medical, psychological, social, lifestyle and economic aspects of people’s lives. These factors will be studied to understand how, individually and in combination, they have an impact in both maintaining health and in the development of disease and disability as people age.</div>
+    <label for="catalog-col-description-19" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.clsa-elcv.ca/">https://www.clsa-elcv.ca/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AMR,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Canadian adults (national aging cohort)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~50k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="ucla-precision-health-biobank" class="catalog-entry-card__title">UCLA Precision Health Biobank</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-20" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The UCLA ATLAS Precision Health Biobank, under the supervision of the Translational Pathology Core Laboratory (TCPL), collects biological samples from patients who have consented to participate in the UCLA ATLAS Community Health Initiative. As a collaborator with UCLA ATLAS Community Health Initiative, the UCLA ATLAS Precision Health Biobank manages the collection and distribution of biological samples by removing the personally identifiable information.</div>
+    <label for="catalog-col-description-20" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://icahn.mssm.edu/research/ipm/programs/biome-biobank">https://icahn.mssm.edu/research/ipm/programs/biome-biobank</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Johnson, R. D., Ding, Y., Bhattacharya, A., Chiu, A., Lajonchere, C., Geschwind, D. H., &amp; Pasaniuc, B. (2022). The UCLA ATLAS Community Health Initiative: promoting precision health research in a diverse biobank. medRxiv.</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">UCLA Health patients</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~27k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="womens-health-initiative" class="catalog-entry-card__title">Women&#x27;s Health Initiative <span class="catalog-entry-card__title-abbr">(WHI)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-21" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Large U.S. women’s health trial and observational study with biospecimens and long follow-up; genotype data support GWAS on cancer, cardiovascular, and aging-related traits.</div>
+    <label for="catalog-col-description-21" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.whi.org/">https://www.whi.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">AFR,AMR,EAS,EUR</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">US postmenopausal women (multi-ethnic)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~161k</div>
+  </section>
+  </div>
+</article>
 
 
 
@@ -2880,15 +2223,20 @@
 
 
 
+  
+  
 
 
 
 
+  
 
-                
-              </article>
-            </div>
-          
+
+
+      
+    </article>
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -2919,6 +2267,19 @@
   
 </div>
       
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Cloufield/CTGCatalog" target="_blank" rel="noopener" title="CTGCatalog on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -2929,16 +2290,15 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.path", "navigation.prune", "toc.follow", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       

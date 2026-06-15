@@ -1,0 +1,2509 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Curated index of complex trait genetics resources—biobanks, GWAS summary statistics, software tools, references, single-cell methods, major projects, and AI-related tooling.">
+      
+      
+        <meta name="author" content="HE Yunye">
+      
+      
+        <link rel="canonical" href="https://cloufield.github.io/CTGCatalog/Sumstats_Transcriptomics_Single_cell/">
+      
+      
+        <link rel="prev" href="../Sumstats_Transcriptomics_Project/">
+      
+      
+        <link rel="next" href="../Tools/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/logo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Single_cell - CTGCatalog</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="../stylesheets/extra.min.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#summary-table" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="CTGCatalog" class="md-header__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CTGCatalog
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Single_cell
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Biobanks/" class="md-tabs__link">
+          
+  
+  
+  Biobanks
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Sumstats/" class="md-tabs__link">
+          
+  
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Tools/" class="md-tabs__link">
+          
+  
+  
+  GWAS Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Coding/" class="md-tabs__link">
+          
+  
+  
+  Coding
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics/" class="md-tabs__link">
+          
+  
+  
+  Population Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../References/" class="md-tabs__link">
+          
+  
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Single_Cell/" class="md-tabs__link">
+          
+  
+  
+  Single_Cell
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Projects/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../AI/" class="md-tabs__link">
+          
+  
+  
+  AI
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="CTGCatalog" class="md-nav__button md-logo" aria-label="CTGCatalog" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    CTGCatalog
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Biobanks/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Biobanks
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sumstats
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sumstats
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sumstats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Behaviour/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Behaviour
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Sumstats_Epigenetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Epigenetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Family_GWAS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Family_GWAS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_General/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    General
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Gut_microbiome/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gut_microbiome
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_GxE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GxE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Imaging/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Imaging
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metabolomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Proteomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proteomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Structural_variant/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structural_variant
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_12" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_12" id="__nav_3_12_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transcriptomics
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_12_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Transcriptomics
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Transcriptomics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transcriptomics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Transcriptomics_Bulk_tissue/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Bulk_tissue
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Transcriptomics_Long_read/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Long_read
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Sumstats_Transcriptomics_Project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_cell
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_cell
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brain
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MISC
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Tools/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    GWAS Tools
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Coding/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coding
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Population_Genetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Population Genetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../References/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Single_Cell/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_Cell
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../AI/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Summary Table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#brain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Brain
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#misc" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MISC
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+  <div class="md-content" data-md-component="content">
+    
+      
+
+  
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Sumstats/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Sumstats
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Sumstats_Transcriptomics/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Transcriptomics
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+    
+    
+    
+      
+        
+      
+    
+    <article class="md-content__inner md-typeset catalog-section-Sumstats">
+      
+        
+  
+
+
+  <nav class="md-tags" hidden>
+    
+      
+      
+      
+      
+        <span class="md-tag">Summary statistics</span>
+      
+    
+  </nav>
+
+
+
+  <h1>Single_cell</h1>
+
+<div class="catalog-nav-lead">
+<p>Curation of <strong>Single cell</strong> within <strong>Transcriptomics</strong> — listings under the <strong>Summary statistics</strong> tab.</p>
+</div>
+<h2 id="summary-table">Summary Table</h2>
+<p><em>Click a column header to sort the table.</em></p>
+<div class="catalog-summary-table">
+
+
+<table>
+<thead>
+<tr>
+<th>NAME</th>
+<th>CATEGORY</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#psychencode-phase-ii">PsychENCODE Phase II</a></td>
+<td>Brain</td>
+<td><a href="https://www.psychencode.org/home">https://www.psychencode.org/home</a></td>
+</tr>
+<tr>
+<td><a href="#aida">AIDA</a></td>
+<td>MISC</td>
+<td><a href="https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508">https://cellxgene.cziscience.com/collections/ced320a1…</a></td>
+</tr>
+<tr>
+<td><a href="#bian">Bian</a></td>
+<td>MISC</td>
+<td><a href="http://ccra.njmu.edu.cn/scgate/">http://ccra.njmu.edu.cn/scgate/</a></td>
+</tr>
+<tr>
+<td><a href="#cima">CIMA</a></td>
+<td>MISC</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#fu">Fu</a></td>
+<td>MISC</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#gtex">GTEx</a></td>
+<td>MISC</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#haglund-sc-eqtl-brain">Haglund sc-eQTL brain</a></td>
+<td>MISC</td>
+<td><a href="https://www.nature.com/articles/s41588-024-02050-9">https://www.nature.com/articles/s41588-024-02050-9</a></td>
+</tr>
+<tr>
+<td><a href="#ibdverse-sc-eqtl">IBDverse sc-eQTL</a></td>
+<td>MISC</td>
+<td><a href="https://www.nature.com/articles/s41586-026-10627-z">https://www.nature.com/articles/s41586-026-10627-z</a></td>
+</tr>
+<tr>
+<td><a href="#ishigaki">Ishigaki</a></td>
+<td>MISC</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#jctf">JCTF</a></td>
+<td>MISC</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#onek1k">OneK1k</a></td>
+<td>MISC</td>
+<td><a href="https://onek1k.org/">https://onek1k.org/</a></td>
+</tr>
+<tr>
+<td><a href="#ota">Ota</a></td>
+<td>MISC</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#sabr">SABR</a></td>
+<td>MISC</td>
+<td><a href="https://zenodo.org/records/15334125">https://zenodo.org/records/15334125</a></td>
+</tr>
+<tr>
+<td><a href="#tenk10k">TenK10k</a></td>
+<td>MISC</td>
+<td><a href="https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2">https://www.medrxiv.org/content/10.1101/2025.03.20.25…</a></td>
+</tr>
+<tr>
+<td><a href="#sc-eqtlgen">sc-eQTLGen</a></td>
+<td>MISC</td>
+<td><a href="https://www.eqtlgen.org/sc/">https://www.eqtlgen.org/sc/</a></td>
+</tr>
+</tbody>
+</table>
+
+
+</div>
+
+<h2 id="brain">Brain</h2>
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="psychencode-phase-ii" class="catalog-entry-card__title">PsychENCODE Phase II</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/38781369">38781369</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Phase II of the project focused on single-cell and spatial data, culminating in a collection of 14 papers published on May 24, 2024 (9 in Science, 3 in Science Advances, 1 in Scientific Reports, and 1 in Molecular Psychiatry).</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.psychencode.org/home">https://www.psychencode.org/home</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-cell genomics and regulatory networks for 388 human brains.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Emani PS, Liu JJ, Clarke D, Jensen M, ...&amp;, PsychENCODE Consortium. (2024) Single-cell genomics and regulatory networks for 388 human brains. Science, 384 (6698) eadi5199. doi:10.1126/science.adi5199. PMID 38781369</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-1" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Single-cell genomics is a powerful tool for studying heterogeneous tissues such as the brain. Yet little is understood about how genetic variants influence cell-level gene expression. Addressing this, we uniformly processed single-nuclei, multiomics datasets into a resource comprising &gt;2.8 million nuclei from the prefrontal cortex across 388 individuals. For 28 cell types, we assessed population-level variation in expression and chromatin across gene families and drug targets. We identified &gt;550,000 cell type-specific regulatory elements and &gt;1.4 million single-cell expression quantitative trait loci, which we used to build cell-type regulatory and cell-to-cell communication networks. These networks manifest cellular changes in aging and neuropsychiatric disorders. We further constructed an integrative model accurately imputing single-cell expression and simulating perturbations; the model prioritized ~250 disease-risk genes and drug targets with associated cell types.</div>
+    <label for="catalog-col-abstract-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1126/science.adi5199</div>
+  </section>
+  </div>
+</article>
+
+<h2 id="misc">MISC</h2>
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="aida" class="catalog-entry-card__title">AIDA</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/40112801">40112801</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Asian Immune Diversity Atlas</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508">https://cellxgene.cziscience.com/collections/ced320a1-29f3-47c1-a735-513c7084d508</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Asian diversity in human immune cells.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Kock KH, Tan LM, Han KY, Ando Y, ...&amp;, Prabhakar S. (2025) Asian diversity in human immune cells. Cell, 188 (8) 2288-2306.e24. doi:10.1016/j.cell.2025.02.017. PMID 40112801</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">The relationships of human diversity with biomedical phenotypes are pervasive yet remain understudied, particularly in a single-cell genomics context. Here, we present the Asian Immune Diversity Atlas (AIDA), a multi-national single-cell RNA sequencing (scRNA-seq) healthy reference atlas of human immune cells. AIDA comprises 1,265,624 circulating immune cells from 619 donors, spanning 7 population groups across 5 Asian countries, and 6 controls. Though population groups are frequently compared at the continental level, we found that sub-continental diversity, age, and sex pervasively impacted cellular and molecular properties of immune cells. These included differential abundance of cell neighborhoods as well as cell populations and genes relevant to disease risk, pathogenesis, and diagnostics. We discovered functional genetic variants influencing cell-type-specific gene expression, which were under-represented in non-Asian populations, and helped contextualize disease-associated variants. AIDA enables analyses of multi-ancestry disease datasets and facilitates the development of precision medicine efforts in Asia and beyond.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.cell.2025.02.017</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="bian" class="catalog-entry-card__title">Bian</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/40112817">40112817</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">scGaTE</div>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://ccra.njmu.edu.cn/scgate/">http://ccra.njmu.edu.cn/scgate/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-cell eQTL mapping reveals cell-type-specific genes associated with the risk of gastric cancer.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Bian L, Hu B, Li F, Gu Y, ...&amp;, Jin G. (2025) Single-cell eQTL mapping reveals cell-type-specific genes associated with the risk of gastric cancer. Cell Genom, 5 (4) 100812. doi:10.1016/j.xgen.2025.100812. PMID 40112817</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Most expression quantitative trait locus (eQTL) analyses have been conducted in heterogeneous gastric tissues, limiting understanding of cell-type-specific regulatory mechanisms. Here, we employed a pooled multiplexing strategy to profile 399,683 gastric cells from 203 Chinese individuals using single-cell RNA sequencing (scRNA-seq). We identified 19 distinct gastric cell types and performed eQTL analyses, uncovering 8,498 independent eQTLs, with a considerable fraction (81%, 6,909/8,498) exhibiting cell-type-specific effects. Integration of these eQTLs with genome-wide association studies for gastric cancer (GC) revealed four co-localization signals in specific cell types. Genetically predicted cell-type-specific gene expression identified 15 genes associated with GC risk, including the upregulation of MUC1 exclusively in parietal cells, linked to decreased GC risk. Our findings highlight substantial heterogeneity in the genetic regulation of gene expression across gastric cell types and provide critical cell-type-specific annotations of genetic variants associated with GC risk, offering new molecular insights underlying GC.</div>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.xgen.2025.100812</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="cima" class="catalog-entry-card__title">CIMA</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/41505528">41505528</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Chinese Immune Multi-Omics Atlas</div>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Chinese Immune Multi-Omics Atlas.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Yin J, Zheng Y, Huang Z, Zhou W, ...&amp;, Liu C. (2026) Chinese Immune Multi-Omics Atlas. Science, 391 (6781) eadt3130. doi:10.1126/science.adt3130. PMID 41505528</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Human peripheral blood exhibits molecular and cellular heterogeneity across populations, yet the underlying mechanisms remain unclear. We present the Chinese Immune Multi-Omics Atlas (CIMA), characterizing molecular variations linked to sex, age, and genetic variants through multi-omics analysis of more than 10 million circulating immune cells from 428 Chinese adults. CIMA established an enhancer-driven gene regulatory network comprising 237 robust regulons; identified 9600 eGenes and 52,361 caPeaks at cell type resolution; and revealed pleiotropic associations among immune-related disease risk loci, cis-expression quantitative trait loci (QTLs), and chromatin accessibility QTLs. Furthermore, the cell language model CIMA-CLM predicted chromatin accessibility and evaluated the effects of noncoding variants from chromatin sequences and gene expression. CIMA provides a comprehensive reference for immune-related disease research.</div>
+    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1126/science.adt3130</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="fu" class="catalog-entry-card__title">Fu</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/41386230">41386230</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-cell eQTL mapping reveals cell-type-specific genetic regulation in lung cancer.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Fu Y, Wang Y, Jin C, Zhang C, ...&amp;, Ma H. (2026) Single-cell eQTL mapping reveals cell-type-specific genetic regulation in lung cancer. Cell Genom, 6 (3) 101100. doi:10.1016/j.xgen.2025.101100. PMID 41386230</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genome-wide association studies (GWASs) have identified over 50 lung cancer risk loci; however, the precise cellular context of these genetic mechanisms remains unclear due to limitations in bulk tissue expression quantitative trait locus (eQTL) analyses. Here, we present the largest single-cell eQTL (sc-eQTL) atlas of human lung tissue to date, profiling 222 donors using multiplexed single-cell RNA sequencing (scRNA-seq). We identified 4,341 independent eQTLs across 17 cell types, with over 60% of sc-eQTLs and 51% of eGenes being cell-type specific, and fewer than 52% were detectable in paired bulk datasets. Integration with GWASs for non-small cell lung cancer highlighted epithelial and immune cells as key contributors to genetic susceptibility, identifying 28 candidate genes within known risk loci and 24 in novel regions. Notably, 47% of established non-small cell lung cancer (NSCLC) susceptibility loci exhibited cell-type-specific pleiotropic genetic regulation. This study provides a valuable resource of lung sc-eQTLs and illuminates how genetic variation modulates gene expression in a cell-type-specific fashion, contributing to lung cancer susceptibility.</div>
+    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.xgen.2025.101100</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="gtex" class="catalog-entry-card__title">GTEx</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35549429">35549429</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">V9 snRNA-Seq</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Eraslan G, Drokhlyansky E, Anand S, Fiskin E, ...&amp;, Regev A. (2022) Single-nucleus cross-tissue molecular reference maps toward understanding disease gene function. Science, 376 (6594) eabl4290. doi:10.1126/science.abl4290. PMID 35549429</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Understanding gene function and regulation in homeostasis and disease requires knowledge of the cellular and tissue contexts in which genes are expressed. Here, we applied four single-nucleus RNA sequencing methods to eight diverse, archived, frozen tissue types from 16 donors and 25 samples, generating a cross-tissue atlas of 209,126 nuclei profiles, which we integrated across tissues, donors, and laboratory methods with a conditional variational autoencoder. Using the resulting cross-tissue atlas, we highlight shared and tissue-specific features of tissue-resident cell populations; identify cell types that might contribute to neuromuscular, metabolic, and immune components of monogenic diseases and the biological processes involved in their pathology; and determine cell types and gene modules that might underlie disease mechanisms for complex traits analyzed by genome-wide association studies.</div>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1126/science.abl4290</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="haglund-sc-eqtl-brain" class="catalog-entry-card__title">Haglund sc-eQTL brain</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/39794547">39794547</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.nature.com/articles/s41588-024-02050-9">https://www.nature.com/articles/s41588-024-02050-9</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Cell state-dependent allelic effects and contextual Mendelian randomization analysis for human brain phenotypes.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Haglund A, Zuber V, Abouzeid M, ...&amp;, Johnson MR. (2025) Cell state-dependent allelic effects and contextual Mendelian randomization analysis for human brain phenotypes. Nat Genet, 57 (2) 358-368. doi:10.1038/s41588-024-02050-9. PMID 39794547</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Gene expression quantitative trait loci are widely used to infer relationships between genes and central nervous system (CNS) phenotypes; however, the effect of brain disease on these inferences is unclear. Using 2,348,438 single-nuclei profiles from 391 disease-case and control brains, we report 13,939 genes whose expression correlated with genetic variation, of which 16.7-40.8% (depending on cell type) showed disease-dependent allelic effects. Across 501 colocalizations for 30 CNS traits, 23.6% had a disease dependency, even after adjusting for disease status. To estimate the unconfounded effect of genes on outcomes, we repeated the analysis using nondiseased brains (n = 183) and reported an additional 91 colocalizations not present in the larger mixed disease and control dataset, demonstrating enhanced interpretation of disease-associated variants. Principled implementation of single-cell Mendelian randomization in control-only brains identified 140 putatively causal gene-trait associations, of which 11 were replicated in the UK Biobank, prioritizing candidate peripheral biomarkers predictive of CNS outcomes.</div>
+    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-024-02050-9</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="ibdverse-sc-eqtl" class="catalog-entry-card__title">IBDverse sc-eQTL</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/42236949">42236949</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.nature.com/articles/s41586-026-10627-z">https://www.nature.com/articles/s41586-026-10627-z</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Cell-type-resolved genetic variation shapes inflammatory bowel disease risk.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Alegbe T, Harris BT, Fachal L, ...&amp;, Anderson CA, Raine T. (2026) Cell-type-resolved genetic variation shapes inflammatory bowel disease risk. Nature, 642 () 1-23. doi:10.1038/s41586-026-10627-z. PMID 42236949</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Most genetic variants associated with complex diseases lie in non-coding regions, complicating efforts to identify effector genes and relevant cell types. Here we map cis-expression quantitative trait loci (eQTLs) across 2.2 million single cells using intestinal biopsies and blood from 421 individuals, including 125 with inflammatory bowel disease (IBD). Cell-type-level eQTLs were more distal to transcription start sites, enriched in enhancers, less likely to regulate the nearest gene, and more than 3.5-fold more likely to colocalize with IBD loci detected in genome-wide association studies (GWASs) than eQTLs detected at tissue-level resolution. We nominate effector genes at more than half of known IBD loci, including MAML2, PSEN2 and ZMIZ1 in myeloid cells, implicating reduced Notch signalling in intestinal immune dysfunction. We also identify Wnt-regulated genes, including MYC, in epithelial stem and progenitor cells, suggesting that impaired renewal contributes to barrier breakdown. Our results provide a mechanistic map that links genetic risk to specific genes and cell types in IBD, and a generalized framework for interpretation of GWAS loci using single-cell eQTL mapping of disease-relevant tissues in complex diseases.</div>
+    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41586-026-10627-z</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="ishigaki" class="catalog-entry-card__title">Ishigaki</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/28553958">28553958</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ishigaki K, Kochi Y, Suzuki A, Tsuchida Y, ...&amp;, Yamamoto K. (2017) Polygenic burdens on cell-specific pathways underlie the risk of rheumatoid arthritis. Nat Genet, 49 (7) 1120-1125. doi:10.1038/ng.3885. PMID 28553958</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Recent evidence suggests that a substantial portion of complex disease risk alleles modify gene expression in a cell-specific manner. To identify candidate causal genes and biological pathways of immune-related complex diseases, we conducted expression quantitative trait loci (eQTL) analysis on five subsets of immune cells (CD4+ T cells, CD8+ T cells, B cells, natural killer (NK) cells and monocytes) and unfractionated peripheral blood from 105 healthy Japanese volunteers. We developed a three-step analytical pipeline comprising (i) prediction of individual gene expression using our eQTL database and public epigenomic data, (ii) gene-level association analysis and (iii) prediction of cell-specific pathway activity by integrating the direction of eQTL effects. By applying this pipeline to rheumatoid arthritis data sets, we identified candidate causal genes and a cytokine pathway (upregulation of tumor necrosis factor (TNF) in CD4+ T cells). Our approach is an efficient way to characterize the polygenic contributions and potential biological mechanisms of complex diseases.</div>
+    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/ng.3885</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="jctf" class="catalog-entry-card__title">JCTF</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/39317738">39317738</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Japan COVID-19 Task Force</div>
+    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Statistically and functionally fine-mapped blood eQTLs and pQTLs from 1,405 humans reveal distinct regulation patterns and disease relevance.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Wang QS, Hasegawa T, Namkoong H, Saiki R, ...&amp;, Japan COVID-19 Task Force. (2024) Statistically and functionally fine-mapped blood eQTLs and pQTLs from 1,405 humans reveal distinct regulation patterns and disease relevance. Nat Genet, 56 (10) 2054-2067. doi:10.1038/s41588-024-01896-3. PMID 39317738</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Studying the genetic regulation of protein expression (through protein quantitative trait loci (pQTLs)) offers a deeper understanding of regulatory variants uncharacterized by mRNA expression regulation (expression QTLs (eQTLs)) studies. Here we report cis-eQTL and cis-pQTL statistical fine-mapping from 1,405 genotyped samples with blood mRNA and 2,932 plasma samples of protein expression, as part of the Japan COVID-19 Task Force (JCTF). Fine-mapped eQTLs (n = 3,464) were enriched for 932 variants validated with a massively parallel reporter assay. Fine-mapped pQTLs (n = 582) were enriched for missense variations on structured and extracellular domains, although the possibility of epitope-binding artifacts remains. Trans-eQTL and trans-pQTL analysis highlighted associations of class I HLA allele variation with KIR genes. We contrast the multi-tissue origin of plasma protein with blood mRNA, contributing to the limited colocalization level, distinct regulatory mechanisms and trait relevance of eQTLs and pQTLs. We report a negative correlation between ABO mRNA and protein expression because of linkage disequilibrium between distinct nearby eQTLs and pQTLs.</div>
+    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-024-01896-3</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="onek1k" class="catalog-entry-card__title">OneK1k</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35389779">35389779</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://onek1k.org/">https://onek1k.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Yazar S, Alquicira-Hernandez J, Wing K, Senabouth A, ...&amp;, Powell JE. (2022) Single-cell eQTL mapping identifies cell type-specific genetic control of autoimmune disease. Science, 376 (6589) eabf3041. doi:10.1126/science.abf3041. PMID 35389779</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-11" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">The human immune system displays substantial variation between individuals, leading to differences in susceptibility to autoimmune disease. We present single-cell RNA sequencing (scRNA-seq) data from 1,267,758 peripheral blood mononuclear cells from 982 healthy human subjects. For 14 cell types, we identified 26,597 independent cis-expression quantitative trait loci (eQTLs) and 990 trans-eQTLs, with most showing cell type-specific effects on gene expression. We subsequently show how eQTLs have dynamic allelic effects in B cells that are transitioning from naïve to memory states and demonstrate how commonly segregating alleles lead to interindividual variation in immune function. Finally, using a Mendelian randomization approach, we identify the causal route by which 305 risk loci contribute to autoimmune disease at the cellular level. This work brings together genetic epidemiology with scRNA-seq to uncover drivers of interindividual variation in the immune system.</div>
+    <label for="catalog-col-abstract-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1126/science.abf3041</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="ota" class="catalog-entry-card__title">Ota</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/33930287">33930287</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Dynamic landscape of immune cell-specific gene regulation in immune-mediated diseases.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ota M, Nagafuchi Y, Hatano H, Ishigaki K, ...&amp;, Fujio K. (2021) Dynamic landscape of immune cell-specific gene regulation in immune-mediated diseases. Cell, 184 (11) 3006-3021.e17. doi:10.1016/j.cell.2021.03.056. PMID 33930287</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genetic studies have revealed many variant loci that are associated with immune-mediated diseases. To elucidate the disease pathogenesis, it is essential to understand the function of these variants, especially under disease-associated conditions. Here, we performed a large-scale immune cell gene-expression analysis, together with whole-genome sequence analysis. Our dataset consists of 28 distinct immune cell subsets from 337 patients diagnosed with 10 categories of immune-mediated diseases and 79 healthy volunteers. Our dataset captured distinctive gene-expression profiles across immune cell types and diseases. Expression quantitative trait loci (eQTL) analysis revealed dynamic variations of eQTL effects in the context of immunological conditions, as well as cell types. These cell-type-specific and context-dependent eQTLs showed significant enrichment in immune disease-associated genetic variants, and they implicated the disease-relevant cell types, genes, and environment. This atlas deepens our understanding of the immunogenetic functions of disease-associated variants under in vivo disease conditions.</div>
+    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.cell.2021.03.056</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="sabr" class="catalog-entry-card__title">SABR</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/40500424">40500424</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">South African Blood Regulatory</div>
+    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://zenodo.org/records/15334125">https://zenodo.org/records/15334125</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">A map of blood regulatory variation in South Africans enables GWAS interpretation.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Castel SE, Tluway FD, Emde AK, Smyth N, ...&amp;, Ramsay M. (2025) A map of blood regulatory variation in South Africans enables GWAS interpretation. Nat Genet, 57 (7) 1628-1637. doi:10.1038/s41588-025-02223-0. PMID 40500424</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Functional genomics resources are critical for interpreting human genetic studies, but currently they are predominantly from European-ancestry individuals. Here we present the South African Blood Regulatory (SABR) resource, a map of blood regulatory variation that includes three South Eastern Bantu-speaking groups. Using paired whole-genome and blood transcriptome data from over 600 individuals, we map the genetic architecture of 40 blood cell traits derived from deconvolution analysis, as well as expression, splice and cell-type interaction quantitative trait loci. We comprehensively compare SABR to the Genotype Tissue Expression Project and characterize thousands of regulatory variants only observed in African-ancestry individuals. Finally, we demonstrate the increased utility of SABR for interpreting African-ancestry association studies by identifying putatively causal genes and molecular mechanisms through colocalization analysis of blood-relevant traits from the Pan-UK Biobank. Importantly, we make full SABR summary statistics publicly available to support the African genomics community.</div>
+    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-025-02223-0</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="tenk10k" class="catalog-entry-card__title">TenK10k</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-14" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Phase 1: matched WGS and scRNA-seq in ~1.9k individuals; common and rare variant sc-eQTLs in 28 immune cell types (SAIGE-QTL).</div>
+    <label for="catalog-col-description-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2">https://www.medrxiv.org/content/10.1101/2025.03.20.25324352v2</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Impact of rare and common genetic variation on cell type-specific gene expression in human blood.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Cuomo ASE, Spenceley E, Tanudisastro HA, Bowen B, ...&amp;, Powell JE. (2025) Impact of rare and common genetic variation on cell type-specific gene expression in human blood. medRxiv,  () . doi:10.1101/2025.03.20.25324352</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Understanding the genetic basis of gene expression can shed light on the regulatory mechanisms underlying complex traits and diseases. Single cell-resolved measures of RNA levels and single-cell expression quantitative trait loci (sc-eQTLs) have revealed genetic regulation that drives sub-tissue cell states and types across diverse human tissues. Here, we describe the first phase of TenK10K, the largest-to-date dataset of matched whole-genome sequencing (WGS) and single-cell RNA-sequencing (scRNA-seq). We leverage scRNA-seq data from over 5 million cells across 28 immune cell types, and matched WGS, from 1,925 individuals, which provides power to detect associations between rare and low-frequency genetic variants that have largely been uncharacterised in their impact on cell-specific gene expression. We map the effects of both common and rare variants in a cell type-specific manner using a recently introduced method that increases power by modelling single cells directly rather than relying on aggregated ‘pseudobulk’ counts. We identify putative common regulatory variants for 83% of all 21,404 genes tested and cumulative rare variant signals for 47% of genes. We explore how genetic effects vary across cell type and state spectra, develop a framework to determine the degree to which sc-eQTLs are cell type-specific, and show that about half of the effects are observed only in one or a few cell types. By integrating our results with functional annotations and disease information, we also further characterise the likely molecular modes of action for many disease-variant associations. Finally, we explore the effects that genetic variants have on gene expression across continuous cell states and functions, and effects that vary cell state abundance directly.</div>
+    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1101/2025.03.20.25324352</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Sumstats">
+  <header class="catalog-entry-card__header">
+    <h3 id="sc-eqtlgen" class="catalog-entry-card__title">sc-eQTLGen</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/summary-statistics/" class="catalog-badge catalog-badge--link" role="listitem">Summary statistics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/32149610">32149610</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.eqtlgen.org/sc/">https://www.eqtlgen.org/sc/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">The single-cell eQTLGen consortium.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">van der Wijst M, de Vries DH, Groot HE, Trynka G, ...&amp;, Franke L. (2020) The single-cell eQTLGen consortium. Elife, 9 () . doi:10.7554/eLife.52155. PMID 32149610</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">In recent years, functional genomics approaches combining genetic information with bulk RNA-sequencing data have identified the downstream expression effects of disease-associated genetic risk factors through so-called expression quantitative trait locus (eQTL) analysis. Single-cell RNA-sequencing creates enormous opportunities for mapping eQTLs across different cell types and in dynamic processes, many of which are obscured when using bulk methods. Rapid increase in throughput and reduction in cost per cell now allow this technology to be applied to large-scale population genetics studies. To fully leverage these emerging data resources, we have founded the single-cell eQTLGen consortium (sc-eQTLGen), aimed at pinpointing the cellular contexts in which disease-causing genetic variants affect gene expression. Here, we outline the goals, approach and potential utility of the sc-eQTLGen consortium. We also provide a set of study design considerations for future single-cell eQTL studies.</div>
+    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.7554/eLife.52155</div>
+  </section>
+  </div>
+</article>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      CTGCatalog is licensed under the MIT license
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Cloufield/CTGCatalog" target="_blank" rel="noopener" title="CTGCatalog on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.path", "navigation.prune", "toc.follow", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

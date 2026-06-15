@@ -6,9 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Curated index of complex trait genetics resources—biobanks, GWAS summary statistics, software tools, references, single-cell methods, major projects, and AI-related tooling.">
+      
       
         <meta name="author" content="HE Yunye">
       
+      
+        <link rel="canonical" href="https://cloufield.github.io/CTGCatalog/Biobanks_ASIA/">
       
       
         <link rel="prev" href="../Biobanks_AMERICA/">
@@ -17,8 +21,11 @@
         <link rel="next" href="../Biobanks_EUROPE/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -26,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -40,15 +47,9 @@
     
     
       
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -56,11 +57,12 @@
 
     
     
-    
   </head>
   
   
     
+    
+      
     
     
     
@@ -115,15 +117,43 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -162,13 +192,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -194,9 +225,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href=".." class="md-tabs__link">
         
+  
   
     
   
@@ -210,6 +243,7 @@
         
   
   
+  
     
   
   
@@ -218,6 +252,7 @@
       <li class="md-tabs__item md-tabs__item--active">
         <a href="../Biobanks/" class="md-tabs__link">
           
+  
   
   Biobanks
 
@@ -231,47 +266,13 @@
   
   
   
-    
-    
-      <li class="md-tabs__item">
-        <a href="../References/" class="md-tabs__link">
-          
-  
-  References
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
-  
-    
-    
-      <li class="md-tabs__item">
-        <a href="../Single_Cell/" class="md-tabs__link">
-          
-  
-  Single_Cell
-
-        </a>
-      </li>
-    
-  
-
-      
-        
-  
-  
   
     
     
       <li class="md-tabs__item">
         <a href="../Sumstats/" class="md-tabs__link">
           
+  
   
   Sumstats
 
@@ -285,13 +286,135 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../Tools/" class="md-tabs__link">
           
   
-  Tools
+  
+  GWAS Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Coding/" class="md-tabs__link">
+          
+  
+  
+  Coding
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics/" class="md-tabs__link">
+          
+  
+  
+  Population Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../References/" class="md-tabs__link">
+          
+  
+  
+  References
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Single_Cell/" class="md-tabs__link">
+          
+  
+  
+  Single_Cell
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Projects/" class="md-tabs__link">
+          
+  
+  
+  Projects
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../AI/" class="md-tabs__link">
+          
+  
+  
+  AI
 
         </a>
       </li>
@@ -309,6 +432,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -333,7 +458,7 @@
       <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -353,10 +478,16 @@
       <a href=".." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -375,12 +506,15 @@
     
     
     
+    
       
         
         
       
       
     
+    
+      
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
@@ -392,10 +526,16 @@
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
+    
+  
     Biobanks
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
@@ -404,7 +544,11 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
-            Biobanks
+            
+  
+    Biobanks
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -418,10 +562,16 @@
       <a href="../Biobanks/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Biobanks
+  
+
     
   </span>
+  
   
 
       </a>
@@ -440,10 +590,16 @@
       <a href="../Biobanks_AFRICA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     AFRICA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -462,10 +618,16 @@
       <a href="../Biobanks_AMERICA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     AMERICA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -491,10 +653,16 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
+    
+  
     ASIA
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -503,10 +671,16 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     ASIA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -527,232 +701,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#biobank-japan" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioBank Japan
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#born-in-guangzhou-cohort-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      Born in Guangzhou Cohort Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#china-kadoorie-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      China Kadoorie Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#chinese-millionome-database" class="md-nav__link">
-    <span class="md-ellipsis">
-      Chinese Millionome Database
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#han-chinese-genome-initiative-phase-1-the-han100k-project" class="md-nav__link">
-    <span class="md-ellipsis">
-      Han Chinese Genome Initiative Phase 1 the Han100K Project
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#indigenomes" class="md-nav__link">
-    <span class="md-ellipsis">
-      IndiGenomes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#korean-genome-project-phase-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Korean Genome Project Phase 1
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#korean-genome-project-phase-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Korean Genome Project Phase 2
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#national-biobank-of-korea" class="md-nav__link">
-    <span class="md-ellipsis">
-      National Biobank of Korea
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#national-center-biobank-network" class="md-nav__link">
-    <span class="md-ellipsis">
-      National Center Biobank Network
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#nyuwa-genome-resource" class="md-nav__link">
-    <span class="md-ellipsis">
-      NyuWa genome resource
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatar-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Qatar Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatar-genome-program" class="md-nav__link">
-    <span class="md-ellipsis">
-      Qatar Genome Program
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sg10k_health" class="md-nav__link">
-    <span class="md-ellipsis">
-      SG10K_Health
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taiwan-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taiwan Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taiwan-precision-medicine-initiative" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taiwan Precision Medicine Initiative
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taizhou-imaging-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taizhou Imaging Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-china-metabolic-analytics-project" class="md-nav__link">
-    <span class="md-ellipsis">
-      The China Metabolic Analytics Project
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-hisayama-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Hisayama Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-japan-prospective-studies-collaboration-for-aging-and-dementia" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Japan Prospective Studies Collaboration for Aging and Dementia
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-malaysian-cohort" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Malaysian Cohort
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-nagahama-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Nagahama Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-stromics-genome-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      The STROMICS genome study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tohoku-medical-megabank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tohoku Medical Megabank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#westlake-biobank-for-chinese" class="md-nav__link">
-    <span class="md-ellipsis">
-      Westlake BioBank for Chinese
     </span>
   </a>
   
@@ -777,10 +728,16 @@
       <a href="../Biobanks_EUROPE/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     EUROPE
+  
+
     
   </span>
+  
   
 
       </a>
@@ -796,13 +753,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../Biobanks_OCIENIA/" class="md-nav__link">
+      <a href="../Biobanks_OCEANIA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    OCIENIA
+    
+  
+    OCEANIA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -827,614 +790,43 @@
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            References
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Epigenetics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Epigenetics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Function/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Function
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Gene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Genome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Phenotype/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phenotype
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Variant/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variant
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_scRNA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    scRNA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
     
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Single_Cell
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Annotation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Annotation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Framework/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Framework
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Harmonization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Harmonization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Network/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Network
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_QC/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    QC
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Trajectory/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Trajectory
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
-  
-
     
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../Sumstats/" class="md-nav__link">
       
   
   
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
   <span class="md-ellipsis">
+    
+  
     Sumstats
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Sumstats
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sumstats
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_General/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    General
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Imaging/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Imaging
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Metabolomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Proteomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proteomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1449,64 +841,55 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Tools/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
-    Tools
+    
+  
+    GWAS Tools
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6">
-            <span class="md-nav__icon md-icon"></span>
-            Tools
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tools
-    
-  </span>
   
 
-      </a>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
-              
-            
-              
-                
+    
+      
+      
   
   
   
   
+    
     
     
     
@@ -1514,1063 +897,293 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Coding/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
+    Coding
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Population_Genetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Population Genetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../References/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Single_Cell/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_Cell
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../AI/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
     AI
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            AI
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_AI_Agent/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Agent
-    
-  </span>
   
 
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Annotation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Annotation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
+        <span class="md-nav__icon md-icon"></span>
       
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
-            
+    </a>
   
-  <span class="md-ellipsis">
-    Association_tests
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_4">
-            <span class="md-nav__icon md-icon"></span>
-            Association_tests
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Association_tests
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Privacy_Preserving_GWAS_Tool/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Privacy_Preserving_GWAS_Tool
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_RWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    RWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_TWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    TWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Time_to_event_phenotypes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Time_to_event_phenotypes
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_eQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    eQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_sQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    sQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Colocalization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Colocalization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Data_processing/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Data_processing
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Dimension_reduction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Dimension_reduction
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Drug_discovery/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Drug_discovery
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Fine_mapping/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Fine_mapping
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Functional_prediction/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Functional_prediction
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Gene_prioritization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene_prioritization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Gene_set_pathway_analysis/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene_set_pathway_analysis
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_GxE_interactions/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GxE_interactions
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_HLA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    HLA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Heritability_and_genetic_correlation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heritability_and_genetic_correlation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Imputation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Imputation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Mendelian_randomization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Mendelian_randomization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Meta_and_Multi_triat/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Meta_and_Multi_triat
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Polygenic_risk_scores/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Polygenic_risk_scores
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_20" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_20" id="__nav_6_20_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Population_Genetics
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_20_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_20">
-            <span class="md-nav__icon md-icon"></span>
-            Population_Genetics
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Admixture/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Admixture
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Genealogy/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genealogy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Phylogenetic_tree/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phylogenetic_tree
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Selection/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Selection
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Power_analysis/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Power_analysis
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Proteomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proteomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Simulation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Simulation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Tissue_and_single_cell/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tissue_and_single_cell
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_25" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_25" id="__nav_6_25_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Visualization
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_25_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_25">
-            <span class="md-nav__icon md-icon"></span>
-            Visualization
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Chromosome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chromosome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Forest_plot/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Forest_plot
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_GWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Heatmap/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heatmap
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_UpSet_plots/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    UpSet_plots
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Variants_on_protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variants_on_protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Winners_curse/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Winners_curse
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
 
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -2583,6 +1196,8 @@
               </div>
             
             
+              
+                
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
@@ -2603,232 +1218,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#biobank-japan" class="md-nav__link">
-    <span class="md-ellipsis">
-      BioBank Japan
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#born-in-guangzhou-cohort-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      Born in Guangzhou Cohort Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#china-kadoorie-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      China Kadoorie Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#chinese-millionome-database" class="md-nav__link">
-    <span class="md-ellipsis">
-      Chinese Millionome Database
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#han-chinese-genome-initiative-phase-1-the-han100k-project" class="md-nav__link">
-    <span class="md-ellipsis">
-      Han Chinese Genome Initiative Phase 1 the Han100K Project
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#indigenomes" class="md-nav__link">
-    <span class="md-ellipsis">
-      IndiGenomes
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#korean-genome-project-phase-1" class="md-nav__link">
-    <span class="md-ellipsis">
-      Korean Genome Project Phase 1
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#korean-genome-project-phase-2" class="md-nav__link">
-    <span class="md-ellipsis">
-      Korean Genome Project Phase 2
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#national-biobank-of-korea" class="md-nav__link">
-    <span class="md-ellipsis">
-      National Biobank of Korea
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#national-center-biobank-network" class="md-nav__link">
-    <span class="md-ellipsis">
-      National Center Biobank Network
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#nyuwa-genome-resource" class="md-nav__link">
-    <span class="md-ellipsis">
-      NyuWa genome resource
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatar-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Qatar Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#qatar-genome-program" class="md-nav__link">
-    <span class="md-ellipsis">
-      Qatar Genome Program
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sg10k_health" class="md-nav__link">
-    <span class="md-ellipsis">
-      SG10K_Health
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taiwan-biobank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taiwan Biobank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taiwan-precision-medicine-initiative" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taiwan Precision Medicine Initiative
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#taizhou-imaging-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      Taizhou Imaging Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-china-metabolic-analytics-project" class="md-nav__link">
-    <span class="md-ellipsis">
-      The China Metabolic Analytics Project
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-hisayama-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Hisayama Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-japan-prospective-studies-collaboration-for-aging-and-dementia" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Japan Prospective Studies Collaboration for Aging and Dementia
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-malaysian-cohort" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Malaysian Cohort
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-nagahama-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      The Nagahama Study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#the-stromics-genome-study" class="md-nav__link">
-    <span class="md-ellipsis">
-      The STROMICS genome study
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tohoku-medical-megabank" class="md-nav__link">
-    <span class="md-ellipsis">
-      Tohoku Medical Megabank
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#westlake-biobank-for-chinese" class="md-nav__link">
-    <span class="md-ellipsis">
-      Westlake BioBank for Chinese
     </span>
   </a>
   
@@ -2843,398 +1235,1276 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
+  <div class="md-content" data-md-component="content">
+    
+      
+
+  
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Biobanks/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Biobanks
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+    
+    
+    
+      
+        
+      
+    
+    <article class="md-content__inner md-typeset catalog-section-Biobanks">
+      
+        
+  
+
+
+  <nav class="md-tags" hidden>
+    
+      
+      
+      
+      
+        <span class="md-tag">Biobank / cohort</span>
+      
+    
+  </nav>
 
 
 
   <h1>ASIA</h1>
 
+<div class="catalog-nav-lead">
+<p>Curation of <strong>ASIA</strong> — listings under the <strong>Biobanks</strong> tab.</p>
+</div>
 <h2 id="summary-table">Summary Table</h2>
+<p><em>Click a column header to sort the table.</em></p>
+<div class="catalog-summary-table">
+
+
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">NAME</th>
-<th style="text-align: left;">CONTINENT</th>
-<th style="text-align: left;">SAMPLE SIZE</th>
-<th style="text-align: left;">URL</th>
+<th>NAME</th>
+<th>MAIN ANCESTRY</th>
+<th>PARTICIPANTS</th>
+<th>CONTINENT</th>
+<th>SAMPLE SIZE</th>
+<th>URL</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a href="#biobank-japan">BioBank Japan</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~270k</td>
-<td style="text-align: left;"><a href="https://biobankjp.org/">https://biobankjp.org/</a></td>
+<td><a href="#biobank-japan">BioBank Japan</a></td>
+<td>EAS</td>
+<td>Japanese adults (hospital and population network)</td>
+<td>ASIA</td>
+<td>~270k</td>
+<td><a href="https://biobankjp.org/">https://biobankjp.org/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#born-in-guangzhou-cohort-study">Born in Guangzhou Cohort Study</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~50K</td>
-<td style="text-align: left;"><a href="http://www.bigcs.com.cn/en_index.html">http://www.bigcs.com.cn/en_index.html</a></td>
+<td><a href="#born-in-guangzhou-cohort-study">Born in Guangzhou Cohort Study</a></td>
+<td>EAS</td>
+<td>Han Chinese mothers and infants (Guangzhou birth cohort)</td>
+<td>ASIA</td>
+<td>~50K</td>
+<td><a href="http://www.bigcs.com.cn/en_index.html">http://www.bigcs.com.cn/en_index.html</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#china-kadoorie-biobank">China Kadoorie Biobank</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~512k</td>
-<td style="text-align: left;"><a href="https://www.ckbiobank.org/">https://www.ckbiobank.org/</a></td>
+<td><a href="#cebu-longitudinal-health-and-nutrition-survey">Cebu Longitudinal Health and Nutrition Survey</a></td>
+<td>EAS</td>
+<td>Filipino mothers and offspring (Cebu)</td>
+<td>ASIA</td>
+<td>~3k index offspring cohort</td>
+<td><a href="https://www.cpc.unc.edu/projects/clhns">https://www.cpc.unc.edu/projects/clhns</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#chinese-millionome-database">Chinese Millionome Database</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~141k</td>
-<td style="text-align: left;"><a href="https://db.cngb.org/cmdb/">https://db.cngb.org/cmdb/</a></td>
+<td><a href="#china-kadoorie-biobank">China Kadoorie Biobank</a></td>
+<td>EAS</td>
+<td>Chinese adults (10 regions; prospective cohort)</td>
+<td>ASIA</td>
+<td>~512k</td>
+<td><a href="https://www.ckbiobank.org/">https://www.ckbiobank.org/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#han-chinese-genome-initiative-phase-1-the-han100k-project">Han Chinese Genome Initiative Phase 1 the Han100K Project</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~114k</td>
-<td style="text-align: left;"><a href="https://www.hanchinesegenomes.org/">https://www.hanchinesegenomes.org/</a></td>
+<td><a href="#chinese-millionome-database">Chinese Millionome Database</a></td>
+<td>EAS</td>
+<td>Chinese individuals (aggregated genome database)</td>
+<td>ASIA</td>
+<td>~141k</td>
+<td><a href="https://db.cngb.org/cmdb/">https://db.cngb.org/cmdb/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#indigenomes">IndiGenomes</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~10k</td>
-<td style="text-align: left;"><a href="http://clingen.igib.res.in/indigen/">http://clingen.igib.res.in/indigen/</a></td>
+<td><a href="#han-chinese-genome-initiative-phase-1-the-han100k-project">Han Chinese Genome Initiative Phase 1 the Han100K Project</a></td>
+<td>EAS</td>
+<td>Han Chinese adults (reference genomes)</td>
+<td>ASIA</td>
+<td>~114k</td>
+<td><a href="https://www.hanchinesegenomes.org/">https://www.hanchinesegenomes.org/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#korean-genome-project-phase-1">Korean Genome Project Phase 1</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~1K</td>
-<td style="text-align: left;"><a href="http://koreangenome.org/Main_Page">http://koreangenome.org/Main_Page</a></td>
+<td><a href="#indigenomes">IndiGenomes</a></td>
+<td>SAS</td>
+<td>Indian subcontinent individuals (genome resource)</td>
+<td>ASIA</td>
+<td>~10k</td>
+<td><a href="http://clingen.igib.res.in/indigen/">http://clingen.igib.res.in/indigen/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#korean-genome-project-phase-2">Korean Genome Project Phase 2</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~4K</td>
-<td style="text-align: left;"><a href="http://koreangenome.org/Korea4K_Genomes">http://koreangenome.org/Korea4K_Genomes</a></td>
+<td><a href="#koges">KoGES</a></td>
+<td>EAS</td>
+<td>Korean adults (population-based sub-cohorts)</td>
+<td>ASIA</td>
+<td>~210k (across sub-cohorts)</td>
+<td><a href="https://koges.leelabsg.org/about">https://koges.leelabsg.org/about</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#national-biobank-of-korea">National Biobank of Korea</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~210K</td>
-<td style="text-align: left;"><a href="https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html">https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html</a></td>
+<td><a href="#korean-genome-project-phase-1">Korean Genome Project Phase 1</a></td>
+<td>EAS</td>
+<td>Korean individuals (reference genomes)</td>
+<td>ASIA</td>
+<td>~1K</td>
+<td><a href="https://koreangenome.org/Main_Page">https://koreangenome.org/Main_Page</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#national-center-biobank-network">National Center Biobank Network</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~120K</td>
-<td style="text-align: left;"><a href="https://ncbiobank.org/en/home.php">https://ncbiobank.org/en/home.php</a></td>
+<td><a href="#korean-genome-project-phase-2">Korean Genome Project Phase 2</a></td>
+<td>EAS</td>
+<td>Korean individuals (Korea4K reference)</td>
+<td>ASIA</td>
+<td>~4K</td>
+<td><a href="http://koreangenome.org/Korea4K_Genomes">http://koreangenome.org/Korea4K_Genomes</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#nyuwa-genome-resource">NyuWa genome resource</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~3k</td>
-<td style="text-align: left;"><a href="http://bigdata.ibp.ac.cn/NyuWa/">http://bigdata.ibp.ac.cn/NyuWa/</a></td>
+<td><a href="#national-biobank-of-korea">National Biobank of Korea</a></td>
+<td>EAS</td>
+<td>Korean participants (linked with KoGES / national program)</td>
+<td>ASIA</td>
+<td>~210K</td>
+<td><a href="https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html">https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#qatar-biobank">Qatar Biobank</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~80K</td>
-<td style="text-align: left;"><a href="https://www.qatarbiobank.org.qa/">https://www.qatarbiobank.org.qa/</a></td>
+<td><a href="#national-center-biobank-network">National Center Biobank Network</a></td>
+<td>EAS</td>
+<td>Japanese patients (national hospital biobank network)</td>
+<td>ASIA</td>
+<td>~120K</td>
+<td><a href="https://ncbiobank.org/en/home.php">https://ncbiobank.org/en/home.php</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#qatar-genome-program">Qatar Genome Program</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~6K</td>
-<td style="text-align: left;"><a href="https://www.qatargenome.org.qa/">https://www.qatargenome.org.qa/</a></td>
+<td><a href="#nyuwa-genome-resource">NyuWa genome resource</a></td>
+<td>EAS</td>
+<td>Han Chinese individuals (NyuWa reference genomes)</td>
+<td>ASIA</td>
+<td>~3k</td>
+<td><a href="http://bigdata.ibp.ac.cn/NyuWa/">http://bigdata.ibp.ac.cn/NyuWa/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#sg10khealth">SG10K_Health</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~10k</td>
-<td style="text-align: left;"><a href="https://npm.a-star.edu.sg/">https://npm.a-star.edu.sg/</a></td>
+<td><a href="#qatar-biobank">Qatar Biobank</a></td>
+<td>Middle Eastern (Qatari Arab)</td>
+<td>Consenting adults in Qatar (national biobank)</td>
+<td>ASIA</td>
+<td>~80K</td>
+<td><a href="https://www.qatarbiobank.org.qa/">https://www.qatarbiobank.org.qa/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#taiwan-biobank">Taiwan Biobank</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~150k</td>
-<td style="text-align: left;"><a href="https://www.twbiobank.org.tw/">https://www.twbiobank.org.tw/</a></td>
+<td><a href="#qatar-genome-program">Qatar Genome Program</a></td>
+<td>Middle Eastern (Qatari Arab)</td>
+<td>Qatari individuals (national sequencing; linked with Qatar Biobank)</td>
+<td>ASIA</td>
+<td>~6K</td>
+<td><a href="https://www.qatargenome.org.qa/">https://www.qatargenome.org.qa/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#taiwan-precision-medicine-initiative">Taiwan Precision Medicine Initiative</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~460k</td>
-<td style="text-align: left;"><a href="https://tpmi.ibms.sinica.edu.tw/">https://tpmi.ibms.sinica.edu.tw/</a></td>
+<td><a href="#sg10khealth">SG10K_Health</a></td>
+<td>EAS,SAS</td>
+<td>Singapore residents (Chinese, Malay, Indian, other)</td>
+<td>ASIA</td>
+<td>~10k</td>
+<td><a href="https://npm.a-star.edu.sg/">https://npm.a-star.edu.sg/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#taizhou-imaging-study">Taizhou Imaging Study</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~1K</td>
-<td style="text-align: left;"><a href="https://www.fdtzihs.org.cn/dljs">https://www.fdtzihs.org.cn/dljs</a></td>
+<td><a href="#taiwan-biobank">Taiwan Biobank</a></td>
+<td>EAS</td>
+<td>Han Chinese adults (general-population recruitment)</td>
+<td>ASIA</td>
+<td>~150k</td>
+<td><a href="https://www.twbiobank.org.tw/">https://www.twbiobank.org.tw/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-china-metabolic-analytics-project">The China Metabolic Analytics Project</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~10k</td>
-<td style="text-align: left;"><a href="http://www.mbiobank.com/">http://www.mbiobank.com/</a></td>
+<td><a href="#taiwan-precision-medicine-initiative">Taiwan Precision Medicine Initiative</a></td>
+<td>EAS</td>
+<td>Han Chinese adults (precision medicine initiative)</td>
+<td>ASIA</td>
+<td>~460k</td>
+<td><a href="https://tpmi.ibms.sinica.edu.tw/">https://tpmi.ibms.sinica.edu.tw/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-hisayama-study">The Hisayama Study</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~8K</td>
-<td style="text-align: left;"><a href="https://www.hisayama.med.kyushu-u.ac.jp/en/">https://www.hisayama.med.kyushu-u.ac.jp/en/</a></td>
+<td><a href="#taizhou-imaging-study">Taizhou Imaging Study</a></td>
+<td>EAS</td>
+<td>Han Chinese adults (Taizhou imaging cohort)</td>
+<td>ASIA</td>
+<td>~1K</td>
+<td><a href="https://www.fdtzihs.org.cn/dljs">https://www.fdtzihs.org.cn/dljs</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-japan-prospective-studies-collaboration-for-aging-and-dementia">The Japan Prospective Studies Collaboration for Aging and Dementia</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~11K</td>
-<td style="text-align: left;"><a href="https://www.eph.med.kyushu-u.ac.jp/jpsc/en/">https://www.eph.med.kyushu-u.ac.jp/jpsc/en/</a></td>
+<td><a href="#the-china-metabolic-analytics-project">The China Metabolic Analytics Project</a></td>
+<td>EAS</td>
+<td>Chinese adults (metabolic disease cohort)</td>
+<td>ASIA</td>
+<td>~10k</td>
+<td><a href="http://www.mbiobank.com/">http://www.mbiobank.com/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-malaysian-cohort">The Malaysian Cohort</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~100k</td>
-<td style="text-align: left;"><a href="https://www.ukm.my/mycohort/ms/">https://www.ukm.my/mycohort/ms/</a></td>
+<td><a href="#the-hisayama-study">The Hisayama Study</a></td>
+<td>EAS</td>
+<td>Japanese adults (Hisayama town)</td>
+<td>ASIA</td>
+<td>~8K</td>
+<td><a href="https://www.hisayama.med.kyushu-u.ac.jp/en/">https://www.hisayama.med.kyushu-u.ac.jp/en/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-nagahama-study">The Nagahama Study</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~10K</td>
-<td style="text-align: left;"><a href="https://zeroji-cohort.com/english/">https://zeroji-cohort.com/english/</a></td>
+<td><a href="#the-japan-covid-19-task-force-study">The Japan COVID-19 Task Force study</a></td>
+<td>EAS</td>
+<td>Japanese individuals (COVID-19 host genetics)</td>
+<td>ASIA</td>
+<td>~1.4K</td>
+<td><a href="https://japan-omics.jp/">https://japan-omics.jp/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#the-stromics-genome-study">The STROMICS genome study</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~10k</td>
-<td style="text-align: left;"><a href="http://www.stromics.org.cn/">http://www.stromics.org.cn/</a></td>
+<td><a href="#the-japan-prospective-studies-collaboration-for-aging-and-dementia">The Japan Prospective Studies Collaboration for Aging and Dementia</a></td>
+<td>EAS</td>
+<td>Japanese adults (aging and dementia collaboration)</td>
+<td>ASIA</td>
+<td>~11K</td>
+<td><a href="https://www.eph.med.kyushu-u.ac.jp/jpsc/en/">https://www.eph.med.kyushu-u.ac.jp/jpsc/en/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#tohoku-medical-megabank">Tohoku Medical Megabank</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~157k</td>
-<td style="text-align: left;"><a href="https://www.megabank.tohoku.ac.jp/english/">https://www.megabank.tohoku.ac.jp/english/</a></td>
+<td><a href="#the-malaysian-cohort">The Malaysian Cohort</a></td>
+<td>EAS,SAS</td>
+<td>Malaysian adults (multi-ethnic national cohort)</td>
+<td>ASIA</td>
+<td>~100k</td>
+<td><a href="https://www.ukm.my/mycohort/ms/">https://www.ukm.my/mycohort/ms/</a></td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#westlake-biobank-for-chinese">Westlake BioBank for Chinese</a></td>
-<td style="text-align: left;">ASIA</td>
-<td style="text-align: left;">~14k</td>
-<td style="text-align: left;"><a href="https://wbbc.westlake.edu.cn/">https://wbbc.westlake.edu.cn/</a></td>
+<td><a href="#the-nagahama-study">The Nagahama Study</a></td>
+<td>EAS</td>
+<td>Japanese adults (Nagahama City, Shiga)</td>
+<td>ASIA</td>
+<td>~10K</td>
+<td><a href="https://zeroji-cohort.com/english/">https://zeroji-cohort.com/english/</a></td>
+</tr>
+<tr>
+<td><a href="#the-stromics-genome-study">The STROMICS genome study</a></td>
+<td>EAS</td>
+<td>Chinese adults (acute ischemic stroke registry)</td>
+<td>ASIA</td>
+<td>~10k</td>
+<td><a href="http://www.stromics.org.cn/">http://www.stromics.org.cn/</a></td>
+</tr>
+<tr>
+<td><a href="#tohoku-medical-megabank">Tohoku Medical Megabank</a></td>
+<td>EAS</td>
+<td>Japanese adults (Tōhoku region; megabank)</td>
+<td>ASIA</td>
+<td>~157k</td>
+<td><a href="https://www.megabank.tohoku.ac.jp/english/">https://www.megabank.tohoku.ac.jp/english/</a></td>
+</tr>
+<tr>
+<td><a href="#westlake-biobank-for-chinese">Westlake BioBank for Chinese</a></td>
+<td>EAS</td>
+<td>Han Chinese adults (Westlake biobank)</td>
+<td>ASIA</td>
+<td>~14k</td>
+<td><a href="https://wbbc.westlake.edu.cn/">https://wbbc.westlake.edu.cn/</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="biobank-japan">BioBank Japan</h2>
-<ul>
-<li><strong>NAME</strong> : BioBank Japan </li>
-<li><strong>SHORT NAME</strong> : BBJ </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~270k </li>
-<li><strong>ARRAY</strong> : ~270K </li>
-<li><strong>WGS/WES</strong> : ~14K </li>
-<li><strong>METABOLOME</strong> : ~4K </li>
-<li><strong>URL</strong> : <a href="https://biobankjp.org/">https://biobankjp.org/</a> </li>
-</ul>
-<h2 id="born-in-guangzhou-cohort-study">Born in Guangzhou Cohort Study</h2>
-<ul>
-<li><strong>NAME</strong> : Born in Guangzhou Cohort Study </li>
-<li><strong>SHORT NAME</strong> : BIGCS </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~50K </li>
-<li><strong>WGS/WES</strong> : ~4K </li>
-<li><strong>URL</strong> : <a href="http://www.bigcs.com.cn/en_index.html">http://www.bigcs.com.cn/en_index.html</a> </li>
-</ul>
-<h2 id="china-kadoorie-biobank">China Kadoorie Biobank</h2>
-<ul>
-<li><strong>NAME</strong> : China Kadoorie Biobank </li>
-<li><strong>SHORT NAME</strong> : CKB </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~512k </li>
-<li><strong>URL</strong> : <a href="https://www.ckbiobank.org/">https://www.ckbiobank.org/</a> </li>
-</ul>
-<h2 id="chinese-millionome-database">Chinese Millionome Database</h2>
-<ul>
-<li><strong>NAME</strong> : Chinese Millionome Database </li>
-<li><strong>SHORT NAME</strong> : CMDB </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~141k </li>
-<li><strong>URL</strong> : <a href="https://db.cngb.org/cmdb/">https://db.cngb.org/cmdb/</a> </li>
-</ul>
-<h2 id="han-chinese-genome-initiative-phase-1-the-han100k-project">Han Chinese Genome Initiative Phase 1 the Han100K Project</h2>
-<ul>
-<li><strong>NAME</strong> : Han Chinese Genome Initiative Phase 1 the Han100K Project </li>
-<li><strong>SHORT NAME</strong> : Han100K </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~114k </li>
-<li><strong>WGS/WES</strong> : ~114k </li>
-<li><strong>URL</strong> : <a href="https://www.hanchinesegenomes.org/">https://www.hanchinesegenomes.org/</a> </li>
-</ul>
-<h2 id="indigenomes">IndiGenomes</h2>
-<ul>
-<li><strong>NAME</strong> : IndiGenomes </li>
-<li><strong>ANCESTRY</strong> : SAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~10k </li>
-<li><strong>URL</strong> : <a href="http://clingen.igib.res.in/indigen/">http://clingen.igib.res.in/indigen/</a> </li>
-</ul>
-<h2 id="korean-genome-project-phase-1">Korean Genome Project Phase 1</h2>
-<ul>
-<li><strong>NAME</strong> : Korean Genome Project Phase 1 </li>
-<li><strong>SHORT NAME</strong> : KGP Korea1K </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~1K </li>
-<li><strong>WGS/WES</strong> : ~1K </li>
-<li><strong>URL</strong> : <a href="http://koreangenome.org/Main_Page">http://koreangenome.org/Main_Page</a> </li>
-</ul>
-<h2 id="korean-genome-project-phase-2">Korean Genome Project Phase 2</h2>
-<ul>
-<li><strong>NAME</strong> : Korean Genome Project Phase 2 </li>
-<li><strong>SHORT NAME</strong> : KGP Korea4K </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~4K </li>
-<li><strong>WGS/WES</strong> : ~4K </li>
-<li><strong>URL</strong> : <a href="http://koreangenome.org/Korea4K_Genomes">http://koreangenome.org/Korea4K_Genomes</a> </li>
-</ul>
-<h2 id="national-biobank-of-korea">National Biobank of Korea</h2>
-<ul>
-<li><strong>NAME</strong> : National Biobank of Korea </li>
-<li><strong>SHORT NAME</strong> : NBK </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~210K </li>
-<li><strong>DATA ACCESS</strong> : https://koges.leelabsg.org/ , https://zenodo.org/record/7042518 </li>
-<li><strong>URL</strong> : <a href="https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html">https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html</a> </li>
-</ul>
-<h2 id="national-center-biobank-network">National Center Biobank Network</h2>
-<ul>
-<li><strong>NAME</strong> : National Center Biobank Network </li>
-<li><strong>SHORT NAME</strong> : NCBN </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~120K </li>
-<li><strong>WGS/WES</strong> : ~10K </li>
-<li><strong>URL</strong> : <a href="https://ncbiobank.org/en/home.php">https://ncbiobank.org/en/home.php</a> </li>
-</ul>
-<h2 id="nyuwa-genome-resource">NyuWa genome resource</h2>
-<ul>
-<li><strong>NAME</strong> : NyuWa genome resource </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~3k </li>
-<li><strong>WGS/WES</strong> : ~3K </li>
-<li><strong>URL</strong> : <a href="http://bigdata.ibp.ac.cn/NyuWa/">http://bigdata.ibp.ac.cn/NyuWa/</a> </li>
-</ul>
-<h2 id="qatar-biobank">Qatar Biobank</h2>
-<ul>
-<li><strong>NAME</strong> : Qatar Biobank </li>
-<li><strong>SAMPLE SIZE</strong> : ~80K </li>
-<li><strong>URL</strong> : <a href="https://www.qatarbiobank.org.qa/">https://www.qatarbiobank.org.qa/</a> </li>
-</ul>
-<h2 id="qatar-genome-program">Qatar Genome Program</h2>
-<ul>
-<li><strong>NAME</strong> : Qatar Genome Program </li>
-<li><strong>SHORT NAME</strong> : QGP </li>
-<li><strong>SAMPLE SIZE</strong> : ~6K </li>
-<li><strong>ARRAY</strong> : ~6K </li>
-<li><strong>URL</strong> : <a href="https://www.qatargenome.org.qa/">https://www.qatargenome.org.qa/</a> </li>
-</ul>
-<h2 id="sg10k_health">SG10K_Health</h2>
-<ul>
-<li><strong>NAME</strong> : SG10K_Health </li>
-<li><strong>SHORT NAME</strong> : SG10K </li>
-<li><strong>ANCESTRY</strong> : EAS, SAS, SEA </li>
-<li><strong>SAMPLE SIZE</strong> : ~10k </li>
-<li><strong>URL</strong> : <a href="https://npm.a-star.edu.sg/">https://npm.a-star.edu.sg/</a> </li>
-</ul>
-<h2 id="taiwan-biobank">Taiwan Biobank</h2>
-<ul>
-<li><strong>NAME</strong> : Taiwan Biobank </li>
-<li><strong>SHORT NAME</strong> : TWB </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~150k </li>
-<li><strong>ARRAY</strong> : ~109K </li>
-<li><strong>WGS/WES</strong> : ~2K </li>
-<li><strong>DATA ACCESS</strong> : https://taiwanview.twbiobank.org.tw/data_appl (application required) </li>
-<li><strong>URL</strong> : <a href="https://www.twbiobank.org.tw/">https://www.twbiobank.org.tw/</a> </li>
-</ul>
-<h2 id="taiwan-precision-medicine-initiative">Taiwan Precision Medicine Initiative</h2>
-<ul>
-<li><strong>NAME</strong> : Taiwan Precision Medicine Initiative </li>
-<li><strong>SHORT NAME</strong> : TMPI </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~460k </li>
-<li><strong>URL</strong> : <a href="https://tpmi.ibms.sinica.edu.tw/">https://tpmi.ibms.sinica.edu.tw/</a> </li>
-</ul>
-<h2 id="taizhou-imaging-study">Taizhou Imaging Study</h2>
-<ul>
-<li><strong>NAME</strong> : Taizhou Imaging Study </li>
-<li><strong>SHORT NAME</strong> : TIS </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~1K </li>
-<li><strong>ARRAY</strong> : ~1K </li>
-<li><strong>METABOLOME</strong> : ~1K </li>
-<li><strong>METAGENOME</strong> : ~1K </li>
-<li><strong>IMAGAING</strong> : ~1K </li>
-<li><strong>URL</strong> : <a href="https://www.fdtzihs.org.cn/dljs">https://www.fdtzihs.org.cn/dljs</a> </li>
-</ul>
-<h2 id="the-china-metabolic-analytics-project">The China Metabolic Analytics Project</h2>
-<ul>
-<li><strong>NAME</strong> : The China Metabolic Analytics Project </li>
-<li><strong>SHORT NAME</strong> : ChinaMAP </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~10k </li>
-<li><strong>URL</strong> : <a href="http://www.mbiobank.com/">http://www.mbiobank.com/</a> </li>
-</ul>
-<h2 id="the-hisayama-study">The Hisayama Study</h2>
-<ul>
-<li><strong>NAME</strong> : The Hisayama Study </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~8K </li>
-<li><strong>URL</strong> : <a href="https://www.hisayama.med.kyushu-u.ac.jp/en/">https://www.hisayama.med.kyushu-u.ac.jp/en/</a> </li>
-</ul>
-<h2 id="the-japan-prospective-studies-collaboration-for-aging-and-dementia">The Japan Prospective Studies Collaboration for Aging and Dementia</h2>
-<ul>
-<li><strong>NAME</strong> : The Japan Prospective Studies Collaboration for Aging and Dementia </li>
-<li><strong>SHORT NAME</strong> : JPSC-AD </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~11K </li>
-<li><strong>URL</strong> : <a href="https://www.eph.med.kyushu-u.ac.jp/jpsc/en/">https://www.eph.med.kyushu-u.ac.jp/jpsc/en/</a> </li>
-</ul>
-<h2 id="the-malaysian-cohort">The Malaysian Cohort</h2>
-<ul>
-<li><strong>NAME</strong> : The Malaysian Cohort </li>
-<li><strong>SHORT NAME</strong> : TMC </li>
-<li><strong>SAMPLE SIZE</strong> : ~100k </li>
-<li><strong>URL</strong> : <a href="https://www.ukm.my/mycohort/ms/">https://www.ukm.my/mycohort/ms/</a> </li>
-</ul>
-<h2 id="the-nagahama-study">The Nagahama Study</h2>
-<ul>
-<li><strong>NAME</strong> : The Nagahama Study </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~10K </li>
-<li><strong>ARRAY</strong> : ~9K </li>
-<li><strong>WGS/WES</strong> : ~2K </li>
-<li><strong>METABOLOME</strong> : ~9K </li>
-<li><strong>PROTEOME</strong> : ~2K </li>
-<li><strong>URL</strong> : <a href="https://zeroji-cohort.com/english/">https://zeroji-cohort.com/english/</a> </li>
-</ul>
-<h2 id="the-stromics-genome-study">The STROMICS genome study</h2>
-<ul>
-<li><strong>NAME</strong> : The STROMICS genome study </li>
-<li><strong>SHORT NAME</strong> : STROMICS </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~10k </li>
-<li><strong>ARRAY</strong> : ~10K </li>
-<li><strong>URL</strong> : <a href="http://www.stromics.org.cn/">http://www.stromics.org.cn/</a> </li>
-</ul>
-<h2 id="tohoku-medical-megabank">Tohoku Medical Megabank</h2>
-<ul>
-<li><strong>NAME</strong> : Tohoku Medical Megabank </li>
-<li><strong>SHORT NAME</strong> : TMM </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~157k </li>
-<li><strong>WGS/WES</strong> : ~69K </li>
-<li><strong>IMAGAING</strong> : ~12K Brain MRI </li>
-<li><strong>DATA ACCESS</strong> : https://jmorp.megabank.tohoku.ac.jp/ </li>
-<li><strong>URL</strong> : <a href="https://www.megabank.tohoku.ac.jp/english/">https://www.megabank.tohoku.ac.jp/english/</a> </li>
-</ul>
-<h2 id="westlake-biobank-for-chinese">Westlake BioBank for Chinese</h2>
-<ul>
-<li><strong>NAME</strong> : Westlake BioBank for Chinese </li>
-<li><strong>SHORT NAME</strong> : WBBC </li>
-<li><strong>ANCESTRY</strong> : EAS </li>
-<li><strong>SAMPLE SIZE</strong> : ~14k </li>
-<li><strong>ARRAY</strong> : ~6K </li>
-<li><strong>WGS/WES</strong> : ~4K </li>
-<li><strong>URL</strong> : <a href="https://wbbc.westlake.edu.cn/">https://wbbc.westlake.edu.cn/</a> </li>
-</ul>
+
+
+</div>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="biobank-japan" class="catalog-entry-card__title">BioBank Japan <span class="catalog-entry-card__title-abbr">(BBJ)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">In 2003, BioBank Japan (BBJ) started developing one of the world’s largest disease biobanks, creating a foundation for research aimed at achieving medical care tailored to the individual traits of each patient. From a total of 260,000 patients representing 440,000 cases of 51 primarily multifactorial (common) diseases, BBJ has collected DNA, serum, medical records (clinical information), etc. with their consent. No less than 5,800 items of screened information are available for research, including the patients’ survival information, with 95% of the patients tracked over an average of 10 years. In addition to large-scale genomic analyses, omics analyses including whole genome sequencing and metabolome/proteome analyses have been performed on the DNA, serum and other biological samples collected, producing significant research findings. The genomic information acquired through the analyses continues to be used as data. The biological samples and data are widely distributed and used by researchers.</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://biobankjp.org/">https://biobankjp.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese adults (hospital and population network)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~270k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="born-in-guangzhou-cohort-study" class="catalog-entry-card__title">Born in Guangzhou Cohort Study <span class="catalog-entry-card__title-abbr">(BIGCS)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Born in Guangzhou Cohort Study (BIGCS) is a large-scale prospective observational study investigating the role of social, biological and environmental influences on pregnancy and child health and development in an urban setting in southern China.</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://www.bigcs.com.cn/en_index.html">http://www.bigcs.com.cn/en_index.html</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese mothers and infants (Guangzhou birth cohort)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~50K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="cebu-longitudinal-health-and-nutrition-survey" class="catalog-entry-card__title">Cebu Longitudinal Health and Nutrition Survey <span class="catalog-entry-card__title-abbr">(CLHNS)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Long-standing community-based cohort in Metro Cebu with repeated anthropometric, dietary, and health measures from pregnancy/birth through adulthood; genetic and omics data used in developmental and metabolic trait studies.</div>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.cpc.unc.edu/projects/clhns">https://www.cpc.unc.edu/projects/clhns</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Filipino mothers and offspring (Cebu)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~3k index offspring cohort</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="china-kadoorie-biobank" class="catalog-entry-card__title">China Kadoorie Biobank <span class="catalog-entry-card__title-abbr">(CKB)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The China Kadoorie Biobank is one of the world’s largest prospective cohort studies.  A long-term collaboration between the UK and China, it aims to generate reliable evidence about the lifestyle, environmental and genetic determinants of a wide range of common diseases that can inform disease prevention, risk prediction and treatment worldwide.</div>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.ckbiobank.org/">https://www.ckbiobank.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Chinese adults (10 regions; prospective cohort)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~512k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="chinese-millionome-database" class="catalog-entry-card__title">Chinese Millionome Database <span class="catalog-entry-card__title-abbr">(CMDB)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">the largest and the most representative Chinese genome variation database to date. The CMDB database contains 9.04 million single nucleotide variants (SNVs) and the allele frequency information from low-coverage (0.06×–0.1×) WGS data of 141 431 unrelated healthy Chinese individuals.</div>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://db.cngb.org/cmdb/">https://db.cngb.org/cmdb/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Chinese individuals (aggregated genome database)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~141k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="han-chinese-genome-initiative-phase-1-the-han100k-project" class="catalog-entry-card__title">Han Chinese Genome Initiative Phase 1 the Han100K Project <span class="catalog-entry-card__title-abbr">(Han100K)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">a reference panel of 114 783 Han Chinese individuals (the Han100K), with whole-genome deep-sequenced or high-density genome-wide single-nucleotide variants (SNVs) genotyped or imputed.</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.hanchinesegenomes.org/">https://www.hanchinesegenomes.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese adults (reference genomes)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~114k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="indigenomes" class="catalog-entry-card__title">IndiGenomes</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">IndiGenomes is a curated resource of genetic variants from 1000+ whole genomes from across India, supporting South Asian reference genomics and downstream association and functional studies.</div>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://clingen.igib.res.in/indigen/">http://clingen.igib.res.in/indigen/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Indian subcontinent individuals (genome resource)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~10k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="koges" class="catalog-entry-card__title">KoGES</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Korean Genome and Epidemiology Study: prospective population-based cohorts (Ansan–Ansung, etc.) with biosamples and follow-up; genome-wide data widely used in Korean and trans-ethnic GWAS.</div>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://koges.leelabsg.org/about">https://koges.leelabsg.org/about</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Korean adults (population-based sub-cohorts)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~210k (across sub-cohorts)</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="korean-genome-project-phase-1" class="catalog-entry-card__title">Korean Genome Project Phase 1 <span class="catalog-entry-card__title-abbr">(KGP Korea1K)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Reference panel of ~1,000 Korean whole genomes with linked clinical information for population genetics, imputation, and precision-medicine applications.</div>
+    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://koreangenome.org/Main_Page">https://koreangenome.org/Main_Page</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Korean individuals (reference genomes)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~1K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="korean-genome-project-phase-2" class="catalog-entry-card__title">Korean Genome Project Phase 2 <span class="catalog-entry-card__title-abbr">(KGP Korea4K)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Korea4K is the second phase data release of the Korean Genome Project (KGP).</div>
+    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://koreangenome.org/Korea4K_Genomes">http://koreangenome.org/Korea4K_Genomes</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Korean individuals (Korea4K reference)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~4K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="national-biobank-of-korea" class="catalog-entry-card__title">National Biobank of Korea <span class="catalog-entry-card__title-abbr">(NBK)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-11" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The NBK is the national control center for the collection, management, and utilization of human bioresources in Korea. And NBK manages KBN, it contributes to the development of policies related to human bioresources, standardization of human bioresource management, and advancement of domestic biobanks through developing and providing support for human bioresource technologies. For guaranteeing the fairness in bioresource distribution and development of an efficient distribution system, the NBK also serves as the human bioresource supply hub that supports national healthcare and medical R&amp;D.</div>
+    <label for="catalog-col-description-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html">https://nih.go.kr/NIH/cms/content/eng/14/65714_view.html</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Korean participants (linked with KoGES / national program)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~210K</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DATA ACCESS</div>
+    <div class="catalog-entry-card__value">https://koges.leelabsg.org/ , https://zenodo.org/record/7042518</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="national-center-biobank-network" class="catalog-entry-card__title">National Center Biobank Network <span class="catalog-entry-card__title-abbr">(NCBN)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Six National Centers in Japan conduct specialized medical research under the coordination of the National Center Biobank Network (NCBN) and develop therapeutics to improve and protect national health. They actively collaborate to establish a shared biobank and are developing a structure to facilitate industry-academia-government cooperation regarding bioresources through broad joint research. NCBN strives to promote the success of the National Centers and to create bright future for health and human life.</div>
+    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://ncbiobank.org/en/home.php">https://ncbiobank.org/en/home.php</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese patients (national hospital biobank network)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~120K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="nyuwa-genome-resource" class="catalog-entry-card__title">NyuWa genome resource</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">NyuWa, or NüWa, is the mother goddess who was the creator of the human population in Chinese mythology. Here we presented the NyuWa genome resource based on high depth (median 26X) WGS of 2,999 Chinese individuals from 23 out of 34 administrative divisions in China. NyuWa Genome Resource present in this website mainly contains two parts as NyuWa Chinese Population Variant Database and NyuWa reference panel server.</div>
+    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://bigdata.ibp.ac.cn/NyuWa/">http://bigdata.ibp.ac.cn/NyuWa/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese individuals (NyuWa reference genomes)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~3k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="qatar-biobank" class="catalog-entry-card__title">Qatar Biobank</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-14" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Qatar Biobank is a national long-term health research initiative that recruits consenting adults in Qatar, collects biological samples and health data, and supports population and genomic research on diseases relevant to the region (often analyzed together with the Qatar Genome Program).</div>
+    <label for="catalog-col-description-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.qatarbiobank.org.qa/">https://www.qatarbiobank.org.qa/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">Middle Eastern (Qatari Arab)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Consenting adults in Qatar (national biobank)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~80K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="qatar-genome-program" class="catalog-entry-card__title">Qatar Genome Program <span class="catalog-entry-card__title-abbr">(QGP)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">National sequencing initiative profiling thousands of Qatari genomes (linked with Qatar Biobank) to study migration history and improve imputation and analysis of Arab haplotypes.</div>
+    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.qatargenome.org.qa/">https://www.qatargenome.org.qa/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">Middle Eastern (Qatari Arab)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Qatari individuals (national sequencing; linked with Qatar Biobank)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~6K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="sg10khealth" class="catalog-entry-card__title">SG10K_Health <span class="catalog-entry-card__title-abbr">(SG10K)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">SG10K_Health is the headline project of the Singapore National Precision Medicine programme (NPM Phase I). Comprising 10,000 whole-genome sequences from healthy Chinese, Indian, and Malay consented volunteers. SG10K_Health involved a research collaboration across multiple institutions in Singapore, enabling the country to develop the necessary infrastructure and deep capabilities to process, store, and analyse genetic data at the population scale in a safe, secure, and rapid manner. SG10K_Health provides near complete assessment of common genetic variants in Singapore’s three major ethnic groups, which can be used by clinicians to better manage Asian patients with genetic disease and as a control data set to compare against disease studies. Work is ongoing to link the SG10K_Health genomic data to research traits (e.g., height, weight, blood pressure) and clinical records.</div>
+    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://npm.a-star.edu.sg/">https://npm.a-star.edu.sg/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Singapore residents (Chinese, Malay, Indian, other)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~10k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="taiwan-biobank" class="catalog-entry-card__title">Taiwan Biobank <span class="catalog-entry-card__title-abbr">(TWB)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Taiwan Biobank (TWB) is an ongoing prospective study of over 150,000 individuals aged 30-70. A comprehensive list of phenotypes was collected for each consented participant at recruitment and follow-up visits through structured interviews and physical measurements. Biomarkers and genetic data were also generated for all participants from blood and urine samples.</div>
+    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.twbiobank.org.tw/">https://www.twbiobank.org.tw/</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... &amp; Lin, Y. F. (2021). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. medRxiv. Feng, Y. C. A., Chen, C. Y., Chen, T. T., Kuo, P. H., Hsu, Y. H., Yang, H. I., ... &amp; Lin, Y. F. (2022). Taiwan Biobank: a rich biomedical research database of the Taiwanese population. Cell Genomics, 100197.</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese adults (general-population recruitment)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~150k</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DATA ACCESS</div>
+    <div class="catalog-entry-card__value">https://taiwanview.twbiobank.org.tw/data_appl (application required)</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="taiwan-precision-medicine-initiative" class="catalog-entry-card__title">Taiwan Precision Medicine Initiative <span class="catalog-entry-card__title-abbr">(TMPI)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-18" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Taiwan Precision Medicine Initiative (TPMI) is a genomic research program designed toadvance precision healthcare. With over 500,000 Taiwanese residents already enrolled, TPMI maintains the mostcomprehensive dataset of genotypes and electronic medicalrecords for Han Chinese populations.</div>
+    <label for="catalog-col-description-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://tpmi.ibms.sinica.edu.tw/">https://tpmi.ibms.sinica.edu.tw/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese adults (precision medicine initiative)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~460k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="taizhou-imaging-study" class="catalog-entry-card__title">Taizhou Imaging Study <span class="catalog-entry-card__title-abbr">(TIS)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-19" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Prospective Chinese cohort (Taizhou) combining lifestyle factors with multi-omics and brain imaging to study aging and preclinical dementia.</div>
+    <label for="catalog-col-description-19" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.fdtzihs.org.cn/dljs">https://www.fdtzihs.org.cn/dljs</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese adults (Taizhou imaging cohort)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~1K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-china-metabolic-analytics-project" class="catalog-entry-card__title">The China Metabolic Analytics Project <span class="catalog-entry-card__title-abbr">(ChinaMAP)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-20" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The ChinaMAP is based on three large-scale cohorts: The China Noncommunicable Disease Surveillance 2010, a nationally representative study with 150,000 participants; the Risk Evaluation of cAncers in Chinese diabeTic Individuals: a lONgitudinal (REACTION) study with 250,000 participants15 and the Community-based Cardiovascular Risk During Urbanization in Shanghai with 50,000 participants.</div>
+    <label for="catalog-col-description-20" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://www.mbiobank.com/">http://www.mbiobank.com/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Chinese adults (metabolic disease cohort)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~10k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-hisayama-study" class="catalog-entry-card__title">The Hisayama Study</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-21" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Hisayama Study is a population-based prospective cohort study that has been conducted in the town of Hisayama, Japan since 1961.</div>
+    <label for="catalog-col-description-21" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.hisayama.med.kyushu-u.ac.jp/en/">https://www.hisayama.med.kyushu-u.ac.jp/en/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese adults (Hisayama town)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~8K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-japan-covid-19-task-force-study" class="catalog-entry-card__title">The Japan COVID-19 Task Force study <span class="catalog-entry-card__title-abbr">(JCTF)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-22" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Multi-institution Japanese consortium formed during the COVID-19 pandemic; contributes multi-omics and GWAS-related data surfaced through resources such as the Japan Omics Browser.</div>
+    <label for="catalog-col-description-22" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://japan-omics.jp/">https://japan-omics.jp/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese individuals (COVID-19 host genetics)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~1.4K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-japan-prospective-studies-collaboration-for-aging-and-dementia" class="catalog-entry-card__title">The Japan Prospective Studies Collaboration for Aging and Dementia <span class="catalog-entry-card__title-abbr">(JPSC-AD)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-23" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Japan Prospective Studies Collaboration for Aging and Dementia (JPSC-AD） study is a collaborative prospective cohort study of approximately 10,000 elderly people from 8 newly-established community-based dementia cohort studies in Japan, in which the data is prospectively collected by using the pre-specified standardized protocol. The purpose of this study is to evaluate quantitatively environmental and genomic risk factors for dementia in Japanese and to establish effective preventive strategies for dementia, in order to realize healthy aging society.</div>
+    <label for="catalog-col-description-23" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.eph.med.kyushu-u.ac.jp/jpsc/en/">https://www.eph.med.kyushu-u.ac.jp/jpsc/en/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese adults (aging and dementia collaboration)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~11K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-malaysian-cohort" class="catalog-entry-card__title">The Malaysian Cohort <span class="catalog-entry-card__title-abbr">(TMC)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-24" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Malaysian Cohort (TMC) is a prospective study of non-communicable diseases in a multi-ethnic Malaysian population, recruiting adults across rural and urban settings with biosamples and phenotypes for gene–environment and biomarker research.</div>
+    <label for="catalog-col-description-24" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.ukm.my/mycohort/ms/">https://www.ukm.my/mycohort/ms/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS,SAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Malaysian adults (multi-ethnic national cohort)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~100k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-nagahama-study" class="catalog-entry-card__title">The Nagahama Study</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-25" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Nagahama Primary Prevention Cohort Project is a joint project based on an agreement between Kyoto University Graduate School of Medicine and Nagahama City, Shiga Prefecture, with the cooperation of approximately 10,000 Nagahama residents. In addition, the project conducts follow-up surveys on morbidity and mortality, special tests and surveys on sleep, brain imaging, memory, motor function, skin condition, socioeconomic status, etc., during health checkups and periodic surveys conducted every five years after that. Furthermore, we have completed a multi-omics analysis focusing on genome analysis of approximately 9,000 people (including whole genome sequencing of roughly 2,500 people), comprehensive metabolite analysis of 3-time points, and comprehensive protein analysis of 2,000 people (as of August 2021), and based on these rich and diverse data, we have been searching for health risk Based on these abundant and varied data, we aim to search for health risk factors and elucidate their interactions.</div>
+    <label for="catalog-col-description-25" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://zeroji-cohort.com/english/">https://zeroji-cohort.com/english/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese adults (Nagahama City, Shiga)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~10K</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="the-stromics-genome-study" class="catalog-entry-card__title">The STROMICS genome study <span class="catalog-entry-card__title-abbr">(STROMICS)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-26" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Stroke Omics Atlas (STROMICS) is committed to using multi-omics and clinical big data to achieve accurate diagnosis and treatment for stroke patients, reduce treatment costs, and contribute to the health of the people.<br>
+Using artificial intelligence and cutting-edge high-throughput omics technologies (genomics, transcriptomics, epigenomics, proteomics, metabolomics, metagenomics, etc.), potential drug targets for stroke can be found on a large scale and with high efficiency, providing strong technical support for clinical transformation.<br>
+Relying on the China National Clinical Research Center for Neurological Diseases and Center of excellence for Omics Research (CORe), STROMICS has realized the interdisciplinary integration of clinical medicine, bioinformatics, and multi-omics, creating a new paradigm of drug research and development.</div>
+    <label for="catalog-col-description-26" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://www.stromics.org.cn/">http://www.stromics.org.cn/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Chinese adults (acute ischemic stroke registry)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~10k</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="tohoku-medical-megabank" class="catalog-entry-card__title">Tohoku Medical Megabank <span class="catalog-entry-card__title-abbr">(TMM)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-27" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Tohoku University Tohoku Medical Megabank Organization was founded to establish an advanced medical system to foster the reconstruction from the Great East Japan Earthquake. The organization has been developing a biobank that combines medical and genome information during the process of rebuilding the community medical system and supporting health and welfare in the Tohoku area. The information from the brand-new biobank will create a new medical system, and, based on the findings of its analysis, the organization aims to attract more medical practitioners from all over the country to the area, promote industry-academic partnerships, create employment in related fields, and restore the medical system in Tohoku.</div>
+    <label for="catalog-col-description-27" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.megabank.tohoku.ac.jp/english/">https://www.megabank.tohoku.ac.jp/english/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Japanese adults (Tōhoku region; megabank)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~157k</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DATA ACCESS</div>
+    <div class="catalog-entry-card__value">https://jmorp.megabank.tohoku.ac.jp/</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Biobanks">
+  <header class="catalog-entry-card__header">
+    <h2 id="westlake-biobank-for-chinese" class="catalog-entry-card__title">Westlake BioBank for Chinese <span class="catalog-entry-card__title-abbr">(WBBC)</span></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/biobank-cohort/" class="catalog-badge catalog-badge--link" role="listitem">Biobank / cohort</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-28" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">The Westlake BioBank for Chinese (WBBC) cohort is a population-based prospective study with its major purpose to better understand the effect of genetic and environmental factors on growth and development from youngster to elderly. The dataset comprises a wide range of demographics and anthropometric measures, serological tests, physical activity, sleep quality, age at menarche and bone mineral density. WBBC is designed as a prospective cohort study and will recruit at least 100,000 Chinese samples. The pilot project of WBBC has recruited a total of 14,726 participants (4,751 males and 9,975 females) and the baseline survey was carried out from 2017 to 2019.</div>
+    <label for="catalog-col-description-28" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://wbbc.westlake.edu.cn/">https://wbbc.westlake.edu.cn/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">MAIN ANCESTRY</div>
+    <div class="catalog-entry-card__value">EAS</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PARTICIPANTS</div>
+    <div class="catalog-entry-card__value">Han Chinese adults (Westlake biobank)</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">SAMPLE SIZE</div>
+    <div class="catalog-entry-card__value">~14k</div>
+  </section>
+  </div>
+</article>
 
 
 
@@ -3242,15 +2512,20 @@
 
 
 
+  
+  
 
 
 
 
+  
 
-                
-              </article>
-            </div>
-          
+
+
+      
+    </article>
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -3281,6 +2556,19 @@
   
 </div>
       
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Cloufield/CTGCatalog" target="_blank" rel="noopener" title="CTGCatalog on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -3291,16 +2579,15 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.path", "navigation.prune", "toc.follow", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       

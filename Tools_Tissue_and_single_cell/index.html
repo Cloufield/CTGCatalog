@@ -6,9 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Curated index of complex trait genetics resources—biobanks, GWAS summary statistics, software tools, references, single-cell methods, major projects, and AI-related tooling.">
+      
       
         <meta name="author" content="HE Yunye">
       
+      
+        <link rel="canonical" href="https://cloufield.github.io/CTGCatalog/Tools_Tissue_and_single_cell/">
       
       
         <link rel="prev" href="../Tools_Simulation/">
@@ -17,8 +21,11 @@
         <link rel="next" href="../Tools_Visualization_Chromosome/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -26,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -40,15 +47,9 @@
     
     
       
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -56,11 +57,12 @@
 
     
     
-    
   </head>
   
   
     
+    
+      
     
     
     
@@ -115,15 +117,43 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -162,13 +192,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -194,9 +225,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href=".." class="md-tabs__link">
         
+  
   
     
   
@@ -211,11 +244,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../Biobanks/" class="md-tabs__link">
           
+  
   
   Biobanks
 
@@ -229,11 +264,95 @@
   
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats/" class="md-tabs__link">
+          
+  
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools/" class="md-tabs__link">
+          
+  
+  
+  GWAS Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Coding/" class="md-tabs__link">
+          
+  
+  
+  Coding
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics/" class="md-tabs__link">
+          
+  
+  
+  Population Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
     
     
       <li class="md-tabs__item">
         <a href="../References/" class="md-tabs__link">
           
+  
   
   References
 
@@ -247,11 +366,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../Single_Cell/" class="md-tabs__link">
           
+  
   
   Single_Cell
 
@@ -265,13 +386,15 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
-        <a href="../Sumstats/" class="md-tabs__link">
+        <a href="../Projects/" class="md-tabs__link">
           
   
-  Sumstats
+  
+  Projects
 
         </a>
       </li>
@@ -282,16 +405,16 @@
         
   
   
-    
   
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../Tools/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../AI/" class="md-tabs__link">
           
   
-  Tools
+  
+  AI
 
         </a>
       </li>
@@ -309,6 +432,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -333,7 +458,7 @@
       <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -353,10 +478,16 @@
       <a href=".." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -373,170 +504,43 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Biobanks/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
     Biobanks
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Biobanks
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Biobanks
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_AFRICA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    AFRICA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_AMERICA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    AMERICA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_ASIA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    ASIA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_EUROPE/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    EUROPE
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_OCIENIA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    OCIENIA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -551,614 +555,43 @@
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            References
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Epigenetics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Epigenetics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Function/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Function
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Gene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Genome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Phenotype/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phenotype
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Variant/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variant
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_scRNA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    scRNA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
     
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Single_Cell
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Annotation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Annotation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Framework/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Framework
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Harmonization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Harmonization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Network/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Network
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_QC/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    QC
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Trajectory/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Trajectory
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
-  
-
     
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../Sumstats/" class="md-nav__link">
       
   
   
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
   <span class="md-ellipsis">
+    
+  
     Sumstats
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Sumstats
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sumstats
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_General/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    General
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Imaging/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Imaging
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Metabolomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Proteomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proteomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1175,36 +608,49 @@
     
     
     
+    
       
         
         
       
       
     
+    
+      
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
-    Tools
+    
+  
+    GWAS Tools
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Tools
+            
+  
+    GWAS Tools
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1218,82 +664,19 @@
       <a href="../Tools/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Tools
+    
+  
+    GWAS Tools
+  
+
     
   </span>
+  
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    AI
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            AI
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_AI_Agent/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Agent
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1309,10 +692,16 @@
       <a href="../Tools_Annotation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Annotation
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1330,192 +719,43 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Tools_Association_tests/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
     Association_tests
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_4">
-            <span class="md-nav__icon md-icon"></span>
-            Association_tests
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Association_tests
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Privacy_Preserving_GWAS_Tool/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Privacy_Preserving_GWAS_Tool
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_RWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    RWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_TWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    TWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Time_to_event_phenotypes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Time_to_event_phenotypes
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_eQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    eQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_sQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    sQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1532,10 +772,16 @@
       <a href="../Tools_Colocalization/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Colocalization
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1554,10 +800,16 @@
       <a href="../Tools_Data_processing/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Data_processing
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1576,10 +828,16 @@
       <a href="../Tools_Dimension_reduction/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Dimension_reduction
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1598,10 +856,16 @@
       <a href="../Tools_Drug_discovery/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Drug_discovery
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1620,10 +884,16 @@
       <a href="../Tools_Fine_mapping/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Fine_mapping
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1642,10 +912,16 @@
       <a href="../Tools_Functional_prediction/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Functional_prediction
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1664,10 +940,16 @@
       <a href="../Tools_Gene_prioritization/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Gene_prioritization
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1686,10 +968,16 @@
       <a href="../Tools_Gene_set_pathway_analysis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Gene_set_pathway_analysis
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1708,10 +996,16 @@
       <a href="../Tools_GxE_interactions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     GxE_interactions
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1730,10 +1024,16 @@
       <a href="../Tools_HLA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     HLA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1752,10 +1052,16 @@
       <a href="../Tools_Heritability_and_genetic_correlation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Heritability_and_genetic_correlation
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1774,10 +1080,44 @@
       <a href="../Tools_Imputation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Imputation
+  
+
     
   </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mediation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mediation
+  
+
+    
+  </span>
+  
   
 
       </a>
@@ -1796,10 +1136,16 @@
       <a href="../Tools_Mendelian_randomization/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Mendelian_randomization
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1818,10 +1164,16 @@
       <a href="../Tools_Meta_and_Multi_triat/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Meta_and_Multi_triat
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1840,148 +1192,19 @@
       <a href="../Tools_Polygenic_risk_scores/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Polygenic_risk_scores
+  
+
     
   </span>
+  
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_20" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_20" id="__nav_6_20_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Population_Genetics
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_20_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_20">
-            <span class="md-nav__icon md-icon"></span>
-            Population_Genetics
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Admixture/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Admixture
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Genealogy/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genealogy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Phylogenetic_tree/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phylogenetic_tree
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Selection/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Selection
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1997,10 +1220,16 @@
       <a href="../Tools_Power_analysis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Power_analysis
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2019,10 +1248,44 @@
       <a href="../Tools_Proteomics/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Proteomics
+  
+
     
   </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Rare_disease/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rare_disease
+  
+
+    
+  </span>
+  
   
 
       </a>
@@ -2041,10 +1304,16 @@
       <a href="../Tools_Simulation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Simulation
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2070,10 +1339,16 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
+    
+  
     Tissue_and_single_cell
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -2082,10 +1357,16 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Tissue_and_single_cell
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2106,133 +1387,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#coconet" class="md-nav__link">
-    <span class="md-ellipsis">
-      CoCoNet
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#epic" class="md-nav__link">
-    <span class="md-ellipsis">
-      EPIC
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ldsc-seg" class="md-nav__link">
-    <span class="md-ellipsis">
-      LDSC-SEG
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#magma" class="md-nav__link">
-    <span class="md-ellipsis">
-      MAGMA
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rolypoly" class="md-nav__link">
-    <span class="md-ellipsis">
-      RolyPoly
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scarlink" class="md-nav__link">
-    <span class="md-ellipsis">
-      SCARlink
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scavenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      SCAVENGE
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scent" class="md-nav__link">
-    <span class="md-ellipsis">
-      SCENT
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tcsc" class="md-nav__link">
-    <span class="md-ellipsis">
-      TCSC
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gsmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      gsMap
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pgboost" class="md-nav__link">
-    <span class="md-ellipsis">
-      pgBoost
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sc-linker" class="md-nav__link">
-    <span class="md-ellipsis">
-      sc-linker
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scdrs" class="md-nav__link">
-    <span class="md-ellipsis">
-      scDRS
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scgwas" class="md-nav__link">
-    <span class="md-ellipsis">
-      scGWAS
     </span>
   </a>
   
@@ -2256,192 +1413,43 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_25" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6_25" id="__nav_6_25_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Tools_Visualization_Chromosome/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
     Visualization
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_25_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_25">
-            <span class="md-nav__icon md-icon"></span>
-            Visualization
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Chromosome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chromosome
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Forest_plot/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Forest_plot
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_GWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Heatmap/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heatmap
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_UpSet_plots/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    UpSet_plots
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Variants_on_protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variants_on_protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -2458,10 +1466,16 @@
       <a href="../Tools_Winners_curse/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Winners_curse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2477,6 +1491,312 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Coding/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coding
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Population_Genetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Population Genetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../References/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Single_Cell/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_Cell
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../AI/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -2484,6 +1804,8 @@
               </div>
             
             
+              
+                
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
@@ -2504,133 +1826,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#coconet" class="md-nav__link">
-    <span class="md-ellipsis">
-      CoCoNet
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#epic" class="md-nav__link">
-    <span class="md-ellipsis">
-      EPIC
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ldsc-seg" class="md-nav__link">
-    <span class="md-ellipsis">
-      LDSC-SEG
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#magma" class="md-nav__link">
-    <span class="md-ellipsis">
-      MAGMA
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#rolypoly" class="md-nav__link">
-    <span class="md-ellipsis">
-      RolyPoly
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scarlink" class="md-nav__link">
-    <span class="md-ellipsis">
-      SCARlink
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scavenge" class="md-nav__link">
-    <span class="md-ellipsis">
-      SCAVENGE
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scent" class="md-nav__link">
-    <span class="md-ellipsis">
-      SCENT
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tcsc" class="md-nav__link">
-    <span class="md-ellipsis">
-      TCSC
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gsmap" class="md-nav__link">
-    <span class="md-ellipsis">
-      gsMap
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pgboost" class="md-nav__link">
-    <span class="md-ellipsis">
-      pgBoost
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sc-linker" class="md-nav__link">
-    <span class="md-ellipsis">
-      sc-linker
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scdrs" class="md-nav__link">
-    <span class="md-ellipsis">
-      scDRS
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#scgwas" class="md-nav__link">
-    <span class="md-ellipsis">
-      scGWAS
     </span>
   </a>
   
@@ -2645,287 +1843,1073 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
+  <div class="md-content" data-md-component="content">
+    
+      
+
+  
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Tools/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    GWAS Tools
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+    
+    
+    
+      
+        
+      
+    
+    <article class="md-content__inner md-typeset catalog-section-Tools">
+      
+        
+  
+
+
+  <nav class="md-tags" hidden>
+    
+      
+      
+      
+      
+        <span class="md-tag">GWAS</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Gene prioritization</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Single cell</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">Tool</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">scRNA-seq</span>
+      
+    
+  </nav>
 
 
 
   <h1>Tissue_and_single_cell</h1>
 
+<div class="catalog-nav-lead">
+<p>Curation of <strong>Tissue and single cell</strong> — listings under the <strong>GWAS Tools</strong> tab.</p>
+</div>
 <h2 id="summary-table">Summary Table</h2>
+<p><em>Click a column header to sort the table.</em></p>
+<div class="catalog-summary-table">
+
+
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">NAME</th>
-<th style="text-align: left;">CITATION</th>
-<th style="text-align: left;">YEAR</th>
+<th>NAME</th>
+<th>Main citation</th>
+<th>YEAR</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a href="#coconet">CoCoNet</a></td>
-<td style="text-align: left;">Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies PLoS Genet., 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941</td>
-<td style="text-align: left;">2020</td>
+<td><a href="#coconet">CoCoNet</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies. PLoS Genet, 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941">Shang L et al., PLoS Genet, 2020</div></td>
+<td>2020</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#epic">EPIC</a></td>
-<td style="text-align: left;">Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing PLoS Genet., 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291</td>
-<td style="text-align: left;">2022</td>
+<td><a href="#epic">EPIC</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS Genet, 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291">Wang R et al., PLoS Genet, 2022</div></td>
+<td>2022</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#ldsc-seg">LDSC-SEG</a></td>
-<td style="text-align: left;">Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&amp;, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types Nat. Genet., 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380</td>
-<td style="text-align: left;">2018</td>
+<td><a href="#ldsc-seg">LDSC-SEG</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&amp;, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types. Nat Genet, 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380">Finucane HK et al., Nat Genet, 2018</div></td>
+<td>2018</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#magma">MAGMA</a></td>
-<td style="text-align: left;">de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data PLoS Comput. Biol., 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710</td>
-<td style="text-align: left;">2015</td>
+<td><a href="#magma">MAGMA</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data. PLoS Comput Biol, 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710">de Leeuw CA et al., PLoS Comput Biol, 2015</div></td>
+<td>2015</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#rolypoly">RolyPoly</a></td>
-<td style="text-align: left;">Calderon D, Bhaskar A, Knowles DA, Golan D, ...&amp;, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression Am. J. Hum. Genet., 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824</td>
-<td style="text-align: left;">2017</td>
+<td><a href="#rolypoly">RolyPoly</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Calderon D, Bhaskar A, Knowles DA, Golan D, ...&amp;, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression. Am J Hum Genet, 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824">Calderon D et al., Am J Hum Genet, 2017</div></td>
+<td>2017</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#scarlink">SCARlink</a></td>
-<td style="text-align: left;">Mitra S, Malik R, Wong W, Rahman A, ...&amp;, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis Nat. Genet.,  () . doi:10.1038/s41588-024-01689-8. PMID 38514783</td>
-<td style="text-align: left;">2024</td>
+<td><a href="#scarlink">SCARlink</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Mitra S, Malik R, Wong W, Rahman A, ...&amp;, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis. Nat Genet, 56 (4) 627-636. doi:10.1038/s41588-024-01689-8. PMID 38514783">Mitra S et al., Nat Genet, 2024</div></td>
+<td>2024</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#scavenge">SCAVENGE</a></td>
-<td style="text-align: left;">Yu F, Cato LD, Weng C, Liggett LA, ...&amp;, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation Nat. Biotechnol., 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323</td>
-<td style="text-align: left;">2022</td>
+<td><a href="#scavenge">SCAVENGE</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Yu F, Cato LD, Weng C, Liggett LA, ...&amp;, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol, 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323">Yu F et al., Nat Biotechnol, 2022</div></td>
+<td>2022</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#scent">SCENT</a></td>
-<td style="text-align: left;">Sakaue S, Weinand K, Isaac S, Dey KK, ...&amp;, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles Nat. Genet., 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305</td>
-<td style="text-align: left;">2024</td>
+<td><a href="#scent">SCENT</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Sakaue S, Weinand K, Isaac S, Dey KK, ...&amp;, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles. Nat Genet, 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305">Sakaue S et al., Nat Genet, 2024</div></td>
+<td>2024</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#tcsc">TCSC</a></td>
-<td style="text-align: left;">Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease Nat. Genet., 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597</td>
-<td style="text-align: left;">2023</td>
+<td><a href="#tcsc">TCSC</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease. Nat Genet, 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597">Amariuta T et al., Nat Genet, 2023</div></td>
+<td>2023</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#gsmap">gsMap</a></td>
-<td style="text-align: left;">Song, L., Chen, W., Hou, J., Guo, M. &amp; Yang, J. Spatially resolved mapping of cells associated with human complex traits. Nature 1–10 (2025).</td>
-<td style="text-align: left;">NA</td>
+<td><a href="#celladmix">cellAdmix</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Mitchel J, Gao T, Petukhov V, Cole E, ...&amp;, Kharchenko PV. (2026) Impact and correction of segmentation errors in spatial transcriptomics. Nat Genet, 58 (2) 434-444. doi:10.1038/s41588-025-02497-4. PMID 41559218">Mitchel J et al., Nat Genet, 2026</div></td>
+<td>2026</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#pgboost">pgBoost</a></td>
-<td style="text-align: left;">Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05.</td>
-<td style="text-align: left;">NA</td>
+<td><a href="#gsmap">gsMap</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Song L, Chen W, Hou J, Guo M, ...&amp;, Yang J. (2025) Spatially resolved mapping of cells associated with human complex traits. Nature, 641 (8064) 932-941. doi:10.1038/s41586-025-08757-x. PMID 40108460">Song L et al., Nature, 2025</div></td>
+<td>2025</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#sc-linker">sc-linker</a></td>
-<td style="text-align: left;">Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&amp;, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics Nat. Genet., 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791</td>
-<td style="text-align: left;">2022</td>
+<td><a href="#pgboost">pgBoost</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05.">Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by…</div></td>
+<td>NA</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#scdrs">scDRS</a></td>
-<td style="text-align: left;">Zhang MJ, Hou K, Dey KK, Sakaue S, ...&amp;, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data Nat. Genet., 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550</td>
-<td style="text-align: left;">2022</td>
+<td><a href="#sc-linker">sc-linker</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&amp;, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics. Nat Genet, 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791">Jagadeesh KA et al., Nat Genet, 2022</div></td>
+<td>2022</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#scgwas">scGWAS</a></td>
-<td style="text-align: left;">Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies Genome Biol., 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801</td>
-<td style="text-align: left;">2022</td>
+<td><a href="#scdrs">scDRS</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Zhang MJ, Hou K, Dey KK, Sakaue S, ...&amp;, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data. Nat Genet, 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550">Zhang MJ et al., Nat Genet, 2022</div></td>
+<td>2022</td>
+</tr>
+<tr>
+<td><a href="#scgwas">scGWAS</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies. Genome Biol, 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801">Jia P et al., Genome Biol, 2022</div></td>
+<td>2022</td>
+</tr>
+<tr>
+<td><a href="#scpagwas">scPagwas</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Ma Y, Deng C, Zhou Y, Zhang Y, ...&amp;, Su J. (2023) Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data. Cell Genom, 3 (9) 100383. doi:10.1016/j.xgen.2023.100383. PMID 37719150">Ma Y et al., Cell Genom, 2023</div></td>
+<td>2023</td>
+</tr>
+<tr>
+<td><a href="#seismic">seismic</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Lai Q, Dannenfelser R, Roussarie JP, Yao V. (2025) Disentangling associations between complex traits and cell types with seismic. Nat Commun, 16 (1) 8744. doi:10.1038/s41467-025-63753-z. PMID 41034207">Lai Q et al., Nat Commun, 2025</div></td>
+<td>2025</td>
 </tr>
 </tbody>
 </table>
-<h2 id="coconet">CoCoNet</h2>
-<ul>
-<li><strong>NAME</strong> : CoCoNet </li>
-<li><strong>SHORT NAME</strong> : CoCoNet </li>
-<li><strong>URL</strong> : <a href="https://xiangzhou.github.io/software/">https://xiangzhou.github.io/software/</a> </li>
-<li><strong>FULL NAME</strong> : CoCoNet </li>
-<li><strong>KEYWORDS</strong> : composite likelihood-based inference algorithm </li>
-<li><strong>DESCRIPTION</strong> : CoCoNet is a composite likelihood-based covariance regression network model for identifying trait-relevant tissues or cell types. </li>
-<li><strong>TITLE</strong> : Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies </li>
-<li><strong>ABSTRACT</strong> : Genome-wide association studies (GWASs) have identified many SNPs associated with various common diseases. Understanding the biological functions of these identified SNP associations requires identifying disease/trait relevant tissues or cell types. Here, we develop a network method, CoCoNet, to facilitate the identification of trait-relevant tissues or cell types. Different from existing approaches, CoCoNet incorporates tissue-specific gene co-expression networks constructed from either bulk or single cell RNA sequencing (RNAseq) studies with GWAS data for trait-tissue inference. In particular, CoCoNet relies on a covariance regression network model to express gene-level effect measurements for the given GWAS trait as a function of the tissue-specific co-expression adjacency matrix. With a composite likelihood-based inference algorithm, CoCoNet is scalable to tens of thousands of genes. We validate the performance of CoCoNet through extensive simulations. We apply CoCoNet for an in-depth analysis of four neurological disorders and four autoimmune diseases, where we integrate the corresponding GWASs with bulk RNAseq data from 38 tissues and single cell RNAseq data from 10 cell types. In the real data applications, we show how CoCoNet can help identify specific glial cell types relevant for neurological disorders and identify disease-targeted colon tissues as relevant for autoimmune diseases. </li>
-<li><strong>CITATION</strong> : Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies PLoS Genet., 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941 </li>
-<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2020 ; 16 ; 4 ; e1008734 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32310941">32310941</a> </li>
-</ul>
-<h2 id="epic">EPIC</h2>
-<ul>
-<li><strong>NAME</strong> : EPIC </li>
-<li><strong>SHORT NAME</strong> : EPIC </li>
-<li><strong>URL</strong> : <a href="https://github.com/rujinwang/EPIC">https://github.com/rujinwang/EPIC</a> </li>
-<li><strong>FULL NAME</strong> : cEll tyPe enrIChment </li>
-<li><strong>KEYWORDS</strong> : GWAS, scRNA-seq </li>
-<li><strong>DESCRIPTION</strong> : Inferring relevant tissues and cell types for complex traits in genome-wide association studies </li>
-<li><strong>TITLE</strong> : EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing </li>
-<li><strong>ABSTRACT</strong> : More than a decade of genome-wide association studies (GWASs) have identified genetic risk variants that are significantly associated with complex traits. Emerging evidence suggests that the function of trait-associated variants likely acts in a tissue- or cell-type-specific fashion. Yet, it remains challenging to prioritize trait-relevant tissues or cell types to elucidate disease etiology. Here, we present EPIC (cEll tyPe enrIChment), a statistical framework that relates large-scale GWAS summary statistics to cell-type-specific gene expression measurements from single-cell RNA sequencing (scRNA-seq). We derive powerful gene-level test statistics for common and rare variants, separately and jointly, and adopt generalized least squares to prioritize trait-relevant cell types while accounting for the correlation structures both within and between genes. Using enrichment of loci associated with four lipid traits in the liver and enrichment of loci associated with three neurological disorders in the brain as ground truths, we show that EPIC outperforms existing methods. We apply our framework to multiple scRNA-seq datasets from different platforms and identify cell types underlying type 2 diabetes and schizophrenia. The enrichment is replicated using independent GWAS and scRNA-seq datasets and further validated using PubMed search and existing bulk case-control testing results. </li>
-<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
-<li><strong>CITATION</strong> : Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing PLoS Genet., 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291 </li>
-<li><strong>JOURNAL_INFO</strong> : PLoS genetics ; PLoS Genet. ; 2022 ; 18 ; 6 ; e1010251 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35709291">35709291</a> </li>
-</ul>
-<h2 id="ldsc-seg">LDSC-SEG</h2>
-<ul>
-<li><strong>NAME</strong> : LDSC-SEG </li>
-<li><strong>SHORT NAME</strong> : LDSC-SEG </li>
-<li><strong>URL</strong> : <a href="https://github.com/bulik/ldsc">https://github.com/bulik/ldsc</a> </li>
-<li><strong>FULL NAME</strong> : LD score regression applied to specifically expressed genes </li>
-<li><strong>KEYWORDS</strong> : LDSC, tissue, cell type </li>
-<li><strong>TITLE</strong> : Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types </li>
-<li><strong>ABSTRACT</strong> : We introduce an approach to identify disease-relevant tissues and cell types by analyzing gene expression data together with genome-wide association study (GWAS) summary statistics. Our approach uses stratified linkage disequilibrium (LD) score regression to test whether disease heritability is enriched in regions surrounding genes with the highest specific expression in a given tissue. We applied our approach to gene expression data from several sources together with GWAS summary statistics for 48 diseases and traits (average N = 169,331) and found significant tissue-specific enrichments (false discovery rate (FDR) &lt; 5%) for 34 traits. In our analysis of multiple tissues, we detected a broad range of enrichments that recapitulated known biology. In our brain-specific analysis, significant enrichments included an enrichment of inhibitory over excitatory neurons for bipolar disorder, and excitatory over inhibitory neurons for schizophrenia and body mass index. Our results demonstrate that our polygenic approach is a powerful way to leverage gene expression data for interpreting GWAS signals. </li>
-<li><strong>CITATION</strong> : Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&amp;, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types Nat. Genet., 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2018 ; 50 ; 4 ; 621-629 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/29632380">29632380</a> </li>
-</ul>
-<h2 id="magma">MAGMA</h2>
-<ul>
-<li><strong>NAME</strong> : MAGMA </li>
-<li><strong>SHORT NAME</strong> : MAGMA </li>
-<li><strong>URL</strong> : <a href="https://ctg.cncr.nl/software/magma">https://ctg.cncr.nl/software/magma</a> </li>
-<li><strong>FULL NAME</strong> : Multi-marker Analysis of GenoMic Annotation </li>
-<li><strong>TITLE</strong> : MAGMA: generalized gene-set analysis of GWAS data </li>
-<li><strong>ABSTRACT</strong> : By aggregating data for complex traits in a biologically meaningful way, gene and gene-set analysis constitute a valuable addition to single-marker analysis. However, although various methods for gene and gene-set analysis currently exist, they generally suffer from a number of issues. Statistical power for most methods is strongly affected by linkage disequilibrium between markers, multi-marker associations are often hard to detect, and the reliance on permutation to compute p-values tends to make the analysis computationally very expensive. To address these issues we have developed MAGMA, a novel tool for gene and gene-set analysis. The gene analysis is based on a multiple regression model, to provide better statistical performance. The gene-set analysis is built as a separate layer around the gene analysis for additional flexibility. This gene-set analysis also uses a regression structure to allow generalization to analysis of continuous properties of genes and simultaneous analysis of multiple gene sets and other gene properties. Simulations and an analysis of Crohn's Disease data are used to evaluate the performance of MAGMA and to compare it to a number of other gene and gene-set analysis tools. The results show that MAGMA has significantly more power than other tools for both the gene and the gene-set analysis, identifying more genes and gene sets associated with Crohn's Disease while maintaining a correct type 1 error rate. Moreover, the MAGMA analysis of the Crohn's Disease data was found to be considerably faster as well. </li>
-<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by/4.0/ </li>
-<li><strong>CITATION</strong> : de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data PLoS Comput. Biol., 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710 </li>
-<li><strong>JOURNAL_INFO</strong> : PLoS computational biology ; PLoS Comput. Biol. ; 2015 ; 11 ; 4 ; e1004219 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/25885710">25885710</a> </li>
-</ul>
-<h2 id="rolypoly">RolyPoly</h2>
-<ul>
-<li><strong>NAME</strong> : RolyPoly </li>
-<li><strong>SHORT NAME</strong> : RolyPoly </li>
-<li><strong>URL</strong> : <a href="https://github.com/dcalderon/rolypoly">https://github.com/dcalderon/rolypoly</a> </li>
-<li><strong>FULL NAME</strong> : RolyPoly </li>
-<li><strong>DESCRIPTION</strong> : RolyPoly is a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data. </li>
-<li><strong>TITLE</strong> : Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression </li>
-<li><strong>ABSTRACT</strong> : Previous studies have prioritized trait-relevant cell types by looking for an enrichment of genome-wide association study (GWAS) signal within functional regions. However, these studies are limited in cell resolution by the lack of functional annotations from difficult-to-characterize or rare cell populations. Measurement of single-cell gene expression has become a popular method for characterizing novel cell types, and yet limited work has linked single-cell RNA sequencing (RNA-seq) to phenotypes of interest. To address this deficiency, we present RolyPoly, a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data. RolyPoly is designed to use expression data from either bulk tissue or single-cell RNA-seq. In this study, we demonstrated RolyPoly's accuracy through simulation and validated previously known tissue-trait associations. We discovered a significant association between microglia and late-onset Alzheimer disease and an association between schizophrenia and oligodendrocytes and replicating fetal cortical cells. Additionally, RolyPoly computes a trait-relevance score for each gene to reflect the importance of expression specific to a cell type. We found that differentially expressed genes in the prefrontal cortex of individuals with Alzheimer disease were significantly enriched with genes ranked highly by RolyPoly gene scores. Overall, our method represents a powerful framework for understanding the effect of common variants on cell types contributing to complex traits. </li>
-<li><strong>CITATION</strong> : Calderon D, Bhaskar A, Knowles DA, Golan D, ...&amp;, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression Am. J. Hum. Genet., 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824 </li>
-<li><strong>JOURNAL_INFO</strong> : American journal of human genetics ; Am. J. Hum. Genet. ; 2017 ; 101 ; 5 ; 686-699 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/29106824">29106824</a> </li>
-</ul>
-<h2 id="scarlink">SCARlink</h2>
-<ul>
-<li><strong>NAME</strong> : SCARlink </li>
-<li><strong>SHORT NAME</strong> : SCARlink </li>
-<li><strong>URL</strong> : <a href="https://github.com/snehamitra/SCARlink/">https://github.com/snehamitra/SCARlink/</a> </li>
-<li><strong>FULL NAME</strong> : single-cell ATAC + RNA linking </li>
-<li><strong>KEYWORDS</strong> : Possion regression, scATAC, scRNA, tile-level accessibility </li>
-<li><strong>DESCRIPTION</strong> : Single-cell ATAC+RNA linking (SCARlink) uses multiomic single-cell ATAC and RNA to predict gene expression from chromatin accessibility and predict regulatory regions. </li>
-<li><strong>ARROW_SUMMARY</strong> : scRNA-seq + scATAC-seq → Tile-level chromatin accessibility modeling → Regularized Poisson regression (SCARlink) → Predict gene expression &amp; link enhancers to genes → Identify functional and disease-associated enhancers </li>
-<li><strong>TITLE</strong> : Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis </li>
-<li><strong>ABSTRACT</strong> : We present a gene-level regulatory model, single-cell ATAC + RNA linking (SCARlink), which predicts single-cell gene expression and links enhancers to target genes using multi-ome (scRNA-seq and scATAC-seq co-assay) sequencing data. The approach uses regularized Poisson regression on tile-level accessibility data to jointly model all regulatory effects at a gene locus, avoiding the limitations of pairwise gene-peak correlations and dependence on peak calling. SCARlink outperformed existing gene scoring methods for imputing gene expression from chromatin accessibility across high-coverage multi-ome datasets while giving comparable to improved performance on low-coverage datasets. Shapley value analysis on trained models identified cell-type-specific gene enhancers that are validated by promoter capture Hi-C and are 11× to 15× and 5× to 12× enriched in fine-mapped eQTLs and fine-mapped genome-wide association study (GWAS) variants, respectively. We further show that SCARlink-predicted and observed gene expression vectors provide a robust way to compute a chromatin potential vector field to enable developmental trajectory analysis. </li>
-<li><strong>CITATION</strong> : Mitra S, Malik R, Wong W, Rahman A, ...&amp;, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis Nat. Genet.,  () . doi:10.1038/s41588-024-01689-8. PMID 38514783 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; <NA> ; <NA> ; <NA> </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38514783">38514783</a> </li>
-</ul>
-<h2 id="scavenge">SCAVENGE</h2>
-<ul>
-<li><strong>NAME</strong> : SCAVENGE </li>
-<li><strong>SHORT NAME</strong> : SCAVENGE </li>
-<li><strong>URL</strong> : <a href="https://github.com/sankaranlab/SCAVENGE">https://github.com/sankaranlab/SCAVENGE</a> </li>
-<li><strong>FULL NAME</strong> : Single Cell Analysis of Variant Enrichment through Network propagation of GEnomic data </li>
-<li><strong>KEYWORDS</strong> : GWAS, scATAC, network propagation </li>
-<li><strong>TITLE</strong> : Variant to function mapping at single-cell resolution through network propagation </li>
-<li><strong>ABSTRACT</strong> : Genome-wide association studies in combination with single-cell genomic atlases can provide insights into the mechanisms of disease-causal genetic variation. However, identification of disease-relevant or trait-relevant cell types, states and trajectories is often hampered by sparsity and noise, particularly in the analysis of single-cell epigenomic data. To overcome these challenges, we present SCAVENGE, a computational algorithm that uses network propagation to map causal variants to their relevant cellular context at single-cell resolution. We demonstrate how SCAVENGE can help identify key biological mechanisms underlying human genetic variation, applying the method to blood traits at distinct stages of human hematopoiesis, to monocyte subsets that increase the risk for severe Coronavirus Disease 2019 (COVID-19) and to intermediate lymphocyte developmental states that predispose to acute leukemia. Our approach not only provides a framework for enabling variant-to-function insights at single-cell resolution but also suggests a more general strategy for maximizing the inferences that can be made using single-cell genomic data. </li>
-<li><strong>CITATION</strong> : Yu F, Cato LD, Weng C, Liggett LA, ...&amp;, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation Nat. Biotechnol., 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature biotechnology ; Nat. Biotechnol. ; 2022 ; 40 ; 11 ; 1644-1653 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/35668323">35668323</a> </li>
-</ul>
-<h2 id="scent">SCENT</h2>
-<ul>
-<li><strong>NAME</strong> : SCENT </li>
-<li><strong>SHORT NAME</strong> : SCENT </li>
-<li><strong>URL</strong> : <a href="https://github.com/immunogenomics/SCENT">https://github.com/immunogenomics/SCENT</a> </li>
-<li><strong>FULL NAME</strong> : single-cell enhancer target gene mapping </li>
-<li><strong>KEYWORDS</strong> : Possion regression, scATAC-seq, scRNA-seq </li>
-<li><strong>DESCRIPTION</strong> : SCENT uses single-cell multimodal data (e.g., 10X Multiome RNA/ATAC) and links ATAC-seq peaks (putative enhancers) to their target genes by modeling association between chromatin accessibility and gene expression across individual single cells. </li>
-<li><strong>ARROW_SUMMARY</strong> : Extract chromatin accessibility (ATAC-seq) &amp; gene expression (RNA-seq) from single cells → Group cells by type → For each gene, define candidate enhancers within 1 Mb → Use distance-weighted non-parametric regression to model enhancer–gene associations → Assess significance via permutation testing → Build enhancer–gene links per cell type </li>
-<li><strong>TITLE</strong> : Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles </li>
-<li><strong>ABSTRACT</strong> : Translating genome-wide association study (GWAS) loci into causal variants and genes requires accurate cell-type-specific enhancer-gene maps from disease-relevant tissues. Building enhancer-gene maps is essential but challenging with current experimental methods in primary human tissues. Here we developed a nonparametric statistical method, SCENT (single-cell enhancer target gene mapping), that models association between enhancer chromatin accessibility and gene expression in single-cell or nucleus multimodal RNA sequencing and ATAC sequencing data. We applied SCENT to 9 multimodal datasets including &gt;120,000 single cells or nuclei and created 23 cell-type-specific enhancer-gene maps. These maps were highly enriched for causal variants in expression quantitative loci and GWAS for 1,143 diseases and traits. We identified likely causal genes for both common and rare diseases and linked somatic mutation hotspots to target genes. We demonstrate that application of SCENT to multimodal data from disease-relevant human tissue enables the scalable construction of accurate cell-type-specific enhancer-gene maps, essential for defining noncoding variant function. </li>
-<li><strong>CITATION</strong> : Sakaue S, Weinand K, Isaac S, Dey KK, ...&amp;, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles Nat. Genet., 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2024 ; 56 ; 4 ; 615-626 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/38594305">38594305</a> </li>
-</ul>
-<h2 id="tcsc">TCSC</h2>
-<ul>
-<li><strong>NAME</strong> : TCSC </li>
-<li><strong>SHORT NAME</strong> : TCSC </li>
-<li><strong>URL</strong> : <a href="https://github.com/TiffanyAmariuta/TCSC/">https://github.com/TiffanyAmariuta/TCSC/</a> </li>
-<li><strong>FULL NAME</strong> : Tissue co-regulation score regression </li>
-<li><strong>DESCRIPTION</strong> : TCSC is a statistical genetics method to identify causal tissues in diseases and complex traits. We leverage TWAS and GWAS summary statistics while explicitly modeling the genetic co-regulation of genes across tissues. </li>
-<li><strong>TITLE</strong> : Modeling tissue co-regulation estimates tissue-specific contributions to disease </li>
-<li><strong>ABSTRACT</strong> : Integrative analyses of genome-wide association studies and gene expression data have implicated many disease-critical tissues. However, co-regulation of genetic effects on gene expression across tissues impedes distinguishing biologically causal tissues from tagging tissues. In the present study, we introduce tissue co-regulation score regression (TCSC), which disentangles causal tissues from tagging tissues by regressing gene-disease association statistics (from transcriptome-wide association studies) on tissue co-regulation scores, reflecting correlations of predicted gene expression across genes and tissues. We applied TCSC to 78 diseases/traits (average n = 302,000) and gene expression prediction models for 48 GTEx tissues. TCSC identified 21 causal tissue-trait pairs at a 5% false discovery rate (FDR), including well-established findings, biologically plausible new findings (for example, aorta artery and glaucoma) and increased specificity of known tissue-trait associations (for example, subcutaneous adipose, but not visceral adipose, and high-density lipoprotein). TCSC also identified 17 causal tissue-trait covariance pairs at 5% FDR. In conclusion, TCSC is a precise method for distinguishing causal tissues from tagging tissues. </li>
-<li><strong>CITATION</strong> : Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease Nat. Genet., 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2023 ; 55 ; 9 ; 1503-1511 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/37580597">37580597</a> </li>
-</ul>
-<h2 id="gsmap">gsMap</h2>
-<ul>
-<li><strong>NAME</strong> : gsMap </li>
-<li><strong>SHORT NAME</strong> : gsMap </li>
-<li><strong>URL</strong> : <a href="https://github.com/JianYang-Lab/gsMap">https://github.com/JianYang-Lab/gsMap</a> </li>
-<li><strong>FULL NAME</strong> : genetically informed spatial mapping of cells for complex traits </li>
-<li><strong>KEYWORDS</strong> : spatial transciptomics </li>
-<li><strong>DESCRIPTION</strong> : gsMap (genetically informed spatial mapping of cells for complex traits) integrates spatial transcriptomics (ST) data with genome-wide association study (GWAS) summary statistics to map cells to human complex traits, including diseases, in a spatially resolved manner. </li>
-<li><strong>ARROW_SUMMARY</strong> : Spatial transcriptomics data + GWAS summary statistics → Graph Neural Network identifies homogeneous spatial domains → Compute Gene Specificity Scores (GSS) for each spot → Map GSS to nearby SNPs → Perform Stratified LD Score Regression (S-LDSC) to assess trait heritability enrichment → Aggregate spot-level p-values using the Cauchy Combination Test to identify trait-associated spatial regions </li>
-<li><strong>CITATION</strong> : Song, L., Chen, W., Hou, J., Guo, M. &amp; Yang, J. Spatially resolved mapping of cells associated with human complex traits. Nature 1–10 (2025). </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/40108460">40108460</a> </li>
-</ul>
-<h2 id="pgboost">pgBoost</h2>
-<ul>
-<li><strong>NAME</strong> : pgBoost </li>
-<li><strong>SHORT NAME</strong> : pgBoost </li>
-<li><strong>URL</strong> : <a href="https://github.com/elizabethdorans/pgBoost">https://github.com/elizabethdorans/pgBoost</a> </li>
-<li><strong>FULL NAME</strong> : pgBoost </li>
-<li><strong>KEYWORDS</strong> : eQTL-informed gradient boosting </li>
-<li><strong>PREPRINT_DOI</strong> : 10.1101/2024.05.24.24307813 </li>
-<li><strong>DESCRIPTION</strong> : pgBoost is an integrative modeling framework that trains a non-linear combination of existing linking strategies (including genomic distance) on fine-mapped eQTL data to assign a probabilistic score to each candidate SNP-gene link. </li>
-<li><strong>CITATION</strong> : Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05. </li>
-</ul>
-<h2 id="sc-linker">sc-linker</h2>
-<ul>
-<li><strong>NAME</strong> : sc-linker </li>
-<li><strong>SHORT NAME</strong> : sc-linker </li>
-<li><strong>URL</strong> : <a href="https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker">https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker</a> </li>
-<li><strong>FULL NAME</strong> : sc-linker </li>
-<li><strong>KEYWORDS</strong> : GWAS, scRNA-seq </li>
-<li><strong>DESCRIPTION</strong> : a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease </li>
-<li><strong>ARROW_SUMMARY</strong> : scRNA-seq data →️ Derive cell-type-specific gene programs →️ Map SNPs to genes using epigenomic data →️ Integrate with GWAS summary statistics →️ Identify disease-critical cell types and processes </li>
-<li><strong>TITLE</strong> : Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics </li>
-<li><strong>ABSTRACT</strong> : Genome-wide association studies provide a powerful means of identifying loci and genes contributing to disease, but in many cases, the related cell types/states through which genes confer disease risk remain unknown. Deciphering such relationships is important for identifying pathogenic processes and developing therapeutics. In the present study, we introduce sc-linker, a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease. The inferred disease enrichments recapitulated known biology and highlighted notable cell-disease relationships, including γ-aminobutyric acid-ergic neurons in major depressive disorder, a disease-dependent M-cell program in ulcerative colitis and a disease-specific complement cascade process in multiple sclerosis. In autoimmune disease, both healthy and disease-dependent immune cell-type programs were associated, whereas only disease-dependent epithelial cell programs were prominent, suggesting a role in disease response rather than initiation. Our framework provides a powerful approach for identifying the cell types and cellular processes by which genetic variants influence disease. </li>
-<li><strong>CITATION</strong> : Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&amp;, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics Nat. Genet., 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 10 ; 1479-1492 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36175791">36175791</a> </li>
-</ul>
-<h2 id="scdrs">scDRS</h2>
-<ul>
-<li><strong>NAME</strong> : scDRS </li>
-<li><strong>SHORT NAME</strong> : scDRS </li>
-<li><strong>URL</strong> : <a href="https://github.com/martinjzhang/scDRS">https://github.com/martinjzhang/scDRS</a> </li>
-<li><strong>FULL NAME</strong> : single-cell Disease Relevance Score </li>
-<li><strong>KEYWORDS</strong> : GWAS, scRNA-seq </li>
-<li><strong>DESCRIPTION</strong> : an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types </li>
-<li><strong>ARROW_SUMMARY</strong> : GWAS summary statistics → Select putative disease genes via MAGMA → Compute scDRS using Monte Carlo-based score aggregation → Normalize with control gene sets → Rank cells by disease relevance → Identify enriched subpopulations and co-expressed gene networks </li>
-<li><strong>TITLE</strong> : Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data </li>
-<li><strong>ABSTRACT</strong> : Single-cell RNA sequencing (scRNA-seq) provides unique insights into the pathology and cellular origin of disease. We introduce single-cell disease relevance score (scDRS), an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types. scDRS identifies cells exhibiting excess expression across disease-associated genes implicated by genome-wide association studies (GWASs). We applied scDRS to 74 diseases/traits and 1.3 million single-cell gene-expression profiles across 31 tissues/organs. Cell-type-level results broadly recapitulated known cell-type-disease associations. Individual-cell-level results identified subpopulations of disease-associated cells not captured by existing cell-type labels, including T cell subpopulations associated with inflammatory bowel disease, partially characterized by their effector-like states; neuron subpopulations associated with schizophrenia, partially characterized by their spatial locations; and hepatocyte subpopulations associated with triglyceride levels, partially characterized by their higher ploidy levels. Genes whose expression was correlated with the scDRS score across cells (reflecting coexpression with GWAS disease-associated genes) were strongly enriched for gold-standard drug target and Mendelian disease genes. </li>
-<li><strong>CITATION</strong> : Zhang MJ, Hou K, Dey KK, Sakaue S, ...&amp;, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data Nat. Genet., 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2022 ; 54 ; 10 ; 1572-1580 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36050550">36050550</a> </li>
-</ul>
-<h2 id="scgwas">scGWAS</h2>
-<ul>
-<li><strong>NAME</strong> : scGWAS </li>
-<li><strong>SHORT NAME</strong> : scGWAS </li>
-<li><strong>URL</strong> : <a href="https://github.com/bsml320/scGWAS">https://github.com/bsml320/scGWAS</a> </li>
-<li><strong>FULL NAME</strong> : scRNA-seq assisted GWAS analysis </li>
-<li><strong>DESCRIPTION</strong> : scGWAS leverages scRNA-seq data to identify the genetically mediated associations between traits and cell types. </li>
-<li><strong>TITLE</strong> : scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies </li>
-<li><strong>ABSTRACT</strong> : BACKGROUND: The rapid accumulation of single-cell RNA sequencing (scRNA-seq) data presents unique opportunities to decode the genetically mediated cell-type specificity in complex diseases. Here, we develop a new method, scGWAS, which effectively leverages scRNA-seq data to achieve two goals: (1) to infer the cell types in which the disease-associated genes manifest and (2) to construct cellular modules which imply disease-specific activation of different processes. RESULTS: scGWAS only utilizes the average gene expression for each cell type followed by virtual search processes to construct the null distributions of module scores, making it scalable to large scRNA-seq datasets. We demonstrated scGWAS in 40 genome-wide association studies (GWAS) datasets (average sample size N ≈ 154,000) using 18 scRNA-seq datasets from nine major human/mouse tissues (totaling 1.08 million cells) and identified 2533 trait and cell-type associations, each with significant modules for further investigation. The module genes were validated using disease or clinically annotated references from ClinVar, OMIM, and pLI variants. CONCLUSIONS: We showed that the trait-cell type associations identified by scGWAS, while generally constrained to trait-tissue associations, could recapitulate many well-studied relationships and also reveal novel relationships, providing insights into the unsolved trait-tissue associations. Moreover, in each specific cell type, the associations with different traits were often mediated by different sets of risk genes, implying disease-specific activation of driving processes. In summary, scGWAS is a powerful tool for exploring the genetic basis of complex diseases at the cell type level using single-cell expression data. </li>
-<li><strong>CITATION</strong> : Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies Genome Biol., 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801 </li>
-<li><strong>JOURNAL_INFO</strong> : Genome biology ; Genome Biol. ; 2022 ; 23 ; 1 ; 220 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36253801">36253801</a> </li>
-</ul>
+
+
+</div>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="coconet" class="catalog-entry-card__title">CoCoNet</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/32310941">32310941</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">CoCoNet is a composite likelihood-based covariance regression network model for identifying trait-relevant tissues or cell types.</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://xiangzhou.github.io/software/">https://xiangzhou.github.io/software/</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-1" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">composite likelihood-based inference algorithm</div>
+    <label for="catalog-col-keywords-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Shang L, Smith JA, Zhou X. (2020) Leveraging gene co-expression patterns to infer trait-relevant tissues in genome-wide association studies. PLoS Genet, 16 (4) e1008734. doi:10.1371/journal.pgen.1008734. PMID 32310941</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-1" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genome-wide association studies (GWASs) have identified many SNPs associated with various common diseases. Understanding the biological functions of these identified SNP associations requires identifying disease/trait relevant tissues or cell types. Here, we develop a network method, CoCoNet, to facilitate the identification of trait-relevant tissues or cell types. Different from existing approaches, CoCoNet incorporates tissue-specific gene co-expression networks constructed from either bulk or single cell RNA sequencing (RNAseq) studies with GWAS data for trait-tissue inference. In particular, CoCoNet relies on a covariance regression network model to express gene-level effect measurements for the given GWAS trait as a function of the tissue-specific co-expression adjacency matrix. With a composite likelihood-based inference algorithm, CoCoNet is scalable to tens of thousands of genes. We validate the performance of CoCoNet through extensive simulations. We apply CoCoNet for an in-depth analysis of four neurological disorders and four autoimmune diseases, where we integrate the corresponding GWASs with bulk RNAseq data from 38 tissues and single cell RNAseq data from 10 cell types. In the real data applications, we show how CoCoNet can help identify specific glial cell types relevant for neurological disorders and identify disease-targeted colon tissues as relevant for autoimmune diseases.</div>
+    <label for="catalog-col-abstract-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1371/journal.pgen.1008734</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="epic" class="catalog-entry-card__title">EPIC</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35709291">35709291</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">cEll tyPe enrIChment</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Inferring relevant tissues and cell types for complex traits in genome-wide association studies</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/rujinwang/EPIC">https://github.com/rujinwang/EPIC</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-2" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq</div>
+    <label for="catalog-col-keywords-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Wang R, Lin DY, Jiang Y. (2022) EPIC: Inferring relevant cell types for complex traits by integrating genome-wide association studies and single-cell RNA sequencing. PLoS Genet, 18 (6) e1010251. doi:10.1371/journal.pgen.1010251. PMID 35709291</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">More than a decade of genome-wide association studies (GWASs) have identified genetic risk variants that are significantly associated with complex traits. Emerging evidence suggests that the function of trait-associated variants likely acts in a tissue- or cell-type-specific fashion. Yet, it remains challenging to prioritize trait-relevant tissues or cell types to elucidate disease etiology. Here, we present EPIC (cEll tyPe enrIChment), a statistical framework that relates large-scale GWAS summary statistics to cell-type-specific gene expression measurements from single-cell RNA sequencing (scRNA-seq). We derive powerful gene-level test statistics for common and rare variants, separately and jointly, and adopt generalized least squares to prioritize trait-relevant cell types while accounting for the correlation structures both within and between genes. Using enrichment of loci associated with four lipid traits in the liver and enrichment of loci associated with three neurological disorders in the brain as ground truths, we show that EPIC outperforms existing methods. We apply our framework to multiple scRNA-seq datasets from different platforms and identify cell types underlying type 2 diabetes and schizophrenia. The enrichment is replicated using independent GWAS and scRNA-seq datasets and further validated using PubMed search and existing bulk case-control testing results.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1371/journal.pgen.1010251</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="ldsc-seg" class="catalog-entry-card__title">LDSC-SEG</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/29632380">29632380</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">LD score regression applied to specifically expressed genes</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/bulik/ldsc">https://github.com/bulik/ldsc</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-3" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">LDSC, tissue, cell type</div>
+    <label for="catalog-col-keywords-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Finucane HK, Reshef YA, Anttila V, Slowikowski K, ...&amp;, Price AL. (2018) Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types. Nat Genet, 50 (4) 621-629. doi:10.1038/s41588-018-0081-4. PMID 29632380</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">We introduce an approach to identify disease-relevant tissues and cell types by analyzing gene expression data together with genome-wide association study (GWAS) summary statistics. Our approach uses stratified linkage disequilibrium (LD) score regression to test whether disease heritability is enriched in regions surrounding genes with the highest specific expression in a given tissue. We applied our approach to gene expression data from several sources together with GWAS summary statistics for 48 diseases and traits (average N = 169,331) and found significant tissue-specific enrichments (false discovery rate (FDR) &lt; 5%) for 34 traits. In our analysis of multiple tissues, we detected a broad range of enrichments that recapitulated known biology. In our brain-specific analysis, significant enrichments included an enrichment of inhibitory over excitatory neurons for bipolar disorder, and excitatory over inhibitory neurons for schizophrenia and body mass index. Our results demonstrate that our polygenic approach is a powerful way to leverage gene expression data for interpreting GWAS signals.</div>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-018-0081-4</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="magma" class="catalog-entry-card__title">MAGMA</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/25885710">25885710</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Multi-marker Analysis of GenoMic Annotation</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://ctg.cncr.nl/software/magma">https://ctg.cncr.nl/software/magma</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">MAGMA: generalized gene-set analysis of GWAS data.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">de Leeuw CA, Mooij JM, Heskes T, Posthuma D. (2015) MAGMA: generalized gene-set analysis of GWAS data. PLoS Comput Biol, 11 (4) e1004219. doi:10.1371/journal.pcbi.1004219. PMID 25885710</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">By aggregating data for complex traits in a biologically meaningful way, gene and gene-set analysis constitute a valuable addition to single-marker analysis. However, although various methods for gene and gene-set analysis currently exist, they generally suffer from a number of issues. Statistical power for most methods is strongly affected by linkage disequilibrium between markers, multi-marker associations are often hard to detect, and the reliance on permutation to compute p-values tends to make the analysis computationally very expensive. To address these issues we have developed MAGMA, a novel tool for gene and gene-set analysis. The gene analysis is based on a multiple regression model, to provide better statistical performance. The gene-set analysis is built as a separate layer around the gene analysis for additional flexibility. This gene-set analysis also uses a regression structure to allow generalization to analysis of continuous properties of genes and simultaneous analysis of multiple gene sets and other gene properties. Simulations and an analysis of Crohn&#x27;s Disease data are used to evaluate the performance of MAGMA and to compare it to a number of other gene and gene-set analysis tools. The results show that MAGMA has significantly more power than other tools for both the gene and the gene-set analysis, identifying more genes and gene sets associated with Crohn&#x27;s Disease while maintaining a correct type 1 error rate. Moreover, the MAGMA analysis of the Crohn&#x27;s Disease data was found to be considerably faster as well.</div>
+    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1371/journal.pcbi.1004219</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="rolypoly" class="catalog-entry-card__title">RolyPoly</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/29106824">29106824</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">RolyPoly is a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data.</div>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/dcalderon/rolypoly">https://github.com/dcalderon/rolypoly</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Calderon D, Bhaskar A, Knowles DA, Golan D, ...&amp;, Pritchard JK. (2017) Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression. Am J Hum Genet, 101 (5) 686-699. doi:10.1016/j.ajhg.2017.09.009. PMID 29106824</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Previous studies have prioritized trait-relevant cell types by looking for an enrichment of genome-wide association study (GWAS) signal within functional regions. However, these studies are limited in cell resolution by the lack of functional annotations from difficult-to-characterize or rare cell populations. Measurement of single-cell gene expression has become a popular method for characterizing novel cell types, and yet limited work has linked single-cell RNA sequencing (RNA-seq) to phenotypes of interest. To address this deficiency, we present RolyPoly, a regression-based polygenic model that can prioritize trait-relevant cell types and genes from GWAS summary statistics and gene expression data. RolyPoly is designed to use expression data from either bulk tissue or single-cell RNA-seq. In this study, we demonstrated RolyPoly&#x27;s accuracy through simulation and validated previously known tissue-trait associations. We discovered a significant association between microglia and late-onset Alzheimer disease and an association between schizophrenia and oligodendrocytes and replicating fetal cortical cells. Additionally, RolyPoly computes a trait-relevance score for each gene to reflect the importance of expression specific to a cell type. We found that differentially expressed genes in the prefrontal cortex of individuals with Alzheimer disease were significantly enriched with genes ranked highly by RolyPoly gene scores. Overall, our method represents a powerful framework for understanding the effect of common variants on cell types contributing to complex traits.</div>
+    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.ajhg.2017.09.009</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="scarlink" class="catalog-entry-card__title">SCARlink</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/38514783">38514783</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">single-cell ATAC + RNA linking</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Single-cell ATAC+RNA linking (SCARlink) uses multiomic single-cell ATAC and RNA to predict gene expression from chromatin accessibility and predict regulatory regions.</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/snehamitra/SCARlink/">https://github.com/snehamitra/SCARlink/</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-6" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">Possion regression, scATAC, scRNA, tile-level accessibility</div>
+    <label for="catalog-col-keywords-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Mitra S, Malik R, Wong W, Rahman A, ...&amp;, Leslie CS. (2024) Single-cell multi-ome regression models identify functional and disease-associated enhancers and enable chromatin potential analysis. Nat Genet, 56 (4) 627-636. doi:10.1038/s41588-024-01689-8. PMID 38514783</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">We present a gene-level regulatory model, single-cell ATAC + RNA linking (SCARlink), which predicts single-cell gene expression and links enhancers to target genes using multi-ome (scRNA-seq and scATAC-seq co-assay) sequencing data. The approach uses regularized Poisson regression on tile-level accessibility data to jointly model all regulatory effects at a gene locus, avoiding the limitations of pairwise gene-peak correlations and dependence on peak calling. SCARlink outperformed existing gene scoring methods for imputing gene expression from chromatin accessibility across high-coverage multi-ome datasets while giving comparable to improved performance on low-coverage datasets. Shapley value analysis on trained models identified cell-type-specific gene enhancers that are validated by promoter capture Hi-C and are 11× to 15× and 5× to 12× enriched in fine-mapped eQTLs and fine-mapped genome-wide association study (GWAS) variants, respectively. We further show that SCARlink-predicted and observed gene expression vectors provide a robust way to compute a chromatin potential vector field to enable developmental trajectory analysis.</div>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-024-01689-8</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">scRNA-seq + scATAC-seq → Tile-level chromatin accessibility modeling → Regularized Poisson regression (SCARlink) → Predict gene expression &amp; link enhancers to genes → Identify functional and disease-associated enhancers</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="scavenge" class="catalog-entry-card__title">SCAVENGE</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35668323">35668323</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Single Cell Analysis of Variant Enrichment through Network propagation of GEnomic data</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/sankaranlab/SCAVENGE">https://github.com/sankaranlab/SCAVENGE</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-7" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scATAC, network propagation</div>
+    <label for="catalog-col-keywords-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Variant to function mapping at single-cell resolution through network propagation.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Yu F, Cato LD, Weng C, Liggett LA, ...&amp;, Sankaran VG. (2022) Variant to function mapping at single-cell resolution through network propagation. Nat Biotechnol, 40 (11) 1644-1653. doi:10.1038/s41587-022-01341-y. PMID 35668323</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genome-wide association studies in combination with single-cell genomic atlases can provide insights into the mechanisms of disease-causal genetic variation. However, identification of disease-relevant or trait-relevant cell types, states and trajectories is often hampered by sparsity and noise, particularly in the analysis of single-cell epigenomic data. To overcome these challenges, we present SCAVENGE, a computational algorithm that uses network propagation to map causal variants to their relevant cellular context at single-cell resolution. We demonstrate how SCAVENGE can help identify key biological mechanisms underlying human genetic variation, applying the method to blood traits at distinct stages of human hematopoiesis, to monocyte subsets that increase the risk for severe Coronavirus Disease 2019 (COVID-19) and to intermediate lymphocyte developmental states that predispose to acute leukemia. Our approach not only provides a framework for enabling variant-to-function insights at single-cell resolution but also suggests a more general strategy for maximizing the inferences that can be made using single-cell genomic data.</div>
+    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41587-022-01341-y</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="scent" class="catalog-entry-card__title">SCENT</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/38594305">38594305</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">single-cell enhancer target gene mapping</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">SCENT uses single-cell multimodal data (e.g., 10X Multiome RNA/ATAC) and links ATAC-seq peaks (putative enhancers) to their target genes by modeling association between chromatin accessibility and gene expression across individual single cells.</div>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/immunogenomics/SCENT">https://github.com/immunogenomics/SCENT</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-8" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">Possion regression, scATAC-seq, scRNA-seq</div>
+    <label for="catalog-col-keywords-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Sakaue S, Weinand K, Isaac S, Dey KK, ...&amp;, Raychaudhuri S. (2024) Tissue-specific enhancer-gene maps from multimodal single-cell data identify causal disease alleles. Nat Genet, 56 (4) 615-626. doi:10.1038/s41588-024-01682-1. PMID 38594305</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Translating genome-wide association study (GWAS) loci into causal variants and genes requires accurate cell-type-specific enhancer-gene maps from disease-relevant tissues. Building enhancer-gene maps is essential but challenging with current experimental methods in primary human tissues. Here we developed a nonparametric statistical method, SCENT (single-cell enhancer target gene mapping), that models association between enhancer chromatin accessibility and gene expression in single-cell or nucleus multimodal RNA sequencing and ATAC sequencing data. We applied SCENT to 9 multimodal datasets including &gt;120,000 single cells or nuclei and created 23 cell-type-specific enhancer-gene maps. These maps were highly enriched for causal variants in expression quantitative loci and GWAS for 1,143 diseases and traits. We identified likely causal genes for both common and rare diseases and linked somatic mutation hotspots to target genes. We demonstrate that application of SCENT to multimodal data from disease-relevant human tissue enables the scalable construction of accurate cell-type-specific enhancer-gene maps, essential for defining noncoding variant function.</div>
+    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-024-01682-1</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">Extract chromatin accessibility (ATAC-seq) &amp; gene expression (RNA-seq) from single cells → Group cells by type → For each gene, define candidate enhancers within 1 Mb → Use distance-weighted non-parametric regression to model enhancer–gene associations → Assess significance via permutation testing → Build enhancer–gene links per cell type</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="tcsc" class="catalog-entry-card__title">TCSC</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/37580597">37580597</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Tissue co-regulation score regression</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">TCSC is a statistical genetics method to identify causal tissues in diseases and complex traits. We leverage TWAS and GWAS summary statistics while explicitly modeling the genetic co-regulation of genes across tissues.</div>
+    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/TiffanyAmariuta/TCSC/">https://github.com/TiffanyAmariuta/TCSC/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Modeling tissue co-regulation estimates tissue-specific contributions to disease.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Amariuta T, Siewert-Rocks K, Price AL. (2023) Modeling tissue co-regulation estimates tissue-specific contributions to disease. Nat Genet, 55 (9) 1503-1511. doi:10.1038/s41588-023-01474-z. PMID 37580597</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Integrative analyses of genome-wide association studies and gene expression data have implicated many disease-critical tissues. However, co-regulation of genetic effects on gene expression across tissues impedes distinguishing biologically causal tissues from tagging tissues. In the present study, we introduce tissue co-regulation score regression (TCSC), which disentangles causal tissues from tagging tissues by regressing gene-disease association statistics (from transcriptome-wide association studies) on tissue co-regulation scores, reflecting correlations of predicted gene expression across genes and tissues. We applied TCSC to 78 diseases/traits (average n = 302,000) and gene expression prediction models for 48 GTEx tissues. TCSC identified 21 causal tissue-trait pairs at a 5% false discovery rate (FDR), including well-established findings, biologically plausible new findings (for example, aorta artery and glaucoma) and increased specificity of known tissue-trait associations (for example, subcutaneous adipose, but not visceral adipose, and high-density lipoprotein). TCSC also identified 17 causal tissue-trait covariance pairs at 5% FDR. In conclusion, TCSC is a precise method for distinguishing causal tissues from tagging tissues.</div>
+    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-023-01474-z</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="celladmix" class="catalog-entry-card__title">cellAdmix</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/41559218">41559218</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">cellAdmix detects and corrects segmentation errors in imaging-based spatial transcriptomics by factorizing local molecular neighborhoods—analogous to doublet removal in scRNA-seq—to reassign transcripts that spill across cell boundaries.</div>
+    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/kharchenkolab/cellAdmix">https://github.com/kharchenkolab/cellAdmix</a> ,<a href="http://pklab.org/peterk/cellAdmix/">http://pklab.org/peterk/cellAdmix/</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-10" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">spatial transcriptomics, segmentation, matrix factorization, imaging-based ST</div>
+    <label for="catalog-col-keywords-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Impact and correction of segmentation errors in spatial transcriptomics.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Mitchel J, Gao T, Petukhov V, Cole E, ...&amp;, Kharchenko PV. (2026) Impact and correction of segmentation errors in spatial transcriptomics. Nat Genet, 58 (2) 434-444. doi:10.1038/s41588-025-02497-4. PMID 41559218</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Spatial transcriptomics aims to elucidate how cells coordinate within tissues by connecting cellular states to their native microenvironments. Imaging-based assays are especially promising, capturing molecular and cellular features at subcellular resolution in three dimensions. Interpretation of such data, however, hinges on accurate cell segmentation. Assigning individual molecules to the correct cells remains challenging. Here we re-analyze data from multiple tissues and platforms to find that segmentation errors currently confound most downstream analysis of cellular state, including differential expression, neighbor influence and ligand-receptor interactions. The extent to which misassigned molecules impact the results can be striking, frequently dominating the results. Thus, we show that matrix factorization of local molecular neighborhoods can effectively identify and isolate such molecular admixtures, thereby reducing their impact on downstream analyses, in a manner analogous to doublet filtering in single-cell RNA sequencing. As the applications of spatial transcriptomics assays become more widespread, accounting for segmentation errors will be important for resolving molecular mechanisms of tissue biology.</div>
+    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-025-02497-4</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="gsmap" class="catalog-entry-card__title">gsMap</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/40108460">40108460</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">genetically informed spatial mapping of cells for complex traits</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-11" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">gsMap (genetically informed spatial mapping of cells for complex traits) integrates spatial transcriptomics (ST) data with genome-wide association study (GWAS) summary statistics to map cells to human complex traits, including diseases, in a spatially resolved manner.</div>
+    <label for="catalog-col-description-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/JianYang-Lab/gsMap">https://github.com/JianYang-Lab/gsMap</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-11" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">spatial transciptomics</div>
+    <label for="catalog-col-keywords-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Spatially resolved mapping of cells associated with human complex traits.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Song L, Chen W, Hou J, Guo M, ...&amp;, Yang J. (2025) Spatially resolved mapping of cells associated with human complex traits. Nature, 641 (8064) 932-941. doi:10.1038/s41586-025-08757-x. PMID 40108460</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-11" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Depicting spatial distributions of disease-relevant cells is crucial for understanding disease pathology1,2. Here we present genetically informed spatial mapping of cells for complex traits (gsMap), a method that integrates spatial transcriptomics data with summary statistics from genome-wide association studies to map cells to human complex traits, including diseases, in a spatially resolved manner. Using embryonic spatial transcriptomics datasets covering 25 organs, we benchmarked gsMap through simulation and by corroborating known trait-associated cells or regions in various organs. Applying gsMap to brain spatial transcriptomics data, we reveal that the spatial distribution of glutamatergic neurons associated with schizophrenia more closely resembles that for cognitive traits than that for mood traits such as depression. The schizophrenia-associated glutamatergic neurons were distributed near the dorsal hippocampus, with upregulated expression of calcium signalling and regulation genes, whereas depression-associated glutamatergic neurons were distributed near the deep medial prefrontal cortex, with upregulated expression of neuroplasticity and psychiatric drug target genes. Our study provides a method for spatially resolved mapping of trait-associated cells and demonstrates the gain of biological insights (such as the spatial distribution of trait-relevant cells and related signature genes) through these maps.</div>
+    <label for="catalog-col-abstract-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41586-025-08757-x</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">Spatial transcriptomics data + GWAS summary statistics → Graph Neural Network identifies homogeneous spatial domains → Compute Gene Specificity Scores (GSS) for each spot → Map GSS to nearby SNPs → Perform Stratified LD Score Regression (S-LDSC) to assess trait heritability enrichment → Aggregate spot-level p-values using the Cauchy Combination Test to identify trait-associated spatial regions</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="pgboost" class="catalog-entry-card__title">pgBoost</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">pgBoost is an integrative modeling framework that trains a non-linear combination of existing linking strategies (including genomic distance) on fine-mapped eQTL data to assign a probabilistic score to each candidate SNP-gene link.</div>
+    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/elizabethdorans/pgBoost">https://github.com/elizabethdorans/pgBoost</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-12" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">eQTL-informed gradient boosting</div>
+    <label for="catalog-col-keywords-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PREPRINT_DOI</div>
+    <div class="catalog-entry-card__value">10.1101/2024.05.24.24307813</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Dorans, E. R., Jagadeesh, K., Dey, K., &amp; Price, A. L. (2024). Linking regulatory variants to target genes by integrating single-cell multiome methods and genomic distance. medRxiv, 2024-05.</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="sc-linker" class="catalog-entry-card__title">sc-linker</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/36175791">36175791</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease</div>
+    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker">https://alkesgroup.broadinstitute.org/LDSCORE/Jagadeesh_Dey_sclinker</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-13" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq</div>
+    <label for="catalog-col-keywords-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Jagadeesh KA, Dey KK, Montoro DT, Mohan R, ...&amp;, Regev A. (2022) Identifying disease-critical cell types and cellular processes by integrating single-cell RNA-sequencing and human genetics. Nat Genet, 54 (10) 1479-1492. doi:10.1038/s41588-022-01187-9. PMID 36175791</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genome-wide association studies provide a powerful means of identifying loci and genes contributing to disease, but in many cases, the related cell types/states through which genes confer disease risk remain unknown. Deciphering such relationships is important for identifying pathogenic processes and developing therapeutics. In the present study, we introduce sc-linker, a framework for integrating single-cell RNA-sequencing, epigenomic SNP-to-gene maps and genome-wide association study summary statistics to infer the underlying cell types and processes by which genetic variants influence disease. The inferred disease enrichments recapitulated known biology and highlighted notable cell-disease relationships, including γ-aminobutyric acid-ergic neurons in major depressive disorder, a disease-dependent M-cell program in ulcerative colitis and a disease-specific complement cascade process in multiple sclerosis. In autoimmune disease, both healthy and disease-dependent immune cell-type programs were associated, whereas only disease-dependent epithelial cell programs were prominent, suggesting a role in disease response rather than initiation. Our framework provides a powerful approach for identifying the cell types and cellular processes by which genetic variants influence disease.</div>
+    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-022-01187-9</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">scRNA-seq data →️ Derive cell-type-specific gene programs →️ Map SNPs to genes using epigenomic data →️ Integrate with GWAS summary statistics →️ Identify disease-critical cell types and processes</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="scdrs" class="catalog-entry-card__title">scDRS</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/36050550">36050550</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">single-cell Disease Relevance Score</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-14" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types</div>
+    <label for="catalog-col-description-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/martinjzhang/scDRS">https://github.com/martinjzhang/scDRS</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-14" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq</div>
+    <label for="catalog-col-keywords-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Zhang MJ, Hou K, Dey KK, Sakaue S, ...&amp;, Price AL. (2022) Polygenic enrichment distinguishes disease associations of individual cells in single-cell RNA-seq data. Nat Genet, 54 (10) 1572-1580. doi:10.1038/s41588-022-01167-z. PMID 36050550</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Single-cell RNA sequencing (scRNA-seq) provides unique insights into the pathology and cellular origin of disease. We introduce single-cell disease relevance score (scDRS), an approach that links scRNA-seq with polygenic disease risk at single-cell resolution, independent of annotated cell types. scDRS identifies cells exhibiting excess expression across disease-associated genes implicated by genome-wide association studies (GWASs). We applied scDRS to 74 diseases/traits and 1.3 million single-cell gene-expression profiles across 31 tissues/organs. Cell-type-level results broadly recapitulated known cell-type-disease associations. Individual-cell-level results identified subpopulations of disease-associated cells not captured by existing cell-type labels, including T cell subpopulations associated with inflammatory bowel disease, partially characterized by their effector-like states; neuron subpopulations associated with schizophrenia, partially characterized by their spatial locations; and hepatocyte subpopulations associated with triglyceride levels, partially characterized by their higher ploidy levels. Genes whose expression was correlated with the scDRS score across cells (reflecting coexpression with GWAS disease-associated genes) were strongly enriched for gold-standard drug target and Mendelian disease genes.</div>
+    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-022-01167-z</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">GWAS summary statistics → Select putative disease genes via MAGMA → Compute scDRS using Monte Carlo-based score aggregation → Normalize with control gene sets → Rank cells by disease relevance → Identify enriched subpopulations and co-expressed gene networks</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="scgwas" class="catalog-entry-card__title">scGWAS</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/36253801">36253801</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">scRNA-seq assisted GWAS analysis</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">scGWAS leverages scRNA-seq data to identify the genetically mediated associations between traits and cell types.</div>
+    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/bsml320/scGWAS">https://github.com/bsml320/scGWAS</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies. Genome Biol, 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">BACKGROUND: The rapid accumulation of single-cell RNA sequencing (scRNA-seq) data presents unique opportunities to decode the genetically mediated cell-type specificity in complex diseases. Here, we develop a new method, scGWAS, which effectively leverages scRNA-seq data to achieve two goals: (1) to infer the cell types in which the disease-associated genes manifest and (2) to construct cellular modules which imply disease-specific activation of different processes. RESULTS: scGWAS only utilizes the average gene expression for each cell type followed by virtual search processes to construct the null distributions of module scores, making it scalable to large scRNA-seq datasets. We demonstrated scGWAS in 40 genome-wide association studies (GWAS) datasets (average sample size N ≈ 154,000) using 18 scRNA-seq datasets from nine major human/mouse tissues (totaling 1.08 million cells) and identified 2533 trait and cell-type associations, each with significant modules for further investigation. The module genes were validated using disease or clinically annotated references from ClinVar, OMIM, and pLI variants. CONCLUSIONS: We showed that the trait-cell type associations identified by scGWAS, while generally constrained to trait-tissue associations, could recapitulate many well-studied relationships and also reveal novel relationships, providing insights into the unsolved trait-tissue associations. Moreover, in each specific cell type, the associations with different traits were often mediated by different sets of risk genes, implying disease-specific activation of driving processes. In summary, scGWAS is a powerful tool for exploring the genetic basis of complex diseases at the cell type level using single-cell expression data.</div>
+    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1186/s13059-022-02785-w</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="scpagwas" class="catalog-entry-card__title">scPagwas</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/37719150">37719150</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">single-cell Pathway-guided GWAS analysis</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Obtain trait-relevant cell subpopulations by incorporating pathway activity transformed scRNA-seq data with GWAS data.</div>
+    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/sulab-wmu/scPagwas">https://github.com/sulab-wmu/scPagwas</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-16" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq, pathway activation</div>
+    <label for="catalog-col-keywords-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ma Y, Deng C, Zhou Y, Zhang Y, ...&amp;, Su J. (2023) Polygenic regression uncovers trait-relevant cellular contexts through pathway activation transformation of single-cell RNA sequencing data. Cell Genom, 3 (9) 100383. doi:10.1016/j.xgen.2023.100383. PMID 37719150</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-16" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Advances in single-cell RNA sequencing (scRNA-seq) techniques have accelerated functional interpretation of disease-associated variants discovered from genome-wide association studies (GWASs). However, identification of trait-relevant cell populations is often impeded by inherent technical noise and high sparsity in scRNA-seq data. Here, we developed scPagwas, a computational approach that uncovers trait-relevant cellular context by integrating pathway activation transformation of scRNA-seq data and GWAS summary statistics. scPagwas effectively prioritizes trait-relevant genes, which facilitates identification of trait-relevant cell types/populations with high accuracy in extensive simulated and real datasets. Cellular-level association results identified a novel subpopulation of naive CD8+ T cells related to COVID-19 severity and oligodendrocyte progenitor cell and microglia subsets with critical pathways by which genetic variants influence Alzheimer&#x27;s disease. Overall, our approach provides new insights for the discovery of trait-relevant cell types and improves the mechanistic understanding of disease variants from a pathway perspective.</div>
+    <label for="catalog-col-abstract-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.xgen.2023.100383</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">GWAS summary statistics → Pathway activation transformation of scRNA-seq data → Polygenic regression → Prioritize trait-relevant genes → Identify trait-relevant cell types/populations → Discover novel cellular subpopulations and pathways</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="seismic" class="catalog-entry-card__title">seismic</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="../tags/single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
+      <a href="../tags/scrna-seq/" class="catalog-badge catalog-badge--link" role="listitem">scRNA-seq</a>
+      <a href="../tags/gene-prioritization-2/" class="catalog-badge catalog-badge--link" role="listitem">Gene prioritization</a>
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/41034207">41034207</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Single-cell Expression Integration System for Mapping genetically Implicated Cell types</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">R framework that links GWAS signals to single-cell-defined cell types via a cell-type gene specificity score (expression magnitude and consistency) and regression on gene-level association statistics, with influential-gene follow-up for interpretability.</div>
+    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/ylaboratory/seismic">https://github.com/ylaboratory/seismic</a> ,<a href="https://ylaboratory.github.io/seismic/">https://ylaboratory.github.io/seismic/</a> ,<a href="https://doi.org/10.1038/s41467-025-63753-z">https://doi.org/10.1038/s41467-025-63753-z</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-17" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq, cell type, MAGMA, post-GWAS interpretation</div>
+    <label for="catalog-col-keywords-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Disentangling associations between complex traits and cell types with seismic.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Lai Q, Dannenfelser R, Roussarie JP, Yao V. (2025) Disentangling associations between complex traits and cell types with seismic. Nat Commun, 16 (1) 8744. doi:10.1038/s41467-025-63753-z. PMID 41034207</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-17" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Integrating single-cell RNA sequencing with Genome-Wide Association Studies (GWAS) can uncover cell types involved in complex traits and disease. However, current methods often lack scalability, interpretability, and robustness. We present seismic, a framework that computes a novel specificity score capturing both expression magnitude and consistency across cell types and introduces influential gene analysis, an approach to identify genes driving each cell type-trait association. Across over 1000 cell-type characterizations at different granularities and 28 polygenic traits, seismic corroborates known associations and uncovers trait-relevant cell groups not apparent through other methodologies. In Parkinson&#x27;s and Alzheimer&#x27;s, seismic unveils both cell- and brain-region-specific differences in pathology. Analyzing a pathology-based Alzheimer&#x27;s GWAS with seismic enables the identification of vulnerable neuron populations and molecular pathways implicated in their neurodegeneration. In general, seismic is a computationally efficient, powerful, and interpretable approach for mapping the relationships between polygenic traits and cell-type-specific expression, offering new insights into disease mechanisms.</div>
+    <label for="catalog-col-abstract-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41467-025-63753-z</div>
+  </section>
+  </div>
+</article>
 
 
 
@@ -2933,15 +2917,20 @@
 
 
 
+  
+  
 
 
 
 
+  
 
-                
-              </article>
-            </div>
-          
+
+
+      
+    </article>
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -2972,6 +2961,19 @@
   
 </div>
       
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Cloufield/CTGCatalog" target="_blank" rel="noopener" title="CTGCatalog on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -2982,16 +2984,15 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.path", "navigation.prune", "toc.follow", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       

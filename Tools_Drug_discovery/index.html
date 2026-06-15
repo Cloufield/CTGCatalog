@@ -6,9 +6,13 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
+        <meta name="description" content="Curated index of complex trait genetics resources—biobanks, GWAS summary statistics, software tools, references, single-cell methods, major projects, and AI-related tooling.">
+      
       
         <meta name="author" content="HE Yunye">
       
+      
+        <link rel="canonical" href="https://cloufield.github.io/CTGCatalog/Tools_Drug_discovery/">
       
       
         <link rel="prev" href="../Tools_Dimension_reduction/">
@@ -17,8 +21,11 @@
         <link rel="next" href="../Tools_Fine_mapping/">
       
       
+        
+      
+      
       <link rel="icon" href="../assets/logo.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
     
     
       
@@ -26,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -40,15 +47,9 @@
     
     
       
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
     
     
-      <link rel="stylesheet" href="../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.min.css">
     
     <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -56,11 +57,12 @@
 
     
     
-    
   </head>
   
   
     
+    
+      
     
     
     
@@ -115,15 +117,43 @@
     </div>
     
       
+        <form class="md-header__option" data-md-component="palette">
+  
     
     
     
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
       </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="blue" data-md-color-accent="blue"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -162,13 +192,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -194,9 +225,11 @@
   
   
   
+  
     <li class="md-tabs__item">
       <a href=".." class="md-tabs__link">
         
+  
   
     
   
@@ -211,11 +244,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../Biobanks/" class="md-tabs__link">
           
+  
   
   Biobanks
 
@@ -229,11 +264,95 @@
   
   
   
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Sumstats/" class="md-tabs__link">
+          
+  
+  
+  Sumstats
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../Tools/" class="md-tabs__link">
+          
+  
+  
+  GWAS Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Coding/" class="md-tabs__link">
+          
+  
+  
+  Coding
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../Population_Genetics/" class="md-tabs__link">
+          
+  
+  
+  Population Genetics
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
     
     
       <li class="md-tabs__item">
         <a href="../References/" class="md-tabs__link">
           
+  
   
   References
 
@@ -247,11 +366,13 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
         <a href="../Single_Cell/" class="md-tabs__link">
           
+  
   
   Single_Cell
 
@@ -265,13 +386,15 @@
   
   
   
+  
     
     
       <li class="md-tabs__item">
-        <a href="../Sumstats/" class="md-tabs__link">
+        <a href="../Projects/" class="md-tabs__link">
           
   
-  Sumstats
+  
+  Projects
 
         </a>
       </li>
@@ -282,16 +405,16 @@
         
   
   
-    
   
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../Tools/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../AI/" class="md-tabs__link">
           
   
-  Tools
+  
+  AI
 
         </a>
       </li>
@@ -309,6 +432,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -333,7 +458,7 @@
       <a href="https://github.com/Cloufield/CTGCatalog/" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub
@@ -353,10 +478,16 @@
       <a href=".." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
     
   </span>
+  
   
 
       </a>
@@ -373,170 +504,43 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Biobanks/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
     Biobanks
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_2">
-            <span class="md-nav__icon md-icon"></span>
-            Biobanks
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Biobanks
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_AFRICA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    AFRICA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_AMERICA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    AMERICA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_ASIA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    ASIA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_EUROPE/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    EUROPE
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Biobanks_OCIENIA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    OCIENIA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -551,614 +555,43 @@
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            References
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    References
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Epigenetics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Epigenetics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Function/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Function
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Gene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Gene
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Genome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genome
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Phenotype/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phenotype
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_Variant/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variant
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../References_scRNA/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    scRNA
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
     
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
-        
-          
-          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_4">
-            <span class="md-nav__icon md-icon"></span>
-            Single_Cell
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Single_Cell
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Annotation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Annotation
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Framework/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Framework
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Harmonization/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Harmonization
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Network/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Network
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_QC/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    QC
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Single_Cell_Trajectory/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Trajectory
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
-    </li>
-  
-
     
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
+        
+  
+  
+  
+    <a href="../Sumstats/" class="md-nav__link">
       
   
   
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
-        
-          
-          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
-            
-  
   <span class="md-ellipsis">
+    
+  
     Sumstats
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_5">
-            <span class="md-nav__icon md-icon"></span>
-            Sumstats
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sumstats
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_General/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    General
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Imaging/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Imaging
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Metabolomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Metabolomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Sumstats_Proteomics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Proteomics
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1175,36 +608,49 @@
     
     
     
+    
       
         
         
       
       
     
+    
+      
     
     <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
             
   
+  
   <span class="md-ellipsis">
-    Tools
+    
+  
+    GWAS Tools
+  
+
     
   </span>
+  
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Tools
+            
+  
+    GWAS Tools
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -1218,82 +664,19 @@
       <a href="../Tools/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Tools
+    
+  
+    GWAS Tools
+  
+
     
   </span>
+  
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    AI
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_2">
-            <span class="md-nav__icon md-icon"></span>
-            AI
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_AI_Agent/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Agent
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -1309,10 +692,16 @@
       <a href="../Tools_Annotation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Annotation
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1330,192 +719,43 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Tools_Association_tests/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
     Association_tests
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_4">
-            <span class="md-nav__icon md-icon"></span>
-            Association_tests
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Association_tests
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Privacy_Preserving_GWAS_Tool/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Privacy_Preserving_GWAS_Tool
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_RWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    RWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_TWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    TWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_Time_to_event_phenotypes/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Time_to_event_phenotypes
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_eQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    eQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Association_tests_sQTL/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    sQTL
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -1532,10 +772,16 @@
       <a href="../Tools_Colocalization/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Colocalization
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1554,10 +800,16 @@
       <a href="../Tools_Data_processing/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Data_processing
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1576,10 +828,16 @@
       <a href="../Tools_Dimension_reduction/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Dimension_reduction
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1605,10 +863,16 @@
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
+  
   <span class="md-ellipsis">
+    
+  
     Drug_discovery
+  
+
     
   </span>
+  
   
 
           <span class="md-nav__icon md-icon"></span>
@@ -1617,10 +881,16 @@
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Drug_discovery
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1641,79 +911,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#drug-targetor" class="md-nav__link">
-    <span class="md-ellipsis">
-      DRUG TARGETOR
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#grep" class="md-nav__link">
-    <span class="md-ellipsis">
-      GREP
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#guideline-namba" class="md-nav__link">
-    <span class="md-ellipsis">
-      Guideline-Namba
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#open-targets-genetics" class="md-nav__link">
-    <span class="md-ellipsis">
-      Open Targets Genetics
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pes" class="md-nav__link">
-    <span class="md-ellipsis">
-      PES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ps4dr" class="md-nav__link">
-    <span class="md-ellipsis">
-      PS4DR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#priority-index" class="md-nav__link">
-    <span class="md-ellipsis">
-      Priority index
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trans-phar" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trans-Phar
     </span>
   </a>
   
@@ -1738,10 +938,16 @@
       <a href="../Tools_Fine_mapping/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Fine_mapping
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1760,10 +966,16 @@
       <a href="../Tools_Functional_prediction/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Functional_prediction
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1782,10 +994,16 @@
       <a href="../Tools_Gene_prioritization/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Gene_prioritization
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1804,10 +1022,16 @@
       <a href="../Tools_Gene_set_pathway_analysis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Gene_set_pathway_analysis
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1826,10 +1050,16 @@
       <a href="../Tools_GxE_interactions/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     GxE_interactions
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1848,10 +1078,16 @@
       <a href="../Tools_HLA/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     HLA
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1870,10 +1106,16 @@
       <a href="../Tools_Heritability_and_genetic_correlation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Heritability_and_genetic_correlation
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1892,10 +1134,44 @@
       <a href="../Tools_Imputation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Imputation
+  
+
     
   </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Mediation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mediation
+  
+
+    
+  </span>
+  
   
 
       </a>
@@ -1914,10 +1190,16 @@
       <a href="../Tools_Mendelian_randomization/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Mendelian_randomization
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1936,10 +1218,16 @@
       <a href="../Tools_Meta_and_Multi_triat/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Meta_and_Multi_triat
+  
+
     
   </span>
+  
   
 
       </a>
@@ -1958,148 +1246,19 @@
       <a href="../Tools_Polygenic_risk_scores/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Polygenic_risk_scores
+  
+
     
   </span>
+  
   
 
       </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    
-    
-    
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_20" >
-        
-          
-          <label class="md-nav__link" for="__nav_6_20" id="__nav_6_20_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Population_Genetics
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_20_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_20">
-            <span class="md-nav__icon md-icon"></span>
-            Population_Genetics
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Admixture/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Admixture
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Genealogy/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Genealogy
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Phylogenetic_tree/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Phylogenetic_tree
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Population_Genetics_Selection/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Selection
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
     </li>
   
 
@@ -2115,10 +1274,16 @@
       <a href="../Tools_Power_analysis/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Power_analysis
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2137,10 +1302,44 @@
       <a href="../Tools_Proteomics/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Proteomics
+  
+
     
   </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Tools_Rare_disease/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Rare_disease
+  
+
+    
+  </span>
+  
   
 
       </a>
@@ -2159,10 +1358,16 @@
       <a href="../Tools_Simulation/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Simulation
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2181,10 +1386,16 @@
       <a href="../Tools_Tissue_and_single_cell/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Tissue_and_single_cell
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2202,192 +1413,43 @@
     
     
     
+    
       
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_25" >
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
-          
-          <label class="md-nav__link" for="__nav_6_25" id="__nav_6_25_label" tabindex="0">
-            
+  
+  
+  
+    <a href="../Tools_Visualization_Chromosome/" class="md-nav__link">
+      
+  
   
   <span class="md-ellipsis">
+    
+  
     Visualization
+  
+
     
   </span>
   
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_25_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_25">
-            <span class="md-nav__icon md-icon"></span>
-            Visualization
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Chromosome/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Chromosome
-    
-  </span>
   
 
-      </a>
-    </li>
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Forest_plot/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Forest_plot
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_GWAS/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    GWAS
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Heatmap/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heatmap
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_LD/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    LD
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_UpSet_plots/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    UpSet_plots
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../Tools_Visualization_Variants_on_protein/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Variants_on_protein
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
       
     </li>
   
@@ -2404,10 +1466,16 @@
       <a href="../Tools_Winners_curse/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Winners_curse
+  
+
     
   </span>
+  
   
 
       </a>
@@ -2423,6 +1491,312 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Coding/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Coding
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Population_Genetics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Population Genetics
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../References/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    References
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Single_Cell/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Single_Cell
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../Projects/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projects
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../AI/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    AI
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -2430,6 +1804,8 @@
               </div>
             
             
+              
+                
               
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
@@ -2450,79 +1826,9 @@
         <li class="md-nav__item">
   <a href="#summary-table" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary Table
-    </span>
-  </a>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#drug-targetor" class="md-nav__link">
-    <span class="md-ellipsis">
-      DRUG TARGETOR
-    </span>
-  </a>
-  
-</li>
+        Summary Table
       
-        <li class="md-nav__item">
-  <a href="#grep" class="md-nav__link">
-    <span class="md-ellipsis">
-      GREP
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#guideline-namba" class="md-nav__link">
-    <span class="md-ellipsis">
-      Guideline-Namba
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#open-targets-genetics" class="md-nav__link">
-    <span class="md-ellipsis">
-      Open Targets Genetics
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#pes" class="md-nav__link">
-    <span class="md-ellipsis">
-      PES
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#ps4dr" class="md-nav__link">
-    <span class="md-ellipsis">
-      PS4DR
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#priority-index" class="md-nav__link">
-    <span class="md-ellipsis">
-      Priority index
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#trans-phar" class="md-nav__link">
-    <span class="md-ellipsis">
-      Trans-Phar
     </span>
   </a>
   
@@ -2537,170 +1843,499 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
+  <div class="md-content" data-md-component="content">
+    
+      
+
+  
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href=".." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../Tools/" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    GWAS Tools
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+    
+    
+    
+      
+        
+      
+    
+    <article class="md-content__inner md-typeset catalog-section-Tools">
+      
+        
+  
+
+
+  <nav class="md-tags" hidden>
+    
+      
+      
+      
+      
+        <span class="md-tag">Tool</span>
+      
+    
+  </nav>
 
 
 
   <h1>Drug_discovery</h1>
 
+<div class="catalog-nav-lead">
+<p>Curation of <strong>Drug discovery</strong> — listings under the <strong>GWAS Tools</strong> tab.</p>
+</div>
 <h2 id="summary-table">Summary Table</h2>
+<p><em>Click a column header to sort the table.</em></p>
+<div class="catalog-summary-table">
+
+
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">NAME</th>
-<th style="text-align: left;">CITATION</th>
-<th style="text-align: right;">YEAR</th>
+<th>NAME</th>
+<th>Main citation</th>
+<th>YEAR</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><a href="#drug-targetor">DRUG TARGETOR</a></td>
-<td style="text-align: left;">Gaspar HA, Hübel C, Breen G. (2019) Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes Bioinformatics, 35 (14) 2515-2517. doi:10.1093/bioinformatics/bty982. PMID 30517594</td>
-<td style="text-align: right;">2019</td>
+<td><a href="#drug-targetor">DRUG TARGETOR</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Gaspar HA, Hübel C, Breen G. (2019) Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes. Bioinformatics, 35 (14) 2515-2517. doi:10.1093/bioinformatics/bty982. PMID 30517594">Gaspar HA et al., Bioinformatics, 2019</div></td>
+<td>2019</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#grep">GREP</a></td>
-<td style="text-align: left;">Sakaue S, Okada Y. (2019) GREP: genome for REPositioning drugs Bioinformatics, 35 (19) 3821-3823. doi:10.1093/bioinformatics/btz166. PMID 30859178</td>
-<td style="text-align: right;">2019</td>
+<td><a href="#grep">GREP</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Sakaue S, Okada Y. (2019) GREP: genome for REPositioning drugs. Bioinformatics, 35 (19) 3821-3823. doi:10.1093/bioinformatics/btz166. PMID 30859178">Sakaue S et al., Bioinformatics, 2019</div></td>
+<td>2019</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#guideline-namba">Guideline-Namba</a></td>
-<td style="text-align: left;">Namba S, Konuma T, Wu KH, Zhou W, ...&amp;, Okada Y. (2022) A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis Cell Genom, 2 (10) 100190. doi:10.1016/j.xgen.2022.100190. PMID 36778001</td>
-<td style="text-align: right;">2022</td>
+<td><a href="#guideline-namba">Guideline-Namba</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Namba S, Konuma T, Wu KH, Zhou W, ...&amp;, Okada Y. (2022) A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis. Cell Genom, 2 (10) 100190. doi:10.1016/j.xgen.2022.100190. PMID 36778001">Namba S et al., Cell Genom, 2022</div></td>
+<td>2022</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#open-targets-genetics">Open Targets Genetics</a></td>
-<td style="text-align: left;">Mountjoy E, Schmidt EM, Carmona M, Schwartzentruber J, ...&amp;, Ghoussaini M. (2021) An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci Nat. Genet., 53 (11) 1527-1533. doi:10.1038/s41588-021-00945-5. PMID 34711957</td>
-<td style="text-align: right;">2021</td>
+<td><a href="#open-targets-genetics">Open Targets Genetics</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Mountjoy E, Schmidt EM, Carmona M, Schwartzentruber J, ...&amp;, Ghoussaini M. (2021) An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci. Nat Genet, 53 (11) 1527-1533. doi:10.1038/s41588-021-00945-5. PMID 34711957">Mountjoy E et al., Nat Genet, 2021</div></td>
+<td>2021</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#pes">PES</a></td>
-<td style="text-align: left;">Reay WR, Atkins JR, Carr VJ, Green MJ, ...&amp;, Cairns MJ. (2020) Pharmacological enrichment of polygenic risk for precision medicine in complex disorders Sci. Rep., 10 (1) 879. doi:10.1038/s41598-020-57795-0. PMID 31964963</td>
-<td style="text-align: right;">2020</td>
+<td><a href="#pes">PES</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Reay WR, Atkins JR, Carr VJ, Green MJ, ...&amp;, Cairns MJ. (2020) Pharmacological enrichment of polygenic risk for precision medicine in complex disorders. Sci Rep, 10 (1) 879. doi:10.1038/s41598-020-57795-0. PMID 31964963">Reay WR et al., Sci Rep, 2020</div></td>
+<td>2020</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#ps4dr">PS4DR</a></td>
-<td style="text-align: left;">Emon MA, Domingo-Fernández D, Hoyt CT, Hofmann-Apitius M. (2020) PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures BMC Bioinformatics, 21 (1) 231. doi:10.1186/s12859-020-03568-5. PMID 32503412</td>
-<td style="text-align: right;">2020</td>
+<td><a href="#ps4dr">PS4DR</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Emon MA, Domingo-Fernández D, Hoyt CT, Hofmann-Apitius M. (2020) PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures. BMC Bioinformatics, 21 (1) 231. doi:10.1186/s12859-020-03568-5. PMID 32503412">Emon MA et al., BMC Bioinformatics, 2020</div></td>
+<td>2020</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#priority-index">Priority index</a></td>
-<td style="text-align: left;">Fang H, ULTRA-DD Consortium, De Wolf H, Knezevic B, ...&amp;, Knight JC. (2019) A genetics-led approach defines the drug target landscape of 30 immune-related traits Nat. Genet., 51 (7) 1082-1091. doi:10.1038/s41588-019-0456-1. PMID 31253980</td>
-<td style="text-align: right;">2019</td>
+<td><a href="#priority-index">Priority index</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Fang H, ULTRA-DD Consortium, De Wolf H, Knezevic B, ...&amp;, Knight JC. (2019) A genetics-led approach defines the drug target landscape of 30 immune-related traits. Nat Genet, 51 (7) 1082-1091. doi:10.1038/s41588-019-0456-1. PMID 31253980">Fang H et al., Nat Genet, 2019</div></td>
+<td>2019</td>
 </tr>
 <tr>
-<td style="text-align: left;"><a href="#trans-phar">Trans-Phar</a></td>
-<td style="text-align: left;">Konuma T, Ogawa K, Okada Y. (2021) Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates Hum. Mol. Genet., 30 (3-4) 294-304. doi:10.1093/hmg/ddab049. PMID 33577681</td>
-<td style="text-align: right;">2021</td>
+<td><a href="#trans-phar">Trans-Phar</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Konuma T, Ogawa K, Okada Y. (2021) Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates. Hum Mol Genet, 30 (3-4) 294-304. doi:10.1093/hmg/ddab049. PMID 33577681">Konuma T et al., Hum Mol Genet, 2021</div></td>
+<td>2021</td>
 </tr>
 </tbody>
 </table>
-<h2 id="drug-targetor">DRUG TARGETOR</h2>
-<ul>
-<li><strong>NAME</strong> : DRUG TARGETOR </li>
-<li><strong>SHORT NAME</strong> : DRUG TARGETOR </li>
-<li><strong>URL</strong> : <a href="https://drugtargetor.com/index_v1.21.html">https://drugtargetor.com/index_v1.21.html</a> </li>
-<li><strong>FULL NAME</strong> : DRUG TARGETOR </li>
-<li><strong>DESCRIPTION</strong> : This website harnesses results from genome-wide association studies (GWAS), and drug bioactivity data, to prioritize drugs and targets for a given phenotype. Drug Targetor networks are constructed using genetically scored drugs and genes, connected by the type of drug-target or drug-gene interaction </li>
-<li><strong>TITLE</strong> : Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes </li>
-<li><strong>ABSTRACT</strong> : SUMMARY: Results from hundreds of genome-wide association studies (GWAS) are now freely available and offer a catalogue of the association between phenotypes across medicine with variants in the genome. With the aim of using this data to better understand therapeutic mechanisms, we have developed Drug Targetor, a web interface that allows the generation and exploration of drug-target networks of hundreds of phenotypes using GWAS data. Drug Targetor networks consist of drug and target nodes ordered by genetic association and connected by drug-target or drug-gene relationship. We show that Drug Targetor can help prioritize drugs, targets and drug-target interactions for a specific phenotype based on genetic evidence. AVAILABILITY AND IMPLEMENTATION: Drug Targetor v1.21 is a web application freely available online at drugtargetor.com and under MIT licence. The source code can be found at https://github.com/hagax8/drugtargetor. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online. </li>
-<li><strong>COPYRIGHT</strong> : http://creativecommons.org/licenses/by-nc/4.0/ </li>
-<li><strong>CITATION</strong> : Gaspar HA, Hübel C, Breen G. (2019) Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes Bioinformatics, 35 (14) 2515-2517. doi:10.1093/bioinformatics/bty982. PMID 30517594 </li>
-<li><strong>JOURNAL_INFO</strong> : Bioinformatics (Oxford, England) ; Bioinformatics ; 2019 ; 35 ; 14 ; 2515-2517 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/30517594">30517594</a> </li>
-</ul>
-<h2 id="grep">GREP</h2>
-<ul>
-<li><strong>NAME</strong> : GREP </li>
-<li><strong>SHORT NAME</strong> : GREP </li>
-<li><strong>URL</strong> : <a href="https://github.com/saorisakaue/GREP">https://github.com/saorisakaue/GREP</a> </li>
-<li><strong>FULL NAME</strong> : Genome for REPositioning drugs </li>
-<li><strong>DESCRIPTION</strong> : GREP can quantify an enrichment of the user-defined set of genes in the target of clinical indication categories and capture potentially repositionable drugs targeting the gene set. Both can be run in a few seconds! </li>
-<li><strong>TITLE</strong> : GREP: genome for REPositioning drugs </li>
-<li><strong>ABSTRACT</strong> : SUMMARY: Making use of accumulated genetic knowledge for clinical practice is our next goal in human genetics. Here we introduce GREP (Genome for REPositioning drugs), a standalone python software to quantify an enrichment of the user-defined set of genes in the target of clinical indication categories and to capture potentially repositionable drugs targeting the gene set. We show that genes identified by the large-scale genome-wide association studies were robustly enriched in the approved drugs to treat the trait of interest. This enrichment analysis was also highly applicable to other sets of biological genes such as those identified by gene expression studies and genes somatically mutated in cancers. This software should accelerate investigators to reposition drugs to other indications with the guidance of known genomics. AVAILABILITY AND IMPLEMENTATION: GREP is available at https://github.com/saorisakaue/GREP as a python source code. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online. </li>
-<li><strong>CITATION</strong> : Sakaue S, Okada Y. (2019) GREP: genome for REPositioning drugs Bioinformatics, 35 (19) 3821-3823. doi:10.1093/bioinformatics/btz166. PMID 30859178 </li>
-<li><strong>JOURNAL_INFO</strong> : Bioinformatics  ; Bioinformatics ; 2019 ; 35 ; 19 ; 3821-3823 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/30859178">30859178</a> </li>
-</ul>
-<h2 id="guideline-namba">Guideline-Namba</h2>
-<ul>
-<li><strong>NAME</strong> : Guideline-Namba </li>
-<li><strong>DESCRIPTION</strong> : a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI) </li>
-<li><strong>TITLE</strong> : A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis </li>
-<li><strong>ABSTRACT</strong> : Genomics-driven drug discovery is indispensable for accelerating the development of novel therapeutic targets. However, the drug discovery framework based on evidence from genome-wide association studies (GWASs) has not been established, especially for cross-population GWAS meta-analysis. Here, we introduce a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI). Our drug discovery framework encompassed three methodologies and was applied to the 13 common diseases targeted by GBMI (N mean = 1,329,242). Individual methodologies complementarily prioritized drugs and drug targets, which were systematically validated by referring previously known drug-disease relationships. Integration of the three methodologies provided a comprehensive catalog of candidate drugs for repositioning, nominating promising drug candidates targeting the genes involved in the coagulation process for venous thromboembolism and the interleukin-4 and interleukin-13 signaling pathway for gout. Our study highlighted key factors for successful genomics-driven drug discovery using cross-population meta-analyses. </li>
-<li><strong>CITATION</strong> : Namba S, Konuma T, Wu KH, Zhou W, ...&amp;, Okada Y. (2022) A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis Cell Genom, 2 (10) 100190. doi:10.1016/j.xgen.2022.100190. PMID 36778001 </li>
-<li><strong>JOURNAL_INFO</strong> : Cell genomics ; Cell Genom ; 2022 ; 2 ; 10 ; 100190 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/36778001">36778001</a> </li>
-</ul>
-<h2 id="open-targets-genetics">Open Targets Genetics</h2>
-<ul>
-<li><strong>NAME</strong> : Open Targets Genetics </li>
-<li><strong>SHORT NAME</strong> : Open Targets Genetics </li>
-<li><strong>URL</strong> : <a href="https://genetics.opentargets.org/">https://genetics.opentargets.org/</a> </li>
-<li><strong>FULL NAME</strong> : Open Targets Genetics </li>
-<li><strong>DESCRIPTION</strong> : Open Targets Genetics is a comprehensive tool highlighting variant-centric statistical evidence to allow both prioritisation of candidate causal variants at trait-associated loci and identification of potential drug targets. </li>
-<li><strong>TITLE</strong> : An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci </li>
-<li><strong>ABSTRACT</strong> : Genome-wide association studies (GWASs) have identified many variants associated with complex traits, but identifying the causal gene(s) is a major challenge. In the present study, we present an open resource that provides systematic fine mapping and gene prioritization across 133,441 published human GWAS loci. We integrate genetics (GWAS Catalog and UK Biobank) with transcriptomic, proteomic and epigenomic data, including systematic disease-disease and disease-molecular trait colocalization results across 92 cell types and tissues. We identify 729 loci fine mapped to a single-coding causal variant and colocalized with a single gene. We trained a machine-learning model using the fine-mapped genetics and functional genomics data and 445 gold-standard curated GWAS loci to distinguish causal genes from neighboring genes, outperforming a naive distance-based model. Our prioritized genes were enriched for known approved drug targets (odds ratio = 8.1, 95% confidence interval = 5.7, 11.5). These results are publicly available through a web portal ( http://genetics.opentargets.org ), enabling users to easily prioritize genes at disease-associated loci and assess their potential as drug targets. </li>
-<li><strong>CITATION</strong> : Mountjoy E, Schmidt EM, Carmona M, Schwartzentruber J, ...&amp;, Ghoussaini M. (2021) An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci Nat. Genet., 53 (11) 1527-1533. doi:10.1038/s41588-021-00945-5. PMID 34711957 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2021 ; 53 ; 11 ; 1527-1533 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/34711957">34711957</a> </li>
-</ul>
-<h2 id="pes">PES</h2>
-<ul>
-<li><strong>NAME</strong> : PES </li>
-<li><strong>SHORT NAME</strong> : PES </li>
-<li><strong>FULL NAME</strong> : Pharmagenic_enrichment_score </li>
-<li><strong>DESCRIPTION</strong> : a framework to quantify an individual’s common variant enrichment in clinically actionable systems responsive to existing drugs. </li>
-<li><strong>TITLE</strong> : Pharmacological enrichment of polygenic risk for precision medicine in complex disorders </li>
-<li><strong>ABSTRACT</strong> : Individuals with complex disorders typically have a heritable burden of common variation that can be expressed as a polygenic risk score (PRS). While PRS has some predictive utility, it lacks the molecular specificity to be directly informative for clinical interventions. We therefore sought to develop a framework to quantify an individual's common variant enrichment in clinically actionable systems responsive to existing drugs. This was achieved with a metric designated the pharmagenic enrichment score (PES), which we demonstrate for individual SNP profiles in a cohort of cases with schizophrenia. A large proportion of these had elevated PES in one or more of eight clinically actionable gene-sets enriched with schizophrenia associated common variation. Notable candidates targeting these pathways included vitamins, antioxidants, insulin modulating agents, and cholinergic drugs. Interestingly, elevated PES was also observed in individuals with otherwise low common variant burden. The biological saliency of PES profiles were observed directly through their impact on gene expression in a subset of the cohort with matched transcriptomic data, supporting our assertion that this gene-set orientated approach could integrate an individual's common variant risk to inform personalised interventions, including drug repositioning, for complex disorders such as schizophrenia. </li>
-<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by/4.0 </li>
-<li><strong>CITATION</strong> : Reay WR, Atkins JR, Carr VJ, Green MJ, ...&amp;, Cairns MJ. (2020) Pharmacological enrichment of polygenic risk for precision medicine in complex disorders Sci. Rep., 10 (1) 879. doi:10.1038/s41598-020-57795-0. PMID 31964963 </li>
-<li><strong>JOURNAL_INFO</strong> : Scientific reports ; Sci. Rep. ; 2020 ; 10 ; 1 ; 879 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/31964963">31964963</a> </li>
-</ul>
-<h2 id="ps4dr">PS4DR</h2>
-<ul>
-<li><strong>NAME</strong> : PS4DR </li>
-<li><strong>SHORT NAME</strong> : PS4DR </li>
-<li><strong>URL</strong> : <a href="https://github.com/ps4dr/ps4dr">https://github.com/ps4dr/ps4dr</a> </li>
-<li><strong>FULL NAME</strong> : Pathway Signatures for Drug Repositioning </li>
-<li><strong>DESCRIPTION</strong> : This package comprises a modular workflow designed to identify drug repositioning candidates using multi-omics data sets. A schematic figure of the workflow is presented below. The R scripts necessary to run the MSDRP pipeline are located in the R directory. </li>
-<li><strong>TITLE</strong> : PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures </li>
-<li><strong>ABSTRACT</strong> : BACKGROUND: During the last decade, there has been a surge towards computational drug repositioning owing to constantly increasing -omics data in the biomedical research field. While numerous existing methods focus on the integration of heterogeneous data to propose candidate drugs, it is still challenging to substantiate their results with mechanistic insights of these candidate drugs. Therefore, there is a need for more innovative and efficient methods which can enable better integration of data and knowledge for drug repositioning. RESULTS: Here, we present a customizable workflow (PS4DR) which not only integrates high-throughput data such as genome-wide association study (GWAS) data and gene expression signatures from disease and drug perturbations but also takes pathway knowledge into consideration to predict drug candidates for repositioning. We have collected and integrated publicly available GWAS data and gene expression signatures for several diseases and hundreds of FDA-approved drugs or those under clinical trial in this study. Additionally, different pathway databases were used for mechanistic knowledge integration in the workflow. Using this systematic consolidation of data and knowledge, the workflow computes pathway signatures that assist in the prediction of new indications for approved and investigational drugs. CONCLUSION: We showcase PS4DR with applications demonstrating how this tool can be used for repositioning and identifying new drugs as well as proposing drugs that can simulate disease dysregulations. We were able to validate our workflow by demonstrating its capability to predict FDA-approved drugs for their known indications for several diseases. Further, PS4DR returned many potential drug candidates for repositioning that were backed up by epidemiological evidence extracted from scientific literature. Source code is freely available at https://github.com/ps4dr/ps4dr. </li>
-<li><strong>COPYRIGHT</strong> : https://creativecommons.org/licenses/by/4.0 </li>
-<li><strong>CITATION</strong> : Emon MA, Domingo-Fernández D, Hoyt CT, Hofmann-Apitius M. (2020) PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures BMC Bioinformatics, 21 (1) 231. doi:10.1186/s12859-020-03568-5. PMID 32503412 </li>
-<li><strong>JOURNAL_INFO</strong> : BMC bioinformatics ; BMC Bioinformatics ; 2020 ; 21 ; 1 ; 231 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/32503412">32503412</a> </li>
-</ul>
-<h2 id="priority-index">Priority index</h2>
-<ul>
-<li><strong>NAME</strong> : Priority index </li>
-<li><strong>SHORT NAME</strong> : Priority index </li>
-<li><strong>URL</strong> : <a href="http://pi.well.ox.ac.uk:3010/">http://pi.well.ox.ac.uk:3010/</a> </li>
-<li><strong>FULL NAME</strong> : Priority index </li>
-<li><strong>DESCRIPTION</strong> : A Comprehensive Resource for Genetic Targets in Immune-Mediated Disease </li>
-<li><strong>TITLE</strong> : A genetics-led approach defines the drug target landscape of 30 immune-related traits </li>
-<li><strong>ABSTRACT</strong> : Most candidate drugs currently fail later-stage clinical trials, largely due to poor prediction of efficacy on early target selection1. Drug targets with genetic support are more likely to be therapeutically valid2,3, but the translational use of genome-scale data such as from genome-wide association studies for drug target discovery in complex diseases remains challenging4-6. Here, we show that integration of functional genomic and immune-related annotations, together with knowledge of network connectivity, maximizes the informativeness of genetics for target validation, defining the target prioritization landscape for 30 immune traits at the gene and pathway level. We demonstrate how our genetics-led drug target prioritization approach (the priority index) successfully identifies current therapeutics, predicts activity in high-throughput cellular screens (including L1000, CRISPR, mutagenesis and patient-derived cell assays), enables prioritization of under-explored targets and allows for determination of target-level trait relationships. The priority index is an open-access, scalable system accelerating early-stage drug target selection for immune-mediated disease. </li>
-<li><strong>CITATION</strong> : Fang H, ULTRA-DD Consortium, De Wolf H, Knezevic B, ...&amp;, Knight JC. (2019) A genetics-led approach defines the drug target landscape of 30 immune-related traits Nat. Genet., 51 (7) 1082-1091. doi:10.1038/s41588-019-0456-1. PMID 31253980 </li>
-<li><strong>JOURNAL_INFO</strong> : Nature genetics ; Nat. Genet. ; 2019 ; 51 ; 7 ; 1082-1091 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/31253980">31253980</a> </li>
-</ul>
-<h2 id="trans-phar">Trans-Phar</h2>
-<ul>
-<li><strong>NAME</strong> : Trans-Phar </li>
-<li><strong>SHORT NAME</strong> : Trans-Phar </li>
-<li><strong>URL</strong> : <a href="https://github.com/konumat/Trans-Phar">https://github.com/konumat/Trans-Phar</a> </li>
-<li><strong>FULL NAME</strong> : integration of Transcriptome-wide association study and Pharmacological database </li>
-<li><strong>DESCRIPTION</strong> : This software achieves in silico screening of chemical compounds, which have inverse effects in expression profiles compared with genetically regulated gene expression of common diseases, from large-scale pharmacological database (Connectivity Map [CMap] L1000 library). </li>
-<li><strong>TITLE</strong> : Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates </li>
-<li><strong>ABSTRACT</strong> : Approaches toward new therapeutics using disease genomics, such as genome-wide association study (GWAS), are anticipated. Here, we developed Trans-Phar [integration of transcriptome-wide association study (TWAS) and pharmacological database], achieving in silico screening of compounds from a large-scale pharmacological database (L1000 Connectivity Map), which have inverse expression profiles compared with tissue-specific genetically regulated gene expression. Firstly we confirmed the statistical robustness by the application of the null GWAS data and enrichment in the true-positive drug-disease relationships by the application of UK-Biobank GWAS summary statistics in broad disease categories, then we applied the GWAS summary statistics of large-scale European meta-analysis (17 traits; naverage = 201 849) and the hospitalized COVID-19 (n = 900 687), which has urgent need for drug development. We detected potential therapeutic compounds as well as anisomycin in schizophrenia (false discovery rate (FDR)-q = 0.056) and verapamil in hospitalized COVID-19 (FDR-q = 0.068) as top-associated compounds. This approach could be effective in disease genomics-driven drug development. </li>
-<li><strong>CITATION</strong> : Konuma T, Ogawa K, Okada Y. (2021) Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates Hum. Mol. Genet., 30 (3-4) 294-304. doi:10.1093/hmg/ddab049. PMID 33577681 </li>
-<li><strong>JOURNAL_INFO</strong> : Human molecular genetics ; Hum. Mol. Genet. ; 2021 ; 30 ; 3-4 ; 294-304 </li>
-<li><strong>PUBMED_LINK</strong> : <a href="https://pubmed.ncbi.nlm.nih.gov/33577681">33577681</a> </li>
-</ul>
+
+
+</div>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="drug-targetor" class="catalog-entry-card__title">DRUG TARGETOR</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/30517594">30517594</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">This website harnesses results from genome-wide association studies (GWAS), and drug bioactivity data, to prioritize drugs and targets for a given phenotype. Drug Targetor networks are constructed using genetically scored drugs and genes, connected by the type of drug-target or drug-gene interaction</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://drugtargetor.com/index_v1.21.html">https://drugtargetor.com/index_v1.21.html</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Gaspar HA, Hübel C, Breen G. (2019) Drug Targetor: a web interface to investigate the human druggome for over 500 phenotypes. Bioinformatics, 35 (14) 2515-2517. doi:10.1093/bioinformatics/bty982. PMID 30517594</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-1" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">SUMMARY: Results from hundreds of genome-wide association studies (GWAS) are now freely available and offer a catalogue of the association between phenotypes across medicine with variants in the genome. With the aim of using this data to better understand therapeutic mechanisms, we have developed Drug Targetor, a web interface that allows the generation and exploration of drug-target networks of hundreds of phenotypes using GWAS data. Drug Targetor networks consist of drug and target nodes ordered by genetic association and connected by drug-target or drug-gene relationship. We show that Drug Targetor can help prioritize drugs, targets and drug-target interactions for a specific phenotype based on genetic evidence. AVAILABILITY AND IMPLEMENTATION: Drug Targetor v1.21 is a web application freely available online at drugtargetor.com and under MIT licence. The source code can be found at https://github.com/hagax8/drugtargetor. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</div>
+    <label for="catalog-col-abstract-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1093/bioinformatics/bty982</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="grep" class="catalog-entry-card__title">GREP</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/30859178">30859178</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Genome for REPositioning drugs</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">GREP can quantify an enrichment of the user-defined set of genes in the target of clinical indication categories and capture potentially repositionable drugs targeting the gene set. Both can be run in a few seconds!</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/saorisakaue/GREP">https://github.com/saorisakaue/GREP</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">GREP: genome for REPositioning drugs.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Sakaue S, Okada Y. (2019) GREP: genome for REPositioning drugs. Bioinformatics, 35 (19) 3821-3823. doi:10.1093/bioinformatics/btz166. PMID 30859178</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">SUMMARY: Making use of accumulated genetic knowledge for clinical practice is our next goal in human genetics. Here we introduce GREP (Genome for REPositioning drugs), a standalone python software to quantify an enrichment of the user-defined set of genes in the target of clinical indication categories and to capture potentially repositionable drugs targeting the gene set. We show that genes identified by the large-scale genome-wide association studies were robustly enriched in the approved drugs to treat the trait of interest. This enrichment analysis was also highly applicable to other sets of biological genes such as those identified by gene expression studies and genes somatically mutated in cancers. This software should accelerate investigators to reposition drugs to other indications with the guidance of known genomics. AVAILABILITY AND IMPLEMENTATION: GREP is available at https://github.com/saorisakaue/GREP as a python source code. SUPPLEMENTARY INFORMATION: Supplementary data are available at Bioinformatics online.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1093/bioinformatics/btz166</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="guideline-namba" class="catalog-entry-card__title">Guideline-Namba</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/36778001">36778001</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI)</div>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Namba S, Konuma T, Wu KH, Zhou W, ...&amp;, Okada Y. (2022) A practical guideline of genomics-driven drug discovery in the era of global biobank meta-analysis. Cell Genom, 2 (10) 100190. doi:10.1016/j.xgen.2022.100190. PMID 36778001</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genomics-driven drug discovery is indispensable for accelerating the development of novel therapeutic targets. However, the drug discovery framework based on evidence from genome-wide association studies (GWASs) has not been established, especially for cross-population GWAS meta-analysis. Here, we introduce a practical guideline for genomics-driven drug discovery for cross-population meta-analysis, as lessons from the Global Biobank Meta-analysis Initiative (GBMI). Our drug discovery framework encompassed three methodologies and was applied to the 13 common diseases targeted by GBMI (N mean = 1,329,242). Individual methodologies complementarily prioritized drugs and drug targets, which were systematically validated by referring previously known drug-disease relationships. Integration of the three methodologies provided a comprehensive catalog of candidate drugs for repositioning, nominating promising drug candidates targeting the genes involved in the coagulation process for venous thromboembolism and the interleukin-4 and interleukin-13 signaling pathway for gout. Our study highlighted key factors for successful genomics-driven drug discovery using cross-population meta-analyses.</div>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.xgen.2022.100190</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="open-targets-genetics" class="catalog-entry-card__title">Open Targets Genetics</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/34711957">34711957</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Open Targets Genetics is a comprehensive tool highlighting variant-centric statistical evidence to allow both prioritisation of candidate causal variants at trait-associated loci and identification of potential drug targets.</div>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://genetics.opentargets.org/">https://genetics.opentargets.org/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Mountjoy E, Schmidt EM, Carmona M, Schwartzentruber J, ...&amp;, Ghoussaini M. (2021) An open approach to systematically prioritize causal variants and genes at all published human GWAS trait-associated loci. Nat Genet, 53 (11) 1527-1533. doi:10.1038/s41588-021-00945-5. PMID 34711957</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Genome-wide association studies (GWASs) have identified many variants associated with complex traits, but identifying the causal gene(s) is a major challenge. In the present study, we present an open resource that provides systematic fine mapping and gene prioritization across 133,441 published human GWAS loci. We integrate genetics (GWAS Catalog and UK Biobank) with transcriptomic, proteomic and epigenomic data, including systematic disease-disease and disease-molecular trait colocalization results across 92 cell types and tissues. We identify 729 loci fine mapped to a single-coding causal variant and colocalized with a single gene. We trained a machine-learning model using the fine-mapped genetics and functional genomics data and 445 gold-standard curated GWAS loci to distinguish causal genes from neighboring genes, outperforming a naive distance-based model. Our prioritized genes were enriched for known approved drug targets (odds ratio = 8.1, 95% confidence interval = 5.7, 11.5). These results are publicly available through a web portal ( http://genetics.opentargets.org ), enabling users to easily prioritize genes at disease-associated loci and assess their potential as drug targets.</div>
+    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-021-00945-5</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="pes" class="catalog-entry-card__title">PES</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/31964963">31964963</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Pharmagenic_enrichment_score</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">a framework to quantify an individual’s common variant enrichment in clinically actionable systems responsive to existing drugs.</div>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Pharmacological enrichment of polygenic risk for precision medicine in complex disorders.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Reay WR, Atkins JR, Carr VJ, Green MJ, ...&amp;, Cairns MJ. (2020) Pharmacological enrichment of polygenic risk for precision medicine in complex disorders. Sci Rep, 10 (1) 879. doi:10.1038/s41598-020-57795-0. PMID 31964963</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Individuals with complex disorders typically have a heritable burden of common variation that can be expressed as a polygenic risk score (PRS). While PRS has some predictive utility, it lacks the molecular specificity to be directly informative for clinical interventions. We therefore sought to develop a framework to quantify an individual&#x27;s common variant enrichment in clinically actionable systems responsive to existing drugs. This was achieved with a metric designated the pharmagenic enrichment score (PES), which we demonstrate for individual SNP profiles in a cohort of cases with schizophrenia. A large proportion of these had elevated PES in one or more of eight clinically actionable gene-sets enriched with schizophrenia associated common variation. Notable candidates targeting these pathways included vitamins, antioxidants, insulin modulating agents, and cholinergic drugs. Interestingly, elevated PES was also observed in individuals with otherwise low common variant burden. The biological saliency of PES profiles were observed directly through their impact on gene expression in a subset of the cohort with matched transcriptomic data, supporting our assertion that this gene-set orientated approach could integrate an individual&#x27;s common variant risk to inform personalised interventions, including drug repositioning, for complex disorders such as schizophrenia.</div>
+    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41598-020-57795-0</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="ps4dr" class="catalog-entry-card__title">PS4DR</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/32503412">32503412</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Pathway Signatures for Drug Repositioning</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">This package comprises a modular workflow designed to identify drug repositioning candidates using multi-omics data sets. A schematic figure of the workflow is presented below. The R scripts necessary to run the MSDRP pipeline are located in the R directory.</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/ps4dr/ps4dr">https://github.com/ps4dr/ps4dr</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Emon MA, Domingo-Fernández D, Hoyt CT, Hofmann-Apitius M. (2020) PS4DR: a multimodal workflow for identification and prioritization of drugs based on pathway signatures. BMC Bioinformatics, 21 (1) 231. doi:10.1186/s12859-020-03568-5. PMID 32503412</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">BACKGROUND: During the last decade, there has been a surge towards computational drug repositioning owing to constantly increasing -omics data in the biomedical research field. While numerous existing methods focus on the integration of heterogeneous data to propose candidate drugs, it is still challenging to substantiate their results with mechanistic insights of these candidate drugs. Therefore, there is a need for more innovative and efficient methods which can enable better integration of data and knowledge for drug repositioning. RESULTS: Here, we present a customizable workflow (PS4DR) which not only integrates high-throughput data such as genome-wide association study (GWAS) data and gene expression signatures from disease and drug perturbations but also takes pathway knowledge into consideration to predict drug candidates for repositioning. We have collected and integrated publicly available GWAS data and gene expression signatures for several diseases and hundreds of FDA-approved drugs or those under clinical trial in this study. Additionally, different pathway databases were used for mechanistic knowledge integration in the workflow. Using this systematic consolidation of data and knowledge, the workflow computes pathway signatures that assist in the prediction of new indications for approved and investigational drugs. CONCLUSION: We showcase PS4DR with applications demonstrating how this tool can be used for repositioning and identifying new drugs as well as proposing drugs that can simulate disease dysregulations. We were able to validate our workflow by demonstrating its capability to predict FDA-approved drugs for their known indications for several diseases. Further, PS4DR returned many potential drug candidates for repositioning that were backed up by epidemiological evidence extracted from scientific literature. Source code is freely available at https://github.com/ps4dr/ps4dr.</div>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1186/s12859-020-03568-5</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="priority-index" class="catalog-entry-card__title">Priority index</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/31253980">31253980</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">A Comprehensive Resource for Genetic Targets in Immune-Mediated Disease</div>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="http://pi.well.ox.ac.uk:3010/">http://pi.well.ox.ac.uk:3010/</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">A genetics-led approach defines the drug target landscape of 30 immune-related traits.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Fang H, ULTRA-DD Consortium, De Wolf H, Knezevic B, ...&amp;, Knight JC. (2019) A genetics-led approach defines the drug target landscape of 30 immune-related traits. Nat Genet, 51 (7) 1082-1091. doi:10.1038/s41588-019-0456-1. PMID 31253980</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Most candidate drugs currently fail later-stage clinical trials, largely due to poor prediction of efficacy on early target selection1. Drug targets with genetic support are more likely to be therapeutically valid2,3, but the translational use of genome-scale data such as from genome-wide association studies for drug target discovery in complex diseases remains challenging4-6. Here, we show that integration of functional genomic and immune-related annotations, together with knowledge of network connectivity, maximizes the informativeness of genetics for target validation, defining the target prioritization landscape for 30 immune traits at the gene and pathway level. We demonstrate how our genetics-led drug target prioritization approach (the priority index) successfully identifies current therapeutics, predicts activity in high-throughput cellular screens (including L1000, CRISPR, mutagenesis and patient-derived cell assays), enables prioritization of under-explored targets and allows for determination of target-level trait relationships. The priority index is an open-access, scalable system accelerating early-stage drug target selection for immune-mediated disease.</div>
+    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-019-0456-1</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="trans-phar" class="catalog-entry-card__title">Trans-Phar</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/33577681">33577681</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">integration of Transcriptome-wide association study and Pharmacological database</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">This software achieves in silico screening of chemical compounds, which have inverse effects in expression profiles compared with genetically regulated gene expression of common diseases, from large-scale pharmacological database (Connectivity Map [CMap] L1000 library).</div>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/konumat/Trans-Phar">https://github.com/konumat/Trans-Phar</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Konuma T, Ogawa K, Okada Y. (2021) Integration of genetically regulated gene expression and pharmacological library provides therapeutic drug candidates. Hum Mol Genet, 30 (3-4) 294-304. doi:10.1093/hmg/ddab049. PMID 33577681</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Approaches toward new therapeutics using disease genomics, such as genome-wide association study (GWAS), are anticipated. Here, we developed Trans-Phar [integration of transcriptome-wide association study (TWAS) and pharmacological database], achieving in silico screening of compounds from a large-scale pharmacological database (L1000 Connectivity Map), which have inverse expression profiles compared with tissue-specific genetically regulated gene expression. Firstly we confirmed the statistical robustness by the application of the null GWAS data and enrichment in the true-positive drug-disease relationships by the application of UK-Biobank GWAS summary statistics in broad disease categories, then we applied the GWAS summary statistics of large-scale European meta-analysis (17 traits; naverage = 201 849) and the hospitalized COVID-19 (n = 900 687), which has urgent need for drug development. We detected potential therapeutic compounds as well as anisomycin in schizophrenia (false discovery rate (FDR)-q = 0.056) and verapamil in hospitalized COVID-19 (FDR-q = 0.068) as top-associated compounds. This approach could be effective in disease genomics-driven drug development.</div>
+    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1093/hmg/ddab049</div>
+  </section>
+  </div>
+</article>
 
 
 
@@ -2708,15 +2343,20 @@
 
 
 
+  
+  
 
 
 
 
+  
 
-                
-              </article>
-            </div>
-          
+
+
+      
+    </article>
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -2747,6 +2387,19 @@
   
 </div>
       
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Cloufield/CTGCatalog" target="_blank" rel="noopener" title="CTGCatalog on GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -2757,16 +2410,15 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.top", "navigation.path", "navigation.prune", "toc.follow", "search.highlight", "search.suggest", "search.share"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
       
         <script src="../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
         <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
       
