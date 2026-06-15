@@ -1,4 +1,6 @@
 2026-06-15:
+  - "Added 6 pathology foundation models to **AI** > **Imaging**: CHIEF (Wang PMID 39232164, Nature 2024), Virchow (Vorontsov PMID 39080966, Nat Med 2024), CONCH (Lu PMID 38504017, Nat Med 2024), KEEP (Zhou PMID 41720085, Cancer Cell 2026), mSTAR (Xu PMID 41387679, Nat Commun 2025), PathOrchestra (Yan PMID 41258399, npj Digit Med 2025)"
+  - "Added 2 bioinformatics benchmarks to **AI** > **Benchmark**: DNA Foundation Benchmark (Feng PMID 41315262, Nat Commun 2025), BixBench (Mitchener arXiv 2025, bioinformatics agent benchmark)"
   - "Added 3 pathology foundation models to **AI** > **Imaging**: TITAN (Ding PMID 41193692, Nat Med 2025), Prov-GigaPath (Xu PMID 38778098, Nature 2024), UNI (Chen PMID 38504018, Nat Med 2024)"
   - "Created 7 new **AI** categories: Drug discovery, Protein, Imaging, Single cell, Clinical EHR, Multimodal, Benchmark — with 7 representative entries"
   - "Added 4 papers to **AI** > **Auto research**: AI Scientist (Lu PMID 41882133, Nature 2026), Denario (Villaescusa-Navarro arXiv 2025), CodeScientist (Jansen ACL 2025), AutoResearchClaw (AIMING Lab arXiv 2026)"

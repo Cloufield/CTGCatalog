@@ -2,6 +2,7 @@
   "NAME": "ENLIGHT-DeepPT",
   "SECTION": "AI",
   "TOPIC": "Imaging",
+  "CATEGORY": "跨模态预测",
   "TYPE": "Tools",
   "SHORT NAME": "ENLIGHT-DeepPT",
   "FULL NAME": "ENLIGHT-DeepPT — Deep-Learning Framework for Cancer Treatment Response from Histopathology Images",

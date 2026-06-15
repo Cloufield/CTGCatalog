@@ -2,6 +2,7 @@
   "NAME": "Prov-GigaPath",
   "SECTION": "AI",
   "TOPIC": "Imaging",
+  "CATEGORY": "全切片模型",
   "TYPE": "Tools",
   "SHORT NAME": "Prov-GigaPath",
   "FULL NAME": "Prov-GigaPath — Whole-Slide Foundation Model for Digital Pathology",

@@ -211,6 +211,7 @@ nav:
     - AI: 
       - AI: AI.md 
       - Agent: AI_Agent.md
+      - Auto_research: AI_Auto_research.md
       - Coding: AI_Coding.md
       - GWAS: AI_GWAS.md
       - Genomic_language_model: AI_Genomic_language_model.md

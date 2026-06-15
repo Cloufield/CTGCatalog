@@ -1,0 +1,17 @@
+{
+  "NAME": "BixBench",
+  "SECTION": "AI",
+  "TOPIC": "Benchmark",
+  "TYPE": "Review",
+  "SHORT NAME": "BixBench",
+  "FULL NAME": "BixBench — Comprehensive Benchmark for LLM-based Agents in Computational Biology",
+  "DOI": "10.48550/arXiv.2503.00096",
+  "URL": "https://github.com/Future-House/BixBench",
+  "DESCRIPTION": "BixBench by FutureHouse and ScienceMachine is a benchmark designed to evaluate AI agents on real-world bioinformatics tasks. Features 61 real-world analytical scenarios with 205 associated questions, supporting both open-answer and multiple-choice evaluation. Tests agents on data analysis, insight generation, and result interpretation in bioinformatics. Current frontier models achieve only ~21% accuracy, highlighting significant room for improvement.",
+  "MANUAL_CITATION": "Mitchener L, Laurent J, Wellawatte G, et al. (2025) BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology. arXiv:2503.00096.",
+  "CITATION": "Mitchener L, Laurent J, Wellawatte G, et al. (2025) BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology. arXiv:2503.00096.",
+  "FIRST_AUTHOR": "Mitchener L",
+  "TAGS": ["AI", "Benchmark", "Bioinformatics", "LLM Agent", "Computational Biology", "FutureHouse"],
+  "ABSTRACT": "Artificial intelligence (AI) is changing scientific research at a rapid pace and is beginning to enable the automation of complex analytical tasks. One of the most promising fields for AI-driven automation is bioinformatics, where data-focused research lends itself to purely computational analysis. We introduce BixBench, a benchmark designed to evaluate AI agents on real-world bioinformatics tasks. BixBench challenges AI models with open-ended analytical research scenarios, requiring them to analyze data, generate insights, and interpret results autonomously. The benchmark comprises over 50 real-world scenarios with nearly 300 associated open-answer questions.",
+  "_meta": {"source_sheet": "AI"}
+}
