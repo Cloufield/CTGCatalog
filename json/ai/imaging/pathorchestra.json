@@ -2,7 +2,7 @@
   "NAME": "PathOrchestra",
   "SECTION": "AI",
   "TOPIC": "Imaging",
-  "CATEGORY": "全切片模型",
+  "CATEGORY": "WSI Model",
   "TYPE": "Tools",
   "SHORT NAME": "PathOrchestra",
   "FULL NAME": "PathOrchestra — Comprehensive Pathology Foundation Model with 100+ Clinical-Grade Tasks",

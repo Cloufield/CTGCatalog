@@ -2,7 +2,7 @@
   "NAME": "CONCH",
   "SECTION": "AI",
   "TOPIC": "Imaging",
-  "CATEGORY": "通用特征提取",
+  "CATEGORY": "General Feature Extraction",
   "TYPE": "Tools",
   "SHORT NAME": "CONCH",
   "FULL NAME": "CONCH — Contrastive learning from Captions for Histopathology (Vision-Language Foundation Model)",

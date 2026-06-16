@@ -2,7 +2,7 @@
   "NAME": "mSTAR",
   "SECTION": "AI",
   "TOPIC": "Imaging",
-  "CATEGORY": "全切片模型",
+  "CATEGORY": "WSI Model",
   "TYPE": "Tools",
   "SHORT NAME": "mSTAR",
   "FULL NAME": "mSTAR — Multimodal Self-TAught Pretraining (WSI + Reports + Gene Expression)",
