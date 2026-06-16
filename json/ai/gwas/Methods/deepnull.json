@@ -11,7 +11,14 @@
   "URL": "",
   "DESCRIPTION": "DeepNull is a method that identifies and adjusts for non-linear and interactive covariate effects in GWAS using a deep neural network. It maintains tight control of type I error while increasing statistical power by up to 20% in the presence of non-linear covariate effects. Published in Nature Communications.",
   "MANUAL_CITATION": "McCaw ZR, Colthurst T, Yun T, et al. (2022) DeepNull models non-linear covariate effects to improve phenotypic prediction and association power. Nat Commun. 13(1):241. doi:10.1038/s41467-021-27930-0. PMID 35017556",
-  "TAGS": ["AI", "GWAS", "Deep Learning", "Covariate Adjustment", "Statistical Power", "Nat Commun"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Deep Learning",
+    "Covariate Adjustment",
+    "Statistical Power",
+    "Nat Commun"
+  ],
   "TITLE": "DeepNull models non-linear covariate effects to improve phenotypic prediction and association power.",
   "ISO": "Nat Commun",
   "JOURNAL": "Nature Communications",
@@ -24,5 +31,6 @@
   "FIRST_AUTHOR": "McCaw ZR",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Methods"
 }

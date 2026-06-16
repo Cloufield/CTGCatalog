@@ -1,0 +1,21 @@
+{
+  "NAME": "BRFSS",
+  "SECTION": "AI",
+  "TOPIC": "Datasets",
+  "SUBTOPIC": "Health Survey",
+  "TYPE": "Dataset",
+  "KEYWORDS": "BRFSS, CDC, behavioral risk, telephone survey, public health, chronic disease, risk factors, US surveillance",
+  "SHORT NAME": "BRFSS",
+  "FULL NAME": "Behavioral Risk Factor Surveillance System",
+  "URL": "https://www.cdc.gov/brfss/",
+  "DESCRIPTION": "BRFSS (Behavioral Risk Factor Surveillance System) is the nation's premier system of health-related telephone surveys conducted by the CDC and state health departments. Established in 1984, it collects state-level data on US adult residents regarding health-related risk behaviors, chronic health conditions, and use of preventive services. Conducts over 400,000 interviews annually across all 50 states, DC, and US territories. Topics include: high blood pressure, cholesterol, diabetes, asthma, BMI/obesity, smoking/tobacco use, alcohol consumption, physical activity, diet, cancer screening (breast, cervical, colorectal), immunizations, HIV/AIDS, mental health, and healthcare access. Data includes demographic variables (age, sex, race/ethnicity, income, education) and survey weights for population-representative estimates. Completely free, publicly available on the CDC website — no registration or data use agreement required. Available in SAS, ASCII, and CSV formats. Often used alongside NHANES for complementary population health analyses (BRFSS = larger sample, broader coverage; NHANES = deeper phenotyping with physical exams and lab measurements).",
+  "MANUAL_CITATION": "CDC. (1984-present) Behavioral Risk Factor Surveillance System Survey Data. Atlanta, GA: US Department of Health and Human Services, Centers for Disease Control and Prevention.",
+  "CITATION": "CDC. Behavioral Risk Factor Surveillance System Survey Data. Atlanta, GA: US Department of Health and Human Services, Centers for Disease Control and Prevention. https://www.cdc.gov/brfss/",
+  "YEAR": "1984",
+  "FIRST_AUTHOR": "CDC",
+  "Authors": "CDC",
+  "TAGS": ["AI", "Datasets", "Health Survey", "Behavioral Risk", "CDC", "Public Health", "Epidemiology", "US Representative"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

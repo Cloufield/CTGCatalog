@@ -11,7 +11,16 @@
   "URL": "",
   "DESCRIPTION": "MixEHR-SAGE is a PheCode-guided multi-modal topic model that integrates diagnoses, procedures, and medications from EHR to enhance phenotyping for GWAS. By combining expert-informed priors with probabilistic inference, it identifies over 1000 interpretable phenotype topics from UK Biobank data and improves disease incidence prediction and GWAS discovery. Published in Briefings in Bioinformatics.",
   "MANUAL_CITATION": "Yang Z, Song Z, Zabad S, Legault MA, Li Y. (2026) PheCode-guided multi-modal topic modeling of electronic health records improves disease incidence prediction and GWAS discovery from UK Biobank. Brief Bioinform. 27(1):bbag030. doi:10.1093/bib/bbag030. PMID 41627341",
-  "TAGS": ["AI", "GWAS", "Topic Modeling", "PheWAS", "EHR", "Phenotyping", "UK Biobank", "Brief Bioinform"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Topic Modeling",
+    "PheWAS",
+    "EHR",
+    "Phenotyping",
+    "UK Biobank",
+    "Brief Bioinform"
+  ],
   "TITLE": "PheCode-guided multi-modal topic modeling of electronic health records improves disease incidence prediction and GWAS discovery from UK Biobank.",
   "ISO": "Brief Bioinform",
   "JOURNAL": "Briefings in Bioinformatics",
@@ -24,5 +33,6 @@
   "FIRST_AUTHOR": "Yang Z",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Phenotyping"
 }

@@ -1,3 +1,10 @@
+2026-06-16:
+  - "Restructured **AI** > **GWAS** into 5 subcategories: **Imaging** (7 entries), **Phenotyping** (3), **Methods** (4), **Post-GWAS** (1), **Review** (2)"
+  - "Added 4 AI imaging→GWAS methods to **AI** > **GWAS** > **Imaging**: ML Liver Fat (Haas PMID 34957434, Cell Genomics 2021), DL LV Mass (Khurshid PMID 36944631, Nat Commun 2023), DL Organ MRI (Liu PMID 34128465, eLife 2021), DL LVRWT (Ning PMID 38036550, Nat Commun 2023)"
+  - "Added transferGWAS (Kirchler PMID 35640976, Bioinformatics 2022) — deep transfer learning GWAS on full medical images — to **AI** > **GWAS** > **Imaging**"
+  - "Added iGWAS (Xie PMID 38728357, PLOS Genetics 2024) — self-supervised deep phenotyping of retinal fundus images for GWAS — to **AI** > **GWAS** > **Imaging**"
+  - "Added 3 more entries to **AI** > **Datasets**: PTB-XL (Wagner Sci Data 2020) — largest public 12-lead ECG dataset, zero-barrier open access; BRFSS (CDC, 1984–present) — behavioral risk factor telephone survey, 400K+/yr, free download; eICU-CRD (Pollard PMID 30204154, Sci Data 2018) — multi-center US ICU database, free credentialed access (same as MIMIC)"
+  - "Created **AI** > **Datasets** category with 2 entries: MIMIC-IV (Johnson PMID 36596836, Sci Data 2023) — ICU clinical EHR database from Beth Israel Deaconess; NHANES (CDC, 1999–present) — US national health and nutrition survey with 1,600+ XPT files covering demographics, questionnaires, exams, and lab biomarkers"
 2026-06-15:
   - "Added 6 pathology foundation models to **AI** > **Imaging**: CHIEF (Wang PMID 39232164, Nature 2024), Virchow (Vorontsov PMID 39080966, Nat Med 2024), CONCH (Lu PMID 38504017, Nat Med 2024), KEEP (Zhou PMID 41720085, Cancer Cell 2026), mSTAR (Xu PMID 41387679, Nat Commun 2025), PathOrchestra (Yan PMID 41258399, npj Digit Med 2025)"
   - "Added 2 bioinformatics benchmarks to **AI** > **Benchmark**: DNA Foundation Benchmark (Feng PMID 41315262, Nat Commun 2025), BixBench (Mitchener arXiv 2025, bioinformatics agent benchmark)"

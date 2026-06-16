@@ -1,0 +1,21 @@
+{
+  "NAME": "NHANES",
+  "SECTION": "AI",
+  "TOPIC": "Datasets",
+  "SUBTOPIC": "Health Survey",
+  "TYPE": "Dataset",
+  "KEYWORDS": "NHANES, CDC, health survey, biomarkers, nutrition, demographics, epidemiology, US representative, public health",
+  "SHORT NAME": "NHANES",
+  "FULL NAME": "National Health and Nutrition Examination Survey",
+  "URL": "https://www.cdc.gov/nchs/nhanes/",
+  "DESCRIPTION": "NHANES is a program of studies by the US CDC designed to assess the health and nutritional status of adults and children in the United States. It combines interviews, physical examinations, and laboratory tests across 2-year continuous cycles (1999-present). The survey includes: demographics (age, sex, race/ethnicity, income); ~40+ questionnaire components (diabetes DIQ, cardiovascular CDQ, depression PHQ-9/DPQ, sleep SLQ, smoking SMQ, alcohol ALQ, kidney KIQ, physical function PFQ, osteoporosis OSQ, weight history WHQ); physical examinations (anthropometry BMX, blood pressure BPX, DXA bone density, spirometry SPX, hearing AUXAR, vision VIX, accelerometry PAXRAW); and ~50+ laboratory biomarkers (comprehensive metabolic panel BIOPRO, complete blood count CBC, HbA1c GHB, glucose GLU, insulin INS, lipids TCHOL/HDL, CRP/HSCRP, vitamin D VID, ferritin FERTIN, testosterone TST, hepatitis/HIV/HPV serology, PFAS chemicals, heavy metals, cotinine). Dietary intake data includes 2-day 24-hour recall (DR1IFF/DR2IFF). NHANES is multi-ethnic and US-representative with survey weights. Total: ~1,600 SAS XPT files, ~5 GB. Available at no cost, no registration required. Widely used for epidemiological research, biomarker GWAS replication, and cross-population comparisons with biobank data (UKBB, BBJ).",
+  "MANUAL_CITATION": "CDC/National Center for Health Statistics. (1999-2023) National Health and Nutrition Examination Survey Data. Hyattsville, MD: US Department of Health and Human Services, CDC.",
+  "CITATION": "CDC/National Center for Health Statistics. National Health and Nutrition Examination Survey Data. Hyattsville, MD: US Department of Health and Human Services, Centers for Disease Control and Prevention. https://www.cdc.gov/nchs/nhanes/",
+  "YEAR": "1999",
+  "FIRST_AUTHOR": "CDC",
+  "Authors": "CDC/National Center for Health Statistics",
+  "TAGS": ["AI", "Datasets", "Health Survey", "Biomarkers", "Nutrition", "Epidemiology", "CDC", "US Representative", "Demographics", "Public Health"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

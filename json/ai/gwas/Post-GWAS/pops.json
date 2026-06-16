@@ -11,7 +11,14 @@
   "URL": "https://github.com/FinucaneLab/pops",
   "DESCRIPTION": "PoPS (Polygenic Priority Score) is a method that learns trait-relevant gene features, such as cell-type-specific expression, to prioritize genes at GWAS loci. It leverages polygenic enrichments across multiple gene features to predict causal genes underlying complex traits and diseases. Published in Nature Genetics.",
   "MANUAL_CITATION": "Weeks EM, Ulirsch JC, Cheng NY, et al. (2023) Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases. Nat Genet. 55(8):1267-1276. doi:10.1038/s41588-023-01443-6. PMID 37443254",
-  "TAGS": ["AI", "GWAS", "Gene Prioritization", "Machine Learning", "Polygenic", "Nat Genet"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Gene Prioritization",
+    "Machine Learning",
+    "Polygenic",
+    "Nat Genet"
+  ],
   "TITLE": "Leveraging polygenic enrichments of gene features to predict genes underlying complex traits and diseases.",
   "ISO": "Nat Genet",
   "JOURNAL": "Nature Genetics",
@@ -24,5 +31,6 @@
   "FIRST_AUTHOR": "Weeks EM",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Post-GWAS"
 }

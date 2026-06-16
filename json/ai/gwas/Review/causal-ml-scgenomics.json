@@ -11,7 +11,14 @@
   "URL": "",
   "DESCRIPTION": "A Perspective from Nature Genetics delineating the application of causal machine learning to single-cell genomics. Discusses causal models, challenges in inferring causative roles of genes from single-cell omics data combined with perturbation screens, and the potential for integrating causal ML with GWAS to understand disease mechanisms at single-cell resolution.",
   "MANUAL_CITATION": "Tejada-Lapuerta A, Bertin P, Bauer S, Aliee H, Bengio Y, Theis FJ. (2025) Causal machine learning for single-cell genomics. Nat Genet. 57(4):797-808. doi:10.1038/s41588-025-02124-2. PMID 40164735",
-  "TAGS": ["AI", "GWAS", "Causal ML", "Single Cell", "Machine Learning", "Nat Genet"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Causal ML",
+    "Single Cell",
+    "Machine Learning",
+    "Nat Genet"
+  ],
   "TITLE": "Causal machine learning for single-cell genomics.",
   "ISO": "Nat Genet",
   "JOURNAL": "Nature Genetics",
@@ -24,5 +31,6 @@
   "FIRST_AUTHOR": "Tejada-Lapuerta A",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Review"
 }

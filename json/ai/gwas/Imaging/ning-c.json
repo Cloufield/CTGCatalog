@@ -1,0 +1,31 @@
+{
+  "NAME": "Ning C",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "SUBTOPIC": "Imaging GWAS",
+  "TYPE": "Method",
+  "KEYWORDS": "deep learning, cardiac MRI, CNN, left ventricular wall thickness segmentation, hypertrophic cardiomyopathy, UK Biobank",
+  "SHORT NAME": "DL LVRWT GWAS",
+  "FULL NAME": "Genome-Wide Association Analysis of Left Ventricular Imaging-Derived Phenotypes Identifies 72 Risk Loci",
+  "URL": "",
+  "DESCRIPTION": "Built a CNN-based deep learning algorithm for automated segmentation of left ventricular myocardium from cardiac MRI, enabling precise calculation of 12 regional wall thickness (LVRWT) measurements in 42,194 UK Biobank participants. GWAS of these 12 CNN-derived LVRWT traits identified 72 significant genetic loci involved in heart development and contraction pathways. Mendelian randomization confirmed causal relationships with hypertrophic cardiomyopathy. The PRS of inferoseptal LVRWT enabled identification of high-risk individuals.",
+  "MANUAL_CITATION": "Ning C, Fan L, Jin M, et al. (2023) Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy. Nat Commun, 14:7900. doi:10.1038/s41467-023-43771-5.",
+  "CITATION": "Ning C, Fan L, Jin M, ...&, Miao X. (2023) Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy. Nat Commun, 14 (1) 7900. doi:10.1038/s41467-023-43771-5. PMID 38036550",
+  "PMID": 38036550,
+  "PMC ID": "PMC10689443",
+  "DOI": "10.1038/s41467-023-43771-5",
+  "TITLE": "Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature Communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "7900",
+  "FIRST_AUTHOR": "Ning C",
+  "Authors": "Ning C,Fan L,Jin M,Wang W,Hu Z,Cai Y,Chen L,Lu Z,Zhang M,Chen C,Li Y,Zhang F,Wang W,Liu Y,Chen S,Jiang Y,He C,Wang Z,Chen X,Li H,Li G,Ma Q,Geng H,Tian W,Zhang H,Liu B,Xia Q,Yang X,Liu Z,Li B,Zhu Y,Li X,Zhang S,Tian J,Miao X",
+  "ABSTRACT": "Left ventricular regional wall thickness (LVRWT) is an independent predictor of morbidity and mortality in cardiovascular diseases (CVDs). To identify specific genetic influences on individual LVRWT, we established a novel deep learning algorithm to calculate 12 LVRWTs accurately in 42,194 individuals from the UK Biobank with cardiac magnetic resonance (CMR) imaging. Genome-wide association studies of CMR-derived 12 LVRWTs identified 72 significant genetic loci associated with at least one LVRWT phenotype.",
+  "TAGS": ["AI", "GWAS", "Imaging", "Deep Learning", "Cardiac MRI", "Left Ventricular Wall", "Hypertrophic Cardiomyopathy", "UK Biobank"],
+  "_meta": {
+    "source_sheet": "GWAS"
+  }
+}

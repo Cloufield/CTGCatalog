@@ -1,0 +1,29 @@
+{
+  "NAME": "PTB-XL",
+  "SECTION": "AI",
+  "TOPIC": "Datasets",
+  "SUBTOPIC": "Physiological Signals",
+  "TYPE": "Dataset",
+  "KEYWORDS": "ECG, electrocardiography, 12-lead, cardiovascular, waveform, signal processing, PhysioNet",
+  "SHORT NAME": "PTB-XL",
+  "FULL NAME": "PTB-XL: A Large Publicly Available Electrocardiography Dataset",
+  "URL": "https://physionet.org/content/ptb-xl/",
+  "DESCRIPTION": "PTB-XL is the largest freely accessible clinical 12-lead ECG-waveform dataset, comprising 21,837 records from 18,885 patients of 10 seconds length. Annotated by up to two cardiologists with 71 SCP-ECG diagnostic, form, and rhythm statements organized into 5 superclasses (NORM, CD, MI, HYP, STTC) and 24 subclasses. Includes raw waveforms at 500Hz and downsampled 100Hz, plus rich metadata: demographics (age, sex, height, weight), signal quality annotations (noise, baseline drift, electrodes), and recommended stratified 10-fold cross-validation splits. Fully open access on PhysioNet — no registration or training required. Widely used as the standard benchmark for automated ECG interpretation, arrhythmia detection, and deep learning in cardiology.",
+  "MANUAL_CITATION": "Wagner P, Strodthoff N, Bousseljot RD, Kreiseler D, Lunze FI, Samek W, Schaeffter T. (2020) PTB-XL, a large publicly available electrocardiography dataset. Scientific Data, 7:154. doi:10.1038/s41597-020-0495-6.",
+  "CITATION": "Wagner P, Strodthoff N, Bousseljot RD, Kreiseler D, Lunze FI, Samek W, Schaeffter T. (2020) PTB-XL, a large publicly available electrocardiography dataset. Scientific Data, 7:154. doi:10.1038/s41597-020-0495-6.",
+  "DOI": "10.1038/s41597-020-0495-6",
+  "TITLE": "PTB-XL, a large publicly available electrocardiography dataset.",
+  "ISO": "Sci Data",
+  "JOURNAL": "Scientific Data",
+  "YEAR": "2020",
+  "VOLUME": "7",
+  "ISSUE": "1",
+  "PAGE": "154",
+  "FIRST_AUTHOR": "Wagner P",
+  "Authors": "Wagner P,Strodthoff N,Bousseljot RD,Kreiseler D,Lunze FI,Samek W,Schaeffter T",
+  "ABSTRACT": "Electrocardiography (ECG) is a key non-invasive diagnostic tool for cardiovascular diseases which is increasingly supported by algorithms based on machine learning. Major obstacles for the development of automatic ECG interpretation algorithms are both the lack of public datasets and well-defined benchmarking procedures to allow comparisons of different algorithms. To address these issues, we put forward PTB-XL, the to-date largest freely accessible clinical 12-lead ECG-waveform dataset comprising 21837 records from 18885 patients of 10 seconds length.",
+  "TAGS": ["AI", "Datasets", "ECG", "Cardiovascular", "Waveform", "PhysioNet", "Open Access", "Signal Processing"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

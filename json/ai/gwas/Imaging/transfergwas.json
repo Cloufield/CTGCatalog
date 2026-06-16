@@ -1,0 +1,30 @@
+{
+  "NAME": "transferGWAS",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "SUBTOPIC": "Imaging GWAS",
+  "TYPE": "Method",
+  "KEYWORDS": "deep transfer learning, pretrained CNN, ResNet, retinal fundus, whole-image GWAS, representation learning, UK Biobank",
+  "SHORT NAME": "transferGWAS",
+  "FULL NAME": "transferGWAS: GWAS of Images Using Deep Transfer Learning",
+  "URL": "https://github.com/mkirchler/transferGWAS/",
+  "DESCRIPTION": "transferGWAS performs GWAS directly on full medical images using deep transfer learning: (1) a pretrained CNN (ResNet-based architecture, pretrained on ImageNet) extracts feature embeddings from raw images; (2) these learned representations are used as quantitative phenotypes for genetic association testing. Applied to UK Biobank retinal fundus images, identified 60 genomic regions including 7 novel candidate loci for eye-related traits. First demonstration of direct GWAS on whole images without predefined phenotype engineering.",
+  "MANUAL_CITATION": "Kirchler M, Konigorski S, Norden M, Meltendorf C, Kloft M, Schurmann C, Lippert C. (2022) transferGWAS: GWAS of images using deep transfer learning. Bioinformatics, 38(14):3621-3628. doi:10.1093/bioinformatics/btac369.",
+  "CITATION": "Kirchler M, Konigorski S, Norden M, Meltendorf C, Kloft M, Schurmann C, Lippert C. (2022) transferGWAS: GWAS of images using deep transfer learning. Bioinformatics, 38(14):3621-3628. doi:10.1093/bioinformatics/btac369. PMID 35640976",
+  "PMID": 35640976,
+  "DOI": "10.1093/bioinformatics/btac369",
+  "TITLE": "transferGWAS: GWAS of images using deep transfer learning.",
+  "ISO": "Bioinformatics",
+  "JOURNAL": "Bioinformatics",
+  "YEAR": "2022",
+  "VOLUME": "38",
+  "ISSUE": "14",
+  "PAGE": "3621-3628",
+  "FIRST_AUTHOR": "Kirchler M",
+  "Authors": "Kirchler M,Konigorski S,Norden M,Meltendorf C,Kloft M,Schurmann C,Lippert C",
+  "ABSTRACT": "MOTIVATION: Medical images can provide rich information about diseases and their biology. However, investigating their association with genetic variation requires non-standard methods. We propose transferGWAS, a novel approach to perform genome-wide association studies directly on full medical images. First, we learn semantically meaningful representations of the images based on a transfer learning task, during which a deep neural network is trained on independent but similar data. Then, we perform genetic association tests with these representations. RESULTS: We validate the type I error rates and power of transferGWAS in simulation studies of synthetic images. Then we apply transferGWAS in a genome-wide association study of retinal fundus images from the UK Biobank. This first-of-a-kind GWAS of full imaging data yielded 60 genomic regions associated with retinal fundus images, of which 7 are novel candidate loci for eye-related traits and diseases.",
+  "TAGS": ["AI", "GWAS", "Imaging", "Transfer Learning", "Deep Learning", "Retinal Fundus", "Representation Learning"],
+  "_meta": {
+    "source_sheet": "GWAS"
+  }
+}

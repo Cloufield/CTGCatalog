@@ -3,15 +3,23 @@
   "SECTION": "AI",
   "TOPIC": "GWAS",
   "TYPE": "Tools",
+  "KEYWORDS": "deep learning, CNN, ImageNet transfer learning, cardiac MRI, thoracic aorta, image regression, UK Biobank",
   "SHORT NAME": "DL Aorta GWAS",
   "FULL NAME": "Deep Learning Enables Genetic Analysis of the Human Thoracic Aorta",
   "PMID": 34837083,
   "PMC ID": "PMC8758523",
   "DOI": "10.1038/s41588-021-00962-4",
   "URL": "",
-  "DESCRIPTION": "Deep learning model trained on 4.6 million cardiac MRI images from UK Biobank to evaluate ascending and descending thoracic aorta dimensions, followed by GWAS identifying 82 ascending and 47 descending aorta loci. Demonstrates DL-based image phenotyping for large-scale genetic association studies. Published in Nature Genetics.",
+  "DESCRIPTION": "Applied a pretrained CNN (transferred from natural image recognition, e.g. ResNet/Inception-like architecture) to 4.6 million cardiac MRI images from UK Biobank, trained on only 116 manually annotated samples to regress ascending and descending thoracic aorta dimensions. GWAS identified 82 ascending and 47 descending aorta loci. Demonstrates transfer learning from natural images to medical imaging for rapid biobank-scale phenotyping.",
   "MANUAL_CITATION": "Pirruccello JP, Chaffin MD, Chou EL, et al. (2022) Deep learning enables genetic analysis of the human thoracic aorta. Nat Genet. 54(1):40-51. doi:10.1038/s41588-021-00962-4. PMID 34837083",
-  "TAGS": ["AI", "GWAS", "Deep Learning", "Medical Imaging", "UK Biobank", "Nat Genet"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Deep Learning",
+    "Medical Imaging",
+    "UK Biobank",
+    "Nat Genet"
+  ],
   "TITLE": "Deep learning enables genetic analysis of the human thoracic aorta.",
   "ISO": "Nat Genet",
   "JOURNAL": "Nature Genetics",
@@ -24,5 +32,6 @@
   "FIRST_AUTHOR": "Pirruccello JP",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Imaging GWAS"
 }

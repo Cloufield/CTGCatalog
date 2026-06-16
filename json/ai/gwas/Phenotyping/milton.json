@@ -11,7 +11,15 @@
   "URL": "",
   "DESCRIPTION": "MILTON is an ensemble machine learning framework that utilizes biomarkers and multi-omics data to predict 3,213 diseases in the UK Biobank. It predicts incident disease cases undiagnosed at time of recruitment and demonstrates utility in augmenting genetic association discovery by empowering case-control GWAS with predicted phenotypes. Published in Nature Genetics.",
   "MANUAL_CITATION": "Garg M, Karpinski M, Matelska D, et al. (2024) Disease prediction with multi-omics and biomarkers empowers case-control genetic discoveries in the UK Biobank. Nat Genet. 56(9):1821-1831. doi:10.1038/s41588-024-01898-1. PMID 39261665",
-  "TAGS": ["AI", "GWAS", "Machine Learning", "Disease Prediction", "UK Biobank", "Multi-omics", "Nat Genet"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Machine Learning",
+    "Disease Prediction",
+    "UK Biobank",
+    "Multi-omics",
+    "Nat Genet"
+  ],
   "TITLE": "Disease prediction with multi-omics and biomarkers empowers case-control genetic discoveries in the UK Biobank.",
   "ISO": "Nat Genet",
   "JOURNAL": "Nature Genetics",
@@ -24,5 +32,6 @@
   "FIRST_AUTHOR": "Garg M",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Phenotyping"
 }

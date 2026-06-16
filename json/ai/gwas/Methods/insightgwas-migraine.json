@@ -11,7 +11,15 @@
   "URL": "",
   "DESCRIPTION": "InsightGWAS is a Transformer-based model that enhances genetic discovery for migraine GWAS by integrating functional annotations and leveraging transfer learning from GWAS datasets of major depressive disorder. It identified 293 previously unreported loci from 53,109 cases and 230,876 controls. Published in Nature Communications.",
   "MANUAL_CITATION": "Meng Z, Song Y, Jiang Y, et al. (2025) Transformer-based deep learning enhances discovery in migraine GWAS. Nat Commun. 16(1):11023. doi:10.1038/s41467-025-65991-7. PMID 41372126",
-  "TAGS": ["AI", "GWAS", "Transformer", "Deep Learning", "Migraine", "Transfer Learning", "Nat Commun"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Transformer",
+    "Deep Learning",
+    "Migraine",
+    "Transfer Learning",
+    "Nat Commun"
+  ],
   "TITLE": "Transformer-based deep learning enhances discovery in migraine GWAS.",
   "ISO": "Nat Commun",
   "JOURNAL": "Nature Communications",
@@ -24,5 +32,6 @@
   "FIRST_AUTHOR": "Meng Z",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Methods"
 }

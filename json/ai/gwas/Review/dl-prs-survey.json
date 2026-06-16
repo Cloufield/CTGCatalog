@@ -11,7 +11,15 @@
   "URL": "",
   "DESCRIPTION": "A comprehensive survey of deep learning approaches for polygenic risk scores (PRS). Reviews how neural networks can model non-linear relationships between genetic variants and disease risk, going beyond traditional linear PRS methods, and assesses their performance across different traits and architectures. Published in Briefings in Bioinformatics.",
   "MANUAL_CITATION": "Schuran M, Goudey B, Dite GS, Makalic E. (2025) A survey on deep learning for polygenic risk scores. Brief Bioinform. 26(4):bbaf373. doi:10.1093/bib/bbaf373. PMID 40802796",
-  "TAGS": ["AI", "GWAS", "Polygenic Risk Score", "Deep Learning", "Survey", "Review", "Brief Bioinform"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Polygenic Risk Score",
+    "Deep Learning",
+    "Survey",
+    "Review",
+    "Brief Bioinform"
+  ],
   "TITLE": "A survey on deep learning for polygenic risk scores.",
   "ISO": "Brief Bioinform",
   "JOURNAL": "Briefings in Bioinformatics",
@@ -24,5 +32,6 @@
   "FIRST_AUTHOR": "Schuran M",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Review"
 }

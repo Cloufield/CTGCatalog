@@ -1,0 +1,30 @@
+{
+  "NAME": "eICU Collaborative Research Database",
+  "SECTION": "AI",
+  "TOPIC": "Datasets",
+  "SUBTOPIC": "Clinical EHR",
+  "TYPE": "Dataset",
+  "KEYWORDS": "eICU, critical care, ICU, multicenter, Philips, PhysioNet, vital signs, severity of illness",
+  "SHORT NAME": "eICU-CRD",
+  "FULL NAME": "eICU Collaborative Research Database",
+  "URL": "https://eicu-crd.mit.edu/",
+  "DESCRIPTION": "The eICU Collaborative Research Database (eICU-CRD) is a large multi-center intensive care unit database from Philips Healthcare's eICU telehealth program, in partnership with MIT Laboratory for Computational Physiology. Contains de-identified data for over 200,000 admissions from 139,000 unique patients across 335 ICU units at 208 US hospitals (2014-2015). Includes: demographics, vital signs, care plan documentation, severity of illness measures (APACHE IV), diagnoses (3,933 unique active problems), laboratory measurements (158 lab types), medications, continuous infusions, intake/output, microbiology, nurse charting, and structured notes. Data access follows the same process as MIMIC: free of charge, requires PhysioNet credentialed access (CITI Data or Specimens Only Research course + Data Use Agreement). Complements MIMIC-IV (single-center, Boston) with multi-center US coverage for external validation and generalizability of ICU ML models.",
+  "MANUAL_CITATION": "Pollard TJ, Johnson AEW, Raffa JD, Celi LA, Mark RG, Badawi O. (2018) The eICU Collaborative Research Database, a freely available multi-center database for critical care research. Scientific Data, 5:180178. doi:10.1038/sdata.2018.178.",
+  "CITATION": "Pollard TJ, Johnson AEW, Raffa JD, Celi LA, Mark RG, Badawi O. (2018) The eICU Collaborative Research Database, a freely available multi-center database for critical care research. Scientific Data, 5:180178. doi:10.1038/sdata.2018.178. PMID 30204154",
+  "PMID": 30204154,
+  "DOI": "10.1038/sdata.2018.178",
+  "TITLE": "The eICU Collaborative Research Database, a freely available multi-center database for critical care research.",
+  "ISO": "Sci Data",
+  "JOURNAL": "Scientific Data",
+  "YEAR": "2018",
+  "VOLUME": "5",
+  "ISSUE": "1",
+  "PAGE": "180178",
+  "FIRST_AUTHOR": "Pollard TJ",
+  "Authors": "Pollard TJ,Johnson AEW,Raffa JD,Celi LA,Mark RG,Badawi O",
+  "ABSTRACT": "Critical care patients are monitored closely through the course of their illness. Philips Healthcare has developed a telehealth system, the eICU Program, which leverages these data to support management of critically ill patients. Here we describe the eICU Collaborative Research Database, a multi-center intensive care unit (ICU) database with high granularity data for over 200,000 admissions to ICUs monitored by eICU Programs across the United States.",
+  "TAGS": ["AI", "Datasets", "Clinical EHR", "ICU", "Critical Care", "PhysioNet", "Multi-center", "Free Access"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

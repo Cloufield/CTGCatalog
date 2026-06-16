@@ -1,0 +1,31 @@
+{
+  "NAME": "MIMIC-IV",
+  "SECTION": "AI",
+  "TOPIC": "Datasets",
+  "SUBTOPIC": "Clinical EHR",
+  "TYPE": "Dataset",
+  "KEYWORDS": "EHR, ICU, clinical database, de-identified, Beth Israel, critical care, MIMIC, medical informatics",
+  "SHORT NAME": "MIMIC-IV",
+  "FULL NAME": "Medical Information Mart for Intensive Care IV",
+  "URL": "https://physionet.org/content/mimiciv/",
+  "DESCRIPTION": "MIMIC-IV is a large, freely-available de-identified clinical database comprising over 300,000 patients admitted to the Beth Israel Deaconess Medical Center (2008-2019). It includes comprehensive ICU and Emergency Department data: demographics, vital signs, laboratory measurements, medications, procedures, diagnoses (ICD codes), imaging reports, nursing notes, and mortality outcomes. The relational database (BigQuery or local PostgreSQL) links hospital admissions (ADMISSIONS), patient stays (ICUSTAYS), charted observations (CHARTEVENTS), lab events (LABEVENTS), microbiology data (MICROBIOLOGYEVENTS), prescriptions (PRESCRIPTIONS), and discharge summaries. MIMIC-IV replaces MIMIC-III (2001-2012) with a modernized schema, cleaner data model, and expanded coverage. Widely used for developing and benchmarking clinical AI models (mortality prediction, sepsis detection, phenotyping, NLP), it requires credentialed access via PhysioNet (CITI Data or Specimens Only course). Supporting datasets include MIMIC-CXR (chest X-ray images) and MIMIC-NOTE (de-identified clinical notes).",
+  "MANUAL_CITATION": "Johnson AEW, Bulgarelli L, Shen L, et al. (2023) MIMIC-IV, a freely accessible electronic health record dataset. Sci Data. 10:1. doi:10.1038/s41597-022-01899-x.",
+  "CITATION": "Johnson AEW, Bulgarelli L, Shen L, Gayles A, Shammout A, Horng S, Pollard TJ, Hao S, Moody B, Gow B, Lehman LH, Celi LA, Mark RG. (2023) MIMIC-IV, a freely accessible electronic health record dataset. Scientific Data, 10:1. doi:10.1038/s41597-022-01899-x. PMID 36596836",
+  "PMID": 36596836,
+  "PMC ID": "PMC9810611",
+  "DOI": "10.1038/s41597-022-01899-x",
+  "TITLE": "MIMIC-IV, a freely accessible electronic health record dataset.",
+  "ISO": "Sci Data",
+  "JOURNAL": "Scientific Data",
+  "YEAR": "2023",
+  "VOLUME": "10",
+  "ISSUE": "1",
+  "PAGE": "1",
+  "FIRST_AUTHOR": "Johnson AEW",
+  "Authors": "Johnson AEW,Bulgarelli L,Shen L,Gayles A,Shammout A,Horng S,Pollard TJ,Hao S,Moody B,Gow B,Lehman LH,Celi LA,Mark RG",
+  "ABSTRACT": "MIMIC-IV is a publicly available database of de-identified electronic health records for patients admitted to the Beth Israel Deaconess Medical Center (BIDMC) in Boston, Massachusetts. The database is updated annually and is freely available to credentialed researchers. MIMIC-IV contains information on patient demographic characteristics, vital signs, laboratory measurements, medications, and diagnoses. We describe the process of creating the database, the structure of the data, and the tools available to users. MIMIC-IV is a valuable resource for researchers in critical care, clinical informatics, and machine learning.",
+  "TAGS": ["AI", "Datasets", "Clinical EHR", "ICU", "Critical Care", "PhysioNet", "MIMIC", "de-identified", "EHR"],
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}

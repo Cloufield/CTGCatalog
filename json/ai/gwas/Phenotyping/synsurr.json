@@ -11,7 +11,14 @@
   "URL": "",
   "DESCRIPTION": "SynSurr (Synthetic Surrogate analysis) is a method that makes GWAS on imputed phenotypes robust to imputation errors. Rather than replacing missing values, SynSurr jointly analyzes the observed and imputed data to provide calibrated association statistics, improving power for genome-wide association studies of partially missing phenotypes in population biobanks. Published in Nature Genetics.",
   "MANUAL_CITATION": "McCaw ZR, Gao J, Lin X, Gronsbell J. (2024) Synthetic surrogates improve power for genome-wide association studies of partially missing phenotypes in population biobanks. Nat Genet. 56(7):1527-1536. doi:10.1038/s41588-024-01793-9. PMID 38872030",
-  "TAGS": ["AI", "GWAS", "Machine Learning", "Phenotype Imputation", "Synthetic Surrogates", "Nat Genet"],
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Machine Learning",
+    "Phenotype Imputation",
+    "Synthetic Surrogates",
+    "Nat Genet"
+  ],
   "TITLE": "Synthetic surrogates improve power for genome-wide association studies of partially missing phenotypes in population biobanks.",
   "ISO": "Nat Genet",
   "JOURNAL": "Nature Genetics",
@@ -24,5 +31,6 @@
   "FIRST_AUTHOR": "McCaw ZR",
   "_meta": {
     "source_sheet": "AI"
-  }
+  },
+  "SUBTOPIC": "Phenotyping"
 }

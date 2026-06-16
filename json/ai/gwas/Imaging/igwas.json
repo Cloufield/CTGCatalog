@@ -1,0 +1,31 @@
+{
+  "NAME": "iGWAS",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "SUBTOPIC": "Imaging GWAS",
+  "TYPE": "Tools",
+  "KEYWORDS": "self-supervised contrastive learning, SimCLR, CNN, retinal fundus, deep phenotyping, image-based GWAS, UK Biobank",
+  "SHORT NAME": "iGWAS",
+  "FULL NAME": "Image-Based Genome-Wide Association of Self-Supervised Deep Phenotyping of Retina Fundus Images",
+  "URL": "",
+  "DESCRIPTION": "iGWAS uses self-supervised contrastive learning (SimCLR-style framework with a CNN encoder backbone) to extract a 128-dimensional phenotype vector directly from retinal fundus images without any manual labels. Trained on 40,000 EyePACS images via instance discrimination, then applied to 130,329 UK Biobank fundus images. GWAS on these 128 learned phenotypes identified 14 genome-wide significant loci. First demonstration of unsupervised deep phenotyping for image-based GWAS — discovering genetic associations without predefined human annotations.",
+  "MANUAL_CITATION": "Xie Z, Zhang T, Kim S, et al. (2024) iGWAS: Image-Based Genome-Wide Association of Self-Supervised Deep Phenotyping of Retina Fundus Images. PLOS Genetics, 20(5):e1011273. doi:10.1371/journal.pgen.1011273.",
+  "CITATION": "Xie Z, Zhang T, Kim S, Sun J, Forouzandeh P, Chen R, Zhi D. (2024) iGWAS: Image-Based Genome-Wide Association of Self-Supervised Deep Phenotyping of Retina Fundus Images. PLOS Genetics, 20(5):e1011273. doi:10.1371/journal.pgen.1011273. PMID 38728357",
+  "PMID": 38728357,
+  "PMC ID": "PMC11111076",
+  "DOI": "10.1371/journal.pgen.1011273",
+  "TITLE": "iGWAS: Image-Based Genome-Wide Association of Self-Supervised Deep Phenotyping of Retina Fundus Images.",
+  "ISO": "PLoS Genet",
+  "JOURNAL": "PLOS Genetics",
+  "YEAR": "2024",
+  "VOLUME": "20",
+  "ISSUE": "5",
+  "PAGE": "e1011273",
+  "FIRST_AUTHOR": "Xie Z",
+  "Authors": "Xie Z,Zhang T,Kim S,Sun J,Forouzandeh P,Chen R,Zhi D",
+  "ABSTRACT": "Existing imaging genetics studies have been mostly limited in scope by using imaging-derived phenotypes defined by human experts. Here, leveraging new breakthroughs in self-supervised deep representation learning, we propose a new approach, image-based genome-wide association study (iGWAS), for identifying genetic factors associated with phenotypes discovered from medical images using contrastive learning. Using retinal fundus photos, our model extracts a 128-dimensional vector representing features of the retina as phenotypes. We identified 14 loci with genome-wide significance.",
+  "TAGS": ["AI", "GWAS", "Imaging", "Deep Learning", "Self-Supervised Learning", "Retinal Fundus", "Phenotyping", "Contrastive Learning"],
+  "_meta": {
+    "source_sheet": "GWAS"
+  }
+}

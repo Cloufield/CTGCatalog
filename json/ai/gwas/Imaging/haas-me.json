@@ -1,0 +1,31 @@
+{
+  "NAME": "Haas ME",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "SUBTOPIC": "Imaging GWAS",
+  "TYPE": "Method",
+  "KEYWORDS": "MRI signal regression, liver fat quantification, abdominal MRI, hepatic steatosis, gradient boosting, UK Biobank",
+  "SHORT NAME": "ML Liver Fat GWAS",
+  "FULL NAME": "Machine Learning Enables New Insights into Genetic Contributions to Liver Fat Accumulation",
+  "URL": "",
+  "DESCRIPTION": "Developed an abdominal MRI-based machine-learning regression model (gradient-boosted regression on raw MRI signal intensities) to accurately estimate liver fat from UK Biobank abdominal MRI scans (correlation 0.97-0.99 with ground truth). Trained on 4,511 participants with gold-standard MRI biomarker measurements and applied to 32,192 additional individuals. GWAS identified 8 associated variants (5 novel: MTARC1, ADH1B, TRIB1, GPAM, MAST3) and a polygenic score strongly associated with future chronic liver disease risk (HR>1.32 per SD, p<9e-17).",
+  "MANUAL_CITATION": "Haas ME, Pirruccello JP, Friedman SN, et al. (2021) Machine learning enables new insights into genetic contributions to liver fat accumulation. Cell Genomics, 1(3):100066. doi:10.1016/j.xgen.2021.100066.",
+  "CITATION": "Haas ME, Pirruccello JP, Friedman SN, Wang M, ...&, Khera AV. (2021) Machine learning enables new insights into genetic contributions to liver fat accumulation. Cell Genom, 1 (3). doi:10.1016/j.xgen.2021.100066. PMID 34957434",
+  "PMID": 34957434,
+  "PMC ID": "PMC8699145",
+  "DOI": "10.1016/j.xgen.2021.100066",
+  "TITLE": "Machine learning enables new insights into genetic contributions to liver fat accumulation.",
+  "ISO": "Cell Genom",
+  "JOURNAL": "Cell Genomics",
+  "YEAR": "2021",
+  "VOLUME": "1",
+  "ISSUE": "3",
+  "PAGE": "100066",
+  "FIRST_AUTHOR": "Haas ME",
+  "Authors": "Haas ME,Pirruccello JP,Friedman SN,Wang M,Emdin CA,Ajmera VH,Simon TG,Homburger JR,Guo X,Budoff M,Corey KE,Zhou AY,Philippakis A,Ellinor PT,Loomba R,Batra P,Khera AV",
+  "ABSTRACT": "Excess liver fat, called hepatic steatosis, is a leading risk factor for end-stage liver disease and cardiometabolic diseases but often remains undiagnosed in clinical practice because of the need for direct imaging assessments. We developed an abdominal MRI-based machine-learning algorithm to accurately estimate liver fat from a truth dataset of 4,511 middle-aged UK Biobank participants, enabling quantification in 32,192 additional individuals. A genome-wide association study of common genetic variants and liver fat replicated three known associations and identified five newly associated variants.",
+  "TAGS": ["AI", "GWAS", "Imaging", "Machine Learning", "Liver Fat", "Abdominal MRI", "UK Biobank"],
+  "_meta": {
+    "source_sheet": "GWAS"
+  }
+}

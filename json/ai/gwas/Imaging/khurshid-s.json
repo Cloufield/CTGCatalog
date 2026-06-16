@@ -1,0 +1,31 @@
+{
+  "NAME": "Khurshid S",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "SUBTOPIC": "Imaging GWAS",
+  "TYPE": "Method",
+  "KEYWORDS": "deep learning, cardiac MRI segmentation, U-Net, left ventricular mass, CNN, cardiomyopathy, UK Biobank",
+  "SHORT NAME": "DL LV Mass GWAS",
+  "FULL NAME": "Clinical and Genetic Associations of Deep Learning-Derived Cardiac Magnetic Resonance-Based Left Ventricular Mass",
+  "URL": "",
+  "DESCRIPTION": "Applied a CNN-based segmentation model (U-Net style architecture) to automatically segment left ventricular myocardium from cardiac MRI in 43,230 UK Biobank participants. The segmented contours were used to compute left ventricular mass indexed to body surface area (LVMI), enabling GWAS that identified 12 associations (11 novel) implicating genes associated with cardiac contractility and cardiomyopathy. The LVMI polygenic risk score validated in independent Mass General Brigham cohort.",
+  "MANUAL_CITATION": "Khurshid S, Lazarte J, Pirruccello JP, et al. (2023) Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass. Nat Commun, 14:1558. doi:10.1038/s41467-023-37173-w.",
+  "CITATION": "Khurshid S, Lazarte J, Pirruccello JP, ...&, Lubitz SA. (2023) Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass. Nat Commun, 14 (1) 1558. doi:10.1038/s41467-023-37173-w. PMID 36944631",
+  "PMID": 36944631,
+  "PMC ID": "PMC10030590",
+  "DOI": "10.1038/s41467-023-37173-w",
+  "TITLE": "Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass.",
+  "ISO": "Nat Commun",
+  "JOURNAL": "Nature Communications",
+  "YEAR": "2023",
+  "VOLUME": "14",
+  "ISSUE": "1",
+  "PAGE": "1558",
+  "FIRST_AUTHOR": "Khurshid S",
+  "Authors": "Khurshid S,Lazarte J,Pirruccello JP,Weng LC,Choi SH,Hall AW,Wang X,Friedman SF,Nauffal V,Biddinger KJ,Aragam KG,Batra P,Ho JE,Philippakis AA,Ellinor PT,Lubitz SA",
+  "ABSTRACT": "Left ventricular mass is a risk marker for cardiovascular events, and may indicate an underlying cardiomyopathy. Cardiac magnetic resonance is the gold-standard for left ventricular mass estimation, but is challenging to obtain at scale. Here, we use deep learning to enable genome-wide association study of cardiac magnetic resonance-derived left ventricular mass indexed to body surface area within 43,230 UK Biobank participants. We identify 12 genome-wide associations (1 known at TTN and 11 novel for left ventricular mass).",
+  "TAGS": ["AI", "GWAS", "Imaging", "Deep Learning", "Cardiac MRI", "Left Ventricular Mass", "UK Biobank"],
+  "_meta": {
+    "source_sheet": "GWAS"
+  }
+}
