@@ -13,6 +13,7 @@ import yaml
 
 from format_table import format_main
 from print_level import _badges_for_row, iter_markdown_inline_links, write_markdown
+from direction_cards import get_topic_direction, get_subtopic_direction, render_direction_card
 
 _STANDARD_CARD_OUTPUT_ITEMS = [
     "NAME",
@@ -736,6 +737,21 @@ def overwrite_markdown(filename, df_combined, output_items):
             file.write("\n")
         else:
             file.write(_catalog_listing_lead(df_sorted))
+
+            # Direction card: prefer subtopic, then topic, then nothing
+            if not df_sorted.empty:
+                r0 = df_sorted.iloc[0]
+                section = str(r0.get("SECTION", "") or "").strip()
+                topic = str(r0.get("TOPIC", "") or "").strip()
+                subtopic = str(r0.get("SUBTOPIC", "") or "").strip()
+                dir_content = None
+                if subtopic:
+                    dir_content = get_subtopic_direction(section, topic, subtopic)
+                if dir_content is None and topic:
+                    dir_content = get_topic_direction(section, topic)
+                if dir_content:
+                    file.write(render_direction_card(dir_content))
+
             file.write("## Summary Table\n\n")
             file.write(
                 "*Click a column header to sort the table.*\n\n"

@@ -1523,6 +1523,48 @@ article.md-content__inner[class*="catalog-section-"] .catalog-summary-table thea
   text-underline-offset: 2px;
 }
 
+/* Direction cards: section/topic trend summaries with citations */
+.catalog-direction-card {
+  margin: 0.15rem 0 1.25rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: var(--catalog-radius-md);
+  border-left: 3px solid var(--catalog-section-header-accent, var(--catalog-accent));
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 5%,
+    var(--catalog-elevated)
+  );
+  font-size: 0.76rem;
+  line-height: 1.5;
+  color: var(--md-default-fg-color);
+}
+.catalog-direction-card p {
+  margin: 0.35em 0;
+}
+.catalog-direction-card strong {
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+.catalog-direction-card ul,
+.catalog-direction-card ol {
+  margin: 0.25rem 0;
+  padding-left: 1.25rem;
+}
+.catalog-direction-card li {
+  margin: 0.15rem 0;
+  line-height: 1.45;
+}
+.catalog-direction-card li p {
+  margin: 0;
+}
+[data-md-color-scheme="slate"] .catalog-direction-card {
+  background: color-mix(
+    in srgb,
+    var(--catalog-section-header-accent, var(--catalog-accent)) 8%,
+    var(--catalog-elevated)
+  );
+}
+
 /* What's New section on homepage */
 .md-typeset .catalog-whatsnew {
   margin: 0.15rem 0 1.5rem;

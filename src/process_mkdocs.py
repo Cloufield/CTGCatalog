@@ -22,6 +22,7 @@ import yaml
 
 from load_data import load_table_and_ref
 from process_major_databases import major_databases_not_in_nav_paths
+from direction_cards import get_section_direction, render_direction_card
 from tag_pages import write_tag_pages
 
 
@@ -328,6 +329,9 @@ def write_mkdcos(
             if biobanks_world_map:
                 file.write(_load_biobanks_world_map_snippet())
                 file.write("\n\n")
+            dir_card = get_section_direction(nav_map_key)
+            if dir_card:
+                file.write(render_direction_card(dir_card))
             file.write("## {} - {} \n".format("Contents", contents_title))
             file.write("\n")
             file.write('<div class="catalog-section-contents" markdown="block">\n\n')
