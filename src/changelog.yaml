@@ -1,3 +1,6 @@
+2026-06-17:
+  - "Added SAGELD (Xu H PMID 42304093, Nat Comput Sci 2026) — scalable G×E method for longitudinal data with SPA GRM, 10-10,000× speedup — to **Tools** > **GxE_interactions**"
+  - "Added research direction cards for **AI** tab (hub + 12 topic/subtopic pages) and **Tools** > **GxE_interactions** with curated trend summaries and PMID citations"
 2026-06-16:
   - "Restructured **AI** > **GWAS** into 5 subcategories: **Imaging** (7 entries), **Phenotyping** (3), **Methods** (4), **Post-GWAS** (1), **Review** (2)"
   - "Added 4 AI imaging→GWAS methods to **AI** > **GWAS** > **Imaging**: ML Liver Fat (Haas PMID 34957434, Cell Genomics 2021), DL LV Mass (Khurshid PMID 36944631, Nat Commun 2023), DL Organ MRI (Liu PMID 34128465, eLife 2021), DL LVRWT (Ning PMID 38036550, Nat Commun 2023)"

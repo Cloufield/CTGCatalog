@@ -31,6 +31,21 @@ The AI tab tracks the intersection of artificial intelligence with human genomic
 # ── Topic-level direction cards (within a section) ─────────────────────────
 
 _TOPIC_DIRECTION: dict[tuple[str, str], str] = {
+    ("Tools", "GxE_interactions"): """\
+**Gene–Environment Interaction Methods**
+
+Methods for detecting and characterizing gene–environment interactions (G×E) in genome-wide studies:
+
+- **Early foundations** (2010–2019): Environment-wide interaction scans (G×Escan, Gauderman *et al.* PMID 23873611, *PLoS ONE* 2013; StructLMM, Moore *et al.* PMID 30478441, *Nat Genet* 2019) and adaptive G×E tests (Chen *et al.* PMID 30793815, *Genet Epidemiol* 2019).
+
+- **Whole-genome regression** (2020–2024): LEMMA (Kerin *et al.* PMID 32888427, *Nat Commun* 2020) and GPLEMMA (Kerin *et al.* PMID 33367483, *Nat Commun* 2021) for genome-wide G×E with multiple environmental variables. IMRP-GxE (Zhu *et al.* PMID 38649715, *Nat Commun* 2024) integrates Mendelian randomization principles.
+
+- **Scalable biobank methods** (2025–2026): SPAGxECCT (Ma *et al.* PMID 40157913, *Nat Commun* 2025) for diverse trait types with saddlepoint calibration. SAGELD (Xu *et al.* PMID 42304093, *Nat Comput Sci* 2026) extends to longitudinal data, using matrix projection and SPA GRM to achieve 10–10,000× speedups while discovering 74 genetic×age and 5 genetic×adiposity loci in UK Biobank.
+
+- **Reviews**: Comprehensive overviews of G×E in human health (Herrera-Luis *et al.* PMID 38806721, *Nat Rev Genet* 2024; Thomas *et al.* PMID 20212493, *Nat Rev Genet* 2010).
+
+Trend: from single-environment cross-sectional scans → multi-environment, multi-ancestry, and longitudinal frameworks integrated with biobank-scale analysis.
+""",
     ("AI", "GWAS"): """\
 **AI-enhanced GWAS**
 

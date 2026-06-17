@@ -1,0 +1,30 @@
+{
+  "NAME": "SAGELD",
+  "PMID": 42304093,
+  "SECTION": "Tools",
+  "TOPIC": "GxE_interactions",
+  "TYPE": "Tools",
+  "SHORT NAME": "SAGELD",
+  "FULL NAME": "Scalable and Accurate Genome-wide G×E for Longitudinal Data",
+  "KEYWORDS": "G×E, longitudinal data, saddlepoint approximation, GRM, matrix projection, repeated measures",
+  "ARROW_SUMMARY": "Inputs: individual genotypes + longitudinal phenotypes + time-varying E + covariates (+ GRM) → matrix projection → SPA-adjusted score statistics → G×E interaction p-values",
+  "URL": "https://www.nature.com/articles/s43588-026-01002-z\nhttps://github.com/HeXuPKU/SAGELD",
+  "DESCRIPTION": "A scalable G×E method for longitudinal traits that uses matrix projection for test statistics and the SPA GRM framework to control for sample relatedness. Achieves 10- to 10,000-fold speedups over existing methods while identifying 74 genetic×age and 5 genetic×adiposity loci in UK Biobank (407K individuals, 3.65M observations). Part of the GRAB R package (v0.2.0).",
+  "MANUAL_CITATION": "Xu, H., Ma, Y., Liu, Y. et al. (2026). Leveraging longitudinal data to boost statistical power for gene–environment interaction analysis. Nature Computational Science. doi:10.1038/s43588-026-01002-z.",
+  "TITLE": "Leveraging longitudinal data to boost statistical power for gene-environment interaction analysis.",
+  "ISO": "Nat Comput Sci",
+  "JOURNAL": "Nature Computational Science",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Xu H,Ma Y,Liu Y,Li Y,Wan L,Zhang JF,Zhao Y,Yue W,Zhang P,Bi W",
+  "ABSTRACT": "Gene-environment interaction (G×E) analyses play a crucial role in advancing genetic discovery, addressing missing heritability, and facilitating precision medicine. However, existing G×E methods are mostly designed for cross-sectional data, limiting the utility of longitudinal data. Here we propose SAGELD, a scalable and accurate genome-wide G×E method for longitudinal traits that controls for sample relatedness in large-scale datasets. SAGELD uses matrix projection to construct test statistics and the SPA GRM framework to efficiently control for sample relatedness, achieving 10- to 10,000-fold speedups over existing methods while maintaining greater power than cross-sectional analyses. We evaluated SAGELD through extensive simulations and UK Biobank analyses. Using age and body mass index as environmental exposures, we identified 74 loci with genetic × age interactions and 5 loci with genetic × adiposity interactions in the pooled analysis of longitudinal primary care data and cross-sectional assessment data. These results highlight the advantages of leveraging longitudinal data in G×E analyses.",
+  "DOI": "10.1038/s43588-026-01002-z",
+  "PMC ID": "",
+  "CITATION": "Xu H, Ma Y, Liu Y, Li Y, Wan L, Zhang JF, Zhao Y, Yue W, Zhang P, Bi W. (2026) Leveraging longitudinal data to boost statistical power for gene-environment interaction analysis. Nat Comput Sci. doi:10.1038/s43588-026-01002-z. PMID 42304093",
+  "FIRST_AUTHOR": "Xu H",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
