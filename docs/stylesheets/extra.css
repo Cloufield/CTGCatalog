@@ -6,9 +6,9 @@
 :root {
   /* Fallback if `data-md-color-scheme` is missing; overridden in palette blocks below. */
   --catalog-nav-active-fg: #0f172a;
-  --catalog-radius-sm: 0.5rem;
-  --catalog-radius-md: 0.625rem;
-  --catalog-radius-lg: 1rem;
+  --catalog-radius-sm: 0;
+  --catalog-radius-md: 0;
+  --catalog-radius-lg: 0;
   --catalog-accent: #2563eb;
   --catalog-accent-soft: rgba(37, 99, 235, 0.1);
   --catalog-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
@@ -442,7 +442,7 @@ article.md-content__inner[class*="catalog-section-"] table.catalog-stats-table t
   display: inline-block;
   width: 0.72rem;
   height: 0.72rem;
-  border-radius: 2px;
+  border-radius: 0;
   flex-shrink: 0;
   border: 1px solid color-mix(in srgb, var(--catalog-elevated-border) 70%, transparent);
 }
@@ -550,7 +550,7 @@ article.md-content__inner[class*="catalog-section-"] table.catalog-stats-table t
   min-height: 100%;
   margin: 0;
   padding: 0.55rem 0.75rem;
-  border-radius: 0.3rem 0.3rem 0 0;
+  border-radius: 0;
   transition: background-color 0.15s ease, color 0.15s ease;
   background-color: color-mix(
     in srgb,
@@ -860,7 +860,7 @@ img {
 .md-typeset h4 > code {
   color: var(--md-typeset-color);
   background-color: var(--catalog-accent-soft);
-  border-radius: 0.35em;
+  border-radius: 0;
   padding: 0.08em 0.35em;
   font-size: 0.88em;
 }
@@ -953,7 +953,7 @@ img {
 .catalog-badge {
   display: inline-block;
   padding: 0.12em 0.45em;
-  border-radius: 999px;
+  border-radius: 2px;
   font-size: 0.58rem;
   font-weight: 600;
   letter-spacing: 0.04em;
@@ -1495,7 +1495,7 @@ article.md-content__inner[class*="catalog-section-"] .catalog-summary-table thea
 .biobanks-world-map-hit:focus-visible {
   outline: 2px solid var(--catalog-accent, #2563eb);
   outline-offset: 2px;
-  border-radius: 0.35rem;
+  border-radius: 0;
 }
 
 .biobanks-world-map-label {
