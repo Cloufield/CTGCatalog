@@ -1,0 +1,29 @@
+{
+  "NAME": "MIRA",
+  "SECTION": "AI",
+  "TOPIC": "Agent",
+  "TYPE": "Tools",
+  "SHORT NAME": "MIRA",
+  "FULL NAME": "MIRA: Medical Intelligence for Reasoning and Action — an autonomous AI agent operating in a sandboxed EHR environment",
+  "PMID": 42310457,
+  "PMC ID": "",
+  "DOI": "10.1038/s41586-026-10675-5",
+  "TITLE": "Towards autonomous medical artificial intelligence agents.",
+  "ISO": "Nature",
+  "JOURNAL": "Nature",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "URL": "https://www.nature.com/articles/s41586-026-10675-5",
+  "DESCRIPTION": "MIRA is an autonomous AI agent powered by GPT-4o (T=0.01) with o1-preview for structured reasoning, operating within a sandboxed HL7 FHIR-based EHR environment. It navigates 85,000+ clinical decision options across 8 emergency department diagnoses, using 11 FHIR-compliant tools (PatientHistory, PhysicalExam, Lab/Urine/Microbiology/Radiology requests, Medication/Procedure ordering, Plan, Admission). Evaluated on 574 real MIMIC-IV patient cases, MIRA outperformed two independent physician cohorts in diagnostic accuracy, guideline-concordant treatment, medication safety, and appropriate admission decisions. All tool parameter validity is enforced through token masking, making hallucination of non-existent options programmatically impossible.",
+  "MANUAL_CITATION": "Ferber D, Hilgers L, Höper C, et al. (2026) Towards autonomous medical artificial intelligence agents. Nature. doi:10.1038/s41586-026-10675-5. PMID 42310457",
+  "CITATION": "Ferber D, Hilgers L, Höper C, Kinny-Köster B, Eckardt JN, Egger-Heidrich K, Bill M, Schneider MMK, Clusmann J, Kadric L, Oehme M, Mayrhofer-Schmid M, Oeser A, Wölflein G, Wiest IC, Middeke JM, Iafrate AJ, Truhn D, Jäger D, Kather JN. (2026) Towards autonomous medical artificial intelligence agents. Nature. doi:10.1038/s41586-026-10675-5. PMID 42310457",
+  "FIRST_AUTHOR": "Ferber D",
+  "Authors": "Ferber D,Hilgers L,Höper C,Kinny-Köster B,Eckardt JN,Egger-Heidrich K,Bill M,Schneider MMK,Clusmann J,Kadric L,Oehme M,Mayrhofer-Schmid M,Oeser A,Wölflein G,Wiest IC,Middeke JM,Iafrate AJ,Truhn D,Jäger D,Kather JN",
+  "TAGS": ["AI", "Agent", "Clinical AI", "EHR", "Autonomous Agent", "MIRA", "Nature"],
+  "ABSTRACT": "Large language models (LLMs) show great potential for clinical decision-making, yet most applications remain narrow, task-specific chat tools rather than systems integrated into clinical workflows. However, building physician copilots will require models that operate within the electronic health record (EHR), with governed access to patient data and the ability to initiate permitted EHR actions within defined safety constraints. Here we show that MIRA (Medical Intelligence for Reasoning and Action), an autonomous artificial intelligence agent operating in a sandboxed EHR environment, can navigate a large clinical action space to obtain patient histories; order and interpret laboratory, imaging and microbiology tests; generate differential diagnoses; and formulate treatment plans such as prescribing medications, scheduling surgical procedures and planning admissions. In simulations on real patient cases spanning multiple diagnoses, MIRA outperformed physicians in diagnostic accuracy and made guideline-concordant, medication-safe and appropriate admission decisions.",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
