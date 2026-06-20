@@ -2,1702 +2,2110 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI_Agent/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI_Auto_research/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Benchmark/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Clinical_EHR/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI_Coding/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
-         <loc>https://cloufield.github.io/CTGCatalog/AI_GWAS/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Datasets_Clinical_EHR/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Datasets_Health_Survey/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Datasets_Physiological_Signals/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Drug_discovery/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_GWAS_Imaging_GWAS/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_GWAS_Methods/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_GWAS_Phenotyping/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_GWAS_Post_GWAS/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_GWAS_Review/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI_Genomic_language_model/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Imaging/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI_Major_model_series/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Multimodal/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Protein/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/AI_Regulatory_model/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/AI_Single_cell/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Biobanks/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Biobanks_AFRICA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Biobanks_AMERICA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Biobanks_ASIA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Biobanks_EUROPE/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Biobanks_OCEANIA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Catalog_statistics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_Conda/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_Container/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_Documents/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_General/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_Linux/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_Python/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Coding_Workflow/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Journals/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Major_Databases/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Major_Databases_AMERICA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Major_Databases_ASIA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Major_Databases_EUROPE/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Major_Databases_International/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Major_Databases_OCEANIA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Population_Genetics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_1000_Genomes/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_All_of_Us/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_BBJ/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_CKB/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_ENCODE/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_FANTOM/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_FinnGen/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_GTEx/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_MVP/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_Roadmap_Epigenomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_TOPMed/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_UK_Biobank/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Projects_gnomAD/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Epigenetics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Function/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Functional/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Gene/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Genome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_LD/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Phenotype/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Protein/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Spatial/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_Variant/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/References_scRNA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell_Annotation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell_Framework/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell_Harmonization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell_Network/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell_QC/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Single_Cell_Trajectory/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Behaviour/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Epigenetics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Epigenetics_Fetal_brain/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Epigenetics_Single_cell/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Epigenetics_Whole_Blood/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Family_GWAS/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_General/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Gut_microbiome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_GxE/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Imaging/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Metabolomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Proteomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Structural_variant/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Transcriptomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Transcriptomics_Bulk_tissue/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Transcriptomics_Long_read/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Transcriptomics_Project/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Sumstats_Transcriptomics_Single_cell/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Annotation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests_Privacy_Preserving_GWAS_Tool/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests_RWAS/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests_TWAS/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests_Time_to_event_phenotypes/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests_eQTL/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Association_tests_sQTL/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Colocalization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Data_processing/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Dimension_reduction/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Drug_discovery/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Fine_mapping/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Functional_prediction/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Gene_prioritization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Gene_set_pathway_analysis/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_GxE_interactions/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_HLA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Heritability_and_genetic_correlation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Imputation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Mediation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Mendelian_randomization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Meta_and_Multi_triat/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Polygenic_risk_scores/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Population_Genetics_Admixture/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Population_Genetics_Ancient_DNA/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Population_Genetics_Genealogy/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Population_Genetics_Phylogenetic_tree/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Population_Genetics_Selection/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Power_analysis/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Proteomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Rare_disease/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Simulation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Tissue_and_single_cell/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_Chromosome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_Forest_plot/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_GWAS/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_Heatmap/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_LD/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_UpSet_plots/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Visualization_Variants_on_protein/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Tools_Winners_curse/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Trending/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Trending/Trending_PubMed_GWAS/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/Whats_New/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/1000-genomes/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/abdominal-mri/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/accelerometer/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/acl/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/agent/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/ai-scientists/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/ai/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/ai2/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/alcohol/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/aldh2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/alzheimer-s-disease/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/annotation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/array/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/arxiv/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/assay/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/atlas/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/auto-research/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/automation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/autonomous-agent/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/baseline/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/behavioral-risk/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/benchmark/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biobank-cohort/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biochemistry/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/bioinformatics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biology/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/biomarkers/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biomedical-discovery/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biomedical-engineering/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biomedical/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/biospecimen/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/blood-pressure/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/braveo/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/brca/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/brief-bioinform/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/broad/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cad/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cage/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/cancer-cell/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/cancer-diagnosis/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cancer-research/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cancer/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/cardiac-mri/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cardiometabolic/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/cardiovascular/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/causal-ml/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/ccre/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/cdc/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cdna/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cell-type/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cell/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/chemistry/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/chinese/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/chromatin/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/chromhmm/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/circadian/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cis-eqtl/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/clinical-ai/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/clinical-data/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/clinical-ehr/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/clinical-grade/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/clinical/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cnv/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/coding/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cohort/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/collapsing/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/colocalization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/community-engagement/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/comorbidity/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/comparative-genomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/computational-biology/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/computational-pathology/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/consortium/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/constraint/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/contrastive-learning/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/covariate-adjustment/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/covid-19/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/crispr/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/critical-care/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cross-ancestry/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cross-biobank/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/cross-population/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/data-collection/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/data-freeze/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/data-model/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/data-portal/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/data-quality/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/data-release/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/database/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/datasets/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/de-identified/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/deconvolution/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/deep-learning/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/deepmind/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/demographics/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/design/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/diagnosis/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/digital-medicine/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/disease-prediction/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/diverse/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/diversity/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/dna/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/dnase-seq/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/drug-discovery/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/drug-response/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/early-access/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/ecg/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/ehr/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/encode/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/encode2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/encode3/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/encode4/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/encyclopedia/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/enrollment/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/epidemiology/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/epigenomes/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/epigenomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/eqtl/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/esm/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/exac/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/exome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/expansion/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/expression-atlas/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/expression/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fantom/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fantom1/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fantom2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fantom3/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fantom5/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fantom6/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fastgwa/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fine-mapping-2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fine-mapping/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/finnish/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/fitbit/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/flagship/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/flatiron-institute/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/foundation-model/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/free-access/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/freeze-5/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/freeze-8/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/functional-elements/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/functional-genomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/futurehouse/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/g-e/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gemini/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gene-editing/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/gene-expression/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gene-level-association/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gene-prioritization-2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gene-prioritization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gene-regulation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/general-purpose/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/genetic-correlation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/genetic-search/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/genome-annotation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/genome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/genomic-language-model/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/genomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/genotyping/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/google-research/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/gpt/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gpu/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/grch38/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gtex/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/guide/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/gwas/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/haematology/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/haplotype/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/hapmap/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/harvard/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/health-equity/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/health-records/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/health-survey/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/histopathology/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/hkust/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/human-ai-collaboration/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/human-in-the-loop/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/hypertrophic-cardiomyopathy/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/hypothesis-generation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/icu/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/imaging/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/imputation-reference/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/imputation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/isoform/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/japanese/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/japonica-array/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/journal/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/kanta/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/knowledge-graph/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/laboratory-traits/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/language-model/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/launch/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/left-ventricular-mass/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/left-ventricular-wall/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/lifestyle/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/lipid-metabolism/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/lipids/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/liver-fat/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/llm-agent/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/llm/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/lncrna/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/long-read/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/loss-of-function/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/low-frequency-variant/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/lung-cancer/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/machine-learning/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/mahmood-lab/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mapping/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mcp/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/medical-imaging/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mendelian-randomization/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mendelian/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mental-health/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/meta-analysis/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/meta-fair/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/metabolomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/metascience/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/microsoft/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/migraine/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/mimic/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/mira/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mixed-model/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mouse/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mr/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/mri/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-agent/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-ancestry/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-biobank/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/multi-center/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-ethnic/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-omic/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-omics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multi-platform/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/multimodal/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/multimorbidity/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nanobody/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nat-commun/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nat-genet/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nat-rev-cancer/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/nature-communications/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nature/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/ncrna/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/neural-network/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nhlbi/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nightingale/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nih-roadmap/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nmr/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/nobel-prize/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/non-coding/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/nous-research/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/nutrition/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/olink/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/omop/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/oncology/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/open-access/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/open-source/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/organ-traits/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/paige/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/pan-ukb/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/pangenome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/pathology/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/peer-review/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/pharmacogenomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/phasing/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/phenotype-imputation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/phenotypes/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/phenotyping/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/phewas/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/physical-activity/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/physionet/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/pilot/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/platform/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/policy/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/polygenic-risk-score/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/polygenic/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/population-bottleneck/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/population-reference/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/pqtl/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/precision-medicine/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/precision-oncology/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/preprint/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/privacy-preserving-gwas/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/project-design/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/promoter/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/protein-structure/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/protein/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/proteomics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/protocol/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/prs/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/ptsd/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/public-health/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/qc/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/quantitative-traits/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/questionnaire/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/rare-cancer/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/rare-disease/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/rare-variant/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/real-world-data/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/recruitment/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/reference-panel/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/reference/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/regulatory-elements/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/representation-learning/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/resource/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/retinal-fundus/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/review/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/rhyqtl/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/rhythmicity/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/rna-seq/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/saige/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/sars-cov-2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/science-of-science/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/scientific-computing/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/scientific-discovery/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/scientometrics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/scrna-seq/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/self-supervised-learning/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/self-supervised/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/serology/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/shapeit5/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/signal-processing/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/single-cell-2/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/single-cell/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/sleep/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/splicing/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/sqtl/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/statistical-power/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/structural-variant/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/structural-variants/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/structure-prediction/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/structured-report/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/summary-statistics/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/survey/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/surveys/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/sv/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/synthetic-surrogates/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/telomere/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/therapeutics/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/tissue-procurement/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/tool-augmented/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/tool-integration/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/tool/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/topic-modeling/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/topmed/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/trans-ancestry/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/trans-eqtl/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/transcriptome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/transcriptomics/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/transfer-learning/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/transformer/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/treatment-response/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/twas/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/uk-biobank/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/update/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/us-representative/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/v2-1-1/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/v2-1/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/v3-1/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/v3/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/v4/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/v8/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/va/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/variant-discovery/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/variant-interpretation/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/variant-reference/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/variational-inference/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/vascular/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/veterans/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/virtual-lab/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/vision-language/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/waveform/</loc>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/weakly-supervised/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/wearables/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/web-resource/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/wes/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/wgs/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/whole-genome/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/whole-slide/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/xci/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
     </url>
     <url>
          <loc>https://cloufield.github.io/CTGCatalog/tags/zenbu/</loc>
-         <lastmod>2026-06-15</lastmod>
+         <lastmod>2026-06-20</lastmod>
+    </url>
+    <url>
+         <loc>https://cloufield.github.io/CTGCatalog/tags/zero-shot/</loc>
+         <lastmod>2026-06-20</lastmod>
     </url>
 </urlset>

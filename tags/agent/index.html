@@ -1047,6 +1047,7 @@
 <li><a href="../../AI_Agent/#deeprare">DeepRare — AI</a></li>
 <li><a href="../../AI_Agent/#hermes-agent">Hermes Agent — AI</a></li>
 <li><a href="../../AI_Agent/#marrvel-mcp">MARRVEL-MCP — AI</a></li>
+<li><a href="../../AI_Agent/#mira">MIRA — AI</a></li>
 <li><a href="../../AI_Agent/#openclaw">OpenClaw — AI</a></li>
 <li><a href="../../AI_Auto_research/#robin">Robin — AI</a></li>
 <li><a href="../../AI_Agent/#sciscigpt">SciSciGPT — AI</a></li>
@@ -1575,6 +1576,59 @@
 
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
+    <h2 id="mira" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_Agent/#mira">MIRA</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="agent/" class="catalog-badge catalog-badge--link" role="listitem">Agent</a>
+      <a href="clinical-ai/" class="catalog-badge catalog-badge--link" role="listitem">Clinical AI</a>
+      <a href="ehr/" class="catalog-badge catalog-badge--link" role="listitem">EHR</a>
+      <a href="autonomous-agent/" class="catalog-badge catalog-badge--link" role="listitem">Autonomous Agent</a>
+      <a href="mira/" class="catalog-badge catalog-badge--link" role="listitem">MIRA</a>
+      <a href="nature/" class="catalog-badge catalog-badge--link" role="listitem">Nature</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/42310457">42310457</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">MIRA: Medical Intelligence for Reasoning and Action — an autonomous AI agent operating in a sandboxed EHR environment</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">MIRA is an autonomous AI agent powered by GPT-4o (T=0.01) with o1-preview for structured reasoning, operating within a sandboxed HL7 FHIR-based EHR environment. It navigates 85,000+ clinical decision options across 8 emergency department diagnoses, using 11 FHIR-compliant tools (PatientHistory, PhysicalExam, Lab/Urine/Microbiology/Radiology requests, Medication/Procedure ordering, Plan, Admission). Evaluated on 574 real MIMIC-IV patient cases, MIRA outperformed two independent physician cohorts in diagnostic accuracy, guideline-concordant treatment, medication safety, and appropriate admission decisions. All tool parameter validity is enforced through token masking, making hallucination of non-existent options programmatically impossible.</div>
+    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.nature.com/articles/s41586-026-10675-5">https://www.nature.com/articles/s41586-026-10675-5</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Towards autonomous medical artificial intelligence agents.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ferber D, Hilgers L, Höper C, Kinny-Köster B, Eckardt JN, Egger-Heidrich K, Bill M, Schneider MMK, Clusmann J, Kadric L, Oehme M, Mayrhofer-Schmid M, Oeser A, Wölflein G, Wiest IC, Middeke JM, Iafrate AJ, Truhn D, Jäger D, Kather JN. (2026) Towards autonomous medical artificial intelligence agents. Nature. doi:10.1038/s41586-026-10675-5. PMID 42310457</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Large language models (LLMs) show great potential for clinical decision-making, yet most applications remain narrow, task-specific chat tools rather than systems integrated into clinical workflows. However, building physician copilots will require models that operate within the electronic health record (EHR), with governed access to patient data and the ability to initiate permitted EHR actions within defined safety constraints. Here we show that MIRA (Medical Intelligence for Reasoning and Action), an autonomous artificial intelligence agent operating in a sandboxed EHR environment, can navigate a large clinical action space to obtain patient histories; order and interpret laboratory, imaging and microbiology tests; generate differential diagnoses; and formulate treatment plans such as prescribing medications, scheduling surgical procedures and planning admissions. In simulations on real patient cases spanning multiple diagnoses, MIRA outperformed physicians in diagnostic accuracy and made guideline-concordant, medication-safe and appropriate admission decisions.</div>
+    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41586-026-10675-5</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
     <h2 id="openclaw" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_Agent/#openclaw">OpenClaw</a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
@@ -1588,9 +1642,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Open-source, local-first autonomous AI assistant: file/shell access, browser automation, skills/plugins, and optional chat-app bridges; model-agnostic (e.g. Claude, OpenAI, local/Ollama) with your own API keys.</div>
-    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1622,9 +1676,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-14" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Robin is the first multi-agent system capable of fully automating both hypothesis generation and data analysis for experimental biology. By integrating literature search agents with data analysis agents, Robin can generate testable hypotheses from literature and design experiments to validate them, automating the entire scientific discovery cycle for biological research.</div>
-    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1636,9 +1690,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Scientific discovery is driven by the iterative process of observation, hypothesis generation, experimentation, and data analysis. Despite recent advancements in applying artificial intelligence to biology, no system has yet automated all these stages. Here, we introduce Robin, the first multi-agent system capable of fully automating both hypothesis generation and data analysis for experimental biology. By integrating literature search agents with data analysis agents, Robin can generate testable hypotheses from literature and design experiments to validate them.</div>
-    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -1670,9 +1724,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-14" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">SciSciGPT is an open-source, prototype AI collaborator that uses the domain of science of science as a testbed to explore LLM-powered scientific collaboration. It assists researchers in analyzing scientific literature, identifying research trends, generating hypotheses about scientific dynamics, and facilitating human-AI collaborative research in metascience and scientometrics.</div>
-    <label for="catalog-col-description-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1680,9 +1734,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">We introduce SciSciGPT, an open-source, prototype artificial intelligence (AI) collaborator that uses the domain of science of science as a testbed to explore the potential of large language model-powered scientific collaboration. SciSciGPT assists researchers in analyzing scientific literature, identifying research trends, generating hypotheses about scientific dynamics, and facilitating human-AI collaborative research in metascience and scientometrics.</div>
-    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -1714,9 +1768,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">SciToolAgent is a knowledge-graph-driven scientific agent that integrates multiple computational tools for scientific research. It leverages a knowledge graph to understand tool capabilities and relationships, enabling automated multi-tool workflow composition for complex scientific tasks across domains including bioinformatics, cheminformatics, and materials science.</div>
-    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1728,9 +1782,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-16" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Scientific research increasingly relies on specialized computational tools, yet effectively utilizing these tools requires substantial domain expertise. While large language models show promise in tool use, they struggle with complex multi-tool workflows. Here we introduce SciToolAgent, a knowledge-graph-driven scientific agent that integrates multiple computational tools for scientific research. By leveraging a knowledge graph to understand tool capabilities and relationships, SciToolAgent enables automated multi-tool workflow composition for complex scientific tasks.</div>
-    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -1762,9 +1816,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">SPARK (System of Pathology Agents for Research and Knowledge) is a foundational agentic AI framework that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. It functions as a pathology &#x27;brain&#x27; — an interconnected system of AI agents that autonomously reason, generate and implement biologically meaningful hypotheses as analytical tools without additional model training. SPARK uses four linked modules: idea generation (OpenAI o1), idea refinement, parameter coding (Claude Sonnet 3.5), and parameter verification. Evaluated across 18 patient cohorts spanning 5 cancer types and &gt;5,400 patients, SPARK produced clinically and biologically relevant concepts correlated with prognosis, pathological variables, and predictive biomarkers, including patterns of tumor progression inferred from static images.</div>
-    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1780,9 +1834,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-16" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-17" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Artificial intelligence has advanced cancer pathology, but many systems still depend on hand-crafted features, are hard to explain and rely on fragmented workflows. We introduce SPARK (System of Pathology Agents for Research and Knowledge), a foundational agentic artificial intelligence approach that uses language as a universal interface to autonomously generate biologically driven concepts for tumor analysis. SPARK turns biological ideas into analytical tools and works directly with complex pathology data without extra model training. We evaluated SPARK across 18 patient cohorts spanning five cancer types (lung adenocarcinoma, lung squamous cell carcinoma, colorectal cancer, breast cancer and oropharyngeal squamous cell carcinoma) and more than 5,400 patients with available histopathology images and clinical/follow-up information, in both prognostic and predictive settings and on a well characterized spatial biology breast cancer dataset (n=625). We found that SPARK produced clinically and biologically relevant concepts correlated with prognosis, known pathological variables and predictive biomarkers, including patterns of tumor progression and temporal change inferred from static images. A dedicated module allows for human interaction with SPARK. All code, parameters and results are openly released.</div>
-    <label for="catalog-col-abstract-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -1815,9 +1869,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-18" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">The Virtual Lab is an AI agent framework that uses LLM-powered researchers in a simulated laboratory environment to collaboratively design and test scientific hypotheses. It was demonstrated by successfully designing new SARS-CoV-2 nanobodies, with AI agents specializing in different scientific roles working together to propose, evaluate, and refine experimental designs.</div>
-    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1829,9 +1883,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-17" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-18" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Science frequently benefits from teams of interdisciplinary researchers, but many scientists do not have easy access to experts from multiple fields. Although large language models (LLMs) have shown an impressive ability to aid researchers across diverse domains, their uses have been largely limited to answering specific scientific questions rather than performing open-ended research. Here we expand the capabilities of LLMs for science by introducing the Virtual Lab, a framework where LLM-powered AI agents collaborate in a simulated laboratory to design and test scientific hypotheses. The Virtual Lab successfully designed new SARS-CoV-2 nanobodies, demonstrating the potential of multi-agent AI systems for open-ended scientific discovery.</div>
-    <label for="catalog-col-abstract-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>

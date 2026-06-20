@@ -1036,12 +1036,12 @@
 <h1 id="medical-imaging">Medical Imaging</h1>
 <p>Catalog entries using this tag (links open the entry card on its page):</p>
 <ul>
-<li><a href="../../AI_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS — AI</a></li>
 </ul>
 <h2 id="entries">Entries</h2>
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
-    <h2 id="dl-thoracic-aorta-gwas" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS <span class="catalog-entry-card__title-abbr">(DL Aorta GWAS)</span></a></h2>
+    <h2 id="dl-thoracic-aorta-gwas" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS <span class="catalog-entry-card__title-abbr">(DL Aorta GWAS)</span></a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
       <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
@@ -1063,8 +1063,14 @@
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
     <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
-    <div class="catalog-entry-card__collapsible-clipped">Deep learning model trained on 4.6 million cardiac MRI images from UK Biobank to evaluate ascending and descending thoracic aorta dimensions, followed by GWAS identifying 82 ascending and 47 descending aorta loci. Demonstrates DL-based image phenotyping for large-scale genetic association studies. Published in Nature Genetics.</div>
+    <div class="catalog-entry-card__collapsible-clipped">Applied a pretrained CNN (transferred from natural image recognition, e.g. ResNet/Inception-like architecture) to 4.6 million cardiac MRI images from UK Biobank, trained on only 116 manually annotated samples to regress ascending and descending thoracic aorta dimensions. GWAS identified 82 ascending and 47 descending aorta loci. Demonstrates transfer learning from natural images to medical imaging for rapid biobank-scale phenotyping.</div>
     <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-1" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">deep learning, CNN, ImageNet transfer learning, cardiac MRI, thoracic aorta, image regression, UK Biobank</div>
+    <label for="catalog-col-keywords-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>

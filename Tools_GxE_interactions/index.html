@@ -1997,6 +1997,25 @@
 <div class="catalog-nav-lead">
 <p>Curation of <strong>GxE interactions</strong> — listings under the <strong>GWAS Tools</strong> tab.</p>
 </div>
+<div class="catalog-direction-card">
+<p><strong>Gene–Environment Interaction Methods</strong></p>
+<p>Methods for detecting and characterizing gene–environment interactions (G×E) in genome-wide studies:</p>
+<ul>
+<li>
+<p><strong>Early foundations</strong> (2010–2019): Environment-wide interaction scans (G×Escan, Gauderman <em>et al.</em> PMID 23873611, <em>PLoS ONE</em> 2013; StructLMM, Moore <em>et al.</em> PMID 30478441, <em>Nat Genet</em> 2019) and adaptive G×E tests (Chen <em>et al.</em> PMID 30793815, <em>Genet Epidemiol</em> 2019).</p>
+</li>
+<li>
+<p><strong>Whole-genome regression</strong> (2020–2024): LEMMA (Kerin <em>et al.</em> PMID 32888427, <em>Nat Commun</em> 2020) and GPLEMMA (Kerin <em>et al.</em> PMID 33367483, <em>Nat Commun</em> 2021) for genome-wide G×E with multiple environmental variables. IMRP-GxE (Zhu <em>et al.</em> PMID 38649715, <em>Nat Commun</em> 2024) integrates Mendelian randomization principles.</p>
+</li>
+<li>
+<p><strong>Scalable biobank methods</strong> (2025–2026): SPAGxECCT (Ma <em>et al.</em> PMID 40157913, <em>Nat Commun</em> 2025) for diverse trait types with saddlepoint calibration. SAGELD (Xu <em>et al.</em> PMID 42304093, <em>Nat Comput Sci</em> 2026) extends to longitudinal data, using matrix projection and SPA GRM to achieve 10–10,000× speedups while discovering 74 genetic×age and 5 genetic×adiposity loci in UK Biobank.</p>
+</li>
+<li>
+<p><strong>Reviews</strong>: Comprehensive overviews of G×E in human health (Herrera-Luis <em>et al.</em> PMID 38806721, <em>Nat Rev Genet</em> 2024; Thomas <em>et al.</em> PMID 20212493, <em>Nat Rev Genet</em> 2010).</p>
+</li>
+</ul>
+<p>Trend: from single-environment cross-sectional scans → multi-environment, multi-ancestry, and longitudinal frameworks integrated with biobank-scale analysis.</p>
+</div>
 <h2 id="summary-table">Summary Table</h2>
 <p><em>Click a column header to sort the table.</em></p>
 <div class="catalog-summary-table">
@@ -2041,6 +2060,12 @@
 <td>MISC</td>
 <td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Kerin M, Marchini J. (2020) Inferring Gene-by-Environment Interactions with a Bayesian Whole-Genome Regression Model. Am J Hum Genet, 107 (4) 698-713. doi:10.1016/j.ajhg.2020.08.009. PMID 32888427">Kerin M et al., Am J Hum Genet, 2020</div></td>
 <td>2020</td>
+</tr>
+<tr>
+<td><a href="#sageld">SAGELD</a></td>
+<td>MISC</td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Xu H, Ma Y, Liu Y, Li Y, Wan L, Zhang JF, Zhao Y, Yue W, Zhang P, Bi W. (2026) Leveraging longitudinal data to boost statistical power for gene-environment interaction analysis. Nat Comput Sci. doi:10.1038/s43588-026-01002-z. PMID 42304093">Xu H et al., Nat Comput Sci, 2026</div></td>
+<td>2026</td>
 </tr>
 <tr>
 <td><a href="#spagxecct">SPAGxECCT</a></td>
@@ -2382,6 +2407,63 @@
 
 <article class="catalog-entry-card" data-catalog-section="Tools">
   <header class="catalog-entry-card__header">
+    <h3 id="sageld" class="catalog-entry-card__title">SAGELD</h3>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/42304093">42304093</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Scalable and Accurate Genome-wide G×E for Longitudinal Data</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">A scalable G×E method for longitudinal traits that uses matrix projection for test statistics and the SPA GRM framework to control for sample relatedness. Achieves 10- to 10,000-fold speedups over existing methods while identifying 74 genetic×age and 5 genetic×adiposity loci in UK Biobank (407K individuals, 3.65M observations). Part of the GRAB R package (v0.2.0).</div>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.nature.com/articles/s43588-026-01002-z">https://www.nature.com/articles/s43588-026-01002-z</a> ,<a href="https://github.com/HeXuPKU/SAGELD">https://github.com/HeXuPKU/SAGELD</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-6" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">G×E, longitudinal data, saddlepoint approximation, GRM, matrix projection, repeated measures</div>
+    <label for="catalog-col-keywords-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Leveraging longitudinal data to boost statistical power for gene-environment interaction analysis.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Xu H, Ma Y, Liu Y, Li Y, Wan L, Zhang JF, Zhao Y, Yue W, Zhang P, Bi W. (2026) Leveraging longitudinal data to boost statistical power for gene-environment interaction analysis. Nat Comput Sci. doi:10.1038/s43588-026-01002-z. PMID 42304093</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Gene-environment interaction (G×E) analyses play a crucial role in advancing genetic discovery, addressing missing heritability, and facilitating precision medicine. However, existing G×E methods are mostly designed for cross-sectional data, limiting the utility of longitudinal data. Here we propose SAGELD, a scalable and accurate genome-wide G×E method for longitudinal traits that controls for sample relatedness in large-scale datasets. SAGELD uses matrix projection to construct test statistics and the SPA GRM framework to efficiently control for sample relatedness, achieving 10- to 10,000-fold speedups over existing methods while maintaining greater power than cross-sectional analyses. We evaluated SAGELD through extensive simulations and UK Biobank analyses. Using age and body mass index as environmental exposures, we identified 74 loci with genetic × age interactions and 5 loci with genetic × adiposity interactions in the pooled analysis of longitudinal primary care data and cross-sectional assessment data. These results highlight the advantages of leveraging longitudinal data in G×E analyses.</div>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s43588-026-01002-z</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">Inputs: individual genotypes + longitudinal phenotypes + time-varying E + covariates (+ GRM) → matrix projection → SPA-adjusted score statistics → G×E interaction p-values</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
     <h3 id="spagxecct" class="catalog-entry-card__title">SPAGxECCT</h3>
     <div class="catalog-entry-card__badges" role="list">
       <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
@@ -2398,9 +2480,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">A scalable and accurate framework for large-scale genome-wide gene-environment interaction (G×E) analysis.</div>
-    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2408,9 +2490,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-6" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-7" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">G×E, genome-wide, saddlepoint approximation, Cauchy combination test, time-to-event, ordinal traits</div>
-    <label for="catalog-col-keywords-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2422,9 +2504,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Gene-environment interaction (G×E) analysis elucidates the interplay between genetic and environmental factors. Genome-wide association studies (GWAS) have expanded to encompass complex traits like time-to-event and ordinal traits, which provide richer phenotypic information. However, most existing scalable approaches focus only on quantitative or binary traits. Here we propose SPAGxECCT, a scalable and accurate framework for diverse trait types. SPAGxECCT fits a genotype-independent model and employs a hybrid strategy including saddlepoint approximation (SPA) for accurate p value calculation, especially for low-frequency variants and unbalanced phenotypic distributions. We extend SPAGxECCT to SPAGxEmixCCT, which accounts for population stratification and is applicable to multi-ancestry or admixed populations. SPAGxEmixCCT can further be extended to SPAGxEmixCCT-local, which identifies ancestry-specific G×E effects using local ancestry. Through extensive simulations and real data analyses of UK Biobank data, we demonstrate that SPAGxECCT and SPAGxEmixCCT are scalable to analyze large-scale study cohort, control type I error rates effectively, and maintain power.</div>
-    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2455,9 +2537,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Structured Linear Mixed Model (StructLMM) is a computationally efficient method to test for and characterize loci that interact with multiple environments</div>
-    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2473,9 +2555,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Different exposures, including diet, physical activity, or external conditions can contribute to genotype-environment interactions (G×E). Although high-dimensional environmental data are increasingly available and multiple exposures have been implicated with G×E at the same loci, multi-environment tests for G×E are not established. Here, we propose the structured linear mixed model (StructLMM), a computationally efficient method to identify and characterize loci that interact with one or more environments. After validating our model using simulations, we applied StructLMM to body mass index in the UK Biobank, where our model yields previously known and novel G×E signals. Finally, in an application to a large blood eQTL dataset, we demonstrate that StructLMM can be used to study interactions with hundreds of environmental variables.</div>
-    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2515,9 +2597,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Gene-environment interactions (G×E), the interplay of genetic variation with environmental factors, have a pivotal impact on human complex traits and diseases. Statistically, G×E can be assessed by determining the deviation from expectation of predictive models based solely on the phenotypic effects of genetics or environmental exposures. Despite the unprecedented, widespread and diverse use of G×E analytical frameworks, heterogeneity in their application and reporting hinders their applicability in public health. In this Review, we discuss study design considerations as well as G×E analytical frameworks to assess polygenic liability dependent on the environment, to identify specific genetic variants exhibiting G×E, and to characterize environmental context for these dynamics. We conclude with recommendations to address the most common challenges and pitfalls in the conceptualization, methodology and reporting of G×E studies, as well as future directions.</div>
-    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2552,9 +2634,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Despite the yield of recent genome-wide association (GWA) studies, the identified variants explain only a small proportion of the heritability of most complex diseases. This unexplained heritability could be partly due to gene-environment (G×E) interactions or more complex pathways involving multiple genes and exposures. This Review provides a tutorial on the available epidemiological designs and statistical analysis approaches for studying specific G×E interactions and choosing the most appropriate methods. I discuss the approaches that are being developed for studying entire pathways and available techniques for mining interactions in GWA data. I also explore methods for marrying hypothesis-driven pathway-based approaches with &quot;agnostic&quot; GWA studies.</div>
-    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2585,9 +2667,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-11" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Study of gene-environment interaction is important for improving accuracy and precision in the assessment of both genetic and environmental influences. This overview presents a simple definition of gene-environment interaction and suggests study designs for detecting it. Gene-environment interaction is defined as &quot;a different effect of an environmental exposure on disease risk in persons with different genotypes,&quot; or, alternatively, &quot;a different effect of a genotype on disease risk in persons with different environmental exposures.&quot; Under this strictly statistical definition, the presence or absence of interaction depends upon the scale of measurement (additive or multiplicative). The decision of which scale is appropriate will be governed by many factors, including the main objective of an investigation (discovery of etiology, public health prediction, etc.) and the hypothesized pathophysiologic model. Five biologically plausible models are described for the relations between genotypes and environmental exposures, in terms of their effects on disease risk. Each of these models leads to a different set of predictions about disease risk in individuals classified by presence or absence of a high-risk genotype and environmental exposure. Classification according to the exposure is relatively easy, using conventional epidemiologic methods. Classification according to the high-risk genotype is more difficult, but several alternative strategies are suggested.</div>
-    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2618,9 +2700,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-11" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Studies of gene-environment interactions aim to describe how genetic and environmental factors jointly influence the risk of developing a human disease. Gene-environment interactions can be described by using several models, which take into account the various ways in which genetic effects can be modified by environmental exposures, the number of levels of these exposures and the model on which the genetic effects are based. Choice of study design, sample size and genotyping technology influence the analysis and interpretation of observed gene-environment interactions. Current systems for reporting epidemiological studies make it difficult to assess whether the observed interactions are reproducible, so suggestions are made for improvements in this area.</div>
-    <label for="catalog-col-abstract-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2651,9 +2733,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">With the advent of increasingly accessible technologies for typing genetic variation, studies of gene-environment (G×E) interactions have proliferated in psychological research. Among the aims of such studies are testing developmental hypotheses and models of the etiology of behavioral disorders, defining boundaries of genetic and environmental influences, and identifying individuals most susceptible to risk exposures or most amenable to preventive and therapeutic interventions. This research also coincides with the emergence of unanticipated difficulties in detecting genetic variants of direct association with behavioral traits and disorders, which may be obscured if genetic effects are expressed only in predisposing environments. In this essay we consider these and other rationales for positing G×E interactions, review conceptual models meant to inform G×E interpretations from a psychological perspective, discuss points of common critique to which G×E research is vulnerable, and address the role of the environment in G×E interactions.</div>
-    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2684,9 +2766,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Some Gene × Environment interaction (G×E) research has focused upon single candidate genes, whereas other related work has targeted multiple genes (e.g., polygenic scores). Each approach has informed efforts to identify individuals who are either especially vulnerable to the negative effects of contextual adversity (diathesis stress) or especially susceptible to both positive and negative contextual conditions (differential susceptibility). A critical step in all such molecular G×E research is the selection of genetic variants thought to moderate environmental influences, a subject that has not received a great deal of attention in critiques of G×E research (beyond the observation of small effects of individual genes). Here we conceptually distinguish three phases of G×E work based on the selection of genes presumed to moderate environmental effects and the theoretical basis of such decisions: (a) single candidate genes, (b) composited (multiple) candidate genes, and (c) GWAS-derived polygenic scores. This illustrative, not exhaustive, review makes it clear that implicit or explicit theoretical assumptions inform gene selection in ways that have not been clearly articulated or fully appreciated.</div>
-    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2717,9 +2799,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-14" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">A now substantial body of science implicates a dynamic interplay between genetic and environmental variation in the development of individual differences in behavior and health. Such outcomes are affected by molecular, often epigenetic, processes involving gene-environment (G-E) interplay that can influence gene expression. Early environments with exposures to poverty, chronic adversities, and acutely stressful events have been linked to maladaptive development and compromised health and behavior. Genetic differences can impart either enhanced or blunted susceptibility to the effects of such pathogenic environments. However, largely missing from present discourse regarding G-E interplay is the role of time, a &quot;third factor&quot; guiding the emergence of complex developmental endpoints across different scales of time. Trajectories of development increasingly appear best accounted for by a complex, dynamic interchange among the highly linked elements of genes, contexts, and time at multiple scales, including neurobiological (minutes to milliseconds), genomic (hours to minutes), developmental (years and months), and evolutionary (centuries and millennia) time. This special issue of PNAS thus explores time and timing among G-E transactions: The importance of timing and timescales in plasticity and critical periods of brain development; epigenetics and the molecular underpinnings of biologically embedded experience; the encoding of experience across time and biological levels of organization; and gene-regulatory networks in behavior and development and their linkages to neuronal networks. Taken together, the collection of papers offers perspectives on how G-E interplay operates contingently within and against a backdrop of time and timescales.</div>
-    <label for="catalog-col-abstract-14" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>

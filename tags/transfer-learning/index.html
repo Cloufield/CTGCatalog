@@ -1036,12 +1036,13 @@
 <h1 id="transfer-learning">Transfer Learning</h1>
 <p>Catalog entries using this tag (links open the entry card on its page):</p>
 <ul>
-<li><a href="../../AI_GWAS/#insightgwas-migraine">InsightGWAS (Migraine) — AI</a></li>
+<li><a href="../../AI_GWAS_Methods/#insightgwas-migraine">InsightGWAS (Migraine) — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#transfergwas">transferGWAS — AI</a></li>
 </ul>
 <h2 id="entries">Entries</h2>
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
-    <h2 id="insightgwas-migraine" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS/#insightgwas-migraine">InsightGWAS (Migraine) <span class="catalog-entry-card__title-abbr">(InsightGWAS)</span></a></h2>
+    <h2 id="insightgwas-migraine" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Methods/#insightgwas-migraine">InsightGWAS (Migraine) <span class="catalog-entry-card__title-abbr">(InsightGWAS)</span></a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
       <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
@@ -1080,6 +1081,65 @@
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
     <div class="catalog-entry-card__value">10.1038/s41467-025-65991-7</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="transfergwas" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#transfergwas">transferGWAS</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="imaging/" class="catalog-badge catalog-badge--link" role="listitem">Imaging</a>
+      <a href="transfer-learning/" class="catalog-badge catalog-badge--link" role="listitem">Transfer Learning</a>
+      <a href="deep-learning/" class="catalog-badge catalog-badge--link" role="listitem">Deep Learning</a>
+      <a href="retinal-fundus/" class="catalog-badge catalog-badge--link" role="listitem">Retinal Fundus</a>
+      <a href="representation-learning/" class="catalog-badge catalog-badge--link" role="listitem">Representation Learning</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/35640976">35640976</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">transferGWAS: GWAS of Images Using Deep Transfer Learning</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">transferGWAS performs GWAS directly on full medical images using deep transfer learning: (1) a pretrained CNN (ResNet-based architecture, pretrained on ImageNet) extracts feature embeddings from raw images; (2) these learned representations are used as quantitative phenotypes for genetic association testing. Applied to UK Biobank retinal fundus images, identified 60 genomic regions including 7 novel candidate loci for eye-related traits. First demonstration of direct GWAS on whole images without predefined phenotype engineering.</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/mkirchler/transferGWAS/">https://github.com/mkirchler/transferGWAS/</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-2" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">deep transfer learning, pretrained CNN, ResNet, retinal fundus, whole-image GWAS, representation learning, UK Biobank</div>
+    <label for="catalog-col-keywords-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">transferGWAS: GWAS of images using deep transfer learning.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Kirchler M, Konigorski S, Norden M, Meltendorf C, Kloft M, Schurmann C, Lippert C. (2022) transferGWAS: GWAS of images using deep transfer learning. Bioinformatics, 38(14):3621-3628. doi:10.1093/bioinformatics/btac369. PMID 35640976</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">MOTIVATION: Medical images can provide rich information about diseases and their biology. However, investigating their association with genetic variation requires non-standard methods. We propose transferGWAS, a novel approach to perform genome-wide association studies directly on full medical images. First, we learn semantically meaningful representations of the images based on a transfer learning task, during which a deep neural network is trained on independent but similar data. Then, we perform genetic association tests with these representations. RESULTS: We validate the type I error rates and power of transferGWAS in simulation studies of synthetic images. Then we apply transferGWAS in a genome-wide association study of retinal fundus images from the UK Biobank. This first-of-a-kind GWAS of full imaging data yielded 60 genomic regions associated with retinal fundus images, of which 7 are novel candidate loci for eye-related traits and diseases.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1093/bioinformatics/btac369</div>
   </section>
   </div>
 </article>

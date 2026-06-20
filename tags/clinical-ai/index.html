@@ -1038,6 +1038,7 @@
 <ul>
 <li><a href="../../AI_Agent/#ai-agents-in-cancer-research">AI Agents in Cancer Research — AI</a></li>
 <li><a href="../../AI_Agent/#deeprare">DeepRare — AI</a></li>
+<li><a href="../../AI_Agent/#mira">MIRA — AI</a></li>
 </ul>
 <h2 id="entries">Entries</h2>
 <article class="catalog-entry-card" data-catalog-section="AI">
@@ -1129,6 +1130,59 @@
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
     <div class="catalog-entry-card__value">10.1038/s41586-025-10097-9</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="mira" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_Agent/#mira">MIRA</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="agent/" class="catalog-badge catalog-badge--link" role="listitem">Agent</a>
+      <a href="clinical-ai/" class="catalog-badge catalog-badge--link" role="listitem">Clinical AI</a>
+      <a href="ehr/" class="catalog-badge catalog-badge--link" role="listitem">EHR</a>
+      <a href="autonomous-agent/" class="catalog-badge catalog-badge--link" role="listitem">Autonomous Agent</a>
+      <a href="mira/" class="catalog-badge catalog-badge--link" role="listitem">MIRA</a>
+      <a href="nature/" class="catalog-badge catalog-badge--link" role="listitem">Nature</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/42310457">42310457</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">MIRA: Medical Intelligence for Reasoning and Action — an autonomous AI agent operating in a sandboxed EHR environment</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">MIRA is an autonomous AI agent powered by GPT-4o (T=0.01) with o1-preview for structured reasoning, operating within a sandboxed HL7 FHIR-based EHR environment. It navigates 85,000+ clinical decision options across 8 emergency department diagnoses, using 11 FHIR-compliant tools (PatientHistory, PhysicalExam, Lab/Urine/Microbiology/Radiology requests, Medication/Procedure ordering, Plan, Admission). Evaluated on 574 real MIMIC-IV patient cases, MIRA outperformed two independent physician cohorts in diagnostic accuracy, guideline-concordant treatment, medication safety, and appropriate admission decisions. All tool parameter validity is enforced through token masking, making hallucination of non-existent options programmatically impossible.</div>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://www.nature.com/articles/s41586-026-10675-5">https://www.nature.com/articles/s41586-026-10675-5</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Towards autonomous medical artificial intelligence agents.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ferber D, Hilgers L, Höper C, Kinny-Köster B, Eckardt JN, Egger-Heidrich K, Bill M, Schneider MMK, Clusmann J, Kadric L, Oehme M, Mayrhofer-Schmid M, Oeser A, Wölflein G, Wiest IC, Middeke JM, Iafrate AJ, Truhn D, Jäger D, Kather JN. (2026) Towards autonomous medical artificial intelligence agents. Nature. doi:10.1038/s41586-026-10675-5. PMID 42310457</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Large language models (LLMs) show great potential for clinical decision-making, yet most applications remain narrow, task-specific chat tools rather than systems integrated into clinical workflows. However, building physician copilots will require models that operate within the electronic health record (EHR), with governed access to patient data and the ability to initiate permitted EHR actions within defined safety constraints. Here we show that MIRA (Medical Intelligence for Reasoning and Action), an autonomous artificial intelligence agent operating in a sandboxed EHR environment, can navigate a large clinical action space to obtain patient histories; order and interpret laboratory, imaging and microbiology tests; generate differential diagnoses; and formulate treatment plans such as prescribing medications, scheduling surgical procedures and planning admissions. In simulations on real patient cases spanning multiple diagnoses, MIRA outperformed physicians in diagnostic accuracy and made guideline-concordant, medication-safe and appropriate admission decisions.</div>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41586-026-10675-5</div>
   </section>
   </div>
 </article>

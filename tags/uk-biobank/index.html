@@ -1036,15 +1036,19 @@
 <h1 id="uk-biobank">UK Biobank</h1>
 <p>Catalog entries using this tag (links open the entry card on its page):</p>
 <ul>
-<li><a href="../../AI_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS — AI</a></li>
-<li><a href="../../AI_GWAS/#milton">MILTON — AI</a></li>
-<li><a href="../../AI_GWAS/#mixehr-sage">MixEHR-SAGE — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#haas-me">Haas ME — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#khurshid-s">Khurshid S — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#liu-y">Liu Y — AI</a></li>
+<li><a href="../../AI_GWAS_Phenotyping/#milton">MILTON — AI</a></li>
+<li><a href="../../AI_GWAS_Phenotyping/#mixehr-sage">MixEHR-SAGE — AI</a></li>
+<li><a href="../../AI_GWAS_Imaging_GWAS/#ning-c">Ning C — AI</a></li>
 <li><a href="../../Sumstats_Family_GWAS/#uk-biobank-family-based-gwas-guan-et-al">UK Biobank family-based GWAS (Guan et al.) — Summary statistics</a></li>
 </ul>
 <h2 id="entries">Entries</h2>
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
-    <h2 id="dl-thoracic-aorta-gwas" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS <span class="catalog-entry-card__title-abbr">(DL Aorta GWAS)</span></a></h2>
+    <h2 id="dl-thoracic-aorta-gwas" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#dl-thoracic-aorta-gwas">DL Thoracic Aorta GWAS <span class="catalog-entry-card__title-abbr">(DL Aorta GWAS)</span></a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
       <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
@@ -1066,8 +1070,14 @@
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
     <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
-    <div class="catalog-entry-card__collapsible-clipped">Deep learning model trained on 4.6 million cardiac MRI images from UK Biobank to evaluate ascending and descending thoracic aorta dimensions, followed by GWAS identifying 82 ascending and 47 descending aorta loci. Demonstrates DL-based image phenotyping for large-scale genetic association studies. Published in Nature Genetics.</div>
+    <div class="catalog-entry-card__collapsible-clipped">Applied a pretrained CNN (transferred from natural image recognition, e.g. ResNet/Inception-like architecture) to 4.6 million cardiac MRI images from UK Biobank, trained on only 116 manually annotated samples to regress ascending and descending thoracic aorta dimensions. GWAS identified 82 ascending and 47 descending aorta loci. Demonstrates transfer learning from natural images to medical imaging for rapid biobank-scale phenotyping.</div>
     <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-1" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">deep learning, CNN, ImageNet transfer learning, cardiac MRI, thoracic aorta, image regression, UK Biobank</div>
+    <label for="catalog-col-keywords-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1088,7 +1098,172 @@
 
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
-    <h2 id="milton" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS/#milton">MILTON</a></h2>
+    <h2 id="haas-me" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#haas-me">Haas ME <span class="catalog-entry-card__title-abbr">(ML Liver Fat GWAS)</span></a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="imaging/" class="catalog-badge catalog-badge--link" role="listitem">Imaging</a>
+      <a href="machine-learning/" class="catalog-badge catalog-badge--link" role="listitem">Machine Learning</a>
+      <a href="liver-fat/" class="catalog-badge catalog-badge--link" role="listitem">Liver Fat</a>
+      <a href="abdominal-mri/" class="catalog-badge catalog-badge--link" role="listitem">Abdominal MRI</a>
+      <a href="uk-biobank/" class="catalog-badge catalog-badge--link" role="listitem">UK Biobank</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/34957434">34957434</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Machine Learning Enables New Insights into Genetic Contributions to Liver Fat Accumulation</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Developed an abdominal MRI-based machine-learning regression model (gradient-boosted regression on raw MRI signal intensities) to accurately estimate liver fat from UK Biobank abdominal MRI scans (correlation 0.97-0.99 with ground truth). Trained on 4,511 participants with gold-standard MRI biomarker measurements and applied to 32,192 additional individuals. GWAS identified 8 associated variants (5 novel: MTARC1, ADH1B, TRIB1, GPAM, MAST3) and a polygenic score strongly associated with future chronic liver disease risk (HR&gt;1.32 per SD, p&lt;9e-17).</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-2" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">MRI signal regression, liver fat quantification, abdominal MRI, hepatic steatosis, gradient boosting, UK Biobank</div>
+    <label for="catalog-col-keywords-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Machine learning enables new insights into genetic contributions to liver fat accumulation.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Haas ME, Pirruccello JP, Friedman SN, Wang M, ...&amp;, Khera AV. (2021) Machine learning enables new insights into genetic contributions to liver fat accumulation. Cell Genom, 1 (3). doi:10.1016/j.xgen.2021.100066. PMID 34957434</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Excess liver fat, called hepatic steatosis, is a leading risk factor for end-stage liver disease and cardiometabolic diseases but often remains undiagnosed in clinical practice because of the need for direct imaging assessments. We developed an abdominal MRI-based machine-learning algorithm to accurately estimate liver fat from a truth dataset of 4,511 middle-aged UK Biobank participants, enabling quantification in 32,192 additional individuals. A genome-wide association study of common genetic variants and liver fat replicated three known associations and identified five newly associated variants.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1016/j.xgen.2021.100066</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="khurshid-s" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#khurshid-s">Khurshid S <span class="catalog-entry-card__title-abbr">(DL LV Mass GWAS)</span></a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="imaging/" class="catalog-badge catalog-badge--link" role="listitem">Imaging</a>
+      <a href="deep-learning/" class="catalog-badge catalog-badge--link" role="listitem">Deep Learning</a>
+      <a href="cardiac-mri/" class="catalog-badge catalog-badge--link" role="listitem">Cardiac MRI</a>
+      <a href="left-ventricular-mass/" class="catalog-badge catalog-badge--link" role="listitem">Left Ventricular Mass</a>
+      <a href="uk-biobank/" class="catalog-badge catalog-badge--link" role="listitem">UK Biobank</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/36944631">36944631</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Clinical and Genetic Associations of Deep Learning-Derived Cardiac Magnetic Resonance-Based Left Ventricular Mass</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Applied a CNN-based segmentation model (U-Net style architecture) to automatically segment left ventricular myocardium from cardiac MRI in 43,230 UK Biobank participants. The segmented contours were used to compute left ventricular mass indexed to body surface area (LVMI), enabling GWAS that identified 12 associations (11 novel) implicating genes associated with cardiac contractility and cardiomyopathy. The LVMI polygenic risk score validated in independent Mass General Brigham cohort.</div>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-3" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">deep learning, cardiac MRI segmentation, U-Net, left ventricular mass, CNN, cardiomyopathy, UK Biobank</div>
+    <label for="catalog-col-keywords-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Khurshid S, Lazarte J, Pirruccello JP, ...&amp;, Lubitz SA. (2023) Clinical and genetic associations of deep learning-derived cardiac magnetic resonance-based left ventricular mass. Nat Commun, 14 (1) 1558. doi:10.1038/s41467-023-37173-w. PMID 36944631</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Left ventricular mass is a risk marker for cardiovascular events, and may indicate an underlying cardiomyopathy. Cardiac magnetic resonance is the gold-standard for left ventricular mass estimation, but is challenging to obtain at scale. Here, we use deep learning to enable genome-wide association study of cardiac magnetic resonance-derived left ventricular mass indexed to body surface area within 43,230 UK Biobank participants. We identify 12 genome-wide associations (1 known at TTN and 11 novel for left ventricular mass).</div>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41467-023-37173-w</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="liu-y" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#liu-y">Liu Y <span class="catalog-entry-card__title-abbr">(DL Organ MRI GWAS)</span></a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="imaging/" class="catalog-badge catalog-badge--link" role="listitem">Imaging</a>
+      <a href="deep-learning/" class="catalog-badge catalog-badge--link" role="listitem">Deep Learning</a>
+      <a href="abdominal-mri/" class="catalog-badge catalog-badge--link" role="listitem">Abdominal MRI</a>
+      <a href="organ-traits/" class="catalog-badge catalog-badge--link" role="listitem">Organ Traits</a>
+      <a href="uk-biobank/" class="catalog-badge catalog-badge--link" role="listitem">UK Biobank</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/34128465">34128465</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Genetic Architecture of 11 Organ Traits Derived from Abdominal MRI Using Deep Learning</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Applied a U-Net-based CNN segmentation pipeline to over 38,000 abdominal MRI scans from UK Biobank. The deep learning model automatically segmented 7 organs/tissues (liver, pancreas, kidneys, spleen, lungs, visceral adipose tissue, subcutaneous adipose tissue) and quantified their volume, fat content (via signal intensity), and iron content (via T2* mapping). GWAS on these 11 DL-derived traits identified 93 independent genome-wide significant associations (heritability 8-44%), including 4 novel liver trait associations.</div>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-4" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">deep learning, abdominal MRI segmentation, U-Net, organ volume quantification, liver fat, pancreas iron, UK Biobank</div>
+    <label for="catalog-col-keywords-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Genetic architecture of 11 organ traits derived from abdominal MRI using deep learning.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Liu Y, Basty N, Whitcher B, Bell JD, ...&amp;, Cule M. (2021) Genetic architecture of 11 organ traits derived from abdominal MRI using deep learning. Elife, 10. doi:10.7554/eLife.65554. PMID 34128465</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Cardiometabolic diseases are an increasing global health burden. While socioeconomic, environmental, behavioural, and genetic risk factors have been identified, a better understanding of the underlying mechanisms is required to develop more effective interventions. Magnetic resonance imaging (MRI) has been used to assess organ health, but biobank-scale studies are still in their infancy. Using over 38,000 abdominal MRI scans in the UK Biobank, we used deep learning to quantify volume, fat, and iron in seven organs and tissues, and demonstrate that imaging-derived phenotypes reflect health status. We identify 93 independent genome-wide significant associations.</div>
+    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.7554/eLife.65554</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="milton" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Phenotyping/#milton">MILTON</a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
       <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
@@ -1110,9 +1285,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">MILTON is an ensemble machine learning framework that utilizes biomarkers and multi-omics data to predict 3,213 diseases in the UK Biobank. It predicts incident disease cases undiagnosed at time of recruitment and demonstrates utility in augmenting genetic association discovery by empowering case-control GWAS with predicted phenotypes. Published in Nature Genetics.</div>
-    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1120,9 +1295,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">The emergence of biobank-level datasets offers new opportunities to discover novel biomarkers and develop predictive algorithms for human disease. Here, we present an ensemble machine-learning framework (machine learning with phenotype associations, MILTON) utilizing a range of biomarkers to predict 3,213 diseases in the UK Biobank. MILTON predicts incident disease cases undiagnosed at time of recruitment, largely outperforming available polygenic risk scores, and augments genetic association discovery.</div>
-    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -1133,7 +1308,7 @@
 
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
-    <h2 id="mixehr-sage" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS/#mixehr-sage">MixEHR-SAGE</a></h2>
+    <h2 id="mixehr-sage" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Phenotyping/#mixehr-sage">MixEHR-SAGE</a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
       <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
@@ -1156,9 +1331,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">MixEHR-SAGE is a PheCode-guided multi-modal topic model that integrates diagnoses, procedures, and medications from EHR to enhance phenotyping for GWAS. By combining expert-informed priors with probabilistic inference, it identifies over 1000 interpretable phenotype topics from UK Biobank data and improves disease incidence prediction and GWAS discovery. Published in Briefings in Bioinformatics.</div>
-    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1166,13 +1341,69 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Phenome-wide association studies rely on disease definitions derived from diagnostic codes, often failing to leverage the full richness of electronic health records (EHR). We present MixEHR-SAGE, a PheCode-guided multi-modal topic model that integrates diagnoses, procedures, and medications to enhance phenotyping from large-scale EHRs. Applied to 350,000 individuals with high-quality genetic data, MixEHR-SAGE-derived risk scores accurately predicted disease incidence and improved GWAS discovery.</div>
-    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
     <div class="catalog-entry-card__value">10.1093/bib/bbag030</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="ning-c" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Imaging_GWAS/#ning-c">Ning C <span class="catalog-entry-card__title-abbr">(DL LVRWT GWAS)</span></a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
+      <a href="imaging/" class="catalog-badge catalog-badge--link" role="listitem">Imaging</a>
+      <a href="deep-learning/" class="catalog-badge catalog-badge--link" role="listitem">Deep Learning</a>
+      <a href="cardiac-mri/" class="catalog-badge catalog-badge--link" role="listitem">Cardiac MRI</a>
+      <a href="left-ventricular-wall/" class="catalog-badge catalog-badge--link" role="listitem">Left Ventricular Wall</a>
+      <a href="hypertrophic-cardiomyopathy/" class="catalog-badge catalog-badge--link" role="listitem">Hypertrophic Cardiomyopathy</a>
+      <a href="uk-biobank/" class="catalog-badge catalog-badge--link" role="listitem">UK Biobank</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/38036550">38036550</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">Genome-Wide Association Analysis of Left Ventricular Imaging-Derived Phenotypes Identifies 72 Risk Loci</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">Built a CNN-based deep learning algorithm for automated segmentation of left ventricular myocardium from cardiac MRI, enabling precise calculation of 12 regional wall thickness (LVRWT) measurements in 42,194 UK Biobank participants. GWAS of these 12 CNN-derived LVRWT traits identified 72 significant genetic loci involved in heart development and contraction pathways. Mendelian randomization confirmed causal relationships with hypertrophic cardiomyopathy. The PRS of inferoseptal LVRWT enabled identification of high-risk individuals.</div>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-7" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">deep learning, cardiac MRI, CNN, left ventricular wall thickness segmentation, hypertrophic cardiomyopathy, UK Biobank</div>
+    <label for="catalog-col-keywords-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Ning C, Fan L, Jin M, ...&amp;, Miao X. (2023) Genome-wide association analysis of left ventricular imaging-derived phenotypes identifies 72 risk loci and yields genetic insights into hypertrophic cardiomyopathy. Nat Commun, 14 (1) 7900. doi:10.1038/s41467-023-43771-5. PMID 38036550</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Left ventricular regional wall thickness (LVRWT) is an independent predictor of morbidity and mortality in cardiovascular diseases (CVDs). To identify specific genetic influences on individual LVRWT, we established a novel deep learning algorithm to calculate 12 LVRWTs accurately in 42,194 individuals from the UK Biobank with cardiac magnetic resonance (CMR) imaging. Genome-wide association studies of CMR-derived 12 LVRWTs identified 72 significant genetic loci associated with at least one LVRWT phenotype.</div>
+    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41467-023-43771-5</div>
   </section>
   </div>
 </article>
@@ -1192,9 +1423,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Family-based GWAS (FGWAS) summary statistics estimating direct genetic effects (DGEs) with unified, robust, Young et al. Mendelian-imputation, and sib-difference estimators implemented in snipar. Unified estimator adds singletons via linear parental imputation (largest DGE effective sample size in homogeneous samples); robust estimator avoids allele-frequency imputation bias under strong structure or admixture. UK Biobank application (n up to ~408k unified White British; ~52k robust with ≥1 genotyped first-degree relative).</div>
-    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>

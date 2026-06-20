@@ -1036,12 +1036,13 @@
 <h1 id="single-cell">Single Cell</h1>
 <p>Catalog entries using this tag (links open the entry card on its page):</p>
 <ul>
-<li><a href="../../AI_GWAS/#causal-ml-for-scgenomics">Causal ML for scGenomics — AI</a></li>
+<li><a href="../../AI_GWAS_Review/#causal-ml-for-scgenomics">Causal ML for scGenomics — AI</a></li>
+<li><a href="../../AI_Single_cell/#scgpt">scGPT — AI</a></li>
 </ul>
 <h2 id="entries">Entries</h2>
 <article class="catalog-entry-card" data-catalog-section="AI">
   <header class="catalog-entry-card__header">
-    <h2 id="causal-ml-for-scgenomics" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS/#causal-ml-for-scgenomics">Causal ML for scGenomics <span class="catalog-entry-card__title-abbr">(Causal ML sc)</span></a></h2>
+    <h2 id="causal-ml-for-scgenomics" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_GWAS_Review/#causal-ml-for-scgenomics">Causal ML for scGenomics <span class="catalog-entry-card__title-abbr">(Causal ML sc)</span></a></h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
       <a href="gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
@@ -1079,6 +1080,58 @@
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
     <div class="catalog-entry-card__value">10.1038/s41588-025-02124-2</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="AI">
+  <header class="catalog-entry-card__header">
+    <h2 id="scgpt" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../AI_Single_cell/#scgpt">scGPT</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="ai/" class="catalog-badge catalog-badge--link" role="listitem">AI</a>
+      <a href="single-cell-2/" class="catalog-badge catalog-badge--link" role="listitem">Single Cell</a>
+      <a href="foundation-model/" class="catalog-badge catalog-badge--link" role="listitem">Foundation Model</a>
+      <a href="gpt/" class="catalog-badge catalog-badge--link" role="listitem">GPT</a>
+      <a href="scrna-seq/" class="catalog-badge catalog-badge--link" role="listitem">scRNA-seq</a>
+      <a href="multi-omics/" class="catalog-badge catalog-badge--link" role="listitem">Multi-omics</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">PUBMED_LINK</div>
+    <div class="catalog-entry-card__value"><a href="https://pubmed.ncbi.nlm.nih.gov/38840054">38840054</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">scGPT — Foundation Model for Single-Cell Multi-Omics Using Generative AI</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">scGPT is a generative pretrained transformer foundation model for single-cell biology, pretrained on over 33 million human cells from 51 organs across 441 studies. Uses a GPT architecture adapted for gene expression data with a specialized attention mask. Outperforms traditional methods on cell type annotation, multi-batch integration, multi-omic integration, perturbation response prediction, and gene network inference. Represents a foundational AI model for cellular biology analogous to GPT for natural language.</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/bowang-lab/scGPT">https://github.com/bowang-lab/scGPT</a></div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">scGPT: toward building a foundation model for single-cell multi-omics using generative AI.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Cui H, Wang C, Maan H, Pang K, Luo F, Duan N, Wang B. (2024) scGPT: toward building a foundation model for single-cell multi-omics using generative AI. Nature Methods, 21(8):1470-1480. doi:10.1038/s41592-024-02201-0. PMID 38840054</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Generative pretrained models have achieved remarkable success in various domains such as language and computer vision. Using burgeoning single-cell sequencing data, we have constructed a foundation model for single-cell biology, scGPT, based on a generative pretrained transformer across a repository of over 33 million cells. Our findings illustrate that scGPT effectively distills critical biological insights concerning genes and cells. Through further adaptation of transfer learning, scGPT can be optimized to achieve superior performance across diverse downstream applications including cell type annotation, multi-batch integration, multi-omic integration, perturbation response prediction and gene network inference.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41592-024-02201-0</div>
   </section>
   </div>
 </article>
