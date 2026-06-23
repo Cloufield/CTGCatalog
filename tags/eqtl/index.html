@@ -1036,6 +1036,7 @@
 <h1 id="eqtl">eQTL</h1>
 <p>Catalog entries using this tag (links open the entry card on its page):</p>
 <ul>
+<li><a href="../../Tools_Association_tests_TWAS/#ingene-module">INGENE / MODULE — GWAS Tools</a></li>
 <li><a href="../../Tools_Association_tests_eQTL/#omiga">OmiGA — GWAS Tools</a></li>
 <li><a href="../../Projects_GTEx/#gtex-bulk-atlas-releases-v6p-v8">GTEx — Bulk atlas releases (v6p / v8) — Projects</a></li>
 <li><a href="../../Projects_GTEx/#gtex-cell-type-specific-genetic-regulation-of-expression">GTEx — Cell-type-specific genetic regulation of expression — Projects</a></li>
@@ -1047,6 +1048,66 @@
 <li><a href="../../Sumstats_Transcriptomics_Bulk_tissue/#rhyqtl">rhyQTL — Summary statistics</a></li>
 </ul>
 <h2 id="entries">Entries</h2>
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
+    <h2 id="ingene-module" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Tools_Association_tests_TWAS/#ingene-module">INGENE / MODULE</a></h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="twas/" class="catalog-badge catalog-badge--link" role="listitem">TWAS</a>
+      <a href="eqtl/" class="catalog-badge catalog-badge--link" role="listitem">eQTL</a>
+      <a href="co-expression/" class="catalog-badge catalog-badge--link" role="listitem">co-expression</a>
+      <a href="trans-eqtl-2/" class="catalog-badge catalog-badge--link" role="listitem">trans-eQTL</a>
+      <a href="schizophrenia/" class="catalog-badge catalog-badge--link" role="listitem">schizophrenia</a>
+      <a href="gene-expression-imputation/" class="catalog-badge catalog-badge--link" role="listitem">gene expression imputation</a>
+      <a href="ingene/" class="catalog-badge catalog-badge--link" role="listitem">INGENE</a>
+      <a href="module/" class="catalog-badge catalog-badge--link" role="listitem">MODULE</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">INGENE (Imputed Network Gene-Expression Trans-eQTL) and MODULE (Module QTL Eigengene) — co-expression-based trans-eQTL models for TWAS</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">INGENE and MODULE are two co-expression-based trans-eQTL prediction models that capture distal regulatory effects for transcriptome-wide association studies (TWAS). INGENE predicts a target gene&#x27;s expression from the cis-regulated expression of its co-expression partners using elastic-net weights. MODULE predicts expression using candidate trans-eQTLs (co-eQTLs) associated with the first principal component (eigengene) of the gene&#x27;s co-expression module. Trained on LIBD brain RNA-seq across 6 regions using 48 published WGCNA co-expression networks, and validated on GTEx and CMC. Integration of cis + trans predictions improved gene expression imputation for 18,744 genes. Applied to PGC3 schizophrenia GWAS (N=102,613), coTWAS identified 766 SCZ-associated genes (FDR&lt;0.01), 641 (83.7%) novel. Enriched in synapse organization, AMPA receptor trafficking, MHC pathways, and cell-type-specific effects in excitatory neurons and GABAergic interneurons.</div>
+    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://doi.org/10.1038/s41588-026-02646-3">https://doi.org/10.1038/s41588-026-02646-3</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-1" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">TWAS, eQTL, co-expression network, trans-eQTL, gene expression imputation, schizophrenia, INGENE, MODULE, transcriptome-wide association, WGCNA</div>
+    <label for="catalog-col-keywords-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Rossi F, Sportelli L, Kikidis GC, ...&amp;, Pergola G. (2026) Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes. Nat Genet. doi:10.1038/s41588-026-02646-3.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-1" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Most genetic variants associated with complex heritability phenotypes lie in non-coding regions and are thought to influence disease risk by regulating gene expression. However, most transcriptome-wide association approaches primarily model local (cis) genetic effects, leaving much of gene regulation unexplained. Here, we show that incorporating distal (trans) regulatory effects improves the prediction of gene expression and the identification of disease-associated genes. Using RNA sequencing data from six human post-mortem brain regions, we developed INGENE and MODULE, two models capturing the combined influence of candidate trans-acting variants within gene coexpression networks. Integrating these models with conventional cis-based predictors improved gene expression imputation (maximum likelihood estimation, α=0.05) for 18,744 genes across regions. Applying this framework to Psychiatric Genomics Consortium wave 3 genotypes identified 766 genes associated with schizophrenia (PFDR &lt; 0.01), including 641 not previously reported by transcriptome-wide analyses. These findings highlight the contribution of distal regulatory mechanisms and gene network interactions to schizophrenia risk.</div>
+    <label for="catalog-col-abstract-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-026-02646-3</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">Genotypes + Brain RNA-seq reference (LIBD, 6 regions) + WGCNA co-expression networks (48 published) → Elastic-net training (INGENE: cis-partner expression → target; MODULE: co-eQTL SNPs → eigengene → target) → Cross-dataset validation (GTEx, CMC) → Cis + Trans integration (MLE, α=0.05) → coTWAS on PGC3 SCZ GWAS → 766 SCZ-associated genes (641 novel)</div>
+  </section>
+  </div>
+</article>
+
 <article class="catalog-entry-card" data-catalog-section="Tools">
   <header class="catalog-entry-card__header">
     <h2 id="omiga" class="catalog-entry-card__title"><a class="catalog-entry-card__title-link" href="../../Tools_Association_tests_eQTL/#omiga">OmiGA</a></h2>
@@ -1065,9 +1126,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-1" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Toolkit for molecular QTL (molQTL) mapping using linear mixed models that handle complex relatedness, aimed at high-throughput omics phenotypes with strong performance for discovery, fine mapping, and trait–molQTL colocalization versus common linear-mapper pipelines.</div>
-    <label for="catalog-col-description-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1075,9 +1136,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-1" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-2" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">molQTL, xQTL, LMM, relatedness, colocalization, fine mapping</div>
-    <label for="catalog-col-keywords-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1089,9 +1150,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-1" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Molecular quantitative trait loci (molQTL) mapping is one of the most popular approaches to systematically characterize functional impacts of genomic variants, leading to advanced understanding of the regulatory mechanisms underpinning complex traits and diseases. However, when applied to high-throughput molecular phenotypes, the existing molQTL mapping tools often implement simple linear models, overlooking complex inter-individual relatedness, leading to false positives and insufficient statistical power. Here, we introduce OmiGA, an ultra-efficient omics genetic analysis toolkit, for molQTL mapping based on linear mixed model in populations with complex relatedness. Both computational simulations and real data analyses demonstrate that OmiGA outperforms the existing popular tools regarding molQTL discovery power, fine mapping of causal variants, colocalization of molQTL and trait associations, and computational efficiency. In summary, we recommend OmiGA for molQTL mapping in populations with complex relatedness, for example, those in the Farm animal Genotype-Tissue Expression project and family-based molQTL studies in humans.</div>
-    <label for="catalog-col-abstract-1" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -1116,9 +1177,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Large stable releases (notably v6p and v8) distributing expression matrices, covariates, and variant calls; default inputs for TWAS, colocalization, and enrichment after GWAS.</div>
-    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1148,9 +1209,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Cell-type-specific eQTL analysis using computational deconvolution of bulk GTEx RNA-seq data across multiple tissues.</div>
-    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1184,9 +1245,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Analysis of genetic effects on gene expression using 7,051 RNA-seq samples from 449 donors across 44 tissues. Identified thousands of cis- and trans-eQTLs.</div>
-    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1219,9 +1280,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">First comprehensive description of the GTEx project design, including tissue collection protocols, RNA-seq and genotyping methods, and the initial data release strategy.</div>
-    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1254,9 +1315,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Pilot analysis of RNA-seq data from ~175 donors across 43 tissues, demonstrating tissue-specific and shared cis-eQTL architecture.</div>
-    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1284,9 +1345,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Multitissue RNA-seq and genotyping in ~175 donors across 43 tissues; defined tissue-specific and shared cis-eQTL architecture and established GTEx as the reference expression resource.</div>
-    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1316,9 +1377,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">v8 flagship paper: comprehensive atlas of genetic regulatory effects across 49 human tissues from 838 donors. Includes cis-eQTL, trans-eQTL, sQTL, and expression correlation networks.</div>
-    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -1350,9 +1411,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">rhyQTL (rhythmic QTL) — maps genetic determinants of 24-hour rhythmic gene expression across 45 GTEx tissues (838 individuals). Defines a new QTL class: rhyQTLs regulate gene rhythmicity (amplitude/phase/presence of daily cycle), distinct from eQTLs which regulate overall expression level. 63.8% of rhythmic genes show differential rhythmicity across genotypes; rhyQTLs explain median 15.8% of SNP heritability for 15 lipid traits. Only 3-37% of rhyQTLs overlap with eQTLs; rhyQTLs enriched in enhancer regions. Reveals ~4× more rhythmic genes than whole-population analyses.</div>
-    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -1364,9 +1425,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">24-hour biological rhythms are essential to maintain physiological homeostasis. Disruption of these rhythms increases the risks of multiple diseases. The biological rhythms are known to have a genetic basis formed by core clock genes, but how individual genetic variation shapes the oscillating transcriptome and contributes to human chronophysiology and disease risk is largely unknown. Here, we mapped interactions between temporal gene expression and genotype to identify quantitative trait loci (QTLs) contributing to rhythmic gene expression. These newly identified QTLs were termed as rhythmic QTLs (rhyQTLs), which determine previously unappreciated rhythmic genes in human subpopulations with specific genotypes. Our analyses of 45 human tissues from the Genotype-Tissue Expression (GTEx) project revealed thousands of rhythmic genes that would be otherwise obscured without stratifying by genetic variation. rhyQTLs and their associated rhythmic genes contribute extensively to essential chronophysiological processes, including bile acid and lipid metabolism. The identification of rhyQTLs sheds light on the genetic mechanisms of gene rhythmicity, offers mechanistic insights into variations in human disease risk, and enables precision chronotherapeutic approaches for patients.</div>
-    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>

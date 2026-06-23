@@ -2151,6 +2151,20 @@
       
       
       
+        <span class="md-tag">INGENE</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">MODULE</span>
+      
+    
+      
+      
+      
+      
         <span class="md-tag">Single cell</span>
       
     
@@ -2179,7 +2193,42 @@
       
       
       
+        <span class="md-tag">co-expression</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">eQTL</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">gene expression imputation</span>
+      
+    
+      
+      
+      
+      
         <span class="md-tag">scRNA-seq</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">schizophrenia</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">trans-eQTL</span>
       
     
   </nav>
@@ -2209,6 +2258,11 @@
 <td><a href="#fusion">FUSION</a></td>
 <td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Gusev A, Ko A, Shi H, Bhatia G, ...&amp;, Pasaniuc B. (2016) Integrative approaches for large-scale transcriptome-wide association studies. Nat Genet, 48 (3) 245-52. doi:10.1038/ng.3506. PMID 26854917">Gusev A et al., Nat Genet, 2016</div></td>
 <td>2016</td>
+</tr>
+<tr>
+<td><a href="#ingene-module">INGENE / MODULE</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Rossi F, Sportelli L, Kikidis GC, ...&amp;, Pergola G. (2026) Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes. Nat Genet. doi:10.1038/s41588-026-02646-3.">Rossi F et al., Nat Genet, 2026</div></td>
+<td>2026</td>
 </tr>
 <tr>
 <td><a href="#metaxcan">MetaXcan</a></td>
@@ -2320,6 +2374,66 @@
 
 <article class="catalog-entry-card" data-catalog-section="Tools">
   <header class="catalog-entry-card__header">
+    <h2 id="ingene-module" class="catalog-entry-card__title">INGENE / MODULE</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/twas/" class="catalog-badge catalog-badge--link" role="listitem">TWAS</a>
+      <a href="../tags/eqtl/" class="catalog-badge catalog-badge--link" role="listitem">eQTL</a>
+      <a href="../tags/co-expression/" class="catalog-badge catalog-badge--link" role="listitem">co-expression</a>
+      <a href="../tags/trans-eqtl-2/" class="catalog-badge catalog-badge--link" role="listitem">trans-eQTL</a>
+      <a href="../tags/schizophrenia/" class="catalog-badge catalog-badge--link" role="listitem">schizophrenia</a>
+      <a href="../tags/gene-expression-imputation/" class="catalog-badge catalog-badge--link" role="listitem">gene expression imputation</a>
+      <a href="../tags/ingene/" class="catalog-badge catalog-badge--link" role="listitem">INGENE</a>
+      <a href="../tags/module/" class="catalog-badge catalog-badge--link" role="listitem">MODULE</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">INGENE (Imputed Network Gene-Expression Trans-eQTL) and MODULE (Module QTL Eigengene) — co-expression-based trans-eQTL models for TWAS</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">INGENE and MODULE are two co-expression-based trans-eQTL prediction models that capture distal regulatory effects for transcriptome-wide association studies (TWAS). INGENE predicts a target gene&#x27;s expression from the cis-regulated expression of its co-expression partners using elastic-net weights. MODULE predicts expression using candidate trans-eQTLs (co-eQTLs) associated with the first principal component (eigengene) of the gene&#x27;s co-expression module. Trained on LIBD brain RNA-seq across 6 regions using 48 published WGCNA co-expression networks, and validated on GTEx and CMC. Integration of cis + trans predictions improved gene expression imputation for 18,744 genes. Applied to PGC3 schizophrenia GWAS (N=102,613), coTWAS identified 766 SCZ-associated genes (FDR&lt;0.01), 641 (83.7%) novel. Enriched in synapse organization, AMPA receptor trafficking, MHC pathways, and cell-type-specific effects in excitatory neurons and GABAergic interneurons.</div>
+    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://doi.org/10.1038/s41588-026-02646-3">https://doi.org/10.1038/s41588-026-02646-3</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-2" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">TWAS, eQTL, co-expression network, trans-eQTL, gene expression imputation, schizophrenia, INGENE, MODULE, transcriptome-wide association, WGCNA</div>
+    <label for="catalog-col-keywords-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Rossi F, Sportelli L, Kikidis GC, ...&amp;, Pergola G. (2026) Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes. Nat Genet. doi:10.1038/s41588-026-02646-3.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Most genetic variants associated with complex heritability phenotypes lie in non-coding regions and are thought to influence disease risk by regulating gene expression. However, most transcriptome-wide association approaches primarily model local (cis) genetic effects, leaving much of gene regulation unexplained. Here, we show that incorporating distal (trans) regulatory effects improves the prediction of gene expression and the identification of disease-associated genes. Using RNA sequencing data from six human post-mortem brain regions, we developed INGENE and MODULE, two models capturing the combined influence of candidate trans-acting variants within gene coexpression networks. Integrating these models with conventional cis-based predictors improved gene expression imputation (maximum likelihood estimation, α=0.05) for 18,744 genes across regions. Applying this framework to Psychiatric Genomics Consortium wave 3 genotypes identified 766 genes associated with schizophrenia (PFDR &lt; 0.01), including 641 not previously reported by transcriptome-wide analyses. These findings highlight the contribution of distal regulatory mechanisms and gene network interactions to schizophrenia risk.</div>
+    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.1038/s41588-026-02646-3</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">Genotypes + Brain RNA-seq reference (LIBD, 6 regions) + WGCNA co-expression networks (48 published) → Elastic-net training (INGENE: cis-partner expression → target; MODULE: co-eQTL SNPs → eigengene → target) → Cross-dataset validation (GTEx, CMC) → Cis + Trans integration (MLE, α=0.05) → coTWAS on PGC3 SCZ GWAS → 766 SCZ-associated genes (641 novel)</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
     <h2 id="metaxcan" class="catalog-entry-card__title">MetaXcan</h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
@@ -2332,9 +2446,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-2" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">MetaXcan is a set of tools to integrate genomic information of biological mechanisms with complex traits.</div>
-    <label for="catalog-col-description-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2350,9 +2464,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-2" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Scalable, integrative methods to understand mechanisms that link genetic variants with phenotypes are needed. Here we derive a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan) and show its accuracy and general robustness to misspecified reference sets. We apply this framework to 44 GTEx tissues and 100+ phenotypes from GWAS and meta-analysis studies, creating a growing public catalog of associations that seeks to capture the effects of gene expression variation on human phenotypes. Replication in an independent cohort is shown. Most of the associations are tissue specific, suggesting context specificity of the trait etiology. Colocalized significant associations in unexpected tissues underscore the need for an agnostic scanning of multiple contexts to improve our ability to detect causal regulatory mechanisms. Monogenic disease genes are enriched among significant associations for related traits, suggesting that smaller alterations of these genes may cause a spectrum of milder phenotypes.</div>
-    <label for="catalog-col-abstract-2" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2375,9 +2489,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-3" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure.</div>
-    <label for="catalog-col-description-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2393,9 +2507,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-3" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Integration of genome-wide association studies (GWAS) and expression quantitative trait loci (eQTL) studies is needed to improve our understanding of the biological mechanisms underlying GWAS hits, and our ability to identify therapeutic targets. Gene-level association methods such as PrediXcan can prioritize candidate targets. However, limited eQTL sample sizes and absence of relevant developmental and disease context restrict our ability to detect associations. Here we propose an efficient statistical method (MultiXcan) that leverages the substantial sharing of eQTLs across tissues and contexts to improve our ability to identify potential target genes. MultiXcan integrates evidence across multiple panels using multivariate regression, which naturally takes into account the correlation structure. We apply our method to simulated and real traits from the UK Biobank and show that, in realistic settings, we can detect a larger set of significantly associated genes than using each panel separately. To improve applicability, we developed a summary result-based extension called S-MultiXcan, which we show yields highly concordant results with the individual level version when LD is well matched. Our multivariate model-based approach allowed us to use the individual level results as a gold standard to calibrate and develop a robust implementation of the summary-based extension. Results from our analysis as well as software and necessary resources to apply our method are publicly available.</div>
-    <label for="catalog-col-abstract-3" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2422,9 +2536,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-4" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-5" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Dai, Q. et al. OTTERS: a powerful TWAS framework leveraging summary-level reference data. Nat. Commun. 14, 1271 (2023).</div>
-    <label for="catalog-col-description-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2440,9 +2554,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-4" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Most existing TWAS tools require individual-level eQTL reference data and thus are not applicable to summary-level reference eQTL datasets. The development of TWAS methods that can harness summary-level reference data is valuable to enable TWAS in broader settings and enhance power due to increased reference sample size. Thus, we develop a TWAS framework called OTTERS (Omnibus Transcriptome Test using Expression Reference Summary data) that adapts multiple polygenic risk score (PRS) methods to estimate eQTL weights from summary-level eQTL reference data and conducts an omnibus TWAS. We show that OTTERS is a practical and powerful TWAS tool by both simulations and application studies.</div>
-    <label for="catalog-col-abstract-4" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2473,9 +2587,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-5" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-6" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">TWAS, instrumental variables</div>
-    <label for="catalog-col-keywords-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2487,9 +2601,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-5" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">We propose a new computational framework, probabilistic transcriptome-wide association study (PTWAS), to investigate causal relationships between gene expressions and complex traits. PTWAS applies the established principles from instrumental variables analysis and takes advantage of probabilistic eQTL annotations to delineate and tackle the unique challenges arising in TWAS. PTWAS not only confers higher power than the existing methods but also provides novel functionalities to evaluate the causal assumptions and estimate tissue- or cell-type-specific gene-to-trait effects. We illustrate the power of PTWAS by analyzing the eQTL data across 49 tissues from GTEx (v8) and GWAS summary statistics from 114 complex traits.</div>
-    <label for="catalog-col-abstract-5" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2512,9 +2626,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-6" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">(deprecated) PrediXcan is a gene-based association test that prioritizes genes that are likely to be causal for the phenotype.</div>
-    <label for="catalog-col-description-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2530,9 +2644,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-6" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Genome-wide association studies (GWAS) have identified thousands of variants robustly associated with complex traits. However, the biological mechanisms underlying these associations are, in general, not well understood. We propose a gene-based association method called PrediXcan that directly tests the molecular mechanisms through which genetic variation affects phenotype. The approach estimates the component of gene expression determined by an individual&#x27;s genetic profile and correlates &#x27;imputed&#x27; gene expression with the phenotype under investigation to identify genes involved in the etiology of the phenotype. Genetically regulated gene expression is estimated using whole-genome tissue-dependent prediction models trained with reference transcriptome data sets. PrediXcan enjoys the benefits of gene-based approaches such as reduced multiple-testing burden and a principled approach to the design of follow-up experiments. Our results demonstrate that PrediXcan can detect known and new genes associated with disease traits and provide insights into the mechanism of these associations.</div>
-    <label for="catalog-col-abstract-6" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2555,9 +2669,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-7" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan)</div>
-    <label for="catalog-col-description-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2573,9 +2687,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-7" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Scalable, integrative methods to understand mechanisms that link genetic variants with phenotypes are needed. Here we derive a mathematical expression to compute PrediXcan (a gene mapping approach) results using summary data (S-PrediXcan) and show its accuracy and general robustness to misspecified reference sets. We apply this framework to 44 GTEx tissues and 100+ phenotypes from GWAS and meta-analysis studies, creating a growing public catalog of associations that seeks to capture the effects of gene expression variation on human phenotypes. Replication in an independent cohort is shown. Most of the associations are tissue specific, suggesting context specificity of the trait etiology. Colocalized significant associations in unexpected tissues underscore the need for an agnostic scanning of multiple contexts to improve our ability to detect causal regulatory mechanisms. Monogenic disease genes are enriched among significant associations for related traits, suggesting that smaller alterations of these genes may cause a spectrum of milder phenotypes.</div>
-    <label for="catalog-col-abstract-7" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2606,9 +2720,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-8" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Multivariate TWAS approach that prioritizes causal gene–tissue pairs and candidate causal variants from GWAS summary data while explicitly controlling for genome-wide infinitesimal (polygenic) effects that can otherwise inflate false gene discoveries.</div>
-    <label for="catalog-col-description-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2616,9 +2730,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-8" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-9" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">multivariate TWAS, infinitesimal model, causal gene-tissue, eQTL, sQTL</div>
-    <label for="catalog-col-keywords-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2630,9 +2744,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-8" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Transcriptome-wide association studies (TWAS) are commonly used to prioritize causal genes underlying associations found in genome-wide association studies (GWAS) and have been extended to identify causal genes through multivariate TWAS methods. However, recent studies have shown that widespread infinitesimal effects due to polygenicity can impair the performance of these methods. In this report, we introduce a multivariate TWAS method named tissue-gene pairs, direct causal variants, and infinitesimal effects selector (TGVIS) to identify tissue-specific causal genes and direct causal variants while accounting for infinitesimal effects. In simulations, TGVIS maintains an accurate prioritization of causal gene-tissue pairs and variants and demonstrates comparable or superior power to existing approaches, regardless of the presence of infinitesimal effects. In the real data analysis of GWAS summary data of 45 cardiometabolic traits and expression/splicing quantitative trait loci from 31 tissues, TGVIS is able to improve causal gene prioritization and identifies novel genes that were missed by conventional TWAS.</div>
-    <label for="catalog-col-abstract-8" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2655,9 +2769,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-9" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">TWAS hub is an interactive browser of results from integrative analyses of GWAS and functional data for hundreds of traits and &gt;100k expression models. The aim is facilitate the investigation of individual TWAS associations; pleiotropic disease/trait associations for a given gene of interest; predicted gene associations for a given disease/trait of interest with detailed per-locus statistics; and pleiotropic relationships between traits based on shared associated genes.</div>
-    <label for="catalog-col-description-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2673,9 +2787,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-9" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Although genome-wide association studies (GWASs) have identified thousands of risk loci for many complex traits and diseases, the causal variants and genes at these loci remain largely unknown. Here, we introduce a method for estimating the local genetic correlation between gene expression and a complex trait and utilize it to estimate the genetic correlation due to predicted expression between pairs of traits. We integrated gene expression measurements from 45 expression panels with summary GWAS data to perform 30 multi-tissue transcriptome-wide association studies (TWASs). We identified 1,196 genes whose expression is associated with these traits; of these, 168 reside more than 0.5 Mb away from any previously reported GWAS significant variant. We then used our approach to find 43 pairs of traits with significant genetic correlation at the level of predicted expression; of these, eight were not found through genetic correlation at the SNP level. Finally, we used bi-directional regression to find evidence that BMI causally influences triglyceride levels and that triglyceride levels causally influence low-density lipoprotein. Together, our results provide insight into the role of gene expression in the susceptibility of complex traits and diseases.</div>
-    <label for="catalog-col-abstract-9" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2702,9 +2816,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-10" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-11" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Expression Quantitative Trait Loci (eQTLs) have often been used to nominate candidate genes from Genome-wide association studies (GWAS). However, commonly used methods are susceptible to false positives largely due to Linkage Disequilibrium of eQTLs with causal variants acting on the phenotype directly. Our method, causal-TWAS (cTWAS), addressed this challenge by borrowing ideas from statistical fine-mapping. It is a generalization of Transcriptome-wide association studies (TWAS), but when analyzing any gene, it adjusts for other nearby genes and all nearby genetic variants.</div>
-    <label for="catalog-col-description-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2712,9 +2826,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-10" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-11" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">TWAS, fine-mapping</div>
-    <label for="catalog-col-keywords-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2726,9 +2840,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-10" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-11" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Many methods have been developed to leverage expression quantitative trait loci (eQTL) data to nominate candidate genes from genome-wide association studies. These methods, including colocalization, transcriptome-wide association studies (TWAS) and Mendelian randomization-based methods; however, all suffer from a key problem-when assessing the role of a gene in a trait using its eQTLs, nearby variants and genetic components of other genes&#x27; expression may be correlated with these eQTLs and have direct effects on the trait, acting as potential confounders. Our extensive simulations showed that existing methods fail to account for these &#x27;genetic confounders&#x27;, resulting in severe inflation of false positives. Our new method, causal-TWAS (cTWAS), borrows ideas from statistical fine-mapping and allows us to adjust all genetic confounders. cTWAS showed calibrated false discovery rates in simulations, and its application on several common traits discovered new candidate genes. In conclusion, cTWAS provides a robust statistical framework for gene discovery.</div>
-    <label for="catalog-col-abstract-10" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2755,9 +2869,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-11" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Statistical framework for cell-type-resolved transcriptome-wide association using single-cell RNA-seq: models sparsity and technical noise via latent variables and moment-based estimation to improve genetically regulated expression prediction and gene–trait discovery.</div>
-    <label for="catalog-col-description-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2765,9 +2879,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-11" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-12" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">TWAS, single-cell, cell-type-specific, latent variable, GReX</div>
-    <label for="catalog-col-keywords-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2779,9 +2893,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-11" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Transcriptome-wide association studies (TWAS) have successfully identified genes associated with complex traits and diseases, but most have been performed using bulk gene expression data, which aggregate signals across heterogeneous cell types. Population-scale single-cell RNA sequencing data now make it possible to perform TWAS at the cell-type resolution, but present unique challenges due to strong noises, technical variations, and high sparsity. Here, we propose scTWAS, a statistical method to conduct cell-type-specific TWAS using single-cell data. Leveraging a latent-variable model and moment-based estimation to address the challenges of single-cell data, scTWAS consistently improves the prediction of genetically regulated gene expression across cell types in both blood and brain tissues. Compared to existing methods, scTWAS identifies substantially more gene-trait associations across 29 hematological traits and three immune-related diseases in immune cell types. An application to Alzheimer&#x27;s disease also reveals cell-subtype-specific associations, including MS4A6A in the disease-associated microglial subtype and PPP1R37 in the inflammatory microglial subtype.</div>
-    <label for="catalog-col-abstract-11" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2804,9 +2918,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-12" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-13" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">a resource for disease candidate susceptibility genes identified by transcriptome-wide association study</div>
-    <label for="catalog-col-description-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2822,9 +2936,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-12" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-13" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">The development of transcriptome-wide association studies (TWAS) has enabled researchers to better identify and interpret causal genes in many diseases. However, there are currently no resources providing a comprehensive listing of gene-disease associations discovered by TWAS from published GWAS summary statistics. TWAS analyses are also difficult to conduct due to the complexity of TWAS software pipelines. To address these issues, we introduce a new resource called webTWAS, which integrates a database of the most comprehensive disease GWAS datasets currently available with credible sets of potential causal genes identified by multiple TWAS software packages. Specifically, a total of 235 064 gene-diseases associations for a wide range of human diseases are prioritized from 1298 high-quality downloadable European GWAS summary statistics. Associations are calculated with seven different statistical models based on three popular and representative TWAS software packages. Users can explore associations at the gene or disease level, and easily search for related studies or diseases using the MeSH disease tree. Since the effects of diseases are highly tissue-specific, webTWAS applies tissue-specific enrichment analysis to identify significant tissues. A user-friendly web server is also available to run custom TWAS analyses on user-provided GWAS summary statistics data. webTWAS is freely available at http://www.webtwas.net.</div>
-    <label for="catalog-col-abstract-12" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-13" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
