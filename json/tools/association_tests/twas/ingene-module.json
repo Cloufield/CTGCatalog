@@ -1,0 +1,32 @@
+{
+  "NAME": "INGENE / MODULE",
+  "SECTION": "Tools",
+  "TOPIC": "Association_tests",
+  "SUBTOPIC": "TWAS",
+  "TYPE": "Tools",
+  "SHORT NAME": "INGENE / MODULE",
+  "FULL NAME": "INGENE (Imputed Network Gene-Expression Trans-eQTL) and MODULE (Module QTL Eigengene) — co-expression-based trans-eQTL models for TWAS",
+  "KEYWORDS": "TWAS, eQTL, co-expression network, trans-eQTL, gene expression imputation, schizophrenia, INGENE, MODULE, transcriptome-wide association, WGCNA",
+  "URL": "https://doi.org/10.1038/s41588-026-02646-3",
+  "DESCRIPTION": "INGENE and MODULE are two co-expression-based trans-eQTL prediction models that capture distal regulatory effects for transcriptome-wide association studies (TWAS). INGENE predicts a target gene's expression from the cis-regulated expression of its co-expression partners using elastic-net weights. MODULE predicts expression using candidate trans-eQTLs (co-eQTLs) associated with the first principal component (eigengene) of the gene's co-expression module. Trained on LIBD brain RNA-seq across 6 regions using 48 published WGCNA co-expression networks, and validated on GTEx and CMC. Integration of cis + trans predictions improved gene expression imputation for 18,744 genes. Applied to PGC3 schizophrenia GWAS (N=102,613), coTWAS identified 766 SCZ-associated genes (FDR<0.01), 641 (83.7%) novel. Enriched in synapse organization, AMPA receptor trafficking, MHC pathways, and cell-type-specific effects in excitatory neurons and GABAergic interneurons.",
+  "ARROW_SUMMARY": "Genotypes + Brain RNA-seq reference (LIBD, 6 regions) + WGCNA co-expression networks (48 published) → Elastic-net training (INGENE: cis-partner expression → target; MODULE: co-eQTL SNPs → eigengene → target) → Cross-dataset validation (GTEx, CMC) → Cis + Trans integration (MLE, α=0.05) → coTWAS on PGC3 SCZ GWAS → 766 SCZ-associated genes (641 novel)",
+  "DATA_REQUIRED": "GWAS summary statistics + reference transcriptome data (RNA-seq + genotypes) + co-expression networks",
+  "MANUAL_CITATION": "Rossi, F., Sportelli, L., Kikidis, G. C., ...&, Pergola, G. (2026) Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes. Nature Genetics. doi:10.1038/s41588-026-02646-3",
+  "TITLE": "Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes.",
+  "ISO": "Nat Genet",
+  "JOURNAL": "Nature Genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Rossi F,Sportelli L,Kikidis GC,Grassi G,Di Camillo F,Bertolino A,Blasi G,Borcuk CJ,Fusco D,Hyde TM,Kleinman JE,Marnetto D,Pellegrini S,Rampino A,Vitiello B,Ripke S,Braun A,Kraft J,Belangero SI,Menezes PR,Arango C,Walters JTR,O'Donovan MC,Owen MJ,Braff D,Corvin A,Morris DW,Domenici E,van Os J,Atbaşoğlu E,Saka MC,Di Forti M,Baune BT,Pato CN,McQuillin A,Golimbet V,Kondratyev N,Escott-Price V,Gareeva A,Khusnutdinova E,Cervilla JA,Rivera M,Campion D,Laurent-Levinson C,Serretti A,Andreassen OA,St. Clair D,Lencz T,Malhotra AK,McCarthy NS,Mowry BJ,Rujescu D,Giegling I,Hartmann AM,Konte B,Nöthen MM,Rietschel M,Kirov G,Sullivan PF,Petryshen TL,Werge T,McIntosh AM,Esko T,Jönsson EG,Ehrenreich H,Riley BP,Levinson DF,Buxbaum JD,Bramon E,Hultman CM,Ophoff RA,Adolfsson R,Stahl EA,Guloksuz S,Rutten BPF,Del-Ben CM,Thibaut F,Weinberger DR,Pergola G",
+  "ABSTRACT": "Most genetic variants associated with complex heritability phenotypes lie in non-coding regions and are thought to influence disease risk by regulating gene expression. However, most transcriptome-wide association approaches primarily model local (cis) genetic effects, leaving much of gene regulation unexplained. Here, we show that incorporating distal (trans) regulatory effects improves the prediction of gene expression and the identification of disease-associated genes. Using RNA sequencing data from six human post-mortem brain regions, we developed INGENE and MODULE, two models capturing the combined influence of candidate trans-acting variants within gene coexpression networks. Integrating these models with conventional cis-based predictors improved gene expression imputation (maximum likelihood estimation, α=0.05) for 18,744 genes across regions. Applying this framework to Psychiatric Genomics Consortium wave 3 genotypes identified 766 genes associated with schizophrenia (PFDR < 0.01), including 641 not previously reported by transcriptome-wide analyses. These findings highlight the contribution of distal regulatory mechanisms and gene network interactions to schizophrenia risk.",
+  "DOI": "10.1038/s41588-026-02646-3",
+  "PMC ID": "",
+  "CITATION": "Rossi F, Sportelli L, Kikidis GC, ...&, Pergola G. (2026) Co-expression-based models improve eQTL predictions for transcriptome-wide association studies and highlight new schizophrenia-associated genes. Nat Genet. doi:10.1038/s41588-026-02646-3.",
+  "FIRST_AUTHOR": "Rossi F",
+  "TAGS": ["TWAS", "eQTL", "co-expression", "trans-eQTL", "schizophrenia", "gene expression imputation", "INGENE", "MODULE"],
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

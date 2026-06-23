@@ -1,3 +1,5 @@
+2026-06-23:
+  - "Added INGENE / MODULE (Rossi PMID N/A, Nat Genet 2026) — co-expression-based trans-eQTL models for TWAS: INGENE predicts from cis-regulated co-expression partners, MODULE uses co-eQTL eigengenes; 766 SCZ genes (641 novel) — to **Tools** > **Association_tests** > **TWAS**"
 2026-06-20:
   - "Added MIRA (Ferber D PMID 42310457, Nature 2026) — autonomous AI agent (GPT-4o + o1-preview) in sandboxed FHIR EHR, 11 tools, 85K+ clinical actions, outperforms physicians on 574 MIMIC-IV cases — to **AI** > **Agent**"
 2026-06-17:
