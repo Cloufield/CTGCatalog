@@ -1,3 +1,5 @@
+2026-07-01:
+  - "Added scEPS (Zou L, medRxiv 2026) — single-cell Expression exPlainability Statistics integrating GWAS + scRNA-seq data, identifies disease-associated cell neighborhoods, 1.77×/5.13× more associations than CNA/scDRS — to **Tools** > **Tissue_and_single_cell**"
 2026-06-23:
   - "Added INGENE / MODULE (Rossi PMID N/A, Nat Genet 2026) — co-expression-based trans-eQTL models for TWAS: INGENE predicts from cis-regulated co-expression partners, MODULE uses co-eQTL eigengenes; 766 SCZ genes (641 novel) — to **Tools** > **Association_tests** > **TWAS**"
 2026-06-20:

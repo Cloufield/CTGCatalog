@@ -1,0 +1,30 @@
+{
+  "NAME": "scEPS",
+  "SECTION": "Tools",
+  "TOPIC": "Tissue_and_single_cell",
+  "TYPE": "Tools",
+  "SHORT NAME": "scEPS",
+  "FULL NAME": "single-cell Expression exPlainability Statistics",
+  "KEYWORDS": "GWAS, scRNA-seq, single-cell, disease association, PRS, cell neighborhood",
+  "URL": "https://github.com/Genentech/sceps",
+  "DESCRIPTION": "A method that integrates GWAS and single-cell disease atlas data to identify disease-associated cell neighborhoods by testing whether GWAS-prioritized gene expression explains more phenotypic variance than mean-expression-matched control genes. When applied to PRSs of healthy donors, captures genetic covariance between gene expression and disease, mitigating reverse causation. 1.77× and 5.13× more associations than CNA and scDRS, respectively.",
+  "MANUAL_CITATION": "Zou, L., Whitley, O., Tseng, H.W. et al. scEPS integrates genetic and single-cell disease atlas data to provide granular mechanistic insights into complex human diseases. medRxiv (2026). doi:10.64898/2026.06.26.26356714",
+  "ARROW_SUMMARY": "GWAS summary statistics → Select putative disease genes → scEPS tests variance explained by GWAS genes vs. mean-expression-matched control genes at each cell neighborhood → Rank cell neighborhoods by disease association → Apply to clinical diagnoses and PRSs → Reveal active/symptomatic vs. preclinical/asymptomatic biology",
+  "DATA_REQUIRED": "Sumstats, scRNA-seq (h5ad), phenotype/PRS",
+  "TITLE": "scEPS integrates genetic and single-cell disease atlas data to provide granular mechanistic insights into complex human diseases.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv (preprint)",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zou L,Whitley O,Tseng HW,Simopoulos C,Chang D,Zhang R,Stockwell A,Gong W,Fletez-Brant K,Lucas T,Kenigsberg E,Missarova A,Garfield D,Yaspan B,McCarthy M,Mahajan A,Kaminker J,Shi H",
+  "ABSTRACT": "Integrating GWAS and single-cell data holds great potential for prioritizing causal disease biology at cellular resolution. Recent integrative approaches typically assess the enrichment of disease genetic signals in cell types or individual cells, without directly modeling disease phenotypes. We develop a new method, single-cell Expression exPlainability Statistics (scEPS), for identifying disease-associated cell neighborhoods, by explicitly testing whether the expression of GWAS-prioritized genes explains more variance in a disease than randomly selected, mean-expression-matched control genes. Crucially, when applied to PRSs of healthy donors, scEPS captures the genetic covariance between gene expression and diseases, mitigating the effect of reverse causation and prioritizing cell populations mediating the effects of GWAS genes. We applied scEPS to clinical diagnoses and PRSs of 4 neurological and 4 respiratory disorders, integrating brain and lung cell atlas data, respectively, with respective GWAS summary statistics data. scEPS recapitulated known and uncovered novel disease-associated cell populations, identifying 1.77x (s.e. 1.21) and 5.13x (s.e. 3.08) more significant associations than a CNA-based approach and scDRS, respectively. Furthermore, scEPS detected different cell populations, contrasting clinical diagnoses vs. their PRSs, revealing distinct biology for the active/symptomatic vs. preclinical/asymptomatic states of the disease.",
+  "DOI": "10.64898/2026.06.26.26356714",
+  "PMC ID": "",
+  "CITATION": "Zou L, Whitley O, Tseng HW, Simopoulos C, ...&, Shi H. (2026) scEPS integrates genetic and single-cell disease atlas data to provide granular mechanistic insights into complex human diseases. medRxiv. doi:10.64898/2026.06.26.26356714",
+  "FIRST_AUTHOR": "Zou L",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}
