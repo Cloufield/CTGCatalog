@@ -1,0 +1,39 @@
+{
+  "NAME": "Diet-Inflammation-Insomnia MR",
+  "PMID": "",
+  "SECTION": "Tools",
+  "TOPIC": "Mendelian_randomization",
+  "TYPE": "Research Study",
+  "SHORT NAME": "Diet-Inflammation-Insomnia MR",
+  "FULL NAME": "Dietary Traits, Systemic Inflammatory Proxies, and Insomnia-Related Outcomes: Exploratory Mendelian Randomization and Population-Based Evidence",
+  "DOI": "10.64898/2026.07.03.26357235",
+  "URL": "https://www.medrxiv.org/content/10.64898/2026.07.03.26357235v1",
+  "DESCRIPTION": "High-dimensional Mendelian randomization screen of 231 dietary traits and 731 immune phenotypes for insomnia, with cross-release follow-up in FinnGen R12/R13 and population-based validation in NHANES and CHARLS. Prioritized omelette-related intake (protective, OR 0.77) and mixed-fruit (risk, OR 1.29) dietary signals, plus CD33- and HLA-DR-related immune traits. CRP associated with sleep problems in both NHANES and CHARLS. Exploratory cross-design analysis — does not establish causal mechanism.",
+  "MANUAL_CITATION": "Zhou Y, Huang Y, Cao Y, Bi X. (2026) Dietary Traits, Systemic Inflammatory Proxies, and Insomnia-Related Outcomes: Exploratory Mendelian Randomization and Population-Based Evidence. medRxiv. doi:10.64898/2026.07.03.26357235",
+  "TAGS": [
+    "Mendelian Randomization",
+    "Diet",
+    "Inflammation",
+    "Insomnia",
+    "Sleep",
+    "FinnGen",
+    "NHANES",
+    "CHARLS",
+    "medRxiv",
+    "Preprint"
+  ],
+  "TITLE": "Dietary Traits, Systemic Inflammatory Proxies, and Insomnia-Related Outcomes: Exploratory Mendelian Randomization and Population-Based Evidence.",
+  "ISO": "medRxiv",
+  "JOURNAL": "medRxiv",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Zhou Y,Huang Y,Cao Y,Bi X",
+  "ABSTRACT": "High-dimensional Mendelian randomization (MR) screens can prioritize candidate dietary and immune pathways for insomnia, but their interpretation is constrained by multiple testing, cross-dataset instability, and limited correspondence between genetic constructs and measured population variables. We conducted an exploratory cross-design analysis that combined MR screening of 231 dietary traits and 731 immune phenotypes, targeted cross-release genetic follow-up in FinnGen R12 and R13, and population-based analyses in NHANES and CHARLS. The targeted R13 follow-up prioritised an omelette-related dietary signal (OR 0.773, 95% CI 0.651-0.917), a mixed-fruit signal (OR 1.285, 95% CI 1.102-1.498), and CD33- and HLA-DR-related immune-cell traits. In NHANES, mapped omelet/scrambled-egg intake was associated with lower odds of sleep problems (OR 0.746, FDR=0.033) and doctor-reported sleep disorder (OR 0.313, FDR=0.008). Higher CRP was associated with sleep problems in NHANES (OR 1.192, FDR=0.001) and restless sleep in CHARLS (OR 1.097, FDR<0.001).",
+  "FIRST_AUTHOR": "Zhou Y",
+  "CITATION": "Zhou Y, Huang Y, Cao Y, Bi X. (2026) Dietary Traits, Systemic Inflammatory Proxies, and Insomnia-Related Outcomes: Exploratory Mendelian Randomization and Population-Based Evidence. medRxiv. doi:10.64898/2026.07.03.26357235",
+  "_meta": {
+    "source_sheet": "Tools"
+  }
+}

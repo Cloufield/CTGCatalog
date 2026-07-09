@@ -1,3 +1,6 @@
+2026-07-09:
+  - "Added Imaging Genomics Review (Bian Y PMID 42409965, Nat Rev Genet 2026) — comprehensive review of imaging-derived phenotypes (IDPs) for genetic analysis: MRI/CT/OCT modalities, DL pipelines (U-Net/nnU-Net/contrastive learning), biobank-scale cohorts, GWAS/MR insights across brain/heart/retinal/abdominal IDPs — to **AI** > **GWAS** > **Review**"
+  - "Added Diet-Inflammation-Insomnia MR (Zhou Y, medRxiv 2026) — high-dimensional MR of 231 dietary × 731 immune traits for insomnia, cross-release FinnGen R12→R13 follow-up, NHANES/CHARLS validation — to **Tools** > **Mendelian_randomization**"
 2026-07-01:
   - "Added scEPS (Zou L, medRxiv 2026) — single-cell Expression exPlainability Statistics integrating GWAS + scRNA-seq data, identifies disease-associated cell neighborhoods, 1.77×/5.13× more associations than CNA/scDRS — to **Tools** > **Tissue_and_single_cell**"
 2026-06-23:

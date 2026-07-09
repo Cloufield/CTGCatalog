@@ -1,0 +1,40 @@
+{
+  "NAME": "Imaging Genomics Review",
+  "SECTION": "AI",
+  "TOPIC": "GWAS",
+  "TYPE": "Review",
+  "SHORT NAME": "Imaging Genomics Review",
+  "FULL NAME": "Genetic analysis of imaging-derived phenotypes",
+  "PMID": 42409965,
+  "DOI": "10.1038/s41576-026-00989-5",
+  "URL": "https://www.nature.com/articles/s41576-026-00989-5",
+  "DESCRIPTION": "A comprehensive review of imaging-derived phenotypes (IDPs) for genetic analysis. Covers MRI, CT, X-ray, OCT, and other imaging modalities; traditional (FSL, FreeSurfer) and deep learning (U-Net, nnU-Net, self-supervised contrastive learning) pipelines for IDP extraction; biobank-scale cohorts (UK Biobank, All of Us); GWAS of brain, cardiac, retinal, abdominal, and skeletal IDPs; Mendelian randomization for causal inference linking organ structure to disease; and emerging challenges in multi-organ phenomics, longitudinal imaging, and clinical translation of IDP-based PRS.",
+  "MANUAL_CITATION": "Bian Y, Akey JM. (2026) Genetic analysis of imaging-derived phenotypes. Nat Rev Genet. doi:10.1038/s41576-026-00989-5. PMID 42409965",
+  "TAGS": [
+    "AI",
+    "GWAS",
+    "Imaging",
+    "Imaging-derived phenotypes",
+    "Review",
+    "IDP",
+    "MRI",
+    "Deep Learning",
+    "Mendelian Randomization",
+    "Nat Rev Genet"
+  ],
+  "TITLE": "Genetic analysis of imaging-derived phenotypes.",
+  "ISO": "Nat Rev Genet",
+  "JOURNAL": "Nature Reviews Genetics",
+  "YEAR": "2026",
+  "VOLUME": "",
+  "ISSUE": "",
+  "PAGE": "",
+  "Authors": "Bian Y,Akey JM",
+  "ABSTRACT": "Imaging-derived phenotypes (IDPs) developed from medical imaging data, such as magnetic resonance imaging, computed tomography and X-ray scans, are traits that provide quantitative information on anatomical and functional properties of organs and tissues. IDPs are powerful tools for identifying biomarkers and studying disease mechanisms. When coupled with genetic data, IDPs can be analysed as heritable phenotypes using modern gene mapping methods to uncover genotype-phenotype relationships. The field of imaging genomics is rapidly maturing, with the emergence of high-quality imaging datasets collected in biobank-scale cohorts and sophisticated computational methods for extracting IDPs from imaging data, including tools that leverage machine learning. Here we review common imaging modalities and analytical approaches for developing IDPs, discuss biological insights gleaned from the large-scale genetic analysis of imaging traits and highlight emerging areas and remaining challenges that must be overcome to realize the full potential of IDPs for genetic analysis.",
+  "FIRST_AUTHOR": "Bian Y",
+  "CITATION": "Bian Y, Akey JM. (2026) Genetic analysis of imaging-derived phenotypes. Nature Reviews Genetics. doi:10.1038/s41576-026-00989-5. PMID 42409965",
+  "SUBTOPIC": "Review",
+  "_meta": {
+    "source_sheet": "AI"
+  }
+}
