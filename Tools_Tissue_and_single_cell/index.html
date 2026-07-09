@@ -2038,6 +2038,11 @@
 <td>2022</td>
 </tr>
 <tr>
+<td><a href="#sceps">scEPS</a></td>
+<td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Zou L, Whitley O, Tseng HW, Simopoulos C, ...&amp;, Shi H. (2026) scEPS integrates genetic and single-cell disease atlas data to provide granular mechanistic insights into complex human diseases. medRxiv. doi:10.64898/2026.06.26.26356714">Zou L et al., medRxiv, 2026</div></td>
+<td>2026</td>
+</tr>
+<tr>
 <td><a href="#scgwas">scGWAS</a></td>
 <td class="catalog-summary-citation-cell"><div class="catalog-summary-citation-clip" title="Jia P, Hu R, Yan F, Dai Y, ...&amp;, Zhao Z. (2022) scGWAS: landscape of trait-cell type associations by integrating single-cell transcriptomics-wide and genome-wide association studies. Genome Biol, 23 (1) 220. doi:10.1186/s13059-022-02785-w. PMID 36253801">Jia P et al., Genome Biol, 2022</div></td>
 <td>2022</td>
@@ -2752,6 +2757,59 @@
 
 <article class="catalog-entry-card" data-catalog-section="Tools">
   <header class="catalog-entry-card__header">
+    <h2 id="sceps" class="catalog-entry-card__title">scEPS</h2>
+    <div class="catalog-entry-card__badges" role="list">
+      <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
+    </div>
+  </header>
+  <div class="catalog-entry-card__fields">
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">FULL NAME</div>
+    <div class="catalog-entry-card__value">single-cell Expression exPlainability Statistics</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">DESCRIPTION</div>
+    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <div class="catalog-entry-card__collapsible-clipped">A method that integrates GWAS and single-cell disease atlas data to identify disease-associated cell neighborhoods by testing whether GWAS-prioritized gene expression explains more phenotypic variance than mean-expression-matched control genes. When applied to PRSs of healthy donors, captures genetic covariance between gene expression and disease, mitigating reverse causation. 1.77× and 5.13× more associations than CNA and scDRS, respectively.</div>
+    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">URL</div>
+    <div class="catalog-entry-card__value"><a href="https://github.com/Genentech/sceps">https://github.com/Genentech/sceps</a></div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">KEYWORDS</div>
+    <input type="checkbox" id="catalog-col-keywords-15" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq, single-cell, disease association, PRS, cell neighborhood</div>
+    <label for="catalog-col-keywords-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">TITLE</div>
+    <div class="catalog-entry-card__value">scEPS integrates genetic and single-cell disease atlas data to provide granular mechanistic insights into complex human diseases.</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--citation">
+    <div class="catalog-entry-card__field-name">Main citation</div>
+    <div class="catalog-entry-card__value">Zou L, Whitley O, Tseng HW, Simopoulos C, ...&amp;, Shi H. (2026) scEPS integrates genetic and single-cell disease atlas data to provide granular mechanistic insights into complex human diseases. medRxiv. doi:10.64898/2026.06.26.26356714</div>
+  </section>
+  <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
+    <div class="catalog-entry-card__field-name">ABSTRACT</div>
+    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <div class="catalog-entry-card__collapsible-clipped">Integrating GWAS and single-cell data holds great potential for prioritizing causal disease biology at cellular resolution. Recent integrative approaches typically assess the enrichment of disease genetic signals in cell types or individual cells, without directly modeling disease phenotypes. We develop a new method, single-cell Expression exPlainability Statistics (scEPS), for identifying disease-associated cell neighborhoods, by explicitly testing whether the expression of GWAS-prioritized genes explains more variance in a disease than randomly selected, mean-expression-matched control genes. Crucially, when applied to PRSs of healthy donors, scEPS captures the genetic covariance between gene expression and diseases, mitigating the effect of reverse causation and prioritizing cell populations mediating the effects of GWAS genes. We applied scEPS to clinical diagnoses and PRSs of 4 neurological and 4 respiratory disorders, integrating brain and lung cell atlas data, respectively, with respective GWAS summary statistics data. scEPS recapitulated known and uncovered novel disease-associated cell populations, identifying 1.77x (s.e. 1.21) and 5.13x (s.e. 3.08) more significant associations than a CNA-based approach and scDRS, respectively. Furthermore, scEPS detected different cell populations, contrasting clinical diagnoses vs. their PRSs, revealing distinct biology for the active/symptomatic vs. preclinical/asymptomatic states of the disease.</div>
+    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">DOI</div>
+    <div class="catalog-entry-card__value">10.64898/2026.06.26.26356714</div>
+  </section>
+  <section class="catalog-entry-card__section">
+    <div class="catalog-entry-card__field-name">ARROW_SUMMARY</div>
+    <div class="catalog-entry-card__value">GWAS summary statistics → Select putative disease genes → scEPS tests variance explained by GWAS genes vs. mean-expression-matched control genes at each cell neighborhood → Rank cell neighborhoods by disease association → Apply to clinical diagnoses and PRSs → Reveal active/symptomatic vs. preclinical/asymptomatic biology</div>
+  </section>
+  </div>
+</article>
+
+<article class="catalog-entry-card" data-catalog-section="Tools">
+  <header class="catalog-entry-card__header">
     <h2 id="scgwas" class="catalog-entry-card__title">scGWAS</h2>
     <div class="catalog-entry-card__badges" role="list">
       <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
@@ -2768,9 +2826,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-15" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">scGWAS leverages scRNA-seq data to identify the genetically mediated associations between traits and cell types.</div>
-    <label for="catalog-col-description-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2786,9 +2844,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-15" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-16" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">BACKGROUND: The rapid accumulation of single-cell RNA sequencing (scRNA-seq) data presents unique opportunities to decode the genetically mediated cell-type specificity in complex diseases. Here, we develop a new method, scGWAS, which effectively leverages scRNA-seq data to achieve two goals: (1) to infer the cell types in which the disease-associated genes manifest and (2) to construct cellular modules which imply disease-specific activation of different processes. RESULTS: scGWAS only utilizes the average gene expression for each cell type followed by virtual search processes to construct the null distributions of module scores, making it scalable to large scRNA-seq datasets. We demonstrated scGWAS in 40 genome-wide association studies (GWAS) datasets (average sample size N ≈ 154,000) using 18 scRNA-seq datasets from nine major human/mouse tissues (totaling 1.08 million cells) and identified 2533 trait and cell-type associations, each with significant modules for further investigation. The module genes were validated using disease or clinically annotated references from ClinVar, OMIM, and pLI variants. CONCLUSIONS: We showed that the trait-cell type associations identified by scGWAS, while generally constrained to trait-tissue associations, could recapitulate many well-studied relationships and also reveal novel relationships, providing insights into the unsolved trait-tissue associations. Moreover, in each specific cell type, the associations with different traits were often mediated by different sets of risk genes, implying disease-specific activation of driving processes. In summary, scGWAS is a powerful tool for exploring the genetic basis of complex diseases at the cell type level using single-cell expression data.</div>
-    <label for="catalog-col-abstract-15" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2815,9 +2873,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-16" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">Obtain trait-relevant cell subpopulations by incorporating pathway activity transformed scRNA-seq data with GWAS data.</div>
-    <label for="catalog-col-description-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2825,9 +2883,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-16" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-17" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq, pathway activation</div>
-    <label for="catalog-col-keywords-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2839,9 +2897,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-16" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-17" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Advances in single-cell RNA sequencing (scRNA-seq) techniques have accelerated functional interpretation of disease-associated variants discovered from genome-wide association studies (GWASs). However, identification of trait-relevant cell populations is often impeded by inherent technical noise and high sparsity in scRNA-seq data. Here, we developed scPagwas, a computational approach that uncovers trait-relevant cellular context by integrating pathway activation transformation of scRNA-seq data and GWAS summary statistics. scPagwas effectively prioritizes trait-relevant genes, which facilitates identification of trait-relevant cell types/populations with high accuracy in extensive simulated and real datasets. Cellular-level association results identified a novel subpopulation of naive CD8+ T cells related to COVID-19 severity and oligodendrocyte progenitor cell and microglia subsets with critical pathways by which genetic variants influence Alzheimer&#x27;s disease. Overall, our approach provides new insights for the discovery of trait-relevant cell types and improves the mechanistic understanding of disease variants from a pathway perspective.</div>
-    <label for="catalog-col-abstract-16" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
@@ -2861,7 +2919,7 @@
       <a href="../tags/gwas/" class="catalog-badge catalog-badge--link" role="listitem">GWAS</a>
       <a href="../tags/single-cell/" class="catalog-badge catalog-badge--link" role="listitem">Single cell</a>
       <a href="../tags/scrna-seq/" class="catalog-badge catalog-badge--link" role="listitem">scRNA-seq</a>
-      <a href="../tags/gene-prioritization-2/" class="catalog-badge catalog-badge--link" role="listitem">Gene prioritization</a>
+      <a href="../tags/gene-prioritization/" class="catalog-badge catalog-badge--link" role="listitem">Gene prioritization</a>
       <a href="../tags/tool/" class="catalog-badge catalog-badge--link" role="listitem">Tool</a>
     </div>
   </header>
@@ -2876,9 +2934,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">DESCRIPTION</div>
-    <input type="checkbox" id="catalog-col-description-17" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
+    <input type="checkbox" id="catalog-col-description-18" class="catalog-collapsible-toggle" aria-label="Show or hide full description text">
     <div class="catalog-entry-card__collapsible-clipped">R framework that links GWAS signals to single-cell-defined cell types via a cell-type gene specificity score (expression magnitude and consistency) and regression on gene-level association statistics, with influential-gene follow-up for interpretability.</div>
-    <label for="catalog-col-description-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-description-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full description</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">URL</div>
@@ -2886,9 +2944,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">KEYWORDS</div>
-    <input type="checkbox" id="catalog-col-keywords-17" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
+    <input type="checkbox" id="catalog-col-keywords-18" class="catalog-collapsible-toggle" aria-label="Show or hide full keywords">
     <div class="catalog-entry-card__collapsible-clipped">GWAS, scRNA-seq, cell type, MAGMA, post-GWAS interpretation</div>
-    <label for="catalog-col-keywords-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-keywords-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full keywords</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">TITLE</div>
@@ -2900,9 +2958,9 @@
   </section>
   <section class="catalog-entry-card__section catalog-entry-card__section--collapsible">
     <div class="catalog-entry-card__field-name">ABSTRACT</div>
-    <input type="checkbox" id="catalog-col-abstract-17" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
+    <input type="checkbox" id="catalog-col-abstract-18" class="catalog-collapsible-toggle" aria-label="Show or hide full abstract text">
     <div class="catalog-entry-card__collapsible-clipped">Integrating single-cell RNA sequencing with Genome-Wide Association Studies (GWAS) can uncover cell types involved in complex traits and disease. However, current methods often lack scalability, interpretability, and robustness. We present seismic, a framework that computes a novel specificity score capturing both expression magnitude and consistency across cell types and introduces influential gene analysis, an approach to identify genes driving each cell type-trait association. Across over 1000 cell-type characterizations at different granularities and 28 polygenic traits, seismic corroborates known associations and uncovers trait-relevant cell groups not apparent through other methodologies. In Parkinson&#x27;s and Alzheimer&#x27;s, seismic unveils both cell- and brain-region-specific differences in pathology. Analyzing a pathology-based Alzheimer&#x27;s GWAS with seismic enables the identification of vulnerable neuron populations and molecular pathways implicated in their neurodegeneration. In general, seismic is a computationally efficient, powerful, and interpretable approach for mapping the relationships between polygenic traits and cell-type-specific expression, offering new insights into disease mechanisms.</div>
-    <label for="catalog-col-abstract-17" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
+    <label for="catalog-col-abstract-18" class="catalog-collapsible-label"><span class="catalog-collapsible-more">Show full abstract</span><span class="catalog-collapsible-less">Show less</span></label>
   </section>
   <section class="catalog-entry-card__section">
     <div class="catalog-entry-card__field-name">DOI</div>
